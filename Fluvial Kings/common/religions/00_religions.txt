@@ -1,0 +1,47 @@
+# Religion-specific opinion can be added to modifiers (E.G., norse_pagan_opinion = 5), but the modifier *has* to be defined in 00_modifier_definitions.txt as well. It also needs localisation. Works for groups as well
+
+# join_crusade_if_bordering_hostile = yes # The AI won't refrain from joining a crusade simply because it borders a heathen/heretic realm
+
+# This trigger defines who can see a character's secret religion. The character with the secret religion is FROM, while the viewer is ROOT
+# Characters can always see their own secret religion. The observer can see all secret religions
+secret_religion_visibility_trigger = {
+	secret_religion = FROM
+}
+
+canaanite = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	playable = yes
+	
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2 # always try to convert
+	
+	bene_elihi = {
+		graphical_culture = muslimgfx
+		
+		icon = 4
+		heresy_icon = 4
+		
+		scripture_name = BAAL_KTOVET
+		priest_title = KOHEN
+
+		color = { 1.0 0.8 0.3  }
+		
+		high_god_name = GOD_EL_TORU
+		
+		god_names = {
+			GOD_BAAL_HADAD GOD_ASHERAH GOD_MOLEK GOD_RESHEPH GOD_DAGON
+		}
+		evil_god_names = {
+			GOD_LITANU GOD_YAM GOD_MOT
+		}
+		
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		allow_rivermovement = yes
+		max_wives = 4
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		female_temple_holders = yes
+	}
+}
