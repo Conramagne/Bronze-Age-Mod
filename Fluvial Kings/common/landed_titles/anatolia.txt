@@ -4,25 +4,34 @@ e_hittite_empire = {
 	
 	capital = 1 # Hattusa
 	
-	culture = hittite
+	culture = hattite
+	
+	controls_religion = ishalitethai
+	
+	short_name = yes
+	
+	allow = {
+		war = no
+		religion = ishalitethai
+	}
 	
 	k_hatti = {
-		color={ 150 30 50 }
-		color2={ 255 255 255 }
+		color = { 150 30 50 }
+		color2 = { 255 255 255 }
 		
 		capital = 1
 		
-		culture = manden
+		#culture = manden
 		
 		d_hatti = { 
-			color={ 130 80 60 }
-			color2={ 255 255 255 }
+			color = { 130 80 60 }
+			color2 = { 255 255 255 }
 	
 			capital = 1
 			
 			c_hattusa = {
-				color={ 145 70 100 }
-				color2={ 255 255 255 }
+				color = { 145 70 100 }
+				color2 = { 255 255 255 }
 				
 				b_hattusa = {}
 			}

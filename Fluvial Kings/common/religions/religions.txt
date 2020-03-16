@@ -64,8 +64,8 @@ bnai_kenaan = {
 	barqos = {
 		graphical_culture = muslimgfx
 		
-		icon = 
-		heresy_icon = 
+		icon = 10
+		heresy_icon = 10
 		
 		scripture_name = THE_QOS_KTOVET
 		priest_title = KOHEN
@@ -120,8 +120,8 @@ bnai_kenaan = {
 	ili_abinia = {
 		graphical_culture = muslimgfx
 		
-		icon = 
-		heresy_icon = 
+		icon = 1
+		heresy_icon = 1
 		
 		scripture_name = THE_AMMURU_KTOVET
 		priest_title = KOHEN
@@ -159,8 +159,8 @@ mesopotamian = {
 	color = { 0.8 0.2 0.2 }
 	
 	egal_assur = {
-		icon = 
-		heresy_icon = 
+		icon = 2
+		heresy_icon = 2
 		
 		scripture_name = THE_ASSUR_SATARU
 		priest_title = PRIEST
@@ -186,6 +186,7 @@ mesopotamian = {
 		priests_can_inherit = yes
 	}
 }
+
 pihassasi = {
 	has_coa_on_barony_only = yes
 	graphical_culture = muslimgfx
@@ -197,8 +198,8 @@ pihassasi = {
 	color = { 0.9 0.6 0.2 }
 	
 	ishalitethai = {
-		icon = 
-		heresy_icon = 
+		icon = 11
+		heresy_icon = 11
 		
 		scripture_name = THE_HATTI_ISTANDANT
 		priest_title = PRIEST
