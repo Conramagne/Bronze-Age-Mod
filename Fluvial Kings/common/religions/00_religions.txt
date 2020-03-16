@@ -8,7 +8,48 @@ secret_religion_visibility_trigger = {
 	secret_religion = FROM
 }
 
-canaanite = {
+bnai_avraham = {
+	has_coa_on_barony_only = yes
+	graphical_culture = jewishgfx
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 1	# try to convert if ai_zeal is high
+	
+	color = { 0.2 0.5 0.9 }
+	
+	berith = {
+		graphical_culture = jewishgfx
+		
+		icon = 9
+		heresy_icon = 9
+		
+		scripture_name = THE_TORAH
+		priest_title = KOHEN
+		crusade_name = GREAT_HOLY_WAR
+		
+		color = { 0.2 0.5 0.9 }
+		
+		high_god_name = GOD_HASHEM
+		
+		god_names = {
+			GOD_HASHEM GOD_EL GOD_ELOHIM GOD_GOD GOD_THE_LORD GOD_ADONAI 
+		}
+		evil_god_names = {
+			GOD_BAAL GOD_ASHERAH GOD_MOLEK GOD_DAGON
+		}
+		
+		can_excommunicate = yes
+		autocephaly = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+	}
+}
+
+bnai_kenaan = {
 	has_coa_on_barony_only = yes
 	graphical_culture = muslimgfx
 	playable = yes
@@ -16,16 +57,48 @@ canaanite = {
 	ai_convert_same_group = 1 # try to convert if ai_zeal is high
 	ai_convert_other_group = 2 # always try to convert
 	
+	color = { 1.0 0.8 0.3 }
+	
+	interface_skin = {  }
+	
+	barqos = {
+		graphical_culture = muslimgfx
+		
+		icon = 
+		heresy_icon = 
+		
+		scripture_name = THE_QOS_KTOVET
+		priest_title = KOHEN
+
+		color = { 0.7 0.6 0.2  }
+		
+		high_god_name = GOD_QOS
+		
+		god_names = {
+			GOD_EL_SHADDAI GOD_ASHERAH GOD_BAAL_HADAD GOD_MANAT
+		}
+		evil_god_names = {
+			GOD_LITANU GOD_YAM GOD_MOLEK
+		}
+		
+		can_excommunicate = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		max_wives = 4
+		priests_can_marry = yes
+		priests_can_inherit = yes
+	}
+	
 	bene_elihi = {
 		graphical_culture = muslimgfx
 		
 		icon = 4
 		heresy_icon = 4
 		
-		scripture_name = BAAL_KTOVET
+		scripture_name = THE_BAAL_KTOVET
 		priest_title = KOHEN
 
-		color = { 1.0 0.8 0.3  }
+		color = { 1.0 0.8 0.3 }
 		
 		high_god_name = GOD_EL_TORU
 		
@@ -37,11 +110,117 @@ canaanite = {
 		}
 		
 		can_excommunicate = yes
-		can_grant_divorce = yes
 		allow_rivermovement = yes
 		max_wives = 4
 		priests_can_marry = yes
 		priests_can_inherit = yes
 		female_temple_holders = yes
+	}
+
+	ili_abinia = {
+		graphical_culture = muslimgfx
+		
+		icon = 
+		heresy_icon = 
+		
+		scripture_name = THE_AMMURU_KTOVET
+		priest_title = KOHEN
+
+		color = { 0.5 0.4 0.1 }
+		
+		high_god_name = GOD_EL_AMURRU
+		
+		god_names = {
+			GOD_RESHEPH GOD_ASHERAH GOD_BAAL_HADAD GOD_DAGON GOD_ISHTAR
+		}
+		evil_god_names = {
+			GOD_LITANU GOD_YAM GOD_MOT
+		}
+		
+		can_excommunicate = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		matrilineal_marriages = no
+		max_wives = 4
+		autocephaly = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+	}
+}
+
+mesopotamian = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	playable = yes
+	
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.8 0.2 0.2 }
+	
+	egal_assur = {
+		icon = 
+		heresy_icon = 
+		
+		scripture_name = THE_ASSUR_SATARU
+		priest_title = PRIEST
+
+		color = { 0.8 0.2 0.2 }
+		
+		high_god_name = GOD_ASSUR
+		
+		god_names = {
+			GOD_NASU GOD_SHAMASH GOD_SIN GOD_ISHTAR
+		}
+		evil_god_names = {
+			GOD_LAMASHTU GOD_ERRA GOD_MARDUK
+		}
+		
+		can_excommunicate = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		matrilineal_marriages = no
+		max_wives = 4
+		autocephaly = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+	}
+}
+pihassasi = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	playable = yes
+	
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.9 0.6 0.2 }
+	
+	ishalitethai = {
+		icon = 
+		heresy_icon = 
+		
+		scripture_name = THE_HATTI_ISTANDANT
+		priest_title = PRIEST
+
+		color = { 0.9 0.6 0.2 }
+		
+		high_god_name = GOD_TARHUMA
+		
+		god_names = {
+			GOD_SHARRUMA GOD_TELIPINU GOD_ARINNITI GOD_ISHTAR
+		}
+		evil_god_names = {
+			GOD_ILLUYANKA GOD_ERRA GOD_TAKNASDUTU
+		}
+		
+		can_excommunicate = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		matrilineal_marriages = no
+		max_consorts = 3
+		autocephaly = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
 	}
 }
