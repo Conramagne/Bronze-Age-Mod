@@ -1,0 +1,13 @@
+# 1 - Hattusa
+
+# County Title
+title=c_hattusa
+
+# Settlements
+max_settlements=1
+b_hattusa=castle
+
+# Misc
+culture=hattite
+religion=ishalitethai
+terrain=plains

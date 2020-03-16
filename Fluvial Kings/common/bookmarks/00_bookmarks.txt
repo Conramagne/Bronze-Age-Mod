@@ -1,0 +1,9 @@
+bm_test = {
+	name = "bm_test"
+	desc = "bm_test_DESC"
+	date = 2526.1.1
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_1
+	custom_start = yes				## Choosing "Custom Start" will open this bookmark
+}
