@@ -120,10 +120,10 @@ bnai_kenaan = {
 	ili_abinia = {
 		graphical_culture = muslimgfx
 		
-		icon = 1
-		heresy_icon = 1
+		icon = 1 #Temp
+		heresy_icon = 1 #Temp
 		
-		scripture_name = THE_AMMURU_KTOVET
+		scripture_name = THE_AMURRU_KTOVET
 		priest_title = KOHEN
 
 		color = { 0.5 0.4 0.1 }
@@ -203,6 +203,7 @@ pihassasi = {
 		
 		scripture_name = THE_HATTI_ISTANDANT
 		priest_title = PRIEST
+		crusade_name = GREAT_HOLY_WAR
 
 		color = { 0.9 0.6 0.2 }
 		
