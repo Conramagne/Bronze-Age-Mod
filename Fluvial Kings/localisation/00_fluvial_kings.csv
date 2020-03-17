@@ -1,0 +1,70 @@
+bnai_avraham;Bnai Avraham;;;;;;;;;;;;;x
+
+berith;Berith;;;;;;;;;;;;;x
+berith_desc;“Blessed are you, Adonai Eloheinu, King of the universe.”\n\nIt was in the dust of the heathen streets of Ur that Avraham ben Tera heard the voice of the One God. At His command Avraham braved hardship and war leading his household into Canaan, where he received the instructions for the Covenant. Out of his loins will come a great nation it is said, and now the sons of his grandson Yisrael bin Yitzhak have become an extended family of twelve tribes. Under the leadership of Moshe they defied the Kings of Mizrayim and were instructed by him in the Law. Their priests are usually drawn from the Tribe of Levi, and their duties include ritual animal sacrifice and the smearing of blood in atonement for sins.;;;;;;;;;;;;;x
+THE_TORAH;The Torah;;;;;;;;;;;;;x
+GOD_HASHEM;HaShem;;;;;;;;;;;;;x
+GOD_GOD;God;;;;;;;;;;;;;x
+GOD_THE_LORD;The Lord;;;;;;;;;;;;;x
+GOD_EL;El;;;;;;;;;;;;;x
+GOD_ELOHIM;Elohim;;;;;;;;;;;;;x
+GOD_GOD;God;;;;;;;;;;;;;x
+GOD_ADONAI;Adonai;;;;;;;;;;;;;x
+d_berith;The High Priesthood;;;;;;;;;;;;;x
+d_berith_adj;Priestly;;;;;;;;;;;;;x
+HEAD_KOHEN_GADOL;Kohen Gadol;;;;;;;;;;;;;x
+
+bnai_kenaan;Bnai Kenaan;;;;;;;;;;;;;x
+
+barqos;Barqos;;;;;;;;;;;;;x
+barqos_desc;The men of Edom are not wholly sons of Kenaan, but are indeed kin to the Yisraelim. These sons of Esau have turned to idolatry and nearly forgotten the covenant of their father Avraham ben Terah. They do however retain the practice of circumcision and name El Shaddai among the gods worthy of veneration. Qos is their patron god, the archer who gleams forth in the desert and hunts his foes like the lion hunts the antelope. Qos is also worshipped by the Nabatu and others of the banu Yishma'el under the name “Quzah”.;;;;;;;;;;;;;x
+THE_QOS_KTOVET;The Qos K'tovet;;;;;;;;;;;;;x
+GOD_EL_SHADDAI;El Shaddai;;;;;;;;;;;;;x
+GOD_MANAT;Manat;;;;;;;;;;;;;x
+
+bene_elihi;Bene Elihi;;;;;;;;;;;;;x
+bene_elihi_desc;The fertile westlands of Kenaan are home to a unique blend of gods and heroes. The creator and gray-haired father of the Elihi is El “The Bull” who rules from his tent atop mount Sappan and instructs his children and servants alongside his consort Asherah. Ba’al Hadaad son of Dagon holds lightning in the palm of his hand and brings the summer rains, in the youth of the world he challenged wicked Yam of the sea and defeated the coiling serpent Litanu. Fiery Molek fumes and demands offerings from his followers and grants them boons of health and herds. Each city and king tends to have a particular patron from among the pantheon.;;;;;;;;;;;;;x
+THE_BAAL_KTOVET;The Ba’al K'tovet;;;;;;;;;;;;;x
+KOHEN;Kohen;;;;;;;;;;;;;x
+GOD_EL_TORU;El Toru;;;;;;;;;;;;;x
+GOD_BAAL_HADAD;Ba'al Hadad;;;;;;;;;;;;;x
+GOD_ASHERAH;Asherah;;;;;;;;;;;;;x
+GOD_MOLEK;Molek;;;;;;;;;;;;;x
+GOD_RESHEPH;Resheph;;;;;;;;;;;;;x
+GOD_DAGON;Dagon;;;;;;;;;;;;;x
+GOD_LITANU;Litanu;;;;;;;;;;;;;x
+GOD_YAM;Yam;;;;;;;;;;;;;x
+GOD_MOT;Mot;;;;;;;;;;;;;x
+
+ili_abinia;Ili Abinia;;;;;;;;;;;;;x
+ili_abinia_desc;The traditions and cults of the Amurru, a tall, brash, and ancient people of mountain and pasture. They ruled as Kings and Princes over the Akkadi and Sumeru for 500 years and carried their gods with them on the backs of their furious chariots. The old gods of their forefathers have been preserved outside of Akkadi in the plains and deserts of the westlands. At the head of the host of Hosts is El Amurru, god of the high mountains and desert wind who leads the familiar host of the gods of Kenaan and Akkadi. Belet-Seri is his wife and queen of the desert, and Ba’al Hadad the Thunderer is his regent.;;;;;;;;;;;;;x
+THE_AMURRU_KTOVET;The Amurru K'tovet;;;;;;;;;;;;;x
+GOD_EL_AMURRU;El Amurru;;;;;;;;;;;;;x
+GOD_ISHTAR;Ishtar;;;;;;;;;;;;;x
+d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
+d_ili_abinia_adj;Priestly;;;;;;;;;;;;;x
+HEAD_KOHEN_AMURRU;Kohen Amurru;;;;;;;;;;;;;x
+
+mesopotamian;Mesopotamian;;;;;;;;;;;;;x
+
+egal_assur;Egal Assur;;;;;;;;;;;;;x
+egal_assur_desc;Assur is proclaimed to be the The Lord of All Heaven by the people of his city. For almost a thousand years the people of Assur have believed in the superiority of their god over the southern gods Marduk and Enlil. While the south fell to the half-beast Amurru and Kassu dogs, the sons of Assur preserved their freedom and supremacy. The Sarsarannu rules as regent for Assur and is the supreme authority in secular and eclesiastical matters and must prove his worth to the priesthood in the heat of battle. Assur is the hunter, first among his godly brethren and the slayer of lions and taker of pelts. His enemies should perhaps fear for their own skins...;;;;;;;;;;;;;x
+GOD_ASSUR;Assur;;;;;;;;;;;;;x
+GOD_NASU;Nasu;;;;;;;;;;;;;x
+GOD_SHAMASH;Shamash;;;;;;;;;;;;;x
+GOD_SIN;Sin;;;;;;;;;;;;;x
+GOD_LAMASHTU;Lamashtu;;;;;;;;;;;;;x
+GOD_ERRA;Erra;;;;;;;;;;;;;x
+GOD_MARDUK;Marduk;;;;;;;;;;;;;x
+
+pihassasi;Pihassasi;;;;;;;;;;;;;x
+
+ishalitethai;Ishalitethai;;;;;;;;;;;;;x
+ishalitethai_desc;The Nesili took the name of the peoples they conquered and thereafter called themselves Hatti. Their gods still have the fierce air of the chariot and the steppe about them, in every city and village swears itself to a different god of thunder and celebrates the defeat of the serpent Illuyanka every spring. The Great King of the Hatti is called “Our Sun” by his subjects who believe that his power on earth is drawn from the stormgod Tarhuma and his queen Arinniti of the sun. Tarhuma was of the Nesili, and Arinniti of the Old Hatti. Their marriage symbolized the union of two great nations and reflects the dual ancestry of the Hatti. At his investiture the Great King of the Hatti symbolically marries the Sun and is proclaimed High Priest and Regent of the gods.;;;;;;;;;;;;;x
+THE_HATTI_ISTANDANT;The Hatti Istandant;;;;;;;;;;;;;x
+GOD_TARHUMA;Tarhuma;;;;;;;;;;;;;x
+GOD_SHARRUMA;Sharruma;;;;;;;;;;;;;x
+GOD_TELIPINU;Telipinu;;;;;;;;;;;;;x
+GOD_ARINNITI;Arinniti;;;;;;;;;;;;;x
+GOD_ILLUYANKA;Illuyanka;;;;;;;;;;;;;x
+GOD_TAKNASDUTU;Taknasdutu;;;;;;;;;;;;;x
