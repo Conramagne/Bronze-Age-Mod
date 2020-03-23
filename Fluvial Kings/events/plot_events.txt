@@ -256,7 +256,6 @@ character_event = {
 			}
 			is_plot_active = no
 			OR = {
-				NOT = { religion = laestadian }
 				trait = hedonist
 				trait = drunkard
 			}
@@ -397,7 +396,6 @@ character_event = {
 			}
 			is_plot_active = no
 			OR = {
-				NOT = { religion = laestadian }
 				trait = hedonist
 				trait = drunkard
 			}
@@ -3784,7 +3782,6 @@ character_event = {
 			NOT = { trait = incapable }
 			NOT = { is_inaccessible_trigger = yes }
 			OR = {
-				NOT = { religion = laestadian }
 				trait = decadent
 				trait = hedonist
 				trait = drunkard
