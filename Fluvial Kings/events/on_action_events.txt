@@ -4601,20 +4601,12 @@ narrative_event = {
 			set_global_flag = tengri_reformation
 		}
 		if = {
-			limit = { religion = petro_norse_reformed }
-			set_global_flag = petro_norse_reformation
-		}
-		if = {
-			limit = { religion = karhun_kansa_reformed }
+			limit = { religion = finnish_pagan_reformed }
 			set_global_flag = finnish_reformation
 		}
 		if = {
 			limit = { religion = slavic_pagan_reformed }
 			set_global_flag = slavic_reformation
-		}
-		if = {
-			limit = { religion = christmas_cult_reformed }
-			set_global_flag = christmas_cult_reformation
 		}
 		if = {
 			limit = { religion = finnish_pagan_reformed }

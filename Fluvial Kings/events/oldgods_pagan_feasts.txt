@@ -53,8 +53,8 @@ character_event = {
 		name = EVTOPTA_TOG_701
 		trigger = {
 			OR = {
-				religion = karhun_kansa
-				religion = karhun_kansa_reformed
+				religion = finnish_pagan
+				religion = finnish_pagan_reformed
 			}
 		}
 		set_character_flag = attending_ukon_juhla
@@ -64,8 +64,8 @@ character_event = {
 	option = {
 		name = EVTOPTB_TOG_701
 		trigger = {
-			NOT = { religion = karhun_kansa }
-			NOT = { religion = karhun_kansa_reformed }
+			NOT = { religion = finnish_pagan }
+			NOT = { religion = finnish_pagan_reformed }
 		}
 		FROM = {
 			character_event = { id = TOG.702 days = 5 tooltip = DIPLOWINDOW_REJECT }

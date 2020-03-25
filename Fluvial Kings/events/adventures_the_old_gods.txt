@@ -35,9 +35,6 @@ character_event = {
 			is_female = no
 			liege = { has_law = status_of_women_4 }
 			liege = { has_law = true_cognatic_succession }
-			liege = { religion = svecoman }
-			liege = { religion = liberal }
-			liege = { religion = communist }
 			has_game_rule = {
 				name = gender
 				value = all
@@ -799,9 +796,6 @@ character_event = {
 			is_female = no
 			liege = { has_law = status_of_women_4 }
 			liege = { has_law = true_cognatic_succession }
-			liege = { religion = communist }
-			liege = { religion = liberal }
-			liege = { religion = svecoman }
 			has_game_rule = {
 				name = gender
 				value = all
@@ -820,7 +814,6 @@ character_event = {
 		OR = { # Only these for now
 			culture_group = swedish
 			culture_group = norwegian
-			culture = cossack
 			has_character_flag = demon_child_non_pagan
 		}
 		

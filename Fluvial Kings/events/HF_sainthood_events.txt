@@ -1007,7 +1007,7 @@ character_event = {
                         }
                         else_if = {
                             limit = {
-                                religion = karhun_kansa_reformed
+                                religion = finnish_pagan_reformed
                             }
                             if = {
                                 limit = {
@@ -1015,14 +1015,14 @@ character_event = {
                                 }
                                 create_bloodline = {
                                     type = saintly_bloodline_suomenusko_01
-                                    religion = karhun_kansa_reformed
+                                    religion = finnish_pagan_reformed
                                     inheritance = matrilineal
                                 }
                             }
                             else = {
                                 create_bloodline = {
                                     type = saintly_bloodline_suomenusko_01
-                                    religion = karhun_kansa_reformed
+                                    religion = finnish_pagan_reformed
                                 }
                             }
                         }
@@ -1201,7 +1201,7 @@ character_event = {
                         }
                         else_if = {
                             limit = {
-                                religion = karhun_kansa_reformed
+                                religion = finnish_pagan_reformed
                             }
                             if = {
                                 limit = {
@@ -1209,14 +1209,14 @@ character_event = {
                                 }
                                 create_bloodline = {
                                     type = saintly_bloodline_suomenusko_03
-                                    religion = karhun_kansa_reformed
+                                    religion = finnish_pagan_reformed
                                     inheritance = matrilineal
                                 }
                             }
                             else = {
                                 create_bloodline = {
                                     type = saintly_bloodline_suomenusko_03
-                                    religion = karhun_kansa_reformed
+                                    religion = finnish_pagan_reformed
                                 }
                             }
                         }
@@ -1340,7 +1340,7 @@ character_event = {
                         }
                         else_if = {
                             limit = {
-                                religion = karhun_kansa_reformed
+                                religion = finnish_pagan_reformed
                             }
                             if = {
                                 limit = {
@@ -1348,14 +1348,14 @@ character_event = {
                                 }
                                 create_bloodline = {
                                     type = saintly_bloodline_suomenusko_04
-                                    religion = karhun_kansa_reformed
+                                    religion = finnish_pagan_reformed
                                     inheritance = matrilineal
                                 }
                             }
                             else = {
                                 create_bloodline = {
                                     type = saintly_bloodline_suomenusko_04
-                                    religion = karhun_kansa_reformed
+                                    religion = finnish_pagan_reformed
                                 }
                             }
                         }
@@ -1473,7 +1473,7 @@ character_event = {
                         }
                         else_if = {
                             limit = {
-                                religion = karhun_kansa_reformed
+                                religion = finnish_pagan_reformed
                             }
                             if = {
                                 limit = {
@@ -1481,14 +1481,14 @@ character_event = {
                                 }
                                 create_bloodline = {
                                     type = saintly_bloodline_suomenusko_05
-                                    religion = karhun_kansa_reformed
+                                    religion = finnish_pagan_reformed
                                     inheritance = matrilineal
                                 }
                             }
                             else = {
                                 create_bloodline = {
                                     type = saintly_bloodline_suomenusko_05
-                                    religion = karhun_kansa_reformed
+                                    religion = finnish_pagan_reformed
                                 }
                             }
                         }
@@ -1601,7 +1601,7 @@ character_event = {
                         }
                         else_if = {
                             limit = {
-                                religion = karhun_kansa_reformed
+                                religion = finnish_pagan_reformed
                             }
                             if = {
                                 limit = {
@@ -1609,14 +1609,14 @@ character_event = {
                                 }
                                 create_bloodline = {
                                     type = saintly_bloodline_suomenusko_06
-                                    religion = karhun_kansa_reformed
+                                    religion = finnish_pagan_reformed
                                     inheritance = matrilineal
                                 }
                             }
                             else = {
                                 create_bloodline = {
                                     type = saintly_bloodline_suomenusko_06
-                                    religion = karhun_kansa_reformed
+                                    religion = finnish_pagan_reformed
                                 }
                             }
                         }

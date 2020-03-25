@@ -8743,7 +8743,7 @@ character_event = {
 	}
 	desc = { 
 		trigger = { 
-			religion = karhun_kansa
+			religion = finnish_pagan
 		} 
 		text = EVTDESCDHF23470
 	}
@@ -8942,7 +8942,7 @@ character_event = {
 						set_province_flag = flag_just_destroyed_baltic_pillar #Needed for next event.
 						province_event = { id = HF.23475 days = 60 } #Clean up flag.
 					}
-					karhun_kansa = {
+					finnish_pagan = {
 						religion_authority = {
 							modifier = destroyed_great_pillar
 							years = 10
@@ -8951,7 +8951,7 @@ character_event = {
 					owner = {
 						any_realm_character = {
 							limit = {  
-								religion = karhun_kansa
+								religion = finnish_pagan
 							}
 							character_event = { id = HF.23474 }
 						}
@@ -9118,7 +9118,7 @@ character_event = {
 		if = { 
 			limit = {
 				FROMFROM = { location = { has_province_flag = flag_just_destroyed_baltic_pillar } }
-				religion = karhun_kansa
+				religion = finnish_pagan
 			}
 			tooltip = { #Already removed in previous event.
 				religion_authority = {

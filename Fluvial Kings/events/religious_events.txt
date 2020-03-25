@@ -3318,7 +3318,7 @@ character_event = {
 			}
 			modifier = {
 				factor = 3
-				culture_group = sami # Historical reasons
+				culture = lappish # Historical reasons
 				FROM = {
 					religion = orthodox
 				}
@@ -3596,7 +3596,7 @@ character_event = {
 			}
 			modifier = {
 				factor = 3
-				culture_group = sami # Historical reasons
+				culture = lappish # Historical reasons
 				FROM = {
 					religion = orthodox
 				}
@@ -3976,7 +3976,7 @@ letter_event = {
 			# Historical			
 			modifier = {
 				factor = 3
-				culture_group = sami # Historical reasons
+				culture = lappish # Historical reasons
 				FROM = {
 					religion = orthodox
 				}
@@ -4488,7 +4488,7 @@ narrative_event = {
 		NOT = { has_global_flag = christian_crusades_unlocked }
 		
 		OR = {
-			e_kokemaekean_empire = {
+			e_byzantine_empire = {
 				holder_scope = {
 					NOT = { religion_group = christian }
 				}

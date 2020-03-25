@@ -2866,25 +2866,11 @@ character_event = { #Save game conversion of secret_traits to secret religions
 				secretly_catholic = { set_secret_religion = catholic remove_trait = secretly_catholic }
 				secretly_catholic = { set_secret_religion = cathar remove_trait = secretly_catholic }
 				secretly_iconoclast = { set_secret_religion = fraticelli remove_trait = secretly_iconoclast }
-				secretly_laestadian = { set_secret_religion = waldensian remove_trait = secretly_laestadian }
-				secretly_firstborn = { set_secret_religion = firstborn remove_trait = secretly_firstborn }
 				secretly_orthodox = { set_secret_religion = orthodox remove_trait = secretly_orthodox }
-				secretly_evangelic = { set_secret_religion = evangelic remove_trait = secretly_evangelic }
-				secretly_baptist = { set_secret_religion = baptist remove_trait = secretly_baptist }
-				secretly_petro_norse = { set_secret_religion = petro_norse remove_trait = secretly_petro_norse }
-				secretly_petro_norse_reformed = { set_secret_religion = petro_norse_reformed remove_trait = secretly_petro_norse_reformed }
 				secretly_shia = { set_secret_religion = shia remove_trait = secretly_shia }
-				secretly_karhun_kansa = { set_secret_religion = karhun_kansa remove_trait = secretly_karhun_kansa }
-				secretly_karhun_kansa_reformed = { set_secret_religion = karhun_kansa_reformed remove_trait = secretly_karhun_kansa_reformed }
-				secretly_christmas_cult = { set_secret_religion = christmas_cult remove_trait = secretly_christmas_cult }
-				secretly_christmas_cult_reformed = { set_secret_religion = christmas_cult_reformed remove_trait = secretly_christmas_cult_reformed }
 
 				secretly_jewish = { set_secret_religion = jewish remove_trait = secretly_jewish }
 				secretly_samaritan = { set_secret_religion = samaritan remove_trait = secretly_samaritan }
-				secretly_liberal = { set_secret_religion = liberal remove_trait = secretly_liberal }
-				secretly_concordist = { set_secret_religion = concordist remove_trait = secretly_concordist }
-				secretly_juche = { set_secret_religion = juche remove_trait = secretly_juche }
-				secretly_communist = { set_secret_religion = communist remove_trait = secretly_communist }
 				secretly_norse_pagan = { set_secret_religion = norse_pagan remove_trait = secretly_norse_pagan }
 				secretly_norse_pagan_reformed = { set_secret_religion = norse_pagan_reformed remove_trait = secretly_norse_pagan_reformed }
 				secretly_finnish_pagan = { set_secret_religion = finnish_pagan remove_trait = secretly_finnish_pagan }

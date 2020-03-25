@@ -3706,8 +3706,8 @@ character_event = {
 			religion = norse_pagan_reformed
 			religion = slavic_pagan
 			religion = slavic_pagan_reformed
-			religion = karhun_kansa
-			religion = karhun_kansa_reformed
+			religion = finnish_pagan
+			religion = finnish_pagan_reformed
 		}
 		NOT = { has_character_flag = the_old_ones_are_waking }
 		NOT = { is_inaccessible_trigger = yes }
@@ -3766,8 +3766,8 @@ character_event = {
 			religion = norse_pagan_reformed
 			religion = slavic_pagan
 			religion = slavic_pagan_reformed
-			religion = karhun_kansa
-			religion = karhun_kansa_reformed
+			religion = finnish_pagan
+			religion = finnish_pagan_reformed
 		}
 		NOT = { has_character_flag = the_old_ones_are_waking }
 		NOT = { is_inaccessible_trigger = yes }
@@ -3826,8 +3826,8 @@ character_event = {
 			religion = norse_pagan_reformed
 			religion = slavic_pagan
 			religion = slavic_pagan_reformed
-			religion = karhun_kansa
-			religion = karhun_kansa_reformed
+			religion = finnish_pagan
+			religion = finnish_pagan_reformed
 		}
 		NOT = { has_character_flag = the_old_ones_are_waking }
 		NOT = { is_inaccessible_trigger = yes }
@@ -3886,8 +3886,8 @@ character_event = {
 			religion = norse_pagan_reformed
 			religion = slavic_pagan
 			religion = slavic_pagan_reformed
-			religion = karhun_kansa
-			religion = karhun_kansa_reformed
+			religion = finnish_pagan
+			religion = finnish_pagan_reformed
 		}
 		NOT = { has_character_flag = the_old_ones_are_waking }
 		NOT = { is_inaccessible_trigger = yes }

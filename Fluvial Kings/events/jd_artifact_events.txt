@@ -49,14 +49,6 @@ character_event = {
             factor = 0.3
         }
         modifier = {
-            offmap_china = { has_status = germany_bavarian_invasion }
-            factor = 0.3
-        }
-        modifier = {
-            offmap_china = { has_status = germany_french_invasion }
-            factor = 0.3
-        }
-        modifier = {
             offmap_china = { has_status = china_famine }
             factor = 0.3
         }
@@ -3918,20 +3910,6 @@ character_event = { #Outcome: Book is finished! It went Great/Good/Decent!
 			    					}
 			    				}
 			    				10 = {
-			    					add_artifact = cookbook_3_central_german
-			    					new_artifact = {
-			    						set_description = cookbook_3_central_german_desc_rename
-			    					}
-			    					trigger = {
-			    						culture_group = central_germanic
-			    						NOT = {
-				    						any_artifact = {
-												artifact_type = cookbook_3_central_german
-											}
-										}
-			    					}
-			    				}
-			    				10 = {
 			    					add_artifact = on_culture_architecture
 			    					additive_modifier = {
 										value = 10
@@ -4074,7 +4052,6 @@ character_event = { #Outcome: Book is finished! It went Great/Good/Decent!
 			    						OR = {
 			    							is_monastic_member_trigger = yes
 			    							religion_group = christian
-			    							religion = svecoman
 			    						}
 			    						NOT = {
 											any_artifact = {

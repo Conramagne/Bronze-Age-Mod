@@ -22,8 +22,8 @@ character_event = {
 
 	trigger = {
 		OR = {
-			religion = karhun_kansa
-			religion = karhun_kansa_reformed
+			religion = finnish_pagan
+			religion = finnish_pagan_reformed
 			religion = slavic_pagan
 			religion = slavic_pagan_reformed
 			religion = tengri_pagan
@@ -1621,9 +1621,6 @@ character_event = {
 		if = { 
 			limit = {
 				NOR = { 
-					religion = communist
-					religion = liberal
-					religion = svecoman
 					has_law = status_of_women_3
 					has_law = status_of_women_4
 					has_game_rule = {
@@ -2602,8 +2599,8 @@ character_event = {
 				FROM = { religion = slavic_pagan }
 			}
 			AND = {
-				religion = karhun_kansa_reformed
-				FROM = { religion = karhun_kansa }
+				religion = finnish_pagan_reformed
+				FROM = { religion = finnish_pagan }
 			}
 			AND = {
 				religion = tengri_pagan_reformed

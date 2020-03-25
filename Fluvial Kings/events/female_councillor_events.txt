@@ -811,9 +811,6 @@ character_event = {
 			has_religion_feature = religion_feature_bon
 			primary_title = { has_law = status_of_women_3 }
 			primary_title = { has_law = status_of_women_4 }
-			religion = communist
-			religion = liberal
-			religion = svecoman
 			has_game_rule = {
 				name = gender
 				value = all
@@ -1273,9 +1270,6 @@ character_event = {
 			has_religion_feature = religion_patriarchal
 			has_religion_feature = religion_equal
 			has_religion_feature = religion_feature_bon
-			religion = communist
-			religion = liberal
-			religion = svecoman
 			has_game_rule = {
 				name = gender
 				value = all
