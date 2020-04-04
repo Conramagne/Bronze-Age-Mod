@@ -3,7 +3,7 @@ anatolian;Anatolian;;;;;;;;;;;;;x
 hattite;Hatti;;;;;;;;;;;;;x
 ###########Religions###########
 bnai_avraham;Bnai Avraham;;;;;;;;;;;;;x
-berith;Berith;;;;;;;;;;;;;x
+berith;B'rit;;;;;;;;;;;;;x
 berith_DESC;“Blessed are you, Adonai Eloheinu, King of the universe.”\n\nIt was in the dust of the heathen streets of Ur that Avraham ben Tera heard the voice of the One God. At His command Avraham braved hardship and war leading his household into Canaan, where he received the instructions for the Covenant. Out of his loins will come a great nation it is said, and now the sons of his grandson Yisrael bin Yitzhak have become an extended family of twelve tribes. Under the leadership of Moshe they defied the Kings of Mizrayim and were instructed by him in the Law. Their priests are usually drawn from the Tribe of Levi, and their duties include ritual animal sacrifice and the smearing of blood in atonement for sins.;;;;;;;;;;;;;x
 bnai_kenaan;Bnai Kenaan;;;;;;;;;;;;;x
 barqos;Barqos;;;;;;;;;;;;;x
@@ -16,12 +16,15 @@ mesopotamian;Mesopotamian;;;;;;;;;;;;;x
 egal_assur;Egal Assur;;;;;;;;;;;;;x
 egal_assur_DESC;Assur is proclaimed to be the The Lord of All Heaven by the people of his city. For almost a thousand years the people of Assur have believed in the superiority of their god over the southern gods Marduk and Enlil. While the south fell to the half-beast Amurru and Kassu dogs, the sons of Assur preserved their freedom and supremacy. The Sarsarannu rules as regent for Assur and is the supreme authority in secular and eclesiastical matters and must prove his worth to the priesthood in the heat of battle. Assur is the hunter, first among his godly brethren and the slayer of lions and taker of pelts. His enemies should perhaps fear for their own skins...;;;;;;;;;;;;;x
 pihassasi;Pihassasi;;;;;;;;;;;;;x
+haianiluwi;Haianiluwi;;;;;;;;;;;;;x
+haianiluwi_DESC;The Luwi traditions and gods are kin to their Hatti cousins. Tarhuma the Thunderer brings the summer rains and fattens the kine, and from the haft of his axe hangs great bunches of grapes and vines. Freemen pray to him in their huts for golden grain and friendly weather while princes and chieftains pray in loud shouts to heaven on the fields of a chariot filled battle. Mount Korikos is believed to be the site of the Dracomachy where Tarhuma and Tiwaz the Father-Sun slew the great Serpent to win back Tarhuma’s stolen eyes and heart. The festival of Puruli is held in spring to celebrate the death of the dragon and triumph of the gods.;;;;;;;;;;;;;x
 ishalitethai;Ishalitethai;;;;;;;;;;;;;x
 ishalitethai_DESC;The Nesili took the name of the peoples they conquered and thereafter called themselves Hatti. Their gods still have the fierce air of the chariot and the steppe about them, in every city and village swears itself to a different god of thunder and celebrates the defeat of the serpent Illuyanka every spring. The Great King of the Hatti is called “Our Sun” by his subjects who believe that his power on earth is drawn from the stormgod Tarhuma and his queen Arinniti of the sun. Tarhuma was of the Nesili, and Arinniti of the Old Hatti. Their marriage symbolized the union of two great nations and reflects the dual ancestry of the Hatti. At his investiture the Great King of the Hatti symbolically marries the Sun and is proclaimed High Priest and Regent of the gods.;;;;;;;;;;;;;x
 ###########Gods and Books###########
 THE_AMURRU_KTOVET;The Amurru K'tovet;;;;;;;;;;;;;x
 THE_BAAL_KTOVET;The Ba’al K'tovet;;;;;;;;;;;;;x
 THE_HATTI_ISTANDANT;The Hatti Istandant;;;;;;;;;;;;;x
+THE_LUWIAN_ISTANDANT;The Luwian Istandant;;;;;;;;;;;;;x
 THE_TORAH;The Torah;;;;;;;;;;;;;x
 THE_QOS_KTOVET;The Qos K'tovet;;;;;;;;;;;;;x
 
@@ -29,14 +32,15 @@ GOD_ADONAI;Adonai;;;;;;;;;;;;;x
 GOD_ASHERAH;Asherah;;;;;;;;;;;;;x
 GOD_ASSUR;Assur;;;;;;;;;;;;;x
 GOD_ARINNITI;Arinniti;;;;;;;;;;;;;x
+GOD_ARMA;Arma;;;;;;;;;;;;;x
 GOD_BAAL_HADAD;Ba'al Hadad;;;;;;;;;;;;;x
 GOD_DAGON;Dagon;;;;;;;;;;;;;x
-GOD_ERRA;Erra;;;;;;;;;;;;;x
 GOD_EL;El;;;;;;;;;;;;;x
 GOD_ELOHIM;Elohim;;;;;;;;;;;;;x
 GOD_EL_AMURRU;El Amurru;;;;;;;;;;;;;x
 GOD_EL_SHADDAI;El Shaddai;;;;;;;;;;;;;x
 GOD_EL_TORU;El Toru;;;;;;;;;;;;;x
+GOD_ERRA;Erra;;;;;;;;;;;;;x
 GOD_GOD;God;;;;;;;;;;;;;x
 GOD_HASHEM;HaShem;;;;;;;;;;;;;x
 GOD_ILLUYANKA;Illuyanka;;;;;;;;;;;;;x
@@ -50,22 +54,28 @@ GOD_MOT;Mot;;;;;;;;;;;;;x
 GOD_NASU;Nasu;;;;;;;;;;;;;x
 GOD_RESHEPH;Resheph;;;;;;;;;;;;;x
 GOD_SHAMASH;Shamash;;;;;;;;;;;;;x
+GOD_SHANTA;Shanta;;;;;;;;;;;;;x
 GOD_SHARRUMA;Sharruma;;;;;;;;;;;;;x
 GOD_SIN;Sin;;;;;;;;;;;;;x
 GOD_TAKNASDUTU;Taknasdutu;;;;;;;;;;;;;x
 GOD_TARHUMA;Tarhuma;;;;;;;;;;;;;x
 GOD_TELIPINU;Telipinu;;;;;;;;;;;;;x
 GOD_THE_LORD;The Lord;;;;;;;;;;;;;x
+GOD_TIWAZ;Tiwaz;;;;;;;;;;;;;x
 GOD_YAM;Yam;;;;;;;;;;;;;x
 
 KOHEN;Kohen;;;;;;;;;;;;;x
+SANKUNNI;Sankunni;;;;;;;;;;;;;x
 HEAD_KOHEN_GADOL;Kohen Gadol;;;;;;;;;;;;;x
 HEAD_KOHEN_AMURRU;Kohen Amurru;;;;;;;;;;;;;x
+HEAD_SALLISANKUNI;Sallisankuni;;;;;;;;;;;;;x
 
 ###########Titles###########
 d_berith;The High Priesthood;;;;;;;;;;;;;x
 d_berith_adj;Priestly;;;;;;;;;;;;;x
-d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
+d_haianiluwi;The High Luwian Priesthood;;;;;;;;;;;;;x
+d_haianiluwi_adj;Priestly;;;;;;;;;;;;;x
+d_ili_abinia;The High Amurru Priesthood;;;;;;;;;;;;;x
 d_ili_abinia_adj;Priestly;;;;;;;;;;;;;x
 e_hittite_empire;Hatti Empire;;;;;;;;;;;;;x
 e_hittite_empire_adj;Hatti;;;;;;;;;;;;;x
