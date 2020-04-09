@@ -40,13 +40,44 @@ bnai_avraham = {
 			GOD_BAAL GOD_ASHERAH GOD_MOLEK GOD_DAGON
 		}
 		
+		max_consorts = 3
 		can_excommunicate = yes
-		autocephaly = yes
+
 		allow_rivermovement = yes
 		allow_looting = yes
 		priests_can_marry = yes
 		priests_can_inherit = yes
 	}
+	
+	deen = {
+		graphical_culture = jewishgfx
+		
+		icon = 8
+		heresy_icon = 8
+		
+		scripture_name = THE_SUNNAH
+		priest_title = IMAM
+		crusade_name = GREAT_HOLY_WAR
+		
+		color = { XX XX XX }
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_GOD GOD_THE_LORD GOD_RAHMAN GOD_RAHEEM GOD_HAKAM 
+		}
+		evil_god_names = {
+			GOD_LAT GOD_UZZAYN GOD_MANAT
+		}
+		
+		max_consorts = 3
+		can_excommunicate = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+	}
+		
 }
 
 bnai_kenaan = {
