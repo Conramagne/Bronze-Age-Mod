@@ -1,15 +1,94 @@
 2000000 ={
-	name="Tudhaliya" # Tudhaliya IV
-	dynasty=1627003
-	culture=hittite
-	religion=ishalitethai
-	martial=3
-	diplomacy=3
-	stewardship=4
-	intrigue=5
-	learning=5
-	trait=tough_soldier
-	trait=craven
-	2498.1.1={birth=yes}
-	2561.1.11={death=yes}
+	name = "Tudhaliya" # Tudhaliya IV
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	martial = 3
+	diplomacy = 3
+	stewardship = 4
+	intrigue = 5
+	learning = 5
+	trait = tough_soldier
+	trait = craven
+	2493.1.1 = { birth = yes}
+	2561.1.1 = { death = yes}
+}
+
+2000001 = {
+	name = "Hattušili" # Hattušili III
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2000004
+	2453.1.1 = { birth = yes }
+	2512.1.1 = { death = yes }
+}
+
+2000002 = {
+	name = "Muršili" # Muršili III
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2000003
+	2443.1.1 = { birth = yes }
+	2497.1.1 = { death = yes }
+}
+
+2000003 = {
+	name = "Muwattalli" # Muwattalli II
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2000004
+	2423.1.1 = { birth = yes }
+	2490.1.1 = { death = yes }
+}
+
+2000004 = {
+	name = "Muršili" # Muršili II
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2000006
+	2408.1.1 = { birth = yes }
+	2468.1.1 = { death = yes }
+}
+
+2000005 = {
+	name = "Arnuwanda" # Arnuwanda II
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2000006
+	2381.1.1 = { birth = yes }
+	2443.1.1 = { death = yes }
+}
+
+2000006 = {
+	name = "Šuppiluliuma" # Šuppiluliuma I 
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2000007
+	2361.1.1 = { birth = yes }
+	2441.1.1 = { death = yes }
+}
+
+2000007 = {
+	name = "Tudhaliya" # Tudhaliya III
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2000008
+	2341.1.1 = { birth = yes }
+	2381.1.1 = { death = yes }
+}
+
+2000008 = {
+	name = "Arnuwanda" # Arnuwanda I
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	2321.1.1 = { birth = yes }
+	2376.1.1 = { death = yes }
 }
