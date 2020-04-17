@@ -1,7 +1,7 @@
-title=c_hattusa
+title=c_til_garimmu
 
 max_settlements=6
-b_hattusa=castle
+b_til_garimmu=castle
 
 culture=hittite
 religion=catholic

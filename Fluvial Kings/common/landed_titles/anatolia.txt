@@ -4,7 +4,7 @@ e_hittite_empire = {
 	
 	capital = 1 # Hattusa
 	
-	culture = hattite
+	culture = hittite
 	
 	controls_religion = ishalitethai
 	
@@ -34,6 +34,553 @@ e_hittite_empire = {
 				color2 = { 255 255 255 }
 				
 				b_hattusa = {}
+			}
+			c_taskuriya = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_taskuriya = {}
+			}
+			
+			c_tuhuppiya = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_tuhuppiya = {}
+			}
+			
+			c_katapa = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_katapa = {}
+			}
+			
+			c_kanes = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_kanes = {}
+			}
+			c_kapitra = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_kapitra = {}
+			}
+		}
+		
+		d_ambara = { 
+			color={ 100 30 20 }
+			color2={ 255 255 255 }
+	
+			capital = 56
+			
+			c_kummaha = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_kummaha = {}
+			}
+			c_haburat = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_haburat = {}
+			}
+			c_pahhuwa = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_pahhuwa = {}
+			}
+			c_istitina = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_istitina = {}
+			}
+		}
+		d_sarazzi_udne = { 
+			color={ 195 90 70 }
+			color2={ 255 255 255 }
+	
+			capital = 53
+			
+			c_masika = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_masika = {}
+			}
+			c_zipishuna = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_zipishuna = {}
+			}
+			c_takkupta = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_takkupta = {}
+			}
+			c_samuha = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_samuha = {}
+			}
+		}
+	}
+	
+	k_pala = {
+		color={ 220 100 70 }
+		color2={ 255 255 255 }
+		
+		capital = 2
+		
+		culture = hittite
+		
+		d_kaska = { 
+			color={ 225 70 100 }
+			color2={ 255 255 255 }
+	
+			capital = 2
+			
+			c_zalpa = {
+				color={ 225 70 100 }
+				color2={ 255 255 255 }
+				
+				b_zalpa = {}
+			}
+			c_sawit = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_sawit = {}
+			}
+			c_kunanamit = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_kunanamit = {}
+			}
+		}
+		
+		d_kalasma = { 
+			color={ 200 80 60 }
+			color2={ 255 255 255 }
+	
+			capital = 22
+			
+			c_kalasma = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_kalasma = {}
+			}
+			c_tumanna = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_tumanna = {}
+			}
+			c_sappa = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_sappa = {}
+			}
+		}
+		
+		d_kassiya = { 
+			color={ 230 110 100 }
+			color2={ 255 255 255 }
+	
+			capital = 35
+			
+			c_altanna = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_altanna = {}
+			}
+			c_salatiwara = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_salatiwara = {}
+			}
+			c_athulissa = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_athulissa = {}
+			}
+			c_piddaniyasa = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_piddaniyasa = {}
+			}
+		}
+		
+		d_kasula = { 
+			color={ 190 60 40 }
+			color2={ 255 255 255 }
+	
+			capital = 24
+			
+			c_kasula = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_kasula = {}
+			}
+			c_istahara = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_istahara = {}
+			}
+			c_gassu = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_gassu = {}
+			}
+			c_sariya = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_sariya = {}
+			}
+		}
+	}
+	
+	k_tarhuntassa = {
+		color={ 200 130 50 }
+		color2={ 255 255 255 }
+		
+		capital = 11
+		
+		culture = hittite
+		
+		d_tarhuntassa = { 
+			color={ 210 120 70 }
+			color2={ 255 255 255 }
+	
+			capital = 11
+			
+			c_tarhuntassa = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_tarhuntassa = {}
+			}
+			c_ura = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_ura = {}
+			}
+			c_saliya = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_saliya = {}
+			}
+			c_laanda = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_laanda = {}
+			}
+			c_hupisna = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_hupisna = {}
+			}
+		}
+		
+		d_pitassa = { 
+			color={ 130 80 60 }
+			color2={ 255 255 255 }
+	
+			capital = 29
+			
+			c_walma = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_walma = {}
+			}
+			c_sahiriya = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_sahiriya = {}
+			}
+			c_sinnuwanda = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_sinnuwanda = {}
+			}
+		}
+		d_kastaraya = { 
+			color={ 130 80 60 }
+			color2={ 255 255 255 }
+	
+			capital = 13
+			
+			c_kastaraya = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_kastaraya = {}
+			}
+			c_marasa = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_marasa = {}
+			}
+			c_asita = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_asita = {}
+			}
+		}
+		d_hulaya = { 
+			color={ 130 80 60 }
+			color2={ 255 255 255 }
+	
+			capital = 47
+			
+			c_lahhwiyassi = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_lahhwiyassi = {}
+			}
+			c_hulaya = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_hulaya = {}
+			}
+			c_nahita = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_nahita = {}
+			}
+			c_saranduwa = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_saranduwa = {}
+			}
+			c_sallusa = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_sallusa = {}
+			}
+		}
+		
+		d_katerra_udne = { 
+			color={ 210 105 30 }
+			color2={ 255 255 255 }
+	
+			capital = 45
+			
+			c_hapalla = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_hapalla = {}
+			}
+			c_sarpa = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_sarpa= {}
+			}
+			c_ullamma = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_ullamma = {}
+			}
+			c_suwatara = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_suwatara = {}
+			}
+		}
+	}
+	
+	k_kizzuwatna = {
+		color={ 220 170 20 }
+		color2={ 255 255 255 }
+		
+		capital = 5
+		
+		culture = hittite
+		
+		d_puruma = { 
+			color={ 230 140 10 }
+			color2={ 255 255 255 }
+	
+			capital = 5
+			
+			c_lawazantiya = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_lawazantiya = {}
+			}
+			c_izziya = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_izziya = {}
+			}
+			c_tarsa = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_tarsa = {}
+			}
+			c_zaruna = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_zaruna = {}
+			}
+			c_malluma = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_malluma = {}
+			}
+		}
+		d_mala = { 
+			color={ 120 140 10 }
+			color2={ 255 255 255 }
+	
+			capital = 19
+			
+			c_mala = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_mala = {}
+			}
+			c_kummuth = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_kummuth = {}
+			}
+			c_sukziya = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_sukziya = {}
+			}
+		}
+		d_samura = { 
+			color={ 200 160 40 }
+			color2={ 255 255 255 }
+	
+			capital = 62
+			
+			c_samura = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_samura = {}
+			}
+			c_paduwanda = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_paduwanda = {}
+			}
+			c_serigga = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_serigga = {}
+			}
+		}
+		d_tegarama = { 
+			color={ 220 130 40 }
+			color2={ 255 255 255 }
+	
+			capital = 46
+			
+			c_tegarama = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_tegarama = {}
+			}
+			c_asturiya = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_asturiya = {}
+			}
+			c_arihuwa = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_arihuwa = {}
+			}
+			c_til_garimmu = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_til_garimmu = {}
+			}
+		}
+		d_marqasa = { 
+			color={ 245 130 30 }
+			color2={ 255 255 255 }
+	
+			capital = 20
+			
+			c_mamma = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_mamma = {}
+			}
+			c_hurma = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_hurma = {}
+			}
+			c_timelkiya = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_timelkiya = {}
+			}
+			c_bulbulhum = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_bulbulhum = {}
 			}
 		}
 	}

@@ -1,7 +1,7 @@
-title=c_hattusa
+title=c_bulbulhum
 
 max_settlements=6
-b_hattusa=castle
+b_bulbulhum=castle
 
 culture=hittite
 religion=catholic

@@ -1,7 +1,7 @@
-title=c_hattusa
+title=c_tarhuntassa
 
 max_settlements=6
-b_hattusa=castle
+b_tarhuntassa=castle
 
 culture=hittite
 religion=catholic

@@ -1,7 +1,7 @@
-title=c_hattusa
+title=c_sahiriya
 
 max_settlements=6
-b_hattusa=castle
+b_sahiriya=castle
 
 culture=hittite
 religion=catholic
