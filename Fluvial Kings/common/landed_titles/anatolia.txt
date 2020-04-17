@@ -4,7 +4,7 @@ e_hittite_empire = {
 	
 	capital = 1 # Hattusa
 	
-	culture = hattite
+	culture = hittite
 	
 	controls_religion = ishalitethai
 	
