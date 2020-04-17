@@ -1,7 +1,7 @@
-title=c_hattusa
+title=c_ura
 
 max_settlements=6
-b_hattusa=castle
+b_ura=castle
 
 culture=hittite
 religion=catholic
