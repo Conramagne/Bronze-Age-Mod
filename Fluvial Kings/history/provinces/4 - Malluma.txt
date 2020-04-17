@@ -3,6 +3,6 @@ title=c_malluma
 max_settlements=6
 b_malluma=castle
 
-culture=hattite
+culture=hittite
 religion=ishalitethai
 terrain=plains

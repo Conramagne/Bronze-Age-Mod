@@ -3,6 +3,6 @@ title=c_serigga
 max_settlements=6
 b_serigga=castle
 
-culture=hattite
+culture=hittite
 religion=ishalitethai
 terrain=plains

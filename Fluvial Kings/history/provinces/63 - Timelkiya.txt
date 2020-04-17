@@ -3,6 +3,6 @@ title=c_timelkiya
 max_settlements=6
 b_timelkiya=castle
 
-culture=hattite
+culture=hittite
 religion=ishalitethai
 terrain=plains

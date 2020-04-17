@@ -3,6 +3,6 @@ title=c_tegarama
 max_settlements=6
 b_tegarama=castle
 
-culture=hattite
+culture=hittite
 religion=ishalitethai
 terrain=plains

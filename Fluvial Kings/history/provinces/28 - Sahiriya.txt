@@ -3,6 +3,6 @@ title=c_sahiriya
 max_settlements=6
 b_sahiriya=castle
 
-culture=hattite
+culture=hittite
 religion=ishalitethai
 terrain=plains

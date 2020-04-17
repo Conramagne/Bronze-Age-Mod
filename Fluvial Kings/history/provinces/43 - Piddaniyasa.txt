@@ -3,6 +3,6 @@ title=c_piddaniyasa
 max_settlements=6
 b_piddaniyasa=castle
 
-culture=hattite
+culture=hittite
 religion=ishalitethai
 terrain=plains

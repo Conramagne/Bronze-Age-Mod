@@ -3,6 +3,6 @@ title=c_lawazantiya
 max_settlements=6
 b_lawazantiya=castle
 
-culture=hattite
+culture=hittite
 religion=ishalitethai
 terrain=plains
