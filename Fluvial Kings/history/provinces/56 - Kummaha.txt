@@ -3,6 +3,6 @@ title=c_kummaha
 max_settlements=6
 b_kummaha=castle
 
-culture=hittite
-religion=catholic
+culture=hattite
+religion=ishalitethai
 terrain=plains

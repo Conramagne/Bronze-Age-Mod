@@ -3,6 +3,6 @@ title=c_kunanamit
 max_settlements=6
 b_kunanamit=castle
 
-culture=hittite
-religion=catholic
+culture=hattite
+religion=ishalitethai
 terrain=plains

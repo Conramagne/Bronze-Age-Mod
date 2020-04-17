@@ -3,6 +3,6 @@ title=c_kanes
 max_settlements=6
 b_kanes=castle
 
-culture=hittite
-religion=catholic
+culture=hattite
+religion=ishalitethai
 terrain=plains

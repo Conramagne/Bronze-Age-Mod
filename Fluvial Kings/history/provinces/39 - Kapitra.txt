@@ -3,6 +3,6 @@ title=c_kapitra
 max_settlements=6
 b_kapitra=castle
 
-culture=hittite
-religion=catholic
+culture=hattite
+religion=ishalitethai
 terrain=plains

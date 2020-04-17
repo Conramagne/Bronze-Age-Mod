@@ -3,6 +3,6 @@ title=c_samura
 max_settlements=6
 b_samura=castle
 
-culture=hittite
-religion=catholic
+culture=hattite
+religion=ishalitethai
 terrain=plains

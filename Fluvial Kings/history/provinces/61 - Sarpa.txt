@@ -3,6 +3,6 @@ title=c_sarpa
 max_settlements=6
 b_sarpa=castle
 
-culture=hittite
-religion=catholic
+culture=hattite
+religion=ishalitethai
 terrain=plains

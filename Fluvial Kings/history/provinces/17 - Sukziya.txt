@@ -3,6 +3,6 @@ title=c_sukziya
 max_settlements=6
 b_sukziya=castle
 
-culture=hittite
-religion=catholic
+culture=hattite
+religion=ishalitethai
 terrain=plains

@@ -3,6 +3,6 @@ title=c_hapalla
 max_settlements=6
 b_hapalla=castle
 
-culture=hittite
-religion=catholic
+culture=hattite
+religion=ishalitethai
 terrain=plains

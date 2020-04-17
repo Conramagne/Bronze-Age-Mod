@@ -3,6 +3,6 @@ title=c_izziya
 max_settlements=6
 b_izziya=castle
 
-culture=hittite
-religion=catholic
+culture=hattite
+religion=ishalitethai
 terrain=plains

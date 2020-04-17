@@ -41,9 +41,9 @@ bnai_avraham = {
 		}
 		
 		can_excommunicate = yes
-		autocephaly = yes
 		allow_rivermovement = yes
 		allow_looting = yes
+		autocephaly = yes
 		priests_can_marry = yes
 		priests_can_inherit = yes
 	}
@@ -75,7 +75,7 @@ bnai_kenaan = {
 		high_god_name = GOD_QOS
 		
 		god_names = {
-			GOD_EL_SHADDAI GOD_ASHERAH GOD_BAAL_HADAD GOD_MANAT
+			GOD_QOS GOD_EL_SHADDAI GOD_ASHERAH GOD_BAAL_HADAD GOD_MANAT
 		}
 		evil_god_names = {
 			GOD_LITANU GOD_YAM GOD_MOLEK
@@ -103,7 +103,7 @@ bnai_kenaan = {
 		high_god_name = GOD_EL_TORU
 		
 		god_names = {
-			GOD_BAAL_HADAD GOD_ASHERAH GOD_MOLEK GOD_RESHEPH GOD_DAGON
+			GOD_EL_TORU GOD_BAAL_HADAD GOD_ASHERAH GOD_MOLEK GOD_RESHEPH GOD_DAGON
 		}
 		evil_god_names = {
 			GOD_LITANU GOD_YAM GOD_MOT
@@ -131,7 +131,7 @@ bnai_kenaan = {
 		high_god_name = GOD_EL_AMURRU
 		
 		god_names = {
-			GOD_RESHEPH GOD_ASHERAH GOD_BAAL_HADAD GOD_DAGON GOD_ISHTAR
+			GOD_EL_AMURRU GOD_RESHEPH GOD_ASHERAH GOD_BAAL_HADAD GOD_DAGON GOD_ISHTAR
 		}
 		evil_god_names = {
 			GOD_LITANU GOD_YAM GOD_MOT
@@ -170,7 +170,7 @@ mesopotamian = {
 		high_god_name = GOD_ASSUR
 		
 		god_names = {
-			GOD_NASU GOD_SHAMASH GOD_SIN GOD_ISHTAR
+			GOD_ASSUR GOD_NASU GOD_SHAMASH GOD_SIN GOD_ISHTAR
 		}
 		evil_god_names = {
 			GOD_LAMASHTU GOD_ERRA GOD_MARDUK
@@ -181,7 +181,6 @@ mesopotamian = {
 		allow_looting = yes
 		matrilineal_marriages = no
 		max_wives = 4
-		autocephaly = yes
 		priests_can_marry = yes
 		priests_can_inherit = yes
 	}
@@ -197,6 +196,35 @@ pihassasi = {
 	
 	color = { 0.9 0.6 0.2 }
 	
+	haianiluwi = {
+		icon = 11 #temp
+		heresy_icon = 11 #temp
+		
+		scripture_name = THE_LUWIAN_ISTANDANT
+		priest_title = SANKUNNI
+
+		color = { 0.7 0.4 0.1 }
+		
+		high_god_name = GOD_TARHUMA
+		
+		god_names = {
+			GOD_TARHUMA GOD_SHARRUMA GOD_TELIPINU GOD_ARMA GOD_TIWAZ
+		}
+		evil_god_names = {
+			GOD_ILLUYANKA GOD_ERRA GOD_SHANTA
+		}
+		
+		can_excommunicate = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		matrilineal_marriages = no
+		max_wives = 4
+		autocephaly = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		female_temple_holders = yes
+	}
+	
 	ishalitethai = {
 		icon = 11
 		heresy_icon = 11
@@ -210,7 +238,7 @@ pihassasi = {
 		high_god_name = GOD_TARHUMA
 		
 		god_names = {
-			GOD_SHARRUMA GOD_TELIPINU GOD_ARINNITI GOD_ISHTAR
+			GOD_TARHUMA GOD_SHARRUMA GOD_TELIPINU GOD_ARINNITI GOD_ISHTAR
 		}
 		evil_god_names = {
 			GOD_ILLUYANKA GOD_ERRA GOD_TAKNASDUTU
@@ -220,8 +248,7 @@ pihassasi = {
 		allow_rivermovement = yes
 		allow_looting = yes
 		matrilineal_marriages = no
-		max_consorts = 3
-		autocephaly = yes
+		max_wives = 4
 		priests_can_marry = yes
 		priests_can_inherit = yes
 	}

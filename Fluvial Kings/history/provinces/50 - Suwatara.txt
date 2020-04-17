@@ -3,6 +3,6 @@ title=c_suwatara
 max_settlements=6
 b_suwatara=castle
 
-culture=hittite
-religion=catholic
+culture=hattite
+religion=ishalitethai
 terrain=plains

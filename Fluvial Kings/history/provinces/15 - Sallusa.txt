@@ -3,6 +3,6 @@ title=c_sallusa
 max_settlements=6
 b_sallusa=castle
 
-culture=hittite
-religion=catholic
+culture=hattite
+religion=ishalitethai
 terrain=plains
