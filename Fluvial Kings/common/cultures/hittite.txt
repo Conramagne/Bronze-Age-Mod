@@ -1,7 +1,7 @@
 anatolian = {
 	graphical_cultures = { westerngfx }
 
-	hattite = {
+	hittite = {
 		graphical_cultures = { byzantinegfx }
 
 		color = { 0.8 0.3 0.3 }
