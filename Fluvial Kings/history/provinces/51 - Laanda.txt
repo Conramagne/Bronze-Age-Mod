@@ -3,6 +3,6 @@ title=c_laanda
 max_settlements=6
 b_laanda=castle
 
-culture=hattite
+culture=hittite
 religion=ishalitethai
 terrain=plains

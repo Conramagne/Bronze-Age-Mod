@@ -3,6 +3,6 @@ title=c_sappa
 max_settlements=6
 b_sappa=castle
 
-culture=hattite
+culture=hittite
 religion=ishalitethai
 terrain=plains

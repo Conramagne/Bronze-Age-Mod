@@ -3,6 +3,6 @@ title=c_paduwanda
 max_settlements=6
 b_paduwanda=castle
 
-culture=hattite
+culture=hittite
 religion=ishalitethai
 terrain=plains

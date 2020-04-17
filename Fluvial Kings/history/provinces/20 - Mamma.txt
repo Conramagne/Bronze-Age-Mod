@@ -3,6 +3,6 @@ title=c_mamma
 max_settlements=6
 b_mamma=castle
 
-culture=hattite
+culture=hittite
 religion=ishalitethai
 terrain=plains

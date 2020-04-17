@@ -3,6 +3,6 @@ title=c_takkupta
 max_settlements=6
 b_takkupta=castle
 
-culture=hattite
+culture=hittite
 religion=ishalitethai
 terrain=plains

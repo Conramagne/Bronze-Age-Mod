@@ -3,6 +3,6 @@ title=c_pahhuwa
 max_settlements=6
 b_pahhuwa=castle
 
-culture=hattite
+culture=hittite
 religion=ishalitethai
 terrain=plains

@@ -3,6 +3,6 @@ title=c_ullamma
 max_settlements=6
 b_ullamma=castle
 
-culture=hattite
+culture=hittite
 religion=ishalitethai
 terrain=plains

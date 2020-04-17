@@ -3,6 +3,6 @@ title=c_lahhwiyassi
 max_settlements=6
 b_lahhwiyassi=castle
 
-culture=hattite
+culture=hittite
 religion=ishalitethai
 terrain=plains

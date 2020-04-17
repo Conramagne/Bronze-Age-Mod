@@ -1,7 +1,7 @@
 2000000 ={
 	name="Tudhaliya" # Tudhaliya IV
 	dynasty=1627003
-	culture=hattite
+	culture=hittite
 	religion=ishalitethai
 	martial=3
 	diplomacy=3
