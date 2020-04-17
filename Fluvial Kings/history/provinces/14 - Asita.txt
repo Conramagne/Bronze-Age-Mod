@@ -3,6 +3,6 @@ title=c_asita
 max_settlements=6
 b_asita=castle
 
-culture=hittite
-religion=catholic
+culture=hattite
+religion=ishalitethai
 terrain=plains

@@ -3,6 +3,6 @@ title=c_hurma
 max_settlements=6
 b_hurma=castle
 
-culture=hittite
-religion=catholic
+culture=hattite
+religion=ishalitethai
 terrain=plains

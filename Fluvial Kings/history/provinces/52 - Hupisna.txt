@@ -3,6 +3,6 @@ title=c_hupisna
 max_settlements=6
 b_hupisna=castle
 
-culture=hittite
-religion=catholic
+culture=hattite
+religion=ishalitethai
 terrain=plains
