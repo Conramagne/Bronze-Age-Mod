@@ -53,9 +53,16 @@ culture = {
 			file = "gfx\\coats_of_arms\\anatolian_dynasties.tga"
 			size = { x = 10 y = 16 }
 			noOfFrames = 160
-			color = 8
+			color = 0
 			emblem = yes
 			random = no
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\pattern_hattusa.tga"
+			size = { x = 10 y = 16 }
+			noOfFrames = 160
+			color = 8
+			emblem = yes
 		}
 	}
 }
