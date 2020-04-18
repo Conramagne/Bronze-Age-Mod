@@ -6,7 +6,7 @@
 		religion = ishalitethai
 		template = 0
 		layer = {
-			texture = 8
+			texture = 0
 			texture_internal = 0
 			emblem = 0
 			color = 0
