@@ -3,6 +3,6 @@ title=c_tumanna
 max_settlements=6
 b_tumanna=castle
 
-culture=hittite
+culture=pala
 religion=ishalitethai
 terrain=plains

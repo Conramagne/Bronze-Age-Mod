@@ -3,6 +3,6 @@ title=c_kalasma
 max_settlements=6
 b_kalasma=castle
 
-culture=hittite
+culture=pala
 religion=ishalitethai
 terrain=plains

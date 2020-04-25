@@ -3,6 +3,6 @@ title=c_altanna
 max_settlements=6
 b_altanna=castle
 
-culture=hittite
+culture=pala
 religion=ishalitethai
 terrain=plains

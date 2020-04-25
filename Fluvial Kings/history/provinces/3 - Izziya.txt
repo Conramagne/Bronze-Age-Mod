@@ -3,6 +3,6 @@ title=c_izziya
 max_settlements=6
 b_izziya=castle
 
-culture=hittite
+culture=luwian
 religion=ishalitethai
 terrain=plains

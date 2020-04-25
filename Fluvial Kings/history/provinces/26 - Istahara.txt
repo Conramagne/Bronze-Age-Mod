@@ -3,6 +3,6 @@ title=c_istahara
 max_settlements=6
 b_istahara=castle
 
-culture=hittite
+culture=amazonios
 religion=ishalitethai
 terrain=plains

@@ -3,6 +3,6 @@ title=c_tarhuntassa
 max_settlements=6
 b_tarhuntassa=castle
 
-culture=hittite
+culture=luwian
 religion=ishalitethai
 terrain=plains

@@ -3,6 +3,6 @@ title=c_zalpa
 max_settlements=6
 b_zalpa=castle
 
-culture=hittite
+culture=amazonios
 religion=ishalitethai
 terrain=plains

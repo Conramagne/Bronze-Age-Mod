@@ -3,6 +3,6 @@ title=c_salatiwara
 max_settlements=6
 b_salatiwara=castle
 
-culture=hittite
+culture=pala
 religion=ishalitethai
 terrain=plains

@@ -3,6 +3,6 @@ title=c_saranduwa
 max_settlements=6
 b_saranduwa=castle
 
-culture=hittite
+culture=luwian
 religion=ishalitethai
 terrain=plains
