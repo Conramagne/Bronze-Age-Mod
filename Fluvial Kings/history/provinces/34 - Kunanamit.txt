@@ -3,6 +3,6 @@ title=c_kunanamit
 max_settlements=6
 b_kunanamit=castle
 
-culture=amazonios
+culture=kaskian
 religion=ishalitethai
 terrain=plains
