@@ -1,4 +1,5 @@
 2361.1.1={
+	liege= k_hatti
 	holder=2000008 # Arnuwanda I
 }
 2376.1.1={
