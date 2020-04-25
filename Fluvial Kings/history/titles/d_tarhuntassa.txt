@@ -1,5 +1,5 @@
 2361.1.1={
-	liege= d_hatti
+	liege= k_tarhuntassa
 	holder=2000008 # Arnuwanda I
 }
 2376.1.1={
