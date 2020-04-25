@@ -7,21 +7,21 @@ anatolian = {
 		color = { 0.8 0.3 0.3 }
 
 		male_names = {
-			Ahabbu Alluwamna Appuašu Anitta Azatiwata Awariku Ammuna Arnuwanda Astuwalamanza Astiruwa Arnuwanti Ariyahina Ahuni Ambaris Ashwisi
+			Ahabbu Alluwamna AppuaÅ¡u Anitta Azatiwata Awariku Ammuna Arnuwanda Astuwalamanza Astiruwa Arnuwanti Ariyahina Ahuni Ambaris Ashwisi
 			Bamah Bar-Hadad Ben-Hadad Bar-Ga'ya Bar-Rakib Bar-Sur
 			Dadi-Ilu
 			Eni-Ilu
 			Gunzinanu Gurdi Gusi Gabbar
 			Hattusili Hantili Huzziya Halpasulupi Hilaruada Hapatila Hamiyata Hulli Hayya Hadram Hazael Hadyan
-			Ini-Teššub Ir-Teššub Iškallu 
-			Kurunta Katuwa Kamani Kuzi-Teššub Kundašpu Kikki Kurti Kiyakiya Kirua Kirri Kilamuwa Katuzili
+			Ini-TeÅ¡Å¡ub Ir-TeÅ¡Å¡ub IÅ¡kallu 
+			Kurunta Katuwa Kamani Kuzi-TeÅ¡Å¡ub KundaÅ¡pu Kikki Kurti Kiyakiya Kirua Kirri Kilamuwa Katuzili
 			Labarna Lalli Larama
 			Mursili Muwatalli Mugallu Martiti Muwizi Manana Muwaharani Mari Mati-Ilu
 			Piyassili Pisiri Parita Puhamme Pihirim Panamuwa Piyamaradu
 			Runtiya Raqianu 
 			Suppiluliuma Sanduarri Sahurunuwa Suhi Sangara Sastura Sahu Sulumal Satiruntiya Sahwi Suwarimi Surri Sandasarme Sasi Saruwani
-			Tudhaliya Telipinus Talmi-Teššub Tarhunazi Taita Tutammu Toi Tuhamme Tuwati Tulli
-			Uratarhunza Uratami Urahilina Ušhitti Urimme
+			Tudhaliya Telipinus Talmi-TeÅ¡Å¡ub Tarhunazi Taita Tutammu Toi Tuhamme Tuwati Tulli
+			Uratarhunza Uratami Urahilina UÅ¡hitti Urimme
 			Wasuruntiya Wasusarma Warpalawa
 			Zidanta Zakur 
 			Yariri Yau-bidi
