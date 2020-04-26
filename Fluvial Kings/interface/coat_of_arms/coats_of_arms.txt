@@ -54,7 +54,7 @@ culture = {
 			size = { x = 10 y = 16 }
 			noOfFrames = 160
 			color = 0
-			emblem = yes
+			emblem = no
 			random = no
 		}
 		texture = {
@@ -62,7 +62,7 @@ culture = {
 			size = { x = 10 y = 16 }
 			noOfFrames = 160
 			color = 8
-			emblem = yes
+			emblem = no
 		}
 	}
 }
