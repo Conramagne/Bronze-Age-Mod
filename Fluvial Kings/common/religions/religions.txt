@@ -188,7 +188,7 @@ mesopotamian = {
 
 pihassasi = {
 	has_coa_on_barony_only = yes
-	graphical_culture = muslimgfx
+	graphical_culture = indiangfx
 	playable = yes
 	
 	ai_convert_same_group = 1 # try to convert if ai_zeal is high
