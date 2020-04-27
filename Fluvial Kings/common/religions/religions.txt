@@ -197,8 +197,8 @@ pihassasi = {
 	color = { 0.9 0.6 0.2 }
 	
 	haianiluwi = {
-		icon = 11 #temp
-		heresy_icon = 11 #temp
+		icon = 15
+		heresy_icon = 15
 		
 		scripture_name = THE_LUWIAN_ISTANDANT
 		priest_title = SANKUNNI
