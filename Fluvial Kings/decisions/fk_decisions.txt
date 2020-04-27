@@ -1,0 +1,92 @@
+targetted_decisions = {
+	slander_liege = {
+		is_high_prio = yes
+		filter = liege
+		ai_target_filter = liege
+		ai_check_interval = 3
+		only_playable = yes
+		
+		from_potential = {
+			age = 16
+			independent = no
+		}
+		potential = {
+			government = hegemonic_government
+			age = 16
+		}
+		allow = {
+			FROM = {
+				prisoner = no
+				NOT = {
+					is_incapable = yes
+				}
+				NOT = {
+					has_character_modifier = influenced_authority
+				}
+			}
+		}
+		effect = {
+			FROM = {
+				character_event = { id = fkr.124 }
+				add_character_modifier = {
+					modifier = influenced_authority
+					duration = 2555
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.10
+			modifier = {
+				factor = 0
+				FROM = { is_friend = ROOT }
+			}
+			modifier = {
+				factor = 100
+				FROM = { is_rival = ROOT }
+			}
+			modifier = {
+				factor = 1.8
+				FROM = { opinion = { who = ROOT value <= -80 } }
+			}
+			modifier = {
+				factor = 1.6
+				FROM = { opinion = { who = ROOT value <= -60 } }
+			}
+			modifier = {
+				factor = 1.4
+				FROM = { opinion = { who = ROOT value <= -40 } }
+			}
+			modifier = {
+				factor = 1.2
+				FROM = { opinion = { who = ROOT value <= -20 } }
+			}
+			modifier = {
+				factor = 0.8
+				FROM = { opinion = { who = ROOT value = 40 } }
+			}
+			modifier = {
+				factor = 0.6
+				FROM = { opinion = { who = ROOT value = 60 } }
+			}
+			modifier = {
+				factor = 0.4
+				FROM = { opinion = { who = ROOT value = 80 } }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = {
+					trait = content
+				}
+			}
+			modifier = {
+				factor = 1.2
+				FROM = {
+					trait = ambitious
+				}
+			}
+		}
+	}
+}

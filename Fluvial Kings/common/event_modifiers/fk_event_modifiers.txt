@@ -26,3 +26,7 @@ levy_tribute = {
 imperial_authority = {
 	icon = 10
 }
+
+influenced_authority = {
+	icon = 9
+}
