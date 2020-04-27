@@ -4,5 +4,5 @@ max_settlements=6
 b_sinnuwanda=castle
 
 culture=luwian
-religion=ishalitethai
+religion=haianiluwi
 terrain=plains
