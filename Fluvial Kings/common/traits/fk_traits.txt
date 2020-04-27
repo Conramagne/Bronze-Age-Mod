@@ -1,0 +1,52 @@
+figurehead_emperor = {
+	monthly_character_prestige = -0.5
+	vassal_opinion = -10
+	ai_ambition = -50
+	random = no
+	
+	opposites = {
+		weak_emperor
+		strong_emperor
+	}
+	
+	male_insult_adj = INSULT_INEFFECTUAL
+	female_insult_adj = INSULT_INEFFECTUAL
+	child_insult_adj = INSULT_WUSSY
+}
+
+weak_emperor = {
+	monthly_character_prestige = -1
+	global_tax_modifier = -0.25
+	global_levy_size = -0.25
+	global_revolt_risk = 0.05
+	vassal_opinion = -15
+	ai_ambition = -75
+	random = no
+	customizer = no
+	
+	opposites = {
+		figurehead_emperor
+		strong_emperor
+	}
+	
+	male_insult_adj = INSULT_INEFFECTUAL
+	female_insult_adj = INSULT_INEFFECTUAL
+	child_insult_adj = INSULT_WUSSY
+}
+
+strong_emperor = {
+	monthly_character_prestige = 0.25
+	global_tax_modifier = 0.1
+	global_levy_size = 0.1
+	vassal_opinion = 10
+	ai_ambition = 40
+	random = no
+	customizer = no
+	
+	opposites = {
+		figurehead_emperor
+		weak_emperor
+	}
+	
+	male_compliment_adj = COMPL_STRONG
+}

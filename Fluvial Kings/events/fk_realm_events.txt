@@ -332,3 +332,976 @@ character_event = {
 		}
 	}
 }
+
+# ************************** Imperial Authority Events***********************
+
+
+#Setup (on_startup)
+character_event = {
+	id = fkr.100
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		government = hegemonic_government
+		NOT = {
+			primary_title = {
+				has_title_flag = imperial_authority_set
+			}
+		}
+	}
+	
+	immediate = {
+		add_character_modifier = {
+			name = imperial_authority
+			duration = -1
+		}
+		primary_title = {
+			set_title_flag = imperial_authority_set
+			set_title_flag = primary_set
+		}
+		primary_title = {
+			set_variable = { which = var_imperial_authority value = 60 }
+		}
+	}
+}
+
+#Gives Imperial Authority to new Emperors that are not heirs
+character_event = {
+	id = fkr.101
+	desc = EVTDESCFKR101
+	picture = GFX_evt_placeholder
+	trigger = {
+		government = hegemonic_government
+		NOT = {
+			primary_title = {
+				has_title_flag = imperial_authority_set
+			}
+		}
+		NOT = {
+			any_demesne_title = {
+				has_title_flag = imperial_authority_set
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			set_title_flag = imperial_authority_set
+			set_title_flag = primary_set
+		}
+		primary_title = {
+			set_variable = { which = var_imperial_authority value = 60 }
+		}
+	}
+	
+	option = {
+		name = OK
+		add_character_modifier = {
+			name = imperial_authority_set
+			duration = -1
+		}
+		hidden_tooltip = {
+			primary_title = {
+				set_variable = { which = var_imperial_authority value = 60 }
+			}
+		}
+	}
+}
+
+#Gives Imperial Authority Modifier to heirs
+character_event = {
+	id = fkr.102
+	desc = EVTDESCFKR102
+	picture = GFX_evt_placeholder
+	trigger = {
+		NOT = {
+			ROOT = {
+				has_character_modifier = imperial_authority_set
+			}
+		}
+		primary_title = {
+			has_title_flag = imperial_authority_set
+		}
+		ROOT = {
+			government = hegemonic_government
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OK
+		add_character_modifier = {
+			name = imperial_authority
+			duration = -1
+		}
+	}
+}
+
+#Remove Imperial Authority
+character_event = {
+	id = fkr.103
+	hide_window = yes
+	trigger = {
+		NOT = {
+			ROOT = {
+				government = hegemonic_government
+			}
+		}
+		OR = {
+			any_demesne_title = {
+				has_title_flag = imperial_authority_set
+			} 
+			any_demesne_title = {
+				has_title_flag = primary_set
+			} 
+		}
+	}
+	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_demesne_title = {
+			clr_title_flag = imperial_authority_set
+			clr_title_flag = primary_set
+		} 
+		hidden_tooltip = {
+			remove_character_modifier = imperial_authority
+			remove_trait = weak_emperor
+			remove_trait = figurehead_emperor
+			remove_trait = strong_emperor
+			remove_character_modifier = poor_reforms
+			remove_character_modifier = good_reforms
+			remove_character_modifier = sold_bureaucratic_positions
+		}
+	}
+}
+
+#Primary title switch
+character_event = {
+	id = fkr.104
+	hide_window = yes
+	trigger = {
+		government = hegemonic_government
+		any_demesne_title = {
+			has_title_flag = imperial_authority_set
+			has_title_flag = primary_set
+		}
+		NOT = {
+			primary_title = {
+				has_title_flag = imperial_authority_set
+			}
+		}	
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_demesne_title = {
+			limit = {
+				has_title_flag = primary_set
+			}
+			set_variable = { which = global_self_imperial_authority which = var_imperial_authority }
+			clr_title_flag = imperial_authority_set
+			clr_title_flag = primary_set
+		}
+		primary_title = {
+			set_variable = { which = var_imperial_authority which = global_self_imperial_authority }
+			set_title_flag = imperial_authority_set
+			set_title_flag = primary_set
+		}
+	}
+}
+
+#Gives appropriate traits
+character_event = {
+	id = fkr.105
+	desc = {
+		picture = GFX_evt_china_isolationist
+		trigger = {
+			primary_title = { check_variable = { which = var_imperial_authority value < 10 } }
+		}
+		text = EVTDESCFKR105_WEAK
+	}
+	desc = {
+		picture = GFX_evt_china_isolationist
+		trigger = {
+			primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
+		}
+		text = EVTDESCFKR105_NOTWEAK
+	}
+	desc = {
+		picture = GFX_evt_china_isolationist
+		trigger = {
+			primary_title = { check_variable = { which = var_imperial_authority value < 50 } }
+		}
+		text = EVTDESCFKR105_FIGUREHEAD
+	}
+	desc = {
+		picture = GFX_evt_china_open
+		trigger = {
+			primary_title = { check_variable = { which = var_imperial_authority value > 50 } }
+		}
+		text = EVTDESCFKR105
+	}
+	desc = {
+		picture = GFX_evt_china_isolationist
+		trigger = {
+			primary_title = { check_variable = { which = var_imperial_authority value < 70 } }
+			trait = strong_emperor
+		}
+		text = EVTDESCFKR105_B
+	}
+	desc = {
+		picture = GFX_evt_china_golden_age
+		trigger = {
+			primary_title = { check_variable = { which = var_imperial_authority value > 70 } }
+		}
+		text = EVTDESCFKR105_STRONG
+	}
+	
+	trigger = {
+		government = hegemonic_government
+		OR = {
+			AND = {
+				primary_title = { check_variable = { which = var_imperial_authority value < 10 } }
+				NOT = {
+					trait = weak_emperor
+				}
+			}
+			AND = {
+				primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
+				trait = weak_emperor
+			}
+			AND = {
+				primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
+				primary_title = { check_variable = { which = var_imperial_authority value < 50 } }
+				NOT = {
+					trait = figurehead_emperor
+				}
+			}
+			AND = {
+				primary_title = { check_variable = { which = var_imperial_authority value > 50 } }
+				trait = figurehead_emperor
+			}
+			AND = {
+				primary_title = { check_variable = { which = var_imperial_authority value < 70 } }
+				trait = strong_emperor
+			}
+			AND = {
+				primary_title = { check_variable = { which = var_imperial_authority value > 70 } }
+				NOT = {
+					trait = strong_emperor
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = {
+			text = EVTOPTAFKR105_WEAK
+			trigger = {
+				primary_title = { check_variable = { which = var_imperial_authority value < 10 } }
+				NOT = {
+					trait = weak_emperor
+				}
+			}
+		}
+		name = {
+			text = EVTOPTAFKR105_NOTWEAK
+			trigger = {
+				primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
+				trait = weak_emperor
+			}
+		}
+		name = {
+			text = EVTOPTAFKR105_FIGUREHEAD
+			trigger = {
+				primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
+				primary_title = { check_variable = { which = var_imperial_authority value < 50 } }
+				NOT = {
+					trait = figurehead_emperor
+				}
+			}
+		}
+		name = {
+			text = EVTOPTAFKR105
+			trigger = {
+				primary_title = { check_variable = { which = var_imperial_authority value > 50 } }
+				trait = figurehead_emperor
+			}
+		}
+		name = {
+			text = EVTOPTAFKR105_B
+			trigger = {
+				primary_title = { check_variable = { which = var_imperial_authority value < 70 } }
+				trait = strong_emperor
+			}
+		}
+		name = {
+			text = EVTOPTAFKR105_STRONG
+			trigger = {
+				primary_title = { check_variable = { which = var_imperial_authority value > 70 } }
+				NOT = {
+					trait = strong_emperor
+				}
+			}
+		}
+		if = {
+			limit = {
+				primary_title = { check_variable = { which = var_imperial_authority value < 10 } }
+				NOT = {
+					trait = weak_emperor
+				}
+			}
+			add_trait = weak_emperor
+			remove_trait = figurehead_emperor
+		}
+		if = {
+			limit = {
+				primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
+				trait = weak_emperor
+			}
+			remove_trait = weak_emperor
+		}
+		if = {
+			limit = {
+				primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
+				primary_title = { check_variable = { which = var_imperial_authority value < 50 }
+				NOT = { }
+					trait = figurehead_emperor
+				}
+			}
+			add_trait = figurehead_emperor
+		}
+		if = {
+			limit = {
+				primary_title = { check_variable = { which = var_imperial_authority value > 50 } }
+				trait = figurehead_emperor
+			}
+			remove_trait = figurehead_emperor
+		}
+		if = {
+			limit = {
+				primary_title = { check_variable = { which = var_imperial_authority value < 70 } }
+				trait = strong_emperor
+			}
+			remove_trait = strong_emperor
+		}
+		if = {
+			limit = {
+				primary_title = { check_variable = { which = var_imperial_authority value > 70 } }
+				NOT = {
+					trait = strong_emperor
+				}
+			}
+			add_trait = strong_emperor
+		}
+	}
+}	
+
+#If Imperial Authority > 100, sets it to 100
+character_event = {
+	id = fkr.106
+	hide_window = yes
+	trigger = {
+		primary_title = {
+			check_variable = { which = var_imperial_authority value >= 100 }
+		}
+		government = hegemonic_government
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			set_variable = { which = var_imperial_authority value = 100 }
+		}
+	}
+}
+
+#If Imperial Authority < 0, sets it to 0
+character_event = {
+	id = fkr.107
+	hide_window = yes
+	trigger = {
+		government = hegemonic_government
+		primary_title = {
+			check_variable = { which = var_imperial_authority value < 0 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			set_variable = { which = var_imperial_authority value = 0 }
+		}
+	}
+}
+
+#Rise: Good Stats
+character_event = {
+	id = fkr.108
+	desc = EVTDESCFKR108
+	picture = GFX_evt_china_open
+	min_age = 16
+	
+	trigger = {
+		government = hegemonic_government
+		OR = {
+			diplomacy = 15
+			martial = 15
+			stewardship = 15
+			intrigue = 15
+			learning = 15
+			trait = genius
+			trait = quick
+			trait = strong
+			trait = grey_eminence
+			trait = brilliant_strategist
+			trait = midas_touched
+			trait = elusive_shadow
+			trait = administrator
+		}
+		NOT = {
+			has_character_flag = imperial_authority_good_stats
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = var_imperial_authority value = 5 }
+		}
+	}
+	
+	option = {
+		name = opta_excellent
+		custom_tooltip = {
+			text = imperial_authority_increase_5_TT
+		}
+		hidden_tooltip = {
+			set_character_flag = imperial_authority_good_stats
+		}
+	}
+}
+
+#Set up for loyal councillors
+character_event = {
+	id = fkr.109
+	hide_window = yes
+	
+	has_job_title = yes
+	
+	trigger = {
+		liege = {
+			government = hegemonic_government
+		}
+		NOT = {
+			has_character_flag = loyal_councilor
+		}
+		has_position = loyalist
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = loyal_councilor
+		if = {
+			limit = {
+				has_character_flag = disloyal_councilor
+			}
+			remove_character_modifier = disloyal_councilor
+		}
+		liege = {
+			character_event = { id = fkr.110 }
+		}
+	}
+}
+
+#Rise: Loyal Councilor
+character_event = {
+	id = fkr.110
+	desc = EVTDESCFKR110
+	picture = GFX_evt_china_golden_age
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				FROM = {
+					is_powerful_vassal = yes 
+				}
+			}
+			primary_title = {
+				change_variable = { which = var_imperial_authority value = 5 }
+			}
+		}
+		else = {
+			primary_title = {
+				change_variable = { which = var_imperial_authority value = 2.5 }
+			}
+		}
+	}
+	
+	option = {
+		name = opta_excellent
+		if = {
+			limit = {
+				FROM = {
+					is_powerful_vassal = yes 
+				}
+			}
+			custom_tooltip = {
+				text = imperial_authority_increase_5_TT
+			}
+		}
+		else = {
+			custom_tooltip = {
+				text = imperial_authority_increase_2_5_TT
+			}
+		}
+		prestige = 25
+	}
+}
+
+#Rise: Weak Council
+character_event = {
+	id = fkr.111
+	desc = EVTDESCFKR111
+	picture = GFX_evt_china_golden_age
+	notification = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		government = hegemonic_government
+		NOT = {
+			has_character_flag = law_no_change
+		}
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = var_imperial_authority value = 5 }
+		}
+	}
+	
+	option = {
+		name = opta_excellent
+		custom_tooltip = {
+			text = imperial_authority_increase_5_TT
+		}
+		prestige = 25
+	}
+}
+
+#Rise: Major Victory
+character_event = {
+	id = fkr.112
+	desc = EVTDESCFKR112
+	picture = GFX_evt_china_golden_age
+	notification = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		government = hegemonic_government
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = var_imperial_authority value = 2.5 }
+		}
+	}
+	
+	option = {
+		name = opta_excellent
+		custom_tooltip = {
+			text = imperial_authority_increase_2_5_TT
+		}
+		prestige = 25
+	}
+}
+
+#Rise: Led Major Victory
+character_event = {
+	id = fkr.113
+	desc = EVTDESCFKR113
+	picture = GFX_evt_china_golden_age
+	notification = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		government = hegemonic_government
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = var_imperial_authority value = 5 }
+		}
+	}
+	
+	option = {
+		name = opta_excellent
+		custom_tooltip = {
+			text = imperial_authority_increase_5_TT
+		}
+		prestige = 25
+	}
+}
+
+#Fall: Bad Stats
+character_event = {
+	id = fkr.114
+	desc = EVTDESCFKR114
+	picture = GFX_evt_china_open
+	min_age = 16
+	
+	trigger = {
+		government = hegemonic_government
+		OR = {
+			diplomacy < 5
+			martial < 5
+			stewardship < 5
+			intrigue < 5
+			learning < 5
+			trait = dull
+			trait = imbecile
+			trait = inbred
+			trait = slow
+			trait = weak
+			trait = naive_appeaser
+			trait = misguided_warrior
+			trait = indulgent_wastrel
+			trait = amateurish_plotter
+			trait = administrator
+		}
+		NOT = {
+			has_character_flag = imperial_authority_bad_stats
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = var_imperial_authority value = -5 }
+		}
+	}
+	
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			text = imperial_authority_decrease_5_TT
+		}
+		hidden_tooltip = {
+			set_character_flag = imperial_authority_bad_stats
+		}
+	}
+}
+
+#Set up for disloyal councillors
+character_event = {
+	id = fkr.115
+	hide_window = yes
+	
+	has_job_title = yes
+	
+	trigger = {
+		liege = {
+			government = hegemonic_government
+		}
+		NOT = {
+			has_character_flag = disloyal_councilor
+		}
+		has_position = malcontent
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = disloyal_councilor
+		if = {
+			limit = {
+				has_character_flag = loyal_councilor
+			}
+			remove_character_modifier = loyal_councilor
+		}
+		liege = {
+			character_event = { id = fkr.116 }
+		}
+	}
+}
+
+#Fall: Disloyal Councilor
+character_event = {
+	id = fkr.116
+	desc = EVTDESCFKR116
+	picture = GFX_evt_china_golden_age
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				FROM = {
+					is_powerful_vassal = yes 
+				}
+			}
+			primary_title = {
+				change_variable = { which = var_imperial_authority value = -5 }
+			}
+		}
+		else = {
+			primary_title = {
+				change_variable = { which = var_imperial_authority value = -2.5 }
+			}
+		}
+	}
+	
+	option = {
+		name = opta_disappointing
+		if = {
+			limit = {
+				FROM = {
+					is_powerful_vassal = yes 
+				}
+			}
+			custom_tooltip = {
+				text = imperial_authority_decrease_5_TT
+			}
+		}
+		else = {
+			custom_tooltip = {
+				text = imperial_authority_decrease_2_5_TT
+			}
+		}
+		prestige = -25
+	}
+}
+
+#Fall: Strong Council
+character_event = {
+	id = fkr.117
+	desc = EVTDESCFKR117
+	picture = GFX_evt_china_golden_age
+	notification = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		government = hegemonic_government
+		NOT = {
+			has_character_flag = law_no_change
+		}
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = var_imperial_authority value = -5 }
+		}
+	}
+	
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			text = imperial_authority_decrease_5_TT
+		}
+		prestige = -25
+	}
+}
+
+#Fall: Major Loss
+character_event = {
+	id = fkr.118
+	desc = EVTDESCFKR118
+	picture = GFX_evt_china_golden_age
+	notification = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		government = hegemonic_government
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = var_imperial_authority value = -2.5 }
+		}
+	}
+	
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			text = imperial_authority_decrease_2_5_TT
+		}
+		prestige = -25
+	}
+}
+
+#Fall: Led Major Loss
+character_event = {
+	id = fkr.119
+	desc = EVTDESCFKR119
+	picture = GFX_evt_china_golden_age
+	notification = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		government = hegemonic_government
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = var_imperial_authority value = -5 }
+		}
+	}
+	
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			text = imperial_authority_decrease_5_TT
+		}
+		prestige = -25
+	}
+}
+
+#Fall: Succession
+character_event = {
+	id = fkr.120
+	desc = EVTDESCFKR120
+	picture = GFX_evt_china_isolationist
+	is_triggered_only = yes
+	
+	trigger = {
+		government = hegemonic_government
+		current_heir = {
+			is_landed = no
+			NOT = {
+				government = hegemonic_government
+			}
+		}
+		primary_title = {
+			check_variable = { which = var_imperial_authority value = 20 }
+		}
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = var_imperial_authority value = -10 }
+		}
+		current_heir = {
+			add_character_modifier = {
+				name = imperial_authority
+				duration = -1
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTAFKR120
+		custom_tooltip = {
+			text = imperial_authority_decrease_5_TT
+		}
+	}
+}
+
+#Authority Decrease - Regency Set Up
+character_event = {
+	id = fkr.121
+	hide_window = yes
+	trigger = {
+		government = hegemonic_government
+		NOT = {
+			trait = weak_emperor
+		}
+		has_regent = yes
+		NOT = {
+			has_character_flag = imperial_authority_regent
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = imperial_authority_regent
+	}
+}
+
+#Fall: Regency
+character_event = {
+	id = fkr.122
+	desc = EVTDESCFKR122
+	picture = GFX_evt_council
+	trigger = {
+		government = hegemonic_government
+		has_regent = yes
+		had_character_flag = {
+			flag = imperial_authority_regent
+			days = 1825
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_character_flag = imperial_authority_regent
+		set_character_flag = imperial_authority_regent
+		primary_title = {
+			change_variable = { which = var_imperial_authority value = -5 }
+		}
+	}
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			text = imperial_authority_decrease_5_TT
+		}
+	}
+}
+
+#Authority Decrease - Regency Cleanup
+character_event = {
+	id = fkr.123
+	hide_window = yes
+	trigger = {
+		government = hegemonic_government
+		has_regent = no
+		has_character_flag = imperial_authority_regent
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_character_flag = imperial_authority_regent
+	}
+}

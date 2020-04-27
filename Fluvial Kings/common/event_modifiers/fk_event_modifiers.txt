@@ -22,3 +22,7 @@ levy_tribute = {
 	levy_size = 0.25
 	icon = 1
 }
+
+imperial_authority = {
+	icon = 10
+}

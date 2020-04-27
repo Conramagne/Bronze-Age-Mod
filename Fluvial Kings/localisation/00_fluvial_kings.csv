@@ -120,3 +120,6 @@ d_berith;The High Priesthood;;;;;;;;;;;;;x
 d_berith_adj;Priestly;;;;;;;;;;;;;x
 d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
 d_ili_abinia_adj;Priestly;;;;;;;;;;;;;x
+
+###########Traits and Character/Province Modifiers###########
+imperial_authority;Imperial Authority ([Root.global_imp_auth.GetValue]%);;;;;;;;;;;;;x
