@@ -8,7 +8,7 @@ kaskian;Kaskian;;;;;;;;;;;;;x
 
 ###########Government and Law###########
 feudal_government;Local Polity;;;;;;;;;;;;;x
-feudal_government_desc;Local Polities and States whom have arisen from disunited tribes and confederations or have fallen from the graces of regional supremacy. Often considered nothing more than petty states with squabbling tyrants,they lack any grandeur and lack the capacity to administer more than their local communities. Greater Monarchies have great sway over these lesser lords.;;;;;;;;;;;;;x
+feudal_government_desc;Local Polities and States that have arisen from disunited tribes and confederations or have slipped out of the grasps of larger Realms. Often considered nothing more than petty states with squabbling tyrants whose authority barely extends beyond the walls of their citadels, they lack the courtly grandeur and the ability to administer more than their local communities. The Greater Monarchies have much sway over these lesser lords.;;;;;;;;;;;;;x
 regional_kingdom_government;Regional Authority;;;;;;;;;;;;;x
 regional_kingdom_government_desc;Regional Authorities are the Kingdoms and Regional Powers that are below the prominence of a Greater Kingdom but are potent enough powers in their own locale. Monarchs rely on landed military aristocrats and a growing palace structure. This represent the united polity of a people as well as their subjugated neighbors.;;;;;;;;;;;;;x
 hegemonic_government;Hegemonic Power;;;;;;;;;;;;;x
