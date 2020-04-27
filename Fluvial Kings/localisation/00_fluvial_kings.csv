@@ -67,6 +67,7 @@ haianiluwi_DESC;The Luwi traditions and gods are kin to their Hatti cousins. Tar
 THE_AMURRU_KTOVET;The Amurru K'tovet;;;;;;;;;;;;;x
 THE_BAAL_KTOVET;The Ba’al K'tovet;;;;;;;;;;;;;x
 THE_HATTI_ISTANDANT;The Hatti Istandant;;;;;;;;;;;;;x
+THE_LUWIAN_ISTANDANT;The Luwian Istandant;;;;;;;;;;;;;x
 THE_TORAH;The Torah;;;;;;;;;;;;;x
 THE_QOS_KTOVET;The Qos K'tovet;;;;;;;;;;;;;x
 
@@ -102,10 +103,15 @@ GOD_TARHUMA;Tarhuma;;;;;;;;;;;;;x
 GOD_TELIPINU;Telipinu;;;;;;;;;;;;;x
 GOD_THE_LORD;The Lord;;;;;;;;;;;;;x
 GOD_YAM;Yam;;;;;;;;;;;;;x
+GOD_SHANTA;Shanta;;;;;;;;;;;;;x
+GOD_ARMA;Arma;;;;;;;;;;;;;x
+GOD_TIWAZ;Tiwaz;;;;;;;;;;;;;x
 
 KOHEN;Kohen;;;;;;;;;;;;;x
+SANKUNNI;Sankunni;;;;;;;;;;;;;x
 HEAD_KOHEN_GADOL;Kohen Gadol;;;;;;;;;;;;;x
 HEAD_KOHEN_AMURRU;Kohen Amurru;;;;;;;;;;;;;x
+HEAD_SALLISANKUNI;Sallisankuni;;;;;;;;;;;;;x
 
 ###########Titles###########
 d_berith;The High Priesthood;;;;;;;;;;;;;x
