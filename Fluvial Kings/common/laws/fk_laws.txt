@@ -1,0 +1,547 @@
+law_groups = {
+	system_law = {
+		law_type = realm
+		allowed_for_councillors = yes
+	}
+	foreigner_law = {
+		law_type = realm
+		allowed_for_councillors = yes
+	}
+	tribute_law = {
+		law_type = realm
+		allowed_for_councillors = yes
+	}
+}
+
+laws = {
+	system_law_0 = { #Oligarchic
+		group = system_law
+		
+		potential = {
+			NOT = { tier = baron }
+		}
+		allow = {
+			has_law = system_law_1			
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.01
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						has_law = system_law_1
+						holder_scope = {
+							OR = {
+								is_republic = yes
+								is_nomadic = yes
+							}
+						}
+					}
+					AND = {
+						has_law = system_law_1
+						holder_scope = {
+							is_feudal = yes
+						}
+					}
+					NOT = {
+						holder_scope = {
+							OR = {
+								is_republic = yes
+								is_feudal = yes
+								is_nomadic = yes
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_law = system_law_1
+					}
+					holder_scope = {
+						any_vassal = {
+							limit = {
+								is_feudal = yes
+								NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_dislikes_new_obligation_law } }
+								NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_likes_new_obligation_law } }
+							}
+							opinion = {
+								who = ROOT
+								modifier = opinion_likes_new_obligation_law
+								years = 5
+							}
+						}
+					}
+				}
+				revoke_law = system_law_1
+			}
+		}
+		retinuesize_perc = -0.3
+		castle_vassal_tax_modifier = 0.15
+	}
+	
+	system_law_1 = { #Royal
+		group = system_law
+		default = yes
+		
+		potential = {
+			NOT = { tier = baron }
+		}
+		allow = {
+			has_law = system_law_0			
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.01
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						has_law = system_law_0
+						holder_scope = {
+							OR = {
+								is_republic = yes
+								is_nomadic = yes
+							}
+						}
+					}
+					AND = {
+						has_law = system_law_0
+						holder_scope = {
+							is_feudal = yes
+						}
+					}
+					NOT = {
+						holder_scope = {
+							OR = {
+								is_republic = yes
+								is_feudal = yes
+								is_nomadic = yes
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_law = system_law_0
+					}
+					holder_scope = {
+						any_vassal = {
+							limit = {
+								is_feudal = yes
+								NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_dislikes_new_obligation_law } }
+								NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_likes_new_obligation_law } }
+							}
+							opinion = {
+								who = ROOT
+								modifier = opinion_dislikes_new_obligation_law
+								years = 5
+							}
+						}
+					}
+				}
+				revoke_law = system_law_0
+			}
+		}
+		retinuesize_perc = 0.3
+		castle_vassal_tax_modifier = -0.15
+	}
+	
+	foreigner_law_0 = { #Oppressive
+		group = foreigner_law
+		
+		potential = {
+			holder_scope = {
+				government = hegemonic_government
+			}
+		}
+		allow = {
+			OR = {
+				has_law = foreigner_law_1
+				has_law = foreigner_law_2
+			}			
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 5
+				OR = {
+					holder_scope = {
+						trait = cruel
+					}
+					holder_scope = {
+						trait = arbitrary
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					holder_scope = {
+						trait = kind
+					}
+					holder_scope = {
+						trait = just
+					}
+				}
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = {
+				any_realm_province = {
+					limit = {
+						NOT = {
+							culture = ROOT
+						}
+					}
+					add_province_modifier = {
+						name = oppressive_rule
+						duration = -1
+					}
+					remove_province_modifier = autonomous_rule
+				}
+			}
+		}
+		effect = {
+			hidden_tooltip = {
+				holder_scope = {
+					any_vassal = {
+						limit = {
+							NOT = {
+								culture = ROOT
+							}
+							NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_oppressive_overlord } }
+						}
+						opinion = {
+							who = ROOT
+							modifier = opinion_oppressive_overlord
+							years = 50
+						}
+					}
+				}
+			}
+			revoke_law = foreigner_law_1
+			revoke_law = foreigner_law_2
+		}
+	}
+	
+	foreigner_law_1 = { #Neutral
+		group = foreigner_law
+		default = yes
+		
+		potential = {
+			holder_scope = {
+				government = hegemonic_government
+			}
+		}
+		allow = {
+			OR = {
+				has_law = foreigner_law_0
+				has_law = foreigner_law_2
+			}			
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 0
+				OR = {
+					holder_scope = {
+						trait = cruel
+					}
+					holder_scope = {
+						trait = arbitrary
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					holder_scope = {
+						trait = kind
+					}
+					holder_scope = {
+						trait = just
+					}
+				}
+				has_law = foreigner_law_2
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					holder_scope = {
+						trait = kind
+					}
+					holder_scope = {
+						trait = just
+					}
+				}
+				NOT = {
+					has_law = foreigner_law_2
+				}
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = {
+				any_realm_province = {
+					remove_province_modifier = autonomous_rule
+					remove_province_modifier = oppressive_rule
+				}
+			}
+		}
+		effect = {
+			hidden_tooltip = {
+				holder_scope = {
+					any_vassal = {
+						limit = {
+							has_opinion_modifier = { who = ROOT modifier = opinion_oppressive_overlord }
+						}
+						remove_opinion = {
+							who = ROOT
+							modifier = opinion_oppressive_overlord
+						}
+					}
+				}
+			}
+			revoke_law = foreigner_law_0
+			revoke_law = foreigner_law_2
+		}
+	}
+	
+	foreigner_law_2 = { #Autonomous
+		group = foreigner_law
+		
+		potential = {
+			holder_scope = {
+				government = hegemonic_government
+			}
+		}
+		allow = {
+			OR = {
+				has_law = foreigner_law_0
+				has_law = foreigner_law_1
+			}			
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 0
+				OR = {
+					holder_scope = {
+						trait = cruel
+					}
+					holder_scope = {
+						trait = arbitrary
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					holder_scope = {
+						trait = kind
+					}
+					holder_scope = {
+						trait = just
+					}
+				}
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = {
+				any_realm_province = {
+					limit = {
+						NOT = {
+							culture = ROOT
+						}
+					}
+					add_province_modifier = {
+						name = autonomous_rule
+						duration = -1
+					}
+					remove_province_modifier = oppressive_rule
+				}
+			}
+		}
+		effect = {
+			hidden_tooltip = {
+				holder_scope = {
+					any_vassal = {
+						limit = {
+							has_opinion_modifier = { who = ROOT modifier = opinion_oppressive_overlord }
+						}
+						remove_opinion = {
+							who = ROOT
+							modifier = opinion_oppressive_overlord
+						}
+					}
+				}
+			}
+			revoke_law = foreigner_law_0
+			revoke_law = foreigner_law_1
+		}
+	}
+	
+	tribute_law_0 = { #Tax
+		group = tribute_law
+		
+		potential = {
+			holder_scope = {
+				government = hegemonic_government
+			}
+		}
+		allow = {
+			OR = {
+				has_law = tribute_law_1
+				has_law = tribute_law_2
+			}			
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = {
+				any_realm_province = {
+					limit = {
+						NOT = {
+							culture = ROOT
+						}
+					}
+					add_province_modifier = {
+						name = tax_tribute
+						duration = -1
+					}
+					remove_province_modifier = levy_tribute
+				}
+			}
+		}
+		effect = {
+			revoke_law = tribute_law_1
+			revoke_law = tribute_law_2
+		}
+	}
+	
+	tribute_law_1 = { #Neutral
+		group = tribute_law
+		default = yes
+		
+		potential = {
+			holder_scope = {
+				government = hegemonic_government
+			}
+		}
+		allow = {
+			OR = {
+				has_law = tribute_law_0
+				has_law = tribute_law_2
+			}			
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = {
+				any_realm_province = {
+					remove_province_modifier = tax_tribute
+					remove_province_modifier = levy_tribute
+				}
+			}
+		}
+		effect = {
+			revoke_law = tribute_law_0
+			revoke_law = tribute_law_2
+		}
+	}
+	
+	tribute_law_2 = { #Levy
+		group = tribute_law
+		
+		potential = {
+			holder_scope = {
+				government = hegemonic_government
+			}
+		}
+		allow = {
+			OR = {
+				has_law = tribute_law_0
+				has_law = tribute_law_1
+			}			
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		pass_effect = {
+			holder_scope = {
+				any_realm_province = {
+					limit = {
+						NOT = {
+							culture = ROOT
+						}
+					}
+					add_province_modifier = {
+						name = levy_tribute
+						duration = -1
+					}
+					remove_province_modifier = tax_tribute
+				}
+			}
+		}
+		effect = {
+			revoke_law = tribute_law_0
+			revoke_law = tribute_law_1
+		}
+	}
+}

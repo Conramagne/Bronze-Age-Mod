@@ -1,4 +1,25 @@
-2000000 ={
+#Hittite Emperors (2000000-2000999)
+2000010 = { #Change id when expanding king list
+	name = "Šuppiluliuma" # Šuppiluliuma II
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2000000
+	2518.1.1 = { birth = yes}
+	2584.1.1 = { death = yes}
+}
+
+2000009 = { #Change id when expanding king list
+	name = "Arnuwanda" # Arnuwanda III
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2000000
+	2513.1.1 = { birth = yes}
+	2556.1.1 = { death = yes}
+}
+
+2000000 = {
 	name = "Tudhaliya" # Tudhaliya IV
 	dynasty = 2000000 #Labarnid
 	culture = hittite
@@ -8,10 +29,11 @@
 	stewardship = 4
 	intrigue = 5
 	learning = 5
-	trait = tough_soldier
+	trait = misguided_warrior
 	trait = craven
+	father = 2000001
 	2493.1.1 = { birth = yes}
-	2561.1.1 = { death = yes}
+	2552.1.1 = { death = yes}
 }
 
 2000001 = {
@@ -91,4 +113,28 @@
 	religion = ishalitethai
 	2321.1.1 = { birth = yes }
 	2376.1.1 = { death = yes }
+}
+#Important Imperial Family (2001000-2001999)
+
+2001000 = {
+	name = "Kurunta" # Ulmi-Teššup/Kurunta, King of Tarhuntassa
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	martial = 3
+	trait = brilliant_strategist
+	trait = shrewd
+	trait = ambitious
+	trait = arbitrary
+	trait = envious
+	trait = wroth
+	trait = hunter
+	father = 2000003
+	2468.1.1 = { birth = yes }
+	2512.1.1 = {
+		effect = {
+			add_rival = 2000000
+		}
+	}
+	2552.12.1 = { death = yes }
 }

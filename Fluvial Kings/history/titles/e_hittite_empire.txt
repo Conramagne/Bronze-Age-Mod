@@ -1,5 +1,6 @@
 2361.1.1={
 	holder=2000008 # Arnuwanda I
+	law = succ_familial_elective
 }
 2376.1.1={
 	holder=2000007 # Tudhaliya III

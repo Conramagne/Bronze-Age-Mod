@@ -1,0 +1,24 @@
+oppressive_rule = {
+	local_tax_modifier = 0.25
+	local_revolt_risk = 0.15
+	icon = 98
+}
+
+autonomous_rule = {
+	local_tax_modifier = -0.25
+	levy_size = -0.25
+	local_revolt_risk = -0.3
+	icon = 97
+}
+
+tax_tribute = {
+	local_tax_modifier = 0.25
+	levy_size = -0.25
+	icon = 6
+}
+
+levy_tribute = {
+	local_tax_modifier = -0.25
+	levy_size = 0.25
+	icon = 1
+}

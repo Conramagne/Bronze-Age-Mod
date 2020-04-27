@@ -1,0 +1,334 @@
+namespace = fkr
+
+character_event = {
+	id = fkr.1
+	hide_window = yes
+	trigger = {
+		independent = yes
+		any_realm_province = {
+			culture = ROOT
+			OR = {
+				has_province_modifier = oppressive_rule
+				has_province_modifier = autonomous_rule
+				has_province_modifier = tax_tribute
+				has_province_modifier = levy_tribute
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_realm_province = {
+			limit = {
+				culture = ROOT
+			}
+			remove_province_modifier = oppressive_rule
+			remove_province_modifier = autonomous_rule
+			remove_province_modifier = tax_tribute
+			remove_province_modifier = levy_tribute
+		}
+	}
+}
+
+character_event = {
+	id = fkr.2
+	hide_window = yes
+	trigger = {
+		independent = yes
+		NOT = {
+			has_law = foreigner_law_0
+		}
+		any_realm_province = {
+			has_province_modifier = oppressive_rule
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_realm_province = {
+			remove_province_modifier = oppressive_rule
+		}
+		
+		if = {
+			limit = {
+				has_law = foreigner_law_2
+			}
+			any_realm_province = {
+				limit = {
+					NOT = {
+						culture = ROOT
+					}
+				}
+				add_province_modifier = {
+					name = autonomous_rule
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = fkr.3
+	hide_window = yes
+	trigger = {
+		independent = yes
+		NOT = {
+			has_law = foreigner_law_2
+		}
+		any_realm_province = {
+			has_province_modifier = autonomous_rule
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_realm_province = {
+			remove_province_modifier = autonomous_rule
+		}
+		
+		if = {
+			limit = {
+				has_law = foreigner_law_0
+			}
+			any_realm_province = {
+				limit = {
+					NOT = {
+						culture = ROOT
+					}
+				}
+				add_province_modifier = {
+					name = oppressive_rule
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = fkr.4
+	hide_window = yes
+	trigger = {
+		independent = yes
+		NOT = {
+			has_law = tribute_law_0
+		}
+		any_realm_province = {
+			has_province_modifier = tax_tribute
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_realm_province = {
+			remove_province_modifier = tax_tribute
+		}
+		
+		if = {
+			limit = {
+				has_law = tribute_law_2
+			}
+			any_realm_province = {
+				limit = {
+					NOT = {
+						culture = ROOT
+					}
+				}
+				add_province_modifier = {
+					name = levy_tribute
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = fkr.5
+	hide_window = yes
+	trigger = {
+		independent = yes
+		NOT = {
+			has_law = tribute_law_2
+		}
+		any_realm_province = {
+			has_province_modifier = levy_tribute
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_realm_province = {
+			remove_province_modifier = levy_tribute
+		}
+		
+		if = {
+			limit = {
+				has_law = tribute_law_0
+			}
+			any_realm_province = {
+				limit = {
+					NOT = {
+						culture = ROOT
+					}
+				}
+				add_province_modifier = {
+					name = tax_tribute
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = fkr.6
+	hide_window = yes
+	trigger = {
+		independent = yes
+		has_law = foreigner_law_0
+		any_realm_province = {
+			NOT = {
+				culture = ROOT
+				has_province_modifier = oppressive_rule
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_realm_province = {
+			limit = {
+				NOT = {
+					culture = ROOT
+				}
+			}
+			add_province_modifier = {
+				name = oppressive_rule
+				duration = -1
+			}
+			remove_province_modifier = autonomous_rule
+		}
+	}
+}
+
+character_event = {
+	id = fkr.7
+	hide_window = yes
+	trigger = {
+		independent = yes
+		has_law = foreigner_law_2
+		any_realm_province = {
+			NOT = {
+				culture = ROOT
+				has_province_modifier = autonomous_rule
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_realm_province = {
+			limit = {
+				NOT = {
+					culture = ROOT
+				}
+			}
+			add_province_modifier = {
+				name = autonomous_rule
+				duration = -1
+			}
+			remove_province_modifier = oppressive_rule
+		}
+	}
+}
+
+character_event = {
+	id = fkr.8
+	hide_window = yes
+	trigger = {
+		independent = yes
+		has_law = tribute_law_0
+		any_realm_province = {
+			NOT = {
+				culture = ROOT
+				has_province_modifier = tax_tribute
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_realm_province = {
+			 limit = {
+				NOT = {
+					culture = ROOT
+				}
+			}
+			add_province_modifier = {
+				name = tax_tribute
+				duration = -1
+			}
+			remove_province_modifier = levy_tribute
+		}
+	}
+}
+
+character_event = {
+	id = fkr.9
+	hide_window = yes
+	trigger = {
+		independent = yes
+		has_law = tribute_law_2
+		any_realm_province = {
+			NOT = {
+				culture = ROOT
+				has_province_modifier = levy_tribute
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_realm_province = {
+			 limit = {
+				NOT = {
+					culture = ROOT
+				}
+			}
+			add_province_modifier = {
+				name = levy_tribute
+				duration = -1
+			}
+			remove_province_modifier = tax_tribute
+		}
+	}
+}

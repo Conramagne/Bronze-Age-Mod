@@ -1,0 +1,3 @@
+opinion_oppressive_overlord = {
+	opinion = -50
+}

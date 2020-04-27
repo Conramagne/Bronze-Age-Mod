@@ -35,6 +35,8 @@ feudal_governments = {
 			NOT = {	religion_group = muslim	}
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
+			NOT = { is_government_potential = regional_kingdom_government }
+			NOT = { is_government_potential = hegemonic_government }
 			NAND = { 
 				culture_group = tibetan_group
 				OR = {
@@ -55,6 +57,100 @@ feudal_governments = {
 					has_character_flag = chinese_imperial_government_preserve
 				}
 			}
+			is_patrician = no
+		}
+		
+		color = { 91 133 207 }
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = yes
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 10
+	}
+	
+	regional_kingdom_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			hegemonic_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		potential = {
+			OR = {
+				controls_religion = no
+				has_religion_feature = religion_temporal_head
+				AND = {
+					religion = ishalitethai
+					 controls_religion = yes
+				}
+			}
+			higher_real_tier_than = DUKE
+			NOT = { is_government_potential = roman_imperial_government }
+			NOT = { is_government_potential = order_government }
+			NOT = { is_government_potential = hegemonic_government }
+			is_patrician = no
+		}
+		
+		color = { 91 133 207 }
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = yes
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 10
+	}
+	
+	hegemonic_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		potential = {
+			OR = {
+				controls_religion = no
+				has_religion_feature = religion_temporal_head
+				AND = {
+					religion = ishalitethai
+					 controls_religion = yes
+				}
+			}
+			higher_real_tier_than = KING
+			NOT = { is_government_potential = roman_imperial_government }
+			NOT = { is_government_potential = order_government }
 			is_patrician = no
 		}
 		
