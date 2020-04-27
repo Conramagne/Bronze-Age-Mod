@@ -1187,7 +1187,7 @@ spriteTypes = {
 	### government icons
 	spriteType = {
 		name = "GFX_icon_feudal_government"
-		texturefile = "gfx\\interface\\government_icon_feudal.dds"
+		texturefile = "gfx\\interface\\government_palatial_local_state.dds"
 	}
 	spriteType = {
 		name = "GFX_icon_merchant_republic_government"
