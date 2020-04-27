@@ -1,11 +1,16 @@
 ###########New Hittite Kingdom###########
 
 ###########Empire Titles###########
-e_hittite_empire;Nešili Empire;;;;;;;;;;;;;x
-e_hittite_empire_adj;Nešili;;;;;;;;;;;;;x
 emperor_hittite;Salihassu;;;;;;;;;;;;;x
+empress_hittite;Tawananna;;;;;;;;;;;;;x
+
+e_hittite_empire;Hassuwai Hattusa;;;;;;;;;;;;;x
+e_hittite_empire_adj;Nešili;;;;;;;;;;;;;x
 
 ###########Kingdom Titles###########
+king_hittite;Hassu;;;;;;;;;;;;;x
+queen_hittite;Hassusara;;;;;;;;;;;;;x
+
 k_hatti;Hatti;;;;;;;;;;;;;x
 k_hatti_adj;Hatti;;;;;;;;;;;;;x
 k_pala;Pala;;;;;;;;;;;;;x
@@ -16,6 +21,9 @@ k_kizzuwatna;Kizzuwatna;;;;;;;;;;;;;x
 k_kizzuwatna_adj;Kizzuwanti;;;;;;;;;;;;;x
 
 ###########Duchy Titles###########
+duke_hittite;Maniyahha;;;;;;;;;;;;;x
+duchess_hittite;Maniyahhasara;;;;;;;;;;;;;x
+
 d_hatti;Hatti;;;;;;;;;;;;;x
 d_hatti_adj;Hatti;;;;;;;;;;;;;x
 d_ambara;Ambara;;;;;;;;;;;;;x
@@ -52,6 +60,9 @@ d_marqasa;Marqasa;;;;;;;;;;;;;x
 d_marqasa_adj;Marqasi;;;;;;;;;;;;;x
 
 ###########Counties Titles###########
+count_hittite;Isha;;;;;;;;;;;;;x
+countess_hittite;Ishassara;;;;;;;;;;;;;x
+
 c_hattusa;Hattusa;;;;;;;;;;;;;x
 c_hattusa_adj;Hatti;;;;;;;;;;;;;x
 c_taskuriya;Taskuriya;;;;;;;;;;;;;x
