@@ -123,3 +123,32 @@ d_ili_abinia_adj;Priestly;;;;;;;;;;;;;x
 
 ###########Traits and Character/Province Modifiers###########
 imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]%);;;;;;;;;;;;;x
+imperial_authority_desc;§BImperial Authority§W represents the power the monarch has in their capacity to govern the realm.\n\nThings that §GRaise§W Imperial Authority are:\n- Have §GQuality§W administrators and councilors in your realm that are §GLoyal§W\n- The Palace Court is relatively §GWeak§W compared to you\n- Lead your realm to great §GGLORY§W\n\nThings that §RLower§W Imperial Authority are:\n- Have §RPoor Quality§W administrators and councilors in your realm that are §RDisloyal§W\n- The Palace Court is relatively §RStrong§W compared to you\n- Lead your realm to great §RHUMILIATION§!;;;;;;;;;;;;;x
+imperial_authority_decrease_5_TT;Imperial Authority (§R-5.00§!);;;;;;;;;;;;;x
+imperial_authority_decrease_2_5_TT;Imperial Authority (§R-5.00§!);;;;;;;;;;;;;x
+imperial_authority_increase_5_TT;Imperial Authority (§G5.00§!);;;;;;;;;;;;;x
+imperial_authority_increase_2_5_TT;Imperial Authority (§G5.00§!);;;;;;;;;;;;;x
+opinion_rumors_10;Imperial Authority (§R-10.00§!);;;;;;;;;;;;;x
+
+poor_reforms;Poor Reforms;;;;;;;;;;;;;x
+poor_reforms_desc;Your Reforms went poorly.;;;;;;;;;;;;;x
+good_reforms;Good Reforms;;;;;;;;;;;;;x
+good_reforms_desc;Your Reforms went well.;;;;;;;;;;;;;x
+sold_bureaucratic_positions;Sold Positions of Power;;;;;;;;;;;;;x
+sold_bureaucratic_positions_desc;You have sold positions of powers to the highest bidder.;;;;;;;;;;;;;x
+
+figurehead_emperor;Figurehead Monarch;;;;;;;;;;;;;x
+figurehead_emperor_desc;You Wield no real power.;;;;;;;;;;;;;x
+weak_emperor;Weak Monarch;;;;;;;;;;;;;x
+weak_emperor_desc;You Wield little power.;;;;;;;;;;;;;x
+strong_emperor;Strong Monarch;;;;;;;;;;;;;x
+strong_emperor_desc;You Wield great power.;;;;;;;;;;;;;x
+
+oppressive_rule;Oppressive Policies;;;;;;;;;;;;;x
+oppressive_rule_desc;Oppressive Policies are being used in this province;;;;;;;;;;;;;x
+autonomous_rule;Autonomous Communities;;;;;;;;;;;;;x
+autonomous_rule_desc;Autonomous Communities exist in this province;;;;;;;;;;;;;x
+tax_tribute;Tribute: Tax-Focused;;;;;;;;;;;;;x
+tax_tribute_desc;The Tribute is focused in Increasing their tribute of wealth to you;;;;;;;;;;;;;x
+levy_tribute;Tribute: Levy-Focused;;;;;;;;;;;;;x
+levy_tribute_desc;The Tribute is focused in Increasing their tribute of troops to you;;;;;;;;;;;;;x

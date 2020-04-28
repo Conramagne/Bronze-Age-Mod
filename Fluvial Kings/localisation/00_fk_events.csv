@@ -1,0 +1,63 @@
+###########Imperial Authority Announcement Events###########
+EVTDESCFKR101;As the Reigning [Root.GetTitle] of the realm you are given Great Authority in the Matters of State.;;;;;;;;;;;;;x
+EVTDESCFKR102;As you ascend to your throne, the Great Authority afforded in the Matters of State, have sunken in. Are you prepared to lead the realm.;;;;;;;;;;;;;x
+
+EVTDESCFKR105_WEAK;You are a Weak Ruler with very few if any people regarding you as nothing more than a puppet of the court.;;;;;;;;;;;;;x
+EVTOPTAFKR105_WEAK;Damn to reassert my right?;;;;;;;;;;;;;x
+EVTDESCFKR105_NOTWEAK;You are no longer considered a Weak Ruler. However, the court has made moves to try to ensure you stay their pliable puppet.;;;;;;;;;;;;;x
+EVTOPTAFKR105_NOTWEAK;Now where is the next courtly assignment?;;;;;;;;;;;;;x
+EVTDESCFKR105_FIGUREHEAD;You are a Figurehead Ruler, a literal puppet to the whims of the council, you languish in your inability to assert your will upon the palace affairs.;;;;;;;;;;;;;x
+EVTOPTAFKR105_FIGUREHEAD;Can anyone listen to me, DAMN IT!.;;;;;;;;;;;;;x
+EVTDESCFKR105;You are free from the Restrains of your court, you are now a leader that many respect but can you aspire to be more?;;;;;;;;;;;;;x
+EVTOPTAFKR105;Its great to be heard!;;;;;;;;;;;;;x
+EVTDESCFKR105_B;As you gain more power in the affairs of the court, people whisper your name in distaste of your greater say in thier courtly affairs.;;;;;;;;;;;;;x
+EVTOPTAFKR105_B;Getting Closer to the Divine.;;;;;;;;;;;;;x
+EVTDESCFKR105_STRONG;You are an undisputed master of the palace, your courtier look to you for advice on their courtly affairs, however, rumor has it that behind close doors they speak ill of your name.;;;;;;;;;;;;;x
+EVTOPTAFKR105_STRONG;Its great to be the [Root.GetTitle]!;;;;;;;;;;;;;x
+
+###########Toolbox Notice###########
+council_hates_vassal_TT;The council is disgusted;;;;;;;;;;;;;x
+furious_writing_TT;Writing Furiously;;;;;;;;;;;;;x
+do_poorly_TT;Done Poorly;;;;;;;;;;;;;x
+do_well_TT;Done Well;;;;;;;;;;;;;x
+do_excellent_TT;Done Exceptionally Well;;;;;;;;;;;;;x
+
+###########Imperial Authority Increase/Decrease Events###########
+EVTDESCFKR108;Whispers from the court have shown that administrator, is an exemplifier of good governance this has reflected well on you!;;;;;;;;;;;;;x
+opta_excellent;Excellent!;;;;;;;;;;;;;x
+
+EVTDESCFKR110;A Courtly Servant has graciously announced his support for you and your policies during a recent meeting!;;;;;;;;;;;;;x
+EVTDESCFKR111;The Will of the council against you is weak and it appears that they respect your decrees...;;;;;;;;;;;;;x
+EVTDESCFKR112;After your latest victory for the empire you are given laps of honors and titles befitting your momentous victory.;;;;;;;;;;;;;x
+EVTDESCFKR113;As you lead your people to Great Victory the Empire's people lavish you with great gifts and honors saying "Oh [Root.GetTitle], will you honor us with your rule!".;;;;;;;;;;;;;x
+
+EVTDESCFKR114;Whispers from the court have shown that this administrator, is an laughable example of governance, this joke of a administrator has reflected badly on you!;;;;;;;;;;;;;x
+opta_disappointing;Disappointing...;;;;;;;;;;;;;x
+
+EVTDESCFKR116;A Courtly Servant has been noted as deriding your policies and insulting your name during a recent meetings!;;;;;;;;;;;;;x
+EVTDESCFKR117;The Will of the council has held you hostage in your own court, it appears your grasp in the day-to-day buisness is waning.;;;;;;;;;;;;;x
+EVTDESCFKR118;After your latest defeat the empire was left reeling as your people begin to question your divine status.;;;;;;;;;;;;;x
+EVTDESCFKR119;As you lead your people to a Great Defeat, the Empire's people have openly question you saying "Oh [Root.GetTitle], why have you forsaken us!".;;;;;;;;;;;;;x
+EVTDESCFKR120;The ascension of a new [Root.GetTitle] is always difficult as the court decides whether they should heed your decrees.;;;;;;;;;;;;;x
+EVTDESCFKR122;For shame due to circumstances outside your control a regent must manage the realm in your place...;;;;;;;;;;;;;x
+
+###########Imperial Authority Slander Events###########
+EVTDESCFKR125;A former Governor has decided to write a lamentation for crimes you "supposingly committed";;;;;;;;;;;;;x
+EVTDESCFKR126;The Slandering Tablet is a joke.;;;;;;;;;;;;;x
+EVTOPTAFKR126;This entertains me;;;;;;;;;;;;;x
+EVTDESCFKR127;The Slandering Tablet has caused a commotion.;;;;;;;;;;;;;x
+EVTOPTAFKR127;My Word, what is this slander?;;;;;;;;;;;;;x
+EVTDESCFKR128;The Slandering Tablet has caused a great commotion.;;;;;;;;;;;;;x
+EVTOPTAFKR128;My Word, what is this horrible slander to my name!;;;;;;;;;;;;;x
+EVTDESCFKR129;The Council does not approve of this subjects slandering of your good name;;;;;;;;;;;;;x
+EVTOPTAFKR129;Very Good.;;;;;;;;;;;;;x
+EVTDESCFKR130;Your Vassal has caused the Council to not approve of you;;;;;;;;;;;;;x
+EVTOPTAFKR130;What did I do?;;;;;;;;;;;;;x
+EVTDESCFKR131;Your vassal has caused The Council to greatly disapprove of you;;;;;;;;;;;;;x
+EVTOPTAFKR131;The Dishonor!;;;;;;;;;;;;;x
+EVTDESCFKR132;This Courtly Subject has just failed to SLANDER your name!;;;;;;;;;;;;;x
+EVTOPTAFKR132;HA HA, suck it!;;;;;;;;;;;;;x
+EVTDESCFKR133;This Courtly Subject has just successfully SLANDER your name!;;;;;;;;;;;;;x
+EVTOPTAFKR133;That Snake!;;;;;;;;;;;;;x
+EVTDESCFKR134;This Courtly Subject has not just successfully SLANDER your name but humiliated the honor of your family!;;;;;;;;;;;;;x
+EVTOPTAFKR134;I and my family have been Slandered,REEEEEEEEEEEEEEEEE!;;;;;;;;;;;;;x
