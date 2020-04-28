@@ -1,0 +1,65 @@
+###########Imperial Authority Announcement Events###########
+EVTDESCFKR101;As the reigning [Root.GetTitle] you are expected to lead the realm in all matters of statecraft and war, the weight of this task is immense.;;;;;;;;;;;;;x
+EVTDESCFKR102;As you complete your investiture the great authority in all matters of state are laid upon your shoulders. Are you truly prepared to lead the realm?;;;;;;;;;;;;;x
+
+EVTDESCFKR105_WEAK;You are a Weakling, dominated by the princes and members of court who regard you as nothing more than a plaything for their use.;;;;;;;;;;;;;x
+EVTOPTAFKR105_WEAK;What must I do?  Perhaps this is my place...;;;;;;;;;;;;;x
+EVTDESCFKR105_NOTWEAK;You are no longer sneered at as a Weakling. The more ambitious members of court have noted this and make moves to ensure you stay their plaything.;;;;;;;;;;;;;x
+EVTOPTAFKR105_NOTWEAK;I will prove myself greater than these serpents and jackals.;;;;;;;;;;;;;x
+EVTDESCFKR105_FIGUREHEAD;You are a Figurehead Ruler, a puppet to the princes of the council and made hostage within the choking luxury of the royal quarter.;;;;;;;;;;;;;x
+EVTOPTAFKR105_FIGUREHEAD;The shame, the shame of it all...;;;;;;;;;;;;;x
+EVTDESCFKR105;You are free from the machinations of your court, but still the webs of intrigue hang around you.;;;;;;;;;;;;;x
+EVTOPTAFKR105;Still, it is great to be heard by ones people!;;;;;;;;;;;;;x
+EVTDESCFKR105_B;As you gain more influence in the affairs of court, those formerly smug serpents whisper your name in fear as they observe your ascension.;;;;;;;;;;;;;x
+EVTOPTAFKR105_B;Closer and closer, every day...;;;;;;;;;;;;;x
+EVTDESCFKR105_STRONG;You are an undisputed master of the palace, the army, and the vast lands of your realm. Your courtiers look to you for leadership in all affairs, and it is only in hushed tones and cloistered alcoves that any dare speak ill of you.;;;;;;;;;;;;;x
+EVTOPTAFKR105_STRONG;It is good to be the [Root.GetTitle]!;;;;;;;;;;;;;x
+
+###########Toolbox Notice###########
+council_hates_vassal_TT;The council is disgusted;;;;;;;;;;;;;x
+council_dislikes_emperor_TT;The council was turned against you;;;;;;;;;;;;;x
+council_hates_emperor_TT;The council now despises you;;;;;;;;;;;;;x
+furious_writing_TT;Writing Furiously;;;;;;;;;;;;;x
+do_poorly_TT;Done Poorly;;;;;;;;;;;;;x
+do_well_TT;Done Well;;;;;;;;;;;;;x
+do_excellent_TT;Done Exceptionally Well;;;;;;;;;;;;;x
+
+###########Imperial Authority Increase/Decrease Events###########
+EVTDESCFKR108;A shining star of an administrator has proved themselves a fair and efficient governor, you reap the fruits of his labor in the eyes of the aristocracy.;;;;;;;;;;;;;x
+opta_excellent;Excellent!;;;;;;;;;;;;;x
+
+EVTDESCFKR110;A Courtly Retainer has graciously announced his support for you and your policies during a recent assembly.;;;;;;;;;;;;;x
+EVTDESCFKR111;The opinion of the council against you is charitable and it appears that they do indeed respect your decrees...;;;;;;;;;;;;;x
+EVTDESCFKR112;After your latest victory for the realm you are held in glowing esteem by the venerable princes of the realm and their retainers.;;;;;;;;;;;;;x
+EVTDESCFKR113;You have led the Princes of the realm into glorious victory over the enemy, all men lavish you with great praise and shout "Hail the [Root.GetTitle], finest of Princes and trampler of our enemies!".;;;;;;;;;;;;;x
+
+EVTDESCFKR114;A bumbling excuse for an administrator has proved themselves a laughable example of governance, this has reflected badly upon you in the eyes of the aristocracy.;;;;;;;;;;;;;x
+opta_disappointing;Disappointing...;;;;;;;;;;;;;x
+
+EVTDESCFKR116;A Courtly Retainer has been deriding your policies and insulting your name during a recent assembly!;;;;;;;;;;;;;x
+EVTDESCFKR117;The actions of the disloyal council have left you confused and frustrated, it appears your grasp on day-to-day business is waning.;;;;;;;;;;;;;x
+EVTDESCFKR118;After your latest defeat the realm was left reeling as your subjects and the princes begin to question your very position of Rulership.;;;;;;;;;;;;;x
+EVTDESCFKR119;Your dead lie thick upon the earth, the princes and widows of the realm shudder at this great defeat and declare, "Truly, he is no [Root.GetTitle], but a gutless worm!".;;;;;;;;;;;;;x
+EVTDESCFKR120;The ascension of a new [Root.GetTitle] is always difficult as the court decides whether or not they should heed to your decrees.;;;;;;;;;;;;;x
+EVTDESCFKR122;For shame, due to circumstances outside your control a regent must manage the realm in your place...;;;;;;;;;;;;;x
+
+###########Imperial Authority Slander Events###########
+EVTDESCFKR125;A former Governor has decided to raise a stele inscribed with many false accusations against your person in a public square.;;;;;;;;;;;;;x
+EVTDESCFKR126;This slandering stele is a joke.;;;;;;;;;;;;;x
+EVTOPTAFKR126;Oh please, this entertains me so.;;;;;;;;;;;;;x
+EVTDESCFKR127;The slandering stele has caused much womanly gossip.;;;;;;;;;;;;;x
+EVTOPTAFKR127;What in... what is this slander?;;;;;;;;;;;;;x
+EVTDESCFKR128;The slandering stele has caused a great commotion among the aristocracy.;;;;;;;;;;;;;x
+EVTOPTAFKR128;Not another word about this!;;;;;;;;;;;;;x
+EVTDESCFKR129;The Council does not approve of this subjects slandering of your venerable name;;;;;;;;;;;;;x
+EVTOPTAFKR129;My fair princes...;;;;;;;;;;;;;x
+EVTDESCFKR130;Your vassal has caused the Council to not approve of you.;;;;;;;;;;;;;x
+EVTOPTAFKR130;Serpents, all of them!;;;;;;;;;;;;;x
+EVTDESCFKR131;Your vassal has caused The Council to greatly disapprove of you;;;;;;;;;;;;;x
+EVTOPTAFKR131;The dishonor!;;;;;;;;;;;;;x
+EVTDESCFKR132;This Prince of the Court has just failed to SLANDER your name!;;;;;;;;;;;;;x
+EVTOPTAFKR132;That whinging parasite...;;;;;;;;;;;;;x
+EVTDESCFKR133;This Prince of the Court has successfully SLANDERED your name!;;;;;;;;;;;;;x
+EVTOPTAFKR133;That fetid dog!;;;;;;;;;;;;;x
+EVTDESCFKR134;This Courtly Subject has not only just SLANDERED your name but has trodden upon the honor of your family!;;;;;;;;;;;;;x
+EVTOPTAFKR134;Not just myself, but my blood? Perhaps I will take their eyes...;;;;;;;;;;;;;x
