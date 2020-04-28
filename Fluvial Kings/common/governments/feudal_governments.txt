@@ -14,6 +14,9 @@ feudal_governments = {
 			muslim_government
 			theocratic_feudal_government
 			chinese_imperial_government
+			regional_kingdom_government
+			hegemonic_government
+			military_governorate_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
@@ -37,6 +40,7 @@ feudal_governments = {
 			NOT = { is_government_potential = order_government }
 			NOT = { is_government_potential = regional_kingdom_government }
 			NOT = { is_government_potential = hegemonic_government }
+			NOT = { is_government_potential = military_governorate_government }
 			NAND = { 
 				culture_group = tibetan_group
 				OR = {
@@ -88,6 +92,7 @@ feudal_governments = {
 		}
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
 			hegemonic_government
+			regional_kingdom_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
@@ -105,6 +110,7 @@ feudal_governments = {
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
 			NOT = { is_government_potential = hegemonic_government }
+			NOT = { is_government_potential = military_governorate_government }
 			is_patrician = no
 		}
 		
@@ -122,6 +128,94 @@ feudal_governments = {
 
 		## Modifiers
 		court_size_modifier = 10
+	}
+	
+	military_governorate_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			hegemonic_government
+			regional_kingdom_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		potential = {
+			OR = {
+				controls_religion = no
+				has_religion_feature = religion_temporal_head
+				AND = {
+					religion = ishalitethai
+					 controls_religion = yes
+				}
+			}
+			independent = no
+			liege = {
+				independent = yes
+				OR = {
+					government = hegemonic_government
+					government = regional_kingdom_government
+				}
+				OR = {
+					culture = ROOT
+					is_close_relative = yes
+					NOT = {
+						de_jure_liege = ROOT
+					}
+				}
+				NOT = {
+					trait = figurehead_emperor
+				}
+			}
+			OR = {
+				AND = {
+					liege = {
+						government = regional_kingdom_government
+					}
+					tier = DUKE
+				}
+				AND = {
+					liege = {
+						government = hegemonic_government
+					}
+					OR = {
+						tier = DUKE
+						tier = KING
+					}
+				}
+			}
+			NOT = { is_government_potential = roman_imperial_government }
+			NOT = { is_government_potential = order_government }
+			is_patrician = no
+		}
+		
+		color = { 71 68 193 }
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = yes
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 10
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			key = "VICEROYALTY_UNIT_BONUS"
+		}
 	}
 	
 	hegemonic_government = {

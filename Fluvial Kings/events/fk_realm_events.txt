@@ -333,6 +333,146 @@ character_event = {
 	}
 }
 
+#Event to give Viceroy Succession to Military Governorates (on_new_holder, on_startup)
+character_event = {
+	id = fkr.10
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		government = military_governorate_government
+		NOT = {
+			has_law = succ_viceroyalty
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				primary_title ={
+					tier = DUKE
+				}
+			}
+			any_demesne_title = {
+				limit = {
+					tier = DUKE
+				}
+				add_law = {
+					law = succ_viceroyalty
+					opinion_effect = no
+					cooldown = no
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				primary_title ={
+					tier = DUKE
+				}
+			}
+			any_demesne_title = {
+				limit = {
+					tier = DUKE
+				}
+				add_law = {
+					law = succ_viceroyalty
+					opinion_effect = no
+					cooldown = no
+				}
+			}
+		}
+		if = {
+			limit = {
+				primary_title ={
+					tier = KING
+				}
+			}
+			any_demesne_title = {
+				limit = {
+					tier = KING
+				}
+				add_law = {
+					law = succ_viceroyalty
+					opinion_effect = no
+					cooldown = no
+				}
+			}
+		}
+	}
+}
+
+
+#Event to give Viceroy Succession to Military Governorates (MTTH)
+character_event = {
+	id = fkr.11
+	hide_window = yes
+	trigger = {
+		government = military_governorate_government
+		NOT = {
+			has_law = succ_viceroyalty
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				primary_title ={
+					tier = DUKE
+				}
+			}
+			any_demesne_title = {
+				limit = {
+					tier = DUKE
+				}
+				add_law = {
+					law = succ_viceroyalty
+					opinion_effect = no
+					cooldown = no
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				primary_title ={
+					tier = DUKE
+				}
+			}
+			any_demesne_title = {
+				limit = {
+					tier = DUKE
+				}
+				add_law = {
+					law = succ_viceroyalty
+					opinion_effect = no
+					cooldown = no
+				}
+			}
+		}
+		if = {
+			limit = {
+				primary_title ={
+					tier = KING
+				}
+			}
+			any_demesne_title = {
+				limit = {
+					tier = KING
+				}
+				add_law = {
+					law = succ_viceroyalty
+					opinion_effect = no
+					cooldown = no
+				}
+			}
+		}
+	}
+}
+
 # ************************** Imperial Authority Events***********************
 
 
@@ -670,6 +810,9 @@ character_event = {
 			}
 			add_trait = weak_emperor
 			remove_trait = figurehead_emperor
+			set_character_flag = law_no_change
+			set_council_law_strong_effect = yes
+			clr_character_flag = law_no_change
 		}
 		if = {
 			limit = {
@@ -681,12 +824,15 @@ character_event = {
 		if = {
 			limit = {
 				primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
-				primary_title = { check_variable = { which = var_imperial_authority value < 50 }
-				NOT = { }
+				primary_title = { check_variable = { which = var_imperial_authority value < 50 } }
+				NOT = {
 					trait = figurehead_emperor
 				}
 			}
 			add_trait = figurehead_emperor
+			set_character_flag = law_no_change
+			set_council_law_strong_effect = yes
+			clr_character_flag = law_no_change
 		}
 		if = {
 			limit = {
@@ -1322,7 +1468,7 @@ character_event = {
 	}
 }
 
-#Ex-Governator Writes a Paper to Slander Emperor
+#Vassal writes to slander Emperor
 character_event = {
 	id = fkr.125
 	desc  = EVTDESCFKR125
@@ -1763,6 +1909,33 @@ character_event = {
 				is_friend = event_target:slanderer
 			}
 			remove_friend = event_target:slanderer
+		}
+	}
+}
+
+#Usurpers getting Strong Emperor
+character_event = {
+	id = fkr.135
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		government = hegemonic_government
+		NOT = {
+			has_character_modifier = imperial_authority
+		}
+	}
+	
+	immediate = {
+		add_character_modifier = {
+			name = imperial_authority
+			duration = -1
+		}
+		primary_title = {
+			set_title_flag = imperial_authority_set
+			set_title_flag = primary_set
+		}
+		primary_title = {
+			set_variable = { which = var_imperial_authority value = 80 }
 		}
 	}
 }

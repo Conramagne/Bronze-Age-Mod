@@ -19,6 +19,7 @@ laws = {
 		
 		potential = {
 			NOT = { tier = baron }
+			is_feudal = yes
 		}
 		allow = {
 			has_law = system_law_1			
@@ -95,6 +96,7 @@ laws = {
 		
 		potential = {
 			NOT = { tier = baron }
+			is_feudal = yes
 		}
 		allow = {
 			has_law = system_law_0			
