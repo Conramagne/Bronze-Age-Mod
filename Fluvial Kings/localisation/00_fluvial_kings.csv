@@ -20,25 +20,25 @@ succ_familial_elective_desc;Monarchs are allowed to appoint from among their chi
 system_law;Government System;;;;;;;;;;;;;x
 system_law_desc;The Government System of the Realm, It defines whether the Government relies on the courtly skills of their council or the magistrates of the cities of the realm.;;;;;;;;;;;;;x
 system_law_0;Oligarchy;;;;;;;;;;;;;x
-system_law_0_desc;Oligarchic States are reliant on their magistrates and local administrators of their realm's cities and provinces. Particularly cunning or shrewd administrators will prefer this form of governance as it is much easier to bypass the will of the Royal Family and Palace Court. The monarch will get a boon in taxes at the expense of thier army. They will also be greatly restricted in their capacity to govern outside the palace and are at the whims of influential vassals.;;;;;;;;;;;;;x
+system_law_0_desc;Oligarchic States are reliant on their magistrates and local administrators of their realm's cities and provinces. Particularly cunning or shrewd administrators will prefer this form of governance as it is much easier to bypass the will of the Royal Family and Palace Court. The monarch will get a boon in taxes at the expense of their army. They will also be greatly restricted in their capacity to govern outside the palace and are more at the mercy of influential vassals.;;;;;;;;;;;;;x
 system_law_1;Stately;;;;;;;;;;;;;x
-system_law_1_desc;The Royal Court and Family are the primary conduit for which the realm is governed. It is understood that The Monarch was appointed by The Most High and thus thier offsprings should succeed them, though that may not always be possible. Their martials and palace scribes in the council greatly favor the strength of their lord. As a result the armies they field, wield a zeal for their liege but provincial lords scoff at the lost of their autonomy and may not be willing to flourish thier heavenly sovereign;;;;;;;;;;;;;x
+system_law_1_desc;The Royal Court and Family are the primary conduit for which the realm is governed. It is understood that the Monarch is a regent of the Divine and and thus their offsprings should succeed them, though that may not always be possible or practical. The warrior-aristocrats and palace scribes in the council greatly favor the strength of their lord. As a result the armies they field, wield a zeal for their liege but provincial lords scoff at the lost of their autonomy and may not be willing to cooperate with their sovereign.;;;;;;;;;;;;;x
 
 foreigner_law;Status of Foreigners;;;;;;;;;;;;;x
-foreigner_law_desc;The status affored to the Foreigners that reside in your realm.;;;;;;;;;;;;;x
+foreigner_law_desc;The status afforded to the Foreigners that reside in the realm.;;;;;;;;;;;;;x
 foreigner_law_0;Harsh;;;;;;;;;;;;;x
-foreigner_law_0_desc;These Foreigners are a menace to our illustrious realm they are no more than dogs,BEGONE!;;;;;;;;;;;;;x
+foreigner_law_0_desc;Dare we call them people? Dogs befits their stature and character better, and they will know who their masters are.;;;;;;;;;;;;;x
 foreigner_law_1;Neutral;;;;;;;;;;;;;x
-foreigner_law_1_desc;We placed no signifiance to the foreigners that reside in our realm.;;;;;;;;;;;;;x
+foreigner_law_1_desc;We placed no significance to the foreigners that reside in our realm and treat them with wary indifference.;;;;;;;;;;;;;x
 foreigner_law_2;Loose;;;;;;;;;;;;;x
-foreigner_law_2_desc;These Foreigners are allowed to settle in our illustrious realm as they please so long as they acknowledge our sovereignty!;;;;;;;;;;;;;x
+foreigner_law_2_desc;These Foreigners are allowed to settle in our illustrious realm as they please so long as they acknowledge our sovereignty.;;;;;;;;;;;;;x
 
 tribute_law;Tribute Status;;;;;;;;;;;;;x
 tribute_law_desc;The Status of Tributes;;;;;;;;;;;;;x
 tribute_law_0;Taxed;;;;;;;;;;;;;x
-tribute_law_0_desc;Tributes are asked to contribute a larger share of their coffer for the good of the realm, at the expense of military contributions.;;;;;;;;;;;;;x
+tribute_law_0_desc;Tributes are asked to contribute a larger share of their coffers for the good of the realm, at the expense of military contributions.;;;;;;;;;;;;;x
 tribute_law_1;Neutral;;;;;;;;;;;;;x
-tribute_law_1_desc;Tributes are asked to contribute thier fair share and troops for the good of the realm.;;;;;;;;;;;;;x
+tribute_law_1_desc;Tributes are asked to contribute their fair share and troops for the good of the realm.;;;;;;;;;;;;;x
 tribute_law_2;Levied;;;;;;;;;;;;;x
 tribute_law_2_desc;Tributes are asked to contribute a larger share of their armies for the good of the realm, at the expense of tribute tax.;;;;;;;;;;;;;x
 
