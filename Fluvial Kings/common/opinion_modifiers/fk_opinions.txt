@@ -11,7 +11,7 @@ slandered_emperor = {
 	months = 60
 }
 
-opinion_rumors_25 = {
+opinion_rumors_10 = {
 	opinion = -10
 	months = 60
 }

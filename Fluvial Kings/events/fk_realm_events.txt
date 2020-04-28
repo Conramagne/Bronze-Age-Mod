@@ -1600,7 +1600,7 @@ character_event = {
 			hidden_tooltip = {
 				liege = {
 					primary_title = {
-						change_variable = { which = imperial_authority  value = -2.5 }
+						change_variable = { which = var_imperial_authority  value = -2.5 }
 					}
 				}
 			}
@@ -1629,9 +1629,9 @@ character_event = {
 		liege = {
 			any_vassal = {
 				limit = {
-				is_landed = yes
-				NOT = {
-					is_friend = event_target:slanderee
+					is_landed = yes
+					NOT = {
+						is_friend = event_target:slanderee
 					}
 				}
 				opinion = {
@@ -1645,7 +1645,7 @@ character_event = {
 			hidden_tooltip = {
 				liege = {
 					primary_title = {
-						change_variable = { which = imperial_authority  value = -5 }
+						change_variable = { which = var_imperial_authority  value = -5 }
 					}
 				}
 			}
@@ -1664,7 +1664,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTAFKR337
+		name = EVTOPTAFKR129
 		custom_tooltip = {
 			text = council_hates_vassal_TT
 		}
@@ -1679,7 +1679,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTAFKR338
+		name = EVTOPTAFKR130
 		custom_tooltip = {
 			text = council_dislikes_emperor_TT
 		}
@@ -1709,16 +1709,16 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTAFKR340
+		name = EVTOPTAFKR132
 		opinion = {
-			modifier = opinion_slanderer
-			who = FROM
+			modifier = opinion_charge_slanderer
+			who = event_target:slanderer
 		}
 		if = {
 			limit = {
-				is_friend = FROM
+				is_friend = event_target:slanderer
 			}
-			remove_friend = FROM
+			remove_friend = event_target:slanderer
 		}
 	}
 }
@@ -1731,16 +1731,16 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTAFKR341
+		name = EVTOPTAFKR133
 		opinion = {
-			modifier = opinion_slanderer
-			who = FROM
+			modifier = opinion_charge_slanderer
+			who = event_target:slanderer
 		}
 		if = {
 			limit = {
-				is_friend = FROM
+				is_friend = event_target:slanderer
 			}
-			remove_friend = FROM
+			remove_friend = event_target:slanderer
 		}
 	}
 }
@@ -1753,16 +1753,16 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTAFKR342
+		name = EVTOPTAFKR134
 		opinion = {
-			modifier = opinion_slanderer
-			who = FROM
+			modifier = opinion_charge_slanderer
+			who = event_target:slanderer
 		}
 		if = {
 			limit = {
-				is_friend = FROM
+				is_friend = event_target:slanderer
 			}
-			remove_friend = FROM
+			remove_friend = event_target:slanderer
 		}
 	}
 }

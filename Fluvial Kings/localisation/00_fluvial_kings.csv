@@ -122,4 +122,4 @@ d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
 d_ili_abinia_adj;Priestly;;;;;;;;;;;;;x
 
 ###########Traits and Character/Province Modifiers###########
-imperial_authority;Imperial Authority ([Root.global_imp_auth.GetValue]%);;;;;;;;;;;;;x
+imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]%);;;;;;;;;;;;;x

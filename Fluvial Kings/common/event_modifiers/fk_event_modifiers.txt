@@ -25,6 +25,9 @@ levy_tribute = {
 
 imperial_authority = {
 	icon = 10
+	is_visible = { 
+		character = FROM
+	}
 }
 
 influenced_authority = {
