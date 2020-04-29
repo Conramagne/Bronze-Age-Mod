@@ -104,7 +104,7 @@
 	dynasty = 2000000
 	culture = hittite
 	religion = ishalitethai
-	father = 2000011
+	father = 2000010
 	2301.1.1 = { birth = yes }
 	2361.1.1 = { death = yes }
 }
