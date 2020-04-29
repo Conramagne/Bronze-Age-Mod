@@ -6,7 +6,7 @@ opinion_oppressive_overlord = {
 	opinion = -50
 }
 
-slandered_emperor = {
+opinion_slandered_emperor = {
 	opinion = -50
 	months = 60
 }

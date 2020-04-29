@@ -1695,7 +1695,7 @@ character_event = {
 				liege = {
 					any_vassal = {
 						opinion = {
-							modifier = slandered_emperor
+							modifier = opinion_slandered_emperor
 							who = FROM
 						}
 					}
@@ -1746,7 +1746,7 @@ character_event = {
 			hidden_tooltip = {
 				liege = {
 					primary_title = {
-						change_variable = { which = var_imperial_authority  value = -2.5 }
+						change_variable = { which = var_imperial_authority  value = -5 }
 					}
 				}
 			}
@@ -1787,11 +1787,11 @@ character_event = {
 			}
 		}
 		custom_tooltip = {
-			text = imperial_authority_decrease_5_TT
+			text = imperial_authority_decrease_7_TT
 			hidden_tooltip = {
 				liege = {
 					primary_title = {
-						change_variable = { which = var_imperial_authority  value = -5 }
+						change_variable = { which = var_imperial_authority  value = -7 }
 					}
 				}
 			}
@@ -1882,6 +1882,9 @@ character_event = {
 			modifier = opinion_charge_slanderer
 			who = event_target:slanderer
 		}
+		custom_tooltip = {
+			text = imperial_authority_decrease_5_TT
+		}
 		if = {
 			limit = {
 				is_friend = event_target:slanderer
@@ -1903,6 +1906,9 @@ character_event = {
 		opinion = {
 			modifier = opinion_charge_slanderer
 			who = event_target:slanderer
+		}
+		custom_tooltip = {
+			text = imperial_authority_decrease_7_TT
 		}
 		if = {
 			limit = {

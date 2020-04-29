@@ -134,7 +134,10 @@ imperial_authority_decrease_5_TT;Imperial Authority (§R-5.00§!);;;;;;;;;;;;;x
 imperial_authority_decrease_2_5_TT;Imperial Authority (§R-5.00§!);;;;;;;;;;;;;x
 imperial_authority_increase_5_TT;Imperial Authority (§G5.00§!);;;;;;;;;;;;;x
 imperial_authority_increase_2_5_TT;Imperial Authority (§G5.00§!);;;;;;;;;;;;;x
-opinion_rumors_10;Imperial Authority (§R-10.00§!);;;;;;;;;;;;;x
+opinion_rumors_10;Rumors;;;;;;;;;;;;;x
+opinion_rumors_25;Rumors;;;;;;;;;;;;;x
+opinion_slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
+slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
 
 poor_reforms;Poor Reforms;;;;;;;;;;;;;x
 poor_reforms_desc;Your Reforms went poorly.;;;;;;;;;;;;;x

@@ -13,6 +13,9 @@ targetted_decisions = {
 		potential = {
 			government = hegemonic_government
 			age = 16
+			NOT = {
+				has_character_modifier = slandered_emperor
+			}
 		}
 		allow = {
 			FROM = {
@@ -20,16 +23,15 @@ targetted_decisions = {
 				NOT = {
 					is_incapable = yes
 				}
-				NOT = {
-					has_character_modifier = influenced_authority
-				}
 			}
 		}
 		effect = {
 			FROM = {
 				character_event = { id = fkr.124 }
+			}
+			ROOT = {
 				add_character_modifier = {
-					modifier = influenced_authority
+					modifier = slandered_emperor
 					duration = 2555
 				}
 			}

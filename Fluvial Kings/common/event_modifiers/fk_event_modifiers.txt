@@ -30,6 +30,6 @@ imperial_authority = {
 	}
 }
 
-influenced_authority = {
+slandered_emperor = {
 	icon = 9
 }
