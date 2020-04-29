@@ -560,7 +560,7 @@ character_event = {
 	trigger = {
 		NOT = {
 			ROOT = {
-				has_character_modifier = imperial_authority_set
+				has_character_modifier = imperial_authority
 			}
 		}
 		primary_title = {
@@ -1888,6 +1888,9 @@ character_event = {
 			}
 			remove_friend = event_target:slanderer
 		}
+		custom_tooltip = {
+			text = imperial_authority_decrease_2_5_TT
+		}
 	}
 }
 
@@ -1909,6 +1912,9 @@ character_event = {
 				is_friend = event_target:slanderer
 			}
 			remove_friend = event_target:slanderer
+		}
+		custom_tooltip = {
+			text = imperial_authority_decrease_5_TT
 		}
 	}
 }

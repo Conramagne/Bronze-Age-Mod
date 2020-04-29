@@ -1,0 +1,4 @@
+2527.1.1 = {
+	liege = k_hatti
+	holder = 2003007
+}

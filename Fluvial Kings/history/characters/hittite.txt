@@ -404,6 +404,7 @@
 	religion = ishalitethai
 	2473.1.1 = { birth = yes}
 	2493.1.1 = { add_spouse = 2000001 }
+	trait = mastermind_theologian
 	2523.1.1 = {
 		effect = {
 			remove_title = job_treasurer
@@ -414,6 +415,19 @@
 		}
 	}
 	2533.1.1 = { death = yes }
+}
+
+2002006 = {
+	name = "Kiluš-Hepa"
+	female = yes
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2000001
+	mother = 2002005
+	2495.1.1 = { birth = yes }
+	2515.1.1 = { add_spouse = 2003008 }
+	2540.1.1 = { death = yes }
 }
 
 #Others (2003000-2003999)
@@ -431,4 +445,89 @@
 	disallow_random_traits = yes
 	2497.1.1 = { birth = yes }
 	2542.1.1 = { death = yes }
+}
+
+2003001 = {
+	name = "Piyamaradu" # Piyamaradu, Duke of Samura, Vassal of Kizzuwatna
+	dynasty = 2000002 #Teshusili
+	culture = hittite
+	religion = ishalitethai
+	2495.1.1 = { birth = yes }
+	2555.1.1 = { death = yes }
+}
+
+2003002 = {
+	name = "Manapa" # Manapa, Duke of Marqasa, Vassal of Kizzuwatna
+	dynasty = 2000003 #Estansili
+	culture = hittite
+	religion = ishalitethai
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+2003003 = {
+	name = "Taliuman" # Taliuman, Duke of Pitassa, Vassal of Tarhuntassa
+	dynasty = 2000004 #Tarsasili
+	culture = hittite
+	religion = ishalitethai
+	2490.1.1 = { birth = yes }
+	2550.1.1 = { death = yes }
+}
+
+2003004 = {
+	name = "Tarzuliya" # Tarzuliya, Duke of Katerra Udne, Vassal of Tarhuntassa
+	dynasty = 2000005 #Kanesili
+	culture = hittite
+	religion = ishalitethai
+	2490.1.1 = { birth = yes }
+	2550.1.1 = { death = yes }
+}
+
+2003005 = {
+	name = "Karpani" # Karpani, Duke of Ambara
+	dynasty = 2000006 #Muwasili
+	culture = hittite
+	religion = ishalitethai
+	2496.1.1 = { birth = yes }
+	2556.1.1 = { death = yes }
+}
+
+2003006 = {
+	name = "Tarhumanawa" # Tarhumanawa, Duke of Sarazzi Udne
+	dynasty = 2000007 #Dakisili
+	culture = hittite
+	religion = ishalitethai
+	2492.1.1 = { birth = yes }
+	2552.1.1 = { death = yes }
+}
+
+2003007 = {
+	name = "Kundašpu" # Kundašpu, Duke of Kassiya
+	dynasty = 2000008 #Hullisili
+	culture = hittite
+	religion = ishalitethai
+	2494.1.1 = { birth = yes }
+	2554.1.1 = { death = yes }
+}
+
+2003008 = {
+	name = "Ali-Šarruma" # Ali-Šarruma/Ari-Šarruma, King of Isuwa
+	dynasty = 2000009 #Tiwasili
+	culture = hittite
+	religion = ishalitethai
+	2485.1.1 = { birth = yes }
+	2515.1.1 = { add_spouse = 2002006 }
+	2545.1.1 = { death = yes }
+}
+
+2003009 = {
+	name = "Ehli-Šarruma" # Ehli-Šarruma, Future King of Isuwa
+	dynasty = 2000009 #Tiwasili
+	culture = hittite
+	religion = ishalitethai
+	trait = weak
+	father = 2003008
+	mother = 2002006
+	2516.1.1 = { birth = yes }
+	2576.1.1 = { death = yes }
 }

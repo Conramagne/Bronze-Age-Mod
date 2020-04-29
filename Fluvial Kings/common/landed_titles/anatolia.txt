@@ -140,7 +140,7 @@ e_hittite_empire = {
 		
 		capital = 2
 		
-		culture = hittite
+		culture = pala
 		
 		d_kaska = { 
 			color={ 225 70 100 }
@@ -265,7 +265,7 @@ e_hittite_empire = {
 		
 		capital = 11
 		
-		culture = hittite
+		culture = luwian
 		
 		d_tarhuntassa = { 
 			color={ 210 120 70 }
@@ -432,7 +432,7 @@ e_hittite_empire = {
 		
 		capital = 5
 		
-		culture = hittite
+		culture = luwian
 		
 		d_puruma = { 
 			color={ 230 140 10 }
@@ -471,31 +471,6 @@ e_hittite_empire = {
 				b_malluma = {}
 			}
 		}
-		d_mala = { 
-			color={ 120 140 10 }
-			color2={ 255 255 255 }
-	
-			capital = 19
-			
-			c_mala = {
-				color={ 145 70 100 }
-				color2={ 255 255 255 }
-				
-				b_mala = {}
-			}
-			c_kummuth = {
-				color={ 145 70 100 }
-				color2={ 255 255 255 }
-				
-				b_kummuth = {}
-			}
-			c_sukziya = {
-				color={ 145 70 100 }
-				color2={ 255 255 255 }
-				
-				b_sukziya = {}
-			}
-		}
 		d_samura = { 
 			color={ 200 160 40 }
 			color2={ 255 255 255 }
@@ -519,37 +494,6 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_serigga = {}
-			}
-		}
-		d_tegarama = { 
-			color={ 220 130 40 }
-			color2={ 255 255 255 }
-	
-			capital = 46
-			
-			c_tegarama = {
-				color={ 145 70 100 }
-				color2={ 255 255 255 }
-				
-				b_tegarama = {}
-			}
-			c_asturiya = {
-				color={ 145 70 100 }
-				color2={ 255 255 255 }
-				
-				b_asturiya = {}
-			}
-			c_arihuwa = {
-				color={ 145 70 100 }
-				color2={ 255 255 255 }
-				
-				b_arihuwa = {}
-			}
-			c_til_garimmu = {
-				color={ 145 70 100 }
-				color2={ 255 255 255 }
-				
-				b_til_garimmu = {}
 			}
 		}
 		d_marqasa = { 
@@ -581,6 +525,72 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_bulbulhum = {}
+			}
+		}
+	}
+	
+	k_isuwa = {
+		color={ 186 56 17 }
+		color2={ 255 255 255 }
+		
+		capital = 46
+		
+		culture = isuwan
+		
+		d_mala = { 
+			color={ 120 140 10 }
+			color2={ 255 255 255 }
+	
+			capital = 19
+			
+			c_mala = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_mala = {}
+			}
+			c_kummuth = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_kummuth = {}
+			}
+			c_sukziya = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_sukziya = {}
+			}
+		}
+		d_tegarama = { 
+			color={ 220 130 40 }
+			color2={ 255 255 255 }
+	
+			capital = 46
+			
+			c_tegarama = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_tegarama = {}
+			}
+			c_asturiya = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_asturiya = {}
+			}
+			c_arihuwa = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_arihuwa = {}
+			}
+			c_til_garimmu = {
+				color={ 145 70 100 }
+				color2={ 255 255 255 }
+				
+				b_til_garimmu = {}
 			}
 		}
 	}

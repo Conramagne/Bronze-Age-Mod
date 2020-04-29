@@ -1168,6 +1168,84 @@ succession_laws = {
 		}			
 	}
 
+	succ_adult_familial_elective = {
+		oldest_child_opinion = -15
+		child_opinion = -5
+		dynasty_opinion = -5
+		vassal_opinion = 10
+		potential = {
+			NOT = { holder_scope = { government = military_governorate_government } }
+			NAND = { 
+				has_law = succ_byzantine_elective 
+				OR = { 
+					title = e_byzantium
+					title = e_roman_empire
+				}
+			}
+			holder_scope = {
+				OR = {
+					independent = yes
+					NOT = {
+						any_liege = {
+							holy_order = yes
+						}
+					}
+				}
+				is_merchant_republic = no
+				is_patrician = no
+				
+				OR = {
+					NOT = { religion_group = pagan_group }
+					is_reformed_religion = yes
+					religion = hellenic_pagan
+					has_law = succession_voting_power_1
+					OR = { 
+						has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
+						has_law = succ_hre_elective
+					} 
+					ROOT = {
+						has_title_flag = alternate_hre
+					}
+				}
+				OR = {
+					independent = yes
+					NOT = {
+						any_demesne_title = {
+							is_vice_royalty = yes
+						}
+					}
+				}
+			}
+			OR = {
+				is_landless_type_title = no
+				is_tribal_type_title = yes
+				temporary = yes
+			}
+			is_primary_type_title = no
+			NOT = { tier = baron }
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
+			NOT = { holder_scope = { government = chinese_imperial_government } }
+		}
+		allow = {
+			custom_tooltip = {
+				text = not_forced_tt
+				hidden_tooltip = {
+					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
+				}
+			}
+		}
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = adult_familial_elective
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+	}
+
+
 	succ_tanistry = {
 		oldest_child_opinion = -20
 		child_opinion = -10

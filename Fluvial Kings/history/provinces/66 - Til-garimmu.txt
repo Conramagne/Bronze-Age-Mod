@@ -3,6 +3,6 @@ title=c_til_garimmu
 max_settlements=6
 b_til_garimmu=castle
 
-culture=hittite
+culture=isuwan
 religion=ishalitethai
 terrain=plains

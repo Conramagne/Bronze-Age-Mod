@@ -1,7 +1,7 @@
 2051.1.1={
 	holder=2000025 # Pu-Šarruma I
-	law = succ_familial_elective
-	liege = e_hittite_empire
+	law = succ_adult_familial_elective
+	liege = k_hatti
 }
 2071.1.1={
 	holder=2000024 # Papahdilmah I

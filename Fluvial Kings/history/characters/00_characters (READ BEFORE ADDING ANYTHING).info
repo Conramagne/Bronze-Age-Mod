@@ -3,7 +3,9 @@
 #IDs ending from 0-999 are for the royal family rulers (if applicable)
 #IDs ending 1000-1999 are for other royal family members
 #IDs ending 2000-2999 are for other royal family females who do not rule
+#IDs ending 3000-3999 are for non-royal vassals of the dejure empire
+#IDs ending 4000-4999 are for independent lords of the dejure empire
 
 # List of prefixes (should be the same prefix for dynasties) (add new ones you create here):
-# 1000 Reserved for Pantheons (Will Expand Soon)
+# 1000-1999 Reserved for Pantheons (Will Expand Soon)
 # 2000 Hittites

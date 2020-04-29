@@ -1,6 +1,6 @@
 2051.1.1={
 	holder=2000025 # Pu-Šarruma I
-	law = succ_familial_elective
+	law = succ_adult_familial_elective
 	liege = e_hittite_empire
 }
 2071.1.1={

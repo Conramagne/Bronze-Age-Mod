@@ -3,6 +3,6 @@ title=c_mala
 max_settlements=6
 b_mala=castle
 
-culture=hittite
+culture=isuwan
 religion=ishalitethai
 terrain=plains

@@ -3,6 +3,6 @@ title=c_arihuwa
 max_settlements=6
 b_arihuwa=castle
 
-culture=hittite
+culture=isuwan
 religion=ishalitethai
 terrain=plains

@@ -1,3 +1,4 @@
-2361.1.1={
-	liege= e_hittite_empire
+2527.1.1 = {
+	liege = d_kassiya
+	holder = 2003007
 }

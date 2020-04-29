@@ -16,8 +16,39 @@
 		}
 	} 
 }
-
 2000001 = {
 	name = "Hulayasili"
+	culture = "hittite"
+}
+2000002 = {
+	name = "Teshusili"
+	culture = "hittite"
+}
+2000003 = {
+	name = "Estansili"
+	culture = "hittite"
+}
+2000004 = {
+	name = "Tarsasili"
+	culture = "hittite"
+}
+2000005 = {
+	name = "Kanesili"
+	culture = "hittite"
+}
+2000006 = {
+	name = "Muwasili"
+	culture = "hittite"
+}
+2000007 = {
+	name = "Dakisili"
+	culture = "hittite"
+}
+2000008 = {
+	name = "Hullisili"
+	culture = "hittite"
+}
+2000009 = {
+	name = "Tiwasili"
 	culture = "hittite"
 }

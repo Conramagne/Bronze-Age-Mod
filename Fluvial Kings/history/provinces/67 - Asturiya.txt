@@ -3,6 +3,6 @@ title=c_asturiya
 max_settlements=6
 b_asturiya=castle
 
-culture=hittite
+culture=isuwan
 religion=ishalitethai
 terrain=plains

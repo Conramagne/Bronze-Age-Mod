@@ -1,3 +1,4 @@
-2361.1.1={
-	liege= d_samura
+2527.1.1={
+	liege = d_samura
+	holder = 2003001
 }

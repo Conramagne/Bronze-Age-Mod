@@ -23,6 +23,8 @@ k_tarhuntassa;Tarhuntassa;;;;;;;;;;;;;x
 k_tarhuntassa_adj;Tarhassa;;;;;;;;;;;;;x
 k_kizzuwatna;Kizzuwatna;;;;;;;;;;;;;x
 k_kizzuwatna_adj;Kizzuwanti;;;;;;;;;;;;;x
+k_isuwa;Isuwa;;;;;;;;;;;;;x
+k_isuwa_adj;Isuwan;;;;;;;;;;;;;x
 
 ###########Duchy Titles###########
 duke_hittite;Maniyahha;;;;;;;;;;;;;x
@@ -181,8 +183,8 @@ c_mala;Mala;;;;;;;;;;;;;x
 c_mala_adj;Malai;;;;;;;;;;;;;x
 c_kummuth;Kummuth;;;;;;;;;;;;;x
 c_kummuth_adj;Kummuthi;;;;;;;;;;;;;x
-c_sukyiza;Sukyiza;;;;;;;;;;;;;x
-c_sukyiza_adj;Sukyizi;;;;;;;;;;;;;x
+c_sukziya;Sukziya;;;;;;;;;;;;;x
+c_sukziya_adj;Sukziyi;;;;;;;;;;;;;x
 c_samura;Samura;;;;;;;;;;;;;x
 c_samura_adj;Samuri;;;;;;;;;;;;;x
 c_paduwanda;Paduwanda;;;;;;;;;;;;;x
@@ -323,8 +325,8 @@ b_mala;Mala;;;;;;;;;;;;;x
 b_mala_adj;Malai;;;;;;;;;;;;;x
 b_kummuth;Kummuth;;;;;;;;;;;;;x
 b_kummuth_adj;Kummuthi;;;;;;;;;;;;;x
-b_sukyiza;Sukyiza;;;;;;;;;;;;;x
-b_sukyiza_adj;Sukyizi;;;;;;;;;;;;;x
+b_sukziya;Sukziya;;;;;;;;;;;;;x
+b_sukziya_adj;Sukziyi;;;;;;;;;;;;;x
 b_samura;Samura;;;;;;;;;;;;;x
 b_samura_adj;Samuri;;;;;;;;;;;;;x
 b_paduwanda;Paduwanda;;;;;;;;;;;;;x
