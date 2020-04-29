@@ -1,7 +1,8 @@
+#IDS from 2000000-2099999
+
 2000000 = {
-	name="Labarnid"
-	culture="hittite"
-	religion="ishalitethai"
+	name = "Labarnid"
+	culture = "hittite"
 	coat_of_arms = {
 		religion = ishalitethai
 		template = 0
@@ -14,4 +15,9 @@
 			color = 0
 		}
 	} 
+}
+
+2000001 = {
+	name = "Hulayasili"
+	culture = "hittite"
 }

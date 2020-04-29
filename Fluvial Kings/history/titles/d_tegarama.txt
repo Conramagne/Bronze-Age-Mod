@@ -1,34 +1,4 @@
-2361.1.1={
-	liege= k_kizzuwatna
-	holder=2000008 # Arnuwanda I
-}
-2376.1.1={
-	holder=2000007 # Tudhaliya III
-}
-2381.1.1={
-	holder=0
-}
-2417.1.1={
-	holder=2000006 # Šuppiluliuma I 
-}
-2441.1.1={
-	holder=2000005 # Arnuwanda II
-}
-2444.1.1={
-	holder=2000004 # Muršili II
-}
-2468.1.1={
-	holder=2000003 # Muwattalli II
-}
-2490.1.1={
-	holder=2000002 # Muršili III
-}
-2497.1.1={
-	holder=2000001 # Hattušili III
-}
-2512.1.1={
-	holder=0
-}
-2523.1.1={
-	holder=2000000 # Tudhaliya IV
+2524.1.1 = {
+	liege = k_kizzuwatna
+	holder = 2003000
 }

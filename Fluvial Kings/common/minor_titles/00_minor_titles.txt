@@ -192,13 +192,20 @@ title_commander = {
 	revoke_allowed = no # Handled by diplomatic interaction
 	
 	allowed_to_hold = {
-		if = {
-			limit = {
+		OR = {
+			AND = {
 				liege = {
+					is_feudal = yes
+					higher_real_tier_than = DUKE
+				}
+				is_landed = yes
+			}
+			liege = {
+				NAND = {
+					is_feudal = yes
 					higher_real_tier_than = DUKE
 				}
 			}
-			is_landed = yes
 		}
 		NOT = { 
 			primary_title = { temporary = yes } 

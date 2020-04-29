@@ -1,5 +1,4 @@
 2524.1.1 = {
-	liege = e_hittite_empire
 	holder = 2001000
 	liege = d_tarhuntassa
 }
