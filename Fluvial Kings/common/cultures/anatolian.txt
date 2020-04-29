@@ -2,7 +2,7 @@ anatolian = {
 	graphical_cultures = { westerngfx }
 
 	hittite = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { anatoliangfx }
 
 		color = { 0.8 0.3 0.3 }
 
@@ -50,7 +50,7 @@ anatolian = {
 		modifier = default_culture_modifier
 	}
 	amazonios = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { anatoliangfx }
 
 		color = { 0.8 0.2 0.8 }
 
@@ -98,7 +98,7 @@ anatolian = {
 		modifier = default_culture_modifier
 	}
 	pala = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { anatoliangfx }
 
 		color = { 0.7 0.5 0.3 }
 
@@ -146,7 +146,7 @@ anatolian = {
 		modifier = default_culture_modifier
 	}
 	luwian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { anatoliangfx }
 
 		color = { 0.5 0.3 0.3 }
 
@@ -194,7 +194,7 @@ anatolian = {
 		modifier = default_culture_modifier
 	}
 	kaskian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { anatoliangfx }
 
 		color = { 0.1 0.2 0.3 }
 
@@ -242,7 +242,7 @@ anatolian = {
 		modifier = default_culture_modifier
 	}
 	isuwan = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { anatoliangfx }
 
 		color = { 0.8 0.3 0.3 }
 
