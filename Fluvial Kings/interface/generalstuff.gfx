@@ -1184,6 +1184,13 @@ spriteTypes = {
 		noOfFrames = 3
 	}
 	
+	### custom event pictures
+	
+		spriteType = {
+		name = "GFX_evt_lose_authority"
+		texturefile = "gfx\\event_pictures\\GFX_evt_lose_authority.dds"
+	}
+	
 	### government icons
 	spriteType = {
 		name = "GFX_icon_feudal_government"
