@@ -13,9 +13,13 @@ regional_kingdom_government;Regional Authority;;;;;;;;;;;;;x
 regional_kingdom_government_desc;Regional Authorities are the Kingdoms and Regional Powers that are below the prominence of a Greater Kingdom but are potent enough powers in their own locale. Monarchs rely on landed military aristocrats and a growing palace structure. This represent the united polity of a people as well as their subjugated neighbors.;;;;;;;;;;;;;x
 hegemonic_government;Hegemonic Power;;;;;;;;;;;;;x
 hegemonic_government_desc;Hegemonic Powers are large realms stretching from one corner of the world to the next. Monarchs rule a vast cosmopolitan realm of many religions, tribes and cultures with the help of an army of bureaucrats and the aristocracy. The will and fate of all is the Ruler's demand and decree. The Monarch strides the world of men as a glorious prince, all the peoples of the world will know their name!;;;;;;;;;;;;;x
+military_governorate_government;Military Governorate;;;;;;;;;;;;;x
+military_governorate_government_desc;Military Governorate represent the appointment of great general to govern the provinces of Great Kings, whether these men be of merit or the aristocracy they represent the strong arm of the monarch in the daily lives of the realm.;;;;;;;;;;;;;x
 
-familial_elective;Familial Elective;;;;;;;;;;;;;x
+succ_familial_elective;Familial Elective;;;;;;;;;;;;;x
 succ_familial_elective_desc;Monarchs are allowed to appoint from among their children and close relatives an eligible heir to take their place on the throne, the eldest child will feel slighted if they are not selected.;;;;;;;;;;;;;x
+succ_adult_familial_elective;Adult Familial Elective;;;;;;;;;;;;;x
+succ_adult_familial_elective_desc;Monarchs are allowed to appoint from among their close relatives an eligible heir to take their place on the throne, children under the age of 16 are disqualified from the election process.;;;;;;;;;;;;;x
 
 system_law;Government System;;;;;;;;;;;;;x
 system_law_desc;The Government System of the Realm, It defines whether the Government relies on the courtly skills of their council or the magistrates of the cities of the realm.;;;;;;;;;;;;;x
