@@ -1851,7 +1851,7 @@ character_event = {
 character_event = {
 	id = fkr.132
 	desc = EVTDESCFKR132
-	picture = GFX_evt_chinese_emissary
+	picture = GFX_evt_lose_authority
 	is_triggered_only = yes
 	
 	option = {
@@ -1873,7 +1873,7 @@ character_event = {
 character_event = {
 	id = fkr.133
 	desc = EVTDESCFKR133
-	picture = GFX_evt_chinese_emissary
+	picture = GFX_evt_lose_authority
 	is_triggered_only = yes
 	
 	option = {
@@ -1895,7 +1895,7 @@ character_event = {
 character_event = {
 	id = fkr.134
 	desc = EVTDESCFKR134
-	picture = GFX_evt_chinese_emissary
+	picture = GFX_evt_lose_authority
 	is_triggered_only = yes
 	
 	option = {
