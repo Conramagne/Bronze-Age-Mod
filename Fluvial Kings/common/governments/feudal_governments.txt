@@ -94,6 +94,9 @@ feudal_governments = {
 			hegemonic_government
 			regional_kingdom_government
 		}
+		free_revoke_on_governments = {
+			military_governorate_government
+		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 		}
@@ -223,6 +226,9 @@ feudal_governments = {
 			TRIBAL
 		}
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		}
+		free_revoke_on_governments = {
+			military_governorate_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
