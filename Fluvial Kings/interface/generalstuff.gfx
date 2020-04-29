@@ -1186,9 +1186,24 @@ spriteTypes = {
 	
 	### custom event pictures
 	
-		spriteType = {
+	spriteType = {
 		name = "GFX_evt_lose_authority"
 		texturefile = "gfx\\event_pictures\\GFX_evt_lose_authority.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_military_defeat"
+		texturefile = "gfx\\event_pictures\\GFX_evt_military_defeat.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_military_victory"
+		texturefile = "gfx\\event_pictures\\GFX_evt_military_victory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_written_stele"
+		texturefile = "gfx\\event_pictures\\GFX_evt_written_stele.dds"
 	}
 	
 	### government icons

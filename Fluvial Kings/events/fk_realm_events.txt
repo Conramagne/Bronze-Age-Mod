@@ -560,7 +560,7 @@ character_event = {
 	trigger = {
 		NOT = {
 			ROOT = {
-				has_character_modifier = imperial_authority
+				has_character_modifier = imperial_authority_set
 			}
 		}
 		primary_title = {
@@ -1069,7 +1069,7 @@ character_event = {
 character_event = {
 	id = fkr.112
 	desc = EVTDESCFKR112
-	picture = GFX_evt_china_golden_age
+	picture = GFX_evt_military_victory
 	notification = yes
 	is_triggered_only = yes
 	
@@ -1096,7 +1096,7 @@ character_event = {
 character_event = {
 	id = fkr.113
 	desc = EVTDESCFKR113
-	picture = GFX_evt_china_golden_age
+	picture = GFX_evt_military_victory
 	notification = yes
 	is_triggered_only = yes
 	
@@ -1286,7 +1286,7 @@ character_event = {
 character_event = {
 	id = fkr.118
 	desc = EVTDESCFKR118
-	picture = GFX_evt_china_golden_age
+	picture = GFX_evt_military_defeat
 	notification = yes
 	is_triggered_only = yes
 	
@@ -1313,7 +1313,7 @@ character_event = {
 character_event = {
 	id = fkr.119
 	desc = EVTDESCFKR119
-	picture = GFX_evt_china_golden_age
+	picture = GFX_evt_military_defeat
 	notification = yes
 	is_triggered_only = yes
 	
@@ -1472,7 +1472,7 @@ character_event = {
 character_event = {
 	id = fkr.125
 	desc  = EVTDESCFKR125
-	picture = GFX_evt_scandal
+	picture = GFX_evt_written_stele
 	is_triggered_only = yes
 	
 	immediate = {
@@ -1888,9 +1888,6 @@ character_event = {
 			}
 			remove_friend = event_target:slanderer
 		}
-		custom_tooltip = {
-			text = imperial_authority_decrease_2_5_TT
-		}
 	}
 }
 
@@ -1912,9 +1909,6 @@ character_event = {
 				is_friend = event_target:slanderer
 			}
 			remove_friend = event_target:slanderer
-		}
-		custom_tooltip = {
-			text = imperial_authority_decrease_5_TT
 		}
 	}
 }
