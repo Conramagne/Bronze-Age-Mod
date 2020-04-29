@@ -1259,13 +1259,17 @@ spriteTypes = {
 		name = "GFX_checkmark"
 		texturefile = "gfx\\interface\\checkmark.dds"
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_icon_regional_kingdom_government"
 		texturefile = "gfx\\interface\\government_palatial_regional_kingdom.dds"
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_icon_hegemonic_government"
 		texturefile = "gfx\\interface\\government_palatial_hegemonic.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_military_governorate_government"
+		texturefile = "gfx\\interface\\military_governorate_government.dds"
 	}
 
 	# Roman Imperial Government
