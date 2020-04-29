@@ -116,11 +116,13 @@ HEAD_KOHEN_AMURRU;Kohen Amurru;;;;;;;;;;;;;x
 HEAD_SALLISANKUNI;Sallisankuni;;;;;;;;;;;;;x
 
 ###########Titles###########
-d_berith;The High Priesthood;;;;;;;;;;;;;x
+d_berith;High Priesthood;;;;;;;;;;;;;x
 d_berith_adj;Priestly;;;;;;;;;;;;;x
 d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
 d_ili_abinia_adj;Priestly;;;;;;;;;;;;;x
-
+d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
+d_haianiluwi;High Haianiluwi Priesthood;;;;;;;;;;;;;x
+d_haianiluwi_adj;Priestly;;;;;;;;;;;;;x
 ###########Traits and Character/Province Modifiers###########
 imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]%);;;;;;;;;;;;;x
 imperial_authority_desc;§BImperial Authority§W represents the power the monarch has in their capacity to govern the realm.\n\nThings that §GRaise§W Imperial Authority are:\n- Have §GQuality§W administrators and councilors in your realm that are §GLoyal§W\n- The Palace Court is relatively §GWeak§W compared to you\n- Lead your realm to great §GGLORY§W\n\nThings that §RLower§W Imperial Authority are:\n- Have §RPoor Quality§W administrators and councilors in your realm that are §RDisloyal§W\n- The Palace Court is relatively §RStrong§W compared to you\n- Lead your realm to great §RHUMILIATION§!;;;;;;;;;;;;;x
