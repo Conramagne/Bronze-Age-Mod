@@ -14,12 +14,12 @@ regional_kingdom_government_desc;Regional Authorities are the Kingdoms and Regio
 hegemonic_government;Hegemonic Power;;;;;;;;;;;;;x
 hegemonic_government_desc;Hegemonic Powers are large realms stretching from one corner of the world to the next. Monarchs rule a vast cosmopolitan realm of many religions, tribes and cultures with the help of an army of bureaucrats and the aristocracy. The will and fate of all is the Ruler's demand and decree. The Monarch strides the world of men as a glorious prince, all the peoples of the world will know their name!;;;;;;;;;;;;;x
 military_governorate_government;Military Governorate;;;;;;;;;;;;;x
-military_governorate_government_desc;Military Governorate represent the appointment of great general to govern the provinces of Great Kings, whether these men be of merit or the aristocracy they represent the strong arm of the monarch in the daily lives of the realm.;;;;;;;;;;;;;x
+military_governorate_government_desc;Military Governors are of course drawn from the class of military-aristocrats, they govern the surrounding lands from their country estates and city holdings in the name of their liege. Governors may rule for life or at the mercy of their liege, who may repossess the leadership of the territory at a whim and redistribute it to a more worthy commander. Governorates are focused on raising armies of men and chariots for their lord, thus less tax is expected to be paid forward as it is used to outfit the local nobles and levy the urban and rural freemen.;;;;;;;;;;;;;x
 
 succ_familial_elective;Familial Elective;;;;;;;;;;;;;x
 succ_familial_elective_desc;Monarchs are allowed to appoint from among their children and close relatives an eligible heir to take their place on the throne, the eldest child will feel slighted if they are not selected.;;;;;;;;;;;;;x
 succ_adult_familial_elective;Adult Familial Elective;;;;;;;;;;;;;x
-succ_adult_familial_elective_desc;Monarchs are allowed to appoint from among their close relatives an eligible heir to take their place on the throne, children under the age of 16 are disqualified from the election process.;;;;;;;;;;;;;x
+succ_adult_familial_elective_desc;Monarchs are allowed to appoint from among their children and close relatives an eligible heir to take their place on the throne, children under the age of 16 will not be accepted by the aristocracy and are not considered for rulership.;;;;;;;;;;;;;x
 
 system_law;Government System;;;;;;;;;;;;;x
 system_law_desc;The Government System of the Realm, It defines whether the Government relies on the courtly skills of their council or the magistrates of the cities of the realm.;;;;;;;;;;;;;x
@@ -134,10 +134,7 @@ imperial_authority_decrease_5_TT;Imperial Authority (§R-5.00§!);;;;;;;;;;;;;x
 imperial_authority_decrease_2_5_TT;Imperial Authority (§R-5.00§!);;;;;;;;;;;;;x
 imperial_authority_increase_5_TT;Imperial Authority (§G5.00§!);;;;;;;;;;;;;x
 imperial_authority_increase_2_5_TT;Imperial Authority (§G5.00§!);;;;;;;;;;;;;x
-opinion_rumors_10;Rumors;;;;;;;;;;;;;x
-opinion_rumors_25;Rumors;;;;;;;;;;;;;x
-opinion_slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
-slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
+opinion_rumors_10;Imperial Authority (§R-10.00§!);;;;;;;;;;;;;x
 
 poor_reforms;Poor Reforms;;;;;;;;;;;;;x
 poor_reforms_desc;Your Reforms went poorly.;;;;;;;;;;;;;x
