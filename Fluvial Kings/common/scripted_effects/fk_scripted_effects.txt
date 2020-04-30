@@ -101,7 +101,7 @@ boon_or_no_boon_effect = {
 			}
 		}
 		50 = { #No Boon
-			ROOT = { 
+			FROM = { 
 				character_event = { id = fkp.101 }
 			}
 			modifier = {
