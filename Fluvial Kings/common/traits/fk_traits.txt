@@ -50,3 +50,34 @@ strong_emperor = {
 	
 	male_compliment_adj = COMPL_STRONG
 }
+
+#Pantheon Traits
+tarhunna = {
+	hidden_from_others = yes
+	immortal = yes
+	random = no
+	customizer = no
+	opinion_of_zealous = 20
+	opinion_of_cynical = -20
+	opinion_of_erudite = 10
+}
+
+arinniti = {
+	hidden_from_others = yes
+	immortal = yes
+	random = no
+	customizer = no
+	opinion_of_zealous = 20
+	opinion_of_cynical = -20
+	opinion_of_erudite = 10
+}
+
+telipinu = {
+	hidden_from_others = yes
+	immortal = yes
+	random = no
+	customizer = no
+	opinion_of_zealous = 20
+	opinion_of_cynical = -20
+	opinion_of_erudite = 10
+}

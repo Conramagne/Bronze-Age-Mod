@@ -51,3 +51,117 @@ set_council_law_strong_effect = {
 		}
 	}
 }
+
+pantheon_court_effect = {
+	if = {
+		limit = {
+			religion = ishalitethai
+		}
+		character_event = { id = fkp.1 }
+	}
+}
+
+boon_or_no_boon_effect = {
+	random_list = {
+		50 = { #Boon
+			ROOT = { 
+				character_event = { id = fkp.100 }
+			}
+			modifier = {
+				factor = 0.2
+				ROOT = { opinion = { who = FROM value <= -80 } }
+			}
+			modifier = {
+				factor = 0.4
+				ROOT = { opinion = { who = FROM value <= -60 } }
+			}
+			modifier = {
+				factor = 0.6
+				ROOT = { opinion = { who = FROM value <= -40 } }
+			}
+			modifier = {
+				factor = 0.8
+				ROOT = { opinion = { who = FROM value <= -20 } }
+			}
+			modifier = {
+				factor = 1.2
+				ROOT = { opinion = { who = FROM value = 20 } }
+			}
+			modifier = {
+				factor = 1.4
+				ROOT = { opinion = { who = FROM value = 40 } }
+			}
+			modifier = {
+				factor = 1.6
+				ROOT = { opinion = { who = FROM value = 60 } }
+			}
+			modifier = {
+				factor = 1.8
+				ROOT = { opinion = { who = FROM value = 80 } }
+			}
+		}
+		50 = { #No Boon
+			ROOT = { 
+				character_event = { id = fkp.101 }
+			}
+			modifier = {
+				factor = 1.8
+				ROOT = { opinion = { who = FROM value <= -80 } }
+			}
+			modifier = {
+				factor = 1.6
+				ROOT = { opinion = { who = FROM value <= -60 } }
+			}
+			modifier = {
+				factor = 1.4
+				ROOT = { opinion = { who = FROM value <= -40 } }
+			}
+			modifier = {
+				factor = 1.2
+				ROOT = { opinion = { who = FROM value <= -20 } }
+			}
+			modifier = {
+				factor = 0.9
+				ROOT = { opinion = { who = FROM value = 40 } }
+			}
+			modifier = {
+				factor = 0.8
+				ROOT = { opinion = { who = FROM value = 60 } }
+			}
+			modifier = {
+				factor = 0.6
+				ROOT = { opinion = { who = FROM value = 80 } }
+			}
+		}
+	}
+}
+
+apply_random_boon_effect = {
+	if = {
+		limit = {
+			FROM = {
+				character = 1000000 #Tarhunna
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = tarhunna_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = tarhunna_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = tarhunna_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+}

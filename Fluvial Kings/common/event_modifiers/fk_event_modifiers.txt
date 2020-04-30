@@ -33,3 +33,24 @@ imperial_authority = {
 slandered_emperor = {
 	icon = 9
 }
+
+denied_boon = {
+	icon = 49
+}
+
+#Boons
+tarhunna_boon_1 = {
+	#chariot bonus to be added
+	command_modifier = {
+		archers_offensive = 0.2
+	}
+	icon = 131
+}
+tarhunna_boon_2 = {
+	global_movement_speed = 0.2
+	icon = 131
+}
+tarhunna_boon_3 = {
+	same_religion_opinion = 20
+	icon = 131
+}

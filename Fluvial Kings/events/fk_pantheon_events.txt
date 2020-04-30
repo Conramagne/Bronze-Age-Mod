@@ -1,0 +1,41 @@
+namespace = fkp
+
+#Hittite (Ishalitethai) Pantheon
+character_event = {
+	id = fkp.1
+	desc = EVTDESCFKP1
+	is_triggered_only = yes
+	portrait = 1000000
+	
+	option = {
+		name = OK
+	}
+}
+
+####Boon Events
+#Given Boon
+character_event = { 
+	id = fkp.100
+	desc = EVTDESCFKP100
+	is_triggered_only = yes
+	
+	option = {
+		name = opta_excellent
+		apply_random_boon_effect = yes
+	}
+}
+
+#Denied Boon
+character_event = { 
+	id = fkp.101
+	desc = EVTDESCFKP101
+	is_triggered_only = yes
+	
+	option = {
+		name = opta_disappointing
+		add_character_modifier = {
+			modifier = denied_boon
+			years = 5
+		}
+	}
+}

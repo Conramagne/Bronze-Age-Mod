@@ -1,0 +1,8 @@
+#IDS from 1000000-1099999
+
+#Hittite (Ishalitethai) Pantheon
+1000000 = {
+	name = "Tarhunnid"
+	culture = "hittite"
+	used_for_random = no
+}

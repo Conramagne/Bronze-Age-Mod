@@ -66,10 +66,10 @@ egal_assur_DESC;Assur is proclaimed to be the The Lord of All Heaven by the peop
 
 pihassasi;Pihassasi;;;;;;;;;;;;;x
 ishalitethai;Ishalitethai;;;;;;;;;;;;;x
-ishalitethai_DESC;The Nesili took up the mantle of the peoples they conquered and thereafter called themselves heirs to Hatti. Their gods still have the fierce air of the chariot and the steppe about them, every city and village swears itself to a different god of thunder and celebrates the defeat of the serpent Illuyanka every spring. The Great King of the Hatti is called “Our Sun” by his subjects who believe that his power on earth is drawn from the stormgod Tarhuma and his queen Arinniti of the sun. Tarhuma was of the Nesili, and Arinniti of the Old Hatti. Their marriage symbolized the union of two great nations and reflects the dual ancestry of the inhabitants of Hatti. At his investiture the Sallihassu of Hattussa symbolically marries the Sun and is proclaimed High Priest and Regent of the gods.;;;;;;;;;;;;;x
+ishalitethai_DESC;The Nesili took up the mantle of the peoples they conquered and thereafter called themselves heirs to Hatti. Their gods still have the fierce air of the chariot and the steppe about them, every city and village swears itself to a different god of thunder and celebrates the defeat of the serpent Illuyanka every spring. The Great King of the Hatti is called “Our Sun” by his subjects who believe that his power on earth is drawn from the stormgod Tarhunna and his queen Arinniti of the sun. Tarhunna was of the Nesili, and Arinniti of the Old Hatti. Their marriage symbolized the union of two great nations and reflects the dual ancestry of the inhabitants of Hatti. At his investiture the Sallihassu of Hattussa symbolically marries the Sun and is proclaimed High Priest and Regent of the gods.;;;;;;;;;;;;;x
 
 haianiluwi;Haianiluwi;;;;;;;;;;;;;x
-haianiluwi_DESC;The Luwi traditions and gods are kin to their Hatti cousins. Tarhuma the Thunderer brings the summer rains and fattens the kine, and from the haft of his axe hangs great bunches of grapes and vines. Freemen pray to him in their huts for golden grain and friendly weather while princes and chieftains pray in loud shouts to heaven on the fields of a chariot filled battle. Mount Korikos is believed to be the site of the Dracomachy where Tarhuma and Tiwaz the Father-Sun slew the great Serpent to win back Tarhuma’s stolen eyes and heart. The festival of Puruli is held in spring to celebrate the death of the dragon and triumph of the gods.;;;;;;;;;;;;;x
+haianiluwi_DESC;The Luwi traditions and gods are kin to their Nesili cousins. Tarhunna the Thunderer brings the summer rains and fattens the kine, and from the haft of his axe hangs great bunches of grapes and vines. Freemen pray to him in their huts for golden grain and friendly weather while princes and chieftains pray in loud shouts to heaven on the fields of a chariot filled battle. Mount Korikos is believed to be the site of the Dracomachy where Tarhunna and Tiwaz the Father-Sun slew the great Serpent to win back Tarhunna’s stolen eyes and heart. The festival of Puruli is held in spring to celebrate the death of the dragon and triumph of the gods.;;;;;;;;;;;;;x
 
 ###########Gods and Books###########
 THE_AMURRU_KTOVET;The Amurru K'tovet;;;;;;;;;;;;;x
@@ -107,7 +107,7 @@ GOD_SHAMASH;Shamash;;;;;;;;;;;;;x
 GOD_SHARRUMA;Sharruma;;;;;;;;;;;;;x
 GOD_SIN;Sin;;;;;;;;;;;;;x
 GOD_TAKNASDUTU;Taknasdutu;;;;;;;;;;;;;x
-GOD_TARHUMA;Tarhuma;;;;;;;;;;;;;x
+GOD_TARHUNNA;Tarhunna;;;;;;;;;;;;;x
 GOD_TELIPINU;Telipinu;;;;;;;;;;;;;x
 GOD_THE_LORD;The Lord;;;;;;;;;;;;;x
 GOD_YAM;Yam;;;;;;;;;;;;;x
@@ -141,6 +141,10 @@ opinion_rumors_10;Rumors;;;;;;;;;;;;;x
 opinion_rumors_25;Rumors;;;;;;;;;;;;;x
 opinion_slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
 slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
+opinion_of_zealous_EXPLANATION; (opinion on Zealous);;;;;;;;;;;;;x
+opinion_of_cynical_EXPLANATION; (opinion on Cynical);;;;;;;;;;;;;x
+opinion_of_erudite_EXPLANATION; (opinion on Erudite);;;;;;;;;;;;;x
+
 
 poor_reforms;Poor Reforms;;;;;;;;;;;;;x
 poor_reforms_desc;Your Reforms went poorly.;;;;;;;;;;;;;x

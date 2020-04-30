@@ -69,3 +69,20 @@ d_ili_abinia = {
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
+
+#Pantheon Titles
+d_ishalitethai_pantheon = {
+	color = { 255 255 255 }
+	capital = 1
+	
+	title = "HIGH_GOD"
+	foa = "POPE_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+}

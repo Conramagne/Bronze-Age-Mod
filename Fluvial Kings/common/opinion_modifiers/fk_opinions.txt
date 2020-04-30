@@ -20,3 +20,8 @@ opinion_rumors_25 = {
 	opinion = -25
 	months = 60
 }
+
+opinion_cursed_by = {
+	opinion = -100
+	years = 50
+}

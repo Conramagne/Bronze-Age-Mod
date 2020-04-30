@@ -1,3 +1,24 @@
+decisions = {
+	contact_pantheon = {
+		is_high_prio = yes
+		ai = no
+		
+		potential = {
+			NOT = {
+				trait = cynical
+			}
+			#is_monetheist_trigger = no
+			is_adult = yes
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			pantheon_court_effect = yes
+		}
+	}
+}
+
 targetted_decisions = {
 	slander_liege = {
 		is_high_prio = yes
@@ -89,6 +110,41 @@ targetted_decisions = {
 					trait = ambitious
 				}
 			}
+		}
+	}
+
+	request_boon = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		only_playable = yes
+		
+		from_potential = {
+			prisoner = no
+			OR = {
+				religion = ROOT
+				has_sympathy_for_true_religion_of_root_trigger = yes
+			}
+			NOT = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_cursed_by
+				}
+			}
+			NOT = {
+				has_character_modifier = denied_boon
+			}
+			has_boon_trigger = no
+		}
+		potential = {
+			has_character_flag = flag_god
+		}
+		effect = {
+			ROOT = {
+				boon_or_no_boon_effect = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
 		}
 	}
 }

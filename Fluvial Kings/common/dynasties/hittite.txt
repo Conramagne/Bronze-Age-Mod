@@ -3,6 +3,7 @@
 2000000 = {
 	name = "Labarnid"
 	culture = "hittite"
+	used_for_random = no
 	coat_of_arms = {
 		religion = ishalitethai
 		template = 0

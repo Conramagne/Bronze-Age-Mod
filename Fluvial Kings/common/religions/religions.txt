@@ -205,10 +205,10 @@ pihassasi = {
 
 		color = { 0.7 0.4 0.1 }
 		
-		high_god_name = GOD_TARHUMA
+		high_god_name = GOD_TARHUNNA
 		
 		god_names = {
-			GOD_TARHUMA GOD_SHARRUMA GOD_TELIPINU GOD_ARMA GOD_TIWAZ
+			GOD_TARHUNNA GOD_SHARRUMA GOD_TELIPINU GOD_ARMA GOD_TIWAZ
 		}
 		evil_god_names = {
 			GOD_ILLUYANKA GOD_ERRA GOD_SHANTA
@@ -235,10 +235,10 @@ pihassasi = {
 
 		color = { 0.9 0.6 0.2 }
 		
-		high_god_name = GOD_TARHUMA
+		high_god_name = GOD_TARHUNNA
 		
 		god_names = {
-			GOD_TARHUMA GOD_SHARRUMA GOD_TELIPINU GOD_ARINNITI GOD_ISHTAR
+			GOD_TARHUNNA GOD_SHARRUMA GOD_TELIPINU GOD_ARINNITI GOD_ISHTAR
 		}
 		evil_god_names = {
 			GOD_ILLUYANKA GOD_ERRA GOD_TAKNASDUTU

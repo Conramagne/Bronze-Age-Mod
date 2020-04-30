@@ -1,0 +1,13 @@
+has_boon_trigger = {
+	OR = {
+		has_boon_tarhunna_trigger = yes
+	}
+}
+
+has_boon_tarhunna_trigger = {
+	OR = {
+		has_character_modifier = tarhunna_boon_1
+		has_character_modifier = tarhunna_boon_2
+		has_character_modifier = tarhunna_boon_3
+	}
+}

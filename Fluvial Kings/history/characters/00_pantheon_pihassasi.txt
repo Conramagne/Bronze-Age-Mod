@@ -1,0 +1,53 @@
+#Hittite (Ishalitethai) Pantheon
+1000000 = {
+	name = "Tarhunna" # Tarhunna, Head God and Weather God
+	dynasty = 1000000 #Tarhunnid
+	culture = hittite
+	religion = ishalitethai
+	trait = tarhunna
+	immortal_age = 30
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+		add_spouse = 1000001
+	}
+	9999.1.1 = { death = yes }
+}
+
+1000001 = {
+	name = "Arinniti" # Arinniti, Wife of Tarhunna, Sun and Guardian Goddess
+	dynasty = 1000000 #Tarhunnid
+	culture = hittite
+	religion = ishalitethai
+	female = yes
+	trait = arinniti
+	immortal_age = 30
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+		add_spouse = 1000000
+	}
+	9999.1.1 = { death = yes }
+}
+
+1000002 = {
+	name = "Telipinu" # Telipinu, Son of Tarhunna and Arinniti, Agricultural God
+	dynasty = 1000000 #Tarhunnid
+	culture = hittite
+	religion = ishalitethai
+	father = 1000000
+	mother = 1000001
+	trait = arinniti
+	immortal_age = 20
+	1.1.2 = { birth = yes }
+	1.1.2 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
