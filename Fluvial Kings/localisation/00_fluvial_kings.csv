@@ -131,6 +131,7 @@ d_haianiluwi_adj;Priestly;;;;;;;;;;;;;x
 imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]%);;;;;;;;;;;;;x
 imperial_authority_desc;§BImperial Authority§W represents the power the monarch has in their capacity to govern the realm.\n\nThings that §GRaise§W Imperial Authority are:\n- Have §GQuality§W administrators and councilors in your realm that are §GLoyal§W\n- The Palace Court is relatively §GWeak§W compared to you\n- Lead your realm to great §GGLORY§W\n\nThings that §RLower§W Imperial Authority are:\n- Have §RPoor Quality§W administrators and councilors in your realm that are §RDisloyal§W\n- The Palace Court is relatively §RStrong§W compared to you\n- Lead your realm to great §RHUMILIATION§!;;;;;;;;;;;;;x
 imperial_authority_decrease_5_TT;Imperial Authority (§R-5.00§!);;;;;;;;;;;;;x
+imperial_authority_decrease_7_TT;Imperial Authority (§R-7.00§!);;;;;;;;;;;;;x
 imperial_authority_decrease_2_5_TT;Imperial Authority (§R-5.00§!);;;;;;;;;;;;;x
 imperial_authority_increase_5_TT;Imperial Authority (§G5.00§!);;;;;;;;;;;;;x
 imperial_authority_increase_2_5_TT;Imperial Authority (§G5.00§!);;;;;;;;;;;;;x
@@ -138,7 +139,6 @@ opinion_rumors_10;Rumors;;;;;;;;;;;;;x
 opinion_rumors_25;Rumors;;;;;;;;;;;;;x
 opinion_slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
 slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
-opinion_rumors_10;Imperial Authority (§R-10.00§!);;;;;;;;;;;;;x
 
 poor_reforms;Poor Reforms;;;;;;;;;;;;;x
 poor_reforms_desc;Your Reforms went poorly.;;;;;;;;;;;;;x
