@@ -168,3 +168,11 @@ tax_tribute;Tribute: Tax-Focused;;;;;;;;;;;;;x
 tax_tribute_desc;The Tribute is focused in Increasing their tribute of wealth to you;;;;;;;;;;;;;x
 levy_tribute;Tribute: Levy-Focused;;;;;;;;;;;;;x
 levy_tribute_desc;The Tribute is focused in Increasing their tribute of troops to you;;;;;;;;;;;;;x
+
+###########God Boons and Curses###########
+denied_boon;Denied Boon of Gods;;;;;;;;;;;;;x
+opinion_cursed_by;Cursed by The Divines;;;;;;;;;;;;;x
+
+tarhunna_boon_1;Tarhunna's Hunters;;;;;;;;;;;;;x
+tarhunna_boon_2;Swiftness of Tarhunna;;;;;;;;;;;;;x
+tarhunna_boon_3;Tarhunna's Praise;;;;;;;;;;;;;x
