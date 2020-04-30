@@ -1,0 +1,164 @@
+###########Cultures###########
+anatolian;Anatolian;;;;;;;;;;;;;x
+hittite;Nešili;;;;;;;;;;;;;x
+amazonios;Amazonios;;;;;;;;;;;;;x
+pala;Pala;;;;;;;;;;;;;x
+luwian;Luwili;;;;;;;;;;;;;x
+kaskian;Kaskian;;;;;;;;;;;;;x
+isuwan;Isuwan;;;;;;;;;;;;;x
+###########Government and Law###########
+feudal_government;Local Polity;;;;;;;;;;;;;x
+feudal_government_desc;Local Polities and States that have arisen from disunited tribes and confederations or have slipped out of the grasps of larger Realms. Often considered nothing more than petty states with squabbling tyrants whose authority barely extends beyond the walls of their citadels, they lack the courtly grandeur and the ability to administer more than their local communities. The Greater Monarchies have much sway over these lesser lords.;;;;;;;;;;;;;x
+regional_kingdom_government;Regional Authority;;;;;;;;;;;;;x
+regional_kingdom_government_desc;Regional Authorities are the Kingdoms and Regional Powers that are below the prominence of a Greater Kingdom but are potent enough powers in their own locale. Monarchs rely on landed military aristocrats and a growing palace structure. This represent the united polity of a people as well as their subjugated neighbors.;;;;;;;;;;;;;x
+hegemonic_government;Hegemonic Power;;;;;;;;;;;;;x
+hegemonic_government_desc;Hegemonic Powers are large realms stretching from one corner of the world to the next. Monarchs rule a vast cosmopolitan realm of many religions, tribes and cultures with the help of an army of bureaucrats and the aristocracy. The will and fate of all is the Ruler's demand and decree. The Monarch strides the world of men as a glorious prince, all the peoples of the world will know their name!;;;;;;;;;;;;;x
+military_governorate_government;Military Governorate;;;;;;;;;;;;;x
+military_governorate_government_desc;Military Governors are of course drawn from the class of military-aristocrats, they govern the surrounding lands from their country estates and city holdings in the name of their liege. Governors may rule for life or at the mercy of their liege, who may repossess the leadership of the territory at a whim and redistribute it to a more worthy commander. Governorates are focused on raising armies of men and chariots for their lord, thus less tax is expected to be paid forward as it is used to outfit the local nobles and levy the urban and rural freemen.;;;;;;;;;;;;;x
+
+succ_familial_elective;Familial Elective;;;;;;;;;;;;;x
+succ_familial_elective_desc;Monarchs are allowed to appoint from among their children and close relatives an eligible heir to take their place on the throne, the eldest child will feel slighted if they are not selected.;;;;;;;;;;;;;x
+succ_adult_familial_elective;Adult Familial Elective;;;;;;;;;;;;;x
+succ_adult_familial_elective_desc;Monarchs are allowed to appoint from among their children and close relatives an eligible heir to take their place on the throne, children under the age of 16 will not be accepted by the aristocracy and are not considered for rulership.;;;;;;;;;;;;;x
+
+system_law;Government System;;;;;;;;;;;;;x
+system_law_desc;The Government System of the Realm, It defines whether the Government relies on the courtly skills of their council or the magistrates of the cities of the realm.;;;;;;;;;;;;;x
+system_law_0;Oligarchy;;;;;;;;;;;;;x
+system_law_0_desc;Oligarchic States are reliant on their magistrates and local administrators of their realm's cities and provinces. Particularly cunning or shrewd administrators will prefer this form of governance as it is much easier to bypass the will of the Royal Family and Palace Court. The monarch will get a boon in taxes at the expense of their army. They will also be greatly restricted in their capacity to govern outside the palace and are more at the mercy of influential vassals.;;;;;;;;;;;;;x
+system_law_1;Stately;;;;;;;;;;;;;x
+system_law_1_desc;The Royal Court and Family are the primary conduit for which the realm is governed. It is understood that the Monarch is a regent of the Divine and and thus their offsprings should succeed them, though that may not always be possible or practical. The warrior-aristocrats and palace scribes in the council greatly favor the strength of their lord. As a result the armies they field, wield a zeal for their liege but provincial lords scoff at the lost of their autonomy and may not be willing to cooperate with their sovereign.;;;;;;;;;;;;;x
+
+foreigner_law;Status of Foreigners;;;;;;;;;;;;;x
+foreigner_law_desc;The status afforded to the Foreigners that reside in the realm.;;;;;;;;;;;;;x
+foreigner_law_0;Harsh;;;;;;;;;;;;;x
+foreigner_law_0_desc;Dare we call them people? Dogs befits their stature and character better, and they will know who their masters are.;;;;;;;;;;;;;x
+foreigner_law_1;Neutral;;;;;;;;;;;;;x
+foreigner_law_1_desc;We placed no significance to the foreigners that reside in our realm and treat them with wary indifference.;;;;;;;;;;;;;x
+foreigner_law_2;Loose;;;;;;;;;;;;;x
+foreigner_law_2_desc;These Foreigners are allowed to settle in our illustrious realm as they please so long as they acknowledge our sovereignty.;;;;;;;;;;;;;x
+
+tribute_law;Tribute Status;;;;;;;;;;;;;x
+tribute_law_desc;The Status of Tributes;;;;;;;;;;;;;x
+tribute_law_0;Taxed;;;;;;;;;;;;;x
+tribute_law_0_desc;Tributes are asked to contribute a larger share of their coffers for the good of the realm, at the expense of military contributions.;;;;;;;;;;;;;x
+tribute_law_1;Neutral;;;;;;;;;;;;;x
+tribute_law_1_desc;Tributes are asked to contribute their fair share and troops for the good of the realm.;;;;;;;;;;;;;x
+tribute_law_2;Levied;;;;;;;;;;;;;x
+tribute_law_2_desc;Tributes are asked to contribute a larger share of their armies for the good of the realm, at the expense of tribute tax.;;;;;;;;;;;;;x
+
+###########Religions###########
+bnai_avraham;Bnai Avraham;;;;;;;;;;;;;x
+berith;Berith;;;;;;;;;;;;;x
+berith_DESC;“Blessed are you, Adonai Eloheinu, King of the universe.”\n\nIt was in the dust of the heathen streets of Ur that Avraham ben Tera heard the voice of the One God. At His command Avraham braved hardship and war leading his household into Canaan, where he received the instructions for the Covenant. Out of his loins will come a great nation it is said, and now the sons of his grandson Yisrael bin Yitzhak have become an extended family of twelve tribes. Under the leadership of Moshe they defied the Kings of Mizrayim and were instructed by him in the Law. Their priests are usually drawn from the Tribe of Levi, and their duties include ritual animal sacrifice and the smearing of blood in atonement for sins.;;;;;;;;;;;;;x
+bnai_kenaan;Bnai Kenaan;;;;;;;;;;;;;x
+barqos;Barqos;;;;;;;;;;;;;x
+barqos_DESC;The men of Edom are not wholly sons of Kenaan, but are indeed kin to the Yisraelim. These sons of Esau have turned to idolatry and nearly forgotten the covenant of their father Avraham ben Terah. They do however retain the practice of circumcision and name El Shaddai among the gods worthy of veneration. Qos is their patron god, the archer who gleams forth in the desert and hunts his foes like the lion hunts the antelope. Qos is also worshipped by the Nabatu and others of the banu Yishma'el under the name “Quzah”.;;;;;;;;;;;;;x,,,
+bene_elihi;Bene Elihi;;;;;;;;;;;;;x
+bene_elihi_DESC;The fertile westlands of Kenaan are home to a unique blend of gods and heroes. The creator and gray-haired father of the Elihi is El “The Bull” who rules from his tent atop mount Sappan and instructs his children and servants alongside his consort Asherah. Ba’al Hadaad son of Dagon holds lightning in the palm of his hand and brings the summer rains, in the youth of the world he challenged wicked Yam of the sea and defeated the coiling serpent Litanu. Fiery Molek fumes and demands offerings from his followers and grants them boons of health and herds. Each city and king tends to have a particular patron from among the pantheon.;;;;;;;;;;;;;x,,,,
+ili_abinia;Ili Abinia;;;;;;;;;;;;;x
+ili_abinia_DESC;The traditions and cults of the Amurru, a tall, brash, and ancient people of mountain and pasture. They ruled as Kings and Princes over the Akkadi and Sumeru for 500 years and carried their gods with them on the backs of their furious chariots. The old gods of their forefathers have been preserved outside of Akkadi in the plains and deserts of the westlands. At the head of the host of Hosts is El Amurru, god of the high mountains and desert wind who leads the familiar host of the gods of Kenaan and Akkadi. Belet-Seri is his wife and queen of the desert, and Ba’al Hadad the Thunderer is his regent.;;;;;;;;;;;;;x
+
+mesopotamian;Mesopotamian;;;;;;;;;;;;;x
+egal_assur;Egal Assur;;;;;;;;;;;;;x
+egal_assur_DESC;Assur is proclaimed to be the The Lord of All Heaven by the people of his city. For almost a thousand years the people of Assur have believed in the superiority of their god over the southern gods Marduk and Enlil. While the south fell to the half-beast Amurru and Kassu dogs, the sons of Assur preserved their freedom and supremacy. The Sarsarannu rules as regent for Assur and is the supreme authority in secular and eclesiastical matters and must prove his worth to the priesthood in the heat of battle. Assur is the hunter, first among his godly brethren and the slayer of lions and taker of pelts. His enemies should perhaps fear for their own skins...;;;;;;;;;;;;;x
+
+pihassasi;Pihassasi;;;;;;;;;;;;;x
+ishalitethai;Ishalitethai;;;;;;;;;;;;;x
+ishalitethai_DESC;The Nesili took up the mantle of the peoples they conquered and thereafter called themselves heirs to Hatti. Their gods still have the fierce air of the chariot and the steppe about them, every city and village swears itself to a different god of thunder and celebrates the defeat of the serpent Illuyanka every spring. The Great King of the Hatti is called “Our Sun” by his subjects who believe that his power on earth is drawn from the stormgod Tarhuma and his queen Arinniti of the sun. Tarhuma was of the Nesili, and Arinniti of the Old Hatti. Their marriage symbolized the union of two great nations and reflects the dual ancestry of the inhabitants of Hatti. At his investiture the Sallihassu of Hattussa symbolically marries the Sun and is proclaimed High Priest and Regent of the gods.;;;;;;;;;;;;;x
+
+haianiluwi;Haianiluwi;;;;;;;;;;;;;x
+haianiluwi_DESC;The Luwi traditions and gods are kin to their Hatti cousins. Tarhuma the Thunderer brings the summer rains and fattens the kine, and from the haft of his axe hangs great bunches of grapes and vines. Freemen pray to him in their huts for golden grain and friendly weather while princes and chieftains pray in loud shouts to heaven on the fields of a chariot filled battle. Mount Korikos is believed to be the site of the Dracomachy where Tarhuma and Tiwaz the Father-Sun slew the great Serpent to win back Tarhuma’s stolen eyes and heart. The festival of Puruli is held in spring to celebrate the death of the dragon and triumph of the gods.;;;;;;;;;;;;;x
+
+###########Gods and Books###########
+THE_AMURRU_KTOVET;The Amurru K'tovet;;;;;;;;;;;;;x
+THE_BAAL_KTOVET;The Ba’al K'tovet;;;;;;;;;;;;;x
+THE_HATTI_ISTANDANT;The Hatti Istandant;;;;;;;;;;;;;x
+THE_LUWIAN_ISTANDANT;The Luwian Istandant;;;;;;;;;;;;;x
+THE_TORAH;The Torah;;;;;;;;;;;;;x
+THE_QOS_KTOVET;The Qos K'tovet;;;;;;;;;;;;;x
+
+GOD_ADONAI;Adonai;;;;;;;;;;;;;x
+GOD_ASHERAH;Asherah;;;;;;;;;;;;;x
+GOD_ASSUR;Assur;;;;;;;;;;;;;x
+GOD_ARINNITI;Arinniti;;;;;;;;;;;;;x
+GOD_BAAL_HADAD;Ba'al Hadad;;;;;;;;;;;;;x
+GOD_DAGON;Dagon;;;;;;;;;;;;;x
+GOD_ERRA;Erra;;;;;;;;;;;;;x
+GOD_EL;El;;;;;;;;;;;;;x
+GOD_ELOHIM;Elohim;;;;;;;;;;;;;x
+GOD_EL_AMURRU;El Amurru;;;;;;;;;;;;;x
+GOD_EL_SHADDAI;El Shaddai;;;;;;;;;;;;;x
+GOD_EL_TORU;El Toru;;;;;;;;;;;;;x
+GOD_GOD;God;;;;;;;;;;;;;x
+GOD_HASHEM;HaShem;;;;;;;;;;;;;x
+GOD_ILLUYANKA;Illuyanka;;;;;;;;;;;;;x
+GOD_ISHTAR;Ishtar;;;;;;;;;;;;;x
+GOD_LAMASHTU;Lamashtu;;;;;;;;;;;;;x
+GOD_LITANU;Litanu;;;;;;;;;;;;;x
+GOD_MANAT;Manat;;;;;;;;;;;;;x
+GOD_MARDUK;Marduk;;;;;;;;;;;;;x
+GOD_MOLEK;Molek;;;;;;;;;;;;;x
+GOD_MOT;Mot;;;;;;;;;;;;;x
+GOD_NASU;Nasu;;;;;;;;;;;;;x
+GOD_RESHEPH;Resheph;;;;;;;;;;;;;x
+GOD_SHAMASH;Shamash;;;;;;;;;;;;;x
+GOD_SHARRUMA;Sharruma;;;;;;;;;;;;;x
+GOD_SIN;Sin;;;;;;;;;;;;;x
+GOD_TAKNASDUTU;Taknasdutu;;;;;;;;;;;;;x
+GOD_TARHUMA;Tarhuma;;;;;;;;;;;;;x
+GOD_TELIPINU;Telipinu;;;;;;;;;;;;;x
+GOD_THE_LORD;The Lord;;;;;;;;;;;;;x
+GOD_YAM;Yam;;;;;;;;;;;;;x
+GOD_SHANTA;Shanta;;;;;;;;;;;;;x
+GOD_ARMA;Arma;;;;;;;;;;;;;x
+GOD_TIWAZ;Tiwaz;;;;;;;;;;;;;x
+
+KOHEN;Kohen;;;;;;;;;;;;;x
+SANKUNNI;Sankunni;;;;;;;;;;;;;x
+HEAD_KOHEN_GADOL;Kohen Gadol;;;;;;;;;;;;;x
+HEAD_KOHEN_AMURRU;Kohen Amurru;;;;;;;;;;;;;x
+HEAD_SALLISANKUNI;Sallisankuni;;;;;;;;;;;;;x
+
+###########Titles###########
+d_berith;High Priesthood;;;;;;;;;;;;;x
+d_berith_adj;Priestly;;;;;;;;;;;;;x
+d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
+d_ili_abinia_adj;Priestly;;;;;;;;;;;;;x
+d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
+d_haianiluwi;High Haianiluwi Priesthood;;;;;;;;;;;;;x
+d_haianiluwi_adj;Priestly;;;;;;;;;;;;;x
+###########Traits and Character/Province Modifiers###########
+imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]%);;;;;;;;;;;;;x
+imperial_authority_desc;§BImperial Authority§W represents the power the monarch has in their capacity to govern the realm.\n\nThings that §GRaise§W Imperial Authority are:\n- Have §GQuality§W administrators and councilors in your realm that are §GLoyal§W\n- The Palace Court is relatively §GWeak§W compared to you\n- Lead your realm to great §GGLORY§W\n\nThings that §RLower§W Imperial Authority are:\n- Have §RPoor Quality§W administrators and councilors in your realm that are §RDisloyal§W\n- The Palace Court is relatively §RStrong§W compared to you\n- Lead your realm to great §RHUMILIATION§!;;;;;;;;;;;;;x
+imperial_authority_decrease_5_TT;Imperial Authority (§R-5.00§!);;;;;;;;;;;;;x
+imperial_authority_decrease_2_5_TT;Imperial Authority (§R-5.00§!);;;;;;;;;;;;;x
+imperial_authority_increase_5_TT;Imperial Authority (§G5.00§!);;;;;;;;;;;;;x
+imperial_authority_increase_2_5_TT;Imperial Authority (§G5.00§!);;;;;;;;;;;;;x
+opinion_rumors_10;Rumors;;;;;;;;;;;;;x
+opinion_rumors_25;Rumors;;;;;;;;;;;;;x
+opinion_slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
+slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
+opinion_rumors_10;Imperial Authority (§R-10.00§!);;;;;;;;;;;;;x
+
+poor_reforms;Poor Reforms;;;;;;;;;;;;;x
+poor_reforms_desc;Your Reforms went poorly.;;;;;;;;;;;;;x
+good_reforms;Good Reforms;;;;;;;;;;;;;x
+good_reforms_desc;Your Reforms went well.;;;;;;;;;;;;;x
+sold_bureaucratic_positions;Sold Positions of Power;;;;;;;;;;;;;x
+sold_bureaucratic_positions_desc;You have sold positions of powers to the highest bidder.;;;;;;;;;;;;;x
+
+figurehead_emperor;Figurehead Monarch;;;;;;;;;;;;;x
+figurehead_emperor_desc;You Wield no real power.;;;;;;;;;;;;;x
+weak_emperor;Weak Monarch;;;;;;;;;;;;;x
+weak_emperor_desc;You Wield little power.;;;;;;;;;;;;;x
+strong_emperor;Strong Monarch;;;;;;;;;;;;;x
+strong_emperor_desc;You Wield great power.;;;;;;;;;;;;;x
+
+oppressive_rule;Oppressive Policies;;;;;;;;;;;;;x
+oppressive_rule_desc;Oppressive Policies are being used in this province;;;;;;;;;;;;;x
+autonomous_rule;Autonomous Communities;;;;;;;;;;;;;x
+autonomous_rule_desc;Autonomous Communities exist in this province;;;;;;;;;;;;;x
+tax_tribute;Tribute: Tax-Focused;;;;;;;;;;;;;x
+tax_tribute_desc;The Tribute is focused in Increasing their tribute of wealth to you;;;;;;;;;;;;;x
+levy_tribute;Tribute: Levy-Focused;;;;;;;;;;;;;x
+levy_tribute_desc;The Tribute is focused in Increasing their tribute of troops to you;;;;;;;;;;;;;x
