@@ -66,7 +66,7 @@ EVTOPTAFKR134;Not just myself, but my blood? Perhaps I will take their eyes...;;
 
 ###########Contacting the Divines Events###########
 contact_pantheon;Contact [Root.Religion.GetFullName] Pantheon;;;;;;;;;;;;;x
-contact_pantheon_desc;By contact [Root.Religion.GetFullName] Pantheon, you wish to gain the boon of the divines, whether they will recieve your request depends on your devotion to them.;;;;;;;;;;;;;x
+contact_pantheon_desc;By contacting [Root.Religion.GetFullName] Pantheon, you wish to gain the boon of the divines, whether they will recieve your request depends on your devotion to them.;;;;;;;;;;;;;x
 request_boon;Request Boon;;;;;;;;;;;;;x
 request_boon_desc;Request Boon from the Divines;;;;;;;;;;;;;x
 
