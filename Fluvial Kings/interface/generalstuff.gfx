@@ -1005,6 +1005,10 @@ spriteTypes = {
 		name = "GFX_button_goto_diplo"
 		texturefile = "gfx\\interface\\button_goto_diplo.tga"
 	}
+	spriteType = {
+		name = "GFX_contact_pantheon"
+		texturefile = "gfx\\interface\\decision_calling_the_gods.dds"
+	}
 	
 	### icons
 	spriteType = {
