@@ -1,22 +1,26 @@
+spriteTypes = {
+
 ### imperial traits
-spriteType = {
- name = "GFX_trait_figurehead_emperor"
- texturefile = "gfx/traits/figurehead_emperor.dds"
- noOfFrames = 1
- norefcount = yes
- effectFile = "gfx/FX/buttonstate.lua"
-}
-spriteType = {
- name = "GFX_trait_weak_emperor"
- texturefile = "gfx/traits/weak_emperor.dds"
- noOfFrames = 1
- norefcount = yes
- effectFile = "gfx/FX/buttonstate.lua"
-}
-spriteType = {
- name = "GFX_trait_strong_emperor"
- texturefile = "gfx/traits/strong_emperor.dds"
- noOfFrames = 1
- norefcount = yes
- effectFile = "gfx/FX/buttonstate.lua"
+	
+	spriteType = {
+		name = "GFX_trait_figurehead_emperor"
+		texturefile = "gfx/traits/figurehead_emperor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_weak_emperor"
+		texturefile = "gfx/traits/weak_emperor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_strong_emperor"
+		texturefile = "gfx/traits/strong_emperor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 }
