@@ -64,7 +64,7 @@ pantheon_court_effect = {
 boon_or_no_boon_effect = {
 	random_list = {
 		50 = { #Boon
-			ROOT = { 
+			FROM = { 
 				character_event = { id = fkp.100 }
 			}
 			modifier = {
