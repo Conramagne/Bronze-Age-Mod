@@ -70,6 +70,6 @@ contact_pantheon_desc;By contacting [Root.Religion.GetFullName] Pantheon, you wi
 request_boon;Request Boon;;;;;;;;;;;;;x
 request_boon_desc;Request Boon from the Divines;;;;;;;;;;;;;x
 
-EVTDESCFKP1;You decided to call upon [Root.Religion.GetFullName] Pantheon, and The Divines has recieved you plea!;;;;;;;;;;;;;x
+EVTDESCFKP1;You decided to call upon [Root.Religion.GetFullName] Pantheon, and The Divines have recieved you plea!;;;;;;;;;;;;;x
 EVTDESCFKP100;Praise be! The Divines has decided to grant you a boon, for your devotion to them.;;;;;;;;;;;;;x
 EVTDESCFKP101;LO the despair! The Divines has decided to not grant you a boon, for your devotion to them was not great enough.;;;;;;;;;;;;;x
