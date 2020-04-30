@@ -4,14 +4,14 @@ decisions = {
 		ai = no
 		
 		potential = {
-			NOT = {
-				trait = cynical
-			}
 			#is_monetheist_trigger = no
 			is_adult = yes
 		}
 		allow = {
 			prisoner = no
+			NOT = {
+				trait = cynical
+			}
 		}
 		effect = {
 			pantheon_court_effect = yes
@@ -113,13 +113,63 @@ targetted_decisions = {
 		}
 	}
 
+	make_sacrifice_to = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		only_playable = yes
+		from_potential = {
+			NOT = {
+				has_character_flag = flag_god
+			}
+			prisoner = no
+			is_adult = yes
+			OR = {
+				religion = ROOT
+				has_sympathy_for_true_religion_of_root_trigger = yes
+			}
+			NOT = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_cursed_by
+				}
+			}
+			NOT = {
+				has_character_modifier = made_sacrifice
+			}
+		}
+		potential = {
+			has_character_flag = flag_god
+			received_sacrifice_recently_trigger = no
+		}
+		allow = {
+			FROM = {
+				NOT = {
+					trait = cynical
+				}
+				wealth = 0
+			}
+		}
+		effect = {
+			FROM = {
+				character_event = { id = fkp.200 }
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	
 	request_boon = {
 		is_high_prio = yes
 		ai_check_interval = 12
 		only_playable = yes
 		
 		from_potential = {
+			NOT = {
+				has_character_flag = flag_god
+			}
 			prisoner = no
+			is_adult = yes
 			OR = {
 				religion = ROOT
 				has_sympathy_for_true_religion_of_root_trigger = yes
@@ -138,6 +188,13 @@ targetted_decisions = {
 		potential = {
 			has_character_flag = flag_god
 		}
+		allow = {
+			FROM = {
+				NOT = {
+					trait = cynical
+				}
+			}
+		}
 		effect = {
 			ROOT = {
 				boon_or_no_boon_effect = yes
@@ -145,6 +202,12 @@ targetted_decisions = {
 		}
 		ai_will_do = {
 			factor = 0.5
+			modifier = {
+				factor = 100
+				ROOT = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
 		}
 	}
 }

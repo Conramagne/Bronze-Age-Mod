@@ -1,0 +1,19 @@
+namespace = fkrel
+
+#Raid for Piety and Prestige
+character_event = {
+	id = fkrel.1
+	desc = EVTDESCFKREL1
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			religion = ishalitethai
+		}
+	}
+	
+	option = {
+		name = OPTAFKREL1
+		prestige = 10
+		piety = 25
+	}
+}

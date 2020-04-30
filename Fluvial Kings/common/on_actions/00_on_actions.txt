@@ -2074,6 +2074,7 @@ on_loot_settlement = {
 		MNM.9899 # Chance to steal artifact from capital holdings
 		HF.25503 # Warrior Lodge Mission: Raid province
 		HF.23212 # Earned Seaking Bloodline.
+		fkrel.1	 # Gained prestige and piety from raiding
 	}
 }
 

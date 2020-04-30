@@ -39,3 +39,250 @@ character_event = {
 		}
 	}
 }
+
+####Sacrifice Events
+#Choosing sacrifice type
+character_event = {
+	id = fkp.200
+	desc = EVTDESCFKP200
+	is_triggered_only = yes 
+	
+	immediate = {
+		FROM = {
+			save_event_target_as = target_god
+		}
+	}
+	
+	option = { #Small sacrifice
+		name = EVTOPTAFKP200
+		
+		wealth = -50
+		character_event = { id = fkp.201 }
+		set_character_flag = small_sacrifice
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				trait = zealous
+			}
+			modifier = {
+				factor = 2
+				trait = greedy
+			}
+		}
+	}
+	option = { #Medium sacrifice
+		name = EVTOPTBFKP200
+		
+		wealth = -250
+		character_event = { id = fkp.201 }
+		set_character_flag = medium_sacrifice
+		ai_chance = {
+			factor = 35
+		}
+	}
+	option = { #Large sacrifice
+		name = EVTOPTCFKP200
+		
+		wealth = -500
+		character_event = { id = fkp.201 }
+		set_character_flag = large_sacrifice
+		ai_chance = {
+			factor = 35
+			modifier = {
+				factor = 0
+				trait = greedy
+			}
+		}
+	}
+}
+
+#Choose if you're going to do the actual sacrifice
+character_event = {
+	id = fkp.201
+	desc = EVTDESCFKP201
+	is_triggered_only = yes
+	
+	option = { #Yes
+		name = EVTOPTAFKP201
+		piety = 25
+		hidden_tooltip = {
+			random_list = {
+				40 = { #Do Well
+					character_event = { id = fkp.202 }
+					modifier = {
+						factor = 1.5
+						OR = {
+							trait = mastermind_theologian
+							trait = erudite
+							learning = 12
+						}
+					}
+				}
+				60 = { #Do Poorly
+					character_event = { id = fkp.203 }
+					modifier = {
+						factor = 1.2
+						OR = {
+							trait = dull
+							learning < 10
+							has_character_flag = medium_sacrifice
+						}
+					}
+					modifier = {
+						factor = 1.5
+						OR = {
+							trait = inbred
+							trait = slow
+							trait = imbecile
+							has_character_flag = large_sacrifice
+							learning < 10
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 1.2
+				OR = {
+					trait = proud
+					learning = 12
+				}
+			}
+		}
+	}
+	option = { #No
+		name = EVTOPTBFKP201
+		hidden_tooltip = {
+			random_list = {
+				60 = { #Do Well
+					character_event = { id = fkp.202 }
+					modifier = {
+						factor = 1.5
+						OR = {
+							trait = scholarly_theologian
+							trait = mastermind_theologian
+							trait = erudite
+							learning = 12
+						}
+					}
+				}
+				40 = { #Do Poorly
+					character_event = { id = fkp.203 }
+					modifier = {
+						factor = 1.2
+						has_character_flag = medium_sacrifice
+					}
+					modifier = {
+						factor = 1.3
+						OR = {
+							trait = dull
+							has_character_flag = large_sacrifice
+							learning < 10
+						}
+					}
+					modifier = {
+						factor = 1.5
+						OR = {
+							trait = inbred
+							trait = slow
+							trait = imbecile
+							learning < 10
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 70
+		}
+	}
+}
+
+#Do Well in Sacrifice
+character_event = {
+	id = fkp.202
+	desc = EVTDESCFKP202
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAFKP202
+		if = {
+			limit = {
+				has_character_flag = small_sacrifice
+			}
+			piety = 30
+			reverse_opinion = {
+				modifier = opinion_small_sacrifice
+				who = event_target:target_god
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = medium_sacrifice
+			}
+			piety = 50
+			reverse_opinion = {
+				modifier = opinion_medium_sacrifice
+				who = event_target:target_god
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = large_sacrifice
+			}
+			piety = 100
+			reverse_opinion = {
+				modifier = opinion_large_sacrifice
+				who = event_target:target_god
+			}
+		}
+	}
+}
+
+#Do Poorly in Sacrifice
+character_event = {
+	id = fkp.203
+	desc = EVTDESCFKP203
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAFKP203
+		add_character_modifier = {
+			modifier = made_sacrifice
+			years = 2
+		}
+		if = {
+			limit = {
+				has_character_flag = small_sacrifice
+			}
+			piety = -30
+			reverse_opinion = {
+				modifier = opinion_small_sacrifice_fail
+				who = event_target:target_god
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = medium_sacrifice
+			}
+			piety = -50
+			reverse_opinion = {
+				modifier = opinion_medium_sacrifice_fail
+				who = event_target:target_god
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = large_sacrifice
+			}
+			piety = -100
+			reverse_opinion = {
+				modifier = opinion_large_sacrifice_fail
+				who = event_target:target_god
+			}
+		}
+	}
+}

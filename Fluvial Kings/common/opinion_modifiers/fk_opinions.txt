@@ -2,20 +2,14 @@ opinion_oppressive_overlord = {
 	opinion = -50
 }
 
-opinion_oppressive_overlord = {
-	opinion = -50
-}
-
 opinion_slandered_emperor = {
 	opinion = -50
 	months = 60
 }
-
 opinion_rumors_10 = {
 	opinion = -10
 	months = 60
 }
-
 opinion_rumors_25 = {
 	opinion = -25
 	months = 60
@@ -24,4 +18,30 @@ opinion_rumors_25 = {
 opinion_cursed_by = {
 	opinion = -100
 	years = 50
+}
+
+opinion_small_sacrifice = {
+	opinion = 10
+	years = 5
+}
+opinion_medium_sacrifice = {
+	opinion = 20
+	years = 5
+}
+opinion_large_sacrifice = {
+	opinion = 30
+	years = 5
+}
+
+opinion_small_sacrifice_fail = {
+	opinion = -10
+	years = 5
+}
+opinion_medium_sacrifice_fail = {
+	opinion = -20
+	years = 5
+}
+opinion_large_sacrifice_fail = {
+	opinion = -30
+	years = 5
 }

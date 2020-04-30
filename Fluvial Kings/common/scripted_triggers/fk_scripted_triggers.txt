@@ -1,6 +1,8 @@
 has_boon_trigger = {
 	OR = {
 		has_boon_tarhunna_trigger = yes
+		has_boon_arinniti_trigger = yes
+		has_boon_telipinu_trigger = yes
 	}
 }
 
@@ -9,5 +11,50 @@ has_boon_tarhunna_trigger = {
 		has_character_modifier = tarhunna_boon_1
 		has_character_modifier = tarhunna_boon_2
 		has_character_modifier = tarhunna_boon_3
+	}
+}
+
+has_boon_arinniti_trigger = {
+	OR = {
+		has_character_modifier = arinniti_boon_1
+		has_character_modifier = arinniti_boon_2
+		has_character_modifier = arinniti_boon_3
+	}
+}
+
+has_boon_telipinu_trigger = {
+	OR = {
+		has_character_modifier = telipinu_boon_1
+		has_character_modifier = telipinu_boon_2
+		has_character_modifier = telipinu_boon_3
+	}
+}
+
+received_sacrifice_recently_trigger = {
+	OR = {
+		has_opinion_modifier = {
+			who = FROM
+			modifier = opinion_small_sacrifice
+		}
+		has_opinion_modifier = {
+			who = FROM
+			modifier = opinion_medium_sacrifice
+		}
+		has_opinion_modifier = {
+			who = FROM
+			modifier = opinion_large_sacrifice
+		}
+		has_opinion_modifier = {
+			who = FROM
+			modifier = opinion_small_sacrifice_fail
+		}
+		has_opinion_modifier = {
+			who = FROM
+			modifier = opinion_medium_sacrifice_fail
+		}
+		has_opinion_modifier = {
+			who = FROM
+			modifier = opinion_large_sacrifice_fail
+		}
 	}
 }

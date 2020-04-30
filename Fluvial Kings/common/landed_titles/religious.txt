@@ -71,7 +71,7 @@ d_ili_abinia = {
 }
 
 #Pantheon Titles
-d_ishalitethai_pantheon = {
+e_ishalitethai_pantheon = {
 	color = { 255 255 255 }
 	capital = 1
 	

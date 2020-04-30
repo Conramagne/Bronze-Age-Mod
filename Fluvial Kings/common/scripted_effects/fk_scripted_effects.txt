@@ -164,4 +164,58 @@ apply_random_boon_effect = {
 			}
 		}
 	}
+	if = {
+		limit = {
+			FROM = {
+				character = 1000001 #Arinniti
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = arinniti_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = arinniti_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = arinniti_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				character = 1000002 #Telipinu
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = telipinu_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = telipinu_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = telipinu_boon_3
+					years = 5
+				}
+			}
+		}
+	}
 }

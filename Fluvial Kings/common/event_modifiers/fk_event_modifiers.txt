@@ -38,6 +38,10 @@ denied_boon = {
 	icon = 49
 }
 
+made_sacrifice = {
+	icon = 9
+}
+
 #Boons
 tarhunna_boon_1 = {
 	#chariot bonus to be added
@@ -53,4 +57,33 @@ tarhunna_boon_2 = {
 tarhunna_boon_3 = {
 	same_religion_opinion = 20
 	icon = 131
+}
+
+arinniti_boon_1 = {
+	land_morale = 0.1
+	icon = 133
+}
+arinniti_boon_2 = {
+	health = 1.5
+	icon = 133
+}
+arinniti_boon_3 = {
+	plot_discovery_chance = 0.1
+	icon = 133
+}
+
+telipinu_boon_1 = {
+	global_tax_modifier = 0.1
+	icon = 6
+}
+telipinu_boon_2 = {
+	levy_size = 0.15
+	icon = 6
+}
+telipinu_boon_3 = {
+	command_modifier = {
+		light_infantry_offensive = 0.1
+		light_infantry_defensive = 0.1
+	}
+	icon = 6
 }
