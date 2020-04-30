@@ -65,10 +65,11 @@ EVTDESCFKR134;This Courtly Subject has not only just SLANDERED your name but has
 EVTOPTAFKR134;Not just myself, but my blood? Perhaps I will take their eyes...;;;;;;;;;;;;;x
 
 ###########Contacting the Divines Events###########
-contact_pantheon;Contact [Root.religion.GetFullName] Pantheon;;;;;;;;;;;;;x
-contact_pantheon_desc;By contact [Root.religion.GetFullName] Pantheon, you wish to gain the boon of the divines, whether they will recieve your request depends on your devotion to them.;;;;;;;;;;;;;x
+contact_pantheon;Contact [Root.Religion.GetFullName] Pantheon;;;;;;;;;;;;;x
+contact_pantheon_desc;By contact [Root.Religion.GetFullName] Pantheon, you wish to gain the boon of the divines, whether they will recieve your request depends on your devotion to them.;;;;;;;;;;;;;x
 request_boon;Request Boon;;;;;;;;;;;;;x
 request_boon_desc;Request Boon from the Divines;;;;;;;;;;;;;x
 
-EVTDESCFKP100;Praise be! [From.GetName] has decided to grant you a boon, for your devotion to [From.GetHimHer].;;;;;;;;;;;;;x
-EVTDESCFKP101;LO the despair! [From.GetName] has decided to not grant you a boon, for your devotion to [From.GetHimHer] was not great enough.;;;;;;;;;;;;;x
+EVTDESCFKP1;You decided to call upon [Root.Religion.GetFullName] Pantheon, and The Divines has recieved you plea!;;;;;;;;;;;;;x
+EVTDESCFKP100;Praise be! The Divines has decided to grant you a boon, for your devotion to them.;;;;;;;;;;;;;x
+EVTDESCFKP101;LO the despair! The Divines has decided to not grant you a boon, for your devotion to them was not great enough.;;;;;;;;;;;;;x
