@@ -73,74 +73,74 @@ conversion_removal_effect = {
 
 boon_or_no_boon_effect = {
 	random_list = {
-		50 = { #Boon
+		55 = { #Boon
 			FROM = { 
 				character_event = { id = fkp.100 }
 			}
 			modifier = {
 				factor = 0.2
-				ROOT = { opinion = { who = FROM value <= -80 } }
+				event_target:target_god = { opinion = { who = FROM value <= -80 } }
 			}
 			modifier = {
 				factor = 0.4
-				ROOT = { opinion = { who = FROM value <= -60 } }
+				event_target:target_god = { opinion = { who = FROM value <= -60 } }
 			}
 			modifier = {
 				factor = 0.6
-				ROOT = { opinion = { who = FROM value <= -40 } }
+				event_target:target_god = { opinion = { who = FROM value <= -40 } }
 			}
 			modifier = {
 				factor = 0.8
-				ROOT = { opinion = { who = FROM value <= -20 } }
+				event_target:target_god = { opinion = { who = FROM value <= -20 } }
 			}
 			modifier = {
 				factor = 1.2
-				ROOT = { opinion = { who = FROM value = 20 } }
+				event_target:target_god = { opinion = { who = FROM value = 20 } }
 			}
 			modifier = {
 				factor = 1.4
-				ROOT = { opinion = { who = FROM value = 40 } }
+				event_target:target_god = { opinion = { who = FROM value = 40 } }
 			}
 			modifier = {
 				factor = 1.6
-				ROOT = { opinion = { who = FROM value = 60 } }
+				event_target:target_god = { opinion = { who = FROM value = 60 } }
 			}
 			modifier = {
 				factor = 1.8
-				ROOT = { opinion = { who = FROM value = 80 } }
+				event_target:target_god = { opinion = { who = FROM value = 80 } }
 			}
 		}
-		50 = { #No Boon
+		45 = { #No Boon
 			FROM = { 
 				character_event = { id = fkp.101 }
 			}
 			modifier = {
 				factor = 1.8
-				ROOT = { opinion = { who = FROM value <= -80 } }
+				event_target:target_god = { opinion = { who = FROM value <= -80 } }
 			}
 			modifier = {
 				factor = 1.6
-				ROOT = { opinion = { who = FROM value <= -60 } }
+				event_target:target_god = { opinion = { who = FROM value <= -60 } }
 			}
 			modifier = {
 				factor = 1.4
-				ROOT = { opinion = { who = FROM value <= -40 } }
+				event_target:target_god = { opinion = { who = FROM value <= -40 } }
 			}
 			modifier = {
 				factor = 1.2
-				ROOT = { opinion = { who = FROM value <= -20 } }
+				event_target:target_god = { opinion = { who = FROM value <= -20 } }
 			}
 			modifier = {
 				factor = 0.9
-				ROOT = { opinion = { who = FROM value = 40 } }
+				event_target:target_god = { opinion = { who = FROM value = 40 } }
 			}
 			modifier = {
 				factor = 0.8
-				ROOT = { opinion = { who = FROM value = 60 } }
+				event_target:target_god = { opinion = { who = FROM value = 60 } }
 			}
 			modifier = {
 				factor = 0.6
-				ROOT = { opinion = { who = FROM value = 80 } }
+				event_target:target_god = { opinion = { who = FROM value = 80 } }
 			}
 		}
 	}
@@ -486,5 +486,245 @@ remove_curse_sacrifice_effect = {
 			}
 		}
 		remove_curse_telipinu_effect = yes
+	}
+}
+
+#AI Only
+ai_make_sacrifice_to_evaluation_effect = {
+	if = {
+		limit = {
+			religion_group = pihassasi
+		}
+		random_list = {
+			40 = { #Tarhunna
+				trigger = {
+					c_1000000 = {
+						NOR = {
+							received_sacrifice_recently_trigger_ROOT = yes
+							reverse_has_opinion_modifier = {
+								who = ROOT
+								modifier = opinion_cursed_by
+							}
+						}
+					}
+				}
+				c_1000000 = {
+					save_event_target_as = target_god
+				}
+				character_event = { id = fkp.200 }
+				modifier = {
+					factor = 1.5
+					likes_war_god_trigger = yes
+				}
+			}
+			30 = { #Arinniti
+				trigger = {
+					NOT = {
+						religion = haianiluwi
+					}
+					c_1000001 = {
+						NOR = {
+							received_sacrifice_recently_trigger_ROOT = yes
+							reverse_has_opinion_modifier = {
+								who = ROOT
+								modifier = opinion_cursed_by
+							}
+						}
+					}
+				}
+				c_1000001 = {
+					save_event_target_as = target_god
+				}
+				character_event = { id = fkp.200 }
+				modifier = {
+					factor = 1.2
+					is_guardian_god_trigger = yes
+				}
+			}
+			30 = { #Telipinu
+				trigger = {
+					c_1000002 = {
+						NOR = {
+							received_sacrifice_recently_trigger_ROOT = yes
+							reverse_has_opinion_modifier = {
+								who = ROOT
+								modifier = opinion_cursed_by
+							}
+						}
+					}
+				}
+				c_1000002 = {
+					save_event_target_as = target_god
+				}
+				character_event = { id = fkp.200 }
+				modifier = {
+					factor = 1.2
+					is_agricultural_god_trigger = yes
+				}
+			}
+		}
+	}
+}
+
+ai_request_boon_evaluation_effect = {
+	if = {
+		limit = {
+			religion_group = pihassasi
+		}
+		random_list = {
+			40 = { #Tarhunna
+				trigger = {
+					c_1000000 = {
+						NOT = {
+							reverse_has_opinion_modifier = {
+								who = ROOT
+								modifier = opinion_cursed_by
+							}
+						}
+					}
+				}
+				c_1000000 = {
+					save_event_target_as = target_god
+					boon_or_no_boon_effect = yes
+				}
+				modifier = {
+					factor = 100
+					c_1000000 = {
+						received_sacrifice_recently_trigger = yes
+					}
+				}
+			}
+			30 = { #Arinniti
+				trigger = {
+					c_1000001 = {
+						NOT = {
+							reverse_has_opinion_modifier = {
+								who = ROOT
+								modifier = opinion_cursed_by
+							}
+						}
+					}
+					NOT = {
+						religion = haianiluwi
+					}
+				}
+				c_1000001 = {
+					save_event_target_as = target_god
+					boon_or_no_boon_effect = yes
+				}
+				modifier = {
+					factor = 100
+					c_1000001 = {
+						received_sacrifice_recently_trigger = yes
+					}
+				}
+			}
+			30 = { #Telipinu
+				trigger = {
+					c_1000002 = {
+						NOT = {
+							reverse_has_opinion_modifier = {
+								who = ROOT
+								modifier = opinion_cursed_by
+							}
+						}
+					}
+				}
+				c_1000002 = {
+					save_event_target_as = target_god
+					boon_or_no_boon_effect = yes
+				}
+				modifier = {
+					factor = 100
+					c_1000002 = {
+						received_sacrifice_recently_trigger = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+ai_apply_random_boon_effect = {
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = tarhunna
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = tarhunna_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = tarhunna_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = tarhunna_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = arinniti
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = arinniti_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = arinniti_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = arinniti_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = telipinu
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = telipinu_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = telipinu_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = telipinu_boon_3
+					years = 5
+				}
+			}
+		}
 	}
 }

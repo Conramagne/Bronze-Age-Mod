@@ -1,0 +1,57 @@
+decisions = {
+	ai_make_sacrifice_to = {
+		ai_check_interval = 1
+		only_playable = yes
+		
+		potential = {
+			ai = yes
+			NOR = {
+				has_character_modifier = made_sacrifice
+				has_character_flag = flag_god
+			}
+			prisoner = no
+			is_adult = yes
+		}
+		allow = {
+			NOT = {
+				trait = cynical
+			}
+			wealth = 0
+		}
+		effect = {
+			ai_make_sacrifice_to_evaluation_effect = yes
+		}
+		revoke_allowed = { always = no }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ai_request_boon = {
+		ai_check_interval = 1
+		only_playable = yes
+		
+		potential = {
+			ai = yes
+			NOR = {
+				has_character_modifier = denied_boon
+				has_character_flag = flag_god
+			}
+			prisoner = no
+			is_adult = yes
+			has_boon_trigger = no
+		}
+		allow = {
+			NOT = {
+				trait = cynical
+			}
+		}
+		effect = {
+			ai_request_boon_evaluation_effect = yes
+		}
+		revoke_allowed = { always = no }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

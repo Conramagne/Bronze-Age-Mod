@@ -127,15 +127,6 @@ targetted_decisions = {
 			prisoner = no
 			is_adult = yes
 			can_contact_god_trigger = yes
-			NOT = {
-				has_opinion_modifier = {
-					who = ROOT
-					modifier = opinion_cursed_by
-				}
-			}
-			NOT = {
-				has_character_modifier = made_sacrifice
-			}
 		}
 		potential = {
 			has_character_flag = flag_god
@@ -146,6 +137,15 @@ targetted_decisions = {
 				NOT = {
 					trait = cynical
 				}
+				NOT = {
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = opinion_cursed_by
+					}
+				}
+				NOT = {
+					has_character_modifier = made_sacrifice
+				}
 				wealth = 0
 			}
 			outside_pantheon_trigger = no
@@ -155,8 +155,15 @@ targetted_decisions = {
 				character_event = { id = fkp.200 }
 			}
 		}
+		revoke_allowed = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 0.5
+			modifier = {
+				factor = 2
+				likes_god_trigger = yes
+			}
 		}
 	}
 	
@@ -178,10 +185,6 @@ targetted_decisions = {
 					modifier = opinion_cursed_by
 				}
 			}
-			NOT = {
-				has_character_modifier = denied_boon
-			}
-			has_boon_trigger = no
 		}
 		potential = {
 			has_character_flag = flag_god
@@ -191,6 +194,10 @@ targetted_decisions = {
 				NOT = {
 					trait = cynical
 				}
+				NOT = {
+					has_character_modifier = denied_boon
+				}
+				has_boon_trigger = no
 			}
 			outside_pantheon_trigger = no
 		}
@@ -200,6 +207,9 @@ targetted_decisions = {
 					boon_or_no_boon_effect = yes
 				}
 			}
+		}
+		revoke_allowed = {
+			always = no
 		}
 		ai_will_do = {
 			factor = 0.5

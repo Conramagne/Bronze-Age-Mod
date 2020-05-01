@@ -21,7 +21,18 @@ character_event = {
 	
 	option = {
 		name = opta_excellent
-		apply_random_boon_effect = yes
+		if = {
+			limit = {
+				ai = no
+			}
+			apply_random_boon_effect = yes
+		}
+		if = {
+			limit = {
+				ai = yes
+			}
+			ai_apply_random_boon_effect = yes
+		}
 	}
 }
 
@@ -48,13 +59,24 @@ character_event = {
 	is_triggered_only = yes 
 	
 	immediate = {
-		FROM = {
-			save_event_target_as = target_god
+		if = {
+			limit = {
+				ai = no
+			}
+			FROM = {
+				save_event_target_as = target_god
+			}
 		}
 	}
 	
 	option = { #Small sacrifice
 		name = EVTOPTAFKP200
+		trigger = {
+			OR = {
+				ai = no
+				wealth = 50
+			}
+		}
 		
 		wealth = -50
 		character_event = { id = fkp.201 }
@@ -73,6 +95,12 @@ character_event = {
 	}
 	option = { #Medium sacrifice
 		name = EVTOPTBFKP200
+		trigger = {
+			OR = {
+				ai = no
+				wealth = 250
+			}
+		}
 		
 		wealth = -250
 		character_event = { id = fkp.201 }
@@ -83,6 +111,12 @@ character_event = {
 	}
 	option = { #Large sacrifice
 		name = EVTOPTCFKP200
+		trigger = {
+			OR = {
+				ai = no
+				wealth = 500
+			}
+		}
 		
 		wealth = -500
 		character_event = { id = fkp.201 }
@@ -210,6 +244,10 @@ character_event = {
 	option = {
 		name = EVTOPTAFKP202
 		prestige = 50
+		add_character_modifier = {
+			modifier = made_sacrifice
+			years = 2
+		}
 		if = {
 			limit = {
 				has_character_flag = small_sacrifice
@@ -260,6 +298,9 @@ character_event = {
 				who = event_target:target_god
 			}
 			remove_curse_sacrifice_effect = yes
+			clr_character_flag = small_sacrifice
+			clr_character_flag = medium_sacrifice
+			clr_character_flag = large_sacrifice
 		}
 	}
 }
@@ -321,6 +362,10 @@ character_event = {
 	
 	option = {
 		name = EVTOPTAFKP204
+		add_character_modifier = {
+			modifier = made_sacrifice
+			years = 2
+		}
 		if = {
 			limit = {
 				has_character_flag = small_sacrifice
@@ -351,6 +396,9 @@ character_event = {
 				who = event_target:target_god
 			}
 		}
+		clr_character_flag = small_sacrifice
+		clr_character_flag = medium_sacrifice
+		clr_character_flag = large_sacrifice
 	}
 }
 

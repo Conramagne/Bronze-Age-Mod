@@ -1,3 +1,47 @@
+is_head_god_trigger = {
+	OR = {
+		trait = tarhunna
+	}
+}
+is_war_god_trigger = {
+	OR = {
+		trait = tarhunna
+	}
+}
+is_agricultural_god_trigger = {
+	OR = {
+		trait = telipinu
+	}
+}
+is_guardian_god_trigger = {
+	OR = {
+		trait = arinniti
+	}
+}
+
+likes_war_god_trigger = {
+	OR = {
+		has_job_title = job_marshal
+		trait = misguided_warrior
+		trait = brilliant_strategist
+		trait = duelist
+		trait = hunter
+		trait = strategist
+		trait = brave
+		trait = craven
+	}
+}
+likes_god_trigger = {
+	OR = {
+		AND = {
+			likes_war_god_trigger = yes
+			ROOT = {
+				is_war_god_trigger = yes
+			}
+		}
+	}
+}
+
 can_contact_god_trigger = {
 	OR = {
 		religion = ROOT
@@ -80,6 +124,35 @@ received_sacrifice_recently_trigger = {
 		}
 		has_opinion_modifier = {
 			who = FROM
+			modifier = opinion_large_sacrifice_fail
+		}
+	}
+}
+
+received_sacrifice_recently_trigger_ROOT = {
+	OR = {
+		has_opinion_modifier = {
+			who = ROOT
+			modifier = opinion_small_sacrifice
+		}
+		has_opinion_modifier = {
+			who = ROOT
+			modifier = opinion_medium_sacrifice
+		}
+		has_opinion_modifier = {
+			who = ROOT
+			modifier = opinion_large_sacrifice
+		}
+		has_opinion_modifier = {
+			who = ROOT
+			modifier = opinion_small_sacrifice_fail
+		}
+		has_opinion_modifier = {
+			who = ROOT
+			modifier = opinion_medium_sacrifice_fail
+		}
+		has_opinion_modifier = {
+			who = ROOT
 			modifier = opinion_large_sacrifice_fail
 		}
 	}
