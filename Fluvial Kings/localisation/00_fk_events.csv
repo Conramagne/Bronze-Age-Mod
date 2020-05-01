@@ -79,11 +79,11 @@ EVTDESCFKP101;Despair! The gods have ignored your request for a blessing, your d
 EVTDESCFKP200;You hope by making a sacrifice to the gods you are able to placate them and perhaps gain their favors, now it is up to you to decide the scope and grandeur of the ceremony...;;;;;;;;;;;;;x
 EVTOPTAFKP200;You decide on a modest offering to placate the gods.;;;;;;;;;;;;;x
 EVTOPTBFKP200;You decide to invite the necessarys and put on a decent show for the rituals.;;;;;;;;;;;;;x
-EVTOPTCFKP200;HAH, what am I, some poor country physician? This must be an extravagent affair, bring out the best from the herds!;;;;;;;;;;;;;x
+EVTOPTCFKP200;HAH, what am I, some poor country physician? This must be an extravagent affair!;;;;;;;;;;;;;x;;;;;;;;;;;;;x
 
 EVTDESCFKP201;As ruler, you of course have the option to carry out the sacrifice yourself. The prize bull is led into the throng signalling the beginning of the liturgy and the sacrifice. The priests nod, they are ready to initiate the ritual, you...;;;;;;;;;;;;;x
 EVTOPTAFKP201;...say the prayers yourself and take the knife to the offerings throat.;;;;;;;;;;;;;x
-EVTOPTBFKP201;...decided to let the priests handle it, they may be better educated in these matters.;;;;;;;;;;;;;x
+EVTOPTBFKP201;...decide to let the priests handle it.;;;;;;;;;;;;;x
 
 EVTDESCFKP202;You recite the archaic words flawlessly with correct intonation and volume, deftly you slide the razor-thin blade in and out of the bulls neck, it tramps, shudders, and lies down. The oldest priest gives you a strong nod as the initiates frantically bend down to collect the precious blood and start the fire upon  the altar. The gods will be pleased.;;;;;;;;;;;;;x
 EVTOPTAFKP202;For the Glory of the gods, and my house!;;;;;;;;;;;;;x
@@ -96,8 +96,8 @@ EVTDESCFKP205;It begins well enough, the prayers were recited more or less corre
 EVTOPTAFKP205;Catch it! Catch it you fools! Gods, the day is ruined!;;;;;;;;;;;;;x
 
 EVTDESCFKP302;The day begins horribly, you are gripped with anxiety and nausea arising from a night of feverish half-sleep. You flee the shaded corridors for the garden, where even the wind in your ears seems to mock you and the undersides of shrubs are home to grinning demons. You are accursed by a vengeful god.;;;;;;;;;;;;;x
-EVTOPTAFKP302;How strange, how strange are the ways of the gods. I must call upon a sacrifice to appease them!;;;;;;;;;;;;;x
+EVTOPTAFKP302;Lo, how strange are the ways of the gods. I need a sacrifice to appease them!;;;;;;;;;;;;;x
 
 ###########Religion Events###########
-EVTDESCFKREL1;I pillage for the glory of the gods!;;;;;;;;;;;;;x
+EVTDESCFKREL1;You gather the choicest treasures from the enemy plunder, and offer it to the gods. The flames sweep up to heaven as the warriors raise their spears and beat their shields!;;;;;;;;;;;;;x
 OPTAFKREL1;I pillage in the name of [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
