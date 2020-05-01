@@ -44,9 +44,8 @@ made_sacrifice = {
 
 #Boons
 tarhunna_boon_1 = {
-	#chariot bonus to be added
 	command_modifier = {
-		archers_offensive = 0.2
+		damage = 0.1
 	}
 	icon = 131
 }
@@ -82,8 +81,8 @@ telipinu_boon_2 = {
 }
 telipinu_boon_3 = {
 	command_modifier = {
-		light_infantry_offensive = 0.1
-		light_infantry_defensive = 0.1
+		morale_offence = 0.01
+		morale_defence = 0.01
 	}
 	icon = 6
 }

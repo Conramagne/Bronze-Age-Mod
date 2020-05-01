@@ -158,7 +158,7 @@ character_event = {
 		hidden_tooltip = {
 			random_list = {
 				60 = { #Do Well
-					character_event = { id = fkp.202 }
+					character_event = { id = fkp.204 }
 					modifier = {
 						factor = 1.5
 						OR = {
@@ -182,7 +182,7 @@ character_event = {
 					}
 				}
 				40 = { #Do Poorly
-					character_event = { id = fkp.203 }
+					character_event = { id = fkp.205 }
 					modifier = {
 						factor = 1.5
 						OR = {
@@ -201,7 +201,7 @@ character_event = {
 	}
 }
 
-#Do Well in Sacrifice
+#Do Well in Sacrifice Self
 character_event = {
 	id = fkp.202
 	desc = EVTDESCFKP202
@@ -209,6 +209,97 @@ character_event = {
 	
 	option = {
 		name = EVTOPTAFKP202
+		prestige = 50
+		if = {
+			limit = {
+				has_character_flag = small_sacrifice
+			}
+			piety = 30
+			reverse_opinion = {
+				modifier = opinion_small_sacrifice
+				who = event_target:target_god
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = medium_sacrifice
+			}
+			piety = 50
+			reverse_opinion = {
+				modifier = opinion_medium_sacrifice
+				who = event_target:target_god
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = large_sacrifice
+			}
+			piety = 100
+			reverse_opinion = {
+				modifier = opinion_large_sacrifice
+				who = event_target:target_god
+			}
+		}
+	}
+}
+
+#Do Poorly in Sacrifice Self
+character_event = {
+	id = fkp.203
+	desc = EVTDESCFKP203
+	is_triggered_only = yes
+	
+	option = {
+		prestige = -50
+		name = EVTOPTAFKP203
+		add_character_modifier = {
+			modifier = made_sacrifice
+			years = 2
+		}
+		if = {
+			limit = {
+				has_character_flag = small_sacrifice
+			}
+			piety = -30
+			reverse_opinion = {
+				modifier = opinion_small_sacrifice_fail
+				who = event_target:target_god
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = medium_sacrifice
+			}
+			piety = -50
+			reverse_opinion = {
+				modifier = opinion_medium_sacrifice_fail
+				who = event_target:target_god
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = large_sacrifice
+			}
+			piety = -100
+			reverse_opinion = {
+				modifier = opinion_large_sacrifice_fail
+				who = event_target:target_god
+			}
+		}
+		clr_character_flag = small_sacrifice
+		clr_character_flag = medium_sacrifice
+		clr_character_flag = large_sacrifice
+	}
+}
+
+#Do Well in Sacrifice
+character_event = {
+	id = fkp.204
+	desc = EVTDESCFKP204
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAFKP204
 		if = {
 			limit = {
 				has_character_flag = small_sacrifice
@@ -244,12 +335,12 @@ character_event = {
 
 #Do Poorly in Sacrifice
 character_event = {
-	id = fkp.203
-	desc = EVTDESCFKP203
+	id = fkp.205
+	desc = EVTDESCFKP205
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTAFKP203
+		name = EVTOPTAFKP205
 		add_character_modifier = {
 			modifier = made_sacrifice
 			years = 2
