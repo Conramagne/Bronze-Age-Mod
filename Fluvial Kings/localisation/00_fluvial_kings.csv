@@ -129,7 +129,7 @@ d_ili_abinia_adj;Priestly;;;;;;;;;;;;;x
 d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
 d_haianiluwi;High Haianiluwi Priesthood;;;;;;;;;;;;;x
 d_haianiluwi_adj;Priestly;;;;;;;;;;;;;x
-d_ishalitethai_pantheon;Ishalitethai Pantheon;;;;;;;;;;;;;x
+e_ishalitethai_pantheon;Ishalitethai Pantheon;;;;;;;;;;;;;x
 HIGH_GOD;High God;;;;;;;;;;;;;x
 ###########Traits and Character/Province Modifiers###########
 imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]%);;;;;;;;;;;;;x
@@ -171,6 +171,14 @@ tax_tribute_desc;The Tribute is focused in Increasing their tribute of wealth to
 levy_tribute;Tribute: Levy-Focused;;;;;;;;;;;;;x
 levy_tribute_desc;The Tribute is focused in Increasing their tribute of troops to you;;;;;;;;;;;;;x
 
+made_sacrifice;Made a Sacrifce;;;;;;;;;;;;;x
+opinion_small_sacrifice;Successful Small Sacrifce;;;;;;;;;;;;;x
+opinion_medium_sacrifice;Successful Medium Sacrifce;;;;;;;;;;;;;x
+opinion_large_sacrifice;Successful Large Sacrifce;;;;;;;;;;;;;x
+opinion_small_sacrifice_fail;Small Sacrifce Failure;;;;;;;;;;;;;x
+opinion_medium_sacrifice_fail;Medium Sacrifce Failure;;;;;;;;;;;;;x
+opinion_large_sacrifice_fail;Large Sacrifce Failure;;;;;;;;;;;;;x
+
 ###########God Boons and Curses###########
 denied_boon;Denied Boon of Gods;;;;;;;;;;;;;x
 opinion_cursed_by;Cursed by The Divines;;;;;;;;;;;;;x
@@ -178,3 +186,11 @@ opinion_cursed_by;Cursed by The Divines;;;;;;;;;;;;;x
 tarhunna_boon_1;Tarhunna's Hunters;;;;;;;;;;;;;x
 tarhunna_boon_2;Swiftness of Tarhunna;;;;;;;;;;;;;x
 tarhunna_boon_3;Tarhunna's Praise;;;;;;;;;;;;;x
+
+arinniti_boon_1;Arinniti's Courage;;;;;;;;;;;;;x
+arinniti_boon_2;Arinniti's Vigor;;;;;;;;;;;;;x
+arinniti_boon_3;Arinniti's Insight;;;;;;;;;;;;;x
+
+telipinu_boon_1;Telipinu's Prosperity;;;;;;;;;;;;;x
+telipinu_boon_2;Telipinu's Bounties;;;;;;;;;;;;;x
+telipinu_boon_3;Telipinu's Strength;;;;;;;;;;;;;x
