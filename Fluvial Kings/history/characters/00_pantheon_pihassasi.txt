@@ -1,4 +1,4 @@
-#Hittite (Ishalitethai) Pantheon
+#Pihassasi Pantheon
 1000000 = {
 	name = "Tarhunna" # Tarhunna, Head God and Weather God
 	dynasty = 1000000 #Tarhunnid

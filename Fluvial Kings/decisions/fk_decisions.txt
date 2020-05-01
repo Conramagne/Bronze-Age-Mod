@@ -126,10 +126,7 @@ targetted_decisions = {
 			}
 			prisoner = no
 			is_adult = yes
-			OR = {
-				religion = ROOT
-				has_sympathy_for_true_religion_of_root_trigger = yes
-			}
+			can_contact_god_trigger = yes
 			NOT = {
 				has_opinion_modifier = {
 					who = ROOT
@@ -151,6 +148,7 @@ targetted_decisions = {
 				}
 				wealth = 0
 			}
+			outside_pantheon_trigger = no
 		}
 		effect = {
 			FROM = {
@@ -173,10 +171,7 @@ targetted_decisions = {
 			}
 			prisoner = no
 			is_adult = yes
-			OR = {
-				religion = ROOT
-				has_sympathy_for_true_religion_of_root_trigger = yes
-			}
+			can_contact_god_trigger = yes
 			NOT = {
 				has_opinion_modifier = {
 					who = ROOT
@@ -197,10 +192,13 @@ targetted_decisions = {
 					trait = cynical
 				}
 			}
+			outside_pantheon_trigger = no
 		}
 		effect = {
-			ROOT = {
-				boon_or_no_boon_effect = yes
+			hidden_tooltip = {
+				ROOT = {
+					boon_or_no_boon_effect = yes
+				}
 			}
 		}
 		ai_will_do = {

@@ -17,3 +17,14 @@ character_event = {
 		piety = 25
 	}
 }
+
+#Conversion event to remove boons and curses
+character_event = {
+	id = fkrel.2
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		conversion_removal_effect = yes
+	}
+}

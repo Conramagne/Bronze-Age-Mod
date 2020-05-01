@@ -1,6 +1,6 @@
 #IDS from 1000000-1099999
 
-#Hittite (Ishalitethai) Pantheon
+#Pihassasi Pantheon
 1000000 = {
 	name = "Tarhunnid"
 	culture = "hittite"

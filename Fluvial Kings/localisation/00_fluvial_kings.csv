@@ -129,7 +129,7 @@ d_ili_abinia_adj;Priestly;;;;;;;;;;;;;x
 d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
 d_haianiluwi;High Haianiluwi Priesthood;;;;;;;;;;;;;x
 d_haianiluwi_adj;Priestly;;;;;;;;;;;;;x
-e_ishalitethai_pantheon;Ishalitethai Pantheon;;;;;;;;;;;;;x
+e_pihassasi_pantheon;Pihassasi Pantheon;;;;;;;;;;;;;x
 HIGH_GOD;High God;;;;;;;;;;;;;x
 ###########Traits and Character/Province Modifiers###########
 imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]%);;;;;;;;;;;;;x

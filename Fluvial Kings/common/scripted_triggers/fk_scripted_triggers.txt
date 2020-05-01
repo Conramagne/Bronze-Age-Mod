@@ -1,3 +1,29 @@
+can_contact_god_trigger = {
+	OR = {
+		religion = ROOT
+		AND = {
+			ROOT = {
+				religion_group = pihassasi
+			}
+			religion_group = pihassasi
+		}
+		has_sympathy_for_true_religion_of_root_trigger = yes
+	}
+}
+
+outside_pantheon_trigger = {
+	OR = {
+		AND = {
+			FROM = {
+				religion = haianiluwi
+			}
+			ROOT = {
+				trait = arinniti
+			}
+		}
+	}
+}
+
 has_boon_trigger = {
 	OR = {
 		has_boon_tarhunna_trigger = yes

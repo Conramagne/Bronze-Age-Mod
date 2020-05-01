@@ -81,8 +81,53 @@ telipinu_boon_2 = {
 }
 telipinu_boon_3 = {
 	command_modifier = {
-		morale_offence = 0.01
-		morale_defence = 0.01
+		morale_offence = 0.1
+		morale_defence = 0.1
 	}
 	icon = 6
+}
+
+#Curses (Add comments on how a sacrifice can rectify this for the description)
+tarhunna_curse_1 = {
+	command_modifier = {
+		damage = -0.1
+	}
+	icon = 132
+}
+tarhunna_curse_2 = {
+	global_movement_speed = -0.2
+	icon = 132
+}
+tarhunna_curse_3 = {
+	same_religion_opinion = -20
+	icon = 132
+}
+
+arinniti_curse_1 = {
+	land_morale = -0.1
+	icon = 134
+}
+arinniti_curse_2 = {
+	health = -1
+	icon = 134
+}
+arinniti_curse_3 = {
+	plot_discovery_chance = -0.1
+	icon = 134
+}
+
+telipinu_curse_1 = {
+	global_tax_modifier = -0.1
+	icon = 24
+}
+telipinu_curse_2 = {
+	levy_size = -0.15
+	icon = 24
+}
+telipinu_curse_3 = {
+	command_modifier = {
+		morale_offence = -0.1
+		morale_defence = -0.1
+	}
+	icon = 24
 }

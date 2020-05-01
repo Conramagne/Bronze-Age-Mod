@@ -219,6 +219,14 @@ character_event = {
 				modifier = opinion_small_sacrifice
 				who = event_target:target_god
 			}
+			random = {
+				chance = 33
+				remove_opinion = {
+					modifier = opinion_cursed_by
+					who = event_target:target_god
+				}
+				remove_curse_sacrifice_effect = yes
+			}
 		}
 		if = {
 			limit = {
@@ -228,6 +236,14 @@ character_event = {
 			reverse_opinion = {
 				modifier = opinion_medium_sacrifice
 				who = event_target:target_god
+			}
+			random = {
+				chance = 70
+				remove_opinion = {
+					modifier = opinion_cursed_by
+					who = event_target:target_god
+				}
+				remove_curse_sacrifice_effect = yes
 			}
 		}
 		if = {
@@ -239,6 +255,11 @@ character_event = {
 				modifier = opinion_large_sacrifice
 				who = event_target:target_god
 			}
+			remove_opinion = {
+				modifier = opinion_cursed_by
+				who = event_target:target_god
+			}
+			remove_curse_sacrifice_effect = yes
 		}
 	}
 }
@@ -378,5 +399,105 @@ character_event = {
 		clr_character_flag = small_sacrifice
 		clr_character_flag = medium_sacrifice
 		clr_character_flag = large_sacrifice
+	}
+}
+
+###Curses
+#Random Event to apply curses (on_yearly_pulse)
+character_event = {
+	id = fkp.300
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_character_flag = flag_god
+	}
+	
+	immediate = {
+		any_character = {
+			limit = {
+				is_landed = yes
+				higher_real_tier_than = BARON
+				reverse_opinion = { #God's opinion on any_character
+					who = ROOT
+					value < -40
+				}
+				NOT = {
+					has_opinion_modifier = { #any_character's opinion on God
+						modifier = opinion_cursed_by
+						who = ROOT
+					}
+				}
+			}
+			character_event = { id = fkp.301 } #Randomly determines fate
+		}
+	}
+}
+
+#Randomly determines fate
+character_event = {
+	id = fkp.301
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		random_list = {
+			55 = {} #Nothing Happens
+			45 = {
+				character_event = { id = fkp.302 } #Curse
+				modifier = {
+					factor = 0
+					FROM = { is_friend = ROOT }
+				}
+				modifier = {
+					factor = 100
+					FROM = { is_rival = ROOT }
+				}
+				modifier = {
+					factor = 1.8
+					FROM = { opinion = { who = ROOT value <= -80 } }
+				}
+				modifier = {
+					factor = 1.6
+					FROM = { opinion = { who = ROOT value <= -60 } }
+				}
+				modifier = {
+					factor = 1.4
+					FROM = { opinion = { who = ROOT value <= -40 } }
+				}
+				modifier = {
+					factor = 1.2
+					FROM = { opinion = { who = ROOT value <= -20 } }
+				}
+				modifier = {
+					factor = 0.8
+					FROM = { opinion = { who = ROOT value = 40 } }
+				}
+				modifier = {
+					factor = 0.6
+					FROM = { opinion = { who = ROOT value = 60 } }
+				}
+				modifier = {
+					factor = 0.4
+					FROM = { opinion = { who = ROOT value = 80 } }
+				}
+			}
+		}
+	}
+}
+
+#Cursed
+character_event = {
+	id = fkp.302
+	desc = EVTDESCFKP302
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAFKP302
+		apply_random_curse_effect_FROMFROM = yes
+		remove_boon_effect_FROMFROM = yes
+		opinion = {
+			modifier = opinion_cursed_by
+			who = FROMFROM
+		}
 	}
 }

@@ -55,9 +55,19 @@ set_council_law_strong_effect = {
 pantheon_court_effect = {
 	if = {
 		limit = {
-			religion = ishalitethai
+			religion_group = pihassasi
 		}
 		character_event = { id = fkp.1 }
+	}
+}
+
+conversion_removal_effect = {
+	if = {
+		limit = {
+			religion = haianiluwi
+		}
+		remove_boon_arinniti_effect = yes
+		remove_curse_arinniti_effect = yes
 	}
 }
 
@@ -140,7 +150,7 @@ apply_random_boon_effect = {
 	if = {
 		limit = {
 			FROM = {
-				character = 1000000 #Tarhunna
+				trait = tarhunna
 			}
 		}
 		random_list = {
@@ -167,7 +177,7 @@ apply_random_boon_effect = {
 	if = {
 		limit = {
 			FROM = {
-				character = 1000001 #Arinniti
+				trait = arinniti
 			}
 		}
 		random_list = {
@@ -194,7 +204,7 @@ apply_random_boon_effect = {
 	if = {
 		limit = {
 			FROM = {
-				character = 1000002 #Telipinu
+				trait = telipinu
 			}
 		}
 		random_list = {
@@ -217,5 +227,264 @@ apply_random_boon_effect = {
 				}
 			}
 		}
+	}
+}
+
+remove_boon_tarhunna_effect = {
+	remove_character_modifier = tarhunna_boon_1
+	remove_character_modifier = tarhunna_boon_2
+	remove_character_modifier = tarhunna_boon_3
+}
+
+remove_boon_arinniti_effect = {
+	remove_character_modifier = arinniti_boon_1
+	remove_character_modifier = arinniti_boon_2
+	remove_character_modifier = arinniti_boon_3
+}
+
+remove_boon_telipinu_effect = {
+	remove_character_modifier = telipinu_boon_1
+	remove_character_modifier = telipinu_boon_2
+	remove_character_modifier = telipinu_boon_3
+}
+
+
+apply_random_curse_effect = {
+	if = {
+		limit = {
+			FROM = {
+				trait = tarhunna
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = tarhunna_curse_1
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = tarhunna_curse_2
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = tarhunna_curse_3
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				trait = arinniti
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = arinniti_curse_1
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = arinniti_curse_2
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = arinniti_curse_3
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				trait = telipinu
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = telipinu_curse_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = telipinu_curse_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = telipinu_curse_3
+					years = 5
+				}
+			}
+		}
+	}
+}
+
+apply_random_curse_effect_FROMFROM = {
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = tarhunna
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = tarhunna_curse_1
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = tarhunna_curse_2
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = tarhunna_curse_3
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = arinniti
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = arinniti_curse_1
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = arinniti_curse_2
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = arinniti_curse_3
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = telipinu
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = telipinu_curse_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = telipinu_curse_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = telipinu_curse_3
+					years = 5
+				}
+			}
+		}
+	}
+}
+
+remove_boon_effect_FROMFROM = {
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = tarhunna
+			}
+		}
+		remove_boon_tarhunna_effect = yes
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = arinniti
+			}
+		}
+		remove_boon_arinniti_effect = yes
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = telipinu
+			}
+		}
+		remove_boon_telipinu_effect = yes
+	}
+}
+
+remove_curse_tarhunna_effect = {
+	remove_character_modifier = tarhunna_curse_1
+	remove_character_modifier = tarhunna_curse_2
+	remove_character_modifier = tarhunna_curse_3
+}
+
+remove_curse_arinniti_effect = {
+	remove_character_modifier = arinniti_curse_1
+	remove_character_modifier = arinniti_curse_2
+	remove_character_modifier = arinniti_curse_3
+}
+
+remove_curse_telipinu_effect = {
+	remove_character_modifier = telipinu_curse_1
+	remove_character_modifier = telipinu_curse_2
+	remove_character_modifier = telipinu_curse_3
+}
+
+remove_curse_sacrifice_effect = {
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = tarhunna
+			}
+		}
+		remove_curse_tarhunna_effect = yes
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = arinniti
+			}
+		}
+		remove_curse_arinniti_effect = yes
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = telipinu
+			}
+		}
+		remove_curse_telipinu_effect = yes
 	}
 }

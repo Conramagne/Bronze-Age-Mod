@@ -98,6 +98,8 @@ on_yearly_pulse = {
 		LT.61002 #Add relationship
 		LT.61003 #Add modifiers
 		LT.61004 #Add nicknames
+		
+		fkp.300  #Random event to apply curses
 	}
 	
 	random_events = {
@@ -3032,7 +3034,9 @@ on_character_convert_religion = {
 		HF.49202 
 
 		# RTT
-		LT.62001		
+		LT.62001	
+
+		fkrel.2 		#Removes boons from religion if converting
 	}
 }
 
