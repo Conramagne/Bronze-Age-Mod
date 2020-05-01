@@ -143,10 +143,16 @@ opinion_rumors_10;Rumors;;;;;;;;;;;;;x
 opinion_rumors_25;Rumors;;;;;;;;;;;;;x
 opinion_slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
 slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
+opinion_of_zealous;Opinion of Zealous;;;;;;;;;;;;;x
 opinion_of_zealous_EXPLANATION; (opinion on Zealous);;;;;;;;;;;;;x
+opinion_of_cynical;Opinion of Cynical;;;;;;;;;;;;;x
 opinion_of_cynical_EXPLANATION; (opinion on Cynical);;;;;;;;;;;;;x
+opinion_of_erudite;Opinion of Erudite;;;;;;;;;;;;;x
 opinion_of_erudite_EXPLANATION; (opinion on Erudite);;;;;;;;;;;;;x
-
+misguided_warrior_opinion;Misguided Warrior character opinion;;;;;;;;;;;;;x
+misguided_warrior_opinion_EXPLANATION; (effect on Misguided Warrior);;;;;;;;;;;;;x
+brilliant_strategist_opinion;Brilliant Strategist character opinion;;;;;;;;;;;;;x
+brilliant_strategist_opinion_EXPLANATION; (effect on Brilliant Strategist);;;;;;;;;;;;;x
 
 poor_reforms;Poor Reforms;;;;;;;;;;;;;x
 poor_reforms_desc;Your Reforms went poorly.;;;;;;;;;;;;;x
