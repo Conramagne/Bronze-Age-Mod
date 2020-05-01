@@ -85,10 +85,10 @@ EVTDESCFKP201;The offering is laid upon the altar and you have your dagger in ha
 EVTOPTAFKP201;...plunge the dagger into the offering.;;;;;;;;;;;;;x
 EVTOPTBFKP201;...decided to let the priest handle it.;;;;;;;;;;;;;x
 
-EVTDESCFKP202;As the blood dripped from your dagger the standing priest of the altar informs you that your offering was appreciated by the divines.;;;;;;;;;;;;;x
+EVTDESCFKP202;As the blood dripped from the dagger the standing priest of the altar informs you that your offering was appreciated by the divines.;;;;;;;;;;;;;x
 EVTOPTAFKP202;For the Glory of the Divines!;;;;;;;;;;;;;x
 
-EVTDESCFKP203;As the blood dripped from your dagger the standing priest of the altar informs you that your offering had not pleased the divines.;;;;;;;;;;;;;x
+EVTDESCFKP203;As the blood dripped from the dagger the standing priest of the altar informs you that your offering had not pleased the divines.;;;;;;;;;;;;;x
 EVTOPTAFKP203;Oh, what transgression have I committed?;;;;;;;;;;;;;x
 
 ###########Religion Events###########
