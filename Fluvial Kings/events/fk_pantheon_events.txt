@@ -105,7 +105,7 @@ character_event = {
 	
 	option = { #Yes
 		name = EVTOPTAFKP201
-		piety = 25
+		piety = 100
 		hidden_tooltip = {
 			random_list = {
 				40 = { #Do Well
@@ -168,9 +168,6 @@ character_event = {
 							learning = 12
 						}
 					}
-				}
-				40 = { #Do Poorly
-					character_event = { id = fkp.203 }
 					modifier = {
 						factor = 1.2
 						has_character_flag = medium_sacrifice
@@ -183,6 +180,9 @@ character_event = {
 							learning < 10
 						}
 					}
+				}
+				40 = { #Do Poorly
+					character_event = { id = fkp.203 }
 					modifier = {
 						factor = 1.5
 						OR = {
@@ -284,5 +284,8 @@ character_event = {
 				who = event_target:target_god
 			}
 		}
+		clr_character_flag = small_sacrifice
+		clr_character_flag = medium_sacrifice
+		clr_character_flag = large_sacrifice
 	}
 }

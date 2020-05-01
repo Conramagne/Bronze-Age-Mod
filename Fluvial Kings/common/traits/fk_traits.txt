@@ -51,7 +51,7 @@ strong_emperor = {
 	male_compliment_adj = COMPL_STRONG
 }
 
-#Pantheon Traits
+#Hittite Pantheon Traits
 tarhunna = {
 	hidden_from_others = yes
 	immortal = yes
@@ -60,9 +60,22 @@ tarhunna = {
 	fertility = -1000
 	random = no
 	customizer = no
-	opinion_of_zealous = 20
-	opinion_of_cynical = -20
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
 	opinion_of_erudite = 10
+	opinion_of_misguided_warrior = -10
+	opinion_of_brilliant_strategist = 10
+	opinion_of_duelist = 5
+	opinion_of_hunter = 5
+	opinion_of_strategist = 10
+	opinion_of_brave = 5
+	opinion_of_craven = -5
+	misguided_warrior_opinion = 5
+	brilliant_strategist_opinion = 5
+	duelist_opinion = 5
+	strategist_opinion = 5
+	hunter_opinion = 5
+	
 }
 
 arinniti = {
@@ -73,8 +86,8 @@ arinniti = {
 	fertility = -1000
 	random = no
 	customizer = no
-	opinion_of_zealous = 20
-	opinion_of_cynical = -20
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
 	opinion_of_erudite = 10
 }
 
@@ -86,7 +99,7 @@ telipinu = {
 	fertility = -1000
 	random = no
 	customizer = no
-	opinion_of_zealous = 20
-	opinion_of_cynical = -20
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
 	opinion_of_erudite = 10
 }

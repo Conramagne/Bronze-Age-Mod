@@ -37,6 +37,9 @@ targetted_decisions = {
 			NOT = {
 				has_character_modifier = slandered_emperor
 			}
+			NOT = {
+				has_character_flag = flag_god
+			}
 		}
 		allow = {
 			FROM = {
