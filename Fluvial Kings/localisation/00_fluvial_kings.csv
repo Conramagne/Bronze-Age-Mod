@@ -129,7 +129,7 @@ d_ili_abinia_adj;Priestly;;;;;;;;;;;;;x
 d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
 d_haianiluwi;High Haianiluwi Priesthood;;;;;;;;;;;;;x
 d_haianiluwi_adj;Priestly;;;;;;;;;;;;;x
-e_pihassasi_pantheon;Pihassasi Pantheon;;;;;;;;;;;;;x
+e_ishalitethai_pantheon;Ishalitethai Pantheon;;;;;;;;;;;;;x
 HIGH_GOD;High God;;;;;;;;;;;;;x
 ###########Traits and Character/Province Modifiers###########
 imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]%);;;;;;;;;;;;;x
@@ -143,11 +143,8 @@ opinion_rumors_10;Rumors;;;;;;;;;;;;;x
 opinion_rumors_25;Rumors;;;;;;;;;;;;;x
 opinion_slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
 slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
-opinion_of_zealous;Opinion of Zealous;;;;;;;;;;;;;x
 opinion_of_zealous_EXPLANATION; (opinion on Zealous);;;;;;;;;;;;;x
-opinion_of_cynical;Opinion of Cynical;;;;;;;;;;;;;x
 opinion_of_cynical_EXPLANATION; (opinion on Cynical);;;;;;;;;;;;;x
-opinion_of_erudite;Opinion of Erudite;;;;;;;;;;;;;x
 opinion_of_erudite_EXPLANATION; (opinion on Erudite);;;;;;;;;;;;;x
 
 
@@ -183,17 +180,26 @@ opinion_medium_sacrifice_fail;Medium Sacrifce Failure;;;;;;;;;;;;;x
 opinion_large_sacrifice_fail;Large Sacrifce Failure;;;;;;;;;;;;;x
 
 ###########God Boons and Curses###########
-denied_boon;Denied Boon of Gods;;;;;;;;;;;;;x
+denied_boon;Denied Blessings of Gods;;;;;;;;;;;;;x
 opinion_cursed_by;Cursed by The Divines;;;;;;;;;;;;;x
 
 tarhunna_boon_1;Tarhunna's Hunters;;;;;;;;;;;;;x
 tarhunna_boon_2;Swiftness of Tarhunna;;;;;;;;;;;;;x
 tarhunna_boon_3;Tarhunna's Praise;;;;;;;;;;;;;x
+tarhunna_curse_1;Curse of Weakness;;;;;;;;;;;;;x
+tarhunna_curse_2;Curse of Heaviness;;;;;;;;;;;;;x
+tarhunna_curse_3;Tarhunna's Scorn;;;;;;;;;;;;;x
 
 arinniti_boon_1;Arinniti's Courage;;;;;;;;;;;;;x
 arinniti_boon_2;Arinniti's Vigor;;;;;;;;;;;;;x
 arinniti_boon_3;Arinniti's Insight;;;;;;;;;;;;;x
+arinniti_curse_1;Curse of Cowardice;;;;;;;;;;;;;x
+arinniti_curse_2;Curse of Rotting;;;;;;;;;;;;;x
+arinniti_curse_3;Curse of Ignorance;;;;;;;;;;;;;x
 
-telipinu_boon_1;Telipinu's Prosperity;;;;;;;;;;;;;x
+telipinu_boon_1;Telipinu's Fury;;;;;;;;;;;;;x
 telipinu_boon_2;Telipinu's Bounties;;;;;;;;;;;;;x
 telipinu_boon_3;Telipinu's Strength;;;;;;;;;;;;;x
+telipinu_curse_1;Curse of Fallow Fields;;;;;;;;;;;;;x
+telipinu_curse_2;Telipinu's Drought;;;;;;;;;;;;;x
+telipinu_curse_3;Curse of Shattered Wills;;;;;;;;;;;;;x
