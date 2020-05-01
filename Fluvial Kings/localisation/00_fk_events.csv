@@ -68,8 +68,9 @@ EVTOPTAFKR134;Not just myself, but my blood? Perhaps I will take their eyes...;;
 contact_pantheon;Contact [Root.Religion.GetFullName] Pantheon;;;;;;;;;;;;;x
 contact_pantheon_desc;By contacting [Root.Religion.GetFullName] Pantheon, you wish to gain the boon of the divines, whether they will recieve your request depends on your devotion to them.;;;;;;;;;;;;;x
 request_boon;Request Boon;;;;;;;;;;;;;x
-request_boon_desc;Request Boon from the Divines;;;;;;;;;;;;;x
+request_boon_desc;Request Boon from the Divines.;;;;;;;;;;;;;x
 make_sacrifice_to;Make a sacrifice to the Divines;;;;;;;;;;;;;x
+make_sacrifice_to_desc;You decide to do a Sacrifice for the Divines.;;;;;;;;;;;;;x
 
 EVTDESCFKP1;You decided to call upon [Root.Religion.GetFullName] Pantheon, and The Divines have recieved you plea!;;;;;;;;;;;;;x
 EVTDESCFKP100;Praise be! The Divines has decided to grant you a boon, for your devotion to them.;;;;;;;;;;;;;x
