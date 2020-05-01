@@ -59,7 +59,45 @@ EVTDESCFKR131;Your vassal has caused The Council to greatly disapprove of you;;;
 EVTOPTAFKR131;The dishonor!;;;;;;;;;;;;;x
 EVTDESCFKR132;This Prince of the Court has just failed to SLANDER your name!;;;;;;;;;;;;;x
 EVTOPTAFKR132;That whinging parasite...;;;;;;;;;;;;;x
-EVTDESCFKR133;This Prince of the Court has successfully SLANDERED your name!;;;;;;;;;;;;;x
+EVTDESCFKR133;This Prince of the Court has somehow managed to SLANDER your name!;;;;;;;;;;;;;x
 EVTOPTAFKR133;That fetid dog!;;;;;;;;;;;;;x
 EVTDESCFKR134;This Courtly Subject has not only just SLANDERED your name but has trodden upon the honor of your family!;;;;;;;;;;;;;x
 EVTOPTAFKR134;Not just myself, but my blood? Perhaps I will take their eyes...;;;;;;;;;;;;;x
+
+###########Contacting the Divines Events###########
+contact_pantheon;Pray to the gods of the [Root.Religion.GetFullName] pantheon;;;;;;;;;;;;;x
+contact_pantheon_desc;By praying to the [Root.Religion.GetFullName] pantheon, you wish to gain the blessings of the divines, whether they will recieve your request depends on your devotion to them and their fickle natures.;;;;;;;;;;;;;x
+request_boon;Request Boon;;;;;;;;;;;;;x
+request_boon_desc;Request Boon from the Divines.;;;;;;;;;;;;;x
+make_sacrifice_to;Make a sacrifice to the Divines;;;;;;;;;;;;;x
+make_sacrifice_to_desc;You decide to hold a holy sacrifice to honor and feed the gods.;;;;;;;;;;;;;x
+
+EVTDESCFKP1;You have decided to call upon the gods of the [Root.Religion.GetFullName] pantheon in exultation and loud prayer, and the divines have recieved you plea!;;;;;;;;;;;;;x
+EVTDESCFKP100;It begins as a feeling, as when one slowly awakens from a dream. You feel a hand of light pass through you and for an instant you feel the euphoria of a youth in love or a child for their parent. A god has paid notice to you, and now works those many small miracles that improve one’s life. Stretching your limbs, you shout for joy towards the heavens. You are blessed!;;;;;;;;;;;;;x
+EVTDESCFKP101;Despair! The gods have ignored your request for a blessing, your devotion to them must not have been great enough.;;;;;;;;;;;;;x
+
+EVTDESCFKP200;You hope by making a sacrifice to the gods you are able to placate them and perhaps gain their favors, now it is up to you to decide the scope and grandeur of the ceremony...;;;;;;;;;;;;;x
+EVTOPTAFKP200;You decide on a modest offering to placate the gods.;;;;;;;;;;;;;x
+EVTOPTBFKP200;You decide to invite the necessarys and put on a decent show for the rituals.;;;;;;;;;;;;;x
+EVTOPTCFKP200;HAH, what am I, some poor country physician? This must be an extravagent affair, bring out the best from the herds!;;;;;;;;;;;;;x
+
+EVTDESCFKP201;As ruler, you of course have the option to carry out the sacrifice yourself. The prize bull is led into the throng signalling the beginning of the liturgy and the sacrifice. The priests nod, they are ready to initiate the ritual, you...;;;;;;;;;;;;;x
+EVTOPTAFKP201;...say the prayers yourself and take the knife to the offerings throat.;;;;;;;;;;;;;x
+EVTOPTBFKP201;...decided to let the priests handle it, they may be better educated in these matters.;;;;;;;;;;;;;x
+
+EVTDESCFKP202;You recite the archaic words flawlessly with correct intonation and volume, deftly you slide the razor-thin blade in and out of the bulls neck, it tramps, shudders, and lies down. The oldest priest gives you a strong nod as the initiates frantically bend down to collect the precious blood and start the fire upon  the altar. The gods will be pleased.;;;;;;;;;;;;;x
+EVTOPTAFKP202;For the Glory of the gods, and my house!;;;;;;;;;;;;;x
+EVTDESCFKP204;The priests cry out the correct exultations as the prize bull is led into the throng. The oldest among them finishes the prayer and without blinking opens the beasts throat with the flint knife. As it thrashes and dies the younger members of the congregation begin to light the altar fire and prepare to joint the bull. A successful sacrifice.;;;;;;;;;;;;;x
+EVTOPTAFKP204;As to be expected...;;;;;;;;;;;;;x
+
+EVTDESCFKP203;You turn the sacred words into a stuttering muddle, halfway through you accidently recite a childhood prayer and have to begin again. Your cut was too shallow as well, the nervous bull tosses its head and knocks you to the ground. You shout a blasphemous curse and arise covered in filth and blood, and then the crowd begins to laugh...;;;;;;;;;;;;;x
+EVTOPTAFKP203;Oh, what transgression have I committed? Perhaps it was the wine...;;;;;;;;;;;;;x
+EVTDESCFKP205;It begins well enough, the prayers were recited more or less correctly by the chosen priest who unfortunately displays the signs of a drunk and nervous man. But as the prize bull is led out it not only trods on an old man's foot but breaks through the crowd and gallops away!;;;;;;;;;;;;;x
+EVTOPTAFKP205;Catch it! Catch it you fools! Gods, the day is ruined!;;;;;;;;;;;;;x
+
+EVTDESCFKP302;The day begins horribly, you are gripped with anxiety and nausea arising from a night of feverish half-sleep. You flee the shaded corridors for the garden, where even the wind in your ears seems to mock you and the undersides of shrubs are home to grinning demons. You are accursed by a vengeful god.;;;;;;;;;;;;;x
+EVTOPTAFKP302;How strange, how strange are the ways of the gods. I must call upon a sacrifice to appease them!;;;;;;;;;;;;;x
+
+###########Religion Events###########
+EVTDESCFKREL1;I pillage for the glory of the gods!;;;;;;;;;;;;;x
+OPTAFKREL1;I pillage in the name of [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
