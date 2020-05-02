@@ -144,6 +144,8 @@ opinion_rumors_25;Rumors;;;;;;;;;;;;;x
 opinion_slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
 slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
 
+switched_devotion;Switched Devotion;;;;;;;;;;;;;x
+
 opinion_of_zealous;Opinion of Zealous;;;;;;;;;;;;;x
 opinion_of_cynical;Opinion of Cynical;;;;;;;;;;;;;x
 opinion_of_erudite;Opinion of Erudite;;;;;;;;;;;;;x
@@ -168,7 +170,6 @@ opinion_of_devotion_arinniti;Opinion of Devoted to Arinniti;;;;;;;;;;;;;x
 opinion_of_devotion_arinniti_EXPLANATION; (opinion on Devoted to Arinniti);;;;;;;;;;;;;x
 opinion_of_devotion_telipinu;Opinion of Devoted to Telipinu;;;;;;;;;;;;;x
 opinion_of_devotion_telipinu_EXPLANATION; (opinion on Devoted to Telipinu);;;;;;;;;;;;;x
-
 
 strategist_opinion;Strategist Character Opinion;;;;;;;;;;;;;x
 opinion_of_strategist_EXPLANATION; (opinion on Strategist);;;;;;;;;;;;;x

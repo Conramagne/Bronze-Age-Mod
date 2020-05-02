@@ -101,3 +101,22 @@ EVTOPTAFKP302;Lo, how strange are the ways of the gods. I need a sacrifice to ap
 ###########Religion Events###########
 EVTDESCFKREL1;You gather the choicest treasures from the enemy plunder, and offer it to the gods. The flames sweep up to heaven as the warriors raise their spears and beat their shields!;;;;;;;;;;;;;x
 OPTAFKREL1;I pillage in the name of [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
+
+###########Devotion Decision Events###########
+choose_devotion;Devote yourself to a god of the [Root.Religion.GetFullName] Pantheon;;;;;;;;;;;;;x
+choose_devotion_desc;The [Root.Religion.GetFullName] Pantheon has many gods to choose from perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
+switch_devotion;Devote yourself to another god;;;;;;;;;;;;;x
+switch_devotion_desc;The [Root.Religion.GetFullName] Pantheon has many gods to choose from perhaps it is time devote yourself to another...;;;;;;;;;;;;;x
+dedicate_child;Dedicate your child to the Gods...;;;;;;;;;;;;;x
+dedicate_child_desc;Dedicate your child to a god of the [Root.Religion.GetFullName] Pantheon of your choice...;;;;;;;;;;;;;x
+
+EVTDESCFKREL100;As you stand before the temple, you prepare to devote yourself to the gods, The temple functionary allows you into a chamber bearing the images of the gods before you. You contemplate in this moment the god you will devote yourself to...;;;;;;;;;;;;;x
+EVTDESCFKREL101;As you stand before the temple, you and your child stand together preparing to devote yourselves to the gods, The temple functionary allows you two into a chamber bearing the images of the gods before you. You contemplate in this moment the god you will dedicate your child to...;;;;;;;;;;;;;x
+
+EVTOPTAFKREL100;"I devote myself to you oh Lord of the Land of Hatti, Heavenly Sovereign.";;;;;;;;;;;;;x
+EVTOPTBFKREL100;"I devote myself to you, The Sun of the Earth, fairest of all in Hatti.";;;;;;;;;;;;;x
+EVTOPTCFKREL100;"I devote myself to you, Exalted Son of Tarhunna, Prince of Hatti";;;;;;;;;;;;;x
+
+EVTOPTAFKREL101;"I devote my child to you oh Lord of the Land of Hatti, Heavenly Sovereign.";;;;;;;;;;;;;x
+EVTOPTBFKREL101;"I devote my child to you, The Sun of the Earth, fairest of all in Hatti.";;;;;;;;;;;;;x
+EVTOPTCFKREL101;"I devote my child to you, Exalted Son of Tarhunna, Prince of Hatti.";;;;;;;;;;;;;x
