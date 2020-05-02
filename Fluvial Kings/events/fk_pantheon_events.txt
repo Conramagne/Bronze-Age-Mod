@@ -17,6 +17,8 @@ character_event = {
 character_event = { 
 	id = fkp.100
 	desc = EVTDESCFKP100
+	picture = GFX_evt_blessed_by_the_gods
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -40,6 +42,8 @@ character_event = {
 character_event = { 
 	id = fkp.101
 	desc = EVTDESCFKP101
+	picture = GFX_evt_dark_court
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -56,6 +60,8 @@ character_event = {
 character_event = {
 	id = fkp.200
 	desc = EVTDESCFKP200
+	picture = GFX_evt_visit_the_temple_pantheon
+	
 	is_triggered_only = yes 
 	
 	immediate = {
@@ -129,6 +135,8 @@ character_event = {
 character_event = {
 	id = fkp.201
 	desc = EVTDESCFKP201
+	picture = GFX_evt_visit_the_temple_pantheon
+	
 	is_triggered_only = yes
 	
 	option = { #Yes
@@ -233,6 +241,8 @@ character_event = {
 character_event = {
 	id = fkp.202
 	desc = EVTDESCFKP202
+	picture = GFX_evt_visit_the_temple_pantheon
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -329,6 +339,8 @@ character_event = {
 character_event = {
 	id = fkp.203
 	desc = EVTDESCFKP203
+	picture = GFX_evt_dark_court
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -375,6 +387,8 @@ character_event = {
 character_event = {
 	id = fkp.204
 	desc = EVTDESCFKP204
+	picture = GFX_evt_visit_the_temple_pantheon
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -420,6 +434,8 @@ character_event = {
 character_event = {
 	id = fkp.205
 	desc = EVTDESCFKP205
+	picture = GFX_evt_dark_court
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -594,6 +610,8 @@ character_event = {
 character_event = {
 	id = fkp.302
 	desc = EVTDESCFKP302
+	picture = GFX_evt_cursed_by_the_gods
+	
 	is_triggered_only = yes
 	
 	option = {

@@ -35,6 +35,7 @@ character_event = {
 	id = fkrel.100
 	is_triggered_only = yes
 	desc = EVTDESCFKREL100
+	picture = GFX_evt_visit_the_temple_pantheon
 	
 	option = {
 		name = EVTOPTAFKREL100
@@ -71,6 +72,7 @@ character_event = {
 	id = fkrel.101
 	is_triggered_only = yes
 	desc = EVTDESCFKREL101
+	picture = GFX_evt_visit_the_temple_pantheon
 	
 	option = {
 		name = EVTOPTAFKREL101

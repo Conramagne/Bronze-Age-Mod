@@ -1123,7 +1123,7 @@ character_event = {
 character_event = {
 	id = fkr.114
 	desc = EVTDESCFKR114
-	picture = GFX_evt_china_open
+	picture = GFX_evt_dark_court
 	min_age = 16
 	
 	trigger = {
@@ -1210,7 +1210,7 @@ character_event = {
 character_event = {
 	id = fkr.116
 	desc = EVTDESCFKR116
-	picture = GFX_evt_china_golden_age
+	picture = GFX_evt_dark_court
 	is_triggered_only = yes
 
 	immediate = {
@@ -1256,7 +1256,7 @@ character_event = {
 character_event = {
 	id = fkr.117
 	desc = EVTDESCFKR117
-	picture = GFX_evt_china_golden_age
+	picture = GFX_evt_dark_court
 	notification = yes
 	is_triggered_only = yes
 	
@@ -1404,7 +1404,7 @@ character_event = {
 character_event = {
 	id = fkr.122
 	desc = EVTDESCFKR122
-	picture = GFX_evt_council
+	picture = GFX_evt_dark_court
 	trigger = {
 		government = hegemonic_government
 		has_regent = yes
