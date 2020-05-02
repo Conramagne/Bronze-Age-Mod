@@ -494,6 +494,7 @@ remove_curse_sacrifice_effect = {
 
 #AI Only
 ai_make_sacrifice_to_evaluation_effect = {
+	save_event_target_as = sacrificer
 	if = {
 		limit = {
 			religion_group = pihassasi
@@ -513,11 +514,15 @@ ai_make_sacrifice_to_evaluation_effect = {
 				}
 				c_1000000 = {
 					save_event_target_as = target_god
+					character_event = { id = fkp.298 }
 				}
-				character_event = { id = fkp.200 }
 				modifier = {
 					factor = 1.5
 					likes_war_god_trigger = yes
+				}
+				modifier = {
+					factor = 2
+					trait = devotion_tarhunna
 				}
 			}
 			30 = { #Arinniti
@@ -540,8 +545,12 @@ ai_make_sacrifice_to_evaluation_effect = {
 				}
 				c_1000001 = {
 					save_event_target_as = target_god
+					character_event = { id = fkp.298 }
 				}
-				character_event = { id = fkp.200 }
+				modifier = {
+					factor = 2
+					trait = devotion_arinniti
+				}
 			}
 			30 = { #Telipinu
 				trigger = {
@@ -557,8 +566,12 @@ ai_make_sacrifice_to_evaluation_effect = {
 				}
 				c_1000002 = {
 					save_event_target_as = target_god
+					character_event = { id = fkp.298 }
 				}
-				character_event = { id = fkp.200 }
+				modifier = {
+					factor = 2
+					trait = devotion_telipinu
+				}
 			}
 		}
 	}
@@ -591,6 +604,10 @@ ai_request_boon_evaluation_effect = {
 						received_sacrifice_recently_trigger = yes
 					}
 				}
+				modifier = {
+					factor = 2
+					trait = devotion_tarhunna
+				}
 			}
 			30 = { #Arinniti
 				trigger = {
@@ -619,6 +636,10 @@ ai_request_boon_evaluation_effect = {
 						received_sacrifice_recently_trigger = yes
 					}
 				}
+				modifier = {
+					factor = 2
+					trait = devotion_arinniti
+				}
 			}
 			30 = { #Telipinu
 				trigger = {
@@ -640,6 +661,10 @@ ai_request_boon_evaluation_effect = {
 					c_1000002 = {
 						received_sacrifice_recently_trigger = yes
 					}
+				}
+				modifier = {
+					factor = 2
+					trait = devotion_telipinu
 				}
 			}
 		}

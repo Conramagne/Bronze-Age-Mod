@@ -1,7 +1,6 @@
 decisions = {
 	ai_make_sacrifice_to = {
 		ai_check_interval = 1
-		only_playable = yes
 		
 		potential = {
 			ai = yes
@@ -11,6 +10,7 @@ decisions = {
 			}
 			prisoner = no
 			is_adult = yes
+			is_landed = yes
 		}
 		allow = {
 			NOT = {
@@ -30,7 +30,6 @@ decisions = {
 	
 	ai_request_boon = {
 		ai_check_interval = 1
-		only_playable = yes
 		
 		potential = {
 			ai = yes
@@ -40,6 +39,7 @@ decisions = {
 			}
 			prisoner = no
 			is_adult = yes
+			is_landed = yes
 			has_boon_trigger = no
 		}
 		allow = {

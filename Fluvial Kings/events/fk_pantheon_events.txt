@@ -61,9 +61,7 @@ character_event = {
 	immediate = {
 		if = {
 			limit = {
-				NOT = {
-					has_character_flag = do_not_change_event_target_flag
-				}
+				ai = no
 			}
 			FROM = {
 				save_event_target_as = target_god
@@ -73,12 +71,6 @@ character_event = {
 	
 	option = { #Small sacrifice
 		name = EVTOPTAFKP200
-		trigger = {
-			OR = {
-				ai = no
-				wealth = 50
-			}
-		}
 		
 		wealth = -50
 		character_event = { id = fkp.201 }
@@ -141,7 +133,7 @@ character_event = {
 	
 	option = { #Yes
 		name = EVTOPTAFKP201
-		piety = 100
+		piety = 50
 		hidden_tooltip = {
 			random_list = {
 				40 = { #Do Well
@@ -246,10 +238,12 @@ character_event = {
 	option = {
 		name = EVTOPTAFKP202
 		prestige = 50
+		
 		add_character_modifier = {
 			modifier = made_sacrifice
 			years = 2
 		}
+		
 		if = {
 			limit = {
 				has_character_flag = small_sacrifice
@@ -258,14 +252,6 @@ character_event = {
 			reverse_opinion = {
 				modifier = opinion_small_sacrifice
 				who = event_target:target_god
-			}
-			random = {
-				chance = 33
-				remove_opinion = {
-					modifier = opinion_cursed_by
-					who = event_target:target_god
-				}
-				remove_curse_sacrifice_effect = yes
 			}
 		}
 		if = {
@@ -277,14 +263,6 @@ character_event = {
 				modifier = opinion_medium_sacrifice
 				who = event_target:target_god
 			}
-			random = {
-				chance = 70
-				remove_opinion = {
-					modifier = opinion_cursed_by
-					who = event_target:target_god
-				}
-				remove_curse_sacrifice_effect = yes
-			}
 		}
 		if = {
 			limit = {
@@ -295,16 +273,55 @@ character_event = {
 				modifier = opinion_large_sacrifice
 				who = event_target:target_god
 			}
-			remove_opinion = {
+		}
+		if = {
+			limit = {
+				has_character_flag = small_sacrifice
+				reverse_has_opinion_modifier  = {
+					modifier = opinion_cursed_by
+					who = event_target:target_god
+				}
+			}
+			random = {
+				chance = 33
+				reverse_remove_opinion = {
+					modifier = opinion_cursed_by
+					who = event_target:target_god
+				}
+				remove_curse_sacrifice_effect = yes
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = medium_sacrifice
+				reverse_has_opinion_modifier  = {
+					modifier = opinion_cursed_by
+					who = event_target:target_god
+				}
+			}
+			random = {
+				chance = 70
+				reverse_remove_opinion = {
+					modifier = opinion_cursed_by
+					who = event_target:target_god
+				}
+				remove_curse_sacrifice_effect = yes
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = large_sacrifice
+				reverse_has_opinion_modifier  = {
+					modifier = opinion_cursed_by
+					who = event_target:target_god
+				}
+			}
+			reverse_remove_opinion = {
 				modifier = opinion_cursed_by
 				who = event_target:target_god
 			}
 			remove_curse_sacrifice_effect = yes
 		}
-		character_event = { id = fkp.299 }
-		clr_character_flag = small_sacrifice
-		clr_character_flag = medium_sacrifice
-		clr_character_flag = large_sacrifice
 	}
 }
 
@@ -315,8 +332,8 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		prestige = -50
 		name = EVTOPTAFKP203
+		prestige = -50
 		add_character_modifier = {
 			modifier = made_sacrifice
 			years = 2
@@ -351,10 +368,6 @@ character_event = {
 				who = event_target:target_god
 			}
 		}
-		character_event = { id = fkp.299 }
-		clr_character_flag = small_sacrifice
-		clr_character_flag = medium_sacrifice
-		clr_character_flag = large_sacrifice
 	}
 }
 
@@ -400,10 +413,6 @@ character_event = {
 				who = event_target:target_god
 			}
 		}
-		character_event = { id = fkp.299 }
-		clr_character_flag = small_sacrifice
-		clr_character_flag = medium_sacrifice
-		clr_character_flag = large_sacrifice
 	}
 }
 
@@ -449,10 +458,24 @@ character_event = {
 				who = event_target:target_god
 			}
 		}
-		character_event = { id = fkp.299 }
 		clr_character_flag = small_sacrifice
 		clr_character_flag = medium_sacrifice
 		clr_character_flag = large_sacrifice
+	}
+}
+
+
+#Event for AI Sacrifice
+character_event = {
+	id = fkp.298
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		save_event_target_as = target_god
+		event_target:sacrificer = {
+			character_event = { id = fkp.200 }
+		}
 	}
 }
 
