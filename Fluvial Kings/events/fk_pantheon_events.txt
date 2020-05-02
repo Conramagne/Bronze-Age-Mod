@@ -61,7 +61,9 @@ character_event = {
 	immediate = {
 		if = {
 			limit = {
-				ai = no
+				NOT = {
+					has_character_flag = do_not_change_event_target_flag
+				}
 			}
 			FROM = {
 				save_event_target_as = target_god
@@ -298,10 +300,11 @@ character_event = {
 				who = event_target:target_god
 			}
 			remove_curse_sacrifice_effect = yes
-			clr_character_flag = small_sacrifice
-			clr_character_flag = medium_sacrifice
-			clr_character_flag = large_sacrifice
 		}
+		character_event = { id = fkp.299 }
+		clr_character_flag = small_sacrifice
+		clr_character_flag = medium_sacrifice
+		clr_character_flag = large_sacrifice
 	}
 }
 
@@ -348,6 +351,7 @@ character_event = {
 				who = event_target:target_god
 			}
 		}
+		character_event = { id = fkp.299 }
 		clr_character_flag = small_sacrifice
 		clr_character_flag = medium_sacrifice
 		clr_character_flag = large_sacrifice
@@ -396,6 +400,7 @@ character_event = {
 				who = event_target:target_god
 			}
 		}
+		character_event = { id = fkp.299 }
 		clr_character_flag = small_sacrifice
 		clr_character_flag = medium_sacrifice
 		clr_character_flag = large_sacrifice
@@ -444,6 +449,31 @@ character_event = {
 				who = event_target:target_god
 			}
 		}
+		character_event = { id = fkp.299 }
+		clr_character_flag = small_sacrifice
+		clr_character_flag = medium_sacrifice
+		clr_character_flag = large_sacrifice
+	}
+}
+
+#Sacrifice Flag Clean-Up
+character_event = {
+	id = fkp.299
+	hide_window = yes
+	trigger = {
+		OR = {
+			has_character_flag = small_sacrifice
+			has_character_flag = medium_sacrifice
+			has_character_flag = large_sacrifice
+		}
+		has_character_modifier = made_sacrifice
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
 		clr_character_flag = small_sacrifice
 		clr_character_flag = medium_sacrifice
 		clr_character_flag = large_sacrifice
@@ -465,6 +495,10 @@ character_event = {
 			limit = {
 				is_landed = yes
 				higher_real_tier_than = BARON
+				OR = {
+					outside_pantheon_trigger_no_FROM = no
+					appropriate_devotion_trigger_no_FROM = no
+				}
 				reverse_opinion = { #God's opinion on any_character
 					who = ROOT
 					value < -40

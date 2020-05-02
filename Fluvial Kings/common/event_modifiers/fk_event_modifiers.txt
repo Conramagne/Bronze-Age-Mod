@@ -42,6 +42,10 @@ made_sacrifice = {
 	icon = 9
 }
 
+switched_devotion = {
+	icon = 9
+}
+
 #Boons
 tarhunna_boon_1 = {
 	command_modifier = {

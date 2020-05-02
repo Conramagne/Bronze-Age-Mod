@@ -144,6 +144,11 @@ opinion_rumors_25;Rumors;;;;;;;;;;;;;x
 opinion_slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
 slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
 
+opinion_of_zealous;Opinion of Zealous;;;;;;;;;;;;;x
+opinion_of_cynical;Opinion of Cynical;;;;;;;;;;;;;x
+opinion_of_erudite;Opinion of Erudite;;;;;;;;;;;;;x
+opinion_of_brave;Opinion of Brave;;;;;;;;;;;;;x
+opinion_of_craven;Opinion of Craven;;;;;;;;;;;;;x
 opinion_of_zealous_EXPLANATION; (opinion on Zealous);;;;;;;;;;;;;x
 opinion_of_cynical_EXPLANATION; (opinion on Cynical);;;;;;;;;;;;;x
 opinion_of_erudite_EXPLANATION; (opinion on Erudite);;;;;;;;;;;;;x
@@ -157,6 +162,13 @@ duelist_opinion;Duelist Character Opinion;;;;;;;;;;;;;x
 duelist_opinion_EXPLANATION; (effect on Duelist);;;;;;;;;;;;;x
 hunter_opinion;Hunter Character Opinion;;;;;;;;;;;;;x
 hunter_opinion_EXPLANATION; (effect on Hunter);;;;;;;;;;;;;x
+opinion_of_devotion_tarhunna;Opinion of Devoted to Tarhunna;;;;;;;;;;;;;x
+opinion_of_devotion_tarhunna_EXPLANATION; (opinion on Devoted to Tarhunna);;;;;;;;;;;;;x
+opinion_of_devotion_arinniti;Opinion of Devoted to Arinniti;;;;;;;;;;;;;x
+opinion_of_devotion_arinniti_EXPLANATION; (opinion on Devoted to Arinniti);;;;;;;;;;;;;x
+opinion_of_devotion_telipinu;Opinion of Devoted to Telipinu;;;;;;;;;;;;;x
+opinion_of_devotion_telipinu_EXPLANATION; (opinion on Devoted to Telipinu);;;;;;;;;;;;;x
+
 
 strategist_opinion;Strategist Character Opinion;;;;;;;;;;;;;x
 opinion_of_strategist_EXPLANATION; (opinion on Strategist);;;;;;;;;;;;;x
@@ -171,6 +183,13 @@ strong_emperor_desc;You Wield great power.;;;;;;;;;;;;;x
 tarhunna;Tarhunna;;;;;;;;;;;;;x
 arinniti;Arinniti;;;;;;;;;;;;;x
 telipinu;Telipinu;;;;;;;;;;;;;x
+
+devotion_tarhunna;Devoted to Tarhunna;;;;;;;;;;;;;x
+devotion_tarhunna_desc;This character is devoted to Tarhunna;;;;;;;;;;;;;x
+devotion_arinniti;Devoted to Arinniti;;;;;;;;;;;;;x
+devotion_arinniti_desc;This character is devoted to Arinniti;;;;;;;;;;;;;x
+devotion_telipinu;Devoted to Telipinu;;;;;;;;;;;;;x
+devotion_telipinu_desc;This character is devoted to Telipinu;;;;;;;;;;;;;x
 
 oppressive_rule;Oppressive Policies;;;;;;;;;;;;;x
 oppressive_rule_desc;Oppressive Policies are being used in this province;;;;;;;;;;;;;x

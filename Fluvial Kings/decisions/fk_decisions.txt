@@ -17,6 +17,70 @@ decisions = {
 			pantheon_court_effect = yes
 		}
 	}
+	
+	choose_devotion = {
+		is_high_prio = yes
+		ai_check_interval = 1
+		only_playable = yes
+		
+		potential = {
+			devotion_trait_trigger = no
+			is_adult = yes
+			NOT = {
+				has_character_flag = flag_god
+			}
+		}
+		allow = {
+			is_incapable = no
+			NOT = { has_character_flag = choose_devotion_flag }
+		}
+		effect = {
+			set_character_flag = choose_devotion_flag
+			if = {
+				limit = {
+					religion_group = pihassasi
+				}
+				character_event = { id = fkrel.100 }
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	switch_devotion = {
+		is_high_prio = yes
+		only_playable = yes
+		
+		potential = {
+			devotion_trait_trigger = yes
+			ai = no
+		}
+		allow = {
+			is_incapable = no
+			NOT = {
+				has_character_modifier = switched_devotion
+			}
+		}
+		effect = {
+			add_character_modifier = {
+				modifier = switched_devotion
+				duration = 1825
+			}
+			if = {
+				limit = {
+					religion_group = pihassasi
+				}
+				character_event = { id = fkrel.100 }
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
 }
 
 targetted_decisions = {
@@ -146,9 +210,12 @@ targetted_decisions = {
 				NOT = {
 					has_character_modifier = made_sacrifice
 				}
-				wealth = 0
+				wealth = 50
 			}
-			outside_pantheon_trigger = no
+			OR = {
+				outside_pantheon_trigger = no
+				appropriate_devotion_trigger = yes
+			}
 		}
 		effect = {
 			FROM = {
@@ -199,7 +266,10 @@ targetted_decisions = {
 				}
 				has_boon_trigger = no
 			}
-			outside_pantheon_trigger = no
+			OR = {
+				outside_pantheon_trigger = no
+				appropriate_devotion_trigger = yes
+			}
 		}
 		effect = {
 			hidden_tooltip = {
@@ -219,6 +289,46 @@ targetted_decisions = {
 					received_sacrifice_recently_trigger = yes
 				}
 			}
+		}
+	}
+
+	dedicate_child = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		only_playable = yes
+		
+		from_potential = {
+			is_adult = yes
+			NOT = {
+				has_character_flag = flag_god
+			}
+		}
+		potential = {
+			age < 10
+			devotion_trait_trigger = no
+		}
+		allow = {
+			NOT = {
+				has_character_flag = choose_devotion_flag
+			}
+			FROM = {
+				OR = {
+					is_father = ROOT
+					is_mother = ROOT
+				}
+			}
+		}
+		effect = {
+			FROM = {
+				set_character_flag = choose_devotion_flag
+				character_event = { id = fkrel.101 }
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 }

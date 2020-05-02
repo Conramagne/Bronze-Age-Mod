@@ -51,7 +51,7 @@ strong_emperor = {
 	male_compliment_adj = COMPL_STRONG
 }
 
-#Hittite Pantheon Traits
+#Pihassasi Pantheon Traits
 tarhunna = {
 	hidden_from_others = yes
 	immortal = yes
@@ -69,6 +69,7 @@ tarhunna = {
 	opinion_of_hunter = 5
 	opinion_of_strategist = 10
 	opinion_of_brave = 5
+	opinion_of_devotion_tarhunna = 15
 	opinion_of_craven = -5
 	misguided_warrior_opinion = 5
 	brilliant_strategist_opinion = 5
@@ -89,6 +90,7 @@ arinniti = {
 	opinion_of_zealous = 5
 	opinion_of_cynical = -10
 	opinion_of_erudite = 10
+	opinion_of_devotion_arinniti = 15
 }
 
 telipinu = {
@@ -102,4 +104,44 @@ telipinu = {
 	opinion_of_zealous = 5
 	opinion_of_cynical = -10
 	opinion_of_erudite = 10
+	opinion_of_devotion_telipinu = 15
+}
+#Pihassasi Devotion Traits
+devotion_tarhunna = {
+	potential = {
+		religion_group = pihassasi
+	}
+	random = no
+	opposites = {
+		devotion_arinniti
+		devotion_telipinu
+	}
+	same_religion_opinion = 5
+	martial = 1
+}
+
+devotion_arinniti = {
+	potential = {
+		religion_group = pihassasi
+	}
+	random = no
+	opposites = {
+		devotion_tarhunna
+		devotion_telipinu
+	}
+	health = 0.5
+	monthly_character_piety = 1
+}
+
+devotion_telipinu = {
+	potential = {
+		religion_group = pihassasi
+	}
+	random = no
+	opposites = {
+		devotion_arinniti
+		devotion_tarhunna
+	}
+	global_revolt_risk = -0.05
+	stewardship = 1
 }

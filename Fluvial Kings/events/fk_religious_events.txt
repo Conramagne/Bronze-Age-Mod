@@ -28,3 +28,84 @@ character_event = {
 		conversion_removal_effect = yes
 	}
 }
+
+##Choosing Devotion
+#Choosing Devotion Pihassasi
+character_event = {
+	id = fkrel.100
+	is_triggered_only = yes
+	desc = EVTDESCFKREL100
+	
+	option = {
+		name = EVTOPTAFKREL100
+		add_trait = devotion_tarhunna
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33 
+			modifier = {
+				factor = 2
+				likes_war_god_trigger = yes
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBFKREL100
+		add_trait = devotion_arinniti
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33 
+		}
+	}
+	option = {
+		name = EVTOPTCFKREL100
+		add_trait = devotion_telipinu
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33
+		}
+	}
+}
+
+#Choosing Devotion Child Pihassasi
+character_event = {
+	id = fkrel.101
+	is_triggered_only = yes
+	desc = EVTDESCFKREL101
+	
+	option = {
+		name = EVTOPTAFKREL101
+		FROM = {
+			add_trait = devotion_tarhunna
+		}
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33 
+		}
+	}
+	option = {
+		name = EVTOPTBFKREL101
+		FROM = {
+			add_trait = devotion_arinniti
+		}
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33 
+			modifier = {
+				factor = 2
+				FROM = {
+					trait = sickly
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCFKREL101
+		FROM = {
+			add_trait = devotion_telipinu
+		}
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33
+		}
+	}
+}

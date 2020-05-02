@@ -65,6 +65,9 @@ conversion_removal_effect = {
 	if = {
 		limit = {
 			religion = haianiluwi
+			NOT = {
+				trait = devotion_arinniti
+			}
 		}
 		remove_boon_arinniti_effect = yes
 		remove_curse_arinniti_effect = yes
@@ -519,8 +522,11 @@ ai_make_sacrifice_to_evaluation_effect = {
 			}
 			30 = { #Arinniti
 				trigger = {
-					NOT = {
-						religion = haianiluwi
+					OR = {
+						NOT = {
+							religion = haianiluwi
+						}
+						trait = devotion_arinniti
 					}
 					c_1000001 = {
 						NOR = {
@@ -536,10 +542,6 @@ ai_make_sacrifice_to_evaluation_effect = {
 					save_event_target_as = target_god
 				}
 				character_event = { id = fkp.200 }
-				modifier = {
-					factor = 1.2
-					is_guardian_god_trigger = yes
-				}
 			}
 			30 = { #Telipinu
 				trigger = {
@@ -557,10 +559,6 @@ ai_make_sacrifice_to_evaluation_effect = {
 					save_event_target_as = target_god
 				}
 				character_event = { id = fkp.200 }
-				modifier = {
-					factor = 1.2
-					is_agricultural_god_trigger = yes
-				}
 			}
 		}
 	}
@@ -604,8 +602,11 @@ ai_request_boon_evaluation_effect = {
 							}
 						}
 					}
-					NOT = {
-						religion = haianiluwi
+					OR = {
+						NOT = {
+							religion = haianiluwi
+						}
+						trait = devotion_arinniti
 					}
 				}
 				c_1000001 = {

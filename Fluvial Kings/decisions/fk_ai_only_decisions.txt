@@ -16,9 +16,10 @@ decisions = {
 			NOT = {
 				trait = cynical
 			}
-			wealth = 0
+			wealth = 50
 		}
 		effect = {
+			set_character_flag = do_not_change_event_target_flag
 			ai_make_sacrifice_to_evaluation_effect = yes
 		}
 		revoke_allowed = { always = no }
