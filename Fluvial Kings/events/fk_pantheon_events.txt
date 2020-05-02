@@ -4,6 +4,8 @@ namespace = fkp
 character_event = {
 	id = fkp.1
 	desc = EVTDESCFKP1
+	picture = GFX_evt_visit_the_temple_pantheon
+	
 	is_triggered_only = yes
 	portrait = 1000000
 	
