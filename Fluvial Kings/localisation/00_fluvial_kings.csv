@@ -147,13 +147,23 @@ slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
 opinion_of_zealous_EXPLANATION; (opinion on Zealous);;;;;;;;;;;;;x
 opinion_of_cynical_EXPLANATION; (opinion on Cynical);;;;;;;;;;;;;x
 opinion_of_erudite_EXPLANATION; (opinion on Erudite);;;;;;;;;;;;;x
-opinion_of_misguided_warrior_EXPLANATION; (opinion on Misguided Warrior);;;;;;;;;;;;;x
-opinion_of_brilliant_strategist_EXPLANATION; (opinion on Brilliant Strategist);;;;;;;;;;;;;x
-opinion_of_duelist_EXPLANATION; (opinion on Duelist);;;;;;;;;;;;;x
-opinion_of_hunter_EXPLANATION; (opinion on Hunter);;;;;;;;;;;;;x
-opinion_of_strategist_EXPLANATION; (opinion on Strategist);;;;;;;;;;;;;x
 opinion_of_brave_EXPLANATION; (opinion on Brave);;;;;;;;;;;;;x
 opinion_of_craven_EXPLANATION; (opinion on Craven);;;;;;;;;;;;;x
+
+misguided_warrior_opinion;Misguided Warrior Character Opinion;;;;;;;;;;;;;x
+opinion_of_misguided_warrior_EXPLANATION; (opinion on Misguided Warrior);;;;;;;;;;;;;x
+
+brilliant_strategist_opinion;Brilliant Strategist Character Opinion;;;;;;;;;;;;;x
+opinion_of_brilliant_strategist_EXPLANATION; (opinion on Brilliant Strategist);;;;;;;;;;;;;x
+
+duelist_opinion;Duelist Character Opinion;;;;;;;;;;;;;x
+opinion_of_duelist_EXPLANATION; (opinion on Duelist);;;;;;;;;;;;;x
+
+hunter_opinion;Hunter Character Opinion;;;;;;;;;;;;;x
+opinion_of_hunter_EXPLANATION; (opinion on Hunter);;;;;;;;;;;;;x
+
+strategist_opinion;Strategist Character Opinion;;;;;;;;;;;;;x
+opinion_of_strategist_EXPLANATION; (opinion on Strategist);;;;;;;;;;;;;x
 
 poor_reforms;Poor Reforms;;;;;;;;;;;;;x
 poor_reforms_desc;Your Reforms went poorly.;;;;;;;;;;;;;x
