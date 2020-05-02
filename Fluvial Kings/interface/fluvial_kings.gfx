@@ -30,6 +30,9 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	
+### devotion traits
+
 	spriteType = {
 		name = "GFX_trait_devotion_tarhunna"
 		texturefile = "gfx/traits/devotion_tarhunna.dds"
