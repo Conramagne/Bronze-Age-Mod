@@ -1222,6 +1222,26 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\GFX_evt_written_stele.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_evt_blessed_by_the_gods"
+		texturefile = "gfx\\event_pictures\\GFX_evt_blessed_by_the_gods.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_cursed_by_the_gods"
+		texturefile = "gfx\\event_pictures\\GFX_evt_cursed_by_the_gods.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_dark_court"
+		texturefile = "gfx\\event_pictures\\GFX_evt_dark_court.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_visit_the_temple_pantheon"
+		texturefile = "gfx\\event_pictures\\GFX_evt_visit_the_temple_pantheon.dds"
+	}
+	
 	### government icons
 	spriteType = {
 		name = "GFX_icon_feudal_government"
