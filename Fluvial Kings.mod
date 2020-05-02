@@ -3,6 +3,7 @@ path = "mod/Fluvial Kings"
 user_dir = "Fluvial Kings"
 supported_checksums = { }
 
+replace_path = "history/characters"
 replace_path = "history/provinces"
 replace_path = "history/titles"
 replace_path = "history/technology"

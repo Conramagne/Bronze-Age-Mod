@@ -1,74 +1,74 @@
-d_berith = {
-	color = { 51 134 236 }
+# d_berith = {
+	# color = { 51 134 236 }
 	
-	#capital =
+	# capital =
 	
-	title = "HEAD_KOHEN_GADOL"
-	foa = "POPE_FOA"
+	# title = "HEAD_KOHEN_GADOL"
+	# foa = "POPE_FOA"
 	
-	short_name = yes
+	# short_name = yes
 	
 	# Always exists
-	landless = yes
+	# landless = yes
 	
 	# Controls a religion
-	controls_religion = berith
+	# controls_religion = berith
 	
-	religion = berith
+	# religion = berith
 	
 	# Cannot be held as a secondary title
-	primary = yes
+	# primary = yes
 	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-}
+	# dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+# }
 
-d_haianiluwi = {
-	color = { 184 98 14 }
+# d_haianiluwi = {
+	# color = { 184 98 14 }
 	
-	#capital =
+	# capital =
 	
-	title = "HEAD_SALLISANKUNI"
-	foa = "POPE_FOA"
+	# title = "HEAD_SALLISANKUNI"
+	# foa = "POPE_FOA"
 	
-	short_name = yes
+	# short_name = yes
 	
 	# Always exists
-	landless = yes
+	# landless = yes
 	
 	# Controls a religion
-	controls_religion = haianiluwi
+	# controls_religion = haianiluwi
 	
-	religion = haianiluwi
+	# religion = haianiluwi
 	
 	# Cannot be held as a secondary title
-	primary = yes
+	# primary = yes
 	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-}
+	# dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+# }
 
-d_ili_abinia = {
-	color = { 127 102 26 }
+# d_ili_abinia = {
+	# color = { 127 102 26 }
 	
-	#capital =
+	# capital =
 	
-	title = "HEAD_KOHEN_AMURRU"
-	foa = "POPE_FOA"
+	# title = "HEAD_KOHEN_AMURRU"
+	# foa = "POPE_FOA"
 	
-	short_name = yes
+	# short_name = yes
 	
 	# Always exists
-	landless = yes
+	# landless = yes
 	
 	# Controls a religion
-	controls_religion = ili_abinia
+	# controls_religion = ili_abinia
 	
-	religion = ili_abinia
+	# religion = ili_abinia
 	
 	# Cannot be held as a secondary title
-	primary = yes
+	# primary = yes
 	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-}
+	# dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+# }
 
 #Pantheon Titles
 e_pihassasi_pantheon = {
