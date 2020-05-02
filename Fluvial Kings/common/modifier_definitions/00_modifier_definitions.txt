@@ -1193,7 +1193,7 @@ gardener_opinion = {
 }
 
 #Devotion Trait Opinions
-devotion_tarhunna = {
+opinion_of_devotion_tarhunna = {
 	show_as_percent = no
 	is_good = yes
 	is_monthly = no
@@ -1201,14 +1201,14 @@ devotion_tarhunna = {
 	max_decimals = 0
 }
 
-devotion_arinniti = {
+opinion_of_devotion_arinniti = {
 	show_as_percent = no
 	is_good = yes
 	is_monthly = no
 	is_hidden = no
 	max_decimals = 0
 }
-devotion_telipinu = {
+opinion_of_devotion_telipinu = {
 	show_as_percent = no
 	is_good = yes
 	is_monthly = no
