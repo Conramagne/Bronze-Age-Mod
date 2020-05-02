@@ -1009,6 +1009,18 @@ spriteTypes = {
 		name = "GFX_contact_pantheon"
 		texturefile = "gfx\\interface\\decision_calling_the_gods.dds"
 	}
+	spriteType = {
+		name = "GFX_choose_devotion"
+		texturefile = "gfx\\interface\\decision_devote_to_the_gods.dds"
+	}
+	spriteType = {
+		name = "GFX_switch_devotion"
+		texturefile = "gfx\\interface\\decision_devote_to_the_gods.dds"
+	}
+	spriteType = {
+		name = "GFX_dedicate_child"
+		texturefile = "gfx\\interface\\decision_devote_to_the_gods.dds"
+	}
 	
 	### icons
 	spriteType = {
