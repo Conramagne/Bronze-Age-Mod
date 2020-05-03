@@ -107,7 +107,7 @@ choose_devotion;Devote yourself to a god of the [Root.Religion.GetFullName] Pant
 choose_devotion_desc;The [Root.Religion.GetFullName] Pantheon has many gods to choose from perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
 switch_devotion;Devote yourself to another god;;;;;;;;;;;;;x
 switch_devotion_desc;The [Root.Religion.GetFullName] Pantheon has many gods to choose from perhaps it is time devote yourself to another...;;;;;;;;;;;;;x
-dedicate_child;Dedicate your child to the Gods...;;;;;;;;;;;;;x
+dedicate_child;Dedicate your child to...;;;;;;;;;;;;;x
 dedicate_child_desc;Dedicate your child to a god of the [Root.Religion.GetFullName] Pantheon of your choice...;;;;;;;;;;;;;x
 
 EVTDESCFKREL100;As you stand before the temple, you prepare to devote yourself to the gods, The temple functionary allows you into a chamber bearing the images of the gods before you. You contemplate in this moment the god you will devote yourself to...;;;;;;;;;;;;;x
