@@ -4,8 +4,6 @@ namespace = fkp
 character_event = {
 	id = fkp.1
 	desc = EVTDESCFKP1
-	picture = GFX_evt_visit_the_temple_pantheon
-	
 	is_triggered_only = yes
 	portrait = 1000000
 	
@@ -20,7 +18,6 @@ character_event = {
 	id = fkp.100
 	desc = EVTDESCFKP100
 	picture = GFX_evt_blessed_by_the_gods
-	
 	is_triggered_only = yes
 	
 	option = {
@@ -45,7 +42,6 @@ character_event = {
 	id = fkp.101
 	desc = EVTDESCFKP101
 	picture = GFX_evt_dark_court
-	
 	is_triggered_only = yes
 	
 	option = {
@@ -63,7 +59,6 @@ character_event = {
 	id = fkp.200
 	desc = EVTDESCFKP200
 	picture = GFX_evt_visit_the_temple_pantheon
-	
 	is_triggered_only = yes 
 	
 	immediate = {
@@ -84,7 +79,7 @@ character_event = {
 		character_event = { id = fkp.201 }
 		set_character_flag = small_sacrifice
 		ai_chance = {
-			factor = 50
+			factor = 40
 			modifier = {
 				factor = 0.5
 				trait = zealous
@@ -108,7 +103,7 @@ character_event = {
 		character_event = { id = fkp.201 }
 		set_character_flag = medium_sacrifice
 		ai_chance = {
-			factor = 35
+			factor = 25
 		}
 	}
 	option = { #Large sacrifice
@@ -124,7 +119,7 @@ character_event = {
 		character_event = { id = fkp.201 }
 		set_character_flag = large_sacrifice
 		ai_chance = {
-			factor = 35
+			factor = 25
 			modifier = {
 				factor = 0
 				trait = greedy
@@ -138,7 +133,6 @@ character_event = {
 	id = fkp.201
 	desc = EVTDESCFKP201
 	picture = GFX_evt_visit_the_temple_pantheon
-	
 	is_triggered_only = yes
 	
 	option = { #Yes
@@ -147,7 +141,18 @@ character_event = {
 		hidden_tooltip = {
 			random_list = {
 				40 = { #Do Well
-					character_event = { id = fkp.202 }
+					if = {
+						limit = {
+							ai = yes
+						}
+						ai_make_sacrifice_to_evaluation_effect_self_success = yes
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						character_event = { id = fkp.202 }
+					}
 					modifier = {
 						factor = 1.5
 						OR = {
@@ -158,7 +163,18 @@ character_event = {
 					}
 				}
 				60 = { #Do Poorly
-					character_event = { id = fkp.203 }
+					if = {
+						limit = {
+							ai = yes
+						}
+						ai_make_sacrifice_to_evaluation_effect_self_failure = yes
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						character_event = { id = fkp.203 }
+					}
 					modifier = {
 						factor = 1.2
 						OR = {
@@ -196,7 +212,18 @@ character_event = {
 		hidden_tooltip = {
 			random_list = {
 				60 = { #Do Well
-					character_event = { id = fkp.204 }
+					if = {
+						limit = {
+							ai = yes
+						}
+						ai_make_sacrifice_to_evaluation_effect_success = yes
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						character_event = { id = fkp.204 }
+					}
 					modifier = {
 						factor = 1.5
 						OR = {
@@ -220,7 +247,18 @@ character_event = {
 					}
 				}
 				40 = { #Do Poorly
-					character_event = { id = fkp.205 }
+					if = {
+						limit = {
+							ai = yes
+						}
+						ai_make_sacrifice_to_evaluation_effect_failure = yes
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						character_event = { id = fkp.205 }
+					}
 					modifier = {
 						factor = 1.5
 						OR = {
@@ -244,7 +282,6 @@ character_event = {
 	id = fkp.202
 	desc = EVTDESCFKP202
 	picture = GFX_evt_visit_the_temple_pantheon
-	
 	is_triggered_only = yes
 	
 	option = {
@@ -286,54 +323,6 @@ character_event = {
 				who = event_target:target_god
 			}
 		}
-		if = {
-			limit = {
-				has_character_flag = small_sacrifice
-				reverse_has_opinion_modifier  = {
-					modifier = opinion_cursed_by
-					who = event_target:target_god
-				}
-			}
-			random = {
-				chance = 33
-				reverse_remove_opinion = {
-					modifier = opinion_cursed_by
-					who = event_target:target_god
-				}
-				remove_curse_sacrifice_effect = yes
-			}
-		}
-		if = {
-			limit = {
-				has_character_flag = medium_sacrifice
-				reverse_has_opinion_modifier  = {
-					modifier = opinion_cursed_by
-					who = event_target:target_god
-				}
-			}
-			random = {
-				chance = 70
-				reverse_remove_opinion = {
-					modifier = opinion_cursed_by
-					who = event_target:target_god
-				}
-				remove_curse_sacrifice_effect = yes
-			}
-		}
-		if = {
-			limit = {
-				has_character_flag = large_sacrifice
-				reverse_has_opinion_modifier  = {
-					modifier = opinion_cursed_by
-					who = event_target:target_god
-				}
-			}
-			reverse_remove_opinion = {
-				modifier = opinion_cursed_by
-				who = event_target:target_god
-			}
-			remove_curse_sacrifice_effect = yes
-		}
 	}
 }
 
@@ -342,7 +331,6 @@ character_event = {
 	id = fkp.203
 	desc = EVTDESCFKP203
 	picture = GFX_evt_dark_court
-	
 	is_triggered_only = yes
 	
 	option = {
@@ -390,7 +378,6 @@ character_event = {
 	id = fkp.204
 	desc = EVTDESCFKP204
 	picture = GFX_evt_visit_the_temple_pantheon
-	
 	is_triggered_only = yes
 	
 	option = {
@@ -437,7 +424,6 @@ character_event = {
 	id = fkp.205
 	desc = EVTDESCFKP205
 	picture = GFX_evt_dark_court
-	
 	is_triggered_only = yes
 	
 	option = {
@@ -479,21 +465,6 @@ character_event = {
 		clr_character_flag = small_sacrifice
 		clr_character_flag = medium_sacrifice
 		clr_character_flag = large_sacrifice
-	}
-}
-
-
-#Event for AI Sacrifice
-character_event = {
-	id = fkp.298
-	hide_window = yes
-	is_triggered_only = yes
-	
-	immediate = {
-		save_event_target_as = target_god
-		event_target:sacrificer = {
-			character_event = { id = fkp.200 }
-		}
 	}
 }
 
@@ -613,7 +584,6 @@ character_event = {
 	id = fkp.302
 	desc = EVTDESCFKP302
 	picture = GFX_evt_cursed_by_the_gods
-	
 	is_triggered_only = yes
 	
 	option = {
