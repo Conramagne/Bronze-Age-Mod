@@ -109,6 +109,8 @@ switch_devotion;Devote yourself to another god;;;;;;;;;;;;;x
 switch_devotion_desc;The [Root.Religion.GetFullName] Pantheon has many gods to choose from perhaps it is time devote yourself to another...;;;;;;;;;;;;;x
 dedicate_child;Dedicate your child to...;;;;;;;;;;;;;x
 dedicate_child_desc;Dedicate your child to a god of the [Root.Religion.GetFullName] Pantheon of your choice...;;;;;;;;;;;;;x
+absolve_curse_sacrifice;Sacrifice to absolve the Gods' Curse!;;;;;;;;;;;;;x
+absolve_curse_sacrifice_desc;Sacrifice to absolve the Gods' Curse which was laid upon you!;;;;;;;;;;;;;x
 
 EVTDESCFKREL100;As you stand before the temple, you prepare to devote yourself to the gods, The temple functionary allows you into a chamber bearing the images of the gods before you. You contemplate in this moment the god you will devote yourself to...;;;;;;;;;;;;;x
 EVTDESCFKREL101;As you stand before the temple, you and your child stand together preparing to devote yourselves to the gods, The temple functionary allows you two into a chamber bearing the images of the gods before you. You contemplate in this moment the god you will dedicate your child to...;;;;;;;;;;;;;x
@@ -120,3 +122,6 @@ EVTOPTCFKREL100;"I devote myself to you, Exalted Son of Tarhunna, Prince of Hatt
 EVTOPTAFKREL101;"I devote my child to you oh Lord of the Land of Hatti...";;;;;;;;;;;;;x
 EVTOPTBFKREL101;"I devote my child to you, The Sun of the Earth...";;;;;;;;;;;;;x
 EVTOPTCFKREL101;"I devote my child to you, Exalted Son of Tarhunna...";;;;;;;;;;;;;x
+
+EVTDESCFKP206;As you hurryingly stand before the temple, you call upon the temple functionaries to allows you access to an altar, so that you may perform the sacrifices needed to appease the gods.;;;;;;;;;;;;;x
+EVTOPTAFKP206;May this offering appease the gods!;;;;;;;;;;;;;x
