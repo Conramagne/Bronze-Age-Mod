@@ -45,3 +45,8 @@ opinion_large_sacrifice_fail = {
 	opinion = -30
 	years = 5
 }
+
+opinion_rectified_grievance = {
+	opinion = 65
+	years = 10
+}

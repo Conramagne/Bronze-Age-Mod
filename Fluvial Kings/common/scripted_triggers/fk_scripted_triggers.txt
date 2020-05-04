@@ -143,6 +143,20 @@ has_boon_telipinu_trigger = {
 	}
 }
 
+has_curse_trigger = {
+	OR = {
+		has_character_modifier = tarhunna_curse_1
+		has_character_modifier = tarhunna_curse_2
+		has_character_modifier = tarhunna_curse_3
+		has_character_modifier = arinniti_curse_1
+		has_character_modifier = arinniti_curse_2
+		has_character_modifier = arinniti_curse_3
+		has_character_modifier = telipinu_curse_1
+		has_character_modifier = telipinu_curse_2
+		has_character_modifier = telipinu_curse_3
+	}
+}
+
 received_sacrifice_recently_trigger = {
 	OR = {
 		has_opinion_modifier = {

@@ -513,7 +513,7 @@
 2003008 = {
 	name = "Ali-Šarruma" # Ali-Šarruma/Ari-Šarruma, King of Isuwa
 	dynasty = 2000009 #Tiwasili
-	culture = hittite
+	culture = isuwan
 	religion = ishalitethai
 	2485.1.1 = { birth = yes }
 	2515.1.1 = { add_spouse = 2002006 }
@@ -523,7 +523,7 @@
 2003009 = {
 	name = "Ehli-Šarruma" # Ehli-Šarruma, Future King of Isuwa
 	dynasty = 2000009 #Tiwasili
-	culture = hittite
+	culture = isuwan
 	religion = ishalitethai
 	trait = weak
 	father = 2003008

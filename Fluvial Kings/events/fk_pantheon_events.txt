@@ -468,6 +468,41 @@ character_event = {
 	}
 }
 
+#Sacrifice to the Gods Absolves Curses
+character_event = {
+	id = fkp.206
+	desc = EVTDESCFKP206
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAFKP206
+		
+		piety = 100
+		custom_tooltip = {
+			text = all_curses_absolved_TT
+			hidden_tooltip = {
+				remove_curse_effect = yes
+			}
+		}
+		any_character = {
+			limit = {
+				reverse_has_opinion_modifier = {
+					modifier = opinion_cursed_by
+					who = ROOT
+				}
+			}
+			reverse_remove_opinion = {
+				modifier = opinion_cursed_by
+				who = ROOT
+			}
+			opinion = {
+				modifier = opinion_rectified_grievance
+				who = ROOT
+			}
+		}
+	}
+}
+
 #Sacrifice Flag Clean-Up
 character_event = {
 	id = fkp.299

@@ -81,6 +81,27 @@ decisions = {
 			always = no
 		}
 	}
+	
+	absolve_curse_sacrifice = {
+		is_high_prio = yes
+		only_playable = yes
+		
+		potential = {
+			has_curse_trigger = yes
+			ai = no
+		}
+		allow = {
+			is_incapable = no
+			wealth = 200
+		}
+		effect = {
+			wealth = -200
+			character_event = { id = fkp.206 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
 }
 
 targetted_decisions = {

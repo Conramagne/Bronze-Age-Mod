@@ -447,6 +447,12 @@ remove_boon_effect_FROMFROM = {
 	}
 }
 
+remove_curse_effect = {
+	remove_curse_tarhunna_effect = yes
+	remove_curse_arinniti_effect = yes
+	remove_curse_telipinu_effect = yes
+}
+
 remove_curse_tarhunna_effect = {
 	remove_character_modifier = tarhunna_curse_1
 	remove_character_modifier = tarhunna_curse_2
@@ -517,11 +523,11 @@ ai_make_sacrifice_to_evaluation_effect = {
 					ai_sacrifice_success_or_fail = yes
 				}
 				modifier = {
-					factor = 1.5
+					factor = 2.5
 					likes_war_god_trigger = yes
 				}
 				modifier = {
-					factor = 2
+					factor = 3
 					trait = devotion_tarhunna
 				}
 			}
@@ -548,7 +554,7 @@ ai_make_sacrifice_to_evaluation_effect = {
 					ai_sacrifice_success_or_fail = yes
 				}
 				modifier = {
-					factor = 2
+					factor = 3
 					trait = devotion_arinniti
 				}
 			}
@@ -569,7 +575,7 @@ ai_make_sacrifice_to_evaluation_effect = {
 					ai_sacrifice_success_or_fail = yes
 				}
 				modifier = {
-					factor = 2
+					factor = 3
 					trait = devotion_telipinu
 				}
 			}
@@ -688,7 +694,7 @@ ai_request_boon_evaluation_effect = {
 					}
 				}
 				modifier = {
-					factor = 2
+					factor = 3
 					trait = devotion_tarhunna
 				}
 			}
@@ -720,7 +726,7 @@ ai_request_boon_evaluation_effect = {
 					}
 				}
 				modifier = {
-					factor = 2
+					factor = 3
 					trait = devotion_arinniti
 				}
 			}
@@ -746,7 +752,7 @@ ai_request_boon_evaluation_effect = {
 					}
 				}
 				modifier = {
-					factor = 2
+					factor = 3
 					trait = devotion_telipinu
 				}
 			}
