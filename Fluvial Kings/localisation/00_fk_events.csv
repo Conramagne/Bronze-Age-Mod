@@ -73,7 +73,7 @@ make_sacrifice_to;Make a sacrifice to the Divines;;;;;;;;;;;;;x
 make_sacrifice_to_desc;You decide to hold a holy sacrifice to honor and feed the gods.;;;;;;;;;;;;;x
 
 EVTDESCFKP1;You have decided to call upon the gods of the [Root.Religion.GetFullName] pantheon in exultation and loud prayer, and the divines have recieved you plea!;;;;;;;;;;;;;x
-EVTDESCFKP100;It begins as a feeling, as when one slowly awakens from a dream. You feel a hand of light pass through you and for an instant you feel the euphoria of a youth in love or a child for their parent. A god has paid notice to you, and now works those many small miracles that improve oneâ€™s life. Stretching your limbs, you shout for joy towards the heavens. You are blessed!;;;;;;;;;;;;;x
+EVTDESCFKP100;It begins as a feeling, as when one slowly awakens from a dream. You feel a hand of light pass through you and for an instant you feel the euphoria of a youth in love or a child for their parent. A god has paid notice to you, and now works those many small miracles that improve one’s life. Stretching your limbs, you shout for joy towards the heavens. You are blessed!;;;;;;;;;;;;;x
 EVTDESCFKP101;Despair! The gods have ignored your request for a blessing, your devotion to them must not have been great enough.;;;;;;;;;;;;;x
 
 EVTDESCFKP200;You hope by making a sacrifice to the gods you are able to placate them and perhaps gain their favors, now it is up to you to decide the scope and grandeur of the ceremony...;;;;;;;;;;;;;x
