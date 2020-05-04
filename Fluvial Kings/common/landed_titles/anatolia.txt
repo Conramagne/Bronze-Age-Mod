@@ -32,14 +32,22 @@ e_hittite_empire = {
 			c_hattusa = {
 				color = { 145 70 100 }
 				color2 = { 255 255 255 }
+				holy_site = ishalitethai
 				
 				b_hattusa = {}
+				b_tawiniya = {}
+				b_hiyasna = {}
+				b_matila = {}
 			}
 			c_taskuriya = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
+				holy_site = ishalitethai
 				
 				b_taskuriya = {}
+				b_salma = {}
+				b_arinna = {}
+				b_taritara = {}
 			}
 			
 			c_tuhuppiya = {
@@ -47,6 +55,9 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_tuhuppiya = {}
+				b_alisar = {}
+				b_tawa = {}
+				b_wahsusana = {}
 			}
 			
 			c_katapa = {
@@ -54,6 +65,8 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_katapa = {}
+				b_hakmis = {}
+				b_sapinuwa = {}
 			}
 			
 			c_kanes = {
@@ -61,12 +74,16 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_kanes = {}
+				b_talahi = {}
+				b_daha = {}
 			}
 			c_kapitra = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
 				
 				b_kapitra = {}
+				b_zippalanda = {}
+				b_suppiluliya = {}
 			}
 		}
 		
@@ -87,12 +104,15 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_haburat = {}
+				b_pittiyarika = {}
+				b_aryiza = {}
 			}
 			c_pahhuwa = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
 				
 				b_pahhuwa = {}
+				b_hahha = {}
 			}
 			c_istitina = {
 				color={ 145 70 100 }
@@ -112,24 +132,38 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_masika = {}
+				b_zaminuwa = {}
+				b_lakimissa = {}
+				b_ankuwa = {}
 			}
 			c_zipishuna = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
 				
 				b_zipishuna = {}
+				b_tabikka = {}
+				b_gazziura = {}
+				b_kabulsan = {}
+				b_hananaga = {}
 			}
 			c_takkupta = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
 				
 				b_takkupta = {}
+				b_kappurnanda = {}
+				b_ishupitta = {}
+				b_tiliura = {}
+				b_karanah = {}
 			}
 			c_samuha = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
 				
 				b_samuha = {}
+				b_marista = {}
+				b_suluppa = {}
+				b_hatikaitra = {}
 			}
 		}
 	}
@@ -205,24 +239,33 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_altanna = {}
+				b_washaya = {}
+				b_lihzina = {}
+				b_hanhana = {}
 			}
 			c_salatiwara = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
 				
 				b_salatiwara = {}
+				b_ankala = {}
 			}
 			c_athulissa = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
 				
 				b_athulissa = {}
+				b_tuhupurpuna = {}
+				b_sappiduwa = {}
+				b_tapapanuwa = {}
 			}
 			c_piddaniyasa = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
 				
 				b_piddaniyasa = {}
+				b_ippasana = {}
+				b_aliassa = {}
 			}
 		}
 		
@@ -241,20 +284,26 @@ e_hittite_empire = {
 			c_istahara = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
+				holy_site = ishalitethai
 				
 				b_istahara = {}
+				b_nerik = {}
+				b_hatenzuwa = {}
 			}
 			c_gassu = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
 				
 				b_gassu = {}
+				b_timuhala = {}
+				b_tahappisuna = {}
 			}
 			c_sariya = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
 				
 				b_sariya = {}
+				b_almina = {}
 			}
 		}
 	}
@@ -278,18 +327,23 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_tarhuntassa = {}
+				b_talwisuwanda = {}
 			}
 			c_ura = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
+				holy_site = ishalitethai
 				
 				b_ura = {}
+				b_korikos = {}
+				b_walma = {}
 			}
 			c_saliya = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
 				
 				b_saliya = {}
+				b_lamiya = {}
 			}
 			c_laanda = {
 				color={ 145 70 100 }
@@ -302,6 +356,7 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_hupisna = {}
+				b_uda = {}
 			}
 		}
 		
@@ -322,6 +377,9 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_sahiriya = {}
+				b_salatiwara = {}
+				b_sallapa = {}
+				b_parsuhanda = {}
 			}
 			c_sinnuwanda = {
 				color={ 145 70 100 }
@@ -384,6 +442,7 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_saranduwa = {}
+				b_kirsu = {}
 			}
 			c_sallusa = {
 				color={ 145 70 100 }
@@ -404,6 +463,8 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_hapalla = {}
+				b_ikkuwaniya = {}
+				b_ussa = {}
 			}
 			c_sarpa = {
 				color={ 145 70 100 }
@@ -416,12 +477,15 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_ullamma = {}
+				b_kussara = {}
+				b_ninassa = {}
 			}
 			c_suwatara = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
 				
 				b_suwatara = {}
+				b_lusna = {}
 			}
 		}
 	}
@@ -445,12 +509,16 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_lawazantiya = {}
+				b_adana = {}
+				b_arusna = {}
 			}
 			c_izziya = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
 				
 				b_izziya = {}
+				b_shamal = {}
+				b_zalwar = {}
 			}
 			c_tarsa = {
 				color={ 145 70 100 }
@@ -463,6 +531,7 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_zaruna = {}
+				b_markasu = {}
 			}
 			c_malluma = {
 				color={ 145 70 100 }
@@ -482,18 +551,24 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_samura = {}
+				b_kumaha = {}
+				b_nesa = {}
 			}
 			c_paduwanda = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
 				
 				b_paduwanda = {}
+				b_illuya = {}
+				b_tunna = {}
 			}
 			c_serigga = {
 				color={ 145 70 100 }
 				color2={ 255 255 255 }
 				
 				b_serigga = {}
+				b_kumanni = {}
+				b_unipsum = {}
 			}
 		}
 		d_marqasa = { 
@@ -554,6 +629,8 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_kummuth = {}
+				b_hahhum = {}
+				b_terussa = {}
 			}
 			c_sukziya = {
 				color={ 145 70 100 }
@@ -573,6 +650,7 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_tegarama = {}
+				b_melid = {}
 			}
 			c_asturiya = {
 				color={ 145 70 100 }
