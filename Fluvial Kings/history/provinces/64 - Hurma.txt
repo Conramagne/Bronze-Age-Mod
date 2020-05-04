@@ -1,7 +1,8 @@
 title=c_hurma
 
 max_settlements=6
-b_hurma=castle
+b_hurma= castle
+
 
 culture=hittite
 religion=ishalitethai

@@ -1,7 +1,9 @@
 title=c_katapa
 
 max_settlements=6
-b_katapa=castle
+b_katapa= castle
+b_hakmis= city
+b_sapinuwa = temple
 
 culture=hittite
 religion=ishalitethai

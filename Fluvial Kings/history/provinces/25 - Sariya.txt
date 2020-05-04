@@ -1,7 +1,8 @@
 title=c_sariya
 
 max_settlements=6
-b_sariya=castle
+b_sariya= castle
+b_almina = city
 
 culture=kaskian
 religion=ishalitethai

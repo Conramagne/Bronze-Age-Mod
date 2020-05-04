@@ -1,7 +1,11 @@
 title=c_takkupta
 
 max_settlements=6
-b_takkupta=castle
+b_takkupta= castle
+b_kappurnanda = city
+b_ishupitta = temple
+b_tiliura = city
+b_karanah = city
 
 culture=hittite
 religion=ishalitethai

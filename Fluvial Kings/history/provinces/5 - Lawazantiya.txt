@@ -1,7 +1,9 @@
 title=c_lawazantiya
 
 max_settlements=6
-b_lawazantiya=castle
+b_lawazantiya= castle
+b_adana = city
+b_arusna = temple
 
 culture=luwian
 religion=haianiluwi

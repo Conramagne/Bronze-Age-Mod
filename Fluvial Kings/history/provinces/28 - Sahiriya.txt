@@ -1,7 +1,10 @@
 title=c_sahiriya
 
 max_settlements=6
-b_sahiriya=castle
+b_sahiriya= castle
+b_salatiwara = city
+b_sallapa = city
+b_parsuhanda = temple
 
 culture=luwian
 religion=haianiluwi

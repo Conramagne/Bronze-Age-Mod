@@ -1,7 +1,8 @@
 title=c_tegarama
 
 max_settlements=6
-b_tegarama=castle
+b_tegarama= castle
+b_melid = city
 
 culture=hittite
 religion=ishalitethai

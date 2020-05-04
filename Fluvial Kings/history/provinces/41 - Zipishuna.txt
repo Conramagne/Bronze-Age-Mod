@@ -1,7 +1,11 @@
 title=c_zipishuna
 
 max_settlements=6
-b_zipishuna=castle
+b_zipishuna= castle
+b_tabikka = temple
+b_gazziura = city
+b_kabulsan = city
+b_hananaga = city
 
 culture=hittite
 religion=ishalitethai

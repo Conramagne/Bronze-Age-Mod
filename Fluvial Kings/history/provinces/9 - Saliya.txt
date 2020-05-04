@@ -1,7 +1,8 @@
 title=c_saliya
 
 max_settlements=6
-b_saliya=castle
+b_saliya= castle
+b_lamiya = city
 
 culture=luwian
 religion=haianiluwi

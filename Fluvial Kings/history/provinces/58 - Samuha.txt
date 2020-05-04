@@ -1,7 +1,10 @@
 title=c_samuha
 
 max_settlements=6
-b_samuha=castle
+b_samuha= castle
+b_marista = city
+b_suluppa = city
+b_hatikaitra = temple
 
 culture=hittite
 religion=ishalitethai

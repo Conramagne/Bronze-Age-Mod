@@ -1,7 +1,10 @@
 title=c_taskuriya
 
 max_settlements=6
-b_taskuriya=castle
+b_taskuriya= castle
+b_salma = city
+b_arinna= temple
+b_taritara = city
 
 culture=hittite
 religion=ishalitethai

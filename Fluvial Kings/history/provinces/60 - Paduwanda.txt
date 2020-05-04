@@ -1,7 +1,9 @@
 title=c_paduwanda
 
 max_settlements=6
-b_paduwanda=castle
+b_paduwanda= castle
+b_illuya = city
+b_tunna = temple
 
 culture=luwian
 religion=haianiluwi

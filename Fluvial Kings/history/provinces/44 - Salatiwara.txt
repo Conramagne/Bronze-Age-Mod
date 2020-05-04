@@ -2,6 +2,7 @@ title=c_salatiwara
 
 max_settlements=6
 b_salatiwara=castle
+b_ankala = city
 
 culture=pala
 religion=ishalitethai

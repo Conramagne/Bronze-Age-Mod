@@ -1,7 +1,9 @@
 title=c_kummuth
 
 max_settlements=6
-b_kummuth=castle
+b_kummuth= castle
+b_hahhum = city
+b_terussa = temple
 
 culture=isuwan
 religion=ishalitethai

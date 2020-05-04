@@ -1,7 +1,10 @@
 title=c_tuhuppiya
 
 max_settlements=6
-b_tuhuppiya=castle
+b_tuhuppiya= castle
+b_alisar = city
+b_tawa = temple
+b_wahsusana = city
 
 culture=hittite
 religion=ishalitethai

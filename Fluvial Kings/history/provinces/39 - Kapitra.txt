@@ -1,7 +1,9 @@
 title=c_kapitra
 
 max_settlements=6
-b_kapitra=castle
+b_kapitra= castle
+b_suppiluliya = city
+b_zippalanda = temple
 
 culture=hittite
 religion=ishalitethai

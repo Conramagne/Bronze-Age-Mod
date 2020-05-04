@@ -2,6 +2,7 @@ title=c_tarhuntassa
 
 max_settlements=6
 b_tarhuntassa=castle
+b_talwisuwanda = city
 
 culture=luwian
 religion=haianiluwi

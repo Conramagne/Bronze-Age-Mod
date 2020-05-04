@@ -1,7 +1,9 @@
 title=c_piddaniyasa
 
 max_settlements=6
-b_piddaniyasa=castle
+b_piddaniyasa= castle
+b_ippasana = temple
+b_aliassa = city
 
 culture=hittite
 religion=ishalitethai

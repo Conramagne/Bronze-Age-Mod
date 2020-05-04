@@ -1,7 +1,9 @@
 title=c_kanes
 
 max_settlements=6
-b_kanes=castle
+b_kanes= castle
+b_talahi = city
+b_daha = temple
 
 culture=hittite
 religion=ishalitethai

@@ -1,7 +1,9 @@
 title=c_haburat
 
 max_settlements=6
-b_haburat=castle
+b_haburat= castle
+b_pittiyarika = city
+b_aryiza = temple
 
 culture=hittite
 religion=ishalitethai

@@ -1,7 +1,8 @@
 title=c_pahhuwa
 
 max_settlements=6
-b_pahhuwa=castle
+b_pahhuwa= castle
+b_hahha = city
 
 culture=hittite
 religion=ishalitethai

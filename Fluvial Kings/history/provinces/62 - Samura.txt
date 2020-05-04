@@ -1,7 +1,9 @@
 title=c_samura
 
 max_settlements=6
-b_samura=castle
+b_samura= castle
+b_kumaha = city
+b_nesa = temple
 
 culture=hittite
 religion=ishalitethai

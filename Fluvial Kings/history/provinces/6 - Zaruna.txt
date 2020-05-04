@@ -1,7 +1,8 @@
 title=c_zaruna
 
 max_settlements=6
-b_zaruna=castle
+b_zaruna= castle
+b_markasu = city
 
 culture=luwian
 religion=haianiluwi

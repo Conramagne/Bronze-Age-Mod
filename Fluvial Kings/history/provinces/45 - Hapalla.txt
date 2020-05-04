@@ -1,7 +1,9 @@
 title=c_hapalla
 
 max_settlements=6
-b_hapalla=castle
+b_hapalla= castle
+b_ikkuwaniya = city
+b_ussa = temple
 
 culture=hittite
 religion=ishalitethai
