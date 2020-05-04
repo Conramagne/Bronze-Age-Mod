@@ -24,7 +24,7 @@ succ_adult_familial_elective;Adult Familial Elective;;;;;;;;;;;;;x
 succ_adult_familial_elective_desc;Monarchs are allowed to appoint from among their children and close relatives an eligible heir to take their place on the throne, children under the age of 16 will not be accepted by the aristocracy and are not considered for rulership.;;;;;;;;;;;;;x
 viceroyalty_succession;Military Governorship;;;;;;;;;;;;;x
 succ_viceroyalty_succession;Military Governorship;;;;;;;;;;;;;x
-succ_viceroyalty_succession_desc;Military Governorship;;;;;;;;;;;;;x
+succ_viceroyalty_succession_desc;Military Governors are appointed on the behest of their liege to govern a province or polity, a legal representative of their liege (sometimes even being of kin). They are appointed and thus could pass at the whim of their liege.;;;;;;;;;;;;;x
 
 system_law;Government System;;;;;;;;;;;;;x
 system_law_desc;The Government System of the Realm, It defines whether the Government relies on the courtly skills of their council or the magistrates of the cities of the realm.;;;;;;;;;;;;;x
