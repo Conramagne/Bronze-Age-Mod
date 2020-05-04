@@ -472,6 +472,7 @@ character_event = {
 character_event = {
 	id = fkp.206
 	desc = EVTDESCFKP206
+	picture = GFX_evt_dark_court
 	is_triggered_only = yes
 	
 	option = {
