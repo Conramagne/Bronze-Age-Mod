@@ -4,7 +4,7 @@ EVTDESCFKR102;As you complete your investiture the great authority in all matter
 
 EVTDESCFKR105_WEAK;You are a Weakling, dominated by the princes and members of court who regard you as nothing more than a plaything for their use.;;;;;;;;;;;;;x
 EVTOPTAFKR105_WEAK;What must I do?  Perhaps this is my place...;;;;;;;;;;;;;x
-EVTDESCFKR105_NOTWEAK;You are no longer sneered at as a Weakling. The more ambitious members of court have noted this and make moves to ensure you stay their plaything.;;;;;;;;;;;;;x
+EVTDESCFKR105_NOTWEAK;You are no longer considered a weakling. The more ambitious members of court have noted this and make moves to ensure you stay their plaything.;;;;;;;;;;;;;x
 EVTOPTAFKR105_NOTWEAK;I will prove myself greater than these serpents and jackals.;;;;;;;;;;;;;x
 EVTDESCFKR105_FIGUREHEAD;You are a Figurehead Ruler, a puppet to the princes of the council and made hostage within the choking luxury of the royal quarter.;;;;;;;;;;;;;x
 EVTOPTAFKR105_FIGUREHEAD;The shame, the shame of it all...;;;;;;;;;;;;;x
@@ -25,7 +25,7 @@ do_well_TT;Done Well;;;;;;;;;;;;;x
 do_excellent_TT;Done Exceptionally Well;;;;;;;;;;;;;x
 
 ###########Imperial Authority Increase/Decrease Events###########
-EVTDESCFKR108;A shining star of an administrator has proved themselves a fair and efficient governor, you reap the fruits of his labor in the eyes of the aristocracy.;;;;;;;;;;;;;x
+EVTDESCFKR108;An administrator has proved themselves a shining star of loyalty, you reap the fruits of his labor in the eyes of the aristocracy.;;;;;;;;;;;;;x
 opta_excellent;Excellent!;;;;;;;;;;;;;x
 
 EVTDESCFKR110;A Courtly Retainer has graciously announced his support for you and your policies during a recent assembly.;;;;;;;;;;;;;x
@@ -33,7 +33,7 @@ EVTDESCFKR111;The opinion of the council against you is charitable and it appear
 EVTDESCFKR112;After your latest victory for the realm you are held in glowing esteem by the venerable princes of the realm and their retainers.;;;;;;;;;;;;;x
 EVTDESCFKR113;You have led the Princes of the realm into glorious victory over the enemy, all men lavish you with great praise and shout "Hail the [Root.GetTitle], finest of Princes and trampler of our enemies!".;;;;;;;;;;;;;x
 
-EVTDESCFKR114;A bumbling excuse for an administrator has proved themselves a laughable example of governance, this has reflected badly upon you in the eyes of the aristocracy.;;;;;;;;;;;;;x
+EVTDESCFKR114;A disloyal worm of an administrator has made it their goal to , this has reflected badly upon you in the eyes of the aristocracy.;;;;;;;;;;;;;x
 opta_disappointing;Disappointing...;;;;;;;;;;;;;x
 
 EVTDESCFKR116;A Courtly Retainer has been deriding your policies and insulting your name during a recent assembly!;;;;;;;;;;;;;x
@@ -57,11 +57,11 @@ EVTDESCFKR130;Your vassal has caused the Council to not approve of you.;;;;;;;;;
 EVTOPTAFKR130;Serpents, all of them!;;;;;;;;;;;;;x
 EVTDESCFKR131;Your vassal has caused The Council to greatly disapprove of you;;;;;;;;;;;;;x
 EVTOPTAFKR131;The dishonor!;;;;;;;;;;;;;x
-EVTDESCFKR132;This Prince of the Court has just failed to SLANDER your name!;;;;;;;;;;;;;x
+EVTDESCFKR132;This Prince of the Court has just failed to slander your name!;;;;;;;;;;;;;x
 EVTOPTAFKR132;That whinging parasite...;;;;;;;;;;;;;x
-EVTDESCFKR133;This Prince of the Court has somehow managed to SLANDER your name!;;;;;;;;;;;;;x
+EVTDESCFKR133;This Prince of the Court has somehow managed to slander your name!;;;;;;;;;;;;;x
 EVTOPTAFKR133;That fetid dog!;;;;;;;;;;;;;x
-EVTDESCFKR134;This Courtly Subject has not only just SLANDERED your name but has trodden upon the honor of your family!;;;;;;;;;;;;;x
+EVTDESCFKR134;This Courtly Subject has not only SLANDERED your name but has trodden upon the honor of your family!;;;;;;;;;;;;;x
 EVTOPTAFKR134;Not just myself, but my blood? Perhaps I will take their eyes...;;;;;;;;;;;;;x
 
 ###########Contacting the Divines Events###########
@@ -72,14 +72,14 @@ request_boon_desc;Request Boon from the Divines.;;;;;;;;;;;;;x
 make_sacrifice_to;Make a sacrifice to the Divines;;;;;;;;;;;;;x
 make_sacrifice_to_desc;You decide to hold a holy sacrifice to honor and feed the gods.;;;;;;;;;;;;;x
 
-EVTDESCFKP1;You have decided to call upon the gods of the [Root.Religion.GetFullName] pantheon in exultation and loud prayer, and the divines have recieved you plea!;;;;;;;;;;;;;x
+EVTDESCFKP1;You have decided to call upon the gods of the [Root.Religion.GetFullName] pantheon in exultation and loud prayer, you set their images before you and contemplate their majesty.;;;;;;;;;;;;;x
 EVTDESCFKP100;It begins as a feeling, as when one slowly awakens from a dream. You feel a hand of light pass through you and for an instant you feel the euphoria of a youth in love or a child for their parent. A god has paid notice to you, and now works those many small miracles that improve one’s life. Stretching your limbs, you shout for joy towards the heavens. You are blessed!;;;;;;;;;;;;;x
-EVTDESCFKP101;Despair! The gods have ignored your request for a blessing, your devotion to them must not have been great enough.;;;;;;;;;;;;;x
+EVTDESCFKP101;Despair! The gods have ignored your request for a blessing, your devotion to them must not have been great enough. What is one to do?;;;;;;;;;;;;;x
 
 EVTDESCFKP200;You hope by making a sacrifice to the gods you are able to placate them and perhaps gain their favors, now it is up to you to decide the scope and grandeur of the ceremony...;;;;;;;;;;;;;x
 EVTOPTAFKP200;You decide on a modest offering to placate the gods.;;;;;;;;;;;;;x
 EVTOPTBFKP200;You decide to invite the necessarys and put on a decent show for the rituals.;;;;;;;;;;;;;x
-EVTOPTCFKP200;HAH, what am I, some poor country physician? This must be an extravagent affair!;;;;;;;;;;;;;x
+EVTOPTCFKP200;HAH, what am I, some poor country physician? Spare no expense!;;;;;;;;;;;;;x
 
 EVTDESCFKP201;As ruler, you of course have the option to carry out the sacrifice yourself. The prize bull is led into the throng signalling the beginning of the liturgy and the sacrifice. The priests nod, they are ready to initiate the ritual, you...;;;;;;;;;;;;;x
 EVTOPTAFKP201;...say the prayers yourself and take the knife to the offerings throat.;;;;;;;;;;;;;x
@@ -96,7 +96,7 @@ EVTDESCFKP205;It begins well enough, the prayers were recited more or less corre
 EVTOPTAFKP205;Catch it! Catch it you fools! Gods, the day is ruined!;;;;;;;;;;;;;x
 
 EVTDESCFKP302;The day begins horribly, you are gripped with anxiety and nausea arising from a night of feverish half-sleep. You flee the shaded corridors for the garden, where even the wind in your ears seems to mock you and the undersides of shrubs are home to grinning demons. You are accursed by a vengeful god.;;;;;;;;;;;;;x
-EVTOPTAFKP302;Lo, how strange are the ways of the gods. I need a sacrifice to appease them!;;;;;;;;;;;;;x
+EVTOPTAFKP302;How strange are the ways of the gods...;;;;;;;;;;;;;x
 
 ###########Religion Events###########
 EVTDESCFKREL1;You gather the choicest treasures from the enemy plunder, and offer it to the gods. The flames sweep up to heaven as the warriors raise their spears and beat their shields!;;;;;;;;;;;;;x
@@ -112,8 +112,8 @@ dedicate_child_desc;Dedicate your child to a god of the [Root.Religion.GetFullNa
 absolve_curse_sacrifice;Sacrifice to absolve the Gods' Curse!;;;;;;;;;;;;;x
 absolve_curse_sacrifice_desc;Sacrifice to absolve the Gods' Curse which was laid upon you!;;;;;;;;;;;;;x
 
-EVTDESCFKREL100;As you stand before the temple, you prepare to devote yourself to the gods, The temple functionary allows you into a chamber bearing the images of the gods before you. You contemplate in this moment the god you will devote yourself to...;;;;;;;;;;;;;x
-EVTDESCFKREL101;As you stand before the temple, you and your child stand together preparing to devote yourselves to the gods, The temple functionary allows you two into a chamber bearing the images of the gods before you. You contemplate in this moment the god you will dedicate your child to...;;;;;;;;;;;;;x
+EVTDESCFKREL100;You enter the temple complex, cleansed and in the proper garb. The priests of each deity eagerly await your choice of patron, they display the images of their mighty lives and deeds... Now is the time to choose.;;;;;;;;;;;;;x
+EVTDESCFKREL101;You enter the temple complex along with your child, cleansed and in the proper garb. The priests of each deity eagerly await your choice of patron for your young one, they display the images of their mighty lives and deeds... Now is the time to choose.;;;;;;;;;;;;;x
 
 EVTOPTAFKREL100;"I devote myself to you oh Lord of the Land of Hatti, Heavenly Sovereign.";;;;;;;;;;;;;x
 EVTOPTBFKREL100;"I devote myself to you, The Sun of the Earth, fairest of all in Hatti.";;;;;;;;;;;;;x
@@ -123,5 +123,5 @@ EVTOPTAFKREL101;"I devote my child to you oh Lord of the Land of Hatti...";;;;;;
 EVTOPTBFKREL101;"I devote my child to you, The Sun of the Earth...";;;;;;;;;;;;;x
 EVTOPTCFKREL101;"I devote my child to you, Exalted Son of Tarhunna...";;;;;;;;;;;;;x
 
-EVTDESCFKP206;As you hurryingly stand before the temple, you call upon the temple functionaries to allows you access to an altar, so that you may perform the sacrifices needed to appease the gods.;;;;;;;;;;;;;x
+EVTDESCFKP206;You call upon the temple functionaries to allow you access to an altar. So that you may perform the sacrifices needed to appease the gods.;;;;;;;;;;;;;x
 EVTOPTAFKP206;May this offering appease the gods!;;;;;;;;;;;;;x
