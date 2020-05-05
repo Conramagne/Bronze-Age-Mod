@@ -203,25 +203,22 @@ anatolian = {
 		color = { 0.1 0.2 0.3 }
 
 		male_names = {
-			Ahabbu Alluwamna Appuašu Anitta Azatiwata Awariku Ammuna Arnuwanda Astuwalamanza Astiruwa Arnuwanti Ariyahina Ahuni Ambaris Ashwisi
-			Bamah Bar-Hadad Ben-Hadad Bar-Ga'ya Bar-Rakib Bar-Sur
-			Dadi-Ilu
-			Eni-Ilu
-			Gunzinanu Gurdi Gusi Gabbar
-			Hattusili Hantili Huzziya Halpasulupi Hilaruada Hapatila Hamiyata Hulli Hayya Hadram Hazael Hadyan
+			Abeshla Ahuni Ambaris Ammuna Ariyahina Arnuwanda Arnuwanti Ashwisi Astiruwa Astuwalamanza Awariku 
+			Duduška 
+			Gabbar Gazziura Gunzinanu Gurdi Gusi Hašhatatta 
 			Ini-Teššub Ir-Teššub Iškallu 
-			Kurunta Katuwa Kamani Kuzi-Teššub Kundašpu Kikki Kurti Kiyakiya Kirua Kirri Kilamuwa Katuzili
-			Labarna Lalli Larama
-			Mursili Muwatalli Mugallu Martiti Muwizi Manana Muwaharani Mari Mati-Ilu
-			Piyassili Pisiri Parita Puhamme Pihirim Panamuwa Piyamaradu
-			Runtiya Raqianu 
-			Suppiluliuma Sanduarri Sahurunuwa Suhi Sangara Sastura Sahu Sulumal Satiruntiya Sahwi Suwarimi Surri Sandasarme Sasi Saruwani
-			Tudhaliya Telipinus Talmi-Teššub Tarhunazi Taita Tutammu Toi Tuhamme Tuwati Tulli
-			Uratarhunza Uratami Urahilina Ušhitti Urimme
-			Wasuruntiya Wasusarma Warpalawa
-			Zidanta Zakur 
-			Yariri Yau-bidi
+			Kadudupa Kamani Kapagapa Karikurišga Katuwa Katuzili Kaška Kaškaili Kaškamuwa Kikki Kilamuwa Kirri Kirua Kiyakiya Kundašpu Kurti 	Kuzi-Teššub 
+			Labarna Lalli Larama 
+			Manana Mari Martiti Mati-Ilu Munišga Mursili Muwaharani Muwatalli Muwizi 
+			Panamuwa Parita Pihhuniya Pihirim Pisiri Piyamaradu Piyassili Puhamme 
 			Qarli 
+			Raqianu Runtiya 
+			Sahu Sahurunuwa Sahwi Sandasarme Sanduarri Sangara Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Surri Suwarimi 
+			Tahantatipa Taita Tarhunazi Tarittara Tatiška Taštarešša Tiliura Toi Tuhamme Tulli Tutammu Tuwati 
+			Urahilina Uratami Uratarhunza Urauna Urimme Ušhitti 
+			Warpalawa Wasuruntiya Wasusarma 
+			Yariri Yau-bidi 
+			Zakur Zianteška Zidanta
 		}
 		
 		female_names = {
