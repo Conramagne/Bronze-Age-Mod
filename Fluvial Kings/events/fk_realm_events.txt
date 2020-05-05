@@ -529,7 +529,7 @@ character_event = {
 character_event = {
 	id = fkr.101
 	desc = EVTDESCFKR101
-	picture = GFX_evt_placeholder
+	picture = GFX_evt_succession
 	trigger = {
 		government = hegemonic_government
 		NOT = {
@@ -576,7 +576,7 @@ character_event = {
 character_event = {
 	id = fkr.102
 	desc = EVTDESCFKR102
-	picture = GFX_evt_placeholder
+	picture = GFX_evt_succession
 	trigger = {
 		NOT = {
 			ROOT = {
@@ -687,35 +687,35 @@ character_event = {
 character_event = {
 	id = fkr.105
 	desc = {
-		picture = GFX_evt_china_isolationist
+		picture = GFX_evt_dark_court
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value < 10 } }
 		}
 		text = EVTDESCFKR105_WEAK
 	}
 	desc = {
-		picture = GFX_evt_china_isolationist
+		picture = GFX_evt_ruler_speaks
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
 		}
 		text = EVTDESCFKR105_NOTWEAK
 	}
 	desc = {
-		picture = GFX_evt_china_isolationist
+		picture = GFX_evt_lose_authority
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value < 50 } }
 		}
 		text = EVTDESCFKR105_FIGUREHEAD
 	}
 	desc = {
-		picture = GFX_evt_china_open
+		picture = GFX_evt_ruler_speaks
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value > 50 } }
 		}
 		text = EVTDESCFKR105
 	}
 	desc = {
-		picture = GFX_evt_china_isolationist
+		picture = GFX_evt_dark_court
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value < 70 } }
 			trait = strong_emperor
@@ -723,7 +723,7 @@ character_event = {
 		text = EVTDESCFKR105_B
 	}
 	desc = {
-		picture = GFX_evt_china_golden_age
+		picture = GFX_evt_military_victory
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value > 70 } }
 		}
@@ -928,7 +928,7 @@ character_event = {
 character_event = {
 	id = fkr.108
 	desc = EVTDESCFKR108
-	picture = GFX_evt_china_open
+	picture = GFX_evt_council
 	min_age = 16
 	
 	trigger = {
@@ -1013,7 +1013,7 @@ character_event = {
 character_event = {
 	id = fkr.110
 	desc = EVTDESCFKR110
-	picture = GFX_evt_china_golden_age
+	picture = GFX_evt_council
 	is_triggered_only = yes
 
 	immediate = {
@@ -1059,7 +1059,7 @@ character_event = {
 character_event = {
 	id = fkr.111
 	desc = EVTDESCFKR111
-	picture = GFX_evt_china_golden_age
+	picture = GFX_evt_council
 	notification = yes
 	is_triggered_only = yes
 	
@@ -1360,7 +1360,7 @@ character_event = {
 character_event = {
 	id = fkr.120
 	desc = EVTDESCFKR120
-	picture = GFX_evt_china_isolationist
+	picture = GFX_evt_succession
 	is_triggered_only = yes
 	
 	trigger = {
@@ -1424,7 +1424,7 @@ character_event = {
 character_event = {
 	id = fkr.122
 	desc = EVTDESCFKR122
-	picture = GFX_evt_dark_court
+	picture = GFX_evt_regency
 	trigger = {
 		government = hegemonic_government
 		has_regent = yes
@@ -1841,7 +1841,7 @@ character_event = {
 character_event = {
 	id = fkr.130
 	desc = EVTDESCFKR130
-	picture = GFX_evt_scandal
+	picture = GFX_evt_dark_court
 	is_triggered_only = yes
 	
 	option = {
@@ -1856,7 +1856,7 @@ character_event = {
 character_event = {
 	id = fkr.131
 	desc = EVTDESCFKR131
-	picture = GFX_evt_scandal
+	picture = GFX_evt_dark_court
 	is_triggered_only = yes
 	
 	option = {
