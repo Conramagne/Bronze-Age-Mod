@@ -336,7 +336,6 @@ e_hittite_empire = {
 				
 				b_ura = {}
 				b_korikos = {}
-				b_walma = {}
 			}
 			c_saliya = {
 				color={ 145 70 100 }
@@ -377,7 +376,6 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_sahiriya = {}
-				b_salatiwara = {}
 				b_sallapa = {}
 				b_parsuhanda = {}
 			}
