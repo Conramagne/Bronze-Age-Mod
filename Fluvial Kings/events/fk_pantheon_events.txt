@@ -4,6 +4,7 @@ namespace = fkp
 character_event = {
 	id = fkp.1
 	desc = EVTDESCFKP1
+	picture = GFX_evt_blessed_by_the_gods
 	is_triggered_only = yes
 	portrait = 1000000
 	
