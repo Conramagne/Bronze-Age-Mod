@@ -1207,8 +1207,28 @@ spriteTypes = {
 	### custom event pictures
 	
 	spriteType = {
+		name = "GFX_evt_succession"
+		texturefile = "gfx\\event_pictures\\GFX_evt_succession.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_ruler_speaks"
+		texturefile = "gfx\\event_pictures\\GFX_evt_ruler_speaks.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_evt_lose_authority"
 		texturefile = "gfx\\event_pictures\\GFX_evt_lose_authority.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_council"
+		texturefile = "gfx\\event_pictures\\GFX_evt_council.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_regency"
+		texturefile = "gfx\\event_pictures\\GFX_evt_regency.dds"
 	}
 	
 	spriteType = {
