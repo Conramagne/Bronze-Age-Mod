@@ -430,7 +430,7 @@
 	2540.1.1 = { death = yes }
 }
 
-#Others (2003000-2003999)
+#Other Vassals (2003000-2003999)
 2003000 = {
 	name = "Sapalulme" # Sapalulme, King of Kizzuwatna
 	dynasty = 2000001 #Hulayasili
@@ -530,4 +530,32 @@
 	mother = 2002006
 	2516.1.1 = { birth = yes }
 	2576.1.1 = { death = yes }
+}
+
+#Independent Lords (2004000-2004999)
+2004000 = {
+	name = "Ura-Tarhundas" # Ura-Tarhundas, Duke of Hulaya
+	dynasty = 2000010 #Sandusili
+	culture = luwian
+	religion = haianiluwi
+	2507.1.1 = { birth = yes }
+	2567.1.1 = { death = yes }
+}
+
+2004001 = {
+	name = "Ruwantia" # Ruwantia, Duke of Kastaraya
+	dynasty = 2000011 #Imarasili
+	culture = luwian
+	religion = haianiluwi
+	2502.1.1 = { birth = yes }
+	2562.1.1 = { death = yes }
+}
+
+2004002 = {
+	name = "Hašhatatta" # Hašhatatta, Count of Kunanamit
+	dynasty = 2000012 #Kaskaili
+	culture = kaskian
+	religion = ishalitethai
+	2497.1.1 = { birth = yes }
+	2557.1.1 = { death = yes }
 }

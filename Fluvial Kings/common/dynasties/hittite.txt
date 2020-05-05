@@ -53,3 +53,17 @@
 	name = "Tiwasili"
 	culture = "hittite"
 }
+
+2000010 = {
+	name = "Sandusili"
+	culture = luwian
+}
+2000011 = {
+	name = "Imarasili"
+	culture = luwian
+}
+
+2000012 = {
+	name = "Kaskaili"
+	culture = kaskian
+}

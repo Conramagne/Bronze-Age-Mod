@@ -86,7 +86,6 @@ e_hittite_empire = {
 				b_suppiluliya = {}
 			}
 		}
-		
 		d_ambara = { 
 			color={ 100 30 20 }
 			color2={ 255 255 255 }
@@ -201,7 +200,6 @@ e_hittite_empire = {
 				b_kunanamit = {}
 			}
 		}
-		
 		d_kalasma = { 
 			color={ 200 80 60 }
 			color2={ 255 255 255 }
@@ -227,7 +225,6 @@ e_hittite_empire = {
 				b_sappa = {}
 			}
 		}
-		
 		d_kassiya = { 
 			color={ 230 110 100 }
 			color2={ 255 255 255 }
@@ -268,7 +265,6 @@ e_hittite_empire = {
 				b_aliassa = {}
 			}
 		}
-		
 		d_kasula = { 
 			color={ 190 60 40 }
 			color2={ 255 255 255 }
@@ -358,7 +354,6 @@ e_hittite_empire = {
 				b_uda = {}
 			}
 		}
-		
 		d_pitassa = { 
 			color={ 130 80 60 }
 			color2={ 255 255 255 }
@@ -449,7 +444,6 @@ e_hittite_empire = {
 				b_sallusa = {}
 			}
 		}
-		
 		d_katerra_udne = { 
 			color={ 210 105 30 }
 			color2={ 255 255 255 }
