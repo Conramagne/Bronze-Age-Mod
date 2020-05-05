@@ -1,7 +1,7 @@
 title=c_nahita
 
 max_settlements=6
-b_nahita=castle
+b_nahita= tribal
 
 culture=luwian
 religion=haianiluwi

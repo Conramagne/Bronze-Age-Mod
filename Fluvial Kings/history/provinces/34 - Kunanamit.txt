@@ -1,7 +1,7 @@
 title=c_kunanamit
 
 max_settlements=6
-b_kunanamit= castle
+b_kunanamit= tribal
 
 culture=kaskian
 religion=ishalitethai

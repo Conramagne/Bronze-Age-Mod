@@ -1,7 +1,7 @@
 title=c_sappa
 
 max_settlements=6
-b_sappa= castle
+b_sappa= tribal
 
 culture=pala
 religion=ishalitethai

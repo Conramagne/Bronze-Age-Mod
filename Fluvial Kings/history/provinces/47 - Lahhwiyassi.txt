@@ -1,7 +1,7 @@
 title=c_lahhwiyassi
 
 max_settlements=6
-b_lahhwiyassi=castle
+b_lahhwiyassi= tribal
 
 culture=luwian
 religion=haianiluwi

@@ -1,7 +1,7 @@
 title=c_athulissa
 
 max_settlements=6
-b_athulissa=castle
+b_athulissa= tribal
 b_tuhupurpuna = temple
 b_sappiduwa = city
 b_tapapanuwa = castle

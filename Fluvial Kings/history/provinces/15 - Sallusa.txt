@@ -1,7 +1,7 @@
 title=c_sallusa
 
 max_settlements=6
-b_sallusa=castle
+b_sallusa= tribal
 
 culture=luwian
 religion=haianiluwi
