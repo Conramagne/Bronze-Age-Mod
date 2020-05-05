@@ -1,7 +1,7 @@
 title=c_walma
 
 max_settlements=6
-b_walma= castle
+b_walma=castle
 
 culture=luwian
 religion=haianiluwi
