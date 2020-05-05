@@ -397,7 +397,7 @@
 }
 
 2002005 = {
-	name = "Puduhepa"
+	name = "Pudu-Hepa"
 	female = yes
 	dynasty = 2000000
 	culture = hittite

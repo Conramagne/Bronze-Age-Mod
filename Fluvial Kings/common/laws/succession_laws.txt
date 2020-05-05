@@ -2,81 +2,6 @@
 
 succession_laws = {
 
-#	succ_my_test_law = {
-#		child_opinion = 15
-#		dynasty_opinion = 5
-#	
-#		potential = {
-#			holder_scope = {
-#				is_nomadic = no
-#				OR = {
-#					independent = yes
-#					NOT = {
-#						any_liege = {
-#							holy_order = yes
-#						}
-#					}
-#				}
-#				NOT = { religion_group = muslim }
-#				is_merchant_republic = no
-#				is_patrician = no
-#				OR = {
-#					independent = yes
-#					NOT = {
-#						any_demesne_title = {
-#							is_vice_royalty = yes
-#						}
-#					}
-#				}
-#			}
-#			OR = {
-#				is_landless_type_title = no
-#				is_tribal_type_title = yes
-#				temporary = yes
-#			}
-#			
-#			rebel = no
-#			
-#			OR = {
-#				holder_scope = { is_feudal = yes }
-#				holder_scope = { is_tribal = yes }
-#			}
-#			is_primary_type_title = no
-#			NOT = { holder_scope = { government = confucian_bureaucracy } }
-#			NOT = { holder_scope = { government = chinese_imperial_government } }
-#		}
-#		allow = {
-#			conditional_tooltip = {
-#				trigger = {
-#					has_dlc = "Conclave"
-#				}
-#				custom_tooltip = {
-#					text = forced_elective_tt
-#					hidden_tooltip = {
-#						NAND = { 
-#							has_law = succession_voting_power_1
-#							has_law = succ_feudal_elective
-#						}
-#					}
-#				}
-#			}
-#			holder_scope = {
-#				show_scope_change = no
-#				in_revolt = no
-#			}
-#		}
-#		effect = {
-#			succession = {
-#				base_type = feudal_elective 
-#				voting_rules = my_test_law #Definded in common/00_succession_voting
-#			}
-#			elective_voting_rules = my_test_law
-#		}
-#		revoke_allowed = {
-#			always = no
-#		}			
-#	}
-
 	succ_gavelkind = {
 		oldest_child_opinion = -5
 		child_opinion = 15
@@ -84,6 +9,13 @@ succession_laws = {
 		vassal_opinion = 5
 	
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			holder_scope = {
 				OR = {
 					independent = yes
@@ -200,6 +132,13 @@ succession_laws = {
 		dynasty_opinion = 5
 	
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -304,10 +243,16 @@ succession_laws = {
 			always = no
 		}			
 	}
+	
 	succ_eldership = {
 		dynasty_opinion = 5
 	
 		potential = {
+			holder_scope = {
+				NOT = {
+					government = tribal_confederacy_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -322,19 +267,7 @@ succession_laws = {
 				}
 			}
 			holder_scope = {
-				OR = {
-					AND = {
-						is_tribal = yes
-						religion = baltic_pagan
-					}
-					AND = {
-						is_tribal = yes
-						religion = west_african_pagan
-					}
-					has_religion_feature = religion_beatification
-					has_religion_feature = religion_feature_baltic
-					has_religion_feature = religion_feature_west_african
-				}
+				is_tribal = yes
 			}
 			holder_scope = {
 				has_dlc = "Holy Fury"
@@ -385,19 +318,7 @@ succession_laws = {
 					has_dlc = "Holy Fury"
 				}
 				holder_scope = {
-					OR = {
-						AND = {
-							is_tribal = yes
-							religion = baltic_pagan
-						}
-						AND = {
-							is_tribal = yes
-							religion = west_african_pagan
-						}
-						has_religion_feature = religion_beatification
-						has_religion_feature = religion_feature_baltic
-						has_religion_feature = religion_feature_west_african
-					}
+					is_tribal = yes
 				}
 				custom_tooltip = {
 					text = forced_elective_tt
@@ -436,6 +357,13 @@ succession_laws = {
 		dynasty_opinion = 5
 	
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -612,6 +540,13 @@ succession_laws = {
 		child_opinion = -10
 		dynasty_opinion = -5
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -780,6 +715,12 @@ succession_laws = {
 		dynasty_opinion = -5
 		vassal_opinion = 10
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -851,6 +792,7 @@ succession_laws = {
 			holder_scope = {
 				OR = {
 					is_feudal = yes
+					government = tribal_confederacy_government
 					has_law = succession_voting_power_1
 					OR = { 
 						has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
@@ -886,6 +828,7 @@ succession_laws = {
 			always = no
 		}			
 	}
+	
 	succ_hre_elective = {
 		oldest_child_opinion = -15
 		child_opinion = -5
@@ -893,6 +836,13 @@ succession_laws = {
 		vassal_opinion = 15
 		vassal_limit = 20
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -1002,6 +952,13 @@ succession_laws = {
 		dynasty_opinion = -5
 		feudal_opinion = -5
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -1068,6 +1025,13 @@ succession_laws = {
 		dynasty_opinion = -5
 		vassal_opinion = 10
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			holder_scope = { 
 				government = military_governorate_government 
 			}
@@ -1106,6 +1070,9 @@ succession_laws = {
 				}
 			}
 			holder_scope = {
+				NOT = {
+					government = tribal_confederacy_government
+				}
 				OR = {
 					independent = yes
 					NOT = {
@@ -1174,6 +1141,13 @@ succession_laws = {
 		dynasty_opinion = -5
 		vassal_opinion = 10
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			NAND = { 
 				has_law = succ_byzantine_elective 
@@ -1245,13 +1219,19 @@ succession_laws = {
 		}			
 	}
 
-
 	succ_tanistry = {
 		oldest_child_opinion = -20
 		child_opinion = -10
 		dynasty_opinion = 5
 		vassal_opinion = 5
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -1384,6 +1364,13 @@ succession_laws = {
 		child_opinion = -10
 		dynasty_opinion = -5
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -1558,6 +1545,13 @@ succession_laws = {
 		#child_opinion = 30
 		#dynasty_opinion = 10
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -1628,8 +1622,16 @@ succession_laws = {
 			always = no
 		}			
 	}
+	
 	succ_papal_succession = {
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -1650,6 +1652,13 @@ succession_laws = {
 	# Titles revert back to the liege on death
 	succ_appointment = {
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -1677,6 +1686,13 @@ succession_laws = {
 	
 	succ_open_elective = {
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -1756,6 +1772,13 @@ succession_laws = {
 	}
 	succ_catholic_bishopric = {
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -1801,6 +1824,13 @@ succession_laws = {
 	
 	succ_patrician_elective = {
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -1832,6 +1862,13 @@ succession_laws = {
 
 	succ_nomad_succession = {
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -1852,6 +1889,13 @@ succession_laws = {
 	
 	succ_offmap_succession = {
 		potential = {
+			holder_scope = {
+				NOR = {
+					government = tribal_government
+					government = tribal_confederacy_government
+					government = pastoralist_government
+				}
+			}
 			NOT = { holder_scope = { government = military_governorate_government } }
 			holder_scope = {
 				NOT = {
@@ -2011,7 +2055,7 @@ gender_laws = {
 	true_cognatic_succession = {
 		male_dynasty_opinion = -5
 		
-		potential = { 
+		potential = {
 			holder_scope = { NOT = { has_religion_feature = religion_matriarchal } }
 			holder_scope = { NOT = { has_religion_feature = religion_patriarchal } }
 			OR = {

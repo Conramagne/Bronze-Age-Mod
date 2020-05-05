@@ -363,24 +363,6 @@ character_event = {
 				}
 			}
 		}
-		
-		if = {
-			limit = {
-				primary_title ={
-					tier = DUKE
-				}
-			}
-			any_demesne_title = {
-				limit = {
-					tier = DUKE
-				}
-				add_law = {
-					law = succ_viceroyalty
-					opinion_effect = no
-					cooldown = no
-				}
-			}
-		}
 		if = {
 			limit = {
 				primary_title ={
@@ -418,6 +400,7 @@ character_event = {
 	}
 	
 	immediate = {
+	
 		if = {
 			limit = {
 				primary_title = {
@@ -435,16 +418,15 @@ character_event = {
 				}
 			}
 		}
-		
 		if = {
 			limit = {
-				primary_title ={
-					tier = DUKE
+				primary_title = {
+					tier = KING
 				}
 			}
 			any_demesne_title = {
 				limit = {
-					tier = DUKE
+					tier = KING
 				}
 				add_law = {
 					law = succ_viceroyalty
@@ -453,21 +435,58 @@ character_event = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				primary_title ={
-					tier = KING
-				}
+	}
+}
+
+#Event to give Eldership Succession to Tribal Governments (on_new_holder, on_startup)
+character_event = {
+	id = fkr.12
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			government = tribal_government
+			government = pastoralist_government
+		}
+		NOT = {
+			has_law = succ_eldership
+		}
+	}
+	immediate = {
+		primary_title = {
+			add_law = {
+				law = succ_eldership
+				opinion_effect = no
+				cooldown = no
 			}
-			any_demesne_title = {
-				limit = {
-					tier = KING
-				}
-				add_law = {
-					law = succ_viceroyalty
-					opinion_effect = no
-					cooldown = no
-				}
+		}
+	}
+}
+
+#Event to give Eldership Succession to Tribal Governments (MTTH)
+character_event = {
+	id = fkr.13
+	hide_window = yes
+	trigger = {
+		OR = {
+			government = tribal_government
+			government = pastoralist_government
+		}
+		NOT = {
+			has_law = succ_eldership
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			add_law = {
+				law = succ_eldership
+				opinion_effect = no
+				cooldown = no
 			}
 		}
 	}
@@ -498,6 +517,7 @@ character_event = {
 		primary_title = {
 			set_title_flag = imperial_authority_set
 			set_title_flag = primary_set
+			set_title_flag = flag_hegemonic_government
 		}
 		primary_title = {
 			set_variable = { which = var_imperial_authority value = 60 }
@@ -509,7 +529,7 @@ character_event = {
 character_event = {
 	id = fkr.101
 	desc = EVTDESCFKR101
-	picture = GFX_evt_succession
+	picture = GFX_evt_placeholder
 	trigger = {
 		government = hegemonic_government
 		NOT = {
@@ -556,7 +576,7 @@ character_event = {
 character_event = {
 	id = fkr.102
 	desc = EVTDESCFKR102
-	picture = GFX_evt_succession
+	picture = GFX_evt_placeholder
 	trigger = {
 		NOT = {
 			ROOT = {
@@ -667,35 +687,35 @@ character_event = {
 character_event = {
 	id = fkr.105
 	desc = {
-		picture = GFX_evt_dark_court
+		picture = GFX_evt_china_isolationist
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value < 10 } }
 		}
 		text = EVTDESCFKR105_WEAK
 	}
 	desc = {
-		picture = GFX_evt_ruler_speaks
+		picture = GFX_evt_china_isolationist
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
 		}
 		text = EVTDESCFKR105_NOTWEAK
 	}
 	desc = {
-		picture = GFX_evt_lose_authority
+		picture = GFX_evt_china_isolationist
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value < 50 } }
 		}
 		text = EVTDESCFKR105_FIGUREHEAD
 	}
 	desc = {
-		picture = GFX_evt_ruler_speaks
+		picture = GFX_evt_china_open
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value > 50 } }
 		}
 		text = EVTDESCFKR105
 	}
 	desc = {
-		picture = GFX_evt_military_victory
+		picture = GFX_evt_china_isolationist
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value < 70 } }
 			trait = strong_emperor
@@ -703,7 +723,7 @@ character_event = {
 		text = EVTDESCFKR105_B
 	}
 	desc = {
-		picture = GFX_evt_military_victory
+		picture = GFX_evt_china_golden_age
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value > 70 } }
 		}
@@ -908,7 +928,7 @@ character_event = {
 character_event = {
 	id = fkr.108
 	desc = EVTDESCFKR108
-	picture = GFX_evt_council
+	picture = GFX_evt_china_open
 	min_age = 16
 	
 	trigger = {
@@ -993,7 +1013,7 @@ character_event = {
 character_event = {
 	id = fkr.110
 	desc = EVTDESCFKR110
-	picture = GFX_evt_council
+	picture = GFX_evt_china_golden_age
 	is_triggered_only = yes
 
 	immediate = {
@@ -1039,7 +1059,7 @@ character_event = {
 character_event = {
 	id = fkr.111
 	desc = EVTDESCFKR111
-	picture = GFX_evt_council
+	picture = GFX_evt_china_golden_age
 	notification = yes
 	is_triggered_only = yes
 	
@@ -1210,7 +1230,7 @@ character_event = {
 character_event = {
 	id = fkr.116
 	desc = EVTDESCFKR116
-	picture = GFX_evt_lose_authority
+	picture = GFX_evt_dark_court
 	is_triggered_only = yes
 
 	immediate = {
@@ -1340,7 +1360,7 @@ character_event = {
 character_event = {
 	id = fkr.120
 	desc = EVTDESCFKR120
-	picture = GFX_evt_succession
+	picture = GFX_evt_china_isolationist
 	is_triggered_only = yes
 	
 	trigger = {
@@ -1404,7 +1424,7 @@ character_event = {
 character_event = {
 	id = fkr.122
 	desc = EVTDESCFKR122
-	picture = GFX_evt_regency
+	picture = GFX_evt_dark_court
 	trigger = {
 		government = hegemonic_government
 		has_regent = yes
@@ -1712,7 +1732,7 @@ character_event = {
 character_event = {
 	id = fkr.127
 	desc = EVTDESCFKR127
-	picture = GFX_evt_dark_court
+	picture = GFX_evt_council
 	is_triggered_only = yes
 	
 	immediate = {
@@ -1761,7 +1781,7 @@ character_event = {
 character_event = {
 	id = fkr.128
 	desc = EVTDESCFKR128
-	picture = GFX_evt_dark_court
+	picture = GFX_evt_council
 	is_triggered_only = yes
 	
 	immediate = {
@@ -1821,7 +1841,7 @@ character_event = {
 character_event = {
 	id = fkr.130
 	desc = EVTDESCFKR130
-	picture = GFX_evt_dark_court
+	picture = GFX_evt_scandal
 	is_triggered_only = yes
 	
 	option = {
@@ -1836,7 +1856,7 @@ character_event = {
 character_event = {
 	id = fkr.131
 	desc = EVTDESCFKR131
-	picture = GFX_evt_dark_court
+	picture = GFX_evt_scandal
 	is_triggered_only = yes
 	
 	option = {

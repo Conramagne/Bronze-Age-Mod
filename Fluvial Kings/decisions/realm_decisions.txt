@@ -352,7 +352,7 @@ decisions = {
 				has_character_flag = flag_god
 			}
 			is_playable = yes
-			is_tribal = yes
+			government = tribal_confederacy_government
 			independent = yes
 		}
 		allow = {
@@ -366,7 +366,12 @@ decisions = {
 					}
 				}
 			}
-			primary_title = { has_law = tribal_organization_4 }
+			any_vassal = {
+				opinion = {
+					who = ROOT
+					value = 0
+				}
+			}
 			capital_holding = {
 				OR = {
 					AND = {
@@ -407,7 +412,7 @@ decisions = {
 						picture = GFX_evt_castle_construction
 					}
 				}
-				set_government_type = feudal_government
+				set_government_type = regional_kingdom_government
 			}
 			
 			if = {
@@ -539,7 +544,7 @@ decisions = {
 				has_character_flag = flag_god
 			}
 			is_ruler = yes
-			is_tribal = yes
+			government = tribal_confederacy_government
 			independent = no
 		}
 		allow = {
@@ -624,7 +629,7 @@ decisions = {
 						picture = GFX_evt_castle_construction
 					}
 				}
-				set_government_type = feudal_government
+				set_government_type = regional_kingdom_government
 			}
 			
 			if = {

@@ -160,6 +160,7 @@ feudal_governments = {
 				}
 			}
 			independent = no
+			is_feudal = yes
 			liege = {
 				independent = yes
 				OR = {
