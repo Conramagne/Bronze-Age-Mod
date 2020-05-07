@@ -35,6 +35,7 @@ e_hittite_empire = {
 				holy_site = ishalitethai
 				
 				b_hattusa = {}
+				b_tahurpa = {}
 				b_tawiniya = {}
 				b_hiyasna = {}
 				b_matila = {}
