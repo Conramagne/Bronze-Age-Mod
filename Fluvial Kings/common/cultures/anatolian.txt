@@ -135,7 +135,7 @@ anatolian = {
 			Wirisemu
 		}
 
-		from_dynasty_prefix = "vun "
+		from_dynasty_suffix = "sili"
 
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 30
