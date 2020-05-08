@@ -24,13 +24,13 @@ e_hittite_empire = {
 		#culture = manden
 		
 		d_hatti = { 
-			color = { 130 80 60 }
+			color = { 153 0 0 }
 			color2 = { 255 255 255 }
 	
 			capital = 1
 			
 			c_hattusa = {
-				color = { 145 70 100 }
+				color = { 153 0 0 }
 				color2 = { 255 255 255 }
 				holy_site = ishalitethai
 				
@@ -41,7 +41,7 @@ e_hittite_empire = {
 				b_matila = {}
 			}
 			c_taskuriya = {
-				color={ 145 70 100 }
+				color={ 204 57 57 }
 				color2={ 255 255 255 }
 				holy_site = ishalitethai
 				
@@ -52,7 +52,7 @@ e_hittite_empire = {
 			}
 			
 			c_tuhuppiya = {
-				color={ 145 70 100 }
+				color={ 219 0 0 }
 				color2={ 255 255 255 }
 				
 				b_tuhuppiya = {}
@@ -62,7 +62,7 @@ e_hittite_empire = {
 			}
 			
 			c_katapa = {
-				color={ 145 70 100 }
+				color={ 196 7 7 }
 				color2={ 255 255 255 }
 				
 				b_katapa = {}
@@ -71,7 +71,7 @@ e_hittite_empire = {
 			}
 			
 			c_kanes = {
-				color={ 145 70 100 }
+				color={ 119 28 28 }
 				color2={ 255 255 255 }
 				
 				b_kanes = {}
@@ -79,7 +79,7 @@ e_hittite_empire = {
 				b_daha = {}
 			}
 			c_kapitra = {
-				color={ 145 70 100 }
+				color={ 140 4 4 }
 				color2={ 255 255 255 }
 				
 				b_kapitra = {}
@@ -88,19 +88,19 @@ e_hittite_empire = {
 			}
 		}
 		d_ambara = { 
-			color={ 100 30 20 }
+			color={ 196 170 0 }
 			color2={ 255 255 255 }
 	
 			capital = 56
 			
 			c_kummaha = {
-				color={ 145 70 100 }
+				color={ 196 170 0 }
 				color2={ 255 255 255 }
 				
 				b_kummaha = {}
 			}
 			c_haburat = {
-				color={ 145 70 100 }
+				color={ 236 140 0 }
 				color2={ 255 255 255 }
 				
 				b_haburat = {}
@@ -108,27 +108,27 @@ e_hittite_empire = {
 				b_aryiza = {}
 			}
 			c_pahhuwa = {
-				color={ 145 70 100 }
+				color={ 216 20 26 }
 				color2={ 255 255 255 }
 				
 				b_pahhuwa = {}
 				b_hahha = {}
 			}
 			c_istitina = {
-				color={ 145 70 100 }
+				color={ 196 74 0 }
 				color2={ 255 255 255 }
 				
 				b_istitina = {}
 			}
 		}
 		d_sarazzi_udne = { 
-			color={ 195 90 70 }
+			color={ 155 23 0 }
 			color2={ 255 255 255 }
 	
 			capital = 53
 			
 			c_masika = {
-				color={ 145 70 100 }
+				color={ 155 23 0 }
 				color2={ 255 255 255 }
 				
 				b_masika = {}
@@ -137,7 +137,7 @@ e_hittite_empire = {
 				b_ankuwa = {}
 			}
 			c_zipishuna = {
-				color={ 145 70 100 }
+				color={ 106 4 4 }
 				color2={ 255 255 255 }
 				
 				b_zipishuna = {}
@@ -147,7 +147,7 @@ e_hittite_empire = {
 				b_hananaga = {}
 			}
 			c_takkupta = {
-				color={ 145 70 100 }
+				color={ 255 58 117 }
 				color2={ 255 255 255 }
 				
 				b_takkupta = {}
@@ -157,7 +157,7 @@ e_hittite_empire = {
 				b_karanah = {}
 			}
 			c_samuha = {
-				color={ 145 70 100 }
+				color={ 153 3 3 }
 				color2={ 255 255 255 }
 				
 				b_samuha = {}
@@ -177,63 +177,63 @@ e_hittite_empire = {
 		culture = pala
 		
 		d_kaska = { 
-			color={ 225 70 100 }
+			color={ 135 64 47 }
 			color2={ 255 255 255 }
 	
 			capital = 2
 			
 			c_zalpa = {
-				color={ 225 70 100 }
+				color={ 135 64 47 }
 				color2={ 255 255 255 }
 				
 				b_zalpa = {}
 			}
 			c_sawit = {
-				color={ 145 70 100 }
+				color={ 219 105 76 }
 				color2={ 255 255 255 }
 				
 				b_sawit = {}
 			}
 			c_kunanamit = {
-				color={ 145 70 100 }
+				color={ 219 43 0 }
 				color2={ 255 255 255 }
 				
 				b_kunanamit = {}
 			}
 		}
 		d_kalasma = { 
-			color={ 200 80 60 }
+			color={ 237 118 39 }
 			color2={ 255 255 255 }
 	
 			capital = 22
 			
 			c_kalasma = {
-				color={ 145 70 100 }
+				color={ 237 118 39 }
 				color2={ 255 255 255 }
 				
 				b_kalasma = {}
 			}
 			c_tumanna = {
-				color={ 145 70 100 }
+				color={ 234 174 138 }
 				color2={ 255 255 255 }
 				
 				b_tumanna = {}
 			}
 			c_sappa = {
-				color={ 145 70 100 }
+				color={ 234 42 71 }
 				color2={ 255 255 255 }
 				
 				b_sappa = {}
 			}
 		}
 		d_kassiya = { 
-			color={ 230 110 100 }
+			color={ 226 102 0 }
 			color2={ 255 255 255 }
 	
 			capital = 35
 			
 			c_altanna = {
-				color={ 145 70 100 }
+				color={ 226 102 0 }
 				color2={ 255 255 255 }
 				
 				b_altanna = {}
@@ -242,14 +242,14 @@ e_hittite_empire = {
 				b_hanhana = {}
 			}
 			c_salatiwara = {
-				color={ 145 70 100 }
+				color={ 213 141 94 }
 				color2={ 255 255 255 }
 				
 				b_salatiwara = {}
 				b_ankala = {}
 			}
 			c_athulissa = {
-				color={ 145 70 100 }
+				color={ 255 136 25 }
 				color2={ 255 255 255 }
 				
 				b_athulissa = {}
@@ -258,7 +258,7 @@ e_hittite_empire = {
 				b_tapapanuwa = {}
 			}
 			c_piddaniyasa = {
-				color={ 145 70 100 }
+				color={ 226 157 138 }
 				color2={ 255 255 255 }
 				
 				b_piddaniyasa = {}
@@ -267,19 +267,19 @@ e_hittite_empire = {
 			}
 		}
 		d_kasula = { 
-			color={ 190 60 40 }
+			color={ 99 55 19 }
 			color2={ 255 255 255 }
 	
 			capital = 24
 			
 			c_kasula = {
-				color={ 145 70 100 }
+				color={ 99 55 19 }
 				color2={ 255 255 255 }
 				
 				b_kasula = {}
 			}
 			c_istahara = {
-				color={ 145 70 100 }
+				color={ 135 77 27 }
 				color2={ 255 255 255 }
 				holy_site = ishalitethai
 				
@@ -288,7 +288,7 @@ e_hittite_empire = {
 				b_hatenzuwa = {}
 			}
 			c_gassu = {
-				color={ 145 70 100 }
+				color={ 188 129 81 }
 				color2={ 255 255 255 }
 				
 				b_gassu = {}
@@ -296,7 +296,7 @@ e_hittite_empire = {
 				b_tahappisuna = {}
 			}
 			c_sariya = {
-				color={ 145 70 100 }
+				color={ 216 121 43 }
 				color2={ 255 255 255 }
 				
 				b_sariya = {}
@@ -314,20 +314,20 @@ e_hittite_empire = {
 		culture = luwian
 		
 		d_tarhuntassa = { 
-			color={ 210 120 70 }
+			color={ 247 153 153 }
 			color2={ 255 255 255 }
 	
 			capital = 11
 			
 			c_tarhuntassa = {
-				color={ 145 70 100 }
+				color={ 247 153 153 }
 				color2={ 255 255 255 }
 				
 				b_tarhuntassa = {}
 				b_talwisuwanda = {}
 			}
 			c_ura = {
-				color={ 145 70 100 }
+				color={ 136 6 58 }
 				color2={ 255 255 255 }
 				holy_site = ishalitethai
 				
@@ -335,20 +335,20 @@ e_hittite_empire = {
 				b_korikos = {}
 			}
 			c_saliya = {
-				color={ 145 70 100 }
+				color={ 213 6 58 }
 				color2={ 255 255 255 }
 				
 				b_saliya = {}
 				b_lamiya = {}
 			}
 			c_laanda = {
-				color={ 145 70 100 }
+				color={ 244 68 68 }
 				color2={ 255 255 255 }
 				
 				b_laanda = {}
 			}
 			c_hupisna = {
-				color={ 145 70 100 }
+				color={ 255 196 197 }
 				color2={ 255 255 255 }
 				
 				b_hupisna = {}
@@ -356,19 +356,19 @@ e_hittite_empire = {
 			}
 		}
 		d_pitassa = { 
-			color={ 130 80 60 }
+			color={ 178 57 98 }
 			color2={ 255 255 255 }
 	
 			capital = 29
 			
 			c_walma = {
-				color={ 145 70 100 }
+				color={ 178 57 98 }
 				color2={ 255 255 255 }
 				
 				b_walma = {}
 			}
 			c_sahiriya = {
-				color={ 145 70 100 }
+				color={ 219 57 98 }
 				color2={ 255 255 255 }
 				
 				b_sahiriya = {}
@@ -376,83 +376,83 @@ e_hittite_empire = {
 				b_parsuhanda = {}
 			}
 			c_sinnuwanda = {
-				color={ 145 70 100 }
+				color={ 234 37 23 }
 				color2={ 255 255 255 }
 				
 				b_sinnuwanda = {}
 			}
 		}
 		d_kastaraya = { 
-			color={ 130 80 60 }
+			color={ 255 132 120 }
 			color2={ 255 255 255 }
 	
 			capital = 13
 			
 			c_kastaraya = {
-				color={ 145 70 100 }
+				color={ 255 132 120 }
 				color2={ 255 255 255 }
 				
 				b_kastaraya = {}
 			}
 			c_marasa = {
-				color={ 145 70 100 }
+				color={ 255 132 176 }
 				color2={ 255 255 255 }
 				
 				b_marasa = {}
 			}
 			c_asita = {
-				color={ 145 70 100 }
+				color={ 255 89 82 }
 				color2={ 255 255 255 }
 				
 				b_asita = {}
 			}
 		}
 		d_hulaya = { 
-			color={ 130 80 60 }
+			color={ 234 124 128 }
 			color2={ 255 255 255 }
 	
 			capital = 47
 			
 			c_lahhwiyassi = {
-				color={ 145 70 100 }
+				color={ 234 124 128 }
 				color2={ 255 255 255 }
 				
 				b_lahhwiyassi = {}
 			}
 			c_hulaya = {
-				color={ 145 70 100 }
+				color={ 255 6 13 }
 				color2={ 255 255 255 }
 				
 				b_hulaya = {}
 			}
 			c_nahita = {
-				color={ 145 70 100 }
+				color={ 145 4 9 }
 				color2={ 255 255 255 }
 				
 				b_nahita = {}
 			}
 			c_saranduwa = {
-				color={ 145 70 100 }
+				color={ 247 79 79 }
 				color2={ 255 255 255 }
 				
 				b_saranduwa = {}
 				b_kirsu = {}
 			}
 			c_sallusa = {
-				color={ 145 70 100 }
+				color={ 145 75 77 }
 				color2={ 255 255 255 }
 				
 				b_sallusa = {}
 			}
 		}
 		d_katerra_udne = { 
-			color={ 210 105 30 }
+			color={ 226 72 77 }
 			color2={ 255 255 255 }
 	
 			capital = 45
 			
 			c_hapalla = {
-				color={ 145 70 100 }
+				color={ 226 72 77 }
 				color2={ 255 255 255 }
 				
 				b_hapalla = {}
@@ -460,13 +460,13 @@ e_hittite_empire = {
 				b_ussa = {}
 			}
 			c_sarpa = {
-				color={ 145 70 100 }
+				color={ 96 31 33 }
 				color2={ 255 255 255 }
 				
 				b_sarpa= {}
 			}
 			c_ullamma = {
-				color={ 145 70 100 }
+				color={ 226 136 0 }
 				color2={ 255 255 255 }
 				
 				b_ullamma = {}
@@ -474,7 +474,7 @@ e_hittite_empire = {
 				b_ninassa = {}
 			}
 			c_suwatara = {
-				color={ 145 70 100 }
+				color={ 226 105 0 }
 				color2={ 255 255 255 }
 				
 				b_suwatara = {}
@@ -492,13 +492,13 @@ e_hittite_empire = {
 		culture = luwian
 		
 		d_puruma = { 
-			color={ 230 140 10 }
+			color={ 221 163 0 }
 			color2={ 255 255 255 }
 	
 			capital = 5
 			
 			c_lawazantiya = {
-				color={ 145 70 100 }
+				color={ 221 163 0 }
 				color2={ 255 255 255 }
 				
 				b_lawazantiya = {}
@@ -506,7 +506,7 @@ e_hittite_empire = {
 				b_arusna = {}
 			}
 			c_izziya = {
-				color={ 145 70 100 }
+				color={ 221 120 0 }
 				color2={ 255 255 255 }
 				
 				b_izziya = {}
@@ -514,33 +514,33 @@ e_hittite_empire = {
 				b_zalwar = {}
 			}
 			c_tarsa = {
-				color={ 145 70 100 }
+				color={ 137 118 64 }
 				color2={ 255 255 255 }
 				
 				b_tarsa = {}
 			}
 			c_zaruna = {
-				color={ 145 70 100 }
+				color={ 165 121 0 }
 				color2={ 255 255 255 }
 				
 				b_zaruna = {}
 				b_markasu = {}
 			}
 			c_malluma = {
-				color={ 145 70 100 }
+				color={ 221 60 0 }
 				color2={ 255 255 255 }
 				
 				b_malluma = {}
 			}
 		}
 		d_samura = { 
-			color={ 200 160 40 }
+			color={ 255 219 40 }
 			color2={ 255 255 255 }
 	
 			capital = 62
 			
 			c_samura = {
-				color={ 145 70 100 }
+				color={ 255 219 40 }
 				color2={ 255 255 255 }
 				
 				b_samura = {}
@@ -548,7 +548,7 @@ e_hittite_empire = {
 				b_nesa = {}
 			}
 			c_paduwanda = {
-				color={ 145 70 100 }
+				color={ 255 74 25 }
 				color2={ 255 255 255 }
 				
 				b_paduwanda = {}
@@ -556,7 +556,7 @@ e_hittite_empire = {
 				b_tunna = {}
 			}
 			c_serigga = {
-				color={ 145 70 100 }
+				color={ 217 20 0 }
 				color2={ 255 255 255 }
 				
 				b_serigga = {}
@@ -565,31 +565,31 @@ e_hittite_empire = {
 			}
 		}
 		d_marqasa = { 
-			color={ 245 130 30 }
+			color={ 175 63 51 }
 			color2={ 255 255 255 }
 	
 			capital = 20
 			
 			c_mamma = {
-				color={ 145 70 100 }
+				color={ 175 63 51 }
 				color2={ 255 255 255 }
 				
 				b_mamma = {}
 			}
 			c_hurma = {
-				color={ 145 70 100 }
+				color={ 219 179 175 }
 				color2={ 255 255 255 }
 				
 				b_hurma = {}
 			}
 			c_timelkiya = {
-				color={ 145 70 100 }
+				color={ 175 63 51 }
 				color2={ 255 255 255 }
 				
 				b_timelkiya = {}
 			}
 			c_bulbulhum = {
-				color={ 145 70 100 }
+				color={ 237 121 109 }
 				color2={ 255 255 255 }
 				
 				b_bulbulhum = {}
@@ -606,19 +606,19 @@ e_hittite_empire = {
 		culture = isuwan
 		
 		d_mala = { 
-			color={ 120 140 10 }
+			color={ 142 71 71 }
 			color2={ 255 255 255 }
 	
 			capital = 19
 			
 			c_mala = {
-				color={ 145 70 100 }
+				color={ 142 71 71 }
 				color2={ 255 255 255 }
 				
 				b_mala = {}
 			}
 			c_kummuth = {
-				color={ 145 70 100 }
+				color={ 143 71 109 }
 				color2={ 255 255 255 }
 				
 				b_kummuth = {}
@@ -626,39 +626,39 @@ e_hittite_empire = {
 				b_terussa = {}
 			}
 			c_sukziya = {
-				color={ 145 70 100 }
+				color={ 206 103 103 }
 				color2={ 255 255 255 }
 				
 				b_sukziya = {}
 			}
 		}
 		d_tegarama = { 
-			color={ 220 130 40 }
+			color={ 142 54 0 }
 			color2={ 255 255 255 }
 	
 			capital = 46
 			
 			c_tegarama = {
-				color={ 145 70 100 }
+				color={ 142 54 0 }
 				color2={ 255 255 255 }
 				
 				b_tegarama = {}
 				b_melid = {}
 			}
 			c_asturiya = {
-				color={ 145 70 100 }
+				color={ 217 84 0 }
 				color2={ 255 255 255 }
 				
 				b_asturiya = {}
 			}
 			c_arihuwa = {
-				color={ 145 70 100 }
+				color={ 198 125 79 }
 				color2={ 255 255 255 }
 				
 				b_arihuwa = {}
 			}
 			c_til_garimmu = {
-				color={ 145 70 100 }
+				color={ 198 70 55 }
 				color2={ 255 255 255 }
 				
 				b_til_garimmu = {}
