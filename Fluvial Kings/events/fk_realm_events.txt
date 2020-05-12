@@ -687,46 +687,49 @@ character_event = {
 character_event = {
 	id = fkr.105
 	desc = {
+		picture = GFX_evt_dark_court
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value < 10 } }
 		}
-		picture = GFX_evt_dark_court
 		text = EVTDESCFKR105_WEAK
 	}
 	desc = {
+		picture = GFX_evt_ruler_speaks
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
+			trait = weak_emperor
 		}
-		picture = GFX_evt_ruler_speaks
 		text = EVTDESCFKR105_NOTWEAK
 	}
 	desc = {
+		picture = GFX_evt_lose_authority
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value < 50 } }
+			trait = figurehead_emperor
 		}
-		picture = GFX_evt_lose_authority
 		text = EVTDESCFKR105_FIGUREHEAD
 	}
 	desc = {
+		picture = GFX_evt_ruler_speaks
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value > 50 } }
+			primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
 		}
-		picture = GFX_evt_ruler_speaks
 		text = EVTDESCFKR105
 	}
 	desc = {
+		picture = GFX_evt_dark_court
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value < 70 } }
 			trait = strong_emperor
 		}
-		picture = GFX_evt_dark_court
 		text = EVTDESCFKR105_B
 	}
 	desc = {
+		picture = GFX_evt_military_victory
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value > 70 } }
 		}
-		picture = GFX_evt_military_victory
 		text = EVTDESCFKR105_STRONG
 	}
 	
