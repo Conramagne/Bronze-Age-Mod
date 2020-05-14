@@ -690,6 +690,9 @@ character_event = {
 		picture = GFX_evt_dark_court
 		trigger = {
 			primary_title = { check_variable = { which = var_imperial_authority value < 10 } }
+			NOT = {
+				trait = weak_emperor
+			}
 		}
 		text = EVTDESCFKR105_WEAK
 	}
