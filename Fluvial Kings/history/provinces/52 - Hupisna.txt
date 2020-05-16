@@ -1,6 +1,6 @@
 title=c_hupisna
 
-max_settlements=6
+max_settlements= 2
 b_hupisna= castle
 b_uda = city
 

@@ -1,6 +1,6 @@
 title=c_tuhuppiya
 
-max_settlements=6
+max_settlements= 4
 b_tuhuppiya= castle
 b_alisar = city
 b_tawa = temple

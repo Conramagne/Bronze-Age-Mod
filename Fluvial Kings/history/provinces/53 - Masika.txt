@@ -1,6 +1,6 @@
 title=c_masika
 
-max_settlements=6
+max_settlements= 4
 b_masika= castle
 b_zaminuwa = city
 b_lakimissa = temple

@@ -1,6 +1,6 @@
 title=c_ullamma
 
-max_settlements=6
+max_settlements= 3
 b_ullamma= castle
 b_kussara = city
 b_ninassa = city

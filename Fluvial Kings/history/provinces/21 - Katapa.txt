@@ -1,6 +1,6 @@
 title=c_katapa
 
-max_settlements=6
+max_settlements= 3
 b_katapa= castle
 b_hakmis= city
 b_sapinuwa = temple

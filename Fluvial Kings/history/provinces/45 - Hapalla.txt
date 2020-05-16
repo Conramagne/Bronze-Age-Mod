@@ -1,6 +1,6 @@
 title=c_hapalla
 
-max_settlements=6
+max_settlements= 3
 b_hapalla= castle
 b_ikkuwaniya = city
 b_ussa = temple

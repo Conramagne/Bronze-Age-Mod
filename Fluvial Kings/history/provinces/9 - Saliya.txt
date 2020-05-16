@@ -1,6 +1,6 @@
 title=c_saliya
 
-max_settlements=6
+max_settlements= 2
 b_saliya= castle
 b_lamiya = city
 

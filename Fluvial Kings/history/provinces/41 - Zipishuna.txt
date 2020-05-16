@@ -1,6 +1,6 @@
 title=c_zipishuna
 
-max_settlements=6
+max_settlements= 5
 b_zipishuna= castle
 b_tabikka = temple
 b_gazziura = city

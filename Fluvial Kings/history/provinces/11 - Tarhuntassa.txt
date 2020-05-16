@@ -1,6 +1,6 @@
 title=c_tarhuntassa
 
-max_settlements=6
+max_settlements= 2
 b_tarhuntassa=castle
 b_talwisuwanda = city
 

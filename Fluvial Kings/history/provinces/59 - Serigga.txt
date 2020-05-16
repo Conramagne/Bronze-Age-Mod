@@ -1,6 +1,6 @@
 title=c_serigga
 
-max_settlements=6
+max_settlements= 3
 b_serigga= castle
 b_kumanni = temple
 b_unipsum = city

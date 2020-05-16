@@ -1,6 +1,6 @@
 title=c_salatiwara
 
-max_settlements=6
+max_settlements= 2
 b_salatiwara=castle
 b_ankala = city
 

@@ -1,6 +1,6 @@
 title=c_lahhwiyassi
 
-max_settlements=6
+max_settlements= 1
 b_lahhwiyassi= tribal
 
 culture=luwian

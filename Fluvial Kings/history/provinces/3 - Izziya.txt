@@ -1,6 +1,6 @@
 title=c_izziya
 
-max_settlements=6
+max_settlements= 3
 b_izziya= castle
 b_shamal = city
 b_zalwar = temple

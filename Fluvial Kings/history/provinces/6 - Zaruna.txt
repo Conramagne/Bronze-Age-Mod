@@ -1,6 +1,6 @@
 title=c_zaruna
 
-max_settlements=6
+max_settlements= 2
 b_zaruna= castle
 b_markasu = city
 

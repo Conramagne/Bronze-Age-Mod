@@ -1,6 +1,6 @@
 title=c_piddaniyasa
 
-max_settlements=6
+max_settlements= 3
 b_piddaniyasa= castle
 b_ippasana = temple
 b_aliassa = city

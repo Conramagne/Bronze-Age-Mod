@@ -1,6 +1,6 @@
 title=c_hattusa
 
-max_settlements=6
+max_settlements= 5
 b_hattusa = castle
 b_tahurpa = city
 b_tawiniya = temple

@@ -1,6 +1,6 @@
 title=c_altanna
 
-max_settlements=6
+max_settlements= 4
 b_altanna= castle
 b_washaya = castle
 b_lihzina = city

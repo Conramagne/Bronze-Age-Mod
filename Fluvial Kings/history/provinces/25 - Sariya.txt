@@ -1,6 +1,6 @@
 title=c_sariya
 
-max_settlements=6
+max_settlements= 2
 b_sariya=  tribal
 b_almina = city
 

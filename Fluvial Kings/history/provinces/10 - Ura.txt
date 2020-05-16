@@ -1,6 +1,6 @@
 title=c_ura
 
-max_settlements=6
+max_settlements= 2
 b_ura= castle
 b_korikos = temple
 

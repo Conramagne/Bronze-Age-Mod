@@ -1,6 +1,6 @@
 title=c_haburat
 
-max_settlements=6
+max_settlements= 3
 b_haburat= castle
 b_pittiyarika = city
 b_aryiza = temple

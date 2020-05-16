@@ -1,6 +1,6 @@
 title=c_tegarama
 
-max_settlements=6
+max_settlements= 2
 b_tegarama= castle
 b_melid = city
 

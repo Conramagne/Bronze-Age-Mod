@@ -1,6 +1,6 @@
 title=c_sahiriya
 
-max_settlements=6
+max_settlements= 3
 b_sahiriya= castle
 b_sallapa = city
 b_parsuhanda = temple

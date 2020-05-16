@@ -1,6 +1,6 @@
 title=c_samura
 
-max_settlements=6
+max_settlements= 3
 b_samura= castle
 b_kumaha = city
 b_nesa = temple

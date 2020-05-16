@@ -1,6 +1,6 @@
 title=c_paduwanda
 
-max_settlements=6
+max_settlements= 3
 b_paduwanda= castle
 b_illuya = city
 b_tunna = temple

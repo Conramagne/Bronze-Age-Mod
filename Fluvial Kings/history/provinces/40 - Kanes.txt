@@ -1,6 +1,6 @@
 title=c_kanes
 
-max_settlements=6
+max_settlements= 3
 b_kanes= castle
 b_talahi = city
 b_daha = temple

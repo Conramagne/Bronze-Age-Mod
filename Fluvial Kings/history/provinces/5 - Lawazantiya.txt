@@ -1,6 +1,6 @@
 title=c_lawazantiya
 
-max_settlements=6
+max_settlements= 3
 b_lawazantiya= castle
 b_adana = city
 b_arusna = temple
