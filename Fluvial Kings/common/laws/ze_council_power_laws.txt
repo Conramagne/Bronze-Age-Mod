@@ -61,10 +61,7 @@ laws = {
 			has_law = imprison_voting_power_0
 			has_law = execution_voting_power_0
 			has_law = war_voting_power_0
-			OR = {
-				NOT = { holder_scope = { is_tribal = yes } }
-				has_law = tribal_organization_4
-			}
+			NOT = { holder_scope = { is_tribal = yes } }
 			NOT = { is_nomadic = yes }
 		}
 		potential = {
@@ -286,10 +283,7 @@ laws = {
 			has_law = grant_title_voting_power_0
 			has_law = imprison_voting_power_0
 			has_law = execution_voting_power_0
-			OR = {
-				NOT = { holder_scope = { is_tribal = yes } }
-				has_law = tribal_organization_4
-			}
+			NOT = { holder_scope = { is_tribal = yes } }
 			NOT = { is_nomadic = yes }
 		}
 		potential = {
@@ -490,10 +484,7 @@ laws = {
 				}
 			}
 			has_law = revoke_title_voting_power_1
-			OR = {
-				NOT = { holder_scope = { is_tribal = yes } }
-				has_law = tribal_organization_4
-			}
+			NOT = { holder_scope = { is_tribal = yes } }
 			NOT = { is_nomadic = yes }
 		}
 		potential = {
@@ -687,10 +678,7 @@ laws = {
 				}
 			}
 			has_law = imprison_voting_power_1
-			OR = {
-				NOT = { holder_scope = { is_tribal = yes } }
-				has_law = tribal_organization_4
-			}
+			NOT = { holder_scope = { is_tribal = yes } }
 			NOT = { is_nomadic = yes }
 		}
 		potential = {
@@ -881,10 +869,7 @@ laws = {
 				}
 			}
 			has_law = grant_title_voting_power_1
-			OR = {
-				NOT = { holder_scope = { is_tribal = yes } }
-				has_law = tribal_organization_4
-			}
+			NOT = { holder_scope = { is_tribal = yes } }
 			NOT = { is_nomadic = yes }
 		}
 		potential = {
@@ -1077,10 +1062,7 @@ laws = {
 				}
 			}
 			has_law = banish_voting_power_1
-			OR = {
-				NOT = { holder_scope = { is_tribal = yes } }
-				has_law = tribal_organization_4
-			}
+			NOT = { holder_scope = { is_tribal = yes } }
 			NOT = { is_nomadic = yes }
 		}
 		potential = {
@@ -1273,10 +1255,7 @@ laws = {
 				}
 			}
 			has_law = execution_voting_power_1
-			OR = {
-				NOT = { holder_scope = { is_tribal = yes } }
-				has_law = tribal_organization_4
-			}
+			NOT = { holder_scope = { is_tribal = yes } }
 			NOT = { is_nomadic = yes }
 		}
 		potential = {

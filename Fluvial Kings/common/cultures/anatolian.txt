@@ -246,7 +246,7 @@ anatolian = {
 	isuwan = {
 		graphical_cultures = { anatoliangfx }
 
-		color = { 0.8 0.3 0.3 }
+		color = { 1 0.5 0.1 }
 
 		male_names = {
 			Ahabbu Alluwamna Appuašu Anitta Azatiwata Awariku Ammuna Arnuwanda Astuwalamanza Astiruwa Arnuwanti Ariyahina Ahuni Ambaris Ashwisi

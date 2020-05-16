@@ -451,7 +451,9 @@ laws = {
 			}
 		}
 		potential = {
-			always = no
+			holder_scope = {
+				is_tribal = yes
+			}
 		}
 		revoke_allowed = {
 			always = no
@@ -602,7 +604,9 @@ laws = {
 			}
 		}
 		potential = {
-			always = no
+			holder_scope = {
+				is_tribal = yes
+			}
 		}
 		revoke_allowed = {
 			always = no
@@ -799,7 +803,9 @@ laws = {
 			}
 		}
 		potential = {
-			always = no
+			holder_scope = {
+				is_tribal = yes
+			}
 		}
 		revoke_allowed = {
 			always = no
@@ -992,7 +998,9 @@ laws = {
 			}
 		}
 		potential = {
-			always = no
+			holder_scope = {
+				is_tribal = yes
+			}
 		}
 		revoke_allowed = {
 			always = no
@@ -1167,7 +1175,9 @@ laws = {
 			}
 		}
 		potential = {
-			always = no
+			holder_scope = {
+				is_tribal = yes
+			}
 		}
 		revoke_allowed = {
 			always = no

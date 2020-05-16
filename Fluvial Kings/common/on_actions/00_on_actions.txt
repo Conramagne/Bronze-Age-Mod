@@ -36,6 +36,8 @@ on_startup = {
 		LT.40001 # Turning Yngvar of Kievan Rus Russian/Slavic
 		fkr.10 #Setting Viceroy Succession
 		fkr.12 #Setting Eldership Succession
+		fkr.14 #Adds Increased Revolt Risk to Regional Kingdoms
+		fkr.17 #Setting Feudal Elective Succession
 		fkr.100 #Sets up Imperial Authority
 	}
 }
@@ -2875,6 +2877,8 @@ on_new_holder = {
 		
 		fkr.10 #Setting Viceroy Succession
 		fkr.12 #Setting Eldership Succession
+		fkr.14 #Adds Increased Revolt Risk to Regional Kingdoms
+		fkr.17 #Setting Feudal Elective Succession
 	}
 	random_events = {
 		delayed_hagia_sophia_conversion = {

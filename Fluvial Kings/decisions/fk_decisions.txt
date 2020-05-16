@@ -119,10 +119,8 @@ targetted_decisions = {
 		potential = {
 			government = hegemonic_government
 			age = 16
-			NOT = {
-				has_character_modifier = slandered_emperor
-			}
-			NOT = {
+			NOR = {
+				has_character_flag = no_slander
 				has_character_flag = flag_god
 			}
 		}
@@ -131,6 +129,16 @@ targetted_decisions = {
 				prisoner = no
 				NOT = {
 					is_incapable = yes
+				}
+			}
+			custom_tooltip = {
+				text = has_not_been_slandered_TT
+				hidden_tooltip = {
+					ROOT = {
+						NOT = {
+							has_character_modifier = slandered_emperor
+						}
+					}
 				}
 			}
 		}

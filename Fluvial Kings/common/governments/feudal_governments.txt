@@ -18,6 +18,10 @@ feudal_governments = {
 			hegemonic_government
 			military_governorate_government
 		}
+		vassal_call_to_arms = {
+			tribal_government
+			tribal_confederacy_government
+		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 		}

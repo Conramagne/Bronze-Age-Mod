@@ -14,6 +14,11 @@
 	father = 2000001
 	mother = 2002005
 	2493.1.1 = { birth = yes }
+	2523.1.1 = {
+		effect = {
+			set_character_flag = no_slander
+		}
+	}
 	2552.1.1 = { death = yes }
 }
 
@@ -552,9 +557,18 @@
 }
 
 2004002 = {
-	name = "Hašhatatta" # Hašhatatta, Count of Kunanamit
+	name = "Hašhatatta" # Hašhatatta, Count of Istahara
 	dynasty = 2000012 #Kaskaili
 	culture = kaskian
+	religion = ishalitethai
+	2497.1.1 = { birth = yes }
+	2557.1.1 = { death = yes }
+}
+
+2004003 = {
+	name = "Tibe" # Tibe, Duke of Kalasma
+	dynasty = 2000013 #Annasili
+	culture = pala
 	religion = ishalitethai
 	2497.1.1 = { birth = yes }
 	2557.1.1 = { death = yes }

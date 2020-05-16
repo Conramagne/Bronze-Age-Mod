@@ -23,6 +23,11 @@ levy_tribute = {
 	icon = 1
 }
 
+foreign_rule = {
+	local_revolt_risk = 0.1
+	icon = 28
+}
+
 imperial_authority = {
 	icon = 10
 	is_visible = { 

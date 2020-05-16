@@ -1,5 +1,6 @@
 namespace = fkr
 
+#Removes special modifiers for provinces of your culture
 character_event = {
 	id = fkr.1
 	hide_window = yes
@@ -33,6 +34,7 @@ character_event = {
 	}
 }
 
+#Removes Oppressive Rule if one lacks the law
 character_event = {
 	id = fkr.2
 	hide_window = yes
@@ -74,6 +76,7 @@ character_event = {
 	}
 }
 
+#Removes Autonomous Rule if one lacks the law
 character_event = {
 	id = fkr.3
 	hide_window = yes
@@ -115,6 +118,7 @@ character_event = {
 	}
 }
 
+#Removes Tax Tribute if one lacks the law
 character_event = {
 	id = fkr.4
 	hide_window = yes
@@ -156,6 +160,7 @@ character_event = {
 	}
 }
 
+#Removes Levy Tribute if one lacks the law
 character_event = {
 	id = fkr.5
 	hide_window = yes
@@ -197,6 +202,7 @@ character_event = {
 	}
 }
 
+#Removes Autonomous Rule and adds Oppresive Rule
 character_event = {
 	id = fkr.6
 	hide_window = yes
@@ -231,6 +237,7 @@ character_event = {
 	}
 }
 
+#Removes Oppresive Rule and adds Autonomous Rule
 character_event = {
 	id = fkr.7
 	hide_window = yes
@@ -265,6 +272,7 @@ character_event = {
 	}
 }
 
+#Removes Levy Tribute and adds Tax Tribute
 character_event = {
 	id = fkr.8
 	hide_window = yes
@@ -299,6 +307,7 @@ character_event = {
 	}
 }
 
+#Removes Tax Tribute and adds Levy Tribute
 character_event = {
 	id = fkr.9
 	hide_window = yes
@@ -382,7 +391,6 @@ character_event = {
 		}
 	}
 }
-
 
 #Event to give Viceroy Succession to Military Governorates (MTTH)
 character_event = {
@@ -492,6 +500,189 @@ character_event = {
 	}
 }
 
+#Adds Revolt Risk to Outside Religions and Cultures (on_new_holder, on_startup)
+character_event = {
+	id = fkr.14
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		government = regional_kingdom_government
+		OR = {
+			any_demesne_province = {
+				OR = {
+					NOT = {
+						culture = ROOT
+					}
+					NOT = {
+						religion = ROOT
+					}
+				}
+				NOT = {
+					has_province_modifier = foreign_rule
+				}
+			}
+			any_demesne_province = {
+				culture = ROOT
+				religion = ROOT
+				has_province_modifier = foreign_rule
+			}
+		}
+	}
+
+	immediate = {
+		any_demesne_province = {
+			limit = {
+				OR = {
+					NOT = {
+						culture = ROOT
+					}
+					NOT = {
+						religion = ROOT
+					}
+				}
+			}
+			add_province_modifier = {
+				modifier = foreign_rule
+				duration = -1
+			}
+		}
+		any_demesne_province = {
+			limit = {
+				culture = ROOT
+				religion = ROOT
+			}
+			remove_province_modifier = foreign_rule
+		}
+	}
+}
+
+#Adds Revolt Risk to Outside Religions and Cultures (MTTH)
+character_event = {
+	id = fkr.15
+	hide_window = yes
+	trigger = {
+		government = regional_kingdom_government
+		OR = {
+			any_demesne_province = {
+				OR = {
+					NOT = {
+						culture = ROOT
+					}
+					NOT = {
+						religion = ROOT
+					}
+				}
+				NOT = {
+					has_province_modifier = foreign_rule
+				}
+			}
+			any_demesne_province = {
+				culture = ROOT
+				religion = ROOT
+				has_province_modifier = foreign_rule
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_demesne_province = {
+			limit = {
+				OR = {
+					NOT = {
+						culture = ROOT
+					}
+					NOT = {
+						religion = ROOT
+					}
+				}
+			}
+			add_province_modifier = {
+				modifier = foreign_rule
+				duration = -1
+			}
+		}
+		any_demesne_province = {
+			limit = {
+				culture = ROOT
+				religion = ROOT
+			}
+			remove_province_modifier = foreign_rule
+		}
+	}
+}
+
+#Removes Revolt Risk from Non-Regional Kingdoms
+character_event = {
+	id = fkr.16
+	hide_window = yes
+	trigger = {
+		NOT = {
+			government = regional_kingdom_government
+		}
+		any_demesne_province = {
+			has_province_modifier = foreign_rule
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_demesne_province = {
+			remove_province_modifier = foreign_rule
+		}
+	}
+}
+
+
+#Event to give Feudal Elective Succession to Tribal Governments (on_new_holder, on_startup)
+character_event = {
+	id = fkr.17
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		government = tribal_confederacy_government
+		NOT = {
+			has_law = succ_feudal_elective
+		}
+	}
+	immediate = {
+		primary_title = {
+			add_law = {
+				law = succ_feudal_elective
+				opinion_effect = no
+				cooldown = no
+			}
+		}
+	}
+}
+
+#Event to give Feudal Elective Succession to Tribal Governments (MTTH)
+character_event = {
+	id = fkr.18
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		government = tribal_confederacy_government
+		NOT = {
+			has_law = succ_feudal_elective
+		}
+	}
+	immediate = {
+		primary_title = {
+			add_law = {
+				law = succ_feudal_elective
+				opinion_effect = no
+				cooldown = no
+			}
+		}
+	}
+}
 # ************************** Imperial Authority Events***********************
 
 

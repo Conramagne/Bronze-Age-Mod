@@ -67,3 +67,16 @@
 	name = "Kaskaili"
 	culture = kaskian
 }
+
+2000013 = {
+	name = "Annasili"
+	culture = pala
+}
+2000014 = {
+	name = "Sandusili"
+	culture = pala
+}
+2000015 = {
+	name = "Imarasili"
+	culture = pala
+}
