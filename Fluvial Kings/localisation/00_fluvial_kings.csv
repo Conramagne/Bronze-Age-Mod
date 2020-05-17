@@ -210,6 +210,9 @@ tax_tribute_desc;The Tribute is focused in Increasing their tribute of wealth to
 levy_tribute;Tribute: Levy-Focused;;;;;;;;;;;;;x
 levy_tribute_desc;The Tribute is focused in Increasing their tribute of troops to you;;;;;;;;;;;;;x
 
+foreign_rule;Foreign Rule;;;;;;;;;;;;;x
+foreign_rule_desc;The Local people are resistant to your rule...;;;;;;;;;;;;;x
+
 made_sacrifice;Made a Sacrifce;;;;;;;;;;;;;x
 opinion_small_sacrifice;Successful Small Sacrifce;;;;;;;;;;;;;x
 opinion_medium_sacrifice;Successful Medium Sacrifce;;;;;;;;;;;;;x
