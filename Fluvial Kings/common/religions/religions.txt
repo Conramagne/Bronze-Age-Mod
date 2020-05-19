@@ -270,8 +270,8 @@ hellenic = {
 	color = { 0.2 0.4 1 }
 	
 	pantes_theoi = {
-		icon = 22
-		heresy_icon = 22
+		icon = 5
+		heresy_icon = 5
 		
 		scripture_name = THE_EPIKOS
 		priest_title = PRIEST
