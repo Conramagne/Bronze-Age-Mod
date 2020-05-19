@@ -78,6 +78,10 @@ ishalitethai_DESC;The Nesili took up the mantle of the peoples they conquered an
 haianiluwi;Haianiluwi;;;;;;;;;;;;;x
 haianiluwi_DESC;The Luwi traditions and gods are kin to their Nesili cousins. Tarhunna the Thunderer brings the summer rains and fattens the kine, and from the haft of his axe hangs great bunches of grapes and vines. Freemen pray to him in their huts for golden grain and friendly weather while princes and chieftains pray in loud shouts to heaven on the fields of a chariot filled battle. Mount Korikos is believed to be the site of the Dracomachy where Tarhunna and Tiwaz the Father-Sun slew the great Serpent to win back Tarhunna’s stolen eyes and heart. The festival of Puruli is held in spring to celebrate the death of the dragon and triumph of the gods.;;;;;;;;;;;;;x
 
+hellenic;Hellenic;;;;;;;;;;;;;x
+pantes_theoi;Pantes Theoi;;;;;;;;;;;;;x
+pantes_theoi_DESC;“...and the earth groaned beneath them as at the wrath of Zeus whose joy is in the thunder, when he lasheth the earth about Typhoeus in the country of the Arimoi, where men say is Typhoeus’ couch…”\n\nThe spear-proud Akhaios are great lovers of song and battle. Every king and chieftain seems to both worship and curse the gods more than their neighbor, the smell of burning fat rises to heaven from a thousand slaughtered kine and funeral pyres. Aegis-bearing Zeus reprimands and punishes his celestial and mortal children with hideous swears and flaming darts of lightning while his jealous seaward brother causes the land to roll and shudder like the cascading waves of the wine-dark sea. Often the gods come down from high Olumpos to walk amongst men in the garbs of kings or the skins of beasts to challenge mortals and make off with their fair daughters. But the goddesses are just as fearsome as their brothers and husbands. Cow-eyed Here brings both comfort and pain to men and women and Artemis pierces the hearts of woodsmen with silver-tipped arrows of horn.;;;;;;;;;;;;;x
+
 ###########Gods and Books###########
 THE_AMURRU_KTOVET;The Amurru K'tovet;;;;;;;;;;;;;x
 THE_BAAL_KTOVET;The Ba’al K'tovet;;;;;;;;;;;;;x
@@ -85,6 +89,7 @@ THE_HATTI_ISTANDANT;The Hatti Istandant;;;;;;;;;;;;;x
 THE_LUWIAN_ISTANDANT;The Luwian Istandant;;;;;;;;;;;;;x
 THE_TORAH;The Torah;;;;;;;;;;;;;x
 THE_QOS_KTOVET;The Qos K'tovet;;;;;;;;;;;;;x
+THE_EPIKOS;The Epikos;;;;;;;;;;;;;x
 
 GOD_ADONAI;Adonai;;;;;;;;;;;;;x
 GOD_ASHERAH;Asherah;;;;;;;;;;;;;x
@@ -121,6 +126,21 @@ GOD_YAM;Yam;;;;;;;;;;;;;x
 GOD_SHANTA;Shanta;;;;;;;;;;;;;x
 GOD_ARMA;Arma;;;;;;;;;;;;;x
 GOD_TIWAZ;Tiwaz;;;;;;;;;;;;;x
+GOD_ZEUS;Zeus;;;;;;;;;;;;;x
+GOD_POSEIDAON;Poseidaon;;;;;;;;;;;;;x
+GOD_APOLLON;Apollon;;;;;;;;;;;;;x
+GOD_HERE;Here;;;;;;;;;;;;;x
+GOD_ARES;Ares;;;;;;;;;;;;;x
+GOD_ATHENE;Athene;;;;;;;;;;;;;x
+GOD_DIONUSOS;Dionusos;;;;;;;;;;;;;x
+GOD_APHRODITE;Aphrodite;;;;;;;;;;;;;x
+GOD_ARTEMIS;Artemis;;;;;;;;;;;;;x
+GOD_DEMETER;Demeter;;;;;;;;;;;;;x
+GOD_HAPHAISTOS;Haphaistos;;;;;;;;;;;;;x
+GOD_HERMES;Hermes;;;;;;;;;;;;;x
+GOD_TYPHOEUS;Typhoeus;;;;;;;;;;;;;x
+GOD_ERIS;Eris;;;;;;;;;;;;;x
+GOD_KRONOS;Kronos;;;;;;;;;;;;;x
 
 KOHEN;Kohen;;;;;;;;;;;;;x
 SANKUNNI;Sankunni;;;;;;;;;;;;;x
