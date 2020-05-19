@@ -69,6 +69,7 @@ bnai_kenaan = {
 		
 		scripture_name = THE_QOS_KTOVET
 		priest_title = KOHEN
+		crusade_name = GREAT_HOLY_WAR
 
 		color = { 0.7 0.6 0.2  }
 		
@@ -97,6 +98,7 @@ bnai_kenaan = {
 		
 		scripture_name = THE_BAAL_KTOVET
 		priest_title = KOHEN
+		crusade_name = GREAT_HOLY_WAR
 
 		color = { 1.0 0.8 0.3 }
 		
@@ -125,6 +127,7 @@ bnai_kenaan = {
 		
 		scripture_name = THE_AMURRU_KTOVET
 		priest_title = KOHEN
+		crusade_name = GREAT_HOLY_WAR
 
 		color = { 0.5 0.4 0.1 }
 		
@@ -164,6 +167,7 @@ mesopotamian = {
 		
 		scripture_name = THE_ASSUR_SATARU
 		priest_title = PRIEST
+		crusade_name = GREAT_HOLY_WAR
 
 		color = { 0.8 0.2 0.2 }
 		
@@ -202,6 +206,7 @@ pihassasi = {
 		
 		scripture_name = THE_LUWIAN_ISTANDANT
 		priest_title = SANKUNNI
+		crusade_name = GREAT_HOLY_WAR
 
 		color = { 0.7 0.4 0.1 }
 		
@@ -248,8 +253,49 @@ pihassasi = {
 		allow_rivermovement = yes
 		allow_looting = yes
 		matrilineal_marriages = no
-		max_wives = 4
+		max_consorts = 4
 		priests_can_marry = yes
 		priests_can_inherit = yes
+	}
+}
+
+hellenic = {
+	has_coa_on_barony_only = yes
+	graphical_culture = norsegfx
+	playable = yes
+	
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.2 0.4 1 }
+	
+	pantes_theoi = {
+		icon = 22
+		heresy_icon = 22
+		
+		scripture_name = THE_EPIKOS
+		priest_title = PRIEST
+		crusade_name = GREAT_HOLY_WAR
+
+		color = { 0.2 0.4 1 }
+		
+		high_god_name = GOD_ZEUS
+		
+		god_names = {
+			GOD_POSEIDAON GOD_APOLLON GOD_HERE GOD_ARES GOD_ATHENE GOD_DIONUSOS GOD_APHRODITE GOD_ARTEMIS GOD_DEMETER GOD_HAPHAISTOS GOD_HERMES
+		}
+		evil_god_names = {
+			GOD_TYPHOEUS GOD_ERIS GOD_KRONOS
+		}
+		
+		allow_rivermovement = yes
+		allow_looting = yes
+		allow_viking_invasion = yes
+		matrilineal_marriages = no
+		max_consorts = 4
+		autocephaly = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		female_temple_holders = yes
 	}
 }
