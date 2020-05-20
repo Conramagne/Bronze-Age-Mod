@@ -57,21 +57,28 @@ tribute_law_2_desc;Tributes are asked to contribute a larger share of their armi
 
 ###########Religions###########
 bnai_avraham;Bnai Avraham;;;;;;;;;;;;;x
+
 berith;Berith;;;;;;;;;;;;;x
 berith_DESC;“Blessed are you, Adonai Eloheinu, King of the universe.”\n\nIt was in the dust of the heathen streets of Ur that Avraham ben Tera heard the voice of the One God. At His command Avraham braved hardship and war leading his household into Canaan, where he received the instructions for the Covenant. Out of his loins will come a great nation it is said, and now the sons of his grandson Yisrael bin Yitzhak have become an extended family of twelve tribes. Under the leadership of Moshe they defied the Kings of Mizrayim and were instructed by him in the Law. Their priests are usually drawn from the Tribe of Levi, and their duties include ritual animal sacrifice and the smearing of blood in atonement for sins.;;;;;;;;;;;;;x
+
 bnai_kenaan;Bnai Kenaan;;;;;;;;;;;;;x
+
 barqos;Barqos;;;;;;;;;;;;;x
 barqos_DESC;The men of Edom are not wholly sons of Kenaan, but are indeed kin to the Yisraelim. These sons of Esau have turned to idolatry and nearly forgotten the covenant of their father Avraham ben Terah. They do however retain the practice of circumcision and name El Shaddai among the gods worthy of veneration. Qos is their patron god, the archer who gleams forth in the desert and hunts his foes like the lion hunts the antelope. Qos is also worshipped by the Nabatu and others of the banu Yishma'el under the name “Quzah”.;;;;;;;;;;;;;x,,,
+
 bene_elihi;Bene Elihi;;;;;;;;;;;;;x
 bene_elihi_DESC;The fertile westlands of Kenaan are home to a unique blend of gods and heroes. The creator and gray-haired father of the Elihi is El “The Bull” who rules from his tent atop mount Sappan and instructs his children and servants alongside his consort Asherah. Ba’al Hadaad son of Dagon holds lightning in the palm of his hand and brings the summer rains, in the youth of the world he challenged wicked Yam of the sea and defeated the coiling serpent Litanu. Fiery Molek fumes and demands offerings from his followers and grants them boons of health and herds. Each city and king tends to have a particular patron from among the pantheon.;;;;;;;;;;;;;x,,,,
+
 ili_abinia;Ili Abinia;;;;;;;;;;;;;x
 ili_abinia_DESC;The traditions and cults of the Amurru, a tall, brash, and ancient people of mountain and pasture. They ruled as Kings and Princes over the Akkadi and Sumeru for 500 years and carried their gods with them on the backs of their furious chariots. The old gods of their forefathers have been preserved outside of Akkadi in the plains and deserts of the westlands. At the head of the host of Hosts is El Amurru, god of the high mountains and desert wind who leads the familiar host of the gods of Kenaan and Akkadi. Belet-Seri is his wife and queen of the desert, and Ba’al Hadad the Thunderer is his regent.;;;;;;;;;;;;;x
 
 mesopotamian;Mesopotamian;;;;;;;;;;;;;x
+
 egal_assur;Egal Assur;;;;;;;;;;;;;x
 egal_assur_DESC;Assur is proclaimed to be the The Lord of All Heaven by the people of his city. For almost a thousand years the people of Assur have believed in the superiority of their god over the southern gods Marduk and Enlil. While the south fell to the half-beast Amurru and Kassu dogs, the sons of Assur preserved their freedom and supremacy. The Sarsarannu rules as regent for Assur and is the supreme authority in secular and eclesiastical matters and must prove his worth to the priesthood in the heat of battle. Assur is the hunter, first among his godly brethren and the slayer of lions and taker of pelts. His enemies should perhaps fear for their own skins...;;;;;;;;;;;;;x
 
 pihassasi;Pihassasi;;;;;;;;;;;;;x
+
 ishalitethai;Ishalitethai;;;;;;;;;;;;;x
 ishalitethai_DESC;The Nesili took up the mantle of the peoples they conquered and thereafter called themselves heirs to Hatti. Their gods still have the fierce air of the chariot and the steppe about them, every city and village swears itself to a different god of thunder and celebrates the defeat of the serpent Illuyanka every spring. The Great King of the Hatti is called “Our Sun” by his subjects who believe that his power on earth is drawn from the stormgod Tarhunna and his queen Arinniti of the sun. Tarhunna was of the Nesili, and Arinniti of the Old Hatti. Their marriage symbolized the union of two great nations and reflects the dual ancestry of the inhabitants of Hatti. At his investiture the Sallihassu of Hattussa symbolically marries the Sun and is proclaimed High Priest and Regent of the gods.;;;;;;;;;;;;;x
 
@@ -79,6 +86,7 @@ haianiluwi;Haianiluwi;;;;;;;;;;;;;x
 haianiluwi_DESC;The Luwi traditions and gods are kin to their Nesili cousins. Tarhunna the Thunderer brings the summer rains and fattens the kine, and from the haft of his axe hangs great bunches of grapes and vines. Freemen pray to him in their huts for golden grain and friendly weather while princes and chieftains pray in loud shouts to heaven on the fields of a chariot filled battle. Mount Korikos is believed to be the site of the Dracomachy where Tarhunna and Tiwaz the Father-Sun slew the great Serpent to win back Tarhunna’s stolen eyes and heart. The festival of Puruli is held in spring to celebrate the death of the dragon and triumph of the gods.;;;;;;;;;;;;;x
 
 hellenic;Hellenic;;;;;;;;;;;;;x
+
 pantes_theoi;Pantes Theoi;;;;;;;;;;;;;x
 pantes_theoi_DESC;“...and the earth groaned beneath them as at the wrath of Zeus whose joy is in the thunder, when he lasheth the earth about Typhoeus in the country of the Arimoi, where men say is Typhoeus’ couch…”\n\nThe spear-proud Akhaios are great lovers of song and battle. Every king and chieftain seems to both worship and curse the gods more than their neighbor, the smell of burning fat rises to heaven from a thousand slaughtered kine and funeral pyres. Aegis-bearing Zeus reprimands and punishes his celestial and mortal children with hideous swears and flaming darts of lightning while his jealous seaward brother causes the land to roll and shudder like the cascading waves of the wine-dark sea. Often the gods come down from high Olumpos to walk amongst men in the garbs of kings or the skins of beasts to challenge mortals and make off with their fair daughters. But the goddesses are just as fearsome as their brothers and husbands. Cow-eyed Here brings both comfort and pain to men and women and Artemis pierces the hearts of woodsmen with silver-tipped arrows of horn.;;;;;;;;;;;;;x
 
@@ -89,64 +97,61 @@ THE_HATTI_ISTANDANT;The Hatti Istandant;;;;;;;;;;;;;x
 THE_LUWIAN_ISTANDANT;The Luwian Istandant;;;;;;;;;;;;;x
 THE_TORAH;The Torah;;;;;;;;;;;;;x
 THE_QOS_KTOVET;The Qos K'tovet;;;;;;;;;;;;;x
-THE_EPIKOS;The Epikos;;;;;;;;;;;;;x
+THE_EPE;The Epe;;;;;;;;;;;;;x
 
 GOD_ADONAI;Adonai;;;;;;;;;;;;;x
+GOD_APOLLON;Apollon;;;;;;;;;;;;;x
+GOD_APHRODITE;Aphrodite;;;;;;;;;;;;;x
+GOD_ARES;Ares;;;;;;;;;;;;;x
+GOD_ARINNITI;Arinniti;;;;;;;;;;;;;x
+GOD_ARMA;Arma;;;;;;;;;;;;;x
+GOD_ARTEMIS;Artemis;;;;;;;;;;;;;x
 GOD_ASHERAH;Asherah;;;;;;;;;;;;;x
 GOD_ASSUR;Assur;;;;;;;;;;;;;x
-GOD_ARINNITI;Arinniti;;;;;;;;;;;;;x
+GOD_ATHENE;Athene;;;;;;;;;;;;;x
 GOD_BAAL_HADAD;Ba'al Hadad;;;;;;;;;;;;;x
 GOD_DAGON;Dagon;;;;;;;;;;;;;x
+GOD_DEMETER;Demeter;;;;;;;;;;;;;x
+GOD_DIONUSOS;Dionusos;;;;;;;;;;;;;x
 GOD_ERRA;Erra;;;;;;;;;;;;;x
 GOD_EL;El;;;;;;;;;;;;;x
 GOD_ELOHIM;Elohim;;;;;;;;;;;;;x
 GOD_EL_AMURRU;El Amurru;;;;;;;;;;;;;x
 GOD_EL_SHADDAI;El Shaddai;;;;;;;;;;;;;x
 GOD_EL_TORU;El Toru;;;;;;;;;;;;;x
+GOD_ERIS;Eris;;;;;;;;;;;;;x
 GOD_GOD;God;;;;;;;;;;;;;x
+GOD_HAPHAISTOS;Haphaistos;;;;;;;;;;;;;x
 GOD_HASHEM;HaShem;;;;;;;;;;;;;x
+GOD_HERE;Here;;;;;;;;;;;;;x
+GOD_HERMES;Hermes;;;;;;;;;;;;;x
 GOD_ILLUYANKA;Illuyanka;;;;;;;;;;;;;x
 GOD_ISHTAR;Ishtar;;;;;;;;;;;;;x
 GOD_LAMASHTU;Lamashtu;;;;;;;;;;;;;x
 GOD_LITANU;Litanu;;;;;;;;;;;;;x
+GOD_KRONOS;Kronos;;;;;;;;;;;;;x
 GOD_MANAT;Manat;;;;;;;;;;;;;x
 GOD_MARDUK;Marduk;;;;;;;;;;;;;x
 GOD_MOLEK;Molek;;;;;;;;;;;;;x
 GOD_MOT;Mot;;;;;;;;;;;;;x
 GOD_NASU;Nasu;;;;;;;;;;;;;x
+GOD_POSEIDAON;Poseidaon;;;;;;;;;;;;;x
 GOD_RESHEPH;Resheph;;;;;;;;;;;;;x
 GOD_SHAMASH;Shamash;;;;;;;;;;;;;x
+GOD_SHANTA;Shanta;;;;;;;;;;;;;x
 GOD_SHARRUMA;Sharruma;;;;;;;;;;;;;x
 GOD_SIN;Sin;;;;;;;;;;;;;x
 GOD_TAKNASDUTU;Taknasdutu;;;;;;;;;;;;;x
 GOD_TARHUNNA;Tarhunna;;;;;;;;;;;;;x
 GOD_TELIPINU;Telipinu;;;;;;;;;;;;;x
 GOD_THE_LORD;The Lord;;;;;;;;;;;;;x
-GOD_YAM;Yam;;;;;;;;;;;;;x
-GOD_SHANTA;Shanta;;;;;;;;;;;;;x
-GOD_ARMA;Arma;;;;;;;;;;;;;x
 GOD_TIWAZ;Tiwaz;;;;;;;;;;;;;x
-GOD_ZEUS;Zeus;;;;;;;;;;;;;x
-GOD_POSEIDAON;Poseidaon;;;;;;;;;;;;;x
-GOD_APOLLON;Apollon;;;;;;;;;;;;;x
-GOD_HERE;Here;;;;;;;;;;;;;x
-GOD_ARES;Ares;;;;;;;;;;;;;x
-GOD_ATHENE;Athene;;;;;;;;;;;;;x
-GOD_DIONUSOS;Dionusos;;;;;;;;;;;;;x
-GOD_APHRODITE;Aphrodite;;;;;;;;;;;;;x
-GOD_ARTEMIS;Artemis;;;;;;;;;;;;;x
-GOD_DEMETER;Demeter;;;;;;;;;;;;;x
-GOD_HAPHAISTOS;Haphaistos;;;;;;;;;;;;;x
-GOD_HERMES;Hermes;;;;;;;;;;;;;x
 GOD_TYPHOEUS;Typhoeus;;;;;;;;;;;;;x
-GOD_ERIS;Eris;;;;;;;;;;;;;x
-GOD_KRONOS;Kronos;;;;;;;;;;;;;x
+GOD_YAM;Yam;;;;;;;;;;;;;x
+GOD_ZEUS;Zeus;;;;;;;;;;;;;x
 
 KOHEN;Kohen;;;;;;;;;;;;;x
 SANKUNNI;Sankunni;;;;;;;;;;;;;x
-HEAD_KOHEN_GADOL;Kohen Gadol;;;;;;;;;;;;;x
-HEAD_KOHEN_AMURRU;Kohen Amurru;;;;;;;;;;;;;x
-HEAD_SALLISANKUNI;Sallisankuni;;;;;;;;;;;;;x
 
 ###########Titles###########
 d_berith;High Priesthood;;;;;;;;;;;;;x
@@ -157,7 +162,11 @@ d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
 d_haianiluwi;High Haianiluwi Priesthood;;;;;;;;;;;;;x
 d_haianiluwi_adj;Priestly;;;;;;;;;;;;;x
 e_pihassasi_pantheon;Pihassasi Pantheon;;;;;;;;;;;;;x
+
 HIGH_GOD;High God;;;;;;;;;;;;;x
+HEAD_KOHEN_AMURRU;Kohen Amurru;;;;;;;;;;;;;x
+HEAD_KOHEN_GADOL;Kohen Gadol;;;;;;;;;;;;;x
+HEAD_SALLISANKUNI;Sallisankuni;;;;;;;;;;;;;x
 ###########Traits and Character/Province Modifiers###########
 imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]%);;;;;;;;;;;;;x
 imperial_authority_desc;§BImperial Authority§W represents the power the monarch has in their capacity to govern the realm.\n\nThings that §GRaise§W Imperial Authority are:\n- Have §GQuality§W administrators and councilors in your realm that are §GLoyal§W\n- The Palace Court is relatively §GWeak§W compared to you\n- Lead your realm to great §GGLORY§W\n\nThings that §RLower§W Imperial Authority are:\n- Have §RPoor Quality§W administrators and councilors in your realm that are §RDisloyal§W\n- The Palace Court is relatively §RStrong§W compared to you\n- Lead your realm to great §RHUMILIATION§!;;;;;;;;;;;;;x
