@@ -122,8 +122,8 @@ bnai_kenaan = {
 	ili_abinia = {
 		graphical_culture = muslimgfx
 		
-		icon = 1 #Temp
-		heresy_icon = 1 #Temp
+		icon = 23
+		heresy_icon = 23
 		
 		scripture_name = THE_AMURRU_KTOVET
 		priest_title = KOHEN
