@@ -21,8 +21,11 @@ k_achaea;Akhaïa;;;;;;;;;;;;;x
 k_achaea_adj;Akhaios;;;;;;;;;;;;;x
 k_lakonia;Lákonia;;;;;;;;;;;;;x
 k_lakonia_adj;Lákon;;;;;;;;;;;;;x
+k_attica;Attica;;;;;;;;;;;;;x #central greece
+k_attica_adj;Attican;;;;;;;;;;;;;x #central greece
 k_aiolia;Aiolía;;;;;;;;;;;;;x
 k_aiolia_adj;Aiolikós;;;;;;;;;;;;;x
+
 
 ###########Duchy Titles###########
 duke_hellenic;Koreter;;;;;;;;;;;;;x
@@ -33,7 +36,7 @@ duke_female_dorian;Arkhousa;;;;;;;;;;;;;x #placeholder
 d_achaea;Akhaïa;;;;;;;;;;;;;x
 d_achaea_adj;Akhaean;;;;;;;;;;;;;x
 d_salamis;Salamína;;;;;;;;;;;;;x
-d_salamis_adj;Salamite;;;;;;;;;;;;;x
+d_salamis_adj;Salamites;;;;;;;;;;;;;x
 d_elis;Elis;;;;;;;;;;;;;x
 d_elis_adj;Elisite;;;;;;;;;;;;;x
 d_arcadia;Arkadia;;;;;;;;;;;;;x
@@ -46,6 +49,12 @@ d_kythera;Kuthera;;;;;;;;;;;;;x
 d_kythera_adj;Kutheran;;;;;;;;;;;;;x
 d_messenia;Messenia;;;;;;;;;;;;;x
 d_messenia_adj;Messenian;;;;;;;;;;;;;x
+d_attica;Attica;;;;;;;;;;;;;x
+d_attica_adj;Attican;;;;;;;;;;;;;x
+d_boetica;Boetica;;;;;;;;;;;;;x
+d_boetica_adj;Boetican;;;;;;;;;;;;;x
+d_euvoia;Euvoia;;;;;;;;;;;;;x
+d_euvoia_adj;Euvoian;;;;;;;;;;;;;x
 
 ###########Counties Titles###########
 count_hellenic;Prokoreter;;;;;;;;;;;;;x
@@ -103,6 +112,30 @@ c_pylos;Pylos;;;;;;;;;;;;;x
 c_pylos_adj;Pylosani;;;;;;;;;;;;;x
 c_gerenia;Gerenía;;;;;;;;;;;;;x
 c_gerenia_adj;Gereniai;;;;;;;;;;;;;x
+c_attica;Attica;;;;;;;;;;;;;x
+c_attica_adj;Attican;;;;;;;;;;;;;x
+c_eleusis;Eleusis;;;;;;;;;;;;;x
+c_eleusis_adj;Eleusisian;;;;;;;;;;;;;x
+c_marathon;Marathon;;;;;;;;;;;;;x
+c_marathon_adj;Marathonian;;;;;;;;;;;;;x
+c_perati;Perati;;;;;;;;;;;;;x
+c_perati_adj;Peratian;;;;;;;;;;;;;x
+c_platea;Plataia;;;;;;;;;;;;;x
+c_platea_adj;Plataian;;;;;;;;;;;;;x
+c_thebes;Thêbai;;;;;;;;;;;;;x
+c_thebes_adj;Thêbaian;;;;;;;;;;;;;x
+c_opus;Opoûs;;;;;;;;;;;;;x
+c_opus_adj;Opoûsian;;;;;;;;;;;;;x
+c_chaeronea;Khaironeia;;;;;;;;;;;;;x
+c_chaeronea_adj;Khaironeia;;;;;;;;;;;;;x
+c_dium;Dion;;;;;;;;;;;;;x
+c_dium_adj;Dionian;;;;;;;;;;;;;x
+c_eretria;Eretria;;;;;;;;;;;;;x
+c_eretria_adj;Eretrian;;;;;;;;;;;;;x
+c_dystos;Dystos;;;;;;;;;;;;;x
+c_dystos_adj;Dystosian;;;;;;;;;;;;;x
+c_peparethos;Peparethos;;;;;;;;;;;;;x
+c_peparethos_adj;Peparethosi;;;;;;;;;;;;;x
 
 ###########Achaean Baronies###########
 b_mycenae;Mykenae;;;;;;;;;;;;;x
@@ -115,8 +148,6 @@ b_kleonai;Kleonai;;;;;;;;;;;;;x
 b_kleonai_adj;Kleonaian;;;;;;;;;;;;;x
 b_megara;Megara;;;;;;;;;;;;;x
 b_megara_adj;Megaran;;;;;;;;;;;;;x
-b_eleusis;Eleusis;;;;;;;;;;;;;x
-b_eleusis_adj;Eleusisian;;;;;;;;;;;;;x
 b_therme;Therme;;;;;;;;;;;;;x
 b_therme_adj;Thermite;;;;;;;;;;;;;x
 b_pagae;Pagae;;;;;;;;;;;;;x
@@ -266,8 +297,103 @@ b_methone_adj;Methonei;;;;;;;;;;;;;x
 b_gerenia;Gerenía;;;;;;;;;;;;;x
 b_gerenia_adj;Gereniai;;;;;;;;;;;;;x
 
-###########"Central Greece" Baronies###########
-
+###########Attica/Central Greece Baronies###########
+b_athens;Athênai;;;;;;;;;;;;;x
+b_athens_adj;Athênain;;;;;;;;;;;;;x
+b_pireas;Peiraieús;;;;;;;;;;;;;x
+b_pireas_adj;Peiraieúsian;;;;;;;;;;;;;x
+b_penteli;Pentelikon;;;;;;;;;;;;;x
+b_penteli_adj;Pentelikonan;;;;;;;;;;;;;x
+b_brauron;Brauron;;;;;;;;;;;;;x
+b_brauron_adj;Brauronan;;;;;;;;;;;;;x
+b_eleusis;Eleusis;;;;;;;;;;;;;x
+b_eleusis_adj;Eleusisian;;;;;;;;;;;;;x
+b_marathon;Marathon;;;;;;;;;;;;;x
+b_marathon_adj;Marathonian;;;;;;;;;;;;;x
+b_ramnous;Ramnous;;;;;;;;;;;;;x
+b_ramnous_adj;Ramnousai;;;;;;;;;;;;;x
+b_oropos;Oropos;;;;;;;;;;;;;x
+b_oropos_adj;Oroposi;;;;;;;;;;;;;x
+b_perati;Perati;;;;;;;;;;;;;x
+b_perati_adj;Peratian;;;;;;;;;;;;;x
+b_hymettus;Hymettos;;;;;;;;;;;;;x
+b_hymettus_adj;Hymettosi;;;;;;;;;;;;;x
+b_thorikos;Thorikos;;;;;;;;;;;;;x
+b_thorikos_adj;Thorikosai;;;;;;;;;;;;;x
+b_lavrion;Lavrio;;;;;;;;;;;;;x
+b_lavrion_adj;Lavrion;;;;;;;;;;;;;x
+b_sounio;Akron Soúnion;;;;;;;;;;;;;x
+b_sounio_adj;Soúnionai;;;;;;;;;;;;;x
+b_platea;Plataia;;;;;;;;;;;;;x
+b_platea_adj;Plataian;;;;;;;;;;;;;x
+b_thespiae;Thespiaí;;;;;;;;;;;;;x
+b_thespiae_adj;Thespiaían;;;;;;;;;;;;;x
+b_leuctra;Leuktra;;;;;;;;;;;;;x
+b_leuctra_adj;Leuktran;;;;;;;;;;;;;x
+b_eutresis;Eutresis;;;;;;;;;;;;;x
+b_eutresis_adj;Eutresisian;;;;;;;;;;;;;x
+b_thebes;Thêbai;;;;;;;;;;;;;x
+b_thebes_adj;Thêbaian;;;;;;;;;;;;;x
+b_gla;Gla;;;;;;;;;;;;;x
+b_gla_adj;Glani;;;;;;;;;;;;;x
+b_orchomenos;Orchomenos;;;;;;;;;;;;;x
+b_orchomenos_adj;Orchomenosi;;;;;;;;;;;;;x
+b_cynus;Kynos;;;;;;;;;;;;;x
+b_cynus_adj;Kynosi;;;;;;;;;;;;;x
+b_aulis;Aulis;;;;;;;;;;;;;x
+b_aulis_adj;Aulisan;;;;;;;;;;;;;x
+b_hyria;Hyrie;;;;;;;;;;;;;x
+b_hyria_adj;Hyriai;;;;;;;;;;;;;x
+b_opus;Opoûs;;;;;;;;;;;;;x
+b_opus_adj;Opoûsian;;;;;;;;;;;;;x
+b_copae;Copae;;;;;;;;;;;;;x
+b_copae_adj;Copaean;;;;;;;;;;;;;x
+b_ocalea;Okalea;;;;;;;;;;;;;x
+b_ocalea_adj;Okalean;;;;;;;;;;;;;x
+b_elatia;Elateia;;;;;;;;;;;;;x
+b_elatia_adj;Elateian;;;;;;;;;;;;;x
+b_chaeronea;Khaironeia;;;;;;;;;;;;;x
+b_chaeronea_adj;Khaironeia;;;;;;;;;;;;;x
+b_thisbe;Thisbae;;;;;;;;;;;;;x
+b_thisbe_adj;Thisbaen;;;;;;;;;;;;;x
+b_onchestus;Onchestos;;;;;;;;;;;;;x
+b_onchestus_adj;Onchestosi;;;;;;;;;;;;;x
+b_dium;Dion;;;;;;;;;;;;;x
+b_dium_adj;Dionian;;;;;;;;;;;;;x
+b_artemiaio;Artemisio;;;;;;;;;;;;;x
+b_artemiaio_adj;Artemisian;;;;;;;;;;;;;x
+b_kerynthos;Kerynthos;;;;;;;;;;;;;x
+b_kerynthos_adj;Kerynthosi;;;;;;;;;;;;;x
+b_histaea;Histaea;;;;;;;;;;;;;x
+b_histaea_adj;Histaean;;;;;;;;;;;;;x
+b_antron;Antron;;;;;;;;;;;;;x
+b_antron_adj;Antronai;;;;;;;;;;;;;x
+b_eretria;Eretria;;;;;;;;;;;;;x
+b_eretria_adj;Eretrian;;;;;;;;;;;;;x
+b_chalkis;Chalkís;;;;;;;;;;;;;x
+b_chalkis_adj;Chalkís;;;;;;;;;;;;;x
+b_kymi;Kýme;;;;;;;;;;;;;x
+b_kymi_adj;Kýmeni;;;;;;;;;;;;;x
+b_lefkandi;Lefkandi;;;;;;;;;;;;;x
+b_lefkandi_adj;Lefkandian;;;;;;;;;;;;;x
+b_dystos;Dystos;;;;;;;;;;;;;x
+b_dystos_adj;Dystosian;;;;;;;;;;;;;x
+b_styra;Styra;;;;;;;;;;;;;x
+b_styra_adj;Styrai;;;;;;;;;;;;;x
+b_karystos;Carystus;;;;;;;;;;;;;x
+b_karystos_adj;Carystusi;;;;;;;;;;;;;x
+b_peparethos;Peparethos;;;;;;;;;;;;;x
+b_peparethos_adj;Peparethosi;;;;;;;;;;;;;x
+b_skiothos;Skíathos;;;;;;;;;;;;;x
+b_skiothos_adj;Skíathosi;;;;;;;;;;;;;x
+b_skopelos;Skopelos;;;;;;;;;;;;;x
+b_skopelos_adj;Skopelosi;;;;;;;;;;;;;x
+b_eudemia;Eudemia;;;;;;;;;;;;;x
+b_eudemia_adj;Eudemian;;;;;;;;;;;;;x
+b_ikos;Ikos;;;;;;;;;;;;;x
+b_ikos_adj;Ikosi;;;;;;;;;;;;;x
+b_gerontia;Gioura;;;;;;;;;;;;;x
+b_gerontia_adj;Giourani;;;;;;;;;;;;;x
 
 ###########Thessalyian Baronies###########
 
