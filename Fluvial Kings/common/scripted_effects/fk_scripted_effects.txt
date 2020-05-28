@@ -559,6 +559,8 @@ ai_make_sacrifice_to_evaluation_effect = {
 				}
 				modifier = {
 					factor = 0
+					OR = {
+						trait = devotion_telipinu
 						trait = devotion_tarhunna
 					}
 				}
