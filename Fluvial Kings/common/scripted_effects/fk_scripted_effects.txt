@@ -527,7 +527,7 @@ ai_make_sacrifice_to_evaluation_effect = {
 					likes_war_god_trigger = yes
 				}
 				modifier = {
-					factor = 3
+					factor = 100
 					trait = devotion_tarhunna
 				}
 			}
@@ -554,8 +554,13 @@ ai_make_sacrifice_to_evaluation_effect = {
 					ai_sacrifice_success_or_fail = yes
 				}
 				modifier = {
-					factor = 3
+					factor = 100
 					trait = devotion_arinniti
+				}
+				modifier = {
+					factor = 0
+						trait = devotion_tarhunna
+					}
 				}
 			}
 			30 = { #Telipinu
@@ -575,8 +580,15 @@ ai_make_sacrifice_to_evaluation_effect = {
 					ai_sacrifice_success_or_fail = yes
 				}
 				modifier = {
-					factor = 3
+					factor = 100
 					trait = devotion_telipinu
+				}
+				modifier = {
+					factor = 0
+					OR = {
+						trait = devotion_arinniti
+						trait = devotion_tarhunna
+					}
 				}
 			}
 		}
