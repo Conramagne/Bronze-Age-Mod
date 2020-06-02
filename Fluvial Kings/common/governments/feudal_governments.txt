@@ -101,6 +101,10 @@ feudal_governments = {
 		free_revoke_on_governments = {
 			military_governorate_government
 		}
+		vassal_call_to_arms = {
+			tribal_government
+			tribal_confederacy_government
+		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 		}
@@ -150,6 +154,10 @@ feudal_governments = {
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
 			hegemonic_government
 			regional_kingdom_government
+		}
+		vassal_call_to_arms = {
+			tribal_government
+			tribal_confederacy_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
@@ -234,6 +242,10 @@ feudal_governments = {
 		}
 		free_revoke_on_governments = {
 			military_governorate_government
+		}
+		vassal_call_to_arms = {
+			tribal_government
+			tribal_confederacy_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
