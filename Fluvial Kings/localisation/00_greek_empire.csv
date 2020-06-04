@@ -25,6 +25,12 @@ k_attica;Attica;;;;;;;;;;;;;x #central greece
 k_attica_adj;Attican;;;;;;;;;;;;;x #central greece
 k_aiolia;Aiolía;;;;;;;;;;;;;x
 k_aiolia_adj;Aiolikós;;;;;;;;;;;;;x
+k_chalcidice;Chalcidice;;;;;;;;;;;;;x
+k_chalcidice_adj;Chalcidician;;;;;;;;;;;;;x
+k_thrace;Thrace;;;;;;;;;;;;;x
+k_thrace_adj;Thracian;;;;;;;;;;;;;x
+k_minoa;Minoa;;;;;;;;;;;;;x
+k_minoa_adj;Minoan;;;;;;;;;;;;;x
 
 
 ###########Duchy Titles###########
@@ -399,3 +405,9 @@ b_gerontia_adj;Giourani;;;;;;;;;;;;;x
 
 
 ###########Chalcidician Baronies###########
+
+
+###########Thracian Baronies###########
+
+
+###########Minoan Baronies###########
