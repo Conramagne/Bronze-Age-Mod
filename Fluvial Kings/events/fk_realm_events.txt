@@ -2162,7 +2162,7 @@ character_event = {
 character_event = {
 	id = fkr.136
 	desc = EVTDESCFKR136
-	picture = GFX_evt_china_isolationist
+	picture =GFX_evt_military_victory
 	is_triggered_only = yes
 	only_playable = yes
 	
@@ -2186,7 +2186,7 @@ character_event = {
 character_event = {
 	id = fkr.137
 	desc = EVTDESCFKR137
-	picture = GFX_evt_china_isolationist
+	picture =GFX_evt_military_defeat
 	is_triggered_only = yes
 	only_playable = yes
 	
@@ -2244,7 +2244,7 @@ character_event = {
 character_event = {
 	id = fkr.201
 	desc = EVTDESCFKR201
-	picture = GFX_evt_china_golden_age
+	picture =GFX_evt_council
 	
 	only_playable = yes
 	
@@ -2447,7 +2447,7 @@ character_event = {
 character_event = {
 	id = fkr.206
 	desc = EVTDESCFKR206
-	picture = GFX_evt_china_golden_age
+	picture = GFX_evt_ruler_speaks
 	only_playable = yes
 	min_age = 16
 	
@@ -2496,7 +2496,7 @@ character_event = {
 character_event = {
 	id = fkr.207
 	desc = EVTDESCFKR207
-	picture = GFX_evt_china_golden_age
+	picture = GFX_evt_ruler_speaks
 	notification = yes
 	is_triggered_only = yes
 	
@@ -2523,7 +2523,7 @@ character_event = {
 character_event = {
 	id = fkr.208
 	desc = EVTDESCFKR208
-	picture = GFX_evt_china_golden_age
+	picture =GFX_evt_council
 	notification = yes
 	is_triggered_only = yes
 	
@@ -2628,7 +2628,7 @@ character_event = {
 character_event = {
 	id = fkr.210
 	desc = EVTDESCFKR210
-	picture = GFX_evt_china_golden_age
+	picture =GFX_evt_council
 	is_triggered_only = yes
 
 	immediate = {
@@ -2696,7 +2696,7 @@ character_event = {
 character_event = {
 	id = fkr.212
 	desc = EVTDESCFKR212
-	picture = GFX_evt_china_isolationist
+	picture = GFX_evt_dark_court
 	only_playable = yes
 	min_age = 16
 	
@@ -2744,7 +2744,7 @@ character_event = {
 character_event = {
 	id = fkr.213
 	desc = EVTDESCFKR213
-	picture = GFX_evt_china_isolationist
+	picture = GFX_evt_dark_court
 	notification = yes
 	is_triggered_only = yes
 	
@@ -2770,7 +2770,7 @@ character_event = {
 character_event = {
 	id = fkr.214
 	desc = EVTDESCFKR214
-	picture = GFX_evt_china_isolationist
+	picture = GFX_evt_dark_court
 	is_triggered_only = yes
 	
 	trigger = {
@@ -2872,7 +2872,7 @@ character_event = {
 character_event = {
 	id = fkr.216
 	desc = EVTDESCFKR216
-	picture = GFX_evt_china_isolationist
+	picture = GFX_evt_dark_court
 	is_triggered_only = yes
 	
 	immediate = {
@@ -2898,7 +2898,7 @@ character_event = {
 character_event = {
 	id = fkr.217
 	desc = EVTDESCFKR217
-	picture = GFX_evt_china_isolationist
+	picture = GFX_evt_dark_court
 	is_triggered_only = yes
 	only_playable = yes
 	
@@ -2962,7 +2962,7 @@ character_event = {
 character_event = {
 	id = fkr.219
 	desc = EVTDESCFKR219
-	picture = GFX_evt_china_isolationist
+	picture = GFX_evt_dark_court
 	is_triggered_only = yes
 	only_playable = yes
 
@@ -3037,8 +3037,8 @@ character_event = {
 #Liege Notification
 character_event = {
 	id = fkr.221
-	desc = EVTDESCFKR220
-	picture = GFX_evt_china_isolationist
+	desc = EVTDESCFKR221
+	picture = GFX_evt_dark_court
 	only_playable = yes
 
 	mean_time_to_happen = {
@@ -3062,7 +3062,7 @@ character_event = {
 character_event = {
 	id = fkr.222
 	desc = EVTDESCFKR222
-	picture = GFX_evt_china_isolationist
+	picture = GFX_evt_military_defeat
 	only_playable = yes
 	is_triggered_only = yes
 	
@@ -3085,7 +3085,7 @@ character_event = {
 character_event = {
 	id = fkr.230
 	desc = EVTDESCFKR230
-	picture = GFX_evt_china_isolationist
+	picture = GFX_evt_dark_court
 	trigger = {
 		is_feudal = yes
 		primary_title = {
@@ -3113,7 +3113,7 @@ character_event = {
 character_event = {
 	id = fkr.231
 	desc = EVTDESCFKR231
-	picture = GFX_evt_china_isolationist
+	picture = GFX_evt_dark_court
 	trigger = {
 		is_feudal = yes
 		primary_title = {
@@ -3136,7 +3136,7 @@ character_event = {
 character_event = {
 	id = fkr.232
 	desc = EVTDESCFKR232
-	picture = GFX_evt_china_expansionist
+	picture = GFX_evt_council
 	trigger = {
 		is_feudal = yes
 		primary_title = {
@@ -3162,7 +3162,7 @@ character_event = {
 character_event = {
 	id = fkr.233
 	desc = EVTDESCFKR233
-	picture = GFX_evt_china_expansionist
+	picture = GFX_evt_council
 	trigger = {
 		is_feudal = yes
 		primary_title = {
@@ -3190,7 +3190,7 @@ character_event = {
 character_event = {
 	id = fkr.234
 	desc = EVTDESCFKR234
-	picture = GFX_evt_china_stable
+	picture = GFX_evt_council
 	is_triggered_only = yes
 	
 	option = {
@@ -3355,7 +3355,7 @@ character_event = {
 character_event = {
 	id = fkr.235
 	desc = EVTDESCFKR235
-	picture = GFX_evt_china_isolationist
+	picture = GFX_evt_dark_court
 	is_triggered_only = yes
 	
 	immediate = {
@@ -3380,7 +3380,7 @@ character_event = {
 character_event = {
 	id = fkr.236
 	desc = EVTDESCFKR236
-	picture = GFX_evt_china_stable
+	picture = GFX_evt_council
 	is_triggered_only = yes
 	
 	immediate = {
@@ -3401,7 +3401,7 @@ character_event = {
 character_event = {
 	id = fkr.237
 	desc = EVTDESCFKR237
-	picture = GFX_evt_china_golden_age
+	picture = GFX_evt_ruler_speaks
 	is_triggered_only = yes
 	
 	immediate = {

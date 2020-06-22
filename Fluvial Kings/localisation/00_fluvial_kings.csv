@@ -250,8 +250,75 @@ opinion_small_sacrifice_fail;Small Sacrifce Failure;;;;;;;;;;;;;x
 opinion_medium_sacrifice_fail;Medium Sacrifce Failure;;;;;;;;;;;;;x
 opinion_large_sacrifice_fail;Large Sacrifce Failure;;;;;;;;;;;;;x
 
+#Palace Bureaucracy Stuff#
 palace_bureaucracy;Palace Bureaucratic Efficiency ([From.PrimaryTitle.palace_bureaucracy_number.GetValue]%);;;;;;;;;;;;;x
 palace_bureaucracy_desc;The bureaucracy of a realm is determined by how much bureaucratic norms are prevalent in said realm. As it changes, the norms of the realm change with it.\nPalace bureaucracy can be §Bincreased§! by:\n§Y*§! Having qualified lords\n§Y*§! Having a powerful or qualified council\n§Y*§! Bureaucratic reforms\nRealm bureaucracy can be §Rdecreased§! by:\n§Y*§! Having unqualified lords\n§Y*§! Having a weak or unqualified council\n§Y*§! Succession\n§Y*§! Nepotism;;;;;;;;;;;;;x
+
+#Palace Bureaucracy Decision Modifiers
+sold_bureaucratic_positions;Sold Bureaucratic Positions;;;;;;;;;;;;;x
+sold_bureaucratic_positions_desc;This character has sold bureaucratic positions, a sign that corruption has taken hold in their realm.;;;;;;;;;;;;;x
+
+low_bureaucracy;Inefficient Bureaucracy;;;;;;;;;;;;;x
+low_bureaucracy_desc;Due to poor recordkeeping, inefficient administrative oversight, and corrupt palace bureaucrats, this realm's bureaucracy is in complete disarray.;;;;;;;;;;;;;x
+
+high_bureaucracy;Efficient Bureaucracy;;;;;;;;;;;;;x
+high_bureaucracy_desc;The Palace is full of good and loyal palace bureaucrats that maintain the bureaucracy needed to steer the realm to prosperity, making it the envy of lesser kings.;;;;;;;;;;;;;x
+
+requested_personal_tribute;Requested Personal Tribute;;;;;;;;;;;;;x
+requested_personal_tribute_desc;This character has requested a personal tribute from his realm.;;;;;;;;;;;;;x
+
+#Palace Bureaucracy Reform
+
+getback_180_TT;The results of your reforms will be apparent in six months;;;;;;;;;;;;;x
+reform_bare_TT;Alloted a small budget to enact reforms.;;;;;;;;;;;;;x
+reform_good_TT;Grant a fair budget to spur reform.;;;;;;;;;;;;;x
+reform_alot_TT;Pump a lot of gold into lavishly reforming the palace.;;;;;;;;;;;;;x
+
+poor_reforms;Poor Reforms;;;;;;;;;;;;;x
+poor_reforms_desc;This character's attempt to reform their realm has gone poorly.;;;;;;;;;;;;;x
+
+good_reforms;Effective Reforms;;;;;;;;;;;;;x
+good_reforms_desc;The reform attempts of this character have been a success.;;;;;;;;;;;;;x
+
+#Palace Bureaucracy Modifiers
+
+bureau_increase_1_TT;§YPalace Bureaucratic Efficiency§! will §Bincrease§! by 1%;;;;;;;;;;;;;x
+bureau_increase_105_TT;§YPalace Bureaucratic Efficiency§! will §Bincrease§! by 1.5%;;;;;;;;;;;;;x
+bureau_increase_2_TT;§YPalace Bureaucratic Efficiency§! will §Bincrease§! by 2%;;;;;;;;;;;;;x
+bureau_increase_3_TT;§YPalace Bureaucratic Efficiency§! will §Bincrease§! by 3%;;;;;;;;;;;;;x
+bureau_increase_4_TT;§YPalace Bureaucratic Efficiency§! will §Bincrease§! by 4%;;;;;;;;;;;;;x
+
+bureau_decrease_025_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 0.25%;;;;;;;;;;;;;x
+bureau_decrease_05_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 0.5%;;;;;;;;;;;;;x
+bureau_decrease_1_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 1%;;;;;;;;;;;;;x
+bureau_decrease_2_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 2%;;;;;;;;;;;;;x
+bureau_decrease_3_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 3%;;;;;;;;;;;;;x
+bureau_decrease_5_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
+bureau_decrease_5_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 7%;;;;;;;;;;;;;x
+bureau_decrease_10_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 10%;;;;;;;;;;;;;x
+
+globalbureau_increase_01_TT;§YAverage Bureaucratic Efficiency§! will §Bincrease§! by 0.10%;;;;;;;;;;;;;x
+globalbureau_increase_02_TT;§YAverage Bureaucratic Efficiency§! will §Bincrease§! by 0.20%;;;;;;;;;;;;;x
+globalbureau_increase_025_TT;§YAverage Bureaucratic Efficiency§! will §Bincrease§! by 0.25%;;;;;;;;;;;;;x
+globalbureau_increase_05_TT;§YAverage Bureaucratic Efficiency§! will §Bincrease§! by 0.5%;;;;;;;;;;;;;x
+globalbureau_increase_1_TT;§YAverage Bureaucratic Efficiency§! will §Bincrease§! by 1%;;;;;;;;;;;;;x
+globalbureau_increase_2_TT;§YAverage Bureaucratic Efficiency§! will §Bincrease§! by 2%;;;;;;;;;;;;;x
+
+globalbureau_decrease_01_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 0.10%;;;;;;;;;;;;;x
+globalbureau_decrease_02_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 0.20%;;;;;;;;;;;;;x
+globalbureau_decrease_025_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 0.25%;;;;;;;;;;;;;x
+globalbureau_decrease_03_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 0.30%;;;;;;;;;;;;;x
+globalbureau_decrease_05_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 0.50%;;;;;;;;;;;;;x
+globalbureau_decrease_075_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 0.75%;;;;;;;;;;;;;x
+globalbureau_decrease_1_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 1%;;;;;;;;;;;;;x
+globalbureau_decrease_105_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 1.5%;;;;;;;;;;;;;x
+globalbureau_decrease_2_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 2%;;;;;;;;;;;;;x
+globalbureau_decrease_5_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
+
+#Palace Bureaucracy Opinions
+model_bureaucrat;Model Bureaucrat;;;;;;;;;;;;;x
+bad_bureaucrat;Poor Bureaucrat;;;;;;;;;;;;;x
+opinion_overstepped_boundary;Overstepped Personal Boundaries;;;;;;;;;;;;;x
 
 ###########God Boons and Curses###########
 denied_boon;Denied Blessings of Gods;;;;;;;;;;;;;x
