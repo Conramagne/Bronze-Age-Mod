@@ -1,0 +1,12 @@
+title=c_megara
+
+max_settlements= 5
+b_megara=castle
+b_eleusis=city
+b_therme=temple
+b_pagae=castle
+b_isthmia=temple
+
+culture=greek
+religion=pantes_theoi
+terrain=plains

@@ -1,0 +1,11 @@
+title=c_mycenae
+
+max_settlements= 4
+b_mycenae=castle
+b_corinth=city
+b_nemea=temple
+b_kleonai=castle
+
+culture=greek
+religion=pantes_theoi
+terrain=plains

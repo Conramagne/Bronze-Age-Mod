@@ -1,0 +1,9 @@
+title=c_orchomenus
+
+max_settlements= 2
+b_orchomenus=castle
+b_hypsus=temple
+
+culture=greek
+religion=pantes_theoi
+terrain=plains

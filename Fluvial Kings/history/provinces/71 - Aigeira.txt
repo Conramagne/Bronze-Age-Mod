@@ -1,0 +1,8 @@
+title=c_aigeira
+
+max_settlements= 1
+b_aigeira=castle
+
+culture=greek
+religion=pantes_theoi
+terrain=plains

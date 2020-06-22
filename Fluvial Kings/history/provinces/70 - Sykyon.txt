@@ -1,0 +1,9 @@
+title=c_sykyon
+
+max_settlements= 2
+b_sykyon=castle
+b_pellene=city
+
+culture=greek
+religion=pantes_theoi
+terrain=plains

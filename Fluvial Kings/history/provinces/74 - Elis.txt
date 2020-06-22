@@ -1,0 +1,12 @@
+title=c_elis
+
+max_settlements= 5
+b_elis=castle
+b_letrinoi=city
+b_opus=city
+b_olympia=temple
+b_pisa =castle
+
+culture=greek
+religion=pantes_theoi
+terrain=plains

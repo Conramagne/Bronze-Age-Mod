@@ -230,6 +230,32 @@ b_mantineia;Mantineia;;;;;;;;;;;;;x
 b_mantineia_adj;Mantineian;;;;;;;;;;;;;x
 b_oresthesium;Oresthesium;;;;;;;;;;;;;x
 b_oresthesium_adj;Oresthesi;;;;;;;;;;;;;x
+b_argos;Argos;;;;;;;;;;;;;x
+b_argos_adj;Argonite;;;;;;;;;;;;;x
+b_lerna;Lerna;;;;;;;;;;;;;x
+b_lerna_adj;Lernai;;;;;;;;;;;;;x
+b_tiryns;Tiryns;;;;;;;;;;;;;x
+b_tiryns_adj;Tirynasi;;;;;;;;;;;;;x
+b_asine;Asine;;;;;;;;;;;;;x
+b_asine_adj;Asinai;;;;;;;;;;;;;x
+b_dhendra;Dhéndra;;;;;;;;;;;;;x
+b_dhendra_adj;Dhéndrani;;;;;;;;;;;;;x
+b_mases;Mases;;;;;;;;;;;;;x
+b_mases_adj;Masesi;;;;;;;;;;;;;x
+b_hermione;Hermione;;;;;;;;;;;;;x
+b_hermione_adj;Hermionai;;;;;;;;;;;;;x
+b_franchthi;Franchthi;;;;;;;;;;;;;x
+b_franchthi_adj;Franchthai;;;;;;;;;;;;;x
+b_epidaurus;Epidaurus;;;;;;;;;;;;;x
+b_epidaurus_adj;Epidaurusi;;;;;;;;;;;;;x
+b_pityussa;Pityussa;;;;;;;;;;;;;x
+b_pityussa_adj;Pityussai;;;;;;;;;;;;;x
+b_methana;Methana;;;;;;;;;;;;;x
+b_methana_adj;Methanai;;;;;;;;;;;;;x
+b_troezen;Troezen;;;;;;;;;;;;;x
+b_troezen_adj;Troizenai;;;;;;;;;;;;;x
+b_hydrea;Hydrea;;;;;;;;;;;;;x
+b_hydrea_adj;Hydreani;;;;;;;;;;;;;x
 
 ###########Lakonian Baronies###########
 b_lacedemonia;Lakonía;;;;;;;;;;;;;x #sparta

@@ -1,0 +1,11 @@
+title=c_pheneos
+
+max_settlements= 4
+b_pheneos=castle
+b_alea=city
+b_omeae=city
+b_stymphalos=temple
+
+culture=greek
+religion=pantes_theoi
+terrain=plains
