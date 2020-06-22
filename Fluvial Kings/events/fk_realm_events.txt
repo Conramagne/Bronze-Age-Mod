@@ -2462,6 +2462,9 @@ character_event = {
 		NOT = {
 			has_character_flag = quality_ruler
 		}
+		NOT = {
+			trait = arbitrary
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -2708,7 +2711,7 @@ character_event = {
 			learning < 6
 		}
 		NOT = {
-			has_character_flag = quality_ruler
+			has_character_flag = poor_ruler
 		}
 	}
 	
@@ -2724,7 +2727,7 @@ character_event = {
 	
 	option = {
 		name = opta_disappointing
-		set_character_flag = quality_ruler
+		set_character_flag = poor_ruler
 		custom_tooltip = {
 			text = bureau_decrease_2_TT
 		}
