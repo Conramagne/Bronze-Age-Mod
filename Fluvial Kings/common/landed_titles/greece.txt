@@ -1,0 +1,268 @@
+e_greek_empire = {
+	color={ 74 79 186 }
+	color2={ 255 255 255 }
+	
+	capital = 68 # Mykenae
+	
+	culture = greek
+
+	short_name = yes
+	
+	k_achaea = {
+		color = { 93 236 205 }
+		color2 = { 255 255 255 }
+		
+		capital = 68 # Mykenae
+		
+		#culture = manden
+		
+		d_achaea = { 
+			color = { 45 130 235 }
+			color2 = { 255 255 255 }
+	
+			capital = 68 # Mykenae
+			
+			c_mycenae = {
+				color = { 45 130 235 }
+				color2 = { 255 255 255 }
+				
+				b_mycenae = {}
+				b_corinth = {}
+				b_nemea = {}
+				b_kleonai = {}
+			}
+			c_megara = {
+				color={ 93 160 243 }
+				color2={ 255 255 255 }
+				
+				b_megara = {}
+				b_eleusis = {}
+				b_therme = {}
+				b_pagae = {}
+				b_isthmia = {}
+			}
+			
+			c_sykyon = {
+				color={ 91 127 171 }
+				color2={ 255 255 255 }
+				
+				b_sykyon = {}
+				b_pellene = {}
+			}
+			
+			c_aigeira = {
+				color={ 26 62 107 }
+				color2={ 255 255 255 }
+				
+				b_aigeira = {}
+			}
+			
+			c_aegion = {
+				color={ 58 77 100 }
+				color2={ 255 255 255 }
+				
+				b_aegion = {}
+				b_patra = {}
+				b_panormos = {}
+				b_leontion = {}
+			}
+		}
+		d_salamis = { 
+			color={ 136 150 209 }
+			color2={ 255 255 255 }
+	
+			capital = 73 #Salamína
+			
+			c_salamis = {
+				color = { 136 150 209 }
+				color2 = { 255 255 255 }
+				
+				b_salamis = {}
+				b_aigina = {}
+				b_aphaea = {}
+			}
+		}
+		d_elis = { 
+			color={ 47 150 209 }
+			color2={ 255 255 255 }
+	
+			capital = 74 #Elis
+			
+			c_elis = {
+				color = { 47 61 100 }
+				color2 = { 255 61 100 }
+				
+				b_elis = {}
+				b_letrinoi = {}
+				b_opus = {}
+				b_olympia = {}
+				b_pisa = {}
+			}
+			c_tyhos = {
+				color = { 47 69 133 }
+				color2 = { 255 61 100 }
+				
+				b_tyhos = {}
+				b_olenos = {}
+				b_kyllini = {}
+				b_myrsini = {}
+				b_bouprasion = {}
+			}
+			c_dymes = {
+				color = { 83 104 161 }
+				color2 = { 255 61 100 }
+				
+				b_dymes = {}
+				b_pharae = {}
+				b_tritaia = {}
+				b_kleitor = {}
+				b_psophis = {}
+			}
+		}
+		d_arcadia = { 
+			color={ 120 136 188 }
+			color2={ 255 255 255 }
+	
+			capital = 77 #Kleitor
+			
+			c_kleitor = {
+				color = { 120 136 188 }
+				color2 = { 255 61 100 }
+				
+				b_kleitor = {}
+				b_psophis = {}
+			}
+			c_orchomenus = {
+				color = { 47 69 133 }
+				color2 = { 255 61 100 }
+				
+				b_orchomenus = {}
+				b_hypsus = {}
+			}
+			c_pheneos = {
+				color = { 30 68 189 }
+				color2 = { 255 61 100 }
+				
+				b_pheneos = {}
+				b_alea = {}
+				b_omeae = {}
+				b_stymphalos = {}
+			}
+			c_tegea = {
+				color = { 76 91 140 }
+				color2 = { 255 61 100 }
+				
+				b_tegea = {}
+				b_thyreai = {}
+				b_mantineia = {}
+				b_oresthesium = {}
+			}
+		}
+		d_argolis = { 
+			color={ 96 142 166 }
+			color2={ 255 255 255 }
+	
+			capital = 81 #Argos
+			
+			c_argos = {
+				color = { 96 142 166 }
+				color2 = { 255 61 100 }
+				
+				b_argos = {}
+				b_lerna = {}
+				b_tiryns = {}
+				b_asine = {}
+				b_dhendra = {}
+			}
+			c_mases = {
+				color = { 124 152 166 }
+				color2 = { 255 61 100 }
+				
+				b_mases = {}
+				b_hermione = {}
+				b_franchthi = {}
+				b_epidaurus = {}
+				b_pityussa = {}
+			}
+			c_methana = {
+				color = { 74 106 123 }
+				color2 = { 255 61 100 }
+				
+				b_methana = {}
+				b_troezen = {}
+				b_hydrea = {}
+			}
+		}
+	}
+	k_lakonia = {
+		color = { 43 140 21 }
+		color2 = { 255 255 255 }
+		
+		capital = 84 # Sparta
+		
+		#culture = manden
+		
+		d_lacedemonia = { 
+			color = { 41 93 114 }
+			color2 = { 255 255 255 }
+	
+			capital = 84 # Sparta
+			
+			c_lacedemonia = {
+				color = { 41 93 114 }
+				color2 = { 255 255 255 }
+				
+				b_lacedemonia = {}
+				b_amyclae = {}
+				b_phare = {}
+				b_vaphio = {}
+				b_menelaeion = {}
+			}
+			c_prasiai = {
+				color={ 23 36 42 }
+				color2={ 255 255 255 }
+				
+				b_prasiai = {}
+				b_kypantha = {}
+			}
+			
+			c_epidauros_limera = {
+				color={ 20 62 80 }
+				color2={ 255 255 255 }
+				
+				b_epidauros_limera = {}
+				b_pavlopetri = {}
+				b_helius = {}
+				b_zarax = {}
+				b_boiai = {}
+			}
+			
+			c_gytheion = {
+				color={ 32 72 88 }
+				color2={ 255 255 255 }
+				
+				b_gytheion = {}
+				b_kardamyli = {}
+				b_leuktros = {}
+				b_bitsoulo = {}
+				b_teuthrone = {}
+				b_casenopolis = {}
+			}
+		}
+		d_kythera = { 
+			color = { 50 162 163 }
+			color2 = { 255 255 255 }
+	
+			capital = 88 # Kythera
+			
+			c_kastri = {
+				color = { 50 162 163 }
+				color2 = { 255 255 255 }
+				
+				b_kastri = {}
+				b_skandeia = {}
+				b_kythria = {}
+			}
+		}
+	}
+}
