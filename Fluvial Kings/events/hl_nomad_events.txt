@@ -306,6 +306,23 @@ character_event = { # Nomads may pillage holdings on siege
 				}
 			}
 		}
+		if = {
+			limit = {
+				FROM = {
+					location = {
+						is_capital = yes
+					}
+					holder_scope = {
+						independent = yes
+					}
+				}
+			}
+			FROM = {
+				holder_scope = {
+					character_event = { id = fkr.222 }
+				}
+			}
+		}
 	}
 	
 	option = {

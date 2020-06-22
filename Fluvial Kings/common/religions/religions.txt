@@ -14,8 +14,8 @@ bnai_avraham = {
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	
-	ai_convert_same_group = 2 # always try to convert
-	ai_convert_other_group = 1	# try to convert if ai_zeal is high
+	ai_convert_same_group = 2
+	ai_convert_other_group = 1	
 	
 	color = { 0.2 0.5 0.9 }
 	
@@ -54,8 +54,8 @@ bnai_kenaan = {
 	graphical_culture = muslimgfx
 	playable = yes
 	
-	ai_convert_same_group = 1 # try to convert if ai_zeal is high
-	ai_convert_other_group = 2 # always try to convert
+	ai_convert_same_group = 0 
+	ai_convert_other_group = 0
 	
 	color = { 1.0 0.8 0.3 }
 	
@@ -102,10 +102,10 @@ bnai_kenaan = {
 
 		color = { 1.0 0.8 0.3 }
 		
-		high_god_name = GOD_EL_TORU
+		high_god_name = GOD_TORU_EL
 		
 		god_names = {
-			GOD_EL_TORU GOD_BAAL_HADAD GOD_ASHERAH GOD_MOLEK GOD_RESHEPH GOD_DAGON
+			GOD_TORU_EL GOD_BAAL_HADAD GOD_ASHERAH GOD_MOLEK GOD_RESHEPH GOD_DAGON
 		}
 		evil_god_names = {
 			GOD_LITANU GOD_YAM GOD_MOT
@@ -131,10 +131,10 @@ bnai_kenaan = {
 
 		color = { 0.5 0.4 0.1 }
 		
-		high_god_name = GOD_EL_AMURRU
+		high_god_name = GOD_AMURRU
 		
 		god_names = {
-			GOD_EL_AMURRU GOD_RESHEPH GOD_ASHERAH GOD_BAAL_HADAD GOD_DAGON GOD_ISHTAR
+			GOD_AMURRU GOD_RESHEPH GOD_ASHERAH GOD_BAAL_HADAD GOD_DAGON GOD_ISHTAR
 		}
 		evil_god_names = {
 			GOD_LITANU GOD_YAM GOD_MOT
@@ -156,8 +156,8 @@ mesopotamian = {
 	graphical_culture = muslimgfx
 	playable = yes
 	
-	ai_convert_same_group = 1 # try to convert if ai_zeal is high
-	ai_convert_other_group = 2 # always try to convert
+	ai_convert_same_group = 0 
+	ai_convert_other_group = 0
 	
 	color = { 0.8 0.2 0.2 }
 	
@@ -195,8 +195,8 @@ pihassasi = {
 	graphical_culture = indiangfx
 	playable = yes
 	
-	ai_convert_same_group = 1 # try to convert if ai_zeal is high
-	ai_convert_other_group = 2 # always try to convert
+	ai_convert_same_group = 0 
+	ai_convert_other_group = 0
 	
 	color = { 0.9 0.6 0.2 }
 	
@@ -234,7 +234,7 @@ pihassasi = {
 		icon = 11
 		heresy_icon = 11
 		
-		scripture_name = THE_HATTI_ISTANDANT
+		scripture_name = THE_NESILI_ISTANDANT
 		priest_title = PRIEST
 		crusade_name = GREAT_HOLY_WAR
 
@@ -264,8 +264,8 @@ hellenic = {
 	graphical_culture = norsegfx
 	playable = yes
 	
-	ai_convert_same_group = 1 # try to convert if ai_zeal is high
-	ai_convert_other_group = 2 # always try to convert
+	ai_convert_same_group = 0 
+	ai_convert_other_group = 0
 	
 	color = { 0.2 0.4 1 }
 	

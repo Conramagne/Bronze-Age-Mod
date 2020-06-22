@@ -683,8 +683,8 @@ character_event = {
 		}
 	}
 }
-# ************************** Imperial Authority Events***********************
 
+# ************************** Imperial Authority Events***********************
 
 #Setup (on_startup)
 character_event = {
@@ -754,11 +754,6 @@ character_event = {
 		add_character_modifier = {
 			name = imperial_authority_set
 			duration = -1
-		}
-		hidden_tooltip = {
-			primary_title = {
-				set_variable = { which = var_imperial_authority value = 60 }
-			}
 		}
 	}
 }
@@ -1360,7 +1355,6 @@ character_event = {
 			trait = misguided_warrior
 			trait = indulgent_wastrel
 			trait = amateurish_plotter
-			trait = administrator
 		}
 		NOT = {
 			has_character_flag = imperial_authority_bad_stats
@@ -2159,6 +2153,1316 @@ character_event = {
 		}
 		primary_title = {
 			set_variable = { which = var_imperial_authority value = 80 }
+		}
+	}
+}
+
+
+#Authority Increase - Won War
+character_event = {
+	id = fkr.136
+	desc = EVTDESCFKR136
+	picture = GFX_evt_china_isolationist
+	is_triggered_only = yes
+	only_playable = yes
+	
+	trigger = {
+		government = hegemonic_government
+	}
+	
+	immediate = {
+		change_variable = { which = var_imperial_authority value = 10 }
+	}
+	
+	option = {
+		name = opta_excellent
+		custom_tooltip = {
+			text = imperial_authority_increase_10_TT
+		}
+	}
+}
+
+#Authority Decrease - Lost War
+character_event = {
+	id = fkr.137
+	desc = EVTDESCFKR137
+	picture = GFX_evt_china_isolationist
+	is_triggered_only = yes
+	only_playable = yes
+	
+	trigger = {
+		government = hegemonic_government
+	}
+	
+	immediate = {
+		change_variable = { which = var_imperial_authority value = -10 }
+	}
+	
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			text = imperial_authority_decrease_10_TT
+		}
+	}
+}
+
+# ************************** Palace Bureaucracy Events***********************
+
+#Variable for Palace Bureaucracy (on_startup)
+character_event = {
+	id = fkr.200
+	hide_window = yes
+	is_triggered_only = yes
+	only_playable = yes
+	
+	trigger = {
+		is_feudal = yes
+		higher_real_tier_than = BARON
+		NOT = {
+			primary_title = {
+				has_title_flag = palace_bureaucracy_set
+			}
+		}
+	}
+	
+	immediate = {
+		add_character_modifier = {
+			name = palace_bureaucracy
+			duration = -1
+		}
+		primary_title = {
+			set_title_flag = palace_bureaucracy_set
+			set_title_flag = primary_set
+		}
+		primary_title = {
+			set_variable = { which = palace_bureaucracy_number value = 50 }
+		}
+	}
+}
+
+#Variable for Palace Bureaucracy (MTTH)
+character_event = {
+	id = fkr.201
+	desc = EVTDESCFKR201
+	picture = GFX_evt_china_golden_age
+	
+	only_playable = yes
+	
+	trigger = {
+		is_feudal = yes
+		higher_real_tier_than = BARON
+		NOT = {
+			primary_title = {
+				has_title_flag = palace_bureaucracy_set
+			}
+		}
+		NOT = {
+			any_demesne_title = {
+				has_title_flag = palace_bureaucracy_set
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			set_title_flag = palace_bureaucracy_set
+			set_title_flag = primary_set
+		}
+		liege = {
+			primary_title = {
+				set_variable = { which = global_transfer_bureaucracy_number which = palace_bureaucracy_number }
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+		add_character_modifier = {
+			name = palace_bureaucracy
+			duration = -1
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					independent = no
+				}
+				primary_title = {
+					set_variable = { which = palace_bureaucracy_number which = global_transfer_bureaucracy_number }
+				}
+			}
+			else = {
+				primary_title = {
+					set_variable = { which = palace_bureaucracy_number value = 50 }
+				}
+			}
+		}
+	}
+}
+
+#Gives Palace Bureaucracy to heirs/Removes it from non-feudal (on_new_holder)
+character_event = {
+	id = fkr.202
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		NOT = {
+			has_character_modifier = palace_bureaucracy
+		}
+		any_demesne_title = {
+			has_title_flag = palace_bureaucracy_set
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				is_feudal = yes
+				higher_real_tier_than = BARON
+			}
+			add_character_modifier = {
+				name = palace_bureaucracy
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				is_feudal = no
+			}
+			any_demesne_title = {
+				clr_title_flag = palace_bureaucracy_set
+				clr_title_flag = primary_set
+			} 
+			remove_character_modifier = palace_bureaucracy
+			remove_character_modifier = low_palace_bureaucracy
+			remove_character_modifier = high_palace_bureaucracy
+			remove_character_modifier = poor_reforms
+			remove_character_modifier = good_reforms
+			remove_character_modifier = sold_bureaucratic_positions
+		}
+	}
+}
+
+#Gives Palace Bureaucracy to New Vassals (on_new_holder)
+character_event = {
+	id = fkr.203
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		NOT = {
+			has_character_modifier = palace_bureaucracy
+		}
+		is_feudal = yes
+		independent = no
+	}
+
+	immediate = {
+		add_character_modifier = {
+			name = palace_bureaucracy
+			duration = -1
+		}
+		liege = {
+			primary_title = {
+				set_variable = { which = global_transfer_bureaucracy_number which = palace_bureaucracy_number }
+			}
+		}
+		primary_title = {
+			set_variable = { which = palace_bureaucracy_number which = global_transfer_bureaucracy_number }
+			set_title_flag = primary_set
+			set_title_flag = palace_bureaucracy_set
+		}
+	}
+}
+
+#Removes Palace Bureaucracy from non-feudal (MTTH)
+character_event = {
+	id = fkr.204
+	hide_window = yes
+	trigger = {
+		is_feudal = no
+		any_demesne_title = {
+			has_title_flag = palace_bureaucracy_set
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		any_demesne_title = {
+			clr_title_flag = palace_bureaucracy_set
+			clr_title_flag = primary_set
+		} 
+		remove_character_modifier = palace_bureaucracy
+		remove_character_modifier = low_palace_bureaucracy
+		remove_character_modifier = high_palace_bureaucracy
+		remove_character_modifier = poor_reforms
+		remove_character_modifier = good_reforms
+		remove_character_modifier = sold_bureaucratic_positions
+	}
+}
+
+#Primary Title Switch (MTTH)
+character_event = {
+	id = fkr.205
+	hide_window = yes
+	trigger = {
+		is_feudal = yes
+		any_demesne_title = {
+			has_title_flag = palace_bureaucracy_set
+			has_title_flag = primary_set
+		}
+		NOT = {
+			primary_title = {
+				has_title_flag = primary_set
+			}
+		}	
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_demesne_title = {
+			limit = {
+				has_title_flag = primary_set
+			}
+			set_variable = { which = global_selfbureau_number which = palace_bureaucracy_number }
+			clr_title_flag = palace_bureaucracy_set
+			clr_title_flag = primary_set
+		}
+		primary_title = {
+			set_variable = { which = palace_bureaucracy_number which = global_selfbureau_number }
+			set_title_flag = palace_bureaucracy_set
+			set_title_flag = primary_set
+		}
+	}
+}
+
+#Bureaucracy Rise: Good Vassals/Rulers
+character_event = {
+	id = fkr.206
+	desc = EVTDESCFKR206
+	picture = GFX_evt_china_golden_age
+	only_playable = yes
+	min_age = 16
+	
+	trigger = {
+		is_feudal
+		OR = {
+			trait = just
+			trait = administrator
+			stewardship > 15
+			learning > 15
+		}
+		NOT = {
+			has_character_flag = quality_ruler
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = palace_bureaucracy_number value = 3 }
+		}
+	}
+	
+	option = {
+		name = opta_excellent
+		set_character_flag = quality_ruler
+		custom_tooltip = {
+			text = bureau_increase_3_TT
+		}
+		prestige = 50
+		if = {
+			limit = {
+				independent = no
+			}
+			liege = {
+				character_event = { id = fkr.207 }
+			}
+		}
+	}
+}
+
+#Liege Notification
+character_event = {
+	id = fkr.207
+	desc = EVTDESCFKR207
+	picture = GFX_evt_china_golden_age
+	notification = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = palace_bureaucracy_number value = 2 }
+		}
+	}
+	
+	option = {
+		name = opta_excellent
+		custom_tooltip = {
+			text = bureau_increase_2_TT
+		}
+		opinion = {
+			modifier = model_bureaucrat
+			who = FROM
+		}
+		prestige = 25
+	}
+}
+
+#Bureaucracy Rise: Strong Council (Triggerd by Law on_pass_effect)
+character_event = {
+	id = fkr.208
+	desc = EVTDESCFKR208
+	picture = GFX_evt_china_golden_age
+	notification = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			has_character_flag = law_no_change
+		}
+		government = bureaucratic_government
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = palace_bureaucracy_number value = 2.5 }
+		}
+	}
+	
+	option = {
+		name = opta_excellent
+		custom_tooltip = {
+			text = bureau_increase_205_TT
+		}
+		prestige = 25
+	}
+}
+
+#Set up for quality councillors
+character_event = {
+	id = fkr.209
+	hide_window = yes
+	
+	has_job_title = yes
+	
+	trigger = {
+		liege = {
+			is_feudal = yes
+		}
+		OR = {
+			AND = {
+				has_job_title = job_chancellor
+				NOT = {
+					liege = {
+						has_character_flag = set_chancellor
+					}
+				}
+				diplomacy > 15
+			}
+			AND = {
+				has_job_title = job_marshal
+				NOT = {
+					liege = {
+						has_character_flag = set_marshal
+					}
+				}
+				martial > 15
+			}
+			AND = {
+				has_job_title = job_treasurer
+				NOT = {
+					liege = {
+						has_character_flag = set_treasurer
+					}
+				}
+				stewardship > 15
+			}
+			AND = {
+				has_job_title = job_spymaster
+				NOT = {
+					liege = {
+						has_character_flag = set_spymaster
+					}
+				}
+				intrigue > 15
+			}
+			AND = {
+				has_job_title = job_spiritual
+				NOT = {
+					liege = {
+						has_character_flag = set_spiritual
+					}
+				}
+				learning > 15
+			}
+		}
+		NOT = {
+			has_character_flag = councillor_set
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = councillor_set
+		liege = {
+			character_event = { id = fkr.210 }
+		}
+	}
+}
+
+#Bureaucracy Rise: Quality Councillors
+character_event = {
+	id = fkr.210
+	desc = EVTDESCFKR210
+	picture = GFX_evt_china_golden_age
+	is_triggered_only = yes
+
+	immediate = {
+		primary_title = {
+			change_variable = { which = palace_bureaucracy_number value = 2 }
+		}
+	}
+	
+	option = {
+		name = opta_excellent
+		custom_tooltip = {
+			text = bureau_increase_2_TT
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_job_title = job_chancellor
+				}
+			}
+			set_character_flag = set_chancellor
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_job_title = job_marshal
+				}
+			}
+			set_character_flag = set_marshal
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_job_title = job_treasurer
+				}
+			}
+			set_character_flag = set_treasurer
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_job_title = job_spymaster
+				}
+			}
+			set_character_flag = set_spymaster
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_job_title = job_spiritual
+				}
+			}
+			set_character_flag = set_spiritual
+		}
+		opinion = {
+			modifier = model_bureaucrat
+			who = FROM
+		}
+		prestige = 25
+	}
+}
+
+#Leave a space for minor title event
+
+#Bureaucracy Fall: Bad vassals
+character_event = {
+	id = fkr.212
+	desc = EVTDESCFKR212
+	picture = GFX_evt_china_isolationist
+	only_playable = yes
+	min_age = 16
+	
+	trigger = {
+		is_feudal = yes
+		OR = {
+			trait = arbitrary
+			stewardship < 6
+			learning < 6
+		}
+		NOT = {
+			has_character_flag = quality_ruler
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = palace_bureaucracy_number value = -2 }
+		}
+	}
+	
+	option = {
+		name = opta_disappointing
+		set_character_flag = quality_ruler
+		custom_tooltip = {
+			text = bureau_decrease_2_TT
+		}
+		prestige = -10
+		if = {
+			limit = {
+				independent = no
+			}
+			liege = {
+				character_event = { id = fkr.213 }
+			}
+		}
+	}
+}
+
+#Liege Notification
+character_event = {
+	id = fkr.213
+	desc = EVTDESCFKR213
+	picture = GFX_evt_china_isolationist
+	notification = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = palace_bureaucracy_number value = -2 }
+		}
+	}
+	
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			text = bureau_decrease_2_TT
+		}
+		opinion = {
+			modifier = bad_bureaucrat
+			who = FROM
+		}
+	}
+}
+
+#Bureaucracy Fall: Weak Council (Triggerd by Law on_pass_effect)
+character_event = {
+	id = fkr.214
+	desc = EVTDESCFKR214
+	picture = GFX_evt_china_isolationist
+	is_triggered_only = yes
+	
+	trigger = {
+		government = bureaucratic_government
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = palace_bureaucracy_number value = -5 }
+		}
+	}
+	
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			text = bureau_decrease_3_TT
+		}
+		prestige = -10
+	}
+}
+
+
+#Set up for bad councillors
+character_event = {
+	id = fkr.215
+	hide_window = yes
+	
+	has_job_title = yes
+	
+	trigger = {
+		liege = {
+			is_feudal = yes
+		}
+		OR = {
+			AND = {
+				has_job_title = job_chancellor
+				NOT = {
+					liege = {
+						has_character_flag = set_chancellor
+					}
+				}
+				diplomacy < 6
+			}
+			AND = {
+				has_job_title = job_marshal
+				NOT = {
+					liege = {
+						has_character_flag = set_marshal
+					}
+				}
+				martial < 6
+			}
+			AND = {
+				has_job_title = job_treasurer
+				NOT = {
+					liege = {
+						has_character_flag = set_treasurer
+					}
+				}
+				stewardship < 6
+			}
+			AND = {
+				has_job_title = job_spymaster
+				NOT = {
+					liege = {
+						has_character_flag = set_spymaster
+					}
+				}
+				intrigue < 6
+			}
+			AND = {
+				has_job_title = job_spiritual
+				NOT = {
+					liege = {
+						has_character_flag = set_spiritual
+					}
+				}
+				learning < 6
+			}
+		}
+		NOT = {
+			has_character_flag = councillor_set
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = councillor_set
+		liege = {
+			character_event = { id = fkr.216 }
+		}
+	}
+}
+
+#Bureaucracy Fall: Bad Councillors
+character_event = {
+	id = fkr.216
+	desc = EVTDESCFKR216
+	picture = GFX_evt_china_isolationist
+	is_triggered_only = yes
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = palace_bureaucracy_number value = -1 }
+		}
+	}
+	
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			text = bureau_decrease_1_TT
+		}
+		opinion = {
+			modifier = bad_bureaucrat
+			who = FROM
+		}
+		prestige = -10
+	}
+}
+
+#Bureaucracy Fall: Succession (on_death)
+character_event = {
+	id = fkr.217
+	desc = EVTDESCFKR217
+	picture = GFX_evt_china_isolationist
+	is_triggered_only = yes
+	only_playable = yes
+	
+	trigger = {
+		is_feudal = yes
+		current_heir = {
+			is_landed = no
+		}
+		primary_title = {
+			check_variable = { which = palace_bureaucracy_number value > 40 }
+		}
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = palace_bureaucracy_number value = -10 }
+		}
+		current_heir = {
+			add_character_modifier = {
+				name = palace_bureaucracy
+				duration = -1
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTAFKR217
+		custom_tooltip = {
+			text = bureau_decrease_10_TT
+		}
+	}
+}
+
+#Bureaucracy Fall: Nepotism (on_new_holder)
+character_event = {
+	id = fkr.218
+	hide_window = yes
+	is_triggered_only = yes
+	only_playable = yes
+	
+	trigger = {
+		liege = {
+			is_close_relative = ROOT
+		}
+		NOR = {
+			trait = just
+			trait = administrator
+			stewardship > 15
+			learning > 15
+		}
+		independent = no
+	}
+	immediate = {
+		liege = {
+			character_event = { id = fkr.219 }
+		}
+	}
+}
+
+#Liege Notification
+character_event = {
+	id = fkr.219
+	desc = EVTDESCFKR219
+	picture = GFX_evt_china_isolationist
+	is_triggered_only = yes
+	only_playable = yes
+
+	immediate = {
+		primary_title = {
+			change_variable = { which = palace_bureaucracy_number value = -2 }
+		}
+	}
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			text = bureau_decrease_2_TT
+		}
+	}
+}
+
+#Bureaucracy Fall: Nepotism Setup (MTTH)
+character_event = {
+	id = fkr.220
+	hide_window = yes 
+	trigger = {
+		OR = {
+			has_minor_title = title_commander
+			is_councillor = yes
+		}
+		OR = {
+			is_cousin_of = liege
+			is_close_relative = liege
+		}
+		NOR = {
+			trait = just
+			trait = administrator
+			stewardship > 15
+			learning > 15
+			AND = {
+				has_job_title = job_chancellor
+				diplomacy > 15
+			}
+			AND = {
+				has_job_title = job_marshal
+				martial > 15
+			}
+			AND = {
+				has_job_title = job_treasurer
+				stewardship > 15
+			}
+			AND = {
+				has_job_title = job_spymaster
+				intrigue > 15
+			}
+			AND = {
+				has_job_title = job_spiritual
+				learning > 15
+			}
+		}
+		NOT = {
+			has_character_flag = flag_nepotism
+		}
+		independent = no
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = flag_nepotism
+		liege = { id = fkr.221 }
+	}
+}
+
+#Liege Notification
+character_event = {
+	id = fkr.221
+	desc = EVTDESCFKR220
+	picture = GFX_evt_china_isolationist
+	only_playable = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		primary_title = {
+			change_variable = { which = palace_bureaucracy_number value = -2 }
+		}
+	}
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			text = bureau_decrease_2_TT
+		}
+	}
+}
+
+#Bureaucracy Fall: Capital Sack
+character_event = {
+	id = fkr.222
+	desc = EVTDESCFKR222
+	picture = GFX_evt_china_isolationist
+	only_playable = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = palace_bureaucracy_number value = -10 }
+		}
+	}
+	
+	option = {
+		name = EVTOPTAFKR222
+		custom_tooltip = {
+			text = bureau_decrease_10_TT
+		}
+	}
+}
+#Leaving space for more events
+
+#Decrease to Low Bureaucracy
+character_event = {
+	id = fkr.230
+	desc = EVTDESCFKR230
+	picture = GFX_evt_china_isolationist
+	trigger = {
+		is_feudal = yes
+		primary_title = {
+			check_variable = { which = palace_bureaucracy_number value < 40 }
+		}
+		NOT = {
+			has_character_modifier = low_bureaucracy
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAFKR230
+		add_character_modifier = {
+			modifier = low_bureaucracy
+			duration = -1
+		}
+	}	
+}
+
+#Decrease to Average Bureaucracy
+character_event = {
+	id = fkr.231
+	desc = EVTDESCFKR231
+	picture = GFX_evt_china_isolationist
+	trigger = {
+		is_feudal = yes
+		primary_title = {
+			check_variable = { which = palace_bureaucracy value < 70 }
+		}
+		has_character_modifier = high_bureaucracy
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAFKR231
+		remove_character_modifier = high_bureaucracy
+	}	
+}
+
+#Increase to Average Bureaucracy
+character_event = {
+	id = fkr.232
+	desc = EVTDESCFKR232
+	picture = GFX_evt_china_expansionist
+	trigger = {
+		is_feudal = yes
+		primary_title = {
+			AND = {
+				check_variable = { which = palace_bureaucracy value > 40 }
+				check_variable = { which = palace_bureaucracy value < 70 }
+			}
+		}
+		has_character_modifier = low_bureaucracy
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = opta_excellent
+		remove_character_modifier = low_bureaucracy
+	}	
+}
+
+#Increase to High Bureaucracy
+character_event = {
+	id = fkr.233
+	desc = EVTDESCFKR233
+	picture = GFX_evt_china_expansionist
+	trigger = {
+		is_feudal = yes
+		primary_title = {
+			check_variable = { which = palace_bureaucracy value > 70 }
+		}
+		NOT = {
+			has_character_modifier = high_bureaucracy
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAFKR233
+		add_character_modifier = {
+			modifier = high_bureaucracy
+			duration = -1
+		}
+	}	
+}
+
+#Bureaucratic reform
+character_event = {
+	id = fkr.234
+	desc = EVTDESCFKR234
+	picture = GFX_evt_china_stable
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAFKR234
+		scaled_wealth = -0.50
+		custom_tooltip = {
+			text = reform_bare_TT
+			text = getback_180_TT
+			hidden_tooltip = {
+				random_list = {
+					60 = { #poor reform
+						character_event = { id = fkr.235 days = 180 }
+						modifier = {
+							factor = 2
+							stewardship < 6
+						}
+					}
+					20 = { #reform
+						character_event = { id = fkr.236 days = 180 }
+					}
+					20 = { #great reform
+						character_event = { id = fkr.237 days = 180 }
+						modifier = {
+							factor = 0.5
+							stewardship < 6
+						}
+						modifier = {
+							factor = 1.2
+							stewardship > 15
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 0.25
+			modifier = {
+				factor = 2
+				trait = slothful
+			}
+			modifier = {
+				factor = 1.2
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 0.7
+				trait = diligent
+			}
+			modifier = {
+				factor = 0.3
+				trait = just
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBFKR234
+		scaled_wealth = -1
+		custom_tooltip = {
+			text = reform_good_TT
+			text = getback_180_TT
+			hidden_tooltip = {
+				random_list = {
+					25 = { #poor reform
+						character_event = { id = fkr.235 days = 180 }
+						modifier = {
+							factor = 2
+							stewardship < 6
+						}
+					}
+					55 = { #reform
+						character_event = { id = fkr.236 days = 180 }
+					}
+					20 = { #great reform
+						character_event = { id = fkr.237 days = 180 }
+						modifier = {
+							factor = 0.6
+							stewardship < 6
+						}
+						modifier = {
+							factor = 1.3
+							stewardship > 15
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 0.45
+			modifier = {
+				factor = 0.5
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.8
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 1.1
+				trait = diligent
+			}
+			modifier = {
+				factor = 1.2
+				trait = just
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCFKR234
+		scaled_wealth = -2
+		custom_tooltip = {
+			text = reform_alot_TT
+			text = getback_180_TT
+			hidden_tooltip = {
+				random_list = {
+					10 = { #poor reform
+						character_event = { id = fkr.235 days = 180 }
+						modifier = {
+							factor = 2
+							stewardship < 6
+						}
+					}
+					60 = { #reform
+						character_event = { id = fkr.236 days = 180 }
+					}
+					25 = { #great reform
+						character_event = { id = fkr.237 days = 180 }
+						modifier = {
+							factor = 0.7
+							stewardship < 6
+						}
+						modifier = {
+							factor = 1.5
+							stewardship > 15
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 0.30
+			modifier = {
+				factor = 0.5
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.7
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 1.2
+				trait = diligent
+			}
+			modifier = {
+				factor = 1.3
+				trait = just
+			}
+		}
+	}
+}
+
+#Reforms failed
+character_event = {
+	id = fkr.235
+	desc = EVTDESCFKR235
+	picture = GFX_evt_china_isolationist
+	is_triggered_only = yes
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = palace_bureaucracy_number value = -3 }
+		}
+	}
+	
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			name = bureau_decrease_3_TT
+		}
+		add_character_modifier = {
+			modifier = poor_reforms
+			duration = 365
+		}
+	}
+}
+
+#Reforms did fine
+character_event = {
+	id = fkr.236
+	desc = EVTDESCFKR236
+	picture = GFX_evt_china_stable
+	is_triggered_only = yes
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = palace_bureaucracy_number value = 3 }
+		}
+	}
+	
+	option = {
+		name = EVTOPTAFKR236
+		custom_tooltip = {
+			name = bureau_increase_3_TT
+		}
+	}
+}
+
+#Reforms succeeded
+character_event = {
+	id = fkr.237
+	desc = EVTDESCFKR237
+	picture = GFX_evt_china_golden_age
+	is_triggered_only = yes
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = palace_bureaucracy_number value = 5 }
+		}
+	}
+	
+	option = {
+		name = EVTOPTAFKR237
+		custom_tooltip = {
+			name = bureau_increase_3_TT
+		}
+		custom_tooltip = {
+			name = globalbureau_increase_1_TT
+		}
+		add_character_modifier = {
+			modifier = good_reforms
+			duration = 365
+		}
+	}
+}
+
+#Maintenance
+character_event = {
+	id = fkr.250
+	hide_window = yes
+	trigger = {
+		primary_title = {
+			check_variable = { which = palace_bureaucracy_number value >= 100 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			set_variable = { which = palace_bureaucracy_number value = 100 }
+		}
+	}
+}
+
+#Maintenance
+character_event = {
+	id = fkr.251
+	hide_window = yes
+	trigger = {
+		primary_title = {
+			check_variable = { which = palace_bureaucracy_number value < 0 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			set_variable = { which = palace_bureaucracy_number value = 0 }
 		}
 	}
 }

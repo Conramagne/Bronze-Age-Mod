@@ -89,7 +89,8 @@ laws = {
 		}
 		pass_effect = {
 			holder_scope = {
-				character_event = { id = fkr.109 }
+				character_event = { id = fkr.111 }
+				character_event = { id = fkr.214 }
 			}
 		}
 		effect = {
@@ -213,6 +214,7 @@ laws = {
 		pass_effect = {
 			holder_scope = {
 				character_event = { id = fkr.117 }
+				character_event = { id = fkr.208 }
 			}
 		}
 		effect = {
@@ -311,7 +313,8 @@ laws = {
 		}
 		pass_effect = {
 			holder_scope = {
-				character_event = { id = fkr.109 }
+				character_event = { id = fkr.111 }
+				character_event = { id = fkr.214 }
 			}
 		}
 		effect = {
@@ -422,6 +425,7 @@ laws = {
 		pass_effect = {
 			holder_scope = {
 				character_event = { id = fkr.117 }
+				character_event = { id = fkr.208 }
 			}
 		}
 		effect = {
@@ -511,7 +515,8 @@ laws = {
 		}
 		pass_effect = {
 			holder_scope = {
-				character_event = { id = fkr.109 }
+				character_event = { id = fkr.111 }
+				character_event = { id = fkr.214 }
 			}
 		}
 		effect = {
@@ -619,6 +624,7 @@ laws = {
 		pass_effect = {
 			holder_scope = {
 				character_event = { id = fkr.117 }
+				character_event = { id = fkr.208 }
 			}
 		}
 		effect = {
@@ -704,7 +710,8 @@ laws = {
 		}
 		pass_effect = {
 			holder_scope = {
-				character_event = { id = fkr.109 }
+				character_event = { id = fkr.111 }
+				character_event = { id = fkr.214 }
 			}
 		}
 		effect = {
@@ -811,6 +818,7 @@ laws = {
 		pass_effect = {
 			holder_scope = {
 				character_event = { id = fkr.117 }
+				character_event = { id = fkr.208 }
 			}
 		}
 		effect = {
@@ -896,7 +904,8 @@ laws = {
 		}
 		pass_effect = {
 			holder_scope = {
-				character_event = { id = fkr.109 }
+				character_event = { id = fkr.111 }
+				character_event = { id = fkr.214 }
 			}
 		}
 		effect = {
@@ -1004,6 +1013,7 @@ laws = {
 		pass_effect = {
 			holder_scope = {
 				character_event = { id = fkr.117 }
+				character_event = { id = fkr.208 }
 			}
 		}
 		effect = {
@@ -1088,7 +1098,8 @@ laws = {
 		}
 		pass_effect = {
 			holder_scope = {
-				character_event = { id = fkr.109 }
+				character_event = { id = fkr.111 }
+				character_event = { id = fkr.214 }
 			}
 		}
 		effect = {
@@ -1196,6 +1207,7 @@ laws = {
 		pass_effect = {
 			holder_scope = {
 				character_event = { id = fkr.117 }
+				character_event = { id = fkr.208 }
 			}
 		}
 		effect = {
@@ -1281,7 +1293,8 @@ laws = {
 		}
 		pass_effect = {
 			holder_scope = {
-				character_event = { id = fkr.109 }
+				character_event = { id = fkr.111 }
+				character_event = { id = fkr.214 }
 			}
 		}
 		effect = {
@@ -1388,6 +1401,7 @@ laws = {
 		pass_effect = {
 			holder_scope = {
 				character_event = { id = fkr.117 }
+				character_event = { id = fkr.208 }
 			}
 		}
 		effect = {
@@ -1469,7 +1483,8 @@ laws = {
 		}
 		pass_effect = {
 			holder_scope = {
-				character_event = { id = fkr.109 }
+				character_event = { id = fkr.111 }
+				character_event = { id = fkr.214 }
 			}
 		}
 		effect = {
@@ -1550,6 +1565,7 @@ laws = {
 		pass_effect = {
 			holder_scope = {
 				character_event = { id = fkr.117 }
+				character_event = { id = fkr.208 }
 			}
 		}
 		effect = {

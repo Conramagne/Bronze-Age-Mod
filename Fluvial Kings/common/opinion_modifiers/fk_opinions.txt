@@ -2,6 +2,11 @@ opinion_oppressive_overlord = {
 	opinion = -50
 }
 
+opinion_overstepped_boundary = {
+	opinion = -20
+	months = 120
+}
+
 opinion_slandered_emperor = {
 	opinion = -50
 	months = 60
@@ -49,4 +54,14 @@ opinion_large_sacrifice_fail = {
 opinion_rectified_grievance = {
 	opinion = 65
 	years = 10
+}
+
+model_bureaucrat = {
+	opinion = 10
+	years = 5
+}
+
+bad_bureaucrat = {
+	opinion = -20
+	years = 5
 }

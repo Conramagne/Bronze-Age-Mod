@@ -37,8 +37,9 @@ on_startup = {
 		fkr.10 #Setting Viceroy Succession
 		fkr.12 #Setting Eldership Succession
 		fkr.14 #Adds Increased Revolt Risk to Regional Kingdoms
-		fkr.17 #Setting Feudal Elective Succession
+		fkr.17 #Sets up Feudal Elective Succession
 		fkr.100 #Sets up Imperial Authority
+		fkr.200 #Sets up Palace Bureaucracy
 	}
 }
 
@@ -2879,6 +2880,11 @@ on_new_holder = {
 		fkr.12 #Setting Eldership Succession
 		fkr.14 #Adds Increased Revolt Risk to Regional Kingdoms
 		fkr.17 #Setting Feudal Elective Succession
+		
+		fkr.202 #Gives Palace Bureaucracy to Heirs/Removes it from Non-Feudal Lords
+		fkr.203 #Gives Palace Bureaucracy to New Vassals
+		fkr.217 #Palace Bureaucracy Falling on New Holder
+		fkr.218 #Lowers Palace Bureaucracy for Nepotism
 	}
 	random_events = {
 		delayed_hagia_sophia_conversion = {

@@ -102,6 +102,211 @@ decisions = {
 			always = no
 		}
 	}
+
+	bureaucratic_reform = {
+		ai_check_interval = 12
+		is_high_prio = yes
+		only_playable = yes
+		
+		potential = {
+			is_feudal = yes
+			higher_real_tier_than = COUNT
+			prisoner = no
+			NOT = {
+				is_incapable = yes
+			}
+			is_inaccessible_trigger = no
+			age = 16
+		}
+		allow = {
+			custom_tooltip = {
+				text = has_not_reformed_10ys_TT
+				hidden_tooltip = {
+					OR = {
+						had_character_flag = { flag = b_reforms days = 3650 }
+						NOT = { has_character_flag = b_reforms }
+					}
+				}
+			}
+			scaled_wealth = 1
+		}
+		effect = {
+			character_event = { id = fkr.234 }
+			clr_character_flag = b_reforms
+			set_character_flag = b_reforms
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.25
+			modifier = {
+				factor = 0.6
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 1.5
+				trait = just
+			}
+		}
+	}
+
+	sell_positions = {
+		ai_check_interval = 12
+		is_high_prio = yes
+		only_playable = yes
+		
+		potential = {
+			is_feudal = yes
+			higher_real_tier_than = COUNT
+			prisoner = no
+			NOT = {
+				is_incapable = yes
+			}
+			is_inaccessible_trigger = no
+			primary_title = {
+				check_variable = { which = palace_bureaucracy_number value > 5 }
+			}
+			age = 16
+		}
+		allow = {
+			custom_tooltip = {
+				text = has_not_sold_7ys_TT
+				hidden_tooltip = {
+					OR = {
+						had_character_flag = { flag = b_sold days = 2555 }
+						NOT = { has_character_flag = b_sold }
+					}
+				}
+			}
+		}
+		effect = {
+			scaled_wealth = 2
+			custom_tooltip = {
+				text = bureau_decrease_5_TT
+				hidden_tooltip = {
+					primary_title = {
+						change_variable = { which = palace_bureaucracy_number value = -5 }
+					}
+				}
+			}
+			clr_character_flag = b_sold
+			set_character_flag = b_sold
+			add_trait = arbitrary
+			random = {
+				chance = 33
+				add_trait = greedy
+			}
+			add_character_modifier = {
+				modifier = sold_bureaucratic_positions
+				duration = 1825
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 0.5
+				trait = just
+			}
+			modifier = {
+				factor = 0.5
+				ai_honor = 25
+			}
+			modifier = {
+				factor = 2.5
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 3
+				trait = greedy
+			}
+			modifier = {
+				factor = 1.5
+				ai_greed < -25
+			}
+			modifier = {
+				factor = 1.5
+				ai_honor < -25
+			}
+		}
+	}
+	
+	request_personal_tribute = {
+		ai_check_interval = 12
+		is_high_prio = yes
+		only_playable = yes
+		
+		potential = {
+			is_feudal = yes
+			independent = no
+			liege = {
+				OR = {
+					trait = figurehead_emperor
+					trait = weak_emperor
+				}
+			}
+			prisoner = no
+			NOT = {
+				is_incapable = yes
+			}
+			is_inaccessible_trigger = no
+			age = 16
+		}
+		allow = {
+			NOT = {
+				has_character_modifier = requested_personal_tribute
+			}
+		}
+		effect = {
+			scaled_wealth = 1
+			add_character_modifier = {
+				modifier = requested_personal_tribute
+				duration = 1825
+			}
+			add_trait = arbitrary
+			random = {
+				chance = 33
+				add_trait = greedy
+			}
+			opinion = {
+				modifier = opinion_overstepped_boundary
+				who = liege
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 0.5
+				trait = just
+			}
+			modifier = {
+				factor = 0.5
+				ai_honor = 25
+			}
+			modifier = {
+				factor = 2.5
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 3
+				trait = greedy
+			}
+			modifier = {
+				factor = 1.5
+				ai_greed < -25
+			}
+			modifier = {
+				factor = 1.5
+				ai_honor < -25
+			}
+		}
+	}
 }
 
 targetted_decisions = {
