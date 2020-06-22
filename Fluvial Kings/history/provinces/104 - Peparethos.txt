@@ -1,0 +1,13 @@
+title=c_peparethos
+
+max_settlements= 6
+b_peparethos=castle
+b_skiothos=temple
+b_skopelos=city
+b_eudemia=castle
+b_ikos=city
+b_gerontia=temple
+
+culture=greek
+religion=pantes_theoi
+terrain=plains

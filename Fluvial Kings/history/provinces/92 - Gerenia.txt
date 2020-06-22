@@ -1,0 +1,9 @@
+title=c_gerenia
+
+max_settlements= 2
+b_gerenia=castle
+b_pherea=temple
+
+culture=greek
+religion=pantes_theoi
+terrain=plains

@@ -133,7 +133,7 @@ c_thebes_adj;Thêbaian;;;;;;;;;;;;;x
 c_opus;Opoûs;;;;;;;;;;;;;x
 c_opus_adj;Opoûsian;;;;;;;;;;;;;x
 c_chaeronea;Khaironeia;;;;;;;;;;;;;x
-c_chaeronea_adj;Khaironeia;;;;;;;;;;;;;x
+c_chaeronea_adj;Khaironeiai;;;;;;;;;;;;;x
 c_dium;Dion;;;;;;;;;;;;;x
 c_dium_adj;Dionian;;;;;;;;;;;;;x
 c_eretria;Eretria;;;;;;;;;;;;;x
@@ -306,8 +306,8 @@ b_oichalia;Oichalía;;;;;;;;;;;;;x
 b_oichalia_adj;Oichalian;;;;;;;;;;;;;x
 b_koroni;Koroni;;;;;;;;;;;;;x
 b_koroni_adj;Koroniai;;;;;;;;;;;;;x
-b_asine;Asine;;;;;;;;;;;;;x
-b_asine_adj;Asineni;;;;;;;;;;;;;x
+b_asine_mes;Asine;;;;;;;;;;;;;x
+b_asine_mes_adj;Asineni;;;;;;;;;;;;;x
 b_dorion;Dorion;;;;;;;;;;;;;x
 b_dorion_adj;Dorioan;;;;;;;;;;;;;x
 b_phigaleia;Phigaleia;;;;;;;;;;;;;x
@@ -328,6 +328,8 @@ b_methone;Methone;;;;;;;;;;;;;x
 b_methone_adj;Methonei;;;;;;;;;;;;;x
 b_gerenia;Gerenía;;;;;;;;;;;;;x
 b_gerenia_adj;Gereniai;;;;;;;;;;;;;x
+b_pherea;Pherea;;;;;;;;;;;;;x
+b_pherea_adj;Pherea;;;;;;;;;;;;;x
 
 ###########Attica/Central Greece Baronies###########
 b_athens;Athênai;;;;;;;;;;;;;x

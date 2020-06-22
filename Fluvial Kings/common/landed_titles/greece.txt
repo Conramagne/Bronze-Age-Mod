@@ -264,5 +264,191 @@ e_greek_empire = {
 				b_kythria = {}
 			}
 		}
+		d_messenia = { 
+			color = { 81 161 171 }
+			color2 = { 255 255 255 }
+	
+			capital = 89 # Messene
+			
+			c_messene = {
+				color = { 81 161 171 }
+				color2 = { 255 255 255 }
+				
+				b_messene = {}
+				b_oichalia = {}
+				b_koroni = {}
+				b_asine_mes = {}
+			}
+			c_dorion = {
+				color={ 22 93 102 }
+				color2={ 255 255 255 }
+				
+				b_dorion = {}
+				b_phigaleia = {}
+				b_bassae = {}
+				b_lepreos = {}
+				b_sami = {}
+			}
+			
+			c_pylos = {
+				color={ 39 123 133 }
+				color2={ 255 255 255 }
+				
+				b_pylos = {}
+				b_peristeria = {}
+				b_amphigeneia = {}
+				b_methone = {}
+			}
+			
+			c_gerenia = {
+				color={ 41 131 142 }
+				color2={ 255 255 255 }
+				
+				b_gerenia = {}
+				b_pherea = {}
+			}
+		}
+	}
+	k_attica = {
+		color = { 116 188 225 }
+		color2 = { 255 255 255 }
+		
+		capital = 93 # Athens
+		
+		#culture = manden
+		
+		d_attica = { 
+			color = { 147 183 120 }
+			color2 = { 255 255 255 }
+	
+			capital = 93 # Athens
+			
+			c_attica = {
+				color = { 147 183 120 }
+				color2 = { 255 255 255 }
+				
+				b_athens = {}
+				b_pireas = {}
+				b_penteli = {}
+				b_brauron = {}
+			}
+			c_eleusis = {
+				color={ 63 125 17 }
+				color2={ 255 255 255 }
+				
+				b_eleusis = {}
+			}
+			
+			c_marathon = {
+				color={ 105 162 62 }
+				color2={ 255 255 255 }
+				
+				b_marathon = {}
+				b_ramnous = {}
+				b_oropos = {}
+			}
+			
+			c_perati = {
+				color={ 71 136 23 }
+				color2={ 255 255 255 }
+				
+				b_perati = {}
+				b_hymettus = {}
+				b_thorikos = {}
+				b_lavrion = {}
+				b_sounio = {}
+			}
+		}
+		d_boetica = { 
+			color = { 49 95 15 }
+			color2 = { 255 255 255 }
+	
+			capital = 97 # Platea
+			
+			c_platea = {
+				color = { 49 95 15 }
+				color2 = { 255 255 255 }
+				
+				b_platea = {}
+				b_thespiae = {}
+				b_leuctra = {}
+				b_eutresis = {}
+			}
+			c_thebes = {
+				color = { 37 66 16 }
+				color2 = { 255 255 255 }
+				
+				b_thebes = {}
+				b_gla = {}
+				b_orchomenos = {}
+				b_cynus = {}
+				b_aulis = {}
+				b_hyria = {}
+			}
+			c_opus = {
+				color = { 49 100 15 }
+				color2 = { 255 255 255 }
+				
+				b_opus = {}
+				b_copae = {}
+				b_ocalea = {}
+				b_elatia = {}
+			}
+			c_chaeronea = {
+				color = { 73 102 52 }
+				color2 = { 255 255 255 }
+				
+				b_chaeronea = {}
+				b_thisbe = {}
+				b_onchestus = {}
+			}
+		}
+		d_euvoia = { 
+			color = { 177 248 125 }
+			color2 = { 255 255 255 }
+	
+			capital = 101 # Dium
+			
+			c_dium = {
+				color = { 177 248 125 }
+				color2 = { 255 255 255 }
+				
+				b_dium = {}
+				b_artemiaio = {}
+				b_kerynthos = {}
+				b_histaea = {}
+				b_antron = {}
+			}
+			c_eretria = {
+				color={ 108 255 0 }
+				color2={ 255 255 255 }
+				
+				b_eretria = {}
+				b_chalkis = {}
+				b_kymi = {}
+				b_lefkandi = {}
+			}
+			
+			c_dystos = {
+				color={ 98 220 8 }
+				color2={ 255 255 255 }
+				
+				b_dystos = {}
+				b_styra = {}
+				b_karystos = {}
+			}
+			
+			c_peparethos = {
+				color={ 99 191 32 }
+				color2={ 255 255 255 }
+				
+				b_peparethos = {}
+				b_skiothos = {}
+				b_skopelos = {}
+				b_eudemia = {}
+				b_ikos = {}
+				b_gerontia = {}
+			}
+		}
 	}
 }

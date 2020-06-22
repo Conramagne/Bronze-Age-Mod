@@ -1,0 +1,11 @@
+title=c_pylos
+
+max_settlements= 4
+b_pylos=castle
+b_peristeria=city
+b_amphigeneia=temple
+b_methone=castle
+
+culture=greek
+religion=pantes_theoi
+terrain=plains
