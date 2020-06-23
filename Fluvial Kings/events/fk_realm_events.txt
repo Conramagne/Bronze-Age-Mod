@@ -825,9 +825,6 @@ character_event = {
 			remove_trait = weak_emperor
 			remove_trait = figurehead_emperor
 			remove_trait = strong_emperor
-			remove_character_modifier = poor_reforms
-			remove_character_modifier = good_reforms
-			remove_character_modifier = sold_bureaucratic_positions
 		}
 	}
 }
