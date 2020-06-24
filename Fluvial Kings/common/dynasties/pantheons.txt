@@ -21,4 +21,16 @@
 1000001 = {
 	name = "Theogonos"
 	used_for_random = no 
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }

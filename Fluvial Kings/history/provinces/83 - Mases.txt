@@ -1,0 +1,12 @@
+title=c_mases
+
+max_settlements= 5
+b_mases=castle
+b_hermione=city
+b_franchthi=city
+b_epidaurus=temple
+b_pityussa =castle
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

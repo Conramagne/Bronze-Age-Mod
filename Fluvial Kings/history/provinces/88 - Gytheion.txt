@@ -1,0 +1,13 @@
+title=c_gytheion
+
+max_settlements= 6
+b_gytheion=castle
+b_kardamyli=city
+b_leuktros=temple
+b_bitsoulo=city
+b_teuthrone=castle
+b_casenopolis=castle
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

@@ -95,8 +95,13 @@ e_greek_empire = {
 				b_elis = {}
 				b_letrinoi = {}
 				b_opus = {}
-				b_olympia = {}
+			}
+			c_pisa = {
+				color = { 44 64 121 }
+				color2 = { 255 61 100 }
+				
 				b_pisa = {}
+				b_olympia = {}
 			}
 			c_tyhos = {
 				color = { 47 69 133 }
@@ -123,7 +128,7 @@ e_greek_empire = {
 			color={ 120 136 188 }
 			color2={ 255 255 255 }
 	
-			capital = 77 #Kleitor
+			capital = 78 #Kleitor
 			
 			c_kleitor = {
 				color = { 120 136 188 }
@@ -162,7 +167,7 @@ e_greek_empire = {
 			color={ 96 142 166 }
 			color2={ 255 255 255 }
 	
-			capital = 81 #Argos
+			capital = 82 #Argos
 			
 			c_argos = {
 				color = { 96 142 166 }
@@ -198,7 +203,7 @@ e_greek_empire = {
 		color = { 43 140 21 }
 		color2 = { 255 255 255 }
 		
-		capital = 84 # Sparta
+		capital = 85 # Sparta
 		
 		#culture = manden
 		
@@ -206,7 +211,7 @@ e_greek_empire = {
 			color = { 41 93 114 }
 			color2 = { 255 255 255 }
 	
-			capital = 84 # Sparta
+			capital = 85 # Sparta
 			
 			c_lacedemonia = {
 				color = { 41 93 114 }
@@ -253,7 +258,7 @@ e_greek_empire = {
 			color = { 50 162 163 }
 			color2 = { 255 255 255 }
 	
-			capital = 88 # Kythera
+			capital = 89 # Kythera
 			
 			c_kastri = {
 				color = { 50 162 163 }
@@ -268,7 +273,7 @@ e_greek_empire = {
 			color = { 81 161 171 }
 			color2 = { 255 255 255 }
 	
-			capital = 89 # Messene
+			capital = 90 # Messene
 			
 			c_messene = {
 				color = { 81 161 171 }
@@ -313,7 +318,7 @@ e_greek_empire = {
 		color = { 116 188 225 }
 		color2 = { 255 255 255 }
 		
-		capital = 93 # Athens
+		capital = 94 # Athens
 		
 		#culture = manden
 		
@@ -321,7 +326,7 @@ e_greek_empire = {
 			color = { 147 183 120 }
 			color2 = { 255 255 255 }
 	
-			capital = 93 # Athens
+			capital = 94 # Athens
 			
 			c_attica = {
 				color = { 147 183 120 }
@@ -363,7 +368,7 @@ e_greek_empire = {
 			color = { 49 95 15 }
 			color2 = { 255 255 255 }
 	
-			capital = 97 # Platea
+			capital = 98 # Platea
 			
 			c_platea = {
 				color = { 49 95 15 }
@@ -407,7 +412,7 @@ e_greek_empire = {
 			color = { 177 248 125 }
 			color2 = { 255 255 255 }
 	
-			capital = 101 # Dium
+			capital = 102 # Dium
 			
 			c_dium = {
 				color = { 177 248 125 }

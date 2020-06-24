@@ -1,0 +1,10 @@
+title=c_methana
+
+max_settlements= 3
+b_methana=castle
+b_troezen=city
+b_hydrea=temple
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

@@ -1,0 +1,11 @@
+title=c_eretria
+
+max_settlements= 4
+b_eretria=castle
+b_chalkis=city
+b_kymi=temple
+b_lefkandi=castle
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

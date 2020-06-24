@@ -1,0 +1,11 @@
+title=c_opus
+
+max_settlements= 4
+b_opus=castle
+b_copae=temple
+b_ocalea=city
+b_elatia=city
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains
