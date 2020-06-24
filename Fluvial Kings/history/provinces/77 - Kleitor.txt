@@ -4,6 +4,6 @@ max_settlements= 2
 b_kleitor=castle
 b_psophis=city
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

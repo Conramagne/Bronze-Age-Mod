@@ -224,7 +224,7 @@ feudal_governments = {
 		unit_modifier = {
 			levy_size = 0.3
 			
-			key = "VICEROYALTY_UNIT_BONUS"
+			key = "GOVERNMENT_UNIT_BONUS"
 		}
 	}
 	

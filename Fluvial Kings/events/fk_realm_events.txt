@@ -562,6 +562,7 @@ character_event = {
 	hide_window = yes
 	trigger = {
 		government = regional_kingdom_government
+		independent = yes
 		OR = {
 			any_demesne_province = {
 				OR = {
@@ -705,13 +706,28 @@ character_event = {
 			name = imperial_authority
 			duration = -1
 		}
-		primary_title = {
-			set_title_flag = imperial_authority_set
-			set_title_flag = primary_set
-			set_title_flag = flag_hegemonic_government
+		if = {
+			limit = {
+				has_landed_title = e_hittite_empire
+			}
+			primary_title = {
+				set_title_flag = imperial_authority_set
+				set_title_flag = imperial_authority_primary_set
+			}
+			primary_title = {
+				set_variable = { which = var_imperial_authority value = 30 }
+			}
+			add_trait = figurehead_emperor
 		}
-		primary_title = {
-			set_variable = { which = var_imperial_authority value = 60 }
+		else = {
+			primary_title = {
+				set_title_flag = imperial_authority_set
+				set_title_flag = imperial_authority_primary_set
+				set_title_flag = flag_hegemonic_government
+			}
+			primary_title = {
+				set_variable = { which = var_imperial_authority value = 60 }
+			}
 		}
 	}
 }
@@ -742,7 +758,7 @@ character_event = {
 	immediate = {
 		primary_title = {
 			set_title_flag = imperial_authority_set
-			set_title_flag = primary_set
+			set_title_flag = imperial_authority_primary_set
 		}
 		primary_title = {
 			set_variable = { which = var_imperial_authority value = 60 }
@@ -805,7 +821,7 @@ character_event = {
 				has_title_flag = imperial_authority_set
 			} 
 			any_demesne_title = {
-				has_title_flag = primary_set
+				has_title_flag = imperial_authority_primary_set
 			} 
 		}
 	}
@@ -818,7 +834,7 @@ character_event = {
 	immediate = {
 		any_demesne_title = {
 			clr_title_flag = imperial_authority_set
-			clr_title_flag = primary_set
+			clr_title_flag = imperial_authority_primary_set
 		} 
 		hidden_tooltip = {
 			remove_character_modifier = imperial_authority
@@ -837,7 +853,7 @@ character_event = {
 		government = hegemonic_government
 		any_demesne_title = {
 			has_title_flag = imperial_authority_set
-			has_title_flag = primary_set
+			has_title_flag = imperial_authority_primary_set
 		}
 		NOT = {
 			primary_title = {
@@ -852,16 +868,16 @@ character_event = {
 	immediate = {
 		any_demesne_title = {
 			limit = {
-				has_title_flag = primary_set
+				has_title_flag = imperial_authority_primary_set
 			}
 			set_variable = { which = global_self_imperial_authority which = var_imperial_authority }
 			clr_title_flag = imperial_authority_set
-			clr_title_flag = primary_set
+			clr_title_flag = imperial_authority_primary_set
 		}
 		primary_title = {
 			set_variable = { which = var_imperial_authority which = global_self_imperial_authority }
 			set_title_flag = imperial_authority_set
-			set_title_flag = primary_set
+			set_title_flag = imperial_authority_primary_set
 		}
 	}
 }
@@ -1660,6 +1676,7 @@ character_event = {
 	}
 }
 
+#Slander Event Chain Set Up
 character_event = {
 	id = fkr.124
 	hide_window = yes
@@ -2146,7 +2163,7 @@ character_event = {
 		}
 		primary_title = {
 			set_title_flag = imperial_authority_set
-			set_title_flag = primary_set
+			set_title_flag = imperial_authority_primary_set
 		}
 		primary_title = {
 			set_variable = { which = var_imperial_authority value = 80 }
@@ -2154,12 +2171,11 @@ character_event = {
 	}
 }
 
-
 #Authority Increase - Won War
 character_event = {
 	id = fkr.136
 	desc = EVTDESCFKR136
-	picture =GFX_evt_military_victory
+	picture = GFX_evt_military_victory
 	is_triggered_only = yes
 	only_playable = yes
 	
@@ -2168,13 +2184,13 @@ character_event = {
 	}
 	
 	immediate = {
-		change_variable = { which = var_imperial_authority value = 10 }
+		change_variable = { which = var_imperial_authority value = 2 }
 	}
 	
 	option = {
 		name = opta_excellent
 		custom_tooltip = {
-			text = imperial_authority_increase_10_TT
+			text = imperial_authority_increase_2_TT
 		}
 	}
 }
@@ -2183,7 +2199,31 @@ character_event = {
 character_event = {
 	id = fkr.137
 	desc = EVTDESCFKR137
-	picture =GFX_evt_military_defeat
+	picture = GFX_evt_military_defeat
+	is_triggered_only = yes
+	only_playable = yes
+	
+	trigger = {
+		government = hegemonic_government
+	}
+	
+	immediate = {
+		change_variable = { which = var_imperial_authority value = -10 }
+	}
+	
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			text = imperial_authority_decrease_10_TT
+		}
+	}
+}
+
+#Authority Decrease - Sacked Capital
+character_event = {
+	id = fkr.138
+	desc = EVTDESCFKR138
+	picture = GFX_evt_military_defeat
 	is_triggered_only = yes
 	only_playable = yes
 	
@@ -3040,11 +3080,8 @@ character_event = {
 	desc = EVTDESCFKR221
 	picture = GFX_evt_dark_court
 	only_playable = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
+	is_triggered_only = yes
+	
 	immediate = {
 		primary_title = {
 			change_variable = { which = palace_bureaucracy_number value = -2 }

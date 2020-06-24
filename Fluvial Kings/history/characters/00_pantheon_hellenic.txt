@@ -1,0 +1,849 @@
+#Hellenic Pantheon
+1100000 = { #Gaia
+	name = "Gaia" # Gaia, Mother Earth
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+		add_spouse = 1100001
+	}
+	1.1.20 = {
+		remove_spouse = 1100000
+	}
+	1.1.21 = {
+		add_spouse = 1100000
+	}
+	1.1.22 = {
+		remove_spouse = 1100000
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100001 = { #Ouranos
+	name = "Ouranos" # Ouranos, God of the Sky
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	mother = 1100000
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+		add_spouse = 1100000
+	}
+	1.1.20 = {
+		remove_spouse = 1100000
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100002 = { #Pontos
+	name = "Pontos" # Pontos, God of the Sea
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100001
+	mother = 1100000
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.2 = { birth = yes }
+	1.1.2 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	1.1.21 = {
+		add_spouse = 1100000
+	}
+	1.1.22 = {
+		remove_spouse = 1100000
+	}
+	9999.1.1 = { death = yes }
+}
+
+#Titans, Cyclopes, Hecatoncheires (1100003-1100020)
+1100003 = { #Oceanos
+	name = "Oceanos" # Oceanos, Titan of the River Oceanos
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100001
+	mother = 1100000
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.3 = { birth = yes }
+	1.1.3 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100004 = { #Coios
+	name = "Coios" # Coios, Titan
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100001
+	mother = 1100000
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.4 = { birth = yes }
+	1.1.12 = {
+		effect = {
+			set_character_flag = flag_god
+			add_spouse = 1100012
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100005 = { #Crios
+	name = "Crios" # Crios, Titan
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100001
+	mother = 1100000
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.5 = { birth = yes }
+	1.1.5 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100006 = { #Hyperion
+	name = "Hyperion" # Hyperion, Titan
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100001
+	mother = 1100000
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.6 = { birth = yes }
+	1.1.6 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100007 = { #Iapetos
+	name = "Iapetos" # Iapetos, Titan
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100001
+	mother = 1100000
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.7 = { birth = yes }
+	1.1.7 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	1.1.16 = {
+		add_spouse = 1100022
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100008 = { #Theia
+	name = "Theia" # Theia, Titan
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100001
+	mother = 1100000
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.8 = { birth = yes }
+	1.1.8 = {
+		effect = {
+			set_character_flag = flag_god
+			add_spouse = 1100006
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100009 = { #Rhea
+	name = "Rhea" # Rhea, Titan Mother of the Gods
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100001
+	mother = 1100000
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.9 = { birth = yes }
+	1.1.9 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100010 = { #Themis
+	name = "Themis" # Themis, Titan of Divine Order
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100001
+	mother = 1100000
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.10 = { birth = yes }
+	1.1.10 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100011 = { #Mnemosyne
+	name = "Mnemosyne" # Mnemosyne, Titan of Memory
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100001
+	mother = 1100000
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.11 = { birth = yes }
+	1.1.11 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100012 = { #Phoebe
+	name = "Phoebe" # Phoebe, Titan
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100001
+	mother = 1100000
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.12 = { birth = yes }
+	1.1.12 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100013 = { #Tethys
+	name = "Tethys" # Tethys, Titan
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100001
+	mother = 1100000
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.13 = { birth = yes }
+	1.1.13 = {
+		effect = {
+			set_character_flag = flag_god
+			add_spouse = 1100003
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100014 = { #Cronos
+	name = "Cronos" # Cronos, Titan
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100001
+	mother = 1100000
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.14 = { birth = yes }
+	1.1.14 = {
+		effect = {
+			set_character_flag = flag_god
+			add_spouse = 1100009
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+#Leaving 6 Spaces for the Hecatoncheires and Cyclopes
+
+#Oceanids (1100021-1100080)
+1100021 = { #Metis
+	name = "Metis" # Metis
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100003
+	mother = 1100013
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 20
+	1.1.14 = { birth = yes }
+	1.1.14 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	1.1.21 = {
+		effect = {
+			add_spouse = 110146
+		}
+	}
+	1.1.22 = { death = yes }
+}
+
+1100022 = { #Clymene
+	name = "Clymene" # Clymene
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100003
+	mother = 1100013
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 20
+	1.1.15 = { birth = yes }
+	1.1.15 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100023 = { #Pleione
+	name = "Pleione" # Pleione
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100003
+	mother = 1100013
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 20
+	1.1.16 = { birth = yes }
+	1.1.16 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100024 = { #Perseis
+	name = "Perseis" # Perseis
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100003
+	mother = 1100013
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 20
+	1.1.17 = { birth = yes }
+	1.1.17 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100080 = { #Idyia, Youngest of the Oceanids
+	name = "Idyia"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100003
+	mother = 1100013
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 20
+	1.4.3 = { birth = yes }
+	1.4.3 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+
+#Nereids (1100081-1100140)
+
+#Olympians (1100141-1100160)
+1100141 = { #Hestia
+	name = "Hestia" # Hestia, Goddess of the Hearth
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100014
+	mother = 1100009
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 20
+	1.1.15 = { birth = yes }
+	1.1.15 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100142 = { #Demeter
+	name = "Demeter" # Demeter, Goddess of the Harvest
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100014
+	mother = 1100009
+	disallow_random_traits = yes
+	trait = demeter
+	immortal_age = 20
+	1.1.16 = { birth = yes }
+	1.1.16 = {
+		effect = {
+			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100143 = { #Here
+	name = "Here" # Here, Queen of the Gods
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100014
+	mother = 1100009
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 20
+	1.1.17 = { birth = yes }
+	1.1.17 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100144 = { #Hades
+	name = "Hades" # Hades, God of the Underworld
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100014
+	mother = 1100009
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 20
+	1.1.18 = { birth = yes }
+	1.1.18 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	1.1.22 = {
+		effect = {
+			add_spouse = 1100148
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100145 = { #Poseidaon
+	name = "Poseidaon" # Poseidaon, God of the Ocean
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100014
+	mother = 1100009
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 20
+	1.1.19 = { birth = yes }
+	1.1.19 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100146 = { #Zeus
+	name = "Zeus" # Zeus, King of the Gods
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100014
+	mother = 1100009
+	disallow_random_traits = yes
+	trait = zeus
+	immortal_age = 20
+	1.1.20 = { birth = yes }
+	1.1.20 = {
+		effect = {
+			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
+		}
+	}
+	1.1.21 = {
+		effect = {
+			add_spouse = 1100021
+		}
+	}
+	1.1.22 = {
+		effect = {
+			add_spouse = 1100142
+		}
+	}
+	1.1.23 = {
+		effect = {
+			remove_spouse = 1100142
+		}
+	}
+	1.1.23 = {
+		effect = {
+			add_spouse = 1100161
+		}
+	}
+	1.1.24 = {
+		effect = {
+			remove_spouse = 1100161
+		}
+	}
+	1.1.24 = {
+		effect = {
+			add_spouse = 1100143
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100147 = { #Athene
+	name = "Athene" # Athene, Goddess of Strategy
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100146
+	mother = 1100021
+	disallow_random_traits = yes
+	trait = athene
+	immortal_age = 20
+	1.1.21 = { birth = yes }
+	1.1.21 = {
+		effect = {
+			set_character_flag = flag_god
+			set_character_flag = special_boon
+			set_character_flag = flag_can_contact
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100148 = { #Persephone
+	name = "Persephone" # Persephone, Goddess of Spring (Not an Olympian but whatever)
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100146
+	mother = 1100142
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 20
+	1.1.22 = { birth = yes }
+	1.1.22 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100149 = { #Apollon
+	name = "Apollon" # Apollon, God of the Sun
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100146
+	mother = 1100161
+	disallow_random_traits = yes
+	trait = apollon
+	immortal_age = 20
+	1.1.23 = { birth = yes }
+	1.1.23 = {
+		effect = {
+			set_character_flag = flag_god
+			set_character_flag = special_boon
+			set_character_flag = flag_can_contact
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100150 = { #Artemis
+	name = "Artemis" # Artemis, Goddess of the Hunt
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100146
+	mother = 1100161
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 20
+	1.1.23 = { birth = yes }
+	1.1.23 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100151 = { #Hebe
+	name = "Hebe" # Hebe, Goddess of Youth (Not an Olympian but whatever)
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100146
+	mother = 1100143
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 20
+	1.1.24 = { birth = yes }
+	1.1.24 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100152 = { #Ares
+	name = "Ares" # Ares, God of War
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100146
+	mother = 1100143
+	disallow_random_traits = yes
+	trait = ares
+	immortal_age = 20
+	1.1.25 = { birth = yes }
+	1.1.25 = {
+		effect = {
+			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100153 = { #Haphaistos
+	name = "Haphaistos" # Haphaistos, God of Metallurgy
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	mother = 1100143
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 20
+	1.1.26 = { birth = yes }
+	1.1.26 = {
+		effect = {
+			set_character_flag = flag_god
+			add_spouse = 1100155
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100154 = { #Hermes
+	name = "Hermes" # Hermes, God of Commerce
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100146
+	mother = 1100261
+	disallow_random_traits = yes
+	trait = hermes
+	immortal_age = 20
+	1.1.25 = { birth = yes }
+	1.1.25 = {
+		effect = {
+			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
+			remove_trait = bastard
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100155 = { #Aphrodite
+	name = "Aphrodite" # Aphrodite, Goddess of Love
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100001
+	disallow_random_traits = yes
+	trait = aphrodite
+	immortal_age = 20
+	1.1.2 = { birth = yes }
+	1.1.2 = {
+		effect = {
+			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+#Children of Minor Titans (1100161-1100260)
+1100161 = { #Leto
+	name = "Leto" # Leto
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100004
+	mother = 1100012
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 20
+	1.1.13 = { birth = yes }
+	1.1.13 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100162 = { #Atlas
+	name = "Atlas" # Atlas, Titan of Astronomy
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100007
+	mother = 1100022
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.16 = { birth = yes }
+	1.1.16 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	1.1.17 = {
+		add_spouse = 1100023
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100163  = { #Helios
+	name = "Helios" # Helios, God of the Sun
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100006
+	mother = 1100008
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 20
+	1.1.9 = { birth = yes }
+	1.1.9 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+
+#Pleiades (1100261-1100270)
+1100261 = { #Maia
+	name = "Maia" # Maia
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100162
+	mother = 1100023
+	disallow_random_traits = yes
+	trait = immortal
+	immortal_age = 50
+	1.1.17 = { birth = yes }
+	1.1.17 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}

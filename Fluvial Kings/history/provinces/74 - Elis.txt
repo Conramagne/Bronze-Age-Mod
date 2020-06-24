@@ -7,6 +7,6 @@ b_opus=city
 b_olympia=temple
 b_pisa =castle
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

@@ -6,6 +6,6 @@ b_chalkis=city
 b_kymi=temple
 b_lefkandi=castle
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

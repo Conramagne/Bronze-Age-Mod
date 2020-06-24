@@ -51,6 +51,47 @@ strong_emperor = {
 	male_compliment_adj = COMPL_STRONG
 }
 
+#Syncretism Traits
+syncretic_pihassasi = {
+	
+	potential = {
+		NOT = { religion_group = pihassasi }
+	}
+
+	tolerates_pihassasi = yes
+
+	same_opinion_if_same_religion = 5
+
+	customizer = no
+	random = no
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+
+syncretic_hellenic = {
+	
+	potential = {
+		NOT = { religion_group = hellenic }
+	}
+
+	tolerates_hellenic = yes
+
+	same_opinion_if_same_religion = 5
+
+	customizer = no
+	random = no
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+
 #Pihassasi Pantheon Traits
 tarhunna = {
 	hidden_from_others = yes
@@ -60,6 +101,9 @@ tarhunna = {
 	fertility = -1000
 	random = no
 	customizer = no
+	opposites = {
+		excommunicated
+	}
 	opinion_of_zealous = 5
 	opinion_of_cynical = -10
 	opinion_of_erudite = 10
@@ -71,7 +115,6 @@ tarhunna = {
 	opinion_of_brave = 5
 	opinion_of_devotion_tarhunna = 15
 	opinion_of_craven = -5
-	misguided_warrior_opinion = 5
 	brilliant_strategist_opinion = 5
 	duelist_opinion = 5
 	strategist_opinion = 5
@@ -87,6 +130,9 @@ arinniti = {
 	fertility = -1000
 	random = no
 	customizer = no
+	opposites = {
+		excommunicated
+	}
 	opinion_of_zealous = 5
 	opinion_of_cynical = -10
 	opinion_of_erudite = 10
@@ -101,11 +147,15 @@ telipinu = {
 	fertility = -1000
 	random = no
 	customizer = no
+	opposites = {
+		excommunicated
+	}
 	opinion_of_zealous = 5
 	opinion_of_cynical = -10
 	opinion_of_erudite = 10
 	opinion_of_devotion_telipinu = 15
 }
+
 #Pihassasi Devotion Traits
 devotion_tarhunna = {
 	potential = {
@@ -144,4 +194,144 @@ devotion_telipinu = {
 	}
 	global_revolt_risk = -0.05
 	stewardship = 1
+}
+
+#Hellenic Pantheon Traits
+zeus = {
+	hidden_from_others = yes
+	immortal = yes
+	cannot_inherit = yes
+	cannot_marry = yes
+	fertility = -1000
+	random = no
+	customizer = no
+	opposites = {
+		excommunicated
+	}
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
+	opinion_of_erudite = 10
+}
+
+ares = {
+	hidden_from_others = yes
+	immortal = yes
+	cannot_inherit = yes
+	cannot_marry = yes
+	fertility = -1000
+	random = no
+	customizer = no
+	opposites = {
+		excommunicated
+	}
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
+	opinion_of_misguided_warrior = -10
+	opinion_of_brilliant_strategist = 10
+	opinion_of_duelist = 5
+	opinion_of_strong = 10
+	opinion_of_brave = 5
+	opinion_of_craven = -5
+	brilliant_strategist_opinion = 5
+	duelist_opinion = 5
+	strong_opinion = 5	
+}
+
+athene = {
+	hidden_from_others = yes
+	immortal = yes
+	cannot_inherit = yes
+	cannot_marry = yes
+	fertility = -1000
+	random = no
+	customizer = no
+	opposites = {
+		excommunicated
+	}
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
+	opinion_of_misguided_warrior = -10
+	opinion_of_brilliant_strategist = 10
+	opinion_of_duelist = 5
+	opinion_of_strategist = 10
+	opinion_of_brave = 5
+	opinion_of_craven = -5
+	brilliant_strategist_opinion = 5
+	duelist_opinion = 5
+	strategist_opinion = 5	
+}
+
+demeter = {
+	hidden_from_others = yes
+	immortal = yes
+	cannot_inherit = yes
+	cannot_marry = yes
+	fertility = -1000
+	random = no
+	customizer = no
+	opposites = {
+		excommunicated
+	}
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
+}
+
+apollon = {
+	hidden_from_others = yes
+	immortal = yes
+	cannot_inherit = yes
+	cannot_marry = yes
+	fertility = -1000
+	random = no
+	customizer = no
+	opposites = {
+		excommunicated
+	}
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
+}
+
+hermes = {
+	hidden_from_others = yes
+	immortal = yes
+	cannot_inherit = yes
+	cannot_marry = yes
+	fertility = -1000
+	random = no
+	customizer = no
+	opposites = {
+		excommunicated
+	}
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
+	indulgent_wastrel_opinion = -10
+	opinion_of_midas_touched = 10
+	midas_touched_opinion = 5
+	city_opinion = 25
+}
+
+aphrodite = {
+	hidden_from_others = yes
+	immortal = yes
+	cannot_inherit = yes
+	cannot_marry = yes
+	fertility = -1000
+	random = no
+	customizer = no
+	opposites = {
+		excommunicated
+	}
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
+	opinion_of_erudite = 10
+	opinion_of_lustful = 5
+	opinion_of_chaste = 5
+	opinion_of_hedonist = 5
+	opinion_of_seducer = 10
+	opinion_of_seductress = 10
+	seducer_opinion = 10
+	seductress_opinion = 10
+	chaste_opinion = -5
+	lustful_opinion = 5
+	hedonist_opinion = 5
 }

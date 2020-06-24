@@ -7,6 +7,6 @@ b_bassae=city
 b_lepreos=temple
 b_sami=castle
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

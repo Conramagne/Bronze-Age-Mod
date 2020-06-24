@@ -7,6 +7,6 @@ b_therme=temple
 b_pagae=castle
 b_isthmia=temple
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

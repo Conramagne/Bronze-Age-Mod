@@ -7,6 +7,6 @@ b_phare=temple
 b_vaphio=city
 b_menelaeion=temple
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

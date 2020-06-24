@@ -7,6 +7,6 @@ b_helius=temple
 b_zarax=city
 b_boiai=castle
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

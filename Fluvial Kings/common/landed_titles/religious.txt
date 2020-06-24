@@ -86,3 +86,19 @@ e_pihassasi_pantheon = {
 	# Cannot be held as a secondary title
 	primary = yes
 }
+
+e_hellenic_pantheon = {
+	color = { 255 255 255 }
+	capital = 1
+	
+	title = "HIGH_GOD"
+	foa = "POPE_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+}

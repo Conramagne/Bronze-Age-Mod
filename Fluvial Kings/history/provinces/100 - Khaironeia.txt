@@ -5,6 +5,6 @@ b_chaeronea=castle
 b_thisbe=temple
 b_onchestus=city
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

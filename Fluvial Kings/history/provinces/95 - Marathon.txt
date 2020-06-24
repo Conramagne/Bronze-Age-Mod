@@ -5,6 +5,6 @@ b_marathon=castle
 b_ramnous=city
 b_oropos=temple
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

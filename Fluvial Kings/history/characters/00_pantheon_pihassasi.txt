@@ -11,6 +11,7 @@
 	1.1.1 = {
 		effect = {
 			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
 		}
 		add_spouse = 1000001
 	}
@@ -30,6 +31,7 @@
 	1.1.1 = {
 		effect = {
 			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
 		}
 		add_spouse = 1000000
 	}
@@ -50,6 +52,7 @@
 	1.1.2 = {
 		effect = {
 			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
 		}
 	}
 	9999.1.1 = { death = yes }

@@ -29,6 +29,9 @@ decisions = {
 			NOT = {
 				has_character_flag = flag_god
 			}
+			NOT = {
+				religion_group = hellenic
+			}
 		}
 		allow = {
 			is_incapable = no
@@ -115,6 +118,9 @@ decisions = {
 			NOT = {
 				is_incapable = yes
 			}
+			NOT = {
+				has_character_flag = flag_god
+			}
 			is_inaccessible_trigger = no
 			age = 16
 		}
@@ -162,6 +168,9 @@ decisions = {
 			prisoner = no
 			NOT = {
 				is_incapable = yes
+			}
+			NOT = {
+				has_character_flag = flag_god
 			}
 			is_inaccessible_trigger = no
 			primary_title = {
@@ -428,6 +437,7 @@ targetted_decisions = {
 		}
 		potential = {
 			has_character_flag = flag_god
+			has_character_flag = flag_can_contact
 			received_sacrifice_recently_trigger = no
 		}
 		allow = {
@@ -489,6 +499,7 @@ targetted_decisions = {
 		}
 		potential = {
 			has_character_flag = flag_god
+			has_character_flag = flag_can_contact
 		}
 		allow = {
 			FROM = {
@@ -498,7 +509,12 @@ targetted_decisions = {
 				NOT = {
 					has_character_modifier = denied_boon
 				}
-				has_boon_trigger = no
+				custom_tooltip = {
+					text = does_not_have_boon_TT
+					hidden_tooltip = {
+						has_boon_trigger = no
+					}
+				}
 			}
 			OR = {
 				outside_pantheon_trigger = no
@@ -540,6 +556,9 @@ targetted_decisions = {
 		potential = {
 			age < 10
 			devotion_trait_trigger = no
+			NOT = {
+				religion_group = hellenic
+			}
 		}
 		allow = {
 			NOT = {

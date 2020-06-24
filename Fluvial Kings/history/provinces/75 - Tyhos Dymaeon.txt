@@ -7,6 +7,6 @@ b_kyllini=city
 b_myrsini=temple
 b_bouprasion =castle
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

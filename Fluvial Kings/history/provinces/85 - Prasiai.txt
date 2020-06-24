@@ -4,6 +4,6 @@ max_settlements= 2
 b_prasiai=castle
 b_kypantha=city
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

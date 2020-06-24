@@ -6,6 +6,6 @@ b_copae=temple
 b_ocalea=city
 b_elatia=city
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

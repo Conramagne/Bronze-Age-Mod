@@ -5,6 +5,6 @@ b_methana=castle
 b_troezen=city
 b_hydrea=temple
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

@@ -8,6 +8,6 @@ b_cynus=city
 b_aulis=temple
 b_hyria=castle
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

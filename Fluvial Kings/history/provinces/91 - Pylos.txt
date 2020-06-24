@@ -6,6 +6,6 @@ b_peristeria=city
 b_amphigeneia=temple
 b_methone=castle
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

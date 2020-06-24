@@ -17,3 +17,8 @@
 		}
 	} 
 }
+#Hellenic Pantheon
+1000001 = {
+	name = "Theogonos"
+	used_for_random = no 
+}

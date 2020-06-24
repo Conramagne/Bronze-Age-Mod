@@ -1,16 +1,31 @@
 is_head_god_trigger = {
 	OR = {
 		trait = tarhunna
+		trait = zeus
 	}
 }
 is_war_god_trigger = {
 	OR = {
 		trait = tarhunna
+		trait = ares
+		trait = athene
 	}
 }
 is_agricultural_god_trigger = {
 	OR = {
 		trait = telipinu
+		trait = demeter
+	}
+}
+is_commerce_god_trigger = {
+	OR = {
+		trait = hermes
+	}
+}
+is_sun_god_trigger = {
+	OR = {
+		trait = arinniti
+		trait = apollon
 	}
 }
 is_guardian_god_trigger = {
@@ -18,17 +33,43 @@ is_guardian_god_trigger = {
 		trait = arinniti
 	}
 }
+is_love_god_trigger = {
+	OR = {
+		trait = aphrodite
+	}
+}
 
 likes_war_god_trigger = {
 	OR = {
 		has_job_title = job_marshal
 		trait = misguided_warrior
+		trait = tough_soldier
+		trait = skilled_tactician
 		trait = brilliant_strategist
 		trait = duelist
 		trait = hunter
 		trait = strategist
 		trait = brave
 		trait = craven
+	}
+}
+likes_commerce_god_trigger = {
+	OR = {
+		has_job_title = job_treasurer
+		is_merchant_republic = yes
+		trait = indulgent_wastrel
+		trait = thrifty_clerk
+		trait = fortune_builder
+		trait = midas_touched
+	}
+}
+likes_love_god_trigger = {
+	OR = {
+		has_focus = focus_seduction 
+		trait = lustful
+		trait = hedonist
+		trait = seducer
+		trait = seductress
 	}
 }
 likes_god_trigger = {
@@ -39,9 +80,20 @@ likes_god_trigger = {
 				is_war_god_trigger = yes
 			}
 		}
+		AND = {
+			likes_commerce_god_trigger = yes
+			ROOT = {
+				is_commerce_god_trigger = yes
+			}
+		}
+		AND = {
+			likes_love_god_trigger = yes
+			ROOT = {
+				is_love_god_trigger = yes
+			}
+		}
 	}
 }
-
 devotion_trait_trigger = {
 	OR = {
 		trait = devotion_tarhunna
@@ -52,14 +104,8 @@ devotion_trait_trigger = {
 
 can_contact_god_trigger = {
 	OR = {
-		religion = ROOT
-		AND = {
-			ROOT = {
-				religion_group = pihassasi
-			}
-			religion_group = pihassasi
-		}
-		has_sympathy_for_true_religion_of_root_trigger = yes
+		religion_group = FROM
+		syncretic_for_true_religion_of_root_trigger = yes
 	}
 }
 
@@ -116,6 +162,13 @@ has_boon_trigger = {
 		has_boon_tarhunna_trigger = yes
 		has_boon_arinniti_trigger = yes
 		has_boon_telipinu_trigger = yes
+		has_boon_zeus_trigger = yes
+		has_boon_ares_trigger = yes
+		has_boon_athene_trigger = yes
+		has_boon_demeter_trigger = yes
+		has_boon_apollon_trigger = yes
+		has_boon_hermes_trigger = yes
+		has_boon_aphrodite_trigger = yes
 	}
 }
 
@@ -126,7 +179,6 @@ has_boon_tarhunna_trigger = {
 		has_character_modifier = tarhunna_boon_3
 	}
 }
-
 has_boon_arinniti_trigger = {
 	OR = {
 		has_character_modifier = arinniti_boon_1
@@ -134,7 +186,6 @@ has_boon_arinniti_trigger = {
 		has_character_modifier = arinniti_boon_3
 	}
 }
-
 has_boon_telipinu_trigger = {
 	OR = {
 		has_character_modifier = telipinu_boon_1
@@ -143,17 +194,103 @@ has_boon_telipinu_trigger = {
 	}
 }
 
+has_boon_zeus_trigger = {
+	OR = {
+		has_character_modifier = zeus_boon_1
+		has_character_modifier = zeus_boon_2
+		has_character_modifier = zeus_boon_3
+	}
+}
+has_boon_ares_trigger = {
+	OR = {
+		has_character_modifier = ares_boon_1
+		has_character_modifier = ares_boon_2
+		has_character_modifier = ares_boon_3
+	}
+}
+has_boon_athene_trigger = {
+	OR = {
+		has_character_modifier = athene_boon_1
+		has_character_modifier = athene_boon_2
+		has_character_modifier = athene_boon_3
+		has_character_modifier = athene_boon_4
+		has_character_modifier = athene_boon_5
+		has_character_modifier = athene_boon_6
+	}
+}
+has_boon_demeter_trigger = {
+	OR = {
+		has_character_modifier = demeter_boon_1
+		has_character_modifier = demeter_boon_2
+		has_character_modifier = demeter_boon_3
+	}
+}
+has_boon_apollon_trigger = {
+	OR = {
+		has_character_modifier = apollon_boon_1
+		has_character_modifier = apollon_boon_2
+		has_character_modifier = apollon_boon_3
+		has_character_modifier = apollon_boon_4
+		has_character_modifier = apollon_boon_5
+		has_character_modifier = apollon_boon_6
+	}
+}
+has_boon_hermes_trigger = {
+	OR = {
+		has_character_modifier = hermes_boon_1
+		has_character_modifier = hermes_boon_2
+		has_character_modifier = hermes_boon_3
+	}
+}
+has_boon_aphrodite_trigger = {
+	OR = {
+		has_character_modifier = aphrodite_boon_1
+		has_character_modifier = aphrodite_boon_2
+		has_character_modifier = aphrodite_boon_3
+	}
+}
+
 has_curse_trigger = {
 	OR = {
 		has_character_modifier = tarhunna_curse_1
 		has_character_modifier = tarhunna_curse_2
 		has_character_modifier = tarhunna_curse_3
+		
 		has_character_modifier = arinniti_curse_1
 		has_character_modifier = arinniti_curse_2
 		has_character_modifier = arinniti_curse_3
+		
 		has_character_modifier = telipinu_curse_1
 		has_character_modifier = telipinu_curse_2
 		has_character_modifier = telipinu_curse_3
+		
+		has_character_modifier = zeus_curse_1
+		has_character_modifier = zeus_curse_2
+		has_character_modifier = zeus_curse_3
+		
+		has_character_modifier = ares_curse_1
+		has_character_modifier = ares_curse_2
+		has_character_modifier = ares_curse_3
+		
+		has_character_modifier = athene_curse_1
+		has_character_modifier = athene_curse_2
+		has_character_modifier = athene_curse_3
+		
+		has_character_modifier = demeter_curse_1
+		has_character_modifier = demeter_curse_2
+		has_character_modifier = demeter_curse_3
+		
+		has_character_modifier = apollon_curse_1
+		has_character_modifier = apollon_curse_2
+		has_character_modifier = apollon_curse_3
+		
+		has_character_modifier = hermes_curse_1
+		has_character_modifier = hermes_curse_2
+		has_character_modifier = hermes_curse_3
+		
+		has_character_modifier = aphrodite_curse_1
+		has_character_modifier = aphrodite_curse_2
+		has_character_modifier = aphrodite_curse_3
 	}
 }
 
@@ -211,6 +348,32 @@ received_sacrifice_recently_trigger_ROOT = {
 		has_opinion_modifier = {
 			who = ROOT
 			modifier = opinion_large_sacrifice_fail
+		}
+	}
+}
+
+pihassasi_or_syncretic = {
+	OR = {
+		religion_group = pihassasi
+		trait = syncretic_pihassasi
+	}
+}
+hellenic_or_syncretic = {
+	OR = {
+		religion_group = hellenic
+		trait = syncretic_hellenic
+	}
+}
+
+syncretic_for_true_religion_of_root_trigger = { 
+	OR = {
+		AND = {
+			trait = syncretic_hellenic
+			ROOT = { religion_group = hellenic }
+		}
+		AND = {
+			trait = syncretic_pihassasi
+			ROOT = { religion_group = pihassasi }
 		}
 	}
 }

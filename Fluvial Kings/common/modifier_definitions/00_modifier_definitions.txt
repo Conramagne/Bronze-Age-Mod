@@ -271,6 +271,39 @@ horse_opinion = {
 	max_decimals = 0
 }
 
+chaste_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+opinion_of_chaste = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+
+hedonist_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+opinion_of_hedonist = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
 lustful_opinion = {
 	show_as_percent = no
 	is_good = yes
@@ -286,6 +319,39 @@ opinion_of_lustful = {
 	is_hidden = no
 	max_decimals = 0
 }
+
+seducer_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+opinion_of_seducer = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+seductress_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+opinion_of_seductress = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
 
 catholic_opinion = {
 	show_as_percent = no
@@ -1216,7 +1282,56 @@ opinion_of_devotion_telipinu = {
 	max_decimals = 0
 }
 
+#Stewardship Opinions
+opinion_of_indulgent_wastrel = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+indulgent_wastrel_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+opinion_of_midas_touched = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+midas_touched_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
 #Martial Opinions
+opinion_of_strong = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+strong_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
 opinion_of_misguided_warrior = {
 	show_as_percent = no
 	is_good = yes
@@ -1308,6 +1423,22 @@ opinion_of_cynical = {
 }
 
 opinion_of_erudite = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+hellenic_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+pihassasi_opinion = {
 	show_as_percent = no
 	is_good = yes
 	is_monthly = no

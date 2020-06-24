@@ -1,0 +1,6 @@
+#IDS from 2100000-2199999
+2100000 = {
+	name = "Athamid"
+	culture = "hellene"
+	used_for_random = no
+}

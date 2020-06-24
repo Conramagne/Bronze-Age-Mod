@@ -1,11 +1,18 @@
 ###########Cultures###########
 anatolian;Asu;;;;;;;;;;;;;x
 hittite;Nešili;;;;;;;;;;;;;x
-amazonios;Amazonios;;;;;;;;;;;;;x
 pala;Palaumnili;;;;;;;;;;;;;x
 luwian;Luwili;;;;;;;;;;;;;x
 kaskian;Kaskian;;;;;;;;;;;;;x
 isuwan;Isuwan;;;;;;;;;;;;;x
+
+hellene;Héllen;;;;;;;;;;;;;x
+achaean;Akhaiós;;;;;;;;;;;;;x
+aeolian;Aiolikós;;;;;;;;;;;;;x
+amazonios;Amazonios;;;;;;;;;;;;;x
+dorian;Dorieús;;;;;;;;;;;;;x
+ionian;Ionikós;;;;;;;;;;;;;x
+theogonos;Theogonos;;;;;;;;;;;;;x
 ###########Government and Law###########
 feudal_government;Local Polity;;;;;;;;;;;;;x
 feudal_government_desc;Local Polities and States that have arisen from disunited tribes and confederations or have slipped out of the grasps of larger Realms. Often considered nothing more than petty states with squabbling tyrants whose authority barely extends beyond the walls of their citadels, they lack the courtly grandeur and the ability to administer more than their local communities. The Greater Monarchies have much sway over these lesser lords.;;;;;;;;;;;;;x
@@ -161,6 +168,7 @@ d_ili_abinia_adj;Priestly;;;;;;;;;;;;;x
 d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
 d_haianiluwi;High Haianiluwi Priesthood;;;;;;;;;;;;;x
 d_haianiluwi_adj;Priestly;;;;;;;;;;;;;x
+e_hellenic_pantheon;Hellenic Pantheon;;;;;;;;;;;;;x
 e_pihassasi_pantheon;Pihassasi Pantheon;;;;;;;;;;;;;x
 
 HIGH_GOD;High God;;;;;;;;;;;;;x
@@ -169,13 +177,14 @@ HEAD_KOHEN_GADOL;Kohen Gadol;;;;;;;;;;;;;x
 HEAD_SALLISANKUNI;Sallisankuni;;;;;;;;;;;;;x
 ###########Traits and Character/Province Modifiers###########
 imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]%);;;;;;;;;;;;;x
-imperial_authority_desc;§BImperial Authority§W represents the power the monarch has in their capacity to govern the realm.\n\nThings that §GRaise§W Imperial Authority are:\n- Have §GQuality§W administrators and councilors in your realm that are §GLoyal§W\n- The Palace Court is relatively §GWeak§W compared to you\n- Lead your realm to great §GGLORY§W\n\nThings that §RLower§W Imperial Authority are:\n- Have §RPoor Quality§W administrators and councilors in your realm that are §RDisloyal§W\n- The Palace Court is relatively §RStrong§W compared to you\n- Lead your realm to great §RHUMILIATION§!;;;;;;;;;;;;;x
-imperial_authority_decrease_5_TT;Imperial Authority (§R-5.00§!);;;;;;;;;;;;;x
-imperial_authority_decrease_7_TT;Imperial Authority (§R-7.00§!);;;;;;;;;;;;;x
-imperial_authority_decrease_2_5_TT;Imperial Authority (§R-5.00§!);;;;;;;;;;;;;x
-imperial_authority_increase_5_TT;Imperial Authority (§G5.00§!);;;;;;;;;;;;;x
-imperial_authority_increase_2_5_TT;Imperial Authority (§G5.00§!);;;;;;;;;;;;;x
-imperial_authority_decrease_10_TT;Imperial Authority (§R-10.00§!);;;;;;;;;;;;;x
+imperial_authority_desc;The authority of the sovereign is determined by how much control over their realm they have. As it ebbs and flows, so does their power.\nImperial authority can be §Bincreased§! by:\n§Y*§! Having high attributes or skills\n§Y*§! Having loyal councilors\n§Y*§! Having a Weak Council\n§Y*§! Winning wars and major battles\nImperial authority can be §Rdecreased§! by:\n§Y*§! Having low attributes or skills\n§Y*§! Succession\n§Y*§! Long regencies\n§Y*§! Having disloyal councilors\n§Y*§! Having a Strong Council\n§Y*§! Losing wars and major battles;;;;;;;;;;;;;x
+imperial_authority_decrease_5_TT;§YImperial Authority§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
+imperial_authority_decrease_7_TT;§YImperial Authority§! will §Rdecrease§! by 7%;;;;;;;;;;;;;x
+imperial_authority_decrease_2_5_TT;§YImperial Authority§! will §Rdecrease§! by 2.5%;;;;;;;;;;;;;x
+imperial_authority_increase_5_TT;§YImperial Authority§! will §Bincrease§! by 5%;;;;;;;;;;;;;x
+imperial_authority_increase_2_TT;§YImperial Authority§! will §Bincrease§! by 2%;;;;;;;;;;;;;x
+imperial_authority_increase_2_5_TT;§YImperial Authority§! will §Bincrease§! by 2.5%;;;;;;;;;;;;;x
+imperial_authority_decrease_10_TT;§YImperial Authority§! will §Bincrease§! by 10%;;;;;;;;;;;;;x
 opinion_rumors_10;Rumors;;;;;;;;;;;;;x
 opinion_rumors_25;Rumors;;;;;;;;;;;;;x
 opinion_rectified_grievance;Grievances Rectified;;;;;;;;;;;;;x
@@ -297,24 +306,6 @@ bureau_decrease_5_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 5%;
 bureau_decrease_5_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 7%;;;;;;;;;;;;;x
 bureau_decrease_10_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 10%;;;;;;;;;;;;;x
 
-globalbureau_increase_01_TT;§YAverage Bureaucratic Efficiency§! will §Bincrease§! by 0.10%;;;;;;;;;;;;;x
-globalbureau_increase_02_TT;§YAverage Bureaucratic Efficiency§! will §Bincrease§! by 0.20%;;;;;;;;;;;;;x
-globalbureau_increase_025_TT;§YAverage Bureaucratic Efficiency§! will §Bincrease§! by 0.25%;;;;;;;;;;;;;x
-globalbureau_increase_05_TT;§YAverage Bureaucratic Efficiency§! will §Bincrease§! by 0.5%;;;;;;;;;;;;;x
-globalbureau_increase_1_TT;§YAverage Bureaucratic Efficiency§! will §Bincrease§! by 1%;;;;;;;;;;;;;x
-globalbureau_increase_2_TT;§YAverage Bureaucratic Efficiency§! will §Bincrease§! by 2%;;;;;;;;;;;;;x
-
-globalbureau_decrease_01_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 0.10%;;;;;;;;;;;;;x
-globalbureau_decrease_02_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 0.20%;;;;;;;;;;;;;x
-globalbureau_decrease_025_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 0.25%;;;;;;;;;;;;;x
-globalbureau_decrease_03_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 0.30%;;;;;;;;;;;;;x
-globalbureau_decrease_05_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 0.50%;;;;;;;;;;;;;x
-globalbureau_decrease_075_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 0.75%;;;;;;;;;;;;;x
-globalbureau_decrease_1_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 1%;;;;;;;;;;;;;x
-globalbureau_decrease_105_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 1.5%;;;;;;;;;;;;;x
-globalbureau_decrease_2_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 2%;;;;;;;;;;;;;x
-globalbureau_decrease_5_TT;§YAverage Bureaucratic Efficiency§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
-
 #Palace Bureaucracy Opinions
 model_bureaucrat;Model Bureaucrat;;;;;;;;;;;;;x
 bad_bureaucrat;Poor Bureaucrat;;;;;;;;;;;;;x
@@ -344,3 +335,6 @@ telipinu_boon_3;Telipinu's Strength;;;;;;;;;;;;;x
 telipinu_curse_1;Curse of Fallow Fields;;;;;;;;;;;;;x
 telipinu_curse_2;Telipinu's Drought;;;;;;;;;;;;;x
 telipinu_curse_3;Curse of Shattered Wills;;;;;;;;;;;;;x
+
+###########Miscellaneous###########
+GOVERNMENT_UNIT_BONUS;Government Unit Bonus;;;;;;;;;;;;;x

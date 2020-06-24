@@ -6,6 +6,6 @@ b_alea=city
 b_omeae=city
 b_stymphalos=temple
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

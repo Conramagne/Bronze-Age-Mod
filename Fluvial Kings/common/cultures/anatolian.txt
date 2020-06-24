@@ -37,7 +37,7 @@ anatolian = {
 			Wirisemu
 		}
 
-		from_dynasty_suffix = "sili"
+		from_dynasty_prefix = "of "
 
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 30
@@ -50,55 +50,6 @@ anatolian = {
 		modifier = default_culture_modifier
 	}	
 	
-	amazonios = {
-		graphical_cultures = { anatoliangfx }
-
-		color = { 0.8 0.2 0.8 }
-
-		male_names = {
-			Ahabbu Alluwamna Appuašu Anitta Azatiwata Awariku Ammuna Arnuwanda Astuwalamanza Astiruwa Arnuwanti Ariyahina Ahuni Ambaris Ashwisi
-			Bamah Bar-Hadad Ben-Hadad Bar-Ga'ya Bar-Rakib Bar-Sur
-			Dadi-Ilu
-			Eni-Ilu
-			Gunzinanu Gurdi Gusi Gabbar
-			Hattusili Hantili Huzziya Halpasulupi Hilaruada Hapatila Hamiyata Hulli Hayya Hadram Hazael Hadyan
-			Ini-Teššub Ir-Teššub Iškallu 
-			Kurunta Katuwa Kamani Kuzi-Teššub Kundašpu Kikki Kurti Kiyakiya Kirua Kirri Kilamuwa Katuzili
-			Labarna Lalli Larama
-			Mursili Muwatalli Mugallu Martiti Muwizi Manana Muwaharani Mari Mati-Ilu
-			Piyassili Pisiri Parita Puhamme Pihirim Panamuwa Piyamaradu
-			Runtiya Raqianu 
-			Suppiluliuma Sanduarri Sahurunuwa Suhi Sangara Sastura Sahu Sulumal Satiruntiya Sahwi Suwarimi Surri Sandasarme Sasi Saruwani
-			Tudhaliya Telipinus Talmi-Teššub Tarhunazi Taita Tutammu Toi Tuhamme Tuwati Tulli
-			Uratarhunza Uratami Urahilina Ušhitti Urimme
-			Wasuruntiya Wasusarma Warpalawa
-			Zidanta Zakur 
-			Yariri Yau-bidi
-			Qarli 
-		}
-		
-		female_names = {
-			Arinna 
-			Estan 
-			Hebat 
-			Istustaya 
-			Papaya Pudukhepa
-			Wirisemu
-		}
-
-		from_dynasty_prefix = "vun "
-
-		pat_grf_name_chance = 50
-		mat_grf_name_chance = 30
-		father_name_chance = 10
-
-		pat_grm_name_chance = 25
-		mat_grm_name_chance = 50
-		mother_name_chance = 10
-
-		modifier = default_culture_modifier
-	}
-
 	pala = {
 		graphical_cultures = { anatoliangfx }
 
@@ -135,7 +86,7 @@ anatolian = {
 			Wirisemu
 		}
 
-		from_dynasty_suffix = "sili"
+		from_dynasty_prefix = "of "
 
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 30
@@ -184,7 +135,7 @@ anatolian = {
 			Wirisemu
 		}
 
-		from_dynasty_suffix = "sili"
+		from_dynasty_prefix = "of "
 
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 30
@@ -230,7 +181,7 @@ anatolian = {
 			Wirisemu
 		}
 
-		from_dynasty_prefix = "vun "
+		from_dynasty_prefix = "of "
 
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 30
@@ -279,7 +230,7 @@ anatolian = {
 			Wirisemu
 		}
 
-		from_dynasty_prefix = "vun "
+		from_dynasty_prefix = "of "
 
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 30
@@ -328,7 +279,7 @@ anatolian = {
 			Wirisemu
 		}
 
-		from_dynasty_prefix = "vun "
+		from_dynasty_prefix = "of "
 
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 30

@@ -6,6 +6,6 @@ b_pireas=city
 b_penteli=city
 b_brauron=temple
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

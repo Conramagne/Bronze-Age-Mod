@@ -6,6 +6,6 @@ b_corinth=city
 b_nemea=temple
 b_kleonai=castle
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

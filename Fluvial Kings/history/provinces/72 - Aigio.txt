@@ -6,6 +6,6 @@ b_patra=temple
 b_panormos=city
 b_leontion=city
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

@@ -7,6 +7,6 @@ b_kerynthos=city
 b_histaea=temple
 b_antron=city
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

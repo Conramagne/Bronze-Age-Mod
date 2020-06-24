@@ -7,6 +7,6 @@ b_tiryns=city
 b_asine=temple
 b_dhendra =castle
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

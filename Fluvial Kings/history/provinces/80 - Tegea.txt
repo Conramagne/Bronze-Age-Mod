@@ -6,6 +6,6 @@ b_thyreai=temple
 b_mantineia=city
 b_oresthesium=city
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

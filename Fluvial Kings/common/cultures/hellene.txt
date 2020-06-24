@@ -1,0 +1,289 @@
+hellene = {
+	graphical_cultures = { westerngfx }
+	
+	achaean = {
+		graphical_cultures = { croatsouthslavicgfx }
+
+		color = { 0.8 0.2 0.8 }
+
+		male_names = {
+			Abas Akastos Aiguptios Agamemnon Agenor Agrius Aiakos Akhareus Akhilleus Aktaion Alektruon Alexandros Alkathous Amphimedes Andronikh Antromaxos Aranareus Argurios Aristaios Arkeisios Atreus Augewas 
+			Dhmofanhs Didereus Diomedes Drakokardos Drakomaxos 
+			Ekhinos Enkhelyawon Eruthros Etewoklewes Eumenes Euruptolemos 
+			Filaretos 
+			Glaukos Gouneus 
+			Hektor 
+			Iason Idmon 
+			Kadmos Kalkhas Khalkeus Kleonikh Klumenos Kretheus Kupridhmos Kyprios 
+			Laertes Leukopeus Lukios Lukimnios Lukomedes 
+			Makhawon Medon Melas Menelaos 
+			Narkissos Nestor Nikostratos 
+			Oineus Orestes 
+			Pandion Patroklos Peleus Phoinix Phokus Plouteus Poimen Poimnios Poliwos Radamanqus Sarpedon Sterope 
+			Tawagalawa Telamon Teukros Theseus Thestor Trambelus Tripodiskos Tripolemos Tros Tudeus Tulisios Turios Twinon Tudeus 
+			Wedaneus 
+			Xaridhmos
+		}
+		
+		female_names = {
+			Alexandra Ariadnh
+			Eritha 
+			Karpathia Korinsia 
+			Poulxeria
+		}
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+	
+	aeolian = {
+		graphical_cultures = { croatsouthslavicgfx }
+
+		color = { 0.8 0.2 0.8 }
+
+		male_names = {
+			Ahabbu Alluwamna Appuašu Anitta Azatiwata Awariku Ammuna Arnuwanda Astuwalamanza Astiruwa Arnuwanti Ariyahina Ahuni Ambaris Ashwisi
+			Bamah Bar-Hadad Ben-Hadad Bar-Ga'ya Bar-Rakib Bar-Sur
+			Dadi-Ilu
+			Eni-Ilu
+			Gunzinanu Gurdi Gusi Gabbar
+			Hattusili Hantili Huzziya Halpasulupi Hilaruada Hapatila Hamiyata Hulli Hayya Hadram Hazael Hadyan
+			Ini-Teššub Ir-Teššub Iškallu 
+			Kurunta Katuwa Kamani Kuzi-Teššub Kundašpu Kikki Kurti Kiyakiya Kirua Kirri Kilamuwa Katuzili
+			Labarna Lalli Larama
+			Mursili Muwatalli Mugallu Martiti Muwizi Manana Muwaharani Mari Mati-Ilu
+			Piyassili Pisiri Parita Puhamme Pihirim Panamuwa Piyamaradu
+			Runtiya Raqianu 
+			Suppiluliuma Sanduarri Sahurunuwa Suhi Sangara Sastura Sahu Sulumal Satiruntiya Sahwi Suwarimi Surri Sandasarme Sasi Saruwani
+			Tudhaliya Telipinus Talmi-Teššub Tarhunazi Taita Tutammu Toi Tuhamme Tuwati Tulli
+			Uratarhunza Uratami Urahilina Ušhitti Urimme
+			Wasuruntiya Wasusarma Warpalawa
+			Zidanta Zakur 
+			Yariri Yau-bidi
+			Qarli 
+		}
+		
+		female_names = {
+			Arinna 
+			Estan 
+			Hebat 
+			Istustaya 
+			Papaya Pudukhepa
+			Wirisemu
+		}
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+	
+	amazonios = {
+		graphical_cultures = { croatsouthslavicgfx }
+
+		color = { 0.8 0.2 0.8 }
+
+		male_names = {
+			Abas Akastos Aiguptios Agamemnon Agenor Agrius Aiakos Akhareus Akhilleus Aktaion Alektruon Alexandros Alkathous Amphimedes Andronikh Antromaxos Aranareus Argurios Aristaios Arkeisios Atreus Augewas 
+			Dhmofanhs Didereus Diomedes Drakokardos Drakomaxos 
+			Ekhinos Enkhelyawon Eruthros Etewoklewes Eumenes Euruptolemos 
+			Filaretos 
+			Glaukos Gouneus 
+			Hektor 
+			Iason Idmon 
+			Kadmos Kalkhas Khalkeus Kleonikh Klumenos Kretheus Kupridhmos Kyprios 
+			Laertes Leukopeus Lukios Lukimnios Lukomedes 
+			Makhawon Medon Melas Menelaos 
+			Narkissos Nestor Nikostratos 
+			Oineus Orestes 
+			Pandion Patroklos Peleus Phoinix Phokus Plouteus Poimen Poimnios Poliwos Radamanqus Sarpedon Sterope 
+			Tawagalawa Telamon Teukros Theseus Thestor Trambelus Tripodiskos Tripolemos Tros Tudeus Tulisios Turios Twinon Tudeus 
+			Wedaneus 
+			Xaridhmos
+		}
+		
+		female_names = {
+			Aella Alkibie Alkippe Alexandra Ariadnh Asteria Antandre Antibrote Antiope
+			Bremusa
+			Celaeno Clonie
+			Deianeira Derimacheia Derinoe
+			Eritha Eriboea Eurubia Evandre
+			Harmothoe Hippolute Hippothoe
+			Karpathia Korinsia
+			Marpe Melanippe
+			Otrera
+			Penthesilea Philippis Phoebe Polemusa Poulxeria Prothoe
+			Tecmessa Thermodosa
+		}
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+
+	doric = {
+		graphical_cultures = { croatsouthslavicgfx }
+
+		color = { 0.8 0.2 0.8 }
+
+		male_names = {
+			Ahabbu Alluwamna Appuašu Anitta Azatiwata Awariku Ammuna Arnuwanda Astuwalamanza Astiruwa Arnuwanti Ariyahina Ahuni Ambaris Ashwisi
+			Bamah Bar-Hadad Ben-Hadad Bar-Ga'ya Bar-Rakib Bar-Sur
+			Dadi-Ilu
+			Eni-Ilu
+			Gunzinanu Gurdi Gusi Gabbar
+			Hattusili Hantili Huzziya Halpasulupi Hilaruada Hapatila Hamiyata Hulli Hayya Hadram Hazael Hadyan
+			Ini-Teššub Ir-Teššub Iškallu 
+			Kurunta Katuwa Kamani Kuzi-Teššub Kundašpu Kikki Kurti Kiyakiya Kirua Kirri Kilamuwa Katuzili
+			Labarna Lalli Larama
+			Mursili Muwatalli Mugallu Martiti Muwizi Manana Muwaharani Mari Mati-Ilu
+			Piyassili Pisiri Parita Puhamme Pihirim Panamuwa Piyamaradu
+			Runtiya Raqianu 
+			Suppiluliuma Sanduarri Sahurunuwa Suhi Sangara Sastura Sahu Sulumal Satiruntiya Sahwi Suwarimi Surri Sandasarme Sasi Saruwani
+			Tudhaliya Telipinus Talmi-Teššub Tarhunazi Taita Tutammu Toi Tuhamme Tuwati Tulli
+			Uratarhunza Uratami Urahilina Ušhitti Urimme
+			Wasuruntiya Wasusarma Warpalawa
+			Zidanta Zakur 
+			Yariri Yau-bidi
+			Qarli 
+		}
+		
+		female_names = {
+			Arinna 
+			Estan 
+			Hebat 
+			Istustaya 
+			Papaya Pudukhepa
+			Wirisemu
+		}
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+
+	ionian = {
+		graphical_cultures = { croatsouthslavicgfx }
+
+		color = { 0.8 0.2 0.8 }
+
+		male_names = {
+			Ahabbu Alluwamna Appuašu Anitta Azatiwata Awariku Ammuna Arnuwanda Astuwalamanza Astiruwa Arnuwanti Ariyahina Ahuni Ambaris Ashwisi
+			Bamah Bar-Hadad Ben-Hadad Bar-Ga'ya Bar-Rakib Bar-Sur
+			Dadi-Ilu
+			Eni-Ilu
+			Gunzinanu Gurdi Gusi Gabbar
+			Hattusili Hantili Huzziya Halpasulupi Hilaruada Hapatila Hamiyata Hulli Hayya Hadram Hazael Hadyan
+			Ini-Teššub Ir-Teššub Iškallu 
+			Kurunta Katuwa Kamani Kuzi-Teššub Kundašpu Kikki Kurti Kiyakiya Kirua Kirri Kilamuwa Katuzili
+			Labarna Lalli Larama
+			Mursili Muwatalli Mugallu Martiti Muwizi Manana Muwaharani Mari Mati-Ilu
+			Piyassili Pisiri Parita Puhamme Pihirim Panamuwa Piyamaradu
+			Runtiya Raqianu 
+			Suppiluliuma Sanduarri Sahurunuwa Suhi Sangara Sastura Sahu Sulumal Satiruntiya Sahwi Suwarimi Surri Sandasarme Sasi Saruwani
+			Tudhaliya Telipinus Talmi-Teššub Tarhunazi Taita Tutammu Toi Tuhamme Tuwati Tulli
+			Uratarhunza Uratami Urahilina Ušhitti Urimme
+			Wasuruntiya Wasusarma Warpalawa
+			Zidanta Zakur 
+			Yariri Yau-bidi
+			Qarli 
+		}
+		
+		female_names = {
+			Arinna 
+			Estan 
+			Hebat 
+			Istustaya 
+			Papaya Pudukhepa
+			Wirisemu
+		}
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+
+	theogonos = {
+		graphical_cultures = { croatsouthslavicgfx }
+
+		color = { 0.8 0.2 0.8 }
+
+		male_names = {
+			Abas Akastos Aiguptios Agamemnon Agenor Agrius Aiakos Akhareus Akhilleus Aktaion Alektruon Alexandros Alkathous Amphimedes Andronikh Antromaxos Aranareus Argurios Aristaios Arkeisios Atreus Augewas 
+			Dhmofanhs Didereus Diomedes Drakokardos Drakomaxos 
+			Ekhinos Enkhelyawon Eruthros Etewoklewes Eumenes Euruptolemos 
+			Filaretos 
+			Glaukos Gouneus 
+			Hektor 
+			Iason Idmon 
+			Kadmos Kalkhas Khalkeus Kleonikh Klumenos Kretheus Kupridhmos Kyprios 
+			Laertes Leukopeus Lukios Lukimnios Lukomedes 
+			Makhawon Medon Melas Menelaos 
+			Narkissos Nestor Nikostratos 
+			Oineus Orestes 
+			Pandion Patroklos Peleus Phoinix Phokus Plouteus Poimen Poimnios Poliwos Radamanqus Sarpedon Sterope 
+			Tawagalawa Telamon Teukros Theseus Thestor Trambelus Tripodiskos Tripolemos Tros Tudeus Tulisios Turios Twinon Tudeus 
+			Wedaneus 
+			Xaridhmos
+		}
+		
+		female_names = {
+			Alexandra Ariadnh
+			Eritha 
+			Karpathia Korinsia 
+			Poulxeria
+		}
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+}

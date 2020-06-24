@@ -5,6 +5,6 @@ b_salamis=castle
 b_aigina=temple
 b_aphaea=city
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

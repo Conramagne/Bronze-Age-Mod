@@ -313,13 +313,30 @@ character_event = { # Nomads may pillage holdings on siege
 						is_capital = yes
 					}
 					holder_scope = {
-						independent = yes
+						is_feudal = yes
 					}
 				}
 			}
 			FROM = {
 				holder_scope = {
 					character_event = { id = fkr.222 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					location = {
+						is_capital = yes
+					}
+					holder_scope = {
+						government = hegemonic_government
+					}
+				}
+			}
+			FROM = {
+				holder_scope = {
+					character_event = { id = fkr.138 }
 				}
 			}
 		}

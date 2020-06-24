@@ -25,6 +25,22 @@ character_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		if = {
+			limit = {
+				FROM = {
+					religion_group = pihassasi
+				}
+			}
+			add_trait = syncretic_pihassasi
+		}
+		if = {
+			limit = {
+				FROM = {
+					religion_group = hellenic
+				}
+			}
+			add_trait = syncretic_hellenic
+		}
 		conversion_removal_effect = yes
 	}
 }

@@ -7,6 +7,6 @@ b_thorikos=temple
 b_lavrion=city
 b_sounio=temple
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

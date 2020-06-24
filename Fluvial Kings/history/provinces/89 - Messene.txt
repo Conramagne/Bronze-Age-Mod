@@ -6,6 +6,6 @@ b_oichalia=city
 b_koroni=temple
 b_asine_mes=castle
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

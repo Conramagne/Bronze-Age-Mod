@@ -55,9 +55,15 @@ set_council_law_strong_effect = {
 pantheon_court_effect = {
 	if = {
 		limit = {
-			religion_group = pihassasi
+			pihassasi_or_syncretic = yes
 		}
 		character_event = { id = fkp.1 }
+	}
+	if = {
+		limit = {
+			hellenic_or_syncretic = yes
+		}
+		character_event = { id = fkp.2 }
 	}
 }
 
@@ -231,6 +237,325 @@ apply_random_boon_effect = {
 			}
 		}
 	}
+	
+	if = {
+		limit = {
+			FROM = {
+				trait = zeus
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = zeus_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = zeus_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = zeus_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				trait = ares
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = ares_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = ares_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = ares_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				trait = athene
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = athene_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = athene_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = athene_boon_3
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = athene_boon_4
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = athene_boon_5
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = athene_boon_6
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				trait = demeter
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = demeter_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = demeter_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = demeter_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				trait = apollon
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = apollon_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = apollon_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = apollon_boon_3
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = apollon_boon_4
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = apollon_boon_5
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = apollon_boon_6
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				trait = hermes
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = hermes_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = hermes_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = hermes_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				trait = aphrodite
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = aphrodite_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = aphrodite_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = aphrodite_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+
+}
+
+apply_random_special_boon_effect_klutotoxos = {
+	random_list = {
+		33 = {
+			add_character_modifier = {
+				modifier = apollon_boon_1
+				years = 5
+			}
+		}
+		33 = {
+			add_character_modifier = {
+				modifier = apollon_boon_2
+				years = 5
+			}
+		}
+		33 = {
+			add_character_modifier = {
+				modifier = apollon_boon_3
+				years = 5
+			}
+		}
+	}
+}
+
+apply_random_special_boon_effect_akestor = {
+	random_list = {
+		33 = {
+			add_character_modifier = {
+				modifier = apollon_boon_4
+				years = 5
+			}
+		}
+		33 = {
+			add_character_modifier = {
+				modifier = apollon_boon_5
+				years = 5
+			}
+		}
+		33 = {
+			add_character_modifier = {
+				modifier = apollon_boon_6
+				years = 5
+			}
+		}
+	}
+}
+
+apply_random_special_boon_effect_promachos = {
+	random_list = {
+		33 = {
+			add_character_modifier = {
+				modifier = athene_boon_1
+				years = 5
+			}
+		}
+		33 = {
+			add_character_modifier = {
+				modifier = athene_boon_2
+				years = 5
+			}
+		}
+		33 = {
+			add_character_modifier = {
+				modifier = athene_boon_3
+				years = 5
+			}
+		}
+	}
+}
+
+apply_random_special_boon_effect_glaukopis = {
+	random_list = {
+		33 = {
+			add_character_modifier = {
+				modifier = athene_boon_4
+				years = 5
+			}
+		}
+		33 = {
+			add_character_modifier = {
+				modifier = athene_boon_5
+				years = 5
+			}
+		}
+		33 = {
+			add_character_modifier = {
+				modifier = athene_boon_6
+				years = 5
+			}
+		}
+	}
 }
 
 remove_boon_tarhunna_effect = {
@@ -251,6 +576,47 @@ remove_boon_telipinu_effect = {
 	remove_character_modifier = telipinu_boon_3
 }
 
+remove_boon_zeus_effect = {
+	remove_character_modifier = zeus_boon_1
+	remove_character_modifier = zeus_boon_2
+	remove_character_modifier = zeus_boon_3
+}
+
+remove_boon_ares_effect = {
+	remove_character_modifier = ares_boon_1
+	remove_character_modifier = ares_boon_2
+	remove_character_modifier = ares_boon_3
+}
+
+remove_boon_athene_effect = {
+	remove_character_modifier = athene_boon_1
+	remove_character_modifier = athene_boon_2
+	remove_character_modifier = athene_boon_3
+}
+
+remove_boon_demeter_effect = {
+	remove_character_modifier = demeter_boon_1
+	remove_character_modifier = demeter_boon_2
+	remove_character_modifier = demeter_boon_3
+}
+
+remove_boon_apollon_effect = {
+	remove_character_modifier = apollon_boon_1
+	remove_character_modifier = apollon_boon_2
+	remove_character_modifier = apollon_boon_3
+}
+
+remove_boon_hermes_effect = {
+	remove_character_modifier = hermes_boon_1
+	remove_character_modifier = hermes_boon_2
+	remove_character_modifier = hermes_boon_3
+}
+
+remove_boon_aphrodite_effect = {
+	remove_character_modifier = aphrodite_boon_1
+	remove_character_modifier = aphrodite_boon_2
+	remove_character_modifier = aphrodite_boon_3
+}
 
 apply_random_curse_effect = {
 	if = {
@@ -418,6 +784,196 @@ apply_random_curse_effect_FROMFROM = {
 			}
 		}
 	}
+	
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = zeus
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = zeus_curse_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = zeus_curse_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = zeus_curse_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = ares
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = ares_curse_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = ares_curse_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = ares_curse_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = athene
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = athene_curse_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = athene_curse_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = athene_curse_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = demeter
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = demeter_curse_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = demeter_curse_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = demeter_curse_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = apollon
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = apollon_curse_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = apollon_curse_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = apollon_curse_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = hermes
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = hermes_curse_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = hermes_curse_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = hermes_curse_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = aphrodite
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = aphrodite_curse_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = aphrodite_curse_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = aphrodite_curse_3
+					years = 5
+				}
+			}
+		}
+	}
 }
 
 remove_boon_effect_FROMFROM = {
@@ -445,12 +1001,76 @@ remove_boon_effect_FROMFROM = {
 		}
 		remove_boon_telipinu_effect = yes
 	}
+	
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = zeus
+			}
+		}
+		remove_boon_zeus_effect = yes
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = ares
+			}
+		}
+		remove_boon_ares_effect = yes
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = athene
+			}
+		}
+		remove_boon_athene_effect = yes
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = demeter
+			}
+		}
+		remove_boon_demeter_effect = yes
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = apollon
+			}
+		}
+		remove_boon_apollon_effect = yes
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = hermes
+			}
+		}
+		remove_boon_hermes_effect = yes
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = aphrodite
+			}
+		}
+		remove_boon_aphrodite_effect = yes
+	}
 }
 
 remove_curse_effect = {
 	remove_curse_tarhunna_effect = yes
 	remove_curse_arinniti_effect = yes
 	remove_curse_telipinu_effect = yes
+	remove_curse_zeus_effect = yes
+	remove_curse_ares_effect = yes
+	remove_curse_athene_effect = yes
+	remove_curse_demeter_effect = yes
+	remove_curse_apollon_effect = yes
+	remove_curse_hermes_effect = yes
+	remove_curse_aphrodite_effect = yes
 }
 
 remove_curse_tarhunna_effect = {
@@ -469,6 +1089,48 @@ remove_curse_telipinu_effect = {
 	remove_character_modifier = telipinu_curse_1
 	remove_character_modifier = telipinu_curse_2
 	remove_character_modifier = telipinu_curse_3
+}
+
+remove_curse_zeus_effect = {
+	remove_character_modifier = zeus_curse_1
+	remove_character_modifier = zeus_curse_2
+	remove_character_modifier = zeus_curse_3
+}
+
+remove_curse_ares_effect = {
+	remove_character_modifier = ares_curse_1
+	remove_character_modifier = ares_curse_2
+	remove_character_modifier = ares_curse_3
+}
+
+remove_curse_athene_effect = {
+	remove_character_modifier = athene_curse_1
+	remove_character_modifier = athene_curse_2
+	remove_character_modifier = athene_curse_3
+}
+
+remove_curse_demeter_effect = {
+	remove_character_modifier = demeter_curse_1
+	remove_character_modifier = demeter_curse_2
+	remove_character_modifier = demeter_curse_3
+}
+
+remove_curse_apollon_effect = {
+	remove_character_modifier = apollon_curse_1
+	remove_character_modifier = apollon_curse_2
+	remove_character_modifier = apollon_curse_3
+}
+
+remove_curse_hermes_effect = {
+	remove_character_modifier = hermes_curse_1
+	remove_character_modifier = hermes_curse_2
+	remove_character_modifier = hermes_curse_3
+}
+
+remove_curse_aphrodite_effect = {
+	remove_character_modifier = aphrodite_curse_1
+	remove_character_modifier = aphrodite_curse_2
+	remove_character_modifier = aphrodite_curse_3
 }
 
 remove_curse_sacrifice_effect = {
@@ -496,133 +1158,368 @@ remove_curse_sacrifice_effect = {
 		}
 		remove_curse_telipinu_effect = yes
 	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = zeus
+			}
+		}
+		remove_curse_zeus_effect = yes
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = ares
+			}
+		}
+		remove_curse_ares_effect = yes
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = athene
+			}
+		}
+		remove_curse_athene_effect = yes
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = demeter
+			}
+		}
+		remove_curse_demeter_effect = yes
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = apollon
+			}
+		}
+		remove_curse_apollon_effect = yes
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = hermes
+			}
+		}
+		remove_curse_hermes_effect = yes
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = aphrodite
+			}
+		}
+		remove_curse_aphrodite_effect = yes
+	}
 }
 
 #AI Only
 ai_make_sacrifice_to_evaluation_effect = {
 	save_event_target_as = sacrificer
-	if = {
-		limit = {
-			religion_group = pihassasi
-		}
-		random_list = {
-			40 = { #Tarhunna
-				trigger = {
-					c_1000000 = {
-						NOR = {
-							received_sacrifice_recently_trigger_ROOT = yes
-							reverse_has_opinion_modifier = {
-								who = ROOT
-								modifier = opinion_cursed_by
-							}
+	random_list = {
+		40 = { #Tarhunna
+			trigger = {
+				OR = {
+					religion_group = pihassasi
+					trait = syncretic_pihassasi
+				}
+				c_1000000 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
 						}
 					}
 				}
-				c_1000000 = {
-					save_event_target_as = target_god
-					ai_sacrifice_success_or_fail = yes
+			}
+			c_1000000 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 2.5
+				likes_war_god_trigger = yes
+			}
+			modifier = {
+				factor = 100
+				trait = devotion_tarhunna
+			}
+		}
+		30 = { #Arinniti
+			trigger = {
+				OR = {
+					trait = devotion_arinniti
+					religion = ishalitethai
+					trait = syncretic_pihassasi
 				}
-				modifier = {
-					factor = 2.5
-					likes_war_god_trigger = yes
+				c_1000001 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
 				}
-				modifier = {
-					factor = 100
+			}
+			c_1000001 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 100
+				trait = devotion_arinniti
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					trait = devotion_telipinu
 					trait = devotion_tarhunna
 				}
 			}
-			30 = { #Arinniti
-				trigger = {
-					OR = {
-						NOT = {
-							religion = haianiluwi
+		}
+		30 = { #Telipinu
+			trigger = {
+				OR = {
+					religion_group = pihassasi
+					trait = syncretic_pihassasi
+				}
+				c_1000002 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
 						}
-						trait = devotion_arinniti
-					}
-					c_1000001 = {
-						NOR = {
-							received_sacrifice_recently_trigger_ROOT = yes
-							reverse_has_opinion_modifier = {
-								who = ROOT
-								modifier = opinion_cursed_by
-							}
-						}
-					}
-				}
-				c_1000001 = {
-					save_event_target_as = target_god
-					ai_sacrifice_success_or_fail = yes
-				}
-				modifier = {
-					factor = 100
-					trait = devotion_arinniti
-				}
-				modifier = {
-					factor = 0
-					OR = {
-						trait = devotion_telipinu
-						trait = devotion_tarhunna
 					}
 				}
 			}
-			30 = { #Telipinu
-				trigger = {
-					c_1000002 = {
-						NOR = {
-							received_sacrifice_recently_trigger_ROOT = yes
-							reverse_has_opinion_modifier = {
-								who = ROOT
-								modifier = opinion_cursed_by
-							}
+			c_1000002 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 100
+				trait = devotion_telipinu
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					trait = devotion_arinniti
+					trait = devotion_tarhunna
+				}
+			}
+		}
+		
+		16 = { #Zeus
+			trigger = {
+				OR = {
+					religion_group = hellenic
+					trait = syncretic_hellenic
+				}
+				c_1100146 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
 						}
 					}
 				}
-				c_1000002 = {
-					save_event_target_as = target_god
-					ai_sacrifice_success_or_fail = yes
+			}
+			c_1100146 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+		}
+		14 = { #Ares
+			trigger = {
+				OR = {
+					religion_group = hellenic
+					trait = syncretic_hellenic
 				}
-				modifier = {
-					factor = 100
-					trait = devotion_telipinu
-				}
-				modifier = {
-					factor = 0
-					OR = {
-						trait = devotion_arinniti
-						trait = devotion_tarhunna
+				c_1100152 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
 					}
 				}
+			}
+			c_1100152 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 2.5
+				likes_war_god_trigger = yes
+				NOT = {
+					trait = strategist
+				}
+			}
+		}
+		14 = { #Athene
+			trigger = {
+				OR = {
+					religion_group = hellenic
+					trait = syncretic_hellenic
+				}
+				c_1100147 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1100147 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 2.5
+				likes_war_god_trigger = yes
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					trait = devotion_arinniti
+					trait = devotion_tarhunna
+				}
+			}
+		}
+		14 = { #Demeter
+			trigger = {
+				OR = {
+					religion_group = hellenic
+					trait = syncretic_hellenic
+				}
+				c_1100142 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1100142 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+		}
+		14 = { #Apollon
+			trigger = {
+				OR = {
+					religion_group = hellenic
+					trait = syncretic_hellenic
+				}
+				c_1100149 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1100149 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+		}
+		14 = { #Hermes
+			trigger = {
+				OR = {
+					religion_group = hellenic
+					trait = syncretic_hellenic
+				}
+				c_1100154 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1100154 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 2.5
+				likes_commerce_god_trigger
+			}
+		}
+		14 = { #Aphrodite
+			trigger = {
+				OR = {
+					religion_group = hellenic
+					trait = syncretic_hellenic
+				}
+				c_1100155 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1100155 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 2.5
+				trait = likes_love_god_trigger = yes
 			}
 		}
 	}
 }
 
 ai_sacrifice_success_or_fail = {
+	event_target:sacrificer = {
+		wealth = -1000
+	}
 	random_list = {
 		40 = {
-			FROM = {
+			event_target:sacrificer = {
 				wealth = -50
 				set_character_flag = small_sacrifice
 			}
 		}
 		35 = {
 			trigger = {
-				FROM = {
+				event_target:sacrificer = {
 					wealth = 250
 				}
 			}
-			FROM = {
+			event_target:sacrificer = {
 				wealth = -250
 				set_character_flag = medium_sacrifice
 			}
 		}
 		25 = {
 			trigger = {
-				FROM = {
+				event_target:sacrificer = {
 					wealth = 500
 				}
 			}
-			FROM = {
+			event_target:sacrificer = {
 				wealth = -500
 				set_character_flag = large_sacrifice
 			}
@@ -630,12 +1527,12 @@ ai_sacrifice_success_or_fail = {
 	}
 	random_list = {
 		60 = { #Do Well
-			FROM = { 
+			event_target:sacrificer = { 
 				character_event = { id = fkp.204 }
 			}
 			modifier = {
 				factor = 1.5
-				FROM = {
+				event_target:sacrificer = {
 					OR = {
 						trait = scholarly_theologian
 						trait = mastermind_theologian
@@ -646,13 +1543,13 @@ ai_sacrifice_success_or_fail = {
 			}
 			modifier = {
 				factor = 1.2
-				FROM = {
+				event_target:sacrificer = {
 					has_character_flag = medium_sacrifice
 				}
 			}
 			modifier = {
 				factor = 1.3
-				FROM = {
+				event_target:sacrificer = {
 					OR = {
 						trait = dull
 						has_character_flag = large_sacrifice
@@ -662,12 +1559,12 @@ ai_sacrifice_success_or_fail = {
 			}
 		}
 		40 = { #Do Poorly
-			FROM = { 
+			event_target:sacrificer = { 
 				character_event = { id = fkp.205 }
 			}
 			modifier = {
 				factor = 1.5
-				FROM = {
+				event_target:sacrificer = {
 					OR = {
 						trait = inbred
 						trait = slow
@@ -681,94 +1578,298 @@ ai_sacrifice_success_or_fail = {
 }
 
 ai_request_boon_evaluation_effect = {
-	if = {
-		limit = {
-			religion_group = pihassasi
-		}
-		random_list = {
-			40 = { #Tarhunna
-				trigger = {
-					c_1000000 = {
-						NOT = {
-							reverse_has_opinion_modifier = {
-								who = ROOT
-								modifier = opinion_cursed_by
-							}
-						}
-					}
+	random_list = {
+		40 = { #Tarhunna
+			trigger = {
+				OR = {
+					religion_group = pihassasi
+					trait = syncretic_pihassasi
 				}
 				c_1000000 = {
-					save_event_target_as = target_god
-					boon_or_no_boon_effect = yes
-				}
-				modifier = {
-					factor = 100
-					c_1000000 = {
-						received_sacrifice_recently_trigger = yes
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
 					}
-				}
-				modifier = {
-					factor = 3
-					trait = devotion_tarhunna
 				}
 			}
-			30 = { #Arinniti
-				trigger = {
-					c_1000001 = {
-						NOT = {
-							reverse_has_opinion_modifier = {
-								who = ROOT
-								modifier = opinion_cursed_by
-							}
-						}
-					}
-					OR = {
-						NOT = {
-							religion = haianiluwi
-						}
-						trait = devotion_arinniti
-					}
+			c_1000000 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1000000 = {
+					received_sacrifice_recently_trigger = yes
 				}
+			}
+			modifier = {
+				factor = 3
+				trait = devotion_tarhunna
+			}
+		}
+		30 = { #Arinniti
+			trigger = {
 				c_1000001 = {
-					save_event_target_as = target_god
-					boon_or_no_boon_effect = yes
-				}
-				modifier = {
-					factor = 100
-					c_1000001 = {
-						received_sacrifice_recently_trigger = yes
-					}
-				}
-				modifier = {
-					factor = 3
-					trait = devotion_arinniti
-				}
-			}
-			30 = { #Telipinu
-				trigger = {
-					c_1000002 = {
-						NOT = {
-							reverse_has_opinion_modifier = {
-								who = ROOT
-								modifier = opinion_cursed_by
-							}
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
 						}
 					}
+				}
+				OR = {
+					trait = devotion_arinniti
+					religion = ishalitethai
+					trait = syncretic_pihassasi
+				}
+			}
+			c_1000001 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1000001 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 3
+				trait = devotion_arinniti
+			}
+		}
+		30 = { #Telipinu
+			trigger = {
+				OR = {
+					religion_group = pihassasi
+					trait = syncretic_pihassasi
 				}
 				c_1000002 = {
-					save_event_target_as = target_god
-					boon_or_no_boon_effect = yes
-				}
-				modifier = {
-					factor = 100
-					c_1000002 = {
-						received_sacrifice_recently_trigger = yes
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
 					}
 				}
-				modifier = {
-					factor = 3
-					trait = devotion_telipinu
+			}
+			c_1000002 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1000002 = {
+					received_sacrifice_recently_trigger = yes
 				}
+			}
+			modifier = {
+				factor = 3
+				trait = devotion_telipinu
+			}
+		}
+		
+		16 = { #Zeus
+			trigger = {
+				OR = {
+					religion_group = hellenic
+					trait = syncretic_hellenic
+				}
+				c_1100146 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1100146 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1100146 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+		}
+		14 = { #Ares
+			trigger = {
+				OR = {
+					religion_group = hellenic
+					trait = syncretic_hellenic
+				}
+				c_1100152 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1100152 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1100152 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 3
+				likes_war_god_trigger = yes
+				NOT = {
+					trait = strategist
+				}
+			}
+		}
+		14 = { #Athene
+			trigger = {
+				OR = {
+					religion_group = hellenic
+					trait = syncretic_hellenic
+				}
+				c_1100147 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1100147 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1100147 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 3
+				likes_war_god_trigger = yes
+			}
+		}
+		14 = { #Demeter
+			trigger = {
+				OR = {
+					religion_group = hellenic
+					trait = syncretic_hellenic
+				}
+				c_1100142 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1100142 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1100142 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+		}
+		14 = { #Apollon
+			trigger = {
+				OR = {
+					religion_group = hellenic
+					trait = syncretic_hellenic
+				}
+				c_1100142 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1100149 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1100149 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+		}
+		14 = { #Hermes
+			trigger = {
+				OR = {
+					religion_group = hellenic
+					trait = syncretic_hellenic
+				}
+				c_1100154 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1100154 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1100154 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 3
+				likes_commerce_god_trigger = yes
+			}
+		}
+		14 = { #Aphrodite
+			trigger = {
+				OR = {
+					religion_group = hellenic
+					trait = syncretic_hellenic
+				}
+				c_1100155 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1100155 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1100155 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 3
+				likes_love_god_trigger = yes
 			}
 		}
 	}
@@ -851,6 +1952,231 @@ ai_apply_random_boon_effect = {
 			33 = {
 				add_character_modifier = {
 					modifier = telipinu_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = zeus
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = zeus_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = zeus_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = zeus_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = ares
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = ares_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = ares_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = ares_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = athene
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = athene_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = athene_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = athene_boon_3
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = athene_boon_4
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = athene_boon_5
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = athene_boon_6
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = demeter
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = demeter_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = demeter_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = demeter_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = apollon
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = apollon_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = apollon_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = apollon_boon_3
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = apollon_boon_4
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = apollon_boon_5
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = apollon_boon_6
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = hermes
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = hermes_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = hermes_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = hermes_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = aphrodite
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = aphrodite_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = aphrodite_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = aphrodite_boon_3
 					years = 5
 				}
 			}

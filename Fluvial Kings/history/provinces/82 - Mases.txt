@@ -7,6 +7,6 @@ b_franchthi=city
 b_epidaurus=temple
 b_pityussa =castle
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

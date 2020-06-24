@@ -5,6 +5,6 @@ b_dystos=castle
 b_styra=city
 b_karystos=temple
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

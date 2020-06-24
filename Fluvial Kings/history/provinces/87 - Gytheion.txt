@@ -8,6 +8,6 @@ b_bitsoulo=city
 b_teuthrone=castle
 b_casenopolis=castle
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

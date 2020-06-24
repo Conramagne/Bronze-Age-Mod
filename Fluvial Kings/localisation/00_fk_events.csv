@@ -174,7 +174,7 @@ EVTDESCFKR207;Rumors from the Palace has arrived suggesting an outstanding provi
 
 EVTDESCFKR208;As you the palace council grows more powerful, the efficency of your realm increases in kind.;;;;;;;;;;;;;x
 
-EVTDESCFKR210;A quality counciller has emerged from your palace council, gracefully orating the day's proceeding with such efficency that you and the other palace officals were stunned by excellent councillor before you.;;;;;;;;;;;;;x
+EVTDESCFKR210;A quality counciller has emerged from your palace council, gracefully orating the day's proceeding with such efficency that you and the other palace officals were stunned by excellent councilor before you.;;;;;;;;;;;;;x
 
 #Bad Events
 EVTDESCFKR212;You are a laughingstock of a bureaucrat to your community, your utter incompetence has been heard by a passing palace offical whom is surely to report bad things to the great lord of the palace.;;;;;;;;;;;;;x
@@ -182,15 +182,15 @@ EVTDESCFKR213;Rumors from the Palace has arrived suggesting an incompetent provi
 
 EVTDESCFKR214;As you the palace council grown increasingly weaker, your realm's efficency has suffered in equal proportions.;;;;;;;;;;;;;x
 
-EVTDESCFKR216;A weak councillor has made themselves known from within your palace council, bumbling through and causing a ruckus with you and the other palace officals whom lament the depravity of the council. You stand before this laughing stock wearing a stern glare.;;;;;;;;;;;;;x
+EVTDESCFKR216;A weak councilor has made themselves known from within your palace council, bumbling through and causing a ruckus with you and the other palace officals whom lament the depravity of the council. You stand before this laughing stock wearing a stern glare.;;;;;;;;;;;;;x
 
 EVTDESCFKR217;You have ascended the throne following the death of the previous Lord of the Palace, Palace officals have yet to determine that your worthiness of the realm so have placed it upon themselves to ignore your decrees and service themselves and thier self-interest.;;;;;;;;;;;;;x
 EVTOPTAFKR217;For Shame, in time this council will heed by words!;;;;;;;;;;;;;x
 
-EVTDESCFKR219;A schemeing councillor has appointed thier friends and families into positions in your palace council! This Shameful display has shown the deep seated corruption that lurks in your palace.;;;;;;;;;;;;;x
-EVTOPTAFKR219;Blasphemy! This is most concerning...;;;;;;;;;;;;;x
+EVTDESCFKR219;With a family member in a position of power, it has shown that deep seated corruption lurks in your palace.;;;;;;;;;;;;;x
+EVTOPTAFKR219;This is most concerning...;;;;;;;;;;;;;x
 
-EVTDESCFKR221;A schemeing councillor's appointee is now sitting in your palace council where there should be a much better candidate, other councillors whisper about this turn of events.;;;;;;;;;;;;;x
+EVTDESCFKR221;A schemeing councilor is now sitting in your palace council where there should be a much better candidate, other councilors whisper about this turn of events.;;;;;;;;;;;;;x
 EVTOPTAFKR221;Vultures! I dare say!;;;;;;;;;;;;;x
 
 EVTDESCFKR222;The Enemies are at the gates of your palace and as your glorious seat of government burns your palace officals try desperately in vain to save what little they could of your administration from the seering edge of a torch. You stand dumbfounded as you prepare to flee the burning ruins of your palace.;;;;;;;;;;;;;x
@@ -205,7 +205,7 @@ EVTDESCFKR231;Whether do to the lavish nature of Palace life or a couple years o
 EVTOPTAFKR231;For Shame!;;;;;;;;;;;;;x
 
 ##Increase##
-EVTDESCFKR232;Whether do to the greak work of your councillors or the management of the realm by your provincial lords, the glorious efficency of your council have begun to make real change in your realm. Its not to say that they are the model of the gods you aspire them to be, but your realm has seen increase prosperity through the hard work of the palace.;;;;;;;;;;;;;x
+EVTDESCFKR232;Whether do to the greak work of your councilors or the management of the realm by your provincial lords, the glorious efficency of your council have begun to make real change in your realm. Its not to say that they are the model of the gods you aspire them to be, but your realm has seen increase prosperity through the hard work of the palace.;;;;;;;;;;;;;x
 EVTOPTAFKR232;There is still much to do...;;;;;;;;;;;;;x
 EVTDESCFKR233;Your Palace is filled with the throngs of your palace bureaucrats that attend to ever facet of your glorious realm, they have not squandered the resources of your realm investing it to improve the day-to-day lives of your subjects under your glorious name!.;;;;;;;;;;;;;x
 EVTOPTAFKR233;As it should be!;;;;;;;;;;;;;x

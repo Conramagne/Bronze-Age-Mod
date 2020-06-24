@@ -7,6 +7,6 @@ b_tritaia=city
 b_kleitor=temple
 b_psophis =castle
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

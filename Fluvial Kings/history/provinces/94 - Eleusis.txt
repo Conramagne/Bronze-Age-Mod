@@ -3,6 +3,6 @@ title=c_eleusis
 max_settlements= 1
 b_eleusis=castle
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains

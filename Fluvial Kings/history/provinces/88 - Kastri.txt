@@ -5,6 +5,6 @@ b_kastri=castle
 b_skandeia=city
 b_kythria=temple
 
-culture=greek
+culture=achaean
 religion=pantes_theoi
 terrain=plains
