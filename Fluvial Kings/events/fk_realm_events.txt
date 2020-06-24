@@ -699,6 +699,9 @@ character_event = {
 				has_title_flag = imperial_authority_set
 			}
 		}
+		NOT = {
+			has_character_flag = flag_god
+		}
 	}
 	
 	immediate = {
@@ -739,6 +742,9 @@ character_event = {
 	picture = GFX_evt_succession
 	trigger = {
 		government = hegemonic_government
+		NOT = {
+			had_character_flag = flag_god
+		}
 		NOT = {
 			primary_title = {
 				has_title_flag = imperial_authority_set
@@ -2260,6 +2266,9 @@ character_event = {
 				has_title_flag = palace_bureaucracy_set
 			}
 		}
+		NOT = {
+			has_character_flag = flag_god
+		}
 	}
 	
 	immediate = {
@@ -2281,7 +2290,7 @@ character_event = {
 character_event = {
 	id = fkr.201
 	desc = EVTDESCFKR201
-	picture =GFX_evt_council
+	picture = GFX_evt_council
 	
 	only_playable = yes
 	
@@ -2297,6 +2306,9 @@ character_event = {
 			any_demesne_title = {
 				has_title_flag = palace_bureaucracy_set
 			}
+		}
+		NOT = {
+			has_character_flag = flag_god
 		}
 	}
 	
@@ -2489,7 +2501,8 @@ character_event = {
 	min_age = 16
 	
 	trigger = {
-		is_feudal
+		is_feudal = yes
+		has_character_modifier = palace_bureaucracy
 		OR = {
 			trait = just
 			trait = administrator
@@ -2524,6 +2537,10 @@ character_event = {
 		if = {
 			limit = {
 				independent = no
+				liege = {
+					is_feudal = yes
+					has_character_modifier = palace_bureaucracy
+				}
 			}
 			liege = {
 				character_event = { id = fkr.207 }
@@ -2563,7 +2580,7 @@ character_event = {
 character_event = {
 	id = fkr.208
 	desc = EVTDESCFKR208
-	picture =GFX_evt_council
+	picture = GFX_evt_council
 	notification = yes
 	is_triggered_only = yes
 	
@@ -2571,7 +2588,8 @@ character_event = {
 		NOT = {
 			has_character_flag = law_no_change
 		}
-		government = bureaucratic_government
+		is_feudal = yes
+		has_character_modifier = palace_bureaucracy
 	}
 	
 	immediate = {
@@ -2599,6 +2617,7 @@ character_event = {
 	trigger = {
 		liege = {
 			is_feudal = yes
+			has_character_modifier = palace_bureaucracy
 		}
 		OR = {
 			AND = {
@@ -2742,6 +2761,7 @@ character_event = {
 	
 	trigger = {
 		is_feudal = yes
+		has_character_modifier = palace_bureaucracy
 		OR = {
 			trait = arbitrary
 			stewardship < 6
@@ -2772,6 +2792,10 @@ character_event = {
 		if = {
 			limit = {
 				independent = no
+				liege = {
+					is_feudal = yes
+					has_character_modifier = palace_bureaucracy
+				}
 			}
 			liege = {
 				character_event = { id = fkr.213 }
@@ -2814,7 +2838,8 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		government = bureaucratic_government
+		is_feudal = yes
+		has_character_modifier = palace_bureaucracy
 	}
 	
 	immediate = {
@@ -2832,7 +2857,6 @@ character_event = {
 	}
 }
 
-
 #Set up for bad councillors
 character_event = {
 	id = fkr.215
@@ -2843,6 +2867,7 @@ character_event = {
 	trigger = {
 		liege = {
 			is_feudal = yes
+			has_character_modifier = palace_bureaucracy
 		}
 		OR = {
 			AND = {
@@ -2944,6 +2969,7 @@ character_event = {
 	
 	trigger = {
 		is_feudal = yes
+		has_character_modifier = palace_bureaucracy
 		current_heir = {
 			is_landed = no
 		}
@@ -2982,6 +3008,7 @@ character_event = {
 	trigger = {
 		liege = {
 			is_close_relative = ROOT
+			has_character_modifier = palace_bureaucracy
 		}
 		NOR = {
 			trait = just
@@ -3062,6 +3089,10 @@ character_event = {
 			has_character_flag = flag_nepotism
 		}
 		independent = no
+		liege = {
+			is_feudal = yes
+			has_character_modifier = palace_bureaucracy
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -3125,6 +3156,7 @@ character_event = {
 	picture = GFX_evt_dark_court
 	trigger = {
 		is_feudal = yes
+		has_character_modifier = palace_bureaucracy
 		primary_title = {
 			check_variable = { which = palace_bureaucracy_number value < 40 }
 		}
@@ -3153,6 +3185,7 @@ character_event = {
 	picture = GFX_evt_dark_court
 	trigger = {
 		is_feudal = yes
+		has_character_modifier = palace_bureaucracy
 		primary_title = {
 			check_variable = { which = palace_bureaucracy value < 70 }
 		}
@@ -3176,6 +3209,7 @@ character_event = {
 	picture = GFX_evt_council
 	trigger = {
 		is_feudal = yes
+		has_character_modifier = palace_bureaucracy
 		primary_title = {
 			AND = {
 				check_variable = { which = palace_bureaucracy value > 40 }
@@ -3202,6 +3236,7 @@ character_event = {
 	picture = GFX_evt_council
 	trigger = {
 		is_feudal = yes
+		has_character_modifier = palace_bureaucracy
 		primary_title = {
 			check_variable = { which = palace_bureaucracy value > 70 }
 		}
@@ -3467,6 +3502,7 @@ character_event = {
 	id = fkr.250
 	hide_window = yes
 	trigger = {
+		has_character_modifier = palace_bureaucracy
 		primary_title = {
 			check_variable = { which = palace_bureaucracy_number value >= 100 }
 		}
@@ -3488,6 +3524,7 @@ character_event = {
 	id = fkr.251
 	hide_window = yes
 	trigger = {
+		has_character_modifier = palace_bureaucracy
 		primary_title = {
 			check_variable = { which = palace_bureaucracy_number value < 0 }
 		}

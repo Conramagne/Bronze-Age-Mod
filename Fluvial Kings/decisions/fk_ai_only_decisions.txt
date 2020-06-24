@@ -3,7 +3,7 @@ decisions = {
 		ai_check_interval = 1
 		
 		potential = {
-			#ai = yes
+			ai = yes
 			NOR = {
 				has_character_modifier = made_sacrifice
 				has_character_flag = flag_god
@@ -35,7 +35,7 @@ decisions = {
 		ai_check_interval = 1
 		
 		potential = {
-			#ai = yes
+			ai = yes
 			NOR = {
 				has_character_modifier = denied_boon
 				has_character_flag = flag_god
