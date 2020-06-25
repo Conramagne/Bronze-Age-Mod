@@ -23,11 +23,7 @@ decisions = {
 		}
 		revoke_allowed = { always = no }
 		ai_will_do = {
-			factor = 0.1
-			modifier = {
-				factor = 10
-				has_character_modifier = made_sacrifice
-			}
+			factor = 1
 		}
 	}
 	
@@ -56,6 +52,12 @@ decisions = {
 		revoke_allowed = { always = no }
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					has_character_modifier = made_sacrifice
+				}
+			}
 		}
 	}
 }

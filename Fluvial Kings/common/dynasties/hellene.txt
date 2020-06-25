@@ -4,3 +4,8 @@
 	culture = "achaean"
 	used_for_random = no
 }
+2100001 = {
+	name = "Eliad"
+	culture = "achaean"
+	used_for_random = no
+}

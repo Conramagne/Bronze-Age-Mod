@@ -6,7 +6,7 @@
 	religion = pantes_theoi
 	female = yes
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.1 = { birth = yes }
 	1.1.1 = {
@@ -34,7 +34,7 @@
 	religion = pantes_theoi
 	mother = 1100000
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.1 = { birth = yes }
 	1.1.1 = {
@@ -57,7 +57,7 @@
 	father = 1100001
 	mother = 1100000
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.2 = { birth = yes }
 	1.1.2 = {
@@ -83,7 +83,7 @@
 	father = 1100001
 	mother = 1100000
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.3 = { birth = yes }
 	1.1.3 = {
@@ -102,7 +102,7 @@
 	father = 1100001
 	mother = 1100000
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.4 = { birth = yes }
 	1.1.12 = {
@@ -122,7 +122,7 @@
 	father = 1100001
 	mother = 1100000
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.5 = { birth = yes }
 	1.1.5 = {
@@ -141,7 +141,7 @@
 	father = 1100001
 	mother = 1100000
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.6 = { birth = yes }
 	1.1.6 = {
@@ -160,7 +160,7 @@
 	father = 1100001
 	mother = 1100000
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.7 = { birth = yes }
 	1.1.7 = {
@@ -183,7 +183,7 @@
 	father = 1100001
 	mother = 1100000
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.8 = { birth = yes }
 	1.1.8 = {
@@ -204,7 +204,7 @@
 	father = 1100001
 	mother = 1100000
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.9 = { birth = yes }
 	1.1.9 = {
@@ -224,7 +224,7 @@
 	father = 1100001
 	mother = 1100000
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.10 = { birth = yes }
 	1.1.10 = {
@@ -244,7 +244,7 @@
 	father = 1100001
 	mother = 1100000
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.11 = { birth = yes }
 	1.1.11 = {
@@ -264,7 +264,7 @@
 	father = 1100001
 	mother = 1100000
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.12 = { birth = yes }
 	1.1.12 = {
@@ -284,7 +284,7 @@
 	father = 1100001
 	mother = 1100000
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.13 = { birth = yes }
 	1.1.13 = {
@@ -304,7 +304,7 @@
 	father = 1100001
 	mother = 1100000
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.14 = { birth = yes }
 	1.1.14 = {
@@ -327,7 +327,7 @@
 	father = 1100003
 	mother = 1100013
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 20
 	1.1.14 = { birth = yes }
 	1.1.14 = {
@@ -352,7 +352,7 @@
 	father = 1100003
 	mother = 1100013
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 20
 	1.1.15 = { birth = yes }
 	1.1.15 = {
@@ -372,7 +372,7 @@
 	father = 1100003
 	mother = 1100013
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 20
 	1.1.16 = { birth = yes }
 	1.1.16 = {
@@ -392,7 +392,7 @@
 	father = 1100003
 	mother = 1100013
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 20
 	1.1.17 = { birth = yes }
 	1.1.17 = {
@@ -412,7 +412,7 @@
 	father = 1100003
 	mother = 1100013
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 20
 	1.4.3 = { birth = yes }
 	1.4.3 = {
@@ -436,7 +436,7 @@
 	father = 1100014
 	mother = 1100009
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 20
 	1.1.15 = { birth = yes }
 	1.1.15 = {
@@ -477,7 +477,7 @@
 	father = 1100014
 	mother = 1100009
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 20
 	1.1.17 = { birth = yes }
 	1.1.17 = {
@@ -496,7 +496,7 @@
 	father = 1100014
 	mother = 1100009
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 20
 	1.1.18 = { birth = yes }
 	1.1.18 = {
@@ -520,7 +520,7 @@
 	father = 1100014
 	mother = 1100009
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 20
 	1.1.19 = { birth = yes }
 	1.1.19 = {
@@ -612,7 +612,7 @@
 	father = 1100146
 	mother = 1100142
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 20
 	1.1.22 = { birth = yes }
 	1.1.22 = {
@@ -653,7 +653,7 @@
 	father = 1100146
 	mother = 1100161
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 20
 	1.1.23 = { birth = yes }
 	1.1.23 = {
@@ -673,7 +673,7 @@
 	father = 1100146
 	mother = 1100143
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 20
 	1.1.24 = { birth = yes }
 	1.1.24 = {
@@ -711,7 +711,7 @@
 	religion = pantes_theoi
 	mother = 1100143
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 20
 	1.1.26 = { birth = yes }
 	1.1.26 = {
@@ -774,7 +774,7 @@
 	father = 1100004
 	mother = 1100012
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 20
 	1.1.13 = { birth = yes }
 	1.1.13 = {
@@ -793,7 +793,7 @@
 	father = 1100007
 	mother = 1100022
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.16 = { birth = yes }
 	1.1.16 = {
@@ -815,7 +815,7 @@
 	father = 1100006
 	mother = 1100008
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 20
 	1.1.9 = { birth = yes }
 	1.1.9 = {
@@ -837,7 +837,7 @@
 	father = 1100162
 	mother = 1100023
 	disallow_random_traits = yes
-	trait = immortal
+	trait = trait_god
 	immortal_age = 50
 	1.1.17 = { birth = yes }
 	1.1.17 = {

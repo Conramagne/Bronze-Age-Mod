@@ -2,6 +2,16 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1 = {
+2431.1.1 = {
 	liege = d_elis
+	holder = 2100104 #Eleios
+}
+2461.1.1 = {
+	holder = 2100103 #Augeas
+}
+2491.1.1 = {
+	holder = 2100102 #Agasthenes
+}
+2521.1.1 = {
+	holder = 2100100 #Poluxenos
 }

@@ -718,3 +718,16 @@ character_event = {
 		}
 	}
 }
+
+#Miscellaneous
+character_event = {
+	id = fkp.9000
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_character_flag = flag_god
+	}
+	immediate = {
+		clear_wealth = yes
+	}
+}

@@ -743,7 +743,7 @@ character_event = {
 	trigger = {
 		government = hegemonic_government
 		NOT = {
-			had_character_flag = flag_god
+			has_character_flag = flag_god
 		}
 		NOT = {
 			primary_title = {
