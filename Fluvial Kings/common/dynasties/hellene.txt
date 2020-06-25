@@ -9,3 +9,18 @@
 	culture = "achaean"
 	used_for_random = no
 }
+2100002 = {
+	name = "Abaid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100003 = {
+	name = "Arkid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100004 = {
+	name = "Lykaid"
+	culture = "achaean"
+	used_for_random = no
+}

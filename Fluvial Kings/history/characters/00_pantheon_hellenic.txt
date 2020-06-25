@@ -13,16 +13,6 @@
 		effect = {
 			set_character_flag = flag_god
 		}
-		add_spouse = 1100001
-	}
-	1.1.20 = {
-		remove_spouse = 1100001
-	}
-	1.1.21 = {
-		add_spouse = 1100002
-	}
-	1.1.22 = {
-		remove_spouse = 1100002
 	}
 	9999.1.1 = { death = yes }
 }
@@ -41,10 +31,6 @@
 		effect = {
 			set_character_flag = flag_god
 		}
-		add_spouse = 1100000
-	}
-	1.1.20 = {
-		remove_spouse = 1100000
 	}
 	9999.1.1 = { death = yes }
 }
@@ -64,12 +50,6 @@
 		effect = {
 			set_character_flag = flag_god
 		}
-	}
-	1.1.21 = {
-		add_spouse = 1100000
-	}
-	1.1.22 = {
-		remove_spouse = 1100000
 	}
 	9999.1.1 = { death = yes }
 }
@@ -403,6 +383,27 @@
 	9999.1.1 = { death = yes }
 }
 
+1100025 = { #Doris
+	name = "Doris" # Doris, Fertility of the Ocean
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100003
+	mother = 1100013
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 20
+	1.1.18 = { birth = yes }
+	1.1.18 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+
 1100080 = { #Idyia, Youngest of the Oceanids
 	name = "Idyia"
 	dynasty = 1000001 #Theogonos
@@ -425,7 +426,25 @@
 
 
 #Nereids (1100081-1100140)
-
+1100081 = { #Arethousa
+	name = "Arethousa"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100164
+	mother = 1100025
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 20
+	1.4.3 = { birth = yes }
+	1.4.3 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
 #Olympians (1100141-1100160)
 1100141 = { #Hestia
 	name = "Hestia" # Hestia, Goddess of the Hearth
@@ -554,26 +573,6 @@
 		}
 	}
 	1.1.22 = {
-		effect = {
-			add_spouse = 1100142
-		}
-	}
-	1.1.23 = {
-		effect = {
-			remove_spouse = 1100142
-		}
-	}
-	1.1.23 = {
-		effect = {
-			add_spouse = 1100161
-		}
-	}
-	1.1.24 = {
-		effect = {
-			remove_spouse = 1100161
-		}
-	}
-	1.1.24 = {
 		effect = {
 			add_spouse = 1100143
 		}
@@ -764,7 +763,7 @@
 	9999.1.1 = { death = yes }
 }
 
-#Children of Minor Titans (1100161-1100260)
+#Minor Children (1100161-1100260)
 1100161 = { #Leto
 	name = "Leto" # Leto
 	dynasty = 1000001 #Theogonos
@@ -822,6 +821,28 @@
 		effect = {
 			set_character_flag = flag_god
 		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100164 = { #Nereos
+	name = "Nereos"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100002
+	mother = 1100000
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 50
+	1.1.3 = { birth = yes }
+	1.1.3 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	1.1.19 = {
+		add_spouse = 1100025
 	}
 	9999.1.1 = { death = yes }
 }

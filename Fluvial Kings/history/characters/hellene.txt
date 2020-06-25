@@ -124,7 +124,6 @@
 	culture = achaean
 	religion = pantes_theoi
 	female = yes
-	disallow_random_traits = yes
 	2471.1.1 = { birth = yes }
 	2531.1.1 = { death = yes }
 }
@@ -136,6 +135,11 @@
 	religion = pantes_theoi
 	father = 2100103
 	disallow_random_traits = yes
+	2487.1.1 = {
+		effect = {
+			add_spouse = 2100101
+		}
+	}
 	2461.1.1 = { birth = yes }
 	2521.1.1 = { death = yes }
 }
@@ -159,6 +163,11 @@
 	religion = pantes_theoi
 	father = 1100145
 	mother = 2100106
+	2427.1.1 = {
+		effect = {
+			add_spouse = 2100105
+		}
+	}
 	disallow_random_traits = yes
 	2411.1.1 = { birth = yes }
 	2461.1.1 = { death = yes }
@@ -193,6 +202,11 @@
 	religion = pantes_theoi
 	father = 2100104
 	mother = 2100105
+	2457.1.1 = {
+		effect = {
+			add_spouse = 2100108
+		}
+	}
 	disallow_random_traits = yes
 	2441.1.1 = { birth = yes }
 	2501.1.1 = { death = yes }
@@ -221,13 +235,12 @@
 	2521.1.1 = { death = yes }
 }
 
-2100110 = { #Amphimachcos
+2100110 = { #Amphimachcos, Trojan Combatant
 	name = "Amphimachos"
 	dynasty = 2100001
 	culture = achaean
 	religion = pantes_theoi
 	father = 2100109
-	disallow_random_traits = yes
 	2491.1.1 = { birth = yes }
 	2551.1.1 = { death = yes }
 }
@@ -244,13 +257,328 @@
 	2521.1.1 = { death = yes }
 }
 
-2100112 = { #Thalipos
+2100112 = { #Thalipos, Trojan Combatant
 	name = "Thalipos"
 	dynasty = 2100001
 	culture = achaean
 	religion = pantes_theoi
 	father = 2100111
-	disallow_random_traits = yes
 	2491.1.1 = { birth = yes }
 	2551.1.1 = { death = yes }
+}
+
+#Royal Family of Euboea (2100200-2100299)
+2100200 = { #Elephenor, King of Euboea
+	name = "Elephenor"
+	dynasty = 2100002 #Abaid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100202
+	mother = 2100201
+	2494.1.1 = { birth = yes }
+	2561.1.1 = { death = yes }
+}
+
+2100201 = { #Alcyone
+	name = "Alcyone"
+	dynasty = 2100002 #Abaid
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	2471.1.1 = { birth = yes }
+	2531.1.1 = { death = yes }
+}
+
+2100202 = { #Chalcodon, King of Euboea
+	name = "Chalcodon"
+	dynasty = 2100002 #Abaid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100203
+	disallow_random_traits = yes
+	2471.1.1 = { birth = yes }
+	2521.1.1 = { death = yes }
+}
+
+2100203 = { #Abas, King of Euboea
+	name = "Abas"
+	dynasty = 2100002 #Abaid
+	culture = achaean
+	religion = pantes_theoi
+	father = 1100145
+	mother = 1100081
+	disallow_random_traits = yes
+	2451.1.1 = { birth = yes }
+	2511.1.1 = { death = yes }
+}
+
+#Royal Family of Arcadia (2100300-2100399)
+2100300 = { #Agapenor, King of Arcadia
+	name = "Agapenor"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100302
+	mother = 2100301
+	2501.1.1 = { birth = yes }
+	2561.1.1 = { death = yes }
+}
+
+2100301 = { #Iotis
+	name = "Iotis"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	2481.1.1 = { birth = yes }
+	2541.1.1 = { death = yes }
+}
+
+2100302 = { #Ankaios, King of Arcadia
+	name = "Ankaios"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100304
+	mother = 2100303
+	disallow_random_traits = yes
+	2481.1.1 = { birth = yes }
+	2497.1.1 = {
+		effect = {
+			add_spouse = 2100301
+		}
+	}
+	2527.1.1 = { death = yes }
+}
+
+2100303 = { #Antinoe
+	name = "Antinoe"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	disallow_random_traits = yes
+	2461.1.1 = { birth = yes }
+	2521.1.1 = { death = yes }
+}
+
+2100304 = { #Lykourgos, King of Arcadia
+	name = "Lykourgos"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100307
+	mother = 2100306
+	disallow_random_traits = yes
+	2461.1.1 = { birth = yes }
+	2477.1.1 = {
+		effect = {
+			add_spouse = 2100303
+		}
+	}
+	2521.1.1 = { death = yes }
+}
+
+2100305 = { #Auge
+	name = "Auge"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	father = 2100307
+	mother = 2100306
+	disallow_random_traits = yes
+	2481.1.1 = { birth = yes }
+	2531.1.1 = { death = yes }
+}
+
+2100306 = { #Neaera
+	name = "Neaera"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	father = 2100320
+	disallow_random_traits = yes
+	2441.1.1 = { birth = yes }
+	2501.1.1 = { death = yes }
+}
+
+2100307 = { #Aleos, King of Arcadia
+	name = "Aleos"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100311
+	disallow_random_traits = yes
+	2431.1.1 = { birth = yes }
+	2457.1.1 = {
+		effect = {
+			add_spouse = 2100306
+		}
+	}
+	2481.1.1 = { death = yes }
+}
+
+2100308 = { #Cleobule
+	name = "Cleobule"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	disallow_random_traits = yes
+	2431.1.1 = { birth = yes }
+	2456.1.1 = { death = yes }
+}
+
+2100309 = { #Cepheus, King of Arcadia
+	name = "Cepheus"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100307
+	mother = 2100308
+	disallow_random_traits = yes
+	2451.1.1 = { birth = yes }
+	2511.1.1 = { death = yes }
+}
+
+2100310 = { #Amphidamas
+	name = "Amphidamas"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100307
+	mother = 2100308
+	disallow_random_traits = yes
+	2433.1.1 = { birth = yes }
+	2521.1.1 = { death = yes }
+}
+
+2100311 = { #Apheidas, King of Arcadia
+	name = "Apheidas"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100314
+	mother = 2100313
+	disallow_random_traits = yes
+	2391.1.1 = { birth = yes }
+	2441.1.1 = { death = yes }
+}
+
+2100312 = { #Elatos, King of Arcadia
+	name = "Elatos"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100314
+	mother = 2100313
+	disallow_random_traits = yes
+	2396.1.1 = { birth = yes }
+	2407.1.1 = {
+		effect = {
+			add_spouse = 2100317
+		}
+	}
+	2431.1.1 = { death = yes }
+}
+
+2100313 = { #Laodamia
+	name = "Laodamia"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	disallow_random_traits = yes
+	2371.1.1 = { birth = yes }
+	2431.1.1 = { death = yes }
+}
+
+2100314 = { #Arkas, King of Arcadia
+	name = "Arkas"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	father = 1100146
+	mother = 2100315
+	disallow_random_traits = yes
+	2371.1.1 = { birth = yes }
+	2387.1.1 = {
+		effect = {
+			add_spouse = 2100313
+		}
+	}
+	2431.1.1 = { death = yes }
+}
+
+2100315 = { #Callisto
+	name = "Callisto"
+	dynasty = 2100004 #Lykaid
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	father = 2100316
+	disallow_random_traits = yes
+	2351.1.1 = { birth = yes }
+	2421.1.1 = { death = yes }
+}
+
+2100316 = { #Lykaon, King of Arcadia
+	name = "Lykaon"
+	dynasty = 2100004 #Lykaid
+	culture = achaean
+	religion = pantes_theoi
+	disallow_random_traits = yes
+	2331.1.1 = { birth = yes }
+	2401.1.1 = { death = yes }
+}
+
+2100317 = { #Laodice
+	name = "Laodice"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	# father = 
+	# mother = 
+	disallow_random_traits = yes
+	2391.1.1 = { birth = yes }
+	2441.1.1 = { death = yes }
+}
+
+2100318 = { #Aiputos, King of Arcadia
+	name = "Aiputos"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100312
+	mother = 2100317
+	disallow_random_traits = yes
+	2416.1.1 = { birth = yes }
+	2446.1.1 = { death = yes }
+}
+
+2100319 = { #Stumphalos, King of Arcadia
+	name = "Stumphalos"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100312
+	mother = 2100317
+	disallow_random_traits = yes
+	2419.1.1 = { birth = yes }
+	2451.1.1 = { death = yes }
+}
+
+2100320 = { #Pereos, King of Arcadia
+	name = "Pereos"
+	dynasty = 2100003 #Arkid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100312
+	mother = 2100317
+	disallow_random_traits = yes
+	2421.1.1 = { birth = yes }
+	2461.1.1 = { death = yes }
 }

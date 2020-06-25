@@ -2,6 +2,13 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1 = {
+2471.1.1 = {
 	liege = d_euvoia
+	holder = 2100203 #Abas
+}
+2511.1.1 = {
+	holder = 2100202 #Chalcodon
+}
+2521.1.1 = {
+	holder = 2100200 #Elephenor
 }

@@ -2,6 +2,21 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1 = {
-	liege = d_boetica
+2411.1.1 = {
+	holder = 2100008 #Athamas
+}
+2451.1.1 = {
+	holder = 2100006 #Phrixos
+}
+2471.1.1 = {
+	holder = 2100005 #Presbon
+}
+2501.1.1 = {
+	holder = 2100004 #Klúmenos
+}
+2511.1.1 = {
+	holder = 2100003 #Actor
+}
+2521.1.1 = {
+	holder = 2100000 #Askalaphos
 }
