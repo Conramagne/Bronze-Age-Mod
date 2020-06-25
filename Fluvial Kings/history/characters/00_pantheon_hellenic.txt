@@ -403,6 +403,26 @@
 	9999.1.1 = { death = yes }
 }
 
+1100026 = { #Hesione
+	name = "Hesione"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100003
+	mother = 1100013
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 20
+	1.1.19 = { birth = yes }
+	1.1.19 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
 
 1100080 = { #Idyia, Youngest of the Oceanids
 	name = "Idyia"
@@ -423,7 +443,6 @@
 	}
 	9999.1.1 = { death = yes }
 }
-
 
 #Nereids (1100081-1100140)
 1100081 = { #Arethousa
@@ -847,6 +866,109 @@
 	9999.1.1 = { death = yes }
 }
 
+1100165 = { #Prometheus
+	name = "Prometheus"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100007
+	mother = 1100022
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 50
+	1.1.17 = { birth = yes }
+	1.1.17 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	1.1.20 = {
+		add_spouse = 1100026
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100166 = { #Deucalion
+	name = "Deucalion"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100165
+	mother = 1100026
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 50
+	1.1.20 = { birth = yes }
+	1.1.20 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	1.1.21 = {
+		add_spouse = 1100169
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100167 = { #Epithemeus
+	name = "Epithemeus"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100007
+	mother = 1100022
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 50
+	1.1.18 = { birth = yes }
+	1.1.18 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	1.1.19 = {
+		add_spouse = 1100168
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100168 = { #Pandora
+	name = "Pandora"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 50
+	1.1.18 = { birth = yes }
+	1.1.18 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100169 = { #Pyrrha
+	name = "Pyrrha"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100167
+	mother = 1100168
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 50
+	1.1.20 = { birth = yes }
+	1.1.20 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
 
 #Pleiades (1100261-1100270)
 1100261 = { #Maia

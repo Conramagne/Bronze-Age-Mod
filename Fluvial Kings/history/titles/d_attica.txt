@@ -2,6 +2,30 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=k_attica
+2264.1.1 = {
+	holder = 2100417 #Amphictyon
+}
+2274.1.1 = {
+	holder = 2100413 #Erichthonios
+}
+2324.1.1 = {
+	holder = 2100411 #Pandion
+}
+2364.1.1 = {
+	holder = 2100409 #Erechtheos
+}
+2414.1.1 = {
+	holder = 2100407 #Cecrops
+}
+2454.1.1 = {
+	holder = 2100405 #Pandion
+}
+2479.1.1 = {
+	holder = 2100403 #Aigeús
+}
+2501.1.1 = {
+	holder = 2100402 #Theseus
+}
+2521.1.1 = {
+	holder = 2100416 #Menestheus
 }

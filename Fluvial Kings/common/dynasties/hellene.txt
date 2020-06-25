@@ -24,3 +24,8 @@
 	culture = "achaean"
 	used_for_random = no
 }
+2100005 = {
+	name = "Erichthoniad"
+	culture = "achaean"
+	used_for_random = no
+}

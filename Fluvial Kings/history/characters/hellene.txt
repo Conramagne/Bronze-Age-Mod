@@ -582,3 +582,207 @@
 	2421.1.1 = { birth = yes }
 	2461.1.1 = { death = yes }
 }
+
+#Royal Family of Athens (2100400-2100499)
+2100400 = { #Demphon
+	name = "Demphon"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100402
+	#mother = 
+	2489.1.1 = { birth = yes }
+	2551.1.1 = { death = yes }
+}
+
+2100401 = { #Akamas
+	name = "Akamas"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100402
+	#mother = 
+	2491.1.1 = { birth = yes }
+	2556.1.1 = { death = yes }
+}
+
+2100402 = { #Theseus, King of Athens
+	name = "Theseus"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	father = 1100145
+	#mother = 
+	disallow_random_traits = yes
+	2466.1.1 = { birth = yes }
+	2521.1.1 = { death = yes }
+}
+
+2100403 = { #Aigeús, King of Athens
+	name = "Aigeús"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100405
+	mother = 2100404
+	disallow_random_traits = yes
+	2441.1.1 = { birth = yes }
+	2501.1.1 = { death = yes }
+}
+
+2100404 = { #Pylia
+	name = "Pylia"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	disallow_random_traits = yes
+	2421.1.1 = { birth = yes }
+	2501.1.1 = { death = yes }
+}
+
+2100405 = { #Pandion, King of Athens
+	name = "Pandion"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100407
+	mother = 2100406
+	disallow_random_traits = yes
+	2414.1.1 = { birth = yes }
+	2479.1.1 = { death = yes }
+}
+
+2100406 = { #Metiadosa
+	name = "Metiadosa"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	disallow_random_traits = yes
+	2391.1.1 = { birth = yes }
+	2451.1.1 = { death = yes }
+}
+
+2100407 = { #Cecrops, King of Athens
+	name = "Cecrops"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100409
+	mother = 2100408
+	disallow_random_traits = yes
+	2384.1.1 = { birth = yes }
+	2454.1.1 = { death = yes }
+}
+
+2100408 = { #Praxithea
+	name = "Praxithea"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	disallow_random_traits = yes
+	2364.1.1 = { birth = yes }
+	2424.1.1 = { death = yes }
+}
+
+2100409 = { #Erechtheos, King of Athens
+	name = "Erechtheos"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100411
+	mother = 2100410
+	disallow_random_traits = yes
+	2344.1.1 = { birth = yes }
+	2414.1.1 = { death = yes }
+}
+
+2100410 = { #Zeuxippe
+	name = "Zeuxippe"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	disallow_random_traits = yes
+	2304.1.1 = { birth = yes }
+	2364.1.1 = { death = yes }
+}
+
+2100411 = { #Pandion, King of Athens
+	name = "Pandion"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100413
+	mother = 2100412
+	disallow_random_traits = yes
+	2304.1.1 = { birth = yes }
+	2364.1.1 = { death = yes }
+}
+
+2100412 = { #Praxithea
+	name = "Praxithea"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	disallow_random_traits = yes
+	2284.1.1 = { birth = yes }
+	2324.1.1 = { death = yes }
+}
+
+2100413 = { #Erichthonios, King of Athens
+	name = "Erichthonios"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	father = 1100153
+	mother = 1100000
+	disallow_random_traits = yes
+	2254.1.1 = { birth = yes }
+	2324.1.1 = { death = yes }
+}
+
+2100414 = { #Orneus
+	name = "Orneus"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100409
+	mother = 2100408
+	disallow_random_traits = yes
+	2401.1.1 = { birth = yes }
+	2471.1.1 = { death = yes }
+}
+
+2100415 = { #Peteus
+	name = "Peteus"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100414
+	disallow_random_traits = yes
+	2441.1.1 = { birth = yes }
+	2511.1.1 = { death = yes }
+}
+
+2100416 = { #Menestheus, King of Athens
+	name = "Menestheus"
+	dynasty = 2100005 #Erichthoniad
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100415
+	2499.1.1 = { birth = yes }
+	2559.1.1 = { death = yes }
+}
+
+2100417 = { #Amphictyon, King of Athens
+	name = "Amphictyon"
+	culture = achaean
+	religion = pantes_theoi
+	disallow_random_traits = yes
+	2234.1.1 = { birth = yes }
+	2274.1.1 = { death = yes }
+}
