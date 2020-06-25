@@ -2,10 +2,7 @@ title=c_dorion
 
 max_settlements= 5
 b_dorion=castle
-b_phigaleia=city
-b_bassae=city
-b_lepreos=temple
-b_sami=castle
+b_bassae=temple
 
 culture=achaean
 religion=pantes_theoi

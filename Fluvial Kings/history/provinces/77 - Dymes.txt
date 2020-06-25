@@ -1,11 +1,8 @@
 title=c_dymes
 
-max_settlements= 5
+max_settlements = 2
 b_dymes=castle
 b_pharae=city
-b_tritaia=city
-b_kleitor=temple
-b_psophis =castle
 
 culture=achaean
 religion=pantes_theoi

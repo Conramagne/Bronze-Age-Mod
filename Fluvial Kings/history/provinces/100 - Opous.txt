@@ -1,10 +1,8 @@
 title=c_opus
 
-max_settlements= 4
+max_settlements= 2
 b_opus=castle
-b_copae=temple
-b_ocalea=city
-b_elatia=city
+b_orchomenos=city
 
 culture=achaean
 religion=pantes_theoi

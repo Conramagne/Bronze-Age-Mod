@@ -1,10 +1,8 @@
 title=c_aegion
 
-max_settlements= 4
+max_settlements= 2
 b_aegion=castle
 b_patra=temple
-b_panormos=city
-b_leontion=city
 
 culture=achaean
 religion=pantes_theoi

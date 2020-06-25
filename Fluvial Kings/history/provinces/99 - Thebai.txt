@@ -1,9 +1,8 @@
 title=c_thebes
 
-max_settlements= 6
+max_settlements= 5
 b_thebes=castle
 b_gla=temple
-b_orchomenos=city
 b_cynus=city
 b_aulis=temple
 b_hyria=castle

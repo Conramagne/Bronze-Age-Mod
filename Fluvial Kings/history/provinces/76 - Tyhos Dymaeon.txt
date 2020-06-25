@@ -1,11 +1,7 @@
 title=c_tyhos
 
-max_settlements= 5
+max_settlements = 1
 b_tyhos=castle
-b_olenos=city
-b_kyllini=city
-b_myrsini=temple
-b_bouprasion =castle
 
 culture=achaean
 religion=pantes_theoi

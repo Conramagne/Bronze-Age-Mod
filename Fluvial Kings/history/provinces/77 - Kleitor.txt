@@ -1,9 +1,0 @@
-title=c_kleitor
-
-max_settlements= 2
-b_kleitor=castle
-b_psophis=city
-
-culture=achaean
-religion=pantes_theoi
-terrain=plains

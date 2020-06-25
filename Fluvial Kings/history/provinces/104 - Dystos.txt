@@ -1,8 +1,7 @@
 title=c_dystos
 
-max_settlements= 3
+max_settlements= 2
 b_dystos=castle
-b_styra=city
 b_karystos=temple
 
 culture=achaean

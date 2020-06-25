@@ -2,8 +2,6 @@ title=c_marathon
 
 max_settlements= 3
 b_marathon=castle
-b_ramnous=city
-b_oropos=temple
 
 culture=achaean
 religion=pantes_theoi

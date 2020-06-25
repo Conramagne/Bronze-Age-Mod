@@ -1,9 +1,7 @@
 title=c_pheneos
 
-max_settlements= 4
+max_settlements= 2
 b_pheneos=castle
-b_alea=city
-b_omeae=city
 b_stymphalos=temple
 
 culture=achaean

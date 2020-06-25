@@ -1,8 +1,7 @@
 title=c_salamis
 
-max_settlements= 3
+max_settlements= 2
 b_salamis=castle
-b_aigina=temple
 b_aphaea=city
 
 culture=achaean

@@ -1492,9 +1492,6 @@ ai_make_sacrifice_to_evaluation_effect = {
 }
 
 ai_sacrifice_success_or_fail = {
-	event_target:sacrificer = {
-		wealth = -1000
-	}
 	random_list = {
 		40 = {
 			event_target:sacrificer = {

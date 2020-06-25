@@ -1,8 +1,7 @@
 title=c_tegea
 
-max_settlements= 4
+max_settlements= 3
 b_tegea=castle
-b_thyreai=temple
 b_mantineia=city
 b_oresthesium=city
 

@@ -1,9 +1,7 @@
 title=c_perati
 
-max_settlements= 5
+max_settlements= 3
 b_perati=castle
-b_hymettus=city
-b_thorikos=temple
 b_lavrion=city
 b_sounio=temple
 

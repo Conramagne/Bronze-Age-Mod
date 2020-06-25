@@ -1,10 +1,8 @@
 title=c_platea
 
-max_settlements= 4
+max_settlements= 2
 b_platea=castle
-b_thespiae=city
 b_leuctra=temple
-b_eutresis=city
 
 culture=achaean
 religion=pantes_theoi

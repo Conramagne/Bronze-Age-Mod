@@ -36,9 +36,6 @@ e_greek_empire = {
 				color2={ 255 255 255 }
 				
 				b_megara = {}
-				b_eleusis = {}
-				b_therme = {}
-				b_pagae = {}
 				b_isthmia = {}
 			}
 			
@@ -63,8 +60,6 @@ e_greek_empire = {
 				
 				b_aegion = {}
 				b_patra = {}
-				b_panormos = {}
-				b_leontion = {}
 			}
 		}
 		d_salamis = { 
@@ -78,7 +73,6 @@ e_greek_empire = {
 				color2 = { 255 255 255 }
 				
 				b_salamis = {}
-				b_aigina = {}
 				b_aphaea = {}
 			}
 		}
@@ -93,8 +87,6 @@ e_greek_empire = {
 				color2 = { 255 61 100 }
 				
 				b_elis = {}
-				b_letrinoi = {}
-				b_opus = {}
 			}
 			c_pisa = {
 				color = { 44 64 121 }
@@ -108,10 +100,6 @@ e_greek_empire = {
 				color2 = { 255 61 100 }
 				
 				b_tyhos = {}
-				b_olenos = {}
-				b_kyllini = {}
-				b_myrsini = {}
-				b_bouprasion = {}
 			}
 			c_dymes = {
 				color = { 83 104 161 }
@@ -119,9 +107,6 @@ e_greek_empire = {
 				
 				b_dymes = {}
 				b_pharae = {}
-				b_tritaia = {}
-				b_kleitor = {}
-				b_psophis = {}
 			}
 		}
 		d_arcadia = { 
@@ -135,22 +120,18 @@ e_greek_empire = {
 				color2 = { 255 61 100 }
 				
 				b_kleitor = {}
-				b_psophis = {}
 			}
 			c_orchomenus = {
 				color = { 47 69 133 }
 				color2 = { 255 61 100 }
 				
 				b_orchomenus = {}
-				b_hypsus = {}
 			}
 			c_pheneos = {
 				color = { 30 68 189 }
 				color2 = { 255 61 100 }
 				
 				b_pheneos = {}
-				b_alea = {}
-				b_omeae = {}
 				b_stymphalos = {}
 			}
 			c_tegea = {
@@ -158,7 +139,6 @@ e_greek_empire = {
 				color2 = { 255 61 100 }
 				
 				b_tegea = {}
-				b_thyreai = {}
 				b_mantineia = {}
 				b_oresthesium = {}
 			}
@@ -184,18 +164,14 @@ e_greek_empire = {
 				color2 = { 255 61 100 }
 				
 				b_mases = {}
-				b_hermione = {}
 				b_franchthi = {}
 				b_epidaurus = {}
-				b_pityussa = {}
 			}
 			c_methana = {
 				color = { 74 106 123 }
 				color2 = { 255 61 100 }
 				
 				b_methana = {}
-				b_troezen = {}
-				b_hydrea = {}
 			}
 		}
 	}
@@ -237,9 +213,6 @@ e_greek_empire = {
 				
 				b_epidauros_limera = {}
 				b_pavlopetri = {}
-				b_helius = {}
-				b_zarax = {}
-				b_boiai = {}
 			}
 			
 			c_gytheion = {
@@ -247,11 +220,6 @@ e_greek_empire = {
 				color2={ 255 255 255 }
 				
 				b_gytheion = {}
-				b_kardamyli = {}
-				b_leuktros = {}
-				b_bitsoulo = {}
-				b_teuthrone = {}
-				b_casenopolis = {}
 			}
 		}
 		d_kythera = { 
@@ -280,19 +248,13 @@ e_greek_empire = {
 				color2 = { 255 255 255 }
 				
 				b_messene = {}
-				b_oichalia = {}
-				b_koroni = {}
-				b_asine_mes = {}
 			}
 			c_dorion = {
 				color={ 22 93 102 }
 				color2={ 255 255 255 }
 				
 				b_dorion = {}
-				b_phigaleia = {}
 				b_bassae = {}
-				b_lepreos = {}
-				b_sami = {}
 			}
 			
 			c_pylos = {
@@ -349,8 +311,6 @@ e_greek_empire = {
 				color2={ 255 255 255 }
 				
 				b_marathon = {}
-				b_ramnous = {}
-				b_oropos = {}
 			}
 			
 			c_perati = {
@@ -358,8 +318,6 @@ e_greek_empire = {
 				color2={ 255 255 255 }
 				
 				b_perati = {}
-				b_hymettus = {}
-				b_thorikos = {}
 				b_lavrion = {}
 				b_sounio = {}
 			}
@@ -375,9 +333,7 @@ e_greek_empire = {
 				color2 = { 255 255 255 }
 				
 				b_platea = {}
-				b_thespiae = {}
 				b_leuctra = {}
-				b_eutresis = {}
 			}
 			c_thebes = {
 				color = { 37 66 16 }
@@ -385,7 +341,6 @@ e_greek_empire = {
 				
 				b_thebes = {}
 				b_gla = {}
-				b_orchomenos = {}
 				b_cynus = {}
 				b_aulis = {}
 				b_hyria = {}
@@ -395,17 +350,13 @@ e_greek_empire = {
 				color2 = { 255 255 255 }
 				
 				b_opus = {}
-				b_copae = {}
-				b_ocalea = {}
-				b_elatia = {}
+				b_orchomenos = {}
 			}
 			c_chaeronea = {
 				color = { 73 102 52 }
 				color2 = { 255 255 255 }
 				
 				b_chaeronea = {}
-				b_thisbe = {}
-				b_onchestus = {}
 			}
 		}
 		d_euvoia = { 
@@ -420,18 +371,12 @@ e_greek_empire = {
 				
 				b_dium = {}
 				b_artemiaio = {}
-				b_kerynthos = {}
-				b_histaea = {}
-				b_antron = {}
 			}
 			c_eretria = {
 				color={ 108 255 0 }
 				color2={ 255 255 255 }
 				
 				b_eretria = {}
-				b_chalkis = {}
-				b_kymi = {}
-				b_lefkandi = {}
 			}
 			
 			c_dystos = {
@@ -439,7 +384,6 @@ e_greek_empire = {
 				color2={ 255 255 255 }
 				
 				b_dystos = {}
-				b_styra = {}
 				b_karystos = {}
 			}
 			
@@ -448,11 +392,6 @@ e_greek_empire = {
 				color2={ 255 255 255 }
 				
 				b_peparethos = {}
-				b_skiothos = {}
-				b_skopelos = {}
-				b_eudemia = {}
-				b_ikos = {}
-				b_gerontia = {}
 			}
 		}
 	}

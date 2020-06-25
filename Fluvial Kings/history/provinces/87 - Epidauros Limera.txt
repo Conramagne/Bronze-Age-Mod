@@ -1,11 +1,8 @@
 title=c_epidauros_limera
 
-max_settlements= 5
+max_settlements= 2
 b_epidauros_limera=castle
 b_pavlopetri=city
-b_helius=temple
-b_zarax=city
-b_boiai=castle
 
 culture=achaean
 religion=pantes_theoi
