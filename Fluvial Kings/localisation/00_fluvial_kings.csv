@@ -175,7 +175,7 @@ HIGH_GOD;High God;;;;;;;;;;;;;x
 HEAD_KOHEN_AMURRU;Kohen Amurru;;;;;;;;;;;;;x
 HEAD_KOHEN_GADOL;Kohen Gadol;;;;;;;;;;;;;x
 HEAD_SALLISANKUNI;Sallisankuni;;;;;;;;;;;;;x
-###########Traits and Character/Province Modifiers###########
+###########Character/Province Modifiers###########
 imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]%);;;;;;;;;;;;;x
 imperial_authority_desc;The authority of the sovereign is determined by how much control over their realm they have. As it ebbs and flows, so does their power.\nImperial authority can be §Bincreased§! by:\n§Y*§! Having high attributes or skills\n§Y*§! Having loyal councilors\n§Y*§! Having a Weak Council\n§Y*§! Winning wars and major battles\nImperial authority can be §Rdecreased§! by:\n§Y*§! Having low attributes or skills\n§Y*§! Succession\n§Y*§! Long regencies\n§Y*§! Having disloyal councilors\n§Y*§! Having a Strong Council\n§Y*§! Losing wars and major battles;;;;;;;;;;;;;x
 imperial_authority_decrease_5_TT;§YImperial Authority§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
@@ -191,8 +191,7 @@ opinion_rectified_grievance;Grievances Rectified;;;;;;;;;;;;;x
 opinion_slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
 slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
 
-switched_devotion;Switched Devotion;;;;;;;;;;;;;x
-
+#opinion of traits
 opinion_of_zealous;Opinion of Zealous;;;;;;;;;;;;;x
 opinion_of_cynical;Opinion of Cynical;;;;;;;;;;;;;x
 opinion_of_erudite;Opinion of Erudite;;;;;;;;;;;;;x
@@ -203,14 +202,46 @@ opinion_of_cynical_EXPLANATION; (opinion on Cynical);;;;;;;;;;;;;x
 opinion_of_erudite_EXPLANATION; (opinion on Erudite);;;;;;;;;;;;;x
 opinion_of_brave_EXPLANATION; (opinion on Brave);;;;;;;;;;;;;x
 opinion_of_craven_EXPLANATION; (opinion on Craven);;;;;;;;;;;;;x
-misguided_warrior_opinion;Misguided Warrior character opinion;;;;;;;;;;;;;x
+opinion_of_chaste;Opinion of Chaste;;;;;;;;;;;;;x
+opinion_of_chaste_EXPLANATION; (opinion on Chaste);;;;;;;;;;;;;x
+opinion_of_hedonist;Opinion of Hedonist;;;;;;;;;;;;;x
+opinion_of_hedonist_EXPLANATION; (opinion on Hedonist);;;;;;;;;;;;;x
+opinion_of_seducer;Opinion of Seducers;;;;;;;;;;;;;x
+opinion_of_seducer_EXPLANATION; (opinion on Seducers);;;;;;;;;;;;;x
+opinion_of_seductress;Opinion of Seductress;;;;;;;;;;;;;x
+opinion_of_seductress_EXPLANATION; (opinion on Seductress);;;;;;;;;;;;;x
+opinion_of_indulgent_wastrel;Opinion of Indulgent Wastrel;;;;;;;;;;;;;x
+opinion_of_indulgent_wastrel_EXPLANATION; (opinion on Indulgent Wastrel);;;;;;;;;;;;;x
+opinion_of_midas_touched;Opinion of Midas Touched;;;;;;;;;;;;;x
+opinion_of_midas_touched_EXPLANATION; (opinion on Midas Touched);;;;;;;;;;;;;x
+opinion_of_strong;Opinion of Strong;;;;;;;;;;;;;x
+opinion_of_strong_EXPLANATION; (opinion on Strong);;;;;;;;;;;;;x
+
+#trait opinions
+misguided_warrior_opinion;Misguided Warrior Character Opinion;;;;;;;;;;;;;x
 misguided_warrior_opinion_EXPLANATION; (effect on Misguided Warrior);;;;;;;;;;;;;x
-brilliant_strategist_opinion;Brilliant Strategist character opinion;;;;;;;;;;;;;x
+brilliant_strategist_opinion;Brilliant Strategist Character Opinion;;;;;;;;;;;;;x
 brilliant_strategist_opinion_EXPLANATION; (effect on Brilliant Strategist);;;;;;;;;;;;;x
 duelist_opinion;Duelist Character Opinion;;;;;;;;;;;;;x
 duelist_opinion_EXPLANATION; (effect on Duelist);;;;;;;;;;;;;x
 hunter_opinion;Hunter Character Opinion;;;;;;;;;;;;;x
 hunter_opinion_EXPLANATION; (effect on Hunter);;;;;;;;;;;;;x
+chaste_opinion;Chaste Character Opinion;;;;;;;;;;;;;x
+chaste_opinion_EXPLANATION; (effect on Chaste);;;;;;;;;;;;;x
+hedonist_opinion;Hedonist Character Opinion;;;;;;;;;;;;;x
+hedonist_opinion_EXPLANATION; (effect on Hedonist);;;;;;;;;;;;;x
+seducer_opinion;Seducers Character Opinion;;;;;;;;;;;;;x
+seducer_opinion_EXPLANATION; (effect on Seducers);;;;;;;;;;;;;x
+seductress_opinion;Seductress Character Opinion;;;;;;;;;;;;;x
+seductress_opinion_EXPLANATION; (effect on Seductress);;;;;;;;;;;;;x
+indulgent_wastrel_opinion;Indulgent Wastrel Character Opinion;;;;;;;;;;;;;x
+indulgent_wastrel_opinion_EXPLANATION; (effect on Indulgent Wastrel);;;;;;;;;;;;;x
+midas_touched_opinion;Midas Touched Character Opinion;;;;;;;;;;;;;x
+midas_touched_opinion_EXPLANATION; (effect on Midas Touched);;;;;;;;;;;;;x
+strong_opinion;Strong Character Opinion;;;;;;;;;;;;;x
+strong_opinion_EXPLANATION; (effect on Strong);;;;;;;;;;;;;x
+
+#devotion opinions
 opinion_of_devotion_tarhunna;Opinion of Devoted to Tarhunna;;;;;;;;;;;;;x
 opinion_of_devotion_tarhunna_EXPLANATION; (opinion on Devoted to Tarhunna);;;;;;;;;;;;;x
 opinion_of_devotion_arinniti;Opinion of Devoted to Arinniti;;;;;;;;;;;;;x
@@ -218,6 +249,13 @@ opinion_of_devotion_arinniti_EXPLANATION; (opinion on Devoted to Arinniti);;;;;;
 opinion_of_devotion_telipinu;Opinion of Devoted to Telipinu;;;;;;;;;;;;;x
 opinion_of_devotion_telipinu_EXPLANATION; (opinion on Devoted to Telipinu);;;;;;;;;;;;;x
 
+#Religion Opinion
+pihassasi_opinion;[pihassasi.GetName] Character Opinion;;;;;;;;;;;;;x
+pihassasi_opinion_EXPLANATION; (effect on [pihassasi.GetName]);;;;;;;;;;;;;x
+hellenic_opinion;[hellenic.GetName] Character Opinion;;;;;;;;;;;;;x
+hellenic_opinion_EXPLANATION; (effect on [hellenic.GetName]);;;;;;;;;;;;;x
+
+#misc
 strategist_opinion;Strategist Character Opinion;;;;;;;;;;;;;x
 opinion_of_strategist_EXPLANATION; (opinion on Strategist);;;;;;;;;;;;;x
 
@@ -228,17 +266,7 @@ weak_emperor_desc;You Wield little power.;;;;;;;;;;;;;x
 strong_emperor;Strong Monarch;;;;;;;;;;;;;x
 strong_emperor_desc;You Wield great power.;;;;;;;;;;;;;x
 
-tarhunna;Tarhunna;;;;;;;;;;;;;x
-arinniti;Arinniti;;;;;;;;;;;;;x
-telipinu;Telipinu;;;;;;;;;;;;;x
-
-devotion_tarhunna;Devoted to Tarhunna;;;;;;;;;;;;;x
-devotion_tarhunna_desc;This character is devoted to Tarhunna;;;;;;;;;;;;;x
-devotion_arinniti;Devoted to Arinniti;;;;;;;;;;;;;x
-devotion_arinniti_desc;This character is devoted to Arinniti;;;;;;;;;;;;;x
-devotion_telipinu;Devoted to Telipinu;;;;;;;;;;;;;x
-devotion_telipinu_desc;This character is devoted to Telipinu;;;;;;;;;;;;;x
-
+#province modifiers
 oppressive_rule;Oppressive Policies;;;;;;;;;;;;;x
 oppressive_rule_desc;Oppressive Policies are being used in this province;;;;;;;;;;;;;x
 autonomous_rule;Autonomous Communities;;;;;;;;;;;;;x
@@ -251,6 +279,7 @@ levy_tribute_desc;The Tribute is focused in Increasing their tribute of troops t
 foreign_rule;Foreign Rule;;;;;;;;;;;;;x
 foreign_rule_desc;The Local people are resistant to your rule...;;;;;;;;;;;;;x
 
+#sacrifice modifiers
 made_sacrifice;Made a Sacrifce;;;;;;;;;;;;;x
 opinion_small_sacrifice;Successful Small Sacrifce;;;;;;;;;;;;;x
 opinion_medium_sacrifice;Successful Medium Sacrifce;;;;;;;;;;;;;x
@@ -311,9 +340,39 @@ model_bureaucrat;Model Bureaucrat;;;;;;;;;;;;;x
 bad_bureaucrat;Poor Bureaucrat;;;;;;;;;;;;;x
 opinion_overstepped_boundary;Overstepped Personal Boundaries;;;;;;;;;;;;;x
 
+###########Trait Localization###########
+
+#hidden traits
+tarhunna;Tarhunna;;;;;;;;;;;;;x
+arinniti;Arinniti;;;;;;;;;;;;;x
+telipinu;Telipinu;;;;;;;;;;;;;x
+
+zeus;Zeus;;;;;;;;;;;;;x
+ares;Ares;;;;;;;;;;;;;x
+athene;Athene;;;;;;;;;;;;;x
+demeter;Demeter;;;;;;;;;;;;;x
+apollon;Apollon;;;;;;;;;;;;;x
+hermes;Hermes;;;;;;;;;;;;;x
+aphrodite;Aphrodite;;;;;;;;;;;;;x
+
+#devotion traits
+devotion_tarhunna;Devoted to Tarhunna;;;;;;;;;;;;;x
+devotion_tarhunna_desc;This character is devoted to Tarhunna;;;;;;;;;;;;;x
+devotion_arinniti;Devoted to Arinniti;;;;;;;;;;;;;x
+devotion_arinniti_desc;This character is devoted to Arinniti;;;;;;;;;;;;;x
+devotion_telipinu;Devoted to Telipinu;;;;;;;;;;;;;x
+devotion_telipinu_desc;This character is devoted to Telipinu;;;;;;;;;;;;;x
+
+#syncretic traits
+syncretic_pihassasi;Syncretic to Pihassasi;;;;;;;;;;;;;x
+syncretic_pihassasi_desc;This character syncretize their religious belief with those of the [pihassasi.GetName] Pantheon.;;;;;;;;;;;;;x
+syncretic_hellenic;Syncretic to Hellenic;;;;;;;;;;;;;x
+syncretic_hellenic_desc;This character syncretize their religious belief with those of the [hellenic.GetName] Pantheon.;;;;;;;;;;;;;x
+
 ###########God Boons and Curses###########
 denied_boon;Denied Blessings of Gods;;;;;;;;;;;;;x
 opinion_cursed_by;Cursed by The Divines;;;;;;;;;;;;;x
+does_not_have_boon_TT;Has not recieved a Boon from the Gods;;;;;;;;;;;;;x
 
 tarhunna_boon_1;Tarhunna's Hunters;;;;;;;;;;;;;x
 tarhunna_boon_2;Swiftness of Tarhunna;;;;;;;;;;;;;x
@@ -335,6 +394,61 @@ telipinu_boon_3;Telipinu's Strength;;;;;;;;;;;;;x
 telipinu_curse_1;Curse of Fallow Fields;;;;;;;;;;;;;x
 telipinu_curse_2;Telipinu's Drought;;;;;;;;;;;;;x
 telipinu_curse_3;Curse of Shattered Wills;;;;;;;;;;;;;x
+
+zeus_boon_1;Zeus's Glory;;;;;;;;;;;;;x
+zeus_boon_2;Zeus's Praise;;;;;;;;;;;;;x
+zeus_boon_3;Thundering Devotion;;;;;;;;;;;;;x
+zeus_curse_1;Zeus's Wrath;;;;;;;;;;;;;x
+zeus_curse_2;Zeus's Scorn;;;;;;;;;;;;;x
+zeus_curse_3;The Thundering Wrath;;;;;;;;;;;;;x
+
+ares_boon_1;Spirit of Vengence;;;;;;;;;;;;;x
+ares_boon_2;Ares's Training;;;;;;;;;;;;;x
+ares_boon_3;Warrior of Ares;;;;;;;;;;;;;x
+ares_curse_1;Spirit of Cowardice;;;;;;;;;;;;;x
+ares_curse_2;Are's Crazed Wrath;;;;;;;;;;;;;x
+ares_curse_3;Curse of Weakness;;;;;;;;;;;;;x
+
+athene_boon_1;Athene's Spear;;;;;;;;;;;;;x
+athene_boon_2;Shield of Athene;;;;;;;;;;;;;x
+athene_boon_3;Athene's Guardians;;;;;;;;;;;;;x
+athene_boon_4;Ingenuity of Athene;;;;;;;;;;;;;x
+athene_boon_5;The Owl's Tongue;;;;;;;;;;;;;x
+athene_boon_6;The Owl's Wisdom;;;;;;;;;;;;;x
+athene_curse_1;Curse of Feathers;;;;;;;;;;;;;x
+athene_curse_2;Curse of Forgetfulness;;;;;;;;;;;;;x
+athene_curse_3;Curse of Disarray;;;;;;;;;;;;;x
+
+demeter_boon_1;The Bounties of Demeter;;;;;;;;;;;;;x
+demeter_boon_2;Demeter's Children;;;;;;;;;;;;;x
+demeter_boon_3;Springtime Cheers;;;;;;;;;;;;;x
+demeter_curse_1;The Curse of Grief;;;;;;;;;;;;;x
+demeter_curse_2;The Lost Children;;;;;;;;;;;;;x
+demeter_curse_3;The Stinging Winter Breeze;;;;;;;;;;;;;x
+
+apollon_boon_1;Apollon's Glistening Wall;;;;;;;;;;;;;x
+apollon_boon_2;Apollon's Shining Bow;;;;;;;;;;;;;x
+apollon_boon_3;Apollon's Steady Hand;;;;;;;;;;;;;x
+apollon_boon_4;Vibrant Glow;;;;;;;;;;;;;x
+apollon_boon_5;Apollon's Guiding Light;;;;;;;;;;;;;x
+apollon_boon_6;Apollon's Blazing Spirit;;;;;;;;;;;;;x
+apollon_curse_1;Curse of Showering Death;;;;;;;;;;;;;x
+apollon_curse_2;Curse of The Abyss;;;;;;;;;;;;;x
+apollon_curse_3;Fleeting Flickers;;;;;;;;;;;;;x
+
+hermes_boon_1;Hermes's Favorable Winds;;;;;;;;;;;;;x
+hermes_boon_2;The Wings of Hermes;;;;;;;;;;;;;x
+hermes_boon_3;The Riches of Hermes;;;;;;;;;;;;;x
+hermes_curse_1;The Winding Gales;;;;;;;;;;;;;x
+hermes_curse_2;Curse of Lead Shoes;;;;;;;;;;;;;x
+hermes_curse_3;Herme's Spite;;;;;;;;;;;;;x
+
+aphrodite_boon_1;Aphrodite's Blessing;;;;;;;;;;;;;x
+aphrodite_boon_2;Aphrodite's Approval;;;;;;;;;;;;;x
+aphrodite_boon_3;Aphrodite's Protection;;;;;;;;;;;;;x
+aphrodite_curse_1;Aphrodite's Jealousy;;;;;;;;;;;;;x
+aphrodite_curse_2;Aphrodite's Wrath;;;;;;;;;;;;;x
+aphrodite_curse_3;The Wicked Trials of Aphrodite;;;;;;;;;;;;;x
 
 ###########Miscellaneous###########
 GOVERNMENT_UNIT_BONUS;Government Unit Bonus;;;;;;;;;;;;;x

@@ -327,7 +327,7 @@ demeter_curse_3 = {
 }
 
 apollon_curse_1 = {
-	archers_defensive = 0.25
+	archers_defensive = -0.25
 	icon = 134
 }
 apollon_curse_2 = {

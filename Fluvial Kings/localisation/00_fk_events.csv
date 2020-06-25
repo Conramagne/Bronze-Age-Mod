@@ -93,6 +93,7 @@ EVTDESCFKR134;This Courtly Subject has not only SLANDERED your name but has trod
 EVTOPTAFKR134;Not just myself, but my blood? Perhaps I will take their eyes...;;;;;;;;;;;;;x
 
 ###########Contacting the Divines Events###########
+switched_devotion;Switched Devotion;;;;;;;;;;;;;x
 contact_pantheon;Pray to the gods of the [Root.Religion.GetFullName] pantheon;;;;;;;;;;;;;x
 contact_pantheon_desc;By praying to the [Root.Religion.GetFullName] pantheon, you wish to gain the blessings of the divines, whether they will recieve your request depends on your devotion to them and their fickle natures.;;;;;;;;;;;;;x
 request_boon;Request Boon;;;;;;;;;;;;;x
@@ -100,10 +101,19 @@ request_boon_desc;Request Boon from the Divines.;;;;;;;;;;;;;x
 make_sacrifice_to;Make a sacrifice to the Divines;;;;;;;;;;;;;x
 make_sacrifice_to_desc;You decide to hold a holy sacrifice to honor and feed the gods.;;;;;;;;;;;;;x
 
+#call the gods to get boons or curses
 EVTDESCFKP1;You have decided to call upon the gods of the [Root.Religion.GetFullName] pantheon in exultation and loud prayer, you set their images before you and contemplate their majesty.;;;;;;;;;;;;;x
 EVTDESCFKP100;It begins as a feeling, as when one slowly awakens from a dream. You feel a hand of light pass through you and for an instant you feel the euphoria of a youth in love or a child for their parent. A god has paid notice to you, and now works those many small miracles that improve one’s life. Stretching your limbs, you shout for joy towards the heavens. You are blessed!;;;;;;;;;;;;;x
 EVTDESCFKP101;Despair! The gods have ignored your request for a blessing, your devotion to them must not have been great enough. What is one to do?;;;;;;;;;;;;;x
 
+#recieve boons from gods with epithets
+EVTDESCFKP103;This God can be called in many capacities to service ever facet of their devotees. As a result, while the gods have heard your prayers, it is for you to decide to which of their divine qualities you wish to invoke to be granted their powerful boon...;;;;;;;;;;;;;x
+EVTOPTAFKP103;I call upon Apollon Klutotóxos, Famed Holder of the Glistening Bow...;;;;;;;;;;;;;x
+EVTOPTBFKP103;I call upon Apollon Akestor, The Ever-Young God...;;;;;;;;;;;;;x
+EVTOPTCFKP103;I call upon Athene Promachos, Who fights in the Front-Line...;;;;;;;;;;;;;x
+EVTOPTDFKP103;I call upon Athene Glaukopis, Whose bright-eye glistens in the night...;;;;;;;;;;;;;x
+
+#sacrifice events
 EVTDESCFKP200;You hope by making a sacrifice to the gods you are able to placate them and perhaps gain their favors, now it is up to you to decide the scope and grandeur of the ceremony...;;;;;;;;;;;;;x
 EVTOPTAFKP200;You decide on a modest offering to placate the gods.;;;;;;;;;;;;;x
 EVTOPTBFKP200;You decide to invite the necessarys and put on a decent show for the rituals.;;;;;;;;;;;;;x

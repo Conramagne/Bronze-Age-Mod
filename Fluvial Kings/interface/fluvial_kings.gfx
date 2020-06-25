@@ -23,13 +23,6 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
-	spriteType = {
-		name = "GFX_trait_devotion_arinniti"
-		texturefile = "gfx/traits/devotion_arinniti.dds"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
 	
 ### devotion traits
 
@@ -43,6 +36,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_trait_devotion_telipinu"
 		texturefile = "gfx/traits/devotion_telipinu.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_devotion_arinniti"
+		texturefile = "gfx/traits/devotion_arinniti.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+
+### syncretic traits
+
+	spriteType = {
+		name = "GFX_trait_syncretic_pihassasi"
+		texturefile = "gfx/traits/syncretic_pihassasi.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_syncretic_hellenic"
+		texturefile = "gfx/traits/syncretic_hellenic.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
