@@ -47,7 +47,6 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
-}
 
 ### syncretic traits
 
