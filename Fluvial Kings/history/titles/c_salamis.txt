@@ -2,6 +2,10 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1 = {
+2471.1.1 = {
 	liege = d_salamis
+	holder = 2100704
+}
+2506.1.1 = {
+	holder = 2100700
 }

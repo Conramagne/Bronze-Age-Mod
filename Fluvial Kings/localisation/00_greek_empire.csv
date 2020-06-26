@@ -79,13 +79,13 @@ c_aigeira_adj;Aigeiran;;;;;;;;;;;;;x
 c_aegion;Aigio;;;;;;;;;;;;;x
 c_aegion_adj;Aegionite;;;;;;;;;;;;;x
 c_salamis;Salamína;;;;;;;;;;;;;x
-c_salamis_adj;Salamites;;;;;;;;;;;;;x
+c_salamis_adj;Salamite;;;;;;;;;;;;;x
 c_elis;Elis;;;;;;;;;;;;;x
 c_elis_adj;Elisite;;;;;;;;;;;;;x
 c_olympia;Olympia;;;;;;;;;;;;;x
 c_olympia_adj;Olympian;;;;;;;;;;;;;x
 c_tyhos;Tyhos Dymaeon;;;;;;;;;;;;;x
-c_tyhos_adj;Tyhosites;;;;;;;;;;;;;x
+c_tyhos_adj;Tyhosite;;;;;;;;;;;;;x
 c_dymes;Dymes;;;;;;;;;;;;;x
 c_dymes_adj;Dymesite;;;;;;;;;;;;;x
 c_kleitor;Kleitor;;;;;;;;;;;;;x
@@ -169,7 +169,7 @@ b_aegion_adj;Aegionite;;;;;;;;;;;;;x
 b_patra;Pátra;;;;;;;;;;;;;x
 b_patra_adj;Pátran;;;;;;;;;;;;;x
 b_salamis;Salamína;;;;;;;;;;;;;x
-b_salamis_adj;Salamites;;;;;;;;;;;;;x
+b_salamis_adj;Salamite;;;;;;;;;;;;;x
 b_aphaea;Aphaea;;;;;;;;;;;;;x
 b_aphaea_adj;Aphaeaian;;;;;;;;;;;;;x
 b_elis;Elis;;;;;;;;;;;;;x
@@ -182,7 +182,7 @@ b_olympia_adj;Olympian;;;;;;;;;;;;;x
 b_pisa;Pisa;;;;;;;;;;;;;x
 b_pisa_adj;Pisani;;;;;;;;;;;;;x
 b_tyhos;Tyhos Dymaeon;;;;;;;;;;;;;x
-b_tyhos_adj;Tyhosites;;;;;;;;;;;;;x
+b_tyhos_adj;Tyhosite;;;;;;;;;;;;;x
 b_dymes;Dymes;;;;;;;;;;;;;x
 b_dymes_adj;Dymesite;;;;;;;;;;;;;x
 b_pharae;Pharae;;;;;;;;;;;;;x

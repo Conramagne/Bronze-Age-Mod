@@ -104,6 +104,7 @@ feudal_governments = {
 		vassal_call_to_arms = {
 			tribal_government
 			tribal_confederacy_government
+			military_governorate_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
@@ -246,6 +247,7 @@ feudal_governments = {
 		vassal_call_to_arms = {
 			tribal_government
 			tribal_confederacy_government
+			military_governorate_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government

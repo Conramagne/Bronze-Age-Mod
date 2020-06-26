@@ -2,6 +2,9 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=k_lakonia
+2431.1.1 = {
+	holder = 2100614
+}
+2501.1.1 = {
+	holder = 2100600
 }

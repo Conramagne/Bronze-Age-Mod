@@ -29,8 +29,11 @@ decisions = {
 			NOT = {
 				has_character_flag = flag_god
 			}
-			NOT = {
-				religion_group = hellenic
+			OR = {
+				NOT = {
+					religion_group = hellenic
+				}
+				trait = syncretic_pihassasi
 			}
 		}
 		allow = {
@@ -41,7 +44,10 @@ decisions = {
 			set_character_flag = choose_devotion_flag
 			if = {
 				limit = {
-					religion_group = pihassasi
+					OR = {
+						religion_group = pihassasi
+						trait = syncretic_pihassasi
+					}
 				}
 				character_event = { id = fkrel.100 }
 			}

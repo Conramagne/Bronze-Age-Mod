@@ -243,6 +243,8 @@ e_greek_empire = {
 	
 			capital = 90 # Messene
 			
+			achaean = "Pylos"
+			
 			c_messene = {
 				color = { 81 161 171 }
 				color2 = { 255 255 255 }

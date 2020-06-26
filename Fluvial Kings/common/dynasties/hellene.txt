@@ -34,3 +34,13 @@
 	culture = "achaean"
 	used_for_random = no
 }
+2100007 = {
+	name = "Neleid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100008 = {
+	name = "Aeacid"
+	culture = "achaean"
+	used_for_random = no
+}
