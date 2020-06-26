@@ -31,6 +31,7 @@ hellene = {
 			Karpathia Korinsia 
 			Poulxeria
 		}
+		dukes_called_kings = yes
 
 		from_dynasty_prefix = "of "
 
@@ -80,6 +81,8 @@ hellene = {
 			Papaya Pudukhepa
 			Wirisemu
 		}
+		
+		dukes_called_kings = yes
 
 		from_dynasty_prefix = "of "
 
@@ -131,6 +134,7 @@ hellene = {
 			Penthesilea Philippis Phoebe Polemusa Poulxeria Prothoe
 			Tecmessa Thermodosa
 		}
+		dukes_called_kings = yes
 
 		from_dynasty_prefix = "of "
 
@@ -180,6 +184,7 @@ hellene = {
 			Papaya Pudukhepa
 			Wirisemu
 		}
+		dukes_called_kings = yes
 
 		from_dynasty_prefix = "of "
 
@@ -229,6 +234,7 @@ hellene = {
 			Papaya Pudukhepa
 			Wirisemu
 		}
+		dukes_called_kings = yes
 
 		from_dynasty_prefix = "of "
 

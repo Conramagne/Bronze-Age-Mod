@@ -1,0 +1,38 @@
+2000.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2361.1.1 = {
+	holder = 2100316 #Lykaon
+	liege = d_arcadia
+}
+2401.1.1 = {
+	holder = 2100314 #Arkas
+}
+2431.1.1 = {
+	holder = 2100320 #Apheidas
+}
+2441.1.1 = {
+	holder = 2100318 #Aiputos
+}
+2446.1.1 = {
+	holder = 2100319 #Stumphalos
+}
+2451.1.1 = {
+	holder = 2100320 #Pereos
+}
+2461.1.1 = {
+	holder = 2100307 #Aleos
+}
+2481.1.1 = {
+	holder = 2100309 #Cepheus
+}
+2511.1.1 = {
+	holder = 2100304 #Lykourgos
+}
+2521.1.1 = {
+	holder = 2100302 #Ankaios
+}
+2527.1.1 = {
+	holder = 2100300 #Agapenor
+}

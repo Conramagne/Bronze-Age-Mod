@@ -1,8 +1,8 @@
 ###########Mycenaean and Early Classical Greece###########
 
 ###########Empire Titles###########
-emperor_hellenic;Wanax;;;;;;;;;;;;;x
-emperor_female_hellenic;Wanaxia;;;;;;;;;;;;;x
+emperor_achaean;Wanax;;;;;;;;;;;;;x
+emperor_female_achaean;Wanaxia;;;;;;;;;;;;;x
 emperor_dorian;Hegemon;;;;;;;;;;;;;x #placeholder
 emperor_female_dorian;Hegemonia;;;;;;;;;;;;;x #placeholder
 
@@ -10,8 +10,8 @@ e_greek_empire;Pan-Akhaios;;;;;;;;;;;;;x
 e_greek_empire_adj;Akhaios;;;;;;;;;;;;;x
 
 ###########Kingdom Titles###########
-king_hellenic;Basileos;;;;;;;;;;;;;x
-king_female_hellenic;Basilissa;;;;;;;;;;;;;x
+king_achaean;Basileos;;;;;;;;;;;;;x
+king_female_achaean;Basilissa;;;;;;;;;;;;;x
 king_dorian;Basileus;;;;;;;;;;;;;x #placeholder
 king_female_dorian;Basilissa;;;;;;;;;;;;;x #placeholder
 
@@ -34,8 +34,8 @@ k_minoa_adj;Minoan;;;;;;;;;;;;;x
 
 
 ###########Duchy Titles###########
-duke_hellenic;Koreter;;;;;;;;;;;;;x
-duke_female_hellenic;Koretera;;;;;;;;;;;;;x
+duke_achaean;Koreter;;;;;;;;;;;;;x
+duke_female_achaean;Koretera;;;;;;;;;;;;;x
 duke_dorian;Arkhon;;;;;;;;;;;;;x #placeholder
 duke_female_dorian;Arkhousa;;;;;;;;;;;;;x #placeholder
 
@@ -57,14 +57,14 @@ d_messenia;Messenia;;;;;;;;;;;;;x
 d_messenia_adj;Messenian;;;;;;;;;;;;;x
 d_attica;Attica;;;;;;;;;;;;;x
 d_attica_adj;Attican;;;;;;;;;;;;;x
-d_boetica;Boetica;;;;;;;;;;;;;x
-d_boetica_adj;Boetican;;;;;;;;;;;;;x
+d_boetica;Thebes;;;;;;;;;;;;;x
+d_boetica_adj;Thebean;;;;;;;;;;;;;x
 d_euvoia;Euvoia;;;;;;;;;;;;;x
 d_euvoia_adj;Euvoian;;;;;;;;;;;;;x
 
 ###########Counties Titles###########
-count_hellenic;Prokoreter;;;;;;;;;;;;;x
-count_female_hellenic;Klawiphoros;;;;;;;;;;;;;x
+count_achaean;Prokoreter;;;;;;;;;;;;;x
+count_female_achaean;Klawiphoros;;;;;;;;;;;;;x
 count_dorian;Phularkhos;;;;;;;;;;;;;x #placeholder
 count_female_dorian;Phularkhosa;;;;;;;;;;;;;x #placeholder
 
@@ -90,8 +90,8 @@ c_dymes;Dymes;;;;;;;;;;;;;x
 c_dymes_adj;Dymesite;;;;;;;;;;;;;x
 c_kleitor;Kleitor;;;;;;;;;;;;;x
 c_kleitor_adj;Kleitorian;;;;;;;;;;;;;x
-c_mantineia;Mantineia;;;;;;;;;;;;;x
-c_mantineia_adj;Mantineian;;;;;;;;;;;;;x
+c_orchomenus_ar;Orchomenos Arcadia;;;;;;;;;;;;;x
+c_orchomenus_ar_adj;Orchomenosi;;;;;;;;;;;;;x
 c_pheneos;Pheneos;;;;;;;;;;;;;x
 c_pheneos_adj;Pheneosian;;;;;;;;;;;;;x
 c_tegea;Tegea;;;;;;;;;;;;;x
@@ -132,8 +132,8 @@ c_platea;Plataia;;;;;;;;;;;;;x
 c_platea_adj;Plataian;;;;;;;;;;;;;x
 c_thebes;Thêbai;;;;;;;;;;;;;x
 c_thebes_adj;Thêbaian;;;;;;;;;;;;;x
-c_orchomenus;Orchomenus;;;;;;;;;;;;;x
-c_orchomenus_adj;Orchomenusian;;;;;;;;;;;;;x
+c_orchomenus;Orchomenos;;;;;;;;;;;;;x
+c_orchomenus_adj;Orchomenosi;;;;;;;;;;;;;x
 c_chaeronea;Khaironeia;;;;;;;;;;;;;x
 c_chaeronea_adj;Khaironeiai;;;;;;;;;;;;;x
 c_dium;Dion;;;;;;;;;;;;;x

@@ -29,3 +29,8 @@
 	culture = "achaean"
 	used_for_random = no
 }
+2100006 = {
+	name = "Cadmiad"
+	culture = "achaean"
+	used_for_random = no
+}

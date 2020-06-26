@@ -1,4 +1,4 @@
-title=c_mantineia
+title=c_orchomenus_ar
 
 max_settlements= 1
 b_orchomenus_ar=castle

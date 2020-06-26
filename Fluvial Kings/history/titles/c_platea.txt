@@ -2,6 +2,43 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1 = {
+2311.1.1 = {
 	liege = d_boetica
+	holder = 2100518 #Calydnos
+}
+2351.1.1 = {
+	holder = 2100517 #Ogyges
+}
+2371.1.1 = {
+	holder = 2100515 #Cadmos
+}
+2386.1.1 = {
+	holder = 2100513 #Pentheus
+}
+2391.1.1 = {
+	holder = 2100510 #Polydorus
+}
+2401.1.1 = {
+	holder = 2100522 #Labdakos
+}
+2431.1.1 = {
+	holder = 2100519 #Amphion
+}
+2441.1.1 = {
+	holder = 2100507 #Laios
+}
+2461.1.1 = {
+	holder = 2100506 #Oidípous
+}
+2501.1.1 = {
+	holder = 2100503 #Eteocles
+}
+2521.1.1 = {
+	holder = 2100504 #Laodamas
+}
+2523.1.1 = {
+	holder = 2100501 #Thersander
+}
+2526.1.1 = {
+	holder = 2100500 #Tisamenos
 }

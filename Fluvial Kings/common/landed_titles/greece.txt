@@ -121,7 +121,7 @@ e_greek_empire = {
 				
 				b_kleitor = {}
 			}
-			c_mantineia = {
+			c_orchomenus_ar = {
 				color = { 47 69 133 }
 				color2 = { 255 61 100 }
 				
