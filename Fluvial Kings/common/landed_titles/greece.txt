@@ -88,7 +88,7 @@ e_greek_empire = {
 				
 				b_elis = {}
 			}
-			c_pisa = {
+			c_olympia = {
 				color = { 44 64 121 }
 				color2 = { 255 61 100 }
 				
@@ -121,11 +121,11 @@ e_greek_empire = {
 				
 				b_kleitor = {}
 			}
-			c_orchomenus = {
+			c_mantineia = {
 				color = { 47 69 133 }
 				color2 = { 255 61 100 }
 				
-				b_orchomenus = {}
+				b_orchomenus_ar = {}
 			}
 			c_pheneos = {
 				color = { 30 68 189 }
@@ -345,7 +345,7 @@ e_greek_empire = {
 				b_aulis = {}
 				b_hyria = {}
 			}
-			c_opus = {
+			c_orchomenus = {
 				color = { 49 100 15 }
 				color2 = { 255 255 255 }
 				

@@ -82,16 +82,16 @@ c_salamis;Salamína;;;;;;;;;;;;;x
 c_salamis_adj;Salamites;;;;;;;;;;;;;x
 c_elis;Elis;;;;;;;;;;;;;x
 c_elis_adj;Elisite;;;;;;;;;;;;;x
-c_pisa;Pisa;;;;;;;;;;;;;x
-c_pisa_adj;Pisan;;;;;;;;;;;;;x
+c_olympia;Olympia;;;;;;;;;;;;;x
+c_olympia_adj;Olympian;;;;;;;;;;;;;x
 c_tyhos;Tyhos Dymaeon;;;;;;;;;;;;;x
 c_tyhos_adj;Tyhosites;;;;;;;;;;;;;x
 c_dymes;Dymes;;;;;;;;;;;;;x
 c_dymes_adj;Dymesite;;;;;;;;;;;;;x
 c_kleitor;Kleitor;;;;;;;;;;;;;x
 c_kleitor_adj;Kleitorian;;;;;;;;;;;;;x
-c_orchomenus;Orchomenus;;;;;;;;;;;;;x
-c_orchomenus_adj;Orchomenusite;;;;;;;;;;;;;x
+c_mantineia;Mantineia;;;;;;;;;;;;;x
+c_mantineia_adj;Mantineian;;;;;;;;;;;;;x
 c_pheneos;Pheneos;;;;;;;;;;;;;x
 c_pheneos_adj;Pheneosian;;;;;;;;;;;;;x
 c_tegea;Tegea;;;;;;;;;;;;;x
@@ -132,8 +132,8 @@ c_platea;Plataia;;;;;;;;;;;;;x
 c_platea_adj;Plataian;;;;;;;;;;;;;x
 c_thebes;Thêbai;;;;;;;;;;;;;x
 c_thebes_adj;Thêbaian;;;;;;;;;;;;;x
-c_opus;Opoûs;;;;;;;;;;;;;x
-c_opus_adj;Opoûsian;;;;;;;;;;;;;x
+c_orchomenus;Orchomenus;;;;;;;;;;;;;x
+c_orchomenus_adj;Orchomenusian;;;;;;;;;;;;;x
 c_chaeronea;Khaironeia;;;;;;;;;;;;;x
 c_chaeronea_adj;Khaironeiai;;;;;;;;;;;;;x
 c_dium;Dion;;;;;;;;;;;;;x
@@ -176,6 +176,7 @@ b_elis;Elis;;;;;;;;;;;;;x
 b_elis_adj;Elisite;;;;;;;;;;;;;x
 b_eleusis;Eleusis;;;;;;;;;;;;;x
 b_eleusis_adj;Eleusisian;;;;;;;;;;;;;x
+
 b_olympia;Olympia;;;;;;;;;;;;;x
 b_olympia_adj;Olympian;;;;;;;;;;;;;x
 b_pisa;Pisa;;;;;;;;;;;;;x
@@ -190,8 +191,10 @@ b_tritaia;Tritaia;;;;;;;;;;;;;x
 b_tritaia_adj;Tritaian;;;;;;;;;;;;;x
 b_kleitor;Kleitor;;;;;;;;;;;;;x
 b_kleitor_adj;Kleitorian;;;;;;;;;;;;;x
-b_orchomenus;Orchomenus;;;;;;;;;;;;;x
-b_orchomenus_adj;Orchomenusite;;;;;;;;;;;;;x
+b_orchomenus_ar;Orchomenus;;;;;;;;;;;;;x
+b_orchomenus_ar_adj;Orchomenusai;;;;;;;;;;;;;x
+b_orchomenus_at;Orchomenus;;;;;;;;;;;;;x
+b_orchomenus_at_adj;Orchomenusai;;;;;;;;;;;;;x
 b_pheneos;Pheneos;;;;;;;;;;;;;x
 b_pheneos_adj;Pheneosian;;;;;;;;;;;;;x
 b_stymphalos;Stymphalos;;;;;;;;;;;;;x

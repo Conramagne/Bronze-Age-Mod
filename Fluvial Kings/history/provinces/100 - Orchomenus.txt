@@ -1,4 +1,4 @@
-title=c_opus
+title=c_orchomenus
 
 max_settlements= 2
 b_opus=castle

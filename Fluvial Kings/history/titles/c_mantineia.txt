@@ -2,6 +2,3 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1 = {
-	liege = d_boetica
-}
