@@ -45,8 +45,8 @@
 	disallow_random_traits = yes
 	trait = trait_god
 	immortal_age = 50
-	1.1.2 = { birth = yes }
-	1.1.2 = {
+	1.1.3 = { birth = yes }
+	1.1.3 = {
 		effect = {
 			set_character_flag = flag_god
 		}
@@ -443,6 +443,46 @@
 	9999.1.1 = { death = yes }
 }
 
+1100028 = { #Melia
+	name = "Melia"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100003
+	mother = 1100013
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 20
+	1.1.21 = { birth = yes }
+	1.1.21 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100029 = { #Pethio
+	name = "Pethio"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100003
+	mother = 1100013
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 20
+	1.1.22 = { birth = yes }
+	1.1.22 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
 1100080 = { #Idyia, Youngest of the Oceanids
 	name = "Idyia"
 	dynasty = 1000001 #Theogonos
@@ -475,8 +515,8 @@
 	disallow_random_traits = yes
 	trait = trait_god
 	immortal_age = 20
-	1.4.3 = { birth = yes }
-	1.4.3 = {
+	1.1.19 = { birth = yes }
+	1.1.19 = {
 		effect = {
 			set_character_flag = flag_god
 		}
@@ -894,8 +934,8 @@
 	disallow_random_traits = yes
 	trait = trait_god
 	immortal_age = 50
-	1.1.3 = { birth = yes }
-	1.1.3 = {
+	1.1.4 = { birth = yes }
+	1.1.4 = {
 		effect = {
 			set_character_flag = flag_god
 		}
@@ -1191,6 +1231,7 @@
 	2498.1.1 = {
 		effect = {
 			set_character_flag = flag_god
+			employer = 1100146
 		}
 	}
 	9999.1.1 = { death = yes }
@@ -1208,6 +1249,103 @@
 	immortal_age = 20
 	2498.1.1 = { birth = yes }
 	2498.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+			employer = 1100146
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100182 = { #Peneus, God of the River Peneus
+	name = "Peneus"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100003
+	mother = 1100013
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 20
+	1.1.17 = { birth = yes }
+	1.1.17 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100183 = { #Astabe
+	name = "Astabe"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100003
+	mother = 1100013
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 20
+	1.1.18 = { birth = yes }
+	1.1.18 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100184 = { #Neilos, God of the River Nile
+	name = "Neilos"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100003
+	mother = 1100013
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 20
+	1.1.18 = { birth = yes }
+	1.1.18 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100185 = { #Achiroë
+	name = "Achiroë"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100184
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 20
+	1.1.19 = { birth = yes }
+	1.1.19 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100186 = { #Memphis
+	name = "Memphis"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100184
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 20
+	1.1.20 = { birth = yes }
+	1.1.20 = {
 		effect = {
 			set_character_flag = flag_god
 		}

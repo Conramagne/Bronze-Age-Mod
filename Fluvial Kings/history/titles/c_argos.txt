@@ -2,6 +2,73 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1 = {
+2041.1.1 = {
 	liege = d_argolis
+	holder = 2101128 #Inachos
+}
+2081.1.1 = {
+	holder = 2101129 #Phoroneus
+}
+2111.1.1 = {
+	holder = 2101130 #Apis
+}
+2121.1.1 = {
+	holder = 2101132 #Argos
+}
+2146.1.1 = {
+	holder = 2101133 #Criasos
+}
+2151.1.1 = {
+	holder = 2101134 #Phorbas
+}
+2171.1.1 = {
+	holder = 2101135 #Triopas
+}
+2196.1.1 = {
+	holder = 2101136 #Iasios
+}
+2201.1.1 = {
+	holder = 2101137 #Agenor
+}
+2231.1.1 = {
+	holder = 2101138 #Cropotos
+}
+2241.1.1 = {
+	holder = 2101139 #Sthenelos
+}
+2261.1.1 = {
+	holder = 2101140 #Pelasgós
+}
+2301.1.1 = {
+	holder = 2101121 #Danaós
+}
+2311.1.1 = {
+	holder = 2101119 #Lunkeús
+}
+2341.1.1 = {
+	holder = 2101118 #Abas
+}
+2361.1.1 = {
+	holder = 2101113 #Proitos
+}
+2401.1.1 = {
+	holder = 2101114 #Acrisios
+}
+2411.1.1 = {
+	holder = 2101112 #Megapenthes
+}
+2421.1.1 = {
+	holder = 2101111 #Argeus
+}
+2431.1.1 = {
+	holder = 2101110 #Anaxagoras (Partial)
+}
+2451.1.1 = {
+	holder = 2101109 #Alector (Partial)
+}
+2471.1.1 = {
+	holder = 2101108 #Iphis (Partial)
+}
+2521.1.1 = {
+	holder = 2101100 #Sthenelos (Partial)
 }

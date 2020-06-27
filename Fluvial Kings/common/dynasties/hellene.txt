@@ -64,3 +64,18 @@
 	culture = "achaean"
 	used_for_random = no
 }
+2100013 = {
+	name = "Belid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100014 = {
+	name = "Inachid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100015 = {
+	name = "Amythaid"
+	culture = "achaean"
+	used_for_random = no
+}
