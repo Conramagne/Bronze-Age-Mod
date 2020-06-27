@@ -22,6 +22,8 @@ e_greek_empire = {
 	
 			capital = 68 # Mykenae
 			
+			achaean = "Mykenae"
+			
 			c_mycenae = {
 				color = { 45 130 235 }
 				color2 = { 255 255 255 }
@@ -195,8 +197,6 @@ e_greek_empire = {
 				
 				b_lacedemonia = {}
 				b_amyclae = {}
-				b_phare = {}
-				b_vaphio = {}
 				b_menelaeion = {}
 			}
 			c_prasiai = {

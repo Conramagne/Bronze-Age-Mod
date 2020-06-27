@@ -44,3 +44,23 @@
 	culture = "achaean"
 	used_for_random = no
 }
+2100009 = {
+	name = "Pelopid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100010 = {
+	name = "Abantiad"
+	culture = "achaean"
+	used_for_random = no
+}
+2100011 = {
+	name = "Lacedaemonid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100012 = {
+	name = "Lelegid"
+	culture = "achaean"
+	used_for_random = no
+}

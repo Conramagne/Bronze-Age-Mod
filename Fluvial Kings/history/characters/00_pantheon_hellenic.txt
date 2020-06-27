@@ -1177,6 +1177,44 @@
 	9999.1.1 = { death = yes }
 }
 
+1100180 = { #Castor
+	name = "Castor"
+	dynasty = 2100011 #Lacedaemonid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2101006
+	mother = 2101005
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 20
+	2498.1.1 = { birth = yes }
+	2498.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100181 = { #Pollux
+	name = "Pollux"
+	dynasty = 2100011 #Lacedaemonid
+	culture = achaean
+	religion = pantes_theoi
+	father = 1100146
+	mother = 2101005
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 20
+	2498.1.1 = { birth = yes }
+	2498.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
 #Pleiades/Atlantids (1100261-1100270)
 1100261 = { #Maia
 	name = "Maia" # Maia
@@ -1211,6 +1249,26 @@
 	immortal_age = 20
 	1.1.18 = { birth = yes }
 	1.1.18 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100263 = { #Taygete
+	name = "Taygete"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100162
+	mother = 1100023
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 20
+	1.1.19 = { birth = yes }
+	1.1.19 = {
 		effect = {
 			set_character_flag = flag_god
 		}

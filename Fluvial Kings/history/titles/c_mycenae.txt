@@ -2,6 +2,25 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1 = {
+2411.1.1 = {
 	liege = d_achaea
+	holder = 2100912 #Perseus
+}
+2461.1.1 = {
+	holder = 2100907 #Electryon
+}
+2486.1.1 = {
+	holder = 2100904 #Sthenelos
+}
+2491.1.1 = {
+	holder = 2100903 #Eurustheus
+}
+2501.1.1 = {
+	holder = 2100902 #Atreus
+}
+2511.1.1 = {
+	holder = 2100800 #Thuestes
+}
+2518.1.1 = {
+	holder = 2100900 #Agamemmnon
 }

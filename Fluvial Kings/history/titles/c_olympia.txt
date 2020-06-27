@@ -1,7 +1,23 @@
-# 2000.1.1={
-	# law = agnatic_succession
-	# law = succ_gavelkind
-# }
-# 2527.1.1 = {
-	# liege = d_elis
-# }
+2000.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2391.1.1 = {
+	holder = 2100811 #Oinómaos
+}
+2431.1.1 = {
+	holder = 2100809 #Pelops
+}
+2481.1.1 = {
+	holder = 2100807 #Chrusippos
+}
+2491.1.1 = {
+	holder = 2100800 #Thuestes
+}
+2518.1.1 = {
+	liege = d_elis
+	holder = 2100102 #Agasthenes
+}
+2521.1.1 = {
+	holder = 2100100 #Poluxenos
+}
