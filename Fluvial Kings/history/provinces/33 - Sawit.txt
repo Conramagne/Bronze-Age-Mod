@@ -1,8 +1,8 @@
 title=c_sawit
 
 max_settlements= 1
-b_sawit= tribal
+b_sawit= castle
 
 culture=amazonios
-religion=ishalitethai
+religion=pantes_theoi
 terrain=plains

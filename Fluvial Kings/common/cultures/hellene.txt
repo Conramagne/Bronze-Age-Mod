@@ -149,7 +149,7 @@ hellene = {
 		modifier = default_culture_modifier
 	}
 
-	doric = {
+	dorian = {
 		graphical_cultures = { croatsouthslavicgfx }
 
 		color = { 0.8 0.2 0.8 }

@@ -65,3 +65,13 @@ bad_bureaucrat = {
 	opinion = -20
 	years = 5
 }
+
+became_stratocratic_tyrant = {
+	opinion = -50
+	years = 25
+}
+
+rejected_stratocracy = {
+	opinion = -50
+	years = 25
+}

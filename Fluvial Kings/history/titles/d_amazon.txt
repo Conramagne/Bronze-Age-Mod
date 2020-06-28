@@ -1,0 +1,13 @@
+2000.1.1={
+	law = enatic_succession
+	law = succ_gavelkind
+}
+2501.1.1 = {
+	holder = 2101404 #Otrerus
+}
+2521.1.1 = {
+	holder = 2101401 #Hippolute
+}
+2526.1.1 = {
+	holder = 2101400 #Penthesilea
+}

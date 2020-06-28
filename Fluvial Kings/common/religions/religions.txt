@@ -291,7 +291,6 @@ hellenic = {
 		allow_rivermovement = yes
 		allow_looting = yes
 		allow_viking_invasion = yes
-		matrilineal_marriages = no
 		max_consorts = 4
 		autocephaly = yes
 		priests_can_marry = yes

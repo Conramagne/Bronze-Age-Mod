@@ -1,0 +1,57 @@
+namespace = fka
+
+#Gives Amazonios their trait (on_startup, on_birth, on_character_convert_culture)
+character_event = {
+	id = fka.1
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = {
+		culture = amazonios
+	}
+	
+	immediate = {
+		add_trait = amazonios_trait
+	}
+}
+
+#Destroys Amazon title if held by non-Amazon (on_new_holder, on_character_convert_culture)
+character_event = {
+	id = fka.2
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = {
+		has_landed_title = d_amazon
+		NOT = {
+			culture = amazonios
+		}
+	}
+	
+	immediate = {
+		d_amazon = {
+			unsafe_destroy_landed_title = THIS
+		}
+	}
+}
+
+#Gives Amazonios their trait (MTTH)
+character_event = {
+	id = fka.3
+	hide_window = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		culture = amazonios
+		NOT = {
+			trait = amazonios_trait
+		}
+	}
+	
+	immediate = {
+		add_trait = amazonios_trait
+	}
+}

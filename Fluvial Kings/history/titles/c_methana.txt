@@ -73,3 +73,6 @@
 2501.1.1 = {
 	holder = 2101300 #Amphiaraos
 }
+2521.1.1 = {
+	holder = 2101303 #Amphílochos
+}

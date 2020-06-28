@@ -254,6 +254,9 @@ pihassasi_opinion;[pihassasi.GetName] Character Opinion;;;;;;;;;;;;;x
 pihassasi_opinion_EXPLANATION; (effect on [pihassasi.GetName]);;;;;;;;;;;;;x
 hellenic_opinion;[hellenic.GetName] Character Opinion;;;;;;;;;;;;;x
 hellenic_opinion_EXPLANATION; (effect on [hellenic.GetName]);;;;;;;;;;;;;x
+pantes_theoi_opinion;[pantes_theoi.GetName] Character Opinion;;;;;;;;;;;;;x
+pantes_theoi_opinion_EXPLANATION; (effect on [pantes_theoi.GetName]);;;;;;;;;;;;;x
+
 
 #misc
 strategist_opinion;Strategist Character Opinion;;;;;;;;;;;;;x
@@ -338,7 +341,7 @@ bureau_decrease_10_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 10
 #Palace Bureaucracy Opinions
 model_bureaucrat;Model Bureaucrat;;;;;;;;;;;;;x
 bad_bureaucrat;Poor Bureaucrat;;;;;;;;;;;;;x
-opinion_overstepped_boundary;Overstepped Personal Boundaries;;;;;;;;;;;;;x
+opinion_overstepped_boundary;Overstepped Boundaries;;;;;;;;;;;;;x
 
 ###########Trait Localization###########
 

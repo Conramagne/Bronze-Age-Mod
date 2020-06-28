@@ -183,16 +183,39 @@ e_hittite_empire = {
 			capital = 2
 			
 			c_zalpa = {
+				achaean = "Saramene"
+				dorian = "Saramene"
+				aeolian = "Saramene"
+				ionian = "Saramene"
+				amazonios = "Saramene"
+				
 				color={ 135 64 47 }
 				color2={ 255 255 255 }
 				
-				b_zalpa = {}
+				b_zalpa = {
+					achaean = "Saramene"
+					dorian = "Saramene"
+					aeolian = "Saramene"
+					ionian = "Saramene"
+					amazonios = "Saramene"
+				}
 			}
 			c_sawit = {
+				achaean = "Enete"
+				dorian = "Enete"
+				aeolian = "Enete"
+				ionian = "Enete"
+				amazonios = "Enete"
 				color={ 219 105 76 }
 				color2={ 255 255 255 }
 				
-				b_sawit = {}
+				b_sawit = {
+					achaean = "Enete"
+					dorian = "Enete"
+					aeolian = "Enete"
+					ionian = "Enete"
+					amazonios = "Enete"
+				}
 			}
 			c_kunanamit = {
 				color={ 219 43 0 }

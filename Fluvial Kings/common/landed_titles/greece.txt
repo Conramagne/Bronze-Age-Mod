@@ -4,7 +4,6 @@ e_greek_empire = {
 	
 	capital = 68 # Mykenae
 	
-	culture = greek
 
 	short_name = yes
 	
@@ -396,5 +395,24 @@ e_greek_empire = {
 				b_peparethos = {}
 			}
 		}
+	}
+}
+
+#Titular Titles
+d_amazon = {
+	color = { 74 145 35 }
+	
+	# capital = (to be Thermodon)
+		
+	short_name = yes
+	
+	culture = amazonois
+	
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+	
+	allow = {
+		culture = amazonois
 	}
 }

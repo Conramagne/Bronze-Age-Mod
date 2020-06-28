@@ -1,3 +1,25 @@
+amazonios_trait = {
+
+	potential = {
+		culture = amazonios
+	}
+	
+	cannot_marry = yes
+	random = no
+	customizer = no
+	martial = 2
+	combat_rating = 5
+	
+	male_compliment_adj = COMPL_STRONG
+	female_compliment_adj = COMPL_STRONG
+}
+
+stratocrat = {
+	random = no
+	customizer = no
+}
+
+#Imperial Authority Events
 figurehead_emperor = {
 	monthly_character_prestige = -0.5
 	vassal_opinion = -10

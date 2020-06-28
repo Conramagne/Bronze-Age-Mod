@@ -1430,6 +1430,14 @@ opinion_of_erudite = {
 	max_decimals = 0
 }
 
+pantes_theoi_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
 hellenic_opinion = {
 	show_as_percent = no
 	is_good = yes

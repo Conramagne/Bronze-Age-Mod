@@ -40,6 +40,7 @@ feudal_governments = {
 				}
 			}
 			NOT = {	religion_group = muslim	}
+			NOT = { is_government_potential = stratocratic_government }
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
 			NOT = { is_government_potential = regional_kingdom_government }
@@ -119,6 +120,7 @@ feudal_governments = {
 				}
 			}
 			higher_real_tier_than = DUKE
+			NOT = { is_government_potential = stratocratic_government }
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
 			NOT = { is_government_potential = hegemonic_government }
@@ -184,8 +186,9 @@ feudal_governments = {
 					culture = ROOT
 					is_close_relative = yes
 				}
-				NOT = {
+				NOR = {
 					trait = figurehead_emperor
+					trait = weak_emperor
 				}
 			}
 			OR = {
@@ -202,6 +205,7 @@ feudal_governments = {
 					higher_real_tier_than = COUNT
 				}
 			}
+			NOT = { is_government_potential = stratocratic_government }
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
 			is_patrician = no
@@ -262,6 +266,7 @@ feudal_governments = {
 				}
 			}
 			higher_real_tier_than = KING
+			NOT = { is_government_potential = stratocratic_government }
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
 			is_patrician = no
@@ -281,6 +286,67 @@ feudal_governments = {
 
 		## Modifiers
 		court_size_modifier = 10
+	}
+	
+	stratocratic_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		}
+		vassal_call_to_arms = {
+			stratocratic_government
+		}
+		free_revoke_on_governments = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+			feudal_government
+		}
+		potential = {
+			OR = {
+				controls_religion = no
+				has_religion_feature = religion_temporal_head
+				AND = {
+					religion = ishalitethai
+					 controls_religion = yes
+				}
+			}
+			OR = {
+				culture = amazonios
+				trait = stratocrat
+				liege = {
+					government = stratocratic_government
+				}
+			}
+			NOT = { is_government_potential = roman_imperial_government }
+			NOT = { is_government_potential = order_government }
+			is_patrician = no
+		}
+		
+		color = { 0 41 117 }
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = yes
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 10
+		
+		unit_modifier = {
+			levy_size = 0.5
+			key = "STRATOCRACY_EFFECT"
+		}
 	}
 	
 	muslim_government = {

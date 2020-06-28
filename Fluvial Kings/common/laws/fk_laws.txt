@@ -210,7 +210,29 @@ laws = {
 			}
 		}
 		ai_will_revoke = {
-			factor = 0
+			factor = 0.1
+			modifier = {
+				factor = 0
+				OR = {
+					holder_scope = {
+						trait = cruel
+					}
+					holder_scope = {
+						trait = arbitrary
+					}
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					holder_scope = {
+						trait = kind
+					}
+					holder_scope = {
+						trait = just
+					}
+				}
+			}
 		}
 		pass_effect = {
 			holder_scope = {
@@ -383,6 +405,28 @@ laws = {
 		}
 		ai_will_revoke = {
 			factor = 0
+			modifier = {
+				factor = 10
+				OR = {
+					holder_scope = {
+						trait = cruel
+					}
+					holder_scope = {
+						trait = arbitrary
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					holder_scope = {
+						trait = kind
+					}
+					holder_scope = {
+						trait = just
+					}
+				}
+			}
 		}
 		pass_effect = {
 			holder_scope = {

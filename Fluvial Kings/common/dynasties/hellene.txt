@@ -199,3 +199,8 @@
 	culture = "achaean"
 	used_for_random = no
 }
+2100016 = {
+	name = "Otrerid"
+	culture = "amazonios"
+	used_for_random = no
+}

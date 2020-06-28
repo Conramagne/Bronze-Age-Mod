@@ -1,0 +1,38 @@
+god_zeus_bloodline = {
+	picture = GFX_bloodlines_symbol_stoics
+	inheritance = patrilineal
+	allow_bastards = yes
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	learning = 1
+	intrigue = 1
+	monthly_character_prestige = 1
+	hellenic_opinion = 10
+	flags = { god_bloodline blood_of_zeus }
+}
+
+god_poseidaon_bloodline = {
+	picture = GFX_bloodlines_symbol_stoics
+	inheritance = patrilineal
+	allow_bastards = yes
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	learning = 1
+	intrigue = 1
+	monthly_character_prestige = 1
+	hellenic_opinion = 5
+	flags = { god_bloodline blood_of_poseidaon }
+}
+
+god_ares_bloodline = {
+	picture = GFX_bloodlines_symbol_stoics
+	inheritance = patrilineal
+	allow_bastards = yes
+	martial = 2
+	combat_rating = 5
+	monthly_character_prestige = 1
+	hellenic_opinion = 5
+	flags = { god_bloodline blood_of_ares }
+}

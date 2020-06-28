@@ -527,6 +527,7 @@
 #Olympians (1100141-1100160)
 1100141 = { #Hestia
 	name = "Hestia" # Hestia, Goddess of the Hearth
+	dna = afgdc0fc000
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -547,6 +548,7 @@
 
 1100142 = { #Demeter
 	name = "Demeter" # Demeter, Goddess of the Harvest
+	dna = aegcd0ac000
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -568,6 +570,7 @@
 
 1100143 = { #Here
 	name = "Here" # Here, Queen of the Gods
+	dna = aifed00c000
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -588,6 +591,7 @@
 
 1100144 = { #Hades
 	name = "Hades" # Hades, God of the Underworld
+	dna = bbghc0fba00
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -612,6 +616,7 @@
 
 1100145 = { #Poseidaon
 	name = "Poseidaon" # Poseidaon, God of the Ocean
+	dna = bagid0db000
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -631,6 +636,7 @@
 
 1100146 = { #Zeus
 	name = "Zeus" # Zeus, King of the Gods
+	dna = bbcic0hb000
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -661,6 +667,7 @@
 
 1100147 = { #Athene
 	name = "Athene" # Athene, Goddess of Strategy
+	dna = adgdc0fa000
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -683,6 +690,7 @@
 
 1100148 = { #Persephone
 	name = "Persephone" # Persephone, Goddess of Spring (Not an Olympian but whatever)
+	dna = bagid0db000
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -703,6 +711,7 @@
 
 1100149 = { #Apollon
 	name = "Apollon" # Apollon, God of the Sun
+	dna = 00fgb0eb000
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -724,6 +733,7 @@
 
 1100150 = { #Artemis
 	name = "Artemis" # Artemis, Goddess of the Hunt
+	dna = 00fgb0eba00
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -744,6 +754,7 @@
 
 1100151 = { #Hebe
 	name = "Hebe" # Hebe, Goddess of Youth (Not an Olympian but whatever)
+	dna = baegd0db000
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -764,6 +775,7 @@
 
 1100152 = { #Ares
 	name = "Ares" # Ares, God of War
+	dna = abfc00hb000
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -784,6 +796,7 @@
 
 1100153 = { #Haphaistos
 	name = "Haphaistos" # Haphaistos, God of Metallurgy
+	dna = 0fceh0ha000
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -803,6 +816,7 @@
 
 1100154 = { #Hermes
 	name = "Hermes" # Hermes, God of Commerce
+	dna = bdehd0ec000
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -824,6 +838,7 @@
 
 1100155 = { #Aphrodite
 	name = "Aphrodite" # Aphrodite, Goddess of Love
+	dna = aha0d0ec000
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -844,6 +859,7 @@
 
 1100156 = { #Dionusos
 	name = "Dionusos" # Dionusos, God of Wine
+	dna = ag0if0e0000
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -857,6 +873,27 @@
 		effect = {
 			set_character_flag = flag_god
 			set_character_flag = flag_can_contact
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100157 = { #Herakles
+	name = "Herakles" # Herakles (Not an Olympian but whatever)
+	dna = chdfh0dc000
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100146
+	mother = 2100908
+	disallow_random_traits = yes
+	immortal_age = 20
+	2501.1.1 = { birth = yes }
+	2527.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+			add_trait = trait_god
+			add_spouse = 1100151
 		}
 	}
 	9999.1.1 = { death = yes }
@@ -901,6 +938,7 @@
 	}
 	1.1.17 = {
 		add_spouse = 1100023
+		employer = 1100146
 	}
 	9999.1.1 = { death = yes }
 }
@@ -1231,8 +1269,8 @@
 	2498.1.1 = {
 		effect = {
 			set_character_flag = flag_god
-			employer = 1100146
 		}
+		employer = 1100146
 	}
 	9999.1.1 = { death = yes }
 }
@@ -1251,8 +1289,8 @@
 	2498.1.1 = {
 		effect = {
 			set_character_flag = flag_god
-			employer = 1100146
 		}
+		employer = 1100146
 	}
 	9999.1.1 = { death = yes }
 }

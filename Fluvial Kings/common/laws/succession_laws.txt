@@ -1922,6 +1922,11 @@ succession_laws = {
 gender_laws = {
 	cognatic_succession = {
 		potential = {
+			NOT = {
+				holder_scope = {
+					culture = amazonios
+				}
+			}
 			holder_scope = {
 				NOT = { has_religion_feature = religion_matriarchal }
 				NOT = { has_religion_feature = religion_equal }
@@ -2010,6 +2015,9 @@ gender_laws = {
 			holder_scope = { 
 				NOT = { has_religion_feature = religion_matriarchal } 
 				NOT = { has_religion_feature = religion_equal }
+				NOT = {
+					culture = amazonios
+				}
 			}
 		}
 		effect = {
@@ -2176,10 +2184,17 @@ gender_laws = {
 		female_dynasty_opinion = 10
 		
 		potential = {
-			holder_scope = { has_religion_feature = religion_matriarchal }
+			OR = {
+				holder_scope = {
+					culture = amazonios
+				}
+				holder_scope = { has_religion_feature = religion_matriarchal }
+			}
 		}
 		allow = {
-			
+			holder_scope = {
+				culture = amazonios
+			}
 		}
 		effect = {
 			gender_succ = enatic
