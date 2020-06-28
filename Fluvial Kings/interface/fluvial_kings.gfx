@@ -64,4 +64,21 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	
+### military traits
+
+	spriteType = {
+		name = "GFX_trait_amazonios_trait"
+		texturefile = "gfx/traits/amazonios_trait.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_stratocrat"
+		texturefile = "gfx/traits/stratocrat.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 }

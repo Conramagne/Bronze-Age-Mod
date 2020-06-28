@@ -328,7 +328,7 @@ feudal_governments = {
 			is_patrician = no
 		}
 		
-		color = { 0 41 117 }
+		color = { 165 81 72 }
 		
 		dukes_called_kings = yes
 		barons_need_dynasty = yes

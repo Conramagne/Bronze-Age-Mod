@@ -1329,7 +1329,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_icon_military_governorate_government"
-		texturefile = "gfx\\interface\\military_governorate_government.dds"
+		texturefile = "gfx\\interface\\government_military_governorate.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_stratocratic_government"
+		texturefile = "gfx\\interface\\government_stratocratic.dds"
 	}
 	spriteType = {
 		name = "GFX_icon_tribal_government"
@@ -1343,7 +1347,6 @@ spriteTypes = {
 		name = "GFX_icon_pastoralist_government"
 		texturefile = "gfx\\interface\\government_pastoralist.dds"
 	}
-
 
 	# Roman Imperial Government
 	spriteType = {
