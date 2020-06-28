@@ -3,51 +3,171 @@
 	name = "Athamid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100001 = {
 	name = "Eliad"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100002 = {
 	name = "Abaid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100003 = {
 	name = "Arkid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100004 = {
 	name = "Lykaid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100005 = {
 	name = "Erichthoniad"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100006 = {
 	name = "Cadmiad"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100007 = {
 	name = "Neleid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100008 = {
 	name = "Aeacid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100009 = {
 	name = "Pelopid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100010 = {
 	name = "Abantiad"
