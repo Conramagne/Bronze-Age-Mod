@@ -173,34 +173,118 @@
 	name = "Abantiad"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100011 = {
 	name = "Lacedaemonid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100012 = {
 	name = "Lelegid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100013 = {
 	name = "Belid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100014 = {
 	name = "Inachid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100015 = {
 	name = "Amythaid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100016 = {
 	name = "Otrerid"
 	culture = "amazonios"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
