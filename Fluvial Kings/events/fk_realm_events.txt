@@ -4002,7 +4002,7 @@ character_event = {
 character_event = {
 	id = fkr.311
 	desc = EVTDESCFKR311
-	picture = GFX_evt_ruler_speaks
+	picture = GFX_evt_lose_authority
 	only_playable = yes
 	min_age = 16
 	
@@ -4057,7 +4057,7 @@ character_event = {
 character_event = {
 	id = fkr.312
 	desc = EVTDESCFKR312
-	picture = GFX_evt_ruler_speaks
+	picture = GFX_evt_dark_court
 	notification = yes
 	is_triggered_only = yes
 	
@@ -4068,7 +4068,7 @@ character_event = {
 	}
 	
 	option = {
-		name = opta_excellent
+		name = opta_disappointing
 		custom_tooltip = {
 			text = militarization_decrease_5_TT
 		}
@@ -4076,7 +4076,7 @@ character_event = {
 			modifier = opinion_poor_military_ruler
 			who = FROM
 		}
-		prestige = 25
+		prestige = -25
 	}
 }
 

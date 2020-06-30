@@ -26,7 +26,7 @@ tribal_government;Minor Tribe;;;;;;;;;;;;;x
 tribal_government_desc;A small, homogenous tribe encompassing the same amount of territory as a city state or minor-warlord. Heirs are chosen from the current ruler's children or siblings either through general confirmation by the ruler or chosen by tribal elders depending on religion and culture. The ruler is usually only behest to the desires of his own tribe and court so the council holds less sway. Locked to duchy and below.;;;;;;;;;;;;;x
 tribal_confederacy_government;Tribal Confederation;;;;;;;;;;;;;x
 tribal_confederacy_government_desc;A confederacy allows for a tribal realm to grow larger but also as a natural consequence decentralizes power. The ruler can now be selected from beyond the ruling family and can be drawn from the other tribes and victorious commanders by an electorate of the Council and the tribal vassals. Council laws are locked as well, all decisions must be in agreement with the Council of tribal representatives. The ruler is less an authoritarian monarch and more an arbiter of disputes and leader of armies against outside aggression. There are ways around this, if you centralize and woo the princes of the tribes you can have yourself elected King.;;;;;;;;;;;;;x
-stratocratic_government;Stratocratic Government;;;;;;;;;;;;;x
+stratocratic_government;Stratocracy;;;;;;;;;;;;;x
 stratocratic_government_desc;Stratocratic Government;;;;;;;;;;;;;x
 
 familial_elective;Familial Elective;;;;;;;;;;;;;x
@@ -277,6 +277,11 @@ became_stratocratic_tyrant_EXPLANATION; (Became a Stratocratic Tyrant);;;;;;;;;;
 rejected_stratocracy;Rejected Stratocracy;;;;;;;;;;;;;x
 rejected_stratocracy_EXPLANATION; (Rejected Stratocracy);;;;;;;;;;;;;x
 
+opinion_very_model_of_a_modern_major_general;Opinion of Competent General;;;;;;;;;;;;;x
+opinion_very_model_of_a_modern_major_general_EXPLANATION; (Opinion of Competent General);;;;;;;;;;;;;x
+opinion_poor_military_ruler;Opinion of Incompetent General;;;;;;;;;;;;;x
+opinion_poor_military_ruler_EXPLANATION; (Opinion of Incompetent General);;;;;;;;;;;;;x
+
 #misc
 strategist_opinion;Strategist Character Opinion;;;;;;;;;;;;;x
 opinion_of_strategist_EXPLANATION; (opinion on Strategist);;;;;;;;;;;;;x
@@ -366,6 +371,22 @@ opinion_overstepped_boundary;Overstepped Boundaries;;;;;;;;;;;;;x
 militarization;Militarization ([From.PrimaryTitle.militarization_number.GetValue]%);;;;;;;;;;;;;x
 militarization_desc;Militarization measures how military-oriented a realm is. As it ebbs and flows, the efficiency and size of your military will move with it. Additionally, being a militarized state harms palace bureaucracy, so it is wise to balance both bureaucratic norms and militarization.\nMilitarization can be §Gincreased§! by:\n§Y*§! Having strong lords\n§Y*§! Having qualified marshals and commanders\n§Y*§! Winning major battles\nMilitarization can be §Rdecreased§! by:\n§Y*§! Having weal lords\n§Y*§! Having weak marshals and commanders\n§Y*§! Bureaucratic Reforms\n§Y*§! Losing major battles;;;;;;;;;;;;;x
 
+#Militarization Levels
+rejected_militarization;Rejected Militarization;;;;;;;;;;;;;x
+rejected_militarization_desc;Militarization of the Realm has been rejected;;;;;;;;;;;;;x
+low_militarization;Low Militarization;;;;;;;;;;;;;x
+low_militarization_desc;The Militarization of the Realm is currently minimal;;;;;;;;;;;;;x
+high_militarization;High Militarization;;;;;;;;;;;;;x
+high_militarization_desc;The Militarization of the Realm is currently substantial;;;;;;;;;;;;;x
+
+#Militarization Modifiers
+militarization_increase_2_TT;§YMilitarization§! will §Gincrease§! by 2%;;;;;;;;;;;;;x
+militarization_increase_2_5_TT;§YMilitarization§! will §Gincrease§! by 2.5%;;;;;;;;;;;;;x
+militarization_increase_3_TT;§YMilitarization§! will §Gincrease§! by 3%;;;;;;;;;;;;;x
+militarization_increase_5_TT;§YMilitarization§! will §Gincrease§! by 5%;;;;;;;;;;;;;x
+
+militarization_decrease_5_TT;§YMilitarization§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
+militarization_decrease_10_TT;§YMilitarization§! will §Rdecrease§! by 10%;;;;;;;;;;;;;x
 
 ###########Trait Localization###########
 

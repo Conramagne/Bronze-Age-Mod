@@ -26,10 +26,19 @@ hellene = {
 		}
 		
 		female_names = {
-			Alexandra Ariadnh
-			Eritha 
-			Karpathia Korinsia 
-			Poulxeria
+			Aglaophonus Arete Alexandra Ariadnh Argea Ainarete Atalante
+			Biadice
+			Cassiepeia_Cassiopeia Calypso
+			Demodice_Demodoce
+			Elara Eritha Ereutija Europa Eurydice Euru
+			Gorgopis
+			Io Îphis Iphimedeia
+			Karpathia Korinsia Kalyke
+			Laodice Leukothéa_Leucothoë Lilaea
+			Meliboea Molpe
+			Nephele Niobe
+			Pandora Peneus Polycaste Poulxeria
+			Thermisto Thelxinóe Thronia_Thronie Tyro
 		}
 		dukes_called_kings = yes
 

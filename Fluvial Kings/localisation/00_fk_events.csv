@@ -230,3 +230,42 @@ EVTOPTCFKR234;By the grace of the gods, I shall spend a great fortune to reform!
 EVTDESCFKR235;The reforms you were hoping to enact had not materialize, in fact, your palace appears to be less efficent than they were before you attemped your great reforms. You resign yourself to your throne to contemplate what has gone wrong.;;;;;;;;;;;;;x
 EVTDESCFKR236;The reforms you have enacted has seen some successes in your everday governance of the palace, Palace Officals can be seen taking reforms very well, however, the reforms haven't been as revolutionary as your hoping for...;;;;;;;;;;;;;x
 EVTDESCFKR237;The reforms you have enacted has seen great success and your palace officals are abuzz with great efficency as your reforms have vastly improve the administrative efficency of your realm!;;;;;;;;;;;;;x
+
+###########Stratocracy: Militarization Events###########
+become_stratocrat;Become a Stratocrat;;;;;;;;;;;;;x
+become_stratocrat_desc;As a proud warriors whose blood is filled with the martial spirit of the gods, you can lead your people down a strict martial hierarchy as to fight in glorious combat for your realm!;;;;;;;;;;;;;x
+reject_stratocracy;Rejected being Stratocrat;;;;;;;;;;;;;x
+reject_stratocracy_desc;As a proud warrior it was your choice and honor that you have decided on your own path and rejected the martial blood that courses your veins leading your people down a different path then your birthright.;;;;;;;;;;;;;x
+
+EVTDESCFKR301;As your stratocratic traditions evolves it dictates that you must maintain a battle ready army which is paramount to maintain your glorious realm as a result you must always be mindful of your next military venture.;;;;;;;;;;;;;x
+
+
+#Good Events
+EVTDESCFKR305;You have become a model warrior to aspire your local community whom idolize your martial prowess, it has been said that your liege greatly approves of your martial service to the realm.;;;;;;;;;;;;;x
+EVTDESCFKR306;Rumors has reached your ears suggesting an outstanding warrior has become a subject of idolization and inspiration to thier people and of your realm. You boastfully praise this warrior for their great service for your realm.;;;;;;;;;;;;;x
+
+EVTDESCFKR308;A quality marshal has emerged from your palace council, informing your council about the their great ability to marshal your subjects to fight for your realm. Thier Energy is rather infectous and brings you and the other councillors into a boisterous cheer! Glory to [Root.PrimaryTitle.GetName]!;;;;;;;;;;;;;x
+
+EVTDESCFKR310;A quality commander has emerged from your training grounds, Their recounting of their time in glorious battle has inspired the soliders whom form the backbone of your society. Thier Energy is rather infectous and brings you and the other soliders into a boisterous cheer! Glory to [Root.PrimaryTitle.GetName]!;;;;;;;;;;;;;x
+
+#Bad Events
+EVTDESCFKR311;You are spineless and misguided warrior of which your local community has come to mock your lack of martial spirit, it has been said that your liege greatly dispproves of your lacking martial service to the realm.;;;;;;;;;;;;;x
+EVTDESCFKR312;Rumors has reached your ears suggesting an misguided warrior has become a subject of mockery to their people and of your realm. You loudly curse the name of this warrior for thier abysmal service for your realm.;;;;;;;;;;;;;x
+
+EVTDESCFKR314;A lacking marshal has emerged from your palace council, informing your council about the their seeming inability to marshal your subjects to fight for your realm. Thier Energy is rather lacking...you and the other councillors exchange disapproving glances at this turn of event!;;;;;;;;;;;;;x
+
+EVTDESCFKR316;A lacking commander has emerged from your training grounds, Their recounting of their time in battle has not inspired the soliders whom form the backbone of your society. In fact, many soldiers look at the commander with great annoyance for their glory does not match their supposed deeds. You stand before them disappointed.;;;;;;;;;;;;;x
+
+#Changes in Militarization Levels
+
+##Decrease##
+EVTDESCFKR317;Your proud martial society is filled with imbeciles that are your so called "Warriors", they have squandered the resources of your realm in disasterous campaigns and now your realm's preperation for the next glorious campaign is greatly hampered...;;;;;;;;;;;;;x
+EVTOPTAFKR230;The Horrors!;;;;;;;;;;;;;x
+EVTDESCFKR318;Whether do to a miscalculation or a bad campaign, the glorious martial traditions of your realm has diminshed. Its not to say that they are imbeciles, your realm after all is still well staffed with able body warriors loyal to your realm.;;;;;;;;;;;;;x
+EVTOPTAFKR231;For Shame!;;;;;;;;;;;;;x
+
+##Increase##
+EVTDESCFKR319;Whether do to the greak work of your generals or your martials rousing speeches, your armies appear to be better equipped and expanding to meet the needs of your realm. Its not to say that they are the strongest force of the known world that you aspire them to be, but your realm has seen increase glory and prosperity to your realm and their mighty warriors.;;;;;;;;;;;;;x
+EVTOPTAFKR232;There is still much to do...;;;;;;;;;;;;;x
+EVTDESCFKR320;Your Military is not to be trifled with! Your army swell in both spirit and bodies as their glory is well regarded across the known warrior in both admiration and fear by your friend and foe alike. Your military advisors have not squandered the resources of your realm investing it to improve the lives of your subjects under your glorious name! To Arms!;;;;;;;;;;;;;x
+EVTOPTAFKR233;As it should be!;;;;;;;;;;;;;x

@@ -1005,26 +1005,6 @@ spriteTypes = {
 		name = "GFX_button_goto_diplo"
 		texturefile = "gfx\\interface\\button_goto_diplo.tga"
 	}
-	spriteType = {
-		name = "GFX_contact_pantheon"
-		texturefile = "gfx\\interface\\decision_calling_the_gods.dds"
-	}
-	spriteType = {
-		name = "GFX_choose_devotion"
-		texturefile = "gfx\\interface\\decision_devote_to_the_gods.dds"
-	}
-	spriteType = {
-		name = "GFX_switch_devotion"
-		texturefile = "gfx\\interface\\decision_devote_to_the_gods.dds"
-	}
-	spriteType = {
-		name = "GFX_dedicate_child"
-		texturefile = "gfx\\interface\\decision_devote_to_the_gods.dds"
-	}
-	spriteType = {
-		name = "GFX_absolve_curse_sacrifice"
-		texturefile = "gfx\\interface\\decision_calling_the_gods.dds"
-	}
 	
 	### icons
 	spriteType = {
