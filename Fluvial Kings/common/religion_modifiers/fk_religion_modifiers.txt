@@ -1,0 +1,9 @@
+won_hellenic_invasion = {
+	authority = 5
+	years = 20
+}
+
+lost_hellenic_invasion = {
+	authority = -5
+	years = 20
+}

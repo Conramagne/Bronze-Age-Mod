@@ -719,7 +719,550 @@ character_event = {
 	}
 }
 
-#Miscellaneous
+###God Impregnation
+#Random Event to impregnation (on_yearly_pulse)
+character_event = {
+	id = fkp.400
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_character_flag = flag_god
+		OR = {
+			trait = zeus
+			trait = poseidaon
+			trait = ares
+		}
+	}
+	
+	immediate = {
+		save_event_target_as = pursuing_god
+		any_character = {
+			limit = {
+				religion_group = hellenic
+				is_female = yes
+				is_pregnant = no
+				NOT = {
+					has_character_flag = flag_god
+				}
+				OR = {
+					mother = {
+						is_landed = yes
+						higher_real_tier_than = BARON
+						mercenary = no
+					}
+					father = {
+						is_landed = yes
+						higher_real_tier_than = BARON
+						mercenary = no
+					}
+					spouse = {
+						is_landed = yes
+						higher_real_tier_than = BARON
+						mercenary = no
+					}
+					is_landed = yes
+					higher_real_tier_than = BARON
+					mercenary = no
+				}
+				reverse_opinion = { #God's opinion on any_character
+					who = ROOT
+					value > 0
+				}
+				NOT = {
+					has_opinion_modifier = { #any_character's opinion on God
+						modifier = opinion_cursed_by
+						who = ROOT
+					}
+				}
+			}
+			character_event = { id = fkp.401 } #Randomly determines fate
+		}
+	}
+}
+
+#Randomly determines fate
+character_event = {
+	id = fkp.401
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		random_list = {
+			95 = {} #Nothing Happens
+			5 = {
+				random_list = {
+					30 = {
+						character_event = { id = fkp.402 } #Pursued in all his glory
+					}
+					60 = {
+						character_event = { id = fkp.403 } #Pursued disguised as a human
+					}
+					10 = {
+						character_event = { id = fkp.404 } #Pursued disguised as an animal
+					}
+				}
+				modifier = {
+					factor = 100
+					FROM = { is_friend = ROOT }
+				}
+				modifier = {
+					factor = 100
+					has_character_flag = testing
+				}
+				modifier = {
+					factor = 1.2
+					FROM = { opinion = { who = ROOT value <= 20 } }
+				}
+				modifier = {
+					factor = 1.4
+					FROM = { opinion = { who = ROOT value = 40 } }
+				}
+				modifier = {
+					factor = 1.6
+					FROM = { opinion = { who = ROOT value = 60 } }
+				}
+				modifier = {
+					factor = 1.8
+					FROM = { opinion = { who = ROOT value = 80 } }
+				}
+			}
+		}
+	}
+}
+
+#Woman gets pursued
+character_event = {
+	id = fkp.402
+	desc = EVTDESCAFKP402 #You accept the god's advances
+	desc = EVTDESCBFKP402 #You deny and get raped
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				event_target:pursuing_god = {
+					trait = zeus
+				}
+			}
+			set_character_flag = zeus_warrior
+		}
+		if = {
+			limit = {
+				event_target:pursuing_god = {
+					trait = poseidaon
+				}
+			}
+			set_character_flag = poseidaon_warrior
+		}
+		if = {
+			limit = {
+				event_target:pursuing_god = {
+					trait = ares
+				}
+			}
+			set_character_flag = ares_warrior
+		}
+	}
+	
+	option = {
+		name = EVTOPTAFKP402
+		impregnate = event_target:pursuing_god
+	}
+}
+
+#Woman gets pursued
+character_event = {
+	id = fkp.403
+	
+	immediate = {
+		if = {
+			limit = {
+				event_target:pursuing_god = {
+					trait = zeus
+				}
+			}
+			set_character_flag = zeus_warrior
+		}
+		if = {
+			limit = {
+				event_target:pursuing_god = {
+					trait = poseidaon
+				}
+			}
+			set_character_flag = poseidaon_warrior
+		}
+		if = {
+			limit = {
+				event_target:pursuing_god = {
+					trait = ares
+				}
+			}
+			set_character_flag = ares_warrior
+		}
+	}
+	
+	desc = {
+		trigger = {
+			is_married = yes
+		}
+		text = EVTDESCAFKP403 #You get pursued by the god in the form of your husband
+	}
+	desc = EVTDESCBFKP403 #You accept the god's advanced
+	desc = EVTDESCCFKP403 #You deny, he reveals his disguise, and you get raped
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAFKP403
+		impregnate = event_target:pursuing_god
+	}
+}
+
+#Woman gets pursued
+character_event = {
+	id = fkp.404
+	desc = EVTDESCAFKP404 #You accept the god's advances
+	desc = EVTDESCBFKP404 #You deny and you get raped
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				event_target:pursuing_god = {
+					trait = zeus
+				}
+			}
+			set_character_flag = zeus_warrior
+		}
+		if = {
+			limit = {
+				event_target:pursuing_god = {
+					trait = poseidaon
+				}
+			}
+			set_character_flag = poseidaon_warrior
+		}
+		if = {
+			limit = {
+				event_target:pursuing_god = {
+					trait = ares
+				}
+			}
+			set_character_flag = ares_warrior
+		}
+	}
+	
+	option = {
+		name = EVTOPTAFKP404
+		impregnate = event_target:pursuing_god
+	}
+}
+
+#Baby is born
+character_event = {
+	id = fkp.405
+	desc = EVTDESCFKP405
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = {
+		mother = {
+			OR = {
+				has_character_flag = zeus_warrior
+				has_character_flag = poseidaon_warrior
+				has_character_flag = ares_warrior
+			}
+		}
+	}
+	
+	immediate = {
+		any_character = {
+			limit = {
+				OR = {
+					religion_group = hellenic
+					trait = syncretic_hellenic
+				}
+			}
+			narrative_event = { id = fkp.409 }
+		}
+		character_event = { id = fkp.408 days = 10 }
+		if = {
+			limit = {
+				mother = {
+					has_character_flag = zeus_warrior
+				}
+			}
+			set_character_flag = child_of_zeus
+			create_bloodline = {
+				type = god_zeus_bloodline
+			}
+		}
+		if = {
+			limit = {
+				mother = {
+					has_character_flag = poseidaon_warrior
+				}
+			}
+			set_character_flag = child_of_poseidaon
+			create_bloodline = {
+				type = god_poseidaon_bloodline
+			}
+		}
+		if = {
+			limit = {
+				mother = {
+					has_character_flag = ares_warrior
+				}
+			}
+			set_character_flag = child_of_ares
+			create_bloodline = {
+				type = god_ares_bloodline
+			}
+		}
+	}
+}
+
+#Child becomes adult
+character_event = {
+	id = fkp.406
+	desc = EVTDESCFKP406
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_character_flag = child_of_zeus
+			has_character_flag = child_of_poseidaon
+			has_character_flag = child_of_ares
+		}
+	}
+	
+	option = {
+		name = EVTOPTAFKP406
+		if = {
+			limit = {
+				has_education_martial_trigger = yes
+			}
+			remove_education_effect = yes
+			random_list = {
+				70 = {
+					add_trait = skilled_tactician
+				}
+				30 = {
+					add_trait = brilliant_strategist
+				}
+			}
+		}
+		random = {
+			chance = 33
+			add_trait = strategist
+		}
+		random = {
+			chance = 33
+			add_trait = robust
+		}
+		remove_trait = feeble
+		add_trait = strong
+		remove_trait = inbred
+		remove_trait = weak
+		remove_trait = slow
+		remove_trait = imbecile
+		change_martial = 3
+		add_character_modifier = {
+			modifier = hellenic_birthright
+			duration = -1
+		}
+	}
+}
+
+#Inheriting Birthright
+character_event = {
+	id = fkp.407
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_modifier = hellenic_birthright
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				current_heir = {
+					dynasty = ROOT
+				}
+			}
+			current_heir = {
+				add_character_modifier = {
+					modifier = hellenic_birthright
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					current_heir = {
+						dynasty = ROOT
+					}
+				}
+			}
+			heir_under_primogeniture_law = {
+				add_character_modifier = {
+					modifier = hellenic_birthright
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+#Sets appropriate dynasty
+character_event = {
+	id = fkp.408
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				any_close_relative = {
+					ai = no
+				}
+			}
+			random_close_relative = {
+				limit = {
+					ai = no
+				}
+				save_event_target_as = event_target:dynasty_player
+			}
+			dynasty = event_target:dynasty_player
+		}
+		else_if = {
+			limit = {
+				mother = {
+					any_sibling = {
+						ai = no
+					}
+				}
+			}
+			random_sibling = {
+				limit = {
+					ai = no
+				}
+				save_event_target_as = event_target:dynasty_player
+			}
+			dynasty = event_target:dynasty_player
+		}
+		else_if = {
+			limit = {
+				OR = {
+					mother = {
+						spouse = {
+							ai = no
+						}
+					}
+					mother = {
+						is_landed = no
+						spouse = {
+							is_landed = yes
+						}
+					}
+				}
+			}
+			mother = {
+				spouse = {
+					save_event_target_as = dynasty_player
+				}
+			}
+			dynasty = event_target:dynasty_player
+		}
+		else_if = {
+			limit = {
+				OR = {
+					mother = {
+						father = {
+							ai = no
+						}
+					}
+					mother = {
+						is_landed = no
+						father = {
+							is_landed = yes
+						}
+					}
+				}
+			}
+			mother = {
+				father = {
+					save_event_target_as = dynasty_player
+				}
+			}
+			dynasty = event_target:dynasty_player
+		}
+		else_if = {
+			limit = {
+				OR = {
+					mother = {
+						mother = {
+							ai = no
+						}
+					}
+					mother = {
+						is_landed = no
+						mother = {
+							is_landed = yes
+						}
+					}
+				}
+			}
+			mother = {
+				mother = {
+					save_event_target_as = dynasty_player
+				}
+			}
+			dynasty = event_target:dynasty_player
+		}
+		else_if = {
+			limit = {
+				mother = {
+					is_landed = yes
+				}
+			}
+			
+			dynasty = mother
+		}
+		remove_trait = bastard
+		remove_trait = legit_bastard
+	}
+}
+
+#Announces to all Hellenes that a child of a God was born
+character_event = {
+	id = fkp.409
+	title = EVTTITLEFKP409
+	desc = EVTDESCFKP409
+	is_triggered_only = yes
+
+
+	option = {
+		name = EVTOPTAFKP409
+		trigger = {
+			NOT = {
+				is_close_relative = FROM
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTBFKP409
+		trigger = {
+			is_close_relative = FROM
+		}
+		prestige = 25
+	}
+}
+
+
+###Miscellaneous
 character_event = {
 	id = fkp.9000
 	hide_window = yes

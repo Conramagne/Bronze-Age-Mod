@@ -943,6 +943,7 @@ character_event = {
 	
 	trigger = {
 		government = hegemonic_government
+		has_character_modifier = imperial_authority
 		OR = {
 			AND = {
 				primary_title = { check_variable = { which = var_imperial_authority value < 10 } }
@@ -4002,7 +4003,7 @@ character_event = {
 character_event = {
 	id = fkr.311
 	desc = EVTDESCFKR311
-	picture = GFX_evt_lose_authority
+	picture = GFX_evt_dark_court
 	only_playable = yes
 	min_age = 16
 	
@@ -4010,7 +4011,6 @@ character_event = {
 		has_character_modifier = militarization
 		OR = {
 			trait = misguided_warrior
-			combat_rating < 0
 			trait = weak
 			trait = feeble
 			trait = craven
@@ -4068,7 +4068,7 @@ character_event = {
 	}
 	
 	option = {
-		name = opta_disappointing
+		name = opta_excellent
 		custom_tooltip = {
 			text = militarization_decrease_5_TT
 		}
@@ -4076,7 +4076,7 @@ character_event = {
 			modifier = opinion_poor_military_ruler
 			who = FROM
 		}
-		prestige = -25
+		prestige = 25
 	}
 }
 
@@ -4101,7 +4101,6 @@ character_event = {
 			}
 			OR = {
 				trait = misguided_warrior
-				combat_rating < 0
 				trait = weak
 				trait = feeble
 				martial < 5
@@ -4128,7 +4127,7 @@ character_event = {
 character_event = {
 	id = fkr.314
 	desc = EVTDESCFKR314
-	picture = GFX_evt_council
+	picture = GFX_evt_dark_court
 	is_triggered_only = yes
 
 	immediate = {
@@ -4166,7 +4165,6 @@ character_event = {
 			has_minor_title = title_commander
 			OR = {
 				trait = misguided_warrior
-				combat_rating < 0
 				trait = weak
 				trait = feeble
 				martial < 6
@@ -4193,7 +4191,7 @@ character_event = {
 character_event = {
 	id = fkr.316
 	desc = EVTDESCFKR316
-	picture = GFX_evt_council
+	picture = GFX_evt_dark_court
 	is_triggered_only = yes
 
 	immediate = {
@@ -4211,7 +4209,7 @@ character_event = {
 			modifier = opinion_poor_military_ruler
 			who = FROM
 		}
-		prestige = 10
+		prestige = -10
 	}
 }
 

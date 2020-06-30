@@ -460,3 +460,7 @@ high_militarization = {
 requested_personal_tribute = {
 	icon = 6
 }
+
+hellenic_birthright = {
+	icon = 9
+}
