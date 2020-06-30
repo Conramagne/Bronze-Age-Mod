@@ -1,8 +1,8 @@
-namespace = fka
+namespace = fkm
 
 #Gives Amazonios their trait (on_startup, on_birth, on_character_convert_culture)
 character_event = {
-	id = fka.1
+	id = fkm.1
 	is_triggered_only = yes
 	hide_window = yes
 	
@@ -17,7 +17,7 @@ character_event = {
 
 #Destroys Amazon title if held by non-Amazon (on_new_holder, on_character_convert_culture)
 character_event = {
-	id = fka.2
+	id = fkm.2
 	is_triggered_only = yes
 	hide_window = yes
 	
@@ -37,7 +37,7 @@ character_event = {
 
 #Gives Amazonios their trait (MTTH)
 character_event = {
-	id = fka.3
+	id = fkm.3
 	hide_window = yes
 	
 	mean_time_to_happen = {

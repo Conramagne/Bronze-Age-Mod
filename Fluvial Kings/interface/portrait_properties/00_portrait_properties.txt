@@ -1234,6 +1234,333 @@
 
 # p2 base
 2 = {
+	0 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = zeus
+				trait = hestia
+			}
+		}
+	}
+	1 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = poseidaon
+				trait = demeter
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	2 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = apollon
+				trait = here
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	3 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = ares
+				trait = athene
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	4 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = haphaistos
+				trait = persephone
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	5 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = hermes
+				trait = artemis
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	6 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = dionusos
+				trait = hebe
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	7 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = hades
+				trait = aphrodite
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	8 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = herakles
+				trait = rhea
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	9 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = atlas
+				trait = tethys
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	10 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = oceanos
+				trait = themis
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	11 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = neilos
+				trait = mnemosyne
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	12 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = prometheus
+				trait = leto
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	13 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = helios
+				trait = pandora
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	14 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = castor
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	15 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = pollux
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	16 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = cronos
+				trait = arethousa
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	17 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				trait = zeus
+				trait = demeter
+				trait = apollon
+				trait = artemis
+				trait = ares
+				trait = hermes
+				trait = aphrodite
+				trait = hestia
+				trait = here
+				trait = persephone
+				trait = artemis
+				trait = hebe
+				trait = poseidaon
+				trait = haphaistos
+				trait = dionusos
+				trait = hades
+				trait = herakles
+				trait = atlas
+				trait = oceanos
+				trait = prometheus
+				trait = neilos
+				trait = helios
+				trait = castor
+				trait = pollux
+				trait = cronos
+				trait = rhea
+				trait = tethys
+				trait = themis
+				trait = mnemosyne
+				trait = leto
+				trait = pandora
+				trait = arethousa
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
 }
 
 # p3 clothes

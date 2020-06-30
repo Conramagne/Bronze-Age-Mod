@@ -423,6 +423,39 @@ sold_bureaucratic_positions = {
 	just_opinion = -25
 }
 
+#Militarization
+militarization = {
+	icon = 1
+	is_visible = { 
+		character = FROM
+	}
+}
+
+rejected_militarization = {
+	icon = 1
+}
+
+low_militarization = {
+	icon = 19
+	global_levy_size = -0.6
+	land_morale = -0.05
+	siege_speed = -0.05
+	siege_defence = -0.05
+	max_attrition = -0.1
+	levy_reinforce_rate = -0.1
+}
+high_militarization = {
+	icon = 1
+	castle_tax_modifier = -0.33
+	global_revolt_risk = 0.05
+	global_levy_size = 0.2
+	land_morale = 0.05
+	siege_speed = 0.05
+	siege_defence = 0.05
+	max_attrition = 0.1
+	levy_reinforce_rate = 0.1
+}
+
 #Others
 requested_personal_tribute = {
 	icon = 6

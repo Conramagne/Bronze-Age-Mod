@@ -1,0 +1,194 @@
+# hair, mouth, chin, nose, eyes, cheek, ear, neck
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_greekgod_male_base"
+		texturefile = "gfx\\characters\\greekgod\\greekgod_male_portrait.dds"
+		noOfFrames = 18
+		norefcount = yes
+	}
+
+	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
+
+	portraitType = {
+		name = "PORTRAIT_greekgodgfx_male"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+			"GFX_greekgod_male_base:p2"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			
+			{ 36 35 29 } { 184 150 97 } { 255 255 255 } #Ash Blonde 01
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 } #Light Brown
+			{ 30 22 18 } { 186 112 63 } { 255 255 255 } #Light Brown
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193} #Blue 01
+			{ 141 136 54 } #Hazel 01
+			{ 120 74 46 } #Brown 02
+			{ 164 118 87 } #Brown 02
+			{ 73 44 24 } #Brown 03
+			{ 34 103 36 } #Green
+		}
+	}
+	
+	# middle age
+	portraitType = {
+		name = "PORTRAIT_greekgodgfx_male1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+			"GFX_greekgod_male_base:p2"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			
+			{ 36 35 29 } { 184 150 97 } { 255 255 255 } #Ash Blonde 01
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 } #Light Brown
+			{ 30 22 18 } { 186 112 63 } { 255 255 255 } #Light Brown
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193} #Blue 01
+			{ 141 136 54 } #Hazel 01
+			{ 120 74 46 } #Brown 02
+			{ 164 118 87 } #Brown 02
+			{ 73 44 24 } #Brown 03
+			{ 34 103 36 } #Green
+		}
+	}
+	
+	# old age
+	portraitType = {
+		name = "PORTRAIT_greekgodgfx_male2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+			"GFX_greekgod_male_base:p2"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			
+			{ 36 35 29 } { 184 150 97 } { 255 255 255 } #Ash Blonde 01
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 } #Light Brown
+			{ 30 22 18 } { 186 112 63 } { 255 255 255 } #Light Brown
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193} #Blue 01
+			{ 141 136 54 } #Hazel 01
+			{ 120 74 46 } #Brown 02
+			{ 164 118 87 } #Brown 02
+			{ 73 44 24 } #Brown 03
+			{ 34 103 36 } #Green
+		}
+	}
+
+	spriteType = {
+		name = "GFX_greekgod_female_base"
+		texturefile = "gfx\\characters\\greekgod\\greekgod_female_portrait.dds"
+		noOfFrames = 18
+		norefcount = yes
+	}
+
+	
+	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
+
+	portraitType = {
+		name = "PORTRAIT_greekgodgfx_female"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+			"GFX_greekgod_female_base:p2"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			
+			{ 36 35 29 } { 184 150 97 } { 255 255 255 } #Ash Blonde 01
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 } #Light Brown
+			{ 30 22 18 } { 186 112 63 } { 255 255 255 } #Light Brown
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193} #Blue 01
+			{ 141 136 54 } #Hazel 01
+			{ 120 74 46 } #Brown 02
+			{ 164 118 87 } #Brown 02
+			{ 73 44 24 } #Brown 03
+			{ 34 103 36 } #Green
+		}
+	}
+	
+	# middle age
+	portraitType = {
+		name = "PORTRAIT_greekgodgfx_female1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+			"GFX_greekgod_female_base:p2"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			
+			{ 36 35 29 } { 184 150 97 } { 255 255 255 } #Ash Blonde 01
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 } #Light Brown
+			{ 30 22 18 } { 186 112 63 } { 255 255 255 } #Light Brown
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193} #Blue 01
+			{ 141 136 54 } #Hazel 01
+			{ 120 74 46 } #Brown 02
+			{ 164 118 87 } #Brown 02
+			{ 73 44 24 } #Brown 03
+			{ 34 103 36 } #Green
+		}
+	}
+	
+	# old age
+	portraitType = {
+		name = "PORTRAIT_greekgodgfx_female2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
+			"GFX_greekgod_female_base:p2"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			
+			{ 36 35 29 } { 184 150 97 } { 255 255 255 } #Ash Blonde 01
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 } #Light Brown
+			{ 30 22 18 } { 186 112 63 } { 255 255 255 } #Light Brown
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Dark Brown
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193} #Blue 01
+			{ 141 136 54 } #Hazel 01
+			{ 120 74 46 } #Brown 02
+			{ 164 118 87 } #Brown 02
+			{ 73 44 24 } #Brown 03
+			{ 34 103 36 } #Green
+		}
+	}
+}

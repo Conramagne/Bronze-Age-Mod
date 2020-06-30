@@ -250,7 +250,7 @@ hellene = {
 	}
 
 	theogonos = {
-		graphical_cultures = { croatsouthslavicgfx }
+		graphical_cultures = { greekgodgfx }
 
 		color = { 0.8 0.2 0.8 }
 

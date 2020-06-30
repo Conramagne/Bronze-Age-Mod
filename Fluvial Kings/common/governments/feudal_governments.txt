@@ -319,9 +319,6 @@ feudal_governments = {
 			OR = {
 				culture = amazonios
 				trait = stratocrat
-				liege = {
-					government = stratocratic_government
-				}
 			}
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }

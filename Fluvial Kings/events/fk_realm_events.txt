@@ -1311,6 +1311,7 @@ character_event = {
 	immediate = {
 		primary_title = {
 			change_variable = { which = var_imperial_authority value = 2.5 }
+			change_variable = { which = var_imperial_authority value = 2.5 }
 		}
 	}
 	
@@ -1318,6 +1319,9 @@ character_event = {
 		name = opta_excellent
 		custom_tooltip = {
 			text = imperial_authority_increase_2_5_TT
+		}
+		custom_tooltip = {
+			text = militarization_increase_2_5_TT
 		}
 		prestige = 25
 	}
@@ -1527,6 +1531,7 @@ character_event = {
 	immediate = {
 		primary_title = {
 			change_variable = { which = var_imperial_authority value = -2.5 }
+			change_variable = { which = militarization_number value = -5 }
 		}
 	}
 	
@@ -1534,6 +1539,9 @@ character_event = {
 		name = opta_disappointing
 		custom_tooltip = {
 			text = imperial_authority_decrease_2_5_TT
+		}
+		custom_tooltip = {
+			text = militarization_decrease_5_TT
 		}
 		prestige = -25
 	}
@@ -2460,7 +2468,7 @@ character_event = {
 	id = fkr.205
 	hide_window = yes
 	trigger = {
-		is_feudal = yes
+		has_character_modifier = palace_bureaucracy
 		any_demesne_title = {
 			has_title_flag = palace_bureaucracy_set
 			has_title_flag = primary_set
@@ -2874,7 +2882,7 @@ character_event = {
 				has_job_title = job_chancellor
 				NOT = {
 					liege = {
-						has_character_flag = set_chancellor
+						has_character_flag = set_poor_chancellor
 					}
 				}
 				diplomacy < 6
@@ -2883,7 +2891,7 @@ character_event = {
 				has_job_title = job_marshal
 				NOT = {
 					liege = {
-						has_character_flag = set_marshal
+						has_character_flag = set_poor_marshal
 					}
 				}
 				martial < 6
@@ -2892,7 +2900,7 @@ character_event = {
 				has_job_title = job_treasurer
 				NOT = {
 					liege = {
-						has_character_flag = set_treasurer
+						has_character_flag = set_poor_treasurer
 					}
 				}
 				stewardship < 6
@@ -2901,7 +2909,7 @@ character_event = {
 				has_job_title = job_spymaster
 				NOT = {
 					liege = {
-						has_character_flag = set_spymaster
+						has_character_flag = set_poor_spymaster
 					}
 				}
 				intrigue < 6
@@ -2910,7 +2918,7 @@ character_event = {
 				has_job_title = job_spiritual
 				NOT = {
 					liege = {
-						has_character_flag = set_spiritual
+						has_character_flag = set_poor_spiritual
 					}
 				}
 				learning < 6
@@ -3240,8 +3248,9 @@ character_event = {
 		primary_title = {
 			check_variable = { which = palace_bureaucracy value > 70 }
 		}
-		NOT = {
+		NOR = {
 			has_character_modifier = high_bureaucracy
+			has_character_modifier = high_militarization
 		}
 	}
 	
@@ -3458,6 +3467,7 @@ character_event = {
 	immediate = {
 		primary_title = {
 			change_variable = { which = palace_bureaucracy_number value = 3 }
+			change_variable = { which = militarization_number value = -5 }
 		}
 	}
 	
@@ -3465,6 +3475,9 @@ character_event = {
 		name = EVTOPTAFKR236
 		custom_tooltip = {
 			name = bureau_increase_3_TT
+		}
+		custom_tooltip = {
+			name = militarization_decrease_5_TT
 		}
 	}
 }
@@ -3479,6 +3492,7 @@ character_event = {
 	immediate = {
 		primary_title = {
 			change_variable = { which = palace_bureaucracy_number value = 5 }
+			change_variable = { which = militarization_number value = -10 }
 		}
 	}
 	
@@ -3488,7 +3502,7 @@ character_event = {
 			name = bureau_increase_3_TT
 		}
 		custom_tooltip = {
-			name = globalbureau_increase_1_TT
+			name = militarization_decrease_10_TT
 		}
 		add_character_modifier = {
 			modifier = good_reforms
@@ -3540,3 +3554,828 @@ character_event = {
 		}
 	}
 }
+
+# ************************** Militarization Events***********************
+
+#Variable for Militarization (on_startup)
+character_event = {
+	id = fkr.300
+	hide_window = yes
+	is_triggered_only = yes
+	only_playable = yes
+	
+	trigger = {
+		government = stratocratic_government
+		higher_real_tier_than = BARON
+		NOT = {
+			primary_title = {
+				has_title_flag = militarization_set
+			}
+		}
+		NOT = {
+			has_character_flag = flag_god
+		}
+	}
+	
+	immediate = {
+		add_character_modifier = {
+			name = militarization
+			duration = -1
+		}
+		primary_title = {
+			set_title_flag = militarization_set
+			set_title_flag = militarization_primary_set
+		}
+		primary_title = {
+			set_variable = { which = militarization_number value = 50 }
+		}
+	}
+}
+
+#Variable for Militarization (MTTH)
+character_event = {
+	id = fkr.301
+	desc = EVTDESCFKR301
+	picture = GFX_evt_council
+	
+	only_playable = yes
+	
+	trigger = {
+		government = stratocratic_government
+		higher_real_tier_than = BARON
+		NOT = {
+			primary_title = {
+				has_title_flag = militarization_set
+			}
+		}
+		NOT = {
+			any_demesne_title = {
+				has_title_flag = militarization_set
+			}
+		}
+		NOT = {
+			has_character_flag = flag_god
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			set_title_flag = militarization_set
+			set_title_flag = militarization_primary_set
+		}
+		liege = {
+			primary_title = {
+				set_variable = { which = global_transfer_militarization_number which = militarization_number }
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+		add_character_modifier = {
+			name = militarization
+			duration = -1
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					independent = no
+				}
+				primary_title = {
+					set_variable = { which = militarization_number which = global_transfer_militarization_number }
+				}
+			}
+			else = {
+				primary_title = {
+					set_variable = { which = militarization_number value = 50 }
+				}
+			}
+		}
+	}
+}
+
+#Gives Militarization to heirs/Removes it from non-feudal (on_new_holder)
+character_event = {
+	id = fkr.302
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		NOT = {
+			has_character_modifier = militarization
+		}
+		any_demesne_title = {
+			has_title_flag = militarization_set
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				government = stratocratic_government
+				higher_real_tier_than = BARON
+			}
+			add_trait = stratocrat
+			add_character_modifier = {
+				name = militarization
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				is_feudal = no
+			}
+			any_demesne_title = {
+				clr_title_flag = militarization_set
+				clr_title_flag = militarization_primary_set
+			} 
+			remove_character_modifier = militarization
+			remove_character_modifier = low_militarization
+			remove_character_modifier = high_militarization
+			remove_character_modifier = poor_militarization_reforms
+			remove_character_modifier = good_militarization_reforms
+		}
+	}
+}
+
+#Removes Militarization from non-feudal (MTTH)
+character_event = {
+	id = fkr.303
+	hide_window = yes
+	trigger = {
+		NOT = {
+			government = stratocratic_government
+		}
+		any_demesne_title = {
+			has_title_flag = militarization_set
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		any_demesne_title = {
+			clr_title_flag = militarization_set
+			clr_title_flag = militarization_primary_set
+		} 
+		remove_character_modifier = militarization
+		remove_character_modifier = low_militarization
+		remove_character_modifier = high_militarization
+		remove_character_modifier = poor_militarization_reforms
+		remove_character_modifier = good_militarization_reforms
+	}
+}
+
+#Primary Title Switch (MTTH)
+character_event = {
+	id = fkr.304
+	hide_window = yes
+	trigger = {
+		is_feudal = yes
+		has_character_modifier = militarization
+		any_demesne_title = {
+			has_title_flag = militarization_set
+			has_title_flag = militarization_primary_set
+		}
+		NOT = {
+			primary_title = {
+				has_title_flag = militarization_primary_set
+			}
+		}	
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_demesne_title = {
+			limit = {
+				has_title_flag = militarization_primary_set
+			}
+			set_variable = { which = global_selfmilitarization_number which = militarization_number }
+			clr_title_flag = militarization_set
+			clr_title_flag = militarization_primary_set
+		}
+		primary_title = {
+			set_variable = { which = militarization_number which = global_selfmilitarization_number }
+			set_title_flag = militarization_set
+			set_title_flag = militarization_primary_set
+		}
+	}
+}
+
+#Militarization Rise: Good Rulers
+character_event = {
+	id = fkr.305
+	desc = EVTDESCFKR305
+	picture = GFX_evt_ruler_speaks
+	only_playable = yes
+	min_age = 16
+	
+	trigger = {
+		has_character_modifier = militarization
+		OR = {
+			trait = skilled_tactician
+			trait = brilliant_strategist
+			trait = strategist
+			combat_rating > 50
+			trait = strong
+			trait = robust
+			leader_traits = 1	
+			martial > 15
+		}
+		NOT = {
+			has_character_flag = quality_military_ruler
+		}
+		NOT = {
+			trait = craven
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = militarization_number value = 3 }
+		}
+	}
+	
+	option = {
+		name = opta_excellent
+		set_character_flag = quality_military_ruler
+		custom_tooltip = {
+			text = militarization_increase_3_TT
+		}
+		prestige = 50
+		if = {
+			limit = {
+				independent = no
+				liege = {
+					is_feudal = yes
+					has_character_modifier = militarization
+				}
+			}
+			liege = {
+				character_event = { id = fkr.306 }
+			}
+		}
+	}
+}
+
+#Liege Notification
+character_event = {
+	id = fkr.306
+	desc = EVTDESCFKR306
+	picture = GFX_evt_ruler_speaks
+	notification = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = militarization_number value = 2 }
+		}
+	}
+	
+	option = {
+		name = opta_excellent
+		custom_tooltip = {
+			text = militarization_increase_2_TT
+		}
+		opinion = {
+			modifier = opinion_very_model_of_a_modern_major_general
+			who = FROM
+		}
+		prestige = 25
+	}
+}
+
+#Set up for quality Marshal
+character_event = {
+	id = fkr.307
+	hide_window = yes
+	
+	has_job_title = yes
+	
+	trigger = {
+		liege = {
+			is_feudal = yes
+			has_character_modifier = militarization
+		}
+		AND = {
+			has_job_title = job_marshal
+			NOT = {
+				liege = {
+					has_character_flag = militarization_set_marshal
+				}
+			}
+			OR = {
+				trait = skilled_tactician
+				trait = brilliant_strategist
+				trait = strategist
+				combat_rating > 50
+				trait = strong
+				trait = robust
+				leader_traits = 1	
+				martial > 14
+			}
+		}
+		NOT = {
+			has_character_flag = militarization_councillor_set
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = militarization_councillor_set
+		liege = {
+			character_event = { id = fkr.308 }
+		}
+	}
+}
+
+#Militarization Rise: Quality Marshal
+character_event = {
+	id = fkr.308
+	desc = EVTDESCFKR308
+	picture = GFX_evt_council
+	is_triggered_only = yes
+
+	immediate = {
+		primary_title = {
+			change_variable = { which = militarization_number value = 5 }
+		}
+	}
+	
+	option = {
+		name = opta_excellent
+		custom_tooltip = {
+			text = militarization_increase_5_TT
+		}
+		set_character_flag = militarization_set_marshal
+		opinion = {
+			modifier = opinion_very_model_of_a_modern_major_general
+			who = FROM
+		}
+		prestige = 25
+	}
+}
+
+#Set up for quality Commander
+character_event = {
+	id = fkr.309
+	hide_window = yes
+	
+	has_job_title = yes
+	
+	trigger = {
+		liege = {
+			is_feudal = yes
+			has_character_modifier = militarization
+		}
+		AND = {
+			has_minor_title = title_commander
+			OR = {
+				trait = skilled_tactician
+				trait = brilliant_strategist
+				trait = strategist
+				combat_rating > 50
+				trait = strong
+				trait = robust
+				leader_traits = 1	
+				martial > 14
+			}
+		}
+		NOT = {
+			has_character_flag = militarization_commander_set
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = militarization_commander_set
+		liege = {
+			character_event = { id = fkr.310 }
+		}
+	}
+}
+
+#Militarization Rise: Quality Commander
+character_event = {
+	id = fkr.310
+	desc = EVTDESCFKR310
+	picture = GFX_evt_council
+	is_triggered_only = yes
+
+	immediate = {
+		primary_title = {
+			change_variable = { which = militarization_number value = 2 }
+		}
+	}
+	
+	option = {
+		name = opta_excellent
+		custom_tooltip = {
+			text = militarization_increase_2_TT
+		}
+		opinion = {
+			modifier = opinion_very_model_of_a_modern_major_general
+			who = FROM
+		}
+		prestige = 10
+	}
+}
+
+#Militarization Fall: Poor Rulers
+character_event = {
+	id = fkr.311
+	desc = EVTDESCFKR311
+	picture = GFX_evt_ruler_speaks
+	only_playable = yes
+	min_age = 16
+	
+	trigger = {
+		has_character_modifier = militarization
+		OR = {
+			trait = misguided_warrior
+			combat_rating < 0
+			trait = weak
+			trait = feeble
+			trait = craven
+			martial < 6
+		}
+		NOT = {
+			has_character_flag = poor_military_ruler
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = militarization_number value = -10 }
+		}
+	}
+	
+	option = {
+		name = opta_disappointing
+		set_character_flag = poor_military_ruler
+		custom_tooltip = {
+			text = militarization_decrease_10_TT
+		}
+		prestige = -50
+		if = {
+			limit = {
+				independent = no
+				liege = {
+					is_feudal = yes
+					has_character_modifier = militarization
+				}
+			}
+			liege = {
+				character_event = { id = fkr.311 }
+			}
+		}
+	}
+}
+
+#Liege Notification
+character_event = {
+	id = fkr.312
+	desc = EVTDESCFKR312
+	picture = GFX_evt_ruler_speaks
+	notification = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		primary_title = {
+			change_variable = { which = militarization_number value = -5 }
+		}
+	}
+	
+	option = {
+		name = opta_excellent
+		custom_tooltip = {
+			text = militarization_decrease_5_TT
+		}
+		opinion = {
+			modifier = opinion_poor_military_ruler
+			who = FROM
+		}
+		prestige = 25
+	}
+}
+
+#Set up for poor Marshal
+character_event = {
+	id = fkr.313
+	hide_window = yes
+	
+	has_job_title = yes
+	
+	trigger = {
+		liege = {
+			is_feudal = yes
+			has_character_modifier = militarization
+		}
+		AND = {
+			has_job_title = job_marshal
+			NOT = {
+				liege = {
+					has_character_flag = militarization_set_poor_marshal
+				}
+			}
+			OR = {
+				trait = misguided_warrior
+				combat_rating < 0
+				trait = weak
+				trait = feeble
+				martial < 5
+			}
+		}
+		NOT = {
+			has_character_flag = militarization_poor_councillor_set
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = militarization_poor_councillor_set
+		liege = {
+			character_event = { id = fkr.314 }
+		}
+	}
+}
+
+#Militarization Fall: Poor Marshal
+character_event = {
+	id = fkr.314
+	desc = EVTDESCFKR314
+	picture = GFX_evt_council
+	is_triggered_only = yes
+
+	immediate = {
+		primary_title = {
+			change_variable = { which = militarization_number value = -5 }
+		}
+	}
+	
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			text = militarization_decrease_5_TT
+		}
+		opinion = {
+			modifier = opinion_poor_military_ruler
+			who = FROM
+		}
+		prestige = 25
+	}
+}
+
+#Set up for poor Commander
+character_event = {
+	id = fkr.315
+	hide_window = yes
+	
+	has_job_title = yes
+	
+	trigger = {
+		liege = {
+			is_feudal = yes
+			has_character_modifier = militarization
+		}
+		AND = {
+			has_minor_title = title_commander
+			OR = {
+				trait = misguided_warrior
+				combat_rating < 0
+				trait = weak
+				trait = feeble
+				martial < 6
+			}
+		}
+		NOT = {
+			has_character_flag = militarization_commander_set
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = militarization_commander_set
+		liege = {
+			character_event = { id = fkr.316 }
+		}
+	}
+}
+
+#Militarization Fall: Poor Commander
+character_event = {
+	id = fkr.316
+	desc = EVTDESCFKR316
+	picture = GFX_evt_council
+	is_triggered_only = yes
+
+	immediate = {
+		primary_title = {
+			change_variable = { which = militarization_number value = -5 }
+		}
+	}
+	
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			text = militarization_decrease_5_TT
+		}
+		opinion = {
+			modifier = opinion_poor_military_ruler
+			who = FROM
+		}
+		prestige = 10
+	}
+}
+
+#Decrease to Low Militarization
+character_event = {
+	id = fkr.317
+	desc = EVTDESCFKR317
+	picture = GFX_evt_dark_court
+	trigger = {
+		has_character_modifier = militarization
+		primary_title = {
+			check_variable = { which = militarization_number value < 40 }
+		}
+		NOT = {
+			has_character_modifier = low_militarization
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAFKR230
+		add_character_modifier = {
+			modifier = low_militarization
+			duration = -1
+		}
+	}	
+}
+
+#Decrease to Average Militarization
+character_event = {
+	id = fkr.318
+	desc = EVTDESCFKR318
+	picture = GFX_evt_dark_court
+	trigger = {
+		has_character_modifier = militarization
+		primary_title = {
+			check_variable = { which = militarization_number value < 70 }
+		}
+		has_character_modifier = high_militarization
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAFKR231
+		remove_character_modifier = high_militarization
+	}	
+}
+
+#Increase to Average Militarization
+character_event = {
+	id = fkr.319
+	desc = EVTDESCFKR319
+	picture = GFX_evt_council
+	trigger = {
+		is_feudal = yes
+		has_character_modifier = militarization
+		primary_title = {
+			AND = {
+				check_variable = { which = militarization_number value > 40 }
+				check_variable = { which = militarization_number value < 70 }
+			}
+		}
+		has_character_modifier = low_militarization
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = opta_excellent
+		remove_character_modifier = low_militarization
+	}	
+}
+
+#Increase to High Militarization
+character_event = {
+	id = fkr.320
+	desc = EVTDESCFKR320
+	picture = GFX_evt_council
+	trigger = {
+		is_feudal = yes
+		has_character_modifier = militarization
+		primary_title = {
+			check_variable = { which = militarization_number value > 70 }
+		}
+		NOT = {
+			has_character_modifier = high_militarization
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAFKR233
+		add_character_modifier = {
+			modifier = high_militarization
+			duration = -1
+		}
+		if = {
+			limit = {
+				has_character_modifier = high_bureaucracy
+			}
+			remove_character_modifier = high_bureaucracy
+			custom_tooltip = {
+				text = palace_bureaucracy_bureaucracy_falls_to_average_TT
+				hidden_tooltip = {
+					set_variable = { which = palace_bureaucracy value = 50 }
+				}
+			}
+		}
+	}	
+}
+
+
+#Maintenance
+character_event = {
+	id = fkr.350
+	hide_window = yes
+	trigger = {
+		has_character_modifier = militarization
+		primary_title = {
+			check_variable = { which = militarization_number value >= 100 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			set_variable = { which = militarization_number value = 100 }
+		}
+	}
+}
+
+#Maintenance
+character_event = {
+	id = fkr.351
+	hide_window = yes
+	trigger = {
+		has_character_modifier = militarization
+		primary_title = {
+			check_variable = { which = militarization_number value < 0 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			set_variable = { which = militarization_number value = 0 }
+		}
+	}
+}
+

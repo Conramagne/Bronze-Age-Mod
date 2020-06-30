@@ -1,5 +1,13 @@
 # Skin tones are 0 (light), 1 (tan), 2 (dark) and 3 (black)
 
+# Bronzemod
+anatoliangfx = {
+	skin_tone = 1
+}
+greekgodgfx = {
+	skin_tone = 1
+}
+
 # Western
 
 frankishgfx = {
@@ -81,9 +89,6 @@ croatsouthslavicgfx = {
 	skin_tone = 1
 }
 serbsouthslavicgfx = {
-	skin_tone = 1
-}
-anatoliangfx = {
 	skin_tone = 1
 }
 ugricgfx = {

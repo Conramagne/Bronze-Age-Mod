@@ -191,14 +191,14 @@ HEAD_SALLISANKUNI;Sallisankuni;;;;;;;;;;;;;x
 
 ###########Character/Province Modifiers###########
 imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]%);;;;;;;;;;;;;x
-imperial_authority_desc;The authority of the sovereign is determined by how much control over their realm they have. As it ebbs and flows, so does their power.\nImperial authority can be §Bincreased§! by:\n§Y*§! Having high attributes or skills\n§Y*§! Having loyal councilors\n§Y*§! Having a Weak Council\n§Y*§! Winning wars and major battles\nImperial authority can be §Rdecreased§! by:\n§Y*§! Having low attributes or skills\n§Y*§! Succession\n§Y*§! Long regencies\n§Y*§! Having disloyal councilors\n§Y*§! Having a Strong Council\n§Y*§! Losing wars and major battles;;;;;;;;;;;;;x
+imperial_authority_desc;The authority of the sovereign is determined by how much control over their realm they have. As it ebbs and flows, so does their power.\nImperial authority can be §Gincreased§! by:\n§Y*§! Having high attributes or skills\n§Y*§! Having loyal councilors\n§Y*§! Having a Weak Council\n§Y*§! Winning wars and major battles\nImperial authority can be §Rdecreased§! by:\n§Y*§! Having low attributes or skills\n§Y*§! Succession\n§Y*§! Long regencies\n§Y*§! Having disloyal councilors\n§Y*§! Having a Strong Council\n§Y*§! Losing wars and major battles;;;;;;;;;;;;;x
 imperial_authority_decrease_5_TT;§YImperial Authority§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
 imperial_authority_decrease_7_TT;§YImperial Authority§! will §Rdecrease§! by 7%;;;;;;;;;;;;;x
 imperial_authority_decrease_2_5_TT;§YImperial Authority§! will §Rdecrease§! by 2.5%;;;;;;;;;;;;;x
-imperial_authority_increase_5_TT;§YImperial Authority§! will §Bincrease§! by 5%;;;;;;;;;;;;;x
-imperial_authority_increase_2_TT;§YImperial Authority§! will §Bincrease§! by 2%;;;;;;;;;;;;;x
-imperial_authority_increase_2_5_TT;§YImperial Authority§! will §Bincrease§! by 2.5%;;;;;;;;;;;;;x
-imperial_authority_decrease_10_TT;§YImperial Authority§! will §Bincrease§! by 10%;;;;;;;;;;;;;x
+imperial_authority_increase_5_TT;§YImperial Authority§! will §Gincrease§! by 5%;;;;;;;;;;;;;x
+imperial_authority_increase_2_TT;§YImperial Authority§! will §Gincrease§! by 2%;;;;;;;;;;;;;x
+imperial_authority_increase_2_5_TT;§YImperial Authority§! will §Gincrease§! by 2.5%;;;;;;;;;;;;;x
+imperial_authority_decrease_10_TT;§YImperial Authority§! will §Gincrease§! by 10%;;;;;;;;;;;;;x
 opinion_rumors_10;Rumors;;;;;;;;;;;;;x
 opinion_rumors_25;Rumors;;;;;;;;;;;;;x
 opinion_rectified_grievance;Grievances Rectified;;;;;;;;;;;;;x
@@ -310,9 +310,9 @@ opinion_small_sacrifice_fail;Small Sacrifce Failure;;;;;;;;;;;;;x
 opinion_medium_sacrifice_fail;Medium Sacrifce Failure;;;;;;;;;;;;;x
 opinion_large_sacrifice_fail;Large Sacrifce Failure;;;;;;;;;;;;;x
 
-#Palace Bureaucracy Stuff#
+#Palace Bureaucracy
 palace_bureaucracy;Palace Bureaucratic Efficiency ([From.PrimaryTitle.palace_bureaucracy_number.GetValue]%);;;;;;;;;;;;;x
-palace_bureaucracy_desc;The bureaucracy of a realm is determined by how much bureaucratic norms are prevalent in said realm. As it changes, the norms of the realm change with it.\nPalace bureaucracy can be §Bincreased§! by:\n§Y*§! Having qualified lords\n§Y*§! Having a powerful or qualified council\n§Y*§! Bureaucratic reforms\nRealm bureaucracy can be §Rdecreased§! by:\n§Y*§! Having unqualified lords\n§Y*§! Having a weak or unqualified council\n§Y*§! Succession\n§Y*§! Nepotism;;;;;;;;;;;;;x
+palace_bureaucracy_desc;The bureaucracy of a realm is determined by how much bureaucratic norms are prevalent in said realm. As it changes, the norms of the realm change with it.\nPalace bureaucracy can be §Gincreased§! by:\n§Y*§! Having qualified lords\n§Y*§! Having a powerful or qualified council\n§Y*§! Bureaucratic reforms\nPalace bureaucracy can be §Rdecreased§! by:\n§Y*§! Having unqualified lords\n§Y*§! Having a weak or unqualified council\n§Y*§! Succession\n§Y*§! Nepotism;;;;;;;;;;;;;x
 
 #Palace Bureaucracy Decision Modifiers
 sold_bureaucratic_positions;Sold Bureaucratic Positions;;;;;;;;;;;;;x
@@ -342,11 +342,11 @@ good_reforms_desc;The reform attempts of this character have been a success.;;;;
 
 #Palace Bureaucracy Modifiers
 
-bureau_increase_1_TT;§YPalace Bureaucratic Efficiency§! will §Bincrease§! by 1%;;;;;;;;;;;;;x
-bureau_increase_105_TT;§YPalace Bureaucratic Efficiency§! will §Bincrease§! by 1.5%;;;;;;;;;;;;;x
-bureau_increase_2_TT;§YPalace Bureaucratic Efficiency§! will §Bincrease§! by 2%;;;;;;;;;;;;;x
-bureau_increase_3_TT;§YPalace Bureaucratic Efficiency§! will §Bincrease§! by 3%;;;;;;;;;;;;;x
-bureau_increase_4_TT;§YPalace Bureaucratic Efficiency§! will §Bincrease§! by 4%;;;;;;;;;;;;;x
+bureau_increase_1_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 1%;;;;;;;;;;;;;x
+bureau_increase_105_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 1.5%;;;;;;;;;;;;;x
+bureau_increase_2_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 2%;;;;;;;;;;;;;x
+bureau_increase_3_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 3%;;;;;;;;;;;;;x
+bureau_increase_4_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 4%;;;;;;;;;;;;;x
 
 bureau_decrease_025_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 0.25%;;;;;;;;;;;;;x
 bureau_decrease_05_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 0.5%;;;;;;;;;;;;;x
@@ -361,6 +361,11 @@ bureau_decrease_10_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 10
 model_bureaucrat;Model Bureaucrat;;;;;;;;;;;;;x
 bad_bureaucrat;Poor Bureaucrat;;;;;;;;;;;;;x
 opinion_overstepped_boundary;Overstepped Boundaries;;;;;;;;;;;;;x
+
+#Militarization
+militarization;Militarization ([From.PrimaryTitle.militarization_number.GetValue]%);;;;;;;;;;;;;x
+militarization_desc;Militarization measures how military-oriented a realm is. As it ebbs and flows, the efficiency and size of your military will move with it. Additionally, being a militarized state harms palace bureaucracy, so it is wise to balance both bureaucratic norms and militarization.\nMilitarization can be §Gincreased§! by:\n§Y*§! Having strong lords\n§Y*§! Having qualified marshals and commanders\n§Y*§! Winning major battles\nMilitarization can be §Rdecreased§! by:\n§Y*§! Having weal lords\n§Y*§! Having weak marshals and commanders\n§Y*§! Bureaucratic Reforms\n§Y*§! Losing major battles;;;;;;;;;;;;;x
+
 
 ###########Trait Localization###########
 

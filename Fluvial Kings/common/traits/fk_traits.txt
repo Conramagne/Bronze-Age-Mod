@@ -388,3 +388,130 @@ trait_god = {
 	customizer = no
 	in_hiding = yes
 }
+
+#God Portrait Traits
+hestia = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+here = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+persephone = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+artemis = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+hebe = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+poseidaon = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+haphaistos = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+dionusos = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+hades = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+herakles = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+atlas = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+oceanos = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+prometheus = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+neilos = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+helios = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+castor = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+pollux = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+cronos = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+rhea = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+tethys = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+themis = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+mnemosyne = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+leto = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+pandora = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+arethousa = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
