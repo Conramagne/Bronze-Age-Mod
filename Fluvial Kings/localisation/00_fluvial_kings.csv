@@ -162,6 +162,10 @@ GOD_ZEUS;Zeus;;;;;;;;;;;;;x
 KOHEN;Kohen;;;;;;;;;;;;;x
 SANKUNNI;Sankunni;;;;;;;;;;;;;x
 
+###########Fluvial King Casus Belli###########
+CB_NAME_HELLENIC_BIRTHRIGHT;Claim your birthright!;;;;;;;;;;;;;x
+WAR_NAME_HELLENIC_BIRTHRIGHT;Birthright;;;;;;;;;;;;;x
+
 ###########Bloodline Localization###########
 god_zeus_bloodline; The Blood of Zeus;;;;;;;;;;;;;x
 god_zeus_bloodline_desc;Zeus, Great Father of the Olympians, overthrew his father Cronos with his siblings to start the age of the Olympians. Zeus in his glory has slept with many across [e_greek_empire.GetName].;;;;;;;;;;;;;x
@@ -285,6 +289,12 @@ opinion_poor_military_ruler_EXPLANATION; (Opinion of Incompetent General);;;;;;;
 #misc
 strategist_opinion;Strategist Character Opinion;;;;;;;;;;;;;x
 opinion_of_strategist_EXPLANATION; (opinion on Strategist);;;;;;;;;;;;;x
+
+#Religious Wars
+won_hellenic_invasion;Won [hellenic.GetName] Invasion!;;;;;;;;;;;;;x
+won_hellenic_invasion_EXPLANATION; (Won [hellenic.GetName] Invasion);;;;;;;;;;;;;x
+lost_hellenic_invasion;Lost [hellenic.GetName] Invasion!;;;;;;;;;;;;;x
+lost_hellenic_invasion_EXPLANATION; (Lost [hellenic.GetName] Invasion);;;;;;;;;;;;;x
 
 figurehead_emperor;Figurehead Monarch;;;;;;;;;;;;;x
 figurehead_emperor_desc;You Wield no real power.;;;;;;;;;;;;;x

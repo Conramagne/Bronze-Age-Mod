@@ -835,6 +835,7 @@ character_event = {
 	id = fkp.402
 	desc = EVTDESCAFKP402 #You accept the god's advances
 	desc = EVTDESCBFKP402 #You deny and get raped
+	picture = GFX_evt_pursued_by_the_gods
 	is_triggered_only = yes
 	
 	immediate = {
@@ -873,6 +874,7 @@ character_event = {
 #Woman gets pursued
 character_event = {
 	id = fkp.403
+	picture = GFX_evt_pursued_by_the_gods_husband
 	
 	immediate = {
 		if = {
@@ -922,6 +924,7 @@ character_event = {
 	id = fkp.404
 	desc = EVTDESCAFKP404 #You accept the god's advances
 	desc = EVTDESCBFKP404 #You deny and you get raped
+	picture = GFX_evt_pursued_by_the_gods
 	is_triggered_only = yes
 	
 	immediate = {
@@ -1025,6 +1028,7 @@ character_event = {
 character_event = {
 	id = fkp.406
 	desc = EVTDESCFKP406
+	picture = GFX_evt_demi_god_child
 	is_triggered_only = yes
 	
 	trigger = {
@@ -1240,6 +1244,7 @@ character_event = {
 	id = fkp.409
 	title = EVTTITLEFKP409
 	desc = EVTDESCFKP409
+	picture = GFX_evt_demi_god_child
 	is_triggered_only = yes
 
 

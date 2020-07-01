@@ -269,3 +269,33 @@ EVTDESCFKR319;Whether do to the greak work of your generals or your martials rou
 EVTOPTAFKR232;There is still much to do...;;;;;;;;;;;;;x
 EVTDESCFKR320;Your Military is not to be trifled with! Your army swell in both spirit and bodies as their glory is well regarded across the known warrior in both admiration and fear by your friend and foe alike. Your military advisors have not squandered the resources of your realm investing it to improve the lives of your subjects under your glorious name! To Arms!;;;;;;;;;;;;;x
 EVTOPTAFKR233;As it should be!;;;;;;;;;;;;;x
+
+###########Divine Birthright Events###########
+hellenic_birthright;Divine Birthright;;;;;;;;;;;;;x
+hellenic_birthright_desc;You are an offspring of a god and mortal and by your divine benefactor you have certain rights...;;;;;;;;;;;;;x
+
+##Woman gets pursued
+EVTDESCAFKP402;You stand before the divine, their eyes locked to yours. You are awed by their splendor, their radiance nearly blinding you as you approach [From.GetName]. Their voice rings out before you like drawing you closer in a brilliant embrace. You accept them, and they accept you...;;;;;;;;;;;;;x
+EVTDESCBFKP402;You hurringly rushed to escape the grasp of [From.GetName], but it is in vain. The divine stands triumphant, your eyes looked to theirs, you quiver as the divine forces themselves upon you. You Gasp...;;;;;;;;;;;;;x
+EVTOPTAFKP402;...By God!;;;;;;;;;;;;;x
+
+EVTDESCAFKP403;You wondered the halls of the palace wondering why your husband summoned you to the garden. You see him in the center of the garden, your eyes locked to each other. Something about the scene speaks of a divine spark. But your gorgeous husband stands before you beaconing you towards him. He softly whispers "...Fairest [Root.GetFullName] may you gleam like the stars. You are wonderful... and I would like you to embrace me." His hand outstreched as to meet you.;;;;;;;;;;;;;x
+EVTDESCBFKP403;Flattered you took your husband arms, but as you do you began to wonder, was this really your husband? You stare up and instead of your husband it was [From.GetName] embracing you with all of their divine glory.;;;;;;;;;;;;;x
+EVTDESCCFKP403;You politely denied as you wish to retire for the day, suddenly your husband came forth at a speed unexpected, he stood before you eyes locked in lust, you suddently realized for whom stood before you, [From.GetName], dropping his illusions and lunges, you gasp as the world becomes a blur of light and darkness.;;;;;;;;;;;;;x
+EVTOPTAFKP403;I was a fooled, by God!;;;;;;;;;;;;;x
+
+EVTDESCAFKP404;After a long pursuit you stand before the divine, their eyes locked to yours. You are awed by their splendor, their radiance nearly blinding you as you approach [From.GetName]. Their voice rings out before you like drawing you closer in a brilliant embrace. You accept them, and they accept you...;;;;;;;;;;;;;x
+EVTDESCBFKP404;You hurringly rushed to escape the grasp of [From.GetName], but it is in vain running short of breath and with no escape, you whimper. The divine stands triumphant, your eyes looked to theirs, you quiver as the divine forces themselves upon you. You Gasp...;;;;;;;;;;;;;x
+EVTOPTAFKP404;...By God!;;;;;;;;;;;;;x
+
+##Divine Child
+EVTDESCFKP405;Sometime after your encounter with the divine, you are now ready to bear this divines child. You took great percaution to ensure that this baby would come to this world unscathed for he carries the bloods of the divine! You hold your breath as you welcome this child to this world.;;;;;;;;;;;;;x
+
+EVTDESCFKP406;Due to the nature of this child's parentage, they have grown to become a powerful demi-god whose divine blood outcompetes in the best mortals around them. Of perfect health and of a taller stature than his closest peer, you watch as the years roll by. They stand before you a splitting image of their divine parent, you weep. They are now an adult and will make a name for themselves and their birthright. You beacon them forward on their destiny ahead...;;;;;;;;;;;;;x
+EVTOPTAFKP406;Onwards Child!;;;;;;;;;;;;;x
+
+#Announce Divine Child
+EVTTITLEFKP409;A Demi-God rises!;;;;;;;;;;;;;x
+EVTDESCFKP409;Born from a Marriage of a Divine to a mortal woman, a prodigous spawn of divinity now walks the world, [From.TrueFather] presence emunates from this young man as he embarks on his birthright as a divine and a mortal!;;;;;;;;;;;;;x
+EVTOPTAFKP409;Wonders walk amongst us!;;;;;;;;;;;;;x
+EVTOPTBFKP409;I know this person!;;;;;;;;;;;;;x

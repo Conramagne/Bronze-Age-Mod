@@ -1246,6 +1246,21 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\GFX_evt_visit_the_temple_pantheon.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_evt_pursued_by_the_gods"
+		texturefile = "gfx\\event_pictures\\GFX_evt_pursued_by_the_gods.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_pursued_by_the_gods_husband"
+		texturefile = "gfx\\event_pictures\\GFX_evt_pursued_by_the_gods_husband.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_demi_god_child"
+		texturefile = "gfx\\event_pictures\\GFX_evt_demi_god_child.dds"
+	}
+	
 	### government icons
 	spriteType = {
 		name = "GFX_icon_feudal_government"
