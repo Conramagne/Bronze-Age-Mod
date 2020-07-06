@@ -1,0 +1,7 @@
+song = {
+	name = "crusaderkings2_maintitle.ogg"
+	song_name = "House on Sand"
+	chance = {
+		factor = 1	
+	}
+}
