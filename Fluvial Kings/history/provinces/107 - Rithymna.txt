@@ -1,0 +1,8 @@
+title=c_rithymna
+
+max_settlements= 1
+b_rithymna=castle
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

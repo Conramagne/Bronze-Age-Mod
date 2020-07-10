@@ -396,6 +396,101 @@ e_greek_empire = {
 			}
 		}
 	}
+	k_minoa = {
+		color = { 237 98 54 }
+		color2 = { 255 255 255 }
+		
+		capital = 106 # Knossos
+		
+		achaean = "Krete"
+		
+		#culture = manden
+		
+		d_knossos = { 
+			color = { 237 98 54 }
+			color2 = { 255 255 255 }
+	
+			capital = 106 # Knossos
+			
+			c_knossos = {
+				color = { 237 98 54 }
+				color2 = { 255 255 255 }
+				
+				b_knossos = {}
+			}
+			c_rithymna = {
+				color={ 229 69 18 }
+				color2={ 255 255 255 }
+				
+				b_rithymna = {}
+			}
+			
+			c_phaistos = {
+				color={ 163 55 21 }
+				color2={ 255 255 255 }
+				
+				b_phaistos = {}
+			}
+		}
+		d_kydonia = { 
+			color = { 181 103 39 }
+			color2 = { 255 255 255 }
+	
+			capital = 109 # Kydonia
+			
+			c_kydonia = {
+				color = { 181 103 39 }
+				color2 = { 255 255 255 }
+				
+				b_kydonia = {}
+			}
+			c_kysomos = {
+				color={ 135 81 37 }
+				color2={ 255 255 255 }
+				
+				b_kysomos = {}
+			}
+			
+			c_aptarra = {
+				color={ 159 104 59 }
+				color2={ 255 255 255 }
+				
+				b_aptarra = {}
+			}
+		}
+		d_kydonia = { 
+			color = { 255 195 87 }
+			color2 = { 255 255 255 }
+	
+			capital = 112 # Malia
+			
+			c_malia = {
+				color = { 255 195 87 }
+				color2 = { 255 255 255 }
+				
+				b_malia = {}
+			}
+			c_rhytion = {
+				color={ 201 163 96 }
+				color2={ 255 255 255 }
+				
+				b_rhytion = {}
+			}
+			
+			c_hierapytna = {
+				color={ 225 209 39 }
+				color2={ 255 255 255 }
+				
+				b_hierapytna = {}
+			}
+			c_itanos = {
+				color={ 140 171 62 }
+				color2={ 255 255 255 }
+				
+				b_itanos = {}
+			}
+		}
+	}
 }
 
 #Titular Titles

@@ -1,0 +1,8 @@
+title=c_rhytion
+
+max_settlements= 1
+b_rhytion=castle
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains
