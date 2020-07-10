@@ -570,15 +570,20 @@ character_event = {
 		trigger = {
 			NOT = {
 				has_character_flag = flag_god
-			} NOT = { religion_group = muslim } }
+			} 
+			NOT = { religion_group = muslim } 
+		}
 	}
-	desc = {
-		text = EVTDESC6030_MUS
-		trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			} religion_group = muslim }
-	}
+	# desc = {
+		# text = EVTDESC6030_MUS
+		# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# } 
+			# religion_group = muslim 
+			
+		# }
+	# }
 	
 	min_age = 10
 	only_capable = yes
@@ -615,17 +620,19 @@ character_event = {
 		trigger = {
 			NOT = {
 				has_character_flag = flag_god
-			} NOT = { religion_group = muslim } }
+			} 
+			# NOT = { religion_group = muslim } 
+		}
 		add_trait = possessed
 	}
-	option = {
-		name = EVTOPTA6030_MUS
-		trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			} religion_group = muslim }
-		add_trait = possessed
-	}
+	# option = {
+		# name = EVTOPTA6030_MUS
+		# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# } religion_group = muslim }
+		# add_trait = possessed
+	# }
 }
 
 ### Remove Possessed ###
@@ -635,28 +642,32 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	is_triggered_only = yes
 	
-	desc = {
-		text = EVTDESC6031
-		trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			} religion_group = christian }
-	}
-	desc = {
-		text = EVTDESC6031_MUS
-		trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			} religion_group = muslim }
-	}
+	# desc = {
+		# text = EVTDESC6031
+		# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# } 
+			# religion_group = christian 
+		# }
+	# }
+	# desc = {
+		# text = EVTDESC6031_MUS
+		# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+			# religion_group = muslim 
+		# }
+	# }
 	desc = {
 		text = EVTDESC6031_ALL
 		trigger = {
 			NOT = {
 				has_character_flag = flag_god
 			}
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = christian }
+			# NOT = { religion_group = muslim }
+			# NOT = { religion_group = christian }
 		}
 	}
 	
@@ -695,21 +706,23 @@ character_event = {
 		clr_character_flag = child_exorcism
 	}
 	
-	option = {
-		name = EVTOPTA6031
-		trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			} religion_group = christian }
-		remove_trait = possessed
-	}
+	# option = {
+		# name = EVTOPTA6031
+		# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# } religion_group = christian }
+		# remove_trait = possessed
+	# }
 	
 	option = {
 		name = EVTOPTA6031_ALL
 		trigger = {
 			NOT = {
 				has_character_flag = flag_god
-			} NOT = { religion_group = christian } }
+			} 
+			# NOT = { religion_group = christian } 
+		}
 		remove_trait = possessed
 	}
 }
@@ -726,9 +739,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
+		NOT = {
+			has_character_flag = flag_god
+		}
 		OR = {
 			is_ruler = yes
 			is_councillor = yes
@@ -2062,1559 +2075,1559 @@ character_event = {
 	}
 }
 
-#I hear the voice of Jesus
-character_event = {
-	id = 6200
-	desc = EVTDESC6200
-	picture = GFX_evt_whispers
-	border = GFX_event_normal_frame_religion
+# I hear the voice of Jesus
+# character_event = {
+	# id = 6200
+	# desc = EVTDESC6200
+	# picture = GFX_evt_whispers
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		is_devil_worshiper_trigger = no
-		NOT = {
-			has_game_rule = {
-				name = supernatural_events
-				value = off
-			}
-		}
-		trait = possessed
-		NOT = { has_character_modifier = voice_of_jesus }
-		NOT = { has_character_modifier = voice_of_satan }
-		NOT = { has_character_modifier = holy_comet }
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# is_devil_worshiper_trigger = no
+		# NOT = {
+			# has_game_rule = {
+				# name = supernatural_events
+				# value = off
+			# }
+		# }
+		# trait = possessed
+		# NOT = { has_character_modifier = voice_of_jesus }
+		# NOT = { has_character_modifier = voice_of_satan }
+		# NOT = { has_character_modifier = holy_comet }
+	# }
 	
-	mean_time_to_happen = {
-		months = 1200
+	# mean_time_to_happen = {
+		# months = 1200
 
-		modifier = {
-			factor = 2
-			NOT = {
-				piety = 0
-			}
-		}
+		# modifier = {
+			# factor = 2
+			# NOT = {
+				# piety = 0
+			# }
+		# }
 
-		modifier = {
-			factor = 0.9
-			piety = 100
-		}
+		# modifier = {
+			# factor = 0.9
+			# piety = 100
+		# }
 		
-		modifier = {
-			factor = 0.9
-			piety = 250
-		}
+		# modifier = {
+			# factor = 0.9
+			# piety = 250
+		# }
 		
-		modifier = {
-			factor = 0.9
-			piety = 500
-		}
+		# modifier = {
+			# factor = 0.9
+			# piety = 500
+		# }
 
 		
-		modifier = {
-			factor = 0.9
-			piety = 1000
-		}
+		# modifier = {
+			# factor = 0.9
+			# piety = 1000
+		# }
 
-		modifier = {
-			factor = 0.75
-			trait = zealous
-		}
+		# modifier = {
+			# factor = 0.75
+			# trait = zealous
+		# }
 
-		modifier = {
-			factor = 1.2
-			trait = cynical
-		}
+		# modifier = {
+			# factor = 1.2
+			# trait = cynical
+		# }
 
-		modifier = {
-			factor = 0.9
-			trait = crusader
-		}
+		# modifier = {
+			# factor = 0.9
+			# trait = crusader
+		# }
 
-		modifier = {
-			factor = 1.2
-			trait = homosexual
-		}
+		# modifier = {
+			# factor = 1.2
+			# trait = homosexual
+		# }
 		
-		modifier = {
-			factor = 0.9
-			trait = celibate
-		}
+		# modifier = {
+			# factor = 0.9
+			# trait = celibate
+		# }
 
-		modifier = {
-			factor = 1.2
-			trait = hedonist 
-		}
+		# modifier = {
+			# factor = 1.2
+			# trait = hedonist 
+		# }
 
-		modifier = {
-			factor = 0.5
-			trait = mystic
-		}
+		# modifier = {
+			# factor = 0.5
+			# trait = mystic
+		# }
 		
-	}
+	# }
 	
-	option = {
-		name = EVTOPTA6200
-		add_character_modifier = {
-			name = voice_of_jesus 
-			duration = -1
-		}
-	}
-}
+	# option = {
+		# name = EVTOPTA6200
+		# add_character_modifier = {
+			# name = voice_of_jesus 
+			# duration = -1
+		# }
+	# }
+# }
 
-#I give to the poor 
-character_event = {
-	id = 6201
-	desc = EVTDESC6201
-	picture = GFX_evt_stone_church
-	border = GFX_event_normal_frame_religion
+# I give to the poor 
+# character_event = {
+	# id = 6201
+	# desc = EVTDESC6201
+	# picture = GFX_evt_stone_church
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_jesus
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_jesus
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6201
-		wealth = -50
-		piety = 100
-	}
-}
+	# option = {
+		# name = EVTOPTA6201
+		# wealth = -50
+		# piety = 100
+	# }
+# }
 
 # I will wear a Cilice
-character_event = {
-	id = 6202
-	desc = EVTDESC6202
-	picture = GFX_evt_garden
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6202
+	# desc = EVTDESC6202
+	# picture = GFX_evt_garden
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_jesus
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_jesus
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6202
-		prestige = -50
-		piety = 100
-	}
-}
+	# option = {
+		# name = EVTOPTA6202
+		# prestige = -50
+		# piety = 100
+	# }
+# }
 
 # Comet Sighted
-character_event = {
-	id = 6203
-	desc = EVTDESC6203
-	picture = GFX_evt_comet
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6203
+	# desc = EVTDESC6203
+	# picture = GFX_evt_comet
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		OR = {
-			has_character_modifier = voice_of_jesus
-			has_character_modifier = voice_of_satan
-		}
-		NOT = { has_character_modifier = holy_comet }
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# OR = {
+			# has_character_modifier = voice_of_jesus
+			# has_character_modifier = voice_of_satan
+		# }
+		# NOT = { has_character_modifier = holy_comet }
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6203
-		add_character_modifier = {
-			name = holy_comet
-			duration = -1
-		}
-	}
-}
+	# option = {
+		# name = EVTOPTA6203
+		# add_character_modifier = {
+			# name = holy_comet
+			# duration = -1
+		# }
+	# }
+# }
 
 # I must leave behind my lust
-character_event = {
-	id = 6204
-	desc = EVTDESC6204
-	picture = GFX_evt_brothel
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6204
+	# desc = EVTDESC6204
+	# picture = GFX_evt_brothel
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		trait = lustful
-		has_character_modifier = voice_of_jesus
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# trait = lustful
+		# has_character_modifier = voice_of_jesus
+	# }
 
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6204
-		remove_trait = lustful 
-	}
-}
+	# option = {
+		# name = EVTOPTA6204
+		# remove_trait = lustful 
+	# }
+# }
 
 # I must lead life of the chaste
-character_event = {
-	id = 6205
-	desc = EVTDESC6205
-	picture =  GFX_evt_garden
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6205
+	# desc = EVTDESC6205
+	# picture =  GFX_evt_garden
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_jesus
-		NOT = {
-			OR = {
-				trait = lustful
-				trait = chaste
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_jesus
+		# NOT = {
+			# OR = {
+				# trait = lustful
+				# trait = chaste
+			# }
+		# }
+	# }
 
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6205
-		add_trait = chaste
-	}
-}
+	# option = {
+		# name = EVTOPTA6205
+		# add_trait = chaste
+	# }
+# }
 
 # I must leave behind my gluttony
-character_event = {
-	id = 6206
-	desc = EVTDESC6206
-	picture = GFX_evt_feast
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6206
+	# desc = EVTDESC6206
+	# picture = GFX_evt_feast
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		trait = gluttonous
-		has_character_modifier = voice_of_jesus
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# trait = gluttonous
+		# has_character_modifier = voice_of_jesus
+	# }
 
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6206
-		remove_trait = gluttonous
-		lose_weight_small_effect = yes
-		weight_trait_check_effect = yes
-	}
-}
+	# option = {
+		# name = EVTOPTA6206
+		# remove_trait = gluttonous
+		# lose_weight_small_effect = yes
+		# weight_trait_check_effect = yes
+	# }
+# }
 
 # I must show temperance
-character_event = {
-	id = 6207
-	desc = EVTDESC6207
-	picture =  GFX_evt_garden
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6207
+	# desc = EVTDESC6207
+	# picture =  GFX_evt_garden
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_jesus
-		NOT = {
-			OR = {
-				trait = gluttonous
-				trait = temperate
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_jesus
+		# NOT = {
+			# OR = {
+				# trait = gluttonous
+				# trait = temperate
+			# }
+		# }
+	# }
 
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6207
-		add_trait = temperate
-		lose_weight_medium_effect = yes
-		weight_trait_check_effect = yes
-	}
-}
+	# option = {
+		# name = EVTOPTA6207
+		# add_trait = temperate
+		# lose_weight_medium_effect = yes
+		# weight_trait_check_effect = yes
+	# }
+# }
 
 # I must leave behind my greed
-character_event = {
-	id = 6208
-	desc = EVTDESC6208
-	picture = GFX_evt_garden
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6208
+	# desc = EVTDESC6208
+	# picture = GFX_evt_garden
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		trait = greedy
-		has_character_modifier = voice_of_jesus
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# trait = greedy
+		# has_character_modifier = voice_of_jesus
+	# }
 
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6208
-		remove_trait = greedy
-	}
-}
+	# option = {
+		# name = EVTOPTA6208
+		# remove_trait = greedy
+	# }
+# }
 
 # I must show charity
-character_event = {
-	id = 6209
-	desc = EVTDESC6209
-	picture =  GFX_evt_garden
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6209
+	# desc = EVTDESC6209
+	# picture =  GFX_evt_garden
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_jesus
-		NOT = {
-			OR = {
-				trait = greedy
-				trait = charitable
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_jesus
+		# NOT = {
+			# OR = {
+				# trait = greedy
+				# trait = charitable
+			# }
+		# }
+	# }
 
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6209
-		add_trait = charitable
-	}
-}
+	# option = {
+		# name = EVTOPTA6209
+		# add_trait = charitable
+	# }
+# }
 
 # I must leave behind my sloth
-character_event = {
-	id = 6210
-	desc = EVTDESC6210
-	picture = GFX_evt_illness
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6210
+	# desc = EVTDESC6210
+	# picture = GFX_evt_illness
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		trait = slothful
-		has_character_modifier = voice_of_jesus
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# trait = slothful
+		# has_character_modifier = voice_of_jesus
+	# }
 
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6210
-		remove_trait = slothful
-	}
-}
-#I must be more diligent
-character_event = {
-	id = 6211
-	desc = EVTDESC6211
-	picture =  GFX_evt_garden
-	border = GFX_event_normal_frame_religion
+	# option = {
+		# name = EVTOPTA6210
+		# remove_trait = slothful
+	# }
+# }
+# I must be more diligent
+# character_event = {
+	# id = 6211
+	# desc = EVTDESC6211
+	# picture =  GFX_evt_garden
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_jesus
-		NOT = {
-			OR = {
-				trait = slothful
-				trait = diligent
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_jesus
+		# NOT = {
+			# OR = {
+				# trait = slothful
+				# trait = diligent
+			# }
+		# }
+	# }
 
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = GLORY_TO_HIGHGOD
-		add_trait = diligent
-	}
-}
+	# option = {
+		# name = GLORY_TO_HIGHGOD
+		# add_trait = diligent
+	# }
+# }
 
 # I must stop being envious
-character_event = {
-	id = 6212
-	desc = EVTDESC6212
-	picture = GFX_evt_illness
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6212
+	# desc = EVTDESC6212
+	# picture = GFX_evt_illness
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		trait = envious
-		has_character_modifier = voice_of_jesus
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# trait = envious
+		# has_character_modifier = voice_of_jesus
+	# }
 
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6212
-		remove_trait = envious
-	}
-}
-#I must be kind
-character_event = {
-	id = 6213
-	desc = EVTDESC6213
-	picture =  GFX_evt_garden
-	border = GFX_event_normal_frame_religion
+	# option = {
+		# name = EVTOPTA6212
+		# remove_trait = envious
+	# }
+# }
+# I must be kind
+# character_event = {
+	# id = 6213
+	# desc = EVTDESC6213
+	# picture =  GFX_evt_garden
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_jesus
-		NOT = {
-			OR = {
-				trait = envious
-				trait = kind
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_jesus
+		# NOT = {
+			# OR = {
+				# trait = envious
+				# trait = kind
+			# }
+		# }
+	# }
 
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6213
-		add_trait = kind
-	}
-}
+	# option = {
+		# name = EVTOPTA6213
+		# add_trait = kind
+	# }
+# }
 
 # My anger is consuming me
-character_event = {
-	id = 6214
-	desc = EVTDESC6214
-	picture = GFX_evt_illness
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6214
+	# desc = EVTDESC6214
+	# picture = GFX_evt_illness
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		trait = wroth
-		has_character_modifier = voice_of_jesus
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# trait = wroth
+		# has_character_modifier = voice_of_jesus
+	# }
 
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6214
-		remove_trait = wroth
-	}
-}
+	# option = {
+		# name = EVTOPTA6214
+		# remove_trait = wroth
+	# }
+# }
 
 # I must be more patient
-character_event = {
-	id = 6215
-	desc = EVTDESC6215
-	picture = GFX_evt_garden
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6215
+	# desc = EVTDESC6215
+	# picture = GFX_evt_garden
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_jesus
-		NOT = {
-			OR = {
-				trait = wroth
-				trait = patient
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_jesus
+		# NOT = {
+			# OR = {
+				# trait = wroth
+				# trait = patient
+			# }
+		# }
+	# }
 
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6215
-		add_trait = patient
-	}
-}
+	# option = {
+		# name = EVTOPTA6215
+		# add_trait = patient
+	# }
+# }
 
 # My pride is too great
-character_event = {
-	id = 6216
-	desc = EVTDESC6216
-	picture = GFX_evt_garden
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6216
+	# desc = EVTDESC6216
+	# picture = GFX_evt_garden
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		trait = proud
-		has_character_modifier = voice_of_jesus
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# trait = proud
+		# has_character_modifier = voice_of_jesus
+	# }
 
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6216
-		remove_trait = proud
-	}
-}
+	# option = {
+		# name = EVTOPTA6216
+		# remove_trait = proud
+	# }
+# }
 
 # I must be more patient
-character_event = {
-	id = 6217
-	desc = EVTDESC6217
-	picture = GFX_evt_garden
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6217
+	# desc = EVTDESC6217
+	# picture = GFX_evt_garden
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_jesus
-		NOT = {
-			OR = {
-				trait = proud
-				trait = humble
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_jesus
+		# NOT = {
+			# OR = {
+				# trait = proud
+				# trait = humble
+			# }
+		# }
+	# }
 
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6217
-		add_trait = humble
-	}
-}
+	# option = {
+		# name = EVTOPTA6217
+		# add_trait = humble
+	# }
+# }
 
 # Jesus admits that the Bible is not 100% accurate
-character_event = {
-	id = 6218
-	desc = EVTDESC6218
-	picture = GFX_evt_heretic
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6218
+	# desc = EVTDESC6218
+	# picture = GFX_evt_heretic
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = holy_comet
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = holy_comet
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6218
-		become_heretic = yes
-	}
-}
+	# option = {
+		# name = EVTOPTA6218
+		# become_heretic = yes
+	# }
+# }
 
 # Jesus hands out military advice
-character_event = {
-	id = 6219
-	desc = EVTDESC6219
-	picture = GFX_evt_battle
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6219
+	# desc = EVTDESC6219
+	# picture = GFX_evt_battle
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = holy_comet
-		NOT = {
-			OR = {
-				has_character_modifier = military_jesus
-				has_character_modifier = speaking_in_tounges
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = holy_comet
+		# NOT = {
+			# OR = {
+				# has_character_modifier = military_jesus
+				# has_character_modifier = speaking_in_tounges
+			# }
+		# }
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6219
-		add_character_modifier = {
-			name = military_jesus
-			duration = -1
-		}
-	}
-}
+	# option = {
+		# name = EVTOPTA6219
+		# add_character_modifier = {
+			# name = military_jesus
+			# duration = -1
+		# }
+	# }
+# }
 
-#Jesus falls silent on military matters
-character_event = {
-	id = 6220
-	desc = EVTDESC6220
-	picture = GFX_evt_battle
-	border = GFX_event_normal_frame_religion
+# Jesus falls silent on military matters
+# character_event = {
+	# id = 6220
+	# desc = EVTDESC6220
+	# picture = GFX_evt_battle
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = military_jesus
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = military_jesus
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6220
-		remove_character_modifier = military_jesus
-	}
-}
+	# option = {
+		# name = EVTOPTA6220
+		# remove_character_modifier = military_jesus
+	# }
+# }
 
-#The Holy Spirit Fills me
-character_event = {
-	id = 6221
-	desc = EVTDESC6221
-	picture = GFX_evt_battle
-	border = GFX_event_normal_frame_religion
+# The Holy Spirit Fills me
+# character_event = {
+	# id = 6221
+	# desc = EVTDESC6221
+	# picture = GFX_evt_battle
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = holy_comet
-		NOT = {
-			OR = {
-				has_character_modifier = military_jesus
-				has_character_modifier = speaking_in_tounges
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = holy_comet
+		# NOT = {
+			# OR = {
+				# has_character_modifier = military_jesus
+				# has_character_modifier = speaking_in_tounges
+			# }
+		# }
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6221
-		add_character_modifier = {
-			name = speaking_in_tounges
-			duration = -1
-		}
-	}
-}
+	# option = {
+		# name = EVTOPTA6221
+		# add_character_modifier = {
+			# name = speaking_in_tounges
+			# duration = -1
+		# }
+	# }
+# }
 
-#The Holy Spirit leaves me
-character_event = {
-	id = 6222
-	desc = EVTDESC6222
-	picture = GFX_evt_battle
-	border = GFX_event_normal_frame_religion
+# The Holy Spirit leaves me
+# character_event = {
+	# id = 6222
+	# desc = EVTDESC6222
+	# picture = GFX_evt_battle
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = speaking_in_tounges
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = speaking_in_tounges
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 
-	option = {
-		name = EVTOPTA6222
-		remove_character_modifier = speaking_in_tounges
-	}
-}
+	# option = {
+		# name = EVTOPTA6222
+		# remove_character_modifier = speaking_in_tounges
+	# }
+# }
 
-#I hear the voice, but I don't think it is Jesus
-character_event = {
-	id = 6223
-	desc = EVTDESC6223
-	picture = GFX_evt_whispers
-	border = GFX_event_normal_frame_religion
+# I hear the voice, but I don't think it is Jesus
+# character_event = {
+	# id = 6223
+	# desc = EVTDESC6223
+	# picture = GFX_evt_whispers
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		NOT = { has_character_modifier = voice_of_jesus }
-		NOT = { has_character_modifier = voice_of_satan }
-		NOT = { has_character_modifier = holy_comet }
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# NOT = { has_character_modifier = voice_of_jesus }
+		# NOT = { has_character_modifier = voice_of_satan }
+		# NOT = { has_character_modifier = holy_comet }
+	# }
 	
-	mean_time_to_happen = {
-		months = 1200
+	# mean_time_to_happen = {
+		# months = 1200
 
-		modifier = {
-			factor = 0.3
-			is_devil_worshiper_trigger = yes
-		}
+		# modifier = {
+			# factor = 0.3
+			# is_devil_worshiper_trigger = yes
+		# }
 
-		modifier = {
-			factor = 0.5
-			NOT = {
-				piety = 0
-			}
-		}
+		# modifier = {
+			# factor = 0.5
+			# NOT = {
+				# piety = 0
+			# }
+		# }
 
-		modifier = {
-			factor = 2
-			piety = 100
-		}
+		# modifier = {
+			# factor = 2
+			# piety = 100
+		# }
 		
-		modifier = {
-			factor = 1.2
-			trait = zealous
-		}
+		# modifier = {
+			# factor = 1.2
+			# trait = zealous
+		# }
 
-		modifier = {
-			factor = 0.9
-			trait = cynical
-		}
+		# modifier = {
+			# factor = 0.9
+			# trait = cynical
+		# }
 
-		modifier = {
-			factor = 1.2
-			trait = crusader
-		}
+		# modifier = {
+			# factor = 1.2
+			# trait = crusader
+		# }
 
-		modifier = {
-			factor = 0.9
-			trait = homosexual
-		}
+		# modifier = {
+			# factor = 0.9
+			# trait = homosexual
+		# }
 		
-		modifier = {
-			factor = 1.2
-			trait = celibate
-		}
+		# modifier = {
+			# factor = 1.2
+			# trait = celibate
+		# }
 
-		modifier = {
-			factor = 0.9
-			trait = hedonist 
-		}
+		# modifier = {
+			# factor = 0.9
+			# trait = hedonist 
+		# }
 
-		modifier = {
-			factor = 0.5
-			trait = mystic
-		}
+		# modifier = {
+			# factor = 0.5
+			# trait = mystic
+		# }
 		
-	}
+	# }
 	
-	option = {
-		name = EVTOPTA6223
-		add_character_modifier = {
-			name = voice_of_satan
-			duration = -1
-		}
-	}
-}
+	# option = {
+		# name = EVTOPTA6223
+		# add_character_modifier = {
+			# name = voice_of_satan
+			# duration = -1
+		# }
+	# }
+# }
 
-#Satan - torture prisoner
-character_event = {
-	id = 6224
-	desc = EVTDESC6224
-	picture = GFX_evt_torture
-	border = GFX_event_normal_frame_religion
+# Satan - torture prisoner
+# character_event = {
+	# id = 6224
+	# desc = EVTDESC6224
+	# picture = GFX_evt_torture
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_satan
-		any_courtier = {
-			prisoner = yes
-			host = { character = ROOT }
-			NOT = { has_character_modifier = house_arrest }
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_satan
+		# any_courtier = {
+			# prisoner = yes
+			# host = { character = ROOT }
+			# NOT = { has_character_modifier = house_arrest }
+		# }
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 	
-	option = {
-		name = EVTOPTA6224 
-		random_courtier = {
-			limit = {
-				prisoner = yes
-				host = { character = ROOT }
-				NOT = { has_character_modifier = house_arrest }
-			}
-			health = -1
-		}
-	}
-}
+	# option = {
+		# name = EVTOPTA6224 
+		# random_courtier = {
+			# limit = {
+				# prisoner = yes
+				# host = { character = ROOT }
+				# NOT = { has_character_modifier = house_arrest }
+			# }
+			# health = -1
+		# }
+	# }
+# }
 
-#Demon - homosexual
-character_event = {
-	id = 6225
-	desc = EVTDESC6225
-	picture = GFX_evt_scandal
-	border = GFX_event_normal_frame_religion
+# Demon - homosexual
+# character_event = {
+	# id = 6225
+	# desc = EVTDESC6225
+	# picture = GFX_evt_scandal
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_satan
-		NOT = {
-			trait = homosexual
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_satan
+		# NOT = {
+			# trait = homosexual
+		# }
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 	
-	option = {
-		name = EVTOPTA6225
-		add_trait = homosexual
-	}
-}
+	# option = {
+		# name = EVTOPTA6225
+		# add_trait = homosexual
+	# }
+# }
 
-#Fish - intrigue
-character_event = {
-	id = 6226
-	desc = EVTDESC6226
-	picture = GFX_evt_scandal
-	border = GFX_event_normal_frame_religion
+# Fish - intrigue
+# character_event = {
+	# id = 6226
+	# desc = EVTDESC6226
+	# picture = GFX_evt_scandal
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_satan
-		NOT = {
-			has_character_modifier = intrigue_advice
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_satan
+		# NOT = {
+			# has_character_modifier = intrigue_advice
+		# }
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 	
-	option = {
-		name = EVTOPTA6226
-		add_character_modifier = {
-			name = intrigue_advice
-			duration = 365
-		}
-	}
-}	
+	# option = {
+		# name = EVTOPTA6226
+		# add_character_modifier = {
+			# name = intrigue_advice
+			# duration = 365
+		# }
+	# }
+# }	
 
-#Asmodeus - remove chaste
-character_event = {
-	id = 6227
-	desc = EVTDESC6227
-	picture = GFX_evt_brothel
-	border = GFX_event_normal_frame_religion
+# Asmodeus - remove chaste
+# character_event = {
+	# id = 6227
+	# desc = EVTDESC6227
+	# picture = GFX_evt_brothel
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		trait = chaste
-		has_character_modifier = voice_of_satan
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# trait = chaste
+		# has_character_modifier = voice_of_satan
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 	
-	option = {
-		name = EVTOPTA6227
-		remove_trait = chaste
-	}
-}
+	# option = {
+		# name = EVTOPTA6227
+		# remove_trait = chaste
+	# }
+# }
 
-#Asmodeus - remove chaste
-character_event = {
-	id = 6228
-	desc = EVTDESC6228
-	picture = GFX_evt_brothel
-	border = GFX_event_normal_frame_religion
+# Asmodeus - remove chaste
+# character_event = {
+	# id = 6228
+	# desc = EVTDESC6228
+	# picture = GFX_evt_brothel
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_satan
-		NOT = {
-			OR = {
-				trait = chaste
-				trait = lustful
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_satan
+		# NOT = {
+			# OR = {
+				# trait = chaste
+				# trait = lustful
+			# }
+		# }
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	} 
+	# mean_time_to_happen = {
+		# months = 120
+	# } 
 	
-	option = {
-		name = EVTOPTA6228
-		add_trait = lustful
-	}
-}
+	# option = {
+		# name = EVTOPTA6228
+		# add_trait = lustful
+	# }
+# }
 
-#Satan - patient
-character_event = {
-	id = 6229
-	desc = EVTDESC6229
-	picture = GFX_evt_quarrel
-	border = GFX_event_normal_frame_religion
+# Satan - patient
+# character_event = {
+	# id = 6229
+	# desc = EVTDESC6229
+	# picture = GFX_evt_quarrel
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		trait = patient
-		has_character_modifier = voice_of_satan
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# trait = patient
+		# has_character_modifier = voice_of_satan
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 	
-	option = {
-		name = EVTOPTA6229
-		remove_trait = patient
-	}
-}
+	# option = {
+		# name = EVTOPTA6229
+		# remove_trait = patient
+	# }
+# }
 
-#Voice - wroth
-character_event = {
-	id = 6230
-	desc = EVTDESC6230
-	picture = GFX_evt_quarrel
-	border = GFX_event_normal_frame_religion
+# Voice - wroth
+# character_event = {
+	# id = 6230
+	# desc = EVTDESC6230
+	# picture = GFX_evt_quarrel
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_satan
-		NOT = {
-			OR = {
-				trait = patient
-				trait = wroth
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_satan
+		# NOT = {
+			# OR = {
+				# trait = patient
+				# trait = wroth
+			# }
+		# }
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	} 
+	# mean_time_to_happen = {
+		# months = 120
+	# } 
 	
-	option = {
-		name = EVTOPTA6230
-		add_trait = wroth
-	}
-}
+	# option = {
+		# name = EVTOPTA6230
+		# add_trait = wroth
+	# }
+# }
 
-#Morning Star - humble
-character_event = {
-	id = 6231
-	desc = EVTDESC6231
-	picture = GFX_evt_shadow
-	border = GFX_event_normal_frame_religion
+# Morning Star - humble
+# character_event = {
+	# id = 6231
+	# desc = EVTDESC6231
+	# picture = GFX_evt_shadow
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		trait = humble
-		has_character_modifier = voice_of_satan
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# trait = humble
+		# has_character_modifier = voice_of_satan
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 	
-	option = {
-		name = EVTOPTA6231
-		remove_trait = humble
-	}
-}
+	# option = {
+		# name = EVTOPTA6231
+		# remove_trait = humble
+	# }
+# }
 
-#Lucifer - proud
-character_event = {
-	id = 6232
-	desc = EVTDESC6232
-	picture = GFX_evt_shadow
-	border = GFX_event_normal_frame_religion
+# Lucifer - proud
+# character_event = {
+	# id = 6232
+	# desc = EVTDESC6232
+	# picture = GFX_evt_shadow
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_satan
-		NOT = {
-			OR = {
-				trait = humble
-				trait = proud
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_satan
+		# NOT = {
+			# OR = {
+				# trait = humble
+				# trait = proud
+			# }
+		# }
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	} 
+	# mean_time_to_happen = {
+		# months = 120
+	# } 
 	
-	option = {
-		name = EVTOPTA6232
-		add_trait = proud
-	}
-}
+	# option = {
+		# name = EVTOPTA6232
+		# add_trait = proud
+	# }
+# }
 
-#Lord of the Flies - remove temperate
-character_event = {
-	id = 6233
-	desc = EVTDESC6233
-	picture = GFX_evt_quarrel
-	border = GFX_event_normal_frame_religion
+# Lord of the Flies - remove temperate
+# character_event = {
+	# id = 6233
+	# desc = EVTDESC6233
+	# picture = GFX_evt_quarrel
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		trait = temperate
-		has_character_modifier = voice_of_satan
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# trait = temperate
+		# has_character_modifier = voice_of_satan
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 	
-	option = {
-		name = EVTOPTA6233
-		remove_trait = temperate
-	}
-}
+	# option = {
+		# name = EVTOPTA6233
+		# remove_trait = temperate
+	# }
+# }
 
-#Beelzebub - gluttonous
-character_event = {
-	id = 6234
-	desc = EVTDESC6234
-	picture = GFX_evt_feast
-	border = GFX_event_normal_frame_religion
+# Beelzebub - gluttonous
+# character_event = {
+	# id = 6234
+	# desc = EVTDESC6234
+	# picture = GFX_evt_feast
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_satan
-		NOT = {
-			OR = {
-				trait = temperate
-				trait = gluttonous
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_satan
+		# NOT = {
+			# OR = {
+				# trait = temperate
+				# trait = gluttonous
+			# }
+		# }
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	} 
+	# mean_time_to_happen = {
+		# months = 120
+	# } 
 	
-	option = {
-		name = EVTOPTA6234
-		add_trait = gluttonous
-		gain_weight_small_effect = yes
-		weight_trait_check_effect = yes
-	}
-}
+	# option = {
+		# name = EVTOPTA6234
+		# add_trait = gluttonous
+		# gain_weight_small_effect = yes
+		# weight_trait_check_effect = yes
+	# }
+# }
 
-#Mammon - remove charitable
-character_event = {
-	id = 6235
-	desc = EVTDESC6235
-	picture = GFX_evt_quarrel
-	border = GFX_event_normal_frame_religion
+# Mammon - remove charitable
+# character_event = {
+	# id = 6235
+	# desc = EVTDESC6235
+	# picture = GFX_evt_quarrel
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		trait = charitable
-		has_character_modifier = voice_of_satan
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# trait = charitable
+		# has_character_modifier = voice_of_satan
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 	
-	option = {
-		name = EVTOPTA6235
-		remove_trait = charitable
-	}
-}
+	# option = {
+		# name = EVTOPTA6235
+		# remove_trait = charitable
+	# }
+# }
 
-#Mammon - Greedy
-character_event = {
-	id = 6236
-	desc = EVTDESC6236
-	picture = GFX_evt_feast
-	border = GFX_event_normal_frame_religion
+# Mammon - Greedy
+# character_event = {
+	# id = 6236
+	# desc = EVTDESC6236
+	# picture = GFX_evt_feast
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_satan
-		NOT = {
-			OR = {
-				trait = charitable
-				trait = greedy
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_satan
+		# NOT = {
+			# OR = {
+				# trait = charitable
+				# trait = greedy
+			# }
+		# }
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	} 
+	# mean_time_to_happen = {
+		# months = 120
+	# } 
 	
-	option = {
-		name = EVTOPTA6236
-		add_trait = greedy
-	}
-}
+	# option = {
+		# name = EVTOPTA6236
+		# add_trait = greedy
+	# }
+# }
 
-#Leviathan - Remove Kind
-character_event = {
-	id = 6237
-	desc = EVTDESC6237
-	picture = GFX_evt_quarrel
-	border = GFX_event_normal_frame_religion
+# Leviathan - Remove Kind
+# character_event = {
+	# id = 6237
+	# desc = EVTDESC6237
+	# picture = GFX_evt_quarrel
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		trait = kind
-		has_character_modifier = voice_of_satan
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# trait = kind
+		# has_character_modifier = voice_of_satan
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 	
-	option = {
-		name = EVTOPTA6237
-		remove_trait = kind
-	}
-}
+	# option = {
+		# name = EVTOPTA6237
+		# remove_trait = kind
+	# }
+# }
 
-#Leviathan - Envious
-character_event = {
-	id = 6238
-	desc = EVTDESC6238
-	picture = GFX_evt_feast
-	border = GFX_event_normal_frame_religion
+# Leviathan - Envious
+# character_event = {
+	# id = 6238
+	# desc = EVTDESC6238
+	# picture = GFX_evt_feast
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_satan
-		NOT = {
-			OR = {
-				trait = kind
-				trait = envious
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_satan
+		# NOT = {
+			# OR = {
+				# trait = kind
+				# trait = envious
+			# }
+		# }
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	} 
+	# mean_time_to_happen = {
+		# months = 120
+	# } 
 	
-	option = {
-		name = EVTOPTA6238
-		add_trait = envious
-	}
-}
+	# option = {
+		# name = EVTOPTA6238
+		# add_trait = envious
+	# }
+# }
 
-#Belphegor - Diligent
-character_event = {
-	id = 6239
-	desc = EVTDESC6239
-	picture = GFX_evt_illness
-	border = GFX_event_normal_frame_religion
+# Belphegor - Diligent
+# character_event = {
+	# id = 6239
+	# desc = EVTDESC6239
+	# picture = GFX_evt_illness
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		trait = diligent
-		has_character_modifier = voice_of_satan
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# trait = diligent
+		# has_character_modifier = voice_of_satan
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	}
+	# mean_time_to_happen = {
+		# months = 120
+	# }
 	
-	option = {
-		name = EVTOPTA6239
-		remove_trait = diligent
-	}
-}
+	# option = {
+		# name = EVTOPTA6239
+		# remove_trait = diligent
+	# }
+# }
 
-#Belphegor - Slothful
-character_event = {
-	id = 6240
-	desc = EVTDESC6240
-	picture = GFX_evt_illness
-	border = GFX_event_normal_frame_religion
+# Belphegor - Slothful
+# character_event = {
+	# id = 6240
+	# desc = EVTDESC6240
+	# picture = GFX_evt_illness
+	# border = GFX_event_normal_frame_religion
 	
-	only_playable = yes
-	min_age = 10
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
+	# only_playable = yes
+	# min_age = 10
+	# only_capable = yes
+	# prisoner = no
+	# religion_group = christian
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		trait = possessed
-		has_character_modifier = voice_of_satan
-		NOT = {
-			OR = {
-				trait = diligent
-				trait = slothful
-			}
-		}
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# trait = possessed
+		# has_character_modifier = voice_of_satan
+		# NOT = {
+			# OR = {
+				# trait = diligent
+				# trait = slothful
+			# }
+		# }
+	# }
 	
-	mean_time_to_happen = {
-		months = 120
-	} 
+	# mean_time_to_happen = {
+		# months = 120
+	# } 
 	
-	option = {
-		name = EVTOPTA6240
-		add_trait = slothful
-	}
-}
+	# option = {
+		# name = EVTOPTA6240
+		# add_trait = slothful
+	# }
+# }
 
 ### Lunacy Events
 
@@ -3981,276 +3994,276 @@ character_event = {
 ### Lunatic Pagan series
 
 # Rats in the walls
-character_event = {
-	id = 6350
-	desc = EVTDESC6350
-	picture = GFX_evt_recovery
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6350
+	# desc = EVTDESC6350
+	# picture = GFX_evt_recovery
+	# border = GFX_event_normal_frame_religion
 	
-	ai = no
-	min_age = 16
-	prisoner = no
-	only_playable = yes
-	religion_group = pagan_group
+	# ai = no
+	# min_age = 16
+	# prisoner = no
+	# only_playable = yes
+	# religion_group = pagan_group
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		NOT = {
-			has_game_rule = {
-				name = supernatural_events
-				value = off
-			}
-		}
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
-			religion = slavic_pagan
-			religion = slavic_pagan_reformed
-			religion = baltic_pagan
-			religion = baltic_pagan_reformed
-			religion = finnish_pagan
-			religion = finnish_pagan_reformed
-		}
-		NOT = { has_character_flag = the_old_ones_are_waking }
-		NOT = { is_inaccessible_trigger = yes }
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# NOT = {
+			# has_game_rule = {
+				# name = supernatural_events
+				# value = off
+			# }
+		# }
+		# OR = {
+			# religion = norse_pagan
+			# religion = norse_pagan_reformed
+			# religion = slavic_pagan
+			# religion = slavic_pagan_reformed
+			# religion = baltic_pagan
+			# religion = baltic_pagan_reformed
+			# religion = finnish_pagan
+			# religion = finnish_pagan_reformed
+		# }
+		# NOT = { has_character_flag = the_old_ones_are_waking }
+		# NOT = { is_inaccessible_trigger = yes }
+	# }
 	
-	immediate = {
-		set_character_flag = the_old_ones_are_waking
-	}
+	# immediate = {
+		# set_character_flag = the_old_ones_are_waking
+	# }
 	
-	mean_time_to_happen = {
-		months = 1000
-		modifier = {
-			factor = 100
-			NOT = { trait = lunatic }
-		}
-	}
+	# mean_time_to_happen = {
+		# months = 1000
+		# modifier = {
+			# factor = 100
+			# NOT = { trait = lunatic }
+		# }
+	# }
 	
-	option = {
-		name = EVTOPTA6350
-		if = {
-			limit = { NOT = { trait = lunatic } }
-			add_trait = lunatic
-		}
-		character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
-	}
-	option = {
-		name = EVTOPTB6350
-		trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-			NOT = { trait = lunatic }
-		}
-	}
-}
+	# option = {
+		# name = EVTOPTA6350
+		# if = {
+			# limit = { NOT = { trait = lunatic } }
+			# add_trait = lunatic
+		# }
+		# character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
+	# }
+	# option = {
+		# name = EVTOPTB6350
+		# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+			# NOT = { trait = lunatic }
+		# }
+	# }
+# }
 
 # Something in the well
-character_event = {
-	id = 6351
-	desc = EVTDESC6351
-	picture = GFX_evt_garden
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6351
+	# desc = EVTDESC6351
+	# picture = GFX_evt_garden
+	# border = GFX_event_normal_frame_religion
 	
-	ai = no
-	min_age = 16
-	prisoner = no
-	only_playable = yes
-	religion_group = pagan_group
+	# ai = no
+	# min_age = 16
+	# prisoner = no
+	# only_playable = yes
+	# religion_group = pagan_group
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		NOT = {
-			has_game_rule = {
-				name = supernatural_events
-				value = off
-			}
-		}
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
-			religion = slavic_pagan
-			religion = slavic_pagan_reformed
-			religion = baltic_pagan
-			religion = baltic_pagan_reformed
-			religion = finnish_pagan
-			religion = finnish_pagan_reformed
-		}
-		NOT = { has_character_flag = the_old_ones_are_waking }
-		NOT = { is_inaccessible_trigger = yes }
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# NOT = {
+			# has_game_rule = {
+				# name = supernatural_events
+				# value = off
+			# }
+		# }
+		# OR = {
+			# religion = norse_pagan
+			# religion = norse_pagan_reformed
+			# religion = slavic_pagan
+			# religion = slavic_pagan_reformed
+			# religion = baltic_pagan
+			# religion = baltic_pagan_reformed
+			# religion = finnish_pagan
+			# religion = finnish_pagan_reformed
+		# }
+		# NOT = { has_character_flag = the_old_ones_are_waking }
+		# NOT = { is_inaccessible_trigger = yes }
+	# }
 	
-	immediate = {
-		set_character_flag = the_old_ones_are_waking
-	}
+	# immediate = {
+		# set_character_flag = the_old_ones_are_waking
+	# }
 	
-	mean_time_to_happen = {
-		months = 1000
-		modifier = {
-			factor = 100
-			NOT = { trait = lunatic }
-		}
-	}
+	# mean_time_to_happen = {
+		# months = 1000
+		# modifier = {
+			# factor = 100
+			# NOT = { trait = lunatic }
+		# }
+	# }
 	
-	option = {
-		name = EVTOPTA6351
-		if = {
-			limit = { NOT = { trait = lunatic } }
-			add_trait = lunatic
-		}
-		character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
-	}
-	option = {
-		name = EVTOPTB6351
-		trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-			NOT = { trait = lunatic }
-		}
-	}	
-}
+	# option = {
+		# name = EVTOPTA6351
+		# if = {
+			# limit = { NOT = { trait = lunatic } }
+			# add_trait = lunatic
+		# }
+		# character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
+	# }
+	# option = {
+		# name = EVTOPTB6351
+		# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+			# NOT = { trait = lunatic }
+		# }
+	# }	
+# }
 
 # Tomb raiding
-character_event = {
-	id = 6352
-	desc = EVTDESC6352
-	picture = GFX_evt_death
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6352
+	# desc = EVTDESC6352
+	# picture = GFX_evt_death
+	# border = GFX_event_normal_frame_religion
 	
-	ai = no
-	min_age = 16
-	prisoner = no
-	only_playable = yes
-	religion_group = pagan_group
+	# ai = no
+	# min_age = 16
+	# prisoner = no
+	# only_playable = yes
+	# religion_group = pagan_group
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		NOT = {
-			has_game_rule = {
-				name = supernatural_events
-				value = off
-			}
-		}
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
-			religion = slavic_pagan
-			religion = slavic_pagan_reformed
-			religion = baltic_pagan
-			religion = baltic_pagan_reformed
-			religion = finnish_pagan
-			religion = finnish_pagan_reformed
-		}
-		NOT = { has_character_flag = the_old_ones_are_waking }
-		NOT = { is_inaccessible_trigger = yes }
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# NOT = {
+			# has_game_rule = {
+				# name = supernatural_events
+				# value = off
+			# }
+		# }
+		# OR = {
+			# religion = norse_pagan
+			# religion = norse_pagan_reformed
+			# religion = slavic_pagan
+			# religion = slavic_pagan_reformed
+			# religion = baltic_pagan
+			# religion = baltic_pagan_reformed
+			# religion = finnish_pagan
+			# religion = finnish_pagan_reformed
+		# }
+		# NOT = { has_character_flag = the_old_ones_are_waking }
+		# NOT = { is_inaccessible_trigger = yes }
+	# }
 	
-	immediate = {
-		set_character_flag = the_old_ones_are_waking
-	}
+	# immediate = {
+		# set_character_flag = the_old_ones_are_waking
+	# }
 	
-	mean_time_to_happen = {
-		months = 1000
-		modifier = {
-			factor = 100
-			NOT = { trait = lunatic }
-		}
-	}
+	# mean_time_to_happen = {
+		# months = 1000
+		# modifier = {
+			# factor = 100
+			# NOT = { trait = lunatic }
+		# }
+	# }
 	
-	option = {
-		name = EVTOPTA6352
-		if = {
-			limit = { NOT = { trait = lunatic } }
-			add_trait = lunatic
-		}
-		character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
-	}
-	option = {
-		name = EVTOPTB6352
-		trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-			NOT = { trait = lunatic }
-		}
-	}	
-}
+	# option = {
+		# name = EVTOPTA6352
+		# if = {
+			# limit = { NOT = { trait = lunatic } }
+			# add_trait = lunatic
+		# }
+		# character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
+	# }
+	# option = {
+		# name = EVTOPTB6352
+		# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+			# NOT = { trait = lunatic }
+		# }
+	# }	
+# }
 
 # A law against the killing of cats
-character_event = {
-	id = 6353
-	desc = EVTDESC6353
-	picture = GFX_evt_burning_house
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6353
+	# desc = EVTDESC6353
+	# picture = GFX_evt_burning_house
+	# border = GFX_event_normal_frame_religion
 	
-	ai = no
-	min_age = 16
-	prisoner = no
-	only_playable = yes
-	religion_group = pagan_group
+	# ai = no
+	# min_age = 16
+	# prisoner = no
+	# only_playable = yes
+	# religion_group = pagan_group
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		NOT = {
-			has_game_rule = {
-				name = supernatural_events
-				value = off
-			}
-		}
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
-			religion = slavic_pagan
-			religion = slavic_pagan_reformed
-			religion = baltic_pagan
-			religion = baltic_pagan_reformed
-			religion = finnish_pagan
-			religion = finnish_pagan_reformed
-		}
-		NOT = { has_character_flag = the_old_ones_are_waking }
-		NOT = { is_inaccessible_trigger = yes }
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# NOT = {
+			# has_game_rule = {
+				# name = supernatural_events
+				# value = off
+			# }
+		# }
+		# OR = {
+			# religion = norse_pagan
+			# religion = norse_pagan_reformed
+			# religion = slavic_pagan
+			# religion = slavic_pagan_reformed
+			# religion = baltic_pagan
+			# religion = baltic_pagan_reformed
+			# religion = finnish_pagan
+			# religion = finnish_pagan_reformed
+		# }
+		# NOT = { has_character_flag = the_old_ones_are_waking }
+		# NOT = { is_inaccessible_trigger = yes }
+	# }
 	
-	immediate = {
-		set_character_flag = the_old_ones_are_waking
-	}
+	# immediate = {
+		# set_character_flag = the_old_ones_are_waking
+	# }
 	
-	mean_time_to_happen = {
-		months = 1000
-		modifier = {
-			factor = 100
-			NOT = { trait = lunatic }
-		}
-	}
+	# mean_time_to_happen = {
+		# months = 1000
+		# modifier = {
+			# factor = 100
+			# NOT = { trait = lunatic }
+		# }
+	# }
 	
-	option = {
-		name = EVTOPTA6353
-		if = {
-			limit = { NOT = { trait = lunatic } }
-			add_trait = lunatic
-		}
-		character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
-	}
-	option = {
-		name = EVTOPTB6353
-		trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-			NOT = { trait = lunatic }
-		}
-	}	
-}
+	# option = {
+		# name = EVTOPTA6353
+		# if = {
+			# limit = { NOT = { trait = lunatic } }
+			# add_trait = lunatic
+		# }
+		# character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
+	# }
+	# option = {
+		# name = EVTOPTB6353
+		# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+			# NOT = { trait = lunatic }
+		# }
+	# }	
+# }
 
 # Visiting a quaint village
 character_event = {

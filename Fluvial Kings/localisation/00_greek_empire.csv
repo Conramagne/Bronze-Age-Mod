@@ -19,7 +19,7 @@ kingdom_of_acheaen;Témenos;;;;;;;;;;;;;x
 
 k_achaea;Akhaïa;;;;;;;;;;;;;x
 k_achaea_adj;Akhaios;;;;;;;;;;;;;x
-k_lakonia;Lákonia;;;;;;;;;;;;;x
+k_lakonia;Lákonía;;;;;;;;;;;;;x
 k_lakonia_adj;Lákon;;;;;;;;;;;;;x
 k_attica;Attica;;;;;;;;;;;;;x #central greece
 k_attica_adj;Attican;;;;;;;;;;;;;x #central greece
@@ -49,8 +49,8 @@ d_arcadia;Arkadia;;;;;;;;;;;;;x
 d_arcadia_adj;Arkadian;;;;;;;;;;;;;x
 d_argolis;Argolís;;;;;;;;;;;;;x
 d_argolis_adj;Argeios;;;;;;;;;;;;;x
-d_lacedemonia;Lakonía;;;;;;;;;;;;;x
-d_lacedemonia_adj;Lakon;;;;;;;;;;;;;x
+d_lacedemonia;Lákonía;;;;;;;;;;;;;x
+d_lacedemonia_adj;Lákon;;;;;;;;;;;;;x
 d_kythera;Kuthera;;;;;;;;;;;;;x
 d_kythera_adj;Kutheran;;;;;;;;;;;;;x
 d_messenia;Messenia;;;;;;;;;;;;;x
@@ -108,8 +108,8 @@ c_mases;Mases;;;;;;;;;;;;;x
 c_mases_adj;Masesi;;;;;;;;;;;;;x
 c_methana;Methana;;;;;;;;;;;;;x
 c_methana_adj;Methanai;;;;;;;;;;;;;x
-c_lacedemonia;Lakonía;;;;;;;;;;;;;x
-c_lacedemonia_adj;Lakonían;;;;;;;;;;;;;x
+c_lacedemonia;Lákonía;;;;;;;;;;;;;x
+c_lacedemonia_adj;Lákon;;;;;;;;;;;;;x
 c_prasiai;Prasiai;;;;;;;;;;;;;x
 c_prasiai_adj;Prasiaini;;;;;;;;;;;;;x
 c_epidauros_limera;Epidauros Limera;;;;;;;;;;;;;x
@@ -251,8 +251,8 @@ b_methana;Methana;;;;;;;;;;;;;x
 b_methana_adj;Methanai;;;;;;;;;;;;;x
 
 ###########Lakonian Baronies###########
-b_lacedemonia;Lakonía;;;;;;;;;;;;;x #sparta
-b_lacedemonia_adj;Spartan;;;;;;;;;;;;;x
+b_lacedemonia;Lákonía;;;;;;;;;;;;;x #sparta
+b_lacedemonia_adj;Lákon;;;;;;;;;;;;;x
 b_amyclae;Amyclae;;;;;;;;;;;;;x
 b_amyclae_adj;Amyclaen;;;;;;;;;;;;;x
 b_phare;Phare;;;;;;;;;;;;;x

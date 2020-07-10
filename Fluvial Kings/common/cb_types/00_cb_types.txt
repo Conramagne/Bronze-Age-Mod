@@ -28,14 +28,18 @@ claim = {
 	can_use_title = {
 		OR = {
 			ROOT = { is_female = no }
-			AND = { 
-				NOT = { ROOT = { religion_group = muslim } }
-				NOT = { ROOT = { has_religion_feature = religion_patriarchal } } 
-			}
+			NOT = { ROOT = { has_religion_feature = religion_patriarchal } } 
 		}
 		OR = {
 			ROOT = { is_female = yes }
-			NOT = { ROOT = { has_religion_feature = religion_matriarchal } } 
+			NOR = { 
+				ROOT = { 
+					has_religion_feature = religion_matriarchal 
+				} 
+				ROOT = {
+					culture = amazonios
+				}
+			} 
 		}
 		OR = {
 			FROM = {
@@ -132,6 +136,12 @@ claim = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		hidden_tooltip = {
 			ROOT = {
 				clr_character_flag = claimant_adventurer
@@ -194,6 +204,12 @@ claim = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			show_scope_change = no
 			prestige = -100
 			hidden_tooltip = {
@@ -223,6 +239,12 @@ claim = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -506,6 +528,12 @@ other_claim = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		hidden_tooltip = {
 			ROOT = {
 				if = {
@@ -742,6 +770,12 @@ other_claim = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			show_scope_change = no
 			prestige = -100
 		}
@@ -775,6 +809,12 @@ other_claim = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		prestige = -150
 		transfer_scaled_wealth = {
@@ -1003,6 +1043,12 @@ claim_on_liege = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		if = {
 			limit = {
 				is_primary_holder_title = yes
@@ -1067,6 +1113,12 @@ claim_on_liege = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -100
 		}
 		FROM = {
@@ -1099,6 +1151,12 @@ claim_on_liege = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -150
@@ -1309,6 +1367,12 @@ claim_on_liege_plot = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		usurp_title_plus_barony_if_unlanded = { target = ROOT type = claim }
 		
 		if = {
@@ -1335,6 +1399,12 @@ claim_on_liege_plot = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -100
@@ -1375,6 +1445,12 @@ claim_on_liege_plot = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -1512,6 +1588,12 @@ claim_on_vassal_plot = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		usurp_title_plus_barony_if_unlanded = { target = ROOT type = claim }
 		ROOT = { plot_succeeds = yes }
 
@@ -1535,6 +1617,12 @@ claim_on_vassal_plot = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -100
@@ -1568,6 +1656,12 @@ claim_on_vassal_plot = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -1827,6 +1921,12 @@ other_claim_on_liege = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		if = {
 			limit = {
 				is_primary_holder_title = yes
@@ -1957,6 +2057,12 @@ other_claim_on_liege = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		prestige = -100
 		
 		imprison = FROM
@@ -2001,6 +2107,12 @@ other_claim_on_liege = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		prestige = -200
 		
@@ -2146,6 +2258,12 @@ claim_all = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		ROOT = {
 			show_scope_change = no
 			any_claim = {
@@ -2245,6 +2363,12 @@ claim_all = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			show_scope_change = no
 			prestige = -150
 		}
@@ -2270,6 +2394,12 @@ claim_all = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -2490,6 +2620,12 @@ change_seniority_succession_law = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		succession_w_cooldown = seniority
 	}
 
@@ -2505,6 +2641,12 @@ change_seniority_succession_law = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -2544,6 +2686,12 @@ change_seniority_succession_law = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -2737,6 +2885,12 @@ change_primogeniture_succession_law = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		succession_w_cooldown = primogeniture
 	}
 
@@ -2752,6 +2906,12 @@ change_primogeniture_succession_law = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -2792,6 +2952,12 @@ change_primogeniture_succession_law = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -2974,6 +3140,12 @@ change_feudal_elective_succession_law = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		if = { 
 			limit = {
 				NOR = { 
@@ -3016,6 +3188,12 @@ change_feudal_elective_succession_law = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			show_scope_change = no
 			prestige = -100
 		}
@@ -3053,6 +3231,12 @@ change_feudal_elective_succession_law = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -3252,6 +3436,12 @@ invasion = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		custom_tooltip = {
 			text = invasion_succ_tip
 			hidden_tooltip = {
@@ -3444,6 +3634,12 @@ invasion = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			show_scope_change = no
 			prestige = -200
 		}
@@ -3473,6 +3669,12 @@ invasion = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -3832,6 +4034,12 @@ tribal_invasion = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 	
 		if = {
 			limit = {
@@ -3915,6 +4123,12 @@ tribal_invasion = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		FROM = {
 			show_scope_change = no
 			prestige = 100
@@ -3957,6 +4171,12 @@ tribal_invasion = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -4340,6 +4560,12 @@ crusade = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 	
 		# Should we give the seized land to its current king?
 		if = {
@@ -4578,6 +4804,12 @@ crusade = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			show_scope_change = no
 			piety = -100
 		}
@@ -4662,6 +4894,12 @@ crusade = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -4971,6 +5209,12 @@ new_crusade = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			crusade_target_title = {
@@ -6136,6 +6380,12 @@ new_crusade = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			character_event = { id = HFP.41199}
 		}
 
@@ -6222,6 +6472,12 @@ new_crusade = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			character_event = { id = HFP.41199 }
@@ -6451,6 +6707,7 @@ religious = {
 
 	can_use = {
 		ROOT = {
+			religion_group = bnai_avraham
 			is_nomadic = no
 			NOT = { religion_group = pagan_group }
 			NOT = { pacifist = yes }
@@ -6740,6 +6997,12 @@ religious = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		if = { # Standard Holy War behaviour for Non-Muslims and Muslims fighting other Muslims
 			show_scope_change = no
 			limit = {
@@ -6823,6 +7086,12 @@ religious = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			show_scope_change = no
 			piety = -50 
 			prestige = -100
@@ -6841,6 +7110,12 @@ religious = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -7168,6 +7443,12 @@ excommunicated_ruler = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		if = {
 			limit = { 
 				ROOT = { has_character_flag = flag_excommunicated_for_coronation }
@@ -7271,6 +7552,12 @@ excommunicated_ruler = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			piety = -50
 			prestige = -100
 		}
@@ -7294,6 +7581,12 @@ excommunicated_ruler = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			piety = -100
@@ -7471,6 +7764,12 @@ bid_for_independence = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		if = {
 			limit = {
 				FROM = {
@@ -7584,6 +7883,12 @@ bid_for_independence = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -50
 			participation_scaled_prestige = -50
 		}
@@ -7605,6 +7910,12 @@ bid_for_independence = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -100
@@ -7757,6 +8068,12 @@ depose_liege = {
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		FROM = {
 			prestige = -500
 			if = {
 				limit = { NOT = { has_dlc = "Zeus" } }
@@ -7820,6 +8137,12 @@ depose_liege = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -100
 		}
 	}
@@ -7836,6 +8159,12 @@ depose_liege = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -7954,6 +8283,12 @@ overthrow_ruler = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		ROOT = {
 			primary_title = {
 				add_pressed_claim = FROM	
@@ -8047,6 +8382,12 @@ overthrow_ruler = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -100
 		}
 		FROM = {
@@ -8069,6 +8410,12 @@ overthrow_ruler = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -8206,6 +8553,12 @@ overthrow_ruler_no_calls = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		ROOT = {
 			prestige = 200
 			primary_title = {
@@ -8272,6 +8625,12 @@ overthrow_ruler_no_calls = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -100
 		}
 		
@@ -8296,6 +8655,12 @@ overthrow_ruler_no_calls = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -8464,6 +8829,12 @@ change_gavelkind_succession_law = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		succession_w_cooldown = gavelkind
 	}
 
@@ -8479,6 +8850,12 @@ change_gavelkind_succession_law = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -100
@@ -8516,6 +8893,12 @@ change_gavelkind_succession_law = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -8681,6 +9064,12 @@ lower_crown_authority_law = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		if = {
 			limit = { has_law = crown_authority_1 }
 			add_law_w_cooldown = crown_authority_0
@@ -8711,6 +9100,12 @@ lower_crown_authority_law = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -100
@@ -8749,6 +9144,12 @@ lower_crown_authority_law = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -8916,6 +9317,12 @@ lower_tribal_organization_law = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		if = {
 			limit = { has_law = tribal_organization_1 }
 			add_law_w_cooldown = tribal_organization_0
@@ -8946,6 +9353,12 @@ lower_tribal_organization_law = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -100
@@ -8984,6 +9397,12 @@ lower_tribal_organization_law = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -9149,6 +9568,12 @@ coastal_republic = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		if = {
 			limit = {
 				NOT = {
@@ -9200,6 +9625,12 @@ coastal_republic = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -100
 		}
 		FROM = {
@@ -9223,6 +9654,12 @@ coastal_republic = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -9402,6 +9839,12 @@ coastal_county_republic = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		if = {
 			limit = {
 				any_direct_de_jure_vassal_title = {
@@ -9466,6 +9909,12 @@ coastal_county_republic = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -100
 		}
 		FROM = {
@@ -9489,6 +9938,12 @@ coastal_county_republic = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -9635,6 +10090,12 @@ weaken_vassal_plot = {
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		FROM = {
 			random_vassal = {
 				limit = {
 					tier = count
@@ -9668,6 +10129,12 @@ weaken_vassal_plot = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -100
 			cancel_plot = plot_weaken_fellow_vassal
 		}
@@ -9699,6 +10166,12 @@ weaken_vassal_plot = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -9779,6 +10252,12 @@ decadence_invasion = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		any_playable_ruler = {
 			limit = {
@@ -9925,6 +10404,12 @@ decadence_invasion = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -200
 		}
 		FROM = {
@@ -9952,6 +10437,12 @@ decadence_invasion = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = { set_defacto_liege = FROM }
 		ROOT = {
@@ -10187,6 +10678,12 @@ muslim_invasion = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		custom_tooltip = { 
 			text = other_invasion_succ_tip
 			hidden_tooltip = {
@@ -10230,6 +10727,12 @@ muslim_invasion = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		FROM = {
 			show_scope_change = no
@@ -10302,6 +10805,12 @@ muslim_invasion = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -10531,6 +11040,12 @@ cb_faction_independence = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		if = {
 			limit = {
 				FROM = {
@@ -10636,6 +11151,12 @@ cb_faction_independence = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -50
 			add_character_modifier = {
 				name = faction_independence_ultimatum_timer
@@ -10674,6 +11195,12 @@ cb_faction_independence = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -100
@@ -10891,6 +11418,12 @@ imperial_reconquest = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		custom_tooltip = { 
 			text = other_invasion_succ_tip
 			hidden_tooltip = {
@@ -10931,6 +11464,12 @@ imperial_reconquest = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		ROOT = { prestige = -150 }
 	}
 
@@ -10946,6 +11485,12 @@ imperial_reconquest = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			transfer_scaled_wealth = {
@@ -11102,6 +11647,12 @@ embargo_cb = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		ROOT = {
 			embargo = FROM
 			if = {
@@ -11125,6 +11676,12 @@ embargo_cb = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		if = {
 			limit = {
@@ -11173,6 +11730,12 @@ embargo_cb = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		if = {
 			limit = {
@@ -11394,6 +11957,12 @@ seize_trade_post = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		
 		seize_trade_post = ROOT
 		
@@ -11420,6 +11989,12 @@ seize_trade_post = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -50
 		}
 		FROM = {
@@ -11443,6 +12018,12 @@ seize_trade_post = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -100
@@ -11603,6 +12184,12 @@ viking_invasion = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		custom_tooltip = { 
 			text = tribal_invasion_succ_tip
 			hidden_tooltip = {
@@ -11660,6 +12247,12 @@ viking_invasion = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		FROM = {
 			prestige = 200
 			participation_scaled_prestige = 200
@@ -11692,6 +12285,12 @@ viking_invasion = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -500
@@ -11863,6 +12462,12 @@ pagan_subjugation = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		ROOT = {
 			piety = 100
 			participation_scaled_prestige = 100
@@ -11930,6 +12535,12 @@ pagan_subjugation = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		FROM = {
 			piety = 50
 			participation_scaled_prestige = 50
@@ -11961,6 +12572,12 @@ pagan_subjugation = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			piety = -200
@@ -12084,18 +12701,6 @@ peasant_revolt = {
 	}
 
 	on_success_title = {
-		ROOT = {
-			if = {
-				government = hegemonic_government
-			}
-			character_event = { id = fkr.136 }
-		}
-		FROM = {
-			if = {
-				government = hegemonic_government
-			}
-			character_event = { id = fkr.137 }
-		}
 		usurp_title_plus_barony_if_unlanded = { target = ROOT type = revolt }
 		ROOT = { set_defacto_liege = ROOT }
 		FROM = {
@@ -12122,6 +12727,12 @@ peasant_revolt = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		FROM = {
 			prestige = 10
@@ -12157,6 +12768,12 @@ peasant_revolt = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		FROM = {
 			prestige = 20
@@ -12265,6 +12882,12 @@ heretic_revolt = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		ROOT = {
 			vassalize_or_take_under_title = {
 				title = PREV
@@ -12315,6 +12938,12 @@ heretic_revolt = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			clear_wealth = yes
 			imprison = FROM
 			clr_character_flag = heretic_revolter
@@ -12353,6 +12982,12 @@ heretic_revolt = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			clear_wealth = yes
@@ -12466,6 +13101,12 @@ religious_revolt = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		ROOT = {
 			vassalize_or_take_under_title = {
 				title = PREV
@@ -12516,6 +13157,12 @@ religious_revolt = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			clear_wealth = yes
 			imprison = FROM
 			clr_character_flag = religious_revolter
@@ -12554,6 +13201,12 @@ religious_revolt = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			clear_wealth = yes
@@ -12671,6 +13324,12 @@ liberation_revolt = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		custom_tooltip = {
 			text = tribal_invasion_succ_tip
 			hidden_tooltip = {
@@ -12720,6 +13379,12 @@ liberation_revolt = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		FROM = {
 			prestige = 100
 			hidden_tooltip = {
@@ -12756,6 +13421,12 @@ liberation_revolt = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		FROM = {
 			prestige = 200
@@ -12855,6 +13526,12 @@ duchy_adventure = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		custom_tooltip = {
 			text = other_invasion_succ_tip
 			hidden_tooltip = {
@@ -12938,6 +13615,12 @@ duchy_adventure = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		FROM = {
 			prestige = 100
 			hidden_tooltip = {
@@ -12972,6 +13655,12 @@ duchy_adventure = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			transfer_scaled_wealth = {
@@ -13114,6 +13803,12 @@ kingdom_adventure = { # Used mainly for Muslims adventuring into India
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		custom_tooltip = {
 			text = other_invasion_succ_tip
@@ -13373,6 +14068,12 @@ kingdom_adventure = { # Used mainly for Muslims adventuring into India
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		FROM = {
 			prestige = 100
 			hidden_tooltip = {
@@ -13422,6 +14123,12 @@ kingdom_adventure = { # Used mainly for Muslims adventuring into India
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			transfer_scaled_wealth = {
@@ -13702,6 +14409,12 @@ pagan_holy_war = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		custom_tooltip = {
 			text = religious_cb_succ_tip
 			hidden_tooltip = {
@@ -13731,6 +14444,12 @@ pagan_holy_war = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		ROOT = { piety = -50 }
 		ROOT = { prestige = -100 }
 	}
@@ -13747,6 +14466,12 @@ pagan_holy_war = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			transfer_scaled_wealth = {
@@ -14009,6 +14734,12 @@ caliphal_subjugation = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		custom_tooltip = {
 			text = pagan_subjugation_tip
 			hidden_tooltip = {
@@ -14035,6 +14766,12 @@ caliphal_subjugation = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		FROM = {
 			prestige = 50
 			participation_scaled_prestige = 50
@@ -14060,6 +14797,12 @@ caliphal_subjugation = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -14226,6 +14969,12 @@ muslim_county_conquest = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		if = {
 			limit = {
 				holder_scope = {
@@ -14292,6 +15041,12 @@ muslim_county_conquest = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -100
 		}
 		FROM = {
@@ -14315,6 +15070,12 @@ muslim_county_conquest = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -14549,6 +15310,12 @@ pagan_county_conquest = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		} #winning the war
 		usurp_title_plus_barony_if_unlanded = { target = ROOT type = invasion }
 		
@@ -14626,6 +15393,12 @@ pagan_county_conquest = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		} #white peace
 		ROOT = {
 			show_scope_change = no
@@ -14683,6 +15456,12 @@ pagan_county_conquest = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		} #losing the war
 		ROOT = {
 			show_scope_change = no
@@ -15088,6 +15867,12 @@ dejure_county_claim = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		if = {
 			limit = {
 				holder_scope = {
@@ -15163,6 +15948,12 @@ dejure_county_claim = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -100
 		}
 		FROM = {
@@ -15186,6 +15977,12 @@ dejure_county_claim = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -15478,6 +16275,12 @@ dejure_barony_claim = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		holder_scope = {
 			save_event_target_as = target_taker
 		}
@@ -15523,6 +16326,12 @@ dejure_barony_claim = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -50
 		}
 		FROM = {
@@ -15546,6 +16355,12 @@ dejure_barony_claim = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -100
@@ -15612,6 +16427,12 @@ other_dejure_barony_claim = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 	}
 
 	on_fail = {
@@ -15627,6 +16448,12 @@ other_dejure_barony_claim = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 	}
 
 	on_reverse_demand = {
@@ -15641,6 +16468,12 @@ other_dejure_barony_claim = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 	}
 
@@ -15911,6 +16744,12 @@ other_dejure_county_claim = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		if = {
 			limit = {
 				holder_scope = {
@@ -15978,6 +16817,12 @@ other_dejure_county_claim = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		prestige = -50
 		ROOT = {
 			show_scope_change = no
@@ -16005,6 +16850,12 @@ other_dejure_county_claim = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		} #Attacker lost
 		prestige = -100
 		transfer_scaled_wealth = {
@@ -16109,6 +16960,12 @@ shia_caliphate_rising = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		custom_tooltip = {
 			text = tribal_invasion_succ_tip
@@ -16235,6 +17092,12 @@ shia_caliphate_rising = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		clr_global_flag = shia_caliphate_revolt_ongoing
 		FROM = {
 			piety = 250
@@ -16257,6 +17120,12 @@ shia_caliphate_rising = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		clr_global_flag = shia_caliphate_revolt_ongoing
 		ROOT = {
@@ -16411,6 +17280,12 @@ depose_antipope = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 	if = {
 		limit = { 
 			ROOT = {
@@ -16480,6 +17355,12 @@ depose_antipope = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		hidden_tooltip = {
 			FROM = {
 				clr_character_flag = flag_antipope_for_coronation
@@ -16510,6 +17391,12 @@ depose_antipope = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		hidden_tooltip = {
 			FROM = {
@@ -16638,6 +17525,12 @@ cb_install_antiking = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		any_attacker = {
 			limit = { NOT = { character = ROOT } }
 			hidden_tooltip = { 
@@ -16716,6 +17609,12 @@ cb_install_antiking = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		ROOT = { 
 			piety = -250
 			prestige = -125
@@ -16746,6 +17645,12 @@ cb_install_antiking = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			transfer_scaled_wealth = {
@@ -16982,6 +17887,12 @@ buddhist_holy_war = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		if = {
 			limit = {
 				holder_scope = {
@@ -17048,6 +17959,12 @@ buddhist_holy_war = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -100
 		}
 		FROM = {
@@ -17071,6 +17988,12 @@ buddhist_holy_war = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -17318,6 +18241,12 @@ indian_subjugation = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		# Usurp the target kingdom itself, if the enemy holds it
 		if = {
 			limit = {
@@ -17389,6 +18318,12 @@ indian_subjugation = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		FROM = {
 			participation_scaled_prestige = 100
 		}
@@ -17420,6 +18355,12 @@ indian_subjugation = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -17728,6 +18669,12 @@ manifest_destiny_invasion = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		custom_tooltip = { 
 			text = other_invasion_succ_tip
 			hidden_tooltip = {
@@ -17762,6 +18709,12 @@ manifest_destiny_invasion = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		FROM = {
 			prestige = 100
@@ -17805,6 +18758,12 @@ manifest_destiny_invasion = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -17978,6 +18937,12 @@ cb_decadence_usurption = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		usurp_title_plus_barony_if_unlanded = { target = ROOT type = invasion }
 	}
 
@@ -17993,6 +18958,12 @@ cb_decadence_usurption = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = { 
 			piety = -250
@@ -18016,6 +18987,12 @@ cb_decadence_usurption = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			transfer_scaled_wealth = {
@@ -18117,6 +19094,12 @@ rivalry_cb = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		any_attacker = {
 			limit = { NOT = { character = ROOT } }
 			hidden_tooltip = { 
@@ -18168,6 +19151,12 @@ rivalry_cb = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		ROOT = { 
 			prestige = -125
 		}
@@ -18188,6 +19177,12 @@ rivalry_cb = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		FROM = {
 			participation_scaled_prestige = 250
@@ -18293,6 +19288,19 @@ tributary_cb = {
 				religion = FROM
 			}
 			independent = yes
+		}
+		OR = {
+			ROOT = {
+				government = hegemonic_government
+			}
+			AND = {
+				ROOT = {
+					government = hegemonic_government
+				}
+				FROM = {
+					government = feudal_government
+				}
+			}
 		}
 		FROM = {
 			higher_tier_than = BARON
@@ -18411,6 +19419,12 @@ tributary_cb = {
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		FROM = {
 			show_scope_change = no
 			save_event_target_as = target_loser
 			prestige = -100
@@ -18499,6 +19513,12 @@ tributary_cb = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			show_scope_change = no
 			prestige = -100
 		}
@@ -18520,6 +19540,12 @@ tributary_cb = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -18879,6 +19905,12 @@ free_tributary_cb = {
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		FROM = {
 			show_scope_change = no
 			prestige = -100
 		}
@@ -18935,6 +19967,12 @@ free_tributary_cb = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			show_scope_change = no
 			prestige = -100
 		}
@@ -18956,6 +19994,12 @@ free_tributary_cb = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -19242,6 +20286,12 @@ cb_install_khan = {
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		FROM = {
 			any_demesne_title = {
 				limit = { tier = EMPEROR }
 				gain_title = { target = ROOT type = faction_demand }
@@ -19274,6 +20324,12 @@ cb_install_khan = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			show_scope_change = no
 			prestige = -100
 		}
@@ -19291,6 +20347,12 @@ cb_install_khan = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -19432,6 +20494,12 @@ nomad_dispute = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		usurp_title_plus_barony_if_unlanded = { target = ROOT type = invasion }
 		
 		ROOT = {
@@ -19462,6 +20530,12 @@ nomad_dispute = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			show_scope_change = no
 			prestige = -100
 		}
@@ -19487,6 +20561,12 @@ nomad_dispute = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -19704,6 +20784,12 @@ cb_liberate_nomad_duchy = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		check_holy_order_donation_effect = yes
 
 		custom_tooltip = {
@@ -19735,6 +20821,12 @@ cb_liberate_nomad_duchy = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			show_scope_change = no
 			prestige = -200
 		}
@@ -19752,6 +20844,12 @@ cb_liberate_nomad_duchy = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			show_scope_change = no
@@ -19922,6 +21020,12 @@ cb_minor_clan_revolt = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		usurp_title_plus_barony_if_unlanded = { target = ROOT type = revolt }
 	
 		ROOT = {
@@ -19961,6 +21065,12 @@ cb_minor_clan_revolt = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		FROM = {
 			prestige = 10
 			hidden_tooltip = {
@@ -19995,6 +21105,12 @@ cb_minor_clan_revolt = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		FROM = {
 			prestige = 20
@@ -20198,6 +21314,12 @@ nomad_subjugation = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		hidden_tooltip = {
 			ROOT = {
 				if = {
@@ -20340,6 +21462,12 @@ nomad_subjugation = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		FROM = {
 			piety = 50
 			participation_scaled_prestige = 50
@@ -20381,6 +21509,12 @@ nomad_subjugation = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			piety = -200
@@ -20618,6 +21752,12 @@ nomad_invasion = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		custom_tooltip = {
 			text = tribal_invasion_succ_tip
 			hidden_tooltip = {
@@ -20652,6 +21792,12 @@ nomad_invasion = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		FROM = {
 			prestige = 100
@@ -20693,6 +21839,12 @@ nomad_invasion = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -21060,6 +22212,12 @@ nomad_expansion = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		custom_tooltip = {
 			text = pagan_subjugation_tip
 			hidden_tooltip = {
@@ -21093,6 +22251,12 @@ nomad_expansion = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		ROOT = { 
 			prestige = -200
 		}
@@ -21110,6 +22274,12 @@ nomad_expansion = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			transfer_scaled_wealth = {
@@ -21344,6 +22514,12 @@ increase_council_power_war = { # Started from faction
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		increase_council_power_effect = yes
 		increase_vassal_freedom_effect = yes
 	}
@@ -21360,6 +22536,12 @@ increase_council_power_war = { # Started from faction
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -100
@@ -21398,6 +22580,12 @@ increase_council_power_war = { # Started from faction
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -21572,6 +22760,12 @@ nomad_humiliate_cb = {
 			}
 			character_event = { id = fkr.137 }
 		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
 		ROOT = {
 			prestige = 300
 			steal_population_scaled = {
@@ -21598,6 +22792,12 @@ nomad_humiliate_cb = {
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -100
 		}
 		FROM = {
@@ -21617,6 +22817,12 @@ nomad_humiliate_cb = {
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200
@@ -21886,6 +23092,12 @@ powerful_vassal_takeover_war = { # Started from faction
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		FROM = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		} #This is the target title of the faction
 		increase_council_power_effect = yes
 		increase_vassal_freedom_effect = yes
@@ -22014,6 +23226,12 @@ powerful_vassal_takeover_war = { # Started from faction
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
 			prestige = -100
 		}
 		
@@ -22055,6 +23273,12 @@ powerful_vassal_takeover_war = { # Started from faction
 				government = hegemonic_government
 			}
 			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				government = stratocratic_government
+			}
+			character_event = { id = fkr.321 }
 		}
 		ROOT = {
 			prestige = -200

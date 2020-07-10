@@ -404,8 +404,6 @@ e_greek_empire = {
 		
 		achaean = "Krete"
 		
-		#culture = manden
-		
 		d_knossos = { 
 			color = { 237 98 54 }
 			color2 = { 255 255 255 }
@@ -458,7 +456,7 @@ e_greek_empire = {
 				b_aptarra = {}
 			}
 		}
-		d_kydonia = { 
+		d_lasynthos = { 
 			color = { 255 195 87 }
 			color2 = { 255 255 255 }
 	

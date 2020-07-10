@@ -9,9 +9,9 @@ tribal_governments = {
 		}
 		accepts_liege_governments_culture = { # Tribals have no opinion penalty towards their liege if of the same culture
 			feudal_government
-			muslim_government
-			theocratic_feudal_government
-			chinese_imperial_government
+			# muslim_government
+			# theocratic_feudal_government
+			# chinese_imperial_government
 			tribal_confederacy_government
 			regional_kingdom_government
 			hegemonic_government
@@ -40,12 +40,12 @@ tribal_governments = {
 			}
 			OR = {
 				controls_religion = no
-				religion_group = muslim
+				# religion_group = muslim
 				has_religion_feature = religion_temporal_head
-				AND = {
-					religion = norse_pagan_reformed
-					has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
-				}
+				# AND = {
+					# religion = norse_pagan_reformed
+					# has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
+				# }
 			}
 			is_patrician = no
 			mercenary = no
@@ -118,12 +118,12 @@ tribal_governments = {
 			}
 			OR = {
 				controls_religion = no
-				religion_group = muslim
+				# religion_group = muslim
 				has_religion_feature = religion_temporal_head
-				AND = {
-					religion = norse_pagan_reformed
-					has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
-				}
+				# AND = {
+					# religion = norse_pagan_reformed
+					# has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
+				# }
 			}
 			is_patrician = no
 			mercenary = no

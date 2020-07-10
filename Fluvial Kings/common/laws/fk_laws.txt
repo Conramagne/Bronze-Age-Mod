@@ -18,7 +18,7 @@ laws = {
 		group = system_law
 		
 		potential = {
-			NOT = { tier = baron }
+			higher_real_tier_than = BARON
 			is_feudal = yes
 		}
 		allow = {
@@ -95,7 +95,7 @@ laws = {
 		default = yes
 		
 		potential = {
-			NOT = { tier = baron }
+			higher_real_tier_than = BARON
 			is_feudal = yes
 		}
 		allow = {

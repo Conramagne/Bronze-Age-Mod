@@ -1280,7 +1280,7 @@
 1100180 = { #Castor
 	name = "Castor"
 	dynasty = 2100011 #Lacedaemonid
-	culture = achaean
+	culture = theogonos
 	religion = pantes_theoi
 	father = 2101006
 	mother = 2101005
@@ -1301,7 +1301,7 @@
 1100181 = { #Pollux
 	name = "Pollux"
 	dynasty = 2100011 #Lacedaemonid
-	culture = achaean
+	culture = theogonos
 	religion = pantes_theoi
 	father = 1100146
 	mother = 2101005

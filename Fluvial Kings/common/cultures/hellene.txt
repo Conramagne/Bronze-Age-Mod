@@ -7,38 +7,42 @@ hellene = {
 		color = { 0.8 0.2 0.8 }
 
 		male_names = {
-			Abas Akastos Aiguptios Agamemnon Agenor Agrius Aiakos Akhareus Akhilleus Aktaion Alektruon Alexandros Alkathous Amphimedes Andronikh Antromaxos Aranareus Argurios Aristaios Arkeisios Atreus Augewas 
-			Dhmofanhs Didereus Diomedes Drakokardos Drakomaxos 
-			Ekhinos Enkhelyawon Eruthros Etewoklewes Eumenes Euruptolemos 
+			Abas Actor Acastos_Akastos Agamemnon Agapenor Agasthenes Agenor Aglaophonus Agrius Aiakos Aigeús Aiguptios Aiputos Akamas Akhareus Akhilleus Aktaion Alektruon Aleos Alexandros Alkathous Amphidamas Amphiktuon Amphimachcos Amphimedes Andronikh Ankaios Antromaxos Apheidas Aranareus Argurios Aristaios Arkas Arkeisios Askalaphos Athamas Atreus Augewas 
+			Cepheus Chalcodon
+			Demophon Dhmofanhs Didereus Diomedes Drakokardos Drakomaxos 
+			Eleîos Ekhinos Enkhelyawon Elatos Elephenor Erechtheos Eruthros Etewoklewes Eumenes Euruptolemos Eurutos
 			Filaretos 
 			Glaukos Gouneus 
 			Hektor 
-			Iason Idmon 
-			Kadmos Kalkhas Khalkeus Kleonikh Klumenos Kretheus Kupridhmos Kyprios 
-			Laertes Leukopeus Lukios Lukimnios Lukomedes 
-			Makhawon Medon Melas Menelaos 
+			Ialmenos Iason Idmon 
+			Kadmos Kalkhas Kékrops Khalkeus Kleonikh Klúmenos Kretheus Kteatos Kupridhmos Kyprios 
+			Laertes Leukopeus Lukaon Lukios Lukimnios Lukomedes Lukourgos 
+			Makhawon Medon Melas Menelaos Menestheus
 			Narkissos Nestor Nikostratos 
-			Oineus Orestes 
-			Pandion Patroklos Peleus Phoinix Phokus Plouteus Poimen Poimnios Poliwos Radamanqus Sarpedon Sterope 
-			Tawagalawa Telamon Teukros Theseus Thestor Trambelus Tripodiskos Tripolemos Tros Tudeus Tulisios Turios Twinon Tudeus 
+			Oineus Orestes Orneus
+			Pandion Patroklos Peleus Pereos Peteus Phoinix Phokus Phrixos Plouteus Poimen Poimnios Poliwos Poluxenos Presbon
+			Radamanqus 
+			Sarpedon Sterope Stumphalos
+			Tawagalawa Telamon Teukros Thalpius Theseus Thestor Trambelus Tripodiskos Tripolemos Tros Tudeus Tulisios Turios Twinon Tudeus 
 			Wedaneus 
 			Xaridhmos
 		}
 		
 		female_names = {
-			Aglaophonus Arete Alexandra Ariadnh Argea Ainarete Atalante
+			Alcyone Arete Alexandra Ariadnh Argea Ainarete Astyoche Antinoe Atalante Auge
 			Biadice
-			Cassiepeia_Cassiopeia Calypso
+			Callisto Calypso Cassiepeia_Cassiopeia Cleobule
 			Demodice_Demodoce
-			Elara Eritha Ereutija Europa Eurydice Euru
+			Elara Eritha Ereutija Europa Eurycyda Eurydice Euru
 			Gorgopis
-			Io Îphis Iphimedeia
+			Io Iotis Îphis Iphimedeia
 			Karpathia Korinsia Kalyke
-			Laodice Leukothéa_Leucothoë Lilaea
-			Meliboea Molpe
-			Nephele Niobe
-			Pandora Peneus Polycaste Poulxeria
+			Laodamia Laodice Leukothéa_Leucothoë Lilaea
+			Meliboea Metiadosa Molione Molpe
+			Nausidame Neaera Nephele Niobe
+			Pandora Peloris Peneus Polycaste Poulxeria Praxithea Pylia
 			Thermisto Thelxinóe Thronia_Thronie Tyro
+			Zeuxippe
 		}
 		dukes_called_kings = yes
 
@@ -301,4 +305,88 @@ hellene = {
 
 		modifier = default_culture_modifier
 	}
+}
+
+cretan = {
+	graphical_cultures = { westerngfx }
+	minoan = {
+		graphical_cultures = { croatsouthslavicgfx }
+
+		color = { 0.8 0.2 0.8 }
+
+		male_names = {
+			Akakallis Althaimenus Androgeos Asterion
+			Deukalion
+			Eurymedon Euxantios
+			Glaukos
+			Idomeneus Iphiklos
+			Katreus Khrúses
+			Minos
+			Nephalion
+			Orsilochos
+			Philolaus Pholegander
+		}
+		
+		female_names = {
+			Aërope Apemosune Ariadne 
+			Cleisithyra
+			Europa
+			Kleopatra Klumene
+			Pasipháe Phaidra
+			Xenodike
+		}
+		dukes_called_kings = yes
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+	
+	bull = {
+		graphical_cultures = { greekgodgfx }
+
+		color = { 0.8 0.2 0.8 }
+
+		male_names = {
+			Akakallis Althaimenus Androgeos Asterion
+			Deukalion
+			Eurymedon Euxantios
+			Glaukos
+			Idomeneus
+			Katreus Khrúses
+			Minos
+			Nephalion
+			Philolaus Pholegander
+		}
+		
+		female_names = {
+			Aërope Apemosune Ariadne 
+			Europa
+			Kleopatra Klumene
+			Pasipháe Phaidra
+			Xenodike
+		}
+		dukes_called_kings = yes
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+
 }

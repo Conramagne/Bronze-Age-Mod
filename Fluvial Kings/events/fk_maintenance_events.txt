@@ -55,3 +55,24 @@ character_event = {
 		add_trait = amazonios_trait
 	}
 }
+
+#Removes Amazon Trait (MTTH)
+character_event = {
+	id = fkm.4
+	hide_window = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		trait = amazonios_trait
+		NOT = {
+			culture = amazonios
+		}
+	}
+	
+	immediate = {
+		remove_trait = amazonios_trait
+	}
+}

@@ -1,0 +1,215 @@
+title_chief_of_the_royal_bodyguard = {
+	dignity = 0.06
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 10
+	
+	monthly_salary = 0.02
+	monthly_prestige = 0.40
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		is_adult = yes
+		OR = { 
+			male_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
+		}
+		NOT = { trait = incapable } 
+	}
+	
+	allowed_to_grant = {
+		has_landed_title = e_hittite_empire
+		government = hegemonic_government
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_overseer_of_the_golden_grooms = {
+	dignity = 0.06
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 10
+	
+	monthly_salary = 0.02
+	monthly_prestige = 0.40
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		is_adult = yes
+		OR = { 
+			male_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
+		}
+		NOT = { trait = incapable } 
+	}
+	
+	allowed_to_grant = {
+		has_landed_title = e_hittite_empire
+		government = hegemonic_government
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_chief_of_the_wooden_tablet_scribes = {
+	dignity = 0.05
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 5
+	
+	monthly_salary = 0.01
+	monthly_prestige = 0.30
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		is_adult = yes
+		OR = { 
+			male_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
+		}
+		NOT = { trait = incapable } 
+	}
+	
+	allowed_to_grant = {
+		has_landed_title = e_hittite_empire
+		government = hegemonic_government
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_chief_of_the_palace_servants = {
+	dignity = 0.05
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 5
+	
+	monthly_salary = 0.01
+	monthly_prestige = 0.30
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		is_adult = yes
+		OR = { 
+			male_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
+		}
+		NOT = { trait = incapable } 
+	}
+	
+	allowed_to_grant = {
+		has_landed_title = e_hittite_empire
+		government = hegemonic_government
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_chief_of_the_storehouse = {
+	dignity = 0.05
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 10
+	
+	monthly_salary = 0.02
+	monthly_prestige = 0.40
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		is_adult = yes
+		OR = { 
+			male_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
+		}
+		NOT = { trait = incapable } 
+	}
+	
+	allowed_to_grant = {
+		has_landed_title = e_hittite_empire
+		government = hegemonic_government
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_chief_of_the_scribes = {
+	dignity = 0.05
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 5
+	
+	monthly_salary = 0.01
+	monthly_prestige = 0.20
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		is_adult = yes
+		OR = { 
+			male_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
+		}
+		NOT = { trait = incapable } 
+	}
+	
+	allowed_to_grant = {
+		has_landed_title = e_hittite_empire
+		government = hegemonic_government
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}

@@ -736,10 +736,11 @@ character_event = {
 	
 	immediate = {
 		save_event_target_as = pursuing_god
-		any_character = {
+		random_character = {
 			limit = {
 				religion_group = hellenic
 				is_female = yes
+				is_adult = yes
 				is_pregnant = no
 				NOT = {
 					has_character_flag = flag_god
@@ -978,6 +979,15 @@ character_event = {
 	}
 	
 	immediate = {
+		set_graphical_culture = mother
+		remove_trait = inbred
+		remove_trait = weak
+		remove_trait = slow
+		remove_trait = imbecile
+		remove_trait = sickly
+		remove_trait = clubfooted
+		remove_trait = lunatic
+		remove_trait = ugly
 		any_character = {
 			limit = {
 				OR = {
@@ -993,6 +1003,11 @@ character_event = {
 				mother = {
 					has_character_flag = zeus_warrior
 				}
+				NOT = {
+					any_owned_bloodline = {
+						has_bloodline_flag = blood_of_zeus
+					}
+				}
 			}
 			set_character_flag = child_of_zeus
 			create_bloodline = {
@@ -1003,6 +1018,11 @@ character_event = {
 			limit = {
 				mother = {
 					has_character_flag = poseidaon_warrior
+				}
+				NOT = {
+					any_owned_bloodline = {
+						has_bloodline_flag = blood_of_poseidaon
+					}
 				}
 			}
 			set_character_flag = child_of_poseidaon
@@ -1015,11 +1035,39 @@ character_event = {
 				mother = {
 					has_character_flag = ares_warrior
 				}
+				NOT = {
+					any_owned_bloodline = {
+						has_bloodline_flag = blood_of_ares
+					}
+				}
 			}
 			set_character_flag = child_of_ares
 			create_bloodline = {
 				type = god_ares_bloodline
 			}
+		}
+		mother = {
+			clr_character_flag = zeus_warrior
+			clr_character_flag = poseidaon_warrior
+			clr_character_flag = ares_warrior
+			remove_character_modifier = incestuous_adulterer
+			remove_character_modifier = incestuous_adulteress
+			remove_character_modifier = adulterer
+			remove_character_modifier = adulteress
+			remove_character_modifier = known_sodomite
+			remove_character_modifier = known_sodomite_pagan
+			remove_character_modifier = cradle_robber
+			remove_character_modifier = adulterous_priest
+		}
+		true_father = {
+			remove_character_modifier = incestuous_adulterer
+			remove_character_modifier = incestuous_adulteress
+			remove_character_modifier = adulterer
+			remove_character_modifier = adulteress
+			remove_character_modifier = known_sodomite
+			remove_character_modifier = known_sodomite_pagan
+			remove_character_modifier = cradle_robber
+			remove_character_modifier = adulterous_priest
 		}
 	}
 }
@@ -1065,10 +1113,7 @@ character_event = {
 		}
 		remove_trait = feeble
 		add_trait = strong
-		remove_trait = inbred
-		remove_trait = weak
-		remove_trait = slow
-		remove_trait = imbecile
+		add_trait = ambitious
 		change_martial = 3
 		add_character_modifier = {
 			modifier = hellenic_birthright
@@ -1101,15 +1146,39 @@ character_event = {
 				}
 			}
 		}
-		if = {
+		else_if = {
 			limit = {
-				NOT = {
-					current_heir = {
-						dynasty = ROOT
-					}
+				any_child = {
+					is_landed = yes
 				}
 			}
-			heir_under_primogeniture_law = {
+			any_child = {
+				limit = {
+					is_landed = yes
+				}
+				add_character_modifier = {
+					modifier = hellenic_birthright
+					duration = -1
+				}
+			}
+		}
+		# else_if = {
+			# limit = {
+				# NOT = {
+					# current_heir = {
+						# dynasty = ROOT
+					# }
+				# }
+			# }
+			# heir_under_primogeniture_law = {
+				# add_character_modifier = {
+					# modifier = hellenic_birthright
+					# duration = -1
+				# }
+			# }
+		# }
+		else = {
+			dynasty_head = {
 				add_character_modifier = {
 					modifier = hellenic_birthright
 					duration = -1
@@ -1142,7 +1211,7 @@ character_event = {
 		}
 		else_if = {
 			limit = {
-				mother = {
+				mother_even_if_dead = {
 					any_sibling = {
 						ai = no
 					}
@@ -1159,12 +1228,12 @@ character_event = {
 		else_if = {
 			limit = {
 				OR = {
-					mother = {
+					mother_even_if_dead = {
 						spouse = {
 							ai = no
 						}
 					}
-					mother = {
+					mother_even_if_dead = {
 						is_landed = no
 						spouse = {
 							is_landed = yes
@@ -1172,7 +1241,7 @@ character_event = {
 					}
 				}
 			}
-			mother = {
+			mother_even_if_dead = {
 				spouse = {
 					save_event_target_as = dynasty_player
 				}
@@ -1181,22 +1250,41 @@ character_event = {
 		}
 		else_if = {
 			limit = {
-				OR = {
-					mother = {
-						father = {
+				mother_even_if_dead = {
+					is_landed = no
+					spouse = {
+						any_close_relative = {
 							ai = no
-						}
-					}
-					mother = {
-						is_landed = no
-						father = {
-							is_landed = yes
 						}
 					}
 				}
 			}
-			mother = {
-				father = {
+			mother_even_if_dead = {
+				spouse = {
+					random_close_relative = {
+						limit = {
+							ai = no
+						}
+						save_event_target_as = dynasty_player
+					}
+				}
+			}
+			dynasty = event_target:dynasty_player
+		}
+		else_if = {
+			limit = {
+				mother_even_if_dead = {
+					is_landed = no
+					father_even_if_dead = {
+						is_landed = yes
+						NOT = {
+							has_character_flag = flag_god
+						}
+					}
+				}
+			}
+			mother_even_if_dead = {
+				father_even_if_dead = {
 					save_event_target_as = dynasty_player
 				}
 			}
@@ -1204,22 +1292,18 @@ character_event = {
 		}
 		else_if = {
 			limit = {
-				OR = {
-					mother = {
-						mother = {
-							ai = no
-						}
-					}
-					mother = {
-						is_landed = no
-						mother = {
-							is_landed = yes
+				mother_even_if_dead = {
+					is_landed = no
+					mother_even_if_dead = {
+						is_landed = yes
+						NOT = {
+							has_character_flag = flag_god
 						}
 					}
 				}
 			}
-			mother = {
-				mother = {
+			mother_even_if_dead = {
+				mother_even_if_dead = {
 					save_event_target_as = dynasty_player
 				}
 			}
@@ -1227,11 +1311,83 @@ character_event = {
 		}
 		else_if = {
 			limit = {
-				mother = {
+				mother_even_if_dead = {
+					is_landed = no
+					spouse = {
+						father_even_if_dead = {
+							is_landed = yes
+							NOT = {
+								has_character_flag = flag_god
+							}
+						}
+					}
+				}
+			}
+			mother_even_if_dead = {
+				spouse = {
+					father_even_if_dead = {
+						save_event_target_as = dynasty_player
+					}
+				}
+			}
+			dynasty = event_target:dynasty_player
+		}
+		else_if = {
+			limit = {
+				mother_even_if_dead = {
+					is_landed = no
+					spouse = {
+						mother_even_if_dead = {
+							is_landed = yes
+							NOT = {
+								has_character_flag = flag_god
+							}
+						}
+					}
+				}
+			}
+			mother_even_if_dead = {
+				spouse = {
+					mother_even_if_dead = {
+						save_event_target_as = dynasty_player
+					}
+				}
+			}
+			dynasty = event_target:dynasty_player
+		}
+		else_if = {
+			limit = {
+				mother_even_if_dead = {
+					is_landed = no
+					spouse = {
+						any_close_relative = {
+							is_landed = yes
+							NOT = {
+								has_character_flag = flag_god
+							}
+						}
+					}
+				}
+			}
+			mother_even_if_dead = {
+				spouse = {
+					random_close_relative = {
+						save_event_target_as = dynasty_player
+					}
+				}
+			}
+			dynasty = event_target:dynasty_player
+		}
+		else_if = {
+			limit = {
+				mother_even_if_dead = {
 					is_landed = yes
 				}
 			}
 			
+			dynasty = mother_even_if_dead
+		}
+		else = { #failsafe to prevent dynasty being Theogonos
 			dynasty = mother
 		}
 		remove_trait = bastard
@@ -1271,11 +1427,102 @@ character_event = {
 character_event = {
 	id = fkp.9000
 	hide_window = yes
-	is_triggered_only = yes
 	trigger = {
 		has_character_flag = flag_god
 	}
+	mean_time_to_happen = {
+		days = 1
+	}
 	immediate = {
 		clear_wealth = yes
+		remove_trait = is_fat
+		remove_trait = is_malnourished
+		remove_trait = celibate
+		remove_trait = falconer
+		remove_trait = poet
+		remove_trait = depressed
+		remove_trait = drunkard
+		remove_trait = incapable
+		remove_trait = infirm
+		remove_trait = lunatic
+		remove_trait = possessed
+		remove_trait = stressed
+		remove_trait = wounded
+		remove_trait = scarred
+		remove_trait = scarred_mid
+		remove_trait = scarred_high
+		remove_trait = maimed
+		remove_trait = immortal
+		remove_trait = physician
+		remove_trait = has_aztec_disease
+		remove_trait = has_typhus
+		remove_trait = cancer
+		remove_trait = has_tuberculosis
+		remove_trait = dancing_plague
+		remove_trait = dysentery
+		remove_trait = flu
+		remove_trait = food_poisoning
+		remove_trait = gout
+		remove_trait = syphilitic
+		remove_trait = has_typhoid_fever
+		remove_trait = ill
+		remove_trait = leper
+		remove_trait = has_measles
+		remove_trait = pneumonic
+		remove_trait = rabies
+		remove_trait = scurvy
+		remove_trait = sickly
+		remove_trait = has_small_pox
+		remove_trait = has_bubonic_plague
+		remove_trait = abdominal_pain
+		remove_trait = chest_pain
+		remove_trait = cough
+		remove_trait = cramps
+		remove_trait = diarrhea
+		remove_trait = fatigue
+		remove_trait = fever
+		remove_trait = headache
+		remove_trait = infection
+		remove_trait = malaise
+		remove_trait = rash
+		remove_trait = vomiting
+		remove_trait = robust
+		remove_trait = sturdy
+		remove_trait = feeble
+		remove_trait = shrewd
+		remove_trait = dull
+		remove_trait = groomed
+		remove_trait = uncouth
+		remove_trait = chaste
+		remove_trait = temperate
+		remove_trait = charitable
+		remove_trait = diligent
+		remove_trait = patient
+		remove_trait = kind
+		remove_trait = humble
+		remove_trait = lustful	
+		remove_trait = gluttonous	
+		remove_trait = greedy	
+		remove_trait = slothful
+		remove_trait = wroth
+		remove_trait = envious
+		remove_trait = proud
+		remove_trait = ambitious
+		remove_trait = arbitrary
+		remove_trait = brave
+		remove_trait = content
+		remove_trait = craven
+		remove_trait = cruel
+		remove_trait = cynical
+		remove_trait = deceitful
+		remove_trait = erudite
+		remove_trait = gregarious
+		remove_trait = honest
+		remove_trait = just
+		remove_trait = paranoid
+		remove_trait = shy
+		remove_trait = stubborn
+		remove_trait = trusting
+		remove_trait = zealous
 	}
 }

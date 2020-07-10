@@ -2,6 +2,16 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=k_minoa
+2451.1.1={
+	liege = k_minoa
+	holder = 2101510 #Minos
+}
+2501.1.1={
+	holder = 2101505 #Katreus
+}
+2511.1.1={
+	holder = 2101502 #Deukalion
+}
+2521.1.1={
+	holder = 2101500 #Idomeneus
 }

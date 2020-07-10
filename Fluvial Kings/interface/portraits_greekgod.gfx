@@ -4,7 +4,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_greekgod_male_base"
 		texturefile = "gfx\\characters\\greekgod\\greekgod_male_portrait.dds"
-		noOfFrames = 18
+		noOfFrames = 20
 		norefcount = yes
 	}
 
@@ -99,7 +99,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_greekgod_female_base"
 		texturefile = "gfx\\characters\\greekgod\\greekgod_female_portrait.dds"
-		noOfFrames = 18
+		noOfFrames = 20
 		norefcount = yes
 	}
 

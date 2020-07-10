@@ -1,13 +1,13 @@
 oppressive_rule = {
 	local_tax_modifier = 0.25
-	local_revolt_risk = 0.15
+	local_revolt_risk = 0.05
 	icon = 98
 }
 
 autonomous_rule = {
 	local_tax_modifier = -0.25
 	levy_size = -0.25
-	local_revolt_risk = -0.3
+	local_revolt_risk = -0.05
 	icon = 97
 }
 
@@ -419,7 +419,7 @@ sold_bureaucratic_positions = {
 	global_levy_size = -0.05
 	build_time_modifier = 0.10
 	build_cost_modifier = 0.10
-	general_opinion = -20
+	feudal_opinion = -20
 	just_opinion = -25
 }
 
@@ -462,5 +462,9 @@ requested_personal_tribute = {
 }
 
 hellenic_birthright = {
+	icon = 9
+}
+
+conquer_cooldown = {
 	icon = 9
 }

@@ -97,7 +97,6 @@ decisions = {
 		
 		potential = {
 			has_curse_trigger = yes
-			ai = no
 		}
 		allow = {
 			is_incapable = no
@@ -110,6 +109,9 @@ decisions = {
 		revoke_allowed = {
 			always = no
 		}
+		ai_will_do = {
+			factor = 1
+		} 
 	}
 
 	bureaucratic_reform = {
@@ -172,6 +174,7 @@ decisions = {
 			is_feudal = yes
 			higher_real_tier_than = COUNT
 			prisoner = no
+			has_character_modifier = palace_bureaucracy
 			NOT = {
 				is_incapable = yes
 			}
@@ -221,7 +224,7 @@ decisions = {
 			always = no
 		}
 		ai_will_do = {
-			factor = 0.1
+			factor = 0.05
 			modifier = {
 				factor = 0.5
 				trait = just
@@ -1188,6 +1191,7 @@ targetted_decisions = {
 		}
 		potential = {
 			ai = yes
+			vassal_of = FROM
 			NOR = {
 				has_character_flag = flag_god
 				trait = stratocrat

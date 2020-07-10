@@ -288,3 +288,8 @@
 		}
 	}
 }
+2100017 = {
+	name = "Miniad"
+	culture = "minoan"
+	used_for_random = no
+}

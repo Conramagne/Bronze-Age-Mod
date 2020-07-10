@@ -564,7 +564,7 @@ character_event = {
 		government = regional_kingdom_government
 		independent = yes
 		OR = {
-			any_demesne_province = {
+			any_realm_province = {
 				OR = {
 					NOT = {
 						culture = ROOT
@@ -577,7 +577,7 @@ character_event = {
 					has_province_modifier = foreign_rule
 				}
 			}
-			any_demesne_province = {
+			any_realm_province = {
 				culture = ROOT
 				religion = ROOT
 				has_province_modifier = foreign_rule
@@ -590,7 +590,7 @@ character_event = {
 	}
 	
 	immediate = {
-		any_demesne_province = {
+		any_realm_province = {
 			limit = {
 				OR = {
 					NOT = {
@@ -606,7 +606,7 @@ character_event = {
 				duration = -1
 			}
 		}
-		any_demesne_province = {
+		any_realm_province = {
 			limit = {
 				culture = ROOT
 				religion = ROOT
@@ -621,10 +621,11 @@ character_event = {
 	id = fkr.16
 	hide_window = yes
 	trigger = {
+		independent = yes
 		NOT = {
 			government = regional_kingdom_government
 		}
-		any_demesne_province = {
+		any_realm_province = {
 			has_province_modifier = foreign_rule
 		}
 	}
@@ -634,12 +635,11 @@ character_event = {
 	}
 	
 	immediate = {
-		any_demesne_province = {
+		any_realm_province = {
 			remove_province_modifier = foreign_rule
 		}
 	}
 }
-
 
 #Event to give Feudal Elective Succession to Tribal Governments (on_new_holder, on_startup)
 character_event = {
@@ -667,12 +667,14 @@ character_event = {
 character_event = {
 	id = fkr.18
 	hide_window = yes
-	is_triggered_only = yes
 	trigger = {
 		government = tribal_confederacy_government
 		NOT = {
 			has_law = succ_feudal_elective
 		}
+	}
+	mean_time_to_happen = {
+		days = 1
 	}
 	immediate = {
 		primary_title = {
@@ -684,6 +686,33 @@ character_event = {
 		}
 	}
 }
+
+#Event to give Enatic Succession to Amazons (MTTH)
+character_event = {
+	id = fkr.19
+	hide_window = yes
+	trigger = {
+		culture = amazonios
+		NOR = {
+			has_law = enatic_succession
+			has_law = true_cognatic_succession
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		primary_title = {
+			add_law = {
+				law = enatic_succession
+				opinion_effect = no
+				cooldown = no
+			}
+		}
+	}
+}
+
+
 
 # ************************** Imperial Authority Events***********************
 
@@ -787,16 +816,12 @@ character_event = {
 	picture = GFX_evt_succession
 	trigger = {
 		NOT = {
-			ROOT = {
-				has_character_modifier = imperial_authority
-			}
+			has_character_modifier = imperial_authority
 		}
 		primary_title = {
 			has_title_flag = imperial_authority_set
 		}
-		ROOT = {
-			government = hegemonic_government
-		}
+		government = hegemonic_government
 	}
 	
 	mean_time_to_happen = {
@@ -888,94 +913,17 @@ character_event = {
 	}
 }
 
-#Gives appropriate traits
+#Decrease to Weak Emperor
 character_event = {
-	id = fkr.105
-	desc = {
-		picture = GFX_evt_dark_court
-		trigger = {
-			primary_title = { check_variable = { which = var_imperial_authority value < 10 }}
-			NOT = {
-				trait = weak_emperor
-			}
-		}
-		text = EVTDESCFKR105_WEAK
-	}
-	desc = {
-		picture = GFX_evt_ruler_speaks
-		trigger = {
-			primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
-			trait = weak_emperor
-		}
-		text = EVTDESCFKR105_NOTWEAK
-	}
-	desc = {
-		picture = GFX_evt_lose_authority
-		trigger = {
-			primary_title = { check_variable = { which = var_imperial_authority value < 50 } }
-			trait = figurehead_emperor
-		}
-		text = EVTDESCFKR105_FIGUREHEAD
-	}
-	desc = {
-		picture = GFX_evt_ruler_speaks
-		trigger = {
-			primary_title = { check_variable = { which = var_imperial_authority value > 50 } }
-			primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
-		}
-		text = EVTDESCFKR105
-	}
-	desc = {
-		picture = GFX_evt_dark_court
-		trigger = {
-			primary_title = { check_variable = { which = var_imperial_authority value < 70 } }
-			trait = strong_emperor
-		}
-		text = EVTDESCFKR105_B
-	}
-	desc = {
-		picture = GFX_evt_military_victory
-		trigger = {
-			primary_title = { check_variable = { which = var_imperial_authority value > 70 } }
-		}
-		text = EVTDESCFKR105_STRONG
-	}
-	
+	id = fkr.140
+	desc = EVTDESCFKR105_WEAK
+	picture = GFX_evt_dark_court
 	trigger = {
 		government = hegemonic_government
 		has_character_modifier = imperial_authority
-		OR = {
-			AND = {
-				primary_title = { check_variable = { which = var_imperial_authority value < 10 } }
-				NOT = {
-					trait = weak_emperor
-				}
-			}
-			AND = {
-				primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
-				trait = weak_emperor
-			}
-			AND = {
-				primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
-				primary_title = { check_variable = { which = var_imperial_authority value < 50 } }
-				NOT = {
-					trait = figurehead_emperor
-				}
-			}
-			AND = {
-				primary_title = { check_variable = { which = var_imperial_authority value > 50 } }
-				trait = figurehead_emperor
-			}
-			AND = {
-				primary_title = { check_variable = { which = var_imperial_authority value < 70 } }
-				trait = strong_emperor
-			}
-			AND = {
-				primary_title = { check_variable = { which = var_imperial_authority value > 70 } }
-				NOT = {
-					trait = strong_emperor
-				}
-			}
+		primary_title = { check_variable = { which = var_imperial_authority value < 10 }}
+		NOT = {
+			trait = weak_emperor
 		}
 	}
 	
@@ -984,113 +932,132 @@ character_event = {
 	}
 	
 	option = {
-		name = {
-			text = EVTOPTAFKR105_WEAK
-			trigger = {
-				primary_title = { check_variable = { which = var_imperial_authority value < 10 } }
-				NOT = {
-					trait = weak_emperor
-				}
-			}
-		}
-		name = {
-			text = EVTOPTAFKR105_NOTWEAK
-			trigger = {
-				primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
-				trait = weak_emperor
-			}
-		}
-		name = {
-			text = EVTOPTAFKR105_FIGUREHEAD
-			trigger = {
-				primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
-				primary_title = { check_variable = { which = var_imperial_authority value < 50 } }
-				NOT = {
-					trait = figurehead_emperor
-				}
-			}
-		}
-		name = {
-			text = EVTOPTAFKR105
-			trigger = {
-				primary_title = { check_variable = { which = var_imperial_authority value > 50 } }
-				trait = figurehead_emperor
-			}
-		}
-		name = {
-			text = EVTOPTAFKR105_B
-			trigger = {
-				primary_title = { check_variable = { which = var_imperial_authority value < 70 } }
-				trait = strong_emperor
-			}
-		}
-		name = {
-			text = EVTOPTAFKR105_STRONG
-			trigger = {
-				primary_title = { check_variable = { which = var_imperial_authority value > 70 } }
-				NOT = {
-					trait = strong_emperor
-				}
-			}
-		}
-		if = {
-			limit = {
-				primary_title = { check_variable = { which = var_imperial_authority value < 10 } }
-				NOT = {
-					trait = weak_emperor
-				}
-			}
-			add_trait = weak_emperor
-			remove_trait = figurehead_emperor
-			set_character_flag = law_no_change
-			set_council_law_strong_effect = yes
-			clr_character_flag = law_no_change
-		}
-		if = {
-			limit = {
-				primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
-				trait = weak_emperor
-			}
-			remove_trait = weak_emperor
-		}
-		if = {
-			limit = {
-				primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
-				primary_title = { check_variable = { which = var_imperial_authority value < 50 } }
-				NOT = {
-					trait = figurehead_emperor
-				}
-			}
-			add_trait = figurehead_emperor
-			set_character_flag = law_no_change
-			set_council_law_strong_effect = yes
-			clr_character_flag = law_no_change
-		}
-		if = {
-			limit = {
-				primary_title = { check_variable = { which = var_imperial_authority value > 50 } }
-				trait = figurehead_emperor
-			}
-			remove_trait = figurehead_emperor
-		}
-		if = {
-			limit = {
-				primary_title = { check_variable = { which = var_imperial_authority value < 70 } }
-				trait = strong_emperor
-			}
-			remove_trait = strong_emperor
-		}
-		if = {
-			limit = {
-				primary_title = { check_variable = { which = var_imperial_authority value > 70 } }
-				NOT = {
-					trait = strong_emperor
-				}
-			}
-			add_trait = strong_emperor
+		name = EVTOPTAFKR105_WEAK
+		add_trait = weak_emperor
+		remove_trait = figurehead_emperor
+		set_character_flag = law_no_change
+		set_council_law_strong_effect = yes
+		clr_character_flag = law_no_change
+	}
+}
+
+#Increase to Figurehead Emperor
+character_event = {
+	id = fkr.141
+	desc = EVTDESCFKR105_NOTWEAK
+	picture = GFX_evt_ruler_speaks
+	trigger = {
+		government = hegemonic_government
+		has_character_modifier = imperial_authority
+		primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
+		trait = weak_emperor
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAFKR105_NOTWEAK
+		remove_trait = weak_emperor
+		add_trait = figurehead_emperor
+	}
+}
+
+#Decrease to Figurehead Emperor
+character_event = {
+	id = fkr.142
+	desc = EVTDESCFKR105_FIGUREHEAD
+	picture = GFX_evt_lose_authority
+	trigger = {
+		government = hegemonic_government
+		has_character_modifier = imperial_authority
+		primary_title = { check_variable = { which = var_imperial_authority value < 50 } }
+		NOT = {
+			trait = figurehead_emperor
 		}
 	}
-}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAFKR105_FIGUREHEAD
+		add_trait = figurehead_emperor
+		set_character_flag = law_no_change
+		set_council_law_strong_effect = yes
+		clr_character_flag = law_no_change
+	}
+}
+
+#Increase to Normal
+character_event = {
+	id = fkr.143
+	desc = EVTDESCFKR105
+	picture = GFX_evt_ruler_speaks
+	trigger = {
+		government = hegemonic_government
+		has_character_modifier = imperial_authority
+		primary_title = { check_variable = { which = var_imperial_authority value > 50 } }
+		trait = figurehead_emperor
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAFKR105
+		remove_trait = figurehead_emperor
+	}
+}
+
+#Decrease to Normal
+character_event = {
+	id = fkr.144
+	desc = EVTDESCFKR105_B
+	picture = GFX_evt_dark_court
+	trigger = {
+		government = hegemonic_government
+		has_character_modifier = imperial_authority
+		primary_title = { check_variable = { which = var_imperial_authority value < 70 } }
+		trait = strong_emperor
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAFKR105_B
+		remove_trait = strong_emperor
+	}
+}
+
+#Increase to Strong Emperor
+character_event = {
+	id = fkr.145
+	desc = EVTDESCFKR105_STRONG
+	picture = GFX_evt_military_victory
+	trigger = {
+		government = hegemonic_government
+		has_character_modifier = imperial_authority
+		primary_title = { check_variable = { which = var_imperial_authority value > 70 } }
+		NOT = {
+			trait = strong_emperor
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAFKR105_STRONG
+		add_trait = strong_emperor
+	}
+}
 
 #If Imperial Authority > 100, sets it to 100
 character_event = {
@@ -1585,7 +1552,6 @@ character_event = {
 	trigger = {
 		government = hegemonic_government
 		current_heir = {
-			is_landed = no
 			NOT = {
 				government = hegemonic_government
 			}
@@ -1596,13 +1562,34 @@ character_event = {
 	}
 	
 	immediate = {
-		primary_title = {
-			change_variable = { which = var_imperial_authority value = -10 }
+		if = {
+			limit = {
+				trait = strong_emperor
+			}
+			primary_title = {
+				set_variable = { which = var_imperial_authority value = 60 }
+			}
+			current_heir = {
+				add_character_modifier = {
+					name = imperial_authority
+					duration = -1
+				}
+			}
 		}
-		current_heir = {
-			add_character_modifier = {
-				name = imperial_authority
-				duration = -1
+		if = {
+			limit = {
+				NOT = {
+					trait = strong_emperor
+				}
+				primary_title = {
+					change_variable = { which = var_imperial_authority value = -10 }
+				}
+				current_heir = {
+					add_character_modifier = {
+						name = imperial_authority
+						duration = -1
+					}
+				}
 			}
 		}
 	}
@@ -2257,6 +2244,62 @@ character_event = {
 		}
 	}
 }
+
+#Removes Traits and Modifiers from non-Hegemons
+character_event = {
+	id = fkr.139
+	hide_window = yes
+	
+	trigger = {
+		NOT = {
+			government = hegemonic_government
+		}
+		OR = {
+			trait = weak_emperor
+			trait = figurehead_emperor
+			trait = strong_emperor
+			has_character_modifier = imperial_authority
+			has_character_modifier = slandered_emperor
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		remove_trait = weak_emperor
+		remove_trait = figurehead_emperor
+		remove_trait = strong_emperor
+		remove_character_modifier = imperial_authority
+		remove_character_modifier = slandered_emperor
+	}
+}
+
+#Gives Imperial Authority Modifier if it is lost
+character_event = {
+	id = fkr.146
+	hide_window = yes
+	
+	trigger = {
+		government = hegemonic_government
+		NOT = {
+			has_character_modifier = imperial_authority
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_character_modifier = {
+			modifier = imperial_authority
+			duration = -1
+		}
+	}
+}
+
 
 # ************************** Palace Bureaucracy Events***********************
 
@@ -3196,7 +3239,7 @@ character_event = {
 		is_feudal = yes
 		has_character_modifier = palace_bureaucracy
 		primary_title = {
-			check_variable = { which = palace_bureaucracy value < 70 }
+			check_variable = { which = palace_bureaucracy_number value < 70 }
 		}
 		has_character_modifier = high_bureaucracy
 	}
@@ -3221,8 +3264,8 @@ character_event = {
 		has_character_modifier = palace_bureaucracy
 		primary_title = {
 			AND = {
-				check_variable = { which = palace_bureaucracy value > 40 }
-				check_variable = { which = palace_bureaucracy value < 70 }
+				check_variable = { which = palace_bureaucracy_number value > 40 }
+				check_variable = { which = palace_bureaucracy_number value < 70 }
 			}
 		}
 		has_character_modifier = low_bureaucracy
@@ -3247,7 +3290,7 @@ character_event = {
 		is_feudal = yes
 		has_character_modifier = palace_bureaucracy
 		primary_title = {
-			check_variable = { which = palace_bureaucracy value > 70 }
+			check_variable = { which = palace_bureaucracy_number value > 70 }
 		}
 		NOR = {
 			has_character_modifier = high_bureaucracy
@@ -3556,6 +3599,32 @@ character_event = {
 	}
 }
 
+#Gives Palace Bureaucracy to realms that somehow lack it (MTTH)
+character_event = {
+	id = fkr.252
+	hide_window = yes
+	trigger = {
+		NOT = {
+			has_character_modifier = palace_bureaucracy
+		}
+		primary_title = {
+			has_title_flag = primary_set
+			has_title_flag = palace_bureaucracy_set
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_character_modifier = {
+			modifier = palace_bureaucracy
+			duration = -1
+		}
+	}
+}
+
 # ************************** Militarization Events***********************
 
 #Variable for Militarization (on_startup)
@@ -3642,18 +3711,8 @@ character_event = {
 			duration = -1
 		}
 		hidden_tooltip = {
-			if = {
-				limit = {
-					independent = no
-				}
-				primary_title = {
-					set_variable = { which = militarization_number which = global_transfer_militarization_number }
-				}
-			}
-			else = {
-				primary_title = {
-					set_variable = { which = militarization_number value = 50 }
-				}
+			primary_title = {
+				set_variable = { which = militarization_number value = 50 }
 			}
 		}
 	}
@@ -3679,11 +3738,20 @@ character_event = {
 				government = stratocratic_government
 				higher_real_tier_than = BARON
 			}
-			add_trait = stratocrat
 			add_character_modifier = {
 				name = militarization
 				duration = -1
 			}
+		}
+		if = {
+			limit = {
+				government = stratocratic_government
+				NOT = {
+					culture = amazonios
+				}
+				higher_real_tier_than = BARON
+			}
+			add_trait = stratocrat
 		}
 		if = {
 			limit = {
@@ -4332,6 +4400,30 @@ character_event = {
 	}	
 }
 
+#Militarization Decrease - Lost War
+character_event = {
+	id = fkr.321
+	desc = EVTDESCFKR321
+	picture = GFX_evt_military_defeat
+	is_triggered_only = yes
+	only_playable = yes
+	
+	trigger = {
+		government = stratocratic_government
+	}
+	
+	immediate = {
+		change_variable = { which = militarization_number value = -10 }
+	}
+	
+	option = {
+		name = opta_disappointing
+		custom_tooltip = {
+			text = militarization_decrease_10_TT
+		}
+	}
+}
+
 
 #Maintenance
 character_event = {
@@ -4377,3 +4469,25 @@ character_event = {
 	}
 }
 
+#Gives Militarization if one lacks it
+character_event = {
+	id = fkr.352
+	hide_window = yes
+	trigger = {
+		government = stratocratic_government
+		NOT = {
+			has_character_modifier = militarization
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_character_modifier = {
+			modifier = militarization
+			duration = -1
+		}
+	}
+}

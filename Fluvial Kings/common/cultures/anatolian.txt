@@ -7,36 +7,42 @@ anatolian = {
 		color = { 0.8 0.3 0.3 }
 
 		male_names = {
-			Ahabbu Alluwamna Appuašu Anitta Azatiwata Awariku Ammuna Arnuwanda Astuwalamanza Astiruwa Arnuwanti Ariyahina Ahuni Ambaris Ashwisi
-			Bamah Bar-Hadad Ben-Hadad Bar-Ga'ya Bar-Rakib Bar-Sur
+			Adduwa Ahabbu Ahuni Alalimi Alihhešni Ali-ziti Alluwamna Ambaris Ammuna Anitta Appuašu Ariyahina Ari-Šarruma Arnuwanda Arnuwanti Ashwisi Astiruwa Astuwalamanza Awariku Azatiwata
+			Bamah Bentišina
 			Dadi-Ilu
 			Eni-Ilu
-			Gunzinanu Gurdi Gusi Gabbar
-			Hattusili Hantili Huzziya Halpasulupi Hilaruada Hapatila Hamiyata Hulli Hayya Hadram Hazael Hadyan
-			Ini-Teššub Ir-Teššub Iškallu 
-			Kurunta Katuwa Kamani Kuzi-Teššub Kundašpu Kikki Kurti Kiyakiya Kirua Kirri Kilamuwa Katuzili
+			Gabbar Gunzinanu Gurdi Gusi
+			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hattušili Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
+			Ini-Teššup Ir-Teššub Iškallu 
+			Kamani Kammaliya Karpani Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
 			Labarna Lalli Larama
-			Mursili Muwatalli Mugallu Martiti Muwizi Manana Muwaharani Mari Mati-Ilu
-			Piyassili Pisiri Parita Puhamme Pihirim Panamuwa Piyamaradu
-			Runtiya Raqianu 
-			Suppiluliuma Sanduarri Sahurunuwa Suhi Sangara Sastura Sahu Sulumal Satiruntiya Sahwi Suwarimi Surri Sandasarme Sasi Saruwani
-			Tudhaliya Telipinus Talmi-Teššub Tarhunazi Taita Tutammu Toi Tuhamme Tuwati Tulli
-			Uratarhunza Uratami Urahilina Ušhitti Urimme
-			Wasuruntiya Wasusarma Warpalawa
-			Zidanta Zakur 
+			Mahhuzzi Manana Manapa Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
+			Nerikkaili
+			Palla Panamuwa Parita Pihirim Pisiri Piyamaradu Piyaššili Puhamme   
+			Raqianu Runtiya 
+			Sahu Šahurunuwa Sahwi Sanduarri Sangara Sandasarme Sapalulme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
+			Taita Taliuman Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Tarzuliya Telipinu Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
+			Uhha-ziti Ulmi-Teššup Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
+			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
+			Zakur Zannanza Zida Zidanta
 			Yariri Yau-bidi
 			Qarli 
 		}
 		
 		female_names = {
-			Arinna 
+			Arinna Ašmu-nikal
 			Estan 
-			Hebat 
-			Istustaya 
-			Papaya Pudukhepa
-			Wirisemu
+			Gaššulawiya
+			Harapšili Harapšeki Haštayara Hebat Henti
+			Ištapariya Istustaya 
+			Kali Kiluš-Hepa
+			Maššanauzzi Muwatti
+			Nikal-mati
+			Papaya Pudu-Hepa
+			Tadu-Hepa Tanu-Hepa Tawannanna
+			Walanni Wirisemu
+			Yaya
 		}
-
 		from_dynasty_prefix = "of "
 
 		pat_grf_name_chance = 50
@@ -56,34 +62,41 @@ anatolian = {
 		color = { 0.7 0.5 0.3 }
 
 		male_names = {
-			Ahabbu Alluwamna Appuašu Anitta Azatiwata Awariku Ammuna Arnuwanda Astuwalamanza Astiruwa Arnuwanti Ariyahina Ahuni Ambaris Ashwisi
-			Bamah Bar-Hadad Ben-Hadad Bar-Ga'ya Bar-Rakib Bar-Sur
+			Adduwa Ahabbu Ahuni Alalimi Alihhešni Ali-ziti Alluwamna Ambaris Ammuna Anitta Appuašu Ariyahina Ari-Šarruma Arnuwanda Arnuwanti Ashwisi Astiruwa Astuwalamanza Awariku Azatiwata
+			Bamah Bentišina
 			Dadi-Ilu
 			Eni-Ilu
-			Gunzinanu Gurdi Gusi Gabbar
-			Hattusili Hantili Huzziya Halpasulupi Hilaruada Hapatila Hamiyata Hulli Hayya Hadram Hazael Hadyan
-			Ini-Teššub Ir-Teššub Iškallu 
-			Kurunta Katuwa Kamani Kuzi-Teššub Kundašpu Kikki Kurti Kiyakiya Kirua Kirri Kilamuwa Katuzili
+			Gabbar Gunzinanu Gurdi Gusi
+			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hattušili Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
+			Ini-Teššup Ir-Teššub Iškallu 
+			Kamani Kammaliya Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
 			Labarna Lalli Larama
-			Mursili Muwatalli Mugallu Martiti Muwizi Manana Muwaharani Mari Mati-Ilu
-			Piyassili Pisiri Parita Puhamme Pihirim Panamuwa Piyamaradu
-			Runtiya Raqianu 
-			Suppiluliuma Sanduarri Sahurunuwa Suhi Sangara Sastura Sahu Sulumal Satiruntiya Sahwi Suwarimi Surri Sandasarme Sasi Saruwani
-			Tudhaliya Telipinus Talmi-Teššub Tarhunazi Taita Tutammu Toi Tuhamme Tuwati Tulli
-			Uratarhunza Uratami Urahilina Ušhitti Urimme
-			Wasuruntiya Wasusarma Warpalawa
-			Zidanta Zakur 
+			Mahhuzzi Manana Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
+			Nerikkaili
+			Palla Panamuwa Parita Pihirim Pisiri Piyamaradu Piyaššili Puhamme   
+			Raqianu Runtiya 
+			Šahurunuwa  Sanduarri Sangara Sahu Sahwi Sandasarme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
+			Taita Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Telipinu Tibe Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
+			Uhha-ziti Ulmi-Teššup Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
+			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
+			Zakur Zannanza Zida Zidanta
 			Yariri Yau-bidi
 			Qarli 
 		}
 		
 		female_names = {
-			Arinna 
+			Arinna Ašmu-nikal
 			Estan 
-			Hebat 
-			Istustaya 
-			Papaya Pudukhepa
-			Wirisemu
+			Gaššulawiya
+			Harapšili Harapšeki Haštayara Hebat Henti
+			Ištapariya Istustaya 
+			Kali Kiluš-Hepa
+			Maššanauzzi Muwatti
+			Nikal-mati
+			Papaya Pudu-Hepa
+			Tadu-Hepa Tanu-Hepa Tawannanna
+			Walanni Wirisemu
+			Yaya
 		}
 
 		from_dynasty_prefix = "of "
@@ -105,34 +118,41 @@ anatolian = {
 		color = { 0.5 0.3 0.3 }
 
 		male_names = {
-			Ahabbu Alluwamna Appuašu Anitta Azatiwata Awariku Ammuna Arnuwanda Astuwalamanza Astiruwa Arnuwanti Ariyahina Ahuni Ambaris Ashwisi
-			Bamah Bar-Hadad Ben-Hadad Bar-Ga'ya Bar-Rakib Bar-Sur
+			Adduwa Ahabbu Ahuni Alalimi Alihhešni Ali-ziti Alluwamna Ambaris Ammuna Anitta Appuašu Ariyahina Ari-Šarruma Arnuwanda Arnuwanti Ashwisi Astiruwa Astuwalamanza Awariku Azatiwata
+			Bamah Bentišina
 			Dadi-Ilu
 			Eni-Ilu
-			Gunzinanu Gurdi Gusi Gabbar
-			Hattusili Hantili Huzziya Halpasulupi Hilaruada Hapatila Hamiyata Hulli Hayya Hadram Hazael Hadyan
-			Ini-Teššub Ir-Teššub Iškallu 
-			Kurunta Katuwa Kamani Kuzi-Teššub Kundašpu Kikki Kurti Kiyakiya Kirua Kirri Kilamuwa Katuzili
+			Gabbar Gunzinanu Gurdi Gusi
+			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hattušili Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
+			Ini-Teššup Ir-Teššub Iškallu 
+			Kamani Kammaliya Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
 			Labarna Lalli Larama
-			Mursili Muwatalli Mugallu Martiti Muwizi Manana Muwaharani Mari Mati-Ilu
-			Piyassili Pisiri Parita Puhamme Pihirim Panamuwa Piyamaradu
-			Runtiya Raqianu 
-			Suppiluliuma Sanduarri Sahurunuwa Suhi Sangara Sastura Sahu Sulumal Satiruntiya Sahwi Suwarimi Surri Sandasarme Sasi Saruwani
-			Tudhaliya Telipinus Talmi-Teššub Tarhunazi Taita Tutammu Toi Tuhamme Tuwati Tulli
-			Uratarhunza Uratami Urahilina Ušhitti Urimme
-			Wasuruntiya Wasusarma Warpalawa
-			Zidanta Zakur 
+			Mahhuzzi Manana Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
+			Nerikkaili
+			Palla Panamuwa Parita Pihirim Pisiri Piyamaradu Piyaššili Puhamme   
+			Raqianu Runtiya Ruwantia
+			Šahurunuwa  Sanduarri Sangara Sahu Sahwi Sandasarme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
+			Taita Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Telipinu Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
+			Uhha-ziti Ulmi-Teššup Uppara-muwa Urahilina Ura-Tarhundas Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
+			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
+			Zakur Zannanza Zida Zidanta
 			Yariri Yau-bidi
 			Qarli 
 		}
 		
 		female_names = {
-			Arinna 
+			Arinna Ašmu-nikal
 			Estan 
-			Hebat 
-			Istustaya 
-			Papaya Pudukhepa
-			Wirisemu
+			Gaššulawiya
+			Harapšili Harapšeki Haštayara Hebat Henti
+			Ištapariya Istustaya 
+			Kali Kiluš-Hepa
+			Maššanauzzi Muwatti
+			Nikal-mati
+			Papaya Pudu-Hepa
+			Tadu-Hepa Tanu-Hepa Tawannanna
+			Walanni Wirisemu
+			Yaya
 		}
 
 		from_dynasty_prefix = "of "
@@ -158,10 +178,10 @@ anatolian = {
 			Duduška 
 			Gabbar Gazziura Gunzinanu Gurdi Gusi Hašhatatta 
 			Ini-Teššub Ir-Teššub Iškallu 
-			Kadudupa Kamani Kapagapa Karikurišga Katuwa Katuzili Kaška Kaškaili Kaškamuwa Kikki Kilamuwa Kirri Kirua Kiyakiya Kundašpu Kurti 	Kuzi-Teššub 
+			Kadudupa Kamani Kapagapa Karikurišga Katuwa Katuzili Kaška Kaškaili Kaškamuwa Kikki Kilamuwa Kirri Kirua Kiyakiya Kundašpu Kurti Kuzi-Teššub 
 			Labarna Lalli Larama 
 			Manana Mari Martiti Mati-Ilu Munišga Mursili Muwaharani Muwatalli Muwizi 
-			Panamuwa Parita Pihhuniya Pihirim Pisiri Piyamaradu Piyassili Puhamme 
+			Panamuwa Parita Pihhuniya Pihirim Pisiri Piyamaradu Piyaššili Puhamme 
 			Qarli 
 			Raqianu Runtiya 
 			Sahu Sahurunuwa Sahwi Sandasarme Sanduarri Sangara Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Surri Suwarimi 
@@ -173,12 +193,18 @@ anatolian = {
 		}
 		
 		female_names = {
-			Arinna 
+			Arinna Ašmu-nikal
 			Estan 
-			Hebat 
-			Istustaya 
-			Papaya Pudukhepa
-			Wirisemu
+			Gaššulawiya
+			Harapšili Harapšeki Haštayara Hebat Henti
+			Ištapariya Istustaya 
+			Kali Kiluš-Hepa
+			Maššanauzzi Muwatti
+			Nikal-mati
+			Papaya Pudu-Hepa
+			Tadu-Hepa Tanu-Hepa Tawannanna
+			Walanni Wirisemu
+			Yaya
 		}
 
 		from_dynasty_prefix = "of "
@@ -200,34 +226,41 @@ anatolian = {
 		color = { 1 0.5 0.1 }
 
 		male_names = {
-			Ahabbu Alluwamna Appuašu Anitta Azatiwata Awariku Ammuna Arnuwanda Astuwalamanza Astiruwa Arnuwanti Ariyahina Ahuni Ambaris Ashwisi
-			Bamah Bar-Hadad Ben-Hadad Bar-Ga'ya Bar-Rakib Bar-Sur
+			Adduwa Ahabbu Ahuni Alalimi Alihhešni Ali-Šarruma Ali-ziti Alluwamna Ambaris Ammuna Anitta Appuašu Ariyahina Ari-Šarruma Arnuwanda Arnuwanti Ashwisi Astiruwa Astuwalamanza Awariku Azatiwata
+			Bamah Bentišina
 			Dadi-Ilu
-			Eni-Ilu
-			Gunzinanu Gurdi Gusi Gabbar
-			Hattusili Hantili Huzziya Halpasulupi Hilaruada Hapatila Hamiyata Hulli Hayya Hadram Hazael Hadyan
-			Ini-Teššub Ir-Teššub Iškallu 
-			Kurunta Katuwa Kamani Kuzi-Teššub Kundašpu Kikki Kurti Kiyakiya Kirua Kirri Kilamuwa Katuzili
+			Ehli-Šarruma Eni-Ilu 
+			Gabbar Gunzinanu Gurdi Gusi
+			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hattušili Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
+			Ini-Teššup Ir-Teššub Iškallu 
+			Kamani Kammaliya Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
 			Labarna Lalli Larama
-			Mursili Muwatalli Mugallu Martiti Muwizi Manana Muwaharani Mari Mati-Ilu
-			Piyassili Pisiri Parita Puhamme Pihirim Panamuwa Piyamaradu
-			Runtiya Raqianu 
-			Suppiluliuma Sanduarri Sahurunuwa Suhi Sangara Sastura Sahu Sulumal Satiruntiya Sahwi Suwarimi Surri Sandasarme Sasi Saruwani
-			Tudhaliya Telipinus Talmi-Teššub Tarhunazi Taita Tutammu Toi Tuhamme Tuwati Tulli
-			Uratarhunza Uratami Urahilina Ušhitti Urimme
-			Wasuruntiya Wasusarma Warpalawa
-			Zidanta Zakur 
+			Mahhuzzi Manana Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
+			Nerikkaili
+			Palla Panamuwa Parita Pihirim Pisiri Piyamaradu Piyaššili Puhamme   
+			Raqianu Runtiya 
+			Šahurunuwa  Sanduarri Sangara Sahu Sahwi Sandasarme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
+			Taita Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Telipinu Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
+			Uhha-ziti Ulmi-Teššup Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
+			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
+			Zakur Zannanza Zida Zidanta
 			Yariri Yau-bidi
 			Qarli 
 		}
 		
 		female_names = {
-			Arinna 
+			Arinna Ašmu-nikal
 			Estan 
-			Hebat 
-			Istustaya 
-			Papaya Pudukhepa
-			Wirisemu
+			Gaššulawiya
+			Harapšili Harapšeki Haštayara Hebat Henti
+			Ištapariya Istustaya 
+			Kali Kiluš-Hepa
+			Maššanauzzi Muwatti
+			Nikal-mati
+			Papaya Pudu-Hepa
+			Tadu-Hepa Tanu-Hepa Tawannanna
+			Walanni Wirisemu
+			Yaya
 		}
 
 		from_dynasty_prefix = "of "
@@ -249,34 +282,41 @@ anatolian = {
 		color = { 0.8 0.3 0.3 }
 
 		male_names = {
-			Ahabbu Alluwamna Appuašu Anitta Azatiwata Awariku Ammuna Arnuwanda Astuwalamanza Astiruwa Arnuwanti Ariyahina Ahuni Ambaris Ashwisi
-			Bamah Bar-Hadad Ben-Hadad Bar-Ga'ya Bar-Rakib Bar-Sur
+			Adduwa Ahabbu Ahuni Alalimi Alihhešni Ali-ziti Alluwamna Ambaris Ammuna Anitta Appuašu Ariyahina Ari-Šarruma Arnuwanda Arnuwanti Ashwisi Astiruwa Astuwalamanza Awariku Azatiwata
+			Bamah Bentišina
 			Dadi-Ilu
 			Eni-Ilu
-			Gunzinanu Gurdi Gusi Gabbar
-			Hattusili Hantili Huzziya Halpasulupi Hilaruada Hapatila Hamiyata Hulli Hayya Hadram Hazael Hadyan
-			Ini-Teššub Ir-Teššub Iškallu 
-			Kurunta Katuwa Kamani Kuzi-Teššub Kundašpu Kikki Kurti Kiyakiya Kirua Kirri Kilamuwa Katuzili
+			Gabbar Gunzinanu Gurdi Gusi
+			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hattušili Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
+			Ini-Teššup Ir-Teššub Iškallu 
+			Kamani Kammaliya Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
 			Labarna Lalli Larama
-			Mursili Muwatalli Mugallu Martiti Muwizi Manana Muwaharani Mari Mati-Ilu
-			Piyassili Pisiri Parita Puhamme Pihirim Panamuwa Piyamaradu
-			Runtiya Raqianu 
-			Suppiluliuma Sanduarri Sahurunuwa Suhi Sangara Sastura Sahu Sulumal Satiruntiya Sahwi Suwarimi Surri Sandasarme Sasi Saruwani
-			Tudhaliya Telipinus Talmi-Teššub Tarhunazi Taita Tutammu Toi Tuhamme Tuwati Tulli
-			Uratarhunza Uratami Urahilina Ušhitti Urimme
-			Wasuruntiya Wasusarma Warpalawa
-			Zidanta Zakur 
+			Mahhuzzi Manana Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
+			Nerikkaili
+			Palla Panamuwa Parita Pihirim Pisiri Piyamaradu Piyaššili Puhamme   
+			Raqianu Runtiya 
+			Šahurunuwa  Sanduarri Sangara Sahu Sahwi Sandasarme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
+			Taita Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Telipinu Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
+			Uhha-ziti Ulmi-Teššup Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
+			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
+			Zakur Zannanza Zida Zidanta
 			Yariri Yau-bidi
 			Qarli 
 		}
 		
 		female_names = {
-			Arinna 
+			Arinna Ašmu-nikal
 			Estan 
-			Hebat 
-			Istustaya 
-			Papaya Pudukhepa
-			Wirisemu
+			Gaššulawiya
+			Harapšili Harapšeki Haštayara Hebat Henti
+			Ištapariya Istustaya 
+			Kali Kiluš-Hepa
+			Maššanauzzi Muwatti
+			Nikal-mati
+			Papaya Pudu-Hepa
+			Tadu-Hepa Tanu-Hepa Tawannanna
+			Walanni Wirisemu
+			Yaya
 		}
 
 		from_dynasty_prefix = "of "

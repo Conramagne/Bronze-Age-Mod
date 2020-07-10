@@ -515,3 +515,22 @@ arethousa = {
 	random = no
 	customizer = no
 }
+cretan_bull = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+minotaur = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}

@@ -32,7 +32,6 @@
 	2496.1.1 = {
 		create_bloodline = {
 			type = god_ares_bloodline
-			religion = pantes_theoi
 		}
 	}
 	2531.1.1 = { death = yes }
@@ -152,8 +151,8 @@
 	2521.1.1 = { death = yes }
 }
 
-2100103 = { #Augeas, King of Elis
-	name = "Augeas"
+2100103 = { #Augewas, King of Elis
+	name = "Augewas"
 	dynasty = 2100001
 	culture = achaean
 	religion = pantes_theoi
@@ -376,8 +375,8 @@
 	2521.1.1 = { death = yes }
 }
 
-2100304 = { #Lykourgos, King of Arcadia
-	name = "Lykourgos"
+2100304 = { #Lukourgos, King of Arcadia
+	name = "Lukourgos"
 	dynasty = 2100003 #Arkid
 	culture = achaean
 	religion = pantes_theoi
@@ -542,8 +541,8 @@
 	2421.1.1 = { death = yes }
 }
 
-2100316 = { #Lykaon, King of Arcadia
-	name = "Lykaon"
+2100316 = { #Lukaon, King of Arcadia
+	name = "Lukaon"
 	dynasty = 2100004 #Lykaid
 	culture = achaean
 	religion = pantes_theoi
@@ -608,7 +607,7 @@
 	culture = achaean
 	religion = pantes_theoi
 	father = 2100402
-	#mother = 
+	mother = 2101504
 	2489.1.1 = { birth = yes }
 	2551.1.1 = { death = yes }
 }
@@ -619,7 +618,7 @@
 	culture = achaean
 	religion = pantes_theoi
 	father = 2100402
-	#mother = 
+	mother = 2101504
 	2491.1.1 = { birth = yes }
 	2556.1.1 = { death = yes }
 }
@@ -636,7 +635,11 @@
 	2466.1.1 = {
 		create_bloodline = {
 			type = god_poseidaon_bloodline
-			religion = pantes_theoi
+		}
+	}
+	2499.1.1 = {
+		effect = {
+			add_spouse = 2101504
 		}
 	}
 	2521.1.1 = { death = yes }
@@ -651,7 +654,7 @@
 	mother = 2100404
 	disallow_random_traits = yes
 	2441.1.1 = { birth = yes }
-	2501.1.1 = { death = yes }
+	2486.1.1 = { death = yes }
 }
 
 2100404 = { #Pylia
@@ -690,8 +693,8 @@
 	2451.1.1 = { death = yes }
 }
 
-2100407 = { #Cecrops, King of Athens
-	name = "Cecrops"
+2100407 = { #Kékrops, King of Athens
+	name = "Kékrops"
 	dynasty = 2100005 #Erichthoniad
 	culture = achaean
 	religion = pantes_theoi
@@ -807,8 +810,8 @@
 	2559.1.1 = { death = yes }
 }
 
-2100417 = { #Amphictyon, King of Athens
-	name = "Amphictyon"
+2100417 = { #Amphiktuon, King of Athens
+	name = "Amphiktuon"
 	culture = achaean
 	religion = pantes_theoi
 	disallow_random_traits = yes
@@ -1182,6 +1185,22 @@
 	2441.1.1 = { death = yes }
 }
 
+2100523 = { #Agenor
+	name = "Agenor"
+	culture = achaean
+	religion = pantes_theoi
+	father = 1100145
+	mother = 2101125
+	disallow_random_traits = yes
+	2326.1.1 = { birth = yes }
+	2346.1.1 = {
+		effect = {
+			add_spouse = 2100524
+		}
+	}
+	2386.1.1 = { death = yes }
+}
+
 2100524 = { #Telephassa
 	name = "Telephassa"
 	female = yes
@@ -1192,19 +1211,39 @@
 	2386.1.1 = { death = yes }
 }
 
-2100523 = { #Agenor
-	name = "Agenor"
+
+2100525 = { #Phoinix
+	name = "Phoinix"
 	culture = achaean
 	religion = pantes_theoi
+	father = 2100523
+	mother = 2100524
 	disallow_random_traits = yes
-	2326.1.1 = { birth = yes }
-	2346.1.1 = {
+	2366.1.1 = { birth = yes }
+	2386.1.1 = {
 		effect = {
-			add_spouse = 2100524
+			add_spouse = 2100526
 		}
 	}
-	2386.1.1 = { death = yes }
+	2426.1.1 = { death = yes }
 }
+
+2100526 = { #Cassiopeia
+	name = "Cassiopeia"
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	disallow_random_traits = yes
+	2366.1.1 = { birth = yes }
+	2386.1.1 = {
+		effect = {
+			add_spouse = 2100526
+		}
+	}
+	2426.1.1 = { death = yes }
+}
+
+
 
 #Royal Family of Pylos (2100600-2100699)
 2100600 = { #Nestor, King of Pylos
@@ -1389,7 +1428,6 @@
 	2401.1.1 = {
 		create_bloodline = {
 			type = god_poseidaon_bloodline
-			religion = pantes_theoi
 		}
 	}
 	2491.1.1 = { death = yes }
@@ -1651,7 +1689,7 @@
 	culture = achaean
 	religion = pantes_theoi
 	father = 2100902
-	#mother = 
+	mother = 2101507
 	trait = brilliant_strategist
 	trait = strong
 	trait = robust
@@ -1688,6 +1726,11 @@
 	mother = 2100808
 	disallow_random_traits = yes
 	2461.1.1 = { birth = yes }
+	2491.1.1 = {
+		effect = {
+			add_spouse = 2101507
+		}
+	}
 	2511.1.1 = { 
 		death = {
 			death_reason = death_murder
@@ -1835,8 +1878,7 @@
 	religion = pantes_theoi
 	female = yes
 	father = 2100902
-	#mother = 
-	disallow_random_traits = yes
+	mother = 2101507
 	2496.1.1 = { birth = yes }
 	2571.1.1 = { death = yes }
 }
@@ -1890,7 +1932,7 @@
 	culture = achaean
 	religion = pantes_theoi
 	father = 2100902
-	#mother = 
+	mother = 2101507
 	trait = tough_soldier
 	trait = duelist
 	trait = wroth
@@ -2016,12 +2058,12 @@
 	religion = pantes_theoi
 	father = 2101013
 	mother = 2101012
-	disallow_random_traits = yes
 	2476.1.1 = { birth = yes }
 	2496.1.1 = {
 		effect = {
 			add_spouse = 2100602
 		}
+		employer = 2101000
 	}
 	2561.1.1 = { death = yes }
 }
@@ -2033,7 +2075,6 @@
 	religion = pantes_theoi
 	father = 2101008
 	mother = 2100602
-	disallow_random_traits = yes
 	2496.1.1 = { birth = yes }
 	2556.1.1 = { death = yes }
 }
@@ -2045,7 +2086,6 @@
 	religion = pantes_theoi
 	father = 2101008
 	mother = 2100602
-	disallow_random_traits = yes
 	2499.1.1 = { birth = yes }
 	2559.1.1 = { death = yes }
 }
@@ -2058,7 +2098,6 @@
 	female = yes
 	father = 2101008
 	mother = 2100602
-	disallow_random_traits = yes
 	2501.1.1 = { birth = yes }
 	2561.1.1 = { death = yes }
 }
@@ -3029,7 +3068,7 @@
 }
 
 #Royal Family of the Amazons (2101400-2101499)
-2101400 = { #Penthesilea
+2101400 = { #Penthesilea, Queen of the Amazons
 	name = "Penthesilea"
 	dynasty = 2100016 #Otrerid
 	culture = amazonios
@@ -3037,12 +3076,14 @@
 	female = yes
 	father = 1100152
 	mother = 2101404
+	martial = 6
 	trait = amazonios_trait
+	trait = skilled_tactician
 	2506.1.1 = { birth = yes }
 	2531.1.1 = { death = yes }
 }
 
-2101401 = { #Hippolute
+2101401 = { #Hippolute, Queen of the Amazons
 	name = "Hippolute"
 	dynasty = 2100016 #Otrerid
 	culture = amazonios
@@ -3065,6 +3106,7 @@
 	father = 1100152
 	mother = 2101404
 	trait = amazonios_trait
+	trait = tough_soldier
 	2508.1.1 = { birth = yes }
 	2527.1.1 = {
 		employer = 2101400
@@ -3081,6 +3123,7 @@
 	father = 1100152
 	mother = 2101404
 	trait = amazonios_trait
+	trait = tough_soldier
 	2510.1.1 = { birth = yes }
 	2527.1.1 = {
 		employer = 2101400
@@ -3088,7 +3131,7 @@
 	2570.1.1 = { death = yes }
 }
 
-2101404 = { #Otrera
+2101404 = { #Otrera, Queen of the Amazons
 	name = "Otrera"
 	dynasty = 2100016 #Otrerid
 	culture = amazonios
@@ -3100,8 +3143,257 @@
 	2501.1.1 = {
 		create_bloodline = {
 			type = god_ares_bloodline
-			religion = pantes_theoi
+			# inheritance = matrilineal
 		}
 	}
 	2521.1.1 = { death = yes }
+}
+
+#Royal Family of Crete (2101500-2101599)
+2101500 = { #Idomeneus, King of Crete
+	name = "Idomeneus"
+	dynasty = 2100017 #Miniad
+	culture = minoan
+	religion = pantes_theoi #Temporary
+	father = 2101502
+	mother = 2101501
+	trait = skilled_tactician
+	2481.1.1 = { birth = yes }
+	2541.1.1 = { death = yes }
+}
+
+2101501 = { #Kleopatra
+	name = "Kleopatra"
+	culture = minoan
+	religion = pantes_theoi #Temporary
+	female = yes
+	trait = skilled_tactician
+	disallow_random_traits = yes
+	2453.1.1 = { birth = yes }
+	2473.1.1 = {
+		effect = {
+			add_spouse = 2101502
+		}
+	}
+	2521.1.1 = { death = yes }
+}
+
+2101502 = { #Deukalion, King of Crete
+	name = "Deukalion"
+	dynasty = 2100017 #Miniad
+	culture = minoan
+	religion = pantes_theoi #Temporary
+	mother = 2101503
+	father = 2101510
+	disallow_random_traits = yes
+	2453.1.1 = { birth = yes }
+	2473.1.1 = {
+		effect = {
+			add_spouse = 2101501
+		}
+	}
+	2521.1.1 = { death = yes }
+}
+
+2101503 = { #Pasipháe
+	name = "Pasipháe"
+	culture = minoan
+	religion = pantes_theoi #Temporary
+	female = yes
+	disallow_random_traits = yes
+	2431.1.1 = { birth = yes }
+	2449.1.1 = {
+		effect = {
+			add_spouse = 2101510
+		}
+	}
+	2491.1.1 = { death = yes }
+}
+
+2101504 = { #Phaidra
+	name = "Phaidra"
+	dynasty = 2100017 #Miniad
+	culture = minoan
+	religion = pantes_theoi #Temporary
+	female = yes
+	mother = 2101503
+	father = 2101510
+	disallow_random_traits = yes
+	2469.1.1 = { birth = yes }
+	2499.1.1 = {
+		effect = {
+			add_spouse = 2100402
+		}
+	}
+	2518.1.1 = { death = yes }
+}
+
+2101505 = { #Katreus, King of Crete
+	name = "Katreus"
+	dynasty = 2100017 #Miniad
+	culture = minoan
+	religion = pantes_theoi #Temporary
+	mother = 2101503
+	father = 2101510
+	disallow_random_traits = yes
+	2449.1.1 = { birth = yes }
+	2511.1.1 = { death = yes }
+}
+
+2101506 = { #Althaimenus 
+	name = "Althaimenus"
+	dynasty = 2100017 #Miniad
+	culture = minoan
+	religion = pantes_theoi #Temporary
+	father = 2101505
+	disallow_random_traits = yes
+	2469.1.1 = { birth = yes }
+	2511.1.1 = { death = yes }
+}
+
+2101507 = { #Aërope 
+	name = "Aërope"
+	dynasty = 2100017 #Miniad
+	culture = minoan
+	religion = pantes_theoi #Temporary
+	female = yes
+	father = 2101505
+	2471.1.1 = { birth = yes }
+	2491.1.1 = {
+		effect = {
+			add_spouse = 2100902
+		}
+	}
+	2531.1.1 = { death = yes }
+}
+
+2101508 = { #Apemosune 
+	name = "Apemosune"
+	dynasty = 2100017 #Miniad
+	culture = minoan
+	religion = pantes_theoi #Temporary
+	female = yes
+	father = 2101505
+	disallow_random_traits = yes
+	2473.1.1 = { birth = yes }
+	2493.1.1 = { 
+		death = {
+			death_reason = death_murder
+			killer = 2101506
+		}
+	}
+}
+
+2101509 = { #Klumene 
+	name = "Klumene"
+	dynasty = 2100017 #Miniad
+	culture = minoan
+	religion = pantes_theoi #Temporary
+	female = yes
+	father = 2101505
+	2476.1.1 = { birth = yes }
+	2536.1.1 = { death = yes }
+}
+
+2101510 = { #Minos, King of Crete
+	name = "Minos"
+	dynasty = 2100017 #Miniad
+	culture = minoan
+	religion = pantes_theoi #Temporary
+	mother = 2101511
+	father = 1100146
+	disallow_random_traits = yes
+	2429.1.1 = { birth = yes }
+	2449.1.1 = {
+		effect = {
+			add_spouse = 2101503
+		}
+	}
+	2511.1.1 = { death = yes }
+}
+
+2101511 = { #Europa
+	name = "Europa"
+	culture = minoan
+	religion = pantes_theoi
+	female = yes
+	father = 2100525
+	mother = 2100526
+	disallow_random_traits = yes
+	2401.1.1 = { birth = yes }
+	2461.1.1 = { death = yes }
+}
+
+2101512 = { #Kresijos Tauros
+	name = "Kresijos Tauros"
+	culture = bull
+	religion = pantes_theoi #Temporary
+	trait = cretan_bull
+	disallow_random_traits = yes
+	2451.1.1 = { birth = yes }
+	2527.1.1 = {
+		employer = 2100416
+	}
+	2530.1.1 = { death = yes }
+}
+
+2101513 = { #Minotauros
+	name = "Minotauros"
+	culture = bull
+	religion = pantes_theoi #Temporary
+	father = 2101512
+	mother = 2101503
+	trait = minotaur
+	disallow_random_traits = yes
+	2452.1.1 = { birth = yes }
+	2486.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = 2100402
+		}
+	}
+}
+
+2101514 = { #Ariadne
+	name = "Ariadne"
+	dynasty = 2100017 #Miniad
+	culture = minoan
+	religion = pantes_theoi #Temporary
+	female = yes
+	mother = 2101503
+	father = 2101510
+	disallow_random_traits = yes
+	2466.1.1 = { birth = yes }
+	2521.1.1 = { death = yes }
+}
+
+2101515 = { #Orsilochos
+	name = "Orsilochos"
+	dynasty = 2100017 #Miniad
+	culture = minoan
+	religion = pantes_theoi #Temporary
+	father = 2101500
+	2501.1.1 = { birth = yes }
+	2561.1.1 = { death = yes }
+}
+
+2101516 = { #Cleisithyra 
+	name = "Cleisithyra"
+	dynasty = 2100017 #Miniad
+	culture = minoan
+	religion = pantes_theoi #Temporary
+	female = yes
+	father = 2101500
+	2503.1.1 = { birth = yes }
+	2563.1.1 = { death = yes }
+}
+
+2101517 = { #Iphiklos
+	name = "Iphiklos"
+	dynasty = 2100017 #Miniad
+	culture = minoan
+	religion = pantes_theoi #Temporary
+	father = 2101500
+	2506.1.1 = { birth = yes }
+	2566.1.1 = { death = yes }
 }

@@ -44,58 +44,58 @@ targetted_decisions = {
 					}
 				}
 			}
-			if = {
-				limit = { liege = { trait = shaivist_hindu } }
-				add_trait = shaivist_hindu
-			}
-			if = {
-				limit = { liege = { trait = vaishnavist_hindu } }
-				add_trait = vaishnavist_hindu
-			}
-			if = {
-				limit = { liege = { trait = shaktist_hindu } }
-				add_trait = shaktist_hindu
-			}
-			if = {
-				limit = { liege = { trait = smartist_hindu } }
-				add_trait = smartist_hindu
-			}
-			if = {
-				limit = { liege = { trait = mahayana_buddhist } }
-				add_trait = mahayana_buddhist
-			}
-			if = {
-				limit = { liege = { trait = vajrayana_buddhist } }
-				add_trait = vajrayana_buddhist
-			}
-			if = {
-				limit = { liege = { trait = theravada_buddhist } }
-				add_trait = theravada_buddhist
-			}
-			if = {
-				limit = { liege = { trait = digambara_jain } }
-				add_trait = digambara_jain
-			}
-			if = {
-				limit = { liege = { trait = svetambara_jain } }
-				add_trait = svetambara_jain
-			}
-			if = {
-				limit = { liege = { trait = pagan_branch_1 } }
-				add_trait = pagan_branch_1
-			}
-			if = {
-				limit = { liege = { trait = pagan_branch_2 } }
-				add_trait = pagan_branch_2
-			}
-			if = {
-				limit = { liege = { trait = pagan_branch_3 } }
-				add_trait = pagan_branch_3
-			}
-			if = {
-				limit = { liege = { trait = pagan_branch_4 } }
-				add_trait = pagan_branch_4
-			}
+			# if = {
+				# limit = { liege = { trait = shaivist_hindu } }
+				# add_trait = shaivist_hindu
+			# }
+			# if = {
+				# limit = { liege = { trait = vaishnavist_hindu } }
+				# add_trait = vaishnavist_hindu
+			# }
+			# if = {
+				# limit = { liege = { trait = shaktist_hindu } }
+				# add_trait = shaktist_hindu
+			# }
+			# if = {
+				# limit = { liege = { trait = smartist_hindu } }
+				# add_trait = smartist_hindu
+			# }
+			# if = {
+				# limit = { liege = { trait = mahayana_buddhist } }
+				# add_trait = mahayana_buddhist
+			# }
+			# if = {
+				# limit = { liege = { trait = vajrayana_buddhist } }
+				# add_trait = vajrayana_buddhist
+			# }
+			# if = {
+				# limit = { liege = { trait = theravada_buddhist } }
+				# add_trait = theravada_buddhist
+			# }
+			# if = {
+				# limit = { liege = { trait = digambara_jain } }
+				# add_trait = digambara_jain
+			# }
+			# if = {
+				# limit = { liege = { trait = svetambara_jain } }
+				# add_trait = svetambara_jain
+			# }
+			# if = {
+				# limit = { liege = { trait = pagan_branch_1 } }
+				# add_trait = pagan_branch_1
+			# }
+			# if = {
+				# limit = { liege = { trait = pagan_branch_2 } }
+				# add_trait = pagan_branch_2
+			# }
+			# if = {
+				# limit = { liege = { trait = pagan_branch_3 } }
+				# add_trait = pagan_branch_3
+			# }
+			# if = {
+				# limit = { liege = { trait = pagan_branch_4 } }
+				# add_trait = pagan_branch_4
+			# }
 		}
 		revoke_allowed = {
 			always = no
@@ -152,58 +152,58 @@ targetted_decisions = {
 						}
 					}
 				}
-				if = {
-					limit = { ROOT = { trait = shaivist_hindu } }
-					add_trait = shaivist_hindu
-				}
-				if = {
-					limit = { ROOT = { trait = vaishnavist_hindu } }
-					add_trait = vaishnavist_hindu
-				}
-				if = {
-					limit = { ROOT = { trait = shaktist_hindu } }
-					add_trait = shaktist_hindu
-				}
-				if = {
-					limit = { ROOT = { trait = smartist_hindu } }
-					add_trait = smartist_hindu
-				}
-				if = {
-					limit = { ROOT = { trait = mahayana_buddhist } }
-					add_trait = mahayana_buddhist
-				}
-				if = {
-					limit = { ROOT = { trait = vajrayana_buddhist } }
-					add_trait = vajrayana_buddhist
-				}
-				if = {
-					limit = { ROOT = { trait = theravada_buddhist } }
-					add_trait = theravada_buddhist
-				}
-				if = {
-					limit = { ROOT = { trait = digambara_jain } }
-					add_trait = digambara_jain
-				}
-				if = {
-					limit = { ROOT = { trait = svetambara_jain } }
-					add_trait = svetambara_jain
-				}
-				if = {
-					limit = { ROOT = { trait = pagan_branch_1 } }
-					add_trait = pagan_branch_1
-				}
-				if = {
-					limit = { ROOT = { trait = pagan_branch_2 } }
-					add_trait = pagan_branch_2
-				}
-				if = {
-					limit = { ROOT = { trait = pagan_branch_3 } }
-					add_trait = pagan_branch_3
-				}
-				if = {
-					limit = { ROOT = { trait = pagan_branch_4 } }
-					add_trait = pagan_branch_4
-				}
+				# if = {
+					# limit = { ROOT = { trait = shaivist_hindu } }
+					# add_trait = shaivist_hindu
+				# }
+				# if = {
+					# limit = { ROOT = { trait = vaishnavist_hindu } }
+					# add_trait = vaishnavist_hindu
+				# }
+				# if = {
+					# limit = { ROOT = { trait = shaktist_hindu } }
+					# add_trait = shaktist_hindu
+				# }
+				# if = {
+					# limit = { ROOT = { trait = smartist_hindu } }
+					# add_trait = smartist_hindu
+				# }
+				# if = {
+					# limit = { ROOT = { trait = mahayana_buddhist } }
+					# add_trait = mahayana_buddhist
+				# }
+				# if = {
+					# limit = { ROOT = { trait = vajrayana_buddhist } }
+					# add_trait = vajrayana_buddhist
+				# }
+				# if = {
+					# limit = { ROOT = { trait = theravada_buddhist } }
+					# add_trait = theravada_buddhist
+				# }
+				# if = {
+					# limit = { ROOT = { trait = digambara_jain } }
+					# add_trait = digambara_jain
+				# }
+				# if = {
+					# limit = { ROOT = { trait = svetambara_jain } }
+					# add_trait = svetambara_jain
+				# }
+				# if = {
+					# limit = { ROOT = { trait = pagan_branch_1 } }
+					# add_trait = pagan_branch_1
+				# }
+				# if = {
+					# limit = { ROOT = { trait = pagan_branch_2 } }
+					# add_trait = pagan_branch_2
+				# }
+				# if = {
+					# limit = { ROOT = { trait = pagan_branch_3 } }
+					# add_trait = pagan_branch_3
+				# }
+				# if = {
+					# limit = { ROOT = { trait = pagan_branch_4 } }
+					# add_trait = pagan_branch_4
+				# }
 			}
 		}
 		revoke_allowed = {
@@ -360,119 +360,119 @@ targetted_decisions = {
 					}
 				}
 			}
-			modifier = {
-				factor = 0
-				capital_scope = {
-					OR = {
-						AND = {
-							culture = norse
-							NOT = {	has_global_flag = norse_culture_flipping }
-							ROOT = {
-								OR = {
-									culture = swedish 
-									culture = norwegian
-									culture = danish
-									culture = norman
-								}
-							}
-						}
-						AND = {
-							culture = saxon
-							ROOT = {
-								OR = {
-									culture = norman 
-									culture = english
-								}
-							}
-						}
-						AND = {
-							culture = norman
-							ROOT = {
-								OR = {
-									culture = english 
-									culture = saxon
-								}
-							}
-						}
-						AND = {
-							culture_group = east_slavic
-							ROOT = {
-								culture = russian
-							}
-						}
-						AND = {
-							culture = pictish
-							ROOT = {
-								culture = scottish
-							}
-						}
-						AND = {
-							culture = lombard
-							ROOT = {
-								culture = italian
-							}
-						}
-						AND = {
-							culture = old_frankish
-							ROOT = {
-								culture = frankish
-							}
-						}
-						AND = {
-							culture = frisian
-							ROOT = {
-								culture = dutch
-							}
-						}
-						AND = {
-							culture = old_saxon
-							ROOT = {
-								culture = german
-							}
-						}
-						AND = {
-							culture = visigothic
-							ROOT = {
-								OR = {
-									culture_group = iberian
-									culture = andalusian_arabic
-									culture = occitan
-									religion_group = muslim
-								}
-							}
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				culture = nahuatl
-			}
-			modifier = {
-				factor = 0
-				has_landed_title = e_china_west_governor
-			}
-			modifier = {
-				factor = 0
-				government = chinese_imperial_government
-			}
-			modifier = {
-				factor = 0
-				OR = {
-					has_landed_title = k_jerusalem
-					has_landed_title = e_outremer
-					any_liege = {
-						OR = {
-							has_landed_title = k_jerusalem
-							has_landed_title = e_outremer
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				has_landed_title = e_latin_empire
-			}
+			# modifier = {
+				# factor = 0
+				# capital_scope = {
+					# OR = {
+						# AND = {
+							# culture = norse
+							# NOT = {	has_global_flag = norse_culture_flipping }
+							# ROOT = {
+								# OR = {
+									# culture = swedish 
+									# culture = norwegian
+									# culture = danish
+									# culture = norman
+								# }
+							# }
+						# }
+						# AND = {
+							# culture = saxon
+							# ROOT = {
+								# OR = {
+									# culture = norman 
+									# culture = english
+								# }
+							# }
+						# }
+						# AND = {
+							# culture = norman
+							# ROOT = {
+								# OR = {
+									# culture = english 
+									# culture = saxon
+								# }
+							# }
+						# }
+						# AND = {
+							# culture_group = east_slavic
+							# ROOT = {
+								# culture = russian
+							# }
+						# }
+						# AND = {
+							# culture = pictish
+							# ROOT = {
+								# culture = scottish
+							# }
+						# }
+						# AND = {
+							# culture = lombard
+							# ROOT = {
+								# culture = italian
+							# }
+						# }
+						# AND = {
+							# culture = old_frankish
+							# ROOT = {
+								# culture = frankish
+							# }
+						# }
+						# AND = {
+							# culture = frisian
+							# ROOT = {
+								# culture = dutch
+							# }
+						# }
+						# AND = {
+							# culture = old_saxon
+							# ROOT = {
+								# culture = german
+							# }
+						# }
+						# AND = {
+							# culture = visigothic
+							# ROOT = {
+								# OR = {
+									# culture_group = iberian
+									# culture = andalusian_arabic
+									# culture = occitan
+									# religion_group = muslim
+								# }
+							# }
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 0
+				# culture = nahuatl
+			# }
+			# modifier = {
+				# factor = 0
+				# has_landed_title = e_china_west_governor
+			# }
+			# modifier = {
+				# factor = 0
+				# government = chinese_imperial_government
+			# }
+			# modifier = {
+				# factor = 0
+				# OR = {
+					# has_landed_title = k_jerusalem
+					# has_landed_title = e_outremer
+					# any_liege = {
+						# OR = {
+							# has_landed_title = k_jerusalem
+							# has_landed_title = e_outremer
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 0
+				# has_landed_title = e_latin_empire
+			# }
 		}
 	}
 	
@@ -500,27 +500,27 @@ targetted_decisions = {
 			}
 			
 			# The Indian religions can convert to each other anyway
-			OR = {
-				NOT = { has_dharmic_religion_trigger = yes }
-				capital_scope = {
-					NOT = { has_dharmic_religion_trigger = yes }
-				}
-			}
+			# OR = {
+				# NOT = { has_dharmic_religion_trigger = yes }
+				# capital_scope = {
+					# NOT = { has_dharmic_religion_trigger = yes }
+				# }
+			# }
 			
 			controls_religion = no
 			holy_order = no
 			
 			has_dlc = "Rajas of India"
 			
-			NOT = {
-				AND = {
-					has_dlc = "Charlemagne"
-					has_landed_title = e_byzantium  # May instead renounce iconoclasm
-					has_landed_title = c_byzantion
-					religion = iconoclast
-					capital_scope = { religion = orthodox }
-				}
-			}
+			# NOT = {
+				# AND = {
+					# has_dlc = "Charlemagne"
+					# has_landed_title = e_byzantium  # May instead renounce iconoclasm
+					# has_landed_title = c_byzantion
+					# religion = iconoclast
+					# capital_scope = { religion = orthodox }
+				# }
+			# }
 		}
 		allow = {
 			NOT = { trait = zealous }
@@ -561,84 +561,84 @@ targetted_decisions = {
 			religion_authority = {
 				modifier = ruler_converted_from
 			}
-			if = {
-				limit = {
-					religion_group = christian
-					NOT = { trait = sympathy_christendom }
-					capital_scope = {
-						NOT = { true_religion_group = ROOT }
-					}
-				}
-				random = {
-					chance = 60
-					add_trait = sympathy_christendom
-				}
-			}
-			if = {
-				limit = {
-					religion_group = muslim
-					NOT = { trait = sympathy_islam }
-					capital_scope = {
-						NOT = { true_religion_group = ROOT }
-					}
-				}
-				random = {
-					chance = 60
-					add_trait = sympathy_islam
-				}
-			}
-			if = {
-				limit = {
-					religion_group = pagan_group
-					NOT = { trait = sympathy_pagans }
-					capital_scope = {
-						NOT = { true_religion_group = ROOT }
-					}
-				}
-				random = {
-					chance = 60
-					add_trait = sympathy_pagans
-				}
-			}
-			if = {
-				limit = {
-					religion_group = zoroastrian_group
-					NOT = { trait = sympathy_zoroastrianism }
-					capital_scope = {
-						NOT = { true_religion_group = ROOT }
-					}
-				}
-				random = {
-					chance = 60
-					add_trait = sympathy_zoroastrianism
-				}
-			}
-			if = {
-				limit = {
-					religion_group = jewish_group
-					NOT = { trait = sympathy_judaism }
-					capital_scope = {
-						NOT = { true_religion_group = ROOT }
-					}
-				}
-				random = {
-					chance = 60
-					add_trait = sympathy_judaism
-				}
-			}
-			if = {
-				limit = {
-					religion_group = indian_group
-					NOT = { trait = sympathy_indian }
-					capital_scope = {
-						NOT = { true_religion_group = ROOT }
-					}
-				}
-				random = {
-					chance = 60
-					add_trait = sympathy_indian
-				}
-			}
+			# if = {
+				# limit = {
+					# religion_group = christian
+					# NOT = { trait = sympathy_christendom }
+					# capital_scope = {
+						# NOT = { true_religion_group = ROOT }
+					# }
+				# }
+				# random = {
+					# chance = 60
+					# add_trait = sympathy_christendom
+				# }
+			# }
+			# if = {
+				# limit = {
+					# religion_group = muslim
+					# NOT = { trait = sympathy_islam }
+					# capital_scope = {
+						# NOT = { true_religion_group = ROOT }
+					# }
+				# }
+				# random = {
+					# chance = 60
+					# add_trait = sympathy_islam
+				# }
+			# }
+			# if = {
+				# limit = {
+					# religion_group = pagan_group
+					# NOT = { trait = sympathy_pagans }
+					# capital_scope = {
+						# NOT = { true_religion_group = ROOT }
+					# }
+				# }
+				# random = {
+					# chance = 60
+					# add_trait = sympathy_pagans
+				# }
+			# }
+			# if = {
+				# limit = {
+					# religion_group = zoroastrian_group
+					# NOT = { trait = sympathy_zoroastrianism }
+					# capital_scope = {
+						# NOT = { true_religion_group = ROOT }
+					# }
+				# }
+				# random = {
+					# chance = 60
+					# add_trait = sympathy_zoroastrianism
+				# }
+			# }
+			# if = {
+				# limit = {
+					# religion_group = jewish_group
+					# NOT = { trait = sympathy_judaism }
+					# capital_scope = {
+						# NOT = { true_religion_group = ROOT }
+					# }
+				# }
+				# random = {
+					# chance = 60
+					# add_trait = sympathy_judaism
+				# }
+			# }
+			# if = {
+				# limit = {
+					# religion_group = indian_group
+					# NOT = { trait = sympathy_indian }
+					# capital_scope = {
+						# NOT = { true_religion_group = ROOT }
+					# }
+				# }
+				# random = {
+					# chance = 60
+					# add_trait = sympathy_indian
+				# }
+			# }
 			custom_tooltip = { text = local_religion_conversion_tooltip }
 			hidden_tooltip = {
 				capital_scope = {
@@ -674,15 +674,15 @@ targetted_decisions = {
 			independent = yes
 			controls_religion = no
 			is_heretic = yes
-			NOT = {
-				AND = {
-					has_dlc = "Charlemagne"
-					has_landed_title = e_byzantium  # May instead renounce iconoclasm
-					has_landed_title = c_byzantion
-					religion = iconoclast
-					is_heresy_of = orthodox
-				}
-			}
+			# NOT = {
+				# AND = {
+					# has_dlc = "Charlemagne"
+					# has_landed_title = e_byzantium  # May instead renounce iconoclasm
+					# has_landed_title = c_byzantion
+					# religion = iconoclast
+					# is_heresy_of = orthodox
+				# }
+			# }
 		}
 		allow = {
 			NOT = { trait = zealous }
@@ -717,190 +717,190 @@ targetted_decisions = {
 		}
 	}
 	
-	convert_to_reformed = {
-		only_playable = yes
+	# convert_to_reformed = {
+		# only_playable = yes
 		
-		filter = self
-		ai_target_filter = self
-		ai_check_interval = 60
+		# filter = self
+		# ai_target_filter = self
+		# ai_check_interval = 60
 		
-		potential = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-			is_playable = yes
-			is_heretic = yes
-			OR = {
-				religion = norse_pagan
-				religion = finnish_pagan
-				religion = baltic_pagan
-				religion = tengri_pagan
-				religion = slavic_pagan
-				religion = aztec
-				religion = west_african_pagan
-				religion = bon
-				religion = hellenic_pagan
-			}
-		}
-		allow = {
-			NOT = { trait = zealous }
-			piety = 50
-			holy_order = no
-		}
-		effect = {
-			piety = -50
-			if = {
-				limit = { religion = norse_pagan }
-				religion = norse_pagan_reformed
-			}
-			if = {
-				limit = { religion = finnish_pagan }
-				religion = finnish_pagan_reformed
-			}
-			if = {
-				limit = { religion = baltic_pagan }
-				religion = baltic_pagan_reformed
-			}
-			if = {
-				limit = { religion = tengri_pagan }
-				religion = tengri_pagan_reformed
-			}
-			if = {
-				limit = { religion = slavic_pagan }
-				religion = slavic_pagan_reformed
-			}
-			if = {
-				limit = { religion = aztec }
-				religion = aztec_reformed
-			}
-			if = {
-				limit = { religion = west_african_pagan }
-				religion = west_african_pagan_reformed
-			}
-			if = {
-				limit = { religion = bon }
-				religion = bon_reformed
-			}
-			if = {
-				limit = { religion = hellenic_pagan }
-				religion = hellenic_pagan_reformed
-			}
+		# potential = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+			# is_playable = yes
+			# is_heretic = yes
+			# OR = {
+				# religion = norse_pagan
+				# religion = finnish_pagan
+				# religion = baltic_pagan
+				# religion = tengri_pagan
+				# religion = slavic_pagan
+				# religion = aztec
+				# religion = west_african_pagan
+				# religion = bon
+				# religion = hellenic_pagan
+			# }
+		# }
+		# allow = {
+			# NOT = { trait = zealous }
+			# piety = 50
+			# holy_order = no
+		# }
+		# effect = {
+			# piety = -50
+			# if = {
+				# limit = { religion = norse_pagan }
+				# religion = norse_pagan_reformed
+			# }
+			# if = {
+				# limit = { religion = finnish_pagan }
+				# religion = finnish_pagan_reformed
+			# }
+			# if = {
+				# limit = { religion = baltic_pagan }
+				# religion = baltic_pagan_reformed
+			# }
+			# if = {
+				# limit = { religion = tengri_pagan }
+				# religion = tengri_pagan_reformed
+			# }
+			# if = {
+				# limit = { religion = slavic_pagan }
+				# religion = slavic_pagan_reformed
+			# }
+			# if = {
+				# limit = { religion = aztec }
+				# religion = aztec_reformed
+			# }
+			# if = {
+				# limit = { religion = west_african_pagan }
+				# religion = west_african_pagan_reformed
+			# }
+			# if = {
+				# limit = { religion = bon }
+				# religion = bon_reformed
+			# }
+			# if = {
+				# limit = { religion = hellenic_pagan }
+				# religion = hellenic_pagan_reformed
+			# }
 			
-			hidden_tooltip = {
-				any_courtier = {
-					limit = {
-						is_heresy_of = ROOT
-						employer = { character = ROOT }
-					}
-					religion = ROOT
-				}
-				any_vassal = {
-					limit = {
-						is_playable = no
-						is_heresy_of = ROOT
-					}
-					religion = ROOT
-				}
-				capital_scope = {
-					if = {
-						limit = { is_heresy_of = ROOT }
-						religion = ROOT
-					}
-				}
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.1 # Generally quite a slow process - ca 40 years
-			}
-			modifier = {
-				factor = 0.5
-				OR = {
-					trait = slow
-					trait = dull
-				}
-			}
-			modifier = {
-				factor = 0.1
-				trait = imbecile
-			}
-			modifier = {
-				factor = 0.5
-				trait = content
-			}
-			modifier = {
-				factor = 2.0
-				OR = {
-					trait = quick
-					trait = shrewd
-				}
-			}
-			modifier = {
-				factor = 4.0
-				trait = genius
-			}
-			modifier = {
-				factor = 5.0
-				trait = cynical # It's the future..
-			}
-			modifier = {
-				factor = 2.0
-				trait = ambitious
-			}
-			modifier = {
-				factor = 0
-				independent = no
-				any_liege = {
-					religion = ROOT
-				}
-			}
-			modifier = { #Easier for Proselytizers
-				factor = 2.0
-				OR = {
-					AND = {
-						religion = norse_pagan
-						norse_pagan_reformed = { has_religion_feature = religion_proselytizing }
-					}
-					AND = {
-						religion = tengri_pagan
-						tengri_pagan_reformed = { has_religion_feature = religion_proselytizing }
-					}
-					AND = {
-						religion = slavic_pagan
-						slavic_pagan_reformed = { has_religion_feature = religion_proselytizing }
-					}
-					AND = {
-						religion = baltic_pagan
-						baltic_pagan_reformed = { has_religion_feature = religion_proselytizing }
-					}
-					AND = {
-						religion = finnish_pagan
-						finnish_pagan_reformed = { has_religion_feature = religion_proselytizing }
-					}
-					AND = {
-						religion = aztec
-						aztec_reformed = { has_religion_feature = religion_proselytizing }
-					}
-					AND = {
-						religion = west_african_pagan
-						west_african_pagan_reformed = { has_religion_feature = religion_proselytizing }
-					}
-					AND = {
-						religion = bon
-						bon_reformed = { has_religion_feature = religion_proselytizing }
-					}
-					AND = {
-						religion = hellenic_pagan
-						hellenic_pagan_reformed = { has_religion_feature = religion_proselytizing }
-					}
-				}
-			}
-		}
-	}
+			# hidden_tooltip = {
+				# any_courtier = {
+					# limit = {
+						# is_heresy_of = ROOT
+						# employer = { character = ROOT }
+					# }
+					# religion = ROOT
+				# }
+				# any_vassal = {
+					# limit = {
+						# is_playable = no
+						# is_heresy_of = ROOT
+					# }
+					# religion = ROOT
+				# }
+				# capital_scope = {
+					# if = {
+						# limit = { is_heresy_of = ROOT }
+						# religion = ROOT
+					# }
+				# }
+			# }
+		# }
+		# revoke_allowed = {
+			# always = no
+		# }
+		# ai_will_do = {
+			# factor = 1
+			# modifier = {
+				# factor = 0.1 # Generally quite a slow process - ca 40 years
+			# }
+			# modifier = {
+				# factor = 0.5
+				# OR = {
+					# trait = slow
+					# trait = dull
+				# }
+			# }
+			# modifier = {
+				# factor = 0.1
+				# trait = imbecile
+			# }
+			# modifier = {
+				# factor = 0.5
+				# trait = content
+			# }
+			# modifier = {
+				# factor = 2.0
+				# OR = {
+					# trait = quick
+					# trait = shrewd
+				# }
+			# }
+			# modifier = {
+				# factor = 4.0
+				# trait = genius
+			# }
+			# modifier = {
+				# factor = 5.0
+				# trait = cynical # It's the future..
+			# }
+			# modifier = {
+				# factor = 2.0
+				# trait = ambitious
+			# }
+			# modifier = {
+				# factor = 0
+				# independent = no
+				# any_liege = {
+					# religion = ROOT
+				# }
+			# }
+			# modifier = { #Easier for Proselytizers
+				# factor = 2.0
+				# OR = {
+					# AND = {
+						# religion = norse_pagan
+						# norse_pagan_reformed = { has_religion_feature = religion_proselytizing }
+					# }
+					# AND = {
+						# religion = tengri_pagan
+						# tengri_pagan_reformed = { has_religion_feature = religion_proselytizing }
+					# }
+					# AND = {
+						# religion = slavic_pagan
+						# slavic_pagan_reformed = { has_religion_feature = religion_proselytizing }
+					# }
+					# AND = {
+						# religion = baltic_pagan
+						# baltic_pagan_reformed = { has_religion_feature = religion_proselytizing }
+					# }
+					# AND = {
+						# religion = finnish_pagan
+						# finnish_pagan_reformed = { has_religion_feature = religion_proselytizing }
+					# }
+					# AND = {
+						# religion = aztec
+						# aztec_reformed = { has_religion_feature = religion_proselytizing }
+					# }
+					# AND = {
+						# religion = west_african_pagan
+						# west_african_pagan_reformed = { has_religion_feature = religion_proselytizing }
+					# }
+					# AND = {
+						# religion = bon
+						# bon_reformed = { has_religion_feature = religion_proselytizing }
+					# }
+					# AND = {
+						# religion = hellenic_pagan
+						# hellenic_pagan_reformed = { has_religion_feature = religion_proselytizing }
+					# }
+				# }
+			# }
+		# }
+	# }
 
 	convert_to_spouse_religion= {
 		only_playable = yes
@@ -914,7 +914,10 @@ targetted_decisions = {
 			}
 			ai = no
 			is_playable = yes
-			religion_group = pagan_group
+			# religion_group = pagan_group
+			NOT = {
+				religion_group = bnai_avraham
+			}
 			controls_religion = no
 		}
 		
@@ -930,13 +933,13 @@ targetted_decisions = {
 					character = FROM
 				}
 			}
-			OR = {
-				religion_group = christian
-				religion_group = muslim
-				religion_group = zoroastrian_group
-				religion_group = jewish_group
-				religion_group = indian_group
-			}
+			# OR = {
+				# religion_group = christian
+				# religion_group = muslim
+				# religion_group = zoroastrian_group
+				# religion_group = jewish_group
+				# religion_group = indian_group
+			# }
 			is_alive = yes
 		}
 		
@@ -975,120 +978,120 @@ targetted_decisions = {
 				abdicate_holy_order_if_religion_changes_effect = yes
 				
 				#When spouse is Hindu
-				if = {
-					limit = {
-						ROOT = {
-							trait = shaivist_hindu
-						}
-					}
-					add_trait = shaivist_hindu
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = vaishnavist_hindu
-						}
-					}
-					add_trait = vaishnavist_hindu
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = shaktist_hindu
-						}
-					}
-					add_trait = shaktist_hindu
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = smartist_hindu
-						}
-					}
-					add_trait = smartist_hindu
-				}
+				# if = {
+					# limit = {
+						# ROOT = {
+							# trait = shaivist_hindu
+						# }
+					# }
+					# add_trait = shaivist_hindu
+				# }
+				# if = {
+					# limit = {
+						# ROOT = {
+							# trait = vaishnavist_hindu
+						# }
+					# }
+					# add_trait = vaishnavist_hindu
+				# }
+				# if = {
+					# limit = {
+						# ROOT = {
+							# trait = shaktist_hindu
+						# }
+					# }
+					# add_trait = shaktist_hindu
+				# }
+				# if = {
+					# limit = {
+						# ROOT = {
+							# trait = smartist_hindu
+						# }
+					# }
+					# add_trait = smartist_hindu
+				# }
 				
-				#When spouse is Buddhist
-				if = {
-					limit = {
-						ROOT = {
-							trait = mahayana_buddhist
-						}
-					}
-					add_trait = mahayana_buddhist
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = vajrayana_buddhist
-						}
-					}
-					add_trait = vajrayana_buddhist
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = theravada_buddhist
-						}
-					}
-					add_trait = theravada_buddhist
-				}
+				# When spouse is Buddhist
+				# if = {
+					# limit = {
+						# ROOT = {
+							# trait = mahayana_buddhist
+						# }
+					# }
+					# add_trait = mahayana_buddhist
+				# }
+				# if = {
+					# limit = {
+						# ROOT = {
+							# trait = vajrayana_buddhist
+						# }
+					# }
+					# add_trait = vajrayana_buddhist
+				# }
+				# if = {
+					# limit = {
+						# ROOT = {
+							# trait = theravada_buddhist
+						# }
+					# }
+					# add_trait = theravada_buddhist
+				# }
 				
-				#When spouse is Jain
-				if = {
-					limit = {
-						ROOT = {
-							trait = digambara_jain
-						}
-					}
-					add_trait = digambara_jain
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = svetambara_jain
-						}
-					}
-					add_trait = svetambara_jain
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = pagan_branch_1
-						}
-					}
-					add_trait = pagan_branch_1
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = pagan_branch_2
-						}
-					}
-					add_trait = pagan_branch_2
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = pagan_branch_3
-						}
-					}
-					add_trait = pagan_branch_3
-				}
-				if = {
-					limit = {
-						ROOT = {
-							trait = pagan_branch_4
-						}
-					}
-					add_trait = pagan_branch_4
-				}
+				# When spouse is Jain
+				# if = {
+					# limit = {
+						# ROOT = {
+							# trait = digambara_jain
+						# }
+					# }
+					# add_trait = digambara_jain
+				# }
+				# if = {
+					# limit = {
+						# ROOT = {
+							# trait = svetambara_jain
+						# }
+					# }
+					# add_trait = svetambara_jain
+				# }
+				# if = {
+					# limit = {
+						# ROOT = {
+							# trait = pagan_branch_1
+						# }
+					# }
+					# add_trait = pagan_branch_1
+				# }
+				# if = {
+					# limit = {
+						# ROOT = {
+							# trait = pagan_branch_2
+						# }
+					# }
+					# add_trait = pagan_branch_2
+				# }
+				# if = {
+					# limit = {
+						# ROOT = {
+							# trait = pagan_branch_3
+						# }
+					# }
+					# add_trait = pagan_branch_3
+				# }
+				# if = {
+					# limit = {
+						# ROOT = {
+							# trait = pagan_branch_4
+						# }
+					# }
+					# add_trait = pagan_branch_4
+				# }
 				
-				hidden_tooltip = {
-					religion_authority = {
-						modifier = ruler_converted_to
-					}
-				}
+				# hidden_tooltip = {
+					# religion_authority = {
+						# modifier = ruler_converted_to
+					# }
+				# }
 				piety = 200
 			}
 		}

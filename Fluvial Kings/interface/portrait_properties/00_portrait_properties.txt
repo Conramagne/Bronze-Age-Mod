@@ -1519,6 +1519,39 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = cretan_bull
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	18 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = minotaur
+				trait = arethousa
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	19 = {
+		factor = 1
+		modifier = {
+			factor = 0
 			OR = {
 				trait = zeus
 				trait = demeter
@@ -1552,6 +1585,8 @@
 				trait = leto
 				trait = pandora
 				trait = arethousa
+				trait = cretan_bull
+				trait = minotaur
 			}
 		}
 		modifier = {

@@ -51,6 +51,8 @@ likes_war_god_trigger = {
 		trait = strategist
 		trait = brave
 		trait = craven
+		culture = amazonios
+		trait = stratocrat
 	}
 }
 likes_commerce_god_trigger = {
