@@ -1,0 +1,572 @@
+#All Roman 'dynasties' are actually just gens written in the masculine form because Swedes can't code.
+0000001=
+{
+	name="Fabius"
+	culture="roman"
+}
+0000002=
+{
+	name="Aemilius"
+	culture="roman"
+}
+0000003=
+{
+	name="Furius"
+	culture="roman"
+}
+0000004=
+{
+	name="Claudius"
+	culture="roman"
+}
+0000005=
+{
+	name="Clodius"
+	culture="roman"
+}
+
+0000006=
+{
+	name="Cornelius"
+	culture="roman"
+}
+0000007=
+{
+	name="Valerius"
+	culture="roman"
+}
+0000008=
+{
+	name="Abronius"
+	culture="roman"
+}
+0000009=
+{
+	name="Accius"
+	culture="roman"
+}
+0000010=
+{
+	name="Acceronius"
+	culture="roman"
+}
+0000011=
+{
+	name="Actorius"
+	culture="roman"
+}
+
+0000012=
+{
+	name="Albinius"
+	culture="roman"
+}
+0000013=
+{
+	name="Ancharius"
+	culture="roman"
+}
+0000014=
+{
+	name="Antistius"
+	culture="roman"
+}
+0000015=
+{
+	name="Aquillius"
+	culture="roman"
+}
+
+0000016=
+{
+	name="Apulleius"
+	culture="roman"
+}
+
+0000017=
+{
+	name="Articuleius"
+	culture="roman"
+}
+
+0000018=
+{
+	name="Arpineius"
+	culture="roman"
+}
+
+0000019=
+{
+	name="Aquinius"
+	culture="roman"
+}
+0000020=
+{
+	name="Asconius"
+	culture="roman"
+}
+0000021=
+{
+	name="Aurunculeius"
+	culture="roman"
+}
+
+0000022=
+{
+	name="Aternius"
+	culture="roman"
+}
+
+0000023=
+{
+	name="Axius"
+	culture="roman"
+}
+
+0000024=
+{
+	name="Aurelius"
+	culture="roman"
+}
+
+0000025=
+{
+	name="Balventius"
+	culture="roman"
+}
+
+0000026=
+{
+	name="Barbatius"
+	culture="roman"
+}
+
+0000027=
+{
+	name="Bellicius"
+	culture="roman"
+}
+
+0000028=
+{
+	name="Bellienus"
+	culture="roman"
+}
+
+0000029=
+{
+	name="Betucius"
+	culture="roman"
+}
+
+0000030=
+{
+	name="Bruttius"
+	culture="roman"
+}
+
+0000031=
+{
+	name="Bucculeius"
+	culture="roman"
+}
+0000032=
+{
+	name="Burbuleius"
+	culture="roman"
+}
+
+0000033=
+{
+	name="Burrenus"
+	culture="roman"
+}
+
+0000034=
+{
+	name="Bucculeius"
+	culture="roman"
+}
+
+0000035=
+{
+	name="Caecius"
+	culture="roman"
+}
+
+0000036=
+{
+	name="Caecinus"
+	culture="roman"
+}
+
+0000037=
+{
+	name="Caedicius"
+	culture="roman"
+}
+
+0000038=
+{
+	name="Caelius"
+	culture="roman"
+}
+
+0000039=
+{
+	name="Ceaparius"
+	culture="roman"
+}
+
+0000040=
+{
+	name="Ceapasius"
+	culture="roman"
+}
+
+0000041=
+{
+	name="Caesannius"
+	culture="roman"
+}
+0000042=
+{
+	name="Caesetius"
+	culture="roman"
+}
+
+0000043=
+{
+	name="Ceatronius"
+	culture="roman"
+}
+
+0000044=
+{
+	name="Calavius"
+	culture="roman"
+}
+
+0000045=
+{
+	name="Calpurnius"
+	culture="roman"
+}
+
+0000046=
+{
+	name="Canidius"
+	culture="roman"
+}
+
+0000047=
+{
+	name="Caninius"
+	culture="roman"
+}
+
+0000048=
+{
+	name="Cantius"
+	culture="roman"
+}
+
+0000049=
+{
+	name="Canuleius"
+	culture="roman"
+}
+
+0000050=
+{
+	name="Carfulenius"
+	culture="roman"
+}
+
+0000051=
+{
+	name="Cassius"
+	culture="roman"
+}
+
+0000052=
+{
+	name="Castricius"
+	culture="roman"
+}
+0000052=
+{
+	name="Centenius"
+	culture="roman"
+}
+
+0000053=
+{
+	name="Consentius"
+	culture="roman"
+}
+
+0000054=
+{
+	name="Cosconius"
+	culture="roman"
+}
+
+0000055=
+{
+	name="Decentius"
+	culture="roman"
+}
+
+0000056=
+{
+	name="Decimius"
+	culture="roman"
+}
+
+0000057=
+{
+	name="Digitius"
+	culture="roman"
+}
+
+0000058=
+{
+	name="Domitius"
+	culture="roman"
+}
+
+0000059=
+{
+	name="Duronius"
+	culture="roman"
+}
+
+0000060=
+{
+	name="Egentuleius"
+	culture="roman"
+}
+
+0000061=
+{
+	name="Egenatius"
+	culture="roman"
+}
+
+0000063=
+{
+	name="Egilius"
+	culture="roman"
+}
+
+0000064=
+{
+	name="Eppius"
+	culture="roman"
+}
+
+0000065=
+{
+	name="Equitius"
+	culture="roman"
+}
+
+0000066=
+{
+	name="Erucius"
+	culture="roman"
+}
+
+0000067=
+{
+	name="Fabricius"
+	culture="roman"
+}
+
+0000068=
+{
+	name="Falcidius"
+	culture="roman"
+}
+
+0000069=
+{
+	name="Farsuleius"
+	culture="roman"
+}
+
+0000070=
+{
+	name="Flavius"
+	culture="roman"
+}
+
+0000071=
+{
+	name="Fuficius"
+	culture="roman"
+}
+
+0000072=
+{
+	name="Fundanius"
+	culture="roman"
+}
+0000073=
+{
+	name="Gabinius"
+	culture="roman"
+}
+
+0000074=
+{
+	name="Galerius"
+	culture="roman"
+}
+
+0000075=
+{
+	name="Gargonius"
+	culture="roman"
+}
+
+0000076=
+{
+	name="Gavius"
+	culture="roman"
+}
+0000077=
+{
+	name="Gellius"
+	culture="roman"
+}
+
+0000078=
+{
+	name="Geminius"
+	culture="roman"
+}
+
+0000079=
+{
+	name="Granius"
+	culture="roman"
+}
+
+0000080=
+{
+	name="Gratidius"
+	culture="roman"
+}
+0000081=
+{
+	name="Iallius"
+	culture="roman"
+}
+0000082=
+{
+	name="Iasdius"
+	culture="roman"
+}
+
+0000083=
+{
+	name="Iccius"
+	culture="roman"
+}
+
+0000084=
+{
+	name="Insteius"
+	culture="roman"
+}
+
+0000085=
+{
+	name="Iturius"
+	culture="roman"
+}
+
+0000086=
+{
+	name="Laberius"
+	culture="roman"
+}
+
+0000087=
+{
+	name="Laecanius"
+	culture="roman"
+}
+
+0000088=
+{
+	name="Laenius"
+	culture="roman"
+}
+
+0000089=
+{
+	name="Laetorius"
+	culture="roman"
+}
+
+0000090=
+{
+	name="Lamponius"
+	culture="roman"
+}
+
+0000091=
+{
+	name="Laronius"
+	culture="roman"
+}
+0000092=
+{
+	name="Latinius"
+	culture="roman"
+}
+
+0000093=
+{
+	name="Ligarius"
+	culture="roman"
+}
+
+0000094=
+{
+	name="Lollius"
+	culture="roman"
+}
+
+0000095=
+{
+	name="Lucretius"
+	culture="roman"
+}
+
+0000096=
+{
+	name="Obultronius"
+	culture="roman"
+}
+
+0000097=
+{
+	name="Oclatinius"
+	culture="roman"
+}
+
+0000098=
+{
+	name="Quinctillius"
+	culture="roman"
+}
+
+0000099=
+{
+	name="Saltorius"
+	culture="roman"
+}

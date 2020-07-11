@@ -1,0 +1,49 @@
+latin = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { romangfx }
+	
+	roman = {
+		graphical_cultures = { romangfx }
+		
+		color = { 77 123 135 }
+
+		male_names = { #Both male and female names are Roman Praenomen, it's rather hard to make Roman naming convention work in CK2
+			Agrippa Appius Aulus 
+			Caeso Cossus
+			Decimus
+			Faustus
+			Gaius Gnaeus
+			Hostus
+			Lucius 
+			Mamercus Manius Marcus Mettius
+			Nonus Numerius
+			Octavius Opiter
+			Paullus Postumus Proculus Publius Potitus
+			Quintus
+			Septimus Sertor Servius Sextus Spurius Statius
+			Tiberius Titus Tullus
+			Vibius Volesus Vopiscus
+		}
+		female_names = {
+			Appia Aula
+			Caesula
+			Decima
+			Fausta
+			Gaia Gnaea
+			Hosta
+			Lucia
+			Maio Mamerca Mania Marcia Maxima Mettia Mino
+			Nona Numeria
+			Octavia
+			Paulla Postuma Prima Procula Publia Pompilia
+			Quarta Quinta
+			Septima Servia Sexta Spurtia Statia
+			Titia Tiberia Tulla
+			Vibia Volusa Vopisca
+		}		
+		
+		from_dynasty_prefix = "ex "
+		
+		modifier = default_culture_modifier
+	}
+}
