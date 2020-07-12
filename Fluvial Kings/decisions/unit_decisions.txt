@@ -174,9 +174,9 @@ decisions = {
 							# is_primary_war_defender = yes
 						# }
 
-						Defending against heathen
+						# Defending against heathen
 						# OR = {
-							Defender is finnish pagan but attacker is not
+							# Defender is finnish pagan but attacker is not
 							# AND = {
 								# ROOT = {
 									# OR = {
@@ -192,7 +192,7 @@ decisions = {
 								# }
 							# }
 
-							Defender is west african pagan but attacker is not
+							# Defender is west african pagan but attacker is not
 							# AND = {
 								# ROOT = {
 									# OR = {
@@ -208,7 +208,7 @@ decisions = {
 								# }
 							# }
 
-							Defender is baltic pagan but attacker is not
+							# Defender is baltic pagan but attacker is not
 							# AND = {
 								# ROOT = {
 									# OR = {
@@ -224,7 +224,7 @@ decisions = {
 								# }
 							# }
 
-							Defender is slavic pagan but attacker is not
+							# Defender is slavic pagan but attacker is not
 							# AND = {
 								# ROOT = {
 									# OR = {

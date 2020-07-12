@@ -145,36 +145,36 @@ laws = {
 	law_voting_power_1 = {
 		group = law_voting_power
 		
-		default_selection = {
-			factor = 0
+		# default_selection = {
+			# factor = 0
 			
-			additive_modifier = { 
-				value = 10			
-				year = 850
-				holder_scope = { 
-					religion = catholic
-					is_feudal = yes
-				}	
-			}
-			additive_modifier = { 
-				value = 10			
-				title = e_hre	
-			}
-			additive_modifier = { 
-				value = 10			
-				title = e_byzantium	
-			}
-			additive_modifier = { 
-				value = 10			
-				holder_scope = { 
-					OR = {
-						is_nomadic = yes	
-						is_tribal = yes	
-						is_republic = yes
-					}
-				}
-			}
-		}
+			# additive_modifier = { 
+				# value = 10			
+				# year = 850
+				# holder_scope = { 
+					# religion = catholic
+					# is_feudal = yes
+				# }	
+			# }
+			# additive_modifier = { 
+				# value = 10			
+				# title = e_hre	
+			# }
+			# additive_modifier = { 
+				# value = 10			
+				# title = e_byzantium	
+			# }
+			# additive_modifier = { 
+				# value = 10			
+				# holder_scope = { 
+					# OR = {
+						# is_nomadic = yes	
+						# is_tribal = yes	
+						# is_republic = yes
+					# }
+				# }
+			# }
+		# }
 		
 		allow = {
 			NOR = {
@@ -363,28 +363,28 @@ laws = {
 	war_voting_power_1 = {
 		group = war_voting_power
 		
-		default_selection = {
-			factor = 0
+		# default_selection = {
+			# factor = 0
 			
-			additive_modifier = { 
-				value = 10			
-				year = 900
-				holder_scope = { 
-					religion = catholic
-					is_feudal = yes
-				}	
-			}
-			additive_modifier = { 
-				value = 10			
-				title = e_hre	
-			}
-			additive_modifier = { 
-				value = 10			
-				OR = {
-					holder_scope = { is_nomadic = yes }	
-				}
-			}
-		}
+			# additive_modifier = { 
+				# value = 10			
+				# year = 900
+				# holder_scope = { 
+					# religion = catholic
+					# is_feudal = yes
+				# }	
+			# }
+			# additive_modifier = { 
+				# value = 10			
+				# title = e_hre	
+			# }
+			# additive_modifier = { 
+				# value = 10			
+				# OR = {
+					# holder_scope = { is_nomadic = yes }	
+				# }
+			# }
+		# }
 		
 		allow = {
 			NOR = {
@@ -562,28 +562,28 @@ laws = {
 	revoke_title_voting_power_1 = {
 		group = revoke_title_voting_power
 		
-		default_selection = {
-			factor = 0
+		# default_selection = {
+			# factor = 0
 			
-			additive_modifier = { 
-				value = 10			
-				year = 1100
-				holder_scope = { 
-					religion = catholic
-					is_feudal = yes
-				}	
-			}
-			additive_modifier = { 
-				value = 10			
-				title = e_hre	
-			}
-			additive_modifier = { 
-				value = 10			
-				OR = {
-					holder_scope = { is_nomadic = yes }	
-				}
-			}
-		}
+			# additive_modifier = { 
+				# value = 10			
+				# year = 1100
+				# holder_scope = { 
+					# religion = catholic
+					# is_feudal = yes
+				# }	
+			# }
+			# additive_modifier = { 
+				# value = 10			
+				# title = e_hre	
+			# }
+			# additive_modifier = { 
+				# value = 10			
+				# OR = {
+					# holder_scope = { is_nomadic = yes }	
+				# }
+			# }
+		# }
 		
 		allow = {
 			NOR = {
@@ -757,28 +757,28 @@ laws = {
 	imprison_voting_power_1 = {
 		group = imprison_voting_power
 		
-		default_selection = {
-			factor = 0
+		# default_selection = {
+			# factor = 0
 			
-			additive_modifier = { 
-				value = 10			
-				year = 1000
-				holder_scope = { 
-					religion = catholic
-					is_feudal = yes
-				}	
-			}
-			additive_modifier = { 
-				value = 10			
-				title = e_hre	
-			}
-			additive_modifier = { 
-				value = 10			
-				OR = {
-					holder_scope = { is_nomadic = yes }	
-				}
-			}
-		}
+			# additive_modifier = { 
+				# value = 10			
+				# year = 1000
+				# holder_scope = { 
+					# religion = catholic
+					# is_feudal = yes
+				# }	
+			# }
+			# additive_modifier = { 
+				# value = 10			
+				# title = e_hre	
+			# }
+			# additive_modifier = { 
+				# value = 10			
+				# OR = {
+					# holder_scope = { is_nomadic = yes }	
+				# }
+			# }
+		# }
 		
 		allow = {
 			NOR = {
@@ -951,28 +951,28 @@ laws = {
 	grant_title_voting_power_1 = {
 		group = grant_title_voting_power
 		
-		default_selection = {
-			factor = 0
+		# default_selection = {
+			# factor = 0
 			
-			additive_modifier = { 
-				value = 10			
-				year = 1200
-				holder_scope = { 
-					religion = catholic
-					is_feudal = yes
-				}	
-			}
-			additive_modifier = { 
-				value = 10			
-				title = e_hre	
-			}
-			additive_modifier = { 
-				value = 10			
-				OR = {
-					holder_scope = { is_nomadic = yes }	
-				}
-			}
-		}
+			# additive_modifier = { 
+				# value = 10			
+				# year = 1200
+				# holder_scope = { 
+					# religion = catholic
+					# is_feudal = yes
+				# }	
+			# }
+			# additive_modifier = { 
+				# value = 10			
+				# title = e_hre	
+			# }
+			# additive_modifier = { 
+				# value = 10			
+				# OR = {
+					# holder_scope = { is_nomadic = yes }	
+				# }
+			# }
+		# }
 		
 		allow = {
 			NOR = {
@@ -1146,28 +1146,28 @@ laws = {
 		group = banish_voting_power
 		default = yes
 		
-		default_selection = {
-			factor = 0
+		# default_selection = {
+			# factor = 0
 			
-			additive_modifier = { 
-				value = 10			
-				year = 1300
-				holder_scope = { 
-					religion = catholic
-					is_feudal = yes
-				}	
-			}
-			additive_modifier = { 
-				value = 10			
-				title = e_hre	
-			}
-			additive_modifier = { 
-				value = 10			
-				OR = {
-					holder_scope = { is_nomadic = yes }	
-				}
-			}
-		}
+			# additive_modifier = { 
+				# value = 10			
+				# year = 1300
+				# holder_scope = { 
+					# religion = catholic
+					# is_feudal = yes
+				# }	
+			# }
+			# additive_modifier = { 
+				# value = 10			
+				# title = e_hre	
+			# }
+			# additive_modifier = { 
+				# value = 10			
+				# OR = {
+					# holder_scope = { is_nomadic = yes }	
+				# }
+			# }
+		# }
 		
 		allow = {
 			NOR = {
@@ -1340,28 +1340,28 @@ laws = {
 	execution_voting_power_1 = {
 		group = execution_voting_power
 		
-		default_selection = {
-			factor = 0
+		# default_selection = {
+			# factor = 0
 			
-			additive_modifier = { 
-				value = 10			
-				year = 1200
-				holder_scope = { 
-					religion = catholic
-					is_feudal = yes
-				}	
-			}
-			additive_modifier = { 
-				value = 10			
-				title = e_hre	
-			}
-			additive_modifier = { 
-				value = 10			
-				OR = {
-					holder_scope = { is_nomadic = yes }	
-				}
-			}
-		}
+			# additive_modifier = { 
+				# value = 10			
+				# year = 1200
+				# holder_scope = { 
+					# religion = catholic
+					# is_feudal = yes
+				# }	
+			# }
+			# additive_modifier = { 
+				# value = 10			
+				# title = e_hre	
+			# }
+			# additive_modifier = { 
+				# value = 10			
+				# OR = {
+					# holder_scope = { is_nomadic = yes }	
+				# }
+			# }
+		# }
 		
 		allow = {
 			NOR = {

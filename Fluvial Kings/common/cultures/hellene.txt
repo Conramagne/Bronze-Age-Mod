@@ -7,41 +7,44 @@ hellene = {
 		color = { 0.8 0.2 0.8 }
 
 		male_names = {
-			Abas Actor Acastos_Akastos Agamemnon Agapenor Agasthenes Agenor Aglaophonus Agrius Aiakos Aigeús Aiguptios Aiputos Akamas Akhareus Akhilleus Aktaion Alektruon Aleos Alexandros Alkathous Amphidamas Amphiktuon Amphimachcos Amphimedes Andronikh Ankaios Antromaxos Apheidas Aranareus Argurios Aristaios Arkas Arkeisios Askalaphos Athamas Atreus Augewas 
-			Cepheus Chalcodon
+			Abas Actor Agamemnon Agapenor Agasthenes Agenor Aglaophonus Agrios Aiakos Aigeús Aigialeus Aiguptios Aiputos Akamas Akastos Akhareus Akhilleus Aktaion Akoos Alektruon Aleos Alexandros Alkaios Alkathous Alkmaíon Amphiaraos Amphidamas Amphiktuon Amphílokhos Amphimachcos Amphimedes Amphion Amuthaon Anaxagoras Andronikh Ankaios Antromaxos Apheidas Aranareus Argos Argurios Aristaios Arkas Arkeisios Askalaphos Athamas Atreus Augewas 
+			Bias Buphagos
+			Chalcodon
 			Demophon Dhmofanhs Didereus Diomedes Drakokardos Drakomaxos 
-			Eleîos Ekhinos Enkhelyawon Elatos Elephenor Erechtheos Eruthros Etewoklewes Eumenes Euruptolemos Eurutos
-			Filaretos 
-			Glaukos Gouneus 
+			Eleîos Ekhinos Enkhelyawon Elatos Elephenor Erechtheos Eruthros Etewoklewes Eumenes Euruptolemos Eurutos 
+			Glaukos 
 			Hektor 
-			Ialmenos Iason Idmon 
-			Kadmos Kalkhas Kékrops Khalkeus Kleonikh Klúmenos Kretheus Kteatos Kupridhmos Kyprios 
-			Laertes Leukopeus Lukaon Lukios Lukimnios Lukomedes Lukourgos 
-			Makhawon Medon Melas Menelaos Menestheus
-			Narkissos Nestor Nikostratos 
-			Oineus Orestes Orneus
-			Pandion Patroklos Peleus Pereos Peteus Phoinix Phokus Phrixos Plouteus Poimen Poimnios Poliwos Poluxenos Presbon
+			Ialmenos Iason Idmon Inachos
+			Jasus Jasos Jason
+			Kástor Kadmos Kalkhas Kapaneús Kékrops Kepheús Khalkeus Kleonikh Klúmenos Kluthios Koronos Kranaos Kretheus Kriasos Krotopos Kteatos Kuanippus Kupridhmos Kyprios 
+			Lacidaus Lacidamos Laertes Leitos Leukopeus Lukaon Lukios Lukos Lukimnios Lukomedes Lukourgos 
+			Makhawon Medon Megapenthes Melas Melampus Mekisteús Menelaos Menestheus
+			Narkissos Neleus Nestor Nikostratos 
+			Oineús Orestes Orneus
+			Parthenopaîos Pandion Patroklos Peisistratos Peiranta Peleus Pelias Pereos Perseus Peteus Phegous Pheidon Pheres Phoinix Phokus Phoroneus Phrasimus Phrixos Phrontis Poimen Poliwos Poluxenos Presbon Promachos Proetos
 			Radamanqus 
-			Sarpedon Sterope Stumphalos
-			Tawagalawa Telamon Teukros Thalpius Theseus Thestor Trambelus Tripodiskos Tripolemos Tros Tudeus Tulisios Turios Twinon Tudeus 
+			Sarpedon Sthenelos Strátikhos Stumphalos
+			Tawagalawa Telamon Teukros Theseus Thestor Trambelos Tripodiskos Tripolemos Tros Tudeus Tulisios Turios Twinon Tudeus 
 			Wedaneus 
-			Xaridhmos
+			Xaridhmos Xanthus
 		}
 		
 		female_names = {
-			Alcyone Arete Alexandra Ariadnh Argea Ainarete Astyoche Antinoe Atalante Auge
+			Aegiale Aglaea Alcyone Arete Alexandra Ariadnh Argea Arsinoe Ainarete Anaxibia Antinoe Asterope Astyoche Atalante Auge
 			Biadice
-			Callisto Calypso Cassiepeia_Cassiopeia Cleobule
+			Callisto Callirrhoe Callithyia Cassiepeia_Cassiopeia Chthonia
 			Demodice_Demodoce
-			Elara Eritha Ereutija Europa Eurycyda Eurydice Euru
+			Elara Epikaste Eriphyle Eritha Ereutija Europa Eurycyda Eurydice Euru
 			Gorgopis
 			Io Iotis Îphis Iphimedeia
-			Karpathia Korinsia Kalyke
+			Karpathia Khalkiópe Khloris Korinsia Komaitho Kalyke Kalypso Kleovoúle Kreousa
 			Laodamia Laodice Leukothéa_Leucothoë Lilaea
 			Meliboea Metiadosa Molione Molpe
 			Nausidame Neaera Nephele Niobe
-			Pandora Peloris Peneus Polycaste Poulxeria Praxithea Pylia
-			Thermisto Thelxinóe Thronia_Thronie Tyro
+			Pandora Peitho Peloris Peneus Perimede Pisdice Polukaste Poulxeria Protogeneia
+			Praxithea Procris Prókne Promne Pylia
+			Sterope
+			Thermisto Thelxinóe Theobule Thronia_Thronie Tisiphone Tyro
 			Zeuxippe
 		}
 		dukes_called_kings = yes

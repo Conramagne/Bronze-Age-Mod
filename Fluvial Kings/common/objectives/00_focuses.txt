@@ -462,12 +462,18 @@ focus_hunting = {
 		modifier = {
 			factor = 0.2
 			is_female = yes
-			NOT = { has_religion_feature = religion_matriarchal }
+			NOR = {
+				has_religion_feature = religion_matriarchal
+				culture = amazonios
+			}
 		}
 		modifier = {
 			factor = 0.2
 			is_female = no
-			has_religion_feature = religion_matriarchal
+			OR = {
+				has_religion_feature = religion_matriarchal
+				culture = amazonios
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -544,7 +550,10 @@ focus_war = {
 		modifier = {
 			factor = 0.1
 			is_female = no
-			has_religion_feature = religion_matriarchal
+			OR = {
+				has_religion_feature = religion_matriarchal
+				culture = amazonios
+			}
 		}
 		
 		modifier = {
@@ -636,7 +645,7 @@ focus_carousing = {
 		NOT = { trait = incapable }
 		prisoner = no
 		OR = {
-			NOT = { religion_group = muslim }
+			# NOT = { religion_group = muslim }
 			trait = decadent
 			trait = hedonist
 			trait = drunkard

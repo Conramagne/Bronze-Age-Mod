@@ -83,7 +83,7 @@
 	2471.1.1 = { death = yes }
 }
 
-#Add Chalciope (2100007) when Colchis is being added
+#Add Khalkiópe (2100007) when Colchis is being added
 
 2100008 = { #Athamas, King of Orchemenus
 	name = "Athamas"
@@ -433,8 +433,8 @@
 	2481.1.1 = { death = yes }
 }
 
-2100308 = { #Cleobule
-	name = "Cleobule"
+2100308 = { #Kleovoúle
+	name = "Kleovoúle"
 	culture = achaean
 	religion = pantes_theoi
 	female = yes
@@ -445,8 +445,8 @@
 	2456.1.1 = { death = yes }
 }
 
-2100309 = { #Cepheus, King of Arcadia
-	name = "Cepheus"
+2100309 = { #Kepheús, King of Arcadia
+	name = "Kepheús"
 	dynasty = 2100003 #Arkid
 	culture = achaean
 	religion = pantes_theoi
@@ -884,8 +884,8 @@
 	2526.1.1 = { death = yes }
 }
 
-2100502 = { #Polynices
-	name = "Polynices"
+2100502 = { #Poluneíkes
+	name = "Poluneíkes"
 	dynasty = 2100006 #Cadmiad
 	culture = achaean
 	religion = pantes_theoi
@@ -1013,8 +1013,8 @@
 	2411.1.1 = { death = yes }
 }
 
-2100510 = { #Polydoros, King of Thebes
-	name = "Polydoros"
+2100510 = { #Poludoros, King of Thebes
+	name = "Poludoros"
 	dynasty = 2100006 #Cadmiad
 	culture = achaean
 	religion = pantes_theoi
@@ -1283,8 +1283,8 @@
 	2530.1.1 = { death = yes }
 }
 
-2100602 = { #Polycaste
-	name = "Polycaste"
+2100602 = { #Polukaste
+	name = "Polukaste"
 	dynasty = 2100007 #Neleid
 	culture = achaean
 	religion = pantes_theoi
@@ -1406,8 +1406,8 @@
 	2481.1.1 = { death = yes }
 }
 
-2100613 = { #Chloris
-	name = "Chloris"
+2100613 = { #Khloris
+	name = "Khloris"
 	culture = achaean
 	religion = pantes_theoi
 	female = yes
@@ -1850,8 +1850,8 @@
 	2431.1.1 = { death = yes }
 }
 
-2100911 = { #Cepheus
-	name = "Cepheus"
+2100911 = { #Kepheús
+	name = "Kepheús"
 	culture = achaean
 	religion = pantes_theoi
 	disallow_random_traits = yes
@@ -2274,8 +2274,8 @@
 	2521.1.1 = { death = yes }
 }
 
-2101103 = { #Capaneús
-	name = "Capaneús"
+2101103 = { #Kapaneús
+	name = "Kapaneús"
 	dynasty = 2100010 #Abantiad
 	culture = achaean
 	religion = pantes_theoi
@@ -2718,8 +2718,8 @@
 	2231.1.1 = { death = yes }
 }
 
-2101138 = { #Crotopos, King of Argos
-	name = "Crotopos"
+2101138 = { #Krotopos, King of Argos
+	name = "Krotopos"
 	dynasty = 2100014 #Inachid
 	culture = achaean
 	religion = pantes_theoi
@@ -2783,8 +2783,8 @@
 	2566.1.1 = { death = yes }
 }
 
-2101201 = { #Comaetho
-	name = "Comaetho"
+2101201 = { #Komaitho
+	name = "Komaitho"
 	dynasty = 2100015 #Amythaid
 	culture = achaean
 	religion = pantes_theoi
@@ -2842,8 +2842,8 @@
 	2526.1.1 = { death = yes }
 }
 
-2101206 = { #Mecisteús
-	name = "Mecisteús"
+2101206 = { #Mekisteús
+	name = "Mekisteús"
 	dynasty = 2100015 #Amythaid
 	culture = achaean
 	religion = pantes_theoi

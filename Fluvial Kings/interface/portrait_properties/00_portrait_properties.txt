@@ -12,7 +12,7 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { religion_group = christian }
+			# NOT = { religion_group = christian }
 		}
 		modifier = {
 			factor = 0
@@ -120,16 +120,16 @@
 			factor = 0
 			trait = saint 
 		}
-		modifier = {
-			factor = 0
-			OR = { 
-				religion_group = muslim
-				religion_group = indian_group
-				religion_group = zoroastrian_group
-				religion = zun_pagan
-				religion = zun_pagan_reformed 
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# OR = { 
+				# religion_group = muslim
+				# religion_group = indian_group
+				# religion_group = zoroastrian_group
+				# religion = zun_pagan
+				# religion = zun_pagan_reformed 
+			# }
+		# }
 		modifier = {
 			factor = 0
 			NOR = { 
@@ -179,16 +179,13 @@
 			factor = 0
 			trait = saint 
 		}
+		# modifier = {
+			# factor = 0
+			# NOT = { religion_group = pagan_group }
+		# }
 		modifier = {
 			factor = 0
-			NOT = { religion_group = pagan_group }
-		}
-		modifier = {
-			factor = 0
-			OR = { 
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
+			religion_group = hellenic
 		}
 		modifier = {
 			factor = 0
@@ -248,7 +245,7 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { religion_group = christian }
+			# NOT = { religion_group = christian }
 		}
 		modifier = {
 			factor = 0
@@ -257,16 +254,16 @@
 				has_job_title = job_spiritual
 			}
 		}
-		modifier = {
-			factor = 0
-			OR = { 
-				has_landed_title = k_papal_state 
-				has_landed_title = k_hellenic_pagan 
-				has_landed_title = d_fraticelli 
-				has_claim = k_papal_state 
-				has_claim = d_fraticelli 
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# OR = { 
+				# has_landed_title = k_papal_state 
+				# has_landed_title = k_hellenic_pagan 
+				# has_landed_title = d_fraticelli 
+				# has_claim = k_papal_state 
+				# has_claim = d_fraticelli 
+			# }
+		# }
 	}
 	
 	10 = { # Desert
@@ -369,10 +366,10 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion = zun_pagan }
-			NOT = { religion_group = indian_group }
+			# NOT = { religion_group = muslim }
+			# NOT = { religion_group = zoroastrian_group }
+			# NOT = { religion = zun_pagan }
+			# NOT = { religion_group = indian_group }
 		}
 	}
 	
@@ -384,11 +381,11 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = indian_group }
-			NOT = { religion_group = zoroastrian_group }
-			NOT = { religion = zun_pagan }
-			NOT = { religion = zun_pagan_reformed }
+			# NOT = { religion_group = muslim }
+			# NOT = { religion_group = indian_group }
+			# NOT = { religion_group = zoroastrian_group }
+			# NOT = { religion = zun_pagan }
+			# NOT = { religion = zun_pagan_reformed }
 		}
 		modifier = {
 			factor = 100
@@ -493,7 +490,7 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
+			# NOT = { religion_group = muslim }
 		}
 		modifier = {
 			factor = 0
@@ -512,7 +509,7 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { religion_group = pagan_group }
+			# NOT = { religion_group = pagan_group }
 			NOT = { death_sacrificed_trigger = yes }
 		}
 		modifier = {
@@ -547,9 +544,9 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { 
-				culture_group = latin
-			}
+			# NOT = { 
+				# culture_group = latin
+			# }
 		}
 	}
 	23 = { # ocean window
@@ -625,18 +622,18 @@
 		}
 		
 		# Does not suit African females of a Western Culture
-		modifier = {
-			factor = 0
-			is_female = yes
-			graphical_culture = westafricangfx
-			NOT = { culture = manden }
-			NOT = { culture = ethiopian }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+			# graphical_culture = westafricangfx
+			# NOT = { culture = manden }
+			# NOT = { culture = ethiopian }
+			# OR = {
+				# higher_real_tier_than = count
+				# spouse = { higher_real_tier_than = count }
+				# has_minor_title = title_prince
+			# }
+		# }
 		modifier = {
 			factor = 100
 			is_devout_chinese_buddhist_trigger = yes
@@ -651,225 +648,225 @@
 		factor = 1
 		
 		# Does not suit African females of a Western Culture
-		modifier = {
-			factor = 0
-			is_female = yes
-			graphical_culture = westafricangfx
-			NOT = { culture = manden }
-			NOT = { culture = ethiopian }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+			# graphical_culture = westafricangfx
+			# NOT = { culture = manden }
+			# NOT = { culture = ethiopian }
+			# OR = {
+				# higher_real_tier_than = count
+				# spouse = { higher_real_tier_than = count }
+				# has_minor_title = title_prince
+			# }
+		# }
 	}
 	
 	2 = { # Page
 		factor = 1
 		
 		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture = manden
-				culture = ethiopian
-			}
-			NOT = { graphical_culture = westafricangfx }
-			NOT = { graphical_culture = muslimgfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
-		modifier = { 
-			factor = 0
-			is_female = yes
-			OR = {
-				is_married = yes
-				higher_tier_than = count
-			}
-			graphical_culture = westernslavicgfx
-			OR = {
-				culture = pommeranian
-				culture = bohemian
-				culture = polish
-			}
-		}
-		modifier = { 
-			factor = 0
-			is_female = yes
-			OR = {
-				is_married = yes
-				higher_tier_than = duke
-			}
-			graphical_culture = croat_southslavicgfx
-			culture = croatian
-		}
-		modifier = { 
-			factor = 0
-			is_female = yes
-			OR = {
-				is_married = yes
-				higher_tier_than = duke
-			}
-			OR = {
-				graphical_culture = serb_southslavicgfx
-				graphical_culture = magyargfx
-			}
-			OR = {
-				culture = serbian
-				culture = bulgarian
-				culture = romanian
-				culture = hungarian
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# culture = manden
+				# culture = ethiopian
+			# }
+			# NOT = { graphical_culture = westafricangfx }
+			# NOT = { graphical_culture = muslimgfx }
+			# OR = {
+				# higher_real_tier_than = count
+				# spouse = { higher_real_tier_than = count }
+				# has_minor_title = title_prince
+			# }
+		# }
+		# modifier = { 
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# is_married = yes
+				# higher_tier_than = count
+			# }
+			# graphical_culture = westernslavicgfx
+			# OR = {
+				# culture = pommeranian
+				# culture = bohemian
+				# culture = polish
+			# }
+		# }
+		# modifier = { 
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# is_married = yes
+				# higher_tier_than = duke
+			# }
+			# graphical_culture = croat_southslavicgfx
+			# culture = croatian
+		# }
+		# modifier = { 
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# is_married = yes
+				# higher_tier_than = duke
+			# }
+			# OR = {
+				# graphical_culture = serb_southslavicgfx
+				# graphical_culture = magyargfx
+			# }
+			# OR = {
+				# culture = serbian
+				# culture = bulgarian
+				# culture = romanian
+				# culture = hungarian
+			# }
+		# }
 	}
 
 	3 = { # Synth
 		factor = 1
 		
 		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture = manden
-				culture = ethiopian
-			}
-			NOT = { graphical_culture = westafricangfx }
-			NOT = { graphical_culture = muslimgfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# culture = manden
+				# culture = ethiopian
+			# }
+			# NOT = { graphical_culture = westafricangfx }
+			# NOT = { graphical_culture = muslimgfx }
+			# OR = {
+				# higher_real_tier_than = count
+				# spouse = { higher_real_tier_than = count }
+				# has_minor_title = title_prince
+			# }
+		# }
 	}
 
 	4 = { # Long Straight
 		factor = 1
 		
 		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture = manden
-				culture = ethiopian
-			}
-			NOT = { graphical_culture = westafricangfx }
-			NOT = { graphical_culture = muslimgfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
-		modifier = { 
-			factor = 0
-			is_female = yes
-			OR = {
-				is_married = yes
-				higher_tier_than = count
-			}
-			graphical_culture = westernslavicgfx
-			OR = {
-				culture = pommeranian
-				culture = bohemian
-				culture = polish
-			}
-		}
-		modifier = { 
-			factor = 0
-			is_female = yes
-			OR = {
-				is_married = yes
-				higher_tier_than = duke
-			}
-			graphical_culture = croat_southslavicgfx
-			culture = croatian
-		}
-		modifier = { 
-			factor = 0
-			is_female = yes
-			OR = {
-				is_married = yes
-				higher_tier_than = duke
-			}
-			OR = {
-				graphical_culture = serb_southslavicgfx
-				graphical_culture = magyargfx
-			}
-			OR = {
-				culture = serbian
-				culture = bulgarian
-				culture = romanian
-				culture = hungarian
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# culture = manden
+				# culture = ethiopian
+			# }
+			# NOT = { graphical_culture = westafricangfx }
+			# NOT = { graphical_culture = muslimgfx }
+			# OR = {
+				# higher_real_tier_than = count
+				# spouse = { higher_real_tier_than = count }
+				# has_minor_title = title_prince
+			# }
+		# }
+		# modifier = { 
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# is_married = yes
+				# higher_tier_than = count
+			# }
+			# graphical_culture = westernslavicgfx
+			# OR = {
+				# culture = pommeranian
+				# culture = bohemian
+				# culture = polish
+			# }
+		# }
+		# modifier = { 
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# is_married = yes
+				# higher_tier_than = duke
+			# }
+			# graphical_culture = croat_southslavicgfx
+			# culture = croatian
+		# }
+		# modifier = { 
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# is_married = yes
+				# higher_tier_than = duke
+			# }
+			# OR = {
+				# graphical_culture = serb_southslavicgfx
+				# graphical_culture = magyargfx
+			# }
+			# OR = {
+				# culture = serbian
+				# culture = bulgarian
+				# culture = romanian
+				# culture = hungarian
+			# }
+		# }
 	}
 
 	5 = { # Long Curly
 		factor = 1
 		
 		# Does not suit African females of a Western Culture
-		modifier = {
-			factor = 0
-			is_female = yes
-			graphical_culture = westafricangfx
-			NOT = { culture = manden }
-			NOT = { culture = ethiopian }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
-		modifier = { 
-			factor = 0
-			is_female = yes
-			OR = {
-				is_married = yes
-				higher_tier_than = count
-			}
-			graphical_culture = westernslavicgfx
-			OR = {
-				culture = pommeranian
-				culture = bohemian
-				culture = polish
-			}
-		}
-		modifier = { 
-			factor = 0
-			is_female = yes
-			OR = {
-				is_married = yes
-				higher_tier_than = duke
-			}
-			graphical_culture = croat_southslavicgfx
-			culture = croatian
-		}
-		modifier = { 
-			factor = 0
-			is_female = yes
-			OR = {
-				is_married = yes
-				higher_tier_than = duke
-			}
-			OR = {
-				graphical_culture = serb_southslavicgfx
-				graphical_culture = magyargfx
-			}
-			OR = {
-				culture = serbian
-				culture = bulgarian
-				culture = romanian
-				culture = hungarian
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+			# graphical_culture = westafricangfx
+			# NOT = { culture = manden }
+			# NOT = { culture = ethiopian }
+			# OR = {
+				# higher_real_tier_than = count
+				# spouse = { higher_real_tier_than = count }
+				# has_minor_title = title_prince
+			# }
+		# }
+		# modifier = { 
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# is_married = yes
+				# higher_tier_than = count
+			# }
+			# graphical_culture = westernslavicgfx
+			# OR = {
+				# culture = pommeranian
+				# culture = bohemian
+				# culture = polish
+			# }
+		# }
+		# modifier = { 
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# is_married = yes
+				# higher_tier_than = duke
+			# }
+			# graphical_culture = croat_southslavicgfx
+			# culture = croatian
+		# }
+		# modifier = { 
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# is_married = yes
+				# higher_tier_than = duke
+			# }
+			# OR = {
+				# graphical_culture = serb_southslavicgfx
+				# graphical_culture = magyargfx
+			# }
+			# OR = {
+				# culture = serbian
+				# culture = bulgarian
+				# culture = romanian
+				# culture = hungarian
+			# }
+		# }
 	}
 
 	6 = {  # Tonsure
@@ -881,8 +878,8 @@
 		}
 		modifier = {
 			factor = 0
-			is_female = no
-			NOT = { religion_group = christian }
+			# is_female = no
+			# NOT = { religion_group = christian }
 		}
 		modifier = {
 			factor = 0
@@ -900,70 +897,70 @@
 		}
 		
 		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture = manden
-				culture = ethiopian
-			}
-			NOT = { graphical_culture = westafricangfx }
-			NOT = { graphical_culture = muslimgfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# culture = manden
+				# culture = ethiopian
+			# }
+			# NOT = { graphical_culture = westafricangfx }
+			# NOT = { graphical_culture = muslimgfx }
+			# OR = {
+				# higher_real_tier_than = count
+				# spouse = { higher_real_tier_than = count }
+				# has_minor_title = title_prince
+			# }
+		# }
 		
 		# Does not suit African females of a Western Culture
-		modifier = {
-			factor = 0
-			is_female = yes
-			graphical_culture = westafricangfx
-			NOT = { culture = manden }
-			NOT = { culture = ethiopian }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+			# graphical_culture = westafricangfx
+			# NOT = { culture = manden }
+			# NOT = { culture = ethiopian }
+			# OR = {
+				# higher_real_tier_than = count
+				# spouse = { higher_real_tier_than = count }
+				# has_minor_title = title_prince
+			# }
+		# }
 	}
 	
 	7 = {  # Short
 		factor = 1
 		
 		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture = manden
-				culture = ethiopian
-			}
-			NOT = { graphical_culture = westafricangfx }
-			NOT = { graphical_culture = muslimgfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# culture = manden
+				# culture = ethiopian
+			# }
+			# NOT = { graphical_culture = westafricangfx }
+			# NOT = { graphical_culture = muslimgfx }
+			# OR = {
+				# higher_real_tier_than = count
+				# spouse = { higher_real_tier_than = count }
+				# has_minor_title = title_prince
+			# }
+		# }
 		
 		# Does not suit African females of a Western Culture
-		modifier = {
-			factor = 0
-			is_female = yes
-			graphical_culture = westafricangfx
-			NOT = { culture = manden }
-			NOT = { culture = ethiopian }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+			# graphical_culture = westafricangfx
+			# NOT = { culture = manden }
+			# NOT = { culture = ethiopian }
+			# OR = {
+				# higher_real_tier_than = count
+				# spouse = { higher_real_tier_than = count }
+				# has_minor_title = title_prince
+			# }
+		# }
 	}
 	
 	8 = { # Short Curly
@@ -974,25 +971,25 @@
 		factor = 1
 		modifier = {
 			factor = 5
-			religion_group = pagan_group
+			# religion_group = pagan_group
 		}
 		
 		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture = manden
-				culture = ethiopian
-			}
-			NOT = { graphical_culture = westafricangfx }
-			NOT = { graphical_culture = muslimgfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# culture = manden
+				# culture = ethiopian
+			# }
+			# NOT = { graphical_culture = westafricangfx }
+			# NOT = { graphical_culture = muslimgfx }
+			# OR = {
+				# higher_real_tier_than = count
+				# spouse = { higher_real_tier_than = count }
+				# has_minor_title = title_prince
+			# }
+		# }
 		modifier = {
 			factor = 0
 			is_female = yes
@@ -1005,25 +1002,25 @@
 		
 		modifier = {
 			factor = 5
-			religion_group = pagan_group
+			# religion_group = pagan_group
 		}
 		
 		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture = manden
-				culture = ethiopian
-			}
-			NOT = { graphical_culture = westafricangfx }
-			NOT = { graphical_culture = muslimgfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# culture = manden
+				# culture = ethiopian
+			# }
+			# NOT = { graphical_culture = westafricangfx }
+			# NOT = { graphical_culture = muslimgfx }
+			# OR = {
+				# higher_real_tier_than = count
+				# spouse = { higher_real_tier_than = count }
+				# has_minor_title = title_prince
+			# }
+		# }
 		modifier = {
 			factor = 0
 			follows_filial_piety_trigger = yes
@@ -1033,48 +1030,48 @@
 			is_female = yes
 			follows_filial_piety_trigger = yes
 		}
-		modifier = { 
-			factor = 0
-			is_female = yes
-			OR = {
-				is_married = yes
-				higher_tier_than = count
-			}
-			graphical_culture = westernslavicgfx
-			OR = {
-				culture = pommeranian
-				culture = bohemian
-				culture = polish
-			}
-		}
-		modifier = { 
-			factor = 0
-			is_female = yes
-			OR = {
-				is_married = yes
-				higher_tier_than = duke
-			}
-			graphical_culture = croat_southslavicgfx
-			culture = croatian
-		}
-		modifier = { 
-			factor = 0
-			is_female = yes
-			OR = {
-				is_married = yes
-				higher_tier_than = duke
-			}
-			OR = {
-				graphical_culture = serb_southslavicgfx
-				graphical_culture = magyargfx
-			}
-			OR = {
-				culture = serbian
-				culture = bulgarian
-				culture = romanian
-				culture = hungarian
-			}
-		}
+		# modifier = { 
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# is_married = yes
+				# higher_tier_than = count
+			# }
+			# graphical_culture = westernslavicgfx
+			# OR = {
+				# culture = pommeranian
+				# culture = bohemian
+				# culture = polish
+			# }
+		# }
+		# modifier = { 
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# is_married = yes
+				# higher_tier_than = duke
+			# }
+			# graphical_culture = croat_southslavicgfx
+			# culture = croatian
+		# }
+		# modifier = { 
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# is_married = yes
+				# higher_tier_than = duke
+			# }
+			# OR = {
+				# graphical_culture = serb_southslavicgfx
+				# graphical_culture = magyargfx
+			# }
+			# OR = {
+				# culture = serbian
+				# culture = bulgarian
+				# culture = romanian
+				# culture = hungarian
+			# }
+		# }
 	}
 	
 	11 = { # Balding
@@ -1091,69 +1088,69 @@
 			is_female = yes
 			follows_filial_piety_trigger = yes
 		}
-		modifier = { 
-			factor = 0
-			is_female = yes
-			OR = {
-				is_married = yes
-				higher_tier_than = count
-			}
-			graphical_culture = westernslavicgfx
-			OR = {
-				culture = pommeranian
-				culture = bohemian
-				culture = polish
-			}
-		}
-		modifier = { 
-			factor = 0
-			is_female = yes
-			OR = {
-				is_married = yes
-				higher_tier_than = duke
-			}
-			graphical_culture = croat_southslavicgfx
-			culture = croatian
-		}
-		modifier = { 
-			factor = 0
-			is_female = yes
-			OR = {
-				is_married = yes
-				higher_tier_than = duke
-			}
-			OR = {
-				graphical_culture = serb_southslavicgfx
-				graphical_culture = magyargfx
-			}
-			OR = {
-				culture = serbian
-				culture = bulgarian
-				culture = romanian
-				culture = hungarian
-			}
-		}
+		# modifier = { 
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# is_married = yes
+				# higher_tier_than = count
+			# }
+			# graphical_culture = westernslavicgfx
+			# OR = {
+				# culture = pommeranian
+				# culture = bohemian
+				# culture = polish
+			# }
+		# }
+		# modifier = { 
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# is_married = yes
+				# higher_tier_than = duke
+			# }
+			# graphical_culture = croat_southslavicgfx
+			# culture = croatian
+		# }
+		# modifier = { 
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# is_married = yes
+				# higher_tier_than = duke
+			# }
+			# OR = {
+				# graphical_culture = serb_southslavicgfx
+				# graphical_culture = magyargfx
+			# }
+			# OR = {
+				# culture = serbian
+				# culture = bulgarian
+				# culture = romanian
+				# culture = hungarian
+			# }
+		# }
 	}
 	
 	12 = { # Marine
 		factor = 1
 		
 		# Does not suit Western females with African style headgear
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				culture = manden
-				culture = ethiopian
-			}
-			NOT = { graphical_culture = westafricangfx }
-			NOT = { graphical_culture = muslimgfx }
-			OR = {
-				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
-				has_minor_title = title_prince
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+			# OR = {
+				# culture = manden
+				# culture = ethiopian
+			# }
+			# NOT = { graphical_culture = westafricangfx }
+			# NOT = { graphical_culture = muslimgfx }
+			# OR = {
+				# higher_real_tier_than = count
+				# spouse = { higher_real_tier_than = count }
+				# has_minor_title = title_prince
+			# }
+		# }
 		modifier = {
 			factor = 0
 			follows_filial_piety_trigger = yes
@@ -1857,7 +1854,9 @@
 			factor = 10
 			is_ruler = yes
 			is_theocracy = yes
-			religion_group = pagan_group
+			NOT = {
+				religion_group = bnai_avraham
+			}
 		}
 	}
 	7 = { # Modest clothes 2
@@ -2042,16 +2041,16 @@
 						}
 					}
 				}
-				AND = {
-					religion_group = christian
-					OR = {
-						AND = {
-							is_ruler = yes
-							is_theocracy = yes
-						}
-						has_job_title = job_spiritual
-					}
-				}
+				# AND = {
+					# religion_group = christian
+					# OR = {
+						# AND = {
+							# is_ruler = yes
+							# is_theocracy = yes
+						# }
+						# has_job_title = job_spiritual
+					# }
+				# }
 			}
 		}
 		modifier = {
@@ -2136,22 +2135,15 @@
 4 = {
 	0 = {
 		factor = 1
-		modifier = {
-			factor = 0
-			religion_group = muslim
-			NOT = { graphical_culture = muslimgfx }
-		}
+		# modifier = {
+			# factor = 0
+			# religion_group = muslim
+			# NOT = { graphical_culture = muslimgfx }
+		# }
 		modifier = {
 			factor = 30
-			OR = {
-				culture = greek
-				culture = italian
-				culture = roman
-			}
-			OR = {
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
+			culture_group = hellene
+			religion_group = hellenic
 		#	OR = {
 		#		graphical_culture = southerngfx
 		#		graphical_culture = anatoliangfx
@@ -2205,11 +2197,11 @@
 	}
 	10 = {
 		factor = 1
-		modifier = {
-			factor = 0
-			religion_group = muslim
-			NOT = { graphical_culture = muslimgfx }
-		}
+		# modifier = {
+			# factor = 0
+			# religion_group = muslim
+			# NOT = { graphical_culture = muslimgfx }
+		# }
 		modifier = {
 			factor = 60
 			OR = {
@@ -2281,26 +2273,26 @@
 			real_tier = EMPEROR
 			trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
 		}
-		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
-			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
-			OR = { 
-				has_game_started = yes
-				is_save_game = yes
-			} 
-			real_tier = EMPEROR
-			is_alive = yes
-			OR = { 
-				religion = catholic
-				religion = fraticelli
-			} 
-			NOR = { 
-				trait = crowned_by_priest 
-				trait = crowned_by_bishop
-				trait = crowned_by_pope
-				trait = crowned_by_myself 
-			}
-		}
+		# modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
+			# factor = 0
+			# has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			# OR = { 
+				# has_game_started = yes
+				# is_save_game = yes
+			# } 
+			# real_tier = EMPEROR
+			# is_alive = yes
+			# OR = { 
+				# religion = catholic
+				# religion = fraticelli
+			# } 
+			# NOR = { 
+				# trait = crowned_by_priest 
+				# trait = crowned_by_bishop
+				# trait = crowned_by_pope
+				# trait = crowned_by_myself 
+			# }
+		# }
 		modifier = { #If you are the spouse of an Emperor while not being Empress yourself, and your husband died without being crowned, you don't wear a crown.
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
@@ -2314,29 +2306,29 @@
 				trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
 			} 
 		}
-		modifier = {
-			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
-			OR = { 
-				has_game_started = yes
-				is_save_game = yes
-			} 
-			NOT = { real_tier = EMPEROR }
-			spouse = { 
-				real_tier = EMPEROR
-				is_alive = yes 
-				OR = { 
-					religion = catholic
-					religion = fraticelli
-				} 
-				NOR = { 
-					trait = crowned_by_priest 
-					trait = crowned_by_bishop
-					trait = crowned_by_pope
-					trait = crowned_by_myself 
-				}
-			} 
-		}
+		# modifier = {
+			# factor = 0
+			# has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			# OR = { 
+				# has_game_started = yes
+				# is_save_game = yes
+			# } 
+			# NOT = { real_tier = EMPEROR }
+			# spouse = { 
+				# real_tier = EMPEROR
+				# is_alive = yes 
+				# OR = { 
+					# religion = catholic
+					# religion = fraticelli
+				# } 
+				# NOR = { 
+					# trait = crowned_by_priest 
+					# trait = crowned_by_bishop
+					# trait = crowned_by_pope
+					# trait = crowned_by_myself 
+				# }
+			# } 
+		# }
 		modifier = {
 			factor = 0
 			is_ruler = yes #Otherwise dead landless Queens don't wear the crown, as they default to nogovernment.
@@ -2428,26 +2420,26 @@
 			real_tier = KING
 			trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
 		}
-		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
-			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
-			OR = { 
-				has_game_started = yes
-				is_save_game = yes
-			} 
-			real_tier = KING
-			is_alive = yes
-			OR = { 
-				religion = catholic
-				religion = fraticelli
-			} 
-			NOR = { 
-				trait = crowned_by_priest 
-				trait = crowned_by_bishop
-				trait = crowned_by_pope
-				trait = crowned_by_myself 
-			}
-		}
+		# modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
+			# factor = 0
+			# has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			# OR = { 
+				# has_game_started = yes
+				# is_save_game = yes
+			# } 
+			# real_tier = KING
+			# is_alive = yes
+			# OR = { 
+				# religion = catholic
+				# religion = fraticelli
+			# } 
+			# NOR = { 
+				# trait = crowned_by_priest 
+				# trait = crowned_by_bishop
+				# trait = crowned_by_pope
+				# trait = crowned_by_myself 
+			# }
+		# }
 		modifier = { #If you are the spouse of an Emperor while not being Empress yourself, and your husband died without being crowned, you don't wear a crown.
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
@@ -2461,29 +2453,29 @@
 				trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
 			} 
 		}
-		modifier = {
-			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
-			OR = { 
-				has_game_started = yes
-				is_save_game = yes
-			} 
-			NOT = { real_tier = KING }
-			spouse = { 
-				real_tier = KING
-				is_alive = yes 
-				OR = { 
-					religion = catholic
-					religion = fraticelli
-				} 
-				NOR = { 
-					trait = crowned_by_priest 
-					trait = crowned_by_bishop
-					trait = crowned_by_pope
-					trait = crowned_by_myself 
-				}
-			} 
-		}
+		# modifier = {
+			# factor = 0
+			# has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			# OR = { 
+				# has_game_started = yes
+				# is_save_game = yes
+			# } 
+			# NOT = { real_tier = KING }
+			# spouse = { 
+				# real_tier = KING
+				# is_alive = yes 
+				# OR = { 
+					# religion = catholic
+					# religion = fraticelli
+				# } 
+				# NOR = { 
+					# trait = crowned_by_priest 
+					# trait = crowned_by_bishop
+					# trait = crowned_by_pope
+					# trait = crowned_by_myself 
+				# }
+			# } 
+		# }
 		modifier = {
 			factor = 0
 			is_ruler = yes #Otherwise dead landless Queens don't wear the crown, as they default to nogovernment.
@@ -2565,26 +2557,26 @@
 			real_tier = KING
 			trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
 		}
-		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
-			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
-			OR = { 
-				has_game_started = yes
-				is_save_game = yes
-			} 
-			real_tier = KING
-			is_alive = yes
-			OR = { 
-				religion = catholic
-				religion = fraticelli
-			} 
-			NOR = { 
-				trait = crowned_by_priest 
-				trait = crowned_by_bishop
-				trait = crowned_by_pope
-				trait = crowned_by_myself 
-			}
-		}
+		# modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
+			# factor = 0
+			# has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			# OR = { 
+				# has_game_started = yes
+				# is_save_game = yes
+			# } 
+			# real_tier = KING
+			# is_alive = yes
+			# OR = { 
+				# religion = catholic
+				# religion = fraticelli
+			# } 
+			# NOR = { 
+				# trait = crowned_by_priest 
+				# trait = crowned_by_bishop
+				# trait = crowned_by_pope
+				# trait = crowned_by_myself 
+			# }
+		# }
 		modifier = { #If you are the spouse of an Emperor while not being Empress yourself, and your husband died without being crowned, you don't wear a crown.
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
@@ -2598,29 +2590,29 @@
 				trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
 			} 
 		}
-		modifier = {
-			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
-			OR = { 
-				has_game_started = yes
-				is_save_game = yes
-			} 
-			NOT = { real_tier = KING }
-			spouse = { 
-				real_tier = KING
-				is_alive = yes 
-				OR = { 
-					religion = catholic
-					religion = fraticelli
-				} 
-				NOR = { 
-					trait = crowned_by_priest 
-					trait = crowned_by_bishop
-					trait = crowned_by_pope
-					trait = crowned_by_myself 
-				}
-			} 
-		}
+		# modifier = {
+			# factor = 0
+			# has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			# OR = { 
+				# has_game_started = yes
+				# is_save_game = yes
+			# } 
+			# NOT = { real_tier = KING }
+			# spouse = { 
+				# real_tier = KING
+				# is_alive = yes 
+				# OR = { 
+					# religion = catholic
+					# religion = fraticelli
+				# } 
+				# NOR = { 
+					# trait = crowned_by_priest 
+					# trait = crowned_by_bishop
+					# trait = crowned_by_pope
+					# trait = crowned_by_myself 
+				# }
+			# } 
+		# }
 		modifier = {
 			factor = 0
 			is_ruler = yes #Otherwise dead landless Queens don't wear the crown, as they default to nogovernment.
@@ -2714,26 +2706,26 @@
 			real_tier = KING
 			trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
 		}
-		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
-			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
-			OR = { 
-				has_game_started = yes
-				is_save_game = yes
-			} 
-			real_tier = KING
-			is_alive = yes
-			OR = { 
-				religion = catholic
-				religion = fraticelli
-			} 
-			NOR = { 
-				trait = crowned_by_priest 
-				trait = crowned_by_bishop
-				trait = crowned_by_pope
-				trait = crowned_by_myself 
-			}
-		}
+		# modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
+			# factor = 0
+			# has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			# OR = { 
+				# has_game_started = yes
+				# is_save_game = yes
+			# } 
+			# real_tier = KING
+			# is_alive = yes
+			# OR = { 
+				# religion = catholic
+				# religion = fraticelli
+			# } 
+			# NOR = { 
+				# trait = crowned_by_priest 
+				# trait = crowned_by_bishop
+				# trait = crowned_by_pope
+				# trait = crowned_by_myself 
+			# }
+		# }
 		modifier = { #If you are the spouse of an Emperor while not being Empress yourself, and your husband died without being crowned, you don't wear a crown.
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
@@ -2747,29 +2739,29 @@
 				trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
 			} 
 		}
-		modifier = {
-			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
-			OR = { 
-				has_game_started = yes
-				is_save_game = yes
-			} 
-			NOT = { real_tier = KING }
-			spouse = { 
-				real_tier = KING
-				is_alive = yes 
-				OR = { 
-					religion = catholic
-					religion = fraticelli
-				} 
-				NOR = { 
-					trait = crowned_by_priest 
-					trait = crowned_by_bishop
-					trait = crowned_by_pope
-					trait = crowned_by_myself 
-				}
-			} 
-		}
+		# modifier = {
+			# factor = 0
+			# has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			# OR = { 
+				# has_game_started = yes
+				# is_save_game = yes
+			# } 
+			# NOT = { real_tier = KING }
+			# spouse = { 
+				# real_tier = KING
+				# is_alive = yes 
+				# OR = { 
+					# religion = catholic
+					# religion = fraticelli
+				# } 
+				# NOR = { 
+					# trait = crowned_by_priest 
+					# trait = crowned_by_bishop
+					# trait = crowned_by_pope
+					# trait = crowned_by_myself 
+				# }
+			# } 
+		# }
 		modifier = {
 			factor = 0
 			is_ruler = yes #Otherwise dead landless Queens don't wear the crown, as they default to nogovernment.
@@ -2799,57 +2791,57 @@
 			factor = 0
 			trait = saint 
 		}
-		modifier = {
-			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
-				#is_feudal = yes
-			OR = { 
-				AND = { 
-					higher_real_tier_than = DUKE 
-					OR = { 
-						religion = catholic
-						religion = fraticelli
-					}
-					OR = { 
-						trait = crowned_by_priest
-						trait = crowned_by_bishop
-						trait = crowned_by_pope
-						trait = crowned_by_myself
-						AND = {
-							is_alive = no
-							NOT = { trait = uncrowned }
-						}
-						AND = { 
-							has_game_started = no
-							is_save_game = no
-							is_alive = yes
-						}
-					}
-				}
-				spouse = { 
-					higher_real_tier_than = DUKE 
-					OR = { 
-						religion = catholic
-						religion = fraticelli
-					}
-					OR = { 
-						trait = crowned_by_priest
-						trait = crowned_by_bishop
-						trait = crowned_by_pope
-						trait = crowned_by_myself
-						AND = {
-							is_alive = no
-							NOT = { trait = uncrowned }
-						}
-						AND = { 
-							has_game_started = no
-							is_save_game = no
-							is_alive = yes
-						}
-					}
-				}
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+				# is_feudal = yes
+			# OR = { 
+				# AND = { 
+					# higher_real_tier_than = DUKE 
+					# OR = { 
+						# religion = catholic
+						# religion = fraticelli
+					# }
+					# OR = { 
+						# trait = crowned_by_priest
+						# trait = crowned_by_bishop
+						# trait = crowned_by_pope
+						# trait = crowned_by_myself
+						# AND = {
+							# is_alive = no
+							# NOT = { trait = uncrowned }
+						# }
+						# AND = { 
+							# has_game_started = no
+							# is_save_game = no
+							# is_alive = yes
+						# }
+					# }
+				# }
+				# spouse = { 
+					# higher_real_tier_than = DUKE 
+					# OR = { 
+						# religion = catholic
+						# religion = fraticelli
+					# }
+					# OR = { 
+						# trait = crowned_by_priest
+						# trait = crowned_by_bishop
+						# trait = crowned_by_pope
+						# trait = crowned_by_myself
+						# AND = {
+							# is_alive = no
+							# NOT = { trait = uncrowned }
+						# }
+						# AND = { 
+							# has_game_started = no
+							# is_save_game = no
+							# is_alive = yes
+						# }
+					# }
+				# }
+			# }
+		# }
 		modifier = {
 			factor = 0
 			in_command = yes
@@ -2872,8 +2864,8 @@
 			factor = 0
 			is_ruler = yes
 			NOT = { trait = uncrowned }
-			NOT = { religion = catholic }
-			NOT = { religion = fraticelli }
+			# NOT = { religion = catholic }
+			# NOT = { religion = fraticelli }
 			higher_real_tier_than = DUKE
 			OR = { 
 				is_nomadic = no 
@@ -2957,7 +2949,9 @@
 			factor = 10
 			is_ruler = yes
 			is_theocracy = yes
-			religion_group = pagan_group
+			NOT = {
+				religion_group = bnai_avraham
+			}
 		}
 		modifier = {
 			factor = 2
@@ -3084,7 +3078,7 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				NOT = { religion = orthodox }
+				# NOT = { religion = orthodox }
 				is_or_was_offmap_power_ruler = yes
 				is_ruler = yes
 				has_minor_title = title_prince
@@ -3804,26 +3798,26 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			OR = {
-				NOR = { 
-					trait = disfigured 
-					has_character_modifier = attending_masquerade
-					has_character_modifier = forced_mask
-				}
-				AND = {
-					OR = { 
-						trait = disfigured 
-						has_character_modifier = attending_masquerade
-						has_character_modifier = forced_mask
-					}
-					NOR = {
-						is_tribal = yes
-						is_nomadic = yes
-						religion_group = pagan_group
-					}
-				}
-				has_character_modifier = golden_mask
-			}
+			# OR = {
+				# NOR = { 
+					# trait = disfigured 
+					# has_character_modifier = attending_masquerade
+					# has_character_modifier = forced_mask
+				# }
+				# AND = {
+					# OR = { 
+						# trait = disfigured 
+						# has_character_modifier = attending_masquerade
+						# has_character_modifier = forced_mask
+					# }
+					# NOR = {
+						# is_tribal = yes
+						# is_nomadic = yes
+						# religion_group = pagan_group
+					# }
+				# }
+				# has_character_modifier = golden_mask
+			# }
 		}
 	}
 
@@ -3967,12 +3961,12 @@
 		}
 		modifier = {
 			factor = 0
-			NOR = {
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-				culture = manden
-				culture_group = east_african
-			}
+			# NOR = {
+				# religion = west_african_pagan
+				# religion = west_african_pagan_reformed
+				# culture = manden
+				# culture_group = east_african
+			# }
 		}
 	}
 	
@@ -4005,12 +3999,12 @@
 		}
 		modifier = {
 			factor = 0
-			NOR = {
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-				culture = manden
-				culture_group = east_african
-			}
+			# NOR = {
+				# religion = west_african_pagan
+				# religion = west_african_pagan_reformed
+				# culture = manden
+				# culture_group = east_african
+			# }
 		}
 	}
 	
@@ -4024,14 +4018,14 @@
 					has_character_modifier = attending_masquerade
 					has_character_modifier = forced_mask
 				}
-				AND = {
-					trait = disfigured
-					NOR = {
-						is_tribal = yes
-						is_nomadic = yes
-						religion_group = pagan_group
-					}
-				}
+				# AND = {
+					# trait = disfigured
+					# NOR = {
+						# is_tribal = yes
+						# is_nomadic = yes
+						# religion_group = pagan_group
+					# }
+				# }
 				has_character_modifier = golden_mask
 			}
 		}
@@ -4047,14 +4041,14 @@
 					has_character_modifier = attending_masquerade
 					has_character_modifier = forced_mask
 				}
-				AND = {
-					trait = disfigured
-					NOR = {
-						is_tribal = yes
-						is_nomadic = yes
-						religion_group = pagan_group
-					}
-				}
+				# AND = {
+					# trait = disfigured
+					# NOR = {
+						# is_tribal = yes
+						# is_nomadic = yes
+						# religion_group = pagan_group
+					# }
+				# }
 				has_character_modifier = golden_mask
 			}
 		}
@@ -4064,30 +4058,30 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			OR = {
-				NOR = { 
-					trait = disfigured 
-					has_character_modifier = attending_masquerade
-					has_character_modifier = forced_mask
-				}
-				AND = {
-					is_landed = no
-					is_married = no
-				}
-				AND = {
-					is_landed = yes
-					NOT = { higher_real_tier_than = DUKE }
-				}
-				AND = {
-					is_landed = no
-					is_married = yes
-					spouse = { NOT = { higher_real_tier_than = DUKE } }
-				}
-				is_tribal = yes
-				is_nomadic = yes
-				religion_group = pagan_group
-				has_character_modifier = golden_mask
-			}
+			# OR = {
+				# NOR = { 
+					# trait = disfigured 
+					# has_character_modifier = attending_masquerade
+					# has_character_modifier = forced_mask
+				# }
+				# AND = {
+					# is_landed = no
+					# is_married = no
+				# }
+				# AND = {
+					# is_landed = yes
+					# NOT = { higher_real_tier_than = DUKE }
+				# }
+				# AND = {
+					# is_landed = no
+					# is_married = yes
+					# spouse = { NOT = { higher_real_tier_than = DUKE } }
+				# }
+				# is_tribal = yes
+				# is_nomadic = yes
+				# religion_group = pagan_group
+				# has_character_modifier = golden_mask
+			# }
 		}
 		modifier = {
 			factor = 0
@@ -4102,29 +4096,29 @@
 		factor = 2
 		modifier = {
 			factor = 0
-			OR = {
-				NOR = { 
-					trait = disfigured 
-					has_character_modifier = attending_masquerade
-					has_character_modifier = forced_mask
-				}
-				AND = {
-					is_landed = no
-					is_married = no
-				}
-				AND = {
-					is_landed = yes
-					NOT = { higher_real_tier_than = DUKE }
-				}
-				AND = {
-					is_landed = no
-					is_married = yes
-					spouse = { NOT = { higher_real_tier_than = DUKE } }
-				}
-				is_tribal = yes
-				is_nomadic = yes
-				religion_group = pagan_group
-			}
+			# OR = {
+				# NOR = { 
+					# trait = disfigured 
+					# has_character_modifier = attending_masquerade
+					# has_character_modifier = forced_mask
+				# }
+				# AND = {
+					# is_landed = no
+					# is_married = no
+				# }
+				# AND = {
+					# is_landed = yes
+					# NOT = { higher_real_tier_than = DUKE }
+				# }
+				# AND = {
+					# is_landed = no
+					# is_married = yes
+					# spouse = { NOT = { higher_real_tier_than = DUKE } }
+				# }
+				# is_tribal = yes
+				# is_nomadic = yes
+				# religion_group = pagan_group
+			# }
 			NOT = { has_character_modifier = golden_mask }
 		}
 		modifier = {
@@ -4153,28 +4147,28 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			OR = {
-				NOR = { 
-					trait = disfigured 
-					has_character_modifier = attending_masquerade
-					has_character_modifier = forced_mask
-				}
-				AND = {
-					is_landed = no
-					is_married = no
-				}
-				AND = {
-					is_landed = yes
-					NOT = { higher_real_tier_than = DUKE }
-				}
-				AND = {
-					is_landed = no
-					is_married = yes
-					spouse = { NOT = { higher_real_tier_than = DUKE } }
-				}
-				religion_group = pagan_group
-				has_character_modifier = golden_mask
-			}
+			# OR = {
+				# NOR = { 
+					# trait = disfigured 
+					# has_character_modifier = attending_masquerade
+					# has_character_modifier = forced_mask
+				# }
+				# AND = {
+					# is_landed = no
+					# is_married = no
+				# }
+				# AND = {
+					# is_landed = yes
+					# NOT = { higher_real_tier_than = DUKE }
+				# }
+				# AND = {
+					# is_landed = no
+					# is_married = yes
+					# spouse = { NOT = { higher_real_tier_than = DUKE } }
+				# }
+				# religion_group = pagan_group
+				# has_character_modifier = golden_mask
+			# }
 		}
 	}
 	
@@ -4182,28 +4176,28 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			OR = {
-				NOR = { 
-					trait = disfigured 
-					has_character_modifier = attending_masquerade
-					has_character_modifier = forced_mask
-				}
-				AND = {
-					is_landed = no
-					is_married = no
-				}
-				AND = {
-					is_landed = yes
-					NOT = { higher_real_tier_than = DUKE }
-				}
-				AND = {
-					is_landed = no
-					is_married = yes
-					spouse = { NOT = { higher_real_tier_than = DUKE } }
-				}
-				religion_group = pagan_group
-				has_character_modifier = golden_mask
-			}
+			# OR = {
+				# NOR = { 
+					# trait = disfigured 
+					# has_character_modifier = attending_masquerade
+					# has_character_modifier = forced_mask
+				# }
+				# AND = {
+					# is_landed = no
+					# is_married = no
+				# }
+				# AND = {
+					# is_landed = yes
+					# NOT = { higher_real_tier_than = DUKE }
+				# }
+				# AND = {
+					# is_landed = no
+					# is_married = yes
+					# spouse = { NOT = { higher_real_tier_than = DUKE } }
+				# }
+				# religion_group = pagan_group
+				# has_character_modifier = golden_mask
+			# }
 		}
 	}
 }
@@ -4285,13 +4279,13 @@
 				has_character_modifier = glass_eye
 			}
 		}
-		modifier = {
-			factor = 3
-			AND = {
-				religion = catholic
-				is_theocracy = yes
-			}
-		}
+		# modifier = {
+			# factor = 3
+			# AND = {
+				# religion = catholic
+				# is_theocracy = yes
+			# }
+		# }
 	}
 	
 	6 = { # eyepatch 6 - blue rag
@@ -4303,13 +4297,13 @@
 				has_character_modifier = glass_eye
 			}
 		}
-		modifier = {
-			factor = 2
-			OR = {
-				religion = tengri_pagan
-				religion = tengri_pagan_reformed
-			}
-		}
+		# modifier = {
+			# factor = 2
+			# OR = {
+				# religion = tengri_pagan
+				# religion = tengri_pagan_reformed
+			# }
+		# }
 	}
 	
 	7 = { # eyepatch 7 - green rag
@@ -4321,10 +4315,10 @@
 				has_character_modifier = glass_eye
 			}
 		}
-		modifier = {
-			factor = 2
-			religion_group = muslim
-		}
+		# modifier = {
+			# factor = 2
+			# religion_group = muslim
+		# }
 	}
 	
 	8 = { # eyepatch 8 - red rag
@@ -6703,31 +6697,31 @@
 34 = {
 	0 = { # blank
 		factor = 100
-		modifier = { #Templar special headgear.
-			factor = 0
-			in_command = yes
-			has_game_rule = {
-				name = martial_headgear
-				value = on
-			}
-			religion = catholic
-			OR = {
-				has_landed_title = d_knights_templar 
-				has_landed_title = d_knights_hospitaler
-				has_landed_title = d_teutonic_order
-				has_landed_title = k_teutonic_state
-				has_landed_title = d_livonian_order
-				has_landed_title = d_knights_santiago
-				has_landed_title = d_knights_calatrava
-				liege = { has_landed_title = d_knights_templar }
-				liege = { has_landed_title = d_knights_hospitaler }
-				liege = { has_landed_title = d_teutonic_order }
-				liege = { has_landed_title = k_teutonic_state }
-				liege = { has_landed_title = d_livonian_order }
-				liege = { has_landed_title = d_knights_santiago }
-				liege = { has_landed_title = d_knights_calatrava }
-			}
-		}
+		# modifier = { #Templar special headgear.
+			# factor = 0
+			# in_command = yes
+			# has_game_rule = {
+				# name = martial_headgear
+				# value = on
+			# }
+			# religion = catholic
+			# OR = {
+				# has_landed_title = d_knights_templar 
+				# has_landed_title = d_knights_hospitaler
+				# has_landed_title = d_teutonic_order
+				# has_landed_title = k_teutonic_state
+				# has_landed_title = d_livonian_order
+				# has_landed_title = d_knights_santiago
+				# has_landed_title = d_knights_calatrava
+				# liege = { has_landed_title = d_knights_templar }
+				# liege = { has_landed_title = d_knights_hospitaler }
+				# liege = { has_landed_title = d_teutonic_order }
+				# liege = { has_landed_title = k_teutonic_state }
+				# liege = { has_landed_title = d_livonian_order }
+				# liege = { has_landed_title = d_knights_santiago }
+				# liege = { has_landed_title = d_knights_calatrava }
+			# }
+		# }
 		modifier = { #Wearable Crown artifacts.
 			factor = 0
 			in_command = yes

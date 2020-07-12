@@ -141,13 +141,15 @@ obj_land_for_son = {
 			}
 		independent = no
 		is_nomadic = no
-		NOT = { 
+		NOR = {
 			has_religion_feature = religion_matriarchal
+			culture = amazonios
 		}
 		liege = {
 			is_nomadic = no
-			NOT = { 
+			NOR = {
 				has_religion_feature = religion_matriarchal
+				culture = amazonios
 			}
 		}
 	}
@@ -267,6 +269,7 @@ obj_land_for_daughter = {
 		is_nomadic = no
 		OR = { 
 			has_religion_feature = religion_matriarchal
+			culture = amazonios
 			has_religion_feature = religion_equal
 			has_religion_feature = religion_feature_bon
 		}
@@ -274,6 +277,7 @@ obj_land_for_daughter = {
 			is_nomadic = no
 			OR = { 
 				has_religion_feature = religion_matriarchal
+				culture = amazonios
 				has_religion_feature = religion_equal
 				has_religion_feature = religion_feature_bon
 			}

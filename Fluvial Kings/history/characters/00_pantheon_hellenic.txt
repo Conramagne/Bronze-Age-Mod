@@ -1277,8 +1277,8 @@
 	9999.1.1 = { death = yes }
 }
 
-1100180 = { #Castor
-	name = "Castor"
+1100180 = { #Kástor
+	name = "Kástor"
 	dynasty = 2100011 #Lacedaemonid
 	culture = theogonos
 	religion = pantes_theoi
