@@ -468,3 +468,13 @@ hellenic_birthright = {
 conquer_cooldown = {
 	icon = 9
 }
+
+tomb_of_a_hero = {
+	icon = 1
+	local_revolt_risk = -0.04	
+	tax_income = 0.5
+}
+pillaged_tomb_of_a_hero = {
+	icon = 1
+	tax_income = 0.5
+}

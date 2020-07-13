@@ -773,7 +773,7 @@ character_event = {
 	trigger = { 
 		OR = { 
 			has_religion_feature = religion_haruspicy 
-			religion_group = pantes_theoi
+			religion_group = hellenic
 		} 
 		NOR = {
 			has_character_modifier = divination_crit_success
@@ -844,7 +844,7 @@ character_event = {
 	trigger = { 
 		OR = { 
 			has_religion_feature = religion_haruspicy 
-			religion_group = pantes_theoi
+			religion_group = hellenic
 		} 
 		NOR = {
 			has_character_modifier = divination_crit_success
@@ -885,7 +885,7 @@ character_event = {
 		war = yes
 		OR = { 
 			has_religion_feature = religion_haruspicy 
-			religion_group = pantes_theoi
+			religion_group = hellenic
 		} 
 		NOR = {
 			has_character_modifier = divination_crit_success
@@ -1715,7 +1715,7 @@ character_event = {
 	
 	# trigger = {
 		# OR = {
-			# religion_group = pantes_theoi
+			# religion_group = hellenic
 			# has_religion_feature = religion_astrology
 		# }
 	# }
@@ -5933,7 +5933,7 @@ narrative_event = {
 				has_religion_feature = religion_haruspicy
 				has_religion_feature = religion_astrology 
 			}
-			religion_group = pantes_theoi
+			religion_group = hellenic
 		}
 	}
 	immediate = { 
@@ -6367,7 +6367,7 @@ narrative_event = {
 				has_religion_feature = religion_astrology 
 				has_religion_feature = religion_no_leader 
 			}
-			religion_group = pantes_theoi
+			religion_group = hellenic
 		}
 	}
 	immediate = { 
@@ -6602,7 +6602,7 @@ character_event = {
 			NOT = { trait = incapable }
 			OR = { 
 				has_religion_feature = religion_haruspicy
-				religion_group = pantes_theoi
+				religion_group = hellenic
 			}
 		}
 	}

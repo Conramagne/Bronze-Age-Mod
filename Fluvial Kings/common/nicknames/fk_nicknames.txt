@@ -1,0 +1,12 @@
+
+##Triggered Only
+nick_anax_andron = {} #Leader of Men
+nick_arephilos = {} #Loved by Ares
+nick_diotrephes = {} #Loved by Zeus
+nick_hippodamas = {} #Horse Tamer
+nick_megaletor = {} #Great-Hearted
+nick_podarkes = {} #Swift-footed
+nick_polumetis = {} #Cunning
+nick_polutlas = {} #Resourceful
+nick_theoeidis = {} #Godlike
+nick_thumoleonta = {} #Lion-Hearted

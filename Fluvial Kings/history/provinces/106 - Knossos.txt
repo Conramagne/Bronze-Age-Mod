@@ -3,6 +3,6 @@ title=c_knossos
 max_settlements= 1
 b_knossos=castle
 
-culture=achaean
+culture = minoan
 religion=pantes_theoi
 terrain=plains

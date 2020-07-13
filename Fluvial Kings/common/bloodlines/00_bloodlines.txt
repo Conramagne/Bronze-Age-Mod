@@ -1,3 +1,4 @@
+##Hellenic God Bloodlines
 god_zeus_bloodline = {
 	picture = GFX_bloodlines_symbol_stoics
 	inheritance = patrilineal
@@ -35,4 +36,26 @@ god_ares_bloodline = {
 	monthly_character_prestige = 1
 	hellenic_opinion = 5
 	flags = { god_bloodline blood_of_ares }
+}
+
+##Heroic Bloodlines
+heroic_bloodline_pantes_theoi = {
+	picture = GFX_bloodlines_symbol_stoics
+	inheritance = patrilineal
+	bloodline_effect_great_heroes_appear = 1
+	allow_bastards = yes
+	martial = 1
+	monthly_character_prestige = 1
+	hellenic_opinion = 5
+	active = {
+		custom_tooltip = {
+			text = saintly_bloodline_same_religion_TT
+			FROM = {
+				founder = {
+					religion = ROOT
+				}
+			}
+		}
+	}
+	flags = { heroic_bloodline }
 }

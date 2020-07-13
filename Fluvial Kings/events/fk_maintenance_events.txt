@@ -76,3 +76,17 @@ character_event = {
 		remove_trait = amazonios_trait
 	}
 }
+
+character_event = {
+	id = fkm.5
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		religion_group = hellenic
+	}
+	
+	immediate = {
+		change_variable = { which = apotheosis_victory value = 1 }
+	}
+}

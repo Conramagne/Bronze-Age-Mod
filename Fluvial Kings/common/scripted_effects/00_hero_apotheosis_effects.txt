@@ -1,0 +1,284 @@
+deciding_upon_hero_effect = {
+    random = {
+        chance = 1
+
+        #Lower chance when there is more heros around
+        modifier = {
+            factor = 0.8
+            check_variable = { which = global_hero_number value = 15 }
+        }
+        modifier = {
+            factor = 0.8
+            check_variable = { which = global_hero_number value = 20 }
+        }
+        modifier = {
+            factor = 0.8
+            check_variable = { which = global_hero_number value = 25 }
+        }
+        modifier = {
+            factor = 0.8 
+            check_variable = { which = global_hero_number value = 30 }
+        }
+		
+		#Lessen the amount of unlanded sneaking through
+		modifier = {
+			factor = 0.5
+			is_landed = no
+			NOT = {
+				dynasty = none
+			}
+		}
+
+        #Craven people are less likely to be Canonized
+        modifier = {
+            factor = 0.5
+            trait = craven
+        }
+
+        #Players who don't have a heroic bloodline have a higher chance of becoming a hero
+        modifier = {
+            factor = 2
+            event_target:hero_person = {
+                ai = no
+            }
+            NOT = {
+                event_target:hero_person = {
+                    any_owned_bloodline = {
+                        has_bloodline_flag = heroic_bloodline
+                    }
+                }     
+            }
+        }
+        #Positive traits increase your chances of becoming a hero
+        modifier = {
+            factor = 1.5
+            event_target:hero_person = {
+                trait = patient
+            }
+        }
+        modifier = {
+            factor = 1.5
+            event_target:hero_person = {
+                trait = diligent
+            }
+        }
+        modifier = {
+            factor = 1.5
+            event_target:hero_person = {
+                trait = kind
+            }
+        }
+        modifier = {
+            factor = 1.5
+            event_target:hero_person = {
+                trait = chaste
+            }
+        }
+        modifier = {
+            factor = 1.5
+            event_target:hero_person = {
+                trait = charitable
+            }
+        }
+        modifier = {
+            factor = 1.5
+            event_target:hero_person = {
+                trait = temperate
+            }
+        }
+        modifier = {
+            factor = 1.5
+            event_target:hero_person = {
+                trait = humble 
+            }
+        }
+        modifier = {
+            factor = 1.2
+            event_target:hero_person = {
+                trait = just
+            }
+        }
+		modifier = {
+            factor = 1.5
+            event_target:hero_person = {
+                trait = brilliant_strategist
+            }
+        }
+		modifier = {
+            factor = 1.5
+            event_target:hero_person = {
+                leader_traits = 2
+            }
+        }
+		modifier = {
+            factor = 1.5
+            event_target:hero_person = {
+                trait = strategist
+            }
+        }
+		modifier = {
+            factor = 1.5
+            event_target:hero_person = {
+                trait = strong
+            }
+        }
+		modifier = {
+            factor = 1.5
+            event_target:hero_person = {
+                check_variable = { which = apotheosis_victory = 30 }
+            }
+        }
+		modifier = {
+            factor = 1.5
+            event_target:hero_person = {
+                martial = 20
+            }
+        }
+		modifier = {
+            factor = 1.2
+            event_target:hero_person = {
+                trait = skilled_tactician
+            }
+        }
+		modifier = {
+            factor = 1.2
+            event_target:hero_person = {
+                trait = robust
+            }
+        }
+		modifier = {
+            factor = 1.2
+            event_target:hero_person = {
+                check_variable = { which = apotheosis_victory = 20 }
+				check_variable = { which = apotheosis_victory < 30 }
+            }
+        }
+        #Having the bloodline of a hero severely decrease your chance of becoming a hero
+        modifier = {
+            factor = 0.2
+            event_target:hero_person = {
+                any_owned_bloodline = {
+					has_bloodline_flag = heroic_bloodline
+                }
+            }
+        }
+        #Extra high piety increases your chance of becoming a hero
+        modifier = {
+            factor = 1.2
+            piety = 1000
+        }
+        modifier = {
+            factor = 1.2 
+            piety = 1500
+        }
+        modifier = {
+            factor = 1.2
+            piety = 2000
+        }
+        modifier = {
+            factor = 1.2
+            piety = 2500
+        }
+        modifier = {
+            factor = 1.2
+            piety = 3000
+        }
+        modifier = {
+            factor = 1.2
+            piety = 3500
+        }
+        modifier = {
+            factor = 1.2
+            piety = 4000
+        }
+        modifier = {
+            factor = 1.2
+            piety = 4500
+        }
+        modifier = {
+            factor = 1.2
+            piety = 5000
+        }
+        modifier = {
+            factor = 1.2
+            piety = 5500
+        }
+        modifier = {
+            factor = 1.2
+            piety = 6000
+        }
+        modifier = {
+            factor = 1.2
+            piety = 6500
+        }
+        modifier = {
+            factor = 1.2 
+            piety = 7000
+        }
+        modifier = {
+            factor = 1.2
+            piety = 7500
+        }
+        modifier = {
+            factor = 1.2
+            piety = 8000
+        }
+        modifier = {
+            factor = 1.2
+            piety = 8500
+        }
+        modifier = {
+            factor = 1.2
+            piety = 9000
+        }
+        modifier = {
+            factor = 1.2
+            piety = 9500
+        }
+        modifier = {
+            factor = 1.2
+            piety = 10000
+        }
+        #First hero of a Religion is easier
+        modifier = {
+            factor = 3
+            OR = {
+                AND = {
+                    religion_group = pantes_theoi
+                    NOT = {
+                        has_global_flag = pantes_theoi_hero
+                    }
+                }
+            }
+        }
+        if = {
+			limit = {
+				is_landed = yes
+			}
+			random_realm_province = {
+				province_event = { id = fka.2 }
+			}
+		}
+		else = {
+			liege = {
+				random_realm_province = {
+					province_event = { id = fka.2 }
+				}
+			}
+		}
+        change_variable = { which = global_hero_number value = 1 }
+        trigger_switch = {
+            on_trigger = religion_group
+            pantes_theoi = { set_global_flag = pantes_theoi_hero }
+        }
+    }
+}
+
+setting_up_heroic_burial_site_effect = {
+	save_persistent_event_target = {
+		name = province_hero
+		scope = event_target:hero_person
+	}
+	province_event = { id = fka.99 }
+	province_event = { id = fka.5 }
+}

@@ -1801,7 +1801,7 @@ settlement_decisions = {
 				}
 			}
 			# hidden_effect = {
-				Change name of Avaria to Hungary if relevant.
+				# Change name of Avaria to Hungary if relevant.
 				# if = {
 					# limit = {
 						# FROM = {

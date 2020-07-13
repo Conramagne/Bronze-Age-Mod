@@ -188,6 +188,18 @@ character_event = {
 					}
 				}
 			}
+			modifier = {
+				factor = 0
+				liege = {
+					NOT = {
+						de_jure_liege_or_above = ROOT
+					}
+					OR = {
+						trait = figurehead_emperor
+						trait = weak_emperor
+					}
+				}
+			}
 			# modifier = {
 				# factor = 3
 				# is_nomadic = yes
@@ -264,6 +276,21 @@ character_event = {
 			modifier = {
 				factor = 2
 				trait = ambitious
+			}
+			modifier = {
+				factor = 2
+				liege = {
+					trait = weak_emperor
+				}
+			}
+			modifier = {
+				factor = 0.5
+				liege = {
+					NOR = {
+						trait = figurehead_emperor
+						trait = weak_emperor
+					}
+				}
 			}
 		}
 		

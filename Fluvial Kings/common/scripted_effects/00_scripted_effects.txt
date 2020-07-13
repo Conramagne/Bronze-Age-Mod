@@ -24384,7 +24384,7 @@ fire_haruspicy_event_effect = {
 			limit = { 
 				attacker = { 
 					OR = { 
-						religion_group = pantes_theoi
+						religion_group = hellenic
 						has_religion_feature = religion_haruspicy 
 					} 
 				} 
@@ -24397,7 +24397,7 @@ fire_haruspicy_event_effect = {
 			limit = { 
 				defender = { 
 					OR = { 
-						religion_group = pantes_theoi
+						religion_group = hellenic
 						has_religion_feature = religion_haruspicy 
 					} 
 				} 

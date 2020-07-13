@@ -19,6 +19,11 @@ stratocrat = {
 	customizer = no
 }
 
+hero = {
+	random = no
+	customizer = no
+}
+
 #Imperial Authority Events
 figurehead_emperor = {
 	monthly_character_prestige = -0.5
