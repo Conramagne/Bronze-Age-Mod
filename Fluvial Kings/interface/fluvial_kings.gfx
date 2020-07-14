@@ -1,4 +1,131 @@
 spriteTypes = {
+### custom event pictures
+	
+	spriteType = {
+		name = "GFX_evt_succession"
+		texturefile = "gfx\\event_pictures\\GFX_evt_succession.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_ruler_speaks"
+		texturefile = "gfx\\event_pictures\\GFX_evt_ruler_speaks.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_lose_authority"
+		texturefile = "gfx\\event_pictures\\GFX_evt_lose_authority.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_council"
+		texturefile = "gfx\\event_pictures\\GFX_evt_council.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_regency"
+		texturefile = "gfx\\event_pictures\\GFX_evt_regency.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_military_defeat"
+		texturefile = "gfx\\event_pictures\\GFX_evt_military_defeat.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_military_victory"
+		texturefile = "gfx\\event_pictures\\GFX_evt_military_victory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_written_stele"
+		texturefile = "gfx\\event_pictures\\GFX_evt_written_stele.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_blessed_by_the_gods"
+		texturefile = "gfx\\event_pictures\\GFX_evt_blessed_by_the_gods.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_cursed_by_the_gods"
+		texturefile = "gfx\\event_pictures\\GFX_evt_cursed_by_the_gods.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_dark_court"
+		texturefile = "gfx\\event_pictures\\GFX_evt_dark_court.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_visit_the_temple_pantheon"
+		texturefile = "gfx\\event_pictures\\GFX_evt_visit_the_temple_pantheon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_pursued_by_the_gods"
+		texturefile = "gfx\\event_pictures\\GFX_evt_pursued_by_the_gods.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_pursued_by_the_gods_husband"
+		texturefile = "gfx\\event_pictures\\GFX_evt_pursued_by_the_gods_husband.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_demi_god_child"
+		texturefile = "gfx\\event_pictures\\GFX_evt_demi_god_child.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_warrior_greek_gathering"
+		texturefile = "gfx\\event_pictures\\GFX_evt_warrior_greek_gathering.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_oracle_response"
+		texturefile = "gfx\\event_pictures\\GFX_evt_oracle_response.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_busy_market"
+		texturefile = "gfx\\event_pictures\\GFX_evt_busy_market.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_maniac_king"
+		texturefile = "gfx\\event_pictures\\GFX_evt_maniac_king.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_raiding_greek_tomb"
+		texturefile = "gfx\\event_pictures\\GFX_evt_raiding_greek_tomb.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_burning_cities"
+		texturefile = "gfx\\event_pictures\\GFX_evt_burning_cities.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_visiting_greece_tomb"
+		texturefile = "gfx\\event_pictures\\GFX_evt_visiting_greece_tomb.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_greek_performace"
+		texturefile = "gfx\\event_pictures\\GFX_evt_greek_performace.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_rundown_greek_temple"
+		texturefile = "gfx\\event_pictures\\GFX_evt_rundown_greek_temple.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_evt_ancient_garden"
+		texturefile = "gfx\\event_pictures\\GFX_evt_ancient_garden.dds"
+	}
+	
 ## decisions
 	spriteType = {
 		name = "GFX_contact_pantheon"
@@ -40,7 +167,11 @@ spriteTypes = {
 		name = "GFX_reject_stratocracy"
 		texturefile = "gfx\\interface\\decision_icon_adopt_tribalism.dds"
 	}
-
+	spriteType = {
+		name = "GFX_hero_tomb_pilgrimage"
+		texturefile = "gfx\\interface\\decision_visit_tomb_of_hero.dds"
+	}
+	
 ### imperial traits
 	
 	spriteType = {
@@ -118,6 +249,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_trait_stratocrat"
 		texturefile = "gfx/traits/stratocrat.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+### apotheosis
+
+	spriteType = {
+		name = "GFX_trait_hero"
+		texturefile = "gfx/traits/hero.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"

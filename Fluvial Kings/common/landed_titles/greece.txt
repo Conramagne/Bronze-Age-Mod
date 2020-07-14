@@ -396,13 +396,11 @@ e_greek_empire = {
 			}
 		}
 	}
-	k_minoa = {
+	k_krete = {
 		color = { 237 98 54 }
 		color2 = { 255 255 255 }
 		
 		capital = 106 # Knossos
-		
-		achaean = "Krete"
 		
 		d_knossos = { 
 			color = { 237 98 54 }

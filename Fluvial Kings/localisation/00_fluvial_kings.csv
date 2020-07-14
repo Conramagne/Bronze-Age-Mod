@@ -177,6 +177,8 @@ god_poseidaon_bloodline; The Blood of Poseidaon;;;;;;;;;;;;;x
 god_poseidaon_bloodline_desc;Poseidaon, who has the hottest temper among the Olympians, He like Zeus has many children with mortal woman whom now reside across [e_greek_empire.GetName] as mighty rulers.;;;;;;;;;;;;;x
 god_ares_bloodline; The Blood of Ares;;;;;;;;;;;;;x
 god_ares_bloodline_desc;Ares, Fierce Warrior among the Olympians, the raging spirit of the battlefield. In Martial Matters and whose combat prowess shines across the whole battlefield.;;;;;;;;;;;;;x
+heroic_bloodline_pantes_theoi;The Blood of a Hero;;;;;;;;;;;;;x
+heroic_bloodline_pantes_theoi_desc;A Bloodline of a Hero to [e_greek_empire.GetName] and thier people.;;;;;;;;;;;;;x
 
 ###########Titles###########
 d_berith;High Priesthood;;;;;;;;;;;;;x
@@ -196,6 +198,18 @@ HIGH_GOD;High God;;;;;;;;;;;;;x
 HEAD_KOHEN_AMURRU;Kohen Amurru;;;;;;;;;;;;;x
 HEAD_KOHEN_GADOL;Kohen Gadol;;;;;;;;;;;;;x
 HEAD_SALLISANKUNI;Sallisankuni;;;;;;;;;;;;;x
+
+###########Nicknames###########
+nick_anax_andron;Anax Andron;;;;;;;;;;;;;x
+nick_arephilos;Arephilos;;;;;;;;;;;;;x
+nick_diotrephes;Diotrephes;;;;;;;;;;;;;x
+nick_hippodamas;Hippodamas;;;;;;;;;;;;;x
+nick_megaletor;Megaletor;;;;;;;;;;;;;x
+nick_podarkes;Podarkes;;;;;;;;;;;;;x
+nick_polumetis;Polumetis;;;;;;;;;;;;;x
+nick_polutlas;Polutlas;;;;;;;;;;;;;x
+nick_theoeidis;Theoeidis;;;;;;;;;;;;;x
+nick_thumoleonta;Thumoleonta;;;;;;;;;;;;;x
 
 ###########Character/Province Modifiers###########
 imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]%);;;;;;;;;;;;;x
@@ -278,6 +292,7 @@ hellenic_opinion;[hellenic.GetName] Character Opinion;;;;;;;;;;;;;x
 hellenic_opinion_EXPLANATION; (effect on [hellenic.GetName]);;;;;;;;;;;;;x
 pantes_theoi_opinion;[pantes_theoi.GetName] Character Opinion;;;;;;;;;;;;;x
 pantes_theoi_opinion_EXPLANATION; (effect on [pantes_theoi.GetName]);;;;;;;;;;;;;x
+saintly_bloodline_same_religion_TT; Same Religion as the Founder of this Bloodline;;;;;;;;;;;;;x
 
 #Stratocratic Opinion
 became_stratocratic_tyrant;Became a Stratocratic Tyrant;;;;;;;;;;;;;x
@@ -402,6 +417,12 @@ militarization_increase_5_TT;§YMilitarization§! will §Gincrease§! by 5%;;;;;;;;;
 militarization_decrease_5_TT;§YMilitarization§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
 militarization_decrease_10_TT;§YMilitarization§! will §Rdecrease§! by 10%;;;;;;;;;;;;;x
 
+#Hero Apotheosis (Greek)
+tomb_of_a_hero;Tomb of a Fallen Hero;;;;;;;;;;;;;x
+tomb_of_a_hero_desc;A Tomb of a Fallen Hero of Legend resides here.;;;;;;;;;;;;;x
+pillaged_tomb_of_a_hero;Pillaged Tomb of a Fallen Hero;;;;;;;;;;;;;x
+pillaged_tomb_of_a_hero_desc;A Pillaged Tomb of a Fallen Hero of Legend resides here.;;;;;;;;;;;;;x
+
 ###########Trait Localization###########
 
 #hidden traits
@@ -436,6 +457,10 @@ amazonios_trait;Amazonios;;;;;;;;;;;;;x
 amazonios_trait_desc;The Warriors of the Amazonios Tribe;;;;;;;;;;;;;x
 stratocrat;Stratocrat;;;;;;;;;;;;;x
 stratocrat_desc;This Character is a Stratocratic Ruler;;;;;;;;;;;;;x
+
+#apotheosis
+hero;Hero;;;;;;;;;;;;;x
+hero_desc;This Hero has made a name for themselves among their people!;;;;;;;;;;;;;x
 
 ###########God Boons and Curses###########
 denied_boon;Denied Blessings of Gods;;;;;;;;;;;;;x

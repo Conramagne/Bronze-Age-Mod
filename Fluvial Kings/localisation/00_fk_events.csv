@@ -299,3 +299,109 @@ EVTTITLEFKP409;A Demi-God rises!;;;;;;;;;;;;;x
 EVTDESCFKP409;Born from a Marriage of a Divine to a mortal woman, a prodigous spawn of divinity now walks the world, [From.TrueFather] presence emunates from this young man as he embarks on his birthright as a divine and a mortal!;;;;;;;;;;;;;x
 EVTOPTAFKP409;Wonders walk amongst us!;;;;;;;;;;;;;x
 EVTOPTBFKP409;I know this person!;;;;;;;;;;;;;x
+
+###########Apotheosis Event and Other related Greek Hero Events###########
+hero_tomb_pilgrimage;Visiting the Tomb of a Hero;;;;;;;;;;;;;x
+hero_tomb_pilgrimage_desc;You desire to visit a tomb of a legendary hero...;;;;;;;;;;;;;x
+
+EVTDESCFKA6;A Great Hero was laid to rest in your domain...;;;;;;;;;;;;;x
+TT_HERO_FAMILY;It is an honor that I am related...;;;;;;;;;;;;;x
+EVTOPTAFKA11_TT;You grab a handful of trinkets;;;;;;;;;;;;;x
+
+EVTTITLEFKA7;A Hero has Ascended!;;;;;;;;;;;;;x
+EVTDESCFKA7;[hero_person.GetDynName] lived a glorious life, truly following the example of [hero_person.Religion.GetHighGodName]. [hero_person.GetSheHeCap] passed on [hero_person.GetDeathDate], and people have long wondered if [hero_person.GetSheHe] would be considered a truely die a hero of [hero_person.Religion.GetGroupName] or not.\n\nIn a grand ceremony [bishopric_holder.GetTitledFirstName] has declared [hero_person.GetFirstNameWithNick] as a [hero_person.Religion.GetGroupName] who has indeed ascended in Apotheosis, celebrated by the people of [hero_person.PrimaryTitle.GetName] as well as by the [hero_person.Religion.GetGroupName] world as a whole.  \n\nWe can only wish to follow [hero_person.GetHerHis] example, and become truly legendary people in the eyes of [hero_person.Religion.GetHighGodName].;;;;;;;;;;;;;x
+EVTOPTAFKA7;May they rest in glorious peace.;;;;;;;;;;;;;x
+
+EVTDESCFKA8;[hero_person.PrimaryTitle.GetName] has seen a boost in the awe strucken masses who come to see the tomb of [hero_person.GetName], local merchants are seen selling emblems bearing the symbol of this prestigous heros lineage and house. Among the crowd a bard with a lyre is seen recanting the legendary deeds of [hero_person.GetName] to a crowd of cheering people. You observe the tomb and decide what you need to do to maintain this hero's legacy.;;;;;;;;;;;;;x
+EVTOPTAFKA8;This Tomb should befit a Hero's Honor!;;;;;;;;;;;;;
+EVTOPTBFKA8;By [hero_person.Religion.GetGroupName], I shall donate to temples as well!;;;;;;;;;;;;;
+EVTOPTCFKA8;This Hero has done us a Great Service,I'll make an offering...;;;;;;;;;;;;;
+EVTOPTDFKA8;Maybe I can pocket a bit of change afterall they were born here...;;;;;;;;;;;;;
+EVTOPTEFKA8;People of the [local_burial_tomb.province_hero.GetFirstNameWithNick] lets sing their deeds!;;;;;;;;;;;;;
+EVTOPTFFKA8;I pray that the hero's name will be known for many generations...;;;;;;;;;;;;;
+
+EVTDESCFKA9;Inspired by [hero_person.GetName], you have tried to emulate their great deeds. Many people have already begun to speak highly of you as a potential new protege of the late hero. Whether their feats of cunning or strength , the people of [hero_person.PrimaryTitle.GetName] wonder whether the spirit of the Hero emunates from you...;;;;;;;;;;;;;x
+EVTOPTAFKA9;May I do a fraction of their deeds...;;;;;;;;;;;;;x
+
+EVTDESCFKA10;[target_burial_site.GetName] is a well known traveling spot for people wishing to see the tomb of the Hero [target_burial_site.province_saint.GetFirstName]. I have never cared much for the hero [target_burial_site.province_saint.GetFirstName] nor [offended_burial_site_owner.GetTitledFirstName], and an opportunity to grab the valuables of the tomb has offered itself. But is it worth the risk?;;;;;;;;;;;;;x
+EVTOPTAFKA10;No, I rather not offend the gods...;;;;;;;;;;;;;x
+EVTOPTBFKA10;Perhaps I can find something of worth...;;;;;;;;;;;;;x
+
+EVTDESCFKA11;Entering the tomb of [target_burial_site.GetName], I began to observe the surrounding guaging the amount of treasures I can plunder for my own gain...;;;;;;;;;;;;;x
+EVTOPTAFKA11;I should pick a few shinies and make haste...;;;;;;;;;;;;;x
+EVTOPTBFKA11;I should plunder this tomb bare!;;;;;;;;;;;;;x
+
+EVTDESCFKA12;The Honor Guards of the Tomb have caught wind of your activities as you made a ruckus... Your hands up in the air you curse the gods for your misfortune...;;;;;;;;;;;;;x
+EVTOPTAFKA12;HARK FOR SHAME, I've been caught!;;;;;;;;;;;;;x
+
+EVTDESCFKA13;The burial site of The §YHero [target_burial_site.province_hero.GetFirstName]§! at [target_burial_site.GetName] has been plundered, and has been left a complete mess...;;;;;;;;;;;;;x
+
+EVTDESCFKA14;My men has come across the burial site of some sort of "hero" for the pathetic [pillaged_hellenic.Religion.GetGroupName] [pillaged_hellenic.GetTitledFirstName]. This could be a chance to show them how we treat their sissy heros.;;;;;;;;;;;;;x
+EVTOPTAFKA14;Take everything of value, and leave nothing behind.;;;;;;;;;;;;;x
+EVTOPTBFKA14;We are not pathetic like them, we will leave it be.;;;;;;;;;;;;;x
+
+EVTDESCFKA16;I shall venture to the tomb of a local hero on my way to the holy places! Perhaps I can learn many things from their deeds, as I learn more about the divine's role in our lives?;;;;;;;;;;;;;x
+EVTOPTAFKA16_1;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+EVTOPTAFKA16_2;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+EVTOPTAFKA16_3;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+
+EVTOPTBFKA16_1;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+EVTOPTBFKA16_2;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+EVTOPTBFKA16_3;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+
+EVTOPTCFKA16_1;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+EVTOPTCFKA16_2;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+EVTOPTCFKA16_3;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+
+EVTOPTDFKA16_1;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+EVTOPTDFKA16_2;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+EVTOPTDFKA16_3;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+
+EVTDESCFKA17;Traveling along a well kept path along the forested hills of [e_greek_empire.GetName], passing by many Herms as you make your way to the various holy places that dot the serene hillsides.;;;;;;;;;;;;;x
+EVTOPTAFKA17;Onwards I go!;;;;;;;;;;;;;x
+
+EVTDESCFKA18;I come across a group of travelers, who are also traveling to [pilgrimage_destination.GetName], to ask for the blessing of  [pilgrimage_destination.province_hero.GetFirstNameWithNick]. Traveling together could be beneficial and safer, though probably somewhat slower.;;;;;;;;;;;;;x
+EVTDESCFKA18_ALT;I come across a group of travelers, who are also traveling to [pilgrimage_destination.GetName], to ask for the blessing of  [pilgrimage_destination.province_hero.GetFirstNameWithNick]. Traveling together could be beneficial and safer, though probably somewhat slower.;;;;;;;;;;;;;x
+EVTDESCFKA18_ALT_2;I come across a group of travelers, who are also traveling to [pilgrimage_destination.GetName], to ask for the blessing of  [pilgrimage_destination.province_hero.GetFirstNameWithNick]. Traveling together could be beneficial and safer, though probably somewhat slower.;;;;;;;;;;;;;x
+EVTDESCFKA18_ALT_3;I come across a group of travelers, who are also traveling to [pilgrimage_destination.GetName], to ask for the blessing of  [pilgrimage_destination.province_hero.GetFirstNameWithNick]. Traveling together could be beneficial and safer, though probably somewhat slower.;;;;;;;;;;;;;x
+
+EVTOPTAFKA18;Friendly company? That sounds like a nice change of pace.;;;;;;;;;;;;;x
+EVTOPTBFKA18;A proper hero forges their own path...;;;;;;;;;;;;;x
+
+EVTDESCFKA19;I am suddenly met by a couple of rough looking fellows, as I proceed through the forest. The leader gives me a toothy grin and asking for "donations", for the service he and his men are doing in the forest.;;;;;;;;;;;;;x
+EVTOPTAFKA19;It is probably easier to just pay.;;;;;;;;;;;;;x
+EVTOPTBFKA19;I will show them who needs protection.;;;;;;;;;;;;;x
+
+EVTDESCFKA20;The days have been long, but the journey not without joy. By my own estimates, I should be halfway to [pilgrimage_destination.GetName] by now. I am not used to such long travels like these, but it has been a nice change of pace from the palace affairs.;;;;;;;;;;;;;x
+
+EVTOPTAFKA20;I wonder what awaits me in [pilgrimage_destination.GetName].;;;;;;;;;;;;;x
+
+EVTDESCFKA21;I come across a group of caravans, filled with the laughter and joy of a group of traveling bards. As day turns to night, I enjoy the company of the group. A particularly beautiful [Root.GetManWomanOpp] is teasing me, and invites me to stay the night.;;;;;;;;;;;;;x
+EVTDESCFKA21_ALT;I come across a group of caravans, filled with the laughter and joy of a group of traveling entertainers. As day turns to night, I enjoy the company of the group. A particularly beautiful [Root.GetManWoman] is teasing me, and invites me to stay the night.;;;;;;;;;;;;;x
+EVTOPTAFKA21;That sounds like a nice suggestion.;;;;;;;;;;;;;x
+EVTOPTBFKA21;What kind of [Root.GetManWoman] do you think I am?;;;;;;;;;;;;;x
+
+EVTDESCFKA22;It has been a long day of traveling, when I come across a burning house. I had hoped to find a place to stay the night, but these people are clearly in dire need of help just stopping the flames from engulfing the entire place.;;;;;;;;;;;;;x
+EVTOPTAFKA22;[Root.Religion.GetHighGodName] calls upon me to help out these poor people.;;;;;;;;;;;;;x
+EVTOPTBFKA22;[Root.Religion.GetHighGodName] calls upon me to continue my journey.;;;;;;;;;;;;;x
+EVTOPTCFKA22;[Root.Religion.GetHighGodName] calls upon me to grab some valuables while they are busy.;;;;;;;;;;;;;x
+
+EVTDESCFKA23;The rain is pouring down and I am desperately looking for a shelter, when I come across an small simple temple. A modest priest welcomes me inside, gives me some warm clothes and a hot meal. When he mentions that it probably will not stop raining for a couple of days, I wonder if I have time to wait for that long.;;;;;;;;;;;;;x
+EVTOPTAFKA23;It is better to rest a couple of days.;;;;;;;;;;;;;x
+
+EVTOPTBFKA23;A real hero would not let weather stop them.;;;;;;;;;;;;;x
+EVTTOOLTIPFKA23_TT;You start feeling ill...;;;;;;;;;;;;;x
+
+EVTDESCFKA24;All of a sudden, I find myself in [pilgrimage_destination.GetName] before I know it. It has been a long journey through the wilderness, to once more see people is a nice change. As I walk through the city streets, I compare it to my own lands, and how the people have dealt with their own challenges in these lands. I should find my way to the burial site of [pilgrimage_destination.province_hero.GetName] as quickly as possible, that is what I am here for after all.;;;;;;;;;;;;;x
+EVTOPTAFKA24;I wonder what the tomb will look like.;;;;;;;;;;;;;x
+
+EVTDESCFKA25_A;The whole area is filled with people, looking like they come from all the different corners of [e_greek_empire.GetName]. I see another [Root.Culture.GetName] looking at me, and giving me a small nod before [Root.GetSheHeOpp] disappears in the crowd. I never knew  [pilgrimage_destination.province_hero.GetFirstNameWithNick] was this popular or well known. Though it is stressful, I finally get my moment to stand in front of the gates of the tomb, and feel the shining aura of the hero who resides within.;;;;;;;;;;;;;x
+EVTDESCFKA25_B;There is a couple of other travelers around, but they all look relatively local to the area. I walk over to the tomb, and look upon a simple mural of the hero on the wall. as well as a stele commemorating the deeds of the hero. It has been a long journey to get to [pilgrimage_destination.GetName], and I finally get to look upon the glorious burial site of  [pilgrimage_destination.province_hero.GetFirstNameWithNick].;;;;;;;;;;;;;x
+EVTDESCFKA25_C;The burial site is completely void of people, not a single soul to be seen. I look around for it, almost sure I am at the wrong place for a moment, and then I see the simple unmarked tomb. It looks overgrown and deserted, and I take some time to tidy the place up before I finally sit down in prayer to [Root.Religion.GetHighGodName]. It is almost like  [pilgrimage_destination.province_hero.GetFirstNameWithNick] is here and prays with me.;;;;;;;;;;;;;x
+
+EVTOPTAFKA25;I will remember this moment for the rest of my life.;;;;;;;;;;;;;x
+EVTOPTBFKA25;Was.. Was this it? What a disappointing end.;;;;;;;;;;;;;x
+EVTOPTCFKA25;What a journey it has been.;;;;;;;;;;;;;x
+
+EVTDESCFKA26;Your trip to the tomb has come to an end, as you prepare to see you family in your palace, you contemplate on your time resting upon legends...;;;;;;;;;;;;;x
+EVTOPTAFKA26;It was a good odyssey...;;;;;;;;;;;;;x
