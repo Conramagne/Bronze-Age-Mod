@@ -89,7 +89,7 @@ EVTOPTAFKR132;That whinging parasite...;;;;;;;;;;;;;x
 EVTDESCFKR133;This Prince of the Court has somehow managed to slander your name!;;;;;;;;;;;;;x
 EVTOPTAFKR133;That fetid dog!;;;;;;;;;;;;;x
 
-EVTDESCFKR134;This Courtly Subject has not only SLANDERED your name but has trodden upon the honor of your family!;;;;;;;;;;;;;x
+EVTDESCFKR134;This Courtly Subject has not only slandered your name but has trodden upon the honor of your family!;;;;;;;;;;;;;x
 EVTOPTAFKR134;Not just myself, but my blood? Perhaps I will take their eyes...;;;;;;;;;;;;;x
 
 ###########Contacting the Divines Events###########
@@ -103,11 +103,11 @@ make_sacrifice_to_desc;You decide to hold a holy sacrifice to honor and feed the
 
 #call the gods to get boons or curses
 EVTDESCFKP1;You have decided to call upon the gods of the [Root.Religion.GetFullName] pantheon in exultation and loud prayer, you set their images before you and contemplate their majesty.;;;;;;;;;;;;;x
-EVTDESCFKP100;It begins as a feeling, as when one slowly awakens from a dream. You feel a hand of light pass through you and for an instant you feel the euphoria of a youth in love or a child for their parent. A god has paid notice to you, and now works those many small miracles that improve one’s life. Stretching your limbs, you shout for joy towards the heavens. You are blessed!;;;;;;;;;;;;;x
+EVTDESCFKP100;It begins as a feeling, as when one slowly awakens from a dream. You feel a hand of light pass through you and for an instant you feel the euphoria of a youth in love or the love of a child for their parent. A god has paid notice to you, and now works those many small miracles that improve one’s life. Stretching your limbs, you shout for joy towards the heavens. You are blessed!;;;;;;;;;;;;;x
 EVTDESCFKP101;Despair! The gods have ignored your request for a blessing, your devotion to them must not have been great enough. What is one to do?;;;;;;;;;;;;;x
 
 #recieve boons from gods with epithets
-EVTDESCFKP103;This God can be called in many capacities to service ever facet of their devotees. As a result, while the gods have heard your prayers, it is for you to decide to which of their divine qualities you wish to invoke to be granted their powerful boon...;;;;;;;;;;;;;x
+EVTDESCFKP103;This god is many faceted. As a result, while the gods have heard your prayers, it is for you to decide which of their divine qualities you wish to invoke...;;;;;;;;;;;;;x
 EVTOPTAFKP103;I call upon Apollon Klutotóxos, Famed Holder of the Glistening Bow...;;;;;;;;;;;;;x
 EVTOPTBFKP103;I call upon Apollon Akestor, The Ever-Young God...;;;;;;;;;;;;;x
 EVTOPTCFKP103;I call upon Athene Promachos, Who fights in the Front-Line...;;;;;;;;;;;;;x
@@ -124,7 +124,7 @@ EVTOPTAFKP201;...say the prayers yourself and take the knife to the offerings th
 EVTOPTBFKP201;...decide to let the priests handle it.;;;;;;;;;;;;;x
 
 EVTDESCFKP202;You recite the archaic words flawlessly with correct intonation and volume, deftly you slide the razor-thin blade in and out of the bulls neck, it tramps, shudders, and lies down. The oldest priest gives you a strong nod as the initiates frantically bend down to collect the precious blood and start the fire upon  the altar. The gods will be pleased.;;;;;;;;;;;;;x
-EVTOPTAFKP202;For the Glory of the gods, and my house!;;;;;;;;;;;;;x
+EVTOPTAFKP202;For the glory of the gods, and my house!;;;;;;;;;;;;;x
 EVTDESCFKP204;The priests cry out the correct exultations as the prize bull is led into the throng. The oldest among them finishes the prayer and without blinking opens the beasts throat with the flint knife. As it thrashes and dies the younger members of the congregation begin to light the altar fire and prepare to joint the bull. A successful sacrifice.;;;;;;;;;;;;;x
 EVTOPTAFKP204;As to be expected...;;;;;;;;;;;;;x
 
@@ -142,13 +142,13 @@ OPTAFKREL1;I pillage in the name of [Root.Religion.GetRandomGodName]!;;;;;;;;;;;
 
 ###########Devotion Decision Events###########
 choose_devotion;Devote yourself to a god of the [Root.Religion.GetFullName] Pantheon;;;;;;;;;;;;;x
-choose_devotion_desc;The [Root.Religion.GetFullName] Pantheon has many gods to choose from perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
+choose_devotion_desc;The [Root.Religion.GetFullName] Pantheon has many gods to choose from, perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
 switch_devotion;Devote yourself to another god;;;;;;;;;;;;;x
 switch_devotion_desc;The [Root.Religion.GetFullName] Pantheon has many gods to choose from perhaps it is time devote yourself to another...;;;;;;;;;;;;;x
 dedicate_child;Dedicate your child to...;;;;;;;;;;;;;x
 dedicate_child_desc;Dedicate your child to a god of the [Root.Religion.GetFullName] Pantheon of your choice...;;;;;;;;;;;;;x
-absolve_curse_sacrifice;Sacrifice to absolve the Gods' Curse!;;;;;;;;;;;;;x
-absolve_curse_sacrifice_desc;Sacrifice to absolve the Gods' Curse which was laid upon you!;;;;;;;;;;;;;x
+absolve_curse_sacrifice;Sacrifice to absolve the gods curse!;;;;;;;;;;;;;x
+absolve_curse_sacrifice_desc;Sacrifice to absolve the gods' Curse which was laid upon you.;;;;;;;;;;;;;x
 
 EVTDESCFKREL100;You enter the temple complex, cleansed and in the proper garb. The priests of each deity eagerly await your choice of patron, they display the images of their mighty lives and deeds... Now is the time to choose.;;;;;;;;;;;;;x
 EVTDESCFKREL101;You enter the temple complex along with your child, cleansed and in the proper garb. The priests of each deity eagerly await your choice of patron for your young one, they display the images of their mighty lives and deeds... Now is the time to choose.;;;;;;;;;;;;;x
@@ -170,133 +170,133 @@ bureaucratic_reform_desc;Reform the palace bureaucracy so that you may govern yo
 has_not_reformed_10ys_TT;Has not attempted to reform the bureaucracy for ten years.;;;;;;;;;;;;;x
 
 sell_positions;Sell Positions within your Palace Bureaucracy;;;;;;;;;;;;;x
-sell_positions_desc;You sell positions in your Palace so that you may enrich yourself.;;;;;;;;;;;;;x
+sell_positions_desc;You sell positions in your palace so that you may enrich yourself.;;;;;;;;;;;;;x
 has_not_sold_7ys_TT;Has not sold any positions for seven years.;;;;;;;;;;;;;x
 
 request_personal_tribute;Request Personal Tribute;;;;;;;;;;;;;x
 request_personal_tribute_desc;You can request personal tribute from your vassals.;;;;;;;;;;;;;x
 
-EVTDESCFKR201;Your Palace has grown to such an extent it has become pertinent to consider the efficency of your palace council to govern your glorious realm.;;;;;;;;;;;;;x
+EVTDESCFKR201;Your palace has grown to such an extent it has become pertinent to consider the efficency of your bureaucracy.;;;;;;;;;;;;;x
 
 #Good Events
-EVTDESCFKR206;You have become a model palace bureaucrat in the eyes of your local community, it has been said that your lieges palace greatly approves of your service to the realm.;;;;;;;;;;;;;x
-EVTDESCFKR207;Rumors from the Palace has arrived suggesting an outstanding provincial lord is a model of excellency to his people and of your realm. You boastfully praise this lord for his great service for your realm.;;;;;;;;;;;;;x
+EVTDESCFKR206;You have become a model palace bureaucrat in the eyes of your local community, it has been said that your liege greatly approves of your service to the realm.;;;;;;;;;;;;;x
+EVTDESCFKR207;Rumors from the palace have arrived suggesting an outstanding provincial lord is a model of excellency to his people and of your realm. You boastfully praise this lord for his great service for your realm.;;;;;;;;;;;;;x
 
 EVTDESCFKR208;As you the palace council grows more powerful, the efficency of your realm increases in kind.;;;;;;;;;;;;;x
 
 EVTDESCFKR210;A quality counciller has emerged from your palace council, gracefully orating the day's proceeding with such efficency that you and the other palace officals were stunned by excellent councilor before you.;;;;;;;;;;;;;x
 
 #Bad Events
-EVTDESCFKR212;You are a laughingstock of a bureaucrat to your community, your utter incompetence has been heard by a passing palace offical whom is surely to report bad things to the great lord of the palace.;;;;;;;;;;;;;x
-EVTDESCFKR213;Rumors from the Palace has arrived suggesting an incompetent provincial lord has mismanage his position in the provinces. You scornfully swear in this lord name for his terrible service to your realm.;;;;;;;;;;;;;x
+EVTDESCFKR212;You have made a mess of the bureaucratic needs of your community, your utter incompetence has been heard by a passing palace offical who is sure to report this to the great lord of the palace.;;;;;;;;;;;;;x
+EVTDESCFKR213;Rumors from the palace have arrived of an incompetent provincial lord that has mismanaged their position in the provinces.;;;;;;;;;;;;;x
 
 EVTDESCFKR214;As you the palace council grown increasingly weaker, your realm's efficency has suffered in equal proportions.;;;;;;;;;;;;;x
 
-EVTDESCFKR216;A weak councilor has made themselves known from within your palace council, bumbling through and causing a ruckus with you and the other palace officals whom lament the depravity of the council. You stand before this laughing stock wearing a stern glare.;;;;;;;;;;;;;x
+EVTDESCFKR216;A weak councilor is bumbling through and causing a ruckus with you and the other palace officals whom lament the clownish depravity of the council.;;;;;;;;;;;;;x
 
-EVTDESCFKR217;You have ascended the throne following the death of the previous Lord of the Palace, Palace officals have yet to determine that your worthiness of the realm so have placed it upon themselves to ignore your decrees and service themselves and thier self-interest.;;;;;;;;;;;;;x
-EVTOPTAFKR217;For Shame, in time this council will heed by words!;;;;;;;;;;;;;x
+EVTDESCFKR217;You have ascended to the throne, palace officals have yet to determine your worthiness and are ignoring your decrees.;;;;;;;;;;;;;x
+EVTOPTAFKR217;For shame, in time this council will pay heed to my words.;;;;;;;;;;;;;x
 
 EVTDESCFKR219;With a family member in a position of power, it has shown that deep seated corruption lurks in your palace.;;;;;;;;;;;;;x
 EVTOPTAFKR219;This is most concerning...;;;;;;;;;;;;;x
 
 EVTDESCFKR221;A schemeing councilor is now sitting in your palace council where there should be a much better candidate, other councilors whisper about this turn of events.;;;;;;;;;;;;;x
-EVTOPTAFKR221;Vultures! I dare say!;;;;;;;;;;;;;x
+EVTOPTAFKR221;Vultures the lot of them.;;;;;;;;;;;;;x
 
-EVTDESCFKR222;The Enemies are at the gates of your palace and as your glorious seat of government burns your palace officals try desperately in vain to save what little they could of your administration from the seering edge of a torch. You stand dumbfounded as you prepare to flee the burning ruins of your palace.;;;;;;;;;;;;;x
-EVTOPTAFKR222;Oh the horrors may the gods forgive me!;;;;;;;;;;;;;x
+EVTDESCFKR222;The enemies have broken the gates of your palace and as your seat of government burns your palace officals try desperately to save what little they could of records and texts from the seering flame. You stand dumbfounded as you watch the burning ruins of your palace.;;;;;;;;;;;;;x
+EVTOPTAFKR222;What a horrible sight!;;;;;;;;;;;;;x
 
 #Changes in Palace Bureaucracy
 
 ##Decrease##
-EVTDESCFKR230;Your Palace is filled with imbeciles that are your so called "Palace Bureaucrats", they have squandered the resources of your realm in bloated inefficency and now your realm's effective adminstration extends barely outside the gates of your capital...;;;;;;;;;;;;;x
-EVTOPTAFKR230;The Horrors!;;;;;;;;;;;;;x
-EVTDESCFKR231;Whether do to the lavish nature of Palace life or a couple years of mismanagement, the glorious efficency of your council has diminshed. Its not to say that they are imbeciles, your realm after all is still working to meet the needs of you and your subjects.;;;;;;;;;;;;;x
-EVTOPTAFKR231;For Shame!;;;;;;;;;;;;;x
+EVTDESCFKR230;Your palace is filled with imbeciles, they have squandered the resources of your realm in displays of bloated inefficency.;;;;;;;;;;;;;x
+EVTOPTAFKR230;The fools.;;;;;;;;;;;;;x
+EVTDESCFKR231;Whether due to the lavish nature of palace life or years of mismanagement, the efficency of your council has diminished.;;;;;;;;;;;;;x
+EVTOPTAFKR231;For shame!;;;;;;;;;;;;;x
 
 ##Increase##
-EVTDESCFKR232;Whether do to the greak work of your councilors or the management of the realm by your provincial lords, the glorious efficency of your council have begun to make real change in your realm. Its not to say that they are the model of the gods you aspire them to be, but your realm has seen increase prosperity through the hard work of the palace.;;;;;;;;;;;;;x
-EVTOPTAFKR232;There is still much to do...;;;;;;;;;;;;;x
-EVTDESCFKR233;Your Palace is filled with the throngs of your palace bureaucrats that attend to ever facet of your glorious realm, they have not squandered the resources of your realm investing it to improve the day-to-day lives of your subjects under your glorious name!.;;;;;;;;;;;;;x
-EVTOPTAFKR233;As it should be!;;;;;;;;;;;;;x
+EVTDESCFKR232;Your realm has seen increased prosperity through the hard work of the palace bureaucrats.;;;;;;;;;;;;;x
+EVTOPTAFKR232;There is still much to do.;;;;;;;;;;;;;x
+EVTDESCFKR233;Your palace is running smoothly and efficiently.;;;;;;;;;;;;;x
+EVTOPTAFKR233;As it should be.;;;;;;;;;;;;;x
 
 #Bureaucratic Reforms
-EVTDESCFKR234;After consulting with the members of the Palace, you have decided to reform the proceeding of the palace life. As a result, you must plan how to allocate the Palace budget to meet the needs of this plan...;;;;;;;;;;;;;x
-EVTOPTAFKR234;The plan as is should be fine, there is no need to spend further!;;;;;;;;;;;;;x
-EVTOPTBFKR234;Perhaps allocating a considerable budget is what I need...;;;;;;;;;;;;;x
+EVTDESCFKR234;After consulting with the members of the Palace, you have decided to reform the proceeding of the palace life. As a result, you must plan how to allocate this new budget.;;;;;;;;;;;;;x
+EVTOPTAFKR234;The plan as is should be fine, there is no need to spend further.;;;;;;;;;;;;;x
+EVTOPTBFKR234;Perhaps allocating a considerable amount is what I need...;;;;;;;;;;;;;x
 EVTOPTCFKR234;By the grace of the gods, I shall spend a great fortune to reform!;;;;;;;;;;;;;x
 
 #Bureaucratic Reform Results
-EVTDESCFKR235;The reforms you were hoping to enact had not materialize, in fact, your palace appears to be less efficent than they were before you attemped your great reforms. You resign yourself to your throne to contemplate what has gone wrong.;;;;;;;;;;;;;x
-EVTDESCFKR236;The reforms you have enacted has seen some successes in your everday governance of the palace, Palace Officals can be seen taking reforms very well, however, the reforms haven't been as revolutionary as your hoping for...;;;;;;;;;;;;;x
-EVTDESCFKR237;The reforms you have enacted has seen great success and your palace officals are abuzz with great efficency as your reforms have vastly improve the administrative efficency of your realm!;;;;;;;;;;;;;x
+EVTDESCFKR235;Your palace appears to be less efficent than it was before you attemped your great reforms. You resign yourself to your throne to contemplate what has gone wrong.;;;;;;;;;;;;;x
+EVTDESCFKR236;The reforms you have enacted have seen some success, however, the reforms haven't been as revolutionary as you were hoping.;;;;;;;;;;;;;x
+EVTDESCFKR237;The reforms you have enacted have been a great success, vastly improving the administrative efficiency of your realm.;;;;;;;;;;;;;x
 
 ###########Stratocracy: Militarization Events###########
 become_stratocrat;Become a Stratocrat;;;;;;;;;;;;;x
-become_stratocrat_desc;As a proud warriors whose blood is filled with the martial spirit of the gods, you can lead your people down a strict martial hierarchy as to fight in glorious combat for your realm!;;;;;;;;;;;;;x
+become_stratocrat_desc;As a proud warrior whose blood is filled with that great martial spirit, you must lead your people and their strict martial hierarchy.;;;;;;;;;;;;;x
 reject_stratocracy;Rejected being Stratocrat;;;;;;;;;;;;;x
-reject_stratocracy_desc;As a proud warrior it was your choice and honor that you have decided on your own path and rejected the martial blood that courses your veins leading your people down a different path then your birthright.;;;;;;;;;;;;;x
+reject_stratocracy_desc;It is your choice to choose the path my people would go down, and you have decided to lead your people down a different path then your birthright entails.;;;;;;;;;;;;;x
 
-EVTDESCFKR301;As your stratocratic traditions evolves it dictates that you must maintain a battle ready army which is paramount to maintain your glorious realm as a result you must always be mindful of your next military venture.;;;;;;;;;;;;;x
+EVTDESCFKR301;As your stratocratic traditions evolve, you must maintain an always ready army to defeat the enemy in battle and grind down the subjugated people.;;;;;;;;;;;;;x
 
 
 #Good Events
-EVTDESCFKR305;You have become a model warrior to aspire your local community whom idolize your martial prowess, it has been said that your liege greatly approves of your martial service to the realm.;;;;;;;;;;;;;x
-EVTDESCFKR306;Rumors has reached your ears suggesting an outstanding warrior has become a subject of idolization and inspiration to thier people and of your realm. You boastfully praise this warrior for their great service for your realm.;;;;;;;;;;;;;x
+EVTDESCFKR305;You have become a model warrior to your local community whom idolize your martial prowess, it has been said that your liege greatly approves of your martial service to the realm.;;;;;;;;;;;;;x
+EVTDESCFKR306;Rumors have reached you of a great commander in the realm earning the praise of their liege.;;;;;;;;;;;;;x
 
-EVTDESCFKR308;A quality marshal has emerged from your palace council, informing your council about the their great ability to marshal your subjects to fight for your realm. Thier Energy is rather infectous and brings you and the other councillors into a boisterous cheer! Glory to [Root.PrimaryTitle.GetName]!;;;;;;;;;;;;;x
+EVTDESCFKR308;A quality marshal has emerged from your palace council. Glory to [Root.PrimaryTitle.GetName]!;;;;;;;;;;;;;x
 
-EVTDESCFKR310;A quality commander has emerged from your training grounds, Their recounting of their time in glorious battle has inspired the soliders whom form the backbone of your society. Thier Energy is rather infectous and brings you and the other soliders into a boisterous cheer! Glory to [Root.PrimaryTitle.GetName]!;;;;;;;;;;;;;x
+EVTDESCFKR310;A quality commander has emerged from your training grounds. Glory to [Root.PrimaryTitle.GetName]!;;;;;;;;;;;;;x
 
 #Bad Events
-EVTDESCFKR311;You are spineless and misguided warrior of which your local community has come to mock your lack of martial spirit, it has been said that your liege greatly dispproves of your lacking martial service to the realm.;;;;;;;;;;;;;x
-EVTDESCFKR312;Rumors has reached your ears suggesting an misguided warrior has become a subject of mockery to their people and of your realm. You loudly curse the name of this warrior for thier abysmal service for your realm.;;;;;;;;;;;;;x
+EVTDESCFKR311;It has been said that your liege greatly disapproves of your lack of martial ability.;;;;;;;;;;;;;x
+EVTDESCFKR312;Rumors has reached your ears suggesting a misguided warrior has become a subject of mockery to their people and of your realm..;;;;;;;;;;;;;x
 
-EVTDESCFKR314;A lacking marshal has emerged from your palace council, informing your council about the their seeming inability to marshal your subjects to fight for your realm. Thier Energy is rather lacking...you and the other councillors exchange disapproving glances at this turn of event!;;;;;;;;;;;;;x
+EVTDESCFKR314;A lacking marshal has emerged from your palace council.;;;;;;;;;;;;;x
 
-EVTDESCFKR316;A lacking commander has emerged from your training grounds, Their recounting of their time in battle has not inspired the soliders whom form the backbone of your society. In fact, many soldiers look at the commander with great annoyance for their glory does not match their supposed deeds. You stand before them disappointed.;;;;;;;;;;;;;x
+EVTDESCFKR316;A lacking commander has emerged from your training grounds.;;;;;;;;;;;;;x
 
 #Changes in Militarization Levels
 
 ##Decrease##
-EVTDESCFKR317;Your proud martial society is filled with imbeciles that are your so called "Warriors", they have squandered the resources of your realm in disasterous campaigns and now your realm's preperation for the next glorious campaign is greatly hampered...;;;;;;;;;;;;;x
+EVTDESCFKR317;Your so-called warriors have squandered the resources of your realm in disasterous campaigns and now your realm's martial traditions are greatly hampered.;;;;;;;;;;;;;x
 EVTOPTAFKR230;The Horrors!;;;;;;;;;;;;;x
-EVTDESCFKR318;Whether do to a miscalculation or a bad campaign, the glorious martial traditions of your realm has diminshed. Its not to say that they are imbeciles, your realm after all is still well staffed with able body warriors loyal to your realm.;;;;;;;;;;;;;x
+EVTDESCFKR318;Whether do to a miscalculation or a bad campaign, the martial traditions of your people have diminished.;;;;;;;;;;;;;x
 EVTOPTAFKR231;For Shame!;;;;;;;;;;;;;x
 
 ##Increase##
-EVTDESCFKR319;Whether do to the greak work of your generals or your martials rousing speeches, your armies appear to be better equipped and expanding to meet the needs of your realm. Its not to say that they are the strongest force of the known world that you aspire them to be, but your realm has seen increase glory and prosperity to your realm and their mighty warriors.;;;;;;;;;;;;;x
+EVTDESCFKR319;Whether due to the greak work of your commanders or your Marshal's rousing speeches, your armies appear to be better equipped to meet the needs of your realm. Its not to say that they are the strongest force of the known world that you aspire them to be, but your realm has seen increase glory and prosperity to your realm and their mighty warriors.;;;;;;;;;;;;;x
 EVTOPTAFKR232;There is still much to do...;;;;;;;;;;;;;x
-EVTDESCFKR320;Your Military is not to be trifled with! Your army swell in both spirit and bodies as their glory is well regarded across the known warrior in both admiration and fear by your friend and foe alike. Your military advisors have not squandered the resources of your realm investing it to improve the lives of your subjects under your glorious name! To Arms!;;;;;;;;;;;;;x
+EVTDESCFKR320;Your fighters are not to be trifled with! Your army swells in both strength and spirit, and their glory is well known across the wide world.;;;;;;;;;;;;;x
 EVTOPTAFKR233;As it should be!;;;;;;;;;;;;;x
 
 ###########Divine Birthright Events###########
 hellenic_birthright;Divine Birthright;;;;;;;;;;;;;x
-hellenic_birthright_desc;You are an offspring of a god and mortal and by your divine benefactor you have certain rights...;;;;;;;;;;;;;x
+hellenic_birthright_desc;You are the offspring of a god and mortal and are thus different from your peers.;;;;;;;;;;;;;x
 
 ##Woman gets pursued
-EVTDESCAFKP402;You stand before the divine, their eyes locked to yours. You are awed by their splendor, their radiance nearly blinding you as you approach [From.GetName]. Their voice rings out before you like drawing you closer in a brilliant embrace. You accept them, and they accept you...;;;;;;;;;;;;;x
-EVTDESCBFKP402;You hurringly rushed to escape the grasp of [From.GetName], but it is in vain. The divine stands triumphant, your eyes looked to theirs, you quiver as the divine forces themselves upon you. You Gasp...;;;;;;;;;;;;;x
-EVTOPTAFKP402;...By God!;;;;;;;;;;;;;x
+EVTDESCAFKP402;You stand before the divine, their eyes peering deep into yours. You are awed by their splendor, their radiance almost floors you as you approach [From.GetName]. Their voice rings out like a voice from a dream, drawing you closer in a brilliant embrace. You accept them, and they accept you...;;;;;;;;;;;;;x
+EVTDESCBFKP402;You rush to escape the grasp of [From.GetName], but it is in vain. The divine stands before you dominant, and you quiver in fear before they force themselves upon you.;;;;;;;;;;;;;x
+EVTOPTAFKP402;...NO!;;;;;;;;;;;;;x
 
-EVTDESCAFKP403;You wondered the halls of the palace wondering why your husband summoned you to the garden. You see him in the center of the garden, your eyes locked to each other. Something about the scene speaks of a divine spark. But your gorgeous husband stands before you beaconing you towards him. He softly whispers "...Fairest [Root.GetFullName] may you gleam like the stars. You are wonderful... and I would like you to embrace me." His hand outstreched as to meet you.;;;;;;;;;;;;;x
-EVTDESCBFKP403;Flattered you took your husband arms, but as you do you began to wonder, was this really your husband? You stare up and instead of your husband it was [From.GetName] embracing you with all of their divine glory.;;;;;;;;;;;;;x
-EVTDESCCFKP403;You politely denied as you wish to retire for the day, suddenly your husband came forth at a speed unexpected, he stood before you eyes locked in lust, you suddently realized for whom stood before you, [From.GetName], dropping his illusions and lunges, you gasp as the world becomes a blur of light and darkness.;;;;;;;;;;;;;x
-EVTOPTAFKP403;I was a fooled, by God!;;;;;;;;;;;;;x
+EVTDESCAFKP403;You leave the company of your handmaidens and wander the halls of the palace wondering why your husband summoned you to the garden. You see him standing before the vines of the high garden wall, his eyes full of love as he beckons you towards him. He softly whispers "Fairest [Root.GetFullName], she who gleams like the morning star. You are my only... will you not take my arm?";;;;;;;;;;;;;x
+EVTDESCBFKP403;Flattered, you took your husband arms, but there is a shiver as you touch his gleaming skin, was this really your husband? You stare up and instead of your husband it is [From.GetName] embracing you with all of their frightening glory.;;;;;;;;;;;;;x
+EVTDESCCFKP403;You politely deny his offer as you wish to retire for the day, but your husband comes rushing forth at a speed unexpected with his eyes filled with bright and terrible lust, you suddently realized who stands before you, the god [From.GetName]. You only have time to gasp before the world becomes a blur of light and darkness.;;;;;;;;;;;;;x
+EVTOPTAFKP403;Fool that I was.;;;;;;;;;;;;;x
 
-EVTDESCAFKP404;After a long pursuit you stand before the divine, their eyes locked to yours. You are awed by their splendor, their radiance nearly blinding you as you approach [From.GetName]. Their voice rings out before you like drawing you closer in a brilliant embrace. You accept them, and they accept you...;;;;;;;;;;;;;x
-EVTDESCBFKP404;You hurringly rushed to escape the grasp of [From.GetName], but it is in vain running short of breath and with no escape, you whimper. The divine stands triumphant, your eyes looked to theirs, you quiver as the divine forces themselves upon you. You Gasp...;;;;;;;;;;;;;x
-EVTOPTAFKP404;...By God!;;;;;;;;;;;;;x
+EVTDESCAFKP404;After a long pursuit you stand before the divine, their eyes peering deep into yours. You stand before the divine, their eyes peering deep into yours. You are awed by their splendor, their radiance almost floors you as you approach [From.GetName]. Their voice rings out like a voice from a dream, drawing you closer in a brilliant embrace. You accept them, and they accept you...;;;;;;;;;;;;;x
+EVTDESCBFKP404;You rush to escape the grasp of [From.GetName], but it is in vain. The divine stands before you dominant, and you quiver in fear before they force themselves upon you.;;;;;;;;;;;;;x
+EVTOPTAFKP404;...NO!;;;;;;;;;;;;;x
 
 ##Divine Child
-EVTDESCFKP405;Sometime after your encounter with the divine, you are now ready to bear this divines child. You took great percaution to ensure that this baby would come to this world unscathed for he carries the bloods of the divine! You hold your breath as you welcome this child to this world.;;;;;;;;;;;;;x
+EVTDESCFKP405;Even while the child was only a wriggling swell inside your belly, you could tell that he was of the seed of gods. You took great trouble to ensure that this baby would come into this world unscathed. It is now time to welcome this child into the world.;;;;;;;;;;;;;x
 
-EVTDESCFKP406;Due to the nature of this child's parentage, they have grown to become a powerful demi-god whose divine blood outcompetes in the best mortals around them. Of perfect health and of a taller stature than his closest peer, you watch as the years roll by. They stand before you a splitting image of their divine parent, you weep. They are now an adult and will make a name for themselves and their birthright. You beacon them forward on their destiny ahead...;;;;;;;;;;;;;x
-EVTOPTAFKP406;Onwards Child!;;;;;;;;;;;;;x
+EVTDESCFKP406;Due to the nature of this child's parentage, they have grown to become a powerful demi-god whose divine blood outcompetes the best mortals around them. Of perfect health and of striking appearance, you think on their troubled destiny and weep. They are now an adult and will make a name for themselves.;;;;;;;;;;;;;x
+EVTOPTAFKP406;Onwards child.;;;;;;;;;;;;;x
 
 #Announce Divine Child
 EVTTITLEFKP409;A Demi-God rises!;;;;;;;;;;;;;x
-EVTDESCFKP409;Born from a Marriage of a Divine to a mortal woman, a prodigous spawn of divinity now walks the world, [From.TrueFather] presence emunates from this young man as he embarks on his birthright as a divine and a mortal!;;;;;;;;;;;;;x
+EVTDESCFKP409;It is said that a god has visited themselves upon a mortal, and that the result of their union has now been born! Though still a babe, the child may one day grow to be a great warrior and leader of men. A god's blood is a most potent advantage....;;;;;;;;;;;;;x
 EVTOPTAFKP409;Wonders walk amongst us!;;;;;;;;;;;;;x
 EVTOPTBFKP409;I know this person!;;;;;;;;;;;;;x
 
@@ -309,7 +309,7 @@ TT_HERO_FAMILY;It is an honor that I am related...;;;;;;;;;;;;;x
 EVTOPTAFKA11_TT;You grab a handful of trinkets;;;;;;;;;;;;;x
 
 EVTTITLEFKA7;A Hero has Ascended!;;;;;;;;;;;;;x
-EVTDESCFKA7;[hero_person.GetDynName] lived a glorious life, truly following the example of [hero_person.Religion.GetHighGodName]. [hero_person.GetSheHeCap] passed on [hero_person.GetDeathDate], and people have long wondered if [hero_person.GetSheHe] would be considered a truely die a hero of [hero_person.Religion.GetGroupName] or not.\n\nIn a grand ceremony [bishopric_holder.GetTitledFirstName] has declared [hero_person.GetFirstNameWithNick] as a [hero_person.Religion.GetGroupName] who has indeed ascended in Apotheosis, celebrated by the people of [hero_person.PrimaryTitle.GetName] as well as by the [hero_person.Religion.GetGroupName] world as a whole.  \n\nWe can only wish to follow [hero_person.GetHerHis] example, and become truly legendary people in the eyes of [hero_person.Religion.GetHighGodName].;;;;;;;;;;;;;x
+EVTDESCFKA7;[hero_person.GetDynName] lived a glorious life, truly following the example of [hero_person.Religion.GetHighGodName]. [hero_person.GetSheHeCap] passed on [hero_person.GetDeathDate], and people have long wondered if [hero_person.GetSheHe] would be considered a hero of [hero_person.Religion.GetGroupName] or not. \n\nIn a grand festival [bishopric_holder.GetTitledFirstName] has declared [hero_person.GetFirstNameWithNick] as a [hero_person.Religion.GetGroupName] who has indeed ascended into a state of apotheosis, celebrated by the people of [hero_person.PrimaryTitle.GetName] as well as by the [hero_person.Religion.GetGroupName] world as a whole.  \n\nWe can only wish to follow [hero_person.GetHerHis] example, and become worthy people in the eyes of [hero_person.Religion.GetHighGodName].;;;;;;;;;;;;;x
 EVTOPTAFKA7;May they rest in glorious peace.;;;;;;;;;;;;;x
 
 EVTDESCFKA8;[hero_person.PrimaryTitle.GetName] has seen a boost in the awe strucken masses who come to see the tomb of [hero_person.GetName], local merchants are seen selling emblems bearing the symbol of this prestigous heros lineage and house. Among the crowd a bard with a lyre is seen recanting the legendary deeds of [hero_person.GetName] to a crowd of cheering people. You observe the tomb and decide what you need to do to maintain this hero's legacy.;;;;;;;;;;;;;x
@@ -331,16 +331,16 @@ EVTDESCFKA11;Entering the tomb of [target_burial_site.GetName], I began to obser
 EVTOPTAFKA11;I should pick a few shinies and make haste...;;;;;;;;;;;;;x
 EVTOPTBFKA11;I should plunder this tomb bare!;;;;;;;;;;;;;x
 
-EVTDESCFKA12;The Honor Guards of the Tomb have caught wind of your activities as you made a ruckus... Your hands up in the air you curse the gods for your misfortune...;;;;;;;;;;;;;x
-EVTOPTAFKA12;HARK FOR SHAME, I've been caught!;;;;;;;;;;;;;x
+EVTDESCFKA12;The caretakers of the tomb have caught wind of your activities and quickly wrestle you to the ground. You curse the gods for your misfortune.;;;;;;;;;;;;;x
+EVTOPTAFKA12;For shame, I've been caught!;;;;;;;;;;;;;x
 
-EVTDESCFKA13;The burial site of The §YHero [target_burial_site.province_hero.GetFirstName]§! at [target_burial_site.GetName] has been plundered, and has been left a complete mess...;;;;;;;;;;;;;x
+EVTDESCFKA13;The burial site of The §YHero [target_burial_site.province_hero.GetFirstName]§! at [target_burial_site.GetName] has been plundered, and has been left a pile of rubble...;;;;;;;;;;;;;x
 
-EVTDESCFKA14;My men has come across the burial site of some sort of "hero" for the pathetic [pillaged_hellenic.Religion.GetGroupName] [pillaged_hellenic.GetTitledFirstName]. This could be a chance to show them how we treat their sissy heros.;;;;;;;;;;;;;x
+EVTDESCFKA14;My men have come across the burial site of some great "hero" of the pathetic [pillaged_hellenic.Religion.GetGroupName] [pillaged_hellenic.GetTitledFirstName]. This could be a chance to show them how we treat their unmanly ancestors.;;;;;;;;;;;;;x
 EVTOPTAFKA14;Take everything of value, and leave nothing behind.;;;;;;;;;;;;;x
-EVTOPTBFKA14;We are not pathetic like them, we will leave it be.;;;;;;;;;;;;;x
+EVTOPTBFKA14;We are not petty like them, we will leave it be.;;;;;;;;;;;;;x
 
-EVTDESCFKA16;I shall venture to the tomb of a local hero on my way to the holy places! Perhaps I can learn many things from their deeds, as I learn more about the divine's role in our lives?;;;;;;;;;;;;;x
+EVTDESCFKA16;I shall venture to the tomb of a local hero on my way to the holy places! Perhaps I can learn many things from their deeds, as I learn more about the divine's role in our lives.;;;;;;;;;;;;;x
 EVTOPTAFKA16_1;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
 EVTOPTAFKA16_2;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
 EVTOPTAFKA16_3;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
@@ -357,7 +357,7 @@ EVTOPTDFKA16_1;I shall visit [target_burial_site.province_hero.GetFirstName];;;;
 EVTOPTDFKA16_2;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
 EVTOPTDFKA16_3;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
 
-EVTDESCFKA17;Traveling along a well kept path along the forested hills of [e_greek_empire.GetName], passing by many Herms as you make your way to the various holy places that dot the serene hillsides.;;;;;;;;;;;;;x
+EVTDESCFKA17;Traveling along a well kept path along the forested hills of [e_greek_empire.GetName], passing by many plain cottages as you make your way to the various holy places that dot the serene hillsides.;;;;;;;;;;;;;x
 EVTOPTAFKA17;Onwards I go!;;;;;;;;;;;;;x
 
 EVTDESCFKA18;I come across a group of travelers, who are also traveling to [pilgrimage_destination.GetName], to ask for the blessing of  [pilgrimage_destination.province_hero.GetFirstNameWithNick]. Traveling together could be beneficial and safer, though probably somewhat slower.;;;;;;;;;;;;;x
@@ -381,27 +381,27 @@ EVTDESCFKA21_ALT;I come across a group of caravans, filled with the laughter and
 EVTOPTAFKA21;That sounds like a nice suggestion.;;;;;;;;;;;;;x
 EVTOPTBFKA21;What kind of [Root.GetManWoman] do you think I am?;;;;;;;;;;;;;x
 
-EVTDESCFKA22;It has been a long day of traveling, when I come across a burning house. I had hoped to find a place to stay the night, but these people are clearly in dire need of help just stopping the flames from engulfing the entire place.;;;;;;;;;;;;;x
+EVTDESCFKA22;It has been a long day of traveling when I come across a burning homestead. I had hoped to find a place to stay the night, but these people are clearly in dire need of help to stop the flames from engulfing the entire place.;;;;;;;;;;;;;x
 EVTOPTAFKA22;[Root.Religion.GetHighGodName] calls upon me to help out these poor people.;;;;;;;;;;;;;x
 EVTOPTBFKA22;[Root.Religion.GetHighGodName] calls upon me to continue my journey.;;;;;;;;;;;;;x
 EVTOPTCFKA22;[Root.Religion.GetHighGodName] calls upon me to grab some valuables while they are busy.;;;;;;;;;;;;;x
 
-EVTDESCFKA23;The rain is pouring down and I am desperately looking for a shelter, when I come across an small simple temple. A modest priest welcomes me inside, gives me some warm clothes and a hot meal. When he mentions that it probably will not stop raining for a couple of days, I wonder if I have time to wait for that long.;;;;;;;;;;;;;x
+EVTDESCFKA23;The rain is pouring down and I am desperately looking for a shelter, when I come across a small simple shrine and the hut of its caretaker. The modest man welcomes me inside, hangs my soaking clothes over the fire to dry and gives me a hot meal. When he mentions that it probably will not stop raining for a couple of days, I wonder if I have time to wait for that long.;;;;;;;;;;;;;x
 EVTOPTAFKA23;It is better to rest a couple of days.;;;;;;;;;;;;;x
 
-EVTOPTBFKA23;A real hero would not let weather stop them.;;;;;;;;;;;;;x
+EVTOPTBFKA23;A real hero would not let a bit of bad weather stop them.;;;;;;;;;;;;;x
 EVTTOOLTIPFKA23_TT;You start feeling ill...;;;;;;;;;;;;;x
 
-EVTDESCFKA24;All of a sudden, I find myself in [pilgrimage_destination.GetName] before I know it. It has been a long journey through the wilderness, to once more see people is a nice change. As I walk through the city streets, I compare it to my own lands, and how the people have dealt with their own challenges in these lands. I should find my way to the burial site of [pilgrimage_destination.province_hero.GetName] as quickly as possible, that is what I am here for after all.;;;;;;;;;;;;;x
+EVTDESCFKA24;I find myself in [pilgrimage_destination.GetName] before I know it. It has been a long journey through the wilderness, to once more see people is a nice change. As I walk through the city streets, I compare it to my own lands, and how the people have dealt with their own challenges. I find my way to the burial site of [pilgrimage_destination.province_hero.GetName] as quickly as possible, that is what I am here for after all.;;;;;;;;;;;;;x
 EVTOPTAFKA24;I wonder what the tomb will look like.;;;;;;;;;;;;;x
 
 EVTDESCFKA25_A;The whole area is filled with people, looking like they come from all the different corners of [e_greek_empire.GetName]. I see another [Root.Culture.GetName] looking at me, and giving me a small nod before [Root.GetSheHeOpp] disappears in the crowd. I never knew  [pilgrimage_destination.province_hero.GetFirstNameWithNick] was this popular or well known. Though it is stressful, I finally get my moment to stand in front of the gates of the tomb, and feel the shining aura of the hero who resides within.;;;;;;;;;;;;;x
 EVTDESCFKA25_B;There is a couple of other travelers around, but they all look relatively local to the area. I walk over to the tomb, and look upon a simple mural of the hero on the wall. as well as a stele commemorating the deeds of the hero. It has been a long journey to get to [pilgrimage_destination.GetName], and I finally get to look upon the glorious burial site of  [pilgrimage_destination.province_hero.GetFirstNameWithNick].;;;;;;;;;;;;;x
-EVTDESCFKA25_C;The burial site is completely void of people, not a single soul to be seen. I look around for it, almost sure I am at the wrong place for a moment, and then I see the simple unmarked tomb. It looks overgrown and deserted, and I take some time to tidy the place up before I finally sit down in prayer to [Root.Religion.GetHighGodName]. It is almost like  [pilgrimage_destination.province_hero.GetFirstNameWithNick] is here and prays with me.;;;;;;;;;;;;;x
+EVTDESCFKA25_C;The burial site is completely devoid of people, not a single soul to be seen. I look around for it, almost sure I am at the wrong place for a moment, and then I see the simple unmarked tomb. It looks overgrown and deserted, and I take some time to tidy the place up before I finally sit down in prayer to [Root.Religion.GetHighGodName]. It is almost like  [pilgrimage_destination.province_hero.GetFirstNameWithNick] is here with me.;;;;;;;;;;;;;x
 
 EVTOPTAFKA25;I will remember this moment for the rest of my life.;;;;;;;;;;;;;x
 EVTOPTBFKA25;Was.. Was this it? What a disappointing end.;;;;;;;;;;;;;x
 EVTOPTCFKA25;What a journey it has been.;;;;;;;;;;;;;x
 
-EVTDESCFKA26;Your trip to the tomb has come to an end, as you prepare to see you family in your palace, you contemplate on your time resting upon legends...;;;;;;;;;;;;;x
-EVTOPTAFKA26;It was a good odyssey...;;;;;;;;;;;;;x
+EVTDESCFKA26;Your trip to the tomb has come to an end.;;;;;;;;;;;;;x
+EVTOPTAFKA26;It was a good journey...;;;;;;;;;;;;;x

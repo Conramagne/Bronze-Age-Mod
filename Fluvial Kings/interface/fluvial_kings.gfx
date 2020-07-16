@@ -126,6 +126,11 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\GFX_evt_ancient_garden.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_evt_ancient_duels"
+		texturefile = "gfx\\event_pictures\\GFX_evt_ancient_duels.dds"
+	}
+	
 ## decisions
 	spriteType = {
 		name = "GFX_contact_pantheon"
