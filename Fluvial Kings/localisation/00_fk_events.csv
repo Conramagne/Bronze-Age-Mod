@@ -45,11 +45,11 @@ EVTDESCFKR113;You have led the Princes of the realm into glorious victory over t
 EVTDESCFKR114;A disloyal worm of an administrator has made it their goal to limit your authority, this has reflected badly upon you in the eyes of the aristocracy.;;;;;;;;;;;;;x
 opta_disappointing;Disappointing...;;;;;;;;;;;;;x
 
-EVTDESCFKR116;A Courtly Retainer has been deriding your policies and insulting your name during a recent assembly!;;;;;;;;;;;;;x
+EVTDESCFKR116;A courtly retainer has been deriding your policies and insulting your name during a recent assembly!;;;;;;;;;;;;;x
 
 EVTDESCFKR117;The actions of the disloyal council have left you confused and frustrated, it appears your grasp on day-to-day business is waning.;;;;;;;;;;;;;x
 
-EVTDESCFKR118;After your latest defeat the realm was left reeling as your subjects and the princes begin to question your very position of Rulership.;;;;;;;;;;;;;x
+EVTDESCFKR118;After your latest defeat the realm was left reeling as your subjects and the princes begin to question your very position of rulership.;;;;;;;;;;;;;x
 
 EVTDESCFKR119;Your dead lie thick upon the earth, the princes and widows of the realm shudder at this great defeat and declare, "Truly, he is no [Root.GetTitle], but a gutless worm!".;;;;;;;;;;;;;x
 
@@ -179,29 +179,29 @@ request_personal_tribute_desc;You can request personal tribute from your vassals
 EVTDESCFKR201;Your palace has grown to such an extent it has become pertinent to consider the efficency of your bureaucracy.;;;;;;;;;;;;;x
 
 #Good Events
-EVTDESCFKR206;You have become a model palace bureaucrat in the eyes of your local community, it has been said that your liege greatly approves of your service to the realm.;;;;;;;;;;;;;x
+EVTDESCFKR206;You have become a model palace bureaucrat in the eyes of your community.;;;;;;;;;;;;;x
 EVTDESCFKR207;Rumors from the palace have arrived suggesting an outstanding provincial lord is a model of excellency to his people and of your realm. You boastfully praise this lord for his great service for your realm.;;;;;;;;;;;;;x
 
-EVTDESCFKR208;As you the palace council grows more powerful, the efficency of your realm increases in kind.;;;;;;;;;;;;;x
+EVTDESCFKR208;As the palace council grows more powerful, the efficiency of your realm increases in kind.;;;;;;;;;;;;;x
 
-EVTDESCFKR210;A quality counciller has emerged from your palace council, gracefully orating the day's proceeding with such efficency that you and the other palace officals were stunned by excellent councilor before you.;;;;;;;;;;;;;x
+EVTDESCFKR210;A quality counciller has improved the efficiency of your government proceedings.;;;;;;;;;;;;;x
 
 #Bad Events
-EVTDESCFKR212;You have made a mess of the bureaucratic needs of your community, your utter incompetence has been heard by a passing palace offical who is sure to report this to the great lord of the palace.;;;;;;;;;;;;;x
+EVTDESCFKR212;You have made a mess of the bureaucratic needs of your community.;;;;;;;;;;;;;x
 EVTDESCFKR213;Rumors from the palace have arrived of an incompetent provincial lord that has mismanaged their position in the provinces.;;;;;;;;;;;;;x
 
-EVTDESCFKR214;As you the palace council grown increasingly weaker, your realm's efficency has suffered in equal proportions.;;;;;;;;;;;;;x
+EVTDESCFKR214;As the palace council grows increasingly weaker, your realm's efficency has suffered in equal proportions.;;;;;;;;;;;;;x
 
-EVTDESCFKR216;A weak councilor is bumbling through and causing a ruckus with you and the other palace officals whom lament the clownish depravity of the council.;;;;;;;;;;;;;x
+EVTDESCFKR216;A weak councilor is bumbling through and causing a ruckus with you and the other palace officals who lament the clownish depravity of the council.;;;;;;;;;;;;;x
 
 EVTDESCFKR217;You have ascended to the throne, palace officals have yet to determine your worthiness and are ignoring your decrees.;;;;;;;;;;;;;x
-EVTOPTAFKR217;For shame, in time this council will pay heed to my words.;;;;;;;;;;;;;x
+EVTOPTAFKR217;For shame, in time this council must bend to my will.;;;;;;;;;;;;;x
 
-EVTDESCFKR219;With a family member in a position of power, it has shown that deep seated corruption lurks in your palace.;;;;;;;;;;;;;x
+EVTDESCFKR219;With a family member in a position of power, it is whispered that deep seated corruption lurks in your palace.;;;;;;;;;;;;;x
 EVTOPTAFKR219;This is most concerning...;;;;;;;;;;;;;x
 
-EVTDESCFKR221;A schemeing councilor is now sitting in your palace council where there should be a much better candidate, other councilors whisper about this turn of events.;;;;;;;;;;;;;x
-EVTOPTAFKR221;Vultures the lot of them.;;;;;;;;;;;;;x
+EVTDESCFKR221;A scheming councilor is now sitting on your palace council, other councilors whisper about this turn of events.;;;;;;;;;;;;;x
+EVTOPTAFKR221;Vultures, the lot of them.;;;;;;;;;;;;;x
 
 EVTDESCFKR222;The enemies have broken the gates of your palace and as your seat of government burns your palace officals try desperately to save what little they could of records and texts from the seering flame. You stand dumbfounded as you watch the burning ruins of your palace.;;;;;;;;;;;;;x
 EVTOPTAFKR222;What a horrible sight!;;;;;;;;;;;;;x
@@ -211,7 +211,7 @@ EVTOPTAFKR222;What a horrible sight!;;;;;;;;;;;;;x
 ##Decrease##
 EVTDESCFKR230;Your palace is filled with imbeciles, they have squandered the resources of your realm in displays of bloated inefficency.;;;;;;;;;;;;;x
 EVTOPTAFKR230;The fools.;;;;;;;;;;;;;x
-EVTDESCFKR231;Whether due to the lavish nature of palace life or years of mismanagement, the efficency of your council has diminished.;;;;;;;;;;;;;x
+EVTDESCFKR231;Whether due to the lavish nature of palace life or years of mismanagement, the efficiency of your council has diminished.;;;;;;;;;;;;;x
 EVTOPTAFKR231;For shame!;;;;;;;;;;;;;x
 
 ##Increase##
@@ -221,7 +221,7 @@ EVTDESCFKR233;Your palace is running smoothly and efficiently.;;;;;;;;;;;;;x
 EVTOPTAFKR233;As it should be.;;;;;;;;;;;;;x
 
 #Bureaucratic Reforms
-EVTDESCFKR234;After consulting with the members of the Palace, you have decided to reform the proceeding of the palace life. As a result, you must plan how to allocate this new budget.;;;;;;;;;;;;;x
+EVTDESCFKR234;After consulting with the members of the palace, you have decided to reform the proceeding of the palace life. As a result, you must plan how to allocate this new budget.;;;;;;;;;;;;;x
 EVTOPTAFKR234;The plan as is should be fine, there is no need to spend further.;;;;;;;;;;;;;x
 EVTOPTBFKR234;Perhaps allocating a considerable amount is what I need...;;;;;;;;;;;;;x
 EVTOPTCFKR234;By the grace of the gods, I shall spend a great fortune to reform!;;;;;;;;;;;;;x
@@ -249,7 +249,7 @@ EVTDESCFKR308;A quality marshal has emerged from your palace council. Glory to [
 EVTDESCFKR310;A quality commander has emerged from your training grounds. Glory to [Root.PrimaryTitle.GetName]!;;;;;;;;;;;;;x
 
 #Bad Events
-EVTDESCFKR311;It has been said that your liege greatly disapproves of your lack of martial ability.;;;;;;;;;;;;;x
+EVTDESCFKR311;Your lack of martial ability is troubling.;;;;;;;;;;;;;x
 EVTDESCFKR312;Rumors has reached your ears suggesting a misguided warrior has become a subject of mockery to their people and of your realm..;;;;;;;;;;;;;x
 
 EVTDESCFKR314;A lacking marshal has emerged from your palace council.;;;;;;;;;;;;;x
@@ -275,7 +275,7 @@ hellenic_birthright;Divine Birthright;;;;;;;;;;;;;x
 hellenic_birthright_desc;You are the offspring of a god and mortal and are thus different from your peers.;;;;;;;;;;;;;x
 
 ##Woman gets pursued
-EVTDESCAFKP402;You stand before the divine, their eyes peering deep into yours. You are awed by their splendor, their radiance almost floors you as you approach [From.GetName]. Their voice rings out like a voice from a dream, drawing you closer in a brilliant embrace. You accept them, and they accept you...;;;;;;;;;;;;;x
+EVTDESCAFKP402;You stand before the divine, their eyes peering deep into yours. You are awed by their splendor, their radiance almost floors you as you approach [From.GetName]. Their voice rings out like a bell in a dream, drawing you closer in a brilliant embrace. You accept them, and they accept you...;;;;;;;;;;;;;x
 EVTDESCBFKP402;You rush to escape the grasp of [From.GetName], but it is in vain. The divine stands before you dominant, and you quiver in fear before they force themselves upon you.;;;;;;;;;;;;;x
 EVTOPTAFKP402;...NO!;;;;;;;;;;;;;x
 
@@ -309,7 +309,7 @@ TT_HERO_FAMILY;It is an honor that I am related...;;;;;;;;;;;;;x
 EVTOPTAFKA11_TT;You grab a handful of trinkets;;;;;;;;;;;;;x
 
 EVTTITLEFKA7;A Hero has Ascended!;;;;;;;;;;;;;x
-EVTDESCFKA7;[hero_person.GetDynName] lived a glorious life, truly following the example of [hero_person.Religion.GetHighGodName]. [hero_person.GetSheHeCap] passed on [hero_person.GetDeathDate], and people have long wondered if [hero_person.GetSheHe] would be considered a hero of [hero_person.Religion.GetGroupName] or not. \n\nIn a grand festival [bishopric_holder.GetTitledFirstName] has declared [hero_person.GetFirstNameWithNick] as a [hero_person.Religion.GetGroupName] who has indeed ascended into a state of apotheosis, celebrated by the people of [hero_person.PrimaryTitle.GetName] as well as by the [hero_person.Religion.GetGroupName] world as a whole.  \n\nWe can only wish to follow [hero_person.GetHerHis] example, and become worthy people in the eyes of [hero_person.Religion.GetHighGodName].;;;;;;;;;;;;;x
+EVTDESCFKA7;[hero_person.GetDynName] lived a glorious life, truly following the example of [hero_person.Religion.GetHighGodName]. [hero_person.GetSheHeCap] passed on [hero_person.GetDeathDate], and people have long wondered if [hero_person.GetSheHe] would be considereda hero of [hero_person.Religion.GetGroupName] or not. \n\nIn a grand festival [bishopric_holder.GetTitledFirstName] has declared [hero_person.GetFirstNameWithNick] as a [hero_person.Religion.GetGroupName] who has indeed ascended into a state of apotheosis, celebrated by the people of [hero_person.PrimaryTitle.GetName] as well as by the [hero_person.Religion.GetGroupName] world as a whole.  \n\nWe can only wish to follow [hero_person.GetHerHis] example, and become worthy people in the eyes of [hero_person.Religion.GetHighGodName].;;;;;;;;;;;;;x
 EVTOPTAFKA7;May they rest in glorious peace.;;;;;;;;;;;;;x
 
 EVTDESCFKA8;[hero_person.PrimaryTitle.GetName] has seen a boost in the awe strucken masses who come to see the tomb of [hero_person.GetName], local merchants are seen selling emblems bearing the symbol of this prestigous heros lineage and house. Among the crowd a bard with a lyre is seen recanting the legendary deeds of [hero_person.GetName] to a crowd of cheering people. You observe the tomb and decide what you need to do to maintain this hero's legacy.;;;;;;;;;;;;;x
