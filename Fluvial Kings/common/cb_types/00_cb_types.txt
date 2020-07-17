@@ -22,7 +22,7 @@ claim = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use_title = {
@@ -386,7 +386,7 @@ other_claim = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use_title = {
@@ -883,7 +883,7 @@ claim_on_liege = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use_title = {
@@ -1243,7 +1243,7 @@ claim_on_liege_plot = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use_title = {
@@ -1535,7 +1535,7 @@ claim_on_vassal_plot = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use_title = {
@@ -1738,7 +1738,7 @@ other_claim_on_liege = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use_title = {
@@ -2205,7 +2205,7 @@ claim_all = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	is_valid = {
@@ -2509,7 +2509,7 @@ change_seniority_succession_law = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 	
 	is_valid = {
@@ -2772,7 +2772,7 @@ change_primogeniture_succession_law = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 	
 	is_valid = {
@@ -3037,7 +3037,7 @@ change_feudal_elective_succession_law = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	is_valid = {
@@ -3320,7 +3320,7 @@ invasion = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 	
 	can_use_title = {
@@ -3831,7 +3831,7 @@ invasion = {
 		# ROOT = {
 			# prestige = 500
 		# }
-		# check_if_crusader_trigger = yes
+		# #check_if_crusader_trigger = yes
 	# }
 	
 	# on_add = {
@@ -5107,7 +5107,7 @@ excommunicated_ruler = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	is_valid = {
@@ -5362,7 +5362,7 @@ bid_for_independence = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -5696,7 +5696,7 @@ depose_liege = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -5943,7 +5943,7 @@ overthrow_ruler = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -6216,7 +6216,7 @@ overthrow_ruler_no_calls = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -6432,7 +6432,7 @@ change_gavelkind_succession_law = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -6689,7 +6689,7 @@ lower_crown_authority_law = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -6941,7 +6941,7 @@ lower_tribal_organization_law = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -7199,7 +7199,7 @@ coastal_republic = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -7435,7 +7435,7 @@ coastal_county_republic = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -7716,7 +7716,7 @@ weaken_vassal_plot = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use_title = {
@@ -8696,7 +8696,7 @@ cb_faction_independence = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -9017,7 +9017,7 @@ embargo_cb = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -9316,7 +9316,7 @@ seize_trade_post = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -13112,7 +13112,7 @@ dejure_county_claim = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use_title = {
@@ -13542,7 +13542,7 @@ dejure_barony_claim = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -13974,7 +13974,7 @@ other_dejure_county_claim = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -15169,7 +15169,7 @@ manifest_destiny_invasion = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -15700,7 +15700,7 @@ rivalry_cb = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -15915,7 +15915,7 @@ tributary_cb = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -16491,7 +16491,7 @@ free_tributary_cb = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 		ROOT = { #Cannot use CB if can take decision to stop paying tribute
 			conditional_tooltip = {
 				trigger = { is_decision_potential = tributary_independence_china }
@@ -16879,7 +16879,7 @@ cb_install_khan = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -17084,7 +17084,7 @@ nomad_dispute = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -17304,7 +17304,7 @@ cb_liberate_nomad_duchy = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -19074,7 +19074,7 @@ increase_council_power_war = { # Started from faction
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -19317,7 +19317,7 @@ nomad_humiliate_cb = {
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -19679,7 +19679,7 @@ powerful_vassal_takeover_war = { # Started from faction
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {

@@ -21,7 +21,7 @@ dejure_duchy_claim = { # New1
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 		ROOT = {
 			show_scope_change = no
 			conditional_tooltip = {
@@ -453,7 +453,7 @@ force_vassalization = { # New2
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 		FROM = {
 			show_scope_change = no
 			conditional_tooltip = {
@@ -740,7 +740,7 @@ great_realm_conflict = { # New3
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 		ROOT = {
 			prestige = 3000
 			piety = 1500
@@ -1080,7 +1080,7 @@ hostages_cb = { # New5
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 	}
 
 	can_use = {
@@ -2092,7 +2092,7 @@ tributary_permanent_cb = { # New8
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 		ROOT = {
 			relative_realm_size = {
 				who = FROM 
@@ -2502,7 +2502,7 @@ tributary_nomad_cb = { # New9
 				trait = weak_emperor
 			}
 		}
-		check_if_crusader_trigger = yes
+		#check_if_crusader_trigger = yes
 		ROOT = {
 			prestige = 100
 		}
