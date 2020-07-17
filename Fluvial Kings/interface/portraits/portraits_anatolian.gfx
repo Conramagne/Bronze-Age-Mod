@@ -231,8 +231,8 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_anatolian_male_clothes"
-		texturefile = "gfx\\characters\\byzantine_male\\byzantine_male_clothes.dds"
-		noOfFrames = 12
+		texturefile = "gfx\\characters\\anatolian_male\\anatolian_male_clothes.dds"
+		noOfFrames = 11
 		norefcount = yes
 	}
 
