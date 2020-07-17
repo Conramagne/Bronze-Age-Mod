@@ -1,21 +1,14 @@
 ###########Mycenaean and Early Classical Greece###########
 
 ###########Empire Titles###########
-emperor_achaean;Wanax;;;;;;;;;;;;;x
-emperor_female_achaean;Wanaxia;;;;;;;;;;;;;x
-emperor_dorian;Hegemon;;;;;;;;;;;;;x #placeholder
-emperor_female_dorian;Hegemonia;;;;;;;;;;;;;x #placeholder
+
+
+
 
 e_greek_empire;Pan-Akhaios;;;;;;;;;;;;;x
 e_greek_empire_adj;Akhaios;;;;;;;;;;;;;x
 
 ###########Kingdom Titles###########
-king_achaean;Basileos;;;;;;;;;;;;;x
-king_female_achaean;Basilissa;;;;;;;;;;;;;x
-king_dorian;Basileus;;;;;;;;;;;;;x #placeholder
-king_female_dorian;Basilissa;;;;;;;;;;;;;x #placeholder
-
-kingdom_of_acheaen;Témenos;;;;;;;;;;;;;x
 
 k_achaea;Akhaïa;;;;;;;;;;;;;x
 k_achaea_adj;Akhaios;;;;;;;;;;;;;x
@@ -32,12 +25,7 @@ k_thrace_adj;Thracian;;;;;;;;;;;;;x
 k_krete;Krete;;;;;;;;;;;;;x
 k_krete_adj;Kretan;;;;;;;;;;;;;x
 
-
 ###########Duchy Titles###########
-duke_achaean;Koreter;;;;;;;;;;;;;x
-duke_female_achaean;Koretera;;;;;;;;;;;;;x
-duke_dorian;Arkhon;;;;;;;;;;;;;x #placeholder
-duke_female_dorian;Arkhousa;;;;;;;;;;;;;x #placeholder
 
 d_achaea;Akhaïa;;;;;;;;;;;;;x
 d_achaea_adj;Akhaean;;;;;;;;;;;;;x
@@ -69,10 +57,6 @@ d_lasynthos;Lasynthos;;;;;;;;;;;;;x
 d_lasynthos_adj;Lasynthosi;;;;;;;;;;;;;x
 
 ###########Counties Titles###########
-count_achaean;Prokoreter;;;;;;;;;;;;;x
-count_female_achaean;Klawiphoros;;;;;;;;;;;;;x
-count_dorian;Phularkhos;;;;;;;;;;;;;x #placeholder
-count_female_dorian;Phularkhosa;;;;;;;;;;;;;x #placeholder
 
 c_mycenae;Mykenae;;;;;;;;;;;;;x
 c_mycenae_adj;Mykenaean;;;;;;;;;;;;;x

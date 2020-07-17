@@ -41,7 +41,33 @@ character_event = {
 			}
 			add_trait = syncretic_hellenic
 		}
-		conversion_removal_effect = yes
+		if = {
+			limit = {
+				OR = {
+					religion_group = pihassasi
+				}
+			}
+			random = {
+				100 = {
+					prompt_name = {
+						player = ROOT 
+						type = BAPTISM 
+						name_list = religion
+					}
+					modifier = { #Low amount of available Hittite names
+						factor = 0.25
+						religion = ishalitethai
+						is_female = no
+					}
+					modifier = {
+						factor = 0.1
+						religion = ishalitethai
+						is_female = yes
+					}
+				}
+			}
+		}
+		# conversion_removal_effect = yes
 	}
 }
 

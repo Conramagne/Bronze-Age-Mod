@@ -452,12 +452,19 @@ laws = {
 			
 			additive_modifier = { 
 				value = 10			
-				culture = amazonios
+				holder_scope = {
+					culture = amazonios
+				}
 			}
 		}
 		
 		allow = {
-			has_law = status_of_women_3
+			OR = {
+				has_law = status_of_women_3
+				holder_scope = {
+					culture = amazonios
+				}
+			}
 			NOR = {
 				holder_scope = { has_religion_feature = religion_patriarchal }
 			}

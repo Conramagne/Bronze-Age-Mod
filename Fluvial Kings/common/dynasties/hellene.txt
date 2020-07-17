@@ -290,7 +290,7 @@
 }
 2100017 = {
 	name = "Miniad"
-	culture = "minoan"
+	culture = "cretan"
 	used_for_random = no
 	coat_of_arms = {
 		religion = pantes_theoi

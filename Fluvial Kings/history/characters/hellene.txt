@@ -2803,12 +2803,13 @@
 	2571.1.1 = { death = yes }
 }
 
-2101203 = { #Aigialos
-	name = "Aigialos"
+2101203 = { #Aigialeus
+	name = "Aigialeus"
 	dynasty = 2100015 #Amythaid
 	culture = achaean
 	religion = pantes_theoi
 	father = 2101205
+	mother = 2101215
 	2489.1.1 = { birth = yes }
 	2522.1.1 = {
 		effect = {
@@ -2825,6 +2826,7 @@
 	religion = pantes_theoi
 	female = yes
 	father = 2101205
+	mother = 2101215
 	2481.1.1 = { birth = yes }
 	2541.1.1 = { death = yes }
 }
@@ -2836,6 +2838,11 @@
 	religion = pantes_theoi
 	father = 2101210
 	2461.1.1 = { birth = yes }
+	2481.1.1 = {
+		effect = {
+			add_spouse = 2101215
+		}
+	}
 	2526.1.1 = { death = yes }
 }
 
@@ -2949,6 +2956,20 @@
 	father = 2101210
 	2482.1.1 = { birth = yes }
 	2551.1.1 = { death = yes }
+}
+
+2101215 = { #Demonassa
+	name = "Demonassa"
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	2461.1.1 = { birth = yes }
+	2481.1.1 = {
+		effect = {
+			add_spouse = 2101205
+		}
+	}
+	2521.1.1 = { death = yes }
 }
 
 
@@ -3150,18 +3171,23 @@
 2101500 = { #Idomeneus, King of Crete
 	name = "Idomeneus"
 	dynasty = 2100017 #Miniad
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi #Temporary
 	father = 2101502
 	mother = 2101501
 	trait = skilled_tactician
 	2481.1.1 = { birth = yes }
+	2501.1.1 = {
+		effect = {
+			add_spouse = 2101520
+		}
+	}
 	2541.1.1 = { death = yes }
 }
 
 2101501 = { #Kleopatra
 	name = "Kleopatra"
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi #Temporary
 	female = yes
 	trait = skilled_tactician
@@ -3178,7 +3204,7 @@
 2101502 = { #Deukalion, King of Crete
 	name = "Deukalion"
 	dynasty = 2100017 #Miniad
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi #Temporary
 	mother = 2101503
 	father = 2101510
@@ -3194,7 +3220,7 @@
 
 2101503 = { #Pasipháe
 	name = "Pasipháe"
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi #Temporary
 	female = yes
 	disallow_random_traits = yes
@@ -3210,7 +3236,7 @@
 2101504 = { #Phaidra
 	name = "Phaidra"
 	dynasty = 2100017 #Miniad
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi #Temporary
 	female = yes
 	mother = 2101503
@@ -3228,7 +3254,7 @@
 2101505 = { #Katreus, King of Crete
 	name = "Katreus"
 	dynasty = 2100017 #Miniad
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi #Temporary
 	mother = 2101503
 	father = 2101510
@@ -3240,7 +3266,7 @@
 2101506 = { #Althaimenus 
 	name = "Althaimenus"
 	dynasty = 2100017 #Miniad
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi #Temporary
 	father = 2101505
 	disallow_random_traits = yes
@@ -3251,7 +3277,7 @@
 2101507 = { #Aërope 
 	name = "Aërope"
 	dynasty = 2100017 #Miniad
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi #Temporary
 	female = yes
 	father = 2101505
@@ -3267,7 +3293,7 @@
 2101508 = { #Apemosune 
 	name = "Apemosune"
 	dynasty = 2100017 #Miniad
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi #Temporary
 	female = yes
 	father = 2101505
@@ -3284,7 +3310,7 @@
 2101509 = { #Klumene 
 	name = "Klumene"
 	dynasty = 2100017 #Miniad
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi #Temporary
 	female = yes
 	father = 2101505
@@ -3295,7 +3321,7 @@
 2101510 = { #Minos, King of Crete
 	name = "Minos"
 	dynasty = 2100017 #Miniad
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi #Temporary
 	mother = 2101511
 	father = 1100146
@@ -3311,7 +3337,7 @@
 
 2101511 = { #Europa
 	name = "Europa"
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi
 	female = yes
 	father = 2100525
@@ -3354,7 +3380,7 @@
 2101514 = { #Ariadne
 	name = "Ariadne"
 	dynasty = 2100017 #Miniad
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi #Temporary
 	female = yes
 	mother = 2101503
@@ -3367,9 +3393,10 @@
 2101515 = { #Orsilochos
 	name = "Orsilochos"
 	dynasty = 2100017 #Miniad
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi #Temporary
 	father = 2101500
+	mother = 2101520
 	2501.1.1 = { birth = yes }
 	2561.1.1 = { death = yes }
 }
@@ -3377,10 +3404,11 @@
 2101516 = { #Cleisithyra 
 	name = "Cleisithyra"
 	dynasty = 2100017 #Miniad
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi #Temporary
 	female = yes
 	father = 2101500
+	mother = 2101520
 	2503.1.1 = { birth = yes }
 	2563.1.1 = { death = yes }
 }
@@ -3388,9 +3416,43 @@
 2101517 = { #Iphiklos
 	name = "Iphiklos"
 	dynasty = 2100017 #Miniad
-	culture = minoan
+	culture = cretan	
 	religion = pantes_theoi #Temporary
 	father = 2101500
+	mother = 2101520
 	2506.1.1 = { birth = yes }
 	2566.1.1 = { death = yes }
+}
+
+2101518 = { #Leukos
+	name = "Leukos"
+	# dynasty = 2100017 #Miniad
+	culture = cretan	
+	religion = pantes_theoi #Temporary
+	father = 2101519
+	2501.1.1 = { birth = yes }
+	2561.1.1 = { death = yes }
+}
+
+2101519 = { #Talos
+	name = "Talos"
+	culture = cretan	
+	religion = pantes_theoi #Temporary
+	disallow_random_traits = yes
+	2481.1.1 = { birth = yes }
+	2521.1.1 = { death = yes }
+}
+
+2101520 = { #Medea
+	name = "Medea"
+	culture = cretan	
+	religion = pantes_theoi #Temporary
+	female = yes
+	2481.1.1 = { birth = yes }
+	2501.1.1 = {
+		effect = {
+			add_spouse = 2101500
+		}
+	}
+	2541.1.1 = { death = yes }
 }

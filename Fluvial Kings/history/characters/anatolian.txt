@@ -277,7 +277,7 @@
 #Important Imperial Family (2001000-2001999)
 
 2001000 = {
-	name = "Kurunta" # Ulmi-Teššup/Kurunta, King of Tarhuntassa
+	name = "Kurunta" # Ulmi-Teššub/Kurunta, King of Tarhuntassa
 	dynasty = 2000000 #Labarnid
 	culture = hittite
 	religion = ishalitethai

@@ -3,7 +3,7 @@
 	law = succ_gavelkind
 }
 2451.1.1={
-	liege = k_minoa
+	liege = k_krete
 	holder = 2101510 #Minos
 }
 2501.1.1={

@@ -748,6 +748,10 @@
 
 	4 = { # Long Straight
 		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = achaeangfx
+		}
 		
 		# Does not suit Western females with African style headgear
 		# modifier = {
@@ -1620,7 +1624,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-				government = order_government
+				government = stratocratic_government
 			}
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
@@ -1657,7 +1661,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-				government = order_government
+				government = stratocratic_government
 			}
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
@@ -1694,7 +1698,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-				government = order_government
+				government = stratocratic_government
 			}
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
@@ -1731,7 +1735,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-				government = order_government
+				government = stratocratic_government
 			}
 		}
 		modifier = {
@@ -1768,7 +1772,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-				government = order_government
+				government = stratocratic_government
 			}
 		}
 		modifier = {
@@ -1805,7 +1809,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-				government = order_government
+				government = stratocratic_government
 			}
 		}
 		modifier = {
@@ -1843,7 +1847,7 @@
 			NOT = { trait = heresiarch }
 			OR = {
 				is_ruler = yes
-				government = order_government
+				government = stratocratic_government
 				has_minor_title = title_prince
 				spouse = { real_tier = emperor }
 				spouse = { real_tier = king }
@@ -1881,7 +1885,7 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				government = order_government
+				government = stratocratic_government
 				is_or_was_offmap_power_ruler = yes
 				is_ruler = yes
 				has_minor_title = title_prince
@@ -1914,7 +1918,7 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				government = order_government
+				government = stratocratic_government
 				is_or_was_offmap_power_ruler = yes
 				is_ruler = yes
 				has_minor_title = title_prince
@@ -1941,7 +1945,7 @@
 		modifier = {
 			factor = 0
 			OR = {
-				government = order_government
+				government = stratocratic_government
 				real_tier = king
 				real_tier = emperor
 				AND = {
@@ -1958,7 +1962,7 @@
 			factor = 0
 			NOT = { has_job_title = job_spymaster }
 			OR = {
-				government = order_government
+				government = stratocratic_government
 				real_tier = duke
 				NOT = { intrigue = 10 }
 			}
@@ -1985,17 +1989,17 @@
 				}
 			}
 			NOR = {
-				government = order_government
-				primary_title = {
-					OR = {
-						title = d_knights_hospitaler
-						title = d_knights_templar
-						title = d_teutonic_order
-						title = k_teutonic_state
-						title = d_livonian_order
-						title = e_china_west_governor
-					}
-				}
+				government = stratocratic_government
+				# primary_title = {
+					# OR = {
+						# title = d_knights_hospitaler
+						# title = d_knights_templar
+						# title = d_teutonic_order
+						# title = k_teutonic_state
+						# title = d_livonian_order
+						# title = e_china_west_governor
+					# }
+				# }
 			}
 		}
 		modifier = {
@@ -2003,6 +2007,7 @@
 			OR = {
 				AND = {
 					is_female = yes
+					NOT = { government = stratocratic_government }
 					NOT = { trait = shieldmaiden }
 					NOT = { has_minor_title = title_commander }
 					NAND = { 
@@ -2016,7 +2021,7 @@
 			#	real_tier = king
 			#	real_tier = emperor
 				AND = {
-					NOT = { government = order_government }
+					NOT = { government = stratocratic_government }
 					real_tier = duke
 					NAND = { 
 						in_command = yes 
@@ -2028,18 +2033,18 @@
 					any_demesne_title = {
 						real_tier = baron
 					}
-					NOT = {
-						primary_title = {
-							OR = {
-								title = d_knights_hospitaler
-								title = d_knights_templar
-								title = d_teutonic_order
-								title = k_teutonic_state
-								title = d_livonian_order
-								title = e_china_west_governor
-							}
-						}
-					}
+					# NOT = {
+						# primary_title = {
+							# OR = {
+								# title = d_knights_hospitaler
+								# title = d_knights_templar
+								# title = d_teutonic_order
+								# title = k_teutonic_state
+								# title = d_livonian_order
+								# title = e_china_west_governor
+							# }
+						# }
+					# }
 				}
 				# AND = {
 					# religion_group = christian
@@ -2144,17 +2149,11 @@
 			factor = 30
 			culture_group = hellene
 			religion_group = hellenic
+			age < 30
 		#	OR = {
 		#		graphical_culture = southerngfx
 		#		graphical_culture = anatoliangfx
 		#	}
-		}
-		modifier = {
-			factor = 15
-			OR = {
-				graphical_culture = southerngfx
-				graphical_culture = anatoliangfx
-			}
 		}
 		modifier = {
 			factor = 100
@@ -2163,6 +2162,10 @@
 	}
 	1 = {
 		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = achaeangfx
+		}
 	}
 	2 = {
 		factor = 1
@@ -2175,6 +2178,10 @@
 	}
 	5 = {
 		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = achaeangfx
+		}
 	}
 	6 = {
 		factor = 1
@@ -2212,6 +2219,11 @@
 	}
 	11 = {
 		factor = 1
+		modifier = {
+			factor = 5
+			graphical_culture = achaeangfx
+			age = 50
+		}
 	}
 	12 = {
 		factor = 1
@@ -2221,6 +2233,10 @@
 	}
 	14 = {
 		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = achaeangfx
+		}
 	}
 }
 
@@ -2655,6 +2671,11 @@
 		modifier = {
 			factor = 0
 			trait = saint 
+		}
+		modifier = {
+			factor = 0
+			is_female = yes
+			graphical_culture = achaeangfx
 		}
 		modifier = {
 			factor = 0

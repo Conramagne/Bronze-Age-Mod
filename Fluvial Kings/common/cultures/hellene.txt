@@ -2,12 +2,12 @@ hellene = {
 	graphical_cultures = { westerngfx }
 	
 	achaean = {
-		graphical_cultures = { croatsouthslavicgfx }
+		graphical_cultures = { achaeangfx }
 
 		color = { 0.8 0.2 0.8 }
 
 		male_names = {
-			Abas Achareus Achilleus Adrestos Agamemnon Agapenor Agasthenes Agenor Aglaophonus Agrios Aiakos Aías Aigeús Aigialeus Aigialos Aigisthos Aiguptios Aiputos Akamas Akastos Akoos Aktaion Aktor Akrisios Alektor Alektruon Aleos Alexandros Alkaios Alkathous Alkmaíon Aluzeus Amphiaraos Amphidamas Amphiktuon Amphílochos Amphimachcos Amphimedes Amphion Amúklas Amuthaon Anaxagoras Andronikh Ankaios Antílochos Antromaxos Apheidas Aranareus Áretos Argalos Argos Argurios Aristaios Arkas Arkeisios Askalaphos Astakos Astudámeia Athamas Atreus Augewas 
+			Abas Achareus Achilleus Adrestos Agamemnon Agapenor Agasthenes Agenor Aglaophonus Agrios Aiakos Aías Aigeús Aigialeus Aigialeus Aigisthos Aiguptios Aiputos Akamas Akastos Akoos Aktaion Aktor Akrisios Alektor Alektruon Aleos Alexandros Alkaios Alkathous Alkmaíon Aluzeus Amphiaraos Amphidamas Amphiktuon Amphílochos Amphimachcos Amphimedes Amphion Amúklas Amuthaon Anaxagoras Andronikh Ankaios Antílochos Antromaxos Apheidas Aranareus Áretos Argalos Argos Argurios Aristaios Arkas Arkeisios Askalaphos Astakos Astudámeia Athamas Atreus Augewas 
 			Bias Belos Buphagos
 			Chalkodon Chalkeus Chrusippos
 			Danaós Demophon Dhmofanhs Didereus Diomedes Drakokardos Drakomaxos 
@@ -21,7 +21,7 @@ hellene = {
 			Machawon Medon Megapenthes Melas Melampus Mekisteús Menelaos Menestheus
 			Narkissos Neleus Nestor Nikostratos Nukteús
 			Oidípous Oikleús Oineús Oinómaos Oivalos Orestes Orneus
-			Parthenopaîos Pandion Patroklos Peisistratos Peleus Pelias Pentheus Pereos Perseus Peteus Phegous Pheidon Pheres Phoinix Phokus Phoroneus Phrasimus Phrixos Phorbas Phrontis Pittheus Poimen Poliwos Poludoros Poluneíkes Poluxenos Presbon Promachos Proetos
+			Parthenopaîos Pandion Patroklos Peisistratos Peleus Pelias Pentheus Pereos Perseus Peteus Phegous Pheidon Pheres Phoinix Phokus Phoroneus Phrasimus Phrixos Phorbas Phrontis Pittheus Poimen Poliwos Poludoros Poluneíkes Poluxenos Presbon Proetos Promachos Pronax
 			Radamanqus 
 			Sarpedon Sthenelos Strátichos Stumphalos
 			Tawagalawa Talaos Teuker Teukros Telamon Thrasumedes Theseus Thestor Thersander Thuestes Tisamenos Trambelos Triopas Tripodiskos Tripolemos Tros Tudeus Tulisios Turios Twinon Tudeus 
@@ -30,7 +30,7 @@ hellene = {
 		}
 		
 		female_names = {
-			Aegiale Agave Aglaea Arete Alexandra Alkmaeon Alkuone Ariadnh Argea_Argia Arsinoe Ainarete Anaxibia Anaxo Antinoe Asterope AstuLusimákheoche Atalante Auge Axioche
+			Aegiale Agave Aglaea Arete Alexandra Alkmaeon Alkuone Ariadnh Argea_Argia Arsinoe Ainarete Amphithea Anaxibia Anaxo Antinoe Asterope Astuoche Atalante Auge Axioche
 			Bateia Biadike
 			Chalkiópe Chthonia Chloris Chrusothemis
 			Danaë Deipule Demodike_Demodoke Demonassa
@@ -41,7 +41,7 @@ hellene = {
 			Jokasta
 			Kallisto Kallirrhoe Kallithyia Kassiepeia_Kassiopeia Karpathia Kleochareia Korinsia Komaitho Kalyke Kalypso Kleonikh Kleovoúle Klutaimnistra Kreousa
 			Laodamia Laodike Leukothéa_Leukothoë Lilaea Lusimáche
-			Melanippe Meliboea Metiadosa Molione Molpe
+			Medea Melanippe Meliboea Metiadosa Molione Molpe
 			Nausidame Neaera Nephele Nikippe Niobe Nukteïs
 			Paion Pandora Peitho Peiranta Pelopia Peloris Penelope Peneus Periboea Perimede Pero Philonoe Pieria Pisidike Polukaste Poulxeria Protogeneia
 			Praxithea Prokris Prókne Promne Pulia
@@ -65,7 +65,7 @@ hellene = {
 	}
 	
 	aeolian = {
-		graphical_cultures = { croatsouthslavicgfx }
+		graphical_cultures = { achaeangfx }
 
 		color = { 0.8 0.2 0.8 }
 
@@ -116,7 +116,7 @@ hellene = {
 	}
 	
 	amazonios = {
-		graphical_cultures = { croatsouthslavicgfx }
+		graphical_cultures = { achaeangfx }
 
 		color = { 0.8 0.2 0.8 }
 
@@ -168,7 +168,7 @@ hellene = {
 	}
 
 	dorian = {
-		graphical_cultures = { croatsouthslavicgfx }
+		graphical_cultures = { achaeangfx }
 
 		color = { 0.8 0.2 0.8 }
 
@@ -218,7 +218,7 @@ hellene = {
 	}
 
 	ionian = {
-		graphical_cultures = { croatsouthslavicgfx }
+		graphical_cultures = { achaeangfx }
 
 		color = { 0.8 0.2 0.8 }
 
@@ -310,33 +310,35 @@ hellene = {
 
 		modifier = default_culture_modifier
 	}
-}
 
-cretan = {
-	graphical_cultures = { westerngfx }
-	minoan = {
-		graphical_cultures = { croatsouthslavicgfx }
+	cretan = {
+		graphical_cultures = { achaeangfx }
 
 		color = { 0.8 0.2 0.8 }
 
 		male_names = {
-			Akakallis Althaimenus Androgeos Asterion
-			Deukalion
+			Akakallis Althaimenus Androgeos Aranare Arudara Asijaka Asterion
+			Bansabira
+			Deukalion Duripi
 			Eurymedon Euxantios
 			Glaukos
-			Idomeneus Iphiklos
-			Katreus Khrúses
-			Minos
-			Nephalion
+			Idomeneus Iphiklos Itaja
+			Katreus Khrúses Kikeru Kitanetos
+			Mijararos Minos
+			Nashuja Nephalion
 			Orsilochos
-			Philolaus Pholegander
+			Pamesijos Philolaus Pholegander Pijaseme Pijasiros Pinaruti Pitaja Pura
+			Rusa
+			Sijapuros
+			Widina
+			Yidini Yikashata Yishharu
 		}
 		
 		female_names = {
 			Aërope Apemosune Ariadne 
 			Cleisithyra
 			Europa
-			Kleopatra Klumene
+			Kitane Kleopatra Klumene
 			Pasipháe Phaidra
 			Xenodike
 		}
@@ -393,5 +395,4 @@ cretan = {
 
 		modifier = default_culture_modifier
 	}
-
 }

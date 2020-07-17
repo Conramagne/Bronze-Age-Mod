@@ -13,7 +13,7 @@ anatolian = {
 			Eni-Ilu
 			Gabbar Gunzinanu Gurdi Gusi
 			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hattušili Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
-			Ini-Teššup Ir-Teššub Iškallu 
+			Ini-Teššub Ir-Teššub Iškallu 
 			Kamani Kammaliya Karpani Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
 			Labarna Lalli Larama
 			Mahhuzzi Manana Manapa Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
@@ -22,7 +22,7 @@ anatolian = {
 			Raqianu Runtiya 
 			Sahu Šahurunuwa Sahwi Sanduarri Sangara Sandasarme Sapalulme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
 			Taita Taliuman Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Tarzuliya Telipinu Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
-			Uhha-ziti Ulmi-Teššup Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
+			Uhha-ziti Ulmi-Teššub Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
 			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
 			Zakur Zannanza Zida Zidanta
 			Yariri Yau-bidi
@@ -68,7 +68,7 @@ anatolian = {
 			Eni-Ilu
 			Gabbar Gunzinanu Gurdi Gusi
 			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hattušili Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
-			Ini-Teššup Ir-Teššub Iškallu 
+			Ini-Teššub Ir-Teššub Iškallu 
 			Kamani Kammaliya Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
 			Labarna Lalli Larama
 			Mahhuzzi Manana Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
@@ -77,7 +77,7 @@ anatolian = {
 			Raqianu Runtiya 
 			Šahurunuwa  Sanduarri Sangara Sahu Sahwi Sandasarme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
 			Taita Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Telipinu Tibe Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
-			Uhha-ziti Ulmi-Teššup Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
+			Uhha-ziti Ulmi-Teššub Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
 			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
 			Zakur Zannanza Zida Zidanta
 			Yariri Yau-bidi
@@ -124,7 +124,7 @@ anatolian = {
 			Eni-Ilu
 			Gabbar Gunzinanu Gurdi Gusi
 			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hattušili Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
-			Ini-Teššup Ir-Teššub Iškallu 
+			Ini-Teššub Ir-Teššub Iškallu 
 			Kamani Kammaliya Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
 			Labarna Lalli Larama
 			Mahhuzzi Manana Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
@@ -133,7 +133,7 @@ anatolian = {
 			Raqianu Runtiya Ruwantia
 			Šahurunuwa  Sanduarri Sangara Sahu Sahwi Sandasarme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
 			Taita Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Telipinu Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
-			Uhha-ziti Ulmi-Teššup Uppara-muwa Urahilina Ura-Tarhundas Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
+			Uhha-ziti Ulmi-Teššub Uppara-muwa Urahilina Ura-Tarhundas Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
 			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
 			Zakur Zannanza Zida Zidanta
 			Yariri Yau-bidi
@@ -232,7 +232,7 @@ anatolian = {
 			Ehli-Šarruma Eni-Ilu 
 			Gabbar Gunzinanu Gurdi Gusi
 			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hattušili Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
-			Ini-Teššup Ir-Teššub Iškallu 
+			Ini-Teššub Ir-Teššub Iškallu 
 			Kamani Kammaliya Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
 			Labarna Lalli Larama
 			Mahhuzzi Manana Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
@@ -241,7 +241,7 @@ anatolian = {
 			Raqianu Runtiya 
 			Šahurunuwa  Sanduarri Sangara Sahu Sahwi Sandasarme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
 			Taita Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Telipinu Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
-			Uhha-ziti Ulmi-Teššup Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
+			Uhha-ziti Ulmi-Teššub Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
 			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
 			Zakur Zannanza Zida Zidanta
 			Yariri Yau-bidi
@@ -288,7 +288,7 @@ anatolian = {
 			Eni-Ilu
 			Gabbar Gunzinanu Gurdi Gusi
 			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hattušili Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
-			Ini-Teššup Ir-Teššub Iškallu 
+			Ini-Teššub Ir-Teššub Iškallu 
 			Kamani Kammaliya Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
 			Labarna Lalli Larama
 			Mahhuzzi Manana Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
@@ -297,7 +297,7 @@ anatolian = {
 			Raqianu Runtiya 
 			Šahurunuwa  Sanduarri Sangara Sahu Sahwi Sandasarme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
 			Taita Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Telipinu Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
-			Uhha-ziti Ulmi-Teššup Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
+			Uhha-ziti Ulmi-Teššub Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
 			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
 			Zakur Zannanza Zida Zidanta
 			Yariri Yau-bidi

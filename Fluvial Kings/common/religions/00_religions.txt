@@ -1,9 +1,3 @@
-# Religion-specific opinion can be added to modifiers (E.G., norse_pagan_opinion = 5), but the modifier *has* to be defined in 00_modifier_definitions.txt as well. It also needs localisation. Works for groups as well
-
-# join_crusade_if_bordering_hostile = yes # The AI won't refrain from joining a crusade simply because it borders a heathen/heretic realm
-
-# This trigger defines who can see a character's secret religion. The character with the secret religion is FROM, while the viewer is ROOT
-# Characters can always see their own secret religion. The observer can see all secret religions
 secret_religion_visibility_trigger = {
 	secret_religion = FROM
 }
@@ -59,7 +53,7 @@ bnai_kenaan = {
 	
 	color = { 1.0 0.8 0.3 }
 	
-	interface_skin = {  }
+	# interface_skin = {  }
 	
 	barqos = {
 		graphical_culture = muslimgfx
@@ -88,6 +82,13 @@ bnai_kenaan = {
 		max_wives = 4
 		priests_can_marry = yes
 		priests_can_inherit = yes
+		
+		intermarry = bene_elihi
+		intermarry = ili_abinia
+		intermarry = egal_assur
+		intermarry = haianiluwi
+		intermarry = ishalitethai
+		intermarry = pantes_theoi
 	}
 	
 	bene_elihi = {
@@ -117,6 +118,13 @@ bnai_kenaan = {
 		priests_can_marry = yes
 		priests_can_inherit = yes
 		female_temple_holders = yes
+		
+		intermarry = barqos
+		intermarry = ili_abinia
+		intermarry = egal_assur
+		intermarry = haianiluwi
+		intermarry = ishalitethai
+		intermarry = pantes_theoi
 	}
 
 	ili_abinia = {
@@ -148,6 +156,13 @@ bnai_kenaan = {
 		autocephaly = yes
 		priests_can_marry = yes
 		priests_can_inherit = yes
+		
+		intermarry = barqos
+		intermarry = bene_elihi
+		intermarry = egal_assur
+		intermarry = haianiluwi
+		intermarry = ishalitethai
+		intermarry = pantes_theoi
 	}
 }
 
@@ -187,6 +202,13 @@ mesopotamian = {
 		max_wives = 4
 		priests_can_marry = yes
 		priests_can_inherit = yes
+		
+		intermarry = barqos
+		intermarry = bene_elihi
+		intermarry = ili_abinia
+		intermarry = haianiluwi
+		intermarry = ishalitethai
+		intermarry = pantes_theoi
 	}
 }
 
@@ -199,6 +221,14 @@ pihassasi = {
 	ai_convert_other_group = 0
 	
 	color = { 0.9 0.6 0.2 }
+	
+	male_names = {
+		Ari-Šarruma Ini-Teššub Ir-Teššub Kuzi-Teššub Talmi-Teššub Tašmi-Šarruma Telipinu Ulmi-Teššub Urhi-Teššub
+	}
+	
+	female_names = {
+		Hebat
+	}
 	
 	haianiluwi = {
 		icon = 15
@@ -228,6 +258,13 @@ pihassasi = {
 		priests_can_marry = yes
 		priests_can_inherit = yes
 		female_temple_holders = yes
+		
+		intermarry = barqos
+		intermarry = bene_elihi
+		intermarry = ili_abinia
+		intermarry = egal_assur
+		intermarry = ishalitethai
+		intermarry = pantes_theoi
 	}
 	
 	ishalitethai = {
@@ -256,6 +293,13 @@ pihassasi = {
 		max_consorts = 4
 		priests_can_marry = yes
 		priests_can_inherit = yes
+		
+		intermarry = barqos
+		intermarry = bene_elihi
+		intermarry = ili_abinia
+		intermarry = egal_assur
+		intermarry = haianiluwi
+		intermarry = pantes_theoi
 	}
 }
 
@@ -296,5 +340,12 @@ hellenic = {
 		priests_can_marry = yes
 		priests_can_inherit = yes
 		female_temple_holders = yes
+		
+		intermarry = barqos
+		intermarry = bene_elihi
+		intermarry = ili_abinia
+		intermarry = egal_assur
+		intermarry = haianiluwi
+		intermarry = ishalitethai
 	}
 }
