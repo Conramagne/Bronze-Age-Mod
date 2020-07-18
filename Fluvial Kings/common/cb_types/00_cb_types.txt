@@ -126,19 +126,25 @@ claim = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -193,19 +199,25 @@ claim = {
 	on_fail_title = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -230,19 +242,25 @@ claim = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -518,19 +536,25 @@ other_claim = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -759,19 +783,25 @@ other_claim = {
 	on_fail_title = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -800,19 +830,25 @@ other_claim = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -1033,21 +1069,28 @@ claim_on_liege = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		if = {
 			limit = {
@@ -1102,19 +1145,25 @@ claim_on_liege = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -1142,19 +1191,25 @@ claim_on_liege = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -1357,21 +1412,28 @@ claim_on_liege_plot = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		usurp_title_plus_barony_if_unlanded = { target = ROOT type = claim }
 		
@@ -1390,19 +1452,25 @@ claim_on_liege_plot = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -1436,19 +1504,25 @@ claim_on_liege_plot = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -1578,21 +1652,28 @@ claim_on_vassal_plot = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		usurp_title_plus_barony_if_unlanded = { target = ROOT type = claim }
 		ROOT = { plot_succeeds = yes }
@@ -1608,19 +1689,25 @@ claim_on_vassal_plot = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -1647,19 +1734,25 @@ claim_on_vassal_plot = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -1911,21 +2004,28 @@ other_claim_on_liege = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		if = {
 			limit = {
@@ -2047,19 +2147,25 @@ other_claim_on_liege = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -2098,19 +2204,25 @@ other_claim_on_liege = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -2248,21 +2360,28 @@ claim_all = {
 	on_success = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		ROOT = {
 			show_scope_change = no
@@ -2352,19 +2471,25 @@ claim_all = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -2385,19 +2510,25 @@ claim_all = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -2610,21 +2741,28 @@ change_seniority_succession_law = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		succession_w_cooldown = seniority
 	}
@@ -2632,19 +2770,25 @@ change_seniority_succession_law = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -2677,19 +2821,25 @@ change_seniority_succession_law = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -2875,21 +3025,28 @@ change_primogeniture_succession_law = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		succession_w_cooldown = primogeniture
 	}
@@ -2897,19 +3054,25 @@ change_primogeniture_succession_law = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -2943,19 +3106,25 @@ change_primogeniture_succession_law = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -3130,21 +3299,28 @@ change_feudal_elective_succession_law = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		if = { 
 			limit = {
@@ -3177,19 +3353,25 @@ change_feudal_elective_succession_law = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -3222,19 +3404,25 @@ change_feudal_elective_succession_law = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -3426,21 +3614,28 @@ invasion = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		custom_tooltip = {
 			text = invasion_succ_tip
@@ -3623,19 +3818,25 @@ invasion = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -3660,19 +3861,25 @@ invasion = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -4706,21 +4913,28 @@ religious = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		# if = { # Standard Holy War behaviour for Non-Muslims and Muslims fighting other Muslims
 			# show_scope_change = no
@@ -4794,19 +5008,25 @@ religious = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -4820,19 +5040,25 @@ religious = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -5152,21 +5378,28 @@ excommunicated_ruler = {
 	on_success = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		if = {
 			limit = { 
@@ -5260,19 +5493,25 @@ excommunicated_ruler = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -5291,19 +5530,25 @@ excommunicated_ruler = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -5473,21 +5718,28 @@ bid_for_independence = {
 	on_success = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		if = {
 			limit = {
@@ -5591,19 +5843,25 @@ bid_for_independence = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -5620,19 +5878,25 @@ bid_for_independence = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -5776,21 +6040,28 @@ depose_liege = {
 	on_success = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		FROM = {
 			prestige = -500
@@ -5845,19 +6116,25 @@ depose_liege = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -5869,19 +6146,25 @@ depose_liege = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -5992,21 +6275,28 @@ overthrow_ruler = {
 	on_success = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		ROOT = {
 			primary_title = {
@@ -6090,19 +6380,25 @@ overthrow_ruler = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -6120,19 +6416,25 @@ overthrow_ruler = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -6262,21 +6564,28 @@ overthrow_ruler_no_calls = {
 	on_success = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		ROOT = {
 			prestige = 200
@@ -6333,19 +6642,25 @@ overthrow_ruler_no_calls = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -6365,19 +6680,25 @@ overthrow_ruler_no_calls = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -6538,21 +6859,28 @@ change_gavelkind_succession_law = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		succession_w_cooldown = gavelkind
 	}
@@ -6560,19 +6888,25 @@ change_gavelkind_succession_law = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -6603,19 +6937,25 @@ change_gavelkind_succession_law = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -6773,21 +7113,28 @@ lower_crown_authority_law = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		if = {
 			limit = { has_law = crown_authority_1 }
@@ -6810,19 +7157,25 @@ lower_crown_authority_law = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -6854,19 +7207,25 @@ lower_crown_authority_law = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -7026,21 +7385,28 @@ lower_tribal_organization_law = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		if = {
 			limit = { has_law = tribal_organization_1 }
@@ -7063,19 +7429,25 @@ lower_tribal_organization_law = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -7107,19 +7479,25 @@ lower_tribal_organization_law = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -7277,21 +7655,28 @@ coastal_republic = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		if = {
 			limit = {
@@ -7333,19 +7718,25 @@ coastal_republic = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -7364,19 +7755,25 @@ coastal_republic = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -7548,21 +7945,28 @@ coastal_county_republic = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		if = {
 			limit = {
@@ -7617,19 +8021,25 @@ coastal_county_republic = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -7648,19 +8058,25 @@ coastal_county_republic = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -7798,21 +8214,28 @@ weaken_vassal_plot = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		FROM = {
 			random_vassal = {
@@ -7837,19 +8260,25 @@ weaken_vassal_plot = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -7876,19 +8305,25 @@ weaken_vassal_plot = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -7962,21 +8397,28 @@ decadence_invasion = {
 	on_success = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		any_playable_ruler = {
 			limit = {
@@ -8112,19 +8554,25 @@ decadence_invasion = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -8147,19 +8595,25 @@ decadence_invasion = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -8749,21 +9203,28 @@ cb_faction_independence = {
 	on_success = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		if = {
 			limit = {
@@ -8859,19 +9320,25 @@ cb_faction_independence = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -8905,19 +9372,25 @@ cb_faction_independence = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -9092,21 +9565,28 @@ embargo_cb = {
 	on_success = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		ROOT = {
 			embargo = FROM
@@ -9122,19 +9602,25 @@ embargo_cb = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -9176,19 +9662,25 @@ embargo_cb = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -9402,21 +9894,28 @@ seize_trade_post = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		
 		seize_trade_post = ROOT
@@ -9433,19 +9932,25 @@ seize_trade_post = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -9464,19 +9969,25 @@ seize_trade_post = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -9629,21 +10140,28 @@ viking_invasion = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		custom_tooltip = { 
 			text = tribal_invasion_succ_tip
@@ -9692,19 +10210,25 @@ viking_invasion = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -9731,19 +10255,25 @@ viking_invasion = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -10173,19 +10703,25 @@ peasant_revolt = {
 	on_fail_title = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -10214,19 +10750,25 @@ peasant_revolt = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -10327,21 +10869,28 @@ heretic_revolt = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		ROOT = {
 			vassalize_or_take_under_title = {
@@ -10382,19 +10931,25 @@ heretic_revolt = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -10428,19 +10983,25 @@ heretic_revolt = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -10546,21 +11107,28 @@ religious_revolt = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		ROOT = {
 			vassalize_or_take_under_title = {
@@ -10601,19 +11169,25 @@ religious_revolt = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -10647,19 +11221,25 @@ religious_revolt = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -10769,21 +11349,28 @@ liberation_revolt = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		custom_tooltip = {
 			text = tribal_invasion_succ_tip
@@ -10824,19 +11411,25 @@ liberation_revolt = {
 	on_fail_title = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -10867,19 +11460,25 @@ liberation_revolt = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -10971,21 +11570,28 @@ duchy_adventure = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		custom_tooltip = {
 			text = other_invasion_succ_tip
@@ -11060,19 +11666,25 @@ duchy_adventure = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -11101,19 +11713,25 @@ duchy_adventure = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -11249,21 +11867,28 @@ kingdom_adventure = { # Used mainly for Muslims adventuring into India
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		custom_tooltip = {
 			text = other_invasion_succ_tip
@@ -11513,19 +12138,25 @@ kingdom_adventure = { # Used mainly for Muslims adventuring into India
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -11569,19 +12200,25 @@ kingdom_adventure = { # Used mainly for Muslims adventuring into India
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -13312,21 +13949,28 @@ dejure_county_claim = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		if = {
 			limit = {
@@ -13392,19 +14036,25 @@ dejure_county_claim = {
 	on_fail_title = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -13423,19 +14073,25 @@ dejure_county_claim = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -13720,21 +14376,28 @@ dejure_barony_claim = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		holder_scope = {
 			save_event_target_as = target_taker
@@ -13770,19 +14433,25 @@ dejure_barony_claim = {
 	on_fail_title = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -13801,19 +14470,25 @@ dejure_barony_claim = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -13872,40 +14547,53 @@ other_dejure_barony_claim = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 	}
 
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -13914,19 +14602,25 @@ other_dejure_barony_claim = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -14189,19 +14883,25 @@ other_dejure_county_claim = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -14262,19 +14962,25 @@ other_dejure_county_claim = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -14296,22 +15002,29 @@ other_dejure_county_claim = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
-		} #Attacker lost
+		}
+		#Attacker lost
 		prestige = -100
 		transfer_scaled_wealth = {
 			to = FROM
@@ -15312,21 +16025,28 @@ manifest_destiny_invasion = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		custom_tooltip = { 
 			text = other_invasion_succ_tip
@@ -15353,19 +16073,25 @@ manifest_destiny_invasion = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -15402,19 +16128,25 @@ manifest_destiny_invasion = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -15737,21 +16469,28 @@ rivalry_cb = {
 	on_success = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		any_attacker = {
 			limit = { NOT = { character = ROOT } }
@@ -15794,19 +16533,25 @@ rivalry_cb = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -15821,19 +16566,25 @@ rivalry_cb = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -16061,21 +16812,28 @@ tributary_cb = {
 	on_success = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		FROM = {
 			show_scope_change = no
@@ -16155,19 +16913,25 @@ tributary_cb = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -16184,19 +16948,25 @@ tributary_cb = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -16547,21 +17317,28 @@ free_tributary_cb = {
 	on_success = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		FROM = {
 			show_scope_change = no
@@ -16609,19 +17386,25 @@ free_tributary_cb = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -16638,19 +17421,25 @@ free_tributary_cb = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -16928,21 +17717,28 @@ cb_install_khan = {
 	on_success = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		FROM = {
 			any_demesne_title = {
@@ -16966,19 +17762,25 @@ cb_install_khan = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -16991,19 +17793,25 @@ cb_install_khan = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -17137,21 +17945,28 @@ nomad_dispute = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		usurp_title_plus_barony_if_unlanded = { target = ROOT type = invasion }
 		
@@ -17172,19 +17987,25 @@ nomad_dispute = {
 	on_fail_title = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -17205,19 +18026,25 @@ nomad_dispute = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -17427,21 +18254,28 @@ cb_liberate_nomad_duchy = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		check_holy_order_donation_effect = yes
 
@@ -17463,19 +18297,25 @@ cb_liberate_nomad_duchy = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -17488,19 +18328,25 @@ cb_liberate_nomad_duchy = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -17663,21 +18509,28 @@ cb_minor_clan_revolt = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		usurp_title_plus_barony_if_unlanded = { target = ROOT type = revolt }
 	
@@ -17708,19 +18561,25 @@ cb_minor_clan_revolt = {
 	on_fail_title = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -17749,19 +18608,25 @@ cb_minor_clan_revolt = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -17957,21 +18822,28 @@ nomad_subjugation = {
 	on_success = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		hidden_tooltip = {
 			ROOT = {
@@ -18105,19 +18977,25 @@ nomad_subjugation = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -18153,19 +19031,25 @@ nomad_subjugation = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -18395,21 +19279,28 @@ nomad_invasion = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		custom_tooltip = {
 			text = tribal_invasion_succ_tip
@@ -18436,19 +19327,25 @@ nomad_invasion = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -18483,19 +19380,25 @@ nomad_invasion = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -18855,21 +19758,28 @@ nomad_expansion = {
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		custom_tooltip = {
 			text = pagan_subjugation_tip
@@ -18894,19 +19804,25 @@ nomad_expansion = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -18918,19 +19834,25 @@ nomad_expansion = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -19157,21 +20079,28 @@ increase_council_power_war = { # Started from faction
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		increase_council_power_effect = yes
 		increase_vassal_freedom_effect = yes
@@ -19180,19 +20109,25 @@ increase_council_power_war = { # Started from faction
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -19224,19 +20159,25 @@ increase_council_power_war = { # Started from faction
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -19403,21 +20344,28 @@ nomad_humiliate_cb = {
 	on_success = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		}
 		ROOT = {
 			prestige = 300
@@ -19434,19 +20382,25 @@ nomad_humiliate_cb = {
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -19461,19 +20415,25 @@ nomad_humiliate_cb = {
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -19736,21 +20696,28 @@ powerful_vassal_takeover_war = { # Started from faction
 	on_success_title = {
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		FROM = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
+
 		} #This is the target title of the faction
 		increase_council_power_effect = yes
 		increase_vassal_freedom_effect = yes
@@ -19868,19 +20835,25 @@ powerful_vassal_takeover_war = { # Started from faction
 	on_fail = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}
@@ -19917,19 +20890,25 @@ powerful_vassal_takeover_war = { # Started from faction
 	on_reverse_demand = {
 		FROM = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			if = {
-				government = hegemonic_government
+				limit = {
+					government = hegemonic_government
+				}
 			}
 			character_event = { id = fkr.137 }
 		}
 		ROOT = {
 			if = {
-				government = stratocratic_government
+				limit = {
+					government = stratocratic_government
+				}
 			}
 			character_event = { id = fkr.321 }
 		}

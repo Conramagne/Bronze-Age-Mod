@@ -5163,6 +5163,7 @@ character_event = {
 		    	clr_character_flag = is_battlefield_duel #to not give opinion rewards..
 	    		allow_new_battle_events_effect = yes
 	    		clean_up_after_duel_effect = yes
+				change_variable = { which = apotheosis_duel value = 1 }
 	    	}
 		}
 
@@ -5213,6 +5214,7 @@ character_event = {
 			    clr_character_flag = is_battlefield_duel #to not give opinion rewards...
 	    		allow_new_battle_events_effect = yes
 	    		clean_up_after_duel_effect = yes
+				change_variable = { which = apotheosis_duel value = 1 }
 	    	}
         }
         log = "[Root.GetBestName] chose to give the enemy [commander_cannon_fodder.GetBestName] in exchange for their own life."
@@ -5253,7 +5255,11 @@ character_event = {
 			set_character_flag = someone_died
 		}
         event_target:other_combatant = { character_event = { id = HFP.11043 } } #As the dueling opponent, find out that you killed home_commander... 
-
+		hidden_effect = {
+			event_target:other_combatant = {
+				change_variable = { which = apotheosis_duel value = 1 }
+			}
+		}
         if = {
 			limit = { event_target:home_liege = { NOT = { character = ROOT } } }
         	event_target:home_liege = { character_event = { id = HFP.11002 } } #send notification to home liege 
@@ -5450,6 +5456,9 @@ character_event = {
 		name = EVTOPTC50020 #[He/She]'ll make a good sacrifice to [HighGodName]
 		tooltip_info_custom = available_due_to_warrior_lodge
 		custom_tooltip = { text = EVTOPTC50020_TT }
+		hidden_effect = {
+			change_variable = { which = apotheosis_duel value = 1 }
+		}
 		# if = { 
 			# limit = { NOR = { religion_group = pagan_group has_religion_feature = religion_ritual_sacrifice } }
 			# tiered_high_piety_negative_effect = yes 
@@ -5557,7 +5566,9 @@ character_event = {
 	# Non-Warrior Lodge members only...
 	option = {
 		name = EVTOPTC_HFP_11046 #I think I prefer you dead.
-
+		hidden_effect = {
+			change_variable = { which = apotheosis_duel value = 1 }
+		}
 		hidden_effect = {
 			event_target:captured_commander = { character_event = { id = HFP.11047 } } #"They took one look at me and then I was toast"-event.
 		}
@@ -5595,12 +5606,18 @@ character_event = {
 	option = {
 		name = "EVTOPTA50020" #Perfect!
 		event_target:captured_commander = { show_scope_change = no imprison = ROOT } #FROM is imprisoned *by* ROOT (home_commander (who is landed))
+		hidden_effect = {
+			change_variable = { which = apotheosis_duel value = 1 }
+		}
 		ai_chance = { factor = 10 }
 		trigger = { NOT = { event_target:captured_commander = { is_rival = ROOT } } }
 	}
 	option = {
 		name = EVTOPTB50020 #My rival, no less? Great!
 		event_target:captured_commander = { show_scope_change = no imprison = ROOT } #FROM is imprisoned *by* ROOT (home_commander (who is landed))
+		hidden_effect = {
+			change_variable = { which = apotheosis_duel value = 1 }
+		}
 		ai_chance = { factor = 10 }
 		trigger = { event_target:captured_commander = { is_rival = ROOT } }
 	}

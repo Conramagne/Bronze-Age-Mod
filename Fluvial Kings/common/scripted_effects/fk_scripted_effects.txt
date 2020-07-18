@@ -1460,7 +1460,7 @@ ai_make_sacrifice_to_evaluation_effect = {
 			}
 			modifier = {
 				factor = 2.5
-				likes_commerce_god_trigger
+				likes_commerce_god_trigger = yes
 			}
 		}
 		14 = { #Aphrodite
@@ -1485,7 +1485,7 @@ ai_make_sacrifice_to_evaluation_effect = {
 			}
 			modifier = {
 				factor = 2.5
-				trait = likes_love_god_trigger = yes
+				likes_love_god_trigger = yes
 			}
 		}
 	}

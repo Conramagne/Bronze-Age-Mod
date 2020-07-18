@@ -1,10 +1,9 @@
 title=c_knossos
 
-max_settlements= 1
-b_knossos=castle
-
-#b_amnysoss=city
-#b_axos=temple
+max_settlements = 3
+b_knossos = castle
+b_amnysoss = city
+b_axos = temple
 
 culture = cretan
 religion = pantes_theoi

@@ -1370,6 +1370,9 @@ character_event = {
     portrait = event_target:other_combatant
 
     immediate = {
+		hidden_effect = {
+			change_variable = { which = apotheosis_duel value = 1 }
+		}
         sound_effect = duel_win
         set_winner_flags_and_save_opponent_effect = yes
         random_list = {
@@ -2525,6 +2528,9 @@ character_event = {
 
     immediate = {
         sound_effect = duel_win
+		hidden_effect = {
+			change_variable = { which = apotheosis_duel value = 1 }
+		}
         set_winner_flags_and_save_opponent_effect = yes
         if = {
             limit = { has_character_flag = mock_duel }
@@ -2986,6 +2992,9 @@ character_event = {
     }
 
     immediate = {
+		hidden_effect = {
+			change_variable = { which = apotheosis_duel value = 1 }
+		}
         set_winner_flags_and_save_opponent_effect = yes
     }
 
@@ -3121,6 +3130,9 @@ character_event = {
     }
 
     immediate = {
+		hidden_effect = {
+			change_variable = { which = apotheosis_duel value = 1 }
+		}
         set_winner_flags_and_save_opponent_effect = yes
         set_character_flag = stalemate_won
         random_list = {

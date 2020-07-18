@@ -10410,159 +10410,6 @@ eldership_rules = {
 
 		##########################   Candidate's traits   ##########################
 
-		#Sexism
-		additive_modifier = { #Gender weights
-			value = -30
-			localisation_key = tooltip_feudal_elector_vote_agnatic_woman
-			FROMFROM = {
-				has_law = cognatic_succession
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				culture = amazonios
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -30
-			localisation_key = tooltip_feudal_elector_vote_enatic_man
-			FROMFROM = {
-				has_law = enatic_cognatic_succession
-			}
-			NOR = {
-				has_religion_feature = religion_patriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = no
-			}
-		}
-
-		additive_modifier = { #Gender weights
-			value = -50
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_0
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				culture = amazonios
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -40
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_1
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				culture = amazonios
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -20
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_2
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				culture = amazonios
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -10
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_3
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				culture = amazonios
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -75
-			localisation_key = tooltip_feudal_elector_vote_patriarchal
-			has_religion_feature = religion_patriarchal
-			NOT = {
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -75
-			localisation_key = tooltip_feudal_elector_vote_matriarchal
-			OR = {
-				has_religion_feature = religion_matriarchal
-				culture = amazonios
-			}
-			NOT = {
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = no
-			}
-		}
-
 		#NO Ageism - The ruler will not care, as long as they are its children.
 
 		#Culturism - Eldership is a tribalistic succession, therefore malus/bonus on cultural bias are increased.
@@ -10591,71 +10438,6 @@ eldership_rules = {
 			FROMFROM = { 
 				holder_scope = { character = ROOT } 
 			}
-		}
-
-		#Faithism - Eldership is more about choosing a good Dynastic member, so faith bias is slightly reduced.
-				additive_modifier = { #Infidel
-			value = -25
-			localisation_key = tooltip_feudal_elector_vote_infidel
-			NOT = { has_religion_feature = religion_cosmopolitan }
-			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
-			FROM = { 
-				religion_group = ROOT
-				NOT = { religion = ROOT } 
-				NOT = { is_heresy_of = ROOT } 
-			}
-		}
-		additive_modifier = { #Heathen
-			value = -50
-			localisation_key = tooltip_feudal_elector_vote_heathen
-			NOT = { has_religion_feature = religion_cosmopolitan }
-			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
-			# NOR = { 
-				# AND = {  
-					# trait = sympathy_christendom
-					# FROM = { religion_group = christian } 
-				# } 
-				# AND = {  
-					# trait = sympathy_islam
-					# FROM = { religion_group = muslim } 
-				# } 
-				# AND = {  
-					# trait = sympathy_pagans
-					# FROM = { religion_group = pagan_group } 
-				# } 
-				# AND = {  
-					# trait = sympathy_zoroastrianism
-					# FROM = { religion_group = zoroastrian_group } 
-				# } 
-				# AND = {  
-					# trait = sympathy_judaism
-					# FROM = { religion_group = jewish_group } 
-				# } 
-				# AND = {  
-					# trait = sympathy_indian
-					# FROM = { religion_group = indian_group } 
-				# } 
-			# }
-			FROM = { 
-				NOT = { religion_group = ROOT } 
-				NOT = { is_heresy_of = ROOT } 
-			}
-		}
-		additive_modifier = { #Heretic
-			value = -50
-			localisation_key = tooltip_feudal_elector_vote_heretic
-			NOT = { has_religion_feature = religion_cosmopolitan }
-			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
-			FROM = { is_heresy_of = ROOT }
-		}
-		additive_modifier = { #Dogmatics will hardly ever pick an infidel.
-			value = -100
-			localisation_key = tooltip_feudal_elector_vote_heathen_dogmatic
-			has_religion_feature = religion_dogmatic
-			FROM = { NOT = { religion = ROOT } }
 		}
 
 
@@ -11101,228 +10883,6 @@ eldership_rules = {
 			NOT = { character = FROM } #Do not judge yourself.
 			FROM = { 
 				trait = stressed
-			}
-		}
-		additive_modifier = { #Judge yourself on illness. You should probably not candidate yourself if you are dying.
-			value = -15
-			localisation_key = tooltip_feudal_elector_vote_wounded
-			FROM = { 
-				trait = wounded
-			}
-		}
-		additive_modifier = {
-			value = -15
-			localisation_key = tooltip_feudal_elector_vote_has_aztec_disease
-			FROM = { 
-				trait = has_aztec_disease
-			}
-		}
-		additive_modifier = {
-			value = -15
-			localisation_key = tooltip_feudal_elector_vote_has_typhus
-			FROM = { 
-				trait = has_typhus 
-			}
-		}
-		additive_modifier = {
-			value = -25
-			localisation_key = tooltip_feudal_elector_vote_cancer
-			FROM = { 
-				trait = cancer
-			}
-		}
-		additive_modifier = {
-			value = -25
-			localisation_key = tooltip_feudal_elector_vote_has_tuberculosis
-			FROM = { 
-				trait = has_tuberculosis
-			}
-		}
-		additive_modifier = {
-			value = -35
-			localisation_key = tooltip_feudal_elector_vote_dancing_plague
-			FROM = { 
-				trait = dancing_plague 
-			}
-		}
-		additive_modifier = {
-			value = -15
-			localisation_key = tooltip_feudal_elector_vote_dysentery
-			FROM = { 
-				trait = dysentery
-			}
-		}
-		additive_modifier = {
-			value = -5
-			localisation_key = tooltip_feudal_elector_vote_flu
-			FROM = { 
-				trait = flu
-			}
-		}
-		additive_modifier = {
-			value = -10
-			localisation_key = tooltip_feudal_elector_vote_food_poisoning
-			FROM = { 
-				trait = food_poisoning
-			}
-		}
-		additive_modifier = {
-			value = -5
-			localisation_key = tooltip_feudal_elector_vote_gout
-			FROM = { 
-				trait = gout
-			}
-		}
-		additive_modifier = {
-			value = -15
-			localisation_key = tooltip_feudal_elector_vote_syphilitic
-			FROM = { 
-				trait = syphilitic
-			}
-		}
-		additive_modifier = {
-			value = -10
-			localisation_key = tooltip_feudal_elector_vote_has_typhoid_fever
-			FROM = { 
-				trait = has_typhoid_fever 
-			}
-		}
-		additive_modifier = {
-			value = -5
-			localisation_key = tooltip_feudal_elector_vote_ill
-			FROM = { 
-				trait = ill
-			}
-		}
-		additive_modifier = {
-			value = -50
-			localisation_key = tooltip_feudal_elector_vote_leper
-			FROM = { 
-				trait = leper
-			}
-		}
-		additive_modifier = {
-			value = -10
-			localisation_key = tooltip_feudal_elector_vote_has_measles
-			FROM = { 
-				trait = has_measles
-			}
-		}
-		additive_modifier = {
-			value = -25
-			localisation_key = tooltip_feudal_elector_vote_pneumonic
-			FROM = { 
-				trait = pneumonic
-			}
-		}
-		additive_modifier = {
-			value = -25
-			localisation_key = tooltip_feudal_elector_vote_rabies
-			FROM = { 
-				trait = rabies
-			}
-		}
-		additive_modifier = {
-			value = -10
-			localisation_key = tooltip_feudal_elector_vote_scurvy
-			FROM = { 
-				trait = scurvy
-			}
-		}
-		additive_modifier = {
-			value = -45
-			localisation_key = tooltip_feudal_elector_vote_sickly
-			FROM = { 
-				trait = sickly
-			}
-		}
-		additive_modifier = {
-			value = -15
-			localisation_key = tooltip_feudal_elector_vote_has_small_pox
-			FROM = { 
-				trait = has_small_pox
-			}
-		}
-		additive_modifier = {
-			value = -35
-			localisation_key = tooltip_feudal_elector_vote_has_bubonic_plague
-			FROM = { 
-				trait = has_bubonic_plague
-			}
-		}
-		additive_modifier = {
-			value = -15
-			localisation_key = tooltip_feudal_elector_vote_disfigured
-			this_is_warrior_culture_trigger = no
-			NOT = { 
-				culture_group = byzantine
-			}
-			FROM = { 
-				trait = disfigured
-			}
-		}
-		additive_modifier = {
-			value = -50
-			localisation_key = tooltip_feudal_elector_vote_disfigured_byzantine
-			culture_group = byzantine
-			FROM = { 
-				trait = disfigured
-			}
-		}
-		additive_modifier = {
-			value = -5
-			localisation_key = tooltip_feudal_elector_vote_disfigured_warrior
-			this_is_warrior_culture_trigger = yes
-			NOT = { 
-				culture_group = byzantine
-			}
-			FROM = { 
-				trait = disfigured
-			}
-		}
-		additive_modifier = {
-			value = -10
-			localisation_key = tooltip_feudal_elector_vote_mangled
-			this_is_warrior_culture_trigger = no
-			FROM = { 
-				trait = mangled
-			}
-		}
-		additive_modifier = {
-			value = -15
-			localisation_key = tooltip_feudal_elector_vote_mangled_warrior
-			this_is_warrior_culture_trigger = yes
-			FROM = { 
-				trait = mangled
-			}
-		}
-		additive_modifier = {
-			value = -5
-			localisation_key = tooltip_feudal_elector_vote_one_eyed
-			FROM = { 
-				trait = one_eyed
-			}
-		}
-		additive_modifier = {
-			value = -5
-			localisation_key = tooltip_feudal_elector_vote_one_handed
-			FROM = { 
-				trait = one_handed
-			}
-		}
-		additive_modifier = {
-			value = -5
-			localisation_key = tooltip_feudal_elector_vote_one_legged
-			FROM = { 
-				trait = one_legged
-			}
-		}
-		additive_modifier = {
-			value = -10
-			localisation_key = tooltip_feudal_elector_vote_severely_injured
-			this_is_warrior_culture_trigger = no
-			FROM = { 
-				trait = severely_injured
 			}
 		}
 		additive_modifier = {
@@ -13796,7 +13356,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_playful
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = playful
@@ -13805,7 +13365,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_rowdy
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = rowdy
@@ -13814,7 +13374,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_haughty
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_diplomatic_culture_trigger = yes
 			FROM = { 
 				trait = haughty
@@ -13823,7 +13383,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_conscientious
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_diplomatic_culture_trigger = yes
 			FROM = { 
 				trait = conscientious
@@ -13832,7 +13392,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_curious
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_spiritual_culture_trigger = yes
 			FROM = { 
 				trait = curious
@@ -13841,7 +13401,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_idolizer
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_spiritual_culture_trigger = yes
 			FROM = { 
 				trait = idolizer
@@ -13850,7 +13410,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_depressed
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			FROM = { 
 				trait = depressed
 			}
@@ -13858,7 +13418,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -5
 			localisation_key = tooltip_feudal_elector_vote_drunkard
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			# NOT = { 
 				# religion_group = muslim
 			# }
@@ -13869,7 +13429,7 @@ eldership_rules = {
 		# additive_modifier = {
 			# value = -15
 			# localisation_key = tooltip_feudal_elector_vote_drunkard_muslim
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# religion_group = muslim
 			# FROM = { 
 				# trait = drunkard
@@ -13878,7 +13438,7 @@ eldership_rules = {
 		additive_modifier = { 	#Would mean the end of Elections
 			value = -35	
 			localisation_key = tooltip_feudal_elector_vote_immortal
-			NOT = { character = FROM } #Do not judge yourself.	
+			character = FROM #Do not judge yourself.	
 			FROM = { 
 				trait = immortal
 			}
@@ -13886,7 +13446,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -35
 			localisation_key = tooltip_feudal_elector_vote_incapable
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			FROM = { 
 				trait = incapable
@@ -13895,7 +13455,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -50
 			localisation_key = tooltip_feudal_elector_vote_incapable_warrior
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = incapable
@@ -13904,7 +13464,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_infirm
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_diplomatic_culture_trigger = no
 			FROM = { 
 				trait = infirm
@@ -13913,7 +13473,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -30
 			localisation_key = tooltip_feudal_elector_vote_infirm_diplomat
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_diplomatic_culture_trigger = yes
 			FROM = { 
 				trait = infirm
@@ -13922,7 +13482,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -30
 			localisation_key = tooltip_feudal_elector_vote_lunatic
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOR = { 
 				trait = zealous 
 				is_tribal = yes
@@ -13935,7 +13495,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -5
 			localisation_key = tooltip_feudal_elector_vote_maimed
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			FROM = { 
 				trait = maimed
@@ -13944,7 +13504,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_maimed_warrior
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = maimed
@@ -13953,7 +13513,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -35
 			localisation_key = tooltip_feudal_elector_vote_possessed
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOT = { trait = zealous }
 			NOR = { 
 				is_tribal = yes
@@ -13966,7 +13526,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -60
 			localisation_key = tooltip_feudal_elector_vote_possessed_vs_zealous
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			trait = zealous
 			NOR = { 
 				is_tribal = yes
@@ -13979,7 +13539,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_physician
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_spiritual_culture_trigger = yes
 			FROM = { 
 				trait = physician
@@ -13988,7 +13548,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_scarred
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = scarred
@@ -13997,7 +13557,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_scarred_mid
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = scarred_mid
@@ -14006,7 +13566,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_scarred_high
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = scarred_high
@@ -14015,7 +13575,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -5
 			localisation_key = tooltip_feudal_elector_vote_stressed
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			FROM = { 
 				trait = stressed
 			}
@@ -14245,7 +13805,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_bastard
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			is_feudal = yes
 			FROM = { 
 				trait = bastard
@@ -14254,7 +13814,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_born_in_the_purple
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			culture_group = byzantine
 			FROM = { 
 				trait = born_in_the_purple
@@ -14263,7 +13823,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -5
 			localisation_key = tooltip_feudal_elector_vote_child_of_consort
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			is_feudal = yes
 			FROM = {
 				OR = { 
@@ -14276,7 +13836,7 @@ eldership_rules = {
 		# additive_modifier = { #Attraction bonus
 			# value = 10
 			# localisation_key = tooltip_feudal_elector_vote_attractive
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# is_adult = yes
 			# OR = { 
 				# NOT = { is_close_relative = FROM }
@@ -14323,7 +13883,7 @@ eldership_rules = {
 		# additive_modifier = { #Ugliness bonus
 			# value = -10
 			# localisation_key = tooltip_feudal_elector_vote_ugly
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# is_adult = yes
 			# OR = { 
 				# NOT = { is_close_relative = FROM }
@@ -14370,7 +13930,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 20
 			localisation_key = tooltip_feudal_elector_vote_genius_diplomat
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				this_is_diplomatic_culture_trigger = yes
 				this_is_spiritual_culture_trigger = yes
@@ -14382,7 +13942,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_genius
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOR = { 
 				this_is_diplomatic_culture_trigger = yes
 				this_is_spiritual_culture_trigger = yes
@@ -14394,7 +13954,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_quick_diplomat
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				this_is_diplomatic_culture_trigger = yes
 				this_is_spiritual_culture_trigger = yes
@@ -14406,7 +13966,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_quick
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOR = { 
 				this_is_diplomatic_culture_trigger = yes
 				this_is_spiritual_culture_trigger = yes
@@ -14418,7 +13978,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_strong
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			FROM = { 
 				trait = strong
@@ -14427,7 +13987,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_strong_warrior
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = strong
@@ -14436,7 +13996,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -5
 			localisation_key = tooltip_feudal_elector_vote_clubfooted
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			FROM = { 
 				trait = clubfooted
 			}
@@ -14444,7 +14004,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_dwarf
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			FROM = { 
 				trait = dwarf
@@ -14453,7 +14013,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -30
 			localisation_key = tooltip_feudal_elector_vote_dwarf_warrior
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = dwarf
@@ -14462,7 +14022,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -5
 			localisation_key = tooltip_feudal_elector_vote_harelip
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			FROM = { 
 				trait = harelip
 			}
@@ -14470,7 +14030,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_hunchback
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			FROM = { 
 				trait = hunchback
@@ -14479,7 +14039,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -30
 			localisation_key = tooltip_feudal_elector_vote_hunchback_warrior
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = hunchback
@@ -14488,7 +14048,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_imbecile
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_diplomatic_culture_trigger = no
 			FROM = { 
 				trait = imbecile
@@ -14497,7 +14057,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -20
 			localisation_key = tooltip_feudal_elector_vote_imbecile_diplomat
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_diplomatic_culture_trigger = yes
 			FROM = { 
 				trait = imbecile
@@ -14506,7 +14066,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_inbred
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			FROM = { 
 				trait = inbred
 			}
@@ -14514,7 +14074,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -5
 			localisation_key = tooltip_feudal_elector_vote_lisp
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			FROM = { 
 				trait = lisp
 			}
@@ -14522,7 +14082,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -5
 			localisation_key = tooltip_feudal_elector_vote_slow
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_diplomatic_culture_trigger = no
 			FROM = { 
 				trait = slow
@@ -14531,7 +14091,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_slow_diplomat
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_diplomatic_culture_trigger = yes
 			FROM = { 
 				trait = slow
@@ -14540,7 +14100,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -5
 			localisation_key = tooltip_feudal_elector_vote_stutter
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			FROM = { 
 				trait = stutter
 			}
@@ -14548,7 +14108,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -5
 			localisation_key = tooltip_feudal_elector_vote_weak
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			FROM = { 
 				trait = weak
@@ -14557,7 +14117,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_weak_warrior
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = weak
@@ -14566,7 +14126,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_robust
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			FROM = { 
 				trait = robust
@@ -14575,7 +14135,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_robust_warrior
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = robust
@@ -14584,7 +14144,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_dull_diplomat
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				this_is_diplomatic_culture_trigger = yes
 				this_is_spiritual_culture_trigger = yes
@@ -14596,7 +14156,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -5
 			localisation_key = tooltip_feudal_elector_vote_dull
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOR = { 
 				this_is_diplomatic_culture_trigger = yes
 				this_is_spiritual_culture_trigger = yes
@@ -14608,7 +14168,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -5
 			localisation_key = tooltip_feudal_elector_vote_feeble
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			FROM = { 
 				trait = feeble
@@ -14617,7 +14177,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_feeble_warrior
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = feeble
@@ -14628,7 +14188,7 @@ eldership_rules = {
 		# additive_modifier = { #Praised for being Chaste
 			# value = 15
 			# localisation_key = tooltip_feudal_elector_vote_chaste_positive
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# religion_group = christian
 			# NOT = { trait = lustful }
 			# FROM = { 
@@ -14638,7 +14198,7 @@ eldership_rules = {
 		# additive_modifier = { #Shunned for being Chaste
 			# value = -15
 			# localisation_key = tooltip_feudal_elector_vote_chaste_negative
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# OR = { 
 				# trait = lustful 
 				# AND = { 
@@ -14657,7 +14217,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Temperate
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_temperate_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				religion_group = bnai_avraham
 			}
@@ -14669,7 +14229,7 @@ eldership_rules = {
 		# additive_modifier = { #Shunned for being Temperate
 			# value = -15
 			# localisation_key = tooltip_feudal_elector_vote_temperate_negative
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# OR = { 
 				# trait = gluttonous
 				# AND = { 
@@ -14688,7 +14248,7 @@ eldership_rules = {
 		# additive_modifier = { #Praised for being Charitable
 			# value = 15
 			# localisation_key = tooltip_feudal_elector_vote_charitable_positive
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# OR = { 
 				# religion_group = christian 
 				# religion_group = muslim
@@ -14701,7 +14261,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Charitable
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_charitable_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			trait = greedy
 			FROM = { 
 				trait = charitable
@@ -14710,7 +14270,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Diligent
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_diligent_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOT = { trait = slothful }
 			FROM = { 
 				trait = diligent
@@ -14719,7 +14279,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Diligent
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_diligent_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			trait = slothful
 			FROM = { 
 				trait = diligent
@@ -14728,7 +14288,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Patient
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_patient_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOR = { 
 				trait = wroth
 				this_is_warrior_culture_trigger = yes
@@ -14740,7 +14300,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Patient
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_patient_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				trait = wroth
 				this_is_warrior_culture_trigger = yes
@@ -14752,7 +14312,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Kind
 			value = 25
 			localisation_key = tooltip_feudal_elector_vote_kind_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			is_benevolent_trigger = yes
 			FROM = { 
 				is_benevolent_trigger = yes
@@ -14761,7 +14321,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Kind
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_kind_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			is_evil_trigger = yes
 			FROM = { 
 				is_benevolent_trigger = yes
@@ -14770,7 +14330,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Humble
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_humble_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				religion_group = bnai_avraham
 			}
@@ -14785,7 +14345,7 @@ eldership_rules = {
 		# additive_modifier = { #Shunned for being Humble
 			# value = -15
 			# localisation_key = tooltip_feudal_elector_vote_humble_negative
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# OR = { 
 				# AND = { 
 					# religion_group = pagan_group
@@ -14804,7 +14364,7 @@ eldership_rules = {
 		# additive_modifier = { #Praised for being Lustful
 			# value = 15
 			# localisation_key = tooltip_feudal_elector_vote_lustful_positive
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# OR = { 
 				# AND = { 
 					# religion_group = pagan_group
@@ -14823,7 +14383,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Lustful - Male
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_lustful_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				religion_group = bnai_avraham
 			}
@@ -14841,7 +14401,7 @@ eldership_rules = {
 		# additive_modifier = { #Praised for being Gluttonous
 			# value = 15
 			# localisation_key = tooltip_feudal_elector_vote_gluttonous_positive
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# OR = { 
 				# AND = { 
 					# religion_group = pagan_group
@@ -14860,7 +14420,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Gluttonous
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_gluttonous_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				religion_group = bnai_avraham
 			}
@@ -14878,7 +14438,7 @@ eldership_rules = {
 		# additive_modifier = { #Praised for being Greedy
 			# value = 15
 			# localisation_key = tooltip_feudal_elector_vote_greedy_positive
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# OR = { 
 				# AND = { 
 					# religion_group = pagan_group
@@ -14894,7 +14454,7 @@ eldership_rules = {
 		# additive_modifier = { #Shunned for being Greedy
 			# value = -15
 			# localisation_key = tooltip_feudal_elector_vote_greedy_negative
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# OR = { 
 				# religion_group = christian
 				# religion_group = muslim
@@ -14911,7 +14471,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Slothful
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_slothful_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			trait = slothful
 			FROM = { 
 				trait = slothful
@@ -14920,7 +14480,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Slothful
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_slothful_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				trait = arbitrary #No need for consistency
 				NOT = { trait = slothful }
@@ -14932,7 +14492,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Wroth
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_wroth_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = wroth
@@ -14941,7 +14501,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Wroth
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_wroth_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			FROM = { 
 				trait = wroth
@@ -14950,7 +14510,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Evil
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_evil_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				trait = arbitrary #No need for consistency
 				NOT = { is_evil_trigger = yes }
@@ -14962,7 +14522,7 @@ eldership_rules = {
 		# additive_modifier = { #Praised for being Proud
 			# value = 15
 			# localisation_key = tooltip_feudal_elector_vote_proud_positive
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# religion_group = pagan_group
 			# NOR = { 
 				# religion = bon
@@ -14976,7 +14536,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Proud
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_proud_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				religion_group = bnai_avraham
 			}
@@ -14995,7 +14555,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Ambitious
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_ambitious_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			religion_group = pagan_group
 			NOR = { 
 				# religion = bon
@@ -15009,7 +14569,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Ambitious
 			value = -5
 			localisation_key = tooltip_feudal_elector_vote_ambitious_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				religion_group = bnai_avraham
 			}
@@ -15024,7 +14584,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Arbitrary
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_arbitrary_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				trait = just
 				trait = arbitrary #Arbitraception
@@ -15036,7 +14596,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Brave
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_brave_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			NOR = { 
 				trait = envious
@@ -15049,7 +14609,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Brave
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_brave_positive_warrior
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			NOR = { 
 				trait = envious
@@ -15062,7 +14622,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Brave
 			value = -5
 			localisation_key = tooltip_feudal_elector_vote_brave_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			OR = { 
 				trait = envious
@@ -15075,7 +14635,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Content
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_content_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				# religion = buddhist
 				# religion = jain
@@ -15089,7 +14649,7 @@ eldership_rules = {
 		# additive_modifier = { #Shunned for being Content
 			# value = -5
 			# localisation_key = tooltip_feudal_elector_vote_content_negative
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# religion_group = pagan_group
 			# NOR = { 
 				# trait = content
@@ -15103,7 +14663,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Craven
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_craven_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			FROM = { 
 				trait = craven
@@ -15112,7 +14672,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Craven
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_craven_negative_warrior
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = craven
@@ -15121,7 +14681,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Cynical
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_cynical_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			religion = FROM
 			OR = { 
 				has_religion_feature = religion_cosmopolitan
@@ -15138,7 +14698,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Cynical
 			value = -20
 			localisation_key = tooltip_feudal_elector_vote_cynical_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOT = { has_religion_feature = religion_dogmatic }
 			religion = FROM
 			NOR = { 
@@ -15157,7 +14717,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Cynical
 			value = -50
 			localisation_key = tooltip_feudal_elector_vote_cynical_negative_dogmatic
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			has_religion_feature = religion_dogmatic
 			religion = FROM
 			OR = { 
@@ -15171,7 +14731,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Deceitful
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_deceitful_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				trait = arbitrary #No need for consistency
 				trait = honest
@@ -15183,7 +14743,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Erudite
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_erudite_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				this_is_diplomatic_culture_trigger = yes
 				this_is_spiritual_culture_trigger = yes
@@ -15195,7 +14755,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Just
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_just_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOR = { 
 				trait = deceitful
 				trait = arbitrary
@@ -15207,7 +14767,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Paranoid
 			value = -5
 			localisation_key = tooltip_feudal_elector_vote_paranoid_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOR = { 
 				trait = deceitful
 				trait = arbitrary
@@ -15220,7 +14780,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Paranoid by Paranoid
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_paranoid_negative_paranoid
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			trait = paranoid
 			NOR = { 
 				trait = deceitful
@@ -15233,7 +14793,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Shy
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_shy_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				this_is_diplomatic_culture_trigger = yes
 				this_is_warrior_culture_trigger = yes
@@ -15245,7 +14805,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Stubborn
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_stubborn_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = stubborn
@@ -15254,7 +14814,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Stubborn
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_stubborn_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_spiritual_culture_trigger = yes
 			FROM = { 
 				trait = stubborn
@@ -15263,7 +14823,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Trusting
 			value = 25
 			localisation_key = tooltip_feudal_elector_vote_trusting_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				trait = deceitful
 				trait = schemer
@@ -15276,7 +14836,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Zealous
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_zealous_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			religion = FROM
 			NOR = { 
 				has_religion_feature = religion_cosmopolitan
@@ -15290,7 +14850,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Zealous
 			value = -20
 			localisation_key = tooltip_feudal_elector_vote_zealous_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			religion = FROM
 			OR = { 
 				has_religion_feature = religion_cosmopolitan
@@ -15304,7 +14864,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Pilgrim
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_pilgrim_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			religion = FROM
 			trait = zealous
 			FROM = { 
@@ -15318,7 +14878,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Seaking/Sea_queen
 			value = 15
 			localisation_key = tooltip_feudal_elector_vote_seaking_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			OR = { 
 				this_is_warrior_culture_trigger = yes
 				has_religion_feature = religion_seafaring
@@ -15333,7 +14893,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Seaking/Sea_queen
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_seaking_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOR = { 
 				this_is_warrior_culture_trigger = yes
 				has_religion_feature = religion_seafaring
@@ -15348,7 +14908,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Shieldmaiden
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_shieldmaiden_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			NOT = { has_religion_feature = religion_patriarchal }
 			FROM = { 
@@ -15358,7 +14918,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Shieldmaiden
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_shieldmaiden_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			NOT = { has_religion_feature = religion_patriarchal }
 			FROM = { 
@@ -15368,7 +14928,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Shieldmaiden
 			value = -40
 			localisation_key = tooltip_feudal_elector_vote_shieldmaiden_negative_patriarchal
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			has_religion_feature = religion_patriarchal
 			FROM = { 
@@ -15378,7 +14938,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being a saoshyant_descendant 
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_saoshyant_descendant_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			religion_group = zoroastrian_group
 			FROM = { 
 				trait = saoshyant_descendant 
@@ -15387,7 +14947,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Adventurer
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_adventurer_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = adventurer
@@ -15396,7 +14956,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Adventurer
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_adventurer_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			FROM = { 
 				trait = adventurer
@@ -15405,7 +14965,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Berserker
 			value = 5
 			localisation_key = tooltip_feudal_elector_vote_berserker_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = berserker
@@ -15414,7 +14974,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Berserker
 			value = -20
 			localisation_key = tooltip_feudal_elector_vote_berserker_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			FROM = { 
 				trait = berserker
@@ -15423,7 +14983,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being blind
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_blinded_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			NOT = { 
 				culture_group = byzantine
@@ -15435,7 +14995,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being blind
 			value = -20
 			localisation_key = tooltip_feudal_elector_vote_blinded_negative_warrior
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			NOT = { 
 				culture_group = byzantine
@@ -15447,7 +15007,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being blind
 			value = -75
 			localisation_key = tooltip_feudal_elector_vote_blinded_negative_byzantine
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			culture_group = byzantine
 			FROM = { 
 				trait = blinded
@@ -15456,7 +15016,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being eunuch
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_eunuch_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			NOR = { 
 				culture_group = byzantine
@@ -15469,7 +15029,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being eunuch
 			value = -50
 			localisation_key = tooltip_feudal_elector_vote_eunuch_negative_warrior
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			# NOR = { 
 				# culture_group = byzantine
@@ -15482,7 +15042,7 @@ eldership_rules = {
 		# additive_modifier = { #Shunned for being eunuch
 			# value = -100
 			# localisation_key = tooltip_feudal_elector_vote_eunuch_negative_byzantine
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# OR = { 
 				# culture_group = byzantine
 				# religion_group = muslim
@@ -15494,7 +15054,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being excommunicated
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_excommunicated_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOR = { 
 				trait = zealous
 				trait = cynical
@@ -15510,7 +15070,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being excommunicated
 			value = -75
 			localisation_key = tooltip_feudal_elector_vote_excommunicated_negative_zealous
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			trait = zealous
 			OR = { 
 				NOT = { trait = excommunicated }
@@ -15524,7 +15084,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_kinslayer_1_stranger
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOT = { dynasty = FROM }
 			OR = { 
 				NOR = { 
@@ -15541,7 +15101,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_kinslayer_2_stranger
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOT = { dynasty = FROM }
 			OR = { 
 				NOR = { 
@@ -15558,7 +15118,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -20
 			localisation_key = tooltip_feudal_elector_vote_kinslayer_3_stranger
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOT = { dynasty = FROM }
 			OR = { 
 				NOR = { 
@@ -15576,7 +15136,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -15
 			localisation_key = tooltip_feudal_elector_vote_kinslayer_1_dynast
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOT = { is_close_relative = FROM }
 			dynasty = FROM
 			OR = { 
@@ -15594,7 +15154,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -20
 			localisation_key = tooltip_feudal_elector_vote_kinslayer_2_dynast
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOT = { is_close_relative = FROM }
 			dynasty = FROM
 			OR = { 
@@ -15612,7 +15172,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_kinslayer_3_dynast
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			NOT = { is_close_relative = FROM }
 			dynasty = FROM
 			OR = { 
@@ -15631,7 +15191,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -20
 			localisation_key = tooltip_feudal_elector_vote_kinslayer_1_dynast
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			is_close_relative = FROM 
 			OR = { 
 				NOR = { 
@@ -15648,7 +15208,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_kinslayer_2_dynast
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			is_close_relative = FROM 
 			dynasty = FROM
 			OR = { 
@@ -15666,7 +15226,7 @@ eldership_rules = {
 		additive_modifier = {
 			value = -30
 			localisation_key = tooltip_feudal_elector_vote_kinslayer_3_dynast
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			is_close_relative = FROM 
 			dynasty = FROM
 			OR = { 
@@ -15684,7 +15244,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for loving the heathens
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_sympathy_heathens
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			religion = FROM
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			religion_group = bnai_avraham
@@ -15717,7 +15277,7 @@ eldership_rules = {
 		additive_modifier = { #Praised for being Giant
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_giant_positive
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				trait = giant
@@ -15726,7 +15286,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being Giant
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_giant_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = no
 			FROM = { 
 				trait = giant
@@ -15735,7 +15295,7 @@ eldership_rules = {
 		# additive_modifier = { #Shunned for being Lefthanded
 			# value = -10
 			# localisation_key = tooltip_feudal_elector_vote_lefthanded_negative
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# OR = { 
 				# religion_group = christian
 				# religion_group = muslim
@@ -15747,7 +15307,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being out of shape
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_shape_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			this_is_warrior_culture_trigger = yes
 			FROM = { 
 				OR = { 
@@ -15759,7 +15319,7 @@ eldership_rules = {
 		# additive_modifier = { #Praised for being baptized by Bishop
 			# value = 5
 			# localisation_key = tooltip_feudal_elector_vote_baptized_by_bishop
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# religion_group = christian
 			# FROM = { 
 				# trait = baptized_by_bishop
@@ -15768,7 +15328,7 @@ eldership_rules = {
 		# additive_modifier = { #Praised for being baptized by Pope
 			# value = 10
 			# localisation_key = tooltip_feudal_elector_vote_baptized_by_pope
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# OR = { 
 				# religion = catholic 
 				# religion = fraticelli
@@ -15781,7 +15341,7 @@ eldership_rules = {
 		# additive_modifier = { #Praised for being baptized by Patriarch
 			# value = 10
 			# localisation_key = tooltip_feudal_elector_vote_baptized_by_patriarch
-			# NOT = { character = FROM } #Do not judge yourself.
+			# character = FROM #Do not judge yourself.
 			# religion = orthodox
 			# religion = FROM
 			# FROM = { 
@@ -15791,7 +15351,7 @@ eldership_rules = {
 		additive_modifier = { #Shunned for being of opposite pagan branch.
 			value = -25
 			localisation_key = tooltip_feudal_elector_vote_pagan_branch_negative
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			religion = FROM #Will care only if of same religion.
 			OR = { 
 				AND = { 
@@ -15840,7 +15400,7 @@ eldership_rules = {
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_spoiled_courtier
 			FROM = { character = ROOT_FROMFROMFROM }
-			NOT = { character = FROM } #Do not judge yourself.
+			character = FROM #Do not judge yourself.
 			FROM = { 
 				NOR = { 
 					is_ruler = yes

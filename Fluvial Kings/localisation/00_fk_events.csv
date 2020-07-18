@@ -256,20 +256,17 @@ EVTDESCFKR314;A lacking marshal has emerged from your palace council.;;;;;;;;;;;
 
 EVTDESCFKR316;A lacking commander has emerged from your training grounds.;;;;;;;;;;;;;x
 
+EVTDESCFKR321;Your militarization has degraded as a result of your recent defeat.;;;;;;;;;;;;;x
+
 #Changes in Militarization Levels
 
 ##Decrease##
 EVTDESCFKR317;Your so-called warriors have squandered the resources of your realm in disasterous campaigns and now your realm's martial traditions are greatly hampered.;;;;;;;;;;;;;x
-EVTOPTAFKR230;The Horrors!;;;;;;;;;;;;;x
-EVTDESCFKR321;Your militarization has degraded as a result of your recent defeat.;;;;;;;;;;;;;x
 EVTDESCFKR318;Whether do to a miscalculation or a bad campaign, the martial traditions of your people have diminished.;;;;;;;;;;;;;x
-EVTOPTAFKR231;For Shame!;;;;;;;;;;;;;x
 
 ##Increase##
 EVTDESCFKR319;Whether due to the greak work of your commanders or your Marshal's rousing speeches, your armies appear to be better equipped to meet the needs of your realm. Its not to say that they are the strongest force of the known world that you aspire them to be, but your realm has seen increase glory and prosperity to your realm and their mighty warriors.;;;;;;;;;;;;;x
-EVTOPTAFKR232;There is still much to do...;;;;;;;;;;;;;x
 EVTDESCFKR320;Your fighters are not to be trifled with! Your army swells in both strength and spirit, and their glory is well known across the wide world.;;;;;;;;;;;;;x
-EVTOPTAFKR233;As it should be!;;;;;;;;;;;;;x
 
 ###########Divine Birthright Events###########
 hellenic_birthright;Divine Birthright;;;;;;;;;;;;;x

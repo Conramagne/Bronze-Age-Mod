@@ -31,7 +31,10 @@ character_event = {
 		any_dynasty_member = {
 			is_landed = yes
 		}
-		check_variable = { which = apotheosis_victory value = 10 }
+		OR = {
+			check_variable = { which = apotheosis_victory value = 10 }
+			check_variable = { which = apotheosis_duel value = 10 }
+		}
 		has_curse_trigger = no
 		OR = {
 			trait = skilled_tactician
