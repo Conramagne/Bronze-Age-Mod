@@ -1,7 +1,10 @@
-title=c_itanos
+title=c_kysomos
 
 max_settlements= 1
-b_itanos=castle
+b_kysomos=castle
+
+#b_polyrinia=temple
+#b_doulopolis=city
 
 culture = cretan
 religion = pantes_theoi

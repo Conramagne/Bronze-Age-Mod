@@ -1,8 +1,0 @@
-title=c_kysomos
-
-max_settlements= 1
-b_kysomos=castle
-
-culture = cretan
-religion = pantes_theoi
-terrain = plains

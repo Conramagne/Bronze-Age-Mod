@@ -1,7 +1,10 @@
-title=c_rhytion
+title=c_zakros
 
 max_settlements= 1
-b_rhytion=castle
+b_zakros=castle
+
+#b_itanos=city
+#b_palekastro=temple
 
 culture = cretan
 religion = pantes_theoi

@@ -413,12 +413,8 @@ e_greek_empire = {
 				color2 = { 255 255 255 }
 				
 				b_knossos = {}
-			}
-			c_rithymna = {
-				color={ 229 69 18 }
-				color2={ 255 255 255 }
-				
-				b_rithymna = {}
+				b_amnysos = {}
+				b_axos = {}
 			}
 			
 			c_phaistos = {
@@ -426,64 +422,50 @@ e_greek_empire = {
 				color2={ 255 255 255 }
 				
 				b_phaistos = {}
+				b_rithymna = {}
+				b_koumasa = {}
 			}
-		}
-		d_kydonia = { 
-			color = { 181 103 39 }
-			color2 = { 255 255 255 }
-	
-			capital = 109 # Kydonia
-			
 			c_kydonia = {
 				color = { 181 103 39 }
 				color2 = { 255 255 255 }
 				
 				b_kydonia = {}
+				b_aptarra = {}
+				b_lissos = {}
+				b_armeni = {}
 			}
 			c_kysomos = {
 				color={ 135 81 37 }
 				color2={ 255 255 255 }
 				
 				b_kysomos = {}
-			}
-			
-			c_aptarra = {
-				color={ 159 104 59 }
-				color2={ 255 255 255 }
-				
-				b_aptarra = {}
+				b_polyrinia = {}
+				b_doulopolis = {}
 			}
 		}
+		
 		d_lasynthos = { 
 			color = { 255 195 87 }
 			color2 = { 255 255 255 }
 	
-			capital = 112 # Malia
+			capital = 110 # Malia
 			
 			c_malia = {
 				color = { 255 195 87 }
 				color2 = { 255 255 255 }
 				
 				b_malia = {}
-			}
-			c_rhytion = {
-				color={ 201 163 96 }
-				color2={ 255 255 255 }
-				
 				b_rhytion = {}
+				b_lato = {}
+				b_oaxos = {}
 			}
-			
-			c_hierapytna = {
-				color={ 225 209 39 }
-				color2={ 255 255 255 }
-				
-				b_hierapytna = {}
-			}
-			c_itanos = {
+			c_zakros = {
 				color={ 140 171 62 }
 				color2={ 255 255 255 }
 				
+				b_zakros = {}
 				b_itanos = {}
+				b_palekastro = {}
 			}
 		}
 	}

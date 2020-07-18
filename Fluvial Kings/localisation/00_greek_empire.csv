@@ -3,8 +3,6 @@
 ###########Empire Titles###########
 
 
-
-
 e_greek_empire;Pan-Akhaios;;;;;;;;;;;;;x
 e_greek_empire_adj;Akhaios;;;;;;;;;;;;;x
 
@@ -51,8 +49,6 @@ d_euvoia;Euvoia;;;;;;;;;;;;;x
 d_euvoia_adj;Euvoian;;;;;;;;;;;;;x
 d_knossos;Knossos;;;;;;;;;;;;;x
 d_knossos_adj;Knossosani;;;;;;;;;;;;;x
-d_kydonia;Kydonia;;;;;;;;;;;;;x
-d_kydonia_adj;Kydonian;;;;;;;;;;;;;x
 d_lasynthos;Lasynthos;;;;;;;;;;;;;x
 d_lasynthos_adj;Lasynthosi;;;;;;;;;;;;;x
 
@@ -136,24 +132,16 @@ c_peparethos;Peparethos;;;;;;;;;;;;;x
 c_peparethos_adj;Peparethosi;;;;;;;;;;;;;x
 c_knossos;Knossos;;;;;;;;;;;;;x
 c_knossos_adj;Knossosani;;;;;;;;;;;;;x
-c_rithymna;Rithymna;;;;;;;;;;;;;x
-c_rithymna_adj;Rithymnai;;;;;;;;;;;;;x
 c_phaistos;Phaistos;;;;;;;;;;;;;x
 c_phaistos_adj;Phaistosi;;;;;;;;;;;;;x
 c_kydonia;Kydonia;;;;;;;;;;;;;x
 c_kydonia_adj;Kydonian;;;;;;;;;;;;;x
 c_kysomos;Kysomos;;;;;;;;;;;;;x
 c_kysomos_adj;Kysomosi;;;;;;;;;;;;;x
-c_aptarra;Aptarra;;;;;;;;;;;;;x
-c_aptarra_adj;Aptarrani;;;;;;;;;;;;;x
 c_malia;Malia;;;;;;;;;;;;;x
 c_malia_adj;Malian;;;;;;;;;;;;;x
-c_rhytion;Rhytion;;;;;;;;;;;;;x
-c_rhytion_adj;Rhytionian;;;;;;;;;;;;;x
-c_hierapytna;Hierapytna;;;;;;;;;;;;;x
-c_hierapytna_adj;Hierapytnani;;;;;;;;;;;;;x
-c_itanos;Itanos;;;;;;;;;;;;;x
-c_itanos_adj;Itanosai;;;;;;;;;;;;;x
+c_zakros;Zakros;;;;;;;;;;;;;x
+c_zakros_adj;Zakrosi;;;;;;;;;;;;;x
 
 ###########Achaean Baronies###########
 b_mycenae;Mykenae;;;;;;;;;;;;;x
@@ -337,24 +325,44 @@ b_peparethos_adj;Peparethosi;;;;;;;;;;;;;x
 ###########Minoan Krete Baronies###########
 b_knossos;Knossos;;;;;;;;;;;;;x
 b_knossos_adj;Knossosani;;;;;;;;;;;;;x
-b_rithymna;Rithymna;;;;;;;;;;;;;x
-b_rithymna_adj;Rithymnai;;;;;;;;;;;;;x
+b_amnysos;Amnysos;;;;;;;;;;;;;x
+b_amnysos_adj;Amnysosi;;;;;;;;;;;;;x
+b_axos;Axos;;;;;;;;;;;;;x
+b_axos_adj;Axosani;;;;;;;;;;;;;x
 b_phaistos;Phaistos;;;;;;;;;;;;;x
 b_phaistos_adj;Phaistosi;;;;;;;;;;;;;x
+b_rithymna;Rithymna;;;;;;;;;;;;;x
+b_rithymna_adj;Rithymnai;;;;;;;;;;;;;x
+b_koumasa;Koumasa;;;;;;;;;;;;;x
+b_koumasa_adj;Koumasai;;;;;;;;;;;;;x
 b_kydonia;Kydonia;;;;;;;;;;;;;x
 b_kydonia_adj;Kydonian;;;;;;;;;;;;;x
+b_aptarra;Aptarra;;;;;;;;;;;;;x
+b_aptarra_adj;Aptarrani;;;;;;;;;;;;;
+b_lissos;Lissos;;;;;;;;;;;;;x
+b_lissos_adj;Lissosani;;;;;;;;;;;;;
+b_armeni;Armeni;;;;;;;;;;;;;x
+b_armeni_adj;Armeniei;;;;;;;;;;;;;
 b_kysomos;Kysomos;;;;;;;;;;;;;x
 b_kysomos_adj;Kysomosi;;;;;;;;;;;;;x
-b_aptarra;Aptarra;;;;;;;;;;;;;x
-b_aptarra_adj;Aptarrani;;;;;;;;;;;;;x
+b_polyrinia;Polyrinia;;;;;;;;;;;;;x
+b_polyrinia_adj;Polyrinian;;;;;;;;;;;;;x
+b_doulopolis;Doulopolis;;;;;;;;;;;;;x
+b_doulopolis_adj;Doulopolisian;;;;;;;;;;;;;x
 b_malia;Malia;;;;;;;;;;;;;x
 b_malia_adj;Malian;;;;;;;;;;;;;x
 b_rhytion;Rhytion;;;;;;;;;;;;;x
 b_rhytion_adj;Rhytionian;;;;;;;;;;;;;x
-b_hierapytna;Hierapytna;;;;;;;;;;;;;x
-b_hierapytna_adj;Hierapytnani;;;;;;;;;;;;;x
+b_lato;Lato;;;;;;;;;;;;;x
+b_lato_adj;Latoai;;;;;;;;;;;;;x
+b_oaxos;Oaxos;;;;;;;;;;;;;x
+b_oaxos_adj;Oaxosai;;;;;;;;;;;;;x
+b_zakros;Zakros;;;;;;;;;;;;;x
+b_zakros_adj;Zakrosi;;;;;;;;;;;;;x
 b_itanos;Itanos;;;;;;;;;;;;;x
 b_itanos_adj;Itanosai;;;;;;;;;;;;;x
+b_palekastro;Palekastro;;;;;;;;;;;;;x
+b_palekastro_adj;Palekastrosi;;;;;;;;;;;;;x
 
 ###########Thessalyian Baronies###########
 

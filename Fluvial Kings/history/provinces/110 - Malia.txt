@@ -1,7 +1,11 @@
-title=c_aptarra
+title=c_malia
 
 max_settlements= 1
-b_aptarra=castle
+b_malia=castle
+
+#b_rhytion=city
+#b_lato=temple
+#b_oaxos=city
 
 culture = cretan
 religion = pantes_theoi
