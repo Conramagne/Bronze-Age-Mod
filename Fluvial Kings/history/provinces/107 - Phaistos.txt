@@ -2,9 +2,8 @@ title=c_phaistos
 
 max_settlements= 3
 b_phaistos=castle
-
-# b_koumasa=temple
-#b_rithymna=city
+#b_rithymna=temple
+#b_gortyn = city
 
 culture = cretan
 religion = pantes_theoi

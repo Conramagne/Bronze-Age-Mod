@@ -59,7 +59,7 @@
 	culture = hittite
 	religion = ishalitethai
 	father = 2000006
-	2408.1.1 = { birth = yes }
+	2403.1.1 = { birth = yes }
 	2468.1.1 = { death = yes }
 }
 
@@ -100,7 +100,7 @@
 	culture = hittite
 	religion = ishalitethai
 	2321.1.1 = { birth = yes }
-	2326.1.1 = { add_spouse = 2002000 }
+	2341.1.1 = { add_spouse = 2002000 }
 	2376.1.1 = { death = yes }
 }
 
@@ -202,7 +202,7 @@
 	religion = ishalitethai
 	father = 2000019
 	mother = 2002002
-	2156.1.1 = { birth = yes }
+	2151.1.1 = { birth = yes }
 	2231.1.1 = { death = yes }
 }
 
@@ -222,7 +222,7 @@
 	culture = hittite
 	religion = ishalitethai
 	2111.1.1 = { birth = yes }
-	2151.1.1 = { add_spouse = 2002003 }
+	2131.1.1 = { add_spouse = 2002003 }
 	2201.1.1 = { death = yes }
 }
 
@@ -232,7 +232,7 @@
 	culture = hittite
 	religion = ishalitethai
 	mother = 2002004
-	2101.1.1 = { birth = yes }
+	2111.1.1 = { birth = yes }
 	2171.1.1 = { death = yes }
 }
 
@@ -350,7 +350,7 @@
 	religion = ishalitethai
 	father = 2000009
 	2321.1.1 = { birth = yes }
-	2326.1.1 = { add_spouse = 2000008 }
+	2341.1.1 = { add_spouse = 2000008 }
 	2381.1.1 = { death = yes }
 }
 
@@ -397,7 +397,7 @@
 	culture = hittite
 	religion = ishalitethai
 	father = 2000022
-	2091.1.1 = { birth = yes }
+	2090.1.1 = { birth = yes }
 	2131.1.1 = { death = yes }
 }
 
@@ -407,9 +407,9 @@
 	dynasty = 2000000
 	culture = hittite
 	religion = ishalitethai
+	trait = mastermind_theologian
 	2473.1.1 = { birth = yes}
 	2493.1.1 = { add_spouse = 2000001 }
-	trait = mastermind_theologian
 	2523.1.1 = {
 		effect = {
 			remove_title = job_treasurer

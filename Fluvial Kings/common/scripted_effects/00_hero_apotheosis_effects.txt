@@ -137,6 +137,12 @@ deciding_upon_hero_effect = {
 		modifier = {
             factor = 1.5
             event_target:hero_person = {
+                check_variable = { which = apotheosis_sack value = 20 }
+            }
+        }
+		modifier = {
+            factor = 1.5
+            event_target:hero_person = {
                 martial = 20
             }
         }
@@ -164,6 +170,13 @@ deciding_upon_hero_effect = {
             event_target:hero_person = {
                 check_variable = { which = apotheosis_duel value = 10 }
 				check_variable = { which = apotheosis_duel value < 20 }
+            }
+        }
+		modifier = {
+            factor = 1.2
+            event_target:hero_person = {
+                check_variable = { which = apotheosis_sack value = 10 }
+				check_variable = { which = apotheosis_sack value < 20 }
             }
         }
         #Having the bloodline of a hero severely decrease your chance of becoming a hero

@@ -34,6 +34,7 @@ character_event = {
 		OR = {
 			check_variable = { which = apotheosis_victory value = 10 }
 			check_variable = { which = apotheosis_duel value = 10 }
+			check_variable = { which = apotheosis_sack value = 10 }
 		}
 		has_curse_trigger = no
 		OR = {

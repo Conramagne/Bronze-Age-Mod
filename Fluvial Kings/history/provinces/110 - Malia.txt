@@ -2,8 +2,7 @@ title=c_malia
 
 max_settlements= 4
 b_malia=castle
-
-#b_rhytion=city
+b_rhytion=city
 #b_lato=temple
 #b_oaxos=city
 

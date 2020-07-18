@@ -3,8 +3,8 @@ title=c_mycenae
 max_settlements= 4
 b_mycenae=castle
 b_corinth=city
-b_nemea=temple
-b_kleonai=castle
+b_nemea=castle
+b_kleonai=temple
 
 culture=achaean
 religion=pantes_theoi

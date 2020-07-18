@@ -46,7 +46,7 @@ d_hatti_adj;Hatti;;;;;;;;;;;;;x
 d_ambara;Ambara;;;;;;;;;;;;;x
 d_ambara_adj;Ambara;;;;;;;;;;;;;x
 d_sarazzi_udne;Sarazzi Udne;;;;;;;;;;;;;x
-d_sarazzi_udne;Sarazzi;;;;;;;;;;;;;x
+d_sarazzi_udne_adj;Sarazzi;;;;;;;;;;;;;x
 d_kaska;Kaska;;;;;;;;;;;;;x
 d_kaska_adj;Kaska;;;;;;;;;;;;;x
 d_kalasma; Kalasma;;;;;;;;;;;;;x
@@ -62,7 +62,7 @@ d_pitassa_adj;Pitassi;;;;;;;;;;;;;x
 d_kastaraya;Kastaraya;;;;;;;;;;;;;x
 d_kastaraya_adj;Kastari;;;;;;;;;;;;;x
 d_hulaya;Hulaya;;;;;;;;;;;;;x
-d_hulaya;Hulayi;;;;;;;;;;;;;x
+d_hulaya_adj;Hulayi;;;;;;;;;;;;;x
 d_katerra_udne;Kattera Udne;;;;;;;;;;;;;x
 d_katerra_udne_adj;Katteri;;;;;;;;;;;;;x
 d_puruma;Puruma;;;;;;;;;;;;;x
@@ -91,7 +91,7 @@ c_taskuriya_adj;Taskuri;;;;;;;;;;;;;x
 c_tuhuppiya;Tuhuppiya;;;;;;;;;;;;;x
 c_tuhuppiya_adj;Tuhuppi;;;;;;;;;;;;;x
 c_katapa;Katapa;;;;;;;;;;;;;x
-c_katapa;Katapi;;;;;;;;;;;;;x
+c_katapa_adj;Katapi;;;;;;;;;;;;;x
 c_kanes;Kanes;;;;;;;;;;;;;x
 c_kanes_adj;Kani;;;;;;;;;;;;;x
 c_kapitra;Kapitra;;;;;;;;;;;;;x

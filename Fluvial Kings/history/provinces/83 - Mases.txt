@@ -1,9 +1,10 @@
 title=c_mases
 
-max_settlements= 3
+max_settlements= 4
 b_mases=castle
-b_franchthi=city
 b_epidaurus=temple
+# b_hermione=city
+# b_franchthi=city
 
 culture=achaean
 religion=pantes_theoi

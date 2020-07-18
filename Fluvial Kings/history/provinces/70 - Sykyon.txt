@@ -2,7 +2,7 @@ title=c_sykyon
 
 max_settlements= 2
 b_sykyon=castle
-b_pellene=city
+#b_pellene=city
 
 culture=achaean
 religion=pantes_theoi

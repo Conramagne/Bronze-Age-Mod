@@ -6,6 +6,7 @@
 	religion = pantes_theoi
 	father = 1100152
 	mother = 2100002
+	trait = twin
 	2496.1.1 = { birth = yes }
 	2551.1.1 = { death = yes }
 }
@@ -17,6 +18,7 @@
 	religion = pantes_theoi
 	father = 1100152
 	mother = 2100002
+	trait = twin
 	2496.1.1 = { birth = yes }
 	2551.1.1 = { death = yes }
 }
@@ -65,7 +67,7 @@
 	culture = achaean
 	religion = pantes_theoi
 	father = 2100006
-	mother = 2100007
+	# mother = 2100007
 	disallow_random_traits = yes
 	2432.1.1 = { birth = yes }
 	2501.1.1 = { death = yes }
@@ -142,12 +144,12 @@
 	religion = pantes_theoi
 	father = 2100103
 	disallow_random_traits = yes
+	2461.1.1 = { birth = yes }
 	2487.1.1 = {
 		effect = {
 			add_spouse = 2100101
 		}
 	}
-	2461.1.1 = { birth = yes }
 	2521.1.1 = { death = yes }
 }
 
@@ -170,13 +172,13 @@
 	religion = pantes_theoi
 	father = 1100145
 	mother = 2100106
+	disallow_random_traits = yes
+	2411.1.1 = { birth = yes }
 	2427.1.1 = {
 		effect = {
 			add_spouse = 2100105
 		}
 	}
-	disallow_random_traits = yes
-	2411.1.1 = { birth = yes }
 	2461.1.1 = { death = yes }
 }
 
@@ -211,13 +213,13 @@
 	religion = pantes_theoi
 	father = 2100104
 	mother = 2100105
+	disallow_random_traits = yes
+	2441.1.1 = { birth = yes }
 	2457.1.1 = {
 		effect = {
 			add_spouse = 2100108
 		}
 	}
-	disallow_random_traits = yes
-	2441.1.1 = { birth = yes }
 	2501.1.1 = { death = yes }
 }
 
@@ -240,6 +242,7 @@
 	religion = pantes_theoi
 	father = 2100107
 	mother = 2100108
+	trait = twin
 	disallow_random_traits = yes
 	2461.1.1 = { birth = yes }
 	2521.1.1 = { death = yes }
@@ -262,6 +265,7 @@
 	religion = pantes_theoi
 	father = 2100107
 	mother = 2100108
+	trait = twin
 	disallow_random_traits = yes
 	2461.1.1 = { birth = yes }
 	2521.1.1 = { death = yes }
@@ -356,9 +360,9 @@
 	disallow_random_traits = yes
 	2481.1.1 = { birth = yes }
 	2497.1.1 = {
-		effect = {
+		# effect = {
 			add_spouse = 2100301
-		}
+		# }
 	}
 	2527.1.1 = { death = yes }
 }
@@ -465,7 +469,7 @@
 	father = 2100307
 	mother = 2100308
 	disallow_random_traits = yes
-	2433.1.1 = { birth = yes }
+	2453.1.1 = { birth = yes }
 	2521.1.1 = { death = yes }
 }
 
@@ -929,6 +933,7 @@
 	culture = achaean
 	religion = pantes_theoi
 	female = yes
+	father = 2100527
 	disallow_random_traits = yes
 	2421.1.1 = { 
 		birth = yes
@@ -959,7 +964,6 @@
 	culture = achaean
 	religion = pantes_theoi
 	father = 2100522
-	mother = 2100508
 	disallow_random_traits = yes
 	2421.1.1 = { birth = yes }
 	2441.1.1 = {
@@ -980,8 +984,8 @@
 	dynasty = 2100006 #Cadmiad
 	culture = achaean
 	religion = pantes_theoi
-	father = 2100515
-	mother = 1100175
+	father = 2100510
+	mother = 2100508
 	disallow_random_traits = yes
 	2391.1.1 = { birth = yes }
 	2431.1.1 = { death = yes }
@@ -994,10 +998,13 @@
 	female = yes
 	father = 2100509
 	disallow_random_traits = yes
-	2371.1.1 = { 
-		birth = yes 
+	2371.1.1 = { birth = yes }
+	2391.1.1 = {
+		effect = {
+			add_spouse = 2100510
+		}
 	}
-	2401.1.1 = { death = yes }
+	2431.1.1 = { death = yes }
 }
 
 2100509 = { #Nukteús
@@ -1007,9 +1014,7 @@
 	father = 1100145
 	mother = 1100262
 	disallow_random_traits = yes
-	2351.1.1 = { 
-		birth = yes 
-	}
+	2351.1.1 = { birth = yes }
 	2411.1.1 = { death = yes }
 }
 
@@ -1022,6 +1027,11 @@
 	mother = 1100175
 	disallow_random_traits = yes
 	2371.1.1 = { birth = yes }
+	2391.1.1 = {
+		effect = {
+			add_spouse = 2100508
+		}
+	}
 	2401.1.1 = { death = yes }
 }
 
@@ -1053,7 +1063,7 @@
 
 2100513 = { #Pentheus, King of Thebes
 	name = "Pentheus"
-	dynasty = 2100006 #Cadmiad
+	# dynasty = 2100006 #Cadmiad
 	culture = achaean
 	religion = pantes_theoi
 	father = 2100514
@@ -1074,7 +1084,7 @@
 
 2100514 = { #Echion, King of Thebes
 	name = "Echion"
-	dynasty = 2100006 #Cadmiad
+	# dynasty = 2100006 #Cadmiad
 	culture = achaean
 	religion = pantes_theoi
 	disallow_random_traits = yes
@@ -1118,11 +1128,8 @@
 	culture = achaean
 	religion = pantes_theoi
 	disallow_random_traits = yes
-	2331.1.1 = { 
-		birth = yes
-	}
+	2331.1.1 = { birth = yes }
 	2347.1.1 = { 
-		birth = yes
 		effect = {
 			add_spouse = 2100516
 		}
@@ -1148,6 +1155,7 @@
 	religion = pantes_theoi
 	father = 1100146
 	mother = 2100521
+	trait = twin
 	disallow_random_traits = yes
 	2401.1.1 = { 
 		birth = yes
@@ -1166,6 +1174,7 @@
 	religion = pantes_theoi
 	father = 1100146
 	mother = 2100521
+	trait = twin
 	disallow_random_traits = yes
 	2401.1.1 = { 
 		birth = yes
@@ -1242,6 +1251,17 @@
 	2426.1.1 = { death = yes }
 }
 
+2100527 = { #Menoikeús
+	name = "Menoikeús"
+	# dynasty = 2100006 #Cadmiad
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100513
+	disallow_random_traits = yes
+	2391.1.1 = { birth = yes }
+	2451.1.1 = { death = yes }
+}
+
 #Royal Family of Pylos (2100600-2100699)
 2100600 = { #Nestor, King of Pylos
 	name = "Nestor"
@@ -1259,9 +1279,9 @@
 	disallow_random_traits = yes
 	2456.1.1 = { birth = yes }
 	2472.1.1 = {
-		effect = {
+		# effect = {
 			add_spouse = 2100601
-		}
+		# }
 	}
 	2551.1.1 = { death = yes }
 }
@@ -1273,9 +1293,9 @@
 	female = yes
 	2456.1.1 = { birth = yes }
 	2472.1.1 = {
-		effect = {
+		# effect = {
 			add_spouse = 2100600
-		}
+		# }
 	}
 	2530.1.1 = { death = yes }
 }
@@ -1409,8 +1429,8 @@
 	religion = pantes_theoi
 	female = yes
 	disallow_random_traits = yes
-	2411.1.1 = { birth = yes }
-	2501.1.1 = { death = yes }
+	2401.1.1 = { birth = yes }
+	2461.1.1 = { death = yes }
 }
 
 2100614 = { #Neleus, King of Pylos
@@ -1452,9 +1472,9 @@
 	# mother = 
 	2466.1.1 = { birth = yes }
 	2491.1.1 = {
-		effect = {
+		# effect = {
 			add_spouse = 2100703
-		}
+		# }
 	}
 	2541.1.1 = { death = yes }
 }
@@ -1696,9 +1716,9 @@
 	disallow_random_traits = yes
 	2491.1.1 = { birth = yes }
 	2518.1.1 = {
-		effect = {
+		# effect = {
 			add_spouse = 2101003
-		}
+		# }
 	}
 	2537.1.1 = { death = yes }
 }
@@ -1830,8 +1850,8 @@
 	culture = achaean
 	religion = pantes_theoi
 	female = yes
-	father = 2100910
-	mother = 2100911
+	father = 2100911
+	mother = 2100910
 	disallow_random_traits = yes
 	2391.1.1 = { birth = yes }
 	2451.1.1 = { death = yes }
@@ -1935,9 +1955,9 @@
 	trait = wroth
 	2493.1.1 = { birth = yes }
 	2518.1.1 = {
-		effect = {
+		# effect = {
 			add_spouse = 2101002
-		}
+		# }
 	}
 	2556.1.1 = { death = yes }
 }
@@ -1965,12 +1985,12 @@
 	mother = 2101005
 	trait = fair
 	trait = groomed
-	2518.1.1 = {
-		effect = {
-			add_spouse = 2101000
-		}
-	}
 	2498.1.1 = { birth = yes }
+	2518.1.1 = {
+		# effect = {
+			add_spouse = 2101000
+		# }
+	}
 	2561.1.1 = { death = yes }
 }
 
@@ -1984,9 +2004,9 @@
 	mother = 2101005
 	2498.1.1 = { birth = yes }
 	2518.1.1 = {
-		effect = {
+		# effect = {
 			add_spouse = 2100900
-		}
+		# }
 	}
 	2520.1.1 = {
 		effect = {
@@ -2026,9 +2046,9 @@
 	mother = 2101012
 	2471.1.1 = { birth = yes }
 	2498.1.1 = {
-		effect = {
+		# effect = {
 			add_spouse = 2101005
-		}
+		# }
 	}
 	2518.1.1 = {
 		employer = 2101000
@@ -2057,9 +2077,9 @@
 	mother = 2101012
 	2476.1.1 = { birth = yes }
 	2496.1.1 = {
-		effect = {
+		# effect = {
 			add_spouse = 2100602
-		}
+		# }
 		employer = 2101000
 	}
 	2561.1.1 = { death = yes }
@@ -2118,9 +2138,9 @@
 	disallow_random_traits = yes
 	2451.1.1 = { birth = yes }
 	2471.1.1 = {
-		effect = {
+		# effect = {
 			add_spouse = 2101012
-		}
+		# }
 	}
 	2511.1.1 = { death = yes }
 }
@@ -2489,6 +2509,7 @@
 	religion = pantes_theoi
 	father = 2101124
 	mother = 1100185
+	trait = twin
 	disallow_random_traits = yes
 	2261.1.1 = { birth = yes }
 	2291.1.1 = { death = yes }
@@ -2501,6 +2522,7 @@
 	religion = pantes_theoi
 	father = 2101124
 	mother = 1100185
+	trait = twin
 	disallow_random_traits = yes
 	2261.1.1 = { birth = yes }
 	2291.1.1 = {
@@ -2560,8 +2582,8 @@
 	father = 2101126
 	mother = 1100186
 	disallow_random_traits = yes
-	2221.1.1 = { birth = yes }
-	2281.1.1 = { death = yes }
+	2111.1.1 = { birth = yes }
+	2315.1.1 = { death = yes }
 }
 
 2101126 = { #Epaphos
@@ -2572,8 +2594,8 @@
 	father = 1100146
 	mother = 2101127
 	disallow_random_traits = yes
-	2201.1.1 = { birth = yes }
-	2261.1.1 = { death = yes }
+	2091.1.1 = { birth = yes }
+	2184.1.1 = { death = yes }
 }
 
 2101127 = { #Io
@@ -2582,11 +2604,11 @@
 	culture = achaean
 	religion = pantes_theoi
 	female = yes
-	father = 2101129
+	father = 2101128
 	mother = 1100028
 	disallow_random_traits = yes
-	2181.1.1 = { birth = yes }
-	2241.1.1 = { death = yes }
+	2063.1.1 = { birth = yes }
+	2154.1.1 = { death = yes }
 }
 
 2101128 = { #Inachos, King of Argos
@@ -2854,9 +2876,9 @@
 	father = 2101210
 	2471.1.1 = { birth = yes }
 	2501.1.1 = {
-		effect = {
+		# effect = {
 			add_spouse = 2101207
-		}
+		# }
 	}
 	2531.1.1 = { death = yes }
 }
@@ -2987,7 +3009,7 @@
 			add_spouse = 2101301
 		}
 	}
-	2521.1.1 = { death = yes }
+	2525.1.1 = { death = yes }
 }
 
 2101301 = { #Eriphule
@@ -2997,9 +3019,9 @@
 	female = yes
 	2479.1.1 = { birth = yes }
 	2499.1.1 = {
-		effect = {
+		# effect = {
 			add_spouse = 2101300
-		}
+		# }
 	}
 	2541.1.1 = { death = yes }
 }
@@ -3011,7 +3033,7 @@
 	religion = pantes_theoi
 	father = 2101300
 	mother = 2101301
-	2498.1.1 = { birth = yes }
+	2499.1.1 = { birth = yes }
 	2525.1.1 = { death = yes }
 }
 
@@ -3022,7 +3044,7 @@
 	religion = pantes_theoi
 	father = 2101302
 	2521.1.1 = { birth = yes }
-	2499.1.1 = {
+	2525.1.1 = {
 		effect = {
 			add_claim = c_argos
 			add_claim = c_mases
@@ -3178,9 +3200,9 @@
 	trait = skilled_tactician
 	2481.1.1 = { birth = yes }
 	2501.1.1 = {
-		effect = {
+		# effect = {
 			add_spouse = 2101520
-		}
+		# }
 	}
 	2541.1.1 = { death = yes }
 }
@@ -3283,9 +3305,9 @@
 	father = 2101505
 	2471.1.1 = { birth = yes }
 	2491.1.1 = {
-		effect = {
+		# effect = {
 			add_spouse = 2100902
-		}
+		# }
 	}
 	2531.1.1 = { death = yes }
 }
@@ -3450,9 +3472,9 @@
 	female = yes
 	2481.1.1 = { birth = yes }
 	2501.1.1 = {
-		effect = {
+		# effect = {
 			add_spouse = 2101500
-		}
+		# }
 	}
 	2541.1.1 = { death = yes }
 }

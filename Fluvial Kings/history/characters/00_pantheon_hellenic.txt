@@ -323,7 +323,7 @@
 	}
 	1.1.21 = {
 		effect = {
-			add_spouse = 110146
+			add_spouse = 1100146
 		}
 	}
 	1.1.22 = { death = yes }

@@ -4,7 +4,7 @@ hellene = {
 	achaean = {
 		graphical_cultures = { achaeangfx }
 
-		color = { 0.8 0.2 0.8 }
+		color = { 0.3 0.3 0.7 }
 
 		male_names = {
 			Abas Achareus Achilleus Adrestos Agamemnon Agapenor Agasthenes Agenor Aglaophonus Agrios Aiakos Aías Aigeús Aigialeus Aigialeus Aigisthos Aiguptios Aiputos Akamas Akastos Akoos Aktaion Aktor Akrisios Alektor Alektruon Aleos Alexandros Alkaios Alkathous Alkmaíon Aluzeus Amphiaraos Amphidamas Amphiktuon Amphílochos Amphimachcos Amphimedes Amphion Amúklas Amuthaon Anaxagoras Andronikh Ankaios Antílochos Antromaxos Apheidas Aranareus Áretos Argalos Argos Argurios Aristaios Arkas Arkeisios Askalaphos Astakos Astudámeia Athamas Atreus Augewas 
@@ -18,7 +18,7 @@ hellene = {
 			Jasus Jasos Jason
 			Kástor Kadmos Kalchas Kaludnos Kapaneús Kékrops Kepheús Klúmenos Kluthios Komaitho Koronos Kranaos Kretheus Kriasos Krotopos Kteatos Kuanippos Kuchreus Kupridhmos Kunortas Kyprios
 			Lábdakos Laertes Laios Laodamas Lakidaus Lakidamos Leitos Leukadius Leukopeus Lusimache Lukaon Lukios Lukos Lukimnios Lukomedes Lukourgos Lunkeús
-			Machawon Medon Megapenthes Melas Melampus Mekisteús Menelaos Menestheus
+			Machawon Medon Megapenthes Melas Melampus Mekisteús Menelaos Menestheus Menoikeús
 			Narkissos Neleus Nestor Nikostratos Nukteús
 			Oidípous Oikleús Oineús Oinómaos Oivalos Orestes Orneus
 			Parthenopaîos Pandion Patroklos Peisistratos Peleus Pelias Pentheus Pereos Perseus Peteus Phegous Pheidon Pheres Phoinix Phokus Phoroneus Phrasimus Phrixos Phorbas Phrontis Pittheus Poimen Poliwos Poludoros Poluneíkes Poluxenos Presbon Proetos Promachos Pronax
@@ -314,7 +314,7 @@ hellene = {
 	cretan = {
 		graphical_cultures = { achaeangfx }
 
-		color = { 0.8 0.2 0.8 }
+		color = { 0.9 0.4 0.2 }
 
 		male_names = {
 			Akakallis Althaimenus Androgeos Aranare Arudara Asijaka Asterion

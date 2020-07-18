@@ -1,7 +1,9 @@
 title=c_chaeronea
 
-max_settlements= 2
+max_settlements= 3
 b_chaeronea=castle
+b_thisbe=temple
+b_onchestus=city
 
 culture=achaean
 religion=pantes_theoi

@@ -902,7 +902,7 @@ targetted_decisions = {
 		# }
 	# }
 
-	convert_to_spouse_religion= {
+	convert_to_spouse_religion = {
 		only_playable = yes
 		filter = home_court
 		ai_target_filter = home_court
@@ -916,6 +916,9 @@ targetted_decisions = {
 			is_playable = yes
 			# religion_group = pagan_group
 			NOT = {
+				religion = ROOT
+			}
+			NOT = {
 				religion_group = bnai_avraham
 			}
 			controls_religion = no
@@ -924,6 +927,9 @@ targetted_decisions = {
 		potential = {
 			NOT = {
 				has_character_flag = flag_god
+			}
+			NOT = {
+				religion = FROM
 			}
 			OR = {
 				spouse = {

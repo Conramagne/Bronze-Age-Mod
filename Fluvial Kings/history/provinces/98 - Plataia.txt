@@ -1,9 +1,0 @@
-title=c_platea
-
-max_settlements= 2
-b_platea=castle
-b_leuctra=temple
-
-culture=achaean
-religion=pantes_theoi
-terrain=plains

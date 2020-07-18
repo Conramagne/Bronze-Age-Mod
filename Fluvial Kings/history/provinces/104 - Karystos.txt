@@ -1,8 +1,8 @@
-title=c_dystos
+title=c_karystos
 
 max_settlements= 2
-b_dystos=castle
-b_karystos=temple
+b_karystos=castle
+# b_dystos=temple
 
 culture=achaean
 religion=pantes_theoi

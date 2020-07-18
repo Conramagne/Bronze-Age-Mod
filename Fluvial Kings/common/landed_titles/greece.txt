@@ -38,8 +38,9 @@ e_greek_empire = {
 				
 				b_megara = {}
 				b_isthmia = {}
+				b_therme = {}
+				b_pagae = {}
 			}
-			
 			c_sykyon = {
 				color={ 91 127 171 }
 				color2={ 255 255 255 }
@@ -47,20 +48,19 @@ e_greek_empire = {
 				b_sykyon = {}
 				b_pellene = {}
 			}
-			
 			c_aigeira = {
 				color={ 26 62 107 }
 				color2={ 255 255 255 }
 				
 				b_aigeira = {}
 			}
-			
 			c_aegion = {
 				color={ 58 77 100 }
 				color2={ 255 255 255 }
 				
 				b_aegion = {}
 				b_patra = {}
+				b_panormos = {}
 			}
 		}
 		d_salamis = { 
@@ -88,6 +88,8 @@ e_greek_empire = {
 				color2 = { 255 61 100 }
 				
 				b_elis = {}
+				b_myrsinus = {}
+				b_buprasium = {}
 			}
 			c_olympia = {
 				color = { 44 64 121 }
@@ -101,6 +103,7 @@ e_greek_empire = {
 				color2 = { 255 61 100 }
 				
 				b_tyhos = {}
+				b_letrini = {}
 			}
 			c_dymes = {
 				color = { 83 104 161 }
@@ -108,13 +111,14 @@ e_greek_empire = {
 				
 				b_dymes = {}
 				b_pharae = {}
+				b_tritaia = {}
 			}
 		}
 		d_arcadia = { 
 			color={ 120 136 188 }
 			color2={ 255 255 255 }
 	
-			capital = 78 #Kleitor
+			capital = 79 #Orchomenos Arcadia
 			
 			c_kleitor = {
 				color = { 120 136 188 }
@@ -127,13 +131,16 @@ e_greek_empire = {
 				color2 = { 255 61 100 }
 				
 				b_orchomenus_ar = {}
+				b_hypsus = {}
 			}
-			c_pheneos = {
+			c_stymphalos = {
 				color = { 30 68 189 }
 				color2 = { 255 61 100 }
 				
 				b_pheneos = {}
 				b_stymphalos = {}
+				b_orneae = {}
+				b_alea = {}
 			}
 			c_tegea = {
 				color = { 76 91 140 }
@@ -142,6 +149,7 @@ e_greek_empire = {
 				b_tegea = {}
 				b_mantineia = {}
 				b_oresthesium = {}
+				b_thyrea = {}
 			}
 		}
 		d_argolis = { 
@@ -167,12 +175,14 @@ e_greek_empire = {
 				b_mases = {}
 				b_franchthi = {}
 				b_epidaurus = {}
+				b_hermione = {}
 			}
 			c_methana = {
 				color = { 74 106 123 }
 				color2 = { 255 61 100 }
 				
 				b_methana = {}
+				b_troezen = {}
 			}
 		}
 	}
@@ -197,6 +207,7 @@ e_greek_empire = {
 				b_lacedemonia = {}
 				b_amyclae = {}
 				b_menelaeion = {}
+				b_pharis = {}
 			}
 			c_prasiai = {
 				color={ 23 36 42 }
@@ -205,20 +216,21 @@ e_greek_empire = {
 				b_prasiai = {}
 				b_kypantha = {}
 			}
-			
-			c_epidauros_limera = {
+			c_pavlopetri = {
 				color={ 20 62 80 }
 				color2={ 255 255 255 }
 				
 				b_epidauros_limera = {}
 				b_pavlopetri = {}
+				b_zarax = {}
 			}
-			
 			c_gytheion = {
 				color={ 32 72 88 }
 				color2={ 255 255 255 }
 				
 				b_gytheion = {}
+				b_taenaron = {}
+				b_teuthrone = {}
 			}
 		}
 		d_kythera = { 
@@ -240,7 +252,7 @@ e_greek_empire = {
 			color = { 81 161 171 }
 			color2 = { 255 255 255 }
 	
-			capital = 90 # Messene
+			capital = 92 #Pylos
 			
 			achaean = "Pylos"
 			
@@ -249,15 +261,16 @@ e_greek_empire = {
 				color2 = { 255 255 255 }
 				
 				b_messene = {}
+				b_corone = {}
+				b_oechalia = {}
 			}
-			c_dorion = {
+			c_phigalia = {
 				color={ 22 93 102 }
 				color2={ 255 255 255 }
 				
-				b_dorion = {}
+				b_phigalia = {}
 				b_bassae = {}
 			}
-			
 			c_pylos = {
 				color={ 39 123 133 }
 				color2={ 255 255 255 }
@@ -267,7 +280,6 @@ e_greek_empire = {
 				b_amphigeneia = {}
 				b_methone = {}
 			}
-			
 			c_gerenia = {
 				color={ 41 131 142 }
 				color2={ 255 255 255 }
@@ -312,9 +324,11 @@ e_greek_empire = {
 				color2={ 255 255 255 }
 				
 				b_marathon = {}
+				b_aphidnaea = {}
+				b_ramnous = {}
 			}
 			
-			c_perati = {
+			c_lavrion = {
 				color={ 71 136 23 }
 				color2={ 255 255 255 }
 				
@@ -329,7 +343,7 @@ e_greek_empire = {
 	
 			capital = 98 # Platea
 			
-			c_platea = {
+			c_leuctra = {
 				color = { 49 95 15 }
 				color2 = { 255 255 255 }
 				
@@ -342,9 +356,9 @@ e_greek_empire = {
 				
 				b_thebes = {}
 				b_gla = {}
-				b_cynus = {}
 				b_aulis = {}
 				b_hyria = {}
+				b_thespiae = {}
 			}
 			c_orchomenus = {
 				color = { 49 100 15 }
@@ -352,19 +366,22 @@ e_greek_empire = {
 				
 				b_opus = {}
 				b_orchomenos = {}
+				b_cynus = {}
 			}
 			c_chaeronea = {
 				color = { 73 102 52 }
 				color2 = { 255 255 255 }
 				
 				b_chaeronea = {}
+				b_thisbe = {}
+				b_onchestus = {}
 			}
 		}
 		d_euvoia = { 
 			color = { 177 248 125 }
 			color2 = { 255 255 255 }
 	
-			capital = 102 # Dium
+			capital = 103 # Eretria
 			
 			c_dium = {
 				color = { 177 248 125 }
@@ -372,15 +389,17 @@ e_greek_empire = {
 				
 				b_dium = {}
 				b_artemiaio = {}
+				b_kerynthos = {}
 			}
 			c_eretria = {
 				color={ 108 255 0 }
 				color2={ 255 255 255 }
 				
 				b_eretria = {}
+				b_chalkis = {}
 			}
 			
-			c_dystos = {
+			c_karystos = {
 				color={ 98 220 8 }
 				color2={ 255 255 255 }
 				
@@ -415,15 +434,16 @@ e_greek_empire = {
 				b_knossos = {}
 				b_amnysos = {}
 				b_axos = {}
+				b_koumasa = {}
+				b_chersonissos = {}
 			}
-			
 			c_phaistos = {
 				color={ 163 55 21 }
 				color2={ 255 255 255 }
 				
 				b_phaistos = {}
 				b_rithymna = {}
-				b_koumasa = {}
+				b_gortyn = {}
 			}
 			c_kydonia = {
 				color = { 181 103 39 }
@@ -479,13 +499,13 @@ d_amazon = {
 		
 	short_name = yes
 	
-	culture = amazonois
+	culture = amazonios
 	
 	primary = yes
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 	
 	allow = {
-		culture = amazonois
+		culture = amazonios
 	}
 }

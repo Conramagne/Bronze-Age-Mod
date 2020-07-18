@@ -61,18 +61,18 @@
 	holder = 2101111 #Argeus
 }
 2431.1.1 = {
-	holder = 2101110 #Anaxagoras (Partial)
+	holder = 2101110 #Anaxagoras
 }
 2441.1.1 = {
 	liege = 0
-	holder = 2101211 #Bias
+	holder = 2101211 #Bias (Partial)
 }
 2481.1.1 = {
-	holder = 2101210 #Talaos
+	holder = 2101210 #Talaos (Partial)
 }
 2501.1.1 = {
-	holder = 2101205 #Adrestos
+	holder = 2101205 #Adrestos (Partial)
 }
 2526.1.1 = {
-	holder = 2101200 #Diomedes
+	holder = 2101200 #Diomedes (Partial)
 }

@@ -1732,6 +1732,11 @@
 		}
 		modifier = {
 			factor = 0
+			is_female = yes
+			graphical_culture = anatoliangfx
+		}
+		modifier = {
+			factor = 0
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch

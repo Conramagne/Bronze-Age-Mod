@@ -2,7 +2,7 @@ title=c_salamis
 
 max_settlements= 2
 b_salamis=castle
-b_aphaea=city
+b_aphaea=temple
 
 culture=achaean
 religion=pantes_theoi
