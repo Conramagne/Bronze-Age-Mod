@@ -77,7 +77,7 @@ succession_laws = {
 				}
 				in_revolt = no
 				NAND = {
-					higher_real_tier_than = COUNT
+					higher_real_tier_than = BARON
 					government = military_governorate_government
 				}
 			}
@@ -743,36 +743,36 @@ succession_laws = {
 						}
 					}
 				}
-				OR = {
+				# OR = {
 					# NOR = { 
 						# religion_group = muslim
 						# religion_group = indian_group
 					# }
-					has_law = succession_voting_power_1
-					OR = { 
-						has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
-						has_law = succ_hre_elective
-					} 
-					ROOT = {
-						has_title_flag = alternate_hre
-					}
-				}
+					# has_law = succession_voting_power_1
+					# OR = { 
+						# has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
+						# has_law = succ_hre_elective
+					# } 
+					# ROOT = {
+						# has_title_flag = alternate_hre
+					# }
+				# }
 				is_merchant_republic = no
 				is_patrician = no
 				
-				OR = {
+				#OR = {
 					# NOT = { religion_group = pagan_group }
 					# is_reformed_religion = yes
 					# religion = hellenic_pagan
-					has_law = succession_voting_power_1
-					OR = { 
-						has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
-						has_law = succ_hre_elective
-					} 
-					ROOT = {
-						has_title_flag = alternate_hre
-					}
-				}
+					# has_law = succession_voting_power_1
+					# OR = { 
+						# has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
+						# has_law = succ_hre_elective
+					# } 
+					# ROOT = {
+						# has_title_flag = alternate_hre
+					# }
+				# }
 				OR = {
 					independent = yes
 					NOT = {
@@ -1062,13 +1062,13 @@ succession_laws = {
 		vassal_opinion = 10
 		potential = {
 			NOT = { holder_scope = { government = military_governorate_government } }
-			NAND = { 
-				has_law = succ_byzantine_elective 
-				OR = { 
-					title = e_byzantium
-					title = e_roman_empire
-				}
-			}
+			# NAND = { 
+				# has_law = succ_byzantine_elective 
+				# OR = { 
+					# title = e_byzantium
+					# title = e_roman_empire
+				# }
+			# }
 			holder_scope = {
 				NOT = {
 					government = tribal_confederacy_government
@@ -1084,19 +1084,19 @@ succession_laws = {
 				is_merchant_republic = no
 				is_patrician = no
 				
-				OR = {
+				#OR = {
 					# NOT = { religion_group = pagan_group }
 					# is_reformed_religion = yes
 					# religion = hellenic_pagan
-					has_law = succession_voting_power_1
-					OR = { 
-						has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
-						has_law = succ_hre_elective
-					} 
-					ROOT = {
-						has_title_flag = alternate_hre
-					}
-				}
+					# has_law = succession_voting_power_1
+					# OR = { 
+						# has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
+						# has_law = succ_hre_elective
+					# } 
+					# ROOT = {
+						# has_title_flag = alternate_hre
+					# }
+				# }
 				OR = {
 					independent = yes
 					NOT = {
@@ -1168,19 +1168,19 @@ succession_laws = {
 				is_merchant_republic = no
 				is_patrician = no
 				
-				OR = {
+				#OR = {
 					# NOT = { religion_group = pagan_group }
 					# is_reformed_religion = yes
 					# religion = hellenic_pagan
-					has_law = succession_voting_power_1
-					OR = { 
-						has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
-						has_law = succ_hre_elective
-					} 
-					ROOT = {
-						has_title_flag = alternate_hre
-					}
-				}
+					# has_law = succession_voting_power_1
+					# OR = { 
+						# has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
+						# has_law = succ_hre_elective
+					# } 
+					# ROOT = {
+						# has_title_flag = alternate_hre
+					# }
+				# }
 				OR = {
 					independent = yes
 					NOT = {
@@ -1569,7 +1569,7 @@ succession_laws = {
 			}
 			holder_scope = {
 				OR = {
-					religion_group = muslim
+					# religion_group = muslim
 					AND = {
 						has_religion_feature = religion_patriarchal
 						is_theocracy = no
