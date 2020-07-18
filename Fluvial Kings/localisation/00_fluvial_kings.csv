@@ -18,13 +18,13 @@ cretan;Kresijos;;;;;;;;;;;;;x
 bull;Taúrou;;;;;;;;;;;;;x
 ###########Government and Law###########
 feudal_government;Local Polity;;;;;;;;;;;;;x
-feudal_government_desc;Local Polities and States that have arisen from disunited tribes and confederations or have slipped out of the grasps of larger Realms. Often considered nothing more than petty states with squabbling tyrants whose authority barely extends beyond the walls of their citadels, they lack the courtly grandeur and the ability to administer more than their local communities. The Greater Monarchies have much sway over these lesser lords.;;;;;;;;;;;;;x
+feudal_government_desc;Local Polities and States that have arisen from disunited tribes and confederations or have slipped out of the grasps of larger realms. Often considered nothing more than petty states with squabbling tyrants whose authority barely extends beyond the walls of their citadels, they lack the courtly grandeur and the ability to administer more than their local communities.;;;;;;;;;;;;;x
 
 regional_kingdom_government;Regional Authority;;;;;;;;;;;;;x
-regional_kingdom_government_desc;Regional Authorities are the Kingdoms and Regional Powers that are below the prominence of a Greater Kingdom but are potent enough powers in their own locale. Monarchs rely on landed military aristocrats and a growing palace structure. This represent the united polity of a people as well as their subjugated neighbors.;;;;;;;;;;;;;x
+regional_kingdom_government_desc;Regional Authorities are the hingdoms and regional powers that are below the prominence of a hegemon but are potent enough powers in their own locale. Monarchs rely on landed military aristocrats and a growing palace structure. This represent the united polity of a people as well as their subjugated neighbors.;;;;;;;;;;;;;x
 
 hegemonic_government;Hegemonic Power;;;;;;;;;;;;;x
-hegemonic_government_desc;Hegemonic Powers are large realms stretching from one corner of the world to the next. Monarchs rule a vast cosmopolitan realm of many religions, tribes and cultures with the help of an army of bureaucrats and the aristocracy. The will and fate of all is the Ruler's demand and decree. The Monarch strides the world of men as a glorious prince, all the peoples of the world will know their name!;;;;;;;;;;;;;x
+hegemonic_government_desc;Hegemonic Powers are large realms stretching from one corner of the world to the next. Monarchs rule a vast cosmopolitan realm of many religions, tribes and cultures with the help of an army of bureaucrats and the aristocracy. The will and fate of all is the ruler's demand and decree. The monarch strides the world of men as a glorious prince, all the peoples of the world will know their name!;;;;;;;;;;;;;x
 
 military_governorate_government;Military Governorate;;;;;;;;;;;;;x
 military_governorate_government_desc;Military Governors are of course drawn from the class of military-aristocrats, they govern the surrounding lands from their country estates and city holdings in the name of their liege. Governors may rule for life or at the mercy of their liege, who may repossess the leadership of the territory at a whim and redistribute it to a more worthy commander. Governorates are focused on raising armies of men and chariots for their lord, thus less tax is expected to be paid forward as it is used to outfit the local nobles and levy the urban and rural freemen.;;;;;;;;;;;;;x
@@ -36,7 +36,7 @@ tribal_confederacy_government;Tribal Confederation;;;;;;;;;;;;;x
 tribal_confederacy_government_desc;A confederacy allows for a tribal realm to grow larger but also as a natural consequence decentralizes power. The ruler can now be selected from beyond the ruling family and can be drawn from the other tribes and victorious commanders by an electorate of the Council and the tribal vassals. Council laws are locked as well, all decisions must be in agreement with the Council of tribal representatives. The ruler is less an authoritarian monarch and more an arbiter of disputes and leader of armies against outside aggression. There are ways around this, if you centralize and woo the princes of the tribes you can have yourself elected King.;;;;;;;;;;;;;x
 
 stratocratic_government;Stratocracy;;;;;;;;;;;;;x
-stratocratic_government_desc;Stratocratic Government;;;;;;;;;;;;;x
+stratocratic_government_desc;A government in which the realm is wholly occupied on the subject of war. Liege and vassal alike are expected to uphold military values and to keep a large and powerful army, even at the expense of the realm's taxes and stability;;;;;;;;;;;;;x
 
 familial_elective;Familial Elective;;;;;;;;;;;;;x
 succ_familial_elective;Familial Elective;;;;;;;;;;;;;x
@@ -51,23 +51,23 @@ succ_viceroyalty_succession;Military Governorship;;;;;;;;;;;;;x
 succ_viceroyalty_succession_desc;Military Governors are appointed on the behest of their liege to govern a province or polity, a legal representative of their liege (sometimes even being of kin). They are appointed and thus could pass at the whim of their liege.;;;;;;;;;;;;;x
 
 system_law;Government System;;;;;;;;;;;;;x
-system_law_desc;The Government System of the Realm, It defines whether the Government relies on the courtly skills of their council or the magistrates of the cities of the realm.;;;;;;;;;;;;;x
+system_law_desc;The government system defines whether the realm relies on the courtly skills of their council or the magistrates of the cities of the realm.;;;;;;;;;;;;;x
 system_law_0;Oligarchy;;;;;;;;;;;;;x
 system_law_0_desc;Oligarchic States are reliant on their magistrates and local administrators of their realm's cities and provinces. Particularly cunning or shrewd administrators will prefer this form of governance as it is much easier to bypass the will of the Royal Family and Palace Court. The monarch will get a boon in taxes at the expense of their army. They will also be greatly restricted in their capacity to govern outside the palace and are more at the mercy of influential vassals.;;;;;;;;;;;;;x
 system_law_1;Stately;;;;;;;;;;;;;x
-system_law_1_desc;The Royal Court and Family are the primary conduit for which the realm is governed. It is understood that the Monarch is a regent of the Divine and and thus their offsprings should succeed them, though that may not always be possible or practical. The warrior-aristocrats and palace scribes in the council greatly favor the strength of their lord. As a result the armies they field, wield a zeal for their liege but provincial lords scoff at the lost of their autonomy and may not be willing to cooperate with their sovereign.;;;;;;;;;;;;;x
+system_law_1_desc;The royal court and family are the primary conduit for which the realm is governed. It is understood that the Monarch is a regent of the Divine and and thus their offsprings should succeed them, though that may not always be possible or practical. The warrior-aristocrats and palace scribes in the council greatly favor the strength of their lord. As a result the armies they field, wield a zeal for their liege but provincial lords scoff at the lost of their autonomy and may not be willing to cooperate with their sovereign.;;;;;;;;;;;;;x
 
 foreigner_law;Status of Foreigners;;;;;;;;;;;;;x
-foreigner_law_desc;The status afforded to the Foreigners that reside in the realm.;;;;;;;;;;;;;x
+foreigner_law_desc;The status afforded to the foreigners that reside in the realm.;;;;;;;;;;;;;x
 foreigner_law_0;Harsh;;;;;;;;;;;;;x
 foreigner_law_0_desc;Dare we call them people? Dogs befits their stature and character better, and they will know who their masters are.;;;;;;;;;;;;;x
 foreigner_law_1;Neutral;;;;;;;;;;;;;x
-foreigner_law_1_desc;We placed no significance to the foreigners that reside in our realm and treat them with wary indifference.;;;;;;;;;;;;;x
+foreigner_law_1_desc;We placed no significance to the foreigners that reside in our realm and treat them with indifference.;;;;;;;;;;;;;x
 foreigner_law_2;Loose;;;;;;;;;;;;;x
-foreigner_law_2_desc;These Foreigners are allowed to settle in our illustrious realm as they please so long as they acknowledge our sovereignty.;;;;;;;;;;;;;x
+foreigner_law_2_desc;These foreigners are given autonomy in our realm so long as they acknowledge our sovereignty.;;;;;;;;;;;;;x
 
 tribute_law;Tribute Status;;;;;;;;;;;;;x
-tribute_law_desc;The Status of Tributes;;;;;;;;;;;;;x
+tribute_law_desc;The status of tribute received from foreign cultures and faiths;;;;;;;;;;;;;x
 tribute_law_0;Taxed;;;;;;;;;;;;;x
 tribute_law_0_desc;Tributes are asked to contribute a larger share of their coffers for the good of the realm, at the expense of military contributions.;;;;;;;;;;;;;x
 tribute_law_1;Neutral;;;;;;;;;;;;;x
@@ -108,7 +108,7 @@ haianiluwi_DESC;The Luwi traditions and gods are kin to their Nešili cousins. Ta
 hellenic;Hellenic;;;;;;;;;;;;;x
 
 pantes_theoi;Pantes Theoi;;;;;;;;;;;;;x
-pantes_theoi_DESC;“...and the earth groaned beneath them as at the wrath of Zeus whose joy is in the thunder, when he lasheth the earth about Typhoeus in the country of the Arimoi, where men say is Typhoeus’ couch…”\n\nThe spear-proud Akhaios are great lovers of song and battle. Every king and chieftain seems to both worship and curse the gods more than their neighbor, the smell of burning fat rises to heaven from a thousand slaughtered kine and funeral pyres. Aegis-bearing Zeus reprimands and punishes his celestial and mortal children with hideous swears and flaming darts of lightning while his jealous seaward brother causes the land to roll and shudder like the cascading waves of the wine-dark sea. Often the gods come down from high Olumpos to walk amongst men in the garbs of kings or the skins of beasts to challenge mortals and make off with their fair daughters. But the goddesses are just as fearsome as their brothers and husbands. Cow-eyed Here brings both comfort and pain to men and women and Artemis pierces the hearts of woodsmen with silver-tipped arrows of horn.;;;;;;;;;;;;;x
+pantes_theoi_DESC;"...and the earth groaned beneath them as at the wrath of Zeus whose joy is in the thunder, when he lasheth the earth about Typhoeus in the country of the Arimoi...” The kings and chieftains of the spear-proud Akhaios are great lovers of song and battle. Aegis-bearing Zeus reprimands and punishes his celestial and mortal children with hideous swears and flaming darts of lightning while his jealous seaward brother causes the land to roll and shudder like the waves of the wine-dark sea. Often the gods come down from high Olumpos to walk amongst men in the garbs of kings or the skins of beasts to challenge mortals and make off with their fair daughters. The goddesses are just as fearsome as their brothers and husbands. Cow-eyed Here brings both comfort and pain to men and women and Artemis pierces the hearts of woodsmen with silver-tipped arrows of horn.;;;;;;;;;;;;;x
 
 ###########Gods and Books###########
 THE_AMURRU_KTOVET;The Amurru K'tovet;;;;;;;;;;;;;x
@@ -174,8 +174,14 @@ KOHEN;Kohen;;;;;;;;;;;;;x
 SANKUNNI;Sankunni;;;;;;;;;;;;;x
 
 ###########Fluvial King Casus Belli###########
-CB_NAME_HELLENIC_BIRTHRIGHT;Claim your birthright!;;;;;;;;;;;;;x
-WAR_NAME_HELLENIC_BIRTHRIGHT;Birthright;;;;;;;;;;;;;x
+CB_NAME_HELLENIC_BIRTHRIGHT;Divine Birthright War for [Title.GetBaseName];;;;;;;;;;;;;x
+WAR_NAME_HELLENIC_BIRTHRIGHT;$ORDER$ Divine Birthright War for $OTHER_TITLE$;;;;;;;;;;;;;x
+
+CB_NAME_FK_CONQUEST;Conquest War for [Title.GetBaseName];;;;;;;;;;;;;x
+WAR_NAME_FK_CONQUEST;$ORDER$ Conquest War for $OTHER_TITLE$;;;;;;;;;;;;;x
+
+CB_NAME_FK_COUNTY_CONQUEST;County Conquest War for [Title.GetBaseName];;;;;;;;;;;;;x
+WAR_NAME_FK_COUNTY_CONQUEST;$ORDER$ County Conquest War for $OTHER_TITLE$;;;;;;;;;;;;;x
 
 ###########Bloodline Localization###########
 god_zeus_bloodline; The Blood of Zeus;;;;;;;;;;;;;x
@@ -192,7 +198,6 @@ d_berith;High Priesthood;;;;;;;;;;;;;x
 d_berith_adj;Priestly;;;;;;;;;;;;;x
 d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
 d_ili_abinia_adj;Priestly;;;;;;;;;;;;;x
-d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
 d_haianiluwi;High Haianiluwi Priesthood;;;;;;;;;;;;;x
 d_haianiluwi_adj;Priestly;;;;;;;;;;;;;x
 e_hellenic_pantheon;Hellenic Pantheon;;;;;;;;;;;;;x
@@ -215,6 +220,15 @@ king_achaean;Basileos;;;;;;;;;;;;;x
 king_female_achaean;Basilissa;;;;;;;;;;;;;x
 emperor_achaean;Wanax;;;;;;;;;;;;;x
 emperor_female_achaean;Wanaxia;;;;;;;;;;;;;x
+
+count_amazonios;Prokoreter;;;;;;;;;;;;;x
+count_female_amazonios;Klawiphoros;;;;;;;;;;;;;x
+duke_amazonios;Koreter;;;;;;;;;;;;;x
+duke_female_amazonios;Koretera;;;;;;;;;;;;;x
+king_amazonios;Basileos;;;;;;;;;;;;;x
+king_female_amazonios;Basilissa;;;;;;;;;;;;;x
+emperor_amazonios;Wanax;;;;;;;;;;;;;x
+emperor_female_amazonios;Wanaxia;;;;;;;;;;;;;x
 
 count_cretan;Prokoreter;;;;;;;;;;;;;x
 count_female_cretan;Klawiphoros;;;;;;;;;;;;;x
@@ -333,44 +347,37 @@ saintly_bloodline_same_religion_TT; Same Religion as the Founder of this Bloodli
 
 #Stratocratic Opinion
 became_stratocratic_tyrant;Became a Stratocratic Tyrant;;;;;;;;;;;;;x
-became_stratocratic_tyrant_EXPLANATION; (Became a Stratocratic Tyrant);;;;;;;;;;;;;x
 rejected_stratocracy;Rejected Stratocracy;;;;;;;;;;;;;x
-rejected_stratocracy_EXPLANATION; (Rejected Stratocracy);;;;;;;;;;;;;x
 
 opinion_very_model_of_a_modern_major_general;Opinion of Competent General;;;;;;;;;;;;;x
-opinion_very_model_of_a_modern_major_general_EXPLANATION; (Opinion of Competent General);;;;;;;;;;;;;x
 opinion_poor_military_ruler;Opinion of Incompetent General;;;;;;;;;;;;;x
-opinion_poor_military_ruler_EXPLANATION; (Opinion of Incompetent General);;;;;;;;;;;;;x
 
 #misc
 strategist_opinion;Strategist Character Opinion;;;;;;;;;;;;;x
-opinion_of_strategist_EXPLANATION; (opinion on Strategist);;;;;;;;;;;;;x
 
 #Religious Wars
-won_hellenic_invasion;Won [hellenic.GetName] Invasion!;;;;;;;;;;;;;x
-won_hellenic_invasion_EXPLANATION; (Won [hellenic.GetName] Invasion);;;;;;;;;;;;;x
-lost_hellenic_invasion;Lost [hellenic.GetName] Invasion!;;;;;;;;;;;;;x
-lost_hellenic_invasion_EXPLANATION; (Lost [hellenic.GetName] Invasion);;;;;;;;;;;;;x
+won_hellenic_invasion;Won [hellenic.GetName] Invasion;;;;;;;;;;;;;x
+lost_hellenic_invasion;Lost [hellenic.GetName] Invasion;;;;;;;;;;;;;x
 
 figurehead_emperor;Figurehead Monarch;;;;;;;;;;;;;x
-figurehead_emperor_desc;You Wield no real power.;;;;;;;;;;;;;x
+figurehead_emperor_desc;You wield little power.;;;;;;;;;;;;;x
 weak_emperor;Weak Monarch;;;;;;;;;;;;;x
-weak_emperor_desc;You Wield little power.;;;;;;;;;;;;;x
+weak_emperor_desc;You wield no real power.;;;;;;;;;;;;;x
 strong_emperor;Strong Monarch;;;;;;;;;;;;;x
-strong_emperor_desc;You Wield great power.;;;;;;;;;;;;;x
+strong_emperor_desc;You wield great power.;;;;;;;;;;;;;x
 
 #province modifiers
 oppressive_rule;Oppressive Policies;;;;;;;;;;;;;x
-oppressive_rule_desc;Oppressive Policies are being used in this province;;;;;;;;;;;;;x
+oppressive_rule_desc;The foreign cultures and faiths of this province are being oppressed.;;;;;;;;;;;;;x
 autonomous_rule;Autonomous Communities;;;;;;;;;;;;;x
-autonomous_rule_desc;Autonomous Communities exist in this province;;;;;;;;;;;;;x
+autonomous_rule_desc;The foreign cultures and faiths of this province have autonomy.;;;;;;;;;;;;;x
 tax_tribute;Tribute: Tax-Focused;;;;;;;;;;;;;x
-tax_tribute_desc;The Tribute is focused in Increasing their tribute of wealth to you;;;;;;;;;;;;;x
+tax_tribute_desc;The tribute in this province is tax-focused.;;;;;;;;;;;;;x
 levy_tribute;Tribute: Levy-Focused;;;;;;;;;;;;;x
-levy_tribute_desc;The Tribute is focused in Increasing their tribute of troops to you;;;;;;;;;;;;;x
+levy_tribute_desc;The tribute in this province is levy-focused.;;;;;;;;;;;;;x
 
 foreign_rule;Foreign Rule;;;;;;;;;;;;;x
-foreign_rule_desc;The Local people are resistant to your rule...;;;;;;;;;;;;;x
+foreign_rule_desc;The local people are resistant to your rule...;;;;;;;;;;;;;x
 
 #sacrifice modifiers
 made_sacrifice;Made a Sacrifce;;;;;;;;;;;;;x
@@ -393,7 +400,7 @@ low_bureaucracy;Inefficient Bureaucracy;;;;;;;;;;;;;x
 low_bureaucracy_desc;Due to poor recordkeeping, inefficient administrative oversight, and corrupt palace bureaucrats, this realm's bureaucracy is in complete disarray.;;;;;;;;;;;;;x
 
 high_bureaucracy;Efficient Bureaucracy;;;;;;;;;;;;;x
-high_bureaucracy_desc;The Palace is full of good and loyal palace bureaucrats that maintain the bureaucracy needed to steer the realm to prosperity, making it the envy of lesser kings.;;;;;;;;;;;;;x
+high_bureaucracy_desc;The place is full of good and loyal palace bureaucrats that maintain the bureaucracy needed to steer the realm to prosperity, making it the envy of lesser kings.;;;;;;;;;;;;;x
 
 requested_personal_tribute;Requested Personal Tribute;;;;;;;;;;;;;x
 requested_personal_tribute_desc;This character has requested a personal tribute from his realm.;;;;;;;;;;;;;x
@@ -424,7 +431,6 @@ bureau_decrease_05_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 0.
 bureau_decrease_1_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 1%;;;;;;;;;;;;;x
 bureau_decrease_2_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 2%;;;;;;;;;;;;;x
 bureau_decrease_3_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 3%;;;;;;;;;;;;;x
-bureau_decrease_5_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
 bureau_decrease_5_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 7%;;;;;;;;;;;;;x
 bureau_decrease_10_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 10%;;;;;;;;;;;;;x
 
@@ -435,11 +441,11 @@ opinion_overstepped_boundary;Overstepped Boundaries;;;;;;;;;;;;;x
 
 #Militarization
 militarization;Militarization ([From.PrimaryTitle.militarization_number.GetValue]%);;;;;;;;;;;;;x
-militarization_desc;Militarization measures how military-oriented a realm is. As it ebbs and flows, the efficiency and size of your military will move with it. Additionally, being a militarized state harms palace bureaucracy, so it is wise to balance both bureaucratic norms and militarization.\nMilitarization can be §Gincreased§! by:\n§Y*§! Having strong lords\n§Y*§! Having qualified marshals and commanders\n§Y*§! Winning major battles\nMilitarization can be §Rdecreased§! by:\n§Y*§! Having weal lords\n§Y*§! Having weak marshals and commanders\n§Y*§! Bureaucratic Reforms\n§Y*§! Losing major battles;;;;;;;;;;;;;x
+militarization_desc;Militarization measures how military-oriented a realm is. As it ebbs and flows, the efficiency and size of your military will move with it. Additionally, being a militarized state harms palace bureaucracy, so it is wise to balance both bureaucratic norms and militarization.\nMilitarization can be §Gincreased§! by:\n§Y*§! Having strong lords\n§Y*§! Having qualified marshals and commanders\n§Y*§! Winning major battles\nMilitarization can be §Rdecreased§! by:\n§Y*§! Having weak lords\n§Y*§! Having weak marshals and commanders\n§Y*§! Bureaucratic Reforms\n§Y*§! Losing major battles;;;;;;;;;;;;;x
 
 #Militarization Levels
 rejected_militarization;Rejected Militarization;;;;;;;;;;;;;x
-rejected_militarization_desc;Militarization of the Realm has been rejected;;;;;;;;;;;;;x
+
 low_militarization;Low Militarization;;;;;;;;;;;;;x
 low_militarization_desc;The Militarization of the Realm is currently minimal;;;;;;;;;;;;;x
 high_militarization;High Militarization;;;;;;;;;;;;;x
@@ -493,7 +499,7 @@ syncretic_hellenic_desc;This character syncretize their religious belief with th
 amazonios_trait;Amazonios;;;;;;;;;;;;;x
 amazonios_trait_desc;The Warriors of the Amazonios Tribe;;;;;;;;;;;;;x
 stratocrat;Stratocrat;;;;;;;;;;;;;x
-stratocrat_desc;This Character is a Stratocratic Ruler;;;;;;;;;;;;;x
+stratocrat_desc;This character is a Stratocratic ruler;;;;;;;;;;;;;x
 
 #apotheosis
 hero;Hero;;;;;;;;;;;;;x

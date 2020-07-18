@@ -793,13 +793,13 @@ character_event = {
 			5 = {
 				random_list = {
 					30 = {
-						character_event = { id = fkp.402 } #Pursued in all his glory
+						long_character_event = { id = fkp.402 } #Pursued in all his glory
 					}
 					60 = {
-						character_event = { id = fkp.403 } #Pursued disguised as a human
+						long_character_event = { id = fkp.403 } #Pursued disguised as a human
 					}
 					10 = {
-						character_event = { id = fkp.404 } #Pursued disguised as an animal
+						long_character_event = { id = fkp.404 } #Pursued disguised as an animal
 					}
 				}
 				modifier = {
@@ -832,7 +832,7 @@ character_event = {
 }
 
 #Woman gets pursued
-character_event = {
+long_character_event = {
 	id = fkp.402
 	desc = EVTDESCAFKP402 #You accept the god's advances
 	desc = EVTDESCBFKP402 #You deny and get raped
@@ -873,7 +873,7 @@ character_event = {
 }
 
 #Woman gets pursued
-character_event = {
+long_character_event = {
 	id = fkp.403
 	picture = GFX_evt_pursued_by_the_gods_husband
 	
@@ -910,7 +910,7 @@ character_event = {
 		}
 		text = EVTDESCAFKP403 #You get pursued by the god in the form of your husband
 	}
-	desc = EVTDESCBFKP403 #You accept the god's advanced
+	desc = EVTDESCBFKP403 #You accept the god's advances
 	desc = EVTDESCCFKP403 #You deny, he reveals his disguise, and you get raped
 	is_triggered_only = yes
 	
@@ -921,7 +921,7 @@ character_event = {
 }
 
 #Woman gets pursued
-character_event = {
+long_character_event = {
 	id = fkp.404
 	desc = EVTDESCAFKP404 #You accept the god's advances
 	desc = EVTDESCBFKP404 #You deny and you get raped

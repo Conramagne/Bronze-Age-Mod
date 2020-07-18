@@ -88,6 +88,7 @@ laws = {
 		}
 		retinuesize_perc = -0.3
 		castle_vassal_tax_modifier = 0.15
+		vassal_opinion = 10
 	}
 	
 	system_law_1 = { #Royal
@@ -165,6 +166,7 @@ laws = {
 		}
 		retinuesize_perc = 0.3
 		castle_vassal_tax_modifier = -0.15
+		vassal_opinion = -10
 	}
 	
 	foreigner_law_0 = { #Oppressive

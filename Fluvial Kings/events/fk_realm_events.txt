@@ -829,7 +829,7 @@ character_event = {
 	}
 	
 	option = {
-		name = OK
+		name = EVTOPTAFKR102
 		add_character_modifier = {
 			name = imperial_authority
 			duration = -1
@@ -1116,7 +1116,7 @@ character_event = {
 			diplomacy = 15
 			martial = 15
 			stewardship = 15
-			intrigue = 15
+			# intrigue = 15
 			learning = 15
 			trait = genius
 			trait = quick
@@ -1973,7 +1973,7 @@ character_event = {
 			hidden_tooltip = {
 				liege = {
 					primary_title = {
-						change_variable = { which = var_imperial_authority  value = -5 }
+						change_variable = { which = var_imperial_authority  value = -2.5 }
 					}
 				}
 			}
@@ -2014,11 +2014,11 @@ character_event = {
 			}
 		}
 		custom_tooltip = {
-			text = imperial_authority_decrease_7_TT
+			text = imperial_authority_decrease_5_TT
 			hidden_tooltip = {
 				liege = {
 					primary_title = {
-						change_variable = { which = var_imperial_authority  value = -7 }
+						change_variable = { which = var_imperial_authority  value = -5 }
 					}
 				}
 			}
@@ -3160,7 +3160,7 @@ character_event = {
 #Liege Notification
 character_event = {
 	id = fkr.221
-	desc = EVTDESCFKR221
+	desc = EVTDESCFKR219
 	picture = GFX_evt_dark_court
 	only_playable = yes
 	is_triggered_only = yes

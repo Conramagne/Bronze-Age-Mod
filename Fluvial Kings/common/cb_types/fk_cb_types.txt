@@ -318,7 +318,7 @@ fk_conquest = {
 			}
 		}
 		custom_tooltip = {
-			text = has_not_conquered_in_five_years
+			text = has_not_conquered_in_five_years_TT
 			hidden_tooltip = {
 				ROOT = {
 					NOT = {
@@ -791,9 +791,9 @@ fk_conquest = {
 	}
 }
 
-fk_conquest_non_holy_war = {
-	name = CB_NAME_FK_CONQUEST
-	war_name = WAR_NAME_FK_CONQUEST
+fk_county_conquest = {
+	name = CB_NAME_FK_COUNTY_CONQUEST
+	war_name = WAR_NAME_FK_COUNTY_CONQUEST
 	sprite = 9
 	truce_days = 3650
 	is_permanent = yes

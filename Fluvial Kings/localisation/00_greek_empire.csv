@@ -226,7 +226,7 @@ b_therme_adj;Thermean;;;;;;;;;;;;;x
 b_pagae;Pagae;;;;;;;;;;;;;x
 b_pagae_adj;Pagaean;;;;;;;;;;;;;x
 b_panormos;Panormos;;;;;;;;;;;;;x
-b_panormos;Panormosi;;;;;;;;;;;;;x
+b_panormos_adj;Panormosi;;;;;;;;;;;;;x
 b_buprasium;Buprasium;;;;;;;;;;;;;x
 b_buprasium_adj;Buprasi;;;;;;;;;;;;;x
 b_myrsinus;Myrsinus;;;;;;;;;;;;;x
@@ -244,7 +244,7 @@ b_orneae_adj;Orneaean;;;;;;;;;;;;;x
 b_alea;Alea;;;;;;;;;;;;;x
 b_alea_adj;Aleaen;;;;;;;;;;;;;x
 b_letrini;Letrini;;;;;;;;;;;;;x
-b_letrini_adj;Letrinian
+b_letrini_adj;Letrinian;;;;;;;;;;;;;x
 
 ###########Lakonian Baronies###########
 b_lacedemonia;Lákonía;;;;;;;;;;;;;x #sparta
@@ -292,9 +292,9 @@ b_gerenia_adj;Gereniai;;;;;;;;;;;;;x
 b_pherea;Pherea;;;;;;;;;;;;;x
 b_pherea_adj;Pherea;;;;;;;;;;;;;x
 b_pharis;Pharis;;;;;;;;;;;;;x
-b_pharis;Pharisi;;;;;;;;;;;;;x
+b_pharis_adj;Pharisi;;;;;;;;;;;;;x
 b_zarax;Zarax;;;;;;;;;;;;;x
-b_zarax;Zaraxi;;;;;;;;;;;;;x
+b_zarax_adj;Zaraxi;;;;;;;;;;;;;x
 b_taenaron;Taenaron;;;;;;;;;;;;;x
 b_taenaron_adj;Taenaroni;;;;;;;;;;;;;x
 b_teuthrone;Teuthrone;;;;;;;;;;;;;x
@@ -359,8 +359,6 @@ b_peparethos;Peparethos;;;;;;;;;;;;;x
 b_peparethos_adj;Peparethosi;;;;;;;;;;;;;x
 b_aphidnaea;Aphidnaea;;;;;;;;;;;;;x
 b_aphidnaea_adj;Aphidnaean;;;;;;;;;;;;;x
-b_ramnous;Ramnous;;;;;;;;;;;;;x
-b_ramnous_adj;Ramnousi;;;;;;;;;;;;;x
 b_thespiae;Thespiae;;;;;;;;;;;;;x
 b_thespiae_adj;Thespiaean;;;;;;;;;;;;;x
 b_thisbe;Thisbe;;;;;;;;;;;;;x
@@ -368,7 +366,7 @@ b_thisbe_adj;Thisbean;;;;;;;;;;;;;x
 b_onchestus;Onchestus;;;;;;;;;;;;;x
 b_onchestus_adj;Onchesti;;;;;;;;;;;;;x
 b_kerynthos;Kerynthos;;;;;;;;;;;;;x
-b_kerynthos;Kerynthosi;;;;;;;;;;;;;x
+b_kerynthos_adj;Kerynthosi;;;;;;;;;;;;;x
 b_chalkis;Chalkis;;;;;;;;;;;;;x
 b_chalkis_adj;Chalkisi;;;;;;;;;;;;;x
 
