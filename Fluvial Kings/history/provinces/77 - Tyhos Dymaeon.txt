@@ -1,0 +1,9 @@
+title=c_tyhos
+
+max_settlements = 2
+b_tyhos=castle
+# b_letrini=city
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

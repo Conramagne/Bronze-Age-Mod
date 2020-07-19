@@ -74,6 +74,12 @@ e_greek_empire = {
 				color2 = { 255 255 255 }
 				
 				b_salamis = {}
+			}
+			c_aigina = {
+				color = { 100 150 209 }
+				color2 = { 255 255 255 }
+				
+				b_aigina = {}
 				b_aphaea = {}
 			}
 		}
@@ -81,7 +87,7 @@ e_greek_empire = {
 			color={ 47 150 209 }
 			color2={ 255 255 255 }
 	
-			capital = 74 #Elis
+			capital = 75 #Elis
 			
 			c_elis = {
 				color = { 47 61 100 }
@@ -118,7 +124,7 @@ e_greek_empire = {
 			color={ 120 136 188 }
 			color2={ 255 255 255 }
 	
-			capital = 79 #Orchomenos Arcadia
+			capital = 80 #Orchomenos Arcadia
 			
 			c_kleitor = {
 				color = { 120 136 188 }
@@ -156,7 +162,7 @@ e_greek_empire = {
 			color={ 96 142 166 }
 			color2={ 255 255 255 }
 	
-			capital = 82 #Argos
+			capital = 83 #Argos
 			
 			c_argos = {
 				color = { 96 142 166 }
@@ -190,7 +196,7 @@ e_greek_empire = {
 		color = { 43 140 21 }
 		color2 = { 255 255 255 }
 		
-		capital = 85 # Sparta
+		capital = 86 # Sparta
 		
 		#culture = manden
 		
@@ -237,7 +243,7 @@ e_greek_empire = {
 			color = { 50 162 163 }
 			color2 = { 255 255 255 }
 	
-			capital = 89 # Kythera
+			capital = 90 # Kythera
 			
 			c_kastri = {
 				color = { 50 162 163 }
@@ -252,7 +258,7 @@ e_greek_empire = {
 			color = { 81 161 171 }
 			color2 = { 255 255 255 }
 	
-			capital = 92 #Pylos
+			capital = 93 #Pylos
 			
 			achaean = "Pylos"
 			
@@ -301,7 +307,7 @@ e_greek_empire = {
 			color = { 147 183 120 }
 			color2 = { 255 255 255 }
 	
-			capital = 94 # Athens
+			capital = 95 # Athens
 			
 			c_attica = {
 				color = { 147 183 120 }
@@ -341,7 +347,7 @@ e_greek_empire = {
 			color = { 49 95 15 }
 			color2 = { 255 255 255 }
 	
-			capital = 98 # Platea
+			capital = 99 # Platea
 			
 			c_leuctra = {
 				color = { 49 95 15 }
@@ -379,7 +385,7 @@ e_greek_empire = {
 			color = { 177 248 125 }
 			color2 = { 255 255 255 }
 	
-			capital = 103 # Eretria
+			capital = 104 # Eretria
 			
 			c_dium = {
 				color = { 177 248 125 }
@@ -417,13 +423,13 @@ e_greek_empire = {
 		color = { 237 98 54 }
 		color2 = { 255 255 255 }
 		
-		capital = 106 # Knossos
+		capital = 107 # Knossos
 		
 		d_knossos = { 
 			color = { 237 98 54 }
 			color2 = { 255 255 255 }
 	
-			capital = 106 # Knossos
+			capital = 107 # Knossos
 			
 			c_knossos = {
 				color = { 237 98 54 }
@@ -466,7 +472,7 @@ e_greek_empire = {
 			color = { 255 195 87 }
 			color2 = { 255 255 255 }
 	
-			capital = 110 # Malia
+			capital = 111 # Malia
 			
 			c_malia = {
 				color = { 255 195 87 }
@@ -491,13 +497,13 @@ e_greek_empire = {
 		color = { 157 155 95 }
 		color2 = { 255 255 255 }
 		
-		capital = 112 # Kalydon
+		capital = 113 # Kalydon
 		
 		d_ozolian_lokris = { 
 			color = { 157 155 95 }
 			color2 = { 255 255 255 }
 	
-			capital = 112 # Kalydon
+			capital = 113 # Kalydon
 			
 			c_kalydon = {
 				color = { 157 155 95 }
@@ -528,7 +534,7 @@ e_greek_empire = {
 			color = { 100 195 47 }
 			color2 = { 255 255 255 }
 	
-			capital = 115 # Samos
+			capital = 116 # Samos
 			
 			c_kefalonia = {
 				color = { 100 195 47 }
@@ -556,7 +562,7 @@ e_greek_empire = {
 			color = { 67 0 200 }
 			color2 = { 255 255 255 }
 	
-			capital = 118 # Kyparissos
+			capital = 119 # Kyparissos
 			
 			c_delphi = {
 				color = { 67 0 200 }
@@ -577,7 +583,7 @@ e_greek_empire = {
 			color = { 143 0 150 }
 			color2 = { 255 255 255 }
 	
-			capital = 120 # Malia
+			capital = 121 # Malia
 			
 			c_lamia = {
 				color = { 143 0 150 }
@@ -606,7 +612,7 @@ e_greek_empire = {
 			color = { 67 0 255 }
 			color2 = { 255 255 255 }
 	
-			capital = 123 # Stratos
+			capital = 124 # Stratos
 			
 			c_stratos = {
 				color = { 67 0 255 }

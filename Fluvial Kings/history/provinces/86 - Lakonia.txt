@@ -1,0 +1,11 @@
+title=c_lacedemonia
+
+max_settlements= 4
+b_lacedemonia=castle
+b_amyclae=temple
+b_menelaeion=city
+# b_pharis=city
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

@@ -1,0 +1,12 @@
+title=c_argos
+
+max_settlements= 5
+b_argos=castle
+b_tiryns=city
+b_dhendra=castle
+# b_asine=temple
+# b_lerna=city
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

@@ -1,9 +1,0 @@
-title=c_olympia
-
-max_settlements= 2
-b_pisa =castle
-b_olympia=temple
-
-culture=achaean
-religion=pantes_theoi
-terrain=plains

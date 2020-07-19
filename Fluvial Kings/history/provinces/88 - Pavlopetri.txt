@@ -1,0 +1,10 @@
+title=c_pavlopetri
+
+max_settlements=3
+b_pavlopetri=castle
+b_epidauros_limera=city
+# b_zarax=temple
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

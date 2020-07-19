@@ -1,0 +1,10 @@
+title=c_orchomenus
+
+max_settlements= 3
+b_orchomenos=castle
+b_opus=city
+# b_cynus=temple
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

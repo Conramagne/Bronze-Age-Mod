@@ -1,0 +1,10 @@
+title=c_lavrion
+
+max_settlements= 3
+b_lavrion=castle
+# b_perati=city
+b_sounio=temple
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

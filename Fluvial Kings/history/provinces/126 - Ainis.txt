@@ -1,0 +1,8 @@
+title=c_ainis
+
+max_settlements= 1
+b_herakleia=castle
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

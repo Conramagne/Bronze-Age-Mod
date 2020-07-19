@@ -1,8 +1,0 @@
-title=c_kopai
-
-max_settlements= 1
-b_kopai=castle
-
-culture=achaean
-religion=pantes_theoi
-terrain=plains

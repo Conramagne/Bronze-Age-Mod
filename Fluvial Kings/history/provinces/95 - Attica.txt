@@ -1,0 +1,11 @@
+title=c_attica
+
+max_settlements= 4
+b_athens=castle
+b_penteli=city
+b_brauron=temple
+# b_pireas=city
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

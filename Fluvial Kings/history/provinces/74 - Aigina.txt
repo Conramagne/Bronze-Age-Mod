@@ -1,0 +1,9 @@
+title=c_aigina
+
+max_settlements= 2
+b_aigina=castle
+b_aphaea=temple
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

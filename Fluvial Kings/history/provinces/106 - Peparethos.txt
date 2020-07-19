@@ -1,0 +1,8 @@
+title=c_peparethos
+
+max_settlements= 1
+b_peparethos=castle
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

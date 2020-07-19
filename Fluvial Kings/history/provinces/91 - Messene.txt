@@ -1,0 +1,10 @@
+title=c_messene
+
+max_settlements= 3
+b_messene=castle
+b_oechalia=city
+# b_corone=temple
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

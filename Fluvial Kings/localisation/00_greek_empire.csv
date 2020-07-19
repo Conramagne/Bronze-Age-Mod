@@ -78,6 +78,8 @@ c_aegion;Aigio;;;;;;;;;;;;;x
 c_aegion_adj;Aegionite;;;;;;;;;;;;;x
 c_salamis;Salamína;;;;;;;;;;;;;x
 c_salamis_adj;Salamite;;;;;;;;;;;;;x
+c_aigina;Aígina;;;;;;;;;;;;;x
+c_aigina_adj;Aíginan;;;;;;;;;;;;;x
 c_elis;Elis;;;;;;;;;;;;;x
 c_elis_adj;Elisite;;;;;;;;;;;;;x
 c_olympia;Olympia;;;;;;;;;;;;;x
@@ -208,6 +210,8 @@ b_patra;Pátra;;;;;;;;;;;;;x
 b_patra_adj;Pátran;;;;;;;;;;;;;x
 b_salamis;Salamína;;;;;;;;;;;;;x
 b_salamis_adj;Salamite;;;;;;;;;;;;;x
+b_aigina;Aígina;;;;;;;;;;;;;x
+b_aigina_adj;Aíginan;;;;;;;;;;;;;x
 b_aphaea;Aphaea;;;;;;;;;;;;;x
 b_aphaea_adj;Aphaeaian;;;;;;;;;;;;;x
 b_elis;Elis;;;;;;;;;;;;;x

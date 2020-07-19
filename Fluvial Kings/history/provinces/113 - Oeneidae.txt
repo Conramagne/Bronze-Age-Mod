@@ -1,9 +1,0 @@
-title=c_oeneidae
-
-max_settlements= 2
-b_oeneidae=castle
-#b_astakos=city
-
-culture=achaean
-religion=pantes_theoi
-terrain=plains

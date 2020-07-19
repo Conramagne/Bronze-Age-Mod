@@ -1,0 +1,11 @@
+title=c_tegea
+
+max_settlements= 4
+b_tegea=castle
+b_mantineia=city
+# b_oresthesium=city
+# b_thyrae=temple
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

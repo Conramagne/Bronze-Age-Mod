@@ -1,0 +1,10 @@
+title=c_delphi
+
+max_settlements= 3
+b_kyparissos=castle
+b_delphi=temple
+#b_alyzia=city
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

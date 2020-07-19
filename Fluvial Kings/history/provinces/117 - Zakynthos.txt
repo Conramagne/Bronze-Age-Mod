@@ -1,8 +1,0 @@
-title=c_zakynthos
-
-max_settlements= 1
-b_zakynthos=castle
-
-culture=achaean
-religion=pantes_theoi
-terrain=plains

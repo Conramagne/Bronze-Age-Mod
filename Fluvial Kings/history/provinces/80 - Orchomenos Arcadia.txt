@@ -1,0 +1,9 @@
+title=c_orchomenus_ar
+
+max_settlements= 2
+b_orchomenus_ar=castle
+b_hypsus=city
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

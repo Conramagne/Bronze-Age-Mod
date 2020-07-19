@@ -1,0 +1,9 @@
+title=c_stratos
+
+max_settlements= 2
+b_stratos=castle
+b_agrinion=city
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains
