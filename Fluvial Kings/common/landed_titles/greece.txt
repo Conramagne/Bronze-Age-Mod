@@ -360,13 +360,11 @@ e_greek_empire = {
 				b_hyria = {}
 				b_thespiae = {}
 			}
-			c_orchomenus = {
+			c_kopai = {
 				color = { 49 100 15 }
 				color2 = { 255 255 255 }
 				
-				b_opus = {}
-				b_orchomenos = {}
-				b_cynus = {}
+				b_kopai = {}
 			}
 			c_chaeronea = {
 				color = { 73 102 52 }
@@ -486,6 +484,148 @@ e_greek_empire = {
 				b_zakros = {}
 				b_itanos = {}
 				b_palekastro = {}
+			}
+		}
+	}
+	k_aitolia = {
+		color = { 157 155 95 }
+		color2 = { 255 255 255 }
+		
+		capital = 112 # Kalydon
+		
+		d_ozolian_lokris = { 
+			color = { 157 155 95 }
+			color2 = { 255 255 255 }
+	
+			capital = 112 # Kalydon
+			
+			c_kalydon = {
+				color = { 157 155 95 }
+				color2 = { 255 255 255 }
+				
+				b_kalydon = {}
+				b_kalkhis = {}
+				b_olenos = {}
+			}
+			c_oeneidae = {
+				color={ 95 147 157 }
+				color2={ 255 255 255 }
+				
+				b_oeneidae = {}
+				b_astakos = {}
+			}
+			c_thyrion = {
+				color = { 104 136 86 }
+				color2 = { 255 255 255 }
+				
+				b_thyrion = {}
+				b_alyzia = {}
+				b_phara = {}
+			}
+		}
+		
+		d_samos = { 
+			color = { 100 195 47 }
+			color2 = { 255 255 255 }
+	
+			capital = 115 # Samos
+			
+			c_kefalonia = {
+				color = { 100 195 47 }
+				color2 = { 255 255 255 }
+				
+				b_samos = {}
+				b_pale = {}
+				b_krani = {}
+				b_poros = {}
+			}
+			c_ithake = {
+				color={ 116 182 79 }
+				color2={ 255 255 255 }
+				
+				b_ithake = {}
+			}
+			c_zakynthos = {
+				color={ 117 189 79 }
+				color2={ 255 255 255 }
+				
+				b_zakynthos = {}
+			}
+		}
+		d_phokis = { 
+			color = { 67 0 200 }
+			color2 = { 255 255 255 }
+	
+			capital = 118 # Kyparissos
+			
+			c_delphi = {
+				color = { 67 0 200 }
+				color2 = { 255 255 255 }
+				
+				b_kyparissos = {}
+				b_delphi = {}
+				b_kirra = {}
+			}
+			c_doris = {
+				color={ 0 182 200 }
+				color2={ 255 255 255 }
+				
+				b_nafpaktos = {}
+			}
+		}
+		d_malis = { 
+			color = { 143 0 150 }
+			color2 = { 255 255 255 }
+	
+			capital = 120 # Malia
+			
+			c_lamia = {
+				color = { 143 0 150 }
+				color2 = { 255 255 255 }
+				
+				b_lamia = {}
+				b_alope = {}
+			}
+			c_trakhis = {
+				color={ 0 150 143 }
+				color2={ 255 255 255 }
+				
+				b_trakhis = {}
+				b_thermopylai = {}
+			}
+			c_orchomenus = {
+				color = { 0 200 143 }
+				color2 = { 255 255 255 }
+				
+				b_opus = {}
+				b_orchomenos = {}
+				b_cynus = {}
+			}
+		}
+		d_dolopia = { 
+			color = { 67 0 255 }
+			color2 = { 255 255 255 }
+	
+			capital = 123 # Stratos
+			
+			c_stratos = {
+				color = { 67 0 255 }
+				color2 = { 255 255 255 }
+				
+				b_stratos = {}
+				b_agrinion = {}
+			}
+			c_tymphaca = {
+				color={ 86 131 58 }
+				color2={ 255 255 255 }
+				
+				b_tymphaca = {}
+			}
+			c_ainis = {
+				color={ 110 208 49 }
+				color2={ 255 255 255 }
+				
+				b_herakleia = {}
 			}
 		}
 	}

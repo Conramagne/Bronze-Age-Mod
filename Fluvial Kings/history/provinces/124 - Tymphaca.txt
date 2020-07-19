@@ -1,0 +1,8 @@
+title=c_tymphaca
+
+max_settlements= 1
+b_tymphaca=castle
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

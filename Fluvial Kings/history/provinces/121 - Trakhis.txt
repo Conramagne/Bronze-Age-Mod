@@ -1,0 +1,9 @@
+title=c_trakhis
+
+max_settlements= 2
+b_trakhis=castle
+#b_thermopylai=city
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

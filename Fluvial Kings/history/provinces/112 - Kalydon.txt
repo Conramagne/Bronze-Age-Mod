@@ -1,0 +1,10 @@
+title=c_kalydon
+
+max_settlements= 3
+b_kalydon=castle
+b_kalkhis=city
+b_olenos=temple
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains
