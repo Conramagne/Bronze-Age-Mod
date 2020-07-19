@@ -530,11 +530,11 @@ e_greek_empire = {
 			}
 		}
 		
-		d_samos = { 
+		d_ithake = { 
 			color = { 100 195 47 }
 			color2 = { 255 255 255 }
 	
-			capital = 116 # Samos
+			capital = 117 # Ithake
 			
 			c_kefalonia = {
 				color = { 100 195 47 }
