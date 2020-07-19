@@ -434,6 +434,7 @@ e_greek_empire = {
 			c_knossos = {
 				color = { 237 98 54 }
 				color2 = { 255 255 255 }
+				holy_site = pantes_theoi
 				
 				b_knossos = {}
 				b_amnysos = {}
@@ -636,6 +637,8 @@ e_greek_empire = {
 		}
 	}
 }
+
+#dorian = "Thessalía"
 
 #Titular Titles
 d_amazon = {
