@@ -1,8 +1,6 @@
 ###########Mycenaean and Early Classical Greece###########
 
 ###########Empire Titles###########
-
-
 e_greek_empire;Pan-Akhaios;;;;;;;;;;;;;x
 e_greek_empire_adj;Akhaios;;;;;;;;;;;;;x
 
@@ -12,18 +10,18 @@ k_achaea;Akhaïa;;;;;;;;;;;;;x
 k_achaea_adj;Akhaios;;;;;;;;;;;;;x
 k_lakonia;Lákonía;;;;;;;;;;;;;x
 k_lakonia_adj;Lákon;;;;;;;;;;;;;x
-k_attica;Attica;;;;;;;;;;;;;x #central greece
-k_attica_adj;Attican;;;;;;;;;;;;;x #central greece
+k_attica;Attica;;;;;;;;;;;;;x
+k_attica_adj;Attican;;;;;;;;;;;;;x
 k_aiolia;Aiolía;;;;;;;;;;;;;x
 k_aiolia_adj;Aiolían;;;;;;;;;;;;;x
 k_aitolia;Aitolia;;;;;;;;;;;;;x
 k_aitolia_adj;Aitolian;;;;;;;;;;;;;x
-k_chalcidice;Chalcidice;;;;;;;;;;;;;x
-k_chalcidice_adj;Chalcidician;;;;;;;;;;;;;x
-k_thrace;Thrace;;;;;;;;;;;;;x
-k_thrace_adj;Thracian;;;;;;;;;;;;;x
+k_thraki;Thraki;;;;;;;;;;;;;x
+k_thraki_adj;Thrakian;;;;;;;;;;;;;x
 k_krete;Krete;;;;;;;;;;;;;x
 k_krete_adj;Kretan;;;;;;;;;;;;;x
+k_aegea;Aigaîon Pélagos;;;;;;;;;;;;;x
+k_aegea_adj;Aigaîon Pélagosi;;;;;;;;;;;;;x
 
 ###########Duchy Titles###########
 
@@ -63,6 +61,22 @@ d_malis;Malis;;;;;;;;;;;;;x
 d_malis_adj;Maliei;;;;;;;;;;;;;x
 d_dolopia;Dolopia;;;;;;;;;;;;;x
 d_dolopia_adj;Dolopian;;;;;;;;;;;;;x
+d_thessalia;Thessalía;;;;;;;;;;;;;x
+d_thessalia_adj;Thessalían;;;;;;;;;;;;;x
+d_magnesia;Magnesia;;;;;;;;;;;;;x
+d_magnesia_adj;Magnesian;;;;;;;;;;;;;x
+d_makedonia;Makedonía;;;;;;;;;;;;;x
+d_makedonia_adj;Makedonían;;;;;;;;;;;;;x
+d_chalkidiki;Chalkidiki;;;;;;;;;;;;;x
+d_chalkidiki_adj;Chalkidikian;;;;;;;;;;;;;x
+d_thraki;Thraki;;;;;;;;;;;;;x
+d_thraki_adj;Thrakian;;;;;;;;;;;;;x
+d_kuklades;Kukládes;;;;;;;;;;;;;x
+d_kuklades_adj;Kukládesi;;;;;;;;;;;;;x
+d_voreios_aigaion;Vóreios Aigaîon;;;;;;;;;;;;;x
+d_voreios_aigaion_adj;Vóreios Aigaîonai;;;;;;;;;;;;;x
+d_rhodios;Rhódios;;;;;;;;;;;;;x
+d_rhodios_adj;Rhódiosai;;;;;;;;;;;;;x
 
 ###########Counties Titles###########
 
@@ -184,6 +198,66 @@ c_tymphaea;Tymphaea;;;;;;;;;;;;;x
 c_tymphaea_adj;Tymphaean;;;;;;;;;;;;;x
 c_ainis;Ainis;;;;;;;;;;;;;x
 c_ainis_adj;Ainisai;;;;;;;;;;;;;x
+c_pherae;Pherae;;;;;;;;;;;;;x
+c_pherae_adj;Pheraeni;;;;;;;;;;;;;x
+c_thaumakie;Thaumakie;;;;;;;;;;;;;x
+c_thaumakie_adj;Thaumakien;;;;;;;;;;;;;x
+c_phylakae;Phylakae;;;;;;;;;;;;;x
+c_phylakae_adj;Phylakae;;;;;;;;;;;;;x
+c_methone;Methone;;;;;;;;;;;;;x
+c_methone_adj;Methoneai;;;;;;;;;;;;;x
+c_ormenion;Ormenion;;;;;;;;;;;;;x
+c_ormenion_adj;Ormenionai;;;;;;;;;;;;;x
+c_kashanaia;Kashanaia;;;;;;;;;;;;;x
+c_kashanaia_adj;Kashanaian;;;;;;;;;;;;;x
+c_meliboia;Meliboia;;;;;;;;;;;;;x
+c_meliboia_adj;Meliboia;;;;;;;;;;;;;x
+c_pieres;Pieres;;;;;;;;;;;;;x
+c_pieres_adj;Pieresai;;;;;;;;;;;;;x
+c_olumpos;Olumpos;;;;;;;;;;;;;x
+c_olumpos_adj;Olumposai;;;;;;;;;;;;;x
+c_trikka;Trikka;;;;;;;;;;;;;x
+c_trikka_adj;Trikkai;;;;;;;;;;;;;x
+c_kyphos;Kyphos;;;;;;;;;;;;;x
+c_kyphos_adj;Kyphosai;;;;;;;;;;;;;x
+c_gyrton;Gyrton;;;;;;;;;;;;;x
+c_gyrton_adj;Gyrtonai;;;;;;;;;;;;;x
+c_olynthos;Olynthos;;;;;;;;;;;;;x
+c_olynthos_adj;Olynthos;;;;;;;;;;;;;x
+c_bisaltia;Bisaltia;;;;;;;;;;;;;x
+c_bisaltia_adj;Bisaltia;;;;;;;;;;;;;x
+c_pallene;Pallene;;;;;;;;;;;;;x
+c_pallene_adj;Pallene;;;;;;;;;;;;;x
+c_chalkidiki;Chalkidiki;;;;;;;;;;;;;x
+c_chalkidiki_adj;Chalkidiki;;;;;;;;;;;;;x
+c_ismaros;Ismaros;;;;;;;;;;;;;x
+c_ismaros_adj;Ismarosai;;;;;;;;;;;;;x
+c_chersonesos;Chersonesos;;;;;;;;;;;;;x
+c_chersonesos_adj;Chersonesosai;;;;;;;;;;;;;x
+c_delos;Delos;;;;;;;;;;;;;x
+c_delos_adj;Delosai;;;;;;;;;;;;;x
+c_naxos;Naxos;;;;;;;;;;;;;x
+c_naxos_adj;Naxosai;;;;;;;;;;;;;x
+c_thera;Thera;;;;;;;;;;;;;x
+c_thera_adj;Theran;;;;;;;;;;;;;x
+c_melos;Melos;;;;;;;;;;;;;x
+c_melos_adj;Melosai;;;;;;;;;;;;;x
+c_samothraki;Samothraki;;;;;;;;;;;;;x
+c_samothraki_adj;Samothrakian;;;;;;;;;;;;;x
+c_lemnos;Lemnos;;;;;;;;;;;;;x
+c_lemnos_adj;Lemnosai;;;;;;;;;;;;;x
+c_pityoussa;Pityoussa;;;;;;;;;;;;;x
+c_pityoussa_adj;Pityoussani;;;;;;;;;;;;;x
+c_skyros;Skyros;;;;;;;;;;;;;x
+c_skyros_adj;Skyrosai;;;;;;;;;;;;;x
+c_rhodios;Rhódios;;;;;;;;;;;;;x
+c_rhodios_adj;Rhódios;;;;;;;;;;;;;x
+c_lyndos;Lyndos;;;;;;;;;;;;;x
+c_lyndos_adj;Lyndos;;;;;;;;;;;;;x
+c_krapathos;Krapathos;;;;;;;;;;;;;x
+c_krapathos_adj;Krapathos;;;;;;;;;;;;;x
+c_noties_sporades;Nóties Sporádes;;;;;;;;;;;;;x
+c_noties_sporades_adj;Nóties Sporádes;;;;;;;;;;;;;x
 
 ###########Achaean Baronies###########
 b_mycenae;Mykenae;;;;;;;;;;;;;x
@@ -521,9 +595,67 @@ b_chersonissos;Chersonissos;;;;;;;;;;;;;x
 b_chersonissos_adj;Chersonissi;;;;;;;;;;;;;x
 
 ###########Aiolían Baronies###########
-
-
-###########Chalcidician Baronies###########
-
+b_pherae;Pherae;;;;;;;;;;;;;x
+b_pherae_adj;Pheraeni;;;;;;;;;;;;;x
+b_thaumakie;Thaumakie;;;;;;;;;;;;;x
+b_thaumakie_adj;Thaumakien;;;;;;;;;;;;;x
+b_phylakae;Phylakae;;;;;;;;;;;;;x
+b_phylakae_adj;Phylakae;;;;;;;;;;;;;x
+b_methone;Methone;;;;;;;;;;;;;x
+b_methone_adj;Methoneai;;;;;;;;;;;;;x
+b_ormenion;Ormenion;;;;;;;;;;;;;x
+b_ormenion_adj;Ormenionai;;;;;;;;;;;;;x
+b_kashanaia;Kashanaia;;;;;;;;;;;;;x
+b_kashanaia_adj;Kashanaian;;;;;;;;;;;;;x
+b_meliboia;Meliboia;;;;;;;;;;;;;x
+b_meliboia_adj;Meliboia;;;;;;;;;;;;;x
+b_pieres;Pieres;;;;;;;;;;;;;x
+b_pieres_adj;Pieresai;;;;;;;;;;;;;x
+b_olumpos;Olumpos;;;;;;;;;;;;;x
+b_olumpos_adj;Olumposai;;;;;;;;;;;;;x
+b_trikka;Trikka;;;;;;;;;;;;;x
+b_trikka_adj;Trikkai;;;;;;;;;;;;;x
+b_kyphos;Kyphos;;;;;;;;;;;;;x
+b_kyphos_adj;Kyphosai;;;;;;;;;;;;;x
+b_gyrton;Gyrton;;;;;;;;;;;;;x
+b_gyrton_adj;Gyrtonai;;;;;;;;;;;;;x
 
 ###########Thracian Baronies###########
+b_olynthos;Olynthos;;;;;;;;;;;;;x
+b_olynthos_adj;Olynthos;;;;;;;;;;;;;x
+b_bisaltia;Bisaltia;;;;;;;;;;;;;x
+b_bisaltia_adj;Bisaltia;;;;;;;;;;;;;x
+b_pallene;Pallene;;;;;;;;;;;;;x
+b_pallene_adj;Pallene;;;;;;;;;;;;;x
+b_chalkidiki;Chalkidiki;;;;;;;;;;;;;x
+b_chalkidiki_adj;Chalkidiki;;;;;;;;;;;;;x
+b_ismaros;Ismaros;;;;;;;;;;;;;x
+b_ismaros_adj;Ismarosai;;;;;;;;;;;;;x
+b_chersonesos;Chersonesos;;;;;;;;;;;;;x
+b_chersonesos_adj;Chersonesosai;;;;;;;;;;;;;x
+
+###########Aegean Baronies###########
+b_delos;Delos;;;;;;;;;;;;;x
+b_delos_adj;Delosai;;;;;;;;;;;;;x
+b_naxos;Naxos;;;;;;;;;;;;;x
+b_naxos_adj;Naxosai;;;;;;;;;;;;;x
+b_thera;Thera;;;;;;;;;;;;;x
+b_thera_adj;Theran;;;;;;;;;;;;;x
+b_melos;Melos;;;;;;;;;;;;;x
+b_melos_adj;Melosai;;;;;;;;;;;;;x
+b_samothraki;Samothraki;;;;;;;;;;;;;x
+b_samothraki_adj;Samothrakian;;;;;;;;;;;;;x
+b_lemnos;Lemnos;;;;;;;;;;;;;x
+b_lemnos_adj;Lemnosai;;;;;;;;;;;;;x
+b_pityoussa;Pityoussa;;;;;;;;;;;;;x
+b_pityoussa_adj;Pityoussani;;;;;;;;;;;;;x
+b_skyros;Skyros;;;;;;;;;;;;;x
+b_skyros_adj;Skyrosai;;;;;;;;;;;;;x
+b_rhodios;Rhódios;;;;;;;;;;;;;x
+b_rhodios_adj;Rhódios;;;;;;;;;;;;;x
+b_lyndos;Lyndos;;;;;;;;;;;;;x
+b_lyndos_adj;Lyndos;;;;;;;;;;;;;x
+b_krapathos;Krapathos;;;;;;;;;;;;;x
+b_krapathos_adj;Krapathos;;;;;;;;;;;;;x
+b_noties_sporades;Nóties Sporádes;;;;;;;;;;;;;x
+b_noties_sporades_adj;Nóties Sporádes;;;;;;;;;;;;;x
