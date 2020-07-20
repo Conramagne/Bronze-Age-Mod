@@ -2,7 +2,7 @@ title=c_kalydon
 
 max_settlements= 3
 b_kalydon=castle
-b_kalkhis=city
+b_khalkis=city
 b_olenos=temple
 
 culture=achaean

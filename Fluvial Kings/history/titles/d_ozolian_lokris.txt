@@ -2,6 +2,15 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=k_aitolia
-}
+# 2461.1.1={
+	# holder = 2101708 #Porthaon
+# }
+# 2491.1.1={
+	# holder = 2101707 #Oineús
+# }
+# 2511.1.1={
+	# holder = 2101701 #Andraimon
+# }
+# 2521.1.1={
+	# holder = 2101700 #Thoas
+# }

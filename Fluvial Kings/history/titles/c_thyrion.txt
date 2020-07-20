@@ -2,6 +2,6 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_ozolian_lokris
+2517.1.1={
+	holder = 2101900 #Eurutos
 }

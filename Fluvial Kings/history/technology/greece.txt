@@ -87,9 +87,10 @@ technology = {
 	titles = {
 		d_elis
 		d_euvoia
-		d_lasynthos
 		d_kydonia
 		d_kythera
+		d_lasynthos
+		d_malis
 		d_salamis
 	}
 	
@@ -97,13 +98,16 @@ technology = {
 		military = 0.2
 		economy = 0.1
 		culture = 0.15
-		
+		TECH_INFANTRY = 1
+		TECH_MELEE = 0.75
+		TECH_FORTIFICATIONS_CONSTRUCTION = 1
+		TECH_CASTLE_CONSTRUCTION = 1
 	}
 	
 	3160 = {
-		military = 3.5
-		economy = 3.5
-		culture = 3.5
+		military = 4
+		economy = 4
+		culture = 4
 	}
 }
 
@@ -111,17 +115,24 @@ technology = {
 technology = {
 	titles = {
 		d_arcadia
+		d_ithake
+		d_ozolian_lokris
+		d_phokis
 	}
 
 	2527 = {
 		military = 0.1
 		economy = 0.1
 		culture = 0.1
+		TECH_INFANTRY = 1
+		TECH_MELEE = 0.75
+		TECH_FORTIFICATIONS_CONSTRUCTION = 1
+		TECH_CASTLE_CONSTRUCTION = 1
 
 	}
 	3160 = {
-		military = 2.5
-		economy = 2.5
-		culture = 2.5
+		military = 4
+		economy = 4
+		culture = 4
 	}
 }

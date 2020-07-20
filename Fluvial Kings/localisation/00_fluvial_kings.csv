@@ -183,13 +183,15 @@ WAR_NAME_FK_CONQUEST;$ORDER$ Conquest War for $OTHER_TITLE$;;;;;;;;;;;;;x
 CB_NAME_FK_COUNTY_CONQUEST;County Conquest War for [Title.GetBaseName];;;;;;;;;;;;;x
 WAR_NAME_FK_COUNTY_CONQUEST;$ORDER$ County Conquest War for $OTHER_TITLE$;;;;;;;;;;;;;x
 
+conquest_cooldown;Conquest Cooldown;;;;;;;;;;;;;x
+
 ###########Bloodline Localization###########
 god_zeus_bloodline; The Blood of Zeus;;;;;;;;;;;;;x
-god_zeus_bloodline_desc;Zeus, Great Father of the Olympians, overthrew his father Cronos with his siblings to start the age of the Olympians. Zeus in his glory has slept with many across [e_greek_empire.GetName].;;;;;;;;;;;;;x
+god_zeus_bloodline_desc;"...but the son of Kronos, even Zeus that beareth the aegis, hath brought sorrows upon me, in that he casteth me into the midst of fruitless strifes and wranglings.";;;;;;;;;;;;;x
 god_poseidaon_bloodline; The Blood of Poseidaon;;;;;;;;;;;;;x
-god_poseidaon_bloodline_desc;Poseidaon, who has the hottest temper among the Olympians, He like Zeus has many children with mortal woman whom now reside across [e_greek_empire.GetName] as mighty rulers.;;;;;;;;;;;;;x
+god_poseidaon_bloodline_desc;"Forthwith then he went down from the rugged mount, striding forth with swift footsteps, and the high mountains trembled beneath the immortal feet of Poseidaon as he went.";;;;;;;;;;;;;x
 god_ares_bloodline; The Blood of Ares;;;;;;;;;;;;;x
-god_ares_bloodline_desc;Ares, Fierce Warrior among the Olympians, the raging spirit of the battlefield. In Martial Matters and whose combat prowess shines across the whole battlefield.;;;;;;;;;;;;;x
+god_ares_bloodline_desc;“Ares, Ares, thou bane of mortals, thou blood-stained stormer of walls, wilt thou not now enter into the battle...";;;;;;;;;;;;;x
 heroic_bloodline_pantes_theoi;The Blood of a Hero;;;;;;;;;;;;;x
 heroic_bloodline_pantes_theoi_desc;A Bloodline of a Hero to [e_greek_empire.GetName] and thier people.;;;;;;;;;;;;;x
 
@@ -212,6 +214,72 @@ HEAD_KOHEN_GADOL;Kohen Gadol;;;;;;;;;;;;;x
 HEAD_SALLISANKUNI;Sallisankuni;;;;;;;;;;;;;x
 
 ###########Title Localisation###########
+emperor_hittite;Salihassu;;;;;;;;;;;;;x
+emperor_female_hittite;Tawananna;;;;;;;;;;;;;x
+king_hittite;Hassu;;;;;;;;;;;;;x
+king_female_hittite;Hassusara;;;;;;;;;;;;;x
+duke_hittite;Maniyahha;;;;;;;;;;;;;x
+duke_female_hittite;Maniyahhasara;;;;;;;;;;;;;x
+count_hittite;Isha;;;;;;;;;;;;;x
+count_female_hittite;Ishassara;;;;;;;;;;;;;x
+baron_hittite;Happira-Isha;;;;;;;;;;;;;x
+baron_female_hittite;Happira-Ishassara;;;;;;;;;;;;;x
+
+tribal_emperor_hittite;Salihassu;;;;;;;;;;;;;x
+tribal_emperor_female_hittite;Tawananna;;;;;;;;;;;;;x
+tribal_king_hittite;Hassu;;;;;;;;;;;;;x
+tribal_king_female_hittite;Hassusara;;;;;;;;;;;;;x
+tribal_duke_hittite;Maniyahha;;;;;;;;;;;;;x
+tribal_duke_female_hittite;Maniyahhasara;;;;;;;;;;;;;x
+tribal_count_hittite;Isha;;;;;;;;;;;;;x
+tribal_count_female_hittite;Ishassara;;;;;;;;;;;;;x
+tribal_baron_hittite;Hassatarisha;;;;;;;;;;;;;x
+tribal_baron_female_hittite;Hassatarishassara;;;;;;;;;;;;;x
+
+emperor_pala;Salihassu;;;;;;;;;;;;;x
+emperor_female_pala;Tawananna;;;;;;;;;;;;;x
+king_pala;Hassu;;;;;;;;;;;;;x
+king_female_pala;Hassusara;;;;;;;;;;;;;x
+duke_pala;Maniyahha;;;;;;;;;;;;;x
+duke_female_pala;Maniyahhasara;;;;;;;;;;;;;x
+count_pala;Isha;;;;;;;;;;;;;x
+count_female_pala;Ishassara;;;;;;;;;;;;;x
+baron_pala;Happira-Isha;;;;;;;;;;;;;x
+baron_female_pala;Happira-Ishassara;;;;;;;;;;;;;x
+
+tribal_emperor_pala;Salihassu;;;;;;;;;;;;;x
+tribal_emperor_female_pala;Tawananna;;;;;;;;;;;;;x
+tribal_king_pala;Hassu;;;;;;;;;;;;;x
+tribal_king_female_pala;Hassusara;;;;;;;;;;;;;x
+tribal_duke_pala;Maniyahha;;;;;;;;;;;;;x
+tribal_duke_female_pala;Maniyahhasara;;;;;;;;;;;;;x
+tribal_count_pala;Isha;;;;;;;;;;;;;x
+tribal_count_female_pala;Ishassara;;;;;;;;;;;;;x
+tribal_baron_pala;Hassatarisha;;;;;;;;;;;;;x
+tribal_baron_female_pala;Hassatarishassara;;;;;;;;;;;;;x
+
+emperor_luwian;Surhantawatt;;;;;;;;;;;;;x
+emperor_female_luwian;Surhantawattsara;;;;;;;;;;;;;x
+king_luwian;Hantawatt;;;;;;;;;;;;;x
+king_female_luwian;Hassusara;;;;;;;;;;;;;x
+duke_luwian;Tarrawannis;;;;;;;;;;;;;x
+duke_female_luwian;Maniyahhasara;;;;;;;;;;;;;x
+count_luwian;Isha;;;;;;;;;;;;;x
+count_female_luwian;Ishassara;;;;;;;;;;;;;x
+baron_luwian;Happira-Isha;;;;;;;;;;;;;x
+baron_female_luwian;Happira-Ishassara;;;;;;;;;;;;;x
+
+tribal_emperor_luwian;Surhantawatt;;;;;;;;;;;;;x
+tribal_emperor_female_luwian;Surhantawattsara;;;;;;;;;;;;;x
+tribal_king_luwian;Hantawatt;;;;;;;;;;;;;x
+tribal_king_female_luwian;Hassusara;;;;;;;;;;;;;x
+tribal_duke_luwian;Tarrawannis;;;;;;;;;;;;;x
+tribal_duke_female_luwian;Maniyahhasara;;;;;;;;;;;;;x
+tribal_count_luwian;Isha;;;;;;;;;;;;;x
+tribal_count_female_luwian;Ishassara;;;;;;;;;;;;;x
+tribal_baron_luwian;Hassatarisha;;;;;;;;;;;;;x
+tribal_baron_female_luwian;Hassatarishassara;;;;;;;;;;;;;x
+
 count_achaean;Prokoreter;;;;;;;;;;;;;x
 count_female_achaean;Klawiphoros;;;;;;;;;;;;;x
 duke_achaean;Koreter;;;;;;;;;;;;;x
@@ -249,6 +317,14 @@ king_female_dorian;Basilissa;;;;;;;;;;;;;x #placeholder
 emperor_dorian;Hegemon;;;;;;;;;;;;;x #placeholder
 emperor_female_dorian;Hegemonia;;;;;;;;;;;;;x #placeholder
 
+###########Religious Title Localisation###########
+temple_barony_of_pihassasi;Temple of;;;;;;;;;;;;;x
+temple_baron_pihassasi;Priest;;;;;;;;;;;;;x
+temple_baron_female_pihassasi;Priestess;;;;;;;;;;;;;x
+
+temple_barony_of_hellenic;Temple of;;;;;;;;;;;;;x
+temple_baron_hellenic;Priest;;;;;;;;;;;;;x
+temple_baron_female_hellenic;Priestess;;;;;;;;;;;;;x
 
 ###########Nicknames###########
 nick_anax_andron;Anax Andron;;;;;;;;;;;;;x
@@ -303,6 +379,16 @@ opinion_of_midas_touched;Opinion of Midas Touched;;;;;;;;;;;;;x
 opinion_of_midas_touched_EXPLANATION; (opinion on Midas Touched);;;;;;;;;;;;;x
 opinion_of_strong;Opinion of Strong;;;;;;;;;;;;;x
 opinion_of_strong_EXPLANATION; (opinion on Strong);;;;;;;;;;;;;x
+opinion_of_misguided_warrior;Opinion of Misguided Warrior;;;;;;;;;;;;;x
+opinion_of_misguided_warrior_EXPLANATION; (opinion on Misguided Warrior);;;;;;;;;;;;;x
+opinion_of_brilliant_strategist;Opinion of Brilliant Strategist;;;;;;;;;;;;;x
+opinion_of_brilliant_strategist_EXPLANATION; (opinion on Brilliant Strategist);;;;;;;;;;;;;x
+opinion_of_duelist;Opinion of Duelist;;;;;;;;;;;;;x
+opinion_of_duelist_EXPLANATION; (opinion on Duelist);;;;;;;;;;;;;x
+opinion_of_strong;Opinion of Strong;;;;;;;;;;;;;x
+opinion_of_strong_EXPLANATION; (opinion on Strong);;;;;;;;;;;;;x
+opinion_of_strategist;Opinion of Strategist;;;;;;;;;;;;;x
+opinion_of_strategist_EXPLANATION; (opinion on Strategist);;;;;;;;;;;;;
 
 #trait opinions
 misguided_warrior_opinion;Misguided Warrior Character Opinion;;;;;;;;;;;;;x
@@ -586,6 +672,21 @@ aphrodite_curse_1;Aphrodite's Jealousy;;;;;;;;;;;;;x
 aphrodite_curse_2;Aphrodite's Wrath;;;;;;;;;;;;;x
 aphrodite_curse_3;The Wicked Trials of Aphrodite;;;;;;;;;;;;;x
 
+###########Minor Titles###########
+
+title_chief_of_the_royal_bodyguard;Chief of the Royal Bodyguard;;;;;;;;;;;;;x
+title_overseer_of_the_golden_grooms;Overseer of the Golden Grooms;;;;;;;;;;;;;x
+title_chief_of_the_wooden_tablet_scribes;Chief of the Wooden Tablet Scribes;;;;;;;;;;;;;x
+title_chief_of_the_palace_servants;Chief of the Palace Servants;;;;;;;;;;;;;x
+title_chief_of_the_storehouse;Chief of the Storehouse;;;;;;;;;;;;;x
+title_chief_of_the_scribes;Chief of the Scribes;;;;;;;;;;;;;x
+
 ###########Miscellaneous###########
+amazonian_marriage;[Root.Culture.GetName] Marriage;;;;;;;;;;;;;x
+amazonian_marriage_desc;As an [Root.Culture.GetName], you must matrilineally wed another [Root.Culture.GetName].;;;;;;;;;;;;;x
+
+amazonian_marriage_third_party;[Root.Culture.GetName] Marriage;;;;;;;;;;;;;x
+amazonian_marriage_third_party_desc;As an [Root.Culture.GetName], you can matrilineally wed one of your [Root.Culture.GetName] dependents to another [Root.Culture.GetName].;;;;;;;;;;;;;x
+
 GOVERNMENT_UNIT_BONUS;Government Unit Bonus;;;;;;;;;;;;;x
 BLANK_TITLE;;;;;;;;;;;;;;x

@@ -1,9 +1,9 @@
-title=c_thyrion
+title=c_locris
 
 max_settlements= 3
-b_phara=castle
-#b_thyrion=temple
-#b_alyzia=city
+b_locris=castle
+b_opus=temple
+b_cynus=city
 
 culture=achaean
 religion=pantes_theoi

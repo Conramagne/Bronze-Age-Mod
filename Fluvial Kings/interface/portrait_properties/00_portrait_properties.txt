@@ -1474,6 +1474,7 @@
 			graphical_culture = greekgodgfx
 			NOR = {
 				trait = castor
+				trait = thetis
 			}
 		}
 		modifier = {
@@ -1539,7 +1540,6 @@
 			graphical_culture = greekgodgfx
 			NOR = {
 				trait = minotaur
-				trait = arethousa
 			}
 		}
 		modifier = {
@@ -1550,6 +1550,23 @@
 		}
 	}
 	19 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = achelous
+				trait = arethousa
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	20 = {
 		factor = 1
 		modifier = {
 			factor = 0
@@ -1588,6 +1605,8 @@
 				trait = arethousa
 				trait = cretan_bull
 				trait = minotaur
+				trait = achelous
+				trait = thetis
 			}
 		}
 		modifier = {

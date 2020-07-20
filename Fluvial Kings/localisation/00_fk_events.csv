@@ -101,8 +101,8 @@ switched_devotion;Switched Devotion;;;;;;;;;;;;;x
 contact_pantheon;Pray to the gods of the [Root.Religion.GetFullName] pantheon;;;;;;;;;;;;;x
 contact_pantheon_desc;By praying to the [Root.Religion.GetFullName] pantheon, you wish to gain the blessings of the divines, whether they will recieve your request depends on your devotion to them and their fickle natures.;;;;;;;;;;;;;x
 request_boon;Request Boon;;;;;;;;;;;;;x
-request_boon_desc;Request a boon from the gods.;;;;;;;;;;;;;x
-make_sacrifice_to;Make a sacrifice to the gods;;;;;;;;;;;;;x
+request_boon_desc;Request a Boon from the Gods.;;;;;;;;;;;;;x
+make_sacrifice_to;Make a Sacrifice to the Gods;;;;;;;;;;;;;x
 make_sacrifice_to_desc;Slaughter a bull to the gods.;;;;;;;;;;;;;x
 
 #call the gods to get boons or curses
@@ -188,7 +188,7 @@ EVTDESCFKR207;Rumors from the palace have arrived suggesting an outstanding prov
 
 EVTDESCFKR208;As the palace council grows more powerful, the efficiency of your realm increases in kind.;;;;;;;;;;;;;x
 
-EVTDESCFKR210;A quality councilor has improved the efficiency of your government proceedings.;;;;;;;;;;;;;x
+EVTDESCFKR210;Your [From.GetJobTitle] has improved the efficiency of your government proceedings.;;;;;;;;;;;;;x
 
 #Bad Events
 EVTDESCFKR212;Fully unprepared for the ruling of a realm, you have made a mess of the bureaucracy of [Root.PrimaryTitle.GetName].;;;;;;;;;;;;;x
@@ -196,7 +196,7 @@ EVTDESCFKR213;Rumors from the palace have arrived of an incompetent provincial l
 
 EVTDESCFKR214;As the palace council grows increasingly weaker, your realm's efficency has suffered in equal proportions.;;;;;;;;;;;;;x
 
-EVTDESCFKR216;A weak councilor is bumbling through and causing a ruckus with you and the other palace officals who lament the clownish depravity of the council.;;;;;;;;;;;;;x
+EVTDESCFKR216;Your weak [From.GetJobTitle] is bumbling through and causing a ruckus with you and the other palace officals who lament the clownish depravity of the council.;;;;;;;;;;;;;x
 
 EVTDESCFKR217;In the chaos of the ascension of a new ruler, the bureaucracy of the realm has been decreased.;;;;;;;;;;;;;x
 EVTOPTAFKR217;In time the palace will be a model of bureaucratic standards.;;;;;;;;;;;;;x

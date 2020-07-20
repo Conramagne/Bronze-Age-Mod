@@ -136,7 +136,7 @@
 	}
 }
 2100008 = {
-	name = "Aeacid"
+	name = "Aiakaid"
 	culture = "achaean"
 	used_for_random = no
 	coat_of_arms = {
@@ -304,4 +304,39 @@
 			color = 0
 		}
 	}
+}
+# 2100018 = {
+	# name = "Aiakaid"
+	# culture = "achaean"
+	# used_for_random = no
+# }
+2100019 = {
+	name = "Deioneid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100020 = {
+	name = "Andraemonid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100021 = {
+	name = "Porthaonid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100022 = {
+	name = "Eurytid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100023 = {
+	name = "Opid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100024 = {
+	name = "Myrmidonid"
+	culture = "achaean"
+	used_for_random = no
 }

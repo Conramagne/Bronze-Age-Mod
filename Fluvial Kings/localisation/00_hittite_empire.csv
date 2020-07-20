@@ -1,27 +1,9 @@
-###########New Hittite Kingdom###########
-temple_barony_of_pihassasi;É Dingir;;;;;;;;;;;;;x
-temple_baron_pihassasi;Priest;;;;;;;;;;;;;x
-temple_baron_female_pihassasi;Priestess;;;;;;;;;;;;;x
-
 ###########Empire Titles###########
-emperor_hittite;Salihassu;;;;;;;;;;;;;x
-emperor_female_hittite;Tawananna;;;;;;;;;;;;;x
-emperor_luwian;Surhantawatt;;;;;;;;;;;;;x
-emperor_female_luwian;Surhantawattsara;;;;;;;;;;;;;x
-tribal_emperor_luwian;Surhantawatt;;;;;;;;;;;;;x
-tribal_emperor_female_luwian;Surhantawattsara;;;;;;;;;;;;;x
 
 e_hittite_empire;Hassuwai Hattusa;;;;;;;;;;;;;x
 e_hittite_empire_adj;Nešili;;;;;;;;;;;;;x
 
 ###########Kingdom Titles###########
-king_hittite;Hassu;;;;;;;;;;;;;x
-king_female_hittite;Hassusara;;;;;;;;;;;;;x
-king_luwian;Hantawatt;;;;;;;;;;;;;x
-king_female_luwian;Hassusara;;;;;;;;;;;;;x
-tribal_king_luwian;Hantawatt;;;;;;;;;;;;;x
-tribal_king_female_luwian;Hassusara;;;;;;;;;;;;;x
-
 k_hatti;Hatti;;;;;;;;;;;;;x
 k_hatti_adj;Hatti;;;;;;;;;;;;;x
 k_pala;Pala;;;;;;;;;;;;;x
@@ -34,13 +16,6 @@ k_isuwa;Isuwa;;;;;;;;;;;;;x
 k_isuwa_adj;Isuwan;;;;;;;;;;;;;x
 
 ###########Duchy Titles###########
-duke_hittite;Maniyahha;;;;;;;;;;;;;x
-duke_female_hittite;Maniyahhasara;;;;;;;;;;;;;x
-duke_luwian;Tarrawannis;;;;;;;;;;;;;x
-duke_female_luwian;Maniyahhasara;;;;;;;;;;;;;x
-tribal_duke_luwian;Tarrawannis;;;;;;;;;;;;;x
-tribal_duke_female_luwian;Maniyahhasara;;;;;;;;;;;;;x
-
 d_hatti;Hatti;;;;;;;;;;;;;x
 d_hatti_adj;Hatti;;;;;;;;;;;;;x
 d_ambara;Ambara;;;;;;;;;;;;;x
@@ -77,13 +52,6 @@ d_marqasa;Marqasa;;;;;;;;;;;;;x
 d_marqasa_adj;Marqasi;;;;;;;;;;;;;x
 
 ###########Counties Titles###########
-count_hittite;Isha;;;;;;;;;;;;;x
-count_female_hittite;Ishassara;;;;;;;;;;;;;x
-count_luwian;Isha;;;;;;;;;;;;;x
-count_female_luwian;Ishassara;;;;;;;;;;;;;x
-tribal_count_luwian;Isha;;;;;;;;;;;;;x
-tribal_count_female_luwian;Ishassara;;;;;;;;;;;;;x
-
 c_hattusa;Hattusa;;;;;;;;;;;;;x
 c_hattusa_adj;Hatti;;;;;;;;;;;;;x
 c_taskuriya;Taskuriya;;;;;;;;;;;;;x

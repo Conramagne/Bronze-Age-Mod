@@ -1,8 +1,8 @@
 title=c_lamia
 
 max_settlements= 2
-b_lamia=castle
-b_alope=city
+b_alope=castle
+# b_lamia=city
 
 culture=achaean
 religion=pantes_theoi

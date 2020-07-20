@@ -2,6 +2,15 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_malis
+2401.1.1={
+	holder = 2103009 #Myrmidon
+}
+2421.1.1={
+	holder = 2103007 #Aktor
+}
+2461.1.1={
+	holder = 2103004 #Eurytion
+}
+2506.1.1={
+	holder = 2103000 #Peleus
 }

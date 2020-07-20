@@ -2,6 +2,9 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_ozolian_lokris
+2491.1.1={
+	holder = 2101802 #Phuleos
+}
+2521.1.1={
+	holder = 2101800 #Mégês
 }

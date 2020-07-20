@@ -2,6 +2,16 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_phokis
+2461.1.1 = { 
+	liege = d_phokis
+	holder = 2101614 #Deioneus
+}
+2496.1.1 = { 
+	holder = 2101616 #Phokos
+}
+2501.1.1 = { 
+	holder = 2101611 #Crisos
+}
+2521.1.1 = { 
+	holder = 2101600 #Strophios
 }

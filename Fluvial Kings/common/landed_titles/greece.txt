@@ -197,14 +197,12 @@ e_greek_empire = {
 		color2 = { 255 255 255 }
 		
 		capital = 86 # Sparta
-		
-		#culture = manden
-		
+				
 		d_lacedemonia = { 
 			color = { 41 93 114 }
 			color2 = { 255 255 255 }
 	
-			capital = 85 # Sparta
+			capital = 86 # Sparta
 			
 			c_lacedemonia = {
 				color = { 41 93 114 }
@@ -299,9 +297,8 @@ e_greek_empire = {
 		color = { 116 188 225 }
 		color2 = { 255 255 255 }
 		
-		capital = 94 # Athens
+		capital = 95 # Athens
 		
-		#culture = manden
 		
 		d_attica = { 
 			color = { 147 183 120 }
@@ -347,7 +344,7 @@ e_greek_empire = {
 			color = { 49 95 15 }
 			color2 = { 255 255 255 }
 	
-			capital = 99 # Platea
+			capital = 99 # Leuctra
 			
 			c_leuctra = {
 				color = { 49 95 15 }
@@ -371,6 +368,7 @@ e_greek_empire = {
 				color2 = { 255 255 255 }
 				
 				b_kopai = {}
+				b_ocalea = {}
 			}
 			c_chaeronea = {
 				color = { 73 102 52 }
@@ -506,12 +504,14 @@ e_greek_empire = {
 	
 			capital = 113 # Kalydon
 			
+			achaean = "Kalydon"
+			
 			c_kalydon = {
 				color = { 157 155 95 }
 				color2 = { 255 255 255 }
 				
 				b_kalydon = {}
-				b_kalkhis = {}
+				b_khalkis = {}
 				b_olenos = {}
 			}
 			c_oeneidae = {
@@ -530,12 +530,11 @@ e_greek_empire = {
 				b_phara = {}
 			}
 		}
-		
 		d_ithake = { 
 			color = { 100 195 47 }
 			color2 = { 255 255 255 }
 	
-			capital = 117 # Ithake
+			capital = 118 # Ithaca
 			
 			c_kefalonia = {
 				color = { 100 195 47 }
@@ -543,8 +542,6 @@ e_greek_empire = {
 				
 				b_samos = {}
 				b_pale = {}
-				b_krani = {}
-				b_poros = {}
 			}
 			c_ithake = {
 				color={ 116 182 79 }
@@ -590,23 +587,26 @@ e_greek_empire = {
 				color = { 143 0 150 }
 				color2 = { 255 255 255 }
 				
-				b_lamia = {}
+				achaean = "Phthía"
+				
+				b_lamia = {
+					achaean = "Phthía"
+				}
 				b_alope = {}
 			}
-			c_trakhis = {
+			c_locris = {
 				color={ 0 150 143 }
 				color2={ 255 255 255 }
 				
-				b_trakhis = {}
-				b_thermopylai = {}
+				b_locris = {}
+				b_cynus = {}
+				b_opus = {}
 			}
 			c_orchomenus = {
 				color = { 0 200 143 }
 				color2 = { 255 255 255 }
 				
-				b_opus = {}
 				b_orchomenos = {}
-				b_cynus = {}
 			}
 		}
 		d_dolopia = { 
@@ -622,23 +622,22 @@ e_greek_empire = {
 				b_stratos = {}
 				b_agrinion = {}
 			}
-			c_tymphaca = {
+			c_tymphaea = {
 				color={ 86 131 58 }
 				color2={ 255 255 255 }
 				
-				b_tymphaca = {}
+				b_tymphaea = {}
 			}
 			c_ainis = {
 				color={ 110 208 49 }
 				color2={ 255 255 255 }
 				
 				b_herakleia = {}
+				b_potidania = {}
 			}
 		}
 	}
 }
-
-#dorian = "Thessalía"
 
 #Titular Titles
 d_amazon = {

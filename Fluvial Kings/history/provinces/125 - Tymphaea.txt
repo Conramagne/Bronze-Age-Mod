@@ -1,4 +1,4 @@
-title=c_tymphaca
+title=c_tymphaea
 
 max_settlements= 1
 b_tymphaca=castle

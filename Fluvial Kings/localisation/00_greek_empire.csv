@@ -56,7 +56,7 @@ d_lasynthos_adj;Lasynthosi;;;;;;;;;;;;;x
 d_ozolian_lokris;Ozolian Lokris;;;;;;;;;;;;;x
 d_ozolian_lokris_adj;Lokri;;;;;;;;;;;;;x
 d_ithake;Ithake;;;;;;;;;;;;;x
-d_ithake_adj;Ithakean;;;;;;;;;;;;;x
+d_ithake_adj;Ithaki;;;;;;;;;;;;;x
 d_phokis;Phokís;;;;;;;;;;;;;x
 d_phokis_adj;Phokisian;;;;;;;;;;;;;x
 d_malis;Malis;;;;;;;;;;;;;x
@@ -174,14 +174,14 @@ c_doris;Doris;;;;;;;;;;;;;x
 c_doris_adj;Dorian;;;;;;;;;;;;;x
 c_lamia;Lamía;;;;;;;;;;;;;x
 c_lamia_adj;Lamiaei;;;;;;;;;;;;;x
-c_trakhis;Trakhís;;;;;;;;;;;;;x
-c_trakhis_adj;Trakhísai;;;;;;;;;;;;;x
+c_locris;Locris;;;;;;;;;;;;;x
+c_locris_adj;Locrisi;;;;;;;;;;;;;x
 c_orchomenus;Orchomenos;;;;;;;;;;;;;x
 c_orchomenus_adj;Orchomenosi;;;;;;;;;;;;;x
 c_stratos;Stratos;;;;;;;;;;;;;x
 c_stratos_adj;Stratosai;;;;;;;;;;;;;x
-c_tymphaca;Tymphaca;;;;;;;;;;;;;x
-c_tymphaca_adj;Tymphacan;;;;;;;;;;;;;x
+c_tymphaea;Tymphaea;;;;;;;;;;;;;x
+c_tymphaea_adj;Tymphaean;;;;;;;;;;;;;x
 c_ainis;Ainis;;;;;;;;;;;;;x
 c_ainis_adj;Ainisai;;;;;;;;;;;;;x
 
@@ -383,6 +383,8 @@ b_hyria;Hyrie;;;;;;;;;;;;;x
 b_hyria_adj;Hyriai;;;;;;;;;;;;;x
 b_kopai;Kopai;;;;;;;;;;;;;x
 b_kopai_adj;Kopaiei;;;;;;;;;;;;;x
+b_ocalea;Ocalea;;;;;;;;;;;;;x
+b_ocalea_adj;Ocaleaen;;;;;;;;;;;;;x
 b_chaeronea;Khaironeia;;;;;;;;;;;;;x
 b_chaeronea_adj;Khaironeia;;;;;;;;;;;;;x
 b_dium;Dion;;;;;;;;;;;;;x
@@ -413,8 +415,8 @@ b_chalkis_adj;Chalkisi;;;;;;;;;;;;;x
 ###########Aitolian Baronies###########
 b_kalydon;Kalydon;;;;;;;;;;;;;x
 b_kalydon_adj;Kalydonian;;;;;;;;;;;;;x
-b_kalkhis;Kalkhis;;;;;;;;;;;;;x
-b_kalkhis_adj;Kalkhisian;;;;;;;;;;;;;x
+b_khalkis;Khalkis;;;;;;;;;;;;;x
+b_khalkis_adj;Khalkisi;;;;;;;;;;;;;x
 b_olenos;Olenos;;;;;;;;;;;;;x
 b_olenos_adj;Olenosai;;;;;;;;;;;;;x
 b_oeneidae;Oeneidae;;;;;;;;;;;;;x
@@ -451,8 +453,8 @@ b_lamia;Lamía;;;;;;;;;;;;;x
 b_lamia_adj;Lamiaei;;;;;;;;;;;;;x
 b_alope;Alópe;;;;;;;;;;;;;x
 b_alope_adj;Alópean;;;;;;;;;;;;;x
-b_trakhis;Trakhís;;;;;;;;;;;;;x
-b_trakhis_adj;Trakhísai;;;;;;;;;;;;;x
+b_locris;Locris;;;;;;;;;;;;;x
+b_locris_adj;Locrisi;;;;;;;;;;;;;x
 b_thermopylai;Thermopylai;;;;;;;;;;;;;x
 b_thermopylai_adj;Thermopylaian;;;;;;;;;;;;;x
 b_orchomenos;Orchomenos;;;;;;;;;;;;;x
@@ -465,10 +467,12 @@ b_stratos;Stratos;;;;;;;;;;;;;x
 b_stratos_adj;Stratosai;;;;;;;;;;;;;x
 b_agrinion;Agrinion;;;;;;;;;;;;;x
 b_agrinion_adj;Agrinionian;;;;;;;;;;;;;x
-b_tymphaca;Tymphaca;;;;;;;;;;;;;x
-b_tymphaca_adj;Tymphacan;;;;;;;;;;;;;x
+b_tymphaea;Tymphaea;;;;;;;;;;;;;x
+b_tymphaea_adj;Tymphaean;;;;;;;;;;;;;x
 b_herakleia;Herakleia;;;;;;;;;;;;;x
 b_herakleia_adj;Herakleian;;;;;;;;;;;;;x
+b_potidania;Potidania;;;;;;;;;;;;;x
+b_potidania_adj;Potidani;;;;;;;;;;;;;x
 
 ###########Minoan Krete Baronies###########
 b_knossos;Knossos;;;;;;;;;;;;;x
@@ -516,7 +520,7 @@ b_gortyn_adj;Gortyni;;;;;;;;;;;;;x
 b_chersonissos;Chersonissos;;;;;;;;;;;;;x
 b_chersonissos_adj;Chersonissi;;;;;;;;;;;;;x
 
-###########Thessalyian Baronies###########
+###########Aiolían Baronies###########
 
 
 ###########Chalcidician Baronies###########

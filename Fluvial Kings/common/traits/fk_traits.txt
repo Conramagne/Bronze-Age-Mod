@@ -539,3 +539,23 @@ minotaur = {
 	can_hold_titles = no
 	fertility = -1000
 }
+achelous = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+thetis = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}

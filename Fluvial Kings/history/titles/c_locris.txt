@@ -1,0 +1,19 @@
+2000.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2411.1.1={
+	holder = 2102005 #Opoûs
+}
+2441.1.1={
+	holder = 2102004 #Kynos
+}
+2471.1.1={
+	holder = 2102003 #Hodoedocus
+}
+2501.1.1={
+	holder = 2102001 #Oileús
+}
+2521.1.1={
+	holder = 2102000 #Aías
+}
