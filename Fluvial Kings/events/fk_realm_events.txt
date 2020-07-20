@@ -357,9 +357,31 @@ character_event = {
 	immediate = {
 		if = {
 			limit = {
-				primary_title ={
+				liege = {
+					OR = {
+						trait = weak_emperor
+						trait = figurehead_emperor
+					}
+				}
+			}
+			if = {
+				limit = {
+					primary_title = {
+						tier = DUKE
+					}
+				}
+				set_government_type = feudal_government
+			}
+			else = {
+				set_government_type = regional_kingdom_government
+			}
+		}
+		if = {
+			limit = {
+				primary_title = {
 					tier = DUKE
 				}
+				government = military_governorate_government
 			}
 			any_demesne_title = {
 				limit = {
@@ -374,9 +396,10 @@ character_event = {
 		}
 		if = {
 			limit = {
-				primary_title ={
+				primary_title = {
 					tier = KING
 				}
+				government = military_governorate_government
 			}
 			any_demesne_title = {
 				limit = {
@@ -692,7 +715,7 @@ character_event = {
 	id = fkr.19
 	hide_window = yes
 	trigger = {
-		culture = amazonios
+		culture = amazonian
 		NOR = {
 			has_law = enatic_succession
 			has_law = true_cognatic_succession
@@ -973,6 +996,7 @@ character_event = {
 		government = hegemonic_government
 		has_character_modifier = imperial_authority
 		primary_title = { check_variable = { which = var_imperial_authority value < 50 } }
+		primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
 		NOT = {
 			trait = figurehead_emperor
 		}
@@ -2284,6 +2308,9 @@ character_event = {
 	trigger = {
 		government = hegemonic_government
 		NOT = {
+			has_character_flag = flag_god
+		}
+		NOT = {
 			has_character_modifier = imperial_authority
 		}
 	}
@@ -2349,17 +2376,14 @@ character_event = {
 	trigger = {
 		is_feudal = yes
 		higher_real_tier_than = BARON
-		NOT = {
+		NOR = {
+			has_character_modifier = palace_bureaucracy
 			primary_title = {
 				has_title_flag = palace_bureaucracy_set
 			}
-		}
-		NOT = {
 			any_demesne_title = {
 				has_title_flag = palace_bureaucracy_set
 			}
-		}
-		NOT = {
 			has_character_flag = flag_god
 		}
 	}
@@ -3625,6 +3649,44 @@ character_event = {
 	}
 }
 
+#Adds Flags for Palace Bureaucracy if a realm lacks those but not the Modifier (MTTH)
+character_event = {
+	id = fkr.253
+	hide_window = yes
+	
+	only_playable = yes
+	
+	trigger = {
+		is_feudal = yes
+		higher_real_tier_than = BARON
+		has_character_modifier = palace_bureaucracy
+		NOT = {
+			primary_title = {
+				has_title_flag = palace_bureaucracy_set
+			}
+		}
+		NOT = {
+			any_demesne_title = {
+				has_title_flag = palace_bureaucracy_set
+			}
+		}
+		NOT = {
+			has_character_flag = flag_god
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			set_title_flag = palace_bureaucracy_set
+			set_title_flag = primary_set
+		}
+	}
+}
+
 # ************************** Militarization Events***********************
 
 #Variable for Militarization (on_startup)
@@ -3747,7 +3809,7 @@ character_event = {
 			limit = {
 				government = stratocratic_government
 				NOT = {
-					culture = amazonios
+					culture = amazonian
 				}
 				higher_real_tier_than = BARON
 			}
@@ -4413,7 +4475,9 @@ character_event = {
 	}
 	
 	immediate = {
-		change_variable = { which = militarization_number value = -10 }
+		primary_title = {
+			change_variable = { which = militarization_number value = -10 }
+		}
 	}
 	
 	option = {

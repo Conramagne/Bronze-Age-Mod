@@ -142,7 +142,7 @@ province_event = {
 		if = {
 			limit = {
 				NOT = {
-					culture = amazonios
+					culture = amazonian
 				}
 			}
 			create_character = {
@@ -508,7 +508,7 @@ province_event = {
 			spawn_heretic_army_effect = yes
 			if = {
 				limit = {
-					culture = amazonios
+					culture = amazonian
 				}
 				set_gender = female
 			}

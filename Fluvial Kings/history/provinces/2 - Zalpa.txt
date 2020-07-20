@@ -3,6 +3,6 @@ title=c_zalpa
 max_settlements= 1
 b_zalpa= castle
 
-culture=amazonios
+culture=amazonian
 religion=pantes_theoi
 terrain=plains

@@ -346,7 +346,7 @@ character_event = {
 					factor = 1.5
 					is_female = yes
 					NOT = { educator = { has_religion_feature = religion_matriarchal } }
-					NOT = { educator = { culture = amazonios } }
+					NOT = { educator = { culture = amazonian } }
 				}
 			}
 		}
@@ -2470,7 +2470,7 @@ character_event = {
 					factor = 1.5
 					is_female = yes
 					NOT = { educator = { has_religion_feature = religion_matriarchal } }
-					NOT = { educator = { culture = amazonios } }
+					NOT = { educator = { culture = amazonian } }
 				}
 			}
 		}

@@ -121,7 +121,7 @@ character_event = {
 					is_female = yes
 					NOR = { 
 						has_religion_feature = religion_matriarchal
-						culture = amazonios
+						culture = amazonian
 						has_religion_feature = religion_equal
 						has_religion_feature = religion_feature_bon
 					}
@@ -130,7 +130,7 @@ character_event = {
 					factor = 2
 					is_female = no
 					has_religion_feature = religion_matriarchal
-					culture = amazonios
+					culture = amazonian
 				}
 				ROOT = { character_event = { id = HF.25425 days = 150 random = 150 } } #Child gets event first this time, just in case it's not an AI.
 				break = yes
@@ -1502,12 +1502,12 @@ character_event = {
 						AND = { 
 							is_female = yes
 							NOT = { has_religion_feature = religion_matriarchal }
-							NOT = { culture = amazonios }
+							NOT = { culture = amazonian }
 						}
 						AND = { 
 							is_female = no
 							has_religion_feature = religion_matriarchal
-							culture = amazonios
+							culture = amazonian
 						}
 					}
 				}

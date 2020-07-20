@@ -1,7 +1,7 @@
-amazonios_trait = {
+amazonian_trait = {
 
 	potential = {
-		culture = amazonios
+		culture = amazonian
 	}
 	
 	cannot_marry = yes

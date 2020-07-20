@@ -24,14 +24,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_achaean_male_clothes_behind"
 		texturefile = "gfx\\characters\\achaean_male\\achaean_male_clothes_behind.dds"
-		noOfFrames = 11
+		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_achaean_male_headgear_behind"
 		texturefile = "gfx\\characters\\achaean_male\\achaean_male_headgear_behind.dds"
-		noOfFrames = 11
+		noOfFrames = 12
 		norefcount = yes
 	}
 
@@ -306,14 +306,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_achaean_male_clothes"
 		texturefile = "gfx\\characters\\achaean_male\\achaean_male_clothes.dds"
-		noOfFrames = 11
+		noOfFrames = 12
 		norefcount = yes
 	}
 	
 	spriteType = {
 		name = "GFX_achaean_male_headgear"
 		texturefile = "gfx\\characters\\achaean_male\\achaean_male_headgear.dds"
-		noOfFrames = 11
+		noOfFrames = 12
 		norefcount = yes
 	}
 
@@ -565,14 +565,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_achaean_female_clothes_behind"
 		texturefile = "gfx\\characters\\achaean_female\\achaean_female_clothes_behind.dds"
-		noOfFrames = 11
+		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_achaean_female_headgear_behind"
 		texturefile = "gfx\\characters\\achaean_female\\achaean_female_headgear_behind.dds"
-		noOfFrames = 11
+		noOfFrames = 12
 		norefcount = yes
 	}
 
@@ -778,7 +778,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_achaean_female_clothes"
 		texturefile = "gfx\\characters\\achaean_female\\achaean_female_clothes.dds"
-		noOfFrames = 11
+		noOfFrames = 12
 		norefcount = yes
 	}
 
@@ -806,7 +806,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_achaean_female_headgear"
 		texturefile = "gfx\\characters\\achaean_female\\achaean_female_headgear.dds"
-		noOfFrames = 11
+		noOfFrames = 12
 		norefcount = yes
 	}
 	

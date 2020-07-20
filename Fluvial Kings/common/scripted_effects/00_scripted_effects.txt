@@ -15587,7 +15587,7 @@ spawn_good_commander_effect = {
 		limit = {
 			OR = {
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_soldier = {
@@ -15607,7 +15607,7 @@ spawn_good_commander_effect = {
 		limit = {
 			NOR = {
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_soldier = {
@@ -15732,7 +15732,7 @@ spawn_great_commander_effect = {
 		limit = {
 			OR = {
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_soldier = {
@@ -15752,7 +15752,7 @@ spawn_great_commander_effect = {
 		limit = {
 			NOR = {
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_soldier = {
@@ -15930,7 +15930,7 @@ spawn_fantastic_commander_effect = {
 		limit = {
 			OR = {
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_soldier = {
@@ -15950,7 +15950,7 @@ spawn_fantastic_commander_effect = {
 		limit = {
 			NOR = {
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_soldier = {
@@ -16239,7 +16239,7 @@ spawn_fantastic_diplomat_effect = {
 		limit = {
 			OR = {
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_diplomat = {
@@ -16259,7 +16259,7 @@ spawn_fantastic_diplomat_effect = {
 		limit = {
 			NOR = {
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_diplomat = {
@@ -16375,7 +16375,7 @@ spawn_fantastic_scholar_effect = {
 		limit = {
 			OR = {
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_priest = {
@@ -16395,7 +16395,7 @@ spawn_fantastic_scholar_effect = {
 		limit = {
 			NOR = {
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_priest = {
@@ -16498,7 +16498,7 @@ spawn_elder_effect = {
 		limit = {
 			OR = {
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_priest = {
@@ -16520,7 +16520,7 @@ spawn_elder_effect = {
 			NOR = {
 				has_religion_feature = religion_matriarchal 
 				has_religion_feature = religion_patriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		random_list = {
@@ -25151,7 +25151,7 @@ spawn_debutante_effect = {
 		limit = { 
 			OR = {
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_character = {
@@ -25166,7 +25166,7 @@ spawn_debutante_effect = {
 		limit = { 
 			OR = {
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_character = {
@@ -26206,7 +26206,7 @@ stable_attribute_improvement_effect = {
 							OR = { 
 								has_religion_feature = religion_meritocratic
 								has_religion_feature = religion_matriarchal
-								culture = amazonios
+								culture = amazonian
 								has_religion_feature = religion_patriarchal
 							}
 							OR = { 
@@ -26334,7 +26334,7 @@ stable_attribute_improvement_effect = {
 							OR = { 
 								has_religion_feature = religion_meritocratic
 								has_religion_feature = religion_matriarchal
-								culture = amazonios
+								culture = amazonian
 								has_religion_feature = religion_patriarchal
 							}
 							OR = { 
@@ -26531,7 +26531,7 @@ stable_attribute_improvement_effect = {
 							OR = { 
 								has_religion_feature = religion_meritocratic
 								has_religion_feature = religion_matriarchal
-								culture = amazonios
+								culture = amazonian
 								has_religion_feature = religion_patriarchal
 							}
 							OR = { 
@@ -26727,7 +26727,7 @@ stable_attribute_improvement_effect = {
 							OR = { 
 								has_religion_feature = religion_meritocratic
 								has_religion_feature = religion_matriarchal
-								culture = amazonios
+								culture = amazonian
 								has_religion_feature = religion_patriarchal
 							}
 							OR = { 
@@ -26923,7 +26923,7 @@ stable_attribute_improvement_effect = {
 							OR = { 
 								has_religion_feature = religion_meritocratic
 								has_religion_feature = religion_matriarchal
-								culture = amazonios
+								culture = amazonian
 								has_religion_feature = religion_patriarchal
 							}
 							OR = { 

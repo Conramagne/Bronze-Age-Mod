@@ -4,11 +4,17 @@
 achaeangfx = {
 	skin_tone = 1
 }
+amazoniangfx = {
+	skin_tone = 1
+}
 anatoliangfx = {
 	skin_tone = 1
 }
 greekgodgfx = {
 	skin_tone = 1
+}
+thraciangfx = {
+	skin_tone = 0
 }
 
 # Western

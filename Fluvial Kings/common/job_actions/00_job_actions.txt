@@ -667,20 +667,20 @@ action_hunt_heretics = {
 }
 
 # Lord Spiritual (Muslim only)
-action_charity = {
-	attribute = learning
+# action_charity = {
+	# attribute = learning
 	
-	potential = {
-		FROM = { religion_group = muslim }
-	}
+	# potential = {
+		# FROM = { religion_group = muslim }
+	# }
 	
-	trigger = {
-		any_province_lord = {
-			character = FROM
-		}
-	}
+	# trigger = {
+		# any_province_lord = {
+			# character = FROM
+		# }
+	# }
 	
-	local_revolt_risk = -0.01
+	# local_revolt_risk = -0.01
 	
-	events = { 20040 20043 20048 20050 }
-}
+	# events = { 20040 20043 20048 20050 }
+# }

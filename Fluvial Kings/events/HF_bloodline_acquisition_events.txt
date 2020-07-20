@@ -57,7 +57,7 @@ character_event = { # Extra chance for player children to become Children of Des
 					liege = {
 						has_law = enatic_succession
 					}
-					culture = amazonios
+					culture = amazonian
 				}
 			}
 			any_dynasty_member = { # Only one per dynasty at any one time
@@ -203,7 +203,7 @@ character_event = { # Child becomes Child of Destiny
 					liege = {
 						has_law = enatic_succession
 					}
-					culture = amazonios
+					culture = amazonian
 				}
 			}
 			any_dynasty_member = { # Only one per dynasty at any one time

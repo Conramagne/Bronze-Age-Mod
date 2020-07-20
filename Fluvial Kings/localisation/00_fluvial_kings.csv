@@ -9,13 +9,16 @@ isuwan;Isuwan;;;;;;;;;;;;;x
 hellene;Héllen;;;;;;;;;;;;;x
 achaean;Akhaiós;;;;;;;;;;;;;x
 aeolian;Aiolikós;;;;;;;;;;;;;x
-amazonios;Amazonios;;;;;;;;;;;;;x
+amazonian;Amazonios;;;;;;;;;;;;;x
 dorian;Dorieús;;;;;;;;;;;;;x
 ionian;Ionikós;;;;;;;;;;;;;x
 theogonos;Theogonos;;;;;;;;;;;;;x
 cretan;Kresijos;;;;;;;;;;;;;x
 # minoan;Minoikós;;;;;;;;;;;;;x
 bull;Taúrou;;;;;;;;;;;;;x
+
+thraco_phrygian;Europes;;;;;;;;;;;;;x
+thracian;Thraikós;;;;;;;;;;;;;x
 ###########Government and Law###########
 feudal_government;Local Polity;;;;;;;;;;;;;x
 feudal_government_desc;Local Polities and States that have arisen from disunited tribes and confederations or have slipped out of the grasps of larger realms. Often considered nothing more than petty states with squabbling tyrants whose authority barely extends beyond the walls of their citadels, they lack the courtly grandeur and the ability to administer more than their local communities.;;;;;;;;;;;;;x
@@ -183,7 +186,7 @@ WAR_NAME_FK_CONQUEST;$ORDER$ Conquest War for $OTHER_TITLE$;;;;;;;;;;;;;x
 CB_NAME_FK_COUNTY_CONQUEST;County Conquest War for [Title.GetBaseName];;;;;;;;;;;;;x
 WAR_NAME_FK_COUNTY_CONQUEST;$ORDER$ County Conquest War for $OTHER_TITLE$;;;;;;;;;;;;;x
 
-conquest_cooldown;Conquest Cooldown;;;;;;;;;;;;;x
+conquer_cooldown;Conquest Cooldown;;;;;;;;;;;;;x
 
 ###########Bloodline Localization###########
 god_zeus_bloodline; The Blood of Zeus;;;;;;;;;;;;;x
@@ -289,14 +292,14 @@ king_female_achaean;Basilissa;;;;;;;;;;;;;x
 emperor_achaean;Wanax;;;;;;;;;;;;;x
 emperor_female_achaean;Wanaxia;;;;;;;;;;;;;x
 
-count_amazonios;Prokoreter;;;;;;;;;;;;;x
-count_female_amazonios;Klawiphoros;;;;;;;;;;;;;x
-duke_amazonios;Koreter;;;;;;;;;;;;;x
-duke_female_amazonios;Koretera;;;;;;;;;;;;;x
-king_amazonios;Basileos;;;;;;;;;;;;;x
-king_female_amazonios;Basilissa;;;;;;;;;;;;;x
-emperor_amazonios;Wanax;;;;;;;;;;;;;x
-emperor_female_amazonios;Wanaxia;;;;;;;;;;;;;x
+count_amazonian;Prokoreter;;;;;;;;;;;;;x
+count_female_amazonian;Klawiphoros;;;;;;;;;;;;;x
+duke_amazonian;Koreter;;;;;;;;;;;;;x
+duke_female_amazonian;Koretera;;;;;;;;;;;;;x
+king_amazonian;Basileos;;;;;;;;;;;;;x
+king_female_amazonian;Basilissa;;;;;;;;;;;;;x
+emperor_amazonian;Wanax;;;;;;;;;;;;;x
+emperor_female_amazonian;Wanaxia;;;;;;;;;;;;;x
 
 count_cretan;Prokoreter;;;;;;;;;;;;;x
 count_female_cretan;Klawiphoros;;;;;;;;;;;;;x
@@ -385,8 +388,6 @@ opinion_of_brilliant_strategist;Opinion of Brilliant Strategist;;;;;;;;;;;;;x
 opinion_of_brilliant_strategist_EXPLANATION; (opinion on Brilliant Strategist);;;;;;;;;;;;;x
 opinion_of_duelist;Opinion of Duelist;;;;;;;;;;;;;x
 opinion_of_duelist_EXPLANATION; (opinion on Duelist);;;;;;;;;;;;;x
-opinion_of_strong;Opinion of Strong;;;;;;;;;;;;;x
-opinion_of_strong_EXPLANATION; (opinion on Strong);;;;;;;;;;;;;x
 opinion_of_strategist;Opinion of Strategist;;;;;;;;;;;;;x
 opinion_of_strategist_EXPLANATION; (opinion on Strategist);;;;;;;;;;;;;
 
@@ -582,8 +583,8 @@ syncretic_hellenic;Syncretic to Hellenic;;;;;;;;;;;;;x
 syncretic_hellenic_desc;This character syncretize their religious belief with those of the [hellenic.GetName] Pantheon.;;;;;;;;;;;;;x
 
 #stratocratic traits
-amazonios_trait;Amazonios;;;;;;;;;;;;;x
-amazonios_trait_desc;The Warriors of the Amazonios Tribe;;;;;;;;;;;;;x
+amazonian_trait;Amazonios;;;;;;;;;;;;;x
+amazonian_trait_desc;The Warriors of the Amazonios Tribe;;;;;;;;;;;;;x
 stratocrat;Stratocrat;;;;;;;;;;;;;x
 stratocrat_desc;This character is a Stratocratic ruler;;;;;;;;;;;;;x
 

@@ -344,206 +344,7 @@ e_greek_empire = {
 			color = { 49 95 15 }
 			color2 = { 255 255 255 }
 	
-			capital = 99 # Leuctra
-			
-			c_leuctra = {
-				color = { 49 95 15 }
-				color2 = { 255 255 255 }
-				
-				b_platea = {}
-				b_leuctra = {}
-			}
-			c_thebes = {
-				color = { 37 66 16 }
-				color2 = { 255 255 255 }
-				
-				b_thebes = {}
-				b_gla = {}
-				b_aulis = {}
-				b_hyria = {}
-				b_thespiae = {}
-			}
-			c_kopai = {
-				color = { 49 100 15 }
-				color2 = { 255 255 255 }
-				
-				b_kopai = {}
-				b_ocalea = {}
-			}
-			c_chaeronea = {
-				color = { 73 102 52 }
-				color2 = { 255 255 255 }
-				
-				b_chaeronea = {}
-				b_thisbe = {}
-				b_onchestus = {}
-			}
-		}
-		d_euvoia = { 
-			color = { 177 248 125 }
-			color2 = { 255 255 255 }
-	
-			capital = 104 # Eretria
-			
-			c_dium = {
-				color = { 177 248 125 }
-				color2 = { 255 255 255 }
-				
-				b_dium = {}
-				b_artemiaio = {}
-				b_kerynthos = {}
-			}
-			c_eretria = {
-				color={ 108 255 0 }
-				color2={ 255 255 255 }
-				
-				b_eretria = {}
-				b_chalkis = {}
-			}
-			
-			c_karystos = {
-				color={ 98 220 8 }
-				color2={ 255 255 255 }
-				
-				b_dystos = {}
-				b_karystos = {}
-			}
-			
-			c_peparethos = {
-				color={ 99 191 32 }
-				color2={ 255 255 255 }
-				
-				b_peparethos = {}
-			}
-		}
-	}
-	k_krete = {
-		color = { 237 98 54 }
-		color2 = { 255 255 255 }
-		
-		capital = 107 # Knossos
-		
-		d_knossos = { 
-			color = { 237 98 54 }
-			color2 = { 255 255 255 }
-	
-			capital = 107 # Knossos
-			
-			c_knossos = {
-				color = { 237 98 54 }
-				color2 = { 255 255 255 }
-				holy_site = pantes_theoi
-				
-				b_knossos = {}
-				b_amnysos = {}
-				b_axos = {}
-				b_koumasa = {}
-				b_chersonissos = {}
-			}
-			c_phaistos = {
-				color={ 163 55 21 }
-				color2={ 255 255 255 }
-				
-				b_phaistos = {}
-				b_rithymna = {}
-				b_gortyn = {}
-			}
-			c_kydonia = {
-				color = { 181 103 39 }
-				color2 = { 255 255 255 }
-				
-				b_kydonia = {}
-				b_aptarra = {}
-				b_lissos = {}
-				b_armeni = {}
-			}
-			c_kysomos = {
-				color={ 135 81 37 }
-				color2={ 255 255 255 }
-				
-				b_kysomos = {}
-				b_polyrinia = {}
-				b_doulopolis = {}
-			}
-		}
-		
-		d_lasynthos = { 
-			color = { 255 195 87 }
-			color2 = { 255 255 255 }
-	
-			capital = 111 # Malia
-			
-			c_malia = {
-				color = { 255 195 87 }
-				color2 = { 255 255 255 }
-				
-				b_malia = {}
-				b_rhytion = {}
-				b_lato = {}
-				b_oaxos = {}
-			}
-			c_zakros = {
-				color={ 140 171 62 }
-				color2={ 255 255 255 }
-				
-				b_zakros = {}
-				b_itanos = {}
-				b_palekastro = {}
-			}
-		}
-	}
-	k_attica = {
-		color = { 116 188 225 }
-		color2 = { 255 255 255 }
-		
-		capital = 95 # Athens
-		
-		
-		d_attica = { 
-			color = { 147 183 120 }
-			color2 = { 255 255 255 }
-	
-			capital = 95 # Athens
-			
-			c_attica = {
-				color = { 147 183 120 }
-				color2 = { 255 255 255 }
-				
-				b_athens = {}
-				b_pireas = {}
-				b_penteli = {}
-				b_brauron = {}
-			}
-			c_eleusis = {
-				color={ 63 125 17 }
-				color2={ 255 255 255 }
-				
-				b_eleusis = {}
-			}
-			
-			c_marathon = {
-				color={ 105 162 62 }
-				color2={ 255 255 255 }
-				
-				b_marathon = {}
-				b_aphidnaea = {}
-				b_ramnous = {}
-			}
-			
-			c_lavrion = {
-				color={ 71 136 23 }
-				color2={ 255 255 255 }
-				
-				b_perati = {}
-				b_lavrion = {}
-				b_sounio = {}
-			}
-		}
-		d_boetica = { 
-			color = { 49 95 15 }
-			color2 = { 255 255 255 }
-	
-			capital = 99 # Leuctra
+			capital = 100 # Thebes
 			
 			c_leuctra = {
 				color = { 49 95 15 }
@@ -733,7 +534,7 @@ e_greek_empire = {
 			color = { 100 195 47 }
 			color2 = { 255 255 255 }
 	
-			capital = 118 # Ithaca
+			capital = 117 # Ithaca
 			
 			c_kefalonia = {
 				color = { 100 195 47 }
@@ -1121,13 +922,13 @@ d_amazon = {
 		
 	short_name = yes
 	
-	culture = amazonios
+	culture = amazonian
 	
 	primary = yes
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 	
 	allow = {
-		culture = amazonios
+		culture = amazonian
 	}
 }

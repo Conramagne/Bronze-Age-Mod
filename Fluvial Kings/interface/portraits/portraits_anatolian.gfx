@@ -22,14 +22,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_anatolian_male_clothes_behind"
 		texturefile = "gfx\\characters\\anatolian_male\\anatolian_male_clothes_behind.dds"
-		noOfFrames = 11
+		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_anatolian_male_headgear_behind"
 		texturefile = "gfx\\characters\\anatolian_male\\anatolian_male_headgear_behind.dds"
-		noOfFrames = 11
+		noOfFrames = 12
 		norefcount = yes
 	}
 
@@ -232,7 +232,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_anatolian_male_clothes"
 		texturefile = "gfx\\characters\\anatolian_male\\anatolian_male_clothes.dds"
-		noOfFrames = 11
+		noOfFrames = 12
 		norefcount = yes
 	}
 
@@ -302,7 +302,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_anatolian_male_headgear"
 		texturefile = "gfx\\characters\\anatolian_male\\anatolian_male_headgear.dds"
-		noOfFrames = 11
+		noOfFrames = 12
 		norefcount = yes
 	}
 
@@ -547,14 +547,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_anatolian_female_clothes_behind"
 		texturefile = "gfx\\characters\\anatolian_female\\anatolian_female_clothes_behind.dds"
-		noOfFrames = 11
+		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_anatolian_female_headgear_behind"
 		texturefile = "gfx\\characters\\anatolian_female\\anatolian_female_headgear_behind.dds"
-		noOfFrames = 6
+		noOfFrames = 12
 		norefcount = yes
 	}
 
@@ -739,7 +739,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_anatolian_female_clothes"
 		texturefile = "gfx\\characters\\anatolian_female\\anatolian_female_clothes.dds"
-		noOfFrames = 11
+		noOfFrames = 12
 		norefcount = yes
 	}
 
@@ -788,7 +788,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_anatolian_female_headgear"
 		texturefile = "gfx\\characters\\anatolian_female\\anatolian_female_headgear.dds"
-		noOfFrames = 6
+		noOfFrames = 12
 		norefcount = yes
 	}
 
@@ -868,7 +868,7 @@ spriteTypes = {
 			#{ 56 80 57 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 
 	# anatolian female midage
@@ -947,7 +947,7 @@ spriteTypes = {
 			#{ 56 80 57 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = {  }
 	}
 
 	# anatolian female oldage
@@ -1024,7 +1024,7 @@ spriteTypes = {
 			#{ 56 80 57 }
 		}
 		
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = {  }
 	}
 
 }

@@ -5281,7 +5281,7 @@ faction_claimant = {
 						NOT = { ROOT = { succ_law_title = { has_law = enatic_succession } } }
 						NOR = { 
 							has_religion_feature = religion_matriarchal 
-							culture = amazonios
+							culture = amazonian
 						}
 					}
 				}
@@ -5472,7 +5472,7 @@ faction_claimant = {
 			factor = 0
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 			new_character = {
 				is_female = no
@@ -5493,7 +5493,7 @@ faction_claimant = {
 			factor = 3
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 			FROM = {
 				is_female = no
@@ -5715,7 +5715,7 @@ faction_claimant = {
 				has_dlc = "Zeus"
 				OR = {
 					has_religion_feature = religion_matriarchal
-					culture = amazonios
+					culture = amazonian
 					has_religion_feature = religion_equal
 					has_religion_feature = religion_feature_bon
 					has_law = status_of_women_4
@@ -6236,7 +6236,7 @@ faction_claimant = {
 					has_law = status_of_women_4
 					has_religion_feature = religion_equal
 					has_religion_feature = religion_matriarchal
-					culture = amazonios
+					culture = amazonian
 					has_game_rule = {
 						name = gender
 						value = all

@@ -3175,7 +3175,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		} 
 		picture = GFX_evt_daughter_asking_mother
@@ -3235,7 +3235,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		} 
 		picture = GFX_evt_daughter_asking_mother
@@ -3475,7 +3475,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		} 
 		picture = GFX_evt_daughter_asking_mother
@@ -3536,7 +3536,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		} 
 		picture = GFX_evt_daughter_asking_mother
@@ -3841,7 +3841,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		} 
 		picture = GFX_evt_daughter_asking_mother
@@ -4338,7 +4338,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		} 
 		picture = GFX_evt_daughter_asking_mother
@@ -4731,7 +4731,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		} 
 		picture = GFX_evt_daughter_asking_mother
@@ -6959,7 +6959,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		} 
 		picture = GFX_evt_daughter_asking_mother
@@ -7084,7 +7084,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		} 
 		picture = GFX_evt_daughter_asking_mother
@@ -7352,7 +7352,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		} 
 		picture = GFX_evt_daughter_asking_mother
@@ -7478,7 +7478,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		} 
 		picture = GFX_evt_daughter_asking_mother
@@ -8959,7 +8959,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		} 
 		picture = GFX_evt_daughter_asking_mother
@@ -14047,7 +14047,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		} 
 		picture = GFX_evt_daughter_asking_mother
@@ -14711,7 +14711,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		} 
 		picture = GFX_evt_daughter_asking_mother

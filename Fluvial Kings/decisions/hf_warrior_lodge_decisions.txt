@@ -1322,7 +1322,7 @@ society_decisions = {
 				limit = { 
 					NOR = { 
 						has_religion_feature = religion_matriarchal
-						culture = amazonios
+						culture = amazonian
 					} 
 				}
 				create_random_soldier = {
@@ -1342,7 +1342,7 @@ society_decisions = {
 				limit = { 
 					NOR = { 
 						has_religion_feature = religion_matriarchal
-						culture = amazonios
+						culture = amazonian
 					} 
 				}
 				create_random_soldier = {
@@ -1363,7 +1363,7 @@ society_decisions = {
 					NOR = { 
 						has_religion_feature = religion_matriarchal 
 						has_religion_feature = religion_patriarchal 
-						culture = amazonios
+						culture = amazonian
 					} 
 					has_game_rule = {
 						name = gender
@@ -1388,7 +1388,7 @@ society_decisions = {
 					NOR = { 
 						has_religion_feature = religion_matriarchal 
 						has_religion_feature = religion_patriarchal 
-						culture = amazonios
+						culture = amazonian
 						has_game_rule = {
 							name = gender
 							value = all
@@ -1453,7 +1453,7 @@ society_decisions = {
 							NOR = { 
 								has_religion_feature = religion_matriarchal 
 								has_religion_feature = religion_patriarchal
-								culture = amazonios								
+								culture = amazonian								
 								has_game_rule = {
 									name = gender
 									value = all

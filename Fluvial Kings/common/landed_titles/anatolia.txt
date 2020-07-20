@@ -187,7 +187,7 @@ e_hittite_empire = {
 				dorian = "Saramene"
 				aeolian = "Saramene"
 				ionian = "Saramene"
-				amazonios = "Saramene"
+				amazonian = "Saramene"
 				
 				color={ 135 64 47 }
 				color2={ 255 255 255 }
@@ -197,7 +197,7 @@ e_hittite_empire = {
 					dorian = "Saramene"
 					aeolian = "Saramene"
 					ionian = "Saramene"
-					amazonios = "Saramene"
+					amazonian = "Saramene"
 				}
 			}
 			c_sawit = {
@@ -205,7 +205,7 @@ e_hittite_empire = {
 				dorian = "Enete"
 				aeolian = "Enete"
 				ionian = "Enete"
-				amazonios = "Enete"
+				amazonian = "Enete"
 				color={ 219 105 76 }
 				color2={ 255 255 255 }
 				
@@ -214,7 +214,7 @@ e_hittite_empire = {
 					dorian = "Enete"
 					aeolian = "Enete"
 					ionian = "Enete"
-					amazonios = "Enete"
+					amazonian = "Enete"
 				}
 			}
 			c_kunanamit = {

@@ -7,11 +7,11 @@ character_event = {
 	hide_window = yes
 	
 	trigger = {
-		culture = amazonios
+		culture = amazonian
 	}
 	
 	immediate = {
-		add_trait = amazonios_trait
+		add_trait = amazonian_trait
 	}
 }
 
@@ -24,7 +24,7 @@ character_event = {
 	trigger = {
 		has_landed_title = d_amazon
 		NOT = {
-			culture = amazonios
+			culture = amazonian
 		}
 	}
 	
@@ -45,14 +45,14 @@ character_event = {
 	}
 	
 	trigger = {
-		culture = amazonios
+		culture = amazonian
 		NOT = {
-			trait = amazonios_trait
+			trait = amazonian_trait
 		}
 	}
 	
 	immediate = {
-		add_trait = amazonios_trait
+		add_trait = amazonian_trait
 	}
 }
 
@@ -66,14 +66,14 @@ character_event = {
 	}
 	
 	trigger = {
-		trait = amazonios_trait
+		trait = amazonian_trait
 		NOT = {
-			culture = amazonios
+			culture = amazonian
 		}
 	}
 	
 	immediate = {
-		remove_trait = amazonios_trait
+		remove_trait = amazonian_trait
 	}
 }
 

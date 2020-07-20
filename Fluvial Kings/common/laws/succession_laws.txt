@@ -1689,7 +1689,6 @@ succession_laws = {
 	
 	succ_open_elective = {
 		potential = {
-			always = no
 			holder_scope = {
 				NOR = {
 					government = tribal_government
@@ -1703,14 +1702,6 @@ succession_laws = {
 					is_feudal = yes
 				}
 			}
-			NAND = { 
-				has_law = succ_byzantine_elective 
-				OR = { 
-					title = e_byzantium
-					title = e_roman_empire
-				}
-			}
-			NOT = { title = k_papal_state }
 			temporary = no
 			OR = {
 				is_primary_type_title = yes
@@ -1735,14 +1726,14 @@ succession_laws = {
 					}
 				}
 			}
-			OR = {
-				is_landless_type_title = yes
-				holder_scope = { is_theocracy = no }
+			# OR = {
+				# is_landless_type_title = yes
+				# holder_scope = { is_theocracy = no }
 				# holder_scope = { 
 					# NOT = { religion = catholic }
 					# NOT = { religion = fraticelli }
 				# }
-			}
+			# }
 			holder_scope = { 
 				is_patrician = no
 				is_merchant_republic = no
@@ -1930,7 +1921,7 @@ gender_laws = {
 		potential = {
 			NOT = {
 				holder_scope = {
-					culture = amazonios
+					culture = amazonian
 				}
 			}
 			holder_scope = {
@@ -2022,7 +2013,7 @@ gender_laws = {
 				NOT = { has_religion_feature = religion_matriarchal } 
 				NOT = { has_religion_feature = religion_equal }
 				NOT = {
-					culture = amazonios
+					culture = amazonian
 				}
 			}
 		}
@@ -2192,14 +2183,14 @@ gender_laws = {
 		potential = {
 			OR = {
 				holder_scope = {
-					culture = amazonios
+					culture = amazonian
 				}
 				holder_scope = { has_religion_feature = religion_matriarchal }
 			}
 		}
 		allow = {
 			holder_scope = {
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		effect = {

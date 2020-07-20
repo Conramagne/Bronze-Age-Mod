@@ -173,7 +173,7 @@ selfish_pattern_against = {
 						OR = {
 							is_female = no
 							AND = {
-								culture = amazonios
+								culture = amazonian
 								liege = { culture = ROOT }
 							}
 							liege = {

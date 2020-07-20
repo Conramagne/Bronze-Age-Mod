@@ -834,7 +834,7 @@ can_be_mercenary_leader_potential_trigger = {
 	same_realm = FROM
 	OR = {
 		is_female = no
-		culture = amazonios
+		culture = amazonian
 		# AND = {
 			# religion = cathar
 			# FROM = {
@@ -963,7 +963,7 @@ can_be_chancellor_trigger = {
 				AND = {
 					is_female = yes 
 					OR = { 
-						liege = { culture = amazonios }
+						liege = { culture = amazonian }
 						liege = { has_religion_feature = religion_matriarchal } 
 						liege = { has_religion_feature = religion_equal } 
 						liege = { has_religion_feature = religion_feature_bon } 
@@ -1034,7 +1034,7 @@ can_be_marshal_trigger = {
 				AND = {
 					is_female = yes 
 					OR = { 
-						liege = { culture = amazonios }
+						liege = { culture = amazonian }
 						liege = { has_religion_feature = religion_matriarchal } 
 						liege = { has_religion_feature = religion_equal } 
 						liege = { has_religion_feature = religion_feature_bon } 
@@ -1107,7 +1107,7 @@ can_be_treasurer_trigger = {
 				AND = {
 					is_female = yes 
 					OR = { 
-						liege = { culture = amazonios }
+						liege = { culture = amazonian }
 						liege = { has_religion_feature = religion_matriarchal } 
 						liege = { has_religion_feature = religion_equal } 
 						liege = { has_religion_feature = religion_feature_bon } 
@@ -1180,7 +1180,7 @@ can_be_spymaster_trigger = {
 				AND = {
 					is_female = yes 
 					OR = { 
-						liege = { culture = amazonios }
+						liege = { culture = amazonian }
 						liege = { has_religion_feature = religion_matriarchal } 
 						liege = { has_religion_feature = religion_equal } 
 						liege = { has_religion_feature = religion_feature_bon } 
@@ -1366,7 +1366,7 @@ can_be_councilmember_king_trigger = {
 							}
 						}
 					}
-					liege = { culture = amazonios }
+					liege = { culture = amazonian }
 				}
 				is_landed = yes
 			}
@@ -1412,7 +1412,7 @@ can_be_councilmember_emperor_trigger = {
 						liege = { has_religion_feature = religion_matriarchal } 
 						liege = { has_religion_feature = religion_equal } 
 						liege = { has_religion_feature = religion_feature_bon } 
-						liege = { culture = amazonios }
+						liege = { culture = amazonian }
 					} 
 				}
 				AND = {
@@ -1780,7 +1780,7 @@ block_general_event_trigger = {
 
 gender_equality_trigger = {
 	OR = {
-		culture = amazonios
+		culture = amazonian
 		has_religion_feature = religion_equal
 		has_religion_feature = religion_feature_bon
 		AND = {
@@ -1836,7 +1836,7 @@ female_can_hold_minor_title_trigger = {
 		is_female = yes
 		OR = {
 			AND = {
-				culture = amazonios
+				culture = amazonian
 				liege = { culture = ROOT }
 			}
 			custom_tooltip = {
@@ -1892,7 +1892,7 @@ female_can_hold_minor_commander_title_trigger = {
 				liege = { religion = ROOT }
 			}
 			AND = {
-				culture = amazonios
+				culture = amazonian
 				liege = { culture = ROOT }
 			}
 			custom_tooltip = {
@@ -6205,117 +6205,117 @@ likes_wealth = {
 likes_tributaries = {
 	context = tributary # Not a trigger, but used by the 'liked_by_offmap' & 'disliked_by_offmap' triggers
 }
-likes_indians = {
-	culture_group = indo_aryan_group
-}
-likes_dravidians = {
-	culture_group = dravidian_group
-}
-likes_tibetans = {
-	culture_group = tibetan_group
-}
-likes_germanics = {
-	OR = {
-		culture_group = north_germanic
-		culture_group = central_germanic
-		culture_group = west_germanic
-	}
-}
-likes_latino_iberians = {
-	OR = {
-		culture_group = latin
-		culture_group = iberian
-	}
-}
-likes_byzantines = {
-	culture_group = byzantine
-}
-likes_celts = {
-	culture_group = celtic
-}
-likes_finno_ugrics = {
-	OR = {
-		culture_group = finno_ugric
-		culture_group = magyar
-	}
-}
-likes_altaics = {
-	culture_group = altaic
-}
-likes_balto_slavics = {
-	OR = {
-		culture_group = baltic
-		culture_group = east_slavic
-		culture_group = west_slavic
-		culture_group = south_slavic
-	}
-}
-likes_arabs = {
-	culture_group = arabic
-}
-likes_iranians = {
-	culture_group = iranian
-}
-likes_africans = {
-	OR = {
-		culture_group = west_african
-		culture_group = east_african
-	}
-}
-likes_mesoamericans = {
-	culture_group = mesoamerican
-}
-likes_muslims = {
-	religion_group = muslim
-}
-likes_christians = {
-	religion_group = christian
-}
-likes_jews = {
-	religion_group = jewish_group
-}
-likes_mazdans = {
-	religion_group = zoroastrian_group
-}
-likes_zoroastrians = {
-	religion = zoroastrian
-}
-likes_mazdakis = {
-	religion = mazdaki
-}
-likes_manicheans = {
-	religion = manichean
-}
-likes_khurmaztans = {
-	religion = khurmazta
-}
-likes_buddhists = {
-	religion = buddhist
-}
-likes_hindus = {
-	religion = hindu
-}
-likes_jains = {
-	religion = jain
-}
-likes_tengris = {
-	OR = {
-		religion = tengri_pagan
-		religion = tengri_pagan_reformed
-	}
-}
-likes_zunists = {
-	OR = {
-		religion = zun_pagan
-		religion = zun_pagan_reformed
-	}
-}
-likes_bon = {
-	OR = {
-		religion = bon
-		religion = bon_reformed
-	}
-}
+# likes_indians = {
+	# culture_group = indo_aryan_group
+# }
+# likes_dravidians = {
+	# culture_group = dravidian_group
+# }
+# likes_tibetans = {
+	# culture_group = tibetan_group
+# }
+# likes_germanics = {
+	# OR = {
+		# culture_group = north_germanic
+		# culture_group = central_germanic
+		# culture_group = west_germanic
+	# }
+# }
+# likes_latino_iberians = {
+	# OR = {
+		# culture_group = latin
+		# culture_group = iberian
+	# }
+# }
+# likes_byzantines = {
+	# culture_group = byzantine
+# }
+# likes_celts = {
+	# culture_group = celtic
+# }
+# likes_finno_ugrics = {
+	# OR = {
+		# culture_group = finno_ugric
+		# culture_group = magyar
+	# }
+# }
+# likes_altaics = {
+	# culture_group = altaic
+# }
+# likes_balto_slavics = {
+	# OR = {
+		# culture_group = baltic
+		# culture_group = east_slavic
+		# culture_group = west_slavic
+		# culture_group = south_slavic
+	# }
+# }
+# likes_arabs = {
+	# culture_group = arabic
+# }
+# likes_iranians = {
+	# culture_group = iranian
+# }
+# likes_africans = {
+	# OR = {
+		# culture_group = west_african
+		# culture_group = east_african
+	# }
+# }
+# likes_mesoamericans = {
+	# culture_group = mesoamerican
+# }
+# likes_muslims = {
+	# religion_group = muslim
+# }
+# likes_christians = {
+	# religion_group = christian
+# }
+# likes_jews = {
+	# religion_group = jewish_group
+# }
+# likes_mazdans = {
+	# religion_group = zoroastrian_group
+# }
+# likes_zoroastrians = {
+	# religion = zoroastrian
+# }
+# likes_mazdakis = {
+	# religion = mazdaki
+# }
+# likes_manicheans = {
+	# religion = manichean
+# }
+# likes_khurmaztans = {
+	# religion = khurmazta
+# }
+# likes_buddhists = {
+	# religion = buddhist
+# }
+# likes_hindus = {
+	# religion = hindu
+# }
+# likes_jains = {
+	# religion = jain
+# }
+# likes_tengris = {
+	# OR = {
+		# religion = tengri_pagan
+		# religion = tengri_pagan_reformed
+	# }
+# }
+# likes_zunists = {
+	# OR = {
+		# religion = zun_pagan
+		# religion = zun_pagan_reformed
+	# }
+# }
+# likes_bon = {
+	# OR = {
+		# religion = bon
+		# religion = bon_reformed
+	# }
+# }
 
 is_blood_relative_of_root_trigger = {
 	OR = {
@@ -6329,66 +6329,66 @@ is_blood_relative_of_root_trigger = {
 	}
 }
 
-silk_road_trade_post_trigger = {
-	custom_tooltip = {
-		text = silk_road_province_desc
-		hidden_tooltip = {
-			OR = {
-				province_id = 1491
-				province_id = 1498
-				province_id = 1478
-				province_id = 1359
-				province_id = 1365
-				province_id = 1448
-				province_id = 1440
-				province_id = 1439
-				province_id = 678
-				province_id = 764
-				province_id = 802
-				province_id = 596
-				province_id = 667
-				province_id = 693
-				province_id = 649
-				province_id = 646
-				province_id = 641
-				province_id = 630
-				province_id = 1180
-				province_id = 1127
-				province_id = 1220
-				province_id = 1114
-				province_id = 1221
-				province_id = 1446
-				province_id = 868
-				province_id = 719
-				province_id = 1338
-				province_id = 1369
-				province_id = 858
-				province_id = 903
-				province_id = 1185
-				province_id = 1129
-				province_id = 1318
-				province_id = 1297
-				province_id = 1163
-				province_id = 1154
-				province_id = 1151
-				province_id = 1481
-				province_id = 1115
-				province_id = 1288
-				province_id = 796
-				province_id = 1362
-				province_id = 728
-				province_id = 774
-				province_id = 620
-				province_id = 1794
-				province_id = 775
-				province_id = 633
-				province_id = 664
-				province_id = 644
-				province_id = 1797
-			}
-		}
-	}
-}
+# silk_road_trade_post_trigger = {
+	# custom_tooltip = {
+		# text = silk_road_province_desc
+		# hidden_tooltip = {
+			# OR = {
+				# province_id = 1491
+				# province_id = 1498
+				# province_id = 1478
+				# province_id = 1359
+				# province_id = 1365
+				# province_id = 1448
+				# province_id = 1440
+				# province_id = 1439
+				# province_id = 678
+				# province_id = 764
+				# province_id = 802
+				# province_id = 596
+				# province_id = 667
+				# province_id = 693
+				# province_id = 649
+				# province_id = 646
+				# province_id = 641
+				# province_id = 630
+				# province_id = 1180
+				# province_id = 1127
+				# province_id = 1220
+				# province_id = 1114
+				# province_id = 1221
+				# province_id = 1446
+				# province_id = 868
+				# province_id = 719
+				# province_id = 1338
+				# province_id = 1369
+				# province_id = 858
+				# province_id = 903
+				# province_id = 1185
+				# province_id = 1129
+				# province_id = 1318
+				# province_id = 1297
+				# province_id = 1163
+				# province_id = 1154
+				# province_id = 1151
+				# province_id = 1481
+				# province_id = 1115
+				# province_id = 1288
+				# province_id = 796
+				# province_id = 1362
+				# province_id = 728
+				# province_id = 774
+				# province_id = 620
+				# province_id = 1794
+				# province_id = 775
+				# province_id = 633
+				# province_id = 664
+				# province_id = 644
+				# province_id = 1797
+			# }
+		# }
+	# }
+# }
 
 is_any_kinslayer_trigger = {
 	OR = {

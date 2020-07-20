@@ -63,21 +63,21 @@ pure_war_bloodline_01 = {
 	flags = { created_bloodline bloodline_heroes }
 }
 
-pure_war_bloodline_02 = {
-	picture = GFX_bloodlines_symbol_war_knight
-	inheritance = patrilineal
-	allow_bastards = yes
-	combat_rating = 4
-	monthly_character_piety = 0.05
-	command_modifier = {
-		cavalry = 0.10
-	}
-	bloodline_effect_knights = 1
-	active = {
-		religion_group = christian
-	}
-	flags = { created_bloodline bloodline_knights }
-}
+# pure_war_bloodline_02 = {
+	# picture = GFX_bloodlines_symbol_war_knight
+	# inheritance = patrilineal
+	# allow_bastards = yes
+	# combat_rating = 4
+	# monthly_character_piety = 0.05
+	# command_modifier = {
+		# cavalry = 0.10
+	# }
+	# bloodline_effect_knights = 1
+	# active = {
+		# religion_group = christian
+	# }
+	# flags = { created_bloodline bloodline_knights }
+# }
 
 pure_war_bloodline_03 = {
 	picture = GFX_bloodlines_symbol_war
@@ -602,34 +602,6 @@ event_religion_aggressive_bloodline_06 = {
 	flags = { created_bloodline bloodline_better_inquisition bloodline_religious_liberation }
 }
 
-#Special earned Bloodlines:
-alexander_bloodline_01 = {
-	picture = GFX_bloodlines_symbol_bucephalus
-	inheritance = patrilineal
-	allow_bastards = yes
-	hellenic_pagan_opinion = 5
-	hellenic_pagan_reformed_opinion = 5
-	levy_reinforce_rate = 0.15
-	combat_rating = 10
-	monthly_character_prestige = 0.2
-	bloodline_effect_one_invasion = 1
-	flags = { created_bloodline bloodline_ambition bloodline_great_conquerors bloodline_alexander }
-}
-ashoka_bloodline_01 = {
-	picture = GFX_bloodlines_symbol_ashoka_lion
-	inheritance = patrilineal
-	allow_bastards = yes
-	hindu_opinion = 5
-	jain_opinion = 5
-	buddhist_opinion = 10
-	global_revolt_risk = -0.03
-	combat_rating = 5
-	monthly_character_piety = 0.1
-	bloodline_effect_one_invasion = 1
-	bloodline_effect_religious_liberation = 1
-	flags = { created_bloodline bloodline_great_conquerors bloodline_better_inquisition bloodline_religious_liberation bloodline_ashoka }
-}
-
 immortal_bloodline_01 = {
 	picture = GFX_bloodlines_symbol_murder_jester
 	inheritance = patrilineal
@@ -648,47 +620,4 @@ chinese_imperial_bloodline_01 = {
 	tech_growth_modifier_culture = 0.02
 	monthly_character_prestige = 0.2
 	flags = { created_bloodline }
-}
-
-matilde_bloodline = {
-	religion_head_opinion = 10
-	bloodline_effect_easy_vows = 1
-	monthly_character_piety = 0.05
-	inheritance = matrilineal
-	matrilineal_override = yes
-	allow_bastards = no
-	active = {
-		religion = catholic
-	}
-	picture = GFX_bloodlines_symbol_virgin
-	flags = { created_bloodline matilde_bloodline bloodline_easy_monks }
-}
-
-matilde_male_bloodline = {
-	religion_head_opinion = 10
-	bloodline_effect_easy_vows = 1
-	monthly_character_piety = 0.05
-	inheritance = patrilineal
-	matrilineal_override = no
-	allow_bastards = no
-	active = {
-		religion = catholic
-	}
-	picture = GFX_bloodlines_symbol_blessed_child
-	flags = { created_bloodline bloodline_easy_monks }
-}
-
-true_matilde_bloodline = {
-	religion_head_opinion = 5
-	italian_opinion = 5
-	bloodline_effect_easy_vows = 1
-	monthly_character_piety = 0.05
-	inheritance = matrilineal
-	matrilineal_override = yes
-	allow_bastards = no
-	active = {
-		religion = catholic
-	}
-	picture = GFX_bloodlines_symbol_fleur_de_lis
-	flags = { created_bloodline matilde_bloodline bloodline_easy_monks }
 }

@@ -4698,7 +4698,7 @@ character_event = {
 						owner = { 
 							NOR = { 
 								has_religion_feature = religion_matriarchal 
-								culture = amazonios
+								culture = amazonian
 							} 
 						} 
 					} 
@@ -4739,7 +4739,7 @@ character_event = {
 								has_religion_feature = religion_matriarchal 
 								has_religion_feature = religion_equal 
 								has_religion_feature = religion_feature_bon 
-								culture = amazonios
+								culture = amazonian
 							}
 						} 
 					} 
@@ -5413,13 +5413,13 @@ character_event = {
 					is_female = yes 
 					OR = {
 						FROM = { owner = { has_religion_feature = religion_matriarchal } }
-						FROM = { owner = { culture = amazonios } }
+						FROM = { owner = { culture = amazonian } }
 					}
 				}
 				AND = { 
 					is_female = no 
 					FROM = { owner = { NOT = { has_religion_feature = religion_matriarchal } } }
-					FROM = { owner = { NOT = { culture = amazonios } } }
+					FROM = { owner = { NOT = { culture = amazonian } } }
 				}
 				FROM = { owner = { has_religion_feature = religion_equal } }
 				FROM = { owner = { has_religion_feature = religion_feature_bon } }
@@ -5471,11 +5471,11 @@ character_event = {
 				AND = { 
 					is_female = yes 
 					FROM = { NOT = { owner = { has_religion_feature = religion_matriarchal } } }
-					FROM = { NOT = { owner = { culture = amazonios } } }
+					FROM = { NOT = { owner = { culture = amazonian } } }
 				}
 				AND = { 
 					is_female = no 
-					FROM = { owner = { culture = amazonios } }
+					FROM = { owner = { culture = amazonian } }
 					FROM = { owner = { has_religion_feature = religion_matriarchal } }
 				}
 				FROM = { owner = { has_religion_feature = religion_equal } }
@@ -9770,13 +9770,13 @@ character_event = {
 				ROOT = {
 					OR = {
 						has_religion_feature = religion_matriarchal
-						culture = amazonios
+						culture = amazonian
 					}
 				}
 				FROMFROM = {
 					OR = {
 						has_religion_feature = religion_matriarchal
-						culture = amazonios
+						culture = amazonian
 					}
 				}
 			}
@@ -9801,7 +9801,7 @@ character_event = {
 				ROOT = { 
 					OR = {
 						has_religion_feature = religion_matriarchal 
-						culture = amazonios
+						culture = amazonian
 					}
 					NOR = {  
 						#is_merchant_republic = yes
@@ -10364,7 +10364,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 				AND = {
 					event_target:scoped_improvement_target = { character = ROOT is_female = yes }
 					primary_title = { has_law = status_of_women_4 }
@@ -10385,7 +10385,7 @@ character_event = {
 			NOR = { 
 				has_religion_feature = religion_patriarchal
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			} 
 		} 
 		picture = GFX_evt_prospering_province
@@ -10396,7 +10396,7 @@ character_event = {
 				has_dlc = "Reapers"
 				has_religion_feature = religion_patriarchal
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			} 
 		} 
 		picture = GFX_evt_magnificent_castle
@@ -10446,7 +10446,7 @@ character_event = {
 						OR = { 
 							has_religion_feature = religion_meritocratic
 							has_religion_feature = religion_matriarchal
-							culture = amazonios
+							culture = amazonian
 							has_religion_feature = religion_patriarchal
 						} 
 					}
@@ -10470,7 +10470,7 @@ character_event = {
 						OR = { 
 							has_religion_feature = religion_meritocratic
 							has_religion_feature = religion_matriarchal
-							culture = amazonios
+							culture = amazonian
 							has_religion_feature = religion_patriarchal
 						} 
 					}
@@ -10498,7 +10498,7 @@ character_event = {
 									OR = { 
 										has_religion_feature = religion_meritocratic
 										has_religion_feature = religion_matriarchal
-										culture = amazonios
+										culture = amazonian
 										has_religion_feature = religion_patriarchal
 									} 
 								}
@@ -10518,7 +10518,7 @@ character_event = {
 									OR = { 
 										has_religion_feature = religion_meritocratic
 										has_religion_feature = religion_matriarchal
-										culture = amazonios
+										culture = amazonian
 										has_religion_feature = religion_patriarchal
 									} 
 								}
@@ -10546,7 +10546,7 @@ character_event = {
 								OR = { 
 									has_religion_feature = religion_meritocratic
 									has_religion_feature = religion_matriarchal
-									culture = amazonios
+									culture = amazonian
 									has_religion_feature = religion_patriarchal
 								} 
 							}
@@ -10566,7 +10566,7 @@ character_event = {
 								OR = { 
 									has_religion_feature = religion_meritocratic
 									has_religion_feature = religion_matriarchal
-									culture = amazonios
+									culture = amazonian
 									has_religion_feature = religion_patriarchal
 								} 
 							}
@@ -10662,7 +10662,7 @@ character_event = {
 					OR = { 
 						has_religion_feature = religion_meritocratic
 						has_religion_feature = religion_matriarchal
-						culture = amazonios
+						culture = amazonian
 						has_religion_feature = religion_patriarchal
 					} 
 				}
@@ -10708,7 +10708,7 @@ character_event = {
 						OR = { 
 							has_religion_feature = religion_meritocratic
 							has_religion_feature = religion_matriarchal
-							culture = amazonios
+							culture = amazonian
 							has_religion_feature = religion_patriarchal
 						} 
 					}
@@ -10732,7 +10732,7 @@ character_event = {
 						OR = { 
 							has_religion_feature = religion_meritocratic
 							has_religion_feature = religion_matriarchal
-							culture = amazonios
+							culture = amazonian
 							has_religion_feature = religion_patriarchal
 						} 
 					}
@@ -10760,7 +10760,7 @@ character_event = {
 									OR = { 
 										has_religion_feature = religion_meritocratic
 										has_religion_feature = religion_matriarchal
-										culture = amazonios
+										culture = amazonian
 										has_religion_feature = religion_patriarchal
 									} 
 								}
@@ -10780,7 +10780,7 @@ character_event = {
 									OR = { 
 										has_religion_feature = religion_meritocratic
 										has_religion_feature = religion_matriarchal
-										culture = amazonios
+										culture = amazonian
 										has_religion_feature = religion_patriarchal
 									} 
 								}
@@ -10808,7 +10808,7 @@ character_event = {
 								OR = { 
 									has_religion_feature = religion_meritocratic
 									has_religion_feature = religion_matriarchal
-									culture = amazonios
+									culture = amazonian
 									has_religion_feature = religion_patriarchal
 								} 
 							}
@@ -10828,7 +10828,7 @@ character_event = {
 								OR = { 
 									has_religion_feature = religion_meritocratic
 									has_religion_feature = religion_matriarchal
-									culture = amazonios
+									culture = amazonian
 									has_religion_feature = religion_patriarchal
 								} 
 							}
@@ -10964,7 +10964,7 @@ character_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 				AND = {
 					event_target:scoped_improvement_target = { character = event_target:scoped_improvement_ruler is_female = yes }
 					primary_title = { has_law = status_of_women_4 }
@@ -10985,7 +10985,7 @@ character_event = {
 			NOR = { 
 				has_religion_feature = religion_patriarchal
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			} 
 		} 
 		picture = GFX_evt_prospering_province
@@ -10996,7 +10996,7 @@ character_event = {
 				has_dlc = "Reapers"
 				has_religion_feature = religion_patriarchal
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			} 
 		} 
 		picture = GFX_evt_magnificent_castle
@@ -12034,7 +12034,7 @@ narrative_event = {
 		trigger = { 
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		} 
 		picture = GFX_evt_matriarchy_throne_room
@@ -12050,7 +12050,7 @@ narrative_event = {
 			NOR = { 
 				has_religion_feature = religion_patriarchal
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			} 
 		} 
 		picture = GFX_evt_throne_room

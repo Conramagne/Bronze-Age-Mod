@@ -37,7 +37,7 @@ claim = {
 					has_religion_feature = religion_matriarchal 
 				} 
 				ROOT = {
-					culture = amazonios
+					culture = amazonian
 				}
 			} 
 		}

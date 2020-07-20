@@ -752,6 +752,10 @@
 			factor = 0
 			graphical_culture = achaeangfx
 		}
+		modifier = {
+			factor = 0
+			graphical_culture = thraciangfx
+		}
 		
 		# Does not suit Western females with African style headgear
 		# modifier = {
@@ -2190,12 +2194,20 @@
 			factor = 0
 			graphical_culture = achaeangfx
 		}
+		modifier = {
+			factor = 0
+			graphical_culture = thraciangfx
+		}
 	}
 	2 = {
 		factor = 1
 	}
 	3 = {
 		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = thraciangfx
+		}
 	}
 	4 = {
 		factor = 1

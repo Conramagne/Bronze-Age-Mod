@@ -409,7 +409,7 @@ decisions = {
 			ai = no
 			government = stratocratic_government
 			NOR = {
-				culture = amazonios
+				culture = amazonian
 				has_character_modifier = rejected_militarization
 			}
 		}
@@ -838,7 +838,7 @@ targetted_decisions = {
 		ai_target_filter = court
 		from_potential = {
 			is_adult = yes
-			trait = amazonios_trait
+			trait = amazonian_trait
 			NOR = {
 				has_character_flag = flag_god
 				trait = celibate
@@ -850,7 +850,7 @@ targetted_decisions = {
 		}
 		potential = {
 			ai = yes
-			trait = amazonios_trait
+			trait = amazonian_trait
 			NOR = {
 				has_character_flag = flag_god
 				trait = celibate
@@ -1043,7 +1043,7 @@ targetted_decisions = {
 		third_party = FROM
 		show_third_party_potential = yes
 		from_potential = {
-			trait = amazonios_trait
+			trait = amazonian_trait
 			is_landed = yes
 		}
 		
@@ -1053,7 +1053,7 @@ targetted_decisions = {
 		
 		potential = {
 			ai = yes
-			trait = amazonios_trait
+			trait = amazonian_trait
 			NOR = {
 				has_character_flag = flag_god
 				trait = celibate
@@ -1084,7 +1084,7 @@ targetted_decisions = {
 			FROMFROM = {
 				is_ill = no
 				is_inaccessible_trigger = no
-				trait = amazonios_trait
+				trait = amazonian_trait
 				NOR = {
 					has_character_flag = flag_god
 					trait = celibate

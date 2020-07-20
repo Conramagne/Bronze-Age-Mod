@@ -480,7 +480,7 @@
 	mother = 2100313
 	disallow_random_traits = yes
 	2396.1.1 = { birth = yes }
-	2407.1.1 = {
+	2416.1.1 = {
 		add_spouse = 2100317
 	}
 	2431.1.1 = { death = yes }
@@ -547,6 +547,9 @@
 	# mother = 
 	disallow_random_traits = yes
 	2391.1.1 = { birth = yes }
+	2416.1.1 = {
+		add_spouse = 2100312
+	}
 	2441.1.1 = { death = yes }
 }
 
@@ -623,7 +626,7 @@
 			type = god_poseidaon_bloodline
 		}
 	}
-	2499.1.1 = {
+	2489.1.1 = {
 		add_spouse = 2101504
 	}
 	2521.1.1 = { death = yes }
@@ -994,7 +997,7 @@
 	father = 2100515
 	mother = 1100175
 	disallow_random_traits = yes
-	2371.1.1 = { birth = yes }
+	2368.1.1 = { birth = yes }
 	2391.1.1 = {
 		add_spouse = 2100508
 	}
@@ -1010,7 +1013,7 @@
 	mother = 1100175
 	female = yes
 	disallow_random_traits = yes
-	2373.1.1 = { birth = yes }
+	2370.1.1 = { birth = yes }
 	2441.1.1 = { death = yes }
 }
 
@@ -1035,7 +1038,7 @@
 	father = 2100514
 	disallow_random_traits = yes
 	2366.1.1 = { birth = yes }
-	2382.1.1 = {
+	2390.1.1 = {
 		add_spouse = 2100511
 	}
 	2391.1.1 = { 
@@ -1065,7 +1068,7 @@
 	mother = 2100524
 	disallow_random_traits = yes
 	2346.1.1 = { birth = yes }
-	2370.1.1 = {
+	2366.1.1 = {
 		add_spouse = 1100175
 	}
 	2386.1.1 = { death = yes }
@@ -1198,7 +1201,7 @@
 	disallow_random_traits = yes
 	2366.1.1 = { birth = yes }
 	2386.1.1 = {
-		add_spouse = 2100526
+		add_spouse = 2100525
 	}
 	2426.1.1 = { death = yes }
 }
@@ -1497,7 +1500,7 @@
 	mother = 2100808
 	disallow_random_traits = yes
 	2451.1.1 = { birth = yes }
-	2497.1.1 = {
+	2491.1.1 = {
 		add_spouse = 2100801
 	}
 	2518.1.1 = { death = yes }
@@ -1512,7 +1515,7 @@
 	father = 2100800
 	disallow_random_traits = yes
 	2471.1.1 = { birth = yes }
-	2497.1.1 = {
+	2491.1.1 = {
 		add_spouse = 2100800
 	}
 	2511.1.1 = { death = yes }
@@ -1829,7 +1832,7 @@
 	father = 2100902
 	mother = 2101507
 	2496.1.1 = { birth = yes }
-	2521.1.1 = {
+	2522.1.1 = {
 		add_spouse = 2101600
 	}
 	2571.1.1 = { death = yes }
@@ -2041,6 +2044,9 @@
 	father = 2101008
 	mother = 2100602
 	2501.1.1 = { birth = yes }
+	2518.1.1 = {
+		add_spouse = 2105000
+	}
 	2561.1.1 = { death = yes }
 }
 
@@ -2211,6 +2217,9 @@
 	father = 2101108
 	disallow_random_traits = yes
 	2471.1.1 = { birth = yes }
+	2496.1.1 = {
+		add_spouse = 2101103
+	}
 	2521.1.1 = { death = yes }
 }
 
@@ -2223,7 +2232,7 @@
 	mother = 2101107
 	disallow_random_traits = yes
 	2476.1.1 = { birth = yes }
-	2497.1.1 = {
+	2496.1.1 = {
 		add_spouse = 2101102
 	}
 	2521.1.1 = { death = yes }
@@ -2568,7 +2577,7 @@
 	female = yes
 	father = 2101129
 	disallow_random_traits = yes
-	2086.1.1 = { birth = yes }
+	2081.1.1 = { birth = yes }
 	2141.1.1 = { death = yes }
 }
 
@@ -2847,6 +2856,9 @@
 	religion = pantes_theoi
 	female = yes
 	2401.1.1 = { birth = yes }
+	2419.1.1 = {
+		add_spouse = 2101213
+	}
 	2461.1.1 = { death = yes }
 }
 
@@ -2858,7 +2870,7 @@
 	# father = 
 	mother = 2100615
 	2401.1.1 = { birth = yes }
-	2461.1.1 = {
+	2419.1.1 = {
 		add_spouse = 2101212
 	}
 	2461.1.1 = { death = yes }
@@ -2918,8 +2930,8 @@
 	2541.1.1 = { death = yes }
 }
 
-2101302 = { #Alkmaeon
-	name = "Alkmaeon"
+2101302 = { #Alkmaíon
+	name = "Alkmaíon"
 	dynasty = 2100015 #Amythaid
 	culture = achaean
 	religion = pantes_theoi
@@ -3003,13 +3015,13 @@
 2101400 = { #Penthesilea, Queen of the Amazons
 	name = "Penthesilea"
 	dynasty = 2100016 #Otrerid
-	culture = amazonios
+	culture = amazonian
 	religion = pantes_theoi
 	female = yes
 	father = 1100152
 	mother = 2101404
 	martial = 6
-	trait = amazonios_trait
+	trait = amazonian_trait
 	trait = skilled_tactician
 	2506.1.1 = { birth = yes }
 	2531.1.1 = { death = yes }
@@ -3018,12 +3030,12 @@
 2101401 = { #Hippolute, Queen of the Amazons
 	name = "Hippolute"
 	dynasty = 2100016 #Otrerid
-	culture = amazonios
+	culture = amazonian
 	religion = pantes_theoi
 	female = yes
 	father = 1100152
 	mother = 2101404
-	trait = amazonios_trait
+	trait = amazonian_trait
 	disallow_random_traits = yes
 	2501.1.1 = { birth = yes }
 	2526.1.1 = { death = yes }
@@ -3032,12 +3044,12 @@
 2101402 = { #Antiope
 	name = "Antiope"
 	dynasty = 2100016 #Otrerid
-	culture = amazonios
+	culture = amazonian
 	religion = pantes_theoi
 	female = yes
 	father = 1100152
 	mother = 2101404
-	trait = amazonios_trait
+	trait = amazonian_trait
 	trait = tough_soldier
 	2508.1.1 = { birth = yes }
 	2527.1.1 = {
@@ -3049,12 +3061,12 @@
 2101403 = { #Melanippe
 	name = "Melanippe"
 	dynasty = 2100016 #Otrerid
-	culture = amazonios
+	culture = amazonian
 	religion = pantes_theoi
 	female = yes
 	father = 1100152
 	mother = 2101404
-	trait = amazonios_trait
+	trait = amazonian_trait
 	trait = tough_soldier
 	2510.1.1 = { birth = yes }
 	2527.1.1 = {
@@ -3066,10 +3078,10 @@
 2101404 = { #Otrera, Queen of the Amazons
 	name = "Otrera"
 	dynasty = 2100016 #Otrerid
-	culture = amazonios
+	culture = amazonian
 	religion = pantes_theoi
 	female = yes
-	trait = amazonios_trait
+	trait = amazonian_trait
 	disallow_random_traits = yes
 	2481.1.1 = { birth = yes }
 	2501.1.1 = {
@@ -3149,7 +3161,7 @@
 	father = 2101510
 	disallow_random_traits = yes
 	2469.1.1 = { birth = yes }
-	2499.1.1 = {
+	2489.1.1 = {
 		add_spouse = 2100402
 	}
 	2518.1.1 = { death = yes }
@@ -3364,7 +3376,7 @@
 	father = 2101611
 	mother = 2101603
 	2501.1.1 = { birth = yes }
-	2521.1.1 = {
+	2522.1.1 = {
 		add_spouse = 2100913
 	}
 	2561.1.1 = { death = yes }
@@ -3377,7 +3389,7 @@
 	religion = pantes_theoi
 	father = 2101600
 	mother = 2100913
-	2521.1.1 = { birth = yes }
+	2522.1.1 = { birth = yes }
 	2581.1.1 = { death = yes }
 }
 
@@ -3415,7 +3427,7 @@
 	father = 2101605
 	disallow_random_traits = yes
 	2461.1.1 = { birth = yes }
-	2481.1.1 = {
+	2479.1.1 = {
 		add_spouse = 2101610
 	}
 	2521.1.1 = { death = yes }
@@ -3437,7 +3449,7 @@
 	father = 2101610
 	mother = 2101604
 	disallow_random_traits = yes
-	2476.1.1 = { birth = yes }
+	2479.1.1 = { birth = yes }
 	2496.1.1 = {
 		add_spouse = 2101607
 	}
@@ -3484,7 +3496,10 @@
 	culture = achaean	
 	religion = pantes_theoi
 	disallow_random_traits = yes
-	2461.1.1 = { birth = yes }
+	2456.1.1 = { birth = yes }
+	2479.1.1 = {
+		add_spouse = 2101610
+	}
 	2521.1.1 = { death = yes }
 }
 
@@ -3597,8 +3612,6 @@
 	dynasty = 2100020 #Andraemonid
 	culture = achaean	
 	religion = pantes_theoi
-	father = 2101701
-	mother = 2101702
 	disallow_random_traits = yes
 	2476.1.1 = { birth = yes }
 	2496.1.1 = {
@@ -3894,8 +3907,8 @@
 	2551.1.1 = { death = yes }
 }
 
-2103001 = { #Achilleus
-	name = "Achilleus"
+2103001 = { #Akhilleus
+	name = "Akhilleus"
 	dynasty = 2100008 #Aiakaid
 	culture = achaean	
 	religion = pantes_theoi
@@ -3909,6 +3922,7 @@
 	trait = proud
 	father = 2103000
 	mother = 1100082
+	disallow_random_traits = yes
 	2511.1.1 = { birth = yes }
 	2533.1.1 = { death = yes }
 }
@@ -4075,5 +4089,140 @@
 	2441.1.1 = {
 		add_spouse = 2104002
 	}
+	2481.1.1 = { death = yes }
+}
+
+#Royal Family of Ithaca (2105000-2105999)
+2105000 = { #Odysseús, King of Ithaca
+	name = "Odysseús"
+	dynasty = 2100018 #Arcesiad
+	culture = achaean	
+	religion = pantes_theoi
+	diplomacy = 5
+	trait = skilled_tactician
+	trait = quick
+	trait = shrewd
+	trait = gregarious
+	trait = robust
+	trait = strategist
+	trait = trickster
+	father = 2105006
+	mother = 2105002
+	disallow_random_traits = yes
+	2496.1.1 = { birth = yes }
+	2518.1.1 = {
+		add_spouse = 2101011
+	}
+	2566.1.1 = { death = yes }
+}
+
+2105001 = { #Telemachos
+	name = "Telemachos"
+	dynasty = 2100018 #Arcesiad
+	culture = achaean	
+	religion = pantes_theoi
+	father = 2105000
+	mother = 2101011
+	2525.1.1 = { birth = yes }
+	2591.1.1 = { death = yes }
+}
+
+2105002 = { #Antiklea
+	name = "Antiklea"
+	culture = achaean	
+	religion = pantes_theoi
+	female = yes
+	father = 2105004
+	mother = 2105003
+	2461.1.1 = { birth = yes }
+	2481.1.1 = {
+		add_spouse = 2105006
+	}
+	2541.1.1 = { death = yes }
+}
+
+2105003 = { #Amphithea
+	name = "Amphithea"
+	culture = achaean	
+	religion = pantes_theoi
+	female = yes
+	disallow_random_traits = yes
+	2441.1.1 = { birth = yes }
+	2461.1.1 = {
+		add_spouse = 2105004
+	}
+	2501.1.1 = { death = yes }
+}
+
+2105004 = { #Autolykos
+	name = "Autolykos"
+	culture = achaean	
+	religion = pantes_theoi
+	father = 1100154
+	mother = 2105005
+	disallow_random_traits = yes
+	2441.1.1 = { birth = yes }
+	2461.1.1 = {
+		add_spouse = 2105003
+	}
+	2501.1.1 = { death = yes }
+}
+
+2105005 = { #Philonis
+	name = "Philonis"
+	culture = achaean	
+	religion = pantes_theoi
+	female = yes
+	disallow_random_traits = yes
+	2421.1.1 = { birth = yes }
+	2481.1.1 = { death = yes }
+}
+
+2105006 = { #Laértes, King of Ithaca
+	name = "Laértes"
+	dynasty = 2100018 #Arcesiad
+	culture = achaean	
+	religion = pantes_theoi
+	father = 2105008
+	mother = 2105007
+	2461.1.1 = { birth = yes }
+	2481.1.1 = {
+		add_spouse = 2105002
+	}
+	2551.1.1 = { death = yes }
+}
+
+2105007 = { #Chalkomedousa
+	name = "Chalkomedousa"
+	culture = achaean	
+	religion = pantes_theoi
+	female = yes
+	2441.1.1 = { birth = yes }
+	2461.1.1 = {
+		add_spouse = 2105008
+	}
+	2501.1.1 = { death = yes }
+}
+
+2105008 = { #Arkeisios, King of Ithaca
+	name = "Arkeisios"
+	dynasty = 2100018 #Arcesiad
+	culture = achaean	
+	religion = pantes_theoi
+	father = 1100146
+	mother = 2105009
+	2441.1.1 = { birth = yes }
+	2461.1.1 = {
+		add_spouse = 2105007
+	}
+	2501.1.1 = { death = yes }
+}
+
+2105009 = { #Euryodeia
+	name = "Euryodeia"
+	culture = achaean	
+	religion = pantes_theoi
+	female = yes
+	2421.1.1 = { birth = yes }
 	2481.1.1 = { death = yes }
 }

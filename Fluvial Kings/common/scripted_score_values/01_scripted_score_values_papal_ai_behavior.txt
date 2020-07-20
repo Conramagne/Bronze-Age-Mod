@@ -1647,7 +1647,7 @@ ask_for_invasion_chance = {
 		is_female = no
 		NOR = { #Random world woes
 			has_religion_feature = religion_equal
-			culture = amazonios
+			culture = amazonian
 			has_religion_feature = religion_matriarchal
 			has_religion_feature = religion_feature_bon
 		}

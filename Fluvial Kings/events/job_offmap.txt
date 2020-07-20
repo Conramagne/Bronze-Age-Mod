@@ -1130,7 +1130,7 @@ character_event = {
 			limit = {
 				OR = {
 					has_religion_feature = religion_matriarchal
-					culture = amazonios
+					culture = amazonian
 				}
 			}
 			create_random_soldier = {

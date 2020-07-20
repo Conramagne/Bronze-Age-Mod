@@ -146,7 +146,7 @@ targetted_decisions = {
 						is_female = no
 						NOR = {
 							 has_religion_feature = religion_matriarchal
-							 culture = amazonios
+							 culture = amazonian
 						}
 					}
 				}
@@ -387,7 +387,7 @@ targetted_decisions = {
 						is_female = no
 						NOR = {
 							 has_religion_feature = religion_matriarchal
-							 culture = amazonios
+							 culture = amazonian
 						}
 					}
 				}

@@ -827,7 +827,7 @@ spawn_old_duelist_effect = {
 		limit = {
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_soldier = {
@@ -848,7 +848,7 @@ spawn_old_duelist_effect = {
 		limit = {
 			NOR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_soldier = {
@@ -1136,7 +1136,7 @@ spawn_giant_duelist_effect = {
 		limit = {
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_soldier = {
@@ -1156,7 +1156,7 @@ spawn_giant_duelist_effect = {
 		limit = {
 			NOR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_soldier = {
@@ -1391,7 +1391,7 @@ spawn_creature_champion_effect = {
 		limit = {
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_soldier = {
@@ -1412,7 +1412,7 @@ spawn_creature_champion_effect = {
 		limit = {
 			NOR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		create_random_soldier = {

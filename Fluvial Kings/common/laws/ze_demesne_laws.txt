@@ -16,7 +16,7 @@ laws = {
 		allow = {
 			has_law = status_of_women_1
 			NOR = {
-				holder_scope = { culture = amazonios }
+				holder_scope = { culture = amazonian }
 				holder_scope = { has_religion_feature = religion_matriarchal }
 				holder_scope = { has_religion_feature = religion_equal }
 				holder_scope = { has_religion_feature = religion_feature_bon }
@@ -133,7 +133,7 @@ laws = {
 				has_law = status_of_women_2
 			}
 			NOR = {
-				holder_scope = { culture = amazonios }
+				holder_scope = { culture = amazonian }
 				holder_scope = { has_religion_feature = religion_matriarchal }
 				holder_scope = { has_religion_feature = religion_equal }
 				holder_scope = { has_religion_feature = religion_feature_bon }
@@ -243,7 +243,7 @@ laws = {
 				has_law = status_of_women_3
 			}
 			NOR = {
-				holder_scope = { culture = amazonios }
+				holder_scope = { culture = amazonian }
 				holder_scope = { has_religion_feature = religion_matriarchal }
 				holder_scope = { has_religion_feature = religion_equal }
 				holder_scope = { has_religion_feature = religion_feature_bon }
@@ -346,7 +346,7 @@ laws = {
 				has_law = status_of_women_4
 			}
 			NOR = {
-				holder_scope = { culture = amazonios }
+				holder_scope = { culture = amazonian }
 				holder_scope = { has_religion_feature = religion_matriarchal }
 				holder_scope = { has_religion_feature = religion_equal }
 				holder_scope = { has_religion_feature = religion_feature_bon }
@@ -453,7 +453,7 @@ laws = {
 			additive_modifier = { 
 				value = 10			
 				holder_scope = {
-					culture = amazonios
+					culture = amazonian
 				}
 			}
 		}
@@ -462,7 +462,7 @@ laws = {
 			OR = {
 				has_law = status_of_women_3
 				holder_scope = {
-					culture = amazonios
+					culture = amazonian
 				}
 			}
 			NOR = {

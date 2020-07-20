@@ -381,7 +381,7 @@ this_can_duel_with_from_trigger = {
 	            trait = brave
 	            gender_equality_trigger = yes
 	            has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 	            is_nomadic = yes
 	        }
 	        FROM = {
@@ -389,7 +389,7 @@ this_can_duel_with_from_trigger = {
 	  	            gender_equality_trigger = yes
 	           		has_religion_feature = religion_matriarchal
 	                is_nomadic = yes
-					culture = amazonios
+					culture = amazonian
 	            }
 	        }
 	    }
@@ -406,14 +406,14 @@ this_can_duel_with_from_trigger = {
                     gender_equality_trigger = yes
 	            	has_religion_feature = religion_matriarchal
                     is_nomadic = yes
-                    culture = amazonios
+                    culture = amazonian
                 }
                 ROOT = {
                     OR = {
       	                gender_equality_trigger = yes
 	            		has_religion_feature = religion_matriarchal
                         is_nomadic = yes
-                        culture = amazonios
+                        culture = amazonian
                     }
                 }
             }

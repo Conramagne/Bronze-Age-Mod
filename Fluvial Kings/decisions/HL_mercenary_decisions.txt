@@ -48,7 +48,7 @@ targetted_decisions = {
 					FROM = { 
 						NOR = { 
 							has_religion_feature = religion_matriarchal 
-							culture = amazonios
+							culture = amazonian
 						} 
 					}
 				}
@@ -57,7 +57,7 @@ targetted_decisions = {
 					FROM = { 
 						OR = {
 							has_religion_feature = religion_matriarchal 
-							culture = amazonios
+							culture = amazonian
 						}
 					}
 				}

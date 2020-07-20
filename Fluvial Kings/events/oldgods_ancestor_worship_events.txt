@@ -1600,7 +1600,7 @@ character_event = {
 						value = all
 					}
 					has_religion_feature = religion_matriarchal
-					culture = amazonios
+					culture = amazonian
 				}
 			}
 
@@ -1628,7 +1628,7 @@ character_event = {
 				NOR = { 
 					# religion = cathar
 					# religion = messalian
-					culture = amazonios
+					culture = amazonian
 					has_law = status_of_women_3
 					has_law = status_of_women_4
 					has_game_rule = {

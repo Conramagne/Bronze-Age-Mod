@@ -1389,6 +1389,10 @@ ai_make_sacrifice_to_evaluation_effect = {
 				likes_war_god_trigger = yes
 			}
 			modifier = {
+				factor = 0
+				culture = amazonian
+			}
+			modifier = {
 				factor = 0.5
 				OR = {
 					trait = devotion_arinniti
@@ -1416,6 +1420,10 @@ ai_make_sacrifice_to_evaluation_effect = {
 				save_event_target_as = target_god
 				ai_sacrifice_success_or_fail = yes
 			}
+			modifier = {
+				factor = 0
+				culture = amazonian
+			}
 		}
 		14 = { #Apollon
 			trigger = {
@@ -1436,6 +1444,10 @@ ai_make_sacrifice_to_evaluation_effect = {
 			c_1100149 = {
 				save_event_target_as = target_god
 				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 0
+				culture = amazonian
 			}
 		}
 		14 = { #Hermes
@@ -1462,6 +1474,10 @@ ai_make_sacrifice_to_evaluation_effect = {
 				factor = 2.5
 				likes_commerce_god_trigger = yes
 			}
+			modifier = {
+				factor = 0
+				culture = amazonian
+			}
 		}
 		14 = { #Aphrodite
 			trigger = {
@@ -1486,6 +1502,10 @@ ai_make_sacrifice_to_evaluation_effect = {
 			modifier = {
 				factor = 2.5
 				likes_love_god_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				culture = amazonian
 			}
 		}
 	}

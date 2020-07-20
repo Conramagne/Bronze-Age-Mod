@@ -273,7 +273,7 @@
 }
 2100016 = {
 	name = "Otrerid"
-	culture = "amazonios"
+	culture = "amazonian"
 	used_for_random = no
 	coat_of_arms = {
 		religion = pantes_theoi
@@ -305,11 +305,11 @@
 		}
 	}
 }
-# 2100018 = {
-	# name = "Aiakaid"
-	# culture = "achaean"
-	# used_for_random = no
-# }
+2100018 = {
+	name = "Arcesiad"
+	culture = "achaean"
+	used_for_random = no
+}
 2100019 = {
 	name = "Deioneid"
 	culture = "achaean"

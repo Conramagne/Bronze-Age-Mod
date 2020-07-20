@@ -1,35 +1,37 @@
 #Greece
 
 #Very High Technology
-technology = {
-	titles = {
-		d_achaea
-		d_boetica
-	}
+# technology = {
+	# titles = {
+		# d_achaea
+		# d_boetica
+	# }
 	
-	2527 = {
-		military = 1.2		
-		economy = 1.5
-		culture = 1.5
-		TECH_RECRUITMENT = 3
-		TECH_CASTLE_CONSTRUCTION = 3
-		TECH_CITY_CONSTRUCTION = 3
-		TECH_CONSTRUCTION = 3
-		TECH_MAJESTY = 2
-		TECH_LEGALISM = 3
-	}
+	# 2527 = {
+		# military = 1.2		
+		# economy = 1.5
+		# culture = 1.5
+		# TECH_RECRUITMENT = 3
+		# TECH_CASTLE_CONSTRUCTION = 3
+		# TECH_CITY_CONSTRUCTION = 3
+		# TECH_CONSTRUCTION = 3
+		# TECH_MAJESTY = 2
+		# TECH_LEGALISM = 3
+	# }
 		
-	3160 = {
-		military = 5
-		economy = 5
-		culture = 5
-	}
-}
+	# 3160 = {
+		# military = 5
+		# economy = 5
+		# culture = 5
+	# }
+# }
 
 #High Technology
 technology = {
 	titles = {
+		d_achaea
 		d_attica
+		d_boetica
 		d_lacedemonia
 		d_messenia
 	}

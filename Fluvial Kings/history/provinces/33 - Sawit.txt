@@ -3,6 +3,6 @@ title=c_sawit
 max_settlements= 1
 b_sawit= castle
 
-culture=amazonios
+culture=amazonian
 religion=pantes_theoi
 terrain=plains

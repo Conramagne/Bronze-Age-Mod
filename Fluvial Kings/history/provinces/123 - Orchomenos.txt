@@ -1,8 +1,7 @@
 title=c_orchomenus
 
-max_settlements= 3
+max_settlements= 2
 b_orchomenos=castle
-b_opus=city
 # b_cynus=temple
 
 culture=achaean

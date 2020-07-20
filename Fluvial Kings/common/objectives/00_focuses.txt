@@ -464,7 +464,7 @@ focus_hunting = {
 			is_female = yes
 			NOR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		modifier = {
@@ -472,7 +472,7 @@ focus_hunting = {
 			is_female = no
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		modifier = {
@@ -552,7 +552,7 @@ focus_war = {
 			is_female = no
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		

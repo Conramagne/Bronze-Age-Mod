@@ -2,6 +2,12 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=k_aitolia
+2461.1.1={
+	holder = 2105008 #Arkeisios
+}
+2501.1.1={
+	holder = 2105006 #Laértes
+}
+2520.1.1={
+	holder = 2105000 #Odysseús
 }

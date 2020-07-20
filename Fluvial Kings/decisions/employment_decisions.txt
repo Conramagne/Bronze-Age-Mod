@@ -64,7 +64,7 @@ decisions = {
 			}
 			NOR = {
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		allow = {
@@ -192,7 +192,7 @@ decisions = {
 			}
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		allow = {
@@ -314,7 +314,7 @@ decisions = {
 			}
 			NOT = { 
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		allow = {
@@ -445,7 +445,7 @@ decisions = {
 			}
 			OR = { 
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		allow = {
@@ -577,7 +577,7 @@ decisions = {
 			}
 			NOT = { 
 				has_religion_feature = religion_matriarchal 
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		allow = {

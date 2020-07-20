@@ -28,7 +28,7 @@ decisions = {
 				spouse = { is_ruler = no }
 				has_law = status_of_women_4
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 			is_female = yes
 		}

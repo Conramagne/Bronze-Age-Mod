@@ -245,8 +245,8 @@ spriteTypes = {
 ### military traits
 
 	spriteType = {
-		name = "GFX_trait_amazonios_trait"
-		texturefile = "gfx/traits/amazonios_trait.dds"
+		name = "GFX_trait_amazonian_trait"
+		texturefile = "gfx/traits/amazonian_trait.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"

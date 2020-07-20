@@ -157,11 +157,11 @@ hellenic_birthright_invasion = {
 					
 					# Settle the special invasion forces
 					disband_event_forces = prepared_invasion
-					any_demesne_title = {
-						limit = { tier = BARON }
-						remove_holding_modifier = recently_conquered
-						refill_holding_levy = yes
-					}
+					# any_demesne_title = {
+						# limit = { tier = BARON }
+						# remove_holding_modifier = recently_conquered
+						# refill_holding_levy = yes
+					# }
 				}
 				
 				if = {

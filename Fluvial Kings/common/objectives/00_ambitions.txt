@@ -887,7 +887,7 @@ obj_get_married = {
 			is_female = yes
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		modifier = {
@@ -980,7 +980,7 @@ obj_marry_ruler = {
 				NOT = { age = 45 }
 				OR = {
 					has_religion_feature = religion_matriarchal
-					culture = amazonios
+					culture = amazonian
 				}
 			}
 			AND = { 
@@ -988,7 +988,7 @@ obj_marry_ruler = {
 				NOT = { age = 45 }
 				NOR = {
 					has_religion_feature = religion_matriarchal
-					culture = amazonios
+					culture = amazonian
 				}
 			}
 		}
@@ -1009,7 +1009,7 @@ obj_marry_ruler = {
 				NOT = { age = 45 }
 				OR = {
 					has_religion_feature = religion_matriarchal
-					culture = amazonios
+					culture = amazonian
 				}
 			}
 			AND = { 
@@ -1017,7 +1017,7 @@ obj_marry_ruler = {
 				NOT = { age = 45 }
 				NOR = {
 					has_religion_feature = religion_matriarchal
-					culture = amazonios
+					culture = amazonian
 				}
 			}
 		}
@@ -1104,7 +1104,7 @@ obj_have_a_daughter = {
 			num_of_children = 2
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		NOT = {
@@ -1129,7 +1129,7 @@ obj_have_a_daughter = {
 			factor = 10.0
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		modifier = {
@@ -1219,7 +1219,7 @@ obj_have_a_son = {
 			factor = 0.1
 			OR = {
 				has_religion_feature = religion_matriarchal
-				culture = amazonios
+				culture = amazonian
 			}
 		}
 		modifier = {
@@ -1286,14 +1286,14 @@ obj_wants_landed_title = {
 				NOT = { age = 45 }
 				OR = {
 					has_religion_feature = religion_matriarchal
-					culture = amazonios
+					culture = amazonian
 				}
 			}
 			AND = { 
 				is_female = no
 				NOR = {
 					has_religion_feature = religion_matriarchal
-					culture = amazonios
+					culture = amazonian
 				}
 			}
 		}

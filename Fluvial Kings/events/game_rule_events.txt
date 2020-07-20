@@ -136,7 +136,7 @@ character_event = {
 				government = hegemonic_government
 				AND = {
 					tier = KING
-					culture_group = hellenic
+					culture_group = hellene
 				}
 			}
 			NOT = {
@@ -284,8 +284,17 @@ character_event = {
 				}
 			}
 			modifier = {
+				factor = 0
+				liege = {
+					tier = KING
+					de_jure_liege_or_above = ROOT
+					culture = hellene
+				}
+			}
+			modifier = {
 				factor = 0.5
 				liege = {
+					government = hegemonic_government
 					NOR = {
 						trait = figurehead_emperor
 						trait = weak_emperor
