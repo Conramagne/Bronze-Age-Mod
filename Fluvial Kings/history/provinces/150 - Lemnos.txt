@@ -1,0 +1,9 @@
+title=c_lemnos
+
+max_settlements= 2
+b_myrina=castle
+b_hesphaista=temple
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

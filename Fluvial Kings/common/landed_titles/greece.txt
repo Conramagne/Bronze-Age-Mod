@@ -492,6 +492,205 @@ e_greek_empire = {
 			}
 		}
 	}
+	k_attica = {
+		color = { 116 188 225 }
+		color2 = { 255 255 255 }
+		
+		capital = 95 # Athens
+		
+		
+		d_attica = { 
+			color = { 147 183 120 }
+			color2 = { 255 255 255 }
+	
+			capital = 95 # Athens
+			
+			c_attica = {
+				color = { 147 183 120 }
+				color2 = { 255 255 255 }
+				
+				b_athens = {}
+				b_pireas = {}
+				b_penteli = {}
+				b_brauron = {}
+			}
+			c_eleusis = {
+				color={ 63 125 17 }
+				color2={ 255 255 255 }
+				
+				b_eleusis = {}
+			}
+			
+			c_marathon = {
+				color={ 105 162 62 }
+				color2={ 255 255 255 }
+				
+				b_marathon = {}
+				b_aphidnaea = {}
+				b_ramnous = {}
+			}
+			
+			c_lavrion = {
+				color={ 71 136 23 }
+				color2={ 255 255 255 }
+				
+				b_perati = {}
+				b_lavrion = {}
+				b_sounio = {}
+			}
+		}
+		d_boetica = { 
+			color = { 49 95 15 }
+			color2 = { 255 255 255 }
+	
+			capital = 99 # Leuctra
+			
+			c_leuctra = {
+				color = { 49 95 15 }
+				color2 = { 255 255 255 }
+				
+				b_platea = {}
+				b_leuctra = {}
+			}
+			c_thebes = {
+				color = { 37 66 16 }
+				color2 = { 255 255 255 }
+				
+				b_thebes = {}
+				b_gla = {}
+				b_aulis = {}
+				b_hyria = {}
+				b_thespiae = {}
+			}
+			c_kopai = {
+				color = { 49 100 15 }
+				color2 = { 255 255 255 }
+				
+				b_kopai = {}
+				b_ocalea = {}
+			}
+			c_chaeronea = {
+				color = { 73 102 52 }
+				color2 = { 255 255 255 }
+				
+				b_chaeronea = {}
+				b_thisbe = {}
+				b_onchestus = {}
+			}
+		}
+		d_euvoia = { 
+			color = { 177 248 125 }
+			color2 = { 255 255 255 }
+	
+			capital = 104 # Eretria
+			
+			c_dium = {
+				color = { 177 248 125 }
+				color2 = { 255 255 255 }
+				
+				b_dium = {}
+				b_artemiaio = {}
+				b_kerynthos = {}
+			}
+			c_eretria = {
+				color={ 108 255 0 }
+				color2={ 255 255 255 }
+				
+				b_eretria = {}
+				b_chalkis = {}
+			}
+			
+			c_karystos = {
+				color={ 98 220 8 }
+				color2={ 255 255 255 }
+				
+				b_dystos = {}
+				b_karystos = {}
+			}
+			
+			c_peparethos = {
+				color={ 99 191 32 }
+				color2={ 255 255 255 }
+				
+				b_peparethos = {}
+			}
+		}
+	}
+	k_krete = {
+		color = { 237 98 54 }
+		color2 = { 255 255 255 }
+		
+		capital = 107 # Knossos
+		
+		d_knossos = { 
+			color = { 237 98 54 }
+			color2 = { 255 255 255 }
+	
+			capital = 107 # Knossos
+			
+			c_knossos = {
+				color = { 237 98 54 }
+				color2 = { 255 255 255 }
+				holy_site = pantes_theoi
+				
+				b_knossos = {}
+				b_amnysos = {}
+				b_axos = {}
+				b_koumasa = {}
+				b_chersonissos = {}
+			}
+			c_phaistos = {
+				color={ 163 55 21 }
+				color2={ 255 255 255 }
+				
+				b_phaistos = {}
+				b_rithymna = {}
+				b_gortyn = {}
+			}
+			c_kydonia = {
+				color = { 181 103 39 }
+				color2 = { 255 255 255 }
+				
+				b_kydonia = {}
+				b_aptarra = {}
+				b_lissos = {}
+				b_armeni = {}
+			}
+			c_kysomos = {
+				color={ 135 81 37 }
+				color2={ 255 255 255 }
+				
+				b_kysomos = {}
+				b_polyrinia = {}
+				b_doulopolis = {}
+			}
+		}
+		
+		d_lasynthos = { 
+			color = { 255 195 87 }
+			color2 = { 255 255 255 }
+	
+			capital = 111 # Malia
+			
+			c_malia = {
+				color = { 255 195 87 }
+				color2 = { 255 255 255 }
+				
+				b_malia = {}
+				b_rhytion = {}
+				b_lato = {}
+				b_oaxos = {}
+			}
+			c_zakros = {
+				color={ 140 171 62 }
+				color2={ 255 255 255 }
+				
+				b_zakros = {}
+				b_itanos = {}
+				b_palekastro = {}
+			}
+		}
+	}
 	k_aitolia = {
 		color = { 157 155 95 }
 		color2 = { 255 255 255 }
@@ -634,6 +833,281 @@ e_greek_empire = {
 				
 				b_herakleia = {}
 				b_potidania = {}
+			}
+		}
+	}
+	k_aiolia = {
+		color = { 200 40 240 }
+		color2 = { 255 255 255 }
+		
+		capital = 127 # Pherae
+		
+		d_thessalia = { 
+			color = { 200 40 240 }
+			color2 = { 255 255 255 }
+	
+			capital = 127 # Pherae
+			
+			
+			c_pherae = {
+				color = { 200 40 240 }
+				color2 = { 255 255 255 }
+				
+				b_pherae = {}
+				b_iolkos = {}
+				b_itonus = {}
+				b_antron = {}
+			}
+			c_thaumakie = {
+				color={ 175 53 183 }
+				color2={ 255 255 255 }
+				
+				b_thaumakie = {}
+			}
+			c_phylakae = {
+				color = { 243 51 255 }
+				color2 = { 255 255 255 }
+				
+				b_phylakae = {}
+			}
+		}
+		d_magnesia = { 
+			color = { 188 184 142 }
+			color2 = { 255 255 255 }
+	
+			capital = 130 # Methone
+			
+			c_methone = {
+				color = { 188 184 142 }
+				color2 = { 255 255 255 }
+				
+				b_methone = {}
+				b_olizon = {}
+			}
+			c_ormenion = {
+				color={ 169 164 108 }
+				color2={ 255 255 255 }
+				
+				b_ormenion = {}
+			}
+			c_kashanaia = {
+				color={ 191 182 80 }
+				color2={ 255 255 255 }
+				
+				b_boibe = {}
+			}
+			c_meliboia = {
+				color={ 32 121 135 }
+				color2={ 255 255 255 }
+				
+				b_meliboia = {}
+			}
+		}
+		d_makedonia = { 
+			color = { 255 0 18 }
+			color2 = { 255 255 255 }
+	
+			capital = 134 # Pella
+			
+			c_pieres = {
+				color = { 255 0 18 }
+				color2 = { 255 255 255 }
+				
+				b_pella = {}
+			}
+			c_olumpos = {
+				color={ 88 100 189 }
+				color2={ 255 255 255 }
+				holy_site = pantes_theoi
+				
+				b_vergina = {}
+				b_olumpos = {}
+			}
+			c_trikka = {
+				color = { 66 167 183 }
+				color2 = { 255 255 255 }
+				
+				b_trikka = {}
+			}
+			c_kyphos = {
+				color = { 107 225 243 }
+				color2 = { 255 255 255 }
+				
+				b_kyphos = {}
+			}
+			c_gyrton = {
+				color = { 69 162 177 }
+				color2 = { 255 255 255 }
+				
+				b_gyrton = {}
+				b_perrhaebi = {}
+				b_homolion = {}
+			}
+		}
+	}
+	k_thraki = {
+		color = { 75 39 41 }
+		color2 = { 255 255 255 }
+		
+		capital = 139 # Olynthos
+		
+		d_chalkidiki = { 
+			color = { 75 39 41 }
+			color2 = { 255 255 255 }
+	
+			capital = 139 # Olynthos
+			
+			c_olynthos = {
+				color = { 75 39 41 }
+				color2 = { 255 255 255 }
+				
+				b_olynthos = {}
+			}
+			c_bisaltia = {
+				color={ 133 36 82 }
+				color2={ 255 255 255 }
+				
+				b_bisaltia = {}
+			}
+			c_pallene = {
+				color = { 189 88 95 }
+				color2 = { 255 255 255 }
+				
+				b_pallene = {}
+			}
+			c_chalkidiki = {
+				color={ 222 63 63 }
+				color2={ 255 255 255 }
+				
+				b_apollonia = {}
+			}
+		}
+		
+		d_thraki = { 
+			color = { 190 65 118 }
+			color2 = { 255 255 255 }
+	
+			capital = 143 # Ismaros
+			
+			c_ismaros = {
+				color = { 190 65 118 }
+				color2 = { 255 255 255 }
+				
+				b_ismaros = {}
+			}
+			c_khersonesos = {
+				color = { 190 200 118 }
+				color2 = { 255 255 255 }
+				
+				b_khersonesos = {}
+			}
+		}
+	}
+	k_aegea = {
+		color = { 26 155 74 }
+		color2 = { 255 255 255 }
+		
+		capital = 145 # Delos
+		
+		d_kuklades = { 
+			color = { 26 155 74 }
+			color2 = { 255 255 255 }
+	
+			capital = 145 # Delos
+			
+			
+			c_delos = {
+				color = { 26 155 74 }
+				color2 = { 255 255 255 }
+				holy_site = pantes_theoi
+				
+				b_delos = {}
+			}
+			c_naxos = {
+				color={ 29 217 100 }
+				color2={ 255 255 255 }
+				
+				b_naxos = {}
+			}
+			c_thera = {
+				color = { 172 231 142 }
+				color2 = { 255 255 255 }
+				
+				b_thera = {}
+			}
+			c_melos = {
+				color = { 140 158 156 }
+				color2 = { 255 255 255 }
+				
+				b_phylakopi = {}
+			}
+		}
+		d_voreios_aigaion = { 
+			color = { 198 132 232 }
+			color2 = { 255 255 255 }
+	
+			capital = 149 # Samothraki
+			
+			c_samothraki = {
+				color = { 198 132 232 }
+				color2 = { 255 255 255 }
+				holy_site = pantes_theoi
+				
+				b_samothraki = {}
+			}
+			c_lemnos = {
+				color={ 232 132 212 }
+				color2={ 255 255 255 }
+				
+				b_myrina = {}
+				b_hesphaista = {}
+			}
+			c_pityoussa = {
+				color={ 129 70 101 }
+				color2={ 255 255 255 }
+				
+				b_cardamyle = {}
+				b_khios = {}
+			}
+			c_skyros = {
+				color={ 228 119 109 }
+				color2={ 255 255 255 }
+				
+				b_skyros = {}
+			}
+		}
+		d_rhodios = { 
+			color = { 191 55 139 }
+			color2 = { 255 255 255 }
+	
+			capital = 153 # Rhodios
+			
+			c_rhodios = {
+				color = { 191 55 139 }
+				color2 = { 255 255 255 }
+				
+				b_rhodios = {}
+				b_jalysus = {}
+			}
+			c_lyndos = {
+				color={ 159 117 129 }
+				color2={ 255 255 255 }
+				
+				b_lyndos = {}
+				b_kameiros = {}
+			}
+			c_krapathos = {
+				color = { 119 95 139 }
+				color2 = { 255 255 255 }
+				
+				b_krapathos = {}
+			}
+			c_noties_sporades = {
+				color = { 159 46 185 }
+				color2 = { 255 255 255 }
+				
+				b_oenoe = {}
+				b_asklepieion = {}
 			}
 		}
 	}

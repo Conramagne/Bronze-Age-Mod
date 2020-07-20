@@ -1,0 +1,11 @@
+title=c_pherae
+
+max_settlements= 4
+b_pherae=castle
+b_iolkos=city
+#b_itonus=temple
+#b_antron=city
+
+culture=achaean
+religion=pantes_theoi
+terrain=plains

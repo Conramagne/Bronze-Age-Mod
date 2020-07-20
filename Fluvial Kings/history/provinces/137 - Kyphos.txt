@@ -1,7 +1,7 @@
-title=c_tymphaea
+title=c_kyphos
 
 max_settlements= 1
-b_tymphaea=castle
+b_kyphos=castle
 
 culture=achaean
 religion=pantes_theoi

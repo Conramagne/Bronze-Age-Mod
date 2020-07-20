@@ -1,7 +1,7 @@
-title=c_tymphaea
+title=c_khersonesos
 
 max_settlements= 1
-b_tymphaea=castle
+b_khersonesos=tribal
 
 culture=achaean
 religion=pantes_theoi
