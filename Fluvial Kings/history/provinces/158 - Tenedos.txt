@@ -1,0 +1,8 @@
+title=c_tenedos
+
+max_settlements= 1
+b_tenedos=castle
+
+culture=luwian
+religion=haianiluwi
+terrain=plains

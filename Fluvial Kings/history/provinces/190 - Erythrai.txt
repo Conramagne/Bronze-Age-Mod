@@ -1,0 +1,11 @@
+title=c_erythrai
+
+max_settlements= 4
+b_erythrai=castle
+#b_lebedos=temple
+#b_teos=city
+#b_klazomenai=castle
+
+culture=luwian
+religion=haianiluwi
+terrain=plains

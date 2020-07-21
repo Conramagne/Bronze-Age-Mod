@@ -1,0 +1,8 @@
+title=c_ijalanda
+
+max_settlements= 1
+b_synaos=castle
+
+culture=luwian
+religion=haianiluwi
+terrain=plains

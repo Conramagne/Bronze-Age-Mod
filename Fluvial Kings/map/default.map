@@ -14,3 +14,11 @@ region = "island_region.txt"
 geographical_region = "geographical_region.txt"
 static = "statics"
 seasons = "seasons.txt"
+externals = {
+}
+
+sea_zones = { 199 223 }
+
+ocean_region = {	# Aegean Sea
+	sea_zones = { 1 }
+}

@@ -1,0 +1,8 @@
+title=c_pisidia
+
+max_settlements= 1
+b_pisidia=castle
+
+culture=luwian
+religion=haianiluwi
+terrain=plains

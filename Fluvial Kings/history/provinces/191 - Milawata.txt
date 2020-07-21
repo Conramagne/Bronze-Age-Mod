@@ -1,0 +1,10 @@
+title=c_milawata
+
+max_settlements= 3
+b_milawata=castle
+b_priene_apasa=temple
+b_myous=city
+
+culture=luwian
+religion=haianiluwi
+terrain=plains

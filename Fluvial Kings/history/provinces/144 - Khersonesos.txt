@@ -3,6 +3,6 @@ title=c_khersonesos
 max_settlements= 1
 b_khersonesos=tribal
 
-culture=achaean
+culture=thracian
 religion=pantes_theoi
 terrain=plains

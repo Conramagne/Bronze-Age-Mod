@@ -155,43 +155,69 @@
 155;119;95;139;Krapathos;x
 156;159;46;185;Noties Sporades;x
 157;216;112;77;Truwisa;x
-158;163;126;106;Abydos;x
-159;214;216;77;Lurnessos;x
-160;65;70;128;Thebe;x
-161;207;198;97;Lazpa;x
-162;219;166;148;Kyzikos;x
-163;216;134;106;Zeleia;x
-164;224;62;66;Apaliassos;x
-165;101;167;125;Seha;x
-166;187;216;100;Mysia;x
-167;75;114;50;Gryneia;x
-168;200;91;52;Phokaia;x
-169;111;171;74;Ijalanda;x
-170;255;183;159;Assuwa;x
-171;197;175;26;Arawana;x
-172;168;206;39;Sunnada;x
-173;123;112;37;Hulana;x
-174;139;216;44;Karkisa;x
-175;100;151;12;Masa;x
-176;214;225;113;Partahuina;x
-177;204;187;0;Salawassa;x
-178;117;147;32;Kelenai;x
-179;68;158;27;Lukka;x
-180;236;208;41;Pisidia;x
-181;36;206;69;Arnna;x
-182;100;224;36;Pattara;x
-183;231;180;40;Kibyra;x
-184;195;240;66;Parha;x
-185;216;151;77;Sfard;x
-186;216;183;77;Szapparanda;x
-187;128;217;70;Puranda;x
-188;183;238;121;Apasa;x
-189;139;229;43;Erythrai;x
-190;35;203;124;Milawata;x
-191;36;221;72;Samos;x
-192;140;211;99;Alos Karnos;x
-193;206;139;30;Karia;x
-194;117;215;13;Khbide;x
-195;215;205;52;Knidos;x
-196;244;243;255;Urqananu Sea;x
-197;168;0;72;Odrysia;x
+158;216;80;77;Tenedos;x
+159;163;126;106;Abydos;x
+160;214;216;77;Adramyttion;x
+161;65;70;128;Thebe;x
+162;207;198;97;Lazpa;x
+163;219;166;148;Kyzikos;x
+164;216;134;106;Zeleia;x
+165;224;62;66;Apaliassos;x
+166;101;167;125;Seha;x
+167;187;216;100;Mysia;x
+168;75;114;50;Lurnessos;x
+169;200;91;52;Phokaia;x
+170;111;171;74;Ijalanda;x
+171;255;183;159;Assuwa;x
+172;197;175;26;Arawana;x
+173;168;206;39;Sunnada;x
+174;123;112;37;Hulana;x
+175;139;216;44;Karkisa;x
+176;100;151;12;Masa;x
+177;214;225;113;Partahuina;x
+178;204;187;0;Salawassa;x
+179;117;147;32;Kelenai;x
+180;68;158;27;Lukka;x
+181;236;208;41;Pisidia;x
+182;36;206;69;Arnna;x
+183;100;224;36;Pattara;x
+184;231;180;40;Kibyra;x
+185;195;240;66;Parha;x
+186;216;151;77;Sfard;x
+187;216;183;77;Szapparanda;x
+188;128;217;70;Puranda;x
+189;183;238;121;Apasa;x
+190;139;229;43;Erythrai;x
+191;35;203;124;Milawata;x
+192;36;221;72;Samos;x
+193;140;211;99;Alos Karnos;x
+194;206;139;30;Karia;x
+195;117;215;13;Khbide;x
+196;215;205;52;Knidos;x
+197;244;243;255;Urqananu Sea;x
+198;168;0;72;Odrysia;x
+199;134;126;131;Heptanese;x
+200;213;161;104;Moni Strofadon;x
+201;58;21;33;Lakonikos Kolpos;x
+202;109;121;73;Latoko Kolpos;x
+203;167;187;203;Patraikos Kolpos;x
+204;115;171;214;Korinthiakos Kolpos;x
+205;181;140;203;Myrtoo Pelagos;x
+206;53;97;143;Steno Keas;x
+207;244;149;225;Maliakos Kolpos;x
+208;139;107;189;Sporadenisi;x
+209;79;31;46;Thermaikos Kolpos;x
+210;167;126;190;Thrakiko Pelagos;x
+211;107;121;187;Propontis;x
+212;104;42;61;Masakos Kolpos;x
+213;107;121;112;Amazonios Pelagos;x
+214;195;126;235;Steno Mitilinis;x
+215;147;182;219;Kykladinisi;x
+216;176;155;188;Dodecanese;x
+217;63;121;73;Knossokos Kolpos;x
+218;80;182;54;Notio Kritikos Pelagos;x
+219;176;85;141;Agiokos Kolpos;x
+220;46;159;120;Zakros Pelagos;x
+221;183;104;235;Lukka Aruna;x
+222;122;111;147;Tarhunaruna;x
+223;52;142;125;Tarsusaruna;x

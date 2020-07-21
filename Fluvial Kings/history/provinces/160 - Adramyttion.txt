@@ -1,0 +1,8 @@
+title=c_adramyttion
+
+max_settlements= 1
+b_adramyttion=castle
+
+culture=luwian
+religion=haianiluwi
+terrain=plains
