@@ -309,34 +309,118 @@
 	name = "Arcesiad"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100019 = {
 	name = "Deioneid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100020 = {
 	name = "Andraemonid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100021 = {
 	name = "Porthaonid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100022 = {
 	name = "Eurytid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100023 = {
 	name = "Opid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100024 = {
 	name = "Myrmidonid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
