@@ -2,6 +2,9 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_thraki
+2481.1.1={
+	holder = 2103401 #Eusoris
+}
+2521.1.1 = {
+	holder = 2103400 #Akamas
 }

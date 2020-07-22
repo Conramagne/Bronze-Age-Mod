@@ -21,7 +21,7 @@ e_hittite_empire = {
 		
 		capital = 1
 		
-		#culture = manden
+		culture = hittite
 		
 		d_hatti = { 
 			color = { 153 0 0 }
@@ -715,16 +715,20 @@ e_arzawa = {
 				color = { 216 112 77 }
 				color2 = { 255 255 255 }
 				achaean = "Troy"
-				holy_site = pantes_theoi
 				
 				b_wilusa = {
 					achaean = "Troy"
 				}
-				b_dardanos = {}
 				b_assos = {}
 				b_pedashash = {
 					achaean = "Antandros"
 				}
+			}
+			c_dardania = {
+				color = { 100 70 77 }
+				color2 = { 255 255 255 }
+				
+				b_dardanos = {}
 			}
 			c_tenedos = {
 				color = { 216 80 77 }
@@ -759,6 +763,9 @@ e_arzawa = {
 			capital = 162 # Antissa
 			
 			c_lazpa = {
+				
+				achaean = "Lesbos"
+				
 				color = { 207 198 97 }
 				color2 = { 255 255 255 }
 				
@@ -796,7 +803,10 @@ e_arzawa = {
 				color = { 101 167 125 }
 				color2 = { 255 255 255 }
 				
-				b_pericharaxis = {}
+				b_pericharaxis = {
+					luwian = "Seha"
+					hittite = "Seha"
+				}
 			}
 		}
 		d_mysia = { 
@@ -809,13 +819,19 @@ e_arzawa = {
 				color = { 187 216 100 }
 				color2 = { 255 255 255 }
 				
-				b_mysia = {}
+				hittite = "Masa"
+				luwian = "Masa"
+				
+				b_mysia = {
+					hittite = "Masa"
+					luwian = "Masa"
+				}
 				b_pergamon = {}
 			}
 			c_lurnessos = {
 				color = { 75 114 50 }
 				color2 = { 255 255 255 }
-				
+
 				b_lurnessos = {}
 			}
 			c_phokaia = {
@@ -978,11 +994,17 @@ e_arzawa = {
 	
 			capital = 186 # Sfard
 			
+			achaean = "Maeonia"
+			
 			c_sfard = {
 				color = { 216 151 77 }
 				color2 = { 255 255 255 }
 				
-				b_sfard = {}
+				achaean = "Sardis"
+				
+				b_sfard = {
+					achaean = "Sardis"
+				}
 			}
 			c_szapparanda = {
 				color = { 216 183 77 }

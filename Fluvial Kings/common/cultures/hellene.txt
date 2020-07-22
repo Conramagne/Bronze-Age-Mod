@@ -7,43 +7,45 @@ hellene = {
 		color = { 0.3 0.3 0.7 }
 
 		male_names = {
-			Abas Achareus Akhilleus Adrestos Agamemnon Agapenor Agasthenes Agenor Aglaophonus Agrios Aiakos Aigeús Aigialeus Aigisthos Aiguptios Aiputos Akamas Akastos Akoos Akrisios Aktaion Aktor Alektor Alektruon Aleos Alexandros Alkaios Alkathous Alkmaíon Aluzeus Amphiaraos Amphidamas Amphiktuon Amphimachcos Amphimedes Amphion Amphílochos Amuthaon Amúklas Anaxagoras Andraimon Andronikh Ankaios Antromaxos Antílochos Apheidas Aranareus Áretos Argalos Argos Argurios Aristaios Arkas Arkeisios Askalaphos Astakos Athamas Atreus Augewas Autolykos Aías 
+			Abas Achareus Akhilleus Adrestos Agamemnon Agapenor Agasthenes Agenor Aglaophonus Agrios Aiakos Aigeús Aigialeus Aigisthos Aiguptios Aiputos Akamas Akastos Akoos Akrisios Aktaion Aktor Alektor Alektruon Aleos Alexandros_Alaksandu Alkaios Alkathous Alkmaíon Aluzeus Amphiaraos Amphidamas Amphiktuon Amphimachcos Amphimedes Amphion Amphílochos Amuthaon Amúklas Amýntor Anaxagoras Andraimon Andronikh Ankaios Antromaxos Antílochos Ántiphos Apheidas Aranareus Áretos Argalos Argos Argurios Aristaios Arkas Arkeisios Askalaphos Astakos Athamas Atreus Augewas Autolykos Aías 
 			Belos Bias Buphagos 
-			Chalkeus Chalkodon Chrusippos Crisos
+			Chalkeus Chalkodon Charops Chrusippos Crisos
 			Danaós Deioneus Demophon Dhmofanhs Didereus Diomedes Drakokardos Drakomaxos
-			Echephron Echinos Echion Elatos Elektruon Elephenor Eleîos Enchelyawon Epaphos Erechtheos Eruthros Eteokles Etewoklewes Eumenes Euruptolemos Eurustheus Eurutos Eurytion 
-			Glaukos 
-			Hektor Hippomachos Hodoedocus 
-			Ialmenos Iasios Iason Idmon Ikários Inachos Iphis Iphitos Ippokóon Ipponóos Iro 
+			Echephron Echinos Echion Elatos Elektruon Elephenor Eleîos Enchelyawon Epaphos Erechtheos Eruthros Eteokles Etewoklewes Euaimon Eumenes Eúmelos Euphemos Euruptolemos Eurustheus Eurutos Eurypylos Eurytion 
+			Glaukos Gouneus
+			Hektor_Hektor Hippomachos Hodoedocus 
+			Ialmenos  Iasios Iason Idmon Ikários Inachos Iólaos Iphikles Iphis Iphitos Ippokóon Ipponóos Iro Ixion 
 			Jason Jasos Jasus 
-			Kadmos Kalchas Kaludnos Kapaneús Kepheús Kluthios Klúmenos Koronos Kranaos Kretheus Kriasos Krotopos Kteatos Kuanippos Kuchreus Kunortas Kupridhmos Kynos Kyprios Kástor Kékrops 
+			Kadmos Kalchas Kaludnos Kapaneús Kepheús Kluthios Klúmenos Koronos Kranaos Kretheus Kriasos Krotopos Kteatos Kuanippos Kuchreus Kunortas Kupridhmos Kynos Kyprios Kástor Kékrops Kerkaphos
 			Laios Lakidamos Lakidaus Laodamas Laértes Leitos Leukadius Leukopeus Lukaon Lukimnios Lukios Lukomedes Lukos Lukourgos Lunkeús Lusimache Lábdakos 
-			Machawon Medon Megapenthes Mekisteús Melampous Melas Menelaos Menestheus Menoikeús Mégês 
-			Narkissos Naubolos Neleus Neoptolemos Nestor Nikostratos Nukteús 
-			Odysseús Oidípous Oikleús Oileús Oineús Oinómaos Oivalos Opoûs Orestes Orneus 
-			Pandion Panopeus Parthenopaîos Patroklos Peisistratos Peleus Pelias Pentheus Pereos Perseus Peteus Phegous Pheidon Pheres Phoinix Phokos Phorbas Phoroneus Phrasimus Phrixos Phrontis Phuleos Pittheus Poimen Poliwos Poludoros Poluneíkes Poluxenos Porthaon Presbon Proetos Promachos Pronax Pulades
+			Machawon_Makhaon Medon Megapenthes Mekisteús Melampous Melas Menelaos Menestheus Menoikeús Mégês 
+			Narkissos Naubolos Neleus Nestor Nikostratos Nireus Nukteús 
+			Odysseús Oidípous Oikleús Oileús Oineús Oinómaos Oivalos Opoûs Orestes Ormenos Orneus 
+			Pandion Panopeus Parthenopaîos Patroklos Peisistratos Peleus Pelias Pentheus Pereos Perileos Perseus Peteus Phegous Pheidippos Pheidon Pheres Philoktetes Phoinix Phokos Phorbas Phoroneus Phrasimus Phrixos Phrontis Phulas Phuleos Phylákos Pirithous Pittheus Podaleirios Podarkes Poeas Poimen Poliwos Poludoros Poluneíkes Polupoites Poluxenos Porthaon Presbon Proetos Promachos Pronax Prothóos Pulades Pyrrhus
 			Radamanqus 
 			Sarpedon Sthenelos Strophios Strátichos Stumphalos 
-			Talaos Tawagalawa Telamon Telemachos Teuker Teukros Thersander Theseus Thestor Thoas Thrasumedes Thuestes Tisamenos Trambelos Triopas Tripodiskos Tripolemos Tros Tudeus Tulisios Turios Twinon
+			Talaos Tawagalawa Telamon Telemachos Tenthredon Teuker Teukros Thaumakos Thersander Theseus Thessalos Thestor Thoas Thrasumedes Thuestes Tisamenos Tlepólemos Trambelos Triopas Tripodiskos Tripolemos Troezenos Tros Tudeus Tulisios Turios Twinon
 			Wedaneus 
 			Xanthus Xaridhmos
+			Zeuxippus
 		}
 		
 		female_names = {
-			Aegiale Agave Aglaea Agrianome Arete Alexandra Alkuone Althaia Ariadnh Argea_Argia Arsinoe Ainarete Amphithea Anaxibia Anaxo Antigone Antinoe Antiphateia Asterope Astudámeia Astuoche Atalante Auge Axioche
+			Aegiale Agave Aglaea Agrianome Arete Alexandra Alkuone Althaia Ariadnh Argea_Argia Arsinoe Ainarete Amphithea Anaxibia Anaxo Andromákhe_Andromákhe Antigone Antinoe Antiphateia Asterope Astudámeia Astuoche_Astuoche Atalante Auge Axioche
 			Bateia Biadike
-			Chalkiópe Chalkomedousa Chthonia Chloris Chrusothemis
-			Danaë Deipule Demodike_Demodoke Demonassa Diomede
-			Elara Elektra Endeïs Epikaste Eriphule Eritha Ereutija Europa Eurúalos Eurukuda Eurute Eurydike Euryodeia Eurymedousa Euru
+			Chalkiópe Chalkomedousa Chthonia Chloris Chruse Chrusothemis
+			Danaë Deipule Demodike_Demodoke Demonassa Deïdameia Diomede_Diomedeia
+			Elara Elektra Endeïs Epikaste Eriphule Eritha Ereutija Eriopis_Eriopis Europa Eurúalos Eurukuda Eurute Eurydike Euryodeia Eurymakhe Eurymedousa Euru
 			Gorge Gorgopis
-			Helen Hermione Hippodameia Hupermnestra
-			Io Iodame Idomene Iotis Iphigenia Îphis Iphimedeia
+			Helen Hermione Hippodameia_Hippodameia Hupermnestra
+			Io Iodame Idomene Iotis Iphigenia Îphis Iphimedeia Iphthime
 			Jokasta
-			Kallisto Kallirrhoe Kallithyia Kassiepeia_Kassiopeia Karpathia Kleochareia Korinsia Komaitho Kalyke Kalypso Kleonikh Kleovoúle Klutaimnistra Kreousa
+			Kallisto Kallirrhoe Kallithyia Kalyke Kalypso Kassiepeia_Kassiopeia Karpathia Kleochareia Kleophema Korinsia Komaitho Koronis Kleonikh Kleovoúle Klutaimnistra Kreousa
 			Laodamia Laodike Leukothéa_Leukothoë Lilaea Lusimáche
 			Medea Melanippe Meliboea Metiadosa Molione Molpe
 			Nausidame Neaera Nephele Nikippe Niobe Nukteïs
-			Paion Pandora Peitho Peiranta Pelopia Peloris Penelope Peneus Periboea Perimede Perineike Pero Philonoe Philonis Pieria Pisidike Polukaste Poulxeria Protogeneia
+			Ops
+			Paion Pandora Peitho Peiranta Pelopia Peloris Penelope Peneus Periboea Perikluméne Perimede Perineike Pero Philonoe Philonis Pieria Pisidike Polukaste Poluxo Poulxeria Protogeneia
 			Praxithea Prokris Prókne Promne Pulia
 			Semele Sterope
 			Telephassa Thermisto Thelxinóe Theobule Thrasubule Thronia_Thronie Tisiphone Tyro
@@ -338,7 +340,7 @@ hellene = {
 			Aërope Apemosune Ariadne 
 			Cleisithyra
 			Europa
-			Kitane Kleopatra Klumene
+			Kitane Kleopatra Kluméne
 			Pasipháe Phaidra
 			Xenodike
 		}
@@ -377,7 +379,7 @@ hellene = {
 		female_names = {
 			Aërope Apemosune Ariadne 
 			Europa
-			Kleopatra Klumene
+			Kleopatra Kluméne
 			Pasipháe Phaidra
 			Xenodike
 		}
@@ -403,7 +405,7 @@ thraco_phrygian = {
 	thracian = {
 		graphical_cultures = { thraciangfx }
 
-		color = { 0.3 0.6 0.1 }
+		color = { 0.3 0.2 0.2 }
 
 		male_names = {
 			Amadokos Asteropaios 

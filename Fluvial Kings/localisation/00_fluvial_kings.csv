@@ -5,6 +5,7 @@ pala;Palaumnili;;;;;;;;;;;;;x
 luwian;Luwili;;;;;;;;;;;;;x
 kaskian;Kaskian;;;;;;;;;;;;;x
 isuwan;Isuwan;;;;;;;;;;;;;x
+wilusan;Wilusili;;;;;;;;;;;;;x
 
 hellene;Héllen;;;;;;;;;;;;;x
 achaean;Akhaiós;;;;;;;;;;;;;x
@@ -141,6 +142,7 @@ GOD_ERRA;Erra;;;;;;;;;;;;;x
 GOD_EL;El;;;;;;;;;;;;;x
 GOD_ELOHIM;Elohim;;;;;;;;;;;;;x
 GOD_EL_SHADDAI;El Shaddai;;;;;;;;;;;;;x
+GOD_ELYON;Elyon;;;;;;;;;;;;;x
 GOD_ERIS;Eris;;;;;;;;;;;;;x
 GOD_GOD;God;;;;;;;;;;;;;x
 GOD_HAPHAISTOS;Haphaistos;;;;;;;;;;;;;x
@@ -182,9 +184,13 @@ WAR_NAME_HELLENIC_BIRTHRIGHT;$ORDER$ Divine Birthright War for $OTHER_TITLE$;;;;
 
 CB_NAME_FK_CONQUEST;Conquest War for [Title.GetBaseName];;;;;;;;;;;;;x
 WAR_NAME_FK_CONQUEST;$ORDER$ Conquest War for $OTHER_TITLE$;;;;;;;;;;;;;x
+fk_county_conquest_desc;Rulers can conquer a duchy without any specific reason.;;;;;;;;;;;;;x
 
 CB_NAME_FK_COUNTY_CONQUEST;County Conquest War for [Title.GetBaseName];;;;;;;;;;;;;x
 WAR_NAME_FK_COUNTY_CONQUEST;$ORDER$ County Conquest War for $OTHER_TITLE$;;;;;;;;;;;;;x
+fk_county_conquest_desc;Rulers can conquer single border counties without any specific reason.;;;;;;;;;;;;;x
+
+has_not_conquered_in_five_years_TT;Has not conquered in five years;;;;;;;;;;;;;x
 
 conquer_cooldown;Conquest Cooldown;;;;;;;;;;;;;x
 
@@ -319,6 +325,15 @@ king_dorian;Basileus;;;;;;;;;;;;;x #placeholder
 king_female_dorian;Basilissa;;;;;;;;;;;;;x #placeholder
 emperor_dorian;Hegemon;;;;;;;;;;;;;x #placeholder
 emperor_female_dorian;Hegemonia;;;;;;;;;;;;;x #placeholder
+
+# count_thracian;Prokoreter;;;;;;;;;;;;;x
+# count_female_thracian;Klawiphoros;;;;;;;;;;;;;x
+duke_thracian;Mezena;;;;;;;;;;;;;x
+duke_female_thracian;Ilteas;;;;;;;;;;;;;x
+king_thracian;Reza;;;;;;;;;;;;;x
+king_female_thracian;Merilteas;;;;;;;;;;;;;x
+emperor_thracian;Merrezas;;;;;;;;;;;;;x
+emperor_female_thracian;Mekamatar;;;;;;;;;;;;;x
 
 ###########Religious Title Localisation###########
 temple_barony_of_pihassasi;Temple of;;;;;;;;;;;;;x
@@ -584,7 +599,7 @@ syncretic_hellenic_desc;This character syncretize their religious belief with th
 
 #stratocratic traits
 amazonian_trait;Amazonios;;;;;;;;;;;;;x
-amazonian_trait_desc;The Warriors of the Amazonios Tribe;;;;;;;;;;;;;x
+amazonian_trait_desc;This character is an Amazon;;;;;;;;;;;;;x
 stratocrat;Stratocrat;;;;;;;;;;;;;x
 stratocrat_desc;This character is a Stratocratic ruler;;;;;;;;;;;;;x
 
@@ -593,9 +608,9 @@ hero;Hero;;;;;;;;;;;;;x
 hero_desc;This Hero has made a name for themselves among their people!;;;;;;;;;;;;;x
 
 ###########God Boons and Curses###########
-denied_boon;Denied Blessings of Gods;;;;;;;;;;;;;x
-opinion_cursed_by;Cursed by The Divines;;;;;;;;;;;;;x
-does_not_have_boon_TT;Has not recieved a Boon from the Gods;;;;;;;;;;;;;x
+denied_boon;Denied Blessings of the Gods;;;;;;;;;;;;;x
+opinion_cursed_by;Cursed by the Gods;;;;;;;;;;;;;x
+does_not_have_boon_TT;Has not recieved a boon from the gods;;;;;;;;;;;;;x
 
 tarhunna_boon_1;Tarhunna's Hunters;;;;;;;;;;;;;x
 tarhunna_boon_2;Swiftness of Tarhunna;;;;;;;;;;;;;x

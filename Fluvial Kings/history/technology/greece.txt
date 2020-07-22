@@ -60,6 +60,7 @@ technology = {
 	titles = {
 		d_argolis
 		d_knossos
+		d_thessalia
 	}
 
 	2527 = {
@@ -70,6 +71,7 @@ technology = {
 		TECH_MELEE = 0.75
 		TECH_FORTIFICATIONS_CONSTRUCTION = 1
 		TECH_CASTLE_CONSTRUCTION = 1
+		TECH_NAVAL = 1
 	}
 
 	3160 = {
@@ -89,11 +91,14 @@ technology = {
 	titles = {
 		d_elis
 		d_euvoia
+		d_kuklades
 		d_kydonia
 		d_kythera
 		d_lasynthos
 		d_malis
+		d_rhodios
 		d_salamis
+		d_voreios_aigaion
 	}
 	
 	2527 = {
@@ -104,6 +109,7 @@ technology = {
 		TECH_MELEE = 0.75
 		TECH_FORTIFICATIONS_CONSTRUCTION = 1
 		TECH_CASTLE_CONSTRUCTION = 1
+		TECH_NAVAL = 1
 	}
 	
 	3160 = {
@@ -117,9 +123,14 @@ technology = {
 technology = {
 	titles = {
 		d_arcadia
+		d_chalkidiki
+		d_dolopia
 		d_ithake
+		d_magnesia
+		d_makedonia
 		d_ozolian_lokris
 		d_phokis
+		d_thraki
 	}
 
 	2527 = {
@@ -130,6 +141,7 @@ technology = {
 		TECH_MELEE = 0.75
 		TECH_FORTIFICATIONS_CONSTRUCTION = 1
 		TECH_CASTLE_CONSTRUCTION = 1
+		TECH_NAVAL = 1
 
 	}
 	3160 = {

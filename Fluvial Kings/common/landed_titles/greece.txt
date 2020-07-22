@@ -540,8 +540,9 @@ e_greek_empire = {
 				color = { 100 195 47 }
 				color2 = { 255 255 255 }
 				
-				b_samos = {}
+				b_poros = {}
 				b_pale = {}
+				b_krani = {}
 			}
 			c_ithake = {
 				color={ 116 182 79 }
@@ -565,6 +566,8 @@ e_greek_empire = {
 			c_delphi = {
 				color = { 67 0 200 }
 				color2 = { 255 255 255 }
+				
+				holy_site = pantes_theoi
 				
 				b_kyparissos = {}
 				b_delphi = {}
@@ -656,8 +659,7 @@ e_greek_empire = {
 				
 				b_pherae = {}
 				b_iolkos = {}
-				b_itonus = {}
-				b_antron = {}
+				b_boibe = {}
 			}
 			c_thaumakie = {
 				color={ 175 53 183 }
@@ -670,6 +672,9 @@ e_greek_empire = {
 				color2 = { 255 255 255 }
 				
 				b_phylakae = {}
+				b_itonus = {}
+				b_antron = {}
+				b_pteleus = {}
 			}
 		}
 		d_magnesia = { 
@@ -682,7 +687,7 @@ e_greek_empire = {
 				color = { 188 184 142 }
 				color2 = { 255 255 255 }
 				
-				b_methone = {}
+				b_methone_magnesia = {}
 				b_olizon = {}
 			}
 			c_ormenion = {
@@ -691,11 +696,12 @@ e_greek_empire = {
 				
 				b_ormenion = {}
 			}
-			c_kashanaia = {
+			c_kasthanaia = {
 				color={ 191 182 80 }
 				color2={ 255 255 255 }
 				
-				b_boibe = {}
+				b_kasthanaia = {}
+				
 			}
 			c_meliboia = {
 				color={ 32 121 135 }
@@ -729,6 +735,7 @@ e_greek_empire = {
 				color2 = { 255 255 255 }
 				
 				b_trikka = {}
+				b_ithome = {}
 			}
 			c_kyphos = {
 				color = { 107 225 243 }
@@ -743,6 +750,7 @@ e_greek_empire = {
 				b_gyrton = {}
 				b_perrhaebi = {}
 				b_homolion = {}
+				b_oloosson = {}
 			}
 		}
 	}
@@ -756,13 +764,15 @@ e_greek_empire = {
 			color = { 75 39 41 }
 			color2 = { 255 255 255 }
 	
-			capital = 139 # Olynthos
+			capital = 141 # Olynthos
 			
 			c_olynthos = {
 				color = { 75 39 41 }
 				color2 = { 255 255 255 }
 				
 				b_olynthos = {}
+				b_petralonia = {}
+				b_thermes = {}
 			}
 			c_bisaltia = {
 				color={ 133 36 82 }
@@ -775,11 +785,13 @@ e_greek_empire = {
 				color2 = { 255 255 255 }
 				
 				b_pallene = {}
+				b_ichnae = {}
 			}
 			c_chalkidiki = {
 				color={ 222 63 63 }
 				color2={ 255 255 255 }
 				
+				b_charadrise = {}
 				b_apollonia = {}
 			}
 		}
@@ -795,12 +807,15 @@ e_greek_empire = {
 				color2 = { 255 255 255 }
 				
 				b_ismaros = {}
+				b_abdera = {}
 			}
 			c_khersonesos = {
 				color = { 190 200 118 }
 				color2 = { 255 255 255 }
 				
-				b_khersonesos = {}
+				b_sestus = {}
+				b_elaeus = {}
+				b_aeneos = {}
 			}
 		}
 	}
@@ -823,6 +838,7 @@ e_greek_empire = {
 				holy_site = pantes_theoi
 				
 				b_delos = {}
+				b_kynthos = {}
 			}
 			c_naxos = {
 				color={ 29 217 100 }
@@ -834,6 +850,7 @@ e_greek_empire = {
 				color = { 172 231 142 }
 				color2 = { 255 255 255 }
 				
+				b_akrotiri = {}
 				b_thera = {}
 			}
 			c_melos = {
@@ -855,6 +872,7 @@ e_greek_empire = {
 				holy_site = pantes_theoi
 				
 				b_samothraki = {}
+				b_iero_ton_kabieroi = {}
 			}
 			c_lemnos = {
 				color={ 232 132 212 }
@@ -889,6 +907,12 @@ e_greek_empire = {
 				
 				b_rhodios = {}
 				b_jalysus = {}
+			}
+			c_syme = {
+				color = { 120 50 130 }
+				color2 = { 255 255 255 }
+				
+				b_syme = {}
 			}
 			c_lyndos = {
 				color={ 159 117 129 }

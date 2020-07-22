@@ -2,6 +2,12 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_rhodios
+2455.1.1={
+	holder = 2103605 #Eurypylos
+}
+2495.1.1={
+	holder = 2103603 #Thessalos
+}
+2525.1.1={
+	holder = 2103600 #Pheidippos
 }

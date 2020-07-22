@@ -1,0 +1,25 @@
+2000.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2385.1.1={
+	holder = 2200015 #Dardanos
+}
+2425.1.1={
+	holder = 2200014 #Ilos
+}
+2431.1.1={
+	holder = 2200013 #Erichthonios
+}
+2451.1.1={
+	holder = 2200011 #Tros
+}
+2471.1.1={
+	holder = 2200109 #Assarakos
+}
+2501.1.1={
+	holder = 2200107 #Kapys
+}
+2521.1.1={
+	holder = 2200100 #Ankhíses
+}

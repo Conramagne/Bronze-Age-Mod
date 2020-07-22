@@ -1,0 +1,10 @@
+2000.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2500.1.1={
+	holder = 2102902 #Tenthedron
+}
+2520.1.1={
+	holder = 2102900 #Prothóos
+}

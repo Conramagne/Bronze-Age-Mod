@@ -25,10 +25,10 @@ bnai_avraham = {
 		
 		color = { 0.2 0.5 0.9 }
 		
-		high_god_name = GOD_HASHEM
+		high_god_name = GOD_ELOHIM
 		
 		god_names = {
-			GOD_HASHEM GOD_EL GOD_ELOHIM GOD_GOD GOD_THE_LORD GOD_ADONAI 
+			GOD_EL GOD_GOD GOD_THE_LORD GOD_ADONAI GOD_ELYON
 		}
 		evil_god_names = {
 			GOD_BAAL GOD_ASHERAH GOD_MOLEK GOD_DAGON
@@ -223,7 +223,7 @@ pihassasi = {
 	color = { 0.9 0.6 0.2 }
 	
 	male_names = {
-		Ari-Šarruma Ini-Teššub Ir-Teššub Kuzi-Teššub Talmi-Teššub Tašmi-Šarruma Telipinu Ulmi-Teššub Urhi-Teššub
+		Ari-Šarruma Ini-Teššub Ir-Teššub Kuzi-Teššub Talmi-Teššub Tarhunazi Tašmi-Šarruma Telipinu Ulmi-Teššub Urhi-Teššub
 	}
 	
 	female_names = {
@@ -272,7 +272,7 @@ pihassasi = {
 		heresy_icon = 11
 		
 		scripture_name = THE_NESILI_ISTANDANT
-		priest_title = PRIEST
+		priest_title = SANKUNNI
 		crusade_name = GREAT_HOLY_WAR
 
 		color = { 0.9 0.6 0.2 }

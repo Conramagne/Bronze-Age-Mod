@@ -1,8 +1,0 @@
-title=c_olynthos
-
-max_settlements= 1
-b_olynthos=tribal
-
-culture=achaean
-religion=pantes_theoi
-terrain=plains

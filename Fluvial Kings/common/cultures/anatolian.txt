@@ -118,18 +118,18 @@ anatolian = {
 		color = { 0.5 0.3 0.3 }
 
 		male_names = {
-			Adduwa Ahabbu Ahuni Alalimi Alihhešni Ali-ziti Alluwamna Ambaris Ammuna Anitta Appuašu Ariyahina Ari-Šarruma Arnuwanda Arnuwanti Ashwisi Astiruwa Astuwalamanza Awariku Azatiwata
+			Adduwa Ahabbu Ahuni Alaksandu Alalimi Alihhešni Ali-ziti Alluwamna Ambaris Ammuna Anitta Appuašu Ariyahina Ari-Šarruma Arnuwanda Arnuwanti Ashwisi Astiruwa Astuwalamanza Awariku Azatiwata
 			Bamah Bentišina
 			Dadi-Ilu
 			Eni-Ilu
 			Gabbar Gunzinanu Gurdi Gusi
-			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hattušili Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
+			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
 			Ini-Teššub Ir-Teššub Iškallu 
 			Kamani Kammaliya Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
 			Labarna Lalli Larama
 			Mahhuzzi Manana Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
 			Nerikkaili
-			Palla Panamuwa Parita Pihirim Pisiri Piyamaradu Piyaššili Puhamme   
+			Palla Panamuwa Parita Pariya-muwas Pihirim Pisiri Piyamaradu Piyaššili Puhamme   
 			Raqianu Runtiya Ruwantia
 			Šahurunuwa  Sanduarri Sangara Sahu Sahwi Sandasarme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
 			Taita Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Telipinu Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
@@ -167,6 +167,62 @@ anatolian = {
 
 		modifier = default_culture_modifier
 	}
+
+	wilusan = {
+		graphical_cultures = { anatoliangfx }
+
+		color = { 0.8 0.4 0.3 }
+
+		male_names = {
+			Adduwa Ahabbu Ahuni Aineías Akoetes Alaksandu_Alexandros Alalimi Alihhešni Ali-ziti Alluwamna Ambaris Ammuna Anitta Ankhíses Appuašu Ariyahina Arnuwanda Arnuwanti Ascanios Ashwisi Assarakos Astiruwa Astuwalamanza Awariku Azatiwata
+			Bamah Bateia Bentišina
+			Dardanos
+			Gabbar Gunzinanu Gurdi Gusi
+			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
+			Ilos Iškallu 
+			Kamani Kammaliya Kapys Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta
+			Labarna Lalli Laokoön Laomedon Larama
+			Mahhuzzi Manana Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
+			Nerikkaili
+			Palla Panamuwa Parita Pariya-muwas Pari-zitis Pihirim Pisiri Piyamaradu Puhamme   
+			Raqianu Runtiya Ruwantia
+			Šahurunuwa  Sanduarri Sangara Sahu Sahwi Sandasarme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
+			Taita Toi Tros Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
+			Uhha-ziti Uppara-muwa Urahilina Uratami Uratarhunza Urimme Ušhitti
+			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
+			Zakur Zannanza Zida Zidanta
+			Yariri Yau-bidi
+			Qarli 
+		}
+		
+		female_names = {
+			Andromákhe_Andromákhe Arinna Ašmu-nikal Astuoche_Astuoche
+			Eriopis_Eriopis Estan 
+			Gaššulawiya
+			Harapšili Harapšeki Haštayara Hekuba Henti Hesione Hieromneme Hippodameia_Hippodameia
+			Ištapariya Istustaya 
+			Kali Kallirrhoe Kreousa
+			Maššanauzzi Muwatti
+			Nikal-mati
+			Papaya Pudu-Hepa
+			Tawannanna Themiste
+			Walanni Wirisemu
+			Yaya
+		}
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+
 
 	kaskian = {
 		graphical_cultures = { anatoliangfx }

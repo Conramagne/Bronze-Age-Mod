@@ -210,8 +210,8 @@ c_methone;Methone;;;;;;;;;;;;;x
 c_methone_adj;Methoneai;;;;;;;;;;;;;x
 c_ormenion;Ormenion;;;;;;;;;;;;;x
 c_ormenion_adj;Ormenionai;;;;;;;;;;;;;x
-c_kashanaia;Kashanaia;;;;;;;;;;;;;x
-c_kashanaia_adj;Kashanaian;;;;;;;;;;;;;x
+c_kasthanaia;Kasthanaia;;;;;;;;;;;;;x
+c_kasthanaia_adj;Kasthanaian;;;;;;;;;;;;;x
 c_meliboia;Meliboia;;;;;;;;;;;;;x
 c_meliboia_adj;Meliboian;;;;;;;;;;;;;x
 c_pieres;Pieres;;;;;;;;;;;;;x
@@ -260,7 +260,8 @@ c_krapathos;Krapathos;;;;;;;;;;;;;x
 c_krapathos_adj;Krapathos;;;;;;;;;;;;;x
 c_noties_sporades;Nóties Sporádes;;;;;;;;;;;;;x
 c_noties_sporades_adj;Nóties Sporádes;;;;;;;;;;;;;x
-
+c_syme;Syme;;;;;;;;;;;;;x
+c_syme_adj;Symean;;;;;;;;;;;;;x
 
 ###########Achaean Baronies###########
 b_mycenae;Mykenae;;;;;;;;;;;;;x
@@ -431,7 +432,7 @@ b_corone_adj;Coroni;;;;;;;;;;;;;x
 b_oechalia;Oechalia;;;;;;;;;;;;;x
 b_oechalia_adj;Oechali;;;;;;;;;;;;;x
 
-###########Attica Baronies###########
+###########Attika Baronies###########
 b_athens;Athênai;;;;;;;;;;;;;x
 b_athens_adj;Athênain;;;;;;;;;;;;;x
 b_pireas;Peiraieús;;;;;;;;;;;;;x
@@ -618,8 +619,8 @@ b_methone_magnesia_adj;Methoneai;;;;;;;;;;;;;x
 b_olizon_adj;Olizonian;;;;;;;;;;;;;x
 b_ormenion;Ormenion;;;;;;;;;;;;;x
 b_ormenion_adj;Ormenionai;;;;;;;;;;;;;x
-b_kashanaia;Kashanaia;;;;;;;;;;;;;x
-b_kashanaia_adj;Kashanaian;;;;;;;;;;;;;x
+b_kasthanaia;Kasthanaia;;;;;;;;;;;;;x
+b_kasthanaia_adj;Kasthanaian;;;;;;;;;;;;;x
 b_boibe;Boíbe;;;;;;;;;;;;;x
 b_boibe_adj;Boíbean;;;;;;;;;;;;;x
 b_meliboia;Meliboia;;;;;;;;;;;;;x
@@ -642,6 +643,16 @@ b_perrhaebi;Perrhaebi;;;;;;;;;;;;;x
 b_perrhaebi_adj;Perrhaebian;;;;;;;;;;;;;x
 b_homolion;Homolion;;;;;;;;;;;;;x
 b_homolion_adj;Homolion;;;;;;;;;;;;;x
+b_pteleus;Pteleus;;;;;;;;;;;;;x
+b_pteleus_adj;Pteleusian;;;;;;;;;;;;;x
+b_ithome;Ithome;;;;;;;;;;;;;x
+b_ithome;Ithomian;;;;;;;;;;;;;x
+b_phylakopi;Phylakopi;;;;;;;;;;;;;x
+b_phylakopi_adj;Phylakopian;;;;;;;;;;;;;x
+b_oloosson;Oloosson;;;;;;;;;;;;;x
+b_oloosson_adj;Oloossoni;;;;;;;;;;;;;x
+b_olizon;Olizon;;;;;;;;;;;;;x
+b_olizon_adj;Olizoni;;;;;;;;;;;;;x
 
 ###########Thracian Baronies###########
 b_olynthos;Olynthos;;;;;;;;;;;;;x
@@ -658,6 +669,22 @@ b_ismaros;Ismaros;;;;;;;;;;;;;x
 b_ismaros_adj;Ismarosai;;;;;;;;;;;;;x
 b_khersonesos;Khersonesos;;;;;;;;;;;;;x
 b_khersonesos_adj;Khersonesos;;;;;;;;;;;;;x
+b_petralonia;Petralonia;;;;;;;;;;;;;x
+b_petralonia_adj;Petraloni;;;;;;;;;;;;;x
+b_thermes;Thermes;;;;;;;;;;;;;x
+b_thermes_adj;Thermesi;;;;;;;;;;;;;x
+b_ichnae;Ichnae;;;;;;;;;;;;;x
+b_ichnae_adj;Ichnaean;;;;;;;;;;;;;x
+b_charadrise;Charadrise;;;;;;;;;;;;;x
+b_charadrise_adj;Charadrisian;;;;;;;;;;;;;x
+b_abdera;Abdera;;;;;;;;;;;;;x
+b_abdera_adj;Aberan;;;;;;;;;;;;;x
+b_sestus;Sestus;;;;;;;;;;;;;x
+b_sestus_adj;Sesti;;;;;;;;;;;;;x
+b_elaeus;Elaeus;;;;;;;;;;;;;x
+b_elaeus_adj;Elaeusian;;;;;;;;;;;;;x
+b_aeneos;Aeneos;;;;;;;;;;;;;x
+b_aeneos_adj;Aeneosi;;;;;;;;;;;;;x
 
 ###########Aegean Baronies###########
 b_delos;Delos;;;;;;;;;;;;;x
@@ -684,3 +711,25 @@ b_krapathos;Krapathos;;;;;;;;;;;;;x
 b_krapathos_adj;Krapathos;;;;;;;;;;;;;x
 b_noties_sporades;Nóties Sporádes;;;;;;;;;;;;;x
 b_noties_sporades_adj;Nóties Sporádes;;;;;;;;;;;;;x
+b_kynthos;Kýnthos;;;;;;;;;;;;;x
+b_kynthos_adj;Kýnthosi;;;;;;;;;;;;;x
+b_akrotiri;Akrotiri;;;;;;;;;;;;;x
+b_akrotiri_adj;Akrotirian;;;;;;;;;;;;;x
+b_iero_ton_kabieroi;Ieró ton Kábeiroi;;;;;;;;;;;;;x
+b_iero_ton_kabieroi;Kábeiroian;;;;;;;;;;;;;x
+b_oenoe;Oenoe;;;;;;;;;;;;;x
+b_oenoe_adj;Oenoean;;;;;;;;;;;;;x
+b_kameiros;Kameiros;;;;;;;;;;;;;x
+b_kameiros_adj;Kameirosi;;;;;;;;;;;;;x
+b_jalysus;Jalysus;;;;;;;;;;;;;x
+b_jalysus;Jalysi;;;;;;;;;;;;;x
+b_khios;Khios;;;;;;;;;;;;;x
+b_khios_adj;Khiosi;;;;;;;;;;;;;x
+b_cardamyle;Cardamyle;;;;;;;;;;;;;x
+b_cardamyle_adj;Cardamyli;;;;;;;;;;;;;x
+b_hesphaista;Hesphaista;;;;;;;;;;;;;x
+b_hesphaista_adj;Hesphaisti;;;;;;;;;;;;;x
+b_asklepieion;Asklepieion;;;;;;;;;;;;;x
+b_asklepieion_adj;Asklepieion;;;;;;;;;;;;;x
+b_syme;Syme;;;;;;;;;;;;;x
+b_syme_adj;Symean;;;;;;;;;;;;;x

@@ -129,16 +129,16 @@
 129;243;51;255;Phylakae;x
 130;188;184;142;Methone;x
 131;169;164;108;Ormenion;x
-132;191;182;80;Kashanaia;x
+132;191;182;80;Kasthanaia;x
 133;32;121;135;Meliboia;x
 134;255;0;18;Pieres;x
 135;88;100;189;Olumpos;x
 136;66;167;183;Trikka;x
 137;107;225;243;Kyphos;x
 138;69;162;177;Gyrton;x
-139;75;39;41;Olynthos;x
+139;75;39;41;Pallene;x
 140;133;36;82;Bisaltia;x
-141;189;88;95;Pallene;x
+141;189;88;95;Olynthos;x
 142;222;63;63;Chalkidiki;x
 143;190;65;118;Ismaros;x
 144;190;200;118;Khersonesos;x
@@ -194,30 +194,32 @@
 194;206;139;30;Karia;x
 195;117;215;13;Khbide;x
 196;215;205;52;Knidos;x
-197;244;243;255;Urqananu Sea;x
-198;168;0;72;Odrysia;x
-199;134;126;131;Heptanese;x
-200;213;161;104;Moni Strofadon;x
-201;58;21;33;Lakonikos Kolpos;x
-202;109;121;73;Latoko Kolpos;x
-203;167;187;203;Patraikos Kolpos;x
-204;115;171;214;Korinthiakos Kolpos;x
-205;181;140;203;Myrtoo Pelagos;x
-206;53;97;143;Steno Keas;x
-207;244;149;225;Maliakos Kolpos;x
-208;139;107;189;Sporadenisi;x
-209;79;31;46;Thermaikos Kolpos;x
-210;167;126;190;Thrakiko Pelagos;x
-211;107;121;187;Propontis;x
-212;104;42;61;Masakos Kolpos;x
-213;107;121;112;Amazonios Pelagos;x
-214;195;126;235;Steno Mitilinis;x
-215;147;182;219;Kykladinisi;x
-216;176;155;188;Dodecanese;x
-217;63;121;73;Knossokos Kolpos;x
-218;80;182;54;Notio Kritikos Pelagos;x
-219;176;85;141;Agiokos Kolpos;x
-220;46;159;120;Zakros Pelagos;x
-221;183;104;235;Lukka Aruna;x
-222;122;111;147;Tarhunaruna;x
-223;52;142;125;Tarsusaruna;x
+197;142;74;51;Dardania;x
+198;135;39;99;Syme;x
+199;244;243;255;Urqananu Sea;x
+200;168;0;72;Odrysia;x
+201;134;126;131;Heptanese;x
+202;213;161;104;Moni Strofadon;x
+203;58;21;33;Lakonikos Kolpos;x
+204;109;121;73;Latoko Kolpos;x
+205;167;187;203;Patraikos Kolpos;x
+206;115;171;214;Korinthiakos Kolpos;x
+207;181;140;203;Myrtoo Pelagos;x
+208;53;97;143;Steno Keas;x
+209;244;149;225;Maliakos Kolpos;x
+210;139;107;189;Sporadenisi;x
+211;79;31;46;Thermaikos Kolpos;x
+212;167;126;190;Thrakiko Pelagos;x
+213;107;121;187;Propontis;x
+214;104;42;61;Masakos Kolpos;x
+215;107;121;112;Amazonios Pelagos;x
+216;195;126;235;Steno Mitilinis;x
+217;147;182;219;Kykladinisi;x
+218;176;155;188;Dodecanese;x
+219;63;121;73;Knossokos Kolpos;x
+220;80;182;54;Notio Kritikos Pelagos;x
+221;176;85;141;Agiokos Kolpos;x
+222;46;159;120;Zakros Pelagos;x
+223;183;104;235;Lukka Aruna;x
+224;122;111;147;Tarhunaruna;x
+225;52;142;125;Tarsusaruna;x

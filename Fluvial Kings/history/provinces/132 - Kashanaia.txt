@@ -1,8 +1,0 @@
-title=c_kashanaia
-
-max_settlements= 1
-b_boibe=castle
-
-culture=achaean
-religion=pantes_theoi
-terrain=plains

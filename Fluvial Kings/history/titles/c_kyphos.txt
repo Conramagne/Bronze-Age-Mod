@@ -2,6 +2,6 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_makedonia
+2507.1.1={
+	holder = 2103100
 }

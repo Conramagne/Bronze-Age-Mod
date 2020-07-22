@@ -1,7 +1,7 @@
 title=c_methone
 
 max_settlements= 2
-b_methone=castle
+b_methone_magnesia=castle
 b_olizon=city
 
 culture=achaean

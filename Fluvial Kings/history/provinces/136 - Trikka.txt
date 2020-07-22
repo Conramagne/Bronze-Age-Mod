@@ -1,7 +1,8 @@
 title=c_trikka
 
-max_settlements= 1
-b_trikka=castle
+max_settlements= 2
+b_trikka=tribal
+b_ithome=temple
 
 culture=achaean
 religion=pantes_theoi

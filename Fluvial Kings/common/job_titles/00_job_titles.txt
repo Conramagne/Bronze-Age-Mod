@@ -32,6 +32,10 @@ job_chancellor = {
 					ROOT = { is_powerful_vassal = yes }
 				}
 			}
+			NOR = {
+				trait = weak_emperor
+				trait = figurehead_emperor
+			}
 			conditional_tooltip = {
 				trigger = {
 					has_character_flag = swapping_councillors
@@ -121,6 +125,10 @@ job_marshal = {
 					has_law = succession_voting_power_1
 					ROOT = { is_powerful_vassal = yes }
 				}
+			}
+			NOR = {
+				trait = weak_emperor
+				trait = figurehead_emperor
 			}
 			conditional_tooltip = {
 				trigger = {
@@ -282,6 +290,10 @@ job_treasurer = {
 					ROOT = { is_powerful_vassal = yes }
 				}
 			}
+			NOR = {
+				trait = weak_emperor
+				trait = figurehead_emperor
+			}
 			conditional_tooltip = {
 				trigger = {
 					has_character_flag = swapping_councillors
@@ -373,6 +385,10 @@ job_spymaster = {
 					has_law = succession_voting_power_1
 					ROOT = { is_powerful_vassal = yes }
 				}
+			}
+			NOR = {
+				trait = weak_emperor
+				trait = figurehead_emperor
 			}
 			conditional_tooltip = {
 				trigger = {
@@ -469,6 +485,10 @@ job_spiritual = {
 					has_law = succession_voting_power_1
 					ROOT = { is_powerful_vassal = yes }
 				}
+			}
+			NOR = {
+				trait = weak_emperor
+				trait = figurehead_emperor
 			}
 			conditional_tooltip = {
 				trigger = {

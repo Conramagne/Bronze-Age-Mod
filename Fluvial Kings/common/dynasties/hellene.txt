@@ -306,7 +306,7 @@
 	}
 }
 2100018 = {
-	name = "Arcesiad"
+	name = "Arkesiad"
 	culture = "achaean"
 	used_for_random = no
 	coat_of_arms = {
@@ -423,4 +423,79 @@
 			color = 0
 		}
 	}
+}
+2100025 = {
+	name = "Kretheid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100026 = {
+	name = "Peliad"
+	culture = "achaean"
+	used_for_random = no
+}
+2100027 = {
+	name = "Thaumakid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100028 = {
+	name = "Ormenid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100029 = {
+	name = "Phlegyid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100030 = {
+	name = "Tenthredonid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100031 = {
+	name = "Theseid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100032 = {
+	name = "Asklepid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100033 = {
+	name = "Gouneid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100034 = {
+	name = "Lukomediad"
+	culture = "achaean"
+	used_for_random = no
+}
+2100035 = {
+	name = "Troezenid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100036 = {
+	name = "Eusorid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100037 = {
+	name = "Herakleid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100038 = {
+	name = "Eurypylid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100039 = {
+	name = "Charopid"
+	culture = "achaean"
+	used_for_random = no
 }

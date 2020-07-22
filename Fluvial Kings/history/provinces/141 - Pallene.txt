@@ -1,8 +1,0 @@
-title=c_pallene
-
-max_settlements= 1
-b_pallene=tribal
-
-culture=achaean
-religion=pantes_theoi
-terrain=plains

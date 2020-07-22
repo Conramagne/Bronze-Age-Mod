@@ -3,7 +3,7 @@
 	law = succ_gavelkind
 }
 2461.1.1 = {
-	holder = 2104000
+	holder = 2102200
 }
 2511.1.1 = {
 	holder = 2100700

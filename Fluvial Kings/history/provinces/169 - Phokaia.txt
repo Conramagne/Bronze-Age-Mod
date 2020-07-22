@@ -2,8 +2,8 @@ title=c_phokaia
 
 max_settlements= 3
 b_phokaia=castle
-b_kyme=temple
-b_larissa=city
+# b_kyme=temple
+# b_larissa=city
 
 culture=luwian
 religion=haianiluwi

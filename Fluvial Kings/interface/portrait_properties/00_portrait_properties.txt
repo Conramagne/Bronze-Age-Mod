@@ -181,7 +181,7 @@
 		}
 		# modifier = {
 			# factor = 0
-			# NOT = { religion_group = pagan_group }
+			# NOT = { #religion_group = pagan_group }
 		# }
 		modifier = {
 			factor = 0
@@ -432,10 +432,10 @@
 			factor = 0
 			is_nomadic = no
 		}
-		modifier = {
-			factor = 2
-			culture = mongol
-		}
+		# modifier = {
+			# factor = 2
+			# culture = mongol
+		# }
 	}
 
 	17 = { # Mongol camp 2
@@ -455,10 +455,10 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 2
-			culture = mongol
-		}
+		# modifier = {
+			# factor = 2
+			# culture = mongol
+		# }
 		modifier = {
 			factor = 0
 			lower_real_tier_than = DUKE
@@ -474,11 +474,11 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { has_landed_title = k_papal_state }
-			NOT = { has_landed_title = k_hellenic_pagan }
-			NOT = { has_landed_title = d_fraticelli }
-			NOT = { has_claim = k_papal_state }
-			NOT = { has_claim = d_fraticelli }
+			# NOT = { has_landed_title = k_papal_state }
+			# NOT = { has_landed_title = k_hellenic_pagan }
+			# NOT = { has_landed_title = d_fraticelli }
+			# NOT = { has_claim = k_papal_state }
+			# NOT = { has_claim = d_fraticelli }
 		}
 	}
 
@@ -509,7 +509,7 @@
 		}
 		modifier = {
 			factor = 0
-			# NOT = { religion_group = pagan_group }
+			# NOT = { #religion_group = pagan_group }
 			NOT = { death_sacrificed_trigger = yes }
 		}
 		modifier = {
@@ -634,13 +634,13 @@
 				# has_minor_title = title_prince
 			# }
 		# }
-		modifier = {
-			factor = 100
-			is_devout_chinese_buddhist_trigger = yes
-		}
+		# modifier = {
+			# factor = 100
+			# is_devout_chinese_buddhist_trigger = yes
+		# }
 		modifier = {
 			factor = 0
-			follows_filial_piety_trigger = yes
+			#follows_filial_piety_trigger = yes
 		}
 	}
 
@@ -979,7 +979,7 @@
 		factor = 1
 		modifier = {
 			factor = 5
-			# religion_group = pagan_group
+			# #religion_group = pagan_group
 		}
 		
 		# Does not suit Western females with African style headgear
@@ -1001,7 +1001,7 @@
 		modifier = {
 			factor = 0
 			is_female = yes
-			follows_filial_piety_trigger = yes
+			#follows_filial_piety_trigger = yes
 		}
 	}
 	
@@ -1010,7 +1010,7 @@
 		
 		modifier = {
 			factor = 5
-			# religion_group = pagan_group
+			# #religion_group = pagan_group
 		}
 		
 		# Does not suit Western females with African style headgear
@@ -1031,12 +1031,12 @@
 		# }
 		modifier = {
 			factor = 0
-			follows_filial_piety_trigger = yes
+			#follows_filial_piety_trigger = yes
 		}
 		modifier = {
 			factor = 0
 			is_female = yes
-			follows_filial_piety_trigger = yes
+			#follows_filial_piety_trigger = yes
 		}
 		# modifier = { 
 			# factor = 0
@@ -1094,7 +1094,7 @@
 		modifier = {
 			factor = 0
 			is_female = yes
-			follows_filial_piety_trigger = yes
+			#follows_filial_piety_trigger = yes
 		}
 		# modifier = { 
 			# factor = 0
@@ -1161,79 +1161,79 @@
 		# }
 		modifier = {
 			factor = 0
-			follows_filial_piety_trigger = yes
+			#follows_filial_piety_trigger = yes
 		}
 		modifier = {
 			factor = 0
 			is_female = yes
-			follows_filial_piety_trigger = yes
+			#follows_filial_piety_trigger = yes
 		}
 		modifier = {
 			factor = 2
-			filial_piety_maiden_trigger = yes
+			#filial_piety_maiden_trigger = yes
 		}
 	}
 	
 	13 = { # Mohawk
 		factor = 1
-		modifier = {
-			factor = 0
-			follows_filial_piety_trigger = yes
-		}
-		modifier = {
-			factor = 0
-			is_female = yes
-			follows_filial_piety_trigger = yes
-		}
-		modifier = {
-			factor = 2
-			filial_piety_maiden_trigger = yes
-		}
-		modifier = {
-			factor = 0
-			graphical_culture = chinesegfx
-			OR = {
-				is_married = yes
-				is_ruler = yes
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# follows_filial_piety_trigger = yes
+		# }
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+			# follows_filial_piety_trigger = yes
+		# }
+		# modifier = {
+			# factor = 2
+			# filial_piety_maiden_trigger = yes
+		# }
+		# modifier = {
+			# factor = 0
+			# graphical_culture = chinesegfx
+			# OR = {
+				# is_married = yes
+				# is_ruler = yes
+			# }
+		# }
 	}
 	
 	14 = { # Mohawk
 		factor = 1
-		modifier = {
-			factor = 0
-			follows_filial_piety_trigger = yes
-		}
-		modifier = {
-			factor = 0
-			is_female = yes
-			follows_filial_piety_trigger = yes
-		}
-		modifier = {
-			factor = 2
-			filial_piety_maiden_trigger = yes
-		}
-		modifier = {
-			factor = 0
-			graphical_culture = chinesegfx
-			OR = {
-				is_married = yes
-				is_ruler = yes
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# follows_filial_piety_trigger = yes
+		# }
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+			# follows_filial_piety_trigger = yes
+		# }
+		# modifier = {
+			# factor = 2
+			# filial_piety_maiden_trigger = yes
+		# }
+		# modifier = {
+			# factor = 0
+			# graphical_culture = chinesegfx
+			# OR = {
+				# is_married = yes
+				# is_ruler = yes
+			# }
+		# }
 	}
 	
 	15 = { # Mohawk
 		factor = 1
-		modifier = {
-			factor = 0
-			graphical_culture = chinesegfx
-			OR = {
-				is_married = yes
-				is_ruler = yes
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# graphical_culture = chinesegfx
+			# OR = {
+				# is_married = yes
+				# is_ruler = yes
+			# }
+		# }
 	}
 }
 
@@ -1495,6 +1495,7 @@
 			graphical_culture = greekgodgfx
 			NOR = {
 				trait = pollux
+				trait = aglaia
 			}
 		}
 		modifier = {
@@ -1511,7 +1512,7 @@
 			graphical_culture = greekgodgfx
 			NOR = {
 				trait = cronos
-				trait = arethousa
+				trait = euphrosyne
 			}
 		}
 		modifier = {
@@ -1528,6 +1529,7 @@
 			graphical_culture = greekgodgfx
 			NOR = {
 				trait = cretan_bull
+				trait = thalia
 			}
 		}
 		modifier = {
@@ -1560,7 +1562,6 @@
 			graphical_culture = greekgodgfx
 			NOR = {
 				trait = achelous
-				trait = arethousa
 			}
 		}
 		modifier = {
@@ -1571,6 +1572,23 @@
 		}
 	}
 	20 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = greekgodgfx
+			NOR = {
+				trait = asklepios
+				trait = arethousa
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				graphical_culture = greekgodgfx
+			}
+		}
+	}
+	21 = {
 		factor = 1
 		modifier = {
 			factor = 0
@@ -1585,7 +1603,6 @@
 				trait = hestia
 				trait = here
 				trait = persephone
-				trait = artemis
 				trait = hebe
 				trait = poseidaon
 				trait = haphaistos
@@ -1611,6 +1628,10 @@
 				trait = minotaur
 				trait = achelous
 				trait = thetis
+				trait = asklepios
+				trait = aglaia
+				trait = euphrosyne
+				trait = thalia
 			}
 		}
 		modifier = {
@@ -1649,7 +1670,7 @@
 				trait = heresiarch
 				government = stratocratic_government
 			}
-			NOT = { is_offmap_tag_including_dead = offmap_china }
+			#NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -1658,7 +1679,7 @@
 			NOT = { spouse = { real_tier = king } }
 			NOT = { spouse = { real_tier = emperor } }
 			NOT = { has_minor_title = title_prince }
-			NOT = { is_offmap_tag_including_dead = offmap_china }
+			#NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 	}
 	
@@ -1686,7 +1707,7 @@
 				trait = heresiarch
 				government = stratocratic_government
 			}
-			NOT = { is_offmap_tag_including_dead = offmap_china }
+			#NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -1695,7 +1716,7 @@
 			NOT = { spouse = { real_tier = king } }
 			NOT = { spouse = { real_tier = emperor } }
 			NOT = { has_minor_title = title_prince }
-			NOT = { is_offmap_tag_including_dead = offmap_china }
+			#NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 	}
 	
@@ -1723,7 +1744,7 @@
 				trait = heresiarch
 				government = stratocratic_government
 			}
-			NOT = { is_offmap_tag_including_dead = offmap_china }
+			#NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -1732,7 +1753,7 @@
 			NOT = { spouse = { real_tier = king } }
 			NOT = { spouse = { real_tier = emperor } }
 			NOT = { has_minor_title = title_prince }
-			NOT = { is_offmap_tag_including_dead = offmap_china }
+			#NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 	}
 	
@@ -1752,11 +1773,6 @@
 				name = martial_headgear
 				value = on
 			}
-		}
-		modifier = {
-			factor = 0
-			is_female = yes
-			graphical_culture = anatoliangfx
 		}
 		modifier = {
 			factor = 0
@@ -1871,11 +1887,14 @@
 		}
 		modifier = {
 			factor = 0
+			government = stratocratic_government
+		}
+		modifier = {
+			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
 				is_ruler = yes
-				government = stratocratic_government
 				has_minor_title = title_prince
 				spouse = { real_tier = emperor }
 				spouse = { real_tier = king }
@@ -1910,10 +1929,13 @@
 		}
 		modifier = {
 			factor = 0
+			government = stratocratic_government
+		}
+		modifier = {
+			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				government = stratocratic_government
 				is_or_was_offmap_power_ruler = yes
 				is_ruler = yes
 				has_minor_title = title_prince
@@ -1943,10 +1965,13 @@
 		}
 		modifier = {
 			factor = 0
+			government = stratocratic_government
+		}
+		modifier = {
+			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				government = stratocratic_government
 				is_or_was_offmap_power_ruler = yes
 				is_ruler = yes
 				has_minor_title = title_prince
@@ -2050,7 +2075,7 @@
 			#	real_tier = emperor
 				AND = {
 					NOT = { government = stratocratic_government }
-					real_tier = duke
+					# real_tier = duke
 					NAND = { 
 						in_command = yes 
 						has_game_rule = {
@@ -2086,18 +2111,18 @@
 				# }
 			}
 		}
-		modifier = {
-			factor = 0
-			chinese_martial_modifier_trigger = yes 
-		}
-		modifier = {
-			factor = 0
-			chinese_martial_2_modifier_trigger = yes 
-		}
-		modifier = {
-			factor = 0
-			chinese_generals_modifier_trigger = yes
-		}
+		# modifier = {
+			# factor = 0
+			# chinese_martial_modifier_trigger = yes 
+		# }
+		# modifier = {
+			# factor = 0
+			# chinese_martial_2_modifier_trigger = yes 
+		# }
+		# modifier = {
+			# factor = 0
+			# chinese_generals_modifier_trigger = yes
+		# }
 		modifier = {
 			factor = 100 # This ensures that the reverse order check stays matched
 			has_portrait_property = { layer = 5 index = 10 }
@@ -2118,7 +2143,7 @@
 		factor = 99
 		modifier = {
 			factor = 0
-			chinese_generals_modifier_trigger = no
+			#chinese_generals_modifier_trigger = no
 		}
 		modifier = {
 			factor = 100 # This ensures that the reverse order check stays matched
@@ -2131,13 +2156,13 @@
 		factor = 99
 		modifier = {
 			factor = 0
-			chinese_martial_modifier_trigger = no
+			#chinese_martial_modifier_trigger = no
 		}
 		modifier = {
 			factor = 0
 			OR = { 
-				chinese_martial_2_modifier_trigger = yes
-				chinese_generals_modifier_trigger = yes
+				#chinese_martial_2_modifier_trigger = yes
+				#chinese_generals_modifier_trigger = yes
 			}
 		}
 		modifier = {
@@ -2151,11 +2176,11 @@
 		factor = 99
 		modifier = {
 			factor = 0
-			chinese_generals_modifier_trigger = yes
+			#chinese_generals_modifier_trigger = yes
 		}
 		modifier = {
 			factor = 0
-			chinese_martial_2_modifier_trigger = no
+			#chinese_martial_2_modifier_trigger = no
 		}
 		modifier = {
 			factor = 100 # This ensures that the reverse order check stays matched
@@ -2183,10 +2208,10 @@
 		#		graphical_culture = anatoliangfx
 		#	}
 		}
-		modifier = {
-			factor = 100
-			is_devout_chinese_buddhist_trigger = yes
-		}
+		# modifier = {
+			# factor = 100
+			# is_devout_chinese_buddhist_trigger = yes
+		# }
 	}
 	1 = {
 		factor = 1
@@ -2291,7 +2316,7 @@
 			factor = 0
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = emperor } }
-			NOT = { is_offmap_tag_including_dead = offmap_china }
+			#NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -2387,7 +2412,7 @@
 			is_feudal = no
 			is_tribal = no
 			is_nomadic = no
-			NOT = { is_offmap_tag_including_dead = offmap_china }
+			#NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
 			factor = 0
@@ -2405,17 +2430,18 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
+				government = stratocratic_government
 			}
-			NOT = { is_offmap_tag_including_dead = offmap_china }
+			#NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
-		modifier = {
-			factor = 0
-			song_dynasty_futou_trigger = yes
-		}
-		modifier = {
-			factor = 0
-			has_landed_title = e_china_west_governor # Uses martial clothing instead
-		}
+		# modifier = {
+			# factor = 0
+			# song_dynasty_futou_trigger = yes
+		# }
+		# modifier = {
+			# factor = 0
+			# has_landed_title = e_china_west_governor # Uses martial clothing instead
+		# }
 	}
 	
 	# Royal crown/turban 1
@@ -2551,6 +2577,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
+				government = stratocratic_government
 			}
 		}
 	}
@@ -2688,6 +2715,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
+				government = stratocratic_government
 			}
 		}
 	}
@@ -2710,14 +2738,9 @@
 		}
 		modifier = {
 			factor = 0
-			is_female = yes
-			graphical_culture = achaeangfx
-		}
-		modifier = {
-			factor = 0
 			NOT = { real_tier = king }
 			NOT = { spouse = { real_tier = king } }
-			NOT = { song_dynasty_futou_trigger = yes }
+			# NOT = { song_dynasty_futou_trigger = yes }
 		}
 		modifier = {
 			factor = 0
@@ -2825,20 +2848,21 @@
 			is_feudal = no
 			is_tribal = no
 			is_nomadic = no
-			NOT = { song_dynasty_futou_trigger = yes }
+			# NOT = { song_dynasty_futou_trigger = yes }
 		}
 		modifier = {
 			factor = 0
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
+				government = stratocratic_government
 			}
-			NOT = { song_dynasty_futou_trigger = yes }
+			# NOT = { song_dynasty_futou_trigger = yes }
 		}
-		modifier = {
-			factor = 100
-			song_dynasty_futou_trigger = yes
-		}
+		# modifier = {
+			# factor = 100
+			# song_dynasty_futou_trigger = yes
+		# }
 	}
 
 	# Simple golden band/turban
@@ -2947,14 +2971,14 @@
 			NOT = { spouse = { real_tier = duke } }
 			NOT = { spouse = { real_tier = count } }
 		}
-		modifier = { #French Counts also wear the golden band.
-			factor = 0 
-			has_dlc = "Holy Fury"
-			NOT = { culture = frankish }
-			NOT = { culture = occitan }
-			lower_real_tier_than = DUKE
-			spouse = { lower_real_tier_than = DUKE }
-		}
+		# modifier = { #French Counts also wear the golden band.
+			# factor = 0 
+			# has_dlc = "Holy Fury"
+			# NOT = { culture = frankish }
+			# NOT = { culture = occitan }
+			# lower_real_tier_than = DUKE
+			# spouse = { lower_real_tier_than = DUKE }
+		# }
 		modifier = { #Otherwise go as normal.
 			factor = 0 
 			NOT = { has_dlc = "Holy Fury" }
@@ -2966,6 +2990,7 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
+				government = stratocratic_government
 			}
 		}
 	}
@@ -3010,45 +3035,12 @@
 				religion_group = bnai_avraham
 			}
 		}
-		modifier = {
-			factor = 2
-			is_female = yes
-			graphical_culture = westernslavicgfx
-			OR = {
-				culture = pommeranian
-				culture = bohemian
-				culture = polish
-			}
-			is_married = no
-		}
-		modifier = {
-			factor = 2
-			is_female = yes
-			graphical_culture = croat_southslavicgfx
-			culture = croatian
-			is_married = no
-		}
-		modifier = {
-			factor = 2
-			is_female = yes
-			OR = {
-				graphical_culture = serb_southslavicgfx
-				graphical_culture = magyargfx
-			}
-			OR = {
-				culture = serbian
-				culture = bulgarian
-				culture = romanian
-				culture = hungarian
-			}
-			is_married = no
-		}
-		modifier = { # Specific rules for frankish / Occitanian layering
-			factor = 0
-			NOT = {
-				french_courtier_overlayer_trigger = yes
-			}
-		}
+		# modifier = { # Specific rules for frankish / Occitanian layering
+			# factor = 0
+			# NOT = {
+				# french_courtier_overlayer_trigger = yes
+			# }
+		# }
 	}
 	
 	# Common headgear 2 - hood
@@ -3083,32 +3075,32 @@
 				spouse = { real_tier = duke }
 			}
 		}
-		modifier = { # Specific rules for frankish / Occitanian layering
-			factor = 0
-			has_dlc = "Holy Fury"
-			is_female = yes
-			OR = {
-				culture = frankish
-				culture = occitan
-			}
-			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
-			}
-			OR = {
-				is_married = no
-				NOT = { age = 40 }
-			}
-			NOT = {
-				has_portrait_property = { layer = 3 index = 10 }
-			}
-		}
-		modifier = { # Specific rules for frankish / Occitanian layering
-			factor = 0
-			NOT = {
-				french_courtier_overlayer_trigger = yes
-			}
-		}
+		# modifier = { # Specific rules for frankish / Occitanian layering
+			# factor = 0
+			# has_dlc = "Holy Fury"
+			# is_female = yes
+			# OR = {
+				# culture = frankish
+				# culture = occitan
+			# }
+			# OR = {
+				# is_ruler = yes
+				# spouse = { is_ruler = yes }
+			# }
+			# OR = {
+				# is_married = no
+				# NOT = { age = 40 }
+			# }
+			# NOT = {
+				# has_portrait_property = { layer = 3 index = 10 }
+			# }
+		# }
+		# modifier = { # Specific rules for frankish / Occitanian layering
+			# factor = 0
+			# NOT = {
+				# french_courtier_overlayer_trigger = yes
+			# }
+		# }
 	}
 
 	# Common headgear 3 - Red hat
@@ -3144,32 +3136,32 @@
 				spouse = { real_tier = duke }
 			}
 		}
-		modifier = { # Specific rules for frankish / Occitanian layering
-			factor = 0
-			has_dlc = "Holy Fury"
-			is_female = yes
-			OR = {
-				culture = frankish
-				culture = occitan
-			}
-			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
-			}
-			OR = {
-				is_married = no
-				NOT = { age = 40 }
-			}
-			NOT = {
-				has_portrait_property = { layer = 3 index = 10 }
-			}
-		}
-		modifier = { # Specific rules for frankish / Occitanian layering
-			factor = 0
-			NOT = {
-				french_courtier_overlayer_trigger = yes
-			}
-		}
+		# modifier = { # Specific rules for frankish / Occitanian layering
+			# factor = 0
+			# has_dlc = "Holy Fury"
+			# is_female = yes
+			# OR = {
+				# culture = frankish
+				# culture = occitan
+			# }
+			# OR = {
+				# is_ruler = yes
+				# spouse = { is_ruler = yes }
+			# }
+			# OR = {
+				# is_married = no
+				# NOT = { age = 40 }
+			# }
+			# NOT = {
+				# has_portrait_property = { layer = 3 index = 10 }
+			# }
+		# }
+		# modifier = { # Specific rules for frankish / Occitanian layering
+			# factor = 0
+			# NOT = {
+				# french_courtier_overlayer_trigger = yes
+			# }
+		# }
 	}
 	
 	# Common headgear 4 - hood
@@ -3204,98 +3196,12 @@
 				spouse = { real_tier = duke }
 			}
 		}
-		modifier = {
-			factor = 0
-			is_female = yes
-			graphical_culture = westernslavicgfx
-			OR = {
-				culture = pommeranian
-				culture = bohemian
-				culture = polish
-			}
-			is_married = yes
-		}
-		modifier = {
-			factor = 0
-			is_female = yes
-			graphical_culture = croat_southslavicgfx
-			culture = croatian
-			is_married = yes
-		}
-		modifier = {
-			factor = 0
-			is_female = yes
-			OR = {
-				graphical_culture = serb_southslavicgfx
-				graphical_culture = magyargfx
-			}
-			OR = {
-				culture = serbian
-				culture = bulgarian
-				culture = romanian
-				culture = hungarian
-			}
-			is_married = yes
-		}
-		modifier = {
-			factor = 2
-			is_female = yes
-			graphical_culture = westernslavicgfx
-			OR = {
-				culture = pommeranian
-				culture = bohemian
-				culture = polish
-			}
-			is_married = no
-		}
-		modifier = {
-			factor = 2
-			is_female = yes
-			graphical_culture = croat_southslavicgfx
-			culture = croatian
-			is_married = no
-		}
-		modifier = {
-			factor = 2
-			is_female = yes
-			OR = {
-				graphical_culture = serb_southslavicgfx
-				graphical_culture = magyargfx
-			}
-			OR = {
-				culture = serbian
-				culture = bulgarian
-				culture = romanian
-				culture = hungarian
-			}
-			is_married = no
-		}
-		modifier = { # Specific rules for frankish / Occitanian layering
-			factor = 0
-			has_dlc = "Holy Fury"
-			is_female = yes
-			OR = {
-				culture = frankish
-				culture = occitan
-			}
-			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
-			}
-			OR = {
-				is_married = no
-				NOT = { age = 40 }
-			}
-			NOT = {
-				has_portrait_property = { layer = 3 index = 10 }
-			}
-		}
-		modifier = { # Specific rules for frankish / Occitanian layering
-			factor = 0
-			NOT = {
-				french_courtier_overlayer_trigger = yes
-			}
-		}
+		# modifier = { # Specific rules for frankish / Occitanian layering
+			# factor = 0
+			# NOT = {
+				# french_courtier_overlayer_trigger = yes
+			# }
+		# }
 	}
 
 	# Shady headgear
@@ -3352,16 +3258,16 @@
 			factor = 0
 			OR = { 
 				NOT = { has_portrait_property = { layer = 3 index = 10 } } 
-				primary_title = { #Holy Orders in peace time should wear martial clothes, but not the helmet.
-					OR = {
-						title = d_knights_hospitaler
-						title = d_knights_templar
-						title = d_teutonic_order
-						title = k_teutonic_state
-						title = d_livonian_order
-						title = e_china_west_governor
-					}
-				}
+				# primary_title = { #Holy Orders in peace time should wear martial clothes, but not the helmet.
+					# OR = {
+						# title = d_knights_hospitaler
+						# title = d_knights_templar
+						# title = d_teutonic_order
+						# title = k_teutonic_state
+						# title = d_livonian_order
+						# title = e_china_west_governor
+					# }
+				# }
 			}
 		}
 		modifier = {
@@ -3395,21 +3301,21 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 20000
-			OR = { 
-				government = order_government 
-				primary_title = { #Holy Orders in peace time should wear martial clothes, but not the helmet.
-					OR = {
-						title = d_knights_hospitaler
-						title = d_knights_templar
-						title = d_teutonic_order
-						title = k_teutonic_state
-						title = d_livonian_order
-					}
-				}
-			}
-		}
+		# modifier = {
+			# factor = 20000
+			# OR = { 
+				# government = order_government 
+				# primary_title = { #Holy Orders in peace time should wear martial clothes, but not the helmet.
+					# OR = {
+						# title = d_knights_hospitaler
+						# title = d_knights_templar
+						# title = d_teutonic_order
+						# title = k_teutonic_state
+						# title = d_livonian_order
+					# }
+				# }
+			# }
+		# }
 		modifier = {
 			factor = 0
 			in_command = yes
@@ -3442,39 +3348,6 @@
 					NOT = { is_republic = yes }
 			 	}
 			}
-		}
-		modifier = {
-			factor = 4
-			is_female = yes
-			graphical_culture = westernslavicgfx
-			OR = {
-				culture = pommeranian
-				culture = bohemian
-				culture = polish
-			}
-			is_married = no
-		}
-		modifier = {
-			factor = 4
-			is_female = yes
-			graphical_culture = croat_southslavicgfx
-			culture = croatian
-			is_married = no
-		}
-		modifier = {
-			factor = 4
-			is_female = yes
-			OR = {
-				graphical_culture = serb_southslavicgfx
-				graphical_culture = magyargfx
-			}
-			OR = {
-				culture = serbian
-				culture = bulgarian
-				culture = romanian
-				culture = hungarian
-			}
-			is_married = no
 		}
 	}
 	
@@ -3870,7 +3743,7 @@
 					# NOR = {
 						# is_tribal = yes
 						# is_nomadic = yes
-						# religion_group = pagan_group
+						# #religion_group = pagan_group
 					# }
 				# }
 				# has_character_modifier = golden_mask
@@ -3903,17 +3776,17 @@
 				}
 				is_tribal = yes
 				is_nomadic = yes
-				religion_group = pagan_group
+				#religion_group = pagan_group
 				has_character_modifier = golden_mask
 			}
 		}
-		modifier = {
-			factor = 0
-			OR = {
-				culture = manden
-				culture = maghreb_arabic
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# OR = {
+				# culture = manden
+				# culture = maghreb_arabic
+			# }
+		# }
 	}
 
 	3 = { # mask 3 iron
@@ -3937,7 +3810,7 @@
 				}
 				is_tribal = yes
 				is_nomadic = yes
-				religion_group = pagan_group
+				#religion_group = pagan_group
 				has_character_modifier = golden_mask
 			}
 		}
@@ -3958,7 +3831,7 @@
 					NOR = {
 						is_tribal = yes
 						is_nomadic = yes
-						religion_group = pagan_group
+						#religion_group = pagan_group
 					}
 				}
 				has_character_modifier = golden_mask
@@ -3981,7 +3854,7 @@
 					NOR = {
 						is_tribal = yes
 						is_nomadic = yes
-						religion_group = pagan_group
+						#religion_group = pagan_group
 					}
 				}
 				has_character_modifier = golden_mask
@@ -4080,7 +3953,7 @@
 					# NOR = {
 						# is_tribal = yes
 						# is_nomadic = yes
-						# religion_group = pagan_group
+						# #religion_group = pagan_group
 					# }
 				# }
 				has_character_modifier = golden_mask
@@ -4103,7 +3976,7 @@
 					# NOR = {
 						# is_tribal = yes
 						# is_nomadic = yes
-						# religion_group = pagan_group
+						# #religion_group = pagan_group
 					# }
 				# }
 				has_character_modifier = golden_mask
@@ -4136,17 +4009,17 @@
 				# }
 				# is_tribal = yes
 				# is_nomadic = yes
-				# religion_group = pagan_group
+				# #religion_group = pagan_group
 				# has_character_modifier = golden_mask
 			# }
 		}
-		modifier = {
-			factor = 0
-			OR = {
-				culture = manden
-				culture = maghreb_arabic
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# OR = {
+				# culture = manden
+				# culture = maghreb_arabic
+			# }
+		# }
 	}
 	
 	11 = { # mask 11 - decorated gold
@@ -4174,7 +4047,7 @@
 				# }
 				# is_tribal = yes
 				# is_nomadic = yes
-				# religion_group = pagan_group
+				# #religion_group = pagan_group
 			# }
 			NOT = { has_character_modifier = golden_mask }
 		}
@@ -4185,15 +4058,15 @@
 				trait = proud
 				trait = ambitious
 				trait = envious
-				culture = manden
-				culture = maghreb_arabic
+				# culture = manden
+				# culture = maghreb_arabic
 			}
 			NOT = { has_character_modifier = golden_mask }
 		}
-		modifier = {
-			factor = 5
-			has_landed_title = k_papal_state
-		}
+		# modifier = {
+			# factor = 5
+			# has_landed_title = k_papal_state
+		# }
 		modifier = {
 			factor = 1000
 			has_character_modifier = golden_mask
@@ -4223,7 +4096,7 @@
 					# is_married = yes
 					# spouse = { NOT = { higher_real_tier_than = DUKE } }
 				# }
-				# religion_group = pagan_group
+				# #religion_group = pagan_group
 				# has_character_modifier = golden_mask
 			# }
 		}
@@ -4252,7 +4125,7 @@
 					# is_married = yes
 					# spouse = { NOT = { higher_real_tier_than = DUKE } }
 				# }
-				# religion_group = pagan_group
+				# #religion_group = pagan_group
 				# has_character_modifier = golden_mask
 			# }
 		}
@@ -4423,13 +4296,13 @@
 		factor = 3
 		modifier = {
 			factor = 0
-			OR = {
-				NAND = {
-					trait = one_eyed
-					culture_group = celtic
-				}
-				has_character_modifier = glass_eye
-			}
+			# OR = {
+				# NAND = {
+					# trait = one_eyed
+					# culture_group = celtic
+				# }
+				# has_character_modifier = glass_eye
+			# }
 		}
 	}
 	
@@ -4478,10 +4351,10 @@
 14 = {
 	0 = { # blank
 		factor = 100
-		modifier = {
-			factor = 0
-			chinese_makeup_trigger = yes
-		}
+		# modifier = {
+			# factor = 0
+			# chinese_makeup_trigger = yes
+		# }
 	}
 
 	1 = { # white powder
@@ -4509,10 +4382,10 @@
 15 = {
 	0 = { # blank
 		factor = 100
-		modifier = {
-			factor = 0
-			chinese_makeup_trigger = yes
-		}
+		# modifier = {
+			# factor = 0
+			# chinese_makeup_trigger = yes
+		# }
 	}
 
 	1 = { # full lips
@@ -4532,10 +4405,10 @@
 16 = {
 	0 = { # blank
 		factor = 100
-		modifier = {
-			factor = 0
-			chinese_empress_jewelry_trigger = yes
-		}
+		# modifier = {
+			# factor = 0
+			# chinese_empress_jewelry_trigger = yes
+		# }
 	}
 
 	1 = { # Full face pearls and earrings
@@ -4569,545 +4442,545 @@
 18 = {
 	0 = { # blank
 		factor = 100
-		modifier = {
-			factor = 0
-			OR = {
-				has_minor_title = title_cardinal
-				has_minor_title = title_fraticelli_cardinal
-			}
-		}
-		modifier = {
-			factor = 0
-			NAND = { 
-				in_command = yes  # Has to wear helmet instead.
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
-			OR = {
-				trait = dead_crown_hre #Dead kings don't have artifacts
-				trait = dead_crown_byzantine #Dead kings don't have artifacts
-				trait = dead_crown_pahlavi #Dead kings don't have artifacts
-				trait = dead_crown_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_tengri_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_finnish_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_slavic_fylkir
-				trait = dead_crown_romuva_fylkir
-				trait = dead_crown_zun_fylkir
-				trait = dead_crown_west_african_fylkir
-				trait = dead_crown_aztec_fylkir
-				trait = augustus # Laurels
-			}
-		}
-		modifier = {
-			factor = 0
-			NAND = { 
-				in_command = yes  # Has to wear helmet instead.
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
-			any_artifact = {
-				OR = {
-					artifact_type = crown_hre
-					artifact_type = crown_byzantine
-					artifact_type = crown_pahlavi
-					artifact_type = crown_fylkir
-					artifact_type = crown_tengri_fylkir
-					artifact_type = crown_finnish_fylkir
-					artifact_type = crown_slavic_fylkir
-					artifact_type = crown_romuva_fylkir
-					artifact_type = crown_zun_fylkir
-					artifact_type = crown_west_african_fylkir
-					artifact_type = crown_aztec_fylkir
-					artifact_type = iron_crown_of_lombardy
-					artifact_type = cursed_diamond_crown
-				}
-				is_artifact_equipped = yes 
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# OR = {
+				# has_minor_title = title_cardinal
+				# has_minor_title = title_fraticelli_cardinal
+			# }
+		# }
+		# modifier = {
+			# factor = 0
+			# NAND = { 
+				# in_command = yes  # Has to wear helmet instead.
+				# has_game_rule = {
+					# name = martial_headgear
+					# value = on
+				# }
+			# }
+			# OR = {
+				# trait = dead_crown_hre #Dead kings don't have artifacts
+				# trait = dead_crown_byzantine #Dead kings don't have artifacts
+				# trait = dead_crown_pahlavi #Dead kings don't have artifacts
+				# trait = dead_crown_fylkir #Dead kings don't have artifacts
+				# trait = dead_crown_tengri_fylkir #Dead kings don't have artifacts
+				# trait = dead_crown_finnish_fylkir #Dead kings don't have artifacts
+				# trait = dead_crown_slavic_fylkir
+				# trait = dead_crown_romuva_fylkir
+				# trait = dead_crown_zun_fylkir
+				# trait = dead_crown_west_african_fylkir
+				# trait = dead_crown_aztec_fylkir
+				# trait = augustus # Laurels
+			# }
+		# }
+		# modifier = {
+			# factor = 0
+			# NAND = { 
+				# in_command = yes  # Has to wear helmet instead.
+				# has_game_rule = {
+					# name = martial_headgear
+					# value = on
+				# }
+			# }
+			# any_artifact = {
+				# OR = {
+					# artifact_type = crown_hre
+					# artifact_type = crown_byzantine
+					# artifact_type = crown_pahlavi
+					# artifact_type = crown_fylkir
+					# artifact_type = crown_tengri_fylkir
+					# artifact_type = crown_finnish_fylkir
+					# artifact_type = crown_slavic_fylkir
+					# artifact_type = crown_romuva_fylkir
+					# artifact_type = crown_zun_fylkir
+					# artifact_type = crown_west_african_fylkir
+					# artifact_type = crown_aztec_fylkir
+					# artifact_type = iron_crown_of_lombardy
+					# artifact_type = cursed_diamond_crown
+				# }
+				# is_artifact_equipped = yes 
+			# }
+		# }
 	}
 
-	1 = {
-		factor = 1
-		modifier = { # Makes it so the two layers are always matched (if conditions for p19/frame1 are true, use p18/frame1).
-			factor = 0
-			NOT = { has_portrait_property = { layer = 19 index = 1 } }
-		}
-	}
+	# 1 = {
+		# factor = 1
+		# modifier = { # Makes it so the two layers are always matched (if conditions for p19/frame1 are true, use p18/frame1).
+			# factor = 0
+			# NOT = { has_portrait_property = { layer = 19 index = 1 } }
+		# }
+	# }
 	
-	2 = { 
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 19 index = 2 } }
-		}
-	}
+	# 2 = { 
+		# factor = 1
+		# modifier = {
+			# factor = 0
+			# NOT = { has_portrait_property = { layer = 19 index = 2 } }
+		# }
+	# }
 	
-	3 = { 
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 19 index = 3 } }
-		}
-	}
-	4 = { 
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 19 index = 4 } }
-		}
-	}
-	5 = { 
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 19 index = 5 } }
-		}
-	}
-	6 = { 
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 19 index = 6 } }
-		}
-	}
-	7 = { 
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 19 index = 7 } }
-		}
-	}
-	8 = { 
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 19 index = 8 } }
-		}
-	}
-	9 = { 
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 19 index = 9 } }
-		}
-	}
-	10 = { 
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 19 index = 10 } }
-		}
-	}
-	11 = { 
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 19 index = 11 } }
-		}
-	}
-	12 = { 
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 19 index = 12 } }
-		}
-	}
-	13 = { 
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 19 index = 13 } }
-		}
-	}
-	14 = { 
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 19 index = 14 } }
-		}
-	}
-	15 = { 
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 19 index = 15 } }
-		}
-	}
+	# 3 = { 
+		# factor = 1
+		# modifier = {
+			# factor = 0
+			# NOT = { has_portrait_property = { layer = 19 index = 3 } }
+		# }
+	# }
+	# 4 = { 
+		# factor = 1
+		# modifier = {
+			# factor = 0
+			# NOT = { has_portrait_property = { layer = 19 index = 4 } }
+		# }
+	# }
+	# 5 = { 
+		# factor = 1
+		# modifier = {
+			# factor = 0
+			# NOT = { has_portrait_property = { layer = 19 index = 5 } }
+		# }
+	# }
+	# 6 = { 
+		# factor = 1
+		# modifier = {
+			# factor = 0
+			# NOT = { has_portrait_property = { layer = 19 index = 6 } }
+		# }
+	# }
+	# 7 = { 
+		# factor = 1
+		# modifier = {
+			# factor = 0
+			# NOT = { has_portrait_property = { layer = 19 index = 7 } }
+		# }
+	# }
+	# 8 = { 
+		# factor = 1
+		# modifier = {
+			# factor = 0
+			# NOT = { has_portrait_property = { layer = 19 index = 8 } }
+		# }
+	# }
+	# 9 = { 
+		# factor = 1
+		# modifier = {
+			# factor = 0
+			# NOT = { has_portrait_property = { layer = 19 index = 9 } }
+		# }
+	# }
+	# 10 = { 
+		# factor = 1
+		# modifier = {
+			# factor = 0
+			# NOT = { has_portrait_property = { layer = 19 index = 10 } }
+		# }
+	# }
+	# 11 = { 
+		# factor = 1
+		# modifier = {
+			# factor = 0
+			# NOT = { has_portrait_property = { layer = 19 index = 11 } }
+		# }
+	# }
+	# 12 = { 
+		# factor = 1
+		# modifier = {
+			# factor = 0
+			# NOT = { has_portrait_property = { layer = 19 index = 12 } }
+		# }
+	# }
+	# 13 = { 
+		# factor = 1
+		# modifier = {
+			# factor = 0
+			# NOT = { has_portrait_property = { layer = 19 index = 13 } }
+		# }
+	# }
+	# 14 = { 
+		# factor = 1
+		# modifier = {
+			# factor = 0
+			# NOT = { has_portrait_property = { layer = 19 index = 14 } }
+		# }
+	# }
+	# 15 = { 
+		# factor = 1
+		# modifier = {
+			# factor = 0
+			# NOT = { has_portrait_property = { layer = 19 index = 15 } }
+		# }
+	# }
 }
 
 # p19 Special crowns 
 19 = {
 	0 = { # blank
 		factor = 100
-		modifier = {
-			factor = 0
-			OR = {
-				has_minor_title = title_cardinal
-				has_minor_title = title_fraticelli_cardinal
-			}
-		}
-		modifier = {
-			factor = 0
-			NAND = { 
-				in_command = yes  # Has to wear helmet instead.
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
-			OR = {
-				trait = dead_crown_hre #Dead kings don't have artifacts
-				trait = dead_crown_byzantine #Dead kings don't have artifacts
-				trait = dead_crown_pahlavi #Dead kings don't have artifacts
-				trait = dead_crown_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_tengri_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_finnish_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_slavic_fylkir
-				trait = dead_crown_romuva_fylkir
-				trait = dead_crown_zun_fylkir
-				trait = dead_crown_west_african_fylkir
-				trait = dead_crown_aztec_fylkir
-				trait = augustus # Laurels
-			}
-		}
-		modifier = {
-			factor = 0
-			NAND = { 
-				in_command = yes  # Has to wear helmet instead.
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
-			any_artifact = {
-				OR = {
-					artifact_type = crown_hre
-					artifact_type = crown_byzantine
-					artifact_type = crown_pahlavi
-					artifact_type = crown_fylkir
-					artifact_type = crown_tengri_fylkir
-					artifact_type = crown_finnish_fylkir
-					artifact_type = crown_slavic_fylkir
-					artifact_type = crown_romuva_fylkir
-					artifact_type = crown_zun_fylkir
-					artifact_type = crown_west_african_fylkir
-					artifact_type = crown_aztec_fylkir
-					artifact_type = iron_crown_of_lombardy
-					artifact_type = cursed_diamond_crown
-				}
-				is_artifact_equipped = yes 
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# OR = {
+				# has_minor_title = title_cardinal
+				# has_minor_title = title_fraticelli_cardinal
+			# }
+		# }
+		# modifier = {
+			# factor = 0
+			# NAND = { 
+				# in_command = yes  # Has to wear helmet instead.
+				# has_game_rule = {
+					# name = martial_headgear
+					# value = on
+				# }
+			# }
+			# OR = {
+				# trait = dead_crown_hre #Dead kings don't have artifacts
+				# trait = dead_crown_byzantine #Dead kings don't have artifacts
+				# trait = dead_crown_pahlavi #Dead kings don't have artifacts
+				# trait = dead_crown_fylkir #Dead kings don't have artifacts
+				# trait = dead_crown_tengri_fylkir #Dead kings don't have artifacts
+				# trait = dead_crown_finnish_fylkir #Dead kings don't have artifacts
+				# trait = dead_crown_slavic_fylkir
+				# trait = dead_crown_romuva_fylkir
+				# trait = dead_crown_zun_fylkir
+				# trait = dead_crown_west_african_fylkir
+				# trait = dead_crown_aztec_fylkir
+				# trait = augustus # Laurels
+			# }
+		# }
+		# modifier = {
+			# factor = 0
+			# NAND = { 
+				# in_command = yes  # Has to wear helmet instead.
+				# has_game_rule = {
+					# name = martial_headgear
+					# value = on
+				# }
+			# }
+			# any_artifact = {
+				# OR = {
+					# artifact_type = crown_hre
+					# artifact_type = crown_byzantine
+					# artifact_type = crown_pahlavi
+					# artifact_type = crown_fylkir
+					# artifact_type = crown_tengri_fylkir
+					# artifact_type = crown_finnish_fylkir
+					# artifact_type = crown_slavic_fylkir
+					# artifact_type = crown_romuva_fylkir
+					# artifact_type = crown_zun_fylkir
+					# artifact_type = crown_west_african_fylkir
+					# artifact_type = crown_aztec_fylkir
+					# artifact_type = iron_crown_of_lombardy
+					# artifact_type = cursed_diamond_crown
+				# }
+				# is_artifact_equipped = yes 
+			# }
+		# }
 	}
 
-	1 = {
-		factor = 100
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = {
-			factor = 0
-			in_command = yes
-			has_game_rule = {
-				name = martial_headgear
-				value = on
-			}
-		}
-		modifier = { #HRE crown
-			factor = 0
-			NOR = { 
-				any_artifact = {
-					artifact_type = crown_hre
-					is_artifact_equipped = yes 
-				}
-				trait = dead_crown_hre
-			}
-		}
-	}
+	# 1 = {
+		# factor = 100
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = {
+			# factor = 0
+			# in_command = yes
+			# has_game_rule = {
+				# name = martial_headgear
+				# value = on
+			# }
+		# }
+		# modifier = { #HRE crown
+			# factor = 0
+			# NOR = { 
+				# any_artifact = {
+					# artifact_type = crown_hre
+					# is_artifact_equipped = yes 
+				# }
+				# trait = dead_crown_hre
+			# }
+		# }
+	# }
 	
-	2 = { 
-		factor = 100
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = {
-			factor = 0
-			in_command = yes
-			has_game_rule = {
-				name = martial_headgear
-				value = on
-			}
-		}
-		modifier = { #Byzantine Crown
-			factor = 0
-			NOR = { 
-				any_artifact = {
-					artifact_type = crown_byzantine
-					is_artifact_equipped = yes 
-				}
-				trait = dead_crown_byzantine
-			}
-		}
-	}
+	# 2 = { 
+		# factor = 100
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = {
+			# factor = 0
+			# in_command = yes
+			# has_game_rule = {
+				# name = martial_headgear
+				# value = on
+			# }
+		# }
+		# modifier = { #Byzantine Crown
+			# factor = 0
+			# NOR = { 
+				# any_artifact = {
+					# artifact_type = crown_byzantine
+					# is_artifact_equipped = yes 
+				# }
+				# trait = dead_crown_byzantine
+			# }
+		# }
+	# }
 	
-	3 = { 
-		factor = 100
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = {
-			factor = 0
-			in_command = yes
-			has_game_rule = {
-				name = martial_headgear
-				value = on
-			}
-		}
-		modifier = { #Cursed Diamond Crown
-			factor = 0
-			NOR = { 
-				any_artifact = {
-					artifact_type = cursed_diamond_crown
-					is_artifact_equipped = yes 
-				}
-				trait = dead_cursed_diamond_crown
-			}
-		}
-	}
-	4 = { 
-		factor = 100
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = {
-			factor = 0
-			in_command = yes
-			has_game_rule = {
-				name = martial_headgear
-				value = on
-			}
-		}
-		modifier = { #Iron Crown of Lombardy
-			factor = 0
-			NOR = { 
-				any_artifact = {
-					artifact_type = iron_crown_of_lombardy
-					is_artifact_equipped = yes 
-				}
-				trait = dead_iron_crown_lombardy
-			}
-		}
-	}
-	5 = { 
-		factor = 100
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = {
-			factor = 0
-			in_command = yes
-			has_game_rule = {
-				name = martial_headgear
-				value = on
-			}
-		}
-		modifier = { #Imperial Laurels
-			factor = 0
-			NOT = { trait = augustus }
-		}
-	}
-	6 = { 
-		factor = 100
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = {
-			factor = 0
-			in_command = yes
-			has_game_rule = {
-				name = martial_headgear
-				value = on
-			}
-		}
-		modifier = { #Pahlavi Crown
-			factor = 0
-			NOR = { 
-				any_artifact = {
-					artifact_type = crown_pahlavi
-					is_artifact_equipped = yes 
-				}
-				trait = dead_crown_pahlavi
-			}
-		}
-	}
-	7 = { 
-		factor = 100
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = {
-			factor = 0
-			in_command = yes
-			has_game_rule = {
-				name = martial_headgear
-				value = on
-			}
-		}
-		modifier = { #Fylkir Crown
-			factor = 0
-			NOR = { 
-				any_artifact = {
-					artifact_type = crown_fylkir
-					is_artifact_equipped = yes 
-				}
-				trait = dead_crown_fylkir
-			}
-		}
-	}
-	8 = { 
-		factor = 100
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = {
-			factor = 0
-			in_command = yes
-			has_game_rule = {
-				name = martial_headgear
-				value = on
-			}
-		}
-		modifier = { #Tengri Fylkir Crown
-			factor = 0
-			NOR = { 
-				any_artifact = {
-					artifact_type = crown_tengri_fylkir
-					is_artifact_equipped = yes 
-				}
-				trait = dead_crown_tengri_fylkir
-			}
-		}
-	}
-	9 = { 
-		factor = 100
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = {
-			factor = 0
-			in_command = yes
-			has_game_rule = {
-				name = martial_headgear
-				value = on
-			}
-		}
-		modifier = { #Finnish Fylkir Crown
-			factor = 0
-			NOR = { 
-				any_artifact = {
-					artifact_type = crown_finnish_fylkir
-					is_artifact_equipped = yes 
-				}
-				trait = dead_crown_finnish_fylkir
-			}
-		}
-	}
-	10 = { 
-		factor = 100
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = {
-			factor = 0
-			in_command = yes
-			has_game_rule = {
-				name = martial_headgear
-				value = on
-			}
-		}
-		modifier = { #West-African Fylkir Crown
-			factor = 0
-			NOR = { 
-				any_artifact = {
-					artifact_type = crown_west_african_fylkir
-					is_artifact_equipped = yes 
-				}
-				trait = dead_crown_west_african_fylkir
-			}
-		}
-	}
-	11 = { 
-		factor = 100
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = {
-			factor = 0
-			in_command = yes
-			has_game_rule = {
-				name = martial_headgear
-				value = on
-			}
-		}
-		modifier = { #Slavic/Romva Fylkir Crown
-			factor = 0
-			NOR = { 
-				any_artifact = {
-					artifact_type = crown_slavic_fylkir
-					is_artifact_equipped = yes 
-				}
-				any_artifact = {
-					artifact_type = crown_romuva_fylkir
-					is_artifact_equipped = yes 
-				}
-				trait = dead_crown_slavic_fylkir
-				trait = dead_crown_romuva_fylkir
-			}
-		}
-	}
-	12 = { 
-		factor = 100
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = { #Zunist Fylkir Crown
-			factor = 0
-			NOR = { 
-				any_artifact = {
-					artifact_type = crown_zun_fylkir
-					is_artifact_equipped = yes 
-				}
-				trait = dead_crown_zun_fylkir
-			}
-		}
-	}
-	13 = { 
-		factor = 100
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = { #Aztec Fylkir Crown
-			factor = 0
-			NOR = { 
-				any_artifact = {
-					artifact_type = crown_aztec_fylkir
-					is_artifact_equipped = yes 
-				}
-				trait = dead_crown_aztec_fylkir
-			}
-		}
-	}
-	14 = { 
-		factor = 100
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = {
-			factor = 0
-			year = 1245
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				has_minor_title = title_cardinal
-				has_minor_title = title_fraticelli_cardinal
-			}
-		}
-	}
-	15 = { 
-		factor = 100
-		hide_layers = { 3 = { } } #Hide layer 3 (clothes) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = {
-			factor = 0
-			NOT = {
-				year = 1245
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				has_minor_title = title_cardinal
-				has_minor_title = title_fraticelli_cardinal
-			}
-		}
-	}
+	# 3 = { 
+		# factor = 100
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = {
+			# factor = 0
+			# in_command = yes
+			# has_game_rule = {
+				# name = martial_headgear
+				# value = on
+			# }
+		# }
+		# modifier = { #Cursed Diamond Crown
+			# factor = 0
+			# NOR = { 
+				# any_artifact = {
+					# artifact_type = cursed_diamond_crown
+					# is_artifact_equipped = yes 
+				# }
+				# trait = dead_cursed_diamond_crown
+			# }
+		# }
+	# }
+	# 4 = { 
+		# factor = 100
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = {
+			# factor = 0
+			# in_command = yes
+			# has_game_rule = {
+				# name = martial_headgear
+				# value = on
+			# }
+		# }
+		# modifier = { #Iron Crown of Lombardy
+			# factor = 0
+			# NOR = { 
+				# any_artifact = {
+					# artifact_type = iron_crown_of_lombardy
+					# is_artifact_equipped = yes 
+				# }
+				# trait = dead_iron_crown_lombardy
+			# }
+		# }
+	# }
+	# 5 = { 
+		# factor = 100
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = {
+			# factor = 0
+			# in_command = yes
+			# has_game_rule = {
+				# name = martial_headgear
+				# value = on
+			# }
+		# }
+		# modifier = { #Imperial Laurels
+			# factor = 0
+			# NOT = { trait = augustus }
+		# }
+	# }
+	# 6 = { 
+		# factor = 100
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = {
+			# factor = 0
+			# in_command = yes
+			# has_game_rule = {
+				# name = martial_headgear
+				# value = on
+			# }
+		# }
+		# modifier = { #Pahlavi Crown
+			# factor = 0
+			# NOR = { 
+				# any_artifact = {
+					# artifact_type = crown_pahlavi
+					# is_artifact_equipped = yes 
+				# }
+				# trait = dead_crown_pahlavi
+			# }
+		# }
+	# }
+	# 7 = { 
+		# factor = 100
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = {
+			# factor = 0
+			# in_command = yes
+			# has_game_rule = {
+				# name = martial_headgear
+				# value = on
+			# }
+		# }
+		# modifier = { #Fylkir Crown
+			# factor = 0
+			# NOR = { 
+				# any_artifact = {
+					# artifact_type = crown_fylkir
+					# is_artifact_equipped = yes 
+				# }
+				# trait = dead_crown_fylkir
+			# }
+		# }
+	# }
+	# 8 = { 
+		# factor = 100
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = {
+			# factor = 0
+			# in_command = yes
+			# has_game_rule = {
+				# name = martial_headgear
+				# value = on
+			# }
+		# }
+		# modifier = { #Tengri Fylkir Crown
+			# factor = 0
+			# NOR = { 
+				# any_artifact = {
+					# artifact_type = crown_tengri_fylkir
+					# is_artifact_equipped = yes 
+				# }
+				# trait = dead_crown_tengri_fylkir
+			# }
+		# }
+	# }
+	# 9 = { 
+		# factor = 100
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = {
+			# factor = 0
+			# in_command = yes
+			# has_game_rule = {
+				# name = martial_headgear
+				# value = on
+			# }
+		# }
+		# modifier = { #Finnish Fylkir Crown
+			# factor = 0
+			# NOR = { 
+				# any_artifact = {
+					# artifact_type = crown_finnish_fylkir
+					# is_artifact_equipped = yes 
+				# }
+				# trait = dead_crown_finnish_fylkir
+			# }
+		# }
+	# }
+	# 10 = { 
+		# factor = 100
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = {
+			# factor = 0
+			# in_command = yes
+			# has_game_rule = {
+				# name = martial_headgear
+				# value = on
+			# }
+		# }
+		# modifier = { #West-African Fylkir Crown
+			# factor = 0
+			# NOR = { 
+				# any_artifact = {
+					# artifact_type = crown_west_african_fylkir
+					# is_artifact_equipped = yes 
+				# }
+				# trait = dead_crown_west_african_fylkir
+			# }
+		# }
+	# }
+	# 11 = { 
+		# factor = 100
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = {
+			# factor = 0
+			# in_command = yes
+			# has_game_rule = {
+				# name = martial_headgear
+				# value = on
+			# }
+		# }
+		# modifier = { #Slavic/Romva Fylkir Crown
+			# factor = 0
+			# NOR = { 
+				# any_artifact = {
+					# artifact_type = crown_slavic_fylkir
+					# is_artifact_equipped = yes 
+				# }
+				# any_artifact = {
+					# artifact_type = crown_romuva_fylkir
+					# is_artifact_equipped = yes 
+				# }
+				# trait = dead_crown_slavic_fylkir
+				# trait = dead_crown_romuva_fylkir
+			# }
+		# }
+	# }
+	# 12 = { 
+		# factor = 100
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = { #Zunist Fylkir Crown
+			# factor = 0
+			# NOR = { 
+				# any_artifact = {
+					# artifact_type = crown_zun_fylkir
+					# is_artifact_equipped = yes 
+				# }
+				# trait = dead_crown_zun_fylkir
+			# }
+		# }
+	# }
+	# 13 = { 
+		# factor = 100
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = { #Aztec Fylkir Crown
+			# factor = 0
+			# NOR = { 
+				# any_artifact = {
+					# artifact_type = crown_aztec_fylkir
+					# is_artifact_equipped = yes 
+				# }
+				# trait = dead_crown_aztec_fylkir
+			# }
+		# }
+	# }
+	# 14 = { 
+		# factor = 100
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = {
+			# factor = 0
+			# year = 1245
+		# }
+		# modifier = {
+			# factor = 0
+			# NOR = {
+				# has_minor_title = title_cardinal
+				# has_minor_title = title_fraticelli_cardinal
+			# }
+		# }
+	# }
+	# 15 = { 
+		# factor = 100
+		# hide_layers = { 3 = { } } #Hide layer 3 (clothes) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = {
+			# factor = 0
+			# NOT = {
+				# year = 1245
+			# }
+		# }
+		# modifier = {
+			# factor = 0
+			# NOR = {
+				# has_minor_title = title_cardinal
+				# has_minor_title = title_fraticelli_cardinal
+			# }
+		# }
+	# }
 }
 
 # p20 freckles
@@ -6176,397 +6049,173 @@
 31 = {
 	0 = { # Blank
 		factor = 100
-		trigger = {
-			OR = {
-				has_game_started = no
-				is_in_society = yes
-				is_theocracy = yes
-				is_merchant_republic = yes
-				has_job_title = job_spiritual
-				french_overlayer_special_crown_trigger = yes
-				NOR = {
-					#has_portrait_property = { layer = 5 index = 0 }
-					#has_portrait_property = { layer = 5 index = 1 }
-					#has_portrait_property = { layer = 5 index = 2 }
-					#has_portrait_property = { layer = 5 index = 3 }
-					#has_portrait_property = { layer = 5 index = 4 }
-					#has_portrait_property = { layer = 5 index = 10 }
-					french_martial_overlayer_trigger = yes
-					french_count_overlayer_trigger = yes
-					french_duke_overlayer_trigger = yes
-				}
-			}
-		}
+		# trigger = {
+			# OR = {
+				# has_game_started = no
+				# is_in_society = yes
+				# is_theocracy = yes
+				# is_merchant_republic = yes
+				# has_job_title = job_spiritual
+				# french_overlayer_special_crown_trigger = yes
+				# NOR = {
+					# has_portrait_property = { layer = 5 index = 0 }
+					# has_portrait_property = { layer = 5 index = 1 }
+					# has_portrait_property = { layer = 5 index = 2 }
+					# has_portrait_property = { layer = 5 index = 3 }
+					# has_portrait_property = { layer = 5 index = 4 }
+					# has_portrait_property = { layer = 5 index = 10 }
+					# french_martial_overlayer_trigger = yes
+					# french_count_overlayer_trigger = yes
+					# french_duke_overlayer_trigger = yes
+				# }
+			# }
+		# }
 	}
-	1 = { # Military Helm 01
-		factor = 100
-		trigger = {
-			french_martial_overlayer_trigger = yes
-		}
-	}
-	2 = { # Military Helm 02
-		trigger = {
-			french_martial_overlayer_trigger = yes
-		}
-	}
-	3 = { # Military Helm 03
-		trigger = {
-			french_martial_overlayer_trigger = yes
-		}
-	}
-	4 = { # Military Helm 04
-		trigger = {
-			french_martial_overlayer_trigger = yes
-		}
-	}
-	5 = { # Count Accessories
-		trigger = {
-			french_count_overlayer_trigger = yes
-			NOR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	6 = { # Count Accessories
-		factor = 1
-		trigger = {
-			french_count_overlayer_trigger = yes
-			NOR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	7 = { # Count Accessories
-		factor = 1
-		trigger = {
-			french_count_overlayer_trigger = yes
-			NOR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	8 = { # Count Accessories
-		factor = 1
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_count_overlayer_trigger = yes
-			NOR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	9 = { # Count Accessories
-		factor = 1
-		trigger = {
-			french_count_overlayer_trigger = yes
-			NOR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	10 = { # Duke Accessories
-		trigger = {
-			french_duke_overlayer_trigger = yes
-			OR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	11 = { # Duke Accessories
-		trigger = {
-			french_duke_overlayer_trigger = yes
-			OR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	12 = { # Duke Accessories
-		trigger = {
-			french_duke_overlayer_trigger = yes
-			OR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	13 = { # Duke Accessories
-		trigger = {
-			french_duke_overlayer_trigger = yes
-			OR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	14 = { # Duke Accessories
-		factor = 1
-		trigger = {
-			french_duke_overlayer_trigger = yes
-			OR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
+	# 1 = { # Military Helm 01
+		# factor = 100
+		# trigger = {
+			# french_martial_overlayer_trigger = yes
+		# }
+	# }
+	# 2 = { # Military Helm 02
+		# trigger = {
+			# french_martial_overlayer_trigger = yes
+		# }
+	# }
+	# 3 = { # Military Helm 03
+		# trigger = {
+			# french_martial_overlayer_trigger = yes
+		# }
+	# }
+	# 4 = { # Military Helm 04
+		# trigger = {
+			# french_martial_overlayer_trigger = yes
+		# }
+	# }
+	# 5 = { # Count Accessories
+		# trigger = {
+			# french_count_overlayer_trigger = yes
+			# NOR = { 
+				# higher_real_tier_than = COUNT
+				# spouse = { higher_real_tier_than = COUNT }
+			# }
+		# }
+	# }
+	# 6 = { # Count Accessories
+		# factor = 1
+		# trigger = {
+			# french_count_overlayer_trigger = yes
+			# NOR = { 
+				# higher_real_tier_than = COUNT
+				# spouse = { higher_real_tier_than = COUNT }
+			# }
+		# }
+	# }
+	# 7 = { # Count Accessories
+		# factor = 1
+		# trigger = {
+			# french_count_overlayer_trigger = yes
+			# NOR = { 
+				# higher_real_tier_than = COUNT
+				# spouse = { higher_real_tier_than = COUNT }
+			# }
+		# }
+	# }
+	# 8 = { # Count Accessories
+		# factor = 1
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_count_overlayer_trigger = yes
+			# NOR = { 
+				# higher_real_tier_than = COUNT
+				# spouse = { higher_real_tier_than = COUNT }
+			# }
+		# }
+	# }
+	# 9 = { # Count Accessories
+		# factor = 1
+		# trigger = {
+			# french_count_overlayer_trigger = yes
+			# NOR = { 
+				# higher_real_tier_than = COUNT
+				# spouse = { higher_real_tier_than = COUNT }
+			# }
+		# }
+	# }
+	# 10 = { # Duke Accessories
+		# trigger = {
+			# french_duke_overlayer_trigger = yes
+			# OR = { 
+				# higher_real_tier_than = COUNT
+				# spouse = { higher_real_tier_than = COUNT }
+			# }
+		# }
+	# }
+	# 11 = { # Duke Accessories
+		# trigger = {
+			# french_duke_overlayer_trigger = yes
+			# OR = { 
+				# higher_real_tier_than = COUNT
+				# spouse = { higher_real_tier_than = COUNT }
+			# }
+		# }
+	# }
+	# 12 = { # Duke Accessories
+		# trigger = {
+			# french_duke_overlayer_trigger = yes
+			# OR = { 
+				# higher_real_tier_than = COUNT
+				# spouse = { higher_real_tier_than = COUNT }
+			# }
+		# }
+	# }
+	# 13 = { # Duke Accessories
+		# trigger = {
+			# french_duke_overlayer_trigger = yes
+			# OR = { 
+				# higher_real_tier_than = COUNT
+				# spouse = { higher_real_tier_than = COUNT }
+			# }
+		# }
+	# }
+	# 14 = { # Duke Accessories
+		# factor = 1
+		# trigger = {
+			# french_duke_overlayer_trigger = yes
+			# OR = { 
+				# higher_real_tier_than = COUNT
+				# spouse = { higher_real_tier_than = COUNT }
+			# }
+		# }
+	# }
 }
 
 #p32 frankish Culture Overlayer - Female
 32 = {
 	0 = { # Blank
 	factor = 100
-		trigger = {
-			OR = {
-				has_game_started = no
-				is_in_society = yes
-				is_theocracy = yes
-				is_merchant_republic = yes
-				has_job_title = job_spiritual
-				french_overlayer_special_crown_trigger = yes
-				NOR = {
-					#has_portrait_property = { layer = 5 index = 0 }
-					#has_portrait_property = { layer = 5 index = 1 }
-					#has_portrait_property = { layer = 5 index = 2 }
-					#has_portrait_property = { layer = 5 index = 3 }
-					#has_portrait_property = { layer = 5 index = 4 }
-					#has_portrait_property = { layer = 5 index = 10 }
-					french_martial_overlayer_trigger = yes
-					french_duchess_overlayer_trigger = yes
-					french_countess_overlayer_trigger = yes
-					french_courtier_overlayer_trigger = yes
-				}
-			}
-		}
-	}
-	1 = { # Military Helm 01
-		factor = 1
-		trigger = {
-			french_martial_overlayer_trigger = yes
-		}
-	}
-	2 = { # Military Helm 02
-		factor = 1
-		trigger = {
-			french_martial_overlayer_trigger = yes
-		}
-	}
-	3 = { # Military Helm 03
-		factor = 1
-		trigger = {
-			french_martial_overlayer_trigger = yes
-		}
-	}
-	4 = { # Military Helm 04
-		factor = 1
-		trigger = {
-			french_martial_overlayer_trigger = yes
-		}
-	}
-	5 = { # Duchess Accessories - Early
-		factor = 1
-		trigger = {
-			french_duchess_overlayer_trigger = yes
-			NOT = { year = 1180 }
-			OR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	6 = { # Duchess Accessories - Early
-		factor = 1
-		trigger = {
-			french_duchess_overlayer_trigger = yes
-			NOT = { year = 1180 }
-			OR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	7 = { # Duchess Accessories - Early
-		factor = 1
-		trigger = {
-			french_duchess_overlayer_trigger = yes
-			NOT = { year = 1180 }
-			OR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	8 = { # Duchess Accessories - Post-1180
-		factor = 1
-		trigger = {
-			french_duchess_overlayer_trigger = yes
-			year = 1180
-			OR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	9 = { # Duchess Accessories - Post-1180
-		factor = 1
-		trigger = {
-			french_duchess_overlayer_trigger = yes
-			year = 1180
-			OR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	10 = { # Countess Accessories - Early
-		factor = 1
-		trigger = {
-			french_countess_overlayer_trigger = yes
-			NOT = { year = 1180 }
-			NOR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	11 = { # Countess Accessories - Early
-		factor = 1
-		trigger = {
-			french_countess_overlayer_trigger = yes
-			NOT = { year = 1180 }
-			NOR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	12 = { # Countess Accessories - Post-1180
-		factor = 1
-		trigger = {
-			french_countess_overlayer_trigger = yes
-			year = 1180
-			NOR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	13 = { # Countess Accessories - Post-1180
-		factor = 1
-		trigger = {
-			french_countess_overlayer_trigger = yes
-			year = 1180
-			NOR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	14 = { # Countess Accessories - Post-1180
-		factor = 1
-		#hide_layers = { 33 = { } } #Veil overload.
-		trigger = {
-			french_countess_overlayer_trigger = yes
-			year = 1180
-			NOR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	15 = { # Countess Accessories - Post-1180
-		factor = 1
-		#hide_layers = { 1 = { } }
-		#hide_layers = { 33 = { } } #Veil overload.
-		trigger = {
-			french_countess_overlayer_trigger = yes
-			year = 1180
-			NOR = { 
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-	}
-	16 = { # Non-noble Pre-1180
-		factor = 1
-		#hide_layers = { 1 = { } }
-		#hide_layers = { 33 = { } } #Veil overload.
-		trigger = {
-			french_courtier_overlayer_trigger = yes
-			NOT = { year = 1180 }
-		}
-	}
-	17 = { # Non-noble Pre-1180
-		factor = 1
-		#hide_layers = { 1 = { } }
-		#hide_layers = { 33 = { } } #Veil overload.
-		trigger = {
-			french_courtier_overlayer_trigger = yes
-			NOT = { year = 1180 }
-		}
-	}
-	18 = { # Non-noble Pre-1180
-		factor = 1
-		#hide_layers = { 1 = { } }
-		#hide_layers = { 33 = { } } #Veil overload.
-		trigger = {
-			french_courtier_overlayer_trigger = yes
-			NOT = { year = 1180 }
-		}
-	}
-	19 = { # Non-noble Pre-1180
-		factor = 1
-		#hide_layers = { 1 = { } }
-		#hide_layers = { 33 = { } } #Veil overload.
-		trigger = {
-			french_courtier_overlayer_trigger = yes
-			NOT = { year = 1180 }
-		}
-	}
-	20 = { # Non-noble Post-1180
-		factor = 1
-		#hide_layers = { 33 = { } } #Veil overload.
-		trigger = {
-			french_courtier_overlayer_trigger = yes
-			year = 1180
-		}
-	}
-	21 = { # Non-noble Post-1180
-		factor = 1
-		trigger = {
-			french_courtier_overlayer_trigger = yes
-			year = 1180
-		}
-	}
-	22 = { # Non-noble Post-1180
-		factor = 1
-		trigger = {
-			french_courtier_overlayer_trigger = yes
-			year = 1180
-		}
-	}
-	23 = { # Non-noble Post-1180
-		factor = 1
-		#hide_layers = { 1 = { } }
-		#hide_layers = { 33 = { } } #Veil overload.
-		trigger = {
-			french_courtier_overlayer_trigger = yes
-			year = 1180
-		}
-	}
-	24 = { # Non-noble Post-1180
-		factor = 1
-		#hide_layers = { 1 = { } }
-		#hide_layers = { 33 = { } } #Veil overload.
-		trigger = {
-			french_courtier_overlayer_trigger = yes
-			year = 1180
-		}
+		# trigger = {
+			# OR = {
+				# has_game_started = no
+				# is_in_society = yes
+				# is_theocracy = yes
+				# is_merchant_republic = yes
+				# has_job_title = job_spiritual
+				# french_overlayer_special_crown_trigger = yes
+				# NOR = {
+					# has_portrait_property = { layer = 5 index = 0 }
+					# has_portrait_property = { layer = 5 index = 1 }
+					# has_portrait_property = { layer = 5 index = 2 }
+					# has_portrait_property = { layer = 5 index = 3 }
+					# has_portrait_property = { layer = 5 index = 4 }
+					# has_portrait_property = { layer = 5 index = 10 }
+					# french_martial_overlayer_trigger = yes
+					# french_duchess_overlayer_trigger = yes
+					# french_countess_overlayer_trigger = yes
+					# french_courtier_overlayer_trigger = yes
+				# }
+			# }
+		# }
 	}
 }
 
@@ -6574,180 +6223,180 @@
 33 = {
 	0 = { # Blank
 		factor = 100
-		trigger = {
-			OR = {
-				has_game_started = no
-				is_in_society = yes
-				is_theocracy = yes
-				is_merchant_republic = yes
-				has_job_title = job_spiritual
-				french_overlayer_special_crown_trigger = yes
-				NOR = {
-					#has_portrait_property = { layer = 5 index = 0 }
-					#has_portrait_property = { layer = 5 index = 1 }
-					#has_portrait_property = { layer = 5 index = 2 }
-					#has_portrait_property = { layer = 5 index = 3 }
-					#has_portrait_property = { layer = 5 index = 4 }
-					#has_portrait_property = { layer = 5 index = 10 }
-					french_queen_underlayer_trigger = yes
-					french_duchess_overlayer_trigger = yes
-					french_countess_overlayer_trigger = yes
-				}
-			}
-		}
+		# trigger = {
+			# OR = {
+				# has_game_started = no
+				# is_in_society = yes
+				# is_theocracy = yes
+				# is_merchant_republic = yes
+				# has_job_title = job_spiritual
+				# french_overlayer_special_crown_trigger = yes
+				# NOR = {
+					# has_portrait_property = { layer = 5 index = 0 }
+					# has_portrait_property = { layer = 5 index = 1 }
+					# has_portrait_property = { layer = 5 index = 2 }
+					# has_portrait_property = { layer = 5 index = 3 }
+					# has_portrait_property = { layer = 5 index = 4 }
+					# has_portrait_property = { layer = 5 index = 10 }
+					# french_queen_underlayer_trigger = yes
+					# french_duchess_overlayer_trigger = yes
+					# french_countess_overlayer_trigger = yes
+				# }
+			# }
+		# }
 	}
-	1 = { # Empress / Queen Pre-1180
-		factor = 1
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_queen_underlayer_trigger = yes
-			NOT = { year = 1180 }
-		}
-	}
-	2 = { # Empress / Queen Pre-1180
-		factor = 1
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_queen_underlayer_trigger = yes
-			NOT = { year = 1180 }
-		}
-	}
-	3 = { # Empress / Queen Pre-1180
-		factor = 1
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_queen_underlayer_trigger = yes
-			NOT = { year = 1180 }
-		}
-	}
-	4 = { # Empress / Queen Pre-1180
-		factor = 1
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_queen_underlayer_trigger = yes
-			NOT = { year = 1180 }
-		}
-	}
-	5 = { # Empress / Queen Post-1180
-		factor = 1
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_queen_underlayer_trigger = yes
-			year = 1180
-		}
-	}
-	6 = { # Empress / Queen Post-1180
-		factor = 1
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_queen_underlayer_trigger = yes
-			year = 1180
-		}
-	}
-	7 = { # Empress / Queen Post-1180
-		factor = 1
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_queen_underlayer_trigger = yes
-			year = 1180
-		}
-	}
-	8 = { # Empress / Queen Post-1180
-		factor = 1
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_queen_underlayer_trigger = yes
-			year = 1180
-		}
-	}
-	9 = { # Duchess Early
-		factor = 1
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_duchess_overlayer_trigger = yes
-			NOT = { year = 1180 }
-		}
-	}
-	10 = { # Duchess Early
-		factor = 1
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_duchess_overlayer_trigger = yes
-			NOT = { year = 1180 }
-		}
-	}
-	11 = {  # Duchess Early
-		factor = 1
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_duchess_overlayer_trigger = yes
-			NOT = { year = 1180 }
-		}
-	}
-	12 = { # Duchess Early
-		factor = 1
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_duchess_overlayer_trigger = yes
-			NOT = { year = 1180 }
-		}
-	}
-	13 = { # Duchess Post-1180
-		factor = 1
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_duchess_overlayer_trigger = yes
-			year = 1180
-		}
-	}
-	14 = { # Duchess Post-1180
-		factor = 1
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_duchess_overlayer_trigger = yes
-			year = 1180
-		}
-	}
-	15 = { # Countess Early
-		factor = 100
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_countess_overlayer_trigger = yes
-			NOT = { year = 1180 }
-		}
-	}
-	16 = { # Countess Early
-		factor = 100
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_countess_overlayer_trigger = yes
-			NOT = { year = 1180 }
-		}
-	}
-	17 = { # Countess Early
-		factor = 100
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_countess_overlayer_trigger = yes
-			NOT = { year = 1180 }
-		}
-	}
-	18 = { # Countess Post-1180
-		factor = 100
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_countess_overlayer_trigger = yes
-			year = 1180
-		}
-	}
-	19 = { # Countess Post-1180
-		factor = 100
-		hide_layers = { 1 = { } }
-		trigger = {
-			french_countess_overlayer_trigger = yes
-			year = 1180
-		}
-	}
+	# 1 = { # Empress / Queen Pre-1180
+		# factor = 1
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_queen_underlayer_trigger = yes
+			# NOT = { year = 1180 }
+		# }
+	# }
+	# 2 = { # Empress / Queen Pre-1180
+		# factor = 1
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_queen_underlayer_trigger = yes
+			# NOT = { year = 1180 }
+		# }
+	# }
+	# 3 = { # Empress / Queen Pre-1180
+		# factor = 1
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_queen_underlayer_trigger = yes
+			# NOT = { year = 1180 }
+		# }
+	# }
+	# 4 = { # Empress / Queen Pre-1180
+		# factor = 1
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_queen_underlayer_trigger = yes
+			# NOT = { year = 1180 }
+		# }
+	# }
+	# 5 = { # Empress / Queen Post-1180
+		# factor = 1
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_queen_underlayer_trigger = yes
+			# year = 1180
+		# }
+	# }
+	# 6 = { # Empress / Queen Post-1180
+		# factor = 1
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_queen_underlayer_trigger = yes
+			# year = 1180
+		# }
+	# }
+	# 7 = { # Empress / Queen Post-1180
+		# factor = 1
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_queen_underlayer_trigger = yes
+			# year = 1180
+		# }
+	# }
+	# 8 = { # Empress / Queen Post-1180
+		# factor = 1
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_queen_underlayer_trigger = yes
+			# year = 1180
+		# }
+	# }
+	# 9 = { # Duchess Early
+		# factor = 1
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_duchess_overlayer_trigger = yes
+			# NOT = { year = 1180 }
+		# }
+	# }
+	# 10 = { # Duchess Early
+		# factor = 1
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_duchess_overlayer_trigger = yes
+			# NOT = { year = 1180 }
+		# }
+	# }
+	# 11 = {  # Duchess Early
+		# factor = 1
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_duchess_overlayer_trigger = yes
+			# NOT = { year = 1180 }
+		# }
+	# }
+	# 12 = { # Duchess Early
+		# factor = 1
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_duchess_overlayer_trigger = yes
+			# NOT = { year = 1180 }
+		# }
+	# }
+	# 13 = { # Duchess Post-1180
+		# factor = 1
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_duchess_overlayer_trigger = yes
+			# year = 1180
+		# }
+	# }
+	# 14 = { # Duchess Post-1180
+		# factor = 1
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_duchess_overlayer_trigger = yes
+			# year = 1180
+		# }
+	# }
+	# 15 = { # Countess Early
+		# factor = 100
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_countess_overlayer_trigger = yes
+			# NOT = { year = 1180 }
+		# }
+	# }
+	# 16 = { # Countess Early
+		# factor = 100
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_countess_overlayer_trigger = yes
+			# NOT = { year = 1180 }
+		# }
+	# }
+	# 17 = { # Countess Early
+		# factor = 100
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_countess_overlayer_trigger = yes
+			# NOT = { year = 1180 }
+		# }
+	# }
+	# 18 = { # Countess Post-1180
+		# factor = 100
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_countess_overlayer_trigger = yes
+			# year = 1180
+		# }
+	# }
+	# 19 = { # Countess Post-1180
+		# factor = 100
+		# hide_layers = { 1 = { } }
+		# trigger = {
+			# french_countess_overlayer_trigger = yes
+			# year = 1180
+		# }
+	# }
 }
 
 # p34 Special Helmets 
@@ -6779,303 +6428,303 @@
 				# liege = { has_landed_title = d_knights_calatrava }
 			# }
 		# }
-		modifier = { #Wearable Crown artifacts.
-			factor = 0
-			in_command = yes
-			has_game_rule = {
-				name = martial_headgear
-				value = on
-			}
-			OR = { 
-				any_artifact = { artifact_type = crown_crusader_king is_artifact_equipped = yes } 
-				any_artifact = { artifact_type = crown_winged_helmet is_artifact_equipped = yes } 
-				any_artifact = { artifact_type = crown_wrapped_helmet is_artifact_equipped = yes } 
-			}
-		}
-		modifier = { #Unicorn
-			factor = 0
-			any_artifact = { artifact_type = crown_unicorn_helmet is_artifact_equipped = yes } 
-		}
+		# modifier = { #Wearable Crown artifacts.
+			# factor = 0
+			# in_command = yes
+			# has_game_rule = {
+				# name = martial_headgear
+				# value = on
+			# }
+			# OR = { 
+				# any_artifact = { artifact_type = crown_crusader_king is_artifact_equipped = yes } 
+				# any_artifact = { artifact_type = crown_winged_helmet is_artifact_equipped = yes } 
+				# any_artifact = { artifact_type = crown_wrapped_helmet is_artifact_equipped = yes } 
+			# }
+		# }
+		# modifier = { #Unicorn
+			# factor = 0
+			# any_artifact = { artifact_type = crown_unicorn_helmet is_artifact_equipped = yes } 
+		# }
 	}
-	1 = { #Templar special headgear.
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		hide_layers = { 1 = { } } #Hide Hair.
-		hide_layers = { 3 = { } } #Hide Clothes.
-		hide_layers = { 18 = { } } #Hide layers with special crowns.
-		hide_layers = { 19 = { } } #Hide layers with special crowns.
-		hide_layers = { 31 = { } } #Veil overload.
-		hide_layers = { 32 = { } } 
-		hide_layers = { 33 = { } }
-		modifier = { 
-			factor = 0
-			NAND = {
-				in_command = yes
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				has_landed_title = d_knights_templar 
-				liege = { has_landed_title = d_knights_templar }
-			}
-		}
-	}
-	2 = {  #Crusader King helmet - Male.
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		hide_layers = { 1 = { } } #Hide Hair.
-		hide_layers = { 18 = { } } #Hide layers with special crowns.
-		hide_layers = { 19 = { } } #Hide layers with special crowns.
-		hide_layers = { 3 = { } } #Hide Clothes.
-		hide_layers = { 31 = { } } #Veil overload.
-		hide_layers = { 32 = { } } 
-		hide_layers = { 33 = { } }
-		modifier = {
-			factor = 0
-			NOT = { 
-				any_artifact = {
-					artifact_type = crown_crusader_king
-					is_artifact_equipped = yes 
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			is_female = yes
-		}
-		modifier = { 
-			factor = 0
-			NAND = { 
-				in_command = yes 
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
-		}
-	}
-	3 = { #Crusader King helmet - Female.
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		hide_layers = { 1 = { } } #Hide Hair.
-		hide_layers = { 3 = { } } #Hide Clothes.
-		hide_layers = { 18 = { } } #Hide layers with special crowns.
-		hide_layers = { 19 = { } } #Hide layers with special crowns.
-		hide_layers = { 31 = { } } #Veil overload.
-		hide_layers = { 32 = { } } 
-		hide_layers = { 33 = { } }
-		modifier = { 
-			factor = 0
-			NOT = { 
-				any_artifact = {
-					artifact_type = crown_crusader_king
-					is_artifact_equipped = yes 
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			is_female = no
-		}
-		modifier = { 
-			factor = 0
-			NAND = { 
-				in_command = yes 
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
-		}
-	}
-	4 = { #Hospitaler special headgear.
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		hide_layers = { 1 = { } } #Hide Hair.
-		hide_layers = { 3 = { } } #Hide Clothes.
-		hide_layers = { 18 = { } } #Hide layers with special crowns.
-		hide_layers = { 19 = { } } #Hide layers with special crowns.
-		hide_layers = { 31 = { } } #Veil overload.
-		hide_layers = { 32 = { } } 
-		hide_layers = { 33 = { } }
-		modifier = { 
-			factor = 0
-			NAND = { 
-				in_command = yes 
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				has_landed_title = d_knights_hospitaler 
-				liege = { has_landed_title = d_knights_hospitaler }
-			}
-		}
-	}
-	5 = {  #Teuton special headgear.
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		hide_layers = { 1 = { } } #Hide Hair.
-		hide_layers = { 3 = { } } #Hide Clothes.
-		hide_layers = { 18 = { } } #Hide layers with special crowns.
-		hide_layers = { 19 = { } } #Hide layers with special crowns.
-		hide_layers = { 31 = { } } #Veil overload.
-		hide_layers = { 32 = { } } 
-		hide_layers = { 33 = { } }
-		modifier = {
-			factor = 0
-			NAND = { 
-				in_command = yes 
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				has_landed_title = d_teutonic_order 
-				has_landed_title = k_teutonic_state 
-				liege = { has_landed_title = d_teutonic_order }
-				liege = { has_landed_title = k_teutonic_state }
-			}
-		}
-	}
-	6 = { #Wearable Winged Helmet
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		hide_layers = { 1 = { } } #Hide Hair.
-		hide_layers = { 18 = { } } #Hide layers with special crowns.
-		hide_layers = { 19 = { } } #Hide layers with special crowns.
-		hide_layers = { 31 = { } } #Veil overload.
-		hide_layers = { 32 = { } } 
-		hide_layers = { 33 = { } }
-		modifier = { 
-			factor = 0
-			NOT = { 
-				any_artifact = {
-					artifact_type = crown_winged_helmet
-					is_artifact_equipped = yes 
-				}
-			}
-		}
-		modifier = { 
-			factor = 0
-			NAND = { 
-				in_command = yes 
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
-		}
-	}
-	7 = {  #Calatrava/Santiago special headgear.
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		hide_layers = { 1 = { } } #Hide Hair.
-		hide_layers = { 3 = { } } #Hide Clothes.
-		hide_layers = { 18 = { } } #Hide layers with special crowns.
-		hide_layers = { 19 = { } } #Hide layers with special crowns.
-		hide_layers = { 31 = { } } #Veil overload.
-		hide_layers = { 32 = { } } 
-		hide_layers = { 33 = { } }
-		modifier = {
-			factor = 0
-			NAND = { 
-				in_command = yes 
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				has_landed_title = d_knights_santiago 
-				has_landed_title = d_knights_calatrava 
-				liege = { has_landed_title = d_knights_santiago }
-				liege = { has_landed_title = d_knights_calatrava }
-			}
-		}
-	}
-	8 = { #Wearable Wrapped Helmet
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		hide_layers = { 1 = { } } #Hide Hair.
-		hide_layers = { 18 = { } } #Hide layers with special crowns.
-		hide_layers = { 19 = { } } #Hide layers with special crowns.
-		hide_layers = { 31 = { } } #Veil overload.
-		hide_layers = { 32 = { } } 
-		hide_layers = { 33 = { } }
-		modifier = { 
-			factor = 0
-			NOT = { 
-				any_artifact = {
-					artifact_type = crown_wrapped_helmet
-					is_artifact_equipped = yes 
-				}
-			}
-		}
-		modifier = { 
-			factor = 0
-			NAND = { 
-				in_command = yes 
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
-		}
-	}
-	9 = { #Livonian special headgear.
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		hide_layers = { 1 = { } } #Hide Hair.
-		hide_layers = { 3 = { } } #Hide Clothes.
-		hide_layers = { 18 = { } } #Hide layers with special crowns.
-		hide_layers = { 19 = { } } #Hide layers with special crowns.
-		hide_layers = { 31 = { } } #Veil overload.
-		hide_layers = { 32 = { } } 
-		hide_layers = { 33 = { } }
-		modifier = {
-			factor = 0
-			NAND = { 
-				in_command = yes 
-				has_game_rule = {
-					name = martial_headgear
-					value = on
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				has_landed_title = d_livonian_order 
-				liege = { has_landed_title = d_livonian_order }
-			}
-		}
-	}
+	# 1 = { #Templar special headgear.
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# hide_layers = { 1 = { } } #Hide Hair.
+		# hide_layers = { 3 = { } } #Hide Clothes.
+		# hide_layers = { 18 = { } } #Hide layers with special crowns.
+		# hide_layers = { 19 = { } } #Hide layers with special crowns.
+		# hide_layers = { 31 = { } } #Veil overload.
+		# hide_layers = { 32 = { } } 
+		# hide_layers = { 33 = { } }
+		# modifier = { 
+			# factor = 0
+			# NAND = {
+				# in_command = yes
+				# has_game_rule = {
+					# name = martial_headgear
+					# value = on
+				# }
+			# }
+		# }
+		# modifier = {
+			# factor = 0
+			# NOR = {
+				# has_landed_title = d_knights_templar 
+				# liege = { has_landed_title = d_knights_templar }
+			# }
+		# }
+	# }
+	# 2 = {  #Crusader King helmet - Male.
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# hide_layers = { 1 = { } } #Hide Hair.
+		# hide_layers = { 18 = { } } #Hide layers with special crowns.
+		# hide_layers = { 19 = { } } #Hide layers with special crowns.
+		# hide_layers = { 3 = { } } #Hide Clothes.
+		# hide_layers = { 31 = { } } #Veil overload.
+		# hide_layers = { 32 = { } } 
+		# hide_layers = { 33 = { } }
+		# modifier = {
+			# factor = 0
+			# NOT = { 
+				# any_artifact = {
+					# artifact_type = crown_crusader_king
+					# is_artifact_equipped = yes 
+				# }
+			# }
+		# }
+		# modifier = {
+			# factor = 0
+			# is_female = yes
+		# }
+		# modifier = { 
+			# factor = 0
+			# NAND = { 
+				# in_command = yes 
+				# has_game_rule = {
+					# name = martial_headgear
+					# value = on
+				# }
+			# }
+		# }
+	# }
+	# 3 = { #Crusader King helmet - Female.
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# hide_layers = { 1 = { } } #Hide Hair.
+		# hide_layers = { 3 = { } } #Hide Clothes.
+		# hide_layers = { 18 = { } } #Hide layers with special crowns.
+		# hide_layers = { 19 = { } } #Hide layers with special crowns.
+		# hide_layers = { 31 = { } } #Veil overload.
+		# hide_layers = { 32 = { } } 
+		# hide_layers = { 33 = { } }
+		# modifier = { 
+			# factor = 0
+			# NOT = { 
+				# any_artifact = {
+					# artifact_type = crown_crusader_king
+					# is_artifact_equipped = yes 
+				# }
+			# }
+		# }
+		# modifier = {
+			# factor = 0
+			# is_female = no
+		# }
+		# modifier = { 
+			# factor = 0
+			# NAND = { 
+				# in_command = yes 
+				# has_game_rule = {
+					# name = martial_headgear
+					# value = on
+				# }
+			# }
+		# }
+	# }
+	# 4 = { #Hospitaler special headgear.
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# hide_layers = { 1 = { } } #Hide Hair.
+		# hide_layers = { 3 = { } } #Hide Clothes.
+		# hide_layers = { 18 = { } } #Hide layers with special crowns.
+		# hide_layers = { 19 = { } } #Hide layers with special crowns.
+		# hide_layers = { 31 = { } } #Veil overload.
+		# hide_layers = { 32 = { } } 
+		# hide_layers = { 33 = { } }
+		# modifier = { 
+			# factor = 0
+			# NAND = { 
+				# in_command = yes 
+				# has_game_rule = {
+					# name = martial_headgear
+					# value = on
+				# }
+			# }
+		# }
+		# modifier = {
+			# factor = 0
+			# NOR = {
+				# has_landed_title = d_knights_hospitaler 
+				# liege = { has_landed_title = d_knights_hospitaler }
+			# }
+		# }
+	# }
+	# 5 = {  #Teuton special headgear.
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# hide_layers = { 1 = { } } #Hide Hair.
+		# hide_layers = { 3 = { } } #Hide Clothes.
+		# hide_layers = { 18 = { } } #Hide layers with special crowns.
+		# hide_layers = { 19 = { } } #Hide layers with special crowns.
+		# hide_layers = { 31 = { } } #Veil overload.
+		# hide_layers = { 32 = { } } 
+		# hide_layers = { 33 = { } }
+		# modifier = {
+			# factor = 0
+			# NAND = { 
+				# in_command = yes 
+				# has_game_rule = {
+					# name = martial_headgear
+					# value = on
+				# }
+			# }
+		# }
+		# modifier = {
+			# factor = 0
+			# NOR = {
+				# has_landed_title = d_teutonic_order 
+				# has_landed_title = k_teutonic_state 
+				# liege = { has_landed_title = d_teutonic_order }
+				# liege = { has_landed_title = k_teutonic_state }
+			# }
+		# }
+	# }
+	# 6 = { #Wearable Winged Helmet
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# hide_layers = { 1 = { } } #Hide Hair.
+		# hide_layers = { 18 = { } } #Hide layers with special crowns.
+		# hide_layers = { 19 = { } } #Hide layers with special crowns.
+		# hide_layers = { 31 = { } } #Veil overload.
+		# hide_layers = { 32 = { } } 
+		# hide_layers = { 33 = { } }
+		# modifier = { 
+			# factor = 0
+			# NOT = { 
+				# any_artifact = {
+					# artifact_type = crown_winged_helmet
+					# is_artifact_equipped = yes 
+				# }
+			# }
+		# }
+		# modifier = { 
+			# factor = 0
+			# NAND = { 
+				# in_command = yes 
+				# has_game_rule = {
+					# name = martial_headgear
+					# value = on
+				# }
+			# }
+		# }
+	# }
+	# 7 = {  #Calatrava/Santiago special headgear.
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# hide_layers = { 1 = { } } #Hide Hair.
+		# hide_layers = { 3 = { } } #Hide Clothes.
+		# hide_layers = { 18 = { } } #Hide layers with special crowns.
+		# hide_layers = { 19 = { } } #Hide layers with special crowns.
+		# hide_layers = { 31 = { } } #Veil overload.
+		# hide_layers = { 32 = { } } 
+		# hide_layers = { 33 = { } }
+		# modifier = {
+			# factor = 0
+			# NAND = { 
+				# in_command = yes 
+				# has_game_rule = {
+					# name = martial_headgear
+					# value = on
+				# }
+			# }
+		# }
+		# modifier = {
+			# factor = 0
+			# NOR = {
+				# has_landed_title = d_knights_santiago 
+				# has_landed_title = d_knights_calatrava 
+				# liege = { has_landed_title = d_knights_santiago }
+				# liege = { has_landed_title = d_knights_calatrava }
+			# }
+		# }
+	# }
+	# 8 = { #Wearable Wrapped Helmet
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# hide_layers = { 1 = { } } #Hide Hair.
+		# hide_layers = { 18 = { } } #Hide layers with special crowns.
+		# hide_layers = { 19 = { } } #Hide layers with special crowns.
+		# hide_layers = { 31 = { } } #Veil overload.
+		# hide_layers = { 32 = { } } 
+		# hide_layers = { 33 = { } }
+		# modifier = { 
+			# factor = 0
+			# NOT = { 
+				# any_artifact = {
+					# artifact_type = crown_wrapped_helmet
+					# is_artifact_equipped = yes 
+				# }
+			# }
+		# }
+		# modifier = { 
+			# factor = 0
+			# NAND = { 
+				# in_command = yes 
+				# has_game_rule = {
+					# name = martial_headgear
+					# value = on
+				# }
+			# }
+		# }
+	# }
+	# 9 = { #Livonian special headgear.
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# hide_layers = { 1 = { } } #Hide Hair.
+		# hide_layers = { 3 = { } } #Hide Clothes.
+		# hide_layers = { 18 = { } } #Hide layers with special crowns.
+		# hide_layers = { 19 = { } } #Hide layers with special crowns.
+		# hide_layers = { 31 = { } } #Veil overload.
+		# hide_layers = { 32 = { } } 
+		# hide_layers = { 33 = { } }
+		# modifier = {
+			# factor = 0
+			# NAND = { 
+				# in_command = yes 
+				# has_game_rule = {
+					# name = martial_headgear
+					# value = on
+				# }
+			# }
+		# }
+		# modifier = {
+			# factor = 0
+			# NOR = {
+				# has_landed_title = d_livonian_order 
+				# liege = { has_landed_title = d_livonian_order }
+			# }
+		# }
+	# }
 	10 = { #Unicorn headgear.
 		factor = 100
 		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
@@ -7116,132 +6765,132 @@
 		factor = 100
 		modifier = {
 			factor = 0
-			any_artifact = {
-				OR = { #Different modifier since in this case being in command should not prevent you from wearing the mask.
-					artifact_type = crown_african_mask_1
-					artifact_type = crown_african_mask_2
-					artifact_type = crown_african_mask_3
-					artifact_type = crown_african_mask_4
-					artifact_type = crown_african_mask_5
-					artifact_type = crown_african_mask_6
-					artifact_type = crown_african_mask_7
-					artifact_type = crown_african_mask_8
-				}
-				is_artifact_equipped = yes 
-			}
+			# any_artifact = {
+				# OR = { #Different modifier since in this case being in command should not prevent you from wearing the mask.
+					# artifact_type = crown_african_mask_1
+					# artifact_type = crown_african_mask_2
+					# artifact_type = crown_african_mask_3
+					# artifact_type = crown_african_mask_4
+					# artifact_type = crown_african_mask_5
+					# artifact_type = crown_african_mask_6
+					# artifact_type = crown_african_mask_7
+					# artifact_type = crown_african_mask_8
+				# }
+				# is_artifact_equipped = yes 
+			# }
 		}
 	}
 
-	1 = { 
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = { #African Masks
-			factor = 0
-			NOT = { 
-				any_artifact = {
-					artifact_type = crown_african_mask_1
-					is_artifact_equipped = yes 
-				}
-			}
-		}
-	}
-	2 = { 
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = { #African Masks
-			factor = 0
-			NOT = { 
-				any_artifact = {
-					artifact_type = crown_african_mask_2
-					is_artifact_equipped = yes 
-				}
-			}
-		}
-	}
-	3 = { 
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = { #African Masks
-			factor = 0
-			NOT = { 
-				any_artifact = {
-					artifact_type = crown_african_mask_3
-					is_artifact_equipped = yes 
-				}
-			}
-		}
-	}
-	4 = { 
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = { #African Masks
-			factor = 0
-			NOT = { 
-				any_artifact = {
-					artifact_type = crown_african_mask_4
-					is_artifact_equipped = yes 
-				}
-			}
-		}
-	}
-	5 = { 
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = { #African Masks
-			factor = 0
-			NOT = { 
-				any_artifact = {
-					artifact_type = crown_african_mask_5
-					is_artifact_equipped = yes 
-				}
-			}
-		}
-	}
-	6 = { 
-		factor = 100
-		modifier = { #African Masks
-			factor = 0
-			NOT = { 
-				any_artifact = {
-					artifact_type = crown_african_mask_6
-					is_artifact_equipped = yes 
-				}
-			}
-		}
-	}
-	7 = { 
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = { #African Masks
-			factor = 0
-			NOT = { 
-				any_artifact = {
-					artifact_type = crown_african_mask_7
-					is_artifact_equipped = yes 
-				}
-			}
-		}
-	}
-	8 = { 
-		factor = 100
-		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		modifier = { #African Masks
-			factor = 0
-			NOT = { 
-				any_artifact = {
-					artifact_type = crown_african_mask_8
-					is_artifact_equipped = yes 
-				}
-			}
-		}
-	}
+	# 1 = { 
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = { #African Masks
+			# factor = 0
+			# NOT = { 
+				# any_artifact = {
+					# artifact_type = crown_african_mask_1
+					# is_artifact_equipped = yes 
+				# }
+			# }
+		# }
+	# }
+	# 2 = { 
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = { #African Masks
+			# factor = 0
+			# NOT = { 
+				# any_artifact = {
+					# artifact_type = crown_african_mask_2
+					# is_artifact_equipped = yes 
+				# }
+			# }
+		# }
+	# }
+	# 3 = { 
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = { #African Masks
+			# factor = 0
+			# NOT = { 
+				# any_artifact = {
+					# artifact_type = crown_african_mask_3
+					# is_artifact_equipped = yes 
+				# }
+			# }
+		# }
+	# }
+	# 4 = { 
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = { #African Masks
+			# factor = 0
+			# NOT = { 
+				# any_artifact = {
+					# artifact_type = crown_african_mask_4
+					# is_artifact_equipped = yes 
+				# }
+			# }
+		# }
+	# }
+	# 5 = { 
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = { #African Masks
+			# factor = 0
+			# NOT = { 
+				# any_artifact = {
+					# artifact_type = crown_african_mask_5
+					# is_artifact_equipped = yes 
+				# }
+			# }
+		# }
+	# }
+	# 6 = { 
+		# factor = 100
+		# modifier = { #African Masks
+			# factor = 0
+			# NOT = { 
+				# any_artifact = {
+					# artifact_type = crown_african_mask_6
+					# is_artifact_equipped = yes 
+				# }
+			# }
+		# }
+	# }
+	# 7 = { 
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = { #African Masks
+			# factor = 0
+			# NOT = { 
+				# any_artifact = {
+					# artifact_type = crown_african_mask_7
+					# is_artifact_equipped = yes 
+				# }
+			# }
+		# }
+	# }
+	# 8 = { 
+		# factor = 100
+		# hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		# modifier = { #African Masks
+			# factor = 0
+			# NOT = { 
+				# any_artifact = {
+					# artifact_type = crown_african_mask_8
+					# is_artifact_equipped = yes 
+				# }
+			# }
+		# }
+	# }
 }
 
 # p36 Special Scepters 
@@ -7255,23 +6904,23 @@
 				trait = dead_scepter_hellenic_fylkir
 			}
 		}
-		modifier = {
-			factor = 0
-			OR = {
-				in_command = no
-				has_game_rule = {
-					name = martial_headgear
-					value = off
-				}
-			}
-			any_artifact = {
-				OR = {
-					artifact_type = scepter_bon_fylkir
-					artifact_type = scepter_hellenic_fylkir
-				}
-				is_artifact_equipped = yes 
-			}
-		}
+		# modifier = {
+			# factor = 0
+			# OR = {
+				# in_command = no
+				# has_game_rule = {
+					# name = martial_headgear
+					# value = off
+				# }
+			# }
+			# any_artifact = {
+				# OR = {
+					# artifact_type = scepter_bon_fylkir
+					# artifact_type = scepter_hellenic_fylkir
+				# }
+				# is_artifact_equipped = yes 
+			# }
+		# }
 	}
 	1 = { 
 		factor = 100
@@ -7284,16 +6933,16 @@
 				value = on
 			}
 		}
-		modifier = { #Bon Fylkir Scepter
-			factor = 0
-			NOR = { 
-				any_artifact = {
-					artifact_type = scepter_bon_fylkir
-					is_artifact_equipped = yes 
-				}
-				trait = dead_scepter_bon_fylkir
-			}
-		}
+		# modifier = { #Bon Fylkir Scepter
+			# factor = 0
+			# NOR = { 
+				# any_artifact = {
+					# artifact_type = scepter_bon_fylkir
+					# is_artifact_equipped = yes 
+				# }
+				# trait = dead_scepter_bon_fylkir
+			# }
+		# }
 	}
 	2 = { 
 		factor = 100
@@ -7306,16 +6955,16 @@
 				value = on
 			}
 		}
-		modifier = { #Hellenic Fylkir Scepter
-			factor = 0
-			NOR = { 
-				any_artifact = {
-					artifact_type = scepter_hellenic_fylkir
-					is_artifact_equipped = yes 
-				}
-				trait = dead_scepter_hellenic_fylkir
-			}
-		}
+		# modifier = { #Hellenic Fylkir Scepter
+			# factor = 0
+			# NOR = { 
+				# any_artifact = {
+					# artifact_type = scepter_hellenic_fylkir
+					# is_artifact_equipped = yes 
+				# }
+				# trait = dead_scepter_hellenic_fylkir
+			# }
+		# }
 	}
 }
 

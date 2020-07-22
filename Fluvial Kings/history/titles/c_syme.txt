@@ -1,0 +1,10 @@
+2000.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2490.1.1={
+	holder = 2103701
+}
+2520.1.1={
+	holder = 2103700
+}

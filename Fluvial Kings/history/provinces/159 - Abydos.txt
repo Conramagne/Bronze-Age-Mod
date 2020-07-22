@@ -4,6 +4,6 @@ max_settlements= 2
 b_abydos=castle
 b_perkote=city
 
-culture=luwian
+culture = wilusan
 religion=haianiluwi
 terrain=plains

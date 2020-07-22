@@ -256,21 +256,21 @@ hellenic_birthright_invasion = {
 		}
 		FROM = {
 			prestige = 300
-			if = {
-				limit = { 
-					has_dlc = "Legacy of Rome"
-					OR = { 
-						has_landed_title = e_byzantium
-						has_landed_title = e_roman_empire
-					}
-						OR = { 
-							religion_group = christian
-							religion = hellenic_pagan
-							religion = hellenic_pagan_reformed
-						}
-				}
-				hidden_tooltip = { character_event = { id = LoR.30 days = 12 } }
-			}
+			# if = {
+				# limit = { 
+					# has_dlc = "Legacy of Rome"
+					# OR = { 
+						# has_landed_title = e_byzantium
+						# has_landed_title = e_roman_empire
+					# }
+						# OR = { 
+							# religion_group = christian
+							# religion = hellenic_pagan
+							# religion = hellenic_pagan_reformed
+						# }
+				# }
+				# hidden_tooltip = { character_event = { id = LoR.30 days = 12 } }
+			# }
 			participation_scaled_prestige = 250
 		}
 		any_defender = {
@@ -376,8 +376,8 @@ fk_conquest = {
 									}
 								}
 							}
-							# AND = {
-								# is_land = no
+							AND = {
+								is_land = no
 								# OR = {
 									# ROOT = { religion_group = muslim }
 									# FROM = { religion_group = muslim }
@@ -394,31 +394,31 @@ fk_conquest = {
 										# has_global_flag = muslim_jihads_unlocked
 									# }
 								# }
-								# any_neighbor_province = {
-									# OR = {
-										# AND = {
-											# has_owner = yes
-											# owner = {
-												# OR = {
-													# character = ROOT
-													# is_liege_or_above = ROOT
-												# }
-											# }
-										# }
-										# AND = {
-											# is_land = no
-											# any_neighbor_province = {
-												# owner = {
-													# OR = {
-														# character = ROOT
-														# is_liege_or_above = ROOT
-													# }
-												# }
-											# }
-										# }
-									# }
-								# }
-							# }
+								any_neighbor_province = {
+									OR = {
+										AND = {
+											has_owner = yes
+											owner = {
+												OR = {
+													character = ROOT
+													is_liege_or_above = ROOT
+												}
+											}
+										}
+										AND = {
+											is_land = no
+											any_neighbor_province = {
+												owner = {
+													OR = {
+														character = ROOT
+														is_liege_or_above = ROOT
+													}
+												}
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -797,7 +797,6 @@ fk_county_conquest = {
 	sprite = 9
 	truce_days = 3650
 	is_permanent = yes
-	check_de_jure_tier = COUNT # this scans all dejure duchies for the counties which are held by or vassals(or below) of selected character. Only valid if is_permanent = yes
 
 	allowed_to_target_tributaries = no
 	
@@ -849,6 +848,7 @@ fk_county_conquest = {
 	
 	can_use_title = {
 		# The attacker needs at least one county in the target kingdom, or a border, or be only two sea zones away from one of your counties
+		tier = COUNT
 		any_direct_de_jure_vassal_title = {
 			OR = {
 				holder_scope = {
@@ -869,8 +869,8 @@ fk_county_conquest = {
 									}
 								}
 							}
-							# AND = {
-								# is_land = no
+							AND = {
+								is_land = no
 								# OR = {
 									# ROOT = { religion_group = muslim }
 									# FROM = { religion_group = muslim }
@@ -887,31 +887,31 @@ fk_county_conquest = {
 										# has_global_flag = muslim_jihads_unlocked
 									# }
 								# }
-								# any_neighbor_province = {
-									# OR = {
-										# AND = {
-											# has_owner = yes
-											# owner = {
-												# OR = {
-													# character = ROOT
-													# is_liege_or_above = ROOT
-												# }
-											# }
-										# }
-										# AND = {
-											# is_land = no
-											# any_neighbor_province = {
-												# owner = {
-													# OR = {
-														# character = ROOT
-														# is_liege_or_above = ROOT
-													# }
-												# }
-											# }
-										# }
-									# }
-								# }
-							# }
+								any_neighbor_province = {
+									OR = {
+										AND = {
+											has_owner = yes
+											owner = {
+												OR = {
+													character = ROOT
+													is_liege_or_above = ROOT
+												}
+											}
+										}
+										AND = {
+											is_land = no
+											any_neighbor_province = {
+												owner = {
+													OR = {
+														character = ROOT
+														is_liege_or_above = ROOT
+													}
+												}
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -925,6 +925,9 @@ fk_county_conquest = {
 			NOT = { same_realm = FROM }
 			independent = yes
 			# religion = FROM
+		}
+		FROM = {
+			independent = yes
 		}
 	}
 	

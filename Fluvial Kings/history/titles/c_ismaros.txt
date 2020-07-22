@@ -2,6 +2,9 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_thraki
+2497.1.1={
+	holder = 2103301 #Troezenos
+}
+2521.1.1={
+	holder = 2103300 #Euphemos
 }

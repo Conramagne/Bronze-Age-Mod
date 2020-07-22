@@ -1,7 +1,8 @@
 title=c_gyrton
 
-max_settlements= 3
+max_settlements= 4
 b_gyrton=castle
+b_oloosson=temple
 #b_perrhaebi=castle
 #b_homolion=city
 

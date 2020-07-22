@@ -559,3 +559,43 @@ thetis = {
 	can_hold_titles = no
 	fertility = -1000
 }
+asklepios = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+aglaia = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+euphrosyne = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+thalia = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}

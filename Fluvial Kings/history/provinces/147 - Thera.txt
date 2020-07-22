@@ -1,7 +1,8 @@
 title=c_thera
 
-max_settlements= 1
-b_thera=castle
+max_settlements= 2
+b_akrotiri=castle
+# b_thera=city
 
 culture=achaean
 religion=pantes_theoi

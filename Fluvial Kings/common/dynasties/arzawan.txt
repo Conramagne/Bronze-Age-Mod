@@ -1,0 +1,7 @@
+#IDS from 2200000-2299999
+
+2200000 = {
+	name = "Dardanid"
+	culture = "luwian"
+	used_for_random = no 
+}

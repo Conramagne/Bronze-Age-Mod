@@ -2,6 +2,24 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_wilusa
+2385.1.1={
+	holder = 2200015 #Dardanos
+}
+2425.1.1={
+	holder = 2200014 #Ilos
+}
+2431.1.1={
+	holder = 2200013 #Erichthonios
+}
+2451.1.1={
+	holder = 2200011 #Tros
+}
+2471.1.1={
+	holder = 2200009 #Ilos
+}
+2501.1.1={
+	holder = 2200007 #Laomedon
+}
+2521.1.1={
+	holder = 2200000 #Pariya-muwas
 }

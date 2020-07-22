@@ -2,6 +2,12 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_thessalia
+2471.1.1={
+	holder = 2102405 #Pheres
+}
+2501.1.1={
+	holder = 2102402 #Admetos
+}
+2511.1.1={
+	holder = 2102400 #Eúmelos
 }

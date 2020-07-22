@@ -3,6 +3,6 @@ title=c_thebe
 max_settlements= 1
 b_thebe=castle
 
-culture=luwian
+culture = wilusan
 religion=haianiluwi
 terrain=plains

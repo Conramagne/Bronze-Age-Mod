@@ -1,7 +1,8 @@
 title=c_ismaros
 
-max_settlements= 1
-b_ismaros=tribal
+max_settlements= 2
+b_abdera=tribal
+# b_ismaros=castle
 
 culture=thracian
 religion=pantes_theoi

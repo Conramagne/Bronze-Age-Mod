@@ -3,11 +3,11 @@
 	law = succ_gavelkind
 }
 2461.1.1={
-	holder = 2105008 #Arkeisios
+	holder = 2102308 #Arkeisios
 }
 2501.1.1={
-	holder = 2105006 #Laértes
+	holder = 2102306 #Laértes
 }
 2520.1.1={
-	holder = 2105000 #Odysseús
+	holder = 2102300 #Odysseús
 }

@@ -2,6 +2,15 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_makedonia
+2441.1.1={
+	holder = 2102805 #Phlegyas
+}
+2481.1.1={
+	holder = 2102804 #Ixion
+}
+2501.1.1={
+	holder = 2102802 #Pirithous
+}
+2521.1.1={
+	holder = 2102800 #Polupoites
 }
