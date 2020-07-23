@@ -184,7 +184,7 @@ WAR_NAME_HELLENIC_BIRTHRIGHT;$ORDER$ Divine Birthright War for $OTHER_TITLE$;;;;
 
 CB_NAME_FK_CONQUEST;Conquest War for [Title.GetBaseName];;;;;;;;;;;;;x
 WAR_NAME_FK_CONQUEST;$ORDER$ Conquest War for $OTHER_TITLE$;;;;;;;;;;;;;x
-fk_county_conquest_desc;Rulers can conquer a duchy without any specific reason.;;;;;;;;;;;;;x
+fk_conquest_desc;Rulers can conquer a duchy without any specific reason.;;;;;;;;;;;;;x
 
 CB_NAME_FK_COUNTY_CONQUEST;County Conquest War for [Title.GetBaseName];;;;;;;;;;;;;x
 WAR_NAME_FK_COUNTY_CONQUEST;$ORDER$ County Conquest War for $OTHER_TITLE$;;;;;;;;;;;;;x
