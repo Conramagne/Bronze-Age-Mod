@@ -7,4 +7,3 @@ b_ninassa = city
 
 culture=hittite
 religion=ishalitethai
-terrain=plains

@@ -7,4 +7,3 @@ b_hatenzuwa = city
 
 culture=kaskian
 religion=ishalitethai
-terrain=plains

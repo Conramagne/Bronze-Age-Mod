@@ -6,4 +6,3 @@ b_tyhos=castle
 
 culture=achaean
 religion=pantes_theoi
-terrain=plains

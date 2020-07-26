@@ -7,4 +7,3 @@ b_parsuhanda = temple
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

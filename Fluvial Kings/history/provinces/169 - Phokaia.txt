@@ -7,4 +7,3 @@ b_phokaia=castle
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

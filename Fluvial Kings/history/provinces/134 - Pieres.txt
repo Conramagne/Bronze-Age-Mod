@@ -5,4 +5,3 @@ b_pella=tribal
 
 culture=achaean
 religion=pantes_theoi
-terrain=plains

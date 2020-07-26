@@ -5,4 +5,3 @@ b_hulana=castle
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

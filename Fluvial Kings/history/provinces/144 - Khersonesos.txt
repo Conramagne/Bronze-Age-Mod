@@ -7,4 +7,3 @@ b_aeneos=tribal
 
 culture=thracian
 religion=pantes_theoi
-terrain=plains

@@ -5,4 +5,3 @@ b_pisidia=castle
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

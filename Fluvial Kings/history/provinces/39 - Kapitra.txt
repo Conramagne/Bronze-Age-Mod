@@ -7,4 +7,3 @@ b_zippalanda = temple
 
 culture=hittite
 religion=ishalitethai
-terrain=plains

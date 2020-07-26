@@ -7,4 +7,3 @@ b_zalwar = temple
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

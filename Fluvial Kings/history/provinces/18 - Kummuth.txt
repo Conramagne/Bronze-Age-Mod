@@ -7,4 +7,3 @@ b_terussa = temple
 
 culture=isuwan
 religion=ishalitethai
-terrain=plains

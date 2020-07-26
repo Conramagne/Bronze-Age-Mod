@@ -5,4 +5,3 @@ b_assuwa=castle
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

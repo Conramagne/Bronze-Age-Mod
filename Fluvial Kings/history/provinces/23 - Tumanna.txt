@@ -5,4 +5,3 @@ b_tumanna= tribal
 
 culture=pala
 religion=ishalitethai
-terrain=plains

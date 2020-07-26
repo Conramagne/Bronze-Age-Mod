@@ -6,4 +6,3 @@ b_hahha = city
 
 culture=hittite
 religion=ishalitethai
-terrain=plains

@@ -7,4 +7,3 @@ b_antissa=castle
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

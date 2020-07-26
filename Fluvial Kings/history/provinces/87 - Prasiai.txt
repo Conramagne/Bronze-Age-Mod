@@ -6,4 +6,3 @@ b_kypantha=city
 
 culture=achaean
 religion=pantes_theoi
-terrain=plains

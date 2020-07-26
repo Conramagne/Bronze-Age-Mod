@@ -7,4 +7,3 @@ b_epidauros_limera=city
 
 culture=achaean
 religion=pantes_theoi
-terrain=plains

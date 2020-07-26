@@ -7,4 +7,3 @@ b_tunna = temple
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

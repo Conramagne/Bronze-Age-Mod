@@ -7,4 +7,3 @@ b_nesa = temple
 
 culture=hittite
 religion=ishalitethai
-terrain=plains

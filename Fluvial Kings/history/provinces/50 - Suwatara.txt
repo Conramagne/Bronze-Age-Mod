@@ -6,4 +6,3 @@ b_lusna = city
 
 culture=hittite
 religion=ishalitethai
-terrain=plains

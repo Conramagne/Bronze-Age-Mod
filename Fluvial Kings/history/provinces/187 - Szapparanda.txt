@@ -5,4 +5,3 @@ b_szapparanda=castle
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

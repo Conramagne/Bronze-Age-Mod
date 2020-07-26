@@ -5,4 +5,3 @@ b_tenedos=castle
 
 culture = wilusan
 religion=haianiluwi
-terrain=plains

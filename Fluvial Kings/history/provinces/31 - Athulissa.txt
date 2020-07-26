@@ -8,4 +8,3 @@ b_tapapanuwa = castle
 
 culture=pala
 religion=ishalitethai
-terrain=plains

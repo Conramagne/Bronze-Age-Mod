@@ -6,4 +6,3 @@ b_almina = city
 
 culture=kaskian
 religion=ishalitethai
-terrain=plains

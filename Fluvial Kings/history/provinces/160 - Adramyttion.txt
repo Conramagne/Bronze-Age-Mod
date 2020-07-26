@@ -5,4 +5,3 @@ b_adramyttion=castle
 
 culture = wilusan
 religion=haianiluwi
-terrain=plains

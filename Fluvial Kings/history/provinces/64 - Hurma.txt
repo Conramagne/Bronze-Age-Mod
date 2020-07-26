@@ -6,4 +6,3 @@ b_hurma= castle
 
 culture=hittite
 religion=ishalitethai
-terrain=plains

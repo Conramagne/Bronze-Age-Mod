@@ -5,4 +5,3 @@ b_asturiya=castle
 
 culture=isuwan
 religion=ishalitethai
-terrain=plains

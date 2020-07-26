@@ -5,4 +5,3 @@ b_alos_karnos=castle
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

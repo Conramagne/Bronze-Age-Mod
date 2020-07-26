@@ -7,4 +7,3 @@ b_aliassa = city
 
 culture=hittite
 religion=ishalitethai
-terrain=plains

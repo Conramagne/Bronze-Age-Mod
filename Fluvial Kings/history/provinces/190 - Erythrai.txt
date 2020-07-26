@@ -8,4 +8,3 @@ b_erythrai=castle
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

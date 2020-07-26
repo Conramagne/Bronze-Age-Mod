@@ -5,4 +5,3 @@ b_sallusa= tribal
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

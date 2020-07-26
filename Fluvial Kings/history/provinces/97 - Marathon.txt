@@ -7,4 +7,3 @@ b_aphidnaea=temple
 
 culture=achaean
 religion=pantes_theoi
-terrain=plains

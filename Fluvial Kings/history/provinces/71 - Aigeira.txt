@@ -5,4 +5,3 @@ b_aigeira=castle
 
 culture=achaean
 religion=pantes_theoi
-terrain=plains

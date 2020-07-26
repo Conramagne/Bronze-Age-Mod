@@ -5,4 +5,3 @@ b_marasa= tribal
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

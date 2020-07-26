@@ -5,4 +5,3 @@ b_pericharaxis=castle
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

@@ -8,4 +8,3 @@ b_hanhana = temple
 
 culture=pala
 religion=ishalitethai
-terrain=plains

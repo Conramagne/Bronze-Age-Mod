@@ -7,4 +7,3 @@ b_sapinuwa = temple
 
 culture=hittite
 religion=ishalitethai
-terrain=plains

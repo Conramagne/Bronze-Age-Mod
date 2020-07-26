@@ -6,4 +6,3 @@ b_kynthos = temple
 
 culture=achaean
 religion=pantes_theoi
-terrain=plains

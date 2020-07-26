@@ -6,4 +6,3 @@ b_ankala = city
 
 culture=pala
 religion=ishalitethai
-terrain=plains

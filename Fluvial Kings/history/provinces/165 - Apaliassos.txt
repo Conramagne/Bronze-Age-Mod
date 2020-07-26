@@ -5,4 +5,3 @@ b_prousa=castle
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

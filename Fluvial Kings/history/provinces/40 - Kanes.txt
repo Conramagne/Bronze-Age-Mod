@@ -7,4 +7,3 @@ b_daha = temple
 
 culture=hittite
 religion=ishalitethai
-terrain=plains

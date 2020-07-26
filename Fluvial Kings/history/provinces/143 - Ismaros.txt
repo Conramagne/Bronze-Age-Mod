@@ -6,4 +6,3 @@ b_abdera=tribal
 
 culture=thracian
 religion=pantes_theoi
-terrain=plains

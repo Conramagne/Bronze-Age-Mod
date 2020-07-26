@@ -9,4 +9,3 @@ b_karanah = city
 
 culture=hittite
 religion=ishalitethai
-terrain=plains

@@ -7,4 +7,3 @@ b_cynus=city
 
 culture=achaean
 religion=pantes_theoi
-terrain=plains

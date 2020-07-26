@@ -5,4 +5,3 @@ b_kunanamit= tribal
 
 culture=kaskian
 religion=ishalitethai
-terrain=plains

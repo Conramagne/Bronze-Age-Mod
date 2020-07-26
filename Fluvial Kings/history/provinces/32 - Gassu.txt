@@ -7,4 +7,3 @@ b_tahappisuna = temple
 
 culture=pala
 religion=ishalitethai
-terrain=plains

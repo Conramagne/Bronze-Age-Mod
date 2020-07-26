@@ -5,4 +5,3 @@ b_kastaraya= tribal
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

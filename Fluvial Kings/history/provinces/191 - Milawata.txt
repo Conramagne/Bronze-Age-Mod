@@ -7,4 +7,3 @@ b_myous=city
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

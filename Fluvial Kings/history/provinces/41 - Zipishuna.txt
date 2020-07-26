@@ -9,4 +9,3 @@ b_hananaga = city
 
 culture=hittite
 religion=ishalitethai
-terrain=plains

@@ -5,4 +5,3 @@ b_kasula= tribal
 
 culture=pala
 religion=ishalitethai
-terrain=plains

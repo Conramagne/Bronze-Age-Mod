@@ -8,4 +8,3 @@ b_taritara = city
 
 culture=hittite
 religion=ishalitethai
-terrain=plains

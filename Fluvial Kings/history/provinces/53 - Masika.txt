@@ -8,4 +8,3 @@ b_ankuwa = city
 
 culture=hittite
 religion=ishalitethai
-terrain=plains

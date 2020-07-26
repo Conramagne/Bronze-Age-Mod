@@ -6,4 +6,3 @@ b_korikos = temple
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

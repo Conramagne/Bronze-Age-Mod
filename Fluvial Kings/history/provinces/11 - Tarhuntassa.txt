@@ -6,4 +6,3 @@ b_talwisuwanda = city
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

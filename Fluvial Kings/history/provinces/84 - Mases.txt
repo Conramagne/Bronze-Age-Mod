@@ -8,4 +8,3 @@ b_epidaurus=temple
 
 culture=achaean
 religion=pantes_theoi
-terrain=plains

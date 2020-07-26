@@ -5,4 +5,3 @@ b_thebe=castle
 
 culture = wilusan
 religion=haianiluwi
-terrain=plains

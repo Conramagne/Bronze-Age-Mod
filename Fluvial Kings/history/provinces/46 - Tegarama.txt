@@ -6,4 +6,3 @@ b_melid = city
 
 culture=isuwan
 religion=ishalitethai
-terrain=plains

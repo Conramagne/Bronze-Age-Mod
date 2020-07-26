@@ -6,4 +6,3 @@ b_perkote=city
 
 culture = wilusan
 religion=haianiluwi
-terrain=plains

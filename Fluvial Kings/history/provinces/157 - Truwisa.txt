@@ -7,4 +7,3 @@ b_pedashash=city
 
 culture = wilusan
 religion=haianiluwi
-terrain=plains

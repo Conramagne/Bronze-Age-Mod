@@ -5,4 +5,3 @@ b_skyros=castle
 
 culture=achaean
 religion=pantes_theoi
-terrain=plains

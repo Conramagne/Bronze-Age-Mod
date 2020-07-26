@@ -6,4 +6,3 @@ b_kirsu = temple
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

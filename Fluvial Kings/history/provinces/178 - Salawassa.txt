@@ -5,4 +5,3 @@ b_salawassa=castle
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

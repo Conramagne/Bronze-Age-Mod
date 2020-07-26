@@ -5,4 +5,3 @@ b_mamma=castle
 
 culture=hittite
 religion=ishalitethai
-terrain=plains

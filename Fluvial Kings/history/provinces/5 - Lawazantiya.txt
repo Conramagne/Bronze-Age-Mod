@@ -7,4 +7,3 @@ b_arusna = temple
 
 culture=luwian
 religion=haianiluwi
-terrain=plains

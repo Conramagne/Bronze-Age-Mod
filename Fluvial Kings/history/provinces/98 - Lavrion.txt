@@ -7,4 +7,3 @@ b_sounio=temple
 
 culture=achaean
 religion=pantes_theoi
-terrain=plains

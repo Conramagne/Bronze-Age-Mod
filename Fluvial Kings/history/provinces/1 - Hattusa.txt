@@ -9,4 +9,3 @@ b_matila = city
 
 culture=hittite
 religion=ishalitethai
-terrain=plains

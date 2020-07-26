@@ -7,4 +7,3 @@ b_elis=castle
 
 culture=achaean
 religion=pantes_theoi
-terrain=plains

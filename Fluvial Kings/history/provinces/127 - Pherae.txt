@@ -7,4 +7,3 @@ b_iolkos=city
 
 culture=achaean
 religion=pantes_theoi
-terrain=plains

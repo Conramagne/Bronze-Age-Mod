@@ -8,4 +8,3 @@ b_kolophon=city
 
 culture=luwian
 religion=haianiluwi
-terrain=plains
