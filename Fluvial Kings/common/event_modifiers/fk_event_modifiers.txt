@@ -35,6 +35,10 @@ imperial_authority = {
 	}
 }
 
+imperial_authority_increase_war = {
+	icon = 10
+}
+
 slandered_emperor = {
 	icon = 9
 }
@@ -167,15 +171,15 @@ demeter_boon_3 = {
 }
 
 apollon_boon_1 = {
-	archers_defensive = 0.25
+	light_cavalry_defensive = 0.25
 	icon = 133
 }
 apollon_boon_2 = {
-	archers_offensive = 0.25
+	light_cavalry_offensive = 0.25
 	icon = 133
 }
 apollon_boon_3 = {
-	archers_morale = 0.25
+	light_cavalry_morale = 0.25
 	icon = 133
 }
 apollon_boon_4 = {
@@ -223,6 +227,50 @@ aphrodite_boon_3 = {
 	}
 	icon = 39
 }
+
+sabazios_boon_1 = {
+	light_cavalry_defensive = 0.25
+	icon = 131 
+}
+sabazios_boon_2 = {
+	light_cavalry_offensive = 0.25
+	icon = 131 
+}
+sabazios_boon_3 = {
+	light_cavalry_morale = 0.25
+	icon = 131 
+}
+
+pleistoros_boon_1 = {
+	combat_rating = 10
+	icon = 1
+}
+pleistoros_boon_2 = {
+	martial = 2
+	icon = 1
+}
+pleistoros_boon_3 = {
+	command_modifier = {
+		damage = 0.1
+	}
+	icon = 1
+}
+
+derzelas_boon_1 = {
+	health = 2
+	icon = 50
+}
+derzelas_boon_2 = {
+	plot_discovery_chance = 0.1
+	icon = 50
+}
+derzelas_boon_3 = {
+	command_modifier = {
+		defence = 0.1
+	}
+	icon = 50
+}
+
 
 #Curses (Add comments on how a sacrifice can rectify this for the description)
 tarhunna_curse_1 = {
@@ -327,7 +375,7 @@ demeter_curse_3 = {
 }
 
 apollon_curse_1 = {
-	archers_defensive = -0.25
+	light_cavalry_defensive = -0.25
 	icon = 134
 }
 apollon_curse_2 = {
@@ -369,6 +417,50 @@ aphrodite_curse_3 = {
 	}
 	icon = 30
 }
+
+sabazios_curse_1 = {
+	light_cavalry_defensive = -0.25
+	icon = 132 
+}
+sabazios_curse_2 = {
+	light_cavalry_offensive = -0.25
+	icon = 132 
+}
+sabazios_curse_3 = {
+	light_cavalry_morale = -0.25
+	icon = 132 
+}
+
+pleistoros_curse_1 = {
+	combat_rating = -25
+	icon = 19
+}
+pleistoros_curse_2 = {
+	martial = -5
+	icon = 19
+}
+pleistoros_curse_3 = {
+	command_modifier = {
+		damage = -0.1
+	}
+	icon = 19
+}
+
+derzelas_curse_1 = {
+	health = -2
+	icon = 51
+}
+derzelas_curse_2 = {
+	plot_discovery_chance = -0.1
+	icon = 51
+}
+derzelas_curse_3 = {
+	command_modifier = {
+		defence = -0.1
+	}
+	icon = 51
+}
+
 
 #Palace Bureaucracy
 palace_bureaucracy = {

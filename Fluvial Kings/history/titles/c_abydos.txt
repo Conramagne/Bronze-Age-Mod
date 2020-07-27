@@ -2,6 +2,7 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_wilusa
+2501.1.1={
+	liege = d_wilusa
+	holder = 2200300 #Merope
 }

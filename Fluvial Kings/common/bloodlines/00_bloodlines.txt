@@ -39,7 +39,7 @@ god_ares_bloodline = {
 }
 
 ##Heroic Bloodlines
-heroic_bloodline_pantes_theoi = {
+heroic_bloodline_hellenic = {
 	picture = GFX_bloodlines_symbol_stoics
 	inheritance = patrilineal
 	bloodline_effect_great_heroes_appear = 1

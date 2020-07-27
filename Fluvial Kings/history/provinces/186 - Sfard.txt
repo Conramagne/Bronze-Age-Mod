@@ -3,5 +3,5 @@ title=c_sfard
 max_settlements= 1
 b_sfard=castle
 
-culture=luwian
-religion=haianiluwi
+culture = lydian
+religion = assussani

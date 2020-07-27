@@ -357,7 +357,7 @@ familial_elective = {
 			localisation_key = tooltip_feudal_elector_vote_infidel
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
+			religion_group = bnai_avraham 
 			FROM = { 
 				religion_group = ROOT
 				NOT = { religion = ROOT } 
@@ -369,7 +369,7 @@ familial_elective = {
 			localisation_key = tooltip_feudal_elector_vote_heathen
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
+			religion_group = bnai_avraham 
 			# NOR = { 
 				# AND = {  
 					# trait = sympathy_christendom
@@ -406,7 +406,7 @@ familial_elective = {
 			localisation_key = tooltip_feudal_elector_vote_heretic
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
+			religion_group = bnai_avraham 
 			FROM = { is_heresy_of = ROOT }
 		}
 		additive_modifier = { #Dogmatics will hardly ever pick an infidel.
@@ -3521,7 +3521,7 @@ adult_familial_elective = {
 			localisation_key = tooltip_feudal_elector_vote_infidel
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
+			religion_group = bnai_avraham 
 			FROM = { 
 				religion_group = ROOT
 				NOT = { religion = ROOT } 
@@ -3533,7 +3533,7 @@ adult_familial_elective = {
 			localisation_key = tooltip_feudal_elector_vote_heathen
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
+			religion_group = bnai_avraham 
 			# NOR = { 
 				# AND = {  
 					# trait = sympathy_christendom
@@ -3570,7 +3570,7 @@ adult_familial_elective = {
 			localisation_key = tooltip_feudal_elector_vote_heretic
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
+			religion_group = bnai_avraham 
 			FROM = { is_heresy_of = ROOT }
 		}
 		additive_modifier = { #Dogmatics will hardly ever pick an infidel.
@@ -6614,24 +6614,38 @@ viceroyalty_succession = {
 		}
 
 		#Culturism
-		additive_modifier = { 
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_fellow_culture
-			NOT = { character = FROM }
-			culture = FROM
-		}
-		additive_modifier = { 
-			value = -15
-			localisation_key = tooltip_feudal_elector_vote_stranger
-			FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
-			NOT = { culture = FROM }
-		}
-		additive_modifier = { 
-			value = -30
-			localisation_key = tooltip_feudal_elector_vote_foreigner
-			FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
-			NOT = { culture_group = FROM }
-		}
+		# additive_modifier = {
+			# value = 200
+			# localisation_key = tooltip_title_same_culture
+			# NOT = { character = FROM }
+			# OR = {
+				# NOT = { culture = FROM }
+				# culture = FROM
+			# }
+			# FROMFROM = {
+				# capital_scope = {
+					# culture = FROM
+				# }
+			# }
+		# }
+		# additive_modifier = { 
+			# value = 10
+			# localisation_key = tooltip_feudal_elector_vote_fellow_culture
+			# NOT = { character = FROM }
+			# culture = FROM
+		# }
+		# additive_modifier = { 
+			# value = -15
+			# localisation_key = tooltip_feudal_elector_vote_stranger
+			# FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
+			# NOT = { culture = FROM }
+		# }
+		# additive_modifier = { 
+			# value = -30
+			# localisation_key = tooltip_feudal_elector_vote_foreigner
+			# FROMFROM = { holder_scope = { culture = ROOT } } #Only a concern if Elector and current ruler share culture.
+			# NOT = { culture_group = FROM }
+		# }
 		additive_modifier = { #Candidate is a foreigner's pet 
 			value = -10
 			localisation_key = tooltip_feudal_elector_vote_strangers_pet
@@ -6685,7 +6699,7 @@ viceroyalty_succession = {
 			localisation_key = tooltip_feudal_elector_vote_infidel
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
+			religion_group = bnai_avraham 
 			FROM = { 
 				religion_group = ROOT
 				NOT = { religion = ROOT } 
@@ -6697,7 +6711,7 @@ viceroyalty_succession = {
 			localisation_key = tooltip_feudal_elector_vote_heathen
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
+			religion_group = bnai_avraham 
 			# NOR = { 
 				# AND = {  
 					# trait = sympathy_christendom
@@ -6734,7 +6748,7 @@ viceroyalty_succession = {
 			localisation_key = tooltip_feudal_elector_vote_heretic
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
+			religion_group = bnai_avraham 
 			FROM = { is_heresy_of = ROOT }
 		}
 		additive_modifier = { #Dogmatics will hardly ever pick an infidel.
@@ -9422,26 +9436,46 @@ viceroyalty_succession = {
 				trait = crusader_queen
 			} 
 		} 
-		OR = {
-			FROM = {
+		FROM = {
+			NOT = {
 				is_liege_of = ROOT
 			}
-			FROM = {
-				is_close_relative = ROOT
-			}
 		}
+		# OR = {
+			# FROM = {
+				# is_liege_of = ROOT
+			# }
+			# FROM = {
+				# is_close_relative = liege
+			# }
+			# FROM = {
+				# is_friend = liege
+			# }
+			# FROM = {
+				# is_close_relative = ROOT
+			# }
+			# FROM = {
+				# is_friend = ROOT
+			# }
+			# FROMFROM = {
+				# capital_scope = {
+					# culture = FROM
+				# }
+			# }
+		# }
 		FROM = { #Either the candidate is in the realm, or is landless, or the title is independent, or the realm of the title does NOT have protected inheritance.
+			is_adult = yes
 			OR = { 
 				any_liege = { 
 					character = ROOT
 				} 
 				is_ruler = no
-				ROOT_FROMFROM = { holder_scope = { independent = yes } }
-				NOR = { 
-					ROOT_FROMFROM = { has_law = out_of_realm_inheritance_law_1 } 
-					ROOT_FROMFROM = { has_law = crown_authority_3 } 
-					ROOT_FROMFROM = { has_law = crown_authority_4 } 
-				} 
+				# ROOT_FROMFROM = { holder_scope = { independent = yes } }
+				# NOR = { 
+					# ROOT_FROMFROM = { has_law = out_of_realm_inheritance_law_1 } 
+					# ROOT_FROMFROM = { has_law = crown_authority_3 } 
+					# ROOT_FROMFROM = { has_law = crown_authority_4 } 
+				# } 
 			} 
 		}
 		FROM = {
@@ -9492,7 +9526,7 @@ viceroyalty_succession = {
 					trait = bastard 
 					is_ruler = no
 				}
-				is_ascetic_trigger = yes
+				# is_ascetic_trigger = yes
 				is_theocracy = yes
 				is_republic = yes
 				is_merchant_republic = yes

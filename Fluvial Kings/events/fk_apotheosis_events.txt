@@ -123,18 +123,18 @@ province_event = {
     is_triggered_only = yes
     has_dlc = "Holy Fury"
     immediate = {
-        if = {
-            limit = {
-                event_target:hero_person = {
-                    trait = i_used_to_be_a_player
-                }
-            }
-            province_event = { id = fka.3 days = 1000 random = 1000 }
-        }
-        else = {
-            province_event = { id = fka.3 days = 1000 random = 10000 }
-        }
-		# province_event = { id = fka.3 days = 1 }
+        # if = {
+            # limit = {
+                # event_target:hero_person = {
+                    # trait = i_used_to_be_a_player
+                # }
+            # }
+            # province_event = { id = fka.3 days = 1000 random = 1000 }
+        # }
+        # else = {
+            # province_event = { id = fka.3 days = 1000 random = 1000 }
+        # }
+		province_event = { id = fka.3 days = 1 }
     }
 }
 
@@ -993,48 +993,48 @@ character_event = {
         		}
         		custom_tooltip = { text = EVTOPTBFKA11_TT }
         		hidden_tooltip = {
-        			random_list = {
-        				10 = {
-							add_artifact = saintly_bone
-	        				new_artifact = {
-	        					set_name = saint_bone_name
-	        				}
-	        				add_artifact = saintly_finger
-	        				new_artifact = {
-	        					set_name = saint_finger_name
-	        				}
-        				}
-        				20 = {
-	        				add_artifact = saintly_skull_tier_1
-	        				new_artifact = {
-	        					set_name = saint_skull_1_name
-	        				}
-	        				add_artifact = saintly_finger
-	        				new_artifact = {
-	        					set_name = saint_finger_name
-	        				}
-        				}
-        				10 = {
-        					add_artifact = saintly_skull_tier_2
-        					new_artifact = {
-        						set_name = saint_skull_2_name
-        					}
-							add_artifact = saintly_bone
-	        				new_artifact = {
-	        					set_name = saint_bone_name
-	        				}
-        				}
-        				3 = {
-        					add_artifact = saintly_tongue
-        					new_artifact = {
-        						set_name = saint_tongue_name
-        					}
-	        				add_artifact = saintly_skull_tier_1
-	        				new_artifact = {
-	        					set_name = saint_skull_1_name
-	        				}
-        				}
-        			}
+        			# random_list = {
+        				# 10 = {
+							# add_artifact = saintly_bone
+	        				# new_artifact = {
+	        					# set_name = saint_bone_name
+	        				# }
+	        				# add_artifact = saintly_finger
+	        				# new_artifact = {
+	        					# set_name = saint_finger_name
+	        				# }
+        				# }
+        				# 20 = {
+	        				# add_artifact = saintly_skull_tier_1
+	        				# new_artifact = {
+	        					# set_name = saint_skull_1_name
+	        				# }
+	        				# add_artifact = saintly_finger
+	        				# new_artifact = {
+	        					# set_name = saint_finger_name
+	        				# }
+        				# }
+        				# 10 = {
+        					# add_artifact = saintly_skull_tier_2
+        					# new_artifact = {
+        						# set_name = saint_skull_2_name
+        					# }
+							# add_artifact = saintly_bone
+	        				# new_artifact = {
+	        					# set_name = saint_bone_name
+	        				# }
+        				# }
+        				# 3 = {
+        					# add_artifact = saintly_tongue
+        					# new_artifact = {
+        						# set_name = saint_tongue_name
+        					# }
+	        				# add_artifact = saintly_skull_tier_1
+	        				# new_artifact = {
+	        					# set_name = saint_skull_1_name
+	        				# }
+        				# }
+        			# }
 	        		event_target:target_burial_site = {
 	        			remove_province_modifier = tomb_of_a_hero
 	        			add_province_modifier = {
@@ -1754,7 +1754,7 @@ character_event = {
             }
         }
         random = {
-        	Chance = 50
+        	chance = 50
     		if = {
     			limit = {
     				trait = gregarious
@@ -2276,7 +2276,7 @@ character_event = {
                 # }
                 # character_event = { id = HF.41429 days = 30 }
             # }
-            else_if = {
+            if = {
                 limit = {
                     has_character_flag = generic_saintly_pilgrimage
                 }
@@ -2308,7 +2308,7 @@ character_event = {
             if = {
                 limit = {
                     NOT = {
-                        has_DLC = "Reapers"
+                        has_dlc = "Reapers"
                     }
                 }
                 give_ill_effect = yes

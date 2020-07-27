@@ -1,1 +1,6 @@
-#empty
+is_member_of_any_warrior_lodge_trigger = {
+	always = no
+}
+is_available_fellow_society_member_trigger = {
+	always = no
+}

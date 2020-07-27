@@ -4,4 +4,4 @@ max_settlements= 1
 b_tenedos=castle
 
 culture = wilusan
-religion=haianiluwi
+religion = assussani

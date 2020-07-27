@@ -5,4 +5,4 @@ b_abydos=castle
 b_perkote=city
 
 culture = wilusan
-religion=haianiluwi
+religion = assussani

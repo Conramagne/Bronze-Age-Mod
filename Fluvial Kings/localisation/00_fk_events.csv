@@ -107,6 +107,7 @@ make_sacrifice_to_desc;Slaughter a bull to the gods.;;;;;;;;;;;;;x
 
 #call the gods to get boons or curses
 EVTDESCFKP1;You have decided to call upon the gods of the [Root.Religion.GetFullName] pantheon in exultation and loud prayer. You set their images before you and contemplate their majesty.;;;;;;;;;;;;;x
+click_on_portrait_TT;Click on the god's portrait to see their court and interact with the divines.;;;;;;;;;;;;;x
 EVTDESCFKP100;It begins as a feeling, as when one slowly awakens from a dream. You feel a hand of light pass through you and for an instant you feel the euphoria of a youth in love or the love of a child for their parent. A god has paid notice to you, and now works those many small miracles that improve one’s life. Stretching your limbs, you shout for joy towards the heavens. You are blessed!;;;;;;;;;;;;;x
 EVTDESCFKP101;Despair! The gods have ignored your request for a blessing, your devotion to them must not have been great enough. What is one to do?;;;;;;;;;;;;;x
 
@@ -167,6 +168,7 @@ EVTOPTCFKREL101;"I devote my child to you, Exalted Son of Tarhunna...";;;;;;;;;;
 
 EVTDESCFKP206;You call upon the temple functionaries to allow you access to an altar. So that you may perform the sacrifices needed to appease the gods.;;;;;;;;;;;;;x
 EVTOPTAFKP206;May this offering appease the gods!;;;;;;;;;;;;;x
+all_curses_absolved_TT;All your curses are absolved!;;;;;;;;;;;;;x
 
 ###########Palace Bureaucracy Decisions and Events###########
 bureaucratic_reform;Reform Palace Bureaucracy;;;;;;;;;;;;;x
@@ -232,7 +234,9 @@ EVTOPTCFKR234;By the grace of the gods, I shall spend a great fortune on reform!
 #Bureaucratic Reform Results
 EVTDESCFKR235;Your palace appears to be less efficent than it was before you attemped your great reforms. You resign yourself to your throne to contemplate what has gone wrong.;;;;;;;;;;;;;x
 EVTDESCFKR236;The reforms you have enacted have seen some success, however, the reforms haven't been as revolutionary as you were hoping.;;;;;;;;;;;;;x
+EVTOPTAFKR236;This is still a start.;;;;;;;;;;;;;x
 EVTDESCFKR237;The reforms you have enacted have been a great success, vastly improving the administrative efficiency of your realm.;;;;;;;;;;;;;x
+EVTOPTAFKR237;May these reforms usher in a new era!;;;;;;;;;;;;;x
 
 ###########Stratocracy: Militarization Events###########
 become_stratocrat;Become a Stratocrat;;;;;;;;;;;;;x
@@ -269,6 +273,7 @@ EVTDESCFKR318;Whether due to a miscalculation or a bad campaign, the martial tra
 ##Increase##
 EVTDESCFKR319;Whether due to the greak work of your commanders or your Marshal's rousing speeches, your armies appear to be better equipped to meet the needs of your realm. Its not to say that they are the strongest force of the known world that you aspire them to be, but your realm has seen increase glory and prosperity to your realm and their mighty warriors.;;;;;;;;;;;;;x
 EVTDESCFKR320;Your fighters are not to be trifled with! Your army swells in both strength and spirit, and their glory is well known across the land!;;;;;;;;;;;;;x
+palace_bureaucracy_bureaucracy_falls_to_average_TT;Your Palace Bureaucratic Efficiency falls to Average!;;;;;;;;;;;;;x
 
 ###########Divine Birthright Events###########
 hellenic_birthright;Divine Birthright;;;;;;;;;;;;;x

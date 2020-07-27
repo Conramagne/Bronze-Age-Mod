@@ -452,20 +452,20 @@ character_event = {
                 remove_opinion = { who = ROOT modifier = grievously_offended }
             }
         }
-        if = {
-            limit = { #Warriors like a warrior who acts like one...
-                is_member_of_any_warrior_lodge_trigger = yes
-            }
-            add_legend_progress_trivial_effect = yes
-        }
+        # if = {
+            # limit = { #Warriors like a warrior who acts like one...
+                # is_member_of_any_warrior_lodge_trigger = yes
+            # }
+            # add_legend_progress_trivial_effect = yes
+        # }
         event_target:combatant_1 = {
             character_event = { id = HFP.10096 days = 3 }
         }
         set_character_flag = add_duel_xp
         clr_character_flag = punish_declining
-        ai_chance = {
-            factor = 80
-        }
+        # ai_chance = {
+            # factor = 80
+        # }
     }
 
     option = { # [INTRIGUE OPTION]
@@ -728,12 +728,12 @@ character_event = {
             custom_tooltip = { text = EVTOPTA_HFP_10096_TT } #the duel will take place within the next few days.
         }
 
-        if = {
-            limit = { #Warriors like a warrior who acts like one...
-                is_member_of_any_warrior_lodge_trigger = yes
-            }
-            add_legend_progress_trivial_effect = yes
-        }
+        # if = {
+            # limit = { #Warriors like a warrior who acts like one...
+                # is_member_of_any_warrior_lodge_trigger = yes
+            # }
+            # add_legend_progress_trivial_effect = yes
+        # }
 
         #FALLBACK:
         if = { #If FROM is no longer alive, clear relevant flags, etc...

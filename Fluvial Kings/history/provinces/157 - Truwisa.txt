@@ -6,4 +6,4 @@ b_assos=temple
 b_pedashash=city
 
 culture = wilusan
-religion=haianiluwi
+religion = assussani

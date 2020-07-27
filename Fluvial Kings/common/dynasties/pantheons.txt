@@ -34,3 +34,8 @@
 		}
 	}
 }
+#European Pantheon
+1000002 = {
+	name = "Disakenthas"
+	used_for_random = no 
+}

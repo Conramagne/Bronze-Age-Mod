@@ -1358,23 +1358,23 @@ character_event = {
 				#10 = {} #Empty as fallback
 			}
 			random_list = { # Second wave of events
-				10 = { #Jester makes bad joke (Liege)
-					modifier = {
-						factor = 0
-						NOR = {
-							any_courtier = {
-								has_minor_title = title_court_jester
-								NOT = {
-									opinion = { who = ROOT value = 25 }
-								}
-							}
-							any_vassal = {
-								has_character_flag = guest_feast_started
-							}
-						}
-					}
-					character_event = { id = 72060 days = 10 }
-				}
+				# 10 = { #Jester makes bad joke (Liege)
+					# modifier = {
+						# factor = 0
+						# NOR = {
+							# any_courtier = {
+								# has_minor_title = title_court_jester
+								# NOT = {
+									# opinion = { who = ROOT value = 25 }
+								# }
+							# }
+							# any_vassal = {
+								# has_character_flag = guest_feast_started
+							# }
+						# }
+					# }
+					# character_event = { id = 72060 days = 10 }
+				# }
 				10 = { #Highway robber band (vassal)
 					modifier = {
 						factor = 0
@@ -3903,148 +3903,148 @@ character_event = {
 }
 
 #Jester jokes about your rule
-character_event = {
-	id = 72060
-	desc = "EVTDESC72060"
-	picture = GFX_evt_jugglers
+# character_event = {
+	# id = 72060
+	# desc = "EVTDESC72060"
+	# picture = GFX_evt_jugglers
 
-	only_rulers = yes
-	prisoner = no
-	capable_only = yes
-	is_triggered_only = yes
-	war = no
-	has_character_flag = host_feast_started
+	# only_rulers = yes
+	# prisoner = no
+	# capable_only = yes
+	# is_triggered_only = yes
+	# war = no
+	# has_character_flag = host_feast_started
 	
-	trigger = {
-		has_character_modifier = holding_large_feast
-		any_courtier = {
-			has_minor_title = title_court_jester
-			NOT = {
-				opinion = { who = ROOT value = 25 }
-			}
-		}
-		any_vassal = {
-			has_character_flag = guest_feast_started
-		}
-	}
+	# trigger = {
+		# has_character_modifier = holding_large_feast
+		# any_courtier = {
+			# has_minor_title = title_court_jester
+			# NOT = {
+				# opinion = { who = ROOT value = 25 }
+			# }
+		# }
+		# any_vassal = {
+			# has_character_flag = guest_feast_started
+		# }
+	# }
 	
-	immediate = {
-		random_courtier = {
-			limit = {
-				has_minor_title = title_court_jester
-				NOT = {
-					opinion = { who = ROOT value = 25 }
-				}
-			}
-			save_event_target_as = insulting_jester
-		}
+	# immediate = {
+		# random_courtier = {
+			# limit = {
+				# has_minor_title = title_court_jester
+				# NOT = {
+					# opinion = { who = ROOT value = 25 }
+				# }
+			# }
+			# save_event_target_as = insulting_jester
+		# }
 	
-	}
+	# }
 
-	option = {
-		name = "EVTOPTA72060"
-		if = {
-			limit = {
-				trait = arbitrary
-				NOT = {
-					trait = cruel
-				}
-			}
-			random = {
-				chance = 20
+	# option = {
+		# name = "EVTOPTA72060"
+		# if = {
+			# limit = {
+				# trait = arbitrary
+				# NOT = {
+					# trait = cruel
+				# }
+			# }
+			# random = {
+				# chance = 20
 
-				add_trait = cruel
-				hidden_tooltip = {
-					character_event = {
-						id = 38259 #Notify Cruel
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				trait = cruel
-				NOT = {
-					trait = arbitrary
-				}
-			}
-			random = {
-				chance = 20
+				# add_trait = cruel
+				# hidden_tooltip = {
+					# character_event = {
+						# id = 38259 #Notify Cruel
+					# }
+				# }
+			# }
+		# }
+		# if = {
+			# limit = {
+				# trait = cruel
+				# NOT = {
+					# trait = arbitrary
+				# }
+			# }
+			# random = {
+				# chance = 20
 
-				add_trait = arbitrary
-				hidden_tooltip = {
-					character_event = {
-						id = 38266 #Notify Arbitrary
-					}
-				}
-			}
-		}
-		event_target:insulting_jester = {		
-			imprison = ROOT
-		}
-		any_vassal = {
-			limit = {
-				has_character_flag = guest_feast_started
-				NOT = {
-					opinion = { who = ROOT value = 5 }
-				}
-			}
-			character_event = {
-				id = 72061
-				tooltip = "EVTTOOLTIP72061"
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTB72060"
-		prestige = -10
-		any_vassal = {
-			limit = {
-				has_character_flag = guest_feast_started
-			}
-			character_event = {
-				id = 72062
-				tooltip = "EVTTOOLTIP72062"
-			}
-		}
-	}
-}
+				# add_trait = arbitrary
+				# hidden_tooltip = {
+					# character_event = {
+						# id = 38266 #Notify Arbitrary
+					# }
+				# }
+			# }
+		# }
+		# event_target:insulting_jester = {		
+			# imprison = ROOT
+		# }
+		# any_vassal = {
+			# limit = {
+				# has_character_flag = guest_feast_started
+				# NOT = {
+					# opinion = { who = ROOT value = 5 }
+				# }
+			# }
+			# character_event = {
+				# id = 72061
+				# tooltip = "EVTTOOLTIP72061"
+			# }
+		# }
+	# }
+	# option = {
+		# name = "EVTOPTB72060"
+		# prestige = -10
+		# any_vassal = {
+			# limit = {
+				# has_character_flag = guest_feast_started
+			# }
+			# character_event = {
+				# id = 72062
+				# tooltip = "EVTTOOLTIP72062"
+			# }
+		# }
+	# }
+# }
 
 #Jester is thrown into dungeon: Guests react
-character_event = {
-	id = 72061
-	desc = "EVTDESC72061"
-	picture = GFX_evt_jugglers
+# character_event = {
+	# id = 72061
+	# desc = "EVTDESC72061"
+	# picture = GFX_evt_jugglers
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	option = {
-		name = "EVTOPTA72061"
-		opinion = {
-			modifier = opinion_disappointed
-			who = FROM
-			years = 10
-		}
-	}
-}
+	# option = {
+		# name = "EVTOPTA72061"
+		# opinion = {
+			# modifier = opinion_disappointed
+			# who = FROM
+			# years = 10
+		# }
+	# }
+# }
 
 #Jester is ignored: Guests react
-character_event = {
-	id = 72062
-	desc = "EVTDESC72062"
-	picture = GFX_evt_jugglers
+# character_event = {
+	# id = 72062
+	# desc = "EVTDESC72062"
+	# picture = GFX_evt_jugglers
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	option = {
-		name = "EVTOPTA72062"
-		opinion = {
-			modifier = opinion_approves
-			who = FROM
-			years = 10
-		}
-	}
-}
+	# option = {
+		# name = "EVTOPTA72062"
+		# opinion = {
+			# modifier = opinion_approves
+			# who = FROM
+			# years = 10
+		# }
+	# }
+# }
 
 #Jongleurs entertain the guests
 character_event = {

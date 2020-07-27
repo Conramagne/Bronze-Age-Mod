@@ -145,6 +145,7 @@ de_jure_laws = {
 	
 	vassal_wars_law_1 = {
 		group = vassal_wars_law
+		default = yes
 		
 		potential = {
 			has_dlc = "Zeus"
@@ -199,7 +200,6 @@ de_jure_laws = {
 	}
 	vassal_wars_law_2 = {
 		group = vassal_wars_law
-		default = yes
 		
 		potential = {
 			has_dlc = "Zeus"

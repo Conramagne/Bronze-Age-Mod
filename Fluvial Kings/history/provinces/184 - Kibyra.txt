@@ -3,5 +3,5 @@ title=c_kibyra
 max_settlements= 1
 b_kibyra=castle
 
-culture=luwian
+culture=lycian
 religion=haianiluwi

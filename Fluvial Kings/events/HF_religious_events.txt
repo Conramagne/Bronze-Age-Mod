@@ -114,22 +114,35 @@ character_event = {
 			}
 			prestige = 10
 		}
-	}
-
-	option = {
-		name = EVTOPTBHF23002
-		trigger = {
-			any_realm_wonder_upgrade = {
-				has_wonder_upgrade = upgrade_sacrificial_altar
-				is_active = yes
+		add_character_modifier = {
+			modifier = made_sacrifice
+			years = 2
+		}
+		any_character = {
+			limit = {
+				trait = pleistoros
+			}
+			opinion = {
+				modifier = opinion_medium_sacrifice
+				who = ROOT
 			}
 		}
-		tooltip_info_custom = EVTOPTBHF23002_TT
-		add_character_modifier = {
-			name = ate_beating_heart
-			months = 6
-		}
 	}
+
+	# option = {
+		# name = EVTOPTBHF23002
+		# trigger = {
+			# any_realm_wonder_upgrade = {
+				# has_wonder_upgrade = upgrade_sacrificial_altar
+				# is_active = yes
+			# }
+		# }
+		# tooltip_info_custom = EVTOPTBHF23002_TT
+		# add_character_modifier = {
+			# name = ate_beating_heart
+			# months = 6
+		# }
+	# }
 
 
 	after = {

@@ -4,13 +4,8 @@
 	dynasty = 2000000 #Labarnid
 	culture = hittite
 	religion = ishalitethai
-	martial = 3
-	diplomacy = 3
-	stewardship = 4
-	intrigue = 5
-	learning = 5
-	trait = misguided_warrior
-	trait = craven
+	trait = tough_soldier
+	trait = ambitious
 	father = 2000001
 	mother = 2002005
 	2493.1.1 = { birth = yes }
@@ -291,7 +286,7 @@
 	trait = hunter
 	disallow_random_traits = yes
 	father = 2000003
-	2468.1.1 = { birth = yes }
+	2488.1.1 = { birth = yes }
 	2512.1.1 = {
 		effect = {
 			add_rival = 2000000

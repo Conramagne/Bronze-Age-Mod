@@ -92,7 +92,6 @@ technology = {
 		d_elis
 		d_euvoia
 		d_kuklades
-		d_kydonia
 		d_kythera
 		d_lasynthos
 		d_malis

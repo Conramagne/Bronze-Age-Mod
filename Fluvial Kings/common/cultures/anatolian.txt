@@ -1,5 +1,5 @@
 anatolian = {
-	graphical_cultures = { westerngfx }
+	graphical_cultures = { easterngfx }
 
 	hittite = {
 		graphical_cultures = { anatoliangfx }
@@ -7,41 +7,11 @@ anatolian = {
 		color = { 0.8 0.3 0.3 }
 
 		male_names = {
-			Adduwa Ahabbu Ahuni Alalimi Alihhešni Ali-ziti Alluwamna Ambaris Ammuna Anitta Appuašu Ariyahina Ari-Šarruma Arnuwanda Arnuwanti Ashwisi Astiruwa Astuwalamanza Awariku Azatiwata
-			Bamah Bentišina
-			Dadi-Ilu
-			Eni-Ilu
-			Gabbar Gunzinanu Gurdi Gusi
-			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hattušili Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
-			Ini-Teššub Ir-Teššub Iškallu 
-			Kamani Kammaliya Karpani Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
-			Labarna Lalli Larama
-			Mahhuzzi Manana Manapa Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
-			Nerikkaili
-			Palla Panamuwa Parita Pihirim Pisiri Piyamaradu Piyaššili Puhamme   
-			Raqianu Runtiya 
-			Sahu Šahurunuwa Sahwi Sanduarri Sangara Sandasarme Sapalulme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
-			Taita Taliuman Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Tarzuliya Telipinu Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
-			Uhha-ziti Ulmi-Teššub Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
-			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
-			Zakur Zannanza Zida Zidanta
-			Yariri Yau-bidi
-			Qarli 
+			Adduwa_Adduwa Ahabbu_Ahabbu Ahuni_Ahuni Alalimi_Alalimi Ali-ziti_Ali-ziti Alihhešni_Alihhešni Alluwamna_Alluwamna Ambaris_Ambaris Ammuna_Ammuna Anitta_Anitta Appuašu_Appuašu Ari-Šarruma_Ari-Šarruma Ariyahina_Ariyahina Arnuwanda_Arnuwanda Arnuwanti_Arnuwanti Ashwisi_Ashwisi Astiruwa_Astiruwa Astuwalamanza_Astuwalamanza Awariku_Awariku Azatiwata_Azatiwata Bamah_Bamah Bentišina_Bentišina Dadi-Ilu_Dadi-Ilu Eni-Ilu_Eni-Ilu Gabbar_Gabbar Gunzinanu_Gunzinanu Gurdi_Gurdi Gusi_Gusi Hadram_Hadram Hadyan_Hadyan Halpa-šulupi_Halpa-šulupi Hamiyata_Hamiyata Hannutti_Hannutti Hantili_Hantili Hapatila_Hapatila Hattuša-Kurunta_Hattuša-Kurunta Hattušili_Hattušili Hayya_Hayya Hazael_Hazael Hešni_Hešni Hilaruada_Hilaruada Hulli_Hulli Huzziya_Huzziya Ini-Teššub_Ini-Teššub Ir-Teššub_Ir-Teššub Iškallu_Iškallu Kamani_Kamani Kammaliya_Kammaliya Karpani_Karpani Katuwa_Katuwa Katuzili_Katuzili Kikki_Kikki Kilamuwa_Kilamuwa Kirri_Kirri Kirua_Kirua Kiyakiya_Kiyakiya Kundašpu_Kundašpu Kupanta-Kurunta_Kupanta-Kurunta Kurti_Kurti Kurunta_Kurunta Kuzi-Teššub_Kuzi-Teššub Labarna_Labarna Lalli_Lalli Larama_Larama Mahhuzzi_Mahhuzzi Manana_Manana Manapa_Manapa Mari_Mari Martiti_Martiti Mati-Ilu_Mati-Ilu Mašturi_Mašturi Mittanna-muwa_Mittanna-muwa Mugallu_Mugallu Muršili_Muršili Muwaharani_Muwaharani Muwattalli_Muwattalli Muwizi_Muwizi Nerikkaili_Nerikkaili Palla_Palla Panamuwa_Panamuwa Papahdilmah_Papahdilmah Parita_Parita Pihirim_Pihirim Pisiri_Pisiri Piyamaradu_Piyamaradu Piyaššili_Piyaššili Puhamme_Puhamme Qarli_Qarli Raqianu_Raqianu Runtiya_Runtiya Sahu_Sahu Sahwi_Sahwi Sandasarme_Sandasarme Sanduarri_Sanduarri Sangara_Sangara Sapalulme_Sapalulme Saruwani_Saruwani Sasi_Sasi Sastura_Sastura Satiruntiya_Satiruntiya Suhi_Suhi Sulumal_Sulumal Surri_Surri Suwarimi_Suwarimi Tahurwaili_Tahurwaili Taita_Taita Taliuman_Taliuman Talmi-Teššub_Talmi-Teššub Tarhunazi_Tarhunazi Tarhunta-piya_Tarhunta-piya Tarzuliya_Tarzuliya Tašmi-Šarruma_Tašmi-Šarruma Telipinu_Telipinu Toi_Toi Tudhaliya_Tudhaliya Tuhamme_Tuhamme Tulli_Tulli Tutammu_Tutammu Tuttu_Tuttu Tuwati_Tuwati Uhha-ziti_Uhha-ziti Ulmi-Teššub_Ulmi-Teššub Uppara-muwa_Uppara-muwa Urahilina_Urahilina Uratami_Uratami Uratarhunza_Uratarhunza Urhi-Teššub_Urhi-Teššub Urimme_Urimme Ušhitti_Ušhitti Walwa-ziti_Walwa-ziti Warpalawa_Warpalawa Wasuruntiya_Wasuruntiya Wasusarma_Wasusarma Yariri_Yariri Yau-bidi_Yau-bidi Zakur_Zakur Zannanza_Zannanza Zida_Zida Zidanta_Zidanta Zuru_Zuru Šahurunuwa_Šahurunuwa Šuppiluliuma_Šuppiluliuma
 		}
 		
 		female_names = {
-			Arinna Ašmu-nikal
-			Estan 
-			Gaššulawiya
-			Harapšili Harapšeki Haštayara Hebat Henti
-			Ištapariya Istustaya 
-			Kali Kiluš-Hepa
-			Maššanauzzi Muwatti
-			Nikal-mati
-			Papaya Pudu-Hepa
-			Tadu-Hepa Tanu-Hepa Tawannanna
-			Walanni Wirisemu
-			Yaya
+			Arinna_Arinna Ašmu-nikal_Ašmu-nikal Estan_Estan Gaššulawiya_Gaššulawiya Harapšeki_Harapšeki Harapšili_Harapšili Haštayara_Haštayara Hebat_Hebat Henti_Henti Istustaya_Istustaya Ištapariya_Ištapariya Kali_Kali Kiluš-Hepa_Kiluš-Hepa Maššanauzzi_Maššanauzzi Muwatti_Muwatti Nikal-mati_Nikal-mati Papaya_Papaya Pudu-Hepa_Pudu-Hepa Tadu-Hepa_Tadu-Hepa Tanu-Hepa_Tanu-Hepa Tawannanna_Tawannanna Walanni_Walanni Wirisemu_Wirisemu Yaya_Yaya
 		}
 		from_dynasty_prefix = "of "
 
@@ -62,41 +32,11 @@ anatolian = {
 		color = { 0.7 0.5 0.3 }
 
 		male_names = {
-			Adduwa Ahabbu Ahuni Alalimi Alihhešni Ali-ziti Alluwamna Ambaris Ammuna Anitta Appuašu Ariyahina Ari-Šarruma Arnuwanda Arnuwanti Ashwisi Astiruwa Astuwalamanza Awariku Azatiwata
-			Bamah Bentišina
-			Dadi-Ilu
-			Eni-Ilu
-			Gabbar Gunzinanu Gurdi Gusi
-			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hattušili Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
-			Ini-Teššub Ir-Teššub Iškallu 
-			Kamani Kammaliya Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
-			Labarna Lalli Larama
-			Mahhuzzi Manana Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
-			Nerikkaili
-			Palla Panamuwa Parita Pihirim Pisiri Piyamaradu Piyaššili Puhamme   
-			Raqianu Runtiya 
-			Šahurunuwa  Sanduarri Sangara Sahu Sahwi Sandasarme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
-			Taita Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Telipinu Tibe Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
-			Uhha-ziti Ulmi-Teššub Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
-			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
-			Zakur Zannanza Zida Zidanta
-			Yariri Yau-bidi
-			Qarli 
+			Adduwa_Adduwa Ahabbu_Ahabbu Ahuni_Ahuni Alalimi_Alalimi Ali-ziti_Ali-ziti Alihhešni_Alihhešni Alluwamna_Alluwamna Ambaris_Ambaris Ammuna_Ammuna Anitta_Anitta Appuašu_Appuašu Ari-Šarruma_Ari-Šarruma Ariyahina_Ariyahina Arnuwanda_Arnuwanda Arnuwanti_Arnuwanti Ashwisi_Ashwisi Astiruwa_Astiruwa Astuwalamanza_Astuwalamanza Awariku_Awariku Azatiwata_Azatiwata Bamah_Bamah Bentišina_Bentišina Dadi-Ilu_Dadi-Ilu Eni-Ilu_Eni-Ilu Gabbar_Gabbar Gunzinanu_Gunzinanu Gurdi_Gurdi Gusi_Gusi Hadram_Hadram Hadyan_Hadyan Halpa-šulupi_Halpa-šulupi Hamiyata_Hamiyata Hannutti_Hannutti Hantili_Hantili Hapatila_Hapatila Hattuša-Kurunta_Hattuša-Kurunta Hattušili_Hattušili Hayya_Hayya Hazael_Hazael Hešni_Hešni Hilaruada_Hilaruada Hulli_Hulli Huzziya_Huzziya Ini-Teššub_Ini-Teššub Ir-Teššub_Ir-Teššub Iškallu_Iškallu Kamani_Kamani Kammaliya_Kammaliya Karpani_Karpani Katuwa_Katuwa Katuzili_Katuzili Kikki_Kikki Kilamuwa_Kilamuwa Kirri_Kirri Kirua_Kirua Kiyakiya_Kiyakiya Kundašpu_Kundašpu Kupanta-Kurunta_Kupanta-Kurunta Kurti_Kurti Kurunta_Kurunta Kuzi-Teššub_Kuzi-Teššub Labarna_Labarna Lalli_Lalli Larama_Larama Mahhuzzi_Mahhuzzi Manana_Manana Manapa_Manapa Mari_Mari Martiti_Martiti Mati-Ilu_Mati-Ilu Mašturi_Mašturi Mittanna-muwa_Mittanna-muwa Mugallu_Mugallu Muršili_Muršili Muwaharani_Muwaharani Muwattalli_Muwattalli Muwizi_Muwizi Nerikkaili_Nerikkaili Palla_Palla Panamuwa_Panamuwa Papahdilmah_Papahdilmah Parita_Parita Pihirim_Pihirim Pisiri_Pisiri Piyamaradu_Piyamaradu Piyaššili_Piyaššili Puhamme_Puhamme Qarli_Qarli Raqianu_Raqianu Runtiya_Runtiya Sahu_Sahu Sahwi_Sahwi Sandasarme_Sandasarme Sanduarri_Sanduarri Sangara_Sangara Sapalulme_Sapalulme Saruwani_Saruwani Sasi_Sasi Sastura_Sastura Satiruntiya_Satiruntiya Suhi_Suhi Sulumal_Sulumal Surri_Surri Suwarimi_Suwarimi Tahurwaili_Tahurwaili Taita_Taita Taliuman_Taliuman Talmi-Teššub_Talmi-Teššub Tarhunazi_Tarhunazi Tarhunta-piya_Tarhunta-piya Tarzuliya_Tarzuliya Tašmi-Šarruma_Tašmi-Šarruma Telipinu_Telipinu Toi_Toi Tudhaliya_Tudhaliya Tuhamme_Tuhamme Tulli_Tulli Tutammu_Tutammu Tuttu_Tuttu Tuwati_Tuwati Uhha-ziti_Uhha-ziti Ulmi-Teššub_Ulmi-Teššub Uppara-muwa_Uppara-muwa Urahilina_Urahilina Uratami_Uratami Uratarhunza_Uratarhunza Urhi-Teššub_Urhi-Teššub Urimme_Urimme Ušhitti_Ušhitti Walwa-ziti_Walwa-ziti Warpalawa_Warpalawa Wasuruntiya_Wasuruntiya Wasusarma_Wasusarma Yariri_Yariri Yau-bidi_Yau-bidi Zakur_Zakur Zannanza_Zannanza Zida_Zida Zidanta_Zidanta Zuru_Zuru Šahurunuwa_Šahurunuwa Šuppiluliuma_Šuppiluliuma
 		}
 		
 		female_names = {
-			Arinna Ašmu-nikal
-			Estan 
-			Gaššulawiya
-			Harapšili Harapšeki Haštayara Hebat Henti
-			Ištapariya Istustaya 
-			Kali Kiluš-Hepa
-			Maššanauzzi Muwatti
-			Nikal-mati
-			Papaya Pudu-Hepa
-			Tadu-Hepa Tanu-Hepa Tawannanna
-			Walanni Wirisemu
-			Yaya
+			Arinna_Arinna Anna Ašmu-nikal_Ašmu-nikal Estan_Estan Gaššulawiya_Gaššulawiya Harapšeki_Harapšeki Harapšili_Harapšili Haštayara_Haštayara Hebat_Hebat Henti_Henti Istustaya_Istustaya Ištapariya_Ištapariya Kali_Kali Kiluš-Hepa_Kiluš-Hepa Maššanauzzi_Maššanauzzi Muwatti_Muwatti Nikal-mati_Nikal-mati Papaya_Papaya Pudu-Hepa_Pudu-Hepa Tadu-Hepa_Tadu-Hepa Tanu-Hepa_Tanu-Hepa Tawannanna_Tawannanna Walanni_Walanni Wirisemu_Wirisemu Yaya_Yaya
 		}
 
 		from_dynasty_prefix = "of "
@@ -118,41 +58,11 @@ anatolian = {
 		color = { 0.5 0.3 0.3 }
 
 		male_names = {
-			Adduwa Ahabbu Ahuni Alaksandu Alalimi Alihhešni Ali-ziti Alluwamna Ambaris Ammuna Anitta Appuašu Ariyahina Ari-Šarruma Arnuwanda Arnuwanti Ashwisi Astiruwa Astuwalamanza Awariku Azatiwata
-			Bamah Bentišina
-			Dadi-Ilu
-			Eni-Ilu
-			Gabbar Gunzinanu Gurdi Gusi
-			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
-			Ini-Teššub Ir-Teššub Iškallu 
-			Kamani Kammaliya Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
-			Labarna Lalli Larama
-			Mahhuzzi Manana Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
-			Nerikkaili
-			Palla Panamuwa Parita Pariya-muwas Pihirim Pisiri Piyamaradu Piyaššili Puhamme   
-			Raqianu Runtiya Ruwantia
-			Šahurunuwa  Sanduarri Sangara Sahu Sahwi Sandasarme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
-			Taita Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Telipinu Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
-			Uhha-ziti Ulmi-Teššub Uppara-muwa Urahilina Ura-Tarhundas Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
-			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
-			Zakur Zannanza Zida Zidanta
-			Yariri Yau-bidi
-			Qarli 
+			Adduwa_Adduwa Ahabbu_Ahabbu Ahuni_Ahuni Alaksandu_Alaksandu Alalimi_Alalimi Ali-ziti_Ali-ziti Alihhešni_Alihhešni Alluwamna_Alluwamna Ambaris_Ambaris Ammuna_Ammuna Anitta_Anitta Appuašu_Appuašu Ari-Šarruma_Ari-Šarruma Ariyahina_Ariyahina Arnuwanda_Arnuwanda Arnuwanti_Arnuwanti Ashwisi_Ashwisi Astiruwa_Astiruwa Astuwalamanza_Astuwalamanza Awariku_Awariku Azatiwata_Azatiwata Bamah_Bamah Bentišina_Bentišina Dadi-Ilu_Dadi-Ilu Eni-Ilu_Eni-Ilu Gabbar_Gabbar Gunzinanu_Gunzinanu Gurdi_Gurdi Gusi_Gusi Hadram_Hadram Hadyan_Hadyan Halpa-šulupi_Halpa-šulupi Hamiyata_Hamiyata Hannutti_Hannutti Hantili_Hantili Hapatila_Hapatila Hattuša-Kurunta_Hattuša-Kurunta Hayya_Hayya Hazael_Hazael Hešni_Hešni Hilaruada_Hilaruada Hulli_Hulli Huzziya_Huzziya Ini-Teššub_Ini-Teššub Ir-Teššub_Ir-Teššub Iškallu_Iškallu Kamani_Kamani Kammaliya_Kammaliya Katuwa_Katuwa Katuzili_Katuzili Kikki_Kikki Kilamuwa_Kilamuwa Kirri_Kirri Kirua_Kirua Kiyakiya_Kiyakiya Kundašpu_Kundašpu Kupanta-Kurunta_Kupanta-Kurunta Kurti_Kurti Kurunta_Kurunta Kuzi-Teššub_Kuzi-Teššub Labarna_Labarna Lalli_Lalli Larama_Larama Mahhuzzi_Mahhuzzi Manana_Manana Mari_Mari Martiti_Martiti Mati-Ilu_Mati-Ilu Mašturi_Mašturi Mittanna-muwa_Mittanna-muwa Mugallu_Mugallu Muršili_Muršili Muwaharani_Muwaharani Muwattalli_Muwattalli Muwizi_Muwizi Nerikkaili_Nerikkaili Palla_Palla Panamuwa_Panamuwa Parita_Parita Pariya-muwas_Pariya-muwas Pihirim_Pihirim Pisiri_Pisiri Piyamaradu_Piyamaradu Piyaššili_Piyaššili Puhamme_Puhamme Qarli_Qarli Raqianu_Raqianu Runtiya_Runtiya Ruwantia_Ruwantia Sahu_Sahu Sahwi_Sahwi Sandasarme_Sandasarme Sanduarri_Sanduarri Sangara_Sangara Saruwani_Saruwani Sasi_Sasi Sastura_Sastura Satiruntiya_Satiruntiya Suhi_Suhi Sulumal_Sulumal Surri_Surri Suwarimi_Suwarimi Taita_Taita Talmi-Teššub_Talmi-Teššub Tarhunazi_Tarhunazi Tarhunta-piya_Tarhunta-piya Tašmi-Šarruma_Tašmi-Šarruma Telipinu_Telipinu Toi_Toi Tudhaliya_Tudhaliya Tuhamme_Tuhamme Tulli_Tulli Tutammu_Tutammu Tuttu_Tuttu Tuwati_Tuwati Uhha-ziti_Uhha-ziti Ulmi-Teššub_Ulmi-Teššub Uppara-muwa_Uppara-muwa Ura-Tarhundas_Ura-Tarhundas Urahilina_Urahilina Uratami_Uratami Uratarhunza_Uratarhunza Urhi-Teššub_Urhi-Teššub Urimme_Urimme Ušhitti_Ušhitti Walwa-ziti_Walwa-ziti Warpalawa_Warpalawa Wasuruntiya_Wasuruntiya Wasusarma_Wasusarma Yariri_Yariri Yau-bidi_Yau-bidi Zakur_Zakur Zannanza_Zannanza Zida_Zida Zidanta_Zidanta Šahurunuwa_Šahurunuwa Šuppiluliuma_Šuppiluliuma
 		}
 		
 		female_names = {
-			Arinna Ašmu-nikal
-			Estan 
-			Gaššulawiya
-			Harapšili Harapšeki Haštayara Hebat Henti
-			Ištapariya Istustaya 
-			Kali Kiluš-Hepa
-			Maššanauzzi Muwatti
-			Nikal-mati
-			Papaya Pudu-Hepa
-			Tadu-Hepa Tanu-Hepa Tawannanna
-			Walanni Wirisemu
-			Yaya
+			Arinna_Arinna Ašmu-nikal_Ašmu-nikal Estan_Estan Gaššulawiya_Gaššulawiya Harapšeki_Harapšeki Harapšili_Harapšili Haštayara_Haštayara Hebat_Hebat Henti_Henti Istustaya_Istustaya Ištapariya_Ištapariya Kali_Kali Kiluš-Hepa_Kiluš-Hepa Maššanauzzi_Maššanauzzi Muwatti_Muwatti Nikal-mati_Nikal-mati Papaya_Papaya Pudu-Hepa_Pudu-Hepa Tadu-Hepa_Tadu-Hepa Tanu-Hepa_Tanu-Hepa Tawannanna_Tawannanna Walanni_Walanni Wirisemu_Wirisemu Yaya_Yaya
 		}
 
 		from_dynasty_prefix = "of "
@@ -174,40 +84,63 @@ anatolian = {
 		color = { 0.8 0.4 0.3 }
 
 		male_names = {
-			Adduwa Ahabbu Ahuni Aineías Akoetes Alaksandu_Alexandros Alalimi Alihhešni Ali-ziti Alluwamna Ambaris Ammuna Anitta Ankhíses Appuašu Ariyahina Arnuwanda Arnuwanti Ascanios Ashwisi Assarakos Astiruwa Astuwalamanza Awariku Azatiwata
-			Bamah Bateia Bentišina
-			Dardanos
-			Gabbar Gunzinanu Gurdi Gusi
-			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
-			Ilos Iškallu 
-			Kamani Kammaliya Kapys Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta
-			Labarna Lalli Laokoön Laomedon Larama
-			Mahhuzzi Manana Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
-			Nerikkaili
-			Palla Panamuwa Parita Pariya-muwas Pari-zitis Pihirim Pisiri Piyamaradu Puhamme   
-			Raqianu Runtiya Ruwantia
-			Šahurunuwa  Sanduarri Sangara Sahu Sahwi Sandasarme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
-			Taita Toi Tros Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
-			Uhha-ziti Uppara-muwa Urahilina Uratami Uratarhunza Urimme Ušhitti
-			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
-			Zakur Zannanza Zida Zidanta
-			Yariri Yau-bidi
-			Qarli 
+			Adduwa_Adduwa Adrestos_Adrestos Ahabbu_Ahabbu Ahuni_Ahuni Aineías_Aineías Akoetes_Akoetes Alaksandu_Alaksandu Alalimi_Alalimi Ali-ziti_Ali-ziti Alihhešni_Alihhešni Alluwamna_Alluwamna Ambaris_Ambaris Ammuna_Ammuna Anitta_Anitta Ankhíses_Ankhíses Appuašu_Appuašu Ariyahina_Ariyahina Arnuwanda_Arnuwanda Arnuwanti_Arnuwanti Ascanios_Ascanios Ashwisi_Ashwisi Assarakos_Assarakos Astiruwa_Astiruwa Astuwalamanza_Astuwalamanza Awariku_Awariku Azatiwata_Azatiwata Bamah_Bamah Bateia_Bateia Bentišina_Bentišina Dardanos_Dardanos Eurution_Eurution Gabbar_Gabbar Gunzinanu_Gunzinanu Gurdi_Gurdi Gusi_Gusi Hadram_Hadram Hadyan_Hadyan Halpa-šulupi_Halpa-šulupi Hamiyata_Hamiyata Hannutti_Hannutti Hantili_Hantili Hapatila_Hapatila Hattuša-Kurunta_Hattuša-Kurunta Hayya_Hayya Hazael_Hazael Hešni_Hešni Hilaruada_Hilaruada Hulli_Hulli Hurtakos_Hurtakos Huzziya_Huzziya Ilos_Ilos Iškallu_Iškallu Kamani_Kamani Kammaliya_Kammaliya Kapys_Kapys Katuwa_Katuwa Katuzili_Katuzili Kikki_Kikki Kilamuwa_Kilamuwa Kirri_Kirri Kirua_Kirua Kiyakiya_Kiyakiya Kundašpu_Kundašpu Kupanta-Kurunta_Kupanta-Kurunta Kurti_Kurti Kurunta_Kurunta Labarna_Labarna Lalli_Lalli Laokoön_Laokoön Laomedon_Laomedon Larama_Larama Mahhuzzi_Mahhuzzi Manana_Manana Mari_Mari Martiti_Martiti Mati-Ilu_Mati-Ilu Mašturi_Mašturi Merops_Merops Mittanna-muwa_Mittanna-muwa Mugallu_Mugallu Muršili_Muršili Muwaharani_Muwaharani Muwattalli_Muwattalli Muwizi_Muwizi Nerikkaili_Nerikkaili Palla_Palla Panamuwa_Panamuwa Pandaros Pari-zitis_Pari-zitis Parita_Parita Pariya-muwas_Pariya-muwas Pihirim_Pihirim Pisiri_Pisiri Piyamaradu_Piyamaradu Podes_Podes Puhamme_Puhamme Pándaros_Pándaros Qarli_Qarli Raqianu_Raqianu Runtiya_Runtiya Ruwantia_Ruwantia Sahu_Sahu Sahwi_Sahwi Sandasarme_Sandasarme Sanduarri_Sanduarri Sangara_Sangara Saruwani_Saruwani Sasi_Sasi Sastura_Sastura Satiruntiya_Satiruntiya Suhi_Suhi Sulumal_Sulumal Surri_Surri Suwarimi_Suwarimi Taita_Taita Tennes_Tennes Toi_Toi Tros_Tros Tudhaliya_Tudhaliya Tuhamme_Tuhamme Tulli_Tulli Tutammu_Tutammu Tuttu_Tuttu Tuwati_Tuwati Uhha-ziti_Uhha-ziti Uppara-muwa_Uppara-muwa Urahilina_Urahilina Uratami_Uratami Uratarhunza_Uratarhunza Urimme_Urimme Ušhitti_Ušhitti Walmu_Walmu Walwa-ziti_Walwa-ziti Warpalawa_Warpalawa Wasuruntiya_Wasuruntiya Wasusarma_Wasusarma Yariri_Yariri Yau-bidi_Yau-bidi Zakur_Zakur Zannanza_Zannanza Zida_Zida Zidanta_Zidanta Šahurunuwa_Šahurunuwa Šuppiluliuma_Šuppiluliuma
 		}
 		
 		female_names = {
-			Andromákhe_Andromákhe Arinna Ašmu-nikal Astuoche_Astuoche
-			Eriopis_Eriopis Estan 
-			Gaššulawiya
-			Harapšili Harapšeki Haštayara Hekuba Henti Hesione Hieromneme Hippodameia_Hippodameia
-			Ištapariya Istustaya 
-			Kali Kallirrhoe Kreousa
-			Maššanauzzi Muwatti
-			Nikal-mati
-			Papaya Pudu-Hepa
-			Tawannanna Themiste
-			Walanni Wirisemu
-			Yaya
+			Andromákhe_Andromákhe Arinna_Arinna Arisbe_Arisbe Astuokhe_Astuokhe Ašmu-nikal_Ašmu-nikal Eriopis_Eriopis Estan_Estan Gaššulawiya_Gaššulawiya Harapšeki_Harapšeki Harapšili_Harapšili Haštayara_Haštayara Hebat_Hebat Hekuba_Hekuba Henti_Henti Hesione_Hesione Hieromneme_Hieromneme Hippodámeia_Hippodámeia Istustaya_Istustaya Ištapariya_Ištapariya Kali_Kali Kallirrhoe_Kallirrhoe Kiluš-Hepa_Kiluš-Hepa Kleite_Kleite Kreousa_Kreousa Maššanauzzi_Maššanauzzi Muwatti_Muwatti Nikal-mati_Nikal-mati Papaya_Papaya Pudu-Hepa_Pudu-Hepa Tadu-Hepa_Tadu-Hepa Tanu-Hepa_Tanu-Hepa Tawannanna_Tawannanna Themiste_Themiste Walanni_Walanni Wirisemu_Wirisemu Yaya_Yaya
+		}
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+	
+	lydian = {
+		graphical_cultures = { anatoliangfx }
+
+		color = { 0.8 0.6 0.3 }
+
+		male_names = {
+			Adduwa_Adduwa Ahabbu_Ahabbu Ahuni_Ahuni Alaksandu_Alaksandu Alalimi_Alalimi Ali-ziti_Ali-ziti Alihhešni_Alihhešni Alluwamna_Alluwamna Ambaris_Ambaris Ammuna_Ammuna Anitta_Anitta Appuašu_Appuašu Ari-Šarruma_Ari-Šarruma Ariyahina_Ariyahina Arnuwanda_Arnuwanda Arnuwanti_Arnuwanti Ashwisi_Ashwisi Astiruwa_Astiruwa Astuwalamanza_Astuwalamanza Awariku_Awariku Azatiwata_Azatiwata Bamah_Bamah Bentišina_Bentišina Dadi-Ilu_Dadi-Ilu Eni-Ilu_Eni-Ilu Gabbar_Gabbar Gunzinanu_Gunzinanu Gurdi_Gurdi Gusi_Gusi Hadram_Hadram Hadyan_Hadyan Halpa-šulupi_Halpa-šulupi Hamiyata_Hamiyata Hannutti_Hannutti Hantili_Hantili Hapatila_Hapatila Hattuša-Kurunta_Hattuša-Kurunta Hayya_Hayya Hazael_Hazael Hešni_Hešni Hilaruada_Hilaruada Hulli_Hulli Huzziya_Huzziya Ini-Teššub_Ini-Teššub Ir-Teššub_Ir-Teššub Iškallu_Iškallu Kamani_Kamani Kammaliya_Kammaliya Katuwa_Katuwa Katuzili_Katuzili Kikki_Kikki Kilamuwa_Kilamuwa Kirri_Kirri Kirua_Kirua Kiyakiya_Kiyakiya Kundašpu_Kundašpu Kupanta-Kurunta_Kupanta-Kurunta Kurti_Kurti Kurunta_Kurunta Kuzi-Teššub_Kuzi-Teššub Labarna_Labarna Lalli_Lalli Larama_Larama Mahhuzzi_Mahhuzzi Manana_Manana Mari_Mari Martiti_Martiti Mati-Ilu_Mati-Ilu Mašturi_Mašturi Mittanna-muwa_Mittanna-muwa Mugallu_Mugallu Muršili_Muršili Muwaharani_Muwaharani Muwattalli_Muwattalli Muwizi_Muwizi Nerikkaili_Nerikkaili Palla_Palla Panamuwa_Panamuwa Parita_Parita Pariya-muwas_Pariya-muwas Pihirim_Pihirim Pisiri_Pisiri Piyamaradu_Piyamaradu Piyaššili_Piyaššili Puhamme_Puhamme Qarli_Qarli Raqianu_Raqianu Runtiya_Runtiya Ruwantia_Ruwantia Sahu_Sahu Sahwi_Sahwi Sandasarme_Sandasarme Sanduarri_Sanduarri Sangara_Sangara Saruwani_Saruwani Sasi_Sasi Sastura_Sastura Satiruntiya_Satiruntiya Suhi_Suhi Sulumal_Sulumal Surri_Surri Suwarimi_Suwarimi Taita_Taita Talmi-Teššub_Talmi-Teššub Tarhunazi_Tarhunazi Tarhunta-piya_Tarhunta-piya Tašmi-Šarruma_Tašmi-Šarruma Telipinu_Telipinu Toi_Toi Tudhaliya_Tudhaliya Tuhamme_Tuhamme Tulli_Tulli Tutammu_Tutammu Tuttu_Tuttu Tuwati_Tuwati Uhha-ziti_Uhha-ziti Ulmi-Teššub_Ulmi-Teššub Uppara-muwa_Uppara-muwa Ura-Tarhundas_Ura-Tarhundas Urahilina_Urahilina Uratami_Uratami Uratarhunza_Uratarhunza Urhi-Teššub_Urhi-Teššub Urimme_Urimme Ušhitti_Ušhitti Walwa-ziti_Walwa-ziti Warpalawa_Warpalawa Wasuruntiya_Wasuruntiya Wasusarma_Wasusarma Yariri_Yariri Yau-bidi_Yau-bidi Zakur_Zakur Zannanza_Zannanza Zida_Zida Zidanta_Zidanta Šahurunuwa_Šahurunuwa Šuppiluliuma_Šuppiluliuma
+		}
+		
+		female_names = {
+			Arinna_Arinna Ašmu-nikal_Ašmu-nikal Estan_Estan Gaššulawiya_Gaššulawiya Harapšeki_Harapšeki Harapšili_Harapšili Haštayara_Haštayara Hebat_Hebat Henti_Henti Istustaya_Istustaya Ištapariya_Ištapariya Kali_Kali Kiluš-Hepa_Kiluš-Hepa Maššanauzzi_Maššanauzzi Muwatti_Muwatti Nikal-mati_Nikal-mati Papaya_Papaya Pudu-Hepa_Pudu-Hepa Tadu-Hepa_Tadu-Hepa Tanu-Hepa_Tanu-Hepa Tawannanna_Tawannanna Walanni_Walanni Wirisemu_Wirisemu Yaya_Yaya
+		}
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+	
+	lycian = {
+		graphical_cultures = { anatoliangfx }
+
+		color = { 0.4 0.6 0.4 }
+
+		male_names = {
+			Adduwa_Adduwa Ahabbu_Ahabbu Ahuni_Ahuni Alaksandu_Alaksandu Alalimi_Alalimi Ali-ziti_Ali-ziti Alihhešni_Alihhešni Alluwamna_Alluwamna Ambaris_Ambaris Ammuna_Ammuna Anitta_Anitta Appuašu_Appuašu Ari-Šarruma_Ari-Šarruma Ariyahina_Ariyahina Arnuwanda_Arnuwanda Arnuwanti_Arnuwanti Ashwisi_Ashwisi Astiruwa_Astiruwa Astuwalamanza_Astuwalamanza Awariku_Awariku Azatiwata_Azatiwata Bamah_Bamah Bellerophon_Bellerophon Bentišina_Bentišina Dadi-Ilu_Dadi-Ilu Eni-Ilu_Eni-Ilu Gabbar_Gabbar Glaukos_Glaukos Gunzinanu_Gunzinanu Gurdi_Gurdi Gusi_Gusi Hadram_Hadram Hadyan_Hadyan Halpa-šulupi_Halpa-šulupi Hamiyata_Hamiyata Hannutti_Hannutti Hantili_Hantili Hapatila_Hapatila Hattuša-Kurunta_Hattuša-Kurunta Hayya_Hayya Hazael_Hazael Hešni_Hešni Hilaruada_Hilaruada Hippolokhos Hulli_Hulli Huzziya_Huzziya Ini-Teššub_Ini-Teššub Ir-Teššub_Ir-Teššub Iškallu_Iškallu Kamani_Kamani Kammaliya_Kammaliya Katuwa_Katuwa Katuzili_Katuzili Kikki_Kikki Kilamuwa_Kilamuwa Kirri_Kirri Kirua_Kirua Kiyakiya_Kiyakiya Kundašpu_Kundašpu Kupanta-Kurunta_Kupanta-Kurunta Kurti_Kurti Kurunta_Kurunta Kuzi-Teššub_Kuzi-Teššub Labarna_Labarna Lalli_Lalli Larama_Larama Mahhuzzi_Mahhuzzi Manana_Manana Mari_Mari Martiti_Martiti Mati-Ilu_Mati-Ilu Mašturi_Mašturi Mittanna-muwa_Mittanna-muwa Mugallu_Mugallu Muršili_Muršili Muwaharani_Muwaharani Muwattalli_Muwattalli Muwizi_Muwizi Nerikkaili_Nerikkaili Palla_Palla Panamuwa_Panamuwa Parita_Parita Pariya-muwas_Pariya-muwas Pihirim_Pihirim Pisiri_Pisiri Piyamaradu_Piyamaradu Piyaššili_Piyaššili Puhamme_Puhamme Qarli_Qarli Raqianu_Raqianu Runtiya_Runtiya Ruwantia_Ruwantia Sahu_Sahu Sahwi_Sahwi Sandasarme_Sandasarme Sanduarri_Sanduarri Sangara_Sangara Sarpedon Saruwani_Saruwani Sasi_Sasi Sastura_Sastura Satiruntiya_Satiruntiya Suhi_Suhi Sulumal_Sulumal Surri_Surri Suwarimi_Suwarimi Taita_Taita Talmi-Teššub_Talmi-Teššub Tarhunazi_Tarhunazi Tarhunta-piya_Tarhunta-piya Tašmi-Šarruma_Tašmi-Šarruma Telipinu_Telipinu Toi_Toi Tudhaliya_Tudhaliya Tuhamme_Tuhamme Tulli_Tulli Tutammu_Tutammu Tuttu_Tuttu Tuwati_Tuwati Uhha-ziti_Uhha-ziti Ulmi-Teššub_Ulmi-Teššub Uppara-muwa_Uppara-muwa Ura-Tarhundas_Ura-Tarhundas Urahilina_Urahilina Uratami_Uratami Uratarhunza_Uratarhunza Urhi-Teššub_Urhi-Teššub Urimme_Urimme Ušhitti_Ušhitti Walwa-ziti_Walwa-ziti Warpalawa_Warpalawa Wasuruntiya_Wasuruntiya Wasusarma_Wasusarma Yariri_Yariri Yau-bidi_Yau-bidi Zakur_Zakur Zannanza_Zannanza Zida_Zida Zidanta_Zidanta Šahurunuwa_Šahurunuwa Šuppiluliuma_Šuppiluliuma
+		}
+		
+		female_names = {
+			Arinna_Arinna Ašmu-nikal_Ašmu-nikal Estan_Estan Gaššulawiya_Gaššulawiya Harapšeki_Harapšeki Harapšili_Harapšili Haštayara_Haštayara Hebat_Hebat Henti_Henti Iobates Istustaya_Istustaya Ištapariya_Ištapariya Kali_Kali Kiluš-Hepa_Kiluš-Hepa Laodámeia Maššanauzzi_Maššanauzzi Muwatti_Muwatti Nikal-mati_Nikal-mati Papaya_Papaya Philonoe Pudu-Hepa_Pudu-Hepa Tadu-Hepa_Tadu-Hepa Tanu-Hepa_Tanu-Hepa Tawannanna_Tawannanna Walanni_Walanni Wirisemu_Wirisemu Yaya_Yaya
 		}
 
 		from_dynasty_prefix = "of "
@@ -223,6 +156,58 @@ anatolian = {
 		modifier = default_culture_modifier
 	}
 
+	
+	carian = {
+		graphical_cultures = { anatoliangfx }
+
+		color = { 0.6 0.8 0.4 }
+
+		male_names = {
+			Adduwa_Adduwa Ahabbu_Ahabbu Ahuni_Ahuni Alaksandu_Alaksandu Alalimi_Alalimi Ali-ziti_Ali-ziti Alihhešni_Alihhešni Alluwamna_Alluwamna Ambaris_Ambaris Ammuna_Ammuna Amphimakhos_Amphimakhos Anitta_Anitta Appuašu_Appuašu Ari-Šarruma_Ari-Šarruma Ariyahina_Ariyahina Arnuwanda_Arnuwanda Arnuwanti_Arnuwanti Ashwisi_Ashwisi Astiruwa_Astiruwa Astuwalamanza_Astuwalamanza Awariku_Awariku Azatiwata_Azatiwata Bamah_Bamah Bentišina_Bentišina Dadi-Ilu_Dadi-Ilu Eni-Ilu_Eni-Ilu Gabbar_Gabbar Gunzinanu_Gunzinanu Gurdi_Gurdi Gusi_Gusi Hadram_Hadram Hadyan_Hadyan Halpa-šulupi_Halpa-šulupi Hamiyata_Hamiyata Hannutti_Hannutti Hantili_Hantili Hapatila_Hapatila Hattuša-Kurunta_Hattuša-Kurunta Hayya_Hayya Hazael_Hazael Hešni_Hešni Hilaruada_Hilaruada Hulli_Hulli Huzziya_Huzziya Ini-Teššub_Ini-Teššub Ir-Teššub_Ir-Teššub Iškallu_Iškallu Kamani_Kamani Kammaliya_Kammaliya Katuwa_Katuwa Katuzili_Katuzili Kbdwn_Kbdwn Kbid_Kbid Kikki_Kikki Kilamuwa_Kilamuwa Kirri_Kirri Kirua_Kirua Kiyakiya_Kiyakiya Ktmños_Ktmños Kundašpu_Kundašpu Kupanta-Kurunta_Kupanta-Kurunta Kurti_Kurti Kurunta_Kurunta Kuzi-Teššub_Kuzi-Teššub Labarna_Labarna Lalli_Lalli Larama_Larama Mahhuzzi_Mahhuzzi Manana_Manana Mari_Mari Martiti_Martiti Mati-Ilu_Mati-Ilu Mašturi_Mašturi Mittanna-muwa_Mittanna-muwa Mugallu_Mugallu Muršili_Muršili Muwaharani_Muwaharani Muwattalli_Muwattalli Muwizi_Muwizi Nastes Nerikkaili_Nerikkaili Nomion Palla_Palla Panamuwa_Panamuwa Parita_Parita Pariya-muwas_Pariya-muwas Pihirim_Pihirim Pikre_Pikre Pisiri_Pisiri Piyamaradu_Piyamaradu Piyaššili_Piyaššili Pnusol_Pnusol Puhamme_Puhamme Qarli_Qarli Raqianu_Raqianu Runtiya_Runtiya Ruwantia_Ruwantia Sahu_Sahu Sahwi_Sahwi Sandasarme_Sandasarme Sanduarri_Sanduarri Sangara_Sangara Saruwani_Saruwani Sasi_Sasi Sastura_Sastura Satiruntiya_Satiruntiya Sjas Suhi_Suhi Sulumal_Sulumal Surri_Surri Suwarimi_Suwarimi Taita_Taita Talmi-Teššub_Talmi-Teššub Tarhunazi_Tarhunazi Tarhunta-piya_Tarhunta-piya Tašmi-Šarruma_Tašmi-Šarruma Telipinu_Telipinu Toi_Toi Tudhaliya_Tudhaliya Tuhamme_Tuhamme Tulli_Tulli Tur Tutammu_Tutammu Tuttu_Tuttu Tuwati_Tuwati Uhha-ziti_Uhha-ziti Ulmi-Teššub_Ulmi-Teššub Uppara-muwa_Uppara-muwa Ura-Tarhundas_Ura-Tarhundas Urahilina_Urahilina Uratami_Uratami Uratarhunza_Uratarhunza Urhi-Teššub_Urhi-Teššub Urimme_Urimme Ušhitti_Ušhitti Walwa-ziti_Walwa-ziti Warpalawa_Warpalawa Wasuruntiya_Wasuruntiya Wasusarma_Wasusarma Wliat_Wliat Yariri_Yariri Yau-bidi_Yau-bidi Zakur_Zakur Zannanza_Zannanza Zida_Zida Zidanta_Zidanta Šahurunuwa_Šahurunuwa Šarusol_Šarusol Šuppiluliuma_Šuppiluliuma
+		}
+		
+		female_names = {
+			Arinna_Arinna Ašmu-nikal_Ašmu-nikal Estan_Estan Gaššulawiya_Gaššulawiya Harapšeki_Harapšeki Harapšili_Harapšili Haštayara_Haštayara Hebat_Hebat Henti_Henti Istustaya_Istustaya Ištapariya_Ištapariya Kali_Kali Kiluš-Hepa_Kiluš-Hepa Maššanauzzi_Maššanauzzi Muwatti_Muwatti Nikal-mati_Nikal-mati Papaya_Papaya Pudu-Hepa_Pudu-Hepa Tadu-Hepa_Tadu-Hepa Tanu-Hepa_Tanu-Hepa Tawannanna_Tawannanna Walanni_Walanni Wirisemu_Wirisemu Yaya_Yaya
+		}
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+	
+	mysian = {
+		graphical_cultures = { anatoliangfx }
+
+		color = { 0.7 0.8 0.4 }
+
+		male_names = {
+			Adduwa_Adduwa Ahabbu_Ahabbu Ahuni_Ahuni Alaksandu_Alaksandu Alalimi_Alalimi Ali-ziti_Ali-ziti Alihhešni_Alihhešni Alluwamna_Alluwamna Ambaris_Ambaris Ammuna_Ammuna Anitta_Anitta Appuašu_Appuašu Ari-Šarruma_Ari-Šarruma Ariyahina_Ariyahina Arnuwanda_Arnuwanda Arnuwanti_Arnuwanti Ashwisi_Ashwisi Astiruwa_Astiruwa Astuwalamanza_Astuwalamanza Awariku_Awariku Azatiwata_Azatiwata Bamah_Bamah Bentišina_Bentišina Dadi-Ilu_Dadi-Ilu Eni-Ilu_Eni-Ilu Gabbar_Gabbar Gunzinanu_Gunzinanu Gurdi_Gurdi Gusi_Gusi Hadram_Hadram Hadyan_Hadyan Halpa-šulupi_Halpa-šulupi Hamiyata_Hamiyata Hannutti_Hannutti Hantili_Hantili Hapatila_Hapatila Hattuša-Kurunta_Hattuša-Kurunta Hayya_Hayya Hazael_Hazael Hešni_Hešni Hilaruada_Hilaruada Hulli_Hulli Huzziya_Huzziya Ini-Teššub_Ini-Teššub Ir-Teššub_Ir-Teššub Iškallu_Iškallu Kamani_Kamani Kammaliya_Kammaliya Katuwa_Katuwa Katuzili_Katuzili Kikki_Kikki Kilamuwa_Kilamuwa Kirri_Kirri Kirua_Kirua Kiyakiya_Kiyakiya Kundašpu_Kundašpu Kupanta-Kurunta_Kupanta-Kurunta Kurti_Kurti Kurunta_Kurunta Kuzi-Teššub_Kuzi-Teššub Labarna_Labarna Lalli_Lalli Larama_Larama Mahhuzzi_Mahhuzzi Manana_Manana Mari_Mari Martiti_Martiti Mati-Ilu_Mati-Ilu Mašturi_Mašturi Mittanna-muwa_Mittanna-muwa Mugallu_Mugallu Muršili_Muršili Muwaharani_Muwaharani Muwattalli_Muwattalli Muwizi_Muwizi Nerikkaili_Nerikkaili Palla_Palla Panamuwa_Panamuwa Parita_Parita Pariya-muwas_Pariya-muwas Pihirim_Pihirim Pisiri_Pisiri Piyamaradu_Piyamaradu Piyaššili_Piyaššili Puhamme_Puhamme Qarli_Qarli Raqianu_Raqianu Runtiya_Runtiya Ruwantia_Ruwantia Sahu_Sahu Sahwi_Sahwi Sandasarme_Sandasarme Sanduarri_Sanduarri Sangara_Sangara Saruwani_Saruwani Sasi_Sasi Sastura_Sastura Satiruntiya_Satiruntiya Suhi_Suhi Sulumal_Sulumal Surri_Surri Suwarimi_Suwarimi Taita_Taita Talmi-Teššub_Talmi-Teššub Tarhunazi_Tarhunazi Tarhunta-piya_Tarhunta-piya Tašmi-Šarruma_Tašmi-Šarruma Telipinu_Telipinu Toi_Toi Tudhaliya_Tudhaliya Tuhamme_Tuhamme Tulli_Tulli Tutammu_Tutammu Tuttu_Tuttu Tuwati_Tuwati Uhha-ziti_Uhha-ziti Ulmi-Teššub_Ulmi-Teššub Uppara-muwa_Uppara-muwa Ura-Tarhundas_Ura-Tarhundas Urahilina_Urahilina Uratami_Uratami Uratarhunza_Uratarhunza Urhi-Teššub_Urhi-Teššub Urimme_Urimme Ušhitti_Ušhitti Walwa-ziti_Walwa-ziti Warpalawa_Warpalawa Wasuruntiya_Wasuruntiya Wasusarma_Wasusarma Yariri_Yariri Yau-bidi_Yau-bidi Zakur_Zakur Zannanza_Zannanza Zida_Zida Zidanta_Zidanta Šahurunuwa_Šahurunuwa Šuppiluliuma_Šuppiluliuma
+		}
+		
+		female_names = {
+			Arinna_Arinna Ašmu-nikal_Ašmu-nikal Estan_Estan Gaššulawiya_Gaššulawiya Harapšeki_Harapšeki Harapšili_Harapšili Haštayara_Haštayara Hebat_Hebat Henti_Henti Istustaya_Istustaya Ištapariya_Ištapariya Kali_Kali Kiluš-Hepa_Kiluš-Hepa Maššanauzzi_Maššanauzzi Muwatti_Muwatti Nikal-mati_Nikal-mati Papaya_Papaya Pudu-Hepa_Pudu-Hepa Tadu-Hepa_Tadu-Hepa Tanu-Hepa_Tanu-Hepa Tawannanna_Tawannanna Walanni_Walanni Wirisemu_Wirisemu Yaya_Yaya
+		}
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
 
 	kaskian = {
 		graphical_cultures = { anatoliangfx }
@@ -230,37 +215,11 @@ anatolian = {
 		color = { 0.1 0.2 0.3 }
 
 		male_names = {
-			Abeshla Ahuni Ambaris Ammuna Ariyahina Arnuwanda Arnuwanti Ashwisi Astiruwa Astuwalamanza Awariku 
-			Duduška 
-			Gabbar Gazziura Gunzinanu Gurdi Gusi Hašhatatta 
-			Ini-Teššub Ir-Teššub Iškallu 
-			Kadudupa Kamani Kapagapa Karikurišga Katuwa Katuzili Kaška Kaškaili Kaškamuwa Kikki Kilamuwa Kirri Kirua Kiyakiya Kundašpu Kurti Kuzi-Teššub 
-			Labarna Lalli Larama 
-			Manana Mari Martiti Mati-Ilu Munišga Mursili Muwaharani Muwatalli Muwizi 
-			Panamuwa Parita Pihhuniya Pihirim Pisiri Piyamaradu Piyaššili Puhamme 
-			Qarli 
-			Raqianu Runtiya 
-			Sahu Sahurunuwa Sahwi Sandasarme Sanduarri Sangara Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Surri Suwarimi 
-			Tahantatipa Taita Tarhunazi Tarittara Tatiška Taštarešša Tiliura Toi Tuhamme Tulli Tutammu Tuwati 
-			Urahilina Uratami Uratarhunza Urauna Urimme Ušhitti 
-			Warpalawa Wasuruntiya Wasusarma 
-			Yariri Yau-bidi 
-			Zakur Zianteška Zidanta
+			Adduwa_Adduwa Ahabbu_Ahabbu Ahuni_Ahuni Alaksandu_Alaksandu Alalimi_Alalimi Ali-ziti_Ali-ziti Alihhešni_Alihhešni Alluwamna_Alluwamna Ambaris_Ambaris Ammuna_Ammuna Anitta_Anitta Appuašu_Appuašu Ari-Šarruma_Ari-Šarruma Ariyahina_Ariyahina Arnuwanda_Arnuwanda Arnuwanti_Arnuwanti Ashwisi_Ashwisi Astiruwa_Astiruwa Astuwalamanza_Astuwalamanza Awariku_Awariku Azatiwata_Azatiwata Bamah_Bamah Bentišina_Bentišina Dadi-Ilu_Dadi-Ilu Eni-Ilu_Eni-Ilu Gabbar_Gabbar Gunzinanu_Gunzinanu Gurdi_Gurdi Gusi_Gusi Hadram_Hadram Hadyan_Hadyan Halpa-šulupi_Halpa-šulupi Hamiyata_Hamiyata Hannutti_Hannutti Hantili_Hantili Hapatila_Hapatila Hattuša-Kurunta_Hattuša-Kurunta Hayya_Hayya Hazael_Hazael Hešni_Hešni Hilaruada_Hilaruada Hulli_Hulli Huzziya_Huzziya Ini-Teššub_Ini-Teššub Ir-Teššub_Ir-Teššub Iškallu_Iškallu Kamani_Kamani Kammaliya_Kammaliya Katuwa_Katuwa Katuzili_Katuzili Kikki_Kikki Kilamuwa_Kilamuwa Kirri_Kirri Kirua_Kirua Kiyakiya_Kiyakiya Kundašpu_Kundašpu Kupanta-Kurunta_Kupanta-Kurunta Kurti_Kurti Kurunta_Kurunta Kuzi-Teššub_Kuzi-Teššub Labarna_Labarna Lalli_Lalli Larama_Larama Mahhuzzi_Mahhuzzi Manana_Manana Mari_Mari Martiti_Martiti Mati-Ilu_Mati-Ilu Mašturi_Mašturi Mittanna-muwa_Mittanna-muwa Mugallu_Mugallu Muršili_Muršili Muwaharani_Muwaharani Muwattalli_Muwattalli Muwizi_Muwizi Nerikkaili_Nerikkaili Palla_Palla Panamuwa_Panamuwa Parita_Parita Pariya-muwas_Pariya-muwas Pihirim_Pihirim Pisiri_Pisiri Piyamaradu_Piyamaradu Piyaššili_Piyaššili Puhamme_Puhamme Qarli_Qarli Raqianu_Raqianu Runtiya_Runtiya Ruwantia_Ruwantia Sahu_Sahu Sahwi_Sahwi Sandasarme_Sandasarme Sanduarri_Sanduarri Sangara_Sangara Saruwani_Saruwani Sasi_Sasi Sastura_Sastura Satiruntiya_Satiruntiya Suhi_Suhi Sulumal_Sulumal Surri_Surri Suwarimi_Suwarimi Taita_Taita Talmi-Teššub_Talmi-Teššub Tarhunazi_Tarhunazi Tarhunta-piya_Tarhunta-piya Tašmi-Šarruma_Tašmi-Šarruma Telipinu_Telipinu Toi_Toi Tudhaliya_Tudhaliya Tuhamme_Tuhamme Tulli_Tulli Tutammu_Tutammu Tuttu_Tuttu Tuwati_Tuwati Uhha-ziti_Uhha-ziti Ulmi-Teššub_Ulmi-Teššub Uppara-muwa_Uppara-muwa Ura-Tarhundas_Ura-Tarhundas Urahilina_Urahilina Uratami_Uratami Uratarhunza_Uratarhunza Urhi-Teššub_Urhi-Teššub Urimme_Urimme Ušhitti_Ušhitti Walwa-ziti_Walwa-ziti Warpalawa_Warpalawa Wasuruntiya_Wasuruntiya Wasusarma_Wasusarma Yariri_Yariri Yau-bidi_Yau-bidi Zakur_Zakur Zannanza_Zannanza Zida_Zida Zidanta_Zidanta Šahurunuwa_Šahurunuwa Šuppiluliuma_Šuppiluliuma
 		}
 		
 		female_names = {
-			Arinna Ašmu-nikal
-			Estan 
-			Gaššulawiya
-			Harapšili Harapšeki Haštayara Hebat Henti
-			Ištapariya Istustaya 
-			Kali Kiluš-Hepa
-			Maššanauzzi Muwatti
-			Nikal-mati
-			Papaya Pudu-Hepa
-			Tadu-Hepa Tanu-Hepa Tawannanna
-			Walanni Wirisemu
-			Yaya
+			Arinna_Arinna Ašmu-nikal_Ašmu-nikal Estan_Estan Gaššulawiya_Gaššulawiya Harapšeki_Harapšeki Harapšili_Harapšili Haštayara_Haštayara Hebat_Hebat Henti_Henti Istustaya_Istustaya Ištapariya_Ištapariya Kali_Kali Kiluš-Hepa_Kiluš-Hepa Maššanauzzi_Maššanauzzi Muwatti_Muwatti Nikal-mati_Nikal-mati Papaya_Papaya Pudu-Hepa_Pudu-Hepa Tadu-Hepa_Tadu-Hepa Tanu-Hepa_Tanu-Hepa Tawannanna_Tawannanna Walanni_Walanni Wirisemu_Wirisemu Yaya_Yaya
 		}
 
 		from_dynasty_prefix = "of "
@@ -282,41 +241,11 @@ anatolian = {
 		color = { 1 0.5 0.1 }
 
 		male_names = {
-			Adduwa Ahabbu Ahuni Alalimi Alihhešni Ali-Šarruma Ali-ziti Alluwamna Ambaris Ammuna Anitta Appuašu Ariyahina Ari-Šarruma Arnuwanda Arnuwanti Ashwisi Astiruwa Astuwalamanza Awariku Azatiwata
-			Bamah Bentišina
-			Dadi-Ilu
-			Ehli-Šarruma Eni-Ilu 
-			Gabbar Gunzinanu Gurdi Gusi
-			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hattušili Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
-			Ini-Teššub Ir-Teššub Iškallu 
-			Kamani Kammaliya Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
-			Labarna Lalli Larama
-			Mahhuzzi Manana Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
-			Nerikkaili
-			Palla Panamuwa Parita Pihirim Pisiri Piyamaradu Piyaššili Puhamme   
-			Raqianu Runtiya 
-			Šahurunuwa  Sanduarri Sangara Sahu Sahwi Sandasarme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
-			Taita Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Telipinu Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
-			Uhha-ziti Ulmi-Teššub Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
-			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
-			Zakur Zannanza Zida Zidanta
-			Yariri Yau-bidi
-			Qarli 
+			Adduwa Ahabbu Ahuni Alalimi Ali-ziti Ali-Šarruma Alihhešni Alluwamna Ambaris Ammuna Anitta Appuašu Ari-Šarruma Ariyahina Arnuwanda Arnuwanti Ashwisi Astiruwa Astuwalamanza Awariku Azatiwata Bamah Bentišina Dadi-Ilu Ehli-Šarruma Eni-Ilu Gabbar Gunzinanu Gurdi Gusi Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hantili Hapatila Hattuša-Kurunta Hattušili Hayya Hazael Hešni Hilaruada Hulli Huzziya Ini-Teššub Ir-Teššub Iškallu Kamani Kammaliya Katuwa Katuzili Kikki Kilamuwa Kirri Kirua Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub Labarna Lalli Larama Mahhuzzi Manana Mari Martiti Mati-Ilu Mašturi Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi Nerikkaili Palla Panamuwa Parita Pihirim Pisiri Piyamaradu Piyaššili Puhamme Qarli Raqianu Runtiya Sahu Sahwi Sandasarme Sanduarri Sangara Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Surri Suwarimi Taita Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Telipinu Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati Uhha-ziti Ulmi-Teššub Uppara-muwa Urahilina Uratami Uratarhunza Urhi-Teššub Urimme Ušhitti Walwa-ziti Warpalawa Wasuruntiya Wasusarma Yariri Yau-bidi Zakur Zannanza Zida Zidanta Šahurunuwa Šuppiluliuma
 		}
 		
 		female_names = {
-			Arinna Ašmu-nikal
-			Estan 
-			Gaššulawiya
-			Harapšili Harapšeki Haštayara Hebat Henti
-			Ištapariya Istustaya 
-			Kali Kiluš-Hepa
-			Maššanauzzi Muwatti
-			Nikal-mati
-			Papaya Pudu-Hepa
-			Tadu-Hepa Tanu-Hepa Tawannanna
-			Walanni Wirisemu
-			Yaya
+			Arinna Ašmu-nikal Estan Gaššulawiya Harapšeki Harapšili Haštayara Hebat Henti Istustaya Ištapariya Kali Kiluš-Hepa Maššanauzzi Muwatti Nikal-mati Papaya Pudu-Hepa Tadu-Hepa Tanu-Hepa Tawannanna Walanni Wirisemu Yaya
 		}
 
 		from_dynasty_prefix = "of "

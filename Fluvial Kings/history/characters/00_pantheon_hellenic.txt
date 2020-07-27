@@ -1332,7 +1332,7 @@
 
 1100180 = { #Kástor
 	name = "Kástor"
-	dynasty = 2100011 #Lacedaemonid
+	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
 	father = 2101006
@@ -1353,7 +1353,7 @@
 
 1100181 = { #Pollux
 	name = "Pollux"
-	dynasty = 2100011 #Lacedaemonid
+	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
 	father = 1100146

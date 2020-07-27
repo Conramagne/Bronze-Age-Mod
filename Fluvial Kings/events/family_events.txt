@@ -1144,23 +1144,23 @@ character_event = {
 }
 
 # The relative is disappointed
-character_event = {
-	id = 37053
-	desc = EVTDESC37053
-	picture = GFX_evt_bad_news
+# character_event = {
+	# id = 37053
+	# desc = EVTDESC37053
+	# picture = GFX_evt_bad_news
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = OK # Bleak news
-		set_character_flag = flag_denied_marriage
-		opinion = {
-			who = FROM
-			modifier = opinion_denied_marriage
-			months = 60
-		}
-	}
-}
+	# option = {
+		# name = OK # Bleak news
+		# set_character_flag = flag_denied_marriage
+		# opinion = {
+			# who = FROM
+			# modifier = opinion_denied_marriage
+			# months = 60
+		# }
+	# }
+# }
 
 # Relative reminds liege of promised marriage
 character_event = {

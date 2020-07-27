@@ -129,8 +129,8 @@ has_pious_trait_trigger = {
 		trait = on_pilgrimage
 		trait = pilgrim
 		is_ascetic_trigger = yes
-		trait = hajjaj
-		trait = on_hajj
+		#trait = hajjaj
+		# trait = on_hajj
 		trait = ashari
 		trait = shieldmaiden
 		trait = zealous
@@ -691,7 +691,7 @@ has_lifestyle_learning_trigger = {
 		trait = scholar
 		trait = theologian
 		trait = mystic
-		trait = faqih
+		#trait = faqih
 	}
 }
 
@@ -709,7 +709,7 @@ is_learned_trigger = {
 		trait = scholarly_theologian
 		trait = mastermind_theologian
 		trait = physician
-		trait = faqih
+		#trait = faqih
 	}
 }
 
@@ -1344,45 +1344,43 @@ can_be_councilmember_king_trigger = {
 			}
 		} 
 	}
-	AND = {
-		OR = {
-			AND = { #Patriarchal religions can only hire males. Matriarchal religions can only hire females.
-				is_female = no 
-				NOT = { liege = { has_religion_feature = religion_matriarchal } } 
-			}
-			AND = {
-				is_female = yes 
-				NOT = { liege = { has_religion_feature = religion_patriarchal } } 
-			}
-			AND = {
-				is_female = yes
-				OR = {
-					liege = {
-					primary_title = {
-							OR = {
-								has_law = status_of_women_1
-								has_law = status_of_women_2
-								has_law = status_of_women_3
-							}
+	OR = {
+		AND = { #Patriarchal religions can only hire males. Matriarchal religions can only hire females.
+			is_female = no 
+			NOT = { liege = { has_religion_feature = religion_matriarchal } } 
+		}
+		AND = {
+			is_female = yes 
+			NOT = { liege = { has_religion_feature = religion_patriarchal } } 
+		}
+		AND = {
+			is_female = yes
+			OR = {
+				liege = {
+				primary_title = {
+						OR = {
+							has_law = status_of_women_1
+							has_law = status_of_women_2
+							has_law = status_of_women_3
 						}
 					}
-					liege = { culture = amazonian }
 				}
-				is_landed = yes
+				liege = { culture = amazonian }
 			}
-			OR = {
-				AND = { 
-					is_female = yes
-					liege = { primary_title = { has_law = status_of_women_4 } } 
-				}
-				has_game_rule = {
-					name = gender
-					value = all
-				}
+			is_landed = yes
+		}
+		OR = {
+			AND = { 
+				is_female = yes
+				liege = { primary_title = { has_law = status_of_women_4 } } 
+			}
+			has_game_rule = {
+				name = gender
+				value = all
 			}
 		}
-		is_adult = yes
 	}
+	is_adult = yes
 }
 
 can_be_councilmember_emperor_trigger = {
@@ -1400,48 +1398,44 @@ can_be_councilmember_emperor_trigger = {
 		} 
 	}
 	OR = {
+		AND = { #Patriarchal religions can only hire males. Matriarchal religions can only hire females.
+			is_female = no 
+			NOT = { liege = { has_religion_feature = religion_matriarchal } } 
+		}
 		AND = {
-			OR = {
-				AND = { #Patriarchal religions can only hire males. Matriarchal religions can only hire females.
-					is_female = no 
-					NOT = { liege = { has_religion_feature = religion_matriarchal } } 
-				}
-				AND = {
-					is_female = yes 
-					OR = { 
-						liege = { has_religion_feature = religion_matriarchal } 
-						liege = { has_religion_feature = religion_equal } 
-						liege = { has_religion_feature = religion_feature_bon } 
-						liege = { culture = amazonian }
-					} 
-				}
-				AND = {
-					is_female = yes
-					liege = {
-						primary_title = {
-							OR = {
-								has_law = status_of_women_1
-								has_law = status_of_women_2
-								has_law = status_of_women_3
-							}
-						}
-					}
-					is_landed = yes
-				}
-				OR = {
-					AND = { 
-						is_female = yes
-						liege = { primary_title = { has_law = status_of_women_4 } } 
-					}
-					has_game_rule = {
-						name = gender
-						value = all
+			is_female = yes 
+			OR = { 
+				liege = { has_religion_feature = religion_matriarchal } 
+				liege = { has_religion_feature = religion_equal } 
+				liege = { has_religion_feature = religion_feature_bon } 
+				liege = { culture = amazonian }
+			} 
+		}
+		AND = {
+			is_female = yes
+			liege = {
+				primary_title = {
+					OR = {
+						has_law = status_of_women_1
+						has_law = status_of_women_2
+						has_law = status_of_women_3
 					}
 				}
 			}
-			is_adult = yes
+			is_landed = yes
+		}
+		OR = {
+			AND = { 
+				is_female = yes
+				liege = { primary_title = { has_law = status_of_women_4 } } 
+			}
+			has_game_rule = {
+				name = gender
+				value = all
+			}
 		}
 	}
+	is_adult = yes
 }
 
 ###REAPER'S DUE####
@@ -1486,7 +1480,7 @@ is_inaccessible_trigger = { #Remember to write this "is_inaccessible_trigger = n
 			OR = {
 				has_character_flag = flag_holding_great_tribal_festival
 				trait = in_hiding
-				trait = on_hajj
+				# # trait = on_hajj
 				trait = on_pilgrimage
 				trait = on_indian_pilgrimage
 				trait = kow_tow_travels
@@ -1841,16 +1835,15 @@ female_can_hold_minor_title_trigger = {
 			}
 			custom_tooltip = {
 				text = tooltip_feminist_liege_religion_feature
-				AND = {
-					OR = {
-						has_religion_feature = religion_equal
-						has_religion_feature = religion_matriarchal
-					}
-					liege = {
-						has_religion_feature = religion_equal
-						has_religion_feature = religion_matriarchal
-					}
+				OR = {
+					has_religion_feature = religion_equal
+					has_religion_feature = religion_matriarchal
 				}
+				liege = {
+					has_religion_feature = religion_equal
+					has_religion_feature = religion_matriarchal
+				}
+				
 			}
 			primary_title = {
 				OR = {
@@ -1887,25 +1880,23 @@ female_can_hold_minor_commander_title_trigger = {
 				trait = shieldmaiden
 				liege = { religion = ROOT }
 			}
-			AND = {
-				is_member_of_any_warrior_lodge_trigger = yes
-				liege = { religion = ROOT }
-			}
+			# AND = {
+				# is_member_of_any_warrior_lodge_trigger = yes
+				# liege = { religion = ROOT }
+			# }
 			AND = {
 				culture = amazonian
 				liege = { culture = ROOT }
 			}
 			custom_tooltip = {
 				text = tooltip_feminist_liege_religion_feature
-				AND = {
-					OR = {
-						has_religion_feature = religion_equal
-						has_religion_feature = religion_matriarchal
-					}
-					liege = {
-						has_religion_feature = religion_equal
-						has_religion_feature = religion_matriarchal
-					}
+				OR = {
+					has_religion_feature = religion_equal
+					has_religion_feature = religion_matriarchal
+				}
+				liege = {
+					has_religion_feature = religion_equal
+					has_religion_feature = religion_matriarchal
 				}
 			}
 			primary_title = {
@@ -2818,15 +2809,16 @@ is_ill_trigger = {
 is_devil_worshiper_trigger = {
 	custom_tooltip = {
 		text = IS_DEVIL_WORSHIPPER_TRIGGER
-		OR = {
-			society_member_of = the_satanists
-			society_member_of = the_cold_ones
-			society_member_of = the_plaguebringers
-			society_member_of = the_cult_of_kali
-			society_member_of = the_trollcrafters
-			society_member_of = the_vodouns
-			society_member_of = the_bacchants
-		}
+		always = no
+		# OR = {
+			# society_member_of = the_satanists
+			# society_member_of = the_cold_ones
+			# society_member_of = the_plaguebringers
+			# society_member_of = the_cult_of_kali
+			# society_member_of = the_trollcrafters
+			# society_member_of = the_vodouns
+			# society_member_of = the_bacchants
+		# }
 	}
 }
 
@@ -2858,28 +2850,30 @@ has_negative_congenital_trigger = {
 
 
 is_christian_monastic_member_trigger = {
-	OR = {
-		society_member_of = monastic_order_orthodox
-		society_member_of = monastic_order_benedictine
-		society_member_of = monastic_order_dominican
-		society_member_of = monastic_order_nestorian
-		society_member_of = monastic_order_monophysite
-	}
+	always = no
+	# OR = {
+		# society_member_of = monastic_order_orthodox
+		# society_member_of = monastic_order_benedictine
+		# society_member_of = monastic_order_dominican
+		# society_member_of = monastic_order_nestorian
+		# society_member_of = monastic_order_monophysite
+	# }
 }
 
 is_dharmic_monastic_member_trigger = {
-	OR = {
-		society_member_of = monastic_order_hindu
-		society_member_of = monastic_order_buddhist
-		society_member_of = monastic_order_jain
-	}
+	always = no
+	# OR = {
+		# society_member_of = monastic_order_hindu
+		# society_member_of = monastic_order_buddhist
+		# society_member_of = monastic_order_jain
+	# }
 }
 
 is_monastic_member_trigger = {
 	OR = {
 		is_dharmic_monastic_member_trigger = yes
 		is_christian_monastic_member_trigger = yes
-		society_member_of = monastic_order_stoics
+		# society_member_of = monastic_order_stoics
 	}
 }
 
@@ -4971,7 +4965,7 @@ can_be_asked_to_leave_court_trigger = {
 			OR = {
 				has_character_flag = flag_holding_great_tribal_festival
 				trait = in_hiding
-				trait = on_hajj
+				# trait = on_hajj
 				trait = on_pilgrimage
 				trait = on_indian_pilgrimage
 				trait = kow_tow_travels
@@ -5926,11 +5920,12 @@ same_true_religion_as_root_trigger = {
 }
 
 has_dharmic_religion_trigger = {
-	OR = {
-		religion = hindu
-		religion = buddhist
-		religion = jain
-	}
+	always = no
+	# OR = {
+		# religion = hindu
+		# religion = buddhist
+		# religion = jain
+	# }
 }
 
 ###CHINA TRIGGERS###
@@ -7743,9 +7738,9 @@ this_has_lame_nickname_trigger = {
 		has_nickname = nick_the_bewitched 
 		has_nickname = nick_priest_hater 
 		has_nickname = nick_the_pious 
-		has_nickname = nick_the_blessed 
-		has_nickname = nick_the_monk 
-		has_nickname = nick_the_nun 
+		# has_nickname = nick_the_blessed 
+		# has_nickname = nick_the_monk 
+		# has_nickname = nick_the_nun 
 		has_nickname = nick_the_ill_ruler 
 		has_nickname = nick_the_terrible 
 		has_nickname = nick_the_oppressor 
@@ -7756,7 +7751,7 @@ this_has_lame_nickname_trigger = {
 		has_nickname = nick_the_old 
 		has_nickname = nick_the_hunchback 
 		has_nickname = nick_the_scholar 
-		has_nickname = nick_the_black 
+		# has_nickname = nick_the_black 
 		has_nickname = nick_the_healer 
 		has_nickname = nick_the_unmercenary_healer 
 		has_nickname = nick_the_understanding 
@@ -7859,8 +7854,8 @@ this_has_average_nickname_trigger = {
 		has_nickname = nick_the_lord_of_realm
 		has_nickname = nick_the_beanstalk 
 		has_nickname = nick_the_accursed 
-		has_nickname = nick_the_apostle 
-		has_nickname = nick_the_confessor 
+		# has_nickname = nick_the_apostle 
+		# has_nickname = nick_the_confessor 
 		has_nickname = nick_the_ironside 
 		has_nickname = nick_the_lion 
 		has_nickname = nick_the_bold 
@@ -7975,7 +7970,7 @@ this_has_cool_nickname_trigger = {
 		has_nickname = nick_of_a_thousand_faces
 		has_nickname = nick_the_plaguebearer
 		has_nickname = nick_the_persevering
-		has_nickname = nick_twistedbeard 
+		# has_nickname = nick_twistedbeard 
 		has_nickname = nick_the_bear 
 		has_nickname = nick_the_boar 
 		has_nickname = nick_the_faceless 
@@ -8010,9 +8005,9 @@ this_has_cool_nickname_trigger = {
 		has_nickname = nick_the_scarlet_eagle
 		has_nickname = nick_the_exalted_chosen_of_province
 		has_nickname = nick_the_scarlet_painter
-		has_nickname = nick_the_ladder_legs
-		has_nickname = nick_the_peacock
-		has_nickname = nick_the_bellower
+		# has_nickname = nick_the_ladder_legs
+		# has_nickname = nick_the_peacock
+		# has_nickname = nick_the_bellower
 	}
 }
 this_has_super_cool_nickname_trigger = {
@@ -8144,7 +8139,7 @@ can_enter_festival_physical_competitions_trigger = {
 			is_female = no
 			OR = { 
 				NOT = { has_religion_feature = religion_matriarchal }
-				is_member_of_any_warrior_lodge_trigger = yes
+				#is_member_of_any_warrior_lodge_trigger = yes
 				has_character_flag = special_marshal
 			}
 		}
@@ -8154,7 +8149,7 @@ can_enter_festival_physical_competitions_trigger = {
 				trait = shieldmaiden
 				has_religion_feature = religion_matriarchal 
 				has_character_flag = special_marshal
-				is_member_of_any_warrior_lodge_trigger = yes
+				#is_member_of_any_warrior_lodge_trigger = yes
 			}
 		}
 	}

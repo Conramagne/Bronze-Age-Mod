@@ -139,10 +139,10 @@ character_event = {
 			factor = 0.85
 			trait = proud
 		}
-		modifier = {
-			factor = 0.85
-			trait = sayyid
-		}
+		# modifier = {
+			# factor = 0.85
+			# trait = sayyid
+		# }
 		modifier = {
 			factor = 1.5
 			trait = slothful
@@ -239,10 +239,6 @@ character_event = {
 		
 		character_event = { id = TOG.1215 days = 730 }
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
@@ -263,6 +259,9 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA_TOG_1201"
+	}
+	option = {
+		name = OK
 	}
 }
 
@@ -721,7 +720,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = OK
 	}
@@ -815,7 +814,7 @@ character_event = {
 		NOT = { trait = content }
 		NOT = { trait = craven }
 		
-		OR = { # Only these for now
+		# OR = { # Only these for now
 			# culture_group = north_germanic
 			# culture_group = west_germanic
 			# culture_group = altaic
@@ -828,7 +827,7 @@ character_event = {
 				# NOT = { year = 1066 }
 			# }
 			has_character_flag = demon_child_non_pagan
-		}
+		# }
 		
 		NOT = { # Somewhat clunky way of checking that the character does not stand to inherit any titles
 			any_heir_title = {
@@ -1000,14 +999,14 @@ character_event = {
 							}
 						}
 					}
-					NOT = {
-						region = world_europe_north
-					}
-					NOT = {
-						duchy = {
-							title = d_bjarmia
-						}
-					}
+					# NOT = {
+						# region = world_europe_north
+					# }
+					# NOT = {
+						# duchy = {
+							# title = d_bjarmia
+						# }
+					# }
 				}
 				ROOT = {
 					NOR = {
@@ -1039,14 +1038,14 @@ character_event = {
 							}
 						}
 					}
-					NOT = {
-						region = world_europe_north
-					}
-					NOT = {
-						duchy = {
-							title = d_bjarmia
-						}
-					}
+					# NOT = {
+						# region = world_europe_north
+					# }
+					# NOT = {
+						# duchy = {
+							# title = d_bjarmia
+						# }
+					# }
 				}
 				
 				ROOT = {
@@ -1077,7 +1076,7 @@ character_event = {
 		set_character_flag = do_not_disturb
 		character_event = { id = TOG.1215 days = 730 }
 	}
-	
+
 	option = {
 		name = OK
 	}
@@ -1135,27 +1134,27 @@ character_event = {
 			NOT = { is_vassal_or_below = ROOT }
 			any_realm_province = {
 				OR = {
-					AND = {
+					# AND = {
 						port = yes
 						# ROOT = {
 							# NOT = { culture_group = altaic }
 							# NOT = { culture = hungarian }
 						# }
-					}
+					# }
 					any_neighbor_province = {
 						owner = {
 							same_realm = ROOT
 						}
 					}
 				}
-				NOT = {
-					region = world_europe_north
-				}
-				NOT = {
-					duchy = {
-						title = d_bjarmia
-					}
-				}
+				# NOT = {
+					# region = world_europe_north
+				# }
+				# NOT = {
+					# duchy = {
+						# title = d_bjarmia
+					# }
+				# }
 			}
 			ROOT = {
 				NOR = {
@@ -1191,27 +1190,27 @@ character_event = {
 						NOT = { is_vassal_or_below = ROOT }
 						any_realm_province = {
 							OR = {
-								AND = {
+								# AND = {
 									port = yes
 									# ROOT = {
 										# NOT = { culture_group = altaic }
 										# NOT = { culture = hungarian }
 									# }
-								}
+								# }
 								any_neighbor_province = {
 									owner = {
 										same_realm = ROOT
 									}
 								}
 							}
-							NOT = {
-								region = world_europe_north
-							}
-							NOT = {
-								duchy = {
-									title = d_bjarmia
-								}
-							}
+							# NOT = {
+								# region = world_europe_north
+							# }
+							# NOT = {
+								# duchy = {
+									# title = d_bjarmia
+								# }
+							# }
 						}
 						ROOT = {
 							NOR = {
@@ -1227,27 +1226,27 @@ character_event = {
 					random_realm_province = {
 						limit = {
 							OR = {
-								AND = {
+								# AND = {
 									port = yes
 									# ROOT = {
 										# NOT = { culture_group = altaic }
 										# NOT = { culture = hungarian }
 									# }
-								}
+								# }
 								any_neighbor_province = {
 									owner = {
 										same_realm = ROOT
 									}
 								}
 							}
-							NOT = {
-								region = world_europe_north
-							}
-							NOT = {
-								duchy = {
-									title = d_bjarmia
-								}
-							}
+							# NOT = {
+								# region = world_europe_north
+							# }
+							# NOT = {
+								# duchy = {
+									# title = d_bjarmia
+								# }
+							# }
 						}
 						
 						ROOT = {
@@ -1331,8 +1330,8 @@ character_event = {
 		
 		if  = {
 			limit = {
-				NOT = { culture_group = altaic }
-				NOT = { culture = hungarian }
+				# NOT = { culture_group = altaic }
+				# NOT = { culture = hungarian }
 			}
 			
 			# Create a fleet, just to be sure
@@ -1347,7 +1346,7 @@ character_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = OK
 	}

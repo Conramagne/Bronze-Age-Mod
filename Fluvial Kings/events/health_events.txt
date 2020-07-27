@@ -571,7 +571,7 @@ character_event = {
 			NOT = {
 				has_character_flag = flag_god
 			} 
-			NOT = { religion_group = muslim } 
+			# NOT = { religion_group = muslim } 
 		}
 	}
 	# desc = {
@@ -1304,66 +1304,66 @@ character_event = {
 }
 
 #Wounded
-character_event = {
-	id = 6080
-	desc = EVTDESC6080
-	picture = GFX_evt_illness
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6080
+	# desc = EVTDESC6080
+	# picture = GFX_evt_illness
+	# border = GFX_event_normal_frame_religion
 	
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	is_triggered_only = yes
+	# min_age = 16
+	# only_capable = yes
+	# prisoner = no
+	# is_triggered_only = yes
 	
-	trigger = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-		OR = {
-			trait = hunter
-			in_command = yes
-			trait = brave
-		}
-		NOR = {
-			trait = wounded
-			is_maimed_trigger = yes
-		}		
-	}
+	# trigger = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+		# OR = {
+			# trait = hunter
+			# in_command = yes
+			# trait = brave
+		# }
+		# NOR = {
+			# trait = wounded
+			# is_maimed_trigger = yes
+		# }		
+	# }
 	
-	weight_multiplier = {
-		days = 1
+	# weight_multiplier = {
+		# days = 1
 		
-		modifier = {
-			factor = 1.1
-			trait = brave
-		}
+		# modifier = {
+			# factor = 1.1
+			# trait = brave
+		# }
 		
-		modifier = {
-			factor = 1.25
-			in_command = yes
-		}
+		# modifier = {
+			# factor = 1.25
+			# in_command = yes
+		# }
 		
-		modifier = {
-			factor = 1.4
-			is_ruler = yes
-		}
+		# modifier = {
+			# factor = 1.4
+			# is_ruler = yes
+		# }
 		
-		modifier = {
-			factor = 1.666
-			trait = misguided_warrior
-		}
+		# modifier = {
+			# factor = 1.666
+			# trait = misguided_warrior
+		# }
 		
-		modifier = {
-			factor = 0.9
-			trait = paranoid
-		}
-	}
+		# modifier = {
+			# factor = 0.9
+			# trait = paranoid
+		# }
+	# }
 	
-	option = {
-		name = EVTOPTA6080
-		add_trait = wounded
-	}
-}
+	# option = {
+		# name = EVTOPTA6080
+		# add_trait = wounded
+	# }
+# }
 
 #Remove Wounded
 character_event = {
@@ -4266,105 +4266,105 @@ character_event = {
 # }
 
 # Visiting a quaint village
-character_event = {
-	id = 6354
-	desc = EVTDESC6354
-	picture = GFX_evt_shadowy_cabal
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6354
+	# desc = EVTDESC6354
+	# picture = GFX_evt_shadowy_cabal
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
-	is_triggered_only = yes
+	# hide_from = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA6354
-		character_event = { id = 6355 days = 7 tooltip = EVTTOOLTIP6355 }
-	}
-}
+	# option = {
+		# name = EVTOPTA6354
+		# character_event = { id = 6355 days = 7 tooltip = EVTTOOLTIP6355 }
+	# }
+# }
 
 # A seaside ritual
-character_event = {
-	id = 6355
-	desc = EVTDESC6355
-	picture = GFX_evt_shadowy_cabal
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6355
+	# desc = EVTDESC6355
+	# picture = GFX_evt_shadowy_cabal
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
-	is_triggered_only = yes
+	# hide_from = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA6355
-		change_learning = 1
-		character_event = { id = 6356 days = 1 tooltip = EVTTOOLTIP6356 }
-	}
-}
+	# option = {
+		# name = EVTOPTA6355
+		# change_learning = 1
+		# character_event = { id = 6356 days = 1 tooltip = EVTTOOLTIP6356 }
+	# }
+# }
 
 # Something rises from the sea...
-character_event = {
-	id = 6356
-	desc = EVTDESC6356
-	picture = GFX_evt_shadowy_cabal
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6356
+	# desc = EVTDESC6356
+	# picture = GFX_evt_shadowy_cabal
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
-	is_triggered_only = yes
+	# hide_from = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA6356
-		piety = 100
-		death = { death_reason = death_sacrificed }
-	}
-	option = {
-		name = EVTOPTB6356
-		character_event = { id = 6357 days = 1 tooltip = EVTTOOLTIP6357 }
-	}
-}
+	# option = {
+		# name = EVTOPTA6356
+		# piety = 100
+		# death = { death_reason = death_sacrificed }
+	# }
+	# option = {
+		# name = EVTOPTB6356
+		# character_event = { id = 6357 days = 1 tooltip = EVTTOOLTIP6357 }
+	# }
+# }
 
 # Commendeer a longship
-character_event = {
-	id = 6357
-	desc = EVTDESC6357
-	picture = GFX_evt_kraken
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6357
+	# desc = EVTDESC6357
+	# picture = GFX_evt_kraken
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
-	is_triggered_only = yes
+	# hide_from = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA6357
-		character_event = { id = 6358 days = 1 tooltip = EVTTOOLTIP6358 }
-	}
-}
+	# option = {
+		# name = EVTOPTA6357
+		# character_event = { id = 6358 days = 1 tooltip = EVTTOOLTIP6358 }
+	# }
+# }
 
 # Waking up
-character_event = {
-	id = 6358
-	desc = EVTDESC6358
-	picture = GFX_evt_recovery
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 6358
+	# desc = EVTDESC6358
+	# picture = GFX_evt_recovery
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
-	is_triggered_only = yes
+	# hide_from = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA6358
-		prestige = 100
-		if = {
-			limit = { lifestyle_traits = 1 }
-			change_learning = 1
-		}		
-		if = {
-			limit = {
-				NOT = { lifestyle_traits = 1 }
-				NOT = { has_dlc = "Way of Life" }
-			}
-			add_trait = scholar
-		}
-	}
-	option = {
-		name = EVTOPTB6358
-		add_character_modifier = { name = "killed_an_old_one" duration = -1 }
-	}	
-}
+	# option = {
+		# name = EVTOPTA6358
+		# prestige = 100
+		# if = {
+			# limit = { lifestyle_traits = 1 }
+			# change_learning = 1
+		# }		
+		# if = {
+			# limit = {
+				# NOT = { lifestyle_traits = 1 }
+				# NOT = { has_dlc = "Way of Life" }
+			# }
+			# add_trait = scholar
+		# }
+	# }
+	# option = {
+		# name = EVTOPTB6358
+		# add_character_modifier = { name = "killed_an_old_one" duration = -1 }
+	# }	
+# }
 
 #Lover's pox adding and notification
 character_event = {

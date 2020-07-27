@@ -3,5 +3,5 @@ title=c_khbide
 max_settlements= 1
 b_khbide=castle
 
-culture=luwian
+culture=carian
 religion=haianiluwi

@@ -2,6 +2,17 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
+2440.1.1={
 	liege=d_sfard
+	holder = 2200903 #Manes
 }
+2480.1.1={
+	holder = 2200902 #Atus
+}
+2500.1.1={
+	holder = 2200901 #Ludos
+}
+2520.1.1={
+	holder = 2200900 #Iardanos
+}
+

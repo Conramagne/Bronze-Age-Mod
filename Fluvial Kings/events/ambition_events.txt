@@ -509,15 +509,15 @@ character_event = {
 	desc = {
 		text = EVTDESC94018
 		trigger = {
-			capital_scope = { NOT = { region = world_india } }
+			# capital_scope = { NOT = { region = world_india } }
 		} 
 	}
-	desc = {
-		text = EVTDESC94018_india
-		trigger = {
-			capital_scope = { region = world_india }
-		}
-	}
+	# desc = {
+		# text = EVTDESC94018_india
+		# trigger = {
+			# capital_scope = { region = world_india }
+		# }
+	# }
 	
 	capable_only = yes
 	only_rulers = yes
@@ -551,7 +551,7 @@ character_event = {
 	option = {
 		name = EVTOPTA94018
 		trigger = {
-			capital_scope = { NOT = { region = world_india } }
+			# capital_scope = { NOT = { region = world_india } }
 			OR = {
 				has_ambition = obj_improve_martial
 				NOT = { martial = 8 }
@@ -559,17 +559,17 @@ character_event = {
 		}
 		change_martial = 1
 	}
-	option = {
-		name = EVTOPTB_94018
-		trigger = {
-			capital_scope = { region = world_india }
-			OR = {
-				has_ambition = obj_improve_martial
-				NOT = { martial = 8 }
-			}
-		}
-		change_martial = 1
-	}
+	# option = {
+		# name = EVTOPTB_94018
+		# trigger = {
+			# capital_scope = { region = world_india }
+			# OR = {
+				# has_ambition = obj_improve_martial
+				# NOT = { martial = 8 }
+			# }
+		# }
+		# change_martial = 1
+	# }
 	option = {
 		name = EVTOPTC_94018     # Study further
 		trigger = {
@@ -593,19 +593,19 @@ character_event = {
 	desc = {
 		text = EVTDESC_94019
 		trigger = {
-			capital_scope = {
-				NOT = { region = world_india }
-			}
+			# capital_scope = {
+				# NOT = { region = world_india }
+			# }
 		} 
 	}
-	desc = {
-		text = EVTDESC_94019_india
-		trigger = {
-			capital_scope = {
-				region = world_india
-			}
-		}
-	}
+	# desc = {
+		# text = EVTDESC_94019_india
+		# trigger = {
+			# capital_scope = {
+				# region = world_india
+			# }
+		# }
+	# }
 	
 	is_triggered_only = yes
 	
@@ -841,16 +841,16 @@ character_event = {
 		character_event = { id = 94055 days = 30 random = 10 tooltip = EVTTOOLTIP94055 }
 		wealth = -10
 	}
-	# option = {
-		# name = EVTOPTC94053
+	option = {
+		name = EVTOPTC94053
 		# trigger = {
 			# NOT = {
 				# religion_group = indian_group
 			# }
 		# }
-		# character_event = { id = 94056 days = 30 random = 10 tooltip = EVTTOOLTIP94056 }
-		# wealth = -15
-	# }
+		character_event = { id = 94056 days = 30 random = 10 tooltip = EVTTOOLTIP94056 }
+		wealth = -15
+	}
 	option = {
 		name = EVTOPTD94053
 		character_event = { id = 94057 days = 30 random = 10 tooltip = EVTTOOLTIP94057 }
@@ -858,25 +858,25 @@ character_event = {
 }
 
 # Clergyman
-character_event = {
-	id = 94054
-	desc = EVTDESC94054
-	picture = GFX_evt_drunk
-	border = GFX_event_normal_frame_economy
+# character_event = {
+	# id = 94054
+	# desc = EVTDESC94054
+	# picture = GFX_evt_drunk
+	# border = GFX_event_normal_frame_economy
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94054
-		hidden_tooltip = {
-			character_event = { id = 94059 days = 5 }
-			character_event = { id = 94058 days = 5 }
-		}
-		wealth = 10
-	}
-}
+	# option = {
+		# name = EVTOPTA94054
+		# hidden_tooltip = {
+			# character_event = { id = 94059 days = 5 }
+			# character_event = { id = 94058 days = 5 }
+		# }
+		# wealth = 10
+	# }
+# }
 
 # Bard
 character_event = {
@@ -1392,72 +1392,72 @@ character_event = {
 }
 
 # Otis Flies
-character_event = {
-	id = 94083
-	desc = EVTDESC94083
-	picture = GFX_evt_bloody_man
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94083
+	# desc = EVTDESC94083
+	# picture = GFX_evt_bloody_man
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94083
-		character_event = { id = 94086 days = 5 tooltip = EVTTOOLTIP94086 }
-	}
-}
+	# option = {
+		# name = EVTOPTA94083
+		# character_event = { id = 94086 days = 5 tooltip = EVTTOOLTIP94086 }
+	# }
+# }
 
 # al-Otis Flies (Muslim version)
-character_event = {
-	id = 94092
-	desc = EVTDESC94092
-	picture = GFX_evt_bloody_man
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94092
+	# desc = EVTDESC94092
+	# picture = GFX_evt_bloody_man
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94092
-		character_event = { id = 94094 days = 5 tooltip = EVTTOOLTIP94086 }
-	}
-}
+	# option = {
+		# name = EVTOPTA94092
+		# character_event = { id = 94094 days = 5 tooltip = EVTTOOLTIP94086 }
+	# }
+# }
 
 # Meldrick Flies
-character_event = {
-	id = 94084
-	desc = EVTDESC94084
-	picture = GFX_evt_bloody_man
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94084
+	# desc = EVTDESC94084
+	# picture = GFX_evt_bloody_man
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94084
-		character_event = { id = 94087 days = 5 tooltip = EVTTOOLTIP94086 }
-	}
-}
+	# option = {
+		# name = EVTOPTA94084
+		# character_event = { id = 94087 days = 5 tooltip = EVTTOOLTIP94086 }
+	# }
+# }
 
 # Ba'ah al-Drik Flies (Muslim version)
-character_event = {
-	id = 94093
-	desc = EVTDESC94093
-	picture = GFX_evt_bloody_man
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94093
+	# desc = EVTDESC94093
+	# picture = GFX_evt_bloody_man
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94093
-		character_event = { id = 94095 days = 5 tooltip = EVTTOOLTIP94086 }
-	}
-}
+	# option = {
+		# name = EVTOPTA94093
+		# character_event = { id = 94095 days = 5 tooltip = EVTTOOLTIP94086 }
+	# }
+# }
 
 # Dog Flies
 character_event = {
@@ -1478,88 +1478,88 @@ character_event = {
 }
 
 # Otis Aftermath
-character_event = {
-	id = 94086
-	desc = EVTDESC94086
-	picture = GFX_evt_council
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94086
+	# desc = EVTDESC94086
+	# picture = GFX_evt_council
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94086
-		character_event = { id = 94089 days = 15 random = 5 tooltip = EVTTOOLTIP94089 }
-	}
-	option = {
-		name = EVTOPTB94086
-		custom_tooltip = { text = improve_learning_quit }
-	}
-}
+	# option = {
+		# name = EVTOPTA94086
+		# character_event = { id = 94089 days = 15 random = 5 tooltip = EVTTOOLTIP94089 }
+	# }
+	# option = {
+		# name = EVTOPTB94086
+		# custom_tooltip = { text = improve_learning_quit }
+	# }
+# }
 
 # al-Otis Aftermath (Muslim version)
-character_event = {
-	id = 94094
-	desc = EVTDESC94094
-	picture = GFX_evt_council
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94094
+	# desc = EVTDESC94094
+	# picture = GFX_evt_council
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94086
-		character_event = { id = 94096 days = 15 random = 5 tooltip = EVTTOOLTIP94089 }
-	}
-	option = {
-		name = EVTOPTB94086
-		custom_tooltip = { text = improve_learning_quit }
-	}
-}
+	# option = {
+		# name = EVTOPTA94086
+		# character_event = { id = 94096 days = 15 random = 5 tooltip = EVTTOOLTIP94089 }
+	# }
+	# option = {
+		# name = EVTOPTB94086
+		# custom_tooltip = { text = improve_learning_quit }
+	# }
+# }
 
 # Meldrick Aftermath
-character_event = {
-	id = 94087
-	desc = EVTDESC94087
-	picture = GFX_evt_whispers
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94087
+	# desc = EVTDESC94087
+	# picture = GFX_evt_whispers
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94087
-		character_event = { id = 94090 days = 15 random = 5 tooltip = EVTTOOLTIP94090 }
-	}
-	option = {
-		name = EVTOPTB94087
-		custom_tooltip = { text = improve_learning_quit }
-	}
-}
+	# option = {
+		# name = EVTOPTA94087
+		# character_event = { id = 94090 days = 15 random = 5 tooltip = EVTTOOLTIP94090 }
+	# }
+	# option = {
+		# name = EVTOPTB94087
+		# custom_tooltip = { text = improve_learning_quit }
+	# }
+# }
 
 # Ba'ah al-Drik Aftermath (Muslim version)
-character_event = {
-	id = 94095
-	desc = EVTDESC94095
-	picture = GFX_evt_whispers
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94095
+	# desc = EVTDESC94095
+	# picture = GFX_evt_whispers
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94087
-		character_event = { id = 94097 days = 15 random = 5 tooltip = EVTTOOLTIP94097 }
-	}
-	option = {
-		name = EVTOPTB94087
-		custom_tooltip = { text = improve_learning_quit }
-	}
-}
+	# option = {
+		# name = EVTOPTA94087
+		# character_event = { id = 94097 days = 15 random = 5 tooltip = EVTTOOLTIP94097 }
+	# }
+	# option = {
+		# name = EVTOPTB94087
+		# custom_tooltip = { text = improve_learning_quit }
+	# }
+# }
 
 # Dog Aftermath
 character_event = {
@@ -3369,21 +3369,21 @@ character_event = {
 # }
 
 # Living with Berbers
-character_event = {
-	id = 94171
-	desc = EVTDESC94171
-	picture = GFX_evt_desert
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94171
+	# desc = EVTDESC94171
+	# picture = GFX_evt_desert
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94171
-		decadence = -5
-	}
-}
+	# option = {
+		# name = EVTOPTA94171
+		# decadence = -5
+	# }
+# }
 
 ### The Bandit Camp
 
@@ -3429,115 +3429,115 @@ character_event = {
 # }
 
 # Sneak up on Camp
-character_event = {
-	id = 94176
-	desc = EVTDESC94176
-	picture = GFX_evt_bandits
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94176
+	# desc = EVTDESC94176
+	# picture = GFX_evt_bandits
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94176
-		character_event = { id = 94177 tooltip = EVTTOOLTIP94177 }
-	}
-	option = {
-		name = EVTOPTB94176
-		tooltip_info = craven
-		trigger = { trait = craven }
-		custom_tooltip = { text = lower_decadence_quit }
-	}
-}
+	# option = {
+		# name = EVTOPTA94176
+		# character_event = { id = 94177 tooltip = EVTTOOLTIP94177 }
+	# }
+	# option = {
+		# name = EVTOPTB94176
+		# tooltip_info = craven
+		# trigger = { trait = craven }
+		# custom_tooltip = { text = lower_decadence_quit }
+	# }
+# }
 
 # The Fight
-character_event = {
-	id = 94177
-	desc = EVTDESC94177
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94177
+	# desc = EVTDESC94177
+	# picture = GFX_evt_melee
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94177
-		tooltip_info = craven
-		trigger = { trait = craven }
-		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
-		random = {
-			chance = 20
-			add_trait = wounded
-			hidden_tooltip = {
-				character_event = {
-					id = 38280 #Notify Wounded
-				}
-			}
-		}
-	}
-	option = {
-		name = EVTOPTB94177
-		tooltip_info = impaler
-		trigger = { trait = impaler }
-		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
-		random = {
-			chance = 5
-			add_trait = wounded
-			hidden_tooltip = {
-				character_event = {
-					id = 38280 #Notify Wounded
-				}
-			}
-		}
-	}
-	option = {
-		name = EVTOPTC94177
-		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
-		trigger = { 
-			NOT = {
-				trait = impaler
-				trait = craven
-			}
-		}
-		random = {
-			chance = 10
-			add_trait = wounded
-			hidden_tooltip = {
-				character_event = {
-					id = 38280 #Notify Wounded
-				}
-			}
-		}
-	}
-}
+	# option = {
+		# name = EVTOPTA94177
+		# tooltip_info = craven
+		# trigger = { trait = craven }
+		# character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
+		# random = {
+			# chance = 20
+			# add_trait = wounded
+			# hidden_tooltip = {
+				# character_event = {
+					# id = 38280 #Notify Wounded
+				# }
+			# }
+		# }
+	# }
+	# option = {
+		# name = EVTOPTB94177
+		# tooltip_info = impaler
+		# trigger = { trait = impaler }
+		# character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
+		# random = {
+			# chance = 5
+			# add_trait = wounded
+			# hidden_tooltip = {
+				# character_event = {
+					# id = 38280 #Notify Wounded
+				# }
+			# }
+		# }
+	# }
+	# option = {
+		# name = EVTOPTC94177
+		# character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
+		# trigger = { 
+			# NOT = {
+				# trait = impaler
+				# trait = craven
+			# }
+		# }
+		# random = {
+			# chance = 10
+			# add_trait = wounded
+			# hidden_tooltip = {
+				# character_event = {
+					# id = 38280 #Notify Wounded
+				# }
+			# }
+		# }
+	# }
+# }
 
 # Fight Aftermath
-character_event = {
-	id = 94178
-	desc = EVTDESC94178
-	picture = GFX_evt_bloody_man
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94178
+	# desc = EVTDESC94178
+	# picture = GFX_evt_bloody_man
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94178
-		trigger = {
-			NOT = { trait = impaler }
-		}
-		decadence = -5
-	}
-	option = {
-		name = EVTOPTB94178
-		tooltip_info = impaler
-		trigger = { trait = impaler }
-		decadence = -5
-	}
-}
+	# option = {
+		# name = EVTOPTA94178
+		# trigger = {
+			# NOT = { trait = impaler }
+		# }
+		# decadence = -5
+	# }
+	# option = {
+		# name = EVTOPTB94178
+		# tooltip_info = impaler
+		# trigger = { trait = impaler }
+		# decadence = -5
+	# }
+# }
 
 ### The Two-Headed Dromedary Hunt
 
@@ -3578,72 +3578,72 @@ character_event = {
 # }
 
 # The Hunt Begins
-character_event = {
-	id = 94181
-	desc = EVTDESC94181
-	picture = GFX_evt_desert
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94181
+	# desc = EVTDESC94181
+	# picture = GFX_evt_desert
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94181
-		character_event = { id = 94182 days = 6 tooltip = EVTTOOLTIP94182 }
-	}
-}
+	# option = {
+		# name = EVTOPTA94181
+		# character_event = { id = 94182 days = 6 tooltip = EVTTOOLTIP94182 }
+	# }
+# }
 
 # No Sign of the Beast
-character_event = {
-	id = 94182
-	desc = EVTDESC94182
-	picture = GFX_evt_desert
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94182
+	# desc = EVTDESC94182
+	# picture = GFX_evt_desert
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94182
-		character_event = { id = 94183 days = 6 tooltip = EVTTOOLTIP94183 }
-	}
-}
+	# option = {
+		# name = EVTOPTA94182
+		# character_event = { id = 94183 days = 6 tooltip = EVTTOOLTIP94183 }
+	# }
+# }
 
 # Hunt is Abandoned
-character_event = {
-	id = 94183
-	desc = EVTDESC94183
-	picture = GFX_evt_desert
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94183
+	# desc = EVTDESC94183
+	# picture = GFX_evt_desert
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94183
-		character_event = { id = 94184 days = 6 tooltip = EVTTOOLTIP94184 }
-	}
-}
+	# option = {
+		# name = EVTOPTA94183
+		# character_event = { id = 94184 days = 6 tooltip = EVTTOOLTIP94184 }
+	# }
+# }
 
 # Coming Home
-character_event = {
-	id = 94184
-	desc = EVTDESC94184
-	picture = GFX_evt_feast
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94184
+	# desc = EVTDESC94184
+	# picture = GFX_evt_feast
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94184
-		decadence = -5
-	}
-}
+	# option = {
+		# name = EVTOPTA94184
+		# decadence = -5
+	# }
+# }
 
 ### Couriers
 # character_event = {

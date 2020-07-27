@@ -44,11 +44,6 @@ set_council_law_strong_effect = {
 			# cooldown = yes
 			# opinion_effect = no
 		# }
-		add_law = {
-			law = bureaucratic_war_declaration_1
-			cooldown = yes
-			opinion_effect = no
-		}
 	}
 }
 
@@ -64,6 +59,12 @@ pantheon_court_effect = {
 			hellenic_or_syncretic = yes
 		}
 		character_event = { id = fkp.2 }
+	}
+	if = {
+		limit = {
+			european_group_or_syncretic = yes
+		}
+		character_event = { id = fkp.3 }
 	}
 }
 
@@ -464,6 +465,87 @@ apply_random_boon_effect = {
 		}
 	}
 
+	if = {
+		limit = {
+			FROM = {
+				trait = sabazios
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = sabazios_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = sabazios_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = sabazios_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				trait = pleistoros
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = pleistoros_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = pleistoros_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = pleistoros_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				trait = derzelas
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = derzelas_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = derzelas_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = derzelas_boon_3
+					years = 5
+				}
+			}
+		}
+	}
 }
 
 apply_random_special_boon_effect_klutotoxos = {
@@ -576,6 +658,25 @@ remove_boon_telipinu_effect = {
 	remove_character_modifier = telipinu_boon_3
 }
 
+remove_boon_sabazios_effect = {
+	remove_character_modifier = sabazios_boon_1
+	remove_character_modifier = sabazios_boon_2
+	remove_character_modifier = sabazios_boon_3
+}
+
+remove_boon_pleistoros_effect = {
+	remove_character_modifier = pleistoros_boon_1
+	remove_character_modifier = pleistoros_boon_2
+	remove_character_modifier = pleistoros_boon_3
+}
+
+remove_boon_derzelas_effect = {
+	remove_character_modifier = derzelas_boon_1
+	remove_character_modifier = derzelas_boon_2
+	remove_character_modifier = derzelas_boon_3
+}
+
+
 remove_boon_zeus_effect = {
 	remove_character_modifier = zeus_boon_1
 	remove_character_modifier = zeus_boon_2
@@ -618,89 +719,89 @@ remove_boon_aphrodite_effect = {
 	remove_character_modifier = aphrodite_boon_3
 }
 
-apply_random_curse_effect = {
-	if = {
-		limit = {
-			FROM = {
-				trait = tarhunna
-			}
-		}
-		random_list = {
-			33 = {
-				add_character_modifier = {
-					modifier = tarhunna_curse_1
-					duration = -1
-				}
-			}
-			33 = {
-				add_character_modifier = {
-					modifier = tarhunna_curse_2
-					duration = -1
-				}
-			}
-			33 = {
-				add_character_modifier = {
-					modifier = tarhunna_curse_3
-					duration = -1
-				}
-			}
-		}
-	}
-	if = {
-		limit = {
-			FROM = {
-				trait = arinniti
-			}
-		}
-		random_list = {
-			33 = {
-				add_character_modifier = {
-					modifier = arinniti_curse_1
-					duration = -1
-				}
-			}
-			33 = {
-				add_character_modifier = {
-					modifier = arinniti_curse_2
-					duration = -1
-				}
-			}
-			33 = {
-				add_character_modifier = {
-					modifier = arinniti_curse_3
-					duration = -1
-				}
-			}
-		}
-	}
-	if = {
-		limit = {
-			FROM = {
-				trait = telipinu
-			}
-		}
-		random_list = {
-			33 = {
-				add_character_modifier = {
-					modifier = telipinu_curse_1
-					years = 5
-				}
-			}
-			33 = {
-				add_character_modifier = {
-					modifier = telipinu_curse_2
-					years = 5
-				}
-			}
-			33 = {
-				add_character_modifier = {
-					modifier = telipinu_curse_3
-					years = 5
-				}
-			}
-		}
-	}
-}
+# apply_random_curse_effect = {
+	# if = {
+		# limit = {
+			# FROM = {
+				# trait = tarhunna
+			# }
+		# }
+		# random_list = {
+			# 33 = {
+				# add_character_modifier = {
+					# modifier = tarhunna_curse_1
+					# duration = -1
+				# }
+			# }
+			# 33 = {
+				# add_character_modifier = {
+					# modifier = tarhunna_curse_2
+					# duration = -1
+				# }
+			# }
+			# 33 = {
+				# add_character_modifier = {
+					# modifier = tarhunna_curse_3
+					# duration = -1
+				# }
+			# }
+		# }
+	# }
+	# if = {
+		# limit = {
+			# FROM = {
+				# trait = arinniti
+			# }
+		# }
+		# random_list = {
+			# 33 = {
+				# add_character_modifier = {
+					# modifier = arinniti_curse_1
+					# duration = -1
+				# }
+			# }
+			# 33 = {
+				# add_character_modifier = {
+					# modifier = arinniti_curse_2
+					# duration = -1
+				# }
+			# }
+			# 33 = {
+				# add_character_modifier = {
+					# modifier = arinniti_curse_3
+					# duration = -1
+				# }
+			# }
+		# }
+	# }
+	# if = {
+		# limit = {
+			# FROM = {
+				# trait = telipinu
+			# }
+		# }
+		# random_list = {
+			# 33 = {
+				# add_character_modifier = {
+					# modifier = telipinu_curse_1
+					# years = 5
+				# }
+			# }
+			# 33 = {
+				# add_character_modifier = {
+					# modifier = telipinu_curse_2
+					# years = 5
+				# }
+			# }
+			# 33 = {
+				# add_character_modifier = {
+					# modifier = telipinu_curse_3
+					# years = 5
+				# }
+			# }
+		# }
+	# }
+# }
 
 apply_random_curse_effect_FROMFROM = {
 	if = {
@@ -974,6 +1075,88 @@ apply_random_curse_effect_FROMFROM = {
 			}
 		}
 	}
+	
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = sabazios
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = sabazios_curse_1
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = sabazios_curse_2
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = sabazios_curse_3
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = pleistoros
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = pleistoros_curse_1
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = pleistoros_curse_2
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = pleistoros_curse_3
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = derzelas
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = derzelas_curse_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = derzelas_curse_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = derzelas_curse_3
+					years = 5
+				}
+			}
+		}
+	}
 }
 
 remove_boon_effect_FROMFROM = {
@@ -1058,6 +1241,31 @@ remove_boon_effect_FROMFROM = {
 		}
 		remove_boon_aphrodite_effect = yes
 	}
+
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = sabazios
+			}
+		}
+		remove_boon_sabazios_effect = yes
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = pleistoros
+			}
+		}
+		remove_boon_pleistoros_effect = yes
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = derzelas
+			}
+		}
+		remove_boon_derzelas_effect = yes
+	}
 }
 
 remove_curse_effect = {
@@ -1132,6 +1340,25 @@ remove_curse_aphrodite_effect = {
 	remove_character_modifier = aphrodite_curse_2
 	remove_character_modifier = aphrodite_curse_3
 }
+
+remove_curse_sabazios_effect = {
+	remove_character_modifier = sabazios_curse_1
+	remove_character_modifier = sabazios_curse_2
+	remove_character_modifier = sabazios_curse_3
+}
+
+remove_curse_pleistoros_effect = {
+	remove_character_modifier = pleistoros_curse_1
+	remove_character_modifier = pleistoros_curse_2
+	remove_character_modifier = pleistoros_curse_3
+}
+
+remove_curse_derzelas_effect = {
+	remove_character_modifier = derzelas_curse_1
+	remove_character_modifier = derzelas_curse_2
+	remove_character_modifier = derzelas_curse_3
+}
+
 
 remove_curse_sacrifice_effect = {
 	if = {
@@ -1213,6 +1440,30 @@ remove_curse_sacrifice_effect = {
 			}
 		}
 		remove_curse_aphrodite_effect = yes
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = sabazios
+			}
+		}
+		remove_curse_sabazios_effect = yes
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = pleistoros
+			}
+		}
+		remove_curse_pleistoros_effect = yes
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = derzelas
+			}
+		}
+		remove_curse_derzelas_effect = yes
 	}
 }
 
@@ -1446,6 +1697,10 @@ ai_make_sacrifice_to_evaluation_effect = {
 				ai_sacrifice_success_or_fail = yes
 			}
 			modifier = {
+				factor = 3
+				religion = assussani
+			}
+			modifier = {
 				factor = 0
 				culture = amazonian
 			}
@@ -1506,6 +1761,76 @@ ai_make_sacrifice_to_evaluation_effect = {
 			modifier = {
 				factor = 0
 				culture = amazonian
+			}
+		}
+	
+		40 = { #Sabazios
+			trigger = {
+				OR = {
+					religion_group = european_group
+					trait = syncretic_european_group
+				}
+				c_1200000 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1200000 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+		}
+		30 = { #Pleistoros
+			trigger = {
+				OR = {
+					religion = dentudisas
+					trait = devotion_pleistoros
+					trait = syncretic_european_group
+				}
+				c_1200001 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1200001 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 2.5
+				likes_war_god_trigger = yes
+			}
+		}
+		30 = { #Derzelas
+			trigger = {
+				OR = {
+					religion = dentudisas
+					trait = devotion_pleistoros
+					trait = syncretic_european_group
+				}
+				c_1200002 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1200002 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
 			}
 		}
 	}
@@ -1776,6 +2101,10 @@ ai_request_boon_evaluation_effect = {
 				factor = 3
 				likes_war_god_trigger = yes
 			}
+			modifier = {
+				factor = 0
+				culture = amazonian
+			}
 		}
 		14 = { #Demeter
 			trigger = {
@@ -1802,6 +2131,10 @@ ai_request_boon_evaluation_effect = {
 					received_sacrifice_recently_trigger = yes
 				}
 			}
+			modifier = {
+				factor = 0
+				culture = amazonian
+			}
 		}
 		14 = { #Apollon
 			trigger = {
@@ -1827,6 +2160,14 @@ ai_request_boon_evaluation_effect = {
 				c_1100149 = {
 					received_sacrifice_recently_trigger = yes
 				}
+			}
+			modifier = {
+				factor = 3
+				religion = assussani
+			}
+			modifier = {
+				factor = 0
+				culture = amazonian
 			}
 		}
 		14 = { #Hermes
@@ -1858,6 +2199,10 @@ ai_request_boon_evaluation_effect = {
 				factor = 3
 				likes_commerce_god_trigger = yes
 			}
+			modifier = {
+				factor = 0
+				culture = amazonian
+			}
 		}
 		14 = { #Aphrodite
 			trigger = {
@@ -1887,6 +2232,93 @@ ai_request_boon_evaluation_effect = {
 			modifier = {
 				factor = 3
 				likes_love_god_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				culture = amazonian
+			}
+		}
+	
+		40 = { #Tarhunna
+			trigger = {
+				OR = {
+					religion_group = european_group
+					trait = syncretic_european_group
+				}
+				c_1200000 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1200000 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1200000 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+		}
+		30 = { #Arinniti
+			trigger = {
+				c_1000001 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+				OR = {
+					religion_group = european_group
+					trait = syncretic_european_group
+				}
+			}
+			c_1000001 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1000001 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 3
+				trait = devotion_arinniti
+			}
+		}
+		30 = { #Derzelas
+			trigger = {
+				OR = {
+					religion_group = european_group
+					trait = syncretic_european_group
+				}
+				c_1000002 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1200002 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1200002 = {
+					received_sacrifice_recently_trigger = yes
+				}
 			}
 		}
 	}
@@ -2194,6 +2626,88 @@ ai_apply_random_boon_effect = {
 			33 = {
 				add_character_modifier = {
 					modifier = aphrodite_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = sabazios
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = sabazios_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = sabazios_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = sabazios_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = pleistoros
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = pleistoros_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = pleistoros_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = pleistoros_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = derzelas
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = derzelas_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = derzelas_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = derzelas_boon_3
 					years = 5
 				}
 			}

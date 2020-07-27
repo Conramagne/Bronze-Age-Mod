@@ -2,6 +2,71 @@
 
 2200000 = {
 	name = "Dardanid"
-	culture = "luwian"
+	culture = "wilusan"
+	used_for_random = no 
+}
+2200001 = {
+	name = "Tennesid"
+	culture = "wilusan"
+	used_for_random = no 
+}
+2200002 = {
+	name = "Meropid"
+	culture = "wilusan"
+	used_for_random = no 
+}
+2200003 = {
+	name = "Lukaonid"
+	culture = "wilusan"
+	used_for_random = no 
+}
+2200004 = {
+	name = "Eetíonid"
+	culture = "wilusan"
+	used_for_random = no 
+}
+2200005 = {
+	name = "Arsinid"
+	culture = "mysian"
+	used_for_random = no 
+}
+2200006 = {
+	name = "Euenid"
+	culture = "mysian"
+	used_for_random = no 
+}
+2200007 = {
+	name = "Lethid"
+	culture = "mysian"
+	used_for_random = no 
+}
+2200008 = {
+	name = "Manesid"
+	culture = "lydian"
+	used_for_random = no 
+}
+2200009  = {
+	name = "Nomionid"
+	culture = "carian"
+	used_for_random = no 
+}
+2200010  = {
+	name = "Bellerophonid"
+	culture = "lycian"
+	used_for_random = no 
+}
+2200011  = {
+	name = "Phaenopid"
+	culture = "phrygian"
+	used_for_random = no 
+}
+2200012  = {
+	name = "Pandarid"
+	culture = "wilusan"
+	used_for_random = no 
+}
+2200013  = {
+	name = "Iobatid"
+	culture = "phrygian"
 	used_for_random = no 
 }

@@ -761,7 +761,7 @@ character_event = {
 			limit = { 
 				OR = { 
 					trait = crusader 
-					trait = mujahid
+					# trait = mujahid
 					trait = valhalla_bound
 					trait = eagle_warrior
 					trait = sun_warrior 
@@ -814,12 +814,12 @@ character_event = {
 			}
 			change_variable = { which = physique_variable value = -2 }
 		}
-		if = { 
-			limit = { 
-				trait = on_hajj
-			}
-			change_variable = { which = physique_variable value = -2 }
-		}
+		# if = { 
+			# limit = { 
+				# trait = on_hajj
+			# }
+			# change_variable = { which = physique_variable value = -2 }
+		# }
 		if = { 
 			limit = { 
 				trait = vomiting
@@ -3061,7 +3061,7 @@ character_event = {
 		OR = { 	
 			AND = { #Must still have children.
 				is_female = yes
-				num_of_children = yes
+				num_of_children = 1
 			}
 			AND = { #Must still be married.
 				is_female = no
@@ -5804,7 +5804,7 @@ character_event = {
 			if = { #Chance for black boar event
 				limit = { 
 					higher_tier_than = COUNT
-					capital_scope = { region = world_europe }
+					# capital_scope = { region = world_europe }
 					NOT = { has_character_modifier = black_boar_modifier }
 					any_vassal = { 
 						age = 16

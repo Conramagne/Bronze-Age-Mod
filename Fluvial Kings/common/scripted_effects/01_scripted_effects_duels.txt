@@ -377,17 +377,17 @@ set_dueling_weapon_effect = {
 		
 		random_list = { #select a weapon...
 			10 = { set_character_flag = weapon_is_sword }
-			10 = {
-				set_character_flag = weapon_is_scimitar
-				trigger = {
-					capital_scope = {
-						OR = {
-							region = world_middle_east
-							region = world_india
-						}
-					}
-				}
-			}
+			# 10 = {
+				# set_character_flag = weapon_is_scimitar
+				# trigger = {
+					# capital_scope = {
+						# OR = {
+							# region = world_middle_east
+							# region = world_india
+						# }
+					# }
+				# }
+			# }
 			10 = { set_character_flag = weapon_is_axe }
 			10 = { set_character_flag = weapon_is_mace }
 			10 = { set_character_flag = weapon_is_spear }
@@ -865,8 +865,8 @@ send_duel_result_event_effect = { # Runs via the attacker/combatant_1
 				}
 				OR = {
 					has_character_flag = is_battlefield_duel
-					is_member_of_any_warrior_lodge_trigger = yes
-					has_focus = focus_war
+					# is_member_of_any_warrior_lodge_trigger = yes
+					# has_focus = focus_war
 					event_target:combatant_1 = { has_character_flag = flag_duel_no_draws } #Special triggered event duels.
 					event_target:combatant_2 = { has_character_flag = flag_duel_no_draws } 
 				}
@@ -927,8 +927,8 @@ send_duel_result_event_effect = { # Runs via the attacker/combatant_1
 				OR = {
 					has_character_flag = claim_duel@event_target:combatant_2
 					has_character_flag = is_battlefield_duel
-					is_member_of_any_warrior_lodge_trigger = yes
-					has_focus = focus_war
+					# is_member_of_any_warrior_lodge_trigger = yes
+					# has_focus = focus_war
 					event_target:combatant_1 = { has_character_flag = flag_duel_no_draws } #Special triggered event duels.
 					event_target:combatant_2 = { has_character_flag = flag_duel_no_draws } 
 					event_target:combatant_1 = { has_character_flag = deadly_duel@event_target:combatant_2 }
@@ -1002,8 +1002,8 @@ send_duel_result_event_effect = { # Runs via the attacker/combatant_1
 				OR = {
 					has_character_flag = claim_duel@event_target:combatant_2
 					has_character_flag = is_battlefield_duel
-					is_member_of_any_warrior_lodge_trigger = yes
-					has_focus = focus_war
+					# is_member_of_any_warrior_lodge_trigger = yes
+					# has_focus = focus_war
 					event_target:combatant_1 = { has_character_flag = flag_duel_no_draws } #Special triggered event duels.
 					event_target:combatant_2 = { has_character_flag = flag_duel_no_draws } 
 					event_target:combatant_1 = { has_character_flag = deadly_duel@event_target:combatant_2 }
@@ -1657,8 +1657,8 @@ send_duel_result_event_effect = { # Runs via the attacker/combatant_1
 				NOT = { has_character_flag = is_legendary_duel }
 				NOT = { has_character_flag = claim_duel@event_target:combatant_2 }
 				OR = {
-					is_member_of_any_warrior_lodge_trigger = yes
-					has_focus = focus_war
+					# is_member_of_any_warrior_lodge_trigger = yes
+					# has_focus = focus_war
 					event_target:combatant_1 = { has_character_flag = flag_duel_no_draws } #Special triggered event duels.
 					event_target:combatant_2 = { has_character_flag = flag_duel_no_draws } 
 				}
@@ -1690,241 +1690,241 @@ send_duel_result_event_effect = { # Runs via the attacker/combatant_1
 
 		}
 		
-		10 = { #LEGENDARY BLOODLINES: LETHAL for attacker...
-			trigger = {
-				is_member_of_any_warrior_lodge_trigger = yes
-				has_character_flag = is_legendary_duel
-				has_dlc = "Holy Fury"
+		# 10 = { #LEGENDARY BLOODLINES: LETHAL for attacker...
+			# trigger = {
+				# is_member_of_any_warrior_lodge_trigger = yes
+				# has_character_flag = is_legendary_duel
+				# has_dlc = "Holy Fury"
 
-				NOR = {
-					has_character_flag = claim_duel@event_target:combatant_2
-					has_character_flag = mock_duel
-					has_character_flag = is_battlefield_duel
-					event_target:combatant_1 = { has_character_flag = flag_duel_no_draws } #Special triggered event duels.
-					event_target:combatant_2 = { has_character_flag = flag_duel_no_draws } 
-				}
-			}
-			additive_modifier = {
-				duel_result_score_low_group_trigger = yes #Score: you were outmatched
-				value = 50
-			}
-			additive_modifier = {
-				duel_result_score_the_worst_trigger = yes #Score: REALLY outmatched
-				value = 60
-			}
-			additive_modifier = {
-				is_bad_duelist_trigger = yes #Skill: bad
-				value = 40
-			}
-			additive_modifier = {
-				is_terrible_duelist_trigger = yes #Skill: terrible
-				value = 60
-			}
-			additive_modifier = {
-				is_the_worst_duelist_trigger = yes #Skill: the worst
-				value = 80
-			}
-			additive_modifier = {
-				event_target:combatant_2 = { #Relative skill of theirs: they are better than ROOT
-					duelist_skill_compared_to_prev_high_group_trigger = yes
-				}
-				value = 20
-			}
-			additive_modifier = {
-				event_target:combatant_2 = { #Relative skill of theirs: WAY better
-					is_the_best_dueler_compared_to_prev_trigger = yes
-				}
-				value = 40
-			}
-			additive_modifier = {
-				event_target:combatant_2 = { #Relative skill of theirs: fantastic
-					is_fantastic_dueler_compared_to_prev_trigger = yes
-				}
-				value = 30
-			}
-			additive_modifier = {
-				event_target:combatant_2 = { #Relative skill of theirs: great
-					is_great_dueler_compared_to_prev_trigger = yes
-				}
-				value = 20
-			}
-			additive_modifier = {
-				event_target:combatant_2 = { #Relative skill of theirs: good
-					is_good_dueler_compared_to_prev_trigger = yes
-				}
-				value = 10
-			}
+				# NOR = {
+					# has_character_flag = claim_duel@event_target:combatant_2
+					# has_character_flag = mock_duel
+					# has_character_flag = is_battlefield_duel
+					# event_target:combatant_1 = { has_character_flag = flag_duel_no_draws } #Special triggered event duels.
+					# event_target:combatant_2 = { has_character_flag = flag_duel_no_draws } 
+				# }
+			# }
+			# additive_modifier = {
+				# duel_result_score_low_group_trigger = yes #Score: you were outmatched
+				# value = 50
+			# }
+			# additive_modifier = {
+				# duel_result_score_the_worst_trigger = yes #Score: REALLY outmatched
+				# value = 60
+			# }
+			# additive_modifier = {
+				# is_bad_duelist_trigger = yes #Skill: bad
+				# value = 40
+			# }
+			# additive_modifier = {
+				# is_terrible_duelist_trigger = yes #Skill: terrible
+				# value = 60
+			# }
+			# additive_modifier = {
+				# is_the_worst_duelist_trigger = yes #Skill: the worst
+				# value = 80
+			# }
+			# additive_modifier = {
+				# event_target:combatant_2 = { #Relative skill of theirs: they are better than ROOT
+					# duelist_skill_compared_to_prev_high_group_trigger = yes
+				# }
+				# value = 20
+			# }
+			# additive_modifier = {
+				# event_target:combatant_2 = { #Relative skill of theirs: WAY better
+					# is_the_best_dueler_compared_to_prev_trigger = yes
+				# }
+				# value = 40
+			# }
+			# additive_modifier = {
+				# event_target:combatant_2 = { #Relative skill of theirs: fantastic
+					# is_fantastic_dueler_compared_to_prev_trigger = yes
+				# }
+				# value = 30
+			# }
+			# additive_modifier = {
+				# event_target:combatant_2 = { #Relative skill of theirs: great
+					# is_great_dueler_compared_to_prev_trigger = yes
+				# }
+				# value = 20
+			# }
+			# additive_modifier = {
+				# event_target:combatant_2 = { #Relative skill of theirs: good
+					# is_good_dueler_compared_to_prev_trigger = yes
+				# }
+				# value = 10
+			# }
 			
 			
-			set_character_flag = someone_died
-			set_character_flag = actually_injured
-			set_character_flag = injury_kills
+			# set_character_flag = someone_died
+			# set_character_flag = actually_injured
+			# set_character_flag = injury_kills
 
-			if = { # To avoid this breaking in edge case MPs (where you accidentally got the same target, or they had time to die SOMEHOW...
-				limit = {
-					NOT = { event_target:combatant_2 = { is_alive = yes } }
-				}
-				clean_up_after_duel_effect = yes #Includes the "send_legendary_tombola_effect"
-				clr_XYZ_desc_flag_effect = yes
-			}
+			# if = { # To avoid this breaking in edge case MPs (where you accidentally got the same target, or they had time to die SOMEHOW...
+				# limit = {
+					# NOT = { event_target:combatant_2 = { is_alive = yes } }
+				# }
+				# clean_up_after_duel_effect = yes #Includes the "send_legendary_tombola_effect"
+				# clr_XYZ_desc_flag_effect = yes
+			# }
 
-			else = { # Most cases: the target definitely still lives...
-				event_target:combatant_2 = {
-					set_character_flag = someone_died
-					character_event = { id = HF.12200 days = 1 } #"I killed the enemy!" event sent to winner...
-				}
-			}
-		}
+			# else = { # Most cases: the target definitely still lives...
+				# event_target:combatant_2 = {
+					# set_character_flag = someone_died
+					# character_event = { id = HF.12200 days = 1 } #"I killed the enemy!" event sent to winner...
+				# }
+			# }
+		# }
 
-		10 = { #LEGENDARY BLOODLINES: LETHAL for defender...
-			trigger = {
-				is_member_of_any_warrior_lodge_trigger = yes
-				has_character_flag = is_legendary_duel
-				has_dlc = "Holy Fury"
+		# 10 = { #LEGENDARY BLOODLINES: LETHAL for defender...
+			# trigger = {
+				# is_member_of_any_warrior_lodge_trigger = yes
+				# has_character_flag = is_legendary_duel
+				# has_dlc = "Holy Fury"
 				
-				NOR = {
-					has_character_flag = claim_duel@event_target:combatant_2
-					has_character_flag = mock_duel
-					has_character_flag = is_battlefield_duel
-					event_target:combatant_1 = { has_character_flag = flag_duel_no_draws } #Special triggered event duels.
-					event_target:combatant_2 = { has_character_flag = flag_duel_no_draws } 
-				}
-			}
-			additive_modifier = {
-				duel_result_score_high_group_trigger = yes #Score: they were outmatched
-				value = 50
-			}
-			additive_modifier = {
-				duel_result_score_the_best_trigger = yes #Score: REALLY outmatched
-				value = 60
-			}
-			additive_modifier = {
-				event_target:combatant_2 = { is_bad_duelist_trigger = yes } #Their Skill: bad
-				value = 40
-			}
-			additive_modifier = {
-				event_target:combatant_2 = { is_terrible_duelist_trigger = yes } #Their Skill: terrible
-				value = 60
-			}
-			additive_modifier = {
-				event_target:combatant_2 = { is_the_worst_duelist_trigger = yes } #Their Skill: the worst
-				value = 80
-			}
-			additive_modifier = {
-				event_target:combatant_2 = { #Relative skill of theirs: they are worse than ROOT
-					duelist_skill_compared_to_prev_low_group_trigger = yes
-				}
-				value = 20
-			}
-			additive_modifier = {
-				event_target:combatant_2 = { #Relative skill of theirs: way worse
-					is_the_worst_dueler_compared_to_prev_trigger = yes
-				}
-				value = 40
-			}
-			additive_modifier = {
-				event_target:combatant_2 = { #Relative skill of theirs: terrible
-					is_terrible_dueler_compared_to_prev_trigger = yes
-				}
-				value = 30
-			}
-			additive_modifier = {
-				event_target:combatant_2 = { #Relative skill of theirs: bad
-					is_bad_dueler_compared_to_prev_trigger = yes
-				}
-				value = 20
-			}
-			additive_modifier = {
-				event_target:combatant_2 = { #Relative skill of theirs: not bad
-					is_ok_dueler_compared_to_prev_trigger = yes
-				}
-				value = 10
-			}
+				# NOR = {
+					# has_character_flag = claim_duel@event_target:combatant_2
+					# has_character_flag = mock_duel
+					# has_character_flag = is_battlefield_duel
+					# event_target:combatant_1 = { has_character_flag = flag_duel_no_draws } #Special triggered event duels.
+					# event_target:combatant_2 = { has_character_flag = flag_duel_no_draws } 
+				# }
+			# }
+			# additive_modifier = {
+				# duel_result_score_high_group_trigger = yes #Score: they were outmatched
+				# value = 50
+			# }
+			# additive_modifier = {
+				# duel_result_score_the_best_trigger = yes #Score: REALLY outmatched
+				# value = 60
+			# }
+			# additive_modifier = {
+				# event_target:combatant_2 = { is_bad_duelist_trigger = yes } #Their Skill: bad
+				# value = 40
+			# }
+			# additive_modifier = {
+				# event_target:combatant_2 = { is_terrible_duelist_trigger = yes } #Their Skill: terrible
+				# value = 60
+			# }
+			# additive_modifier = {
+				# event_target:combatant_2 = { is_the_worst_duelist_trigger = yes } #Their Skill: the worst
+				# value = 80
+			# }
+			# additive_modifier = {
+				# event_target:combatant_2 = { #Relative skill of theirs: they are worse than ROOT
+					# duelist_skill_compared_to_prev_low_group_trigger = yes
+				# }
+				# value = 20
+			# }
+			# additive_modifier = {
+				# event_target:combatant_2 = { #Relative skill of theirs: way worse
+					# is_the_worst_dueler_compared_to_prev_trigger = yes
+				# }
+				# value = 40
+			# }
+			# additive_modifier = {
+				# event_target:combatant_2 = { #Relative skill of theirs: terrible
+					# is_terrible_dueler_compared_to_prev_trigger = yes
+				# }
+				# value = 30
+			# }
+			# additive_modifier = {
+				# event_target:combatant_2 = { #Relative skill of theirs: bad
+					# is_bad_dueler_compared_to_prev_trigger = yes
+				# }
+				# value = 20
+			# }
+			# additive_modifier = {
+				# event_target:combatant_2 = { #Relative skill of theirs: not bad
+					# is_ok_dueler_compared_to_prev_trigger = yes
+				# }
+				# value = 10
+			# }
 			
 
-			event_target:combatant_2 = {
-				set_character_flag = someone_died
-				set_character_flag = actually_injured
-				set_character_flag = injury_kills
-			}
+			# event_target:combatant_2 = {
+				# set_character_flag = someone_died
+				# set_character_flag = actually_injured
+				# set_character_flag = injury_kills
+			# }
 
-			if = { # To avoid this breaking in edge case MPs (where you accidentally got the same target, or they had time to die SOMEHOW...
-				limit = {
-					NOT = { event_target:combatant_2 = { is_alive = yes } }
-				}
-				clean_up_after_duel_effect = yes #Includes the "send_legendary_tombola_effect"
-				clr_XYZ_desc_flag_effect = yes
-			}
+			# if = { # To avoid this breaking in edge case MPs (where you accidentally got the same target, or they had time to die SOMEHOW...
+				# limit = {
+					# NOT = { event_target:combatant_2 = { is_alive = yes } }
+				# }
+				# clean_up_after_duel_effect = yes #Includes the "send_legendary_tombola_effect"
+				# clr_XYZ_desc_flag_effect = yes
+			# }
 
-			else = { # Most cases: the target definitely still lives...
-				set_character_flag = someone_died
-				character_event = { id = HF.12200 } #"I killed the enemy!" event sent to winner...
-			}
+			# else = { # Most cases: the target definitely still lives...
+				# set_character_flag = someone_died
+				# character_event = { id = HF.12200 } #"I killed the enemy!" event sent to winner...
+			# }
 
-		}
-		1 = { #LEGENDARY BLOODLINES: LETHAL for both...
-			trigger = {
-				is_member_of_any_warrior_lodge_trigger = yes
-				has_character_flag = is_legendary_duel
-				has_dlc = "Holy Fury"
+		# }
+		# 1 = { #LEGENDARY BLOODLINES: LETHAL for both...
+			# trigger = {
+				# is_member_of_any_warrior_lodge_trigger = yes
+				# has_character_flag = is_legendary_duel
+				# has_dlc = "Holy Fury"
 				
-				NOR = {
-					has_character_flag = WL_desc_X
-					has_character_flag = WL_desc_Y
-					has_character_flag = WL_desc_Z
-					has_character_flag = claim_duel@event_target:combatant_2
-					has_character_flag = mock_duel
-					has_character_flag = is_battlefield_duel
-					event_target:combatant_1 = { has_character_flag = flag_duel_no_draws } #Special triggered event duels.
-					event_target:combatant_2 = { has_character_flag = flag_duel_no_draws } 
-				}
-			}
-			additive_modifier = {
-				duel_result_score_decent_trigger = yes #Score: fairly evenly matched
-				value = 1
-			}
-			additive_modifier = { #Both have highest skill
-				is_the_best_duelist_trigger = yes
-				event_target:combatant_2 = { is_the_best_duelist_trigger = yes }
-				value = 1
-			}
-			additive_modifier = { #Both have the worst skill
-				is_the_worst_duelist_trigger = yes
-				event_target:combatant_2 = { is_the_worst_duelist_trigger = yes }
-				value = 5
-			}
-			if = {
-				limit = { #Both have the best skill
-					is_the_best_duelist_trigger = yes
-					event_target:combatant_2 = { is_the_best_duelist_trigger = yes }
-				}
-				set_character_flag = elegant_double_KO
-				event_target:combatant_2 = { set_character_flag = elegant_double_KO }
-			}
-			if = {
-				limit = { #Both have the worst skill
-					is_the_worst_duelist_trigger = yes
-					event_target:combatant_2 = { is_the_worst_duelist_trigger = yes }
-				}
-				set_character_flag = clumsy_double_KO
-				event_target:combatant_2 = { set_character_flag = clumsy_double_KO }
-			}
+				# NOR = {
+					# has_character_flag = WL_desc_X
+					# has_character_flag = WL_desc_Y
+					# has_character_flag = WL_desc_Z
+					# has_character_flag = claim_duel@event_target:combatant_2
+					# has_character_flag = mock_duel
+					# has_character_flag = is_battlefield_duel
+					# event_target:combatant_1 = { has_character_flag = flag_duel_no_draws } #Special triggered event duels.
+					# event_target:combatant_2 = { has_character_flag = flag_duel_no_draws } 
+				# }
+			# }
+			# additive_modifier = {
+				# duel_result_score_decent_trigger = yes #Score: fairly evenly matched
+				# value = 1
+			# }
+			# additive_modifier = { #Both have highest skill
+				# is_the_best_duelist_trigger = yes
+				# event_target:combatant_2 = { is_the_best_duelist_trigger = yes }
+				# value = 1
+			# }
+			# additive_modifier = { #Both have the worst skill
+				# is_the_worst_duelist_trigger = yes
+				# event_target:combatant_2 = { is_the_worst_duelist_trigger = yes }
+				# value = 5
+			# }
+			# if = {
+				# limit = { #Both have the best skill
+					# is_the_best_duelist_trigger = yes
+					# event_target:combatant_2 = { is_the_best_duelist_trigger = yes }
+				# }
+				# set_character_flag = elegant_double_KO
+				# event_target:combatant_2 = { set_character_flag = elegant_double_KO }
+			# }
+			# if = {
+				# limit = { #Both have the worst skill
+					# is_the_worst_duelist_trigger = yes
+					# event_target:combatant_2 = { is_the_worst_duelist_trigger = yes }
+				# }
+				# set_character_flag = clumsy_double_KO
+				# event_target:combatant_2 = { set_character_flag = clumsy_double_KO }
+			# }
 			
-			#mostly to deal with Kinslayer effect and tooltips...
-			set_character_flag = someone_died
-			event_target:combatant_2 = { set_character_flag = someone_died }
+			# mostly to deal with Kinslayer effect and tooltips...
+			# set_character_flag = someone_died
+			# event_target:combatant_2 = { set_character_flag = someone_died }
 
-			#to determine custom loc outcomes...
-			set_character_flag = actually_injured
-			set_character_flag = injury_kills
-			event_target:combatant_2 = {
-				set_character_flag = actually_injured
-				set_character_flag = injury_kills
-			}
+			# to determine custom loc outcomes...
+			# set_character_flag = actually_injured
+			# set_character_flag = injury_kills
+			# event_target:combatant_2 = {
+				# set_character_flag = actually_injured
+				# set_character_flag = injury_kills
+			# }
 
-			character_event = { id = HF.12204 } #double death event (attacker)
-			event_target:combatant_2 = { character_event = { id = HF.12205 days = 1 } } #double death event (defender)
-		}
+			# character_event = { id = HF.12204 } #double death event (attacker)
+			# event_target:combatant_2 = { character_event = { id = HF.12205 days = 1 } } #double death event (defender)
+		# }
 		#10 = {
 			#OTHER OUTCOMES? ADD HERE!
 		#}
@@ -2164,7 +2164,7 @@ apply_generic_duel_victory_effect = {
 			modifier = recent_duel_victory
 			months = 12 #also clears upon new duel!
 		}
-		hidden_effect = { character_event = { id = 720 } } # Bring it On achievement check event
+		# hidden_effect = { character_event = { id = 720 } } # Bring it On achievement check event
 	}
 }
 

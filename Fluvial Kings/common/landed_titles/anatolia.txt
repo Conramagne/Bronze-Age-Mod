@@ -748,6 +748,7 @@ e_arzawa = {
 				color2 = { 255 255 255 }
 				
 				b_adramyttion = {}
+				b_zeleia_ad = {}
 			}
 			c_thebe = {
 				color = { 65 70 128 }
@@ -787,11 +788,11 @@ e_arzawa = {
 				b_kyzikos = {}
 				b_artakia = {}
 			}
-			c_zeleia = {
+			c_aisepos = {
 				color = { 216 134 106 }
 				color2 = { 255 255 255 }
 				
-				b_zeleia = {}
+				b_aisepos = {}
 			}
 			c_apaliassos = {
 				color = { 224 64 66 }
@@ -819,12 +820,12 @@ e_arzawa = {
 				color = { 187 216 100 }
 				color2 = { 255 255 255 }
 				
-				hittite = "Masa"
-				luwian = "Masa"
+				# hittite = "Masa"
+				# luwian = "Masa"
 				
 				b_mysia = {
-					hittite = "Masa"
-					luwian = "Masa"
+					# hittite = "Masa"
+					# luwian = "Masa"
 				}
 				b_pergamon = {}
 			}
@@ -897,7 +898,13 @@ e_arzawa = {
 				color = { 139 216 44 }
 				color2 = { 255 255 255 }
 				
-				b_karkisa = {}
+				achaean = "Ascania"
+				phrygian = "Ascania"
+				
+				b_karkisa = {
+					achaean = "Ascania"
+					phrygian = "Ascania"
+				}
 			}
 			c_masa = {
 				color = { 100 151 12 }

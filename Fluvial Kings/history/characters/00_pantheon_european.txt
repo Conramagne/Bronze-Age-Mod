@@ -1,0 +1,54 @@
+#European Pantheon
+1200000 = {
+	name = "Sabazios" # Sabazios, Head God and God of Horses
+	dynasty = 1000002 #Disakenthas 
+	culture = disakenthas
+	religion = dentudisas
+	disallow_random_traits = yes
+	trait = sabazios
+	immortal_age = 30
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1200001 = {
+	name = "Pleistoros" # Pleistoros, God of War
+	dynasty = 1000002 #Disakenthas 
+	culture = disakenthas
+	religion = dentudisas
+	disallow_random_traits = yes
+	trait = pleistoros
+	immortal_age = 30
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1200002 = {
+	name = "Derzelas" # Derzelas, God of Healing
+	dynasty = 1000002 #Disakenthas 
+	culture = disakenthas
+	religion = dentudisas
+	disallow_random_traits = yes
+	trait = derzelas
+	immortal_age = 30
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
+		}
+	}
+	9999.1.1 = { death = yes }
+}

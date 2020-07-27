@@ -5,5 +5,5 @@ b_phokaia=castle
 # b_kyme=temple
 # b_larissa=city
 
-culture=luwian
-religion=haianiluwi
+culture = mysian
+religion = haianiluwi

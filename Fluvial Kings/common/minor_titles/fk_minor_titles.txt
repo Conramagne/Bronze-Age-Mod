@@ -14,9 +14,7 @@ title_chief_of_the_royal_bodyguard = {
 			primary_title = { temporary = yes } 
 		}
 		is_adult = yes
-		OR = { 
-			male_can_hold_minor_title_trigger = yes
-		}
+		male_can_hold_minor_title_trigger = yes
 		NOT = { trait = incapable } 
 	}
 	
@@ -49,9 +47,7 @@ title_overseer_of_the_golden_grooms = {
 			primary_title = { temporary = yes } 
 		}
 		is_adult = yes
-		OR = { 
-			male_can_hold_minor_title_trigger = yes
-		}
+		male_can_hold_minor_title_trigger = yes
 		NOT = { trait = incapable } 
 	}
 	
@@ -84,9 +80,7 @@ title_chief_of_the_wooden_tablet_scribes = {
 			primary_title = { temporary = yes } 
 		}
 		is_adult = yes
-		OR = { 
-			male_can_hold_minor_title_trigger = yes
-		}
+		male_can_hold_minor_title_trigger = yes
 		NOT = { trait = incapable } 
 	}
 	
@@ -119,9 +113,7 @@ title_chief_of_the_palace_servants = {
 			primary_title = { temporary = yes } 
 		}
 		is_adult = yes
-		OR = { 
-			male_can_hold_minor_title_trigger = yes
-		}
+		male_can_hold_minor_title_trigger = yes
 		NOT = { trait = incapable } 
 	}
 	
@@ -154,9 +146,7 @@ title_chief_of_the_storehouse = {
 			primary_title = { temporary = yes } 
 		}
 		is_adult = yes
-		OR = { 
-			male_can_hold_minor_title_trigger = yes
-		}
+		male_can_hold_minor_title_trigger = yes
 		NOT = { trait = incapable } 
 	}
 	
@@ -189,9 +179,7 @@ title_chief_of_the_scribes = {
 			primary_title = { temporary = yes } 
 		}
 		is_adult = yes
-		OR = { 
-			male_can_hold_minor_title_trigger = yes
-		}
+		male_can_hold_minor_title_trigger = yes
 		NOT = { trait = incapable } 
 	}
 	

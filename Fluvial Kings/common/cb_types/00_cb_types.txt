@@ -18,7 +18,7 @@ claim = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -400,7 +400,7 @@ other_claim = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -915,7 +915,7 @@ claim_on_liege = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -1195,7 +1195,7 @@ claim_on_liege = {
 					government = hegemonic_government
 				}
 			}
-			character_event = { id = fkr.136 }
+			character_event = { id = fkr.148 }
 		}
 		ROOT = {
 			if = {
@@ -1294,7 +1294,7 @@ claim_on_liege_plot = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -1508,7 +1508,7 @@ claim_on_liege_plot = {
 					government = hegemonic_government
 				}
 			}
-			character_event = { id = fkr.136 }
+			character_event = { id = fkr.148 }
 		}
 		ROOT = {
 			if = {
@@ -1605,7 +1605,7 @@ claim_on_vassal_plot = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -1738,7 +1738,7 @@ claim_on_vassal_plot = {
 					government = hegemonic_government
 				}
 			}
-			character_event = { id = fkr.136 }
+			character_event = { id = fkr.148 }
 		}
 		ROOT = {
 			if = {
@@ -1827,7 +1827,7 @@ other_claim_on_liege = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -2208,7 +2208,7 @@ other_claim_on_liege = {
 					government = hegemonic_government
 				}
 			}
-			character_event = { id = fkr.136 }
+			character_event = { id = fkr.148 }
 		}
 		ROOT = {
 			if = {
@@ -2313,7 +2313,7 @@ claim_all = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -2636,7 +2636,7 @@ change_seniority_succession_law = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -2825,7 +2825,7 @@ change_seniority_succession_law = {
 					government = hegemonic_government
 				}
 			}
-			character_event = { id = fkr.136 }
+			character_event = { id = fkr.148 }
 		}
 		ROOT = {
 			if = {
@@ -2918,7 +2918,7 @@ change_primogeniture_succession_law = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -3110,7 +3110,7 @@ change_primogeniture_succession_law = {
 					government = hegemonic_government
 				}
 			}
-			character_event = { id = fkr.136 }
+			character_event = { id = fkr.148 }
 		}
 		ROOT = {
 			if = {
@@ -3202,7 +3202,7 @@ change_feudal_elective_succession_law = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -3408,7 +3408,7 @@ change_feudal_elective_succession_law = {
 					government = hegemonic_government
 				}
 			}
-			character_event = { id = fkr.136 }
+			character_event = { id = fkr.148 }
 		}
 		ROOT = {
 			if = {
@@ -3499,12 +3499,22 @@ invasion = {
 		ROOT = {
 			mercenary = no
 		}
+		ROOT = {
+			OR = {
+				liege = {
+					NOT = {
+						has_law = vassal_wars_law_1
+					}
+				}
+				independent = yes
+			}
+		}
 	}
 
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -3865,7 +3875,7 @@ invasion = {
 					government = hegemonic_government
 				}
 			}
-			character_event = { id = fkr.136 }
+			character_event = { id = fkr.148 }
 		}
 		ROOT = {
 			if = {
@@ -4031,7 +4041,7 @@ invasion = {
 	# can_use_gui = {
 		# ROOT = {
 			# NOR = { 
-				# trait = figurehead_emperor
+				# #trait = figurehead_emperor
 				# trait = weak_emperor
 			# }
 		# }
@@ -4371,7 +4381,7 @@ invasion = {
 			# if = {
 				# government = hegemonic_government
 			# }
-			# character_event = { id = fkr.136 }
+			# character_event = { id = fkr.148 }
 		# }
 		# ROOT = {
 			# if = {
@@ -4610,7 +4620,7 @@ religious = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -4644,6 +4654,14 @@ religious = {
 
 	can_use = {
 		ROOT = {
+			OR = {
+				liege = {
+					NOT = {
+						has_law = vassal_wars_law_1
+					}
+				}
+				independent = yes
+			}
 			religion_group = bnai_avraham
 			is_nomadic = no
 			# NOT = { religion_group = pagan_group }
@@ -5231,65 +5249,65 @@ religious = {
 		}
 		
 		# Try to guide the Hordes in the right direction
-		modifier = {
-			factor = 0.1
-			ROOT = {
-				OR = {
-					dynasty = 613 # Seljuks
-					dynasty = 800 # Timurids
-					primary_title = { title = e_il-khanate }
-				}
-			}
-			OR = {
-				empire = {
-					NOT = {
-						OR = {
-							title = e_persia
-							title = e_byzantium
-							title = e_arabia
-						}
-					}
-				}
-				FROM = {
-					primary_title = { title = e_golden_horde }
-					NOT = { year = 1300 }
-				}
-			}
-		}
-		modifier = {
-			factor = 0.1
-			ROOT = {
-				primary_title = { title = e_golden_horde }
-			}
-			OR = {
-				empire = {
-					OR = {
-						title = e_persia
-						title = e_byzantium
-						title = e_arabia
-					}
-				}
-				FROM = {
-					primary_title = { title = e_il-khanate }
-					NOT = { year = 1300 }
-				}
-			}
-		}
-		modifier = {
-			factor = 2.0
-			OR = {
-				culture = persian
-				culture = baloch
-				culture = afghan
-				culture = turkish
-			}
-			empire = {
-				OR = {
-					title = e_persia
-					title = e_rajastan
-				}
-			}
-		}
+		# modifier = {
+			# factor = 0.1
+			# ROOT = {
+				# OR = {
+					# dynasty = 613 # Seljuks
+					# dynasty = 800 # Timurids
+					# primary_title = { title = e_il-khanate }
+				# }
+			# }
+			# OR = {
+				# empire = {
+					# NOT = {
+						# OR = {
+							# title = e_persia
+							# title = e_byzantium
+							# title = e_arabia
+						# }
+					# }
+				# }
+				# FROM = {
+					# primary_title = { title = e_golden_horde }
+					# NOT = { year = 1300 }
+				# }
+			# }
+		# }
+		# modifier = {
+			# factor = 0.1
+			# ROOT = {
+				# primary_title = { title = e_golden_horde }
+			# }
+			# OR = {
+				# empire = {
+					# OR = {
+						# title = e_persia
+						# title = e_byzantium
+						# title = e_arabia
+					# }
+				# }
+				# FROM = {
+					# primary_title = { title = e_il-khanate }
+					# NOT = { year = 1300 }
+				# }
+			# }
+		# }
+		# modifier = {
+			# factor = 2.0
+			# OR = {
+				# culture = persian
+				# culture = baloch
+				# culture = afghan
+				# culture = turkish
+			# }
+			# empire = {
+				# OR = {
+					# title = e_persia
+					# title = e_rajastan
+				# }
+			# }
+		# }
 	}
 }
 
@@ -5323,13 +5341,22 @@ excommunicated_ruler = {
 		ROOT = {
 			NOT = { excommunicated_for = ROOT }
 			mercenary = no
+			controls_religion = no
+			OR = {
+				liege = {
+					NOT = {
+						has_law = vassal_wars_law_1
+					}
+				}
+				independent = yes
+			}
 		}
 	}
 
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -5603,7 +5630,7 @@ bid_for_independence = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -5956,7 +5983,7 @@ depose_liege = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -6150,7 +6177,7 @@ depose_liege = {
 					government = hegemonic_government
 				}
 			}
-			character_event = { id = fkr.136 }
+			character_event = { id = fkr.148 }
 		}
 		ROOT = {
 			if = {
@@ -6222,7 +6249,7 @@ overthrow_ruler = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -6420,7 +6447,7 @@ overthrow_ruler = {
 					government = hegemonic_government
 				}
 			}
-			character_event = { id = fkr.136 }
+			character_event = { id = fkr.148 }
 		}
 		ROOT = {
 			if = {
@@ -6514,7 +6541,7 @@ overthrow_ruler_no_calls = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -6684,7 +6711,7 @@ overthrow_ruler_no_calls = {
 					government = hegemonic_government
 				}
 			}
-			character_event = { id = fkr.136 }
+			character_event = { id = fkr.148 }
 		}
 		ROOT = {
 			if = {
@@ -6749,7 +6776,7 @@ change_gavelkind_succession_law = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -6941,7 +6968,7 @@ change_gavelkind_succession_law = {
 					government = hegemonic_government
 				}
 			}
-			character_event = { id = fkr.136 }
+			character_event = { id = fkr.148 }
 		}
 		ROOT = {
 			if = {
@@ -7025,7 +7052,7 @@ lower_crown_authority_law = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -7211,7 +7238,7 @@ lower_crown_authority_law = {
 					government = hegemonic_government
 				}
 			}
-			character_event = { id = fkr.136 }
+			character_event = { id = fkr.148 }
 		}
 		ROOT = {
 			if = {
@@ -7296,7 +7323,7 @@ lower_tribal_organization_law = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -7483,7 +7510,7 @@ lower_tribal_organization_law = {
 					government = hegemonic_government
 				}
 			}
-			character_event = { id = fkr.136 }
+			character_event = { id = fkr.148 }
 		}
 		ROOT = {
 			if = {
@@ -7573,7 +7600,7 @@ coastal_republic = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -7582,6 +7609,14 @@ coastal_republic = {
 
 	can_use = {
 		ROOT = {
+			OR = {
+				liege = {
+					NOT = {
+						has_law = vassal_wars_law_1
+					}
+				}
+				independent = yes
+			}
 			OR = {
 				is_merchant_republic = yes
 				is_patrician = yes
@@ -7828,7 +7863,7 @@ coastal_county_republic = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -7837,6 +7872,14 @@ coastal_county_republic = {
 
 	can_use = {
 		ROOT = {
+			OR = {
+				liege = {
+					NOT = {
+						has_law = vassal_wars_law_1
+					}
+				}
+				independent = yes
+			}
 			OR = {
 				is_merchant_republic = yes
 				is_patrician = yes
@@ -8128,7 +8171,7 @@ weaken_vassal_plot = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -8682,7 +8725,7 @@ decadence_invasion = {
 	# can_use_gui = {
 		# ROOT = {
 			# NOR = { 
-				# trait = figurehead_emperor
+				# #trait = figurehead_emperor
 				# trait = weak_emperor
 			# }
 		# }
@@ -9146,7 +9189,7 @@ cb_faction_independence = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -9486,7 +9529,7 @@ embargo_cb = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -9804,7 +9847,7 @@ seize_trade_post = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -10074,6 +10117,15 @@ viking_invasion = {
 			has_opinion_modifier = { who = FROM modifier = preparing_to_invade }
 			NOT = { is_liege_or_above = FROM }
 			mercenary = no
+			is_tribal = yes
+			OR = {
+				liege = {
+					NOT = {
+						has_law = vassal_wars_law_1
+					}
+				}
+				independent = yes
+			}
 		}
 	}
 	
@@ -10686,6 +10738,14 @@ peasant_revolt = {
 	}
 
 	on_success_title = {
+		FROM = {
+			if = {
+				limit = {
+					government = hegemonic_government
+				}
+			}
+			character_event = { id = fkr.137 }
+		}
 		usurp_title_plus_barony_if_unlanded = { target = ROOT type = revolt }
 		ROOT = { set_defacto_liege = ROOT }
 		FROM = {
@@ -10701,14 +10761,6 @@ peasant_revolt = {
 	}
 
 	on_fail_title = {
-		FROM = {
-			if = {
-				limit = {
-					government = hegemonic_government
-				}
-			}
-			character_event = { id = fkr.136 }
-		}
 		ROOT = {
 			if = {
 				limit = {
@@ -10748,14 +10800,6 @@ peasant_revolt = {
 	}
 
 	on_reverse_demand = {
-		FROM = {
-			if = {
-				limit = {
-					government = hegemonic_government
-				}
-			}
-			character_event = { id = fkr.136 }
-		}
 		ROOT = {
 			if = {
 				limit = {
@@ -10785,6 +10829,17 @@ peasant_revolt = {
 					days = 3650
 				}
 			}
+		}
+		FROM = {
+			if = {
+				limit = {
+					government = hegemonic_government
+					NOT = {
+						has_character_modifier = crushed_revolt
+					}
+				}
+			}
+			character_event = { id = fkr.147 }
 		}
 		ROOT = {
 			clear_wealth = yes
@@ -10848,7 +10903,7 @@ heretic_revolt = {
 		}
 	}
 
-	on_success = {
+	on_success = {	
 		ROOT = {
 			prestige = 200
 			piety = 100
@@ -10929,14 +10984,6 @@ heretic_revolt = {
 	}
 
 	on_fail = {
-		FROM = {
-			if = {
-				limit = {
-					government = hegemonic_government
-				}
-			}
-			character_event = { id = fkr.136 }
-		}
 		ROOT = {
 			if = {
 				limit = {
@@ -10981,14 +11028,6 @@ heretic_revolt = {
 	}
 
 	on_reverse_demand = {
-		FROM = {
-			if = {
-				limit = {
-					government = hegemonic_government
-				}
-			}
-			character_event = { id = fkr.136 }
-		}
 		ROOT = {
 			if = {
 				limit = {
@@ -11033,6 +11072,17 @@ heretic_revolt = {
 			religion_authority = {
 				modifier = won_heretic_revolt
 			}
+		}
+		FROM = {
+			if = {
+				limit = {
+					government = hegemonic_government
+					NOT = {
+						has_character_modifier = crushed_revolt
+					}
+				}
+			}
+			character_event = { id = fkr.147 }
 		}
 	}
 
@@ -11167,14 +11217,6 @@ religious_revolt = {
 	}
 
 	on_fail = {
-		FROM = {
-			if = {
-				limit = {
-					government = hegemonic_government
-				}
-			}
-			character_event = { id = fkr.136 }
-		}
 		ROOT = {
 			if = {
 				limit = {
@@ -11219,14 +11261,6 @@ religious_revolt = {
 	}
 
 	on_reverse_demand = {
-		FROM = {
-			if = {
-				limit = {
-					government = hegemonic_government
-				}
-			}
-			character_event = { id = fkr.136 }
-		}
 		ROOT = {
 			if = {
 				limit = {
@@ -11271,6 +11305,17 @@ religious_revolt = {
 			religion_authority = {
 				modifier = won_religious_revolt
 			}
+		}
+		FROM = {
+			if = {
+				limit = {
+					government = hegemonic_government
+					NOT = {
+						has_character_modifier = crushed_revolt
+					}
+				}
+			}
+			character_event = { id = fkr.147 }
 		}
 	}
 
@@ -11409,14 +11454,6 @@ liberation_revolt = {
 	}
 
 	on_fail_title = {
-		FROM = {
-			if = {
-				limit = {
-					government = hegemonic_government
-				}
-			}
-			character_event = { id = fkr.136 }
-		}
 		ROOT = {
 			if = {
 				limit = {
@@ -11458,14 +11495,6 @@ liberation_revolt = {
 	}
 
 	on_reverse_demand = {
-		FROM = {
-			if = {
-				limit = {
-					government = hegemonic_government
-				}
-			}
-			character_event = { id = fkr.136 }
-		}
 		ROOT = {
 			if = {
 				limit = {
@@ -11491,10 +11520,21 @@ liberation_revolt = {
 					months = 1200
 				}
 				add_character_modifier = { 
-					name = crushed_major_revolt
+					name = crushed_revolt
 					days = 3650
 				}
 			}
+		}
+		FROM = {
+			if = {
+				limit = {
+					government = hegemonic_government
+					NOT = {
+						has_character_modifier = crushed_revolt
+					}
+				}
+			}
+			character_event = { id = fkr.136 }
 		}
 		ROOT = {
 			clear_wealth = yes
@@ -12301,7 +12341,7 @@ kingdom_adventure = { # Used mainly for Muslims adventuring into India
 	# can_use_gui = {
 		# ROOT = {
 			# NOR = { 
-				# trait = figurehead_emperor
+				# #trait = figurehead_emperor
 				# trait = weak_emperor
 			# }
 		# }
@@ -12716,7 +12756,7 @@ kingdom_adventure = { # Used mainly for Muslims adventuring into India
 	# can_use_gui = {
 		# ROOT = {
 			# NOR = { 
-				# trait = figurehead_emperor
+				# #trait = figurehead_emperor
 				# trait = weak_emperor
 			# }
 		# }
@@ -12969,7 +13009,7 @@ kingdom_adventure = { # Used mainly for Muslims adventuring into India
 	# can_use_gui = {
 		# ROOT = {
 			# NOR = { 
-				# trait = figurehead_emperor
+				# #trait = figurehead_emperor
 				# trait = weak_emperor
 			# }
 		# }
@@ -13745,7 +13785,7 @@ dejure_county_claim = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -14194,7 +14234,7 @@ dejure_barony_claim = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -14664,7 +14704,7 @@ other_dejure_county_claim = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -15474,7 +15514,7 @@ other_dejure_county_claim = {
 	# can_use_gui = {
 		# ROOT = {
 			# NOR = { 
-				# trait = figurehead_emperor
+				# #trait = figurehead_emperor
 				# trait = weak_emperor
 			# }
 		# }
@@ -15878,7 +15918,7 @@ manifest_destiny_invasion = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -16428,7 +16468,7 @@ rivalry_cb = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -16662,7 +16702,7 @@ tributary_cb = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -17257,7 +17297,7 @@ free_tributary_cb = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -17664,7 +17704,7 @@ cb_install_khan = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -17888,7 +17928,7 @@ nomad_dispute = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -18127,7 +18167,7 @@ cb_liberate_nomad_duchy = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -18477,6 +18517,14 @@ cb_minor_clan_revolt = {
 			war = no
 			NOT = { is_liege_or_above = FROM }
 			mercenary = no
+			OR = {
+				liege = {
+					NOT = {
+						has_law = vassal_wars_law_1
+					}
+				}
+				independent = yes
+			}
 		}
 	}
 
@@ -18693,7 +18741,7 @@ nomad_subjugation = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -19136,7 +19184,7 @@ nomad_invasion = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -19596,7 +19644,7 @@ nomad_expansion = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -19992,7 +20040,7 @@ increase_council_power_war = { # Started from faction
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -20254,7 +20302,7 @@ nomad_humiliate_cb = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
@@ -20635,7 +20683,7 @@ powerful_vassal_takeover_war = { # Started from faction
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}

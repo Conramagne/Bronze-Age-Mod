@@ -8,4 +8,3 @@ b_isthmia = city
 
 culture = achaean
 religion = pantes_theoi
-terrain = plains

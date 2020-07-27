@@ -7,4 +7,3 @@ b_palekastro=temple
 
 culture = cretan
 religion = pantes_theoi
-terrain = plains

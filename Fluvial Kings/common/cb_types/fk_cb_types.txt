@@ -22,13 +22,21 @@ hellenic_birthright_invasion = {
 			}
 			NOR = {
 				trait = weak_emperor
-				trait = strong_emperor
+				#trait = figurehead_emperor
 			}
 		}
 	}
 	
 	can_use = {
 		ROOT = {
+			OR = {
+				liege = {
+					NOT = {
+						has_law = vassal_wars_law_1
+					}
+				}
+				independent = yes
+			}
 			has_character_modifier = hellenic_birthright
 			NOT = { is_liege_or_above = FROM }
 			mercenary = no
@@ -313,12 +321,12 @@ fk_conquest = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
 		custom_tooltip = {
-			text = has_not_conquered_in_five_years_TT
+			text = has_not_conquered_recently_TT
 			hidden_tooltip = {
 				ROOT = {
 					NOT = {
@@ -348,6 +356,14 @@ fk_conquest = {
 			NOT = { religion = FROM }
 			mercenary = no
 			independent = yes
+			OR = {
+				liege = {
+					NOT = {
+						has_law = vassal_wars_law_1
+					}
+				}
+				independent = yes
+			}
 		}
 		FROM = {
 			independent = yes
@@ -405,17 +421,17 @@ fk_conquest = {
 												}
 											}
 										}
-										AND = {
-											is_land = no
-											any_neighbor_province = {
-												owner = {
-													OR = {
-														character = ROOT
-														is_liege_or_above = ROOT
-													}
-												}
-											}
-										}
+										# AND = {
+											# is_land = no
+											# any_neighbor_province = {
+												# owner = {
+													# OR = {
+														# character = ROOT
+														# is_liege_or_above = ROOT
+													# }
+												# }
+											# }
+										# }
 									}
 								}
 							}
@@ -432,6 +448,17 @@ fk_conquest = {
 			NOT = { same_realm = FROM }
 			independent = yes
 			NOT = { religion = FROM }
+		}
+	}
+	
+	is_valid_title = {
+		OR = {
+			FROM = {
+				has_landed_title = PREV
+			}
+			holder_scope = {
+				is_liege_or_above = FROM
+			}
 		}
 	}
 	
@@ -797,6 +824,8 @@ fk_county_conquest = {
 	sprite = 9
 	truce_days = 3650
 	is_permanent = yes
+	check_all_titles = yes
+	# check_de_jure_tier = COUNT
 
 	allowed_to_target_tributaries = no
 	
@@ -805,12 +834,12 @@ fk_county_conquest = {
 	can_use_gui = {
 		ROOT = {
 			NOR = { 
-				trait = figurehead_emperor
+				#trait = figurehead_emperor
 				trait = weak_emperor
 			}
 		}
 		custom_tooltip = {
-			text = has_not_conquered_in_five_years
+			text = has_not_conquered_recently_TT
 			hidden_tooltip = {
 				ROOT = {
 					NOT = {
@@ -840,6 +869,14 @@ fk_county_conquest = {
 			mercenary = no
 			independent = yes
 			# religion = FROM
+			OR = {
+				liege = {
+					NOT = {
+						has_law = vassal_wars_law_1
+					}
+				}
+				independent = yes
+			}
 		}
 		FROM = {
 			independent = yes
@@ -847,70 +884,53 @@ fk_county_conquest = {
 	}
 	
 	can_use_title = {
-		# The attacker needs at least one county in the target kingdom, or a border, or be only two sea zones away from one of your counties
 		tier = COUNT
-		any_direct_de_jure_vassal_title = {
-			OR = {
-				holder_scope = {
+		OR = {
+			dejure_liege_title = {
+				owner = {
 					OR = {
 						character = ROOT
 						is_liege_or_above = ROOT
 					}
 				}
-				location = {
-					any_neighbor_province = {
-						OR = {
-							AND = {
-								has_owner = yes
-								owner = {
-									OR = {
-										character = ROOT
-										is_liege_or_above = ROOT
-									}
+			}
+			location = {
+				any_neighbor_province = {
+					OR = {
+						AND = {
+							has_owner = yes
+							owner = {
+								OR = {
+									character = ROOT
+									is_liege_or_above = ROOT
 								}
 							}
-							AND = {
-								is_land = no
+						}
+						AND = {
+							is_land = no
+							any_neighbor_province = {
 								# OR = {
-									# ROOT = { religion_group = muslim }
-									# FROM = { religion_group = muslim }
-									# AND = {
-										# ROOT = { religion_group = pagan_group }
-										# has_global_flag = pagan_ghws_unlocked
-									# }
-									# AND = {
-										# ROOT = { religion_group = christian }
-										# has_global_flag = christian_crusades_unlocked
-									# }
-									# AND = {
-										# ROOT = { religion_group = muslim }
-										# has_global_flag = muslim_jihads_unlocked
-									# }
-								# }
-								any_neighbor_province = {
-									OR = {
-										AND = {
-											has_owner = yes
-											owner = {
-												OR = {
-													character = ROOT
-													is_liege_or_above = ROOT
-												}
-											}
-										}
-										AND = {
-											is_land = no
-											any_neighbor_province = {
-												owner = {
-													OR = {
-														character = ROOT
-														is_liege_or_above = ROOT
-													}
-												}
+									AND = {
+										has_owner = yes
+										owner = {
+											OR = {
+												character = ROOT
+												is_liege_or_above = ROOT
 											}
 										}
 									}
-								}
+									# AND = {
+										# is_land = no
+										# any_neighbor_province = {
+											# owner = {
+												# OR = {
+													# character = ROOT
+													# is_liege_or_above = ROOT
+												# }
+											# }
+										# }
+									# }
+								# }
 							}
 						}
 					}
@@ -928,6 +948,17 @@ fk_county_conquest = {
 		}
 		FROM = {
 			independent = yes
+		}
+	}
+	
+	is_valid_title = {
+		OR = {
+			FROM = {
+				has_landed_title = PREV
+			}
+			holder_scope = {
+				is_liege_or_above = FROM
+			}
 		}
 	}
 	

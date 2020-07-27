@@ -85,7 +85,7 @@
 	}
 }
 2100005 = {
-	name = "Erichthoniad"
+	name = "Erikhthoniad"
 	culture = "achaean"
 	used_for_random = no
 	coat_of_arms = {
@@ -102,7 +102,7 @@
 	}
 }
 2100006 = {
-	name = "Cadmiad"
+	name = "Kadmiad"
 	culture = "achaean"
 	used_for_random = no
 	coat_of_arms = {
@@ -187,7 +187,7 @@
 	}
 }
 2100011 = {
-	name = "Lacedaemonid"
+	name = "Lakedaemonid"
 	culture = "achaean"
 	used_for_random = no
 	coat_of_arms = {
@@ -238,7 +238,7 @@
 	}
 }
 2100014 = {
-	name = "Inachid"
+	name = "Inakhid"
 	culture = "achaean"
 	used_for_random = no
 	coat_of_arms = {
@@ -374,7 +374,7 @@
 	}
 }
 2100022 = {
-	name = "Eurytid"
+	name = "Eurutid"
 	culture = "achaean"
 	used_for_random = no
 	coat_of_arms = {
@@ -408,7 +408,7 @@
 	}
 }
 2100024 = {
-	name = "Myrmidonid"
+	name = "Murmidonid"
 	culture = "achaean"
 	used_for_random = no
 	coat_of_arms = {
@@ -531,7 +531,7 @@
 	used_for_random = no
 }
 2100039 = {
-	name = "Charopid"
+	name = "Kharopid"
 	culture = "achaean"
 	used_for_random = no
 }

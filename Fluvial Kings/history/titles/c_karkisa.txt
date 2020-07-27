@@ -2,6 +2,9 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_masa
+2485.1.1={
+	holder = 2201201 #Phaerops
+}
+2525.1.1={
+	holder = 2201200 #Phorkus
 }

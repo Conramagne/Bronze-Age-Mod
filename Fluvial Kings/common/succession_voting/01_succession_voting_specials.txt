@@ -1737,7 +1737,7 @@ byzantine_elective = {
 			localisation_key = tooltip_feudal_elector_vote_infidel
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
+			religion_group = bnai_avraham 
 			FROM = { 
 				religion_group = ROOT
 				NOT = { religion = ROOT } 
@@ -1749,7 +1749,7 @@ byzantine_elective = {
 			localisation_key = tooltip_feudal_elector_vote_heathen
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
+			religion_group = bnai_avraham 
 			# NOR = { 
 				# AND = {  
 					# trait = sympathy_christendom
@@ -1786,7 +1786,7 @@ byzantine_elective = {
 			localisation_key = tooltip_feudal_elector_vote_heretic
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
+			religion_group = bnai_avraham 
 			FROM = { is_heresy_of = ROOT }
 		}
 		additive_modifier = { #Dogmatics will hardly ever pick an infidel.
@@ -5431,7 +5431,7 @@ hre_feudal_elective = {
 			localisation_key = tooltip_feudal_elector_vote_infidel
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
+			religion_group = bnai_avraham 
 			FROM = { 
 				religion_group = ROOT
 				NOT = { religion = ROOT } 
@@ -5443,7 +5443,7 @@ hre_feudal_elective = {
 			localisation_key = tooltip_feudal_elector_vote_heathen
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
+			religion_group = bnai_avraham 
 			# NOR = { 
 				# AND = {  
 					# trait = sympathy_christendom
@@ -5480,7 +5480,7 @@ hre_feudal_elective = {
 			localisation_key = tooltip_feudal_elector_vote_heretic
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = bnai_avraham }
+			religion_group = bnai_avraham 
 			FROM = { is_heresy_of = ROOT }
 		}
 		additive_modifier = { #Dogmatics will hardly ever pick an infidel.

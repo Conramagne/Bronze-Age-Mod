@@ -290,6 +290,10 @@ character_event = {
             log = "Displaced royal: [raiding_adventurer.GetBestName] declared war over the province [selling_province.GetName], currently held by [Root.GetBestName]."
         }
     }
+
+	option = {
+		name = OK
+	}
 }
 
 #Ping event
@@ -1045,7 +1049,7 @@ character_event = {
     			modifier = { trait = craven factor = 5 }
     			liege = {
 					ROOT = { religion = PREV }
-					character_event = { id = ADV.21 days = 7 }
+					letter_event = { id = ADV.21 days = 7 }
 				}
     			any_courtier = {
     				limit = { is_landed = no }

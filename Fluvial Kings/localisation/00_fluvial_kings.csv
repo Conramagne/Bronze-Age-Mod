@@ -3,9 +3,13 @@ anatolian;Asu;;;;;;;;;;;;;x
 hittite;Nešili;;;;;;;;;;;;;x
 pala;Palaumnili;;;;;;;;;;;;;x
 luwian;Luwili;;;;;;;;;;;;;x
-kaskian;Kaskian;;;;;;;;;;;;;x
+kaskian;Kaška;;;;;;;;;;;;;x
 isuwan;Isuwan;;;;;;;;;;;;;x
+mysian;Mysian;;;;;;;;;;;;;x
 wilusan;Wilusili;;;;;;;;;;;;;x
+lydian;Sfard;;;;;;;;;;;;;x
+carian;Karkisili;;;;;;;;;;;;;x
+lycian;Lukkili;;;;;;;;;;;;;x
 
 hellene;Héllen;;;;;;;;;;;;;x
 achaean;Akhaiós;;;;;;;;;;;;;x
@@ -15,14 +19,16 @@ dorian;Dorieús;;;;;;;;;;;;;x
 ionian;Ionikós;;;;;;;;;;;;;x
 theogonos;Theogonos;;;;;;;;;;;;;x
 cretan;Kresijos;;;;;;;;;;;;;x
+phrygian;Phrugios;;;;;;;;;;;;;x
 # minoan;Minoikós;;;;;;;;;;;;;x
 bull;Taúrou;;;;;;;;;;;;;x
 
-thraco_phrygian;Europes;;;;;;;;;;;;;x
+european;Europes;;;;;;;;;;;;;x
 thracian;Thraikós;;;;;;;;;;;;;x
+disakenthas;Disakenthas;;;;;;;;;;;;;x
 ###########Government and Law###########
 feudal_government;Local Polity;;;;;;;;;;;;;x
-feudal_government_desc;Local Polities and States that have arisen from disunited tribes and confederations or have slipped out of the grasps of larger realms. Often considered nothing more than petty states with squabbling tyrants whose authority barely extends beyond the walls of their citadels, they lack the courtly grandeur and the ability to administer more than their local communities.;;;;;;;;;;;;;x
+feudal_government_desc;Local polities are states that have arisen from disunited tribes and confederations or have slipped out of the grasps of larger realms. Often considered nothing more than petty states with squabbling tyrants whose authority barely extends beyond the walls of their citadels, they lack the courtly grandeur and the ability to administer more than their local communities.;;;;;;;;;;;;;x
 
 regional_kingdom_government;Regional Authority;;;;;;;;;;;;;x
 regional_kingdom_government_desc;Regional Authorities are the hingdoms and regional powers that are below the prominence of a hegemon but are potent enough powers in their own locale. Monarchs rely on landed military aristocrats and a growing palace structure. This represent the united polity of a people as well as their subjugated neighbors.;;;;;;;;;;;;;x
@@ -67,7 +73,7 @@ foreigner_law_0;Harsh;;;;;;;;;;;;;x
 foreigner_law_0_desc;Dare we call them people? Dogs befits their stature and character better, and they will know who their masters are.;;;;;;;;;;;;;x
 foreigner_law_1;Neutral;;;;;;;;;;;;;x
 foreigner_law_1_desc;We placed no significance to the foreigners that reside in our realm and treat them with indifference.;;;;;;;;;;;;;x
-foreigner_law_2;Loose;;;;;;;;;;;;;x
+foreigner_law_2;Autonomous;;;;;;;;;;;;;x
 foreigner_law_2_desc;These foreigners are given autonomy in our realm so long as they acknowledge our sovereignty.;;;;;;;;;;;;;x
 
 tribute_law;Tribute Status;;;;;;;;;;;;;x
@@ -112,58 +118,83 @@ haianiluwi_DESC;The Luwi traditions and gods are kin to their Nešili cousins. Ta
 hellenic;Hellenic;;;;;;;;;;;;;x
 
 pantes_theoi;Pantes Theoi;;;;;;;;;;;;;x
-pantes_theoi_DESC;"...and the earth groaned beneath them as at the wrath of Zeus whose joy is in the thunder, when he lasheth the earth about Typhoeus in the country of the Arimoi...” The kings and chieftains of the spear-proud Akhaios are great lovers of song and battle. Aegis-bearing Zeus reprimands and punishes his celestial and mortal children with hideous swears and flaming darts of lightning while his jealous seaward brother causes the land to roll and shudder like the waves of the wine-dark sea. Often the gods come down from high Olumpos to walk amongst men in the garbs of kings or the skins of beasts to challenge mortals and make off with their fair daughters. The goddesses are just as fearsome as their brothers and husbands. Cow-eyed Here brings both comfort and pain to men and women and Artemis pierces the hearts of woodsmen with silver-tipped arrows of horn.;;;;;;;;;;;;;x
+pantes_theoi_DESC;"...and the earth groaned beneath them as at the wrath of Zeus whose joy is in the thunder, when he lasheth the earth about Typhoeus in the country of the Arimoi...” The kings and chieftains of the spear-proud Akhaios are great lovers of song and battle. Aegis-bearing Zeus reprimands and punishes his celestial and mortal children with hideous swears and flaming darts of lightning while his jealous seaward brother causes the land to roll and shudder like the waves of the wine-dark sea. The goddesses are just as fearsome as their brothers and husbands. Cow-eyed Here brings both comfort and pain to men and women and Artemis pierces the hearts of woodsmen with silver-tipped arrows of horn.;;;;;;;;;;;;;x
+
+assussani;Assussani;;;;;;;;;;;;;x
+assussani_DESC;Over the briny Aigaios came the wide-ruling gods of the tireless Danaoi. Salt-soaked oars and swift-turning chariot wheels carry the warriors and kings of Assuwa across the land, ever searching for wealth or land to raise up proud well-walled cities and the blood drinking altars of gleaming temples. Theirs is the flashing helm, the stamping horse, and the high white walls of the unbreakable citadels. Gleaming Zius quarrels and reprimands his seething sons and daughters who glide down from the high mountain to interfere in the lives and ways of mortal men. Some say the doom of the Asu has already been decided by the gods...;;;;;;;;;;;;;x
+
+european_group;Europes;;;;;;;;;;;;;x
+
+dentudisas;Dentudisas;;;;;;;;;;;;;x
+dentudisas_DESC;Thrax’s sons are a ferocious and tempestuous lot, according to some they are the most numerous of all the peoples in the world. The clang of metal, the sweet sound of the war horn and the rattle of the javelin resound throughout the land while the moldering bones of ancient kings lay upon piles of weapons and treasure beneath high burial mounds. Sabazios the fair horseman gallops across the heavens and tramples the serpents under the sharp hooves of his steed. Woe to the enemies of Thrax, for when taken in battle they are almost always offered in sacrifice to battle-glad Pleistoros.;;;;;;;;;;;;;x
 
 ###########Gods and Books###########
 THE_AMURRU_KTOVET;The Amurru K'tovet;;;;;;;;;;;;;x
 THE_BAAL_KTOVET;The Ba’al K'tovet;;;;;;;;;;;;;x
+THE_EPE;The Epe;;;;;;;;;;;;;x
 THE_LUWIAN_ISTANDANT;The Luwian Istandant;;;;;;;;;;;;;x
 THE_NESILI_ISTANDANT;The Nešili Istandant;;;;;;;;;;;;;x
+THE_SURAS_LEGENDS;The Suras' Legends;;;;;;;;;;;;;x
 THE_TORAH;The Torah;;;;;;;;;;;;;x
 THE_QOS_KTOVET;The Qos K'tovet;;;;;;;;;;;;;x
-THE_EPE;The Epe;;;;;;;;;;;;;x
 
 GOD_ADONAI;Adonai;;;;;;;;;;;;;x
 GOD_AMURRU;Amurru;;;;;;;;;;;;;x
+GOD_APARADITI;Aparaditi;;;;;;;;;;;;;x
 GOD_APOLLON;Apollon;;;;;;;;;;;;;x
 GOD_APHRODITE;Aphrodite;;;;;;;;;;;;;x
+GOD_APPALIUNAS;Appaliunaš;;;;;;;;;;;;;x
 GOD_ARES;Ares;;;;;;;;;;;;;x
 GOD_ARINNITI;Arinniti;;;;;;;;;;;;;x
 GOD_ARMA;Arma;;;;;;;;;;;;;x
 GOD_ARTEMIS;Artemis;;;;;;;;;;;;;x
+GOD_ARTEMISU;Artemišu;;;;;;;;;;;;;x
 GOD_ASHERAH;Asherah;;;;;;;;;;;;;x
 GOD_ASSUR;Assur;;;;;;;;;;;;;x
 GOD_ATHENE;Athene;;;;;;;;;;;;;x
+GOD_ATINA;Atina;;;;;;;;;;;;;x
 GOD_BAAL_HADAD;Ba'al Hadad;;;;;;;;;;;;;x
+GOD_BASSAREOS;Bassareos;;;;;;;;;;;;;x
+GOD_BENDIS;Bendis;;;;;;;;;;;;;x
 GOD_DAGON;Dagon;;;;;;;;;;;;;x
 GOD_DEMETER;Demeter;;;;;;;;;;;;;x
+GOD_DEMETERA;Demetera;;;;;;;;;;;;;x
+GOD_DERZELAS;Derzelas;;;;;;;;;;;;;x
 GOD_DIONUSOS;Dionusos;;;;;;;;;;;;;x
+GOD_DIUNNUSU;Diunnušu;;;;;;;;;;;;;x
 GOD_ERRA;Erra;;;;;;;;;;;;;x
 GOD_EL;El;;;;;;;;;;;;;x
 GOD_ELOHIM;Elohim;;;;;;;;;;;;;x
 GOD_EL_SHADDAI;El Shaddai;;;;;;;;;;;;;x
 GOD_ELYON;Elyon;;;;;;;;;;;;;x
 GOD_ERIS;Eris;;;;;;;;;;;;;x
+GOD_GEBELEXIS;Gebelexis;;;;;;;;;;;;;x
 GOD_GOD;God;;;;;;;;;;;;;x
+GOD_HAPASATUSU;Hapašatušu;;;;;;;;;;;;;x
 GOD_HAPHAISTOS;Haphaistos;;;;;;;;;;;;;x
 GOD_HASHEM;HaShem;;;;;;;;;;;;;x
 GOD_HERE;Here;;;;;;;;;;;;;x
+GOD_HEMESU;Hemešu;;;;;;;;;;;;;x
 GOD_HERMES;Hermes;;;;;;;;;;;;;x
 GOD_ILLUYANKA;Illuyanka;;;;;;;;;;;;;x
 GOD_ISHTAR;Ishtar;;;;;;;;;;;;;x
 GOD_LAMASHTU;Lamashtu;;;;;;;;;;;;;x
 GOD_LITANU;Litanu;;;;;;;;;;;;;x
+GOD_KOTYS;Kotys;;;;;;;;;;;;;x
 GOD_KRONOS;Kronos;;;;;;;;;;;;;x
 GOD_MANAT;Manat;;;;;;;;;;;;;x
 GOD_MARDUK;Marduk;;;;;;;;;;;;;x
 GOD_MOLEK;Molek;;;;;;;;;;;;;x
 GOD_MOT;Mot;;;;;;;;;;;;;x
 GOD_NASU;Nasu;;;;;;;;;;;;;x
+GOD_PESEDAEN;Pešedaen;;;;;;;;;;;;;x
+GOD_PLEISTOROS;Pleistoros;;;;;;;;;;;;;x
 GOD_POSEIDAON;Poseidaon;;;;;;;;;;;;;x
 GOD_RESHEPH;Resheph;;;;;;;;;;;;;x
+GOD_SABAZIOS;Sabazios;;;;;;;;;;;;;x
 GOD_SHAMASH;Shamash;;;;;;;;;;;;;x
 GOD_SHANTA;Shanta;;;;;;;;;;;;;x
-GOD_SHARRUMA;Sharruma;;;;;;;;;;;;;x
+GOD_SARRUMA;Šarruma;;;;;;;;;;;;;x
 GOD_SIN;Sin;;;;;;;;;;;;;x
 GOD_TAKNASDUTU;Taknasdutu;;;;;;;;;;;;;x
 GOD_TARHUNNA;Tarhunna;;;;;;;;;;;;;x
@@ -173,7 +204,11 @@ GOD_TIWAZ;Tiwaz;;;;;;;;;;;;;x
 GOD_TORU_EL;Toru El;;;;;;;;;;;;;x
 GOD_TYPHOEUS;Typhoeus;;;;;;;;;;;;;x
 GOD_YAM;Yam;;;;;;;;;;;;;x
+GOD_ZBELSURDOS;Zbelsurdos;;;;;;;;;;;;;x
+GOD_ZEMELA;Zemela;;;;;;;;;;;;;x
 GOD_ZEUS;Zeus;;;;;;;;;;;;;x
+GOD_ZIUS;Ziuš;;;;;;;;;;;;;x
+GOD_ZUML;Zuml;;;;;;;;;;;;;x
 
 KOHEN;Kohen;;;;;;;;;;;;;x
 SANKUNNI;Sankunni;;;;;;;;;;;;;x
@@ -191,6 +226,7 @@ WAR_NAME_FK_COUNTY_CONQUEST;$ORDER$ County Conquest War for $OTHER_TITLE$;;;;;;;
 fk_county_conquest_desc;Rulers can conquer single border counties without any specific reason.;;;;;;;;;;;;;x
 
 has_not_conquered_in_five_years_TT;Has not conquered in five years;;;;;;;;;;;;;x
+has_not_conquered_recently_TT;Has not conquered recently.;;;;;;;;;;;;;x
 
 conquer_cooldown;Conquest Cooldown;;;;;;;;;;;;;x
 
@@ -211,6 +247,7 @@ d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
 d_ili_abinia_adj;Priestly;;;;;;;;;;;;;x
 d_haianiluwi;High Haianiluwi Priesthood;;;;;;;;;;;;;x
 d_haianiluwi_adj;Priestly;;;;;;;;;;;;;x
+e_european_pantheon;Europes Pantheon;;;;;;;;;;;;;x
 e_hellenic_pantheon;Hellenic Pantheon;;;;;;;;;;;;;x
 e_pihassasi_pantheon;Pihassasi Pantheon;;;;;;;;;;;;;x
 
@@ -337,8 +374,8 @@ emperor_female_thracian;Mekamatar;;;;;;;;;;;;;x
 
 ###########Religious Title Localisation###########
 temple_barony_of_pihassasi;Temple of;;;;;;;;;;;;;x
-temple_baron_pihassasi;Priest;;;;;;;;;;;;;x
-temple_baron_female_pihassasi;Priestess;;;;;;;;;;;;;x
+temple_baron_pihassasi;Sankunni;;;;;;;;;;;;;x
+temple_baron_female_pihassasi;Sankunnisara;;;;;;;;;;;;;x
 
 temple_barony_of_hellenic;Temple of;;;;;;;;;;;;;x
 temple_baron_hellenic;Priest;;;;;;;;;;;;;x
@@ -361,16 +398,26 @@ imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority
 imperial_authority_desc;The authority of the sovereign is determined by how much control over their realm they have. As it ebbs and flows, so does their power.\nImperial authority can be §Gincreased§! by:\n§Y*§! Having high attributes or skills\n§Y*§! Having loyal councilors\n§Y*§! Having a Weak Council\n§Y*§! Winning wars and major battles\nImperial authority can be §Rdecreased§! by:\n§Y*§! Having low attributes or skills\n§Y*§! Succession\n§Y*§! Long regencies\n§Y*§! Having disloyal councilors\n§Y*§! Having a Strong Council\n§Y*§! Losing wars and major battles;;;;;;;;;;;;;x
 imperial_authority_decrease_5_TT;§YImperial Authority§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
 imperial_authority_decrease_7_TT;§YImperial Authority§! will §Rdecrease§! by 7%;;;;;;;;;;;;;x
+imperial_authority_decrease_10_TT;§YImperial Authority§! will §Rdecrease§! by 10%;;;;;;;;;;;;;x
 imperial_authority_decrease_2_5_TT;§YImperial Authority§! will §Rdecrease§! by 2.5%;;;;;;;;;;;;;x
+imperial_authority_increase_1_TT;§YImperial Authority§! will §Gincrease§! by 1%;;;;;;;;;;;;;x
 imperial_authority_increase_5_TT;§YImperial Authority§! will §Gincrease§! by 5%;;;;;;;;;;;;;x
 imperial_authority_increase_2_TT;§YImperial Authority§! will §Gincrease§! by 2%;;;;;;;;;;;;;x
 imperial_authority_increase_2_5_TT;§YImperial Authority§! will §Gincrease§! by 2.5%;;;;;;;;;;;;;x
-imperial_authority_decrease_10_TT;§YImperial Authority§! will §Gincrease§! by 10%;;;;;;;;;;;;;x
+imperial_authority_increase_10_TT;§YImperial Authority§! will §Gincrease§! by 10%;;;;;;;;;;;;;x
 opinion_rumors_10;Rumors;;;;;;;;;;;;;x
 opinion_rumors_25;Rumors;;;;;;;;;;;;;x
 opinion_rectified_grievance;Grievances Rectified;;;;;;;;;;;;;x
+
+slander_liege;Slander Liege;;;;;;;;;;;;;x
+slander_liege_desc;[Root.GetTitledFirstName] has become a bit too influential within the court. If I were to slander [Root.GetHerHim], it may cut [Root.GetHerHim] down to size.;;;;;;;;;;;;;x
+has_not_been_slandered_TT;Has not been slandered recently.;;;;;;;;;;;;;x
 opinion_slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
 slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
+
+opinion_oppressive_overlord;Oppressive Overlord;;;;;;;;;;;;;x
+
+imperial_authority_increase_war;Received Imperial Authority Increase From War;;;;;;;;;;;;;x
 
 #opinion of traits
 opinion_of_zealous;Opinion of Zealous;;;;;;;;;;;;;x
@@ -461,25 +508,26 @@ strategist_opinion;Strategist Character Opinion;;;;;;;;;;;;;x
 won_hellenic_invasion;Won [hellenic.GetName] Invasion;;;;;;;;;;;;;x
 lost_hellenic_invasion;Lost [hellenic.GetName] Invasion;;;;;;;;;;;;;x
 
-figurehead_emperor;Figurehead Monarch;;;;;;;;;;;;;x
-figurehead_emperor_desc;You wield little power.;;;;;;;;;;;;;x
-weak_emperor;Weak Monarch;;;;;;;;;;;;;x
-weak_emperor_desc;You wield no real power.;;;;;;;;;;;;;x
+figurehead_emperor;Weak Monarch;;;;;;;;;;;;;x
+figurehead_emperor_desc;You wield no real power.;;;;;;;;;;;;;x
+weak_emperor;Figurehead Monarch;;;;;;;;;;;;;x
+weak_emperor_desc;You wield little power.;;;;;;;;;;;;;x
+INSULT_INEFFECTUAL;Ineffectual;;;;;;;;;;;;;x
 strong_emperor;Strong Monarch;;;;;;;;;;;;;x
 strong_emperor_desc;You wield great power.;;;;;;;;;;;;;x
 
 #province modifiers
 oppressive_rule;Oppressive Policies;;;;;;;;;;;;;x
-oppressive_rule_desc;The foreign cultures and faiths of this province are being oppressed.;;;;;;;;;;;;;x
+oppressive_rule_desc;The foreign communities of this province are being oppressed.;;;;;;;;;;;;;x
 autonomous_rule;Autonomous Communities;;;;;;;;;;;;;x
-autonomous_rule_desc;The foreign cultures and faiths of this province have autonomy.;;;;;;;;;;;;;x
+autonomous_rule_desc;The foreign communities of this province have autonomy.;;;;;;;;;;;;;x
 tax_tribute;Tribute: Tax-Focused;;;;;;;;;;;;;x
 tax_tribute_desc;The tribute in this province is tax-focused.;;;;;;;;;;;;;x
 levy_tribute;Tribute: Levy-Focused;;;;;;;;;;;;;x
 levy_tribute_desc;The tribute in this province is levy-focused.;;;;;;;;;;;;;x
 
 foreign_rule;Foreign Rule;;;;;;;;;;;;;x
-foreign_rule_desc;The local people are resistant to your rule...;;;;;;;;;;;;;x
+foreign_rule_desc;Due to the lack of a native ruler and autonomy, the local people are resistant to your rule...;;;;;;;;;;;;;x
 
 #sacrifice modifiers
 made_sacrifice;Made a Sacrifce;;;;;;;;;;;;;x
@@ -525,6 +573,7 @@ good_reforms_desc;The reform attempts of this character have been a success.;;;;
 bureau_increase_1_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 1%;;;;;;;;;;;;;x
 bureau_increase_105_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 1.5%;;;;;;;;;;;;;x
 bureau_increase_2_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 2%;;;;;;;;;;;;;x
+bureau_increase_205_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 2.5%;;;;;;;;;;;;;x
 bureau_increase_3_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 3%;;;;;;;;;;;;;x
 bureau_increase_4_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 4%;;;;;;;;;;;;;x
 
@@ -592,10 +641,12 @@ devotion_telipinu;Devoted to Telipinu;;;;;;;;;;;;;x
 devotion_telipinu_desc;This character is devoted to Telipinu;;;;;;;;;;;;;x
 
 #syncretic traits
-syncretic_pihassasi;Syncretic to Pihassasi;;;;;;;;;;;;;x
-syncretic_pihassasi_desc;This character syncretize their religious belief with those of the [pihassasi.GetName] Pantheon.;;;;;;;;;;;;;x
-syncretic_hellenic;Syncretic to Hellenic;;;;;;;;;;;;;x
-syncretic_hellenic_desc;This character syncretize their religious belief with those of the [hellenic.GetName] Pantheon.;;;;;;;;;;;;;x
+syncretic_pihassasi;Syncretic with Pihassasi;;;;;;;;;;;;;x
+syncretic_pihassasi_desc;This character is syncretic with with those of the [pihassasi.GetName] Pantheon.;;;;;;;;;;;;;x
+syncretic_hellenic;Syncretic with Hellenic;;;;;;;;;;;;;x
+syncretic_hellenic_desc;This character is syncretic with with those of the [hellenic.GetName] Pantheon.;;;;;;;;;;;;;x
+syncretic_european_group;Syncretic with Hellenic;;;;;;;;;;;;;x
+syncretic_european_group_desc;This character is syncretic with with those of the [european_group.GetName] Pantheon.;;;;;;;;;;;;;x
 
 #stratocratic traits
 amazonian_trait;Amazonios;;;;;;;;;;;;;x
@@ -703,6 +754,10 @@ amazonian_marriage_desc;As an [Root.Culture.GetName], you must matrilineally wed
 
 amazonian_marriage_third_party;[Root.Culture.GetName] Marriage;;;;;;;;;;;;;x
 amazonian_marriage_third_party_desc;As an [Root.Culture.GetName], you can matrilineally wed one of your [Root.Culture.GetName] dependents to another [Root.Culture.GetName].;;;;;;;;;;;;;x
+
+opposite_gender_TT;Must be the opposite gender.;;;;;;;;;;;;;x
+
+tooltip_title_same_culture;Has same culture as capital of the title;;;;;;;;;;;;;x
 
 GOVERNMENT_UNIT_BONUS;Government Unit Bonus;;;;;;;;;;;;;x
 BLANK_TITLE;;;;;;;;;;;;;;x

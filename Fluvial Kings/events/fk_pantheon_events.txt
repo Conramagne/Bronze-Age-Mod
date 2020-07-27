@@ -10,6 +10,9 @@ character_event = {
 	
 	option = {
 		name = OK
+		custom_tooltip = {
+			text = click_on_portrait_TT
+		}
 	}
 }
 
@@ -23,8 +26,28 @@ character_event = {
 	
 	option = {
 		name = OK
+		custom_tooltip = {
+			text = click_on_portrait_TT
+		}
 	}
 }
+
+#European Pantheon
+character_event = {
+	id = fkp.3
+	desc = EVTDESCFKP1
+	picture = GFX_evt_blessed_by_the_gods
+	is_triggered_only = yes
+	portrait = 1200000
+	
+	option = {
+		name = OK
+		custom_tooltip = {
+			text = click_on_portrait_TT
+		}
+	}
+}
+
 
 ####Boon Events
 #Given Boon
@@ -229,18 +252,7 @@ character_event = {
 		hidden_tooltip = {
 			random_list = {
 				40 = { #Do Well
-					if = {
-						limit = {
-							ai = yes
-						}
-						ai_make_sacrifice_to_evaluation_effect_self_success = yes
-					}
-					if = {
-						limit = {
-							ai = no
-						}
-						character_event = { id = fkp.202 }
-					}
+					character_event = { id = fkp.202 }
 					modifier = {
 						factor = 1.5
 						OR = {
@@ -251,18 +263,7 @@ character_event = {
 					}
 				}
 				60 = { #Do Poorly
-					if = {
-						limit = {
-							ai = yes
-						}
-						ai_make_sacrifice_to_evaluation_effect_self_failure = yes
-					}
-					if = {
-						limit = {
-							ai = no
-						}
-						character_event = { id = fkp.203 }
-					}
+					character_event = { id = fkp.203 }
 					modifier = {
 						factor = 1.2
 						OR = {
@@ -300,18 +301,7 @@ character_event = {
 		hidden_tooltip = {
 			random_list = {
 				60 = { #Do Well
-					if = {
-						limit = {
-							ai = yes
-						}
-						ai_make_sacrifice_to_evaluation_effect_success = yes
-					}
-					if = {
-						limit = {
-							ai = no
-						}
-						character_event = { id = fkp.204 }
-					}
+					character_event = { id = fkp.204 }
 					modifier = {
 						factor = 1.5
 						OR = {
@@ -335,18 +325,7 @@ character_event = {
 					}
 				}
 				40 = { #Do Poorly
-					if = {
-						limit = {
-							ai = yes
-						}
-						ai_make_sacrifice_to_evaluation_effect_failure = yes
-					}
-					if = {
-						limit = {
-							ai = no
-						}
-						character_event = { id = fkp.205 }
-					}
+					character_event = { id = fkp.205 }
 					modifier = {
 						factor = 1.5
 						OR = {
@@ -741,6 +720,7 @@ character_event = {
 				religion_group = hellenic
 				is_female = yes
 				is_adult = yes
+				age < 40
 				is_pregnant = no
 				NOT = {
 					has_character_flag = flag_god
@@ -1387,8 +1367,14 @@ character_event = {
 			
 			dynasty = mother_even_if_dead
 		}
-		else = { #failsafe to prevent dynasty being Theogonos
+		else_if = { #failsafe to prevent dynasty being Theogonos
+			limit = {
+				is_lowborn = no
+			}
 			dynasty = mother
+		}
+		else = { #failsafe to prevent dynasty being Theogonos
+			dynasty = none
 		}
 		remove_trait = bastard
 		remove_trait = legit_bastard
@@ -1396,7 +1382,7 @@ character_event = {
 }
 
 #Announces to all Hellenes that a child of a God was born
-character_event = {
+narrative_event = {
 	id = fkp.409
 	title = EVTTITLEFKP409
 	desc = EVTDESCFKP409
@@ -1524,5 +1510,6 @@ character_event = {
 		remove_trait = stubborn
 		remove_trait = trusting
 		remove_trait = zealous
+		remove_character_modifier = hellenic_birthright
 	}
 }

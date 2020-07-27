@@ -1,3 +1,15 @@
 NAME_W_NICK;$TITLE$ $NAME$ $NICK$;$TITLE$ $NAME$ '$NICK$';$TITLE$ $NAME$ '$NICK$';;$TITLE$ $NAME$ '$NICK$';;;;;;;;;x
 TITLED_NAME_W_NICK;$TITLE$ $NAME$ $NICK$ of $HOLDING$;$TITLE$ $NAME$ '$NICK$' de $HOLDING$;$TITLE$ $NAME$ '$NICK$' von $HOLDING$;;$TITLE$ $NAME$ '$NICK$' de $HOLDING$;;;;;;;;;x
 EVTOPTA_HF_46000_TT;Restore the tomb of Hero [local_burial_tomb.province_hero.GetFirstNameWithNick] to its former glory.;;;;;;;;;;;;;x
+
+ze_administration_laws_0;Oligarchic Administration;;;;;;;;;;;;;x
+ze_administration_laws_0_option;Oligarchic;;;;;;;;;;;;;x
+ze_administration_laws_0_desc;An oligarchic society is a hierarchy of local rulers and their court, where each person in the system owes fealty to those directly above and commands those directly below. It is the way most smaller states work, and it means that the ruler depends greatly on the loyalty of [Player.GetHerHis] more powerful vassals.;;;;;;;;;;;;;x
+
+ze_administration_laws_1;Stately Administration;;;;;;;;;;;;;x
+ze_administration_laws_1_option;Stately;;;;;;;;;;;;;x
+ze_administration_laws_1_desc;Royal lords realize the importance of keeping the inheritance together to facilitate their dynasty's long-term increase in power and wealth. In this system, the royal court and family are the primary conduit for which the realm is governed. It is understood that the monarch is a regent of the Divine and and thus their offsprings should succeed them, though that may not always be possible or practical. The warrior-aristocrats and palace scribes in the council greatly favor the strength of their lord. As a result the armies they field wield a zeal for their liege, but provincial lords scoff at the lost of their autonomy and there is a tendency for vassals to grow more and more restless with time if not kept in check.;;;;;;;;;;;;;x
+
+ze_administration_laws_2;Hegemonic Administration;;;;;;;;;;;;;x
+ze_administration_laws_2_option;Hegemonic;;;;;;;;;;;;;x
+ze_administration_laws_2_desc;This system of administration is the natural state of all empires. From the river banks of the Nile to the rough mountains of Anatolia, these kings of kings utilize a hierarchy of magistrates and functionaries running daily business in their name. It allows for a power structure that hands less power to permanently landed vassals, though this causes said vassals to resent their liege.;;;;;;;;;;;;;x

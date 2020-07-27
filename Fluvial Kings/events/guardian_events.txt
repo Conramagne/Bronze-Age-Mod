@@ -1683,11 +1683,11 @@ character_event = {
 	
 	option = {
 		name = EVTOPTC2090 # Thank God for X's virtues!
-		# trigger = {
+		trigger = {
 			NOT = { trait = cynical }
 			# NOT = { religion = buddhist }
 			# NOT = { religion = jain }
-		# }
+		}
 		ai_chance = {
 			factor = 2
 			modifier = {
@@ -5286,52 +5286,52 @@ character_event = {
 }
 
 # Why is the church so rich when the peasants are starving and poor?
-character_event = {
-	id = 38215
-	desc = EVTDESC38215
-	picture = GFX_evt_child_play
+# character_event = {
+	# id = 38215
+	# desc = EVTDESC38215
+	# picture = GFX_evt_child_play
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA38215 # Because for the poor is the kingdom of heaven
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 2
-				trait = greedy
-			}
-			modifier = {
-				factor = 5
-				trait = zealous
-			}			
-		}		
+	# option = {
+		# name = EVTOPTA38215 # Because for the poor is the kingdom of heaven
+		# ai_chance = { 
+			# factor = 10
+			# modifier = {
+				# factor = 2
+				# trait = greedy
+			# }
+			# modifier = {
+				# factor = 5
+				# trait = zealous
+			# }			
+		# }		
 		
-		random_list = {
-			70 = {	FROM = { add_trait = zealous	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
-			30 = {	FROM = { add_trait = greedy	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
-		}
-	}
-	option = {
-		name = EVTOPTB38215 # How about sharing of your own then?
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 5
-				trait = charitable
-			}
-			modifier = {
-				factor = 3
-				trait = just
-			}			
-		}		
+		# random_list = {
+			# 70 = {	FROM = { add_trait = zealous	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
+			# 30 = {	FROM = { add_trait = greedy	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
+		# }
+	# }
+	# option = {
+		# name = EVTOPTB38215 # How about sharing of your own then?
+		# ai_chance = { 
+			# factor = 10
+			# modifier = {
+				# factor = 5
+				# trait = charitable
+			# }
+			# modifier = {
+				# factor = 3
+				# trait = just
+			# }			
+		# }		
 		
-		random_list = {
-			70 = {	FROM = { add_trait = charitable	hidden_tooltip = { ROOT = { character_event = { id = 38173}} character_event = { id = 38273} }}}
-			30 = {	FROM = { add_trait = just	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
-		}
-	}
-}
+		# random_list = {
+			# 70 = {	FROM = { add_trait = charitable	hidden_tooltip = { ROOT = { character_event = { id = 38173}} character_event = { id = 38273} }}}
+			# 30 = {	FROM = { add_trait = just	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
+		# }
+	# }
+# }
 
 # Why did you let off that peasant accused from poaching?
 character_event = {
@@ -5536,43 +5536,43 @@ character_event = {
 }
 
 #How can I best serve God?
-character_event = {
-	id = 38220
-	desc = EVTDESC38220
-	picture = GFX_evt_child_play
+# character_event = {
+	# id = 38220
+	# desc = EVTDESC38220
+	# picture = GFX_evt_child_play
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA38220 # Be brave against His enemies!
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 5
-				trait = brave
-			}
-		}
-		random_list = {
-			80 = {	FROM = { add_trait = brave	hidden_tooltip = { ROOT = { character_event = { id = 38170}} character_event = { id = 38270 } }}}
-			20 = {	FROM = { add_trait = zealous	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
-		}
-	}
+	# option = {
+		# name = EVTOPTA38220 # Be brave against His enemies!
+		# ai_chance = { 
+			# factor = 10
+			# modifier = {
+				# factor = 5
+				# trait = brave
+			# }
+		# }
+		# random_list = {
+			# 80 = {	FROM = { add_trait = brave	hidden_tooltip = { ROOT = { character_event = { id = 38170}} character_event = { id = 38270 } }}}
+			# 20 = {	FROM = { add_trait = zealous	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
+		# }
+	# }
 
-	option = {
-		name = EVTOPTB38220 # Be just to all His children
-		ai_chance = { 
-			factor = 10
-			modifier = {
-				factor = 5
-				trait = just
-			}
-		}		
-		random_list = {
-			80 = {	FROM = { add_trait = just	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
-			20 = {	FROM = { add_trait = zealous	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
-		}
-	}
-}
+	# option = {
+		# name = EVTOPTB38220 # Be just to all His children
+		# ai_chance = { 
+			# factor = 10
+			# modifier = {
+				# factor = 5
+				# trait = just
+			# }
+		# }		
+		# random_list = {
+			# 80 = {	FROM = { add_trait = just	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
+			# 20 = {	FROM = { add_trait = zealous	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
+		# }
+	# }
+# }
 
 # Female Ward is playing with swords instead of sewing
 character_event = {

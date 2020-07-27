@@ -548,7 +548,7 @@ city = {
 	ct_shipyard_1 = {
 		desc = shipyard_desc
 		port = yes
-		trigger = { TECH_NAVAL = 1 }
+		trigger = { TECH_NAVAL = 0 }
 		gold_cost = 100
 		build_time = 365
 		galleys = 7
@@ -1274,7 +1274,7 @@ temple = {
 	tp_shipyard_1 = {
 		desc = shipyard_desc
 		port = yes
-		trigger = { TECH_NAVAL = 1 }
+		trigger = { TECH_NAVAL = 0 }
 		gold_cost = 100
 		build_time = 365
 		galleys = 6

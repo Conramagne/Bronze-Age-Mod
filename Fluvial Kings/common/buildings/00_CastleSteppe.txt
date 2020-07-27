@@ -18,14 +18,14 @@ castle = {
 		desc = ca_steppe_barracks_desc
 		potential = {
 			terrain = steppe
-			FROM = {
-				OR = {
-					culture_group = altaic
-					culture_group = magyar
-					culture = alan
-					culture_group = iranian
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = altaic
+					# culture_group = magyar
+					# culture = alan
+					# culture_group = iranian
+				# }
+			# }
 		}
 		replaces = ca_barracks_1
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -41,14 +41,14 @@ castle = {
 		desc = ca_steppe_barracks_desc
 		potential = {
 			terrain = steppe
-			FROM = {
-				OR = {
-					culture_group = altaic
-					culture_group = magyar
-					culture = alan
-					culture_group = iranian
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = altaic
+					# culture_group = magyar
+					# culture = alan
+					# culture_group = iranian
+				# }
+			# }
 		}
 		replaces = ca_barracks_2
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -66,14 +66,14 @@ castle = {
 		desc = ca_steppe_barracks_desc
 		potential = {
 			terrain = steppe
-			FROM = {
-				OR = {
-					culture_group = altaic
-					culture_group = magyar
-					culture = alan
-					culture_group = iranian
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = altaic
+					# culture_group = magyar
+					# culture = alan
+					# culture_group = iranian
+				# }
+			# }
 		}
 		replaces = ca_barracks_3
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -116,14 +116,14 @@ castle = {
 		desc = ca_steppe_barracks_desc
 		potential = {
 			terrain = steppe
-			FROM = {
-				OR = {
-					culture_group = altaic
-					culture_group = magyar
-					culture = alan
-					culture_group = iranian
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = altaic
+					# culture_group = magyar
+					# culture = alan
+					# culture_group = iranian
+				# }
+			# }
 		}
 		replaces = ca_barracks_5
 		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
@@ -140,14 +140,14 @@ castle = {
 		desc = ca_steppe_barracks_desc
 		potential = {
 			terrain = steppe
-			FROM = {
-				OR = {
-					culture_group = altaic
-					culture_group = magyar
-					culture = alan
-					culture_group = iranian
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = altaic
+					# culture_group = magyar
+					# culture = alan
+					# culture_group = iranian
+				# }
+			# }
 		}
 		replaces = ca_barracks_6
 		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
@@ -166,14 +166,14 @@ castle = {
 		desc = ca_steppe_stable_desc
 		potential = {
 			terrain = steppe
-			FROM = {
-				OR = {
-					culture_group = altaic
-					culture_group = magyar
-					culture = alan
-					culture_group = iranian
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = altaic
+					# culture_group = magyar
+					# culture = alan
+					# culture_group = iranian
+				# }
+			# }
 		}
 		replaces = ca_stable_1
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -189,14 +189,14 @@ castle = {
 		desc = ca_steppe_stable_desc
 		potential = {
 			terrain = steppe
-			FROM = {
-				OR = {
-					culture_group = altaic
-					culture_group = magyar
-					culture = alan
-					culture_group = iranian
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = altaic
+					# culture_group = magyar
+					# culture = alan
+					# culture_group = iranian
+				# }
+			# }
 		}
 		replaces = ca_stable_2
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -214,14 +214,14 @@ castle = {
 		desc = ca_steppe_stable_desc
 		potential = {
 			terrain = steppe
-			FROM = {
-				OR = {
-					culture_group = altaic
-					culture_group = magyar
-					culture = alan
-					culture_group = iranian
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = altaic
+					# culture_group = magyar
+					# culture = alan
+					# culture_group = iranian
+				# }
+			# }
 		}
 		replaces = ca_stable_3
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
@@ -239,14 +239,14 @@ castle = {
 		desc = ca_steppe_stable_desc
 		potential = {
 			terrain = steppe
-			FROM = {
-				OR = {
-					culture_group = altaic
-					culture_group = magyar
-					culture = alan
-					culture_group = iranian
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = altaic
+					# culture_group = magyar
+					# culture = alan
+					# culture_group = iranian
+				# }
+			# }
 		}
 		replaces = ca_stable_4
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
@@ -264,14 +264,14 @@ castle = {
 		desc = ca_steppe_stable_desc
 		potential = {
 			terrain = steppe
-			FROM = {
-				OR = {
-					culture_group = altaic
-					culture_group = magyar
-					culture = alan
-					culture_group = iranian
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = altaic
+					# culture_group = magyar
+					# culture = alan
+					# culture_group = iranian
+				# }
+			# }
 		}
 		replaces = ca_stable_5
 		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
@@ -289,14 +289,14 @@ castle = {
 		desc = ca_steppe_stable_desc
 		potential = {
 			terrain = steppe
-			FROM = {
-				OR = {
-					culture_group = altaic
-					culture_group = magyar
-					culture = alan
-					culture_group = iranian
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = altaic
+					# culture_group = magyar
+					# culture = alan
+					# culture_group = iranian
+				# }
+			# }
 		}
 		replaces = ca_stable_6
 		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
@@ -316,13 +316,13 @@ castle = {
 		desc = ca_desert_stable_desc
 		potential = {
 			terrain = desert
-			FROM = {
-				OR = {
-					culture_group = east_african
-					culture_group = west_african
-					culture_group = arabic
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = east_african
+					# culture_group = west_african
+					# culture_group = arabic
+				# }
+			# }
 		}
 		replaces = ca_stable_1
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -338,13 +338,13 @@ castle = {
 		desc = ca_desert_stable_desc
 		potential = {
 			terrain = desert
-			FROM = {
-				OR = {
-					culture_group = east_african
-					culture_group = west_african
-					culture_group = arabic
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = east_african
+					# culture_group = west_african
+					# culture_group = arabic
+				# }
+			# }
 		}
 		replaces = ca_stable_2
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -362,13 +362,13 @@ castle = {
 		desc = ca_desert_stable_desc
 		potential = {
 			terrain = desert
-			FROM = {
-				OR = {
-					culture_group = east_african
-					culture_group = west_african
-					culture_group = arabic
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = east_african
+					# culture_group = west_african
+					# culture_group = arabic
+				# }
+			# }
 		}
 		replaces = ca_stable_3
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
@@ -386,13 +386,13 @@ castle = {
 		desc = ca_desert_stable_desc
 		potential = {
 			terrain = desert
-			FROM = {
-				OR = {
-					culture_group = east_african
-					culture_group = west_african
-					culture_group = arabic
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = east_african
+					# culture_group = west_african
+					# culture_group = arabic
+				# }
+			# }
 		}
 		replaces = ca_stable_4
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
@@ -410,13 +410,13 @@ castle = {
 		desc = ca_desert_stable_desc
 		potential = {
 			terrain = desert
-			FROM = {
-				OR = {
-					culture_group = east_african
-					culture_group = west_african
-					culture_group = arabic
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = east_african
+					# culture_group = west_african
+					# culture_group = arabic
+				# }
+			# }
 		}
 		replaces = ca_stable_5
 		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
@@ -434,13 +434,13 @@ castle = {
 		desc = ca_desert_stable_desc
 		potential = {
 			terrain = desert
-			FROM = {
-				OR = {
-					culture_group = east_african
-					culture_group = west_african
-					culture_group = arabic
-				}
-			}
+			# FROM = {
+				# OR = {
+					# culture_group = east_african
+					# culture_group = west_african
+					# culture_group = arabic
+				# }
+			# }
 		}
 		replaces = ca_stable_6
 		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }

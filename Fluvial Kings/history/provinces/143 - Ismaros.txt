@@ -5,4 +5,4 @@ b_abdera=tribal
 # b_ismaros=castle
 
 culture=thracian
-religion=pantes_theoi
+religion=dentudisas

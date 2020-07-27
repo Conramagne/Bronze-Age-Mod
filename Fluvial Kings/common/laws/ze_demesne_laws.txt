@@ -679,7 +679,6 @@ laws = {
 	
 	ze_administration_laws_0 = {
 		group = ze_administration_laws
-		default = yes
 		allow = {
 			NOT = { has_law = ze_administration_laws_2 }
 		}
@@ -720,9 +719,13 @@ laws = {
 				revoke_law = ze_administration_laws_2
 			}
 		}
+		castle_levy_size = -0.3
+		castle_vassal_tax_modifier = 0.15
+		vassal_opinion = 10
 	}
 	ze_administration_laws_1 = {
 		group = ze_administration_laws
+		default = yes
 		allow = {
 
 		}
@@ -772,9 +775,22 @@ laws = {
 				#revoke_law = ze_administration_laws_3
 			}
 		}
+		castle_levy_size = 0.3
+		castle_vassal_tax_modifier = -0.15
+		vassal_opinion = -10
 	}
 	ze_administration_laws_2 = {
 		group = ze_administration_laws
+		default_selection = {
+			factor = 0
+			
+			additive_modifier = { 
+				value = 10			
+				holder_scope = {
+					government = hegemonic_government
+				}				
+			}
+		}
 		allow = {
 			tier = EMPEROR
 			NOT = { 
@@ -840,7 +856,9 @@ laws = {
 			}
 		}
 		
+		retinuesize_perc = 0.3
+		castle_vassal_tax_modifier = 0.3
 		vassal_limit = 25
-		feudal_opinion = -10
+		feudal_opinion = -25
 	}
 }

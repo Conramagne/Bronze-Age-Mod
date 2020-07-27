@@ -1,7 +1,0 @@
-title=c_zeleia
-
-max_settlements= 1
-b_zeleia=castle
-
-culture=luwian
-religion=haianiluwi

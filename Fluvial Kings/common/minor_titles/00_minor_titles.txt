@@ -475,8 +475,8 @@ title_cupbearer = {
 			is_feudal = yes
 			is_tribal = yes
 		}
-		NOT = { has_landed_title = e_byzantium }
-		NOT = { has_landed_title = e_roman_empire }
+		# NOT = { has_landed_title = e_byzantium }
+		# NOT = { has_landed_title = e_roman_empire }
 	}
 	
 	gain_effect = {
@@ -673,10 +673,10 @@ title_court_musician = {
 			is_feudal = yes
 			is_tribal = yes
 		}
-		OR = {
+		# OR = {
 			# religion_group = muslim
 			has_dharmic_religion_trigger = yes
-		}
+		# }
 	}
 	
 	gain_effect = {
@@ -915,277 +915,277 @@ title_patrician_heir = {
 
 # MONGOL PAGAN TITLES
 
-title_baghatur = {
-	dignity = 0.2
-	realm_in_name = yes
-	grant_limit = 2
-	opinion_effect = 10
+# title_baghatur = {
+	# dignity = 0.2
+	# realm_in_name = yes
+	# grant_limit = 2
+	# opinion_effect = 10
 	
-	monthly_salary = 0.1
-	monthly_prestige = 0.75
+	# monthly_salary = 0.1
+	# monthly_prestige = 0.75
 	
-	is_unique = yes
+	# is_unique = yes
 	
-	allowed_to_hold = {
-		NOT = { 
-			primary_title = { temporary = yes } 
-		}
-		is_adult = yes
-		NOT = { trait = incapable } 
-	}
+	# allowed_to_hold = {
+		# NOT = { 
+			# primary_title = { temporary = yes } 
+		# }
+		# is_adult = yes
+		# NOT = { trait = incapable } 
+	# }
 
-	allowed_to_grant = {
-		OR = {
-			AND = {
-				is_nomadic = yes
-				culture = mongol
-			}
-			AND = {
-				OR = {
-					is_feudal = yes
-					is_tribal = yes
-				}
-				OR = {
-					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-				}
-			}
-		}
-	}
+	# allowed_to_grant = {
+		# OR = {
+			# AND = {
+				# is_nomadic = yes
+				# culture = mongol
+			# }
+			# AND = {
+				# OR = {
+					# is_feudal = yes
+					# is_tribal = yes
+				# }
+				# OR = {
+					# has_landed_title = e_mongol_empire
+					# has_landed_title = e_golden_horde
+					# has_landed_title = e_il-khanate
+				# }
+			# }
+		# }
+	# }
 	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
+	# gain_effect = {
+	# }
+	# lose_effect = {
+	# }
 
-	message = yes
-}
+	# message = yes
+# }
 
-title_cherbi = {
-	dignity = 0.15
-	realm_in_name = yes
-	grant_limit = 1
-	opinion_effect = 10
+# title_cherbi = {
+	# dignity = 0.15
+	# realm_in_name = yes
+	# grant_limit = 1
+	# opinion_effect = 10
 	
-	monthly_salary = 0.1
-	monthly_prestige = 0.5
+	# monthly_salary = 0.1
+	# monthly_prestige = 0.5
 	
-	is_unique = yes
+	# is_unique = yes
 	
-	allowed_to_hold = {
-		NOT = { 
-			primary_title = { temporary = yes } 
-		}
-		is_adult = yes
-		NOT = { trait = incapable } 
-	}
+	# allowed_to_hold = {
+		# NOT = { 
+			# primary_title = { temporary = yes } 
+		# }
+		# is_adult = yes
+		# NOT = { trait = incapable } 
+	# }
 
-	allowed_to_grant = {
-		OR = {
-			AND = {
-				is_nomadic = yes
-				culture = mongol
-			}
-			AND = {
-				OR = {
-					is_feudal = yes
-					is_tribal = yes
-				}
-				OR = {
-					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-				}
-			}
-		}
-	}
+	# allowed_to_grant = {
+		# OR = {
+			# AND = {
+				# is_nomadic = yes
+				# culture = mongol
+			# }
+			# AND = {
+				# OR = {
+					# is_feudal = yes
+					# is_tribal = yes
+				# }
+				# OR = {
+					# has_landed_title = e_mongol_empire
+					# has_landed_title = e_golden_horde
+					# has_landed_title = e_il-khanate
+				# }
+			# }
+		# }
+	# }
 	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
+	# gain_effect = {
+	# }
+	# lose_effect = {
+	# }
 
-	message = yes
-}
+	# message = yes
+# }
 
-title_darkhan = {
-	dignity = 0.15
-	realm_in_name = yes
-	grant_limit = 2
-	opinion_effect = 10
+# title_darkhan = {
+	# dignity = 0.15
+	# realm_in_name = yes
+	# grant_limit = 2
+	# opinion_effect = 10
 	
-	monthly_salary = 0.075
-	monthly_prestige = 0.75
+	# monthly_salary = 0.075
+	# monthly_prestige = 0.75
 	
-	is_unique = yes
+	# is_unique = yes
 	
-	allowed_to_hold = {
-		NOT = { 
-			primary_title = { temporary = yes } 
-		}
-		is_adult = yes
-		NOT = { trait = incapable } 
-	}
+	# allowed_to_hold = {
+		# NOT = { 
+			# primary_title = { temporary = yes } 
+		# }
+		# is_adult = yes
+		# NOT = { trait = incapable } 
+	# }
 
-	allowed_to_grant = {
-		OR = {
-			AND = {
-				is_nomadic = yes
-				culture = mongol
-			}
-			AND = {
-				OR = {
-					is_feudal = yes
-					is_tribal = yes
-				}
-				OR = {
-					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-				}
-			}
-		}
-	}
+	# allowed_to_grant = {
+		# OR = {
+			# AND = {
+				# is_nomadic = yes
+				# culture = mongol
+			# }
+			# AND = {
+				# OR = {
+					# is_feudal = yes
+					# is_tribal = yes
+				# }
+				# OR = {
+					# has_landed_title = e_mongol_empire
+					# has_landed_title = e_golden_horde
+					# has_landed_title = e_il-khanate
+				# }
+			# }
+		# }
+	# }
 	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
+	# gain_effect = {
+	# }
+	# lose_effect = {
+	# }
 
-	message = yes
-}
+	# message = yes
+# }
 
-title_noyan = {
-	dignity = 0.075
-	grant_limit = 4
-	opinion_effect = 5
+# title_noyan = {
+	# dignity = 0.075
+	# grant_limit = 4
+	# opinion_effect = 5
 	
-	monthly_salary = 0.005
-	monthly_prestige = 0.5
+	# monthly_salary = 0.005
+	# monthly_prestige = 0.5
 	
-	is_unique = yes
+	# is_unique = yes
 	
-	allowed_to_hold = {
-		NOT = { 
-			primary_title = { temporary = yes } 
-		}
-		is_adult = yes
-		NOT = { trait = incapable } 
-	}
+	# allowed_to_hold = {
+		# NOT = { 
+			# primary_title = { temporary = yes } 
+		# }
+		# is_adult = yes
+		# NOT = { trait = incapable } 
+	# }
 
-	allowed_to_grant = {
-		OR = {
-			is_feudal = yes
-			is_tribal = yes
-		}
-		OR = {
-			has_landed_title = e_mongol_empire
-			has_landed_title = e_golden_horde
-			has_landed_title = e_il-khanate
-		}
-	}
+	# allowed_to_grant = {
+		# OR = {
+			# is_feudal = yes
+			# is_tribal = yes
+		# }
+		# OR = {
+			# has_landed_title = e_mongol_empire
+			# has_landed_title = e_golden_horde
+			# has_landed_title = e_il-khanate
+		# }
+	# }
 	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
+	# gain_effect = {
+	# }
+	# lose_effect = {
+	# }
 
-	message = yes
-}
+	# message = yes
+# }
 
-title_behi = {
-	dignity = 0.1
-	grant_limit = 2
-	opinion_effect = 5
+# title_behi = {
+	# dignity = 0.1
+	# grant_limit = 2
+	# opinion_effect = 5
 	
-	monthly_salary = 0.05
-	monthly_prestige = 0.25
+	# monthly_salary = 0.05
+	# monthly_prestige = 0.25
 	
-	is_unique = yes
+	# is_unique = yes
 	
-	allowed_to_hold = {
-		NOT = { 
-			primary_title = { temporary = yes } 
-		}
-		is_adult = yes
-		is_female = yes
-		NOT = { trait = incapable } 
-	}
+	# allowed_to_hold = {
+		# NOT = { 
+			# primary_title = { temporary = yes } 
+		# }
+		# is_adult = yes
+		# is_female = yes
+		# NOT = { trait = incapable } 
+	# }
 	
-	allowed_to_grant = {
-		OR = {
-			AND = {
-				is_nomadic = yes
-				culture = mongol
-			}
-			AND = {
-				OR = {
-					is_feudal = yes
-					is_tribal = yes
-				}
-				OR = {
-					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-				}
-			}
-		}
-	}
+	# allowed_to_grant = {
+		# OR = {
+			# AND = {
+				# is_nomadic = yes
+				# culture = mongol
+			# }
+			# AND = {
+				# OR = {
+					# is_feudal = yes
+					# is_tribal = yes
+				# }
+				# OR = {
+					# has_landed_title = e_mongol_empire
+					# has_landed_title = e_golden_horde
+					# has_landed_title = e_il-khanate
+				# }
+			# }
+		# }
+	# }
 	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
+	# gain_effect = {
+	# }
+	# lose_effect = {
+	# }
 
-	message = yes
-}
+	# message = yes
+# }
 
-title_master_of_the_eagle = {
-	dignity = 0.10
-	grant_limit = 1
-	opinion_effect = 10
+# title_master_of_the_eagle = {
+	# dignity = 0.10
+	# grant_limit = 1
+	# opinion_effect = 10
 	
-	monthly_salary = 0.1
-	monthly_prestige = 0.35
+	# monthly_salary = 0.1
+	# monthly_prestige = 0.35
 	
-	is_unique = yes
+	# is_unique = yes
 	
-	allowed_to_hold = {
-		NOT = { 
-			primary_title = { temporary = yes } 
-		}
-		is_adult = yes
-		NOT = { trait = incapable } 
-	}
+	# allowed_to_hold = {
+		# NOT = { 
+			# primary_title = { temporary = yes } 
+		# }
+		# is_adult = yes
+		# NOT = { trait = incapable } 
+	# }
 	
-	allowed_to_grant = {
-		OR = {
-			AND = {
-				is_nomadic = yes
-				culture = mongol
-			}
-			AND = {
-				OR = {
-					is_feudal = yes
-					is_tribal = yes
-				}
-				OR = {
-					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-				}
-			}
-		}
-	}
+	# allowed_to_grant = {
+		# OR = {
+			# AND = {
+				# is_nomadic = yes
+				# culture = mongol
+			# }
+			# AND = {
+				# OR = {
+					# is_feudal = yes
+					# is_tribal = yes
+				# }
+				# OR = {
+					# has_landed_title = e_mongol_empire
+					# has_landed_title = e_golden_horde
+					# has_landed_title = e_il-khanate
+				# }
+			# }
+		# }
+	# }
 	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
+	# gain_effect = {
+	# }
+	# lose_effect = {
+	# }
 
-	message = yes
-}
+	# message = yes
+# }
 
 title_councilmember_king = {
 	is_high_prio = yes
@@ -1414,243 +1414,243 @@ title_court_physician = {
 
 
 #MNM hermetics apprentice
-title_hermetics_apprentice = {
-	is_high_prio = yes
-	attribute = learning
-    dignity = 1
-    realm_in_name = no
-	grant_limit = 1
-	opinion_effect = 10
-	monthly_salary = 0.1
-	monthly_prestige = 0.1
-	revoke_allowed = no
+# title_hermetics_apprentice = {
+	# is_high_prio = yes
+	# attribute = learning
+    # dignity = 1
+    # realm_in_name = no
+	# grant_limit = 1
+	# opinion_effect = 10
+	# monthly_salary = 0.1
+	# monthly_prestige = 0.1
+	# revoke_allowed = no
 	
-	allowed_to_grant = {
-		has_dlc = "Mystics"
-		society_member_of = hermetics
-		ai = no
-	}
+	# allowed_to_grant = {
+		# has_dlc = "Mystics"
+		# society_member_of = hermetics
+		# ai = no
+	# }
 	
-	allowed_to_hold = {
-		custom_tooltip = {
-			text = court_physician_tooltip_1
-			NOT = {
-				primary_title = { temporary = yes } 
-			}
-		}
-		is_adult = yes
-		OR = {
-			society_member_of = hermetics
-			is_in_society = no
-		}
+	# allowed_to_hold = {
+		# custom_tooltip = {
+			# text = court_physician_tooltip_1
+			# NOT = {
+				# primary_title = { temporary = yes } 
+			# }
+		# }
+		# is_adult = yes
+		# OR = {
+			# society_member_of = hermetics
+			# is_in_society = no
+		# }
 
-		NOT = { trait = in_hiding }
-		NOT = { trait = incapable }
-		prisoner = no
+		# NOT = { trait = in_hiding }
+		# NOT = { trait = incapable }
+		# prisoner = no
 		
-		hidden_trigger = {
-			liege = { society_member_of = hermetics }
-			ai = yes
-			NOT = { has_character_flag = completed_apprenticeship }
-			OR = {
-				FROM = { ai = no }
-				learning = 10
-				is_smart_trigger = yes
-				trait = gardener
-				trait = scholar
-				trait = mystic
-			}
-		}
-	}
+		# hidden_trigger = {
+			# liege = { society_member_of = hermetics }
+			# ai = yes
+			# NOT = { has_character_flag = completed_apprenticeship }
+			# OR = {
+				# FROM = { ai = no }
+				# learning = 10
+				# is_smart_trigger = yes
+				# trait = gardener
+				# trait = scholar
+				# trait = mystic
+			# }
+		# }
+	# }
 	
-	gain_effect = {
-		if = {
-			limit = { NOT = { society_member_of = hermetics } }
-			join_society = hermetics
-		}
-		character_event = { id = MNM.1413 days = 4500 random = 1000 }  #Some years later, the apprenticeship ends
+	# gain_effect = {
+		# if = {
+			# limit = { NOT = { society_member_of = hermetics } }
+			# join_society = hermetics
+		# }
+		# character_event = { id = MNM.1413 days = 4500 random = 1000 }  #Some years later, the apprenticeship ends
 
-		opinion = { 
-			modifier = opinion_hermetic_apprentice
-			who = FROM
-			years = 100
-		}
-		FROM = {
-			if = {
-				limit = { has_quest = quest_hermetics_find_apprentice }
-				character_event = { id = MNM.1409 }
-			}
-		}
-	}
-	lose_effect = {
-		remove_opinion = { 
-			modifier = opinion_hermetic_apprentice
-			who = FROM
-		}
-	}
-	retire_effect = {
-	}
+		# opinion = { 
+			# modifier = opinion_hermetic_apprentice
+			# who = FROM
+			# years = 100
+		# }
+		# FROM = {
+			# if = {
+				# limit = { has_quest = quest_hermetics_find_apprentice }
+				# character_event = { id = MNM.1409 }
+			# }
+		# }
+	# }
+	# lose_effect = {
+		# remove_opinion = { 
+			# modifier = opinion_hermetic_apprentice
+			# who = FROM
+		# }
+	# }
+	# retire_effect = {
+	# }
 
-	message = yes
-}
+	# message = yes
+# }
 
 
 ###JADE DRAGON MINOR TITLES###
 
-title_china_emperor = {			# this title is not granted by a character to another, it is automatically obtained
+# title_china_emperor = {			# this title is not granted by a character to another, it is automatically obtained
 								# when one character becomes emperor of china. It is used solely to identify them as such
-	is_offmap_holder = yes
-	offmap_power = offmap_china
-	show_as_title = yes
-	dignity = 1000 				# this should always be higher than 0, or it won't be applied in all cases
-}
+	# is_offmap_holder = yes
+	# offmap_power = offmap_china
+	# show_as_title = yes
+	# dignity = 1000 				# this should always be higher than 0, or it won't be applied in all cases
+# }
 
-title_administrator = {
-	is_high_prio = no
-    dignity = 0.9
-    realm_in_name = no
-	grant_limit = 1
-	opinion_effect = 10
-	monthly_salary = 0.1
-	monthly_prestige = 0.1
+# title_administrator = {
+	# is_high_prio = no
+    # dignity = 0.9
+    # realm_in_name = no
+	# grant_limit = 1
+	# opinion_effect = 10
+	# monthly_salary = 0.1
+	# monthly_prestige = 0.1
 	
-	allowed_to_grant = {
-		has_dlc = "Jade Dragon"
-		any_courtier = { has_character_modifier = jd_administrator }
-	}
+	# allowed_to_grant = {
+		# has_dlc = "Jade Dragon"
+		# any_courtier = { has_character_modifier = jd_administrator }
+	# }
 	
-	allowed_to_hold = {
-		custom_tooltip = {
-			text = title_administrator_modifier_tt
-			has_character_modifier = jd_administrator
-		}
-		NOT = { trait = in_hiding }
-		NOT = { trait = incapable }
-		prisoner = no
-	}
+	# allowed_to_hold = {
+		# custom_tooltip = {
+			# text = title_administrator_modifier_tt
+			# has_character_modifier = jd_administrator
+		# }
+		# NOT = { trait = in_hiding }
+		# NOT = { trait = incapable }
+		# prisoner = no
+	# }
 
-	revoke_trigger = {
-		always = yes
-	}
+	# revoke_trigger = {
+		# always = yes
+	# }
 	
-	gain_effect = {
-		if = {
-			limit = {
-				has_character_flag = jd_administrator_golden_age #courtier is from golden age
-			}
-			liege = {
-				add_character_modifier = {
-					name = employing_jd_administrator_golden_age
-					duration = -1
-				}
-			}
-		}
-		else = {
-			liege = {
-				add_character_modifier = {
-					name = employing_jd_administrator
-					duration = -1
-				}
-			}
-		}
-	}
-	lose_effect = {
-		liege = {
-			if = {
-				limit = { has_character_modifier = employing_jd_administrator }
-				remove_character_modifier = employing_jd_administrator
-			}
-			if = {
-				limit = { has_character_modifier = employing_jd_administrator_golden_age }
-				remove_character_modifier = employing_jd_administrator_golden_age
-			}
-		}
-	}
-	retire_effect = {
-		liege = {
-			if = {
-				limit = { has_character_modifier = employing_jd_administrator }
-				remove_character_modifier = employing_jd_administrator
-			}
-			if = {
-				limit = { has_character_modifier = employing_jd_administrator_golden_age }
-				remove_character_modifier = employing_jd_administrator_golden_age
-			}
-		}
-	}
-	death_effect = {
-		liege = {
-			if = {
-				limit = { has_character_modifier = employing_jd_administrator }
-				remove_character_modifier = employing_jd_administrator
-			}
-			if = {
-				limit = { has_character_modifier = employing_jd_administrator_golden_age }
-				remove_character_modifier = employing_jd_administrator_golden_age
-			}
-		}
-	}
+	# gain_effect = {
+		# if = {
+			# limit = {
+				# has_character_flag = jd_administrator_golden_age #courtier is from golden age
+			# }
+			# liege = {
+				# add_character_modifier = {
+					# name = employing_jd_administrator_golden_age
+					# duration = -1
+				# }
+			# }
+		# }
+		# else = {
+			# liege = {
+				# add_character_modifier = {
+					# name = employing_jd_administrator
+					# duration = -1
+				# }
+			# }
+		# }
+	# }
+	# lose_effect = {
+		# liege = {
+			# if = {
+				# limit = { has_character_modifier = employing_jd_administrator }
+				# remove_character_modifier = employing_jd_administrator
+			# }
+			# if = {
+				# limit = { has_character_modifier = employing_jd_administrator_golden_age }
+				# remove_character_modifier = employing_jd_administrator_golden_age
+			# }
+		# }
+	# }
+	# retire_effect = {
+		# liege = {
+			# if = {
+				# limit = { has_character_modifier = employing_jd_administrator }
+				# remove_character_modifier = employing_jd_administrator
+			# }
+			# if = {
+				# limit = { has_character_modifier = employing_jd_administrator_golden_age }
+				# remove_character_modifier = employing_jd_administrator_golden_age
+			# }
+		# }
+	# }
+	# death_effect = {
+		# liege = {
+			# if = {
+				# limit = { has_character_modifier = employing_jd_administrator }
+				# remove_character_modifier = employing_jd_administrator
+			# }
+			# if = {
+				# limit = { has_character_modifier = employing_jd_administrator_golden_age }
+				# remove_character_modifier = employing_jd_administrator_golden_age
+			# }
+		# }
+	# }
 
-	message = yes
-}
+	# message = yes
+# }
 
-title_master_engineer = {
-	is_high_prio = no
-    dignity = 0.9
-    realm_in_name = no
-	grant_limit = 1
-	opinion_effect = 10
-	monthly_salary = 0.1
-	monthly_prestige = 0.1
+# title_master_engineer = {
+	# is_high_prio = no
+    # dignity = 0.9
+    # realm_in_name = no
+	# grant_limit = 1
+	# opinion_effect = 10
+	# monthly_salary = 0.1
+	# monthly_prestige = 0.1
 	
-	allowed_to_grant = {
-		has_dlc = "Jade Dragon"
-		any_courtier = { has_character_modifier = jd_master_engineer }
-	}
+	# allowed_to_grant = {
+		# has_dlc = "Jade Dragon"
+		# any_courtier = { has_character_modifier = jd_master_engineer }
+	# }
 	
-	allowed_to_hold = {
-		custom_tooltip = {
-			text = title_master_engineer_modifier_tt
-			has_character_modifier = jd_master_engineer
-		}
-		NOT = { trait = in_hiding }
-		NOT = { trait = incapable }
-		prisoner = no
-	}
+	# allowed_to_hold = {
+		# custom_tooltip = {
+			# text = title_master_engineer_modifier_tt
+			# has_character_modifier = jd_master_engineer
+		# }
+		# NOT = { trait = in_hiding }
+		# NOT = { trait = incapable }
+		# prisoner = no
+	# }
 
-	revoke_trigger = {
-		always = yes
-	}
+	# revoke_trigger = {
+		# always = yes
+	# }
 	
-	gain_effect = {
-		if = {
-			limit = { has_character_flag = master_engineer_just_spawned }
-            character_event = { id = JD.20033 days = 10 } 
-            clr_character_flag = master_engineer_just_spawned
-            break = yes
-		}
-        if = {
-            limit = {
-                has_character_flag = china_master_engineer_golden_age
-            }
-            character_event = { id = JD.20033 days = 1460 random = 542 } 
-        }
-		else = {
-            character_event = { id = JD.20033 days = 2920 random = 1095 } 
-        }
-	}
-	lose_effect = {
-		clear_delayed_event = { id = JD.20033 }
-	}
-	retire_effect = {
-		clear_delayed_event = { id = JD.20033 }	
-	}
-	death_effect = {
-		clear_delayed_event = { id = JD.20033 }
-	}
+	# gain_effect = {
+		# if = {
+			# limit = { has_character_flag = master_engineer_just_spawned }
+            # character_event = { id = JD.20033 days = 10 } 
+            # clr_character_flag = master_engineer_just_spawned
+            # break = yes
+		# }
+        # if = {
+            # limit = {
+                # has_character_flag = china_master_engineer_golden_age
+            # }
+            # character_event = { id = JD.20033 days = 1460 random = 542 } 
+        # }
+		# else = {
+            # character_event = { id = JD.20033 days = 2920 random = 1095 } 
+        # }
+	# }
+	# lose_effect = {
+		# clear_delayed_event = { id = JD.20033 }
+	# }
+	# retire_effect = {
+		# clear_delayed_event = { id = JD.20033 }	
+	# }
+	# death_effect = {
+		# clear_delayed_event = { id = JD.20033 }
+	# }
 
-	message = yes
-}
+	# message = yes
+# }
 
 # Special Title. Do not Delete or alter the name of the tag!
 # The Teacher serves as the default Educator for all children at court who are not close relatives of the ruler

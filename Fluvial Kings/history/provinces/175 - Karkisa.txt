@@ -3,5 +3,5 @@ title=c_karkisa
 max_settlements= 1
 b_karkisa=castle
 
-culture=luwian
+culture=phrygian
 religion=haianiluwi

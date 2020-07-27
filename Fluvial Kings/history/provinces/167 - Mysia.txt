@@ -4,5 +4,5 @@ max_settlements= 2
 b_mysia=castle
 # b_pergamon=city
 
-culture=luwian
-religion=haianiluwi
+culture = mysian
+religion = haianiluwi

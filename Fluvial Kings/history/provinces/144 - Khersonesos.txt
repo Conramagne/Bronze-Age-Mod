@@ -6,4 +6,4 @@ b_aeneos=tribal
 # b_sestus=castle
 
 culture=thracian
-religion=pantes_theoi
+religion=dentudisas

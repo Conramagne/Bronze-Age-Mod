@@ -2,6 +2,16 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
+2450.1.1={
 	liege=d_lukka
+	holder = 2201105 #Iobates
+}
+2490.1.1={
+	holder = 2201106 #Bellerophon
+}
+2510.1.1={
+	holder = 2201101 #Hippolokhos
+}
+2520.1.1={
+	holder = 2201100 #Glaukos
 }

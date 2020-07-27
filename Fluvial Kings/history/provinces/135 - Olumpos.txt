@@ -6,3 +6,4 @@ b_olumpos=temple
 
 culture=achaean
 religion=pantes_theoi
+terrain = mountain 

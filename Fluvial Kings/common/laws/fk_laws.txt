@@ -20,6 +20,7 @@ laws = {
 		potential = {
 			higher_real_tier_than = BARON
 			is_feudal = yes
+			always = no
 		}
 		allow = {
 			has_law = system_law_1			
@@ -86,9 +87,6 @@ laws = {
 				revoke_law = system_law_1
 			}
 		}
-		retinuesize_perc = -0.3
-		castle_vassal_tax_modifier = 0.15
-		vassal_opinion = 10
 	}
 	
 	system_law_1 = { #Royal
@@ -98,6 +96,7 @@ laws = {
 		potential = {
 			higher_real_tier_than = BARON
 			is_feudal = yes
+			always = no
 		}
 		allow = {
 			has_law = system_law_0			
@@ -174,7 +173,11 @@ laws = {
 		
 		potential = {
 			holder_scope = {
-				government = hegemonic_government
+				independent = yes
+				OR = {
+					government = hegemonic_government
+					government = regional_kingdom_government
+				}
 			}
 		}
 		allow = {
@@ -189,7 +192,7 @@ laws = {
 		ai_will_do = {
 			factor = 0.05
 			modifier = {
-				factor = 5
+				factor = 2
 				OR = {
 					holder_scope = {
 						trait = cruel
@@ -281,7 +284,10 @@ laws = {
 		
 		potential = {
 			holder_scope = {
-				government = hegemonic_government
+				OR = {
+					government = hegemonic_government
+					government = regional_kingdom_government
+				}
 			}
 		}
 		allow = {
@@ -368,7 +374,10 @@ laws = {
 		
 		potential = {
 			holder_scope = {
-				government = hegemonic_government
+				OR = {
+					government = hegemonic_government
+					government = regional_kingdom_government
+				}
 			}
 		}
 		allow = {
@@ -406,7 +415,7 @@ laws = {
 			}
 		}
 		ai_will_revoke = {
-			factor = 0
+			factor = 0.01
 			modifier = {
 				factor = 10
 				OR = {

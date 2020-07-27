@@ -3,5 +3,5 @@ title=c_assuwa
 max_settlements= 1
 b_assuwa=castle
 
-culture=luwian
-religion=haianiluwi
+culture = mysian
+religion = haianiluwi

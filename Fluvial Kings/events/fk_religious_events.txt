@@ -30,6 +30,9 @@ character_event = {
 				FROM = {
 					religion_group = pihassasi
 				}
+				NOT = {
+					religion_group = pihassasi
+				}
 			}
 			add_trait = syncretic_pihassasi
 		}
@@ -38,32 +41,50 @@ character_event = {
 				FROM = {
 					religion_group = hellenic
 				}
+				NOT = {
+					religion_group = hellenic
+				}
 			}
 			add_trait = syncretic_hellenic
 		}
 		if = {
 			limit = {
+				FROM = {
+					religion_group = european_group
+				}
+				NOT = {
+					religion_group = european_group
+				}
+			}
+			add_trait = syncretic_european_group
+		}
+		if = {
+			limit = {
+				NOT = {
+					FROM = {
+						religion_group = pihassasi
+					}
+				}
 				OR = {
 					religion_group = pihassasi
 				}
 			}
 			random = {
-				100 = {
-					prompt_name = {
-						player = ROOT 
-						type = BAPTISM 
-						name_list = religion
-					}
-					modifier = { #Low amount of available Hittite names
-						factor = 0.25
-						religion = ishalitethai
-						is_female = no
-					}
-					modifier = {
-						factor = 0.1
-						religion = ishalitethai
-						is_female = yes
-					}
+				chance = 100
+				prompt_name = {
+					player = ROOT 
+					type = BAPTISM 
+					name_list = religion
+				}
+				mult_modifier = { #Low amount of available Hittite names
+					factor = 0.25
+					religion = ishalitethai
+					is_female = no
+				}
+				mult_modifier = {
+					factor = 0.1
+					religion = ishalitethai
+					is_female = yes
 				}
 			}
 		}
@@ -79,6 +100,7 @@ character_event = {
 	desc = EVTDESCFKREL100
 	picture = GFX_evt_visit_the_temple_pantheon
 	
+	#Pihassasi Devotion
 	option = {
 		name = EVTOPTAFKREL100
 		add_trait = devotion_tarhunna
@@ -102,6 +124,49 @@ character_event = {
 	option = {
 		name = EVTOPTCFKREL100
 		add_trait = devotion_telipinu
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33
+		}
+	}
+	
+	#European Devotion
+	option = {
+		name = EVTOPTDFKREL100
+		trigger = {
+			european_group_or_syncretic = yes
+		}
+		add_trait = devotion_sabazios
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33 
+			modifier = {
+				factor = 2
+				likes_war_god_trigger = yes
+			}
+		}
+	}
+	option = {
+		name = EVTOPTEFKREL100
+		trigger = {
+			european_group_or_syncretic = yes
+		}
+		add_trait = devotion_pleistoros
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33 
+			modifier = {
+				factor = 2
+				likes_war_god_trigger = yes
+			}
+		}
+	}
+	option = {
+		name = EVTOPTFFKREL100
+		trigger = {
+			european_group_or_syncretic = yes
+		}
+		add_trait = devotion_dezerlas
 		clr_character_flag = choose_devotion_flag
 		ai_chance = {
 			factor = 33

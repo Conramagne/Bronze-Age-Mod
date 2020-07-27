@@ -57,8 +57,8 @@ c_lazpa;Lazpa;;;;;;;;;;;;;x
 c_lazpa_adj;Lazpan;;;;;;;;;;;;;x
 c_kyzikos;Kyzikos;;;;;;;;;;;;;x
 c_kyzikos_adj;Kyzikosi;;;;;;;;;;;;;x
-c_zeleia;Zéleia;;;;;;;;;;;;;x
-c_zeleia_adj;Zéleian;;;;;;;;;;;;;x
+c_aisepos;Aisepos;;;;;;;;;;;;;x
+c_aisepos_adj;Aiseposi;;;;;;;;;;;;;x
 c_apaliassos;Apaliassos;;;;;;;;;;;;;x
 c_apaliassos_adj;Apaliassosai;;;;;;;;;;;;;x
 c_seha;Seha;;;;;;;;;;;;;x
@@ -142,6 +142,8 @@ b_perkote;Perkote;;;;;;;;;;;;;x
 b_perkote_adj;Perkotean;;;;;;;;;;;;;x
 b_adramyttion;Adramyttion;;;;;;;;;;;;;x
 b_adramyttion_adj;Adramyttionai;;;;;;;;;;;;;x
+b_zeleia_ad;Zéleia Adramyttion;;;;;;;;;;;;;x
+b_zeleia_ad_adj;Zéleian;;;;;;;;;;;;;x
 b_thebe;Thebe;;;;;;;;;;;;;x
 b_thebe_adj;Theben;;;;;;;;;;;;;x
 b_antissa;Antissa;;;;;;;;;;;;;x
@@ -154,8 +156,8 @@ b_kyzikos;Kyzikos;;;;;;;;;;;;;x
 b_kyzikos_adj;Kyzikosi;;;;;;;;;;;;;x
 b_artakia;Artakia;;;;;;;;;;;;;x
 b_artakia_adj;Artakian;;;;;;;;;;;;;x
-b_zeleia;Zéleia;;;;;;;;;;;;;x
-b_zeleia_adj;Zéleian;;;;;;;;;;;;;x
+b_aisepos;Aisepos;;;;;;;;;;;;;x
+b_aisepos_adj;Aiseposi;;;;;;;;;;;;;x
 b_prousa;Prousa;;;;;;;;;;;;;x
 b_prousa_adj;Prousani;;;;;;;;;;;;;x
 b_pericharaxis;Pericharaxis;;;;;;;;;;;;;x

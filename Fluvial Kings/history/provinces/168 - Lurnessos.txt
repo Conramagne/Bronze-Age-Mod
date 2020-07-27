@@ -3,5 +3,5 @@ title=c_lurnessos
 max_settlements= 1
 b_lurnessos=castle
 
-culture=luwian
-religion=haianiluwi
+culture = mysian
+religion = haianiluwi

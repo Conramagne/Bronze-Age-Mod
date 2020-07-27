@@ -2,6 +2,10 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_apasa
+2490.1.1={
+	liege = d_karkiya
+	holder = 2201002 #Nomion
+}
+2520.1.1={
+	holder = 2201000 #Nastes
 }

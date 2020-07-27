@@ -1501,10 +1501,8 @@ add_maimed_trait_effect = {
 	}
 	if = {
 		limit = {
-			AND = {
-				has_dlc = "Reapers"
-				NOT = { trait = severely_injured }
-			}
+			has_dlc = "Reapers"
+			NOT = { trait = severely_injured }
 		}
 		add_trait = severely_injured
 		hidden_tooltip = {
@@ -2709,14 +2707,14 @@ blessing_removes_disease_effect = {
 		}
 		hidden_tooltip = { character_event = { id = TOG.7015 days = 30 } }
 	}
-	if = {
-		limit = {
-			has_dlc = "Sons of Abraham"
-			has_character_flag = pilgrim_blessing
-			has_character_modifier = blessing_of_health 
-		}
-		hidden_tooltip = { character_event = { id = SoA.5068 days = 30 } }
-	}
+	# if = {
+		# limit = {
+			# has_dlc = "Sons of Abraham"
+			# has_character_flag = pilgrim_blessing
+			# has_character_modifier = blessing_of_health 
+		# }
+		# hidden_tooltip = { character_event = { id = SoA.5068 days = 30 } }
+	# }
 }
 
 deaths_gift_removes_disease_effect = {
@@ -23044,30 +23042,30 @@ tiered_high_piety_negative_effect = {
 }
 #Used for gluttonous and hedonistic actions.
 gain_weight_small_effect = {
-	custom_tooltip = {
+	# custom_tooltip = {
 		hidden_tooltip = {
 		change_variable = { which = physique_variable value = 5 }
 		}
-	}
+	# }
 } 
 gain_weight_medium_effect = {
-	custom_tooltip = {
+	# custom_tooltip = {
 		hidden_tooltip = {
 		change_variable = { which = physique_variable value = 10 }
 		}
-	}
+	# }
 } 
 gain_weight_large_effect = {
-	custom_tooltip = {
+	# custom_tooltip = {
 		hidden_tooltip = {
 		change_variable = { which = physique_variable value = 15 }
 		}
-	}
+	# }
 }
 
 #Used for training and balanced lifestyle.
 balance_weight_small_effect =  {
-	custom_tooltip = {
+	# custom_tooltip = {
 		hidden_tooltip = {
 			#If variable is above 1, reduce it. If it's below 1 increase it.
 			if = { 
@@ -23083,10 +23081,10 @@ balance_weight_small_effect =  {
 				change_variable = { which = physique_variable value = 2 }
 			}
 		}
-	}
+	# }
 } 
 balance_weight_medium_effect = {
-	custom_tooltip = {
+	# custom_tooltip = {
 		hidden_tooltip = {
 			#If variable is above 1, reduce it. If it's below 1 increase it.
 			if = { 
@@ -23102,11 +23100,11 @@ balance_weight_medium_effect = {
 				change_variable = { which = physique_variable value = 5 }
 			}
 		}
-	}
+	# }
 } 
 
 balance_weight_large_effect = { #Should be used rarely.
-	custom_tooltip = {
+	# custom_tooltip = {
 		hidden_tooltip = {
 			#If variable is above 1, reduce it. If it's below 1 increase it.
 			if = { 
@@ -23122,30 +23120,30 @@ balance_weight_large_effect = { #Should be used rarely.
 				change_variable = { which = physique_variable value = 10 }
 			}
 		}
-	}
+	# }
 } 
 
 #Used for seclusions, fasting, dungeon starvation, etc.
 lose_weight_small_effect = {
-	custom_tooltip = {
+	# custom_tooltip = {
 		hidden_tooltip = {
 		change_variable = { which = physique_variable value = -6 } #Because of the way trigger works, checks if you are below -5/-10/-15
 		}
-	}
+	# }
 } 
 lose_weight_medium_effect = {
-	custom_tooltip = {
+	# custom_tooltip = {
 		hidden_tooltip = {
-	change_variable = { which = physique_variable value = -11 }
+			change_variable = { which = physique_variable value = -11 }
 		}
-	}
+	# }
 } 
 lose_weight_large_effect = {
-	custom_tooltip = {
+	# custom_tooltip = {
 		hidden_tooltip = {
-	change_variable = { which = physique_variable value = -16 }
+			change_variable = { which = physique_variable value = -16 }
 		}
-	}
+	# }
 }  
 
 #Doesn't change the variable, only checks if the character has the correct trait assigned.
@@ -24548,7 +24546,7 @@ child_of_destiny_journey_resume_effect = {
 	}
 }
 
-# pacifists_lose_piety_effect = {
+pacifists_lose_piety_effect = {
 	# if = {
 		# limit = {
 			# religion = jain
@@ -24559,14 +24557,14 @@ child_of_destiny_journey_resume_effect = {
 		# piety = -20
 		# custom_tooltip = { text = jain_ahimsa_tooltip }
 	# }
-	# else_if = {
-		# limit = {
-			# pacifist = yes
-		# }
-		# piety = -20
-		# custom_tooltip = { text = pacifist_alt_tooltip }
-	# }
-# }
+	if = {
+		limit = {
+			pacifist = yes
+		}
+		piety = -20
+		custom_tooltip = { text = pacifist_alt_tooltip }
+	}
+}
 
 #Current variable values: Scarred = 1, Very Scarred = 5, Horrifically Scarred = 10. To rebalance how quickly a character moves up from one to the other, just change the variable effects on all the following scripted_effects.
 add_scarred_tiered_effect = {

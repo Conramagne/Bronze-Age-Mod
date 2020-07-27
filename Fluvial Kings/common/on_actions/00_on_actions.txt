@@ -1657,7 +1657,7 @@ on_birth = {
 		300 # A Bastard is born
 		312 # The child of a consort is born		
 		318 # A Bastard is born, but is not recognized as such by the mother's spouse (cuckoo!)
-		335 # Hidden utility event for all children born
+		# 335 # Hidden utility event for all children born
 		# TOG.3206 # Child Perceived to be Demon Born
 		CM.10011 # Chronicle entry
 		# HL.1000 # Child born with Wolf's Blood
@@ -2868,8 +2868,6 @@ on_new_holder = {
 		fkr.14 #Adds Increased Revolt Risk to Regional Kingdoms
 		fkr.17 #Setting Feudal Elective Succession
 		
-		fkr.202 #Gives Palace Bureaucracy to Heirs/Removes it from Non-Feudal Lords
-		fkr.203 #Gives Palace Bureaucracy to New Vassals
 		fkr.218 #Lowers Palace Bureaucracy for Nepotism
 		fkr.302 #Gives Militarization to Heirs/Removes it from Non-Stratocratic Lords
 		fkr.303 #Gives Militarization to New Vassals
@@ -2908,6 +2906,8 @@ on_new_holder_inheritance = {
 		# HFP.40033 # Romagna / Papacy check
 		HF.23779 #Setting up next god-emperor.
 		# HFP.19100 #Make sure the Varangian guard handles its inheritance if not male-lead
+		fkr.202 #Gives Palace Bureaucracy to Heirs/Removes it from Non-Feudal Lords
+		fkr.203 #Gives Palace Bureaucracy to New Vassals
 	}
 	random_events = {
 		delayed_hagia_sophia_conversion = {

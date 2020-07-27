@@ -3,5 +3,5 @@ title=c_alos_karnos
 max_settlements= 1
 b_alos_karnos=castle
 
-culture=luwian
+culture=carian
 religion=haianiluwi

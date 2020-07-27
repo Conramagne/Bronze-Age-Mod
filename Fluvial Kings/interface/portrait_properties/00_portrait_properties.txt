@@ -2063,6 +2063,7 @@
 					NOT = { government = stratocratic_government }
 					NOT = { trait = shieldmaiden }
 					NOT = { has_minor_title = title_commander }
+					NOT = { has_job_title  = job_marshal }
 					NAND = { 
 						in_command = yes 
 						has_game_rule = {
@@ -2075,7 +2076,7 @@
 			#	real_tier = emperor
 				AND = {
 					NOT = { government = stratocratic_government }
-					# real_tier = duke
+					real_tier = duke
 					NAND = { 
 						in_command = yes 
 						has_game_rule = {

@@ -5,5 +5,5 @@ b_milawata=castle
 b_priene_apasa=temple
 b_myous=city
 
-culture=luwian
+culture=carian
 religion=haianiluwi

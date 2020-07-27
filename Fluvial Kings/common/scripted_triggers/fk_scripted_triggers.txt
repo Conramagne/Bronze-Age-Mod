@@ -2,6 +2,7 @@ is_head_god_trigger = {
 	OR = {
 		trait = tarhunna
 		trait = zeus
+		trait = sabazios
 	}
 }
 is_war_god_trigger = {
@@ -9,6 +10,7 @@ is_war_god_trigger = {
 		trait = tarhunna
 		trait = ares
 		trait = athene
+		trait = pleistoros
 	}
 }
 is_agricultural_god_trigger = {
@@ -36,6 +38,11 @@ is_guardian_god_trigger = {
 is_love_god_trigger = {
 	OR = {
 		trait = aphrodite
+	}
+}
+is_health_god_trigger = {
+	OR = {
+		trait = derzelas
 	}
 }
 
@@ -101,6 +108,10 @@ devotion_trait_trigger = {
 		trait = devotion_tarhunna
 		trait = devotion_arinniti
 		trait = devotion_telipinu
+		
+		trait = devotion_sabazios
+		trait = devotion_pleistoros
+		trait = devotion_derzelas
 	}
 }
 
@@ -252,6 +263,28 @@ has_boon_aphrodite_trigger = {
 	}
 }
 
+has_boon_sabazios_trigger = {
+	OR = {
+		has_character_modifier = sabazios_boon_1
+		has_character_modifier = sabazios_boon_2
+		has_character_modifier = sabazios_boon_3
+	}
+}
+has_boon_pleistoros_trigger = {
+	OR = {
+		has_character_modifier = pleistoros_boon_1
+		has_character_modifier = pleistoros_boon_2
+		has_character_modifier = pleistoros_boon_3
+	}
+}
+has_boon_derzelas_trigger = {
+	OR = {
+		has_character_modifier = derzelas_boon_1
+		has_character_modifier = derzelas_boon_2
+		has_character_modifier = derzelas_boon_3
+	}
+}
+
 has_curse_trigger = {
 	OR = {
 		has_character_modifier = tarhunna_curse_1
@@ -293,6 +326,18 @@ has_curse_trigger = {
 		has_character_modifier = aphrodite_curse_1
 		has_character_modifier = aphrodite_curse_2
 		has_character_modifier = aphrodite_curse_3
+		
+		has_character_modifier = sabazios_curse_1
+		has_character_modifier = sabazios_curse_2
+		has_character_modifier = sabazios_curse_3
+		
+		has_character_modifier = pleistoros_curse_1
+		has_character_modifier = pleistoros_curse_2
+		has_character_modifier = pleistoros_curse_3
+		
+		has_character_modifier = derzelas_curse_1
+		has_character_modifier = derzelas_curse_2
+		has_character_modifier = derzelas_curse_3
 	}
 }
 
@@ -366,6 +411,12 @@ hellenic_or_syncretic = {
 		trait = syncretic_hellenic
 	}
 }
+european_group_or_syncretic = {
+	OR = {
+		religion_group = european_group
+		trait = syncretic_european_group
+	}
+}
 
 syncretic_for_true_religion_of_root_trigger = { 
 	OR = {
@@ -376,6 +427,10 @@ syncretic_for_true_religion_of_root_trigger = {
 		AND = {
 			trait = syncretic_pihassasi
 			ROOT = { religion_group = pihassasi }
+		}
+		AND = {
+			trait = syncretic_european_group
+			ROOT = { religion_group = european_group }
 		}
 	}
 }
