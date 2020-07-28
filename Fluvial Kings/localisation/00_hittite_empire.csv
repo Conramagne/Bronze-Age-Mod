@@ -14,6 +14,8 @@ k_kizzuwatna;Kizzuwatna;;;;;;;;;;;;;x
 k_kizzuwatna_adj;Kizzuwanti;;;;;;;;;;;;;x
 k_isuwa;Isuwa;;;;;;;;;;;;;x
 k_isuwa_adj;Isuwan;;;;;;;;;;;;;x
+k_kupros;Kúpros;;;;;;;;;;;;;x
+k_kupros_adj;Kúprosai;;;;;;;;;;;;;x
 
 ###########Duchy Titles###########
 d_hatti;Hatti;;;;;;;;;;;;;x
@@ -50,6 +52,10 @@ d_tegarama;Tegarama;;;;;;;;;;;;;x
 d_tegarama_adj;Tegaramu;;;;;;;;;;;;;x
 d_marqasa;Marqasa;;;;;;;;;;;;;x
 d_marqasa_adj;Marqasi;;;;;;;;;;;;;x
+d_salamis_cyp;Salamís;;;;;;;;;;;;;x
+d_salamis_cyp_adj;Salamísi;;;;;;;;;;;;;x
+d_palaepaphos;Palaepaphos;;;;;;;;;;;;;x
+d_palaepaphos_adj;Palaepaphosani;;;;;;;;;;;;;x
 
 ###########Counties Titles###########
 c_hattusa;Hattusa;;;;;;;;;;;;;x
@@ -186,6 +192,14 @@ c_timelkiya;Timelkiya;;;;;;;;;;;;;x
 c_timelkiya_adj;Timelkiya;;;;;;;;;;;;;x
 c_bulbulhum;Bulbulhum;;;;;;;;;;;;;x
 c_bulbulhum_adj;bulbulhum;;;;;;;;;;;;;x
+c_enkomi;Enkomi;;;;;;;;;;;;;x
+c_enkomi_adj;Enkomisi;;;;;;;;;;;;;x
+c_kition;Kítion;;;;;;;;;;;;;x
+c_kition_adj;Kítionai;;;;;;;;;;;;;x
+c_palaepaphos;Palaepaphos;;;;;;;;;;;;;x
+c_palaepaphos_adj;Palaepaphosani;;;;;;;;;;;;;x
+c_maroni;Maroni;;;;;;;;;;;;;x
+c_maroni_adj;Maronisi;;;;;;;;;;;;;x
 
 ###########Hatti Baronies###########
 b_hattusa;Hattusa;;;;;;;;;;;;;x
@@ -476,3 +490,21 @@ b_arihuwa;Arihuwa;;;;;;;;;;;;;x
 b_arihuwa_adj;Arihuwi;;;;;;;;;;;;;x
 b_til_garimmu;Til Garimmu;;;;;;;;;;;;;x
 b_til_garimmu_adj;Garimmi;;;;;;;;;;;;;x
+
+###########Kúprosai Baronies###########
+b_enkomi;Enkomi;;;;;;;;;;;;;x
+b_enkomi_adj;Enkomisi;;;;;;;;;;;;;x
+b_kition;Kítion;;;;;;;;;;;;;x
+b_kition_adj;Kítionai;;;;;;;;;;;;;x
+b_dromolaxia;Dromolaxia;;;;;;;;;;;;;x
+b_dromolaxia_adj;Dromolaxian;;;;;;;;;;;;;x
+b_palaepaphos;Palaepaphos;;;;;;;;;;;;;x
+b_palaepaphos_adj;Palaepaphosani;;;;;;;;;;;;;x
+b_alassa;Alassa;;;;;;;;;;;;;x
+b_alassa_adj;Alassani;;;;;;;;;;;;;x
+b_episkopi;Episkopi;;;;;;;;;;;;;x
+b_episkopi_adj;Episkopini;;;;;;;;;;;;;x
+b_maroni;Maroni;;;;;;;;;;;;;x
+b_maroni_adj;Maronisi;;;;;;;;;;;;;x
+b_kalavasos;Kalavasos;;;;;;;;;;;;;x
+b_kalasasos_adj;Kalavasosani;;;;;;;;;;;;;x

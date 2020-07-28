@@ -89,7 +89,7 @@ e_pihassasi_pantheon = {
 
 e_hellenic_pantheon = {
 	color = { 255 255 255 }
-	capital = 135
+	capital = 139
 	
 	title = "HIGH_GOD"
 	foa = "POPE_FOA"
@@ -105,7 +105,7 @@ e_hellenic_pantheon = {
 
 e_european_pantheon = {
 	color = { 255 255 255 }
-	capital = 1
+	capital = 147
 	
 	title = "HIGH_GOD"
 	foa = "POPE_FOA"

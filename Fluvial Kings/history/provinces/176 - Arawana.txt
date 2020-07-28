@@ -1,0 +1,7 @@
+title=c_arawana
+
+max_settlements= 1
+b_arawana=castle
+
+culture=luwian
+religion=haianiluwi

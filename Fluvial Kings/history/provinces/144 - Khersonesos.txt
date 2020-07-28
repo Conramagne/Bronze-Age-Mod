@@ -1,9 +1,0 @@
-title=c_khersonesos
-
-max_settlements= 3
-b_elaeus=tribal
-b_aeneos=tribal
-# b_sestus=castle
-
-culture=thracian
-religion=dentudisas

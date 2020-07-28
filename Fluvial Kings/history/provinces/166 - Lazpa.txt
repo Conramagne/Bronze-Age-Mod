@@ -1,0 +1,9 @@
+title=c_lazpa
+
+max_settlements= 3
+b_antissa=castle
+# b_mithymna=city
+# b_mytilini=temple
+
+culture=luwian
+religion=haianiluwi

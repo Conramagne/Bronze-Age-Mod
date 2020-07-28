@@ -1,0 +1,10 @@
+title=c_pylos
+
+max_settlements= 4
+b_pylos=castle
+b_peristeria=city
+b_amphigeneia=temple
+b_methone=castle
+
+culture=achaean
+religion=pantes_theoi

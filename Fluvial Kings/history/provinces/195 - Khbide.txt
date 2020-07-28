@@ -1,7 +1,0 @@
-title=c_khbide
-
-max_settlements= 1
-b_khbide=castle
-
-culture=carian
-religion=haianiluwi

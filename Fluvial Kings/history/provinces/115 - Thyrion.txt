@@ -1,9 +1,0 @@
-title=c_thyrion
-
-max_settlements= 3
-b_phara=castle
-#b_thyrion=temple
-#b_alyzia=city
-
-culture=achaean
-religion=pantes_theoi

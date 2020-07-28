@@ -129,6 +129,8 @@ culture = {
 culture = {
 	religion = {
 		"pantes_theoi"
+		"dentudisas"
+		"assussani"
 	}
 	
 	templates = { 

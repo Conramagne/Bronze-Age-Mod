@@ -1,0 +1,7 @@
+title=c_puranda
+
+max_settlements= 1
+b_puranda=castle
+
+culture = lydian
+religion = assussani

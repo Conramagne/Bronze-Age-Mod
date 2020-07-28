@@ -340,6 +340,85 @@ hellene = {
 		modifier = default_culture_modifier
 		allow_looting = yes
 	}
+	cypriot = {
+		graphical_cultures = { achaeangfx }
+
+		color = { 0.3 0.5 0.7 }
+
+		male_names = {
+			Abas_Abas Adrestos_Adrestos Agamemnon_Agamemnon Agapenor_Agapenor Agasthenes_Agasthenes Agenor_Agenor Aglaophonus_Aglaophonus Agrios_Agrios Aiakos_Aiakos Aigeús_Aigeús Aigialeus_Aigialeus Aigisthos_Aigisthos Aiguptios_Aiguptios Aiputos_Aiputos Akamas_Akamas Akastos_Akastos Akhareus_Akhareus Akhilleus_Akhilleus Akoos_Akoos Akrisios_Akrisios Aktaion_Aktaion Aktor_Aktor Alektor_Alektor Alektruon_Alektruon Aleos_Aleos Alexandros_Alaksandu Alkaios_Alkaios Alkathous_Alkathous Alkmaíon_Alkmaíon Aluzeus_Aluzeus Amphiaraos_Amphiaraos Amphidamas_Amphidamas Amphiktuon_Amphiktuon Amphimakhos_Amphimakhos Amphimedes_Amphimedes Amphion_Amphion Amphílokhos_Amphílokhos Amuthaon_Amuthaon Amúklas_Amúklas Amýntor_Amýntor Anaxagoras_Anaxagoras Andraimon_Andraimon Andronikh_Andronikh Ankaios_Ankaios Antromaxos_Antromaxos Antílokhos_Antílokhos Apheidas_Apheidas Aranareus_Aranareus Argalos_Argalos Argos_Argos Argurios_Argurios Aristaios_Aristaios Arkas_Arkas Arkeisios_Arkeisios Askalaphos_Askalaphos Astakos_Astakos Athamas_Athamas Atreus_Atreus Augewas_Augewas Autolukos_Autolukos Aías_Aías Bellerophon_Bellerophon Belos_Belos Bias_Bias Buphagos_Buphagos Danaós_Danaós Deioneus_Deioneus Demophon_Demophon Dhmofanhs_Dhmofanhs Didereus_Didereus Diomedes_Diomedes Drakokardos_Drakokardos Drakomaxos_Drakomaxos Ekhephron_Ekhephron Ekhinos_Ekhinos Ekhion_Ekhion Elatos_Elatos Elektruon_Elektruon Elephenor_Elephenor Eleîos_Eleîos Enkhelyawon_Enkhelyawon Epaphos_Epaphos Erekhtheos_Erekhtheos Eruthros_Eruthros Eteokles_Eteokles Etewoklewes_Etewoklewes Euaimon_Euaimon Eumenes_Eumenes Euphemos_Euphemos Euruptolemos_Euruptolemos Eurupulos_Eurupulos Eurustheus_Eurustheus Eurution_Eurution Eurutos_Eurutos Eúmelos_Eúmelos Glaukos_Glaukos Gouneus_Gouneus Hektor_Hektor Hippomakhos_Hippomakhos Hodoedokus_Hodoedokus Ialmenos_Ialmenos Iasios_Iasios Iason_Iason Idmon_Idmon Ikários_Ikários Inakhos_Inakhos Iphikles_Iphikles Iphis_Iphis Iphitos_Iphitos Ippokóon_Ippokóon Ipponóos_Ipponóos Iro_Iro Ixion_Ixion Iólaos_Iólaos Jason_Jason Jasos_Jasos Jasus_Jasus Kadmos_Kadmos Kalkhas_Kalkhas Kaludnos_Kaludnos Kapaneús_Kapaneús Kepheús_Kepheús Kerkaphos_Kerkaphos Khalkeus_Khalkeus Khalkodon_Khalkodon Kharops_Kharops Khrusippos_Khrusippos Kluthios_Kluthios Klúmenos_Klúmenos Koronos_Koronos Kranaos_Kranaos Kretheus_Kretheus Kriasos_Kriasos Krisos_Krisos Krotopos_Krotopos Kteatos_Kteatos Kuanippos_Kuanippos Kukhreus_Kukhreus Kularabes_Kularabes Kunortas_Kunortas Kunos_Kunos Kupridhmos_Kupridhmos Kuprios_Kuprios Kástor_Kástor Kékrops_Kékrops Laios_Laios Lakidamos_Lakidamos Lakidaus_Lakidaus Laodamas_Laodamas Laértes_Laértes Leitos_Leitos Leukadius_Leukadius Leukopeus_Leukopeus Lukaon_Lukaon Lukimnios_Lukimnios Lukios_Lukios Lukomedes_Lukomedes Lukos_Lukos Lukourgos_Lukourgos Lunkeús_Lunkeús Lusimakhe_Lusimakhe Lábdakos_Lábdakos Makhawon_Makhaon Medon_Medon Megapenthes_Megapenthes Mekisteús_Mekisteús Melampous_Melampous Melas_Melas Menelaos_Menelaos Menestheus_Menestheus Menoikeús_Menoikeús Mules_Mules Mégês_Mégês Narkissos_Narkissos Naubolos_Naubolos Neleus_Neleus Nestor_Nestor Nikostratos_Nikostratos Nireus_Nireus Nukteús_Nukteús Odusseús_Odusseús Oidípous_Oidípous Oikleús_Oikleús Oileús_Oileús Oineús_Oineús Oinómaos_Oinómaos Oivalos_Oivalos Opoûs_Opoûs Orestes_Orestes Ormenos_Ormenos Orneus_Orneus Pandion_Pandion Panopeus_Panopeus Parthenopaîos_Parthenopaîos Patroklos_Patroklos Peisistratos_Peisistratos Peleus_Peleus Pelias_Pelias Pentheus_Pentheus Pereos_Pereos Perileos_Perileos Perseus_Perseus Peteus_Peteus Phegous_Phegous Pheidippos_Pheidippos Pheidon_Pheidon Pheres_Pheres Philoktetes_Philoktetes Phoinix_Phoinix Phokos_Phokos Phorbas_Phorbas Phoroneus_Phoroneus Phrasimus_Phrasimus Phrixos_Phrixos Phrontis_Phrontis Phulas_Phulas Phuleos_Phuleos Phulákos_Phulákos Pirithous_Pirithous Pittheus_Pittheus Podaleirios_Podaleirios Podarkes_Podarkes Poeas_Poeas Poimen_Poimen Poliwos_Poliwos Poludoros_Poludoros Poluneíkes_Poluneíkes Polupoites_Polupoites Poluxenos_Poluxenos Porthaon_Porthaon Presbon_Presbon Proetos_Proetos Promakhos_Promakhos Pronax_Pronax Prothóos_Prothóos Pulades_Pulades Púrrhos_Púrrhos Radamanqus_Radamanqus Sarpedon_Sarpedon Sthenelos_Sthenelos Strophios_Strophios Strátikhos_Strátikhos Stumphalos_Stumphalos Talaos_Talaos Tawagalawa_Tawagalawa Telamon_Telamon Telemakhos_Telemakhos Tenthredon_Tenthredon Teuker_Teuker Teukros_Teukros Thaumakos_Thaumakos Thersander_Thersander Theseus_Theseus Thessalos_Thessalos Thestor_Thestor Thoas_Thoas Thrasumedes_Thrasumedes Thuestes_Thuestes Tisamenos_Tisamenos Tlepólemos_Tlepólemos Trambelos_Trambelos Triopas_Triopas Tripodiskos_Tripodiskos Tripolemos_Tripolemos Troezenos_Troezenos Tros_Tros Tudeus_Tudeus Tulisios_Tulisios Turios_Turios Twinon_Twinon Wedaneus_Wedaneus Xanthus_Xanthus Xaridhmos_Xaridhmos Zeuxippus_Zeuxippus Ántiphos_Ántiphos Áretos_Áretos
+		}
+		
+		female_names = {
+			Aegiale_Aegiale Agave_Agave Aglaea_Aglaea Agrianome_Agrianome Ainarete_Ainarete Alexandra_Alexandra Alkuone_Alkuone Althaia_Althaia Amphithea_Amphithea Anaxibia_Anaxibia Anaxo_Anaxo Andromákhe_Andromákhe Antigone_Antigone Antinoe_Antinoe Antiphateia_Antiphateia Arete_Arete Argea_Argia Ariadnh_Ariadnh Arsinoe_Arsinoe Asterope_Asterope Astudámeia_Astudámeia Astuokhe_Astuokhe Atalante_Atalante Auge_Auge Axiokhe_Axiokhe Bateia_Bateia Biadike_Biadike Danaë_Danaë Deipule_Deipule Demodike_Demodoke Demonassa_Demonassa Deïdameia_Deïdameia Diomede_Diomedeia Elara_Elara Elektra_Elektra Endeïs_Endeïs Epikaste_Epikaste Ereutija_Ereutija Eriopis_Eriopis Eriphule_Eriphule Eritha_Eritha Europa_Europa Euru_Euru Eurudike_Eurudike Eurukuda_Eurukuda Eurumakhe_Eurumakhe Eurumedousa_Eurumedousa Eurunome Euruodeia_Euruodeia Eurute_Eurute Eurúalos_Eurúalos Gorge_Gorge Gorgopis_Gorgopis Helen_Helen Hermione_Hermione Hippodámeia_Hippodámeia Hupermnestra_Hupermnestra Idomene_Idomene Io_Io Iodame_Iodame Iotis_Iotis Iphigenia_Iphigenia Iphimedeia_Iphimedeia Iphthime_Iphthime Jokasta_Jokasta Kallirrhoe_Kallirrhoe Kallisto_Kallisto Kallithuia_Kallithuia Kaluke_Kaluke Kalupso_Kalupso Kambuse_Kambuse Karpathia_Karpathia Kassiepeia_Kassiopeia Khalkiópe_Khalkiópe Khalkomedousa_Khalkomedousa Khloris_Khloris Khruse_Khruse Khrusothemis_Khrusothemis Khthonia_Khthonia Kleisithura_Kleisithura Kleokhareia_Kleokhareia Kleonikh_Kleonikh Kleophema_Kleophema Kleovoúle_Kleovoúle Klutaimnistra_Klutaimnistra Komaitho_Komaitho Korinsia_Korinsia Koronis_Koronis Kreousa_Kreousa Laodamia_Laodamia Laodike_Laodike Leukothéa_Leukothoë Lilaea_Lilaea Lusimákhe_Lusimákhe Medea_Medea Melanippe_Melanippe Meliboea_Meliboea Metiadosa_Metiadosa Molione_Molione Molpe_Molpe Nausidame_Nausidame Neaera_Neaera Nephele_Nephele Nikippe_Nikippe Niobe_Niobe Nukteïs_Nukteïs Ops_Ops Paion_Paion Pandora_Pandora Peiranta_Peiranta Peitho_Peitho Pelopia_Pelopia Peloris_Peloris
+		}
+		dukes_called_kings = yes
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+		allow_looting = yes
+	}
+	
+	aeolian = {
+		graphical_cultures = { achaeangfx }
+
+		color = { 0.8 0.2 0.8 }
+
+		male_names = {
+			Ahabbu Alluwamna Appuašu Anitta Azatiwata Awariku Ammuna Arnuwanda Astuwalamanza Astiruwa Arnuwanti Ariyahina Ahuni Ambaris Ashwisi
+			Bamah Bar-Hadad Ben-Hadad Bar-Ga'ya Bar-Rakib Bar-Sur
+			Dadi-Ilu
+			Eni-Ilu
+			Gunzinanu Gurdi Gusi Gabbar
+			Hattusili Hantili Huzziya Halpasulupi Hilaruada Hapatila Hamiyata Hulli Hayya Hadram Hazael Hadyan
+			Ini-Teššub Ir-Teššub Iškallu 
+			Kurunta Katuwa Kamani Kuzi-Teššub Kundašpu Kikki Kurti Kiyakiya Kirua Kirri Kilamuwa Katuzili
+			Labarna Lalli Larama
+			Mursili Muwatalli Mugallu Martiti Muwizi Manana Muwaharani Mari Mati-Ilu
+			Piyassili Pisiri Parita Puhamme Pihirim Panamuwa Piyamaradu
+			Runtiya Raqianu 
+			Suppiluliuma Sanduarri Sahurunuwa Suhi Sangara Sastura Sahu Sulumal Satiruntiya Sahwi Suwarimi Surri Sandasarme Sasi Saruwani
+			Tudhaliya Telipinus Talmi-Teššub Tarhunazi Taita Tutammu Toi Tuhamme Tuwati Tulli
+			Uratarhunza Uratami Urahilina Ušhitti Urimme
+			Wasuruntiya Wasusarma Warpalawa
+			Zidanta Zakur 
+			Yariri Yau-bidi
+			Qarli 
+		}
+		
+		female_names = {
+			Arinna 
+			Estan 
+			Hebat 
+			Istustaya 
+			Papaya Puduchepa
+			Wirisemu
+		}
+		
+		dukes_called_kings = yes
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+		allow_looting = yes
+	}
 }
 
 european = {

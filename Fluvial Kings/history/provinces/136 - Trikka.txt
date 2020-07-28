@@ -1,8 +1,0 @@
-title=c_trikka
-
-max_settlements= 2
-b_trikka=tribal
-b_ithome=temple
-
-culture=achaean
-religion=pantes_theoi

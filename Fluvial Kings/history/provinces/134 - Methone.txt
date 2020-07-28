@@ -1,0 +1,8 @@
+title=c_methone
+
+max_settlements= 2
+b_methone_magnesia=castle
+b_olizon=city
+
+culture=achaean
+religion=pantes_theoi

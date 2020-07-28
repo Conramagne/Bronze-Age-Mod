@@ -224,6 +224,27 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		name = "GFX_trait_devotion_sabazios"
+		texturefile = "gfx/traits/devotion_sabazios.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_devotion_pleistoros"
+		texturefile = "gfx/traits/devotion_pleistoros.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_devotion_derzelas"
+		texturefile = "gfx/traits/devotion_derzelas.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 
 ### syncretic traits
 
@@ -237,6 +258,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_trait_syncretic_hellenic"
 		texturefile = "gfx/traits/syncretic_hellenic.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_syncretic_european_group"
+		texturefile = "gfx/traits/syncretic_european_group.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"

@@ -1,0 +1,8 @@
+title=c_eretria
+
+max_settlements= 2
+b_eretria=castle
+b_chalkis=city
+
+culture=achaean
+religion=pantes_theoi

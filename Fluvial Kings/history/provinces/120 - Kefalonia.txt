@@ -1,0 +1,9 @@
+title=c_kefalonia
+
+max_settlements= 3
+b_poros=castle
+#b_pale=temple
+#b_krani=city
+
+culture=achaean
+religion=pantes_theoi

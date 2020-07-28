@@ -1,8 +1,0 @@
-title=c_mysia
-
-max_settlements= 2
-b_mysia=castle
-# b_pergamon=city
-
-culture = mysian
-religion = haianiluwi

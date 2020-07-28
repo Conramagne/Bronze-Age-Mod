@@ -1,7 +1,0 @@
-title=c_szapparanda
-
-max_settlements= 1
-b_szapparanda=castle
-
-culture = lydian
-religion = assussani

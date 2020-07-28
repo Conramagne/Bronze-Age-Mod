@@ -1,0 +1,8 @@
+title=c_maroni
+
+max_settlements= 2
+b_maroni=castle
+b_kalavasos=city
+
+culture=cypriot
+religion=pantes_theoi

@@ -1,9 +1,0 @@
-title=c_kastri
-
-max_settlements= 3
-b_kastri=castle
-# b_skandeia=city
-# b_kythria=temple
-
-culture=achaean
-religion=pantes_theoi

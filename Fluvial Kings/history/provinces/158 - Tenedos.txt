@@ -1,7 +1,0 @@
-title=c_tenedos
-
-max_settlements= 1
-b_tenedos=castle
-
-culture = wilusan
-religion = assussani

@@ -1,7 +1,0 @@
-title=c_kelenai
-
-max_settlements= 1
-b_kelenai=castle
-
-culture=luwian
-religion=haianiluwi

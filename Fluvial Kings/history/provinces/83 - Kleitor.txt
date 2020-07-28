@@ -1,0 +1,7 @@
+title=c_kleitor
+
+max_settlements = 1
+b_kleitor=castle
+
+culture=achaean
+religion=pantes_theoi

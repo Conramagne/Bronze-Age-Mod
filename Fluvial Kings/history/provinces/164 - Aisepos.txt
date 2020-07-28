@@ -1,7 +1,0 @@
-title=c_aisepos
-
-max_settlements= 1
-b_aisepos=castle
-
-culture=wilusan
-religion=haianiluwi

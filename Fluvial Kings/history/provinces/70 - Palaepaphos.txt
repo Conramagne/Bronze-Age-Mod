@@ -1,0 +1,9 @@
+title=c_palaepaphos
+
+max_settlements= 3
+b_palaepaphos=castle
+b_alassa=city
+b_episkopi=temple
+
+culture=cypriot
+religion=pantes_theoi

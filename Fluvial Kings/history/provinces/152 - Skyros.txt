@@ -1,7 +1,0 @@
-title=c_skyros
-
-max_settlements= 1
-b_skyros=castle
-
-culture=achaean
-religion=pantes_theoi

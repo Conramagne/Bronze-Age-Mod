@@ -1,9 +1,0 @@
-title=c_gytheion
-
-max_settlements= 3
-b_gytheion=castle
-# b_taenaron=temple
-# b_teuthrone=city
-
-culture=achaean
-religion=pantes_theoi

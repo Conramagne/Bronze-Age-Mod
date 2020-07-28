@@ -21,6 +21,7 @@ theogonos;Theogonos;;;;;;;;;;;;;x
 cretan;Kresijos;;;;;;;;;;;;;x
 phrygian;Phrugios;;;;;;;;;;;;;x
 # minoan;Minoikós;;;;;;;;;;;;;x
+cypriot;Kúprios;;;;;;;;;;;;;x
 bull;Taúrou;;;;;;;;;;;;;x
 
 european;Europes;;;;;;;;;;;;;x
@@ -354,6 +355,15 @@ kingdom_of_acheaen;Témenos;;;;;;;;;;;;;x
 emperor_cretan;Wanax;;;;;;;;;;;;;x
 emperor_female_cretan;Wanaxia;;;;;;;;;;;;;x
 
+count_cypriot;Prokoreter;;;;;;;;;;;;;x
+count_female_cypriot;Klawiphoros;;;;;;;;;;;;;x
+duke_cypriot;Koreter;;;;;;;;;;;;;x
+duke_female_cypriot;Koretera;;;;;;;;;;;;;x
+king_cypriot;Basileos;;;;;;;;;;;;;x
+king_female_cypriot;Basilissa;;;;;;;;;;;;;x
+emperor_cypriot;Wanax;;;;;;;;;;;;;x
+emperor_female_cypriot;Wanaxia;;;;;;;;;;;;;x
+
 count_dorian;Phularkhos;;;;;;;;;;;;;x #placeholder
 count_female_dorian;Phularkhosa;;;;;;;;;;;;;x #placeholder
 duke_dorian;Arkhon;;;;;;;;;;;;;x #placeholder
@@ -639,13 +649,19 @@ devotion_arinniti;Devoted to Arinniti;;;;;;;;;;;;;x
 devotion_arinniti_desc;This character is devoted to Arinniti;;;;;;;;;;;;;x
 devotion_telipinu;Devoted to Telipinu;;;;;;;;;;;;;x
 devotion_telipinu_desc;This character is devoted to Telipinu;;;;;;;;;;;;;x
+devotion_sabazios;Devoted to Sabázios;;;;;;;;;;;;;x
+devotion_sabazios_desc;This character is devoted to Sabázios;;;;;;;;;;;;;x
+devotion_pleistoros;Devoted to Pleistoros;;;;;;;;;;;;;x
+devotion_pleistoros_desc;This character is devoted to Pleistoros;;;;;;;;;;;;;x
+devotion_derzelas;Devoted to Derzelas;;;;;;;;;;;;;x
+devotion_derzelas_desc;This character is devoted to Derzelas;;;;;;;;;;;;;x
 
 #syncretic traits
-syncretic_pihassasi;Syncretic with Pihassasi;;;;;;;;;;;;;x
+syncretic_pihassasi;Syncretic with [pihassasi.GetName];;;;;;;;;;;;;x
 syncretic_pihassasi_desc;This character is syncretic with with those of the [pihassasi.GetName] Pantheon.;;;;;;;;;;;;;x
-syncretic_hellenic;Syncretic with Hellenic;;;;;;;;;;;;;x
+syncretic_hellenic;Syncretic with [hellenic.GetName];;;;;;;;;;;;;x
 syncretic_hellenic_desc;This character is syncretic with with those of the [hellenic.GetName] Pantheon.;;;;;;;;;;;;;x
-syncretic_european_group;Syncretic with Hellenic;;;;;;;;;;;;;x
+syncretic_european_group;Syncretic with [european_group.GetName];;;;;;;;;;;;;x
 syncretic_european_group_desc;This character is syncretic with with those of the [european_group.GetName] Pantheon.;;;;;;;;;;;;;x
 
 #stratocratic traits
@@ -738,6 +754,27 @@ aphrodite_boon_3;Aphrodite's Protection;;;;;;;;;;;;;x
 aphrodite_curse_1;Aphrodite's Jealousy;;;;;;;;;;;;;x
 aphrodite_curse_2;Aphrodite's Wrath;;;;;;;;;;;;;x
 aphrodite_curse_3;The Wicked Trials of Aphrodite;;;;;;;;;;;;;x
+
+sabazios_boon_1;Stalwart Equestrian;;;;;;;;;;;;;x
+sabazios_boon_2;Sabázios' Charge;;;;;;;;;;;;;x
+sabazios_boon_3;Sabázios' Galloping Pride;;;;;;;;;;;;;
+sabazios_curse_1;Aloof Equestrian;;;;;;;;;;;;;x
+sabazios_curse_2;Raging Stallion;;;;;;;;;;;;;x
+sabazios_curse_3;Shaken Equestrian;;;;;;;;;;;;;
+
+pleistoros_boon_1;Pleistoros' Guiding Arrow;;;;;;;;;;;;;x
+pleistoros_boon_2;Pleistoros' Martial Spirit;;;;;;;;;;;;;x
+pleistoros_boon_3;Pleistoros' Commanding Presence;;;;;;;;;;;;;x
+pleistoros_curse_1;Pleistoros' Shattered Direction;;;;;;;;;;;;;x
+pleistoros_curse_2;Pleistoros' Fogged Judgement;;;;;;;;;;;;;x
+pleistoros_curse_3;Curse of Glancing Misses;;;;;;;;;;;;;x
+
+derzelas_boon_1;Derzelas' Vitality;;;;;;;;;;;;;x
+derzelas_boon_2;Derzelas' Vigilance;;;;;;;;;;;;;x
+derzelas_boon_3;Defense of Derzelas;;;;;;;;;;;;;x
+derzelas_curse_1;Curse of Draining Vigor;;;;;;;;;;;;;x
+derzelas_curse_2;Derzelas' Void of Intelligence;;;;;;;;;;;;;x
+derzelas_curse_3;Scattering of Derzelas;;;;;;;;;;;;;x
 
 ###########Minor Titles###########
 

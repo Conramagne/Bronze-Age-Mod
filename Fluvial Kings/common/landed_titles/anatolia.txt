@@ -688,12 +688,63 @@ e_hittite_empire = {
 			}
 		}
 	}
+	k_kupros = {
+		color={ 143 138 102 }
+		color2={ 255 255 255 }
+		
+		capital = 68 #Enkomi (Salamis)
+		
+		culture = cypriot
+		
+		d_salamis_cyp = { 
+			color={ 143 138 102 }
+			color2={ 255 255 255 }
+	
+			capital = 68 #Enkomi
+			
+			c_enkomi = {
+				color={ 143 138 102 }
+				color2={ 255 255 255 }
+				
+				b_enkomi = {}
+			}
+			c_kition = {
+				color={ 186 66 114 }
+				color2={ 255 255 255 }
+				
+				b_kition = {}
+				b_dromolaxia = {}
+			}
+		}
+		d_palaepaphos = { 
+			color={ 95 184 43 }
+			color2={ 255 255 255 }
+	
+			capital = 70 #Palaepaphos
+			
+			c_palaepaphos = {
+				color={ 95 184 43 }
+				color2={ 255 255 255 }
+				
+				b_palaepaphos = {}
+				b_alassa = {}
+				b_episkopi = {}
+			}
+			c_maroni = {
+				color={ 69 121 64 }
+				color2={ 255 255 255 }
+				
+				b_maroni = {}
+				b_kalavasos = {}
+			}
+		}
+	}
 }
 e_arzawa = {
 	color={ 216 112 77 }
 	color2={ 255 255 255 }
 	
-	capital = 157 # Wilusa (Troy)
+	capital = 161 # Wilusa (Troy)
 	
 	culture = luwian
 	
@@ -703,13 +754,13 @@ e_arzawa = {
 		color = { 216 112 77 }
 		color2 = { 255 255 255 }
 		
-		capital = 157 # Wilusa (Troy)
+		capital = 161 # Wilusa (Troy)
 		
 		d_wilusa = { 
 			color = { 216 112 77 }
 			color2 = { 255 255 255 }
 	
-			capital = 157 # Wilusa (Troy)
+			capital = 161 # Wilusa (Troy)
 			
 			c_truwisa = {
 				color = { 216 112 77 }
@@ -761,7 +812,7 @@ e_arzawa = {
 			color = { 207 198 97 }
 			color2 = { 255 255 255 }
 	
-			capital = 162 # Antissa
+			capital = 166 # Antissa
 			
 			c_lazpa = {
 				
@@ -779,7 +830,7 @@ e_arzawa = {
 			color = { 219 166 148 }
 			color2 = { 255 255 255 }
 	
-			capital = 163 # Kyzikos
+			capital = 167 # Kyzikos
 			
 			c_kyzikos = {
 				color = { 219 166 148 }
@@ -814,7 +865,7 @@ e_arzawa = {
 			color = { 187 216 100 }
 			color2 = { 255 255 255 }
 	
-			capital = 167 # Mysia
+			capital = 171 # Mysia
 			
 			c_mysia = {
 				color = { 187 216 100 }
@@ -861,13 +912,13 @@ e_arzawa = {
 		color = { 197 175 26 }
 		color2 = { 255 255 255 }
 		
-		capital = 172 # Arawana
+		capital = 176 # Arawana
 		
 		d_arzawa = { 
 			color = { 197 175 26 }
 			color2 = { 255 255 255 }
 	
-			capital = 172 # Arawana
+			capital = 176 # Arawana
 			
 			c_arawana = {
 				color = { 197 175 26 }
@@ -892,7 +943,7 @@ e_arzawa = {
 			color = { 139 216 44 }
 			color2 = { 255 255 255 }
 	
-			capital = 175 # Karkisa
+			capital = 179 # Karkisa
 			
 			c_karkisa = {
 				color = { 139 216 44 }
@@ -924,13 +975,13 @@ e_arzawa = {
 		color = { 204 187 0 }
 		color2 = { 255 255 255 }
 		
-		capital = 178 # Salawassa
+		capital = 182 # Salawassa
 		
 		d_kuwaliya = { 
 			color = { 204 187 0 }
 			color2 = { 255 255 255 }
 	
-			capital = 178 # Salawassa
+			capital = 182 # Salawassa
 			
 			c_salawassa = {
 				color = { 204 187 0 }
@@ -961,7 +1012,7 @@ e_arzawa = {
 			color = { 36 206 69 }
 			color2 = { 255 255 255 }
 	
-			capital = 182 # Arnna
+			capital = 186 # Arnna
 			
 			c_arnna = {
 				color = { 36 206 69 }
@@ -993,13 +1044,13 @@ e_arzawa = {
 		color = { 216 151 77 }
 		color2 = { 255 255 255 }
 		
-		capital = 186 # Sfard
+		capital = 190 # Sfard
 		
 		d_sfard = { 
 			color = { 216 151 77 }
 			color2 = { 255 255 255 }
 	
-			capital = 186 # Sfard
+			capital = 190 # Sfard
 			
 			achaean = "Maeonia"
 			
@@ -1031,7 +1082,7 @@ e_arzawa = {
 			color2 = { 255 255 255 }
 			achaean = "Ephesus"
 	
-			capital = 189 # Apasa
+			capital = 193 # Apasa
 			
 			c_apasa = {
 				color = { 183 238 121 }
@@ -1075,7 +1126,7 @@ e_arzawa = {
 			color = { 140 211 99 }
 			color2 = { 255 255 255 }
 	
-			capital = 193 # Alos Karnos
+			capital = 197 # Alos Karnos
 			
 			c_alos_karnos = {
 				color = { 140 211 99 }

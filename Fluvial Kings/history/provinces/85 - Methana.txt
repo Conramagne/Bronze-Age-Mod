@@ -1,8 +1,0 @@
-title=c_methana
-
-max_settlements= 2
-b_methana=castle
-# b_troezen=city
-
-culture=achaean
-religion=pantes_theoi

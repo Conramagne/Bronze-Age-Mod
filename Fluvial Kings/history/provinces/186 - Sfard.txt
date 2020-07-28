@@ -1,7 +1,0 @@
-title=c_sfard
-
-max_settlements= 1
-b_sfard=castle
-
-culture = lydian
-religion = assussani

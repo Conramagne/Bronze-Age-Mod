@@ -1,7 +1,0 @@
-title=c_ithake
-
-max_settlements= 1
-b_ithake=castle
-
-culture=achaean
-religion=pantes_theoi

@@ -1,0 +1,9 @@
+title=c_dium
+
+max_settlements= 3
+b_dium=castle
+# b_artemiaio=city
+# b_kerynthos=temple
+
+culture=achaean
+religion=pantes_theoi

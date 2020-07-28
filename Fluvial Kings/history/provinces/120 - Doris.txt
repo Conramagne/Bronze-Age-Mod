@@ -1,7 +1,0 @@
-title=c_doris
-
-max_settlements= 1
-b_nafpaktos=castle
-
-culture=achaean
-religion=pantes_theoi

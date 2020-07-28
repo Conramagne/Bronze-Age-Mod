@@ -1,9 +1,0 @@
-title=c_locris
-
-max_settlements= 3
-b_locris=castle
-b_opus=temple
-b_cynus=city
-
-culture=achaean
-religion=pantes_theoi

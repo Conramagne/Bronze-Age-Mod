@@ -1,7 +1,0 @@
-title=c_lukka
-
-max_settlements= 1
-b_lukka=castle
-
-culture=luwian
-religion=haianiluwi

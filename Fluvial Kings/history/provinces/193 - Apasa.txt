@@ -1,0 +1,10 @@
+title=c_apasa
+
+max_settlements= 4
+b_apasa=castle
+b_klaros=temple
+b_kolophon=city
+#b_notion=city
+
+culture=luwian
+religion=haianiluwi

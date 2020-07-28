@@ -1,8 +1,0 @@
-title=c_chalkidiki
-
-max_settlements= 2
-b_charadrise=tribal
-# b_apollonia=city
-
-culture=achaean
-religion=pantes_theoi

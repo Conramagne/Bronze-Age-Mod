@@ -1,7 +1,0 @@
-title=c_bisaltia
-
-max_settlements= 1
-b_bisaltia=tribal
-
-culture=achaean
-religion=pantes_theoi

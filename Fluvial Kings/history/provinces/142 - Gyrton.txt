@@ -1,0 +1,10 @@
+title=c_gyrton
+
+max_settlements= 4
+b_gyrton=castle
+b_oloosson=temple
+#b_perrhaebi=castle
+#b_homolion=city
+
+culture=achaean
+religion=pantes_theoi

@@ -1,0 +1,8 @@
+title=c_phigalia
+
+max_settlements= 2
+b_phigalia=castle
+b_bassae=temple
+
+culture=achaean
+religion=pantes_theoi

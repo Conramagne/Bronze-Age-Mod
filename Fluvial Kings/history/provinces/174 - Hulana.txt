@@ -1,7 +1,0 @@
-title=c_hulana
-
-max_settlements= 1
-b_hulana=castle
-
-culture=luwian
-religion=haianiluwi

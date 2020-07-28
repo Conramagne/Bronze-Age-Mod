@@ -1,0 +1,9 @@
+title=c_olynthos
+
+max_settlements= 3
+b_olynthos=tribal
+# b_petralonia = castle
+# b_thermes = city
+
+culture=achaean
+religion=pantes_theoi

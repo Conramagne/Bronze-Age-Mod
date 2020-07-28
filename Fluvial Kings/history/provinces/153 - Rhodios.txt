@@ -1,8 +1,0 @@
-title=c_rhodios
-
-max_settlements= 2
-b_rhodios=castle
-b_jalysus=city
-
-culture=achaean
-religion=pantes_theoi

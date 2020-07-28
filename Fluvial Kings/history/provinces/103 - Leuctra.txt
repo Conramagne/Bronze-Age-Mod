@@ -1,0 +1,8 @@
+title=c_leuctra
+
+max_settlements= 2
+b_leuctra=castle
+b_platea=city
+
+culture=achaean
+religion=pantes_theoi

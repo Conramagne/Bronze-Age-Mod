@@ -1,0 +1,10 @@
+title=c_phylakae
+
+max_settlements= 4
+b_phylakae=castle
+b_itonus=temple
+# b_antron=city
+# b_pteleus = castle
+
+culture=achaean
+religion=pantes_theoi

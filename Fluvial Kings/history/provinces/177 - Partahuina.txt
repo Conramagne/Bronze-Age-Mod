@@ -1,7 +1,0 @@
-title=c_partahuina
-
-max_settlements= 1
-b_partahuina=castle
-
-culture=luwian
-religion=haianiluwi

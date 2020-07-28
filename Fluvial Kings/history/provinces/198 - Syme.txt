@@ -1,7 +1,0 @@
-title=c_syme
-
-max_settlements= 1
-b_syme=castle
-
-culture=achaean
-religion=pantes_theoi

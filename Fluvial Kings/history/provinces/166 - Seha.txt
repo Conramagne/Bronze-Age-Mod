@@ -1,7 +1,0 @@
-title=c_seha
-
-max_settlements= 1
-b_pericharaxis=castle
-
-culture=luwian
-religion=haianiluwi

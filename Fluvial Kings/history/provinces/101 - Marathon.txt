@@ -1,0 +1,9 @@
+title=c_marathon
+
+max_settlements= 3
+b_marathon=castle
+b_aphidnaea=temple
+# b_ramnous=city
+
+culture=achaean
+religion=pantes_theoi

@@ -1,0 +1,10 @@
+title=c_megara
+
+max_settlements = 4
+b_megara = castle
+b_isthmia = city
+#b_therme = castle
+#b_pagae = temple
+
+culture = achaean
+religion = pantes_theoi

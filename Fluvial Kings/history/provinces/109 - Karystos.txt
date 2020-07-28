@@ -1,0 +1,8 @@
+title=c_karystos
+
+max_settlements= 2
+b_karystos=castle
+# b_dystos=temple
+
+culture=achaean
+religion=pantes_theoi

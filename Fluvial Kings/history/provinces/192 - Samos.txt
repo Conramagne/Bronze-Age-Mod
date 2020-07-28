@@ -1,7 +1,0 @@
-title=c_samos
-
-max_settlements= 1
-b_samos=castle
-
-culture=luwian
-religion=haianiluwi

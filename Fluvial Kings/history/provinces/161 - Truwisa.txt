@@ -1,0 +1,9 @@
+title=c_truwisa
+
+max_settlements= 3
+b_wilusa=castle
+b_assos=temple
+b_pedashash=city
+
+culture = wilusan
+religion = assussani

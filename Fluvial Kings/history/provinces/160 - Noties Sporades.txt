@@ -1,0 +1,8 @@
+title=c_noties_sporades
+
+max_settlements= 2
+b_oenoe=castle
+b_asklepieion=temple
+
+culture=achaean
+religion=pantes_theoi

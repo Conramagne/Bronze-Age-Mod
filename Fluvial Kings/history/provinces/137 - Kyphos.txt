@@ -1,7 +1,0 @@
-title=c_kyphos
-
-max_settlements= 1
-b_kyphos=tribal
-
-culture=achaean
-religion=pantes_theoi

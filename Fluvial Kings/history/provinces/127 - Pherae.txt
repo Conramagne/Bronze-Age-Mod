@@ -1,9 +1,0 @@
-title=c_pherae
-
-max_settlements= 3
-b_pherae=castle
-b_iolkos=city
-# b_boibe=temple
-
-culture=achaean
-religion=pantes_theoi

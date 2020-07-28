@@ -1,7 +1,0 @@
-title=c_assuwa
-
-max_settlements= 1
-b_assuwa=castle
-
-culture = mysian
-religion = haianiluwi
