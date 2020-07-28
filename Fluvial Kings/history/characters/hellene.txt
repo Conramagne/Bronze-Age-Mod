@@ -2752,6 +2752,7 @@
 			add_friend = 1100147
 			add_claim = c_argos
 			add_claim = c_methana
+			set_character_flag = destined_hero
 		}
 	}
 	2566.1.1 = { death = yes }

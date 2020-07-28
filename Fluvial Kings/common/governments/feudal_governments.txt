@@ -24,6 +24,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			tribal_confederacy_government
 		}
 		potential = {
 			OR = {
@@ -88,6 +89,7 @@ feudal_governments = {
 		# }
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			tribal_confederacy_government
 		}
 		potential = {
 			OR = {
@@ -143,9 +145,11 @@ feudal_governments = {
 		vassal_call_to_arms = {
 			tribal_government
 			tribal_confederacy_government
+			military_governorate_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			tribal_confederacy_government
 		}
 		potential = {
 			OR = {
@@ -159,10 +163,13 @@ feudal_governments = {
 			independent = no
 			is_feudal = yes
 			liege = {
-				independent = yes
 				OR = {
+					government = military_governorate_government
 					government = hegemonic_government
-					government = regional_kingdom_government
+					AND = {
+						independent = yes
+						government = regional_kingdom_government
+					}
 				}
 				OR = {
 					culture = ROOT
@@ -185,6 +192,12 @@ feudal_governments = {
 						government = hegemonic_government
 					}
 					higher_real_tier_than = COUNT
+				}
+				AND = {
+					liege = {
+						government = military_governorate_government
+					}
+					higher_real_tier_than = BARON
 				}
 			}
 			NOT = { is_government_potential = stratocratic_government }
@@ -237,6 +250,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			tribal_confederacy_government
 		}
 		potential = {
 			OR = {
@@ -288,6 +302,7 @@ feudal_governments = {
 		}
 		free_revoke_on_governments = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
+			tribal_confederacy_government
 			feudal_government
 		}
 		potential = {

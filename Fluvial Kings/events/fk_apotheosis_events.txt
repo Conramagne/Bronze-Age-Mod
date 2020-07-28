@@ -11,40 +11,45 @@ character_event = {
 	has_dlc = "Holy Fury"
 
 	trigger = {
-		death_in_china_trigger = no
-		death_no_trace_trigger = no
-		NOR = {
-			trait = excommunicated
-			trait = cannibal_trait
-			#controls_religion = yes
-            has_character_modifier = voice_of_satan
-            has_character_modifier = known_satanist
-            has_character_modifier = suspected_demon_spawn
-            has_character_modifier = suspected_witch
-            has_character_modifier = known_witch
-            has_character_modifier = crazy_cannibal
-            has_character_modifier = demon_child_non_pagan
-            has_character_modifier = corrupting_magic_minor
-            has_character_modifier = corrupting_magic_major
-			dynasty = none
-		}
-		any_dynasty_member = {
-			is_landed = yes
-		}
 		OR = {
-			check_variable = { which = apotheosis_victory value = 10 }
-			check_variable = { which = apotheosis_duel value = 10 }
-			check_variable = { which = apotheosis_sack value = 10 }
+			AND = {
+				death_in_china_trigger = no
+				death_no_trace_trigger = no
+				NOR = {
+					trait = excommunicated
+					trait = cannibal_trait
+					#controls_religion = yes
+					has_character_modifier = voice_of_satan
+					has_character_modifier = known_satanist
+					has_character_modifier = suspected_demon_spawn
+					has_character_modifier = suspected_witch
+					has_character_modifier = known_witch
+					has_character_modifier = crazy_cannibal
+					has_character_modifier = demon_child_non_pagan
+					has_character_modifier = corrupting_magic_minor
+					has_character_modifier = corrupting_magic_major
+					dynasty = none
+				}
+				any_dynasty_member = {
+					is_landed = yes
+				}
+				OR = {
+					check_variable = { which = apotheosis_victory value = 10 }
+					check_variable = { which = apotheosis_duel value = 10 }
+					check_variable = { which = apotheosis_sack value = 10 }
+				}
+				has_curse_trigger = no
+				OR = {
+					trait = skilled_tactician
+					trait = brilliant_strategist
+					trait = strategist
+					leader_traits = 1	
+				}
+				martial = 15
+				is_adult = yes
+			}
+			has_character_flag = destined_hero
 		}
-		has_curse_trigger = no
-		OR = {
-			trait = skilled_tactician
-			trait = brilliant_strategist
-			trait = strategist
-			leader_traits = 1	
-		}
-		martial = 15
-		is_adult = yes
 	}
 
 	immediate = {
@@ -160,7 +165,7 @@ character_event = {
     has_dlc = "Holy Fury"
 
     immediate = {
-		set_special_character_title = BLANK_TITLE #Make the localization actually blank
+		set_special_character_title = HERO_TITLE
 		random_list = {
 			1000 = {
 				trigger = {
@@ -273,6 +278,10 @@ character_event = {
 				}
 				event_target:hero_capital = {
 					setting_up_heroic_burial_site_effect = yes
+					save_persistent_event_target = {
+						name = province_hero
+						scope = event_target:hero_person
+					}
 				}
 			}
 			else_if = {
@@ -301,6 +310,10 @@ character_event = {
 							}
 						}
 						setting_up_heroic_burial_site_effect = yes
+						save_persistent_event_target = {
+							name = province_hero
+							scope = event_target:hero_person
+						}
 					}
 				}
 			}
@@ -317,6 +330,10 @@ character_event = {
 				}
 				event_target:random_hero_demesne_province = {
 					setting_up_heroic_burial_site_effect = yes
+					save_persistent_event_target = {
+						name = province_hero
+						scope = event_target:hero_person
+					}
 				}
 			}
 			else_if = {
@@ -331,7 +348,11 @@ character_event = {
 					}
 				}
 				event_target:random_hero_realm_province = {
-					setting_up_heroic_burial_site_effect = yes             
+					setting_up_heroic_burial_site_effect = yes     
+					save_persistent_event_target = {
+						name = province_hero
+						scope = event_target:hero_person
+					}					
 				}
 			}
 		}

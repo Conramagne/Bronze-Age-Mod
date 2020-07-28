@@ -77,6 +77,7 @@ character_event = {
 	}
 }
 
+#Receive Apotheosis Battle Point after winning battle
 character_event = {
 	id = fkm.5
 	hide_window = yes
@@ -88,5 +89,232 @@ character_event = {
 	
 	immediate = {
 		change_variable = { which = apotheosis_victory value = 1 }
+	}
+}
+
+#AI receives event to distribute inherited kingdom (on_new_holder)
+character_event = {
+	id = fkm.6
+	desc = EVTDESCFKM6
+	is_triggered_only = yes
+	
+	# ai = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				FROM = {
+					tier = COUNT
+				}
+				tier = DUKE
+			}
+			AND = {
+				FROM = {
+					tier = DUKE
+				}
+				tier = KING
+			}
+			AND = {
+				FROM = {
+					tier = KING
+				}
+				tier = EMPEROR
+			}
+		}
+		OR = {
+			government = hegemonic_government
+			government = military_governorate_government
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				FROM = {
+					higher_real_tier_than = COUNT
+				}
+			}
+			FROM = {
+				capital_scope = {
+					save_event_target_as = capital_county
+				}
+			}
+		}
+		else = {
+			FROM = {
+				save_event_target_as = capital_county
+			}
+		}
+	}
+	
+	option = {#Creates vassal of your culture
+		name = EVTOPTAFKM6
+		create_character = {
+			random_traits = yes
+			age = 30
+			female = no
+			culture = ROOT
+			religion = ROOT
+			dynasty = random
+		}
+		new_character = {
+			ROOT_FROM = {
+				any_de_jure_vassal_title = {
+					limit = {
+						higher_real_tier_than = BARON
+						OR = {
+							has_holder = no
+							holder = ROOT
+						}
+					}
+					grant_title = PREVPREV
+				}
+			}
+		}
+		new_character = {
+			ROOT_FROM = {
+				grant_title = PREV
+			}
+		}
+		ai_chance = {
+			factor = 33
+			modifier = {
+				factor = 2
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 0.5
+				trait = just
+			}
+		}
+	}
+	
+	option = {#Give land to random close relative
+		name = EVTOPTBFKM6
+		trigger = {
+			any_close_relative = {
+				is_adult = yes
+				at_location = ROOT
+				is_landed = no
+				OR = {
+					AND = {
+						culture = amazonian
+						culture = ROOT
+					}
+					female = no
+				}
+				spouse = {
+					is_landed = no
+				}
+			}
+		}
+		random_close_relative = {
+			limit = {
+				is_adult = yes
+				at_location = ROOT
+				is_landed = no
+				OR = {
+					AND = {
+						culture = amazonian
+						culture = ROOT
+					}
+					female = no
+				}
+				spouse = {
+					is_landed = no
+				}
+			}
+			ROOT_FROM = {
+				any_de_jure_vassal_title = {
+					limit = {
+						higher_real_tier_than = BARON
+						OR = {
+							has_holder = no
+							holder = ROOT
+						}
+					}
+					grant_title = PREVPREV
+				}
+			}
+			ROOT_FROM = {
+				grant_title = PREV
+			}
+		}
+		ai_chance = {
+			factor = 33
+			modifier = {
+				factor = 2
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 0.5
+				trait = just
+			}
+		}
+	}
+		
+	option = {#Creates vassal of appropriate culture
+		name = EVTOPTCFKM6
+		trigger = {
+			NOT = {
+				trait = cruel
+			}
+			NOT = {
+				event_target:capital_county = {
+					culture = ROOT
+				}
+			}
+		}
+		create_character = {
+			random_traits = yes
+			age = 30
+			female = no
+			culture = event_target:capital_county
+			religion = event_target:capital_county
+			dynasty = random
+		}
+		new_character = {
+			ROOT_FROM = {
+				any_de_jure_vassal_title = {
+					limit = {
+						higher_real_tier_than = BARON
+						OR = {
+							has_holder = no
+							holder = ROOT
+						}
+					}
+					grant_title = PREVPREV
+				}
+			}
+		}
+		new_character = {
+			ROOT_FROM = {
+				grant_title = PREV
+			}
+		}
+		ai_chance = {
+			factor = 33
+			modifier = {
+				factor = 0.5
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 3 
+				FROMFROM = {
+					culture = event_target:capital_county
+				}
+			}
+			modifier = {
+				factor = 2
+				trait = just
+			}
+		}
+	}
+
+	option = {#Player chooses their own path
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTDFKM6
 	}
 }

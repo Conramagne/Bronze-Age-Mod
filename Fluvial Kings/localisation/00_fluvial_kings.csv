@@ -237,8 +237,8 @@ god_poseidaon_bloodline; The Blood of Poseidaon;;;;;;;;;;;;;x
 god_poseidaon_bloodline_desc;"Forthwith then he went down from the rugged mount, striding forth with swift footsteps, and the high mountains trembled beneath the immortal feet of Poseidaon as he went.";;;;;;;;;;;;;x
 god_ares_bloodline; The Blood of Ares;;;;;;;;;;;;;x
 god_ares_bloodline_desc;“Ares, Ares, thou bane of mortals, thou blood-stained stormer of walls, wilt thou not now enter into the battle...";;;;;;;;;;;;;x
-heroic_bloodline_pantes_theoi;The Blood of a Hero;;;;;;;;;;;;;x
-heroic_bloodline_pantes_theoi_desc;A Bloodline of a Hero to [e_greek_empire.GetName] and thier people.;;;;;;;;;;;;;x
+heroic_bloodline_hellenic;The Blood of a Hero;;;;;;;;;;;;;x
+heroic_bloodline_hellenic_desc;A Bloodline of a Hero to [e_greek_empire.GetName] and thier people.;;;;;;;;;;;;;x
 
 ###########Titles###########
 d_berith;High Priesthood;;;;;;;;;;;;;x
@@ -760,4 +760,4 @@ opposite_gender_TT;Must be the opposite gender.;;;;;;;;;;;;;x
 tooltip_title_same_culture;Has same culture as capital of the title;;;;;;;;;;;;;x
 
 GOVERNMENT_UNIT_BONUS;Government Unit Bonus;;;;;;;;;;;;;x
-BLANK_TITLE;;;;;;;;;;;;;;x
+HERO_TITLE; ;;;;;;;;;;;;;x

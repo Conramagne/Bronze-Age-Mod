@@ -9436,36 +9436,26 @@ viceroyalty_succession = {
 				trait = crusader_queen
 			} 
 		} 
-		FROM = {
-			NOT = {
-				is_liege_of = ROOT
+		OR = {
+			liege = {
+				ai = no
+			}
+			AND = {
+				liege = {
+					ai = yes
+				}
+				FROM = {
+					is_liege_of = ROOT
+				}
 			}
 		}
-		# OR = {
-			# FROM = {
-				# is_liege_of = ROOT
-			# }
-			# FROM = {
-				# is_close_relative = liege
-			# }
-			# FROM = {
-				# is_friend = liege
-			# }
-			# FROM = {
-				# is_close_relative = ROOT
-			# }
-			# FROM = {
-				# is_friend = ROOT
-			# }
-			# FROMFROM = {
-				# capital_scope = {
-					# culture = FROM
-				# }
-			# }
-		# }
 		FROM = { #Either the candidate is in the realm, or is landless, or the title is independent, or the realm of the title does NOT have protected inheritance.
-			is_adult = yes
+			OR = {
+				is_adult = yes
+				is_liege_of = ROOT
+			}
 			OR = { 
+				is_liege_of = ROOT
 				any_liege = { 
 					character = ROOT
 				} 

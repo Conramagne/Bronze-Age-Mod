@@ -306,7 +306,7 @@ EVTOPTAFKP409;Wonders walk amongst us!;;;;;;;;;;;;;x
 EVTOPTBFKP409;I know this person!;;;;;;;;;;;;;x
 
 ###########Apotheosis Event and Other related Greek Hero Events###########
-hero_tomb_pilgrimage;Visite the Tomb of a Hero;;;;;;;;;;;;;x
+hero_tomb_pilgrimage;Visit the Tomb of a Hero;;;;;;;;;;;;;x
 hero_tomb_pilgrimage_desc;You desire to visit a tomb of a legendary hero...;;;;;;;;;;;;;x
 
 EVTDESCFKA6;A Great Hero was laid to rest in your domain...;;;;;;;;;;;;;x
@@ -314,7 +314,7 @@ TT_HERO_FAMILY;It is an honor that I am related...;;;;;;;;;;;;;x
 EVTOPTAFKA11_TT;You grab a handful of trinkets;;;;;;;;;;;;;x
 
 EVTTITLEFKA7;A Hero has Ascended!;;;;;;;;;;;;;x
-EVTDESCFKA7;[hero_person.GetDynName] lived a glorious life, truly following the example of [hero_person.Religion.GetHighGodName]. [hero_person.GetSheHeCap] passed on [hero_person.GetDeathDate], and people have long wondered if [hero_person.GetSheHe] would be considered a hero of [hero_person.Religion.GetGroupName] or not. After many worshippers graced the tomb of [hero_person.GetFirstNameWithNick], it has been popularly declared that [hero_person.GetFirstNameWithNick] as a [hero_person.Religion.GetGroupName] who has indeed ascended into a state of apotheosis, celebrated by the people of [hero_person.PrimaryTitle.GetName] as well as by the [hero_person.Religion.GetGroupName] world as a whole.  \n\nWe can only wish to follow [hero_person.GetHerHis] example, and become worthy people in the eyes of [hero_person.Religion.GetHighGodName].;;;;;;;;;;;;;x
+EVTDESCFKA7;[hero_person.GetDynName] lived a glorious life, truly following the example of [hero_person.Religion.GetHighGodName]. [hero_person.GetSheHeCap] passed on [hero_person.GetDeathDate], and people have long wondered if [hero_person.GetSheHe] would be considered a hero of the [hero_person.Religion.GetGroupName] people or not. After many worshippers graced the tomb of [hero_person.GetFirstNameWithNick], it has been popularly declared that [hero_person.GetFirstNameWithNick] as a [hero_person.Religion.GetGroupName] who has indeed ascended into a state of apotheosis, celebrated by the people of [hero_person.PrimaryTitle.GetName] as well as by the [hero_person.Religion.GetGroupName] world as a whole.  \n\nWe can only wish to follow [hero_person.GetHerHis] example, and become worthy people in the eyes of [hero_person.Religion.GetHighGodName].;;;;;;;;;;;;;x
 EVTOPTAFKA7;May they rest in glorious peace.;;;;;;;;;;;;;x
 
 EVTDESCFKA8;[hero_person.PrimaryTitle.GetName] has seen a boost in the awe strucken masses who come to see the tomb of [hero_person.GetName], local merchants are seen selling emblems bearing the symbol of this prestigous hero's lineage and house. Among the crowd a bard with a lyre is seen recanting the legendary deeds of [hero_person.GetName] to a crowd of cheering people. You observe the tomb and decide what you need to do to maintain this hero's legacy.;;;;;;;;;;;;;x
@@ -325,7 +325,7 @@ EVTOPTDFKA8;Maybe I can pocket a bit of change. After all, they were born here..
 EVTOPTEFKA8;People of the [local_burial_tomb.province_hero.GetFirstNameWithNick] lets sing their deeds!;;;;;;;;;;;;;
 EVTOPTFFKA8;I pray that the hero's name will be known for many generations...;;;;;;;;;;;;;
 
-EVTDESCFKA9;Inspired by [hero_person.GetName], you have tried to emulate their great deeds. Many people have already begun to speak highly of you as a potential new protege of the late hero. Whether their feats of cunning or strength , the people of [hero_person.PrimaryTitle.GetName] wonder whether the spirit of the hero emunates from you...;;;;;;;;;;;;;x
+EVTDESCFKA9;Inspired by [hero_person.GetName], you have tried to emulate their great deeds. Many people have already begun to speak highly of you as a potential new protege of the late hero. Whether their feats of cunning or strength, the people of [hero_person.PrimaryTitle.GetName] wonder whether the spirit of the hero emunates from you...;;;;;;;;;;;;;x
 EVTOPTAFKA9;May I do a fraction of their deeds...;;;;;;;;;;;;;x
 
 EVTDESCFKA10;[target_burial_site.GetName] is a well known traveling spot for people wishing to see the tomb of the Hero [target_burial_site.province_hero.GetFirstName]. I have never cared much for the hero [target_burial_site.province_hero.GetFirstName] nor [offended_burial_site_owner.GetTitledFirstName], and an opportunity to grab the valuables of the tomb has offered itself. But is it worth the risk?;;;;;;;;;;;;;x
@@ -346,21 +346,21 @@ EVTOPTAFKA14;Take everything of value, and leave nothing behind.;;;;;;;;;;;;;x
 EVTOPTBFKA14;We are not petty like them, we will leave it be.;;;;;;;;;;;;;x
 
 EVTDESCFKA16;I shall venture to the tomb of a local hero on my way to the holy places! Perhaps I can learn many things from their deeds, as I learn more about the divine's role in our lives.;;;;;;;;;;;;;x
-EVTOPTAFKA16_1;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
-EVTOPTAFKA16_2;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
-EVTOPTAFKA16_3;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+EVTOPTAFKA16_1;I shall visit [first_burial_site.GetFirstName];;;;;;;;;;;;;x
+EVTOPTAFKA16_2;I shall visit [first_burial_site.GetFirstName];;;;;;;;;;;;;x
+EVTOPTAFKA16_3;I shall visit [first_burial_site.GetFirstName];;;;;;;;;;;;;x
 
-EVTOPTBFKA16_1;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
-EVTOPTBFKA16_2;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
-EVTOPTBFKA16_3;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+EVTOPTBFKA16_1;I shall visit [second_burial_site.GetFirstName];;;;;;;;;;;;;x
+EVTOPTBFKA16_2;I shall visit [second_burial_site.GetFirstName];;;;;;;;;;;;;x
+EVTOPTBFKA16_3;I shall visit [second_burial_site.GetFirstName];;;;;;;;;;;;;x
 
-EVTOPTCFKA16_1;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
-EVTOPTCFKA16_2;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
-EVTOPTCFKA16_3;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+EVTOPTCFKA16_1;I shall visit [third_burial.GetFirstName];;;;;;;;;;;;;x
+EVTOPTCFKA16_2;I shall visit [third_burial.GetFirstName];;;;;;;;;;;;;x
+EVTOPTCFKA16_3;I shall visit [third_burial.GetFirstName];;;;;;;;;;;;;x
 
-EVTOPTDFKA16_1;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
-EVTOPTDFKA16_2;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
-EVTOPTDFKA16_3;I shall visit [target_burial_site.province_hero.GetFirstName];;;;;;;;;;;;;x
+EVTOPTDFKA16_1;I shall visit [fourth_burial.GetFirstName];;;;;;;;;;;;;x
+EVTOPTDFKA16_2;I shall visit [fourth_burial.GetFirstName];;;;;;;;;;;;;x
+EVTOPTDFKA16_3;I shall visit [fourth_burial.GetFirstName];;;;;;;;;;;;;x
 
 EVTDESCFKA17;Traveling along a well kept path along the forested hills, passing by many plain cottages as you make your way to the various holy places that dot the serene hillsides.;;;;;;;;;;;;;x
 EVTOPTAFKA17;Onwards I go!;;;;;;;;;;;;;x
