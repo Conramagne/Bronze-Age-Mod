@@ -223,6 +223,7 @@ mesopotamian = {
 pihassasi = {
 	has_coa_on_barony_only = yes
 	graphical_culture = indiangfx
+	interface_skin = { indian_interface muslim_interface }
 	playable = yes
 	
 	ai_convert_same_group = 0 
@@ -318,6 +319,7 @@ pihassasi = {
 hellenic = {
 	has_coa_on_barony_only = yes
 	graphical_culture = norsegfx
+	interface_skin = { hellenic_interface }
 	playable = yes
 	
 	ai_convert_same_group = 0 
