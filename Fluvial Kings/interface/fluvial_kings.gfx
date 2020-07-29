@@ -1,4 +1,84 @@
 spriteTypes = {
+### HOLDING IMAGES
+	
+	### Fluvial King Temples
+	
+		###Hellenic Temples
+	spriteType = {
+		name = "GFX_settlement_temple_achaeangfx_norsegfx"
+		texturefile = "gfx\\interface\\placeholder_temple_hellenic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_amazoniangfx_norsegfx"
+		texturefile = "gfx\\interface\\placeholder_temple_hellenic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_thraciangfx_norsegfx"
+		texturefile = "gfx\\interface\\placeholder_temple_hellenic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_anatoliangfx_norsegfx"
+		texturefile = "gfx\\interface\\placeholder_temple_hellenic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+		###Anatolian Temples
+	spriteType = {
+		name = "GFX_settlement_temple_anatoliangfx_indiangfx"
+		texturefile = "gfx\\interface\\placeholder_temple_anatolian.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	### Looted Fluvial King Temples
+
+		###Hellenic Temples
+	spriteType = {
+		name = "GFX_settlement_temple_achaeangfx_westerngfx_looted"
+		texturefile = "gfx\\interface\\placeholder_temple_hellenic_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_amazoniangfx_westerngfx_looted"
+		texturefile = "gfx\\interface\\placeholder_temple_hellenic_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_thraciangfx_westerngfx_looted"
+		texturefile = "gfx\\interface\\placeholder_temple_hellenic_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_anatoliangfx_westerngfx_looted"
+		texturefile = "gfx\\interface\\placeholder_temple_hellenic_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+		###Anatolian Temples
+	spriteType = {
+		name = "GFX_settlement_temple_anatoliangfx_westerngfx_looted"
+		texturefile = "gfx\\interface\\placeholder_temple_anatolian_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
 ### custom event pictures
 	
 	spriteType = {
