@@ -3,7 +3,7 @@ spriteTypes = {
 	
 	### Fluvial King Temples
 	
-		###Hellenic Temples
+		###Hellenic Temple
 	spriteType = {
 		name = "GFX_settlement_temple_achaeangfx_norsegfx"
 		texturefile = "gfx\\interface\\placeholder_temple_hellenic.tga"
@@ -32,7 +32,7 @@ spriteTypes = {
 		norefcount = yes
 	}
 	
-		###Anatolian Temples
+		###Anatolian Temple
 	spriteType = {
 		name = "GFX_settlement_temple_anatoliangfx_indiangfx"
 		texturefile = "gfx\\interface\\placeholder_temple_anatolian.tga"
@@ -40,40 +40,81 @@ spriteTypes = {
 		norefcount = yes
 	}
 	
-	### Looted Fluvial King Temples
+	spriteType = {
+		name = "GFX_settlement_temple_achaeangfx_indiangfx"
+		texturefile = "gfx\\interface\\placeholder_temple_anatolian.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_amazoniangfx_indiangfx"
+		texturefile = "gfx\\interface\\placeholder_temple_anatolian.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_thraciangfx_indiangfx"
+		texturefile = "gfx\\interface\\placeholder_temple_anatolian.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	### Looted Temple Pictures
 
-		###Hellenic Temples
+		###Hellenic Temple
 	spriteType = {
-		name = "GFX_settlement_temple_achaeangfx_westerngfx_looted"
+		name = "GFX_settlement_temple_achaeangfx_norsegfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_hellenic_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_amazoniangfx_westerngfx_looted"
+		name = "GFX_settlement_temple_amazoniangfx_norsegfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_hellenic_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_thraciangfx_westerngfx_looted"
+		name = "GFX_settlement_temple_thraciangfx_norsegfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_hellenic_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_anatoliangfx_westerngfx_looted"
+		name = "GFX_settlement_temple_anatoliangfx_norsegfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_hellenic_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
-		###Anatolian Temples
+		###Anatolian Temple
 	spriteType = {
-		name = "GFX_settlement_temple_anatoliangfx_westerngfx_looted"
+		name = "GFX_settlement_temple_anatoliangfx_indiangfx_looted"
+		texturefile = "gfx\\interface\\placeholder_temple_anatolian_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_settlement_temple_achaeangfx_indiangfx_looted"
+		texturefile = "gfx\\interface\\placeholder_temple_anatolian_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_amazoniangfx_indiangfx_looted"
+		texturefile = "gfx\\interface\\placeholder_temple_anatolian_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_thraciangfx_indiangfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_anatolian_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
