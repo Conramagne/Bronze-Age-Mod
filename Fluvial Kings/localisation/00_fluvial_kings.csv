@@ -260,6 +260,16 @@ HEAD_KOHEN_AMURRU;Kohen Amurru;;;;;;;;;;;;;x
 HEAD_KOHEN_GADOL;Kohen Gadol;;;;;;;;;;;;;x
 HEAD_SALLISANKUNI;Sallisankuni;;;;;;;;;;;;;x
 
+#Generic Land Titles#
+barony;Citadel;;;;;;;;;;;;;x
+barony_of;Citadel of;;;;;;;;;;;;;x
+county;Lordship;;;;;;;;;;;;;x
+county_of;Lordship of;;;;;;;;;;;;;x
+duchy;Land;;;;;;;;;;;;;x
+duchy_of;Land of;;;;;;;;;;;;;x
+empire;Great Kingdom;;;;;;;;;;;;;x
+empire_of;Great Kingdom of;;;;;;;;;;;;;x
+
 ###########Title Localisation###########
 emperor_hittite;Salihassu;;;;;;;;;;;;;x
 emperor_female_hittite;Tawananna;;;;;;;;;;;;;x
@@ -381,6 +391,16 @@ king_thracian;Reza;;;;;;;;;;;;;x
 king_female_thracian;Merilteas;;;;;;;;;;;;;x
 emperor_thracian;Merrezas;;;;;;;;;;;;;x
 emperor_female_thracian;Mekamatar;;;;;;;;;;;;;x
+
+#Generic Character Titles#
+baron;Master;;;;;;;;;;;;;x
+baron_female;Mistress;;;;;;;;;;;;;x
+count;Lord;;;;;;;;;;;;;x
+count_female;Lady;;;;;;;;;;;;;x
+duke;Petty King;;;;;;;;;;;;;x
+duke_female;Petty Queen;;;;;;;;;;;;;x
+emperor;Great King;;;;;;;;;;;;;x
+emperor_female;Great Queen;;;;;;;;;;;;;x
 
 ###########Religious Title Localisation###########
 temple_barony_of_pihassasi;Temple of;;;;;;;;;;;;;x
