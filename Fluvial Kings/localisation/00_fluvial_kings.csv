@@ -244,10 +244,10 @@ heroic_bloodline_hellenic_desc;A Bloodline of a Hero to [e_greek_empire.GetName]
 ###########Artifact Localization###########
 boar_tusk_helm;Boar Tusk Helm;;;;;;;;;;;;;x
 boar_tusk_helm_desc;This helm exudes the threatening energy of a Wild Boar;;;;;;;;;;;;;x
-hellenic_armor_t1;Woven Armor - Hellenic;;;;;;;;;;;;;x
-hellenic_armor_t1_desc;Hellenic Armor Woven for Combat;;;;;;;;;;;;;x
-hellenic_armor_t2;Bronze Armor - Hellenic;;;;;;;;;;;;;x
-hellenic_armor_t2_desc;Hellenic Armor Forged in Bronze for Combat;;;;;;;;;;;;;x
+armor_tier_1;Woven Armor - Hellenic;;;;;;;;;;;;;x
+armor_tier_1_desc;Hellenic Armor Woven for Combat;;;;;;;;;;;;;x
+armor_tier_2;Bronze Armor - Hellenic;;;;;;;;;;;;;x
+armor_tier_2_desc;Hellenic Armor Forged in Bronze for Combat;;;;;;;;;;;;;x
 
 ###########Titles###########
 d_berith;High Priesthood;;;;;;;;;;;;;x
