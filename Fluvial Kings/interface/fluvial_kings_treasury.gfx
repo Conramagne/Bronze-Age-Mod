@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_boar_tusk_helm"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\boar_tusk_helm.tga"
+	}
+	spriteType = {
+		name = "GFX_hellenic_armor_t1"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\hellenic_armor_t1.tga"
+	}
+	spriteType = {
+		name = "GFX_hellenic_armor_t2"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\hellenic_armor_t2.tga"
+	}
+}

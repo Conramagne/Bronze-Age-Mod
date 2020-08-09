@@ -232,14 +232,22 @@ has_not_conquered_recently_TT;Has not conquered recently.;;;;;;;;;;;;;x
 conquer_cooldown;Conquest Cooldown;;;;;;;;;;;;;x
 
 ###########Bloodline Localization###########
-god_zeus_bloodline; The Blood of Zeus;;;;;;;;;;;;;x
+god_zeus_bloodline;The Blood of Zeus;;;;;;;;;;;;;x
 god_zeus_bloodline_desc;"...but the son of Kronos, even Zeus that beareth the aegis, hath brought sorrows upon me, in that he casteth me into the midst of fruitless strifes and wranglings.";;;;;;;;;;;;;x
-god_poseidaon_bloodline; The Blood of Poseidaon;;;;;;;;;;;;;x
+god_poseidaon_bloodline;The Blood of Poseidaon;;;;;;;;;;;;;x
 god_poseidaon_bloodline_desc;"Forthwith then he went down from the rugged mount, striding forth with swift footsteps, and the high mountains trembled beneath the immortal feet of Poseidaon as he went.";;;;;;;;;;;;;x
-god_ares_bloodline; The Blood of Ares;;;;;;;;;;;;;x
+god_ares_bloodline;The Blood of Ares;;;;;;;;;;;;;x
 god_ares_bloodline_desc;“Ares, Ares, thou bane of mortals, thou blood-stained stormer of walls, wilt thou not now enter into the battle...";;;;;;;;;;;;;x
 heroic_bloodline_hellenic;The Blood of a Hero;;;;;;;;;;;;;x
 heroic_bloodline_hellenic_desc;A Bloodline of a Hero to [e_greek_empire.GetName] and thier people.;;;;;;;;;;;;;x
+
+###########Artifact Localization###########
+boar_tusk_helm;Boar Tusk Helm;;;;;;;;;;;;;x
+boar_tusk_helm_desc;This helm exudes the threatening energy of a Wild Boar;;;;;;;;;;;;;x
+hellenic_armor_t1;Woven Armor - Hellenic;;;;;;;;;;;;;x
+hellenic_armor_t1_desc;Hellenic Armor Woven for Combat;;;;;;;;;;;;;x
+hellenic_armor_t2;Bronze Armor - Hellenic;;;;;;;;;;;;;x
+hellenic_armor_t2_desc;Hellenic Armor Forged in Bronze for Combat;;;;;;;;;;;;;x
 
 ###########Titles###########
 d_berith;High Priesthood;;;;;;;;;;;;;x

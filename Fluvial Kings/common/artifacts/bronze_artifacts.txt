@@ -1,0 +1,18 @@
+boar_tusk_helm = {
+	quality = 2
+	picture = "GFX_boar_tusk_helm"
+	stacking = no
+	
+}
+hellenic_armor_t1 = {
+	quality = 2
+	picture = "GFX_hellenic_armor_t1"
+	stacking = no
+	
+}
+hellenic_armor_t2 = {
+	quality = 3
+	picture = "GFX_hellenic_armor_t2"
+	stacking = no
+	
+}
