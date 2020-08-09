@@ -32,10 +32,10 @@ feudal_government;Local Polity;;;;;;;;;;;;;x
 feudal_government_desc;Local polities are states that have arisen from disunited tribes and confederations or have slipped out of the grasps of larger realms. Often considered nothing more than petty states with squabbling tyrants whose authority barely extends beyond the walls of their citadels, they lack the courtly grandeur and the ability to administer more than their local communities.;;;;;;;;;;;;;x
 
 regional_kingdom_government;Regional Authority;;;;;;;;;;;;;x
-regional_kingdom_government_desc;Regional Authorities are the hingdoms and regional powers that are below the prominence of a hegemon but are potent enough powers in their own locale. Monarchs rely on landed military aristocrats and a growing palace structure. This represent the united polity of a people as well as their subjugated neighbors.;;;;;;;;;;;;;x
+regional_kingdom_government_desc;Regional Authorities are the kingdoms and regional powers that are below the prominence of a hegemon but are potent enough powers in their own locale. Monarchs rely on landed military aristocrats and a growing palace structure. This represent the united polity of a people as well as their subjugated neighbors.;;;;;;;;;;;;;x
 
 hegemonic_government;Hegemonic Power;;;;;;;;;;;;;x
-hegemonic_government_desc;Hegemonic Powers are large realms stretching from one corner of the world to the next. Monarchs rule a vast cosmopolitan realm of many religions, tribes and cultures with the help of an army of bureaucrats and the aristocracy. The will and fate of all is the ruler's demand and decree. The monarch strides the world of men as a glorious prince, all the peoples of the world will know their name!;;;;;;;;;;;;;x
+hegemonic_government_desc;Hegemonic Powers are large realms stretching from one corner of the world to the next. Monarchs rule a vast cosmopolitan realm of many religions, tribes and cultures with the help of an army of bureaucrats and the aristocracy. The will and fate of all is the ruler's demand and decree. The monarch strides the world of men as a glorious prince, all the peoples of the world will know their name.;;;;;;;;;;;;;x
 
 military_governorate_government;Military Governorate;;;;;;;;;;;;;x
 military_governorate_government_desc;Military Governors are of course drawn from the class of military-aristocrats, they govern the surrounding lands from their country estates and city holdings in the name of their liege. Governors may rule for life or at the mercy of their liege, who may repossess the leadership of the territory at a whim and redistribute it to a more worthy commander. Governorates are focused on raising armies of men and chariots for their lord, thus less tax is expected to be paid forward as it is used to outfit the local nobles and levy the urban and rural freemen.;;;;;;;;;;;;;x
@@ -59,7 +59,7 @@ succ_adult_familial_elective_desc;The successor of the monarch is chosen by them
 
 viceroyalty_succession;Military Governorship;;;;;;;;;;;;;x
 succ_viceroyalty_succession;Military Governorship;;;;;;;;;;;;;x
-succ_viceroyalty_succession_desc;Military Governors are appointed on the behest of their liege to govern a province or polity, a legal representative of their liege (sometimes even being of kin). They are appointed and thus could pass at the whim of their liege.;;;;;;;;;;;;;x
+succ_viceroyalty_succession_desc;Military Governors are appointed on the behest of their liege to govern a province or polity, a legal representative of their liege (sometimes even being of kin). They are appointed can be replaced at the whim of their liege.;;;;;;;;;;;;;x
 
 system_law;Government System;;;;;;;;;;;;;x
 system_law_desc;The government system defines whether the realm relies on the courtly skills of their council or the magistrates of the cities of the realm.;;;;;;;;;;;;;x
@@ -73,7 +73,7 @@ foreigner_law_desc;The status afforded to the foreigners that reside in the real
 foreigner_law_0;Harsh;;;;;;;;;;;;;x
 foreigner_law_0_desc;Dare we call them people? Dogs befits their stature and character better, and they will know who their masters are.;;;;;;;;;;;;;x
 foreigner_law_1;Neutral;;;;;;;;;;;;;x
-foreigner_law_1_desc;We placed no significance to the foreigners that reside in our realm and treat them with indifference.;;;;;;;;;;;;;x
+foreigner_law_1_desc;We care little for the foreigners treat them with indifference.;;;;;;;;;;;;;x
 foreigner_law_2;Autonomous;;;;;;;;;;;;;x
 foreigner_law_2_desc;These foreigners are given autonomy in our realm so long as they acknowledge our sovereignty.;;;;;;;;;;;;;x
 
@@ -242,12 +242,12 @@ heroic_bloodline_hellenic;The Blood of a Hero;;;;;;;;;;;;;x
 heroic_bloodline_hellenic_desc;A Bloodline of a Hero to [e_greek_empire.GetName] and thier people.;;;;;;;;;;;;;x
 
 ###########Artifact Localization###########
-boar_tusk_helm;Boar Tusk Helm;;;;;;;;;;;;;x
-boar_tusk_helm_desc;This helm exudes the threatening energy of a Wild Boar;;;;;;;;;;;;;x
-armor_tier_1;Woven Armor - Hellenic;;;;;;;;;;;;;x
-armor_tier_1_desc;Hellenic Armor Woven for Combat;;;;;;;;;;;;;x
-armor_tier_2;Bronze Armor - Hellenic;;;;;;;;;;;;;x
-armor_tier_2_desc;Hellenic Armor Forged in Bronze for Combat;;;;;;;;;;;;;x
+boar_tusk_helm;Boar Tusk Helmet;;;;;;;;;;;;;x
+boar_tusk_helm_desc;A helmet made from slivers of boar tusks attached to a padded leather base. Dozens of boars were slain to make this savage piece of armor.;;;;;;;;;;;;;x
+armor_tier_1;Scale Armor;;;;;;;;;;;;;x
+armor_tier_1_desc;A basic set of armor made up of many small bronze scales linked together.;;;;;;;;;;;;;x
+armor_tier_2;Bronze Panoply;;;;;;;;;;;;;x
+armor_tier_2_desc;More protective then scales, this set of armor is made from great plates of solid bronze linked together.;;;;;;;;;;;;;x
 
 ###########Titles###########
 d_berith;High Priesthood;;;;;;;;;;;;;x
