@@ -10,3 +10,20 @@ boar_tusk_helm = {
 	stacking = no
 	
 }
+khopes = {
+	monthly_character_prestige = 0.5
+	martial = 1
+	combat_rating = 7
+	command_modifier = {
+		heavy_infantry = 0.05
+		actual_light_infantry = 0.10
+	}
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_sword_khopes"
+	slot = weapon
+}

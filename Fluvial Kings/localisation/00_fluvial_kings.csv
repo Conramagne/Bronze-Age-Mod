@@ -248,6 +248,9 @@ armor_tier_1;Scale Armor;;;;;;;;;;;;;x
 armor_tier_1_desc;A basic set of armor made up of many small bronze scales linked together.;;;;;;;;;;;;;x
 armor_tier_2;Bronze Panoply;;;;;;;;;;;;;x
 armor_tier_2_desc;More protective then scales, this set of armor is made from great plates of solid bronze linked together.;;;;;;;;;;;;;x
+khopes;Bronze Khopes;;;;;;;;;;;;;x
+khopes_desc;This is Bronze Khopes Description;;;;;;;;;;;;;x
+#Please add Sword Localization if you need to
 
 ###########Titles###########
 d_berith;High Priesthood;;;;;;;;;;;;;x
