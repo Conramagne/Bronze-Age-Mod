@@ -31,7 +31,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_achaean_male_headgear_behind"
 		texturefile = "gfx\\characters\\achaean_male\\achaean_male_headgear_behind.dds"
-		noOfFrames = 12
+		noOfFrames = 13
 		norefcount = yes
 	}
 
@@ -313,7 +313,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_achaean_male_headgear"
 		texturefile = "gfx\\characters\\achaean_male\\achaean_male_headgear.dds"
-		noOfFrames = 12
+		noOfFrames = 13
 		norefcount = yes
 	}
 
@@ -572,7 +572,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_achaean_female_headgear_behind"
 		texturefile = "gfx\\characters\\achaean_female\\achaean_female_headgear_behind.dds"
-		noOfFrames = 12
+		noOfFrames = 13
 		norefcount = yes
 	}
 
@@ -806,7 +806,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_achaean_female_headgear"
 		texturefile = "gfx\\characters\\achaean_female\\achaean_female_headgear.dds"
-		noOfFrames = 12
+		noOfFrames = 13
 		norefcount = yes
 	}
 	
