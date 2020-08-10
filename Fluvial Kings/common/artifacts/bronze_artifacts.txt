@@ -1,5 +1,11 @@
 boar_tusk_helm = {
-	quality = 2
+	quality = 4
+	combat_rating = 5
+	martial = 1
+	monthly_character_prestige = 1
+	command_modifier = {
+		actual_light_infantry = 0.05
+	}
 	picture = "GFX_boar_tusk_helm"
 	stacking = no
 	
