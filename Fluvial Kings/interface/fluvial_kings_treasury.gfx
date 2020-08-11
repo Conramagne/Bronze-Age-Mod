@@ -4,11 +4,7 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\inventory\\artifacts\\boar_tusk_helm.tga"
 	}
 	spriteType = {
-		name = "GFX_hellenic_armor_t1"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\hellenic_armor_t1.tga"
-	}
-	spriteType = {
-		name = "GFX_hellenic_armor_t2"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\hellenic_armor_t2.tga"
+		name = "GFX_sword_khopes"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\sword_khopes.tga"
 	}
 }
