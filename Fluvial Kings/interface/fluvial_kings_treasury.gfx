@@ -16,11 +16,11 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\inventory\\artifacts\\sword_khopes_small.tga"
 	}
 	spriteType = {
-		name = "GFX_arrow_of_heracules"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\arrow_of_heracules.tga"
+		name = "GFX_arrow_of_heracles"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\arrow_of_heracles.tga"
 	}
 	spriteType = {
-		name = "GFX_arrow_of_heracules_small"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\arrow_of_heracules_small.tga"
+		name = "GFX_arrow_of_heracles_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\arrow_of_heracles_small.tga"
 	}
 }
