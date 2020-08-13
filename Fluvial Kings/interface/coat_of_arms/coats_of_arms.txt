@@ -125,9 +125,24 @@ culture = {
 	# WHEN ADDING NEW, ALWAYS ADD AT THE END
 	textures = {
 		texture = {
+			file = "gfx\\coats_of_arms\\anatolian_dynasties.tga"
+			size = { x = 10 y = 16 }
+			noOfFrames = 160
+			color = 0
+			emblem = no
+			random = no
+		}
+		texture = {
 			file = "gfx\\coats_of_arms\\pattern_hattusa.tga"
 			size = { x = 8 y = 1 }
 			noOfFrames = 8
+			color = 8
+			emblem = no
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\pattern_mesopotamia.tga"
+			size = { x = 10 y = 4 }
+			noOfFrames = 40
 			color = 8
 			emblem = no
 		}
