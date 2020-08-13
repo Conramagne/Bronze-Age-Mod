@@ -1,0 +1,291 @@
+objectTypes = {
+
+### Empire shields ######################################################
+
+	EMFXActorType = {
+		name = "e_byzantium"
+		actorfile = "gfx\models\Shields\holy_roman.xac"
+		scale = 0.5f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "e_hre_french"
+		actorfile = "gfx\models\Shields\holy_roman.xac"
+		scale = 0.5f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "e_karling"
+		actorfile = "gfx\models\Shields\holy_roman.xac"
+		scale = 0.5f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "e_roman_empire"
+		actorfile = "gfx\models\Shields\holy_roman.xac"
+		scale = 0.5f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "e_roman"
+		actorfile = "gfx\models\Shields\holy_roman.xac"
+		scale = 0.5f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "k_papal_state"
+		actorfile = "gfx\models\Shields\empire_shield.xac"
+		scale = 0.4f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+### Pagan shields ######################################################
+
+	EMFXActorType = {
+		name = "norsegfx_king_shield"
+		actorfile = "gfx\models\Shields\norse_king_shield.xac"
+		scale = 0.27f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "norsegfx_emperor_shield"
+		actorfile = "gfx\models\Shields\norse_empire_shield.xac"
+		scale = 0.27f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "pagangfx_count_shield"
+		actorfile = "gfx\models\Shields\pagan_count_shield.xac"
+		scale = 0.27f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "pagangfx_duke_shield"
+		actorfile = "gfx\models\Shields\pagan_duke_shield.xac"
+		scale = 0.3f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "pagangfx_king_shield"
+		actorfile = "gfx\models\Shields\pagan_king_shield.xac"
+		scale = 0.27f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "pagangfx_emperor_shield"
+		actorfile = "gfx\models\Shields\pagan_empire_shield.xac"
+		scale = 0.27f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+### Tengri shields ######################################################
+
+	EMFXActorType = {
+		name = "mongolgfx_king_shield"
+		actorfile = "gfx\models\Shields\mongol_king_shield.xac"
+		scale = 0.35f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "mongolgfx_emperor_shield"
+		actorfile = "gfx\models\Shields\mongol_empire_shield.xac"
+		scale = 0.35f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+### Hellenic shields ######################################################
+
+	EMFXActorType = {
+		name = "hellenicgfx_count_shield"
+		actorfile = "gfx\models\Shields\india_count_shield.xac"
+		scale = 1.0f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	pdxmesh = {
+		name = "hellenicgfx_duke_shield"
+		file = "gfx\models\Shields\chinese_count_shield.mesh"
+		scale = 1f
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	pdxmesh = {
+		name = "hellenicgfx_king_shield"
+		file = "gfx\models\Shields\chinese_duke_shield.mesh"
+		scale = 0.8f
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	pdxmesh = {
+		name = "hellenicgfx_emperor_shield"
+		file = "gfx\models\Shields\chinese_duke_shield.mesh"
+		scale = 1f
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	pdxmesh = {
+		name = "chinesegfx_duke_shield"
+		file = "gfx\models\Shields\chinese_king_shield.mesh"
+		scale = 0.75f
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+### Jewish shields ######################################################
+
+	EMFXActorType = {
+		name = "jewishgfx_count_shield"
+		actorfile = "gfx\models\Shields\Muslim_shield_01.xac"
+		scale = 0.4f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "jewishgfx_duke_shield"
+		actorfile = "gfx\models\Shields\Muslim_shield_01.xac"
+		scale = 0.5f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "jewishgfx_king_shield"
+		actorfile = "gfx\models\Shields\Muslim_shield_01.xac"
+		scale = 0.5f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "jewishgfx_emperor_shield"
+		actorfile = "gfx\models\Shields\Muslim_shield_01.xac"
+		scale = 0.5f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+### Zoroastrian shields ######################################################
+
+	EMFXActorType = {
+		name = "persiangfx_count_shield"
+		actorfile = "gfx\models\Shields\Muslim_shield_02.xac"
+		scale = 0.4f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "persiangfx_duke_shield"
+		actorfile = "gfx\models\Shields\Muslim_shield_02.xac"
+		scale = 0.4f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "persiangfx_king_shield"
+		actorfile = "gfx\models\Shields\Muslim_shield_02.xac"
+		scale = 0.4f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "persiangfx_emperor_shield"
+		actorfile = "gfx\models\Shields\Muslim_shield_02.xac"
+		scale = 0.5f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+### Egyptian shields ######################################################
+
+	EMFXActorType = {
+		name = "egyptiangfx_count_shield"
+		actorfile = "gfx\models\Shields\Muslim_shield_02.xac"
+		scale = 0.4f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "egyptiangfx_duke_shield"
+		actorfile = "gfx\models\Shields\Muslim_shield_02.xac"
+		scale = 0.4f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "egyptiangfx_king_shield"
+		actorfile = "gfx\models\Shields\Muslim_shield_02.xac"
+		scale = 0.4f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+
+	EMFXActorType = {
+		name = "egyptiangfx_emperor_shield"
+		actorfile = "gfx\models\Shields\Muslim_shield_02.xac"
+		scale = 0.5f
+		use_animation = no
+		cull_distance = 550.0f
+		scale_on_cull_distance = no
+	}
+}
