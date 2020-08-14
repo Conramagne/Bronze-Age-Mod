@@ -5,28 +5,28 @@ spriteTypes = {
 	
 		###Hellenic Temple
 	spriteType = {
-		name = "GFX_settlement_temple_achaeangfx_norsegfx"
+		name = "GFX_settlement_temple_achaeangfx_hellenicgfx"
 		texturefile = "gfx\\interface\\placeholder_temple_hellenic.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_amazoniangfx_norsegfx"
+		name = "GFX_settlement_temple_amazoniangfx_hellenicgfx"
 		texturefile = "gfx\\interface\\placeholder_temple_hellenic.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_thraciangfx_norsegfx"
+		name = "GFX_settlement_temple_thraciangfx_hellenicgfx"
 		texturefile = "gfx\\interface\\placeholder_temple_hellenic.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_anatoliangfx_norsegfx"
+		name = "GFX_settlement_temple_anatoliangfx_hellenicgfx"
 		texturefile = "gfx\\interface\\placeholder_temple_hellenic.tga"
 		noOfFrames = 1
 		norefcount = yes
@@ -65,28 +65,28 @@ spriteTypes = {
 
 		###Hellenic Temple
 	spriteType = {
-		name = "GFX_settlement_temple_achaeangfx_norsegfx_looted"
+		name = "GFX_settlement_temple_achaeangfx_hellenicgfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_hellenic_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_amazoniangfx_norsegfx_looted"
+		name = "GFX_settlement_temple_amazoniangfx_hellenicgfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_hellenic_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_thraciangfx_norsegfx_looted"
+		name = "GFX_settlement_temple_thraciangfx_hellenicgfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_hellenic_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_settlement_temple_anatoliangfx_norsegfx_looted"
+		name = "GFX_settlement_temple_anatoliangfx_hellenicgfx_looted"
 		texturefile = "gfx\\interface\\placeholder_temple_hellenic_looted.tga"
 		noOfFrames = 1
 		norefcount = yes
