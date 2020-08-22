@@ -691,87 +691,90 @@ character_event = {
 }
 
 # Embrace heresy?
-# character_event = {
-	# id = WoL.7060
-	# desc = EVTDESC_WoL_7060
-	# picture = GFX_evt_religious_exultation
-	# border = GFX_event_normal_frame_religion
+character_event = {
+	id = WoL.7060
+	desc = EVTDESC_WoL_7060
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_normal_frame_religion
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 
-	# only_playable = yes
-	# min_age =  16
-	# capable_only = yes
+	only_playable = yes
+	min_age =  16
+	capable_only = yes
 
-	# trigger = {
-		# is_priest = no
-		# holy_order = no
-		# mercenary = no
-		# has_focus = focus_theology
-		# is_heretic = no
-		# trait = zealous
+	trigger = {
+		is_priest = no
+		holy_order = no
+		mercenary = no
+		has_focus = focus_theology
+		is_heretic = no
+		trait = zealous
+		religion_scope = {
+			has_heresies = yes
+		}
 		# OR = {
 			# religion_group = christian
 			# religion_group = muslim
 			# religion_group = zoroastrian_group
 			# religion_group = jewish_group
 		# }
-		# NOT = { has_character_flag = wol_theology_heretic }
-	# }
+		NOT = { has_character_flag = wol_theology_heretic }
+	}
 	
-	# immediate = {
-		# set_character_flag = wol_theology_heretic
-	# }
+	immediate = {
+		set_character_flag = wol_theology_heretic
+	}
 	
-	# option = {
-		# name = EVTOPTA_WoL_7060  # Settle firmly into orthodoxy
-		# ai_chance = {
-			# factor = 100
-		# }
-		# piety = 30
-	# }
-	# option = {
-		# name = EVTOPTB_WoL_7060  # Take middle ground
-		# ai_chance = {
-			# factor = 5
-		# }
-		# remove_trait = zealous
-	# }
-	# option = {
-		# name = EVTOPTC_WoL_7060  # Become heretic
-		# ai_chance = {
-			# factor = 10
-		# }
-		# piety = 100
-		# become_heretic = yes
-		# if = {
-			# limit = {
-				# NOT = { has_character_modifier = religious_studies }
-				# NOT = { has_character_modifier = religious_philosopher }
-				# NOT = { trait = theologian }
-			# }
-			# add_character_modifier = {
-				# name = religious_studies
-				# duration = -1
-			# }
-			# set_character_flag = religious_studies_timer
-		# }
-		# if = {
-			# limit = {
-				# has_character_modifier = religious_studies
-				# NOT = { has_character_modifier = religious_philosopher }
-				# NOT = { trait = theologian }
-				# had_character_flag = { flag = religious_studies_timer days = 1800 }
-			# }
-			# clr_character_flag = religious_studies_timer
-			# remove_character_modifier = religious_studies
-			# add_character_modifier = {
-				# name = religious_philosopher
-				# duration = -1
-			# }
-		# }
-	# }
-# }
+	option = {
+		name = EVTOPTA_WoL_7060  # Settle firmly into orthodoxy
+		ai_chance = {
+			factor = 100
+		}
+		piety = 30
+	}
+	option = {
+		name = EVTOPTB_WoL_7060  # Take middle ground
+		ai_chance = {
+			factor = 5
+		}
+		remove_trait = zealous
+	}
+	option = {
+		name = EVTOPTC_WoL_7060  # Become heretic
+		ai_chance = {
+			factor = 10
+		}
+		piety = 100
+		become_heretic = yes
+		if = {
+			limit = {
+				NOT = { has_character_modifier = religious_studies }
+				NOT = { has_character_modifier = religious_philosopher }
+				NOT = { trait = theologian }
+			}
+			add_character_modifier = {
+				name = religious_studies
+				duration = -1
+			}
+			set_character_flag = religious_studies_timer
+		}
+		if = {
+			limit = {
+				has_character_modifier = religious_studies
+				NOT = { has_character_modifier = religious_philosopher }
+				NOT = { trait = theologian }
+				had_character_flag = { flag = religious_studies_timer days = 1800 }
+			}
+			clr_character_flag = religious_studies_timer
+			remove_character_modifier = religious_studies
+			add_character_modifier = {
+				name = religious_philosopher
+				duration = -1
+			}
+		}
+	}
+}
 
 # Embrace theologian lifestyle?
 character_event = {

@@ -1,5 +1,6 @@
 opinion_oppressive_overlord = {
 	opinion = -50
+	years = 100
 }
 
 opinion_overstepped_boundary = {

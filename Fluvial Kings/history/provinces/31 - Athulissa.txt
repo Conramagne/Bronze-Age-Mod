@@ -2,9 +2,9 @@ title=c_athulissa
 
 max_settlements= 4
 b_athulissa= tribal
-b_tuhupurpuna = temple
-b_sappiduwa = city
-b_tapapanuwa = castle
+# b_tuhupurpuna = temple
+# b_sappiduwa = city
+# b_tapapanuwa = castle
 
 culture=pala
 religion=ishalitethai

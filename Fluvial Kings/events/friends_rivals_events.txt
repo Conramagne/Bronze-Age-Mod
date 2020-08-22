@@ -10646,7 +10646,6 @@ character_event = {
 	capable_only = yes
 	only_rulers = yes
 	prisoner = no
-	religion_group = bnai_avraham
 	war = no
 	rivals = yes
 	
@@ -10655,6 +10654,7 @@ character_event = {
 	trigger = {
 		in_command = no
 		is_heretic = no
+		has_heresies = yes
 		any_rival = {
 			war = no
 			age = 16

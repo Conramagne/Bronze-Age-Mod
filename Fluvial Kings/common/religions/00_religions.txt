@@ -318,7 +318,7 @@ pihassasi = {
 
 hellenic = {
 	has_coa_on_barony_only = yes
-	graphical_culture = hellenicgfx
+	graphical_culture = norsegfx
 	interface_skin = { hellenic_interface }
 	playable = yes
 	
@@ -332,7 +332,7 @@ hellenic = {
 		heresy_icon = 5
 		
 		scripture_name = THE_EPE
-		priest_title = PRIEST
+		priest_title = HIEREUS
 		crusade_name = GREAT_HOLY_WAR
 
 		color = { 0.2 0.4 1 }
@@ -370,7 +370,7 @@ hellenic = {
 		heresy_icon = 13
 		
 		scripture_name = THE_EPE
-		priest_title = PRIEST
+		priest_title = SANKUNNI
 		crusade_name = GREAT_HOLY_WAR
 
 		color = { 0.8 0.4 0.3 }
@@ -406,7 +406,7 @@ hellenic = {
 
 european_group = {
 	has_coa_on_barony_only = yes
-	graphical_culture = pagangfx
+	graphical_culture = norsegfx
 	playable = yes
 
 	dentudisas = {

@@ -353,6 +353,7 @@ decisions = {
 	}
 	
 	hold_tiger_hunt = {
+		is_high_prio = yes
 		only_playable = yes
 		ai_check_interval = 7
 
@@ -365,8 +366,11 @@ decisions = {
 			age = 16
 			prisoner = no
 			num_of_vassals = 1
-			capital_scope = {
-				region = world_india
+			any_realm_title = {
+				tier = DUKE
+				NOT = {
+					has_character_flag = lions_extinct
+				}
 			}
 		}
 		allow = {
@@ -427,11 +431,11 @@ decisions = {
 				factor = 0
 				NOT = { wealth = 50 }
 			}
-			modifier = {
-				factor = 0
-				NOT = { wealth = 200 }
-				NOT = { has_focus = focus_hunting }
-			}
+			# modifier = {
+				# factor = 0
+				# NOT = { wealth = 200 }
+				# NOT = { has_focus = focus_hunting }
+			# }
 			modifier = {
 				factor = 0
 				NOT = { martial = 10 }

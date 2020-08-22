@@ -2,6 +2,12 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
+2490.1.1={
+	holder = 2103802 #Thoas
+}
+2520.1.1={
+	holder = 2103801 #Hupsipule
+}
 2527.1.1={
-	liege=d_voreios_aigaion
+	holder = 2103800 #Euneos
 }

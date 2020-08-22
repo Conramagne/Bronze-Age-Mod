@@ -1,6 +1,11 @@
 deciding_upon_hero_effect = {
     random = {
         chance = 1
+		
+		modifier = {
+            factor = 1000
+            has_character_flag = destined_hero
+        }
 
         #Lower chance when there is more heros around
         modifier = {
@@ -24,12 +29,10 @@ deciding_upon_hero_effect = {
 		modifier = {
 			factor = 0.5
 			is_landed = no
-			NOT = {
-				dynasty = none
-			}
+			dynasty = none
 		}
 
-        #Craven people are less likely to be Canonized
+        #Craven people are less likely to have apotheosis
         modifier = {
             factor = 0.5
             trait = craven

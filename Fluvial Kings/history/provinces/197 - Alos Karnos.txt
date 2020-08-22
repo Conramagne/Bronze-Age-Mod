@@ -1,7 +1,7 @@
 title=c_alos_karnos
 
 max_settlements= 1
-b_alos_karnos=castle
+b_alos_karnos=tribal
 
 culture=carian
 religion=haianiluwi

@@ -1,0 +1,225 @@
+armor_achilles = {
+	monthly_character_prestige = 2
+	martial = 3
+	combat_rating = 25
+	command_modifier = { morale_offence = 0.20 }
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set armor legendary achilles_armor achilles }
+	picture = "GFX_warden_armor"
+	slot = torso
+	stacking = no
+	indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}
+
+armor_achilles_2 = {
+	monthly_character_prestige = 2
+	martial = 3
+	combat_rating = 25
+	command_modifier = { morale_offence = 0.20 }
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set armor legendary achilles_armor achilles }
+	picture = "GFX_warden_armor"
+	slot = torso
+	stacking = no
+	indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}
+
+shield_achilles = {
+	monthly_character_prestige = 2
+	martial = 2
+	combat_rating = 20
+	command_modifier = { morale_offence = 0.20 }
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	flags = { shield legendary achilles }
+	picture = "GFX_warden_armor"
+	slot = shield
+	stacking = no
+	indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}
+
+
+sword_peleus = {
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 20
+	command_modifier = {
+		morale_offence = 0.1
+		morale_defence = 0.1
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	flags = { combat_weapon sword legendary achilles }
+	stacking = no
+	indestructible = yes
+	picture = "GFX_sword_T3_glow_red"
+	slot = weapon
+}
+
+spear_achilles = {
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.5
+	same_religion_opinion = 5
+	martial = 1
+	combat_rating = 15
+	command_modifier = {
+		morale_offence = 0.2
+		morale_defence = 0.2
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	flags = { combat_weapon troops_morale spear legendary achilles }
+	stacking = no
+	picture = "GFX_spear_of_destiny"
+	slot = weapon
+}
+
+armor_diomedes = {
+	monthly_character_prestige = 0.5
+	martial = 1
+	combat_rating = 15
+	command_modifier = { morale_offence = 0.10 }
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set armor legendary }
+	picture = "GFX_splint_mail"
+	slot = torso
+	stacking = no
+	indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}
+
+armor_glaucus = {
+	monthly_character_prestige = 1
+	martial = 2
+	combat_rating = 20
+	command_modifier = { morale_offence = 0.15 }
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set armor legendary }
+	picture = "GFX_warden_armor"
+	slot = torso
+	stacking = no
+	indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}
+
+bow_eurytus = {
+	monthly_character_prestige = 1
+	martial = 1
+	combat_rating = 10
+	command_modifier = {
+		cavalry = 0.1
+		archers = 0.2
+	}
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { combat_weapon bow legendary }
+	stacking = no
+	indestructible = yes
+	picture = "GFX_lightning"
+	slot = weapon
+}
+
+arrow_heracles = {
+	monthly_character_prestige = 0.5
+	martial = 1
+	combat_rating = 10
+	command_modifier = {
+		archers = 0.05
+	}
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { arrows legendary arrow_heracles }
+	stacking = no
+	indestructible = yes
+	picture = "GFX_arrow_of_heracles"
+	slot = weapon
+}
+
+bone_pelops = {
+	quality = 2
+	monthly_character_prestige = 0.25
+	allowed_gift = {
+		always = no
+	}
+	flags = { bodypart legendary bone_pelops }
+	picture = "GFX_saints_bone_femur"
+	stacking = no
+}
+
+palladium_troy = {
+	quality = 4
+	monthly_character_prestige = 1
+	allowed_gift = {
+		always = no
+	}
+	flags = { legendary palladium }
+	picture = "GFX_chinese_bronze_statue"
+	stacking = no
+	indestructible = yes
+}
+
+boar_tusk_helm = {
+	quality = 3
+	combat_rating = 5
+	martial = 1
+	monthly_character_prestige = 1
+	command_modifier = {
+		actual_light_infantry = 0.05
+	}
+	picture = "GFX_boar_tusk_helm"
+	stacking = no
+	
+}
+
+khopes = {
+	monthly_character_prestige = 0.5
+	martial = 1
+	combat_rating = 7
+	command_modifier = {
+		heavy_infantry = 0.05
+		actual_light_infantry = 0.10
+	}
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_sword_khopes"
+	slot = weapon
+}

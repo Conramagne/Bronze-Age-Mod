@@ -1,7 +1,7 @@
 title=c_lazpa
 
 max_settlements= 3
-b_antissa=castle
+b_antissa=tribal
 # b_mithymna=city
 # b_mytilini=temple
 

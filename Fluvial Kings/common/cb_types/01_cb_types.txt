@@ -286,6 +286,9 @@ dejure_duchy_claim = { # New1
 			if = {
 				limit = {
 					government = hegemonic_government
+					NOT = {
+						has_character_modifier = imperial_authority_increase_war
+					}
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -634,6 +637,9 @@ force_vassalization = { # New2
 			if = {
 				limit = {
 					government = hegemonic_government
+					NOT = {
+						has_character_modifier = imperial_authority_increase_war
+					}
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -976,6 +982,9 @@ great_realm_conflict = { # New3
 			if = {
 				limit = {
 					government = hegemonic_government
+					NOT = {
+						has_character_modifier = imperial_authority_increase_war
+					}
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -1234,6 +1243,9 @@ hostages_cb = { # New5
 			if = {
 				limit = {
 					government = hegemonic_government
+					NOT = {
+						has_character_modifier = imperial_authority_increase_war
+					}
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -2397,6 +2409,9 @@ tributary_permanent_cb = { # New8
 			if = {
 				limit = {
 					government = hegemonic_government
+					NOT = {
+						has_character_modifier = imperial_authority_increase_war
+					}
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -2803,6 +2818,9 @@ tributary_nomad_cb = { # New9
 			if = {
 				limit = {
 					government = hegemonic_government
+					NOT = {
+						has_character_modifier = imperial_authority_increase_war
+					}
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -3187,6 +3205,9 @@ offmap_submission = {
 			if = {
 				limit = {
 					government = hegemonic_government
+					NOT = {
+						has_character_modifier = imperial_authority_increase_war
+					}
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -3801,6 +3822,9 @@ tributary_offmap_cb = {
 			if = {
 				limit = {
 					government = hegemonic_government
+					NOT = {
+						has_character_modifier = imperial_authority_increase_war
+					}
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -4023,6 +4047,9 @@ dismantle_pretender_china_cb = {
 			if = {
 				limit = {
 					government = hegemonic_government
+					NOT = {
+						has_character_modifier = imperial_authority_increase_war
+					}
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -4239,6 +4266,9 @@ force_open_china_cb = {
 			if = {
 				limit = {
 					government = hegemonic_government
+					NOT = {
+						has_character_modifier = imperial_authority_increase_war
+					}
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -4462,6 +4492,9 @@ destabilization_china_cb = {
 			if = {
 				limit = {
 					government = hegemonic_government
+					NOT = {
+						has_character_modifier = imperial_authority_increase_war
+					}
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -4666,6 +4699,9 @@ invasion_of_china_cb = {
 			if = {
 				limit = {
 					government = hegemonic_government
+					NOT = {
+						has_character_modifier = imperial_authority_increase_war
+					}
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -5068,6 +5104,9 @@ truebelievers_bid_for_independence = {
 			if = {
 				limit = {
 					government = hegemonic_government
+					NOT = {
+						has_character_modifier = imperial_authority_increase_war
+					}
 				}
 			}
 			character_event = { id = fkr.136 }

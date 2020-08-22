@@ -305,6 +305,17 @@ character_event = {
 				}
 			}
 			modifier = {
+				factor = 0
+				liege = {
+					tier = KING
+					culture_group = hellene
+				}
+				opinion = {
+					who = FROM
+					value = 0
+				}
+			}
+			modifier = {
 				factor = 0.5
 				liege = {
 					government = hegemonic_government

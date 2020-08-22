@@ -1,6 +1,6 @@
 #European Pantheon
 1200000 = {
-	name = "Sabazios" # Sabazios, Head God and God of Horses
+	name = "Sabázios" # Sabázios, Head God and God of Horses
 	dynasty = 1000002 #Disakenthas 
 	culture = disakenthas
 	religion = dentudisas

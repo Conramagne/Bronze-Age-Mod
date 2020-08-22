@@ -1258,6 +1258,14 @@ gardener_opinion = {
 	max_decimals = 0
 }
 
+opinion_of_celibate = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
 #Devotion Trait Opinions
 opinion_of_devotion_tarhunna = {
 	show_as_percent = no

@@ -1,7 +1,7 @@
-title=c_palaepaphos
+title=c_paphos
 
 max_settlements= 3
-b_palaepaphos=castle
+b_paphos=castle
 b_alassa=city
 b_episkopi=temple
 

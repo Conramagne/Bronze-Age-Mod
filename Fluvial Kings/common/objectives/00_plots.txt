@@ -777,8 +777,9 @@ plot_kill_character = {
 	}
 	
 	target_potential = {
-		NOT = {
+		NOR = {
 			has_character_flag = flag_god
+			has_character_flag = achilles
 		}
 		NOT = { any_spouse = { character = FROM } } # This case is covered by another plot
 	}
@@ -1164,6 +1165,13 @@ plot_kill_spouse = {
 				ai = yes
 				trait = kind
 			}
+		}
+	}
+	
+	target_potential = {
+		NOR = {
+			has_character_flag = flag_god
+			has_character_flag = achilles
 		}
 	}
 	

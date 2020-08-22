@@ -166,7 +166,7 @@ character_event = {
 		trigger = {
 			european_group_or_syncretic = yes
 		}
-		add_trait = devotion_dezerlas
+		add_trait = devotion_derzelas
 		clr_character_flag = choose_devotion_flag
 		ai_chance = {
 			factor = 33

@@ -1,0 +1,3252 @@
+namespace = tw
+
+#Trojan War Set-Up (on_startup)
+character_event = {
+	id = tw.1
+	hide_window = yes
+	is_triggered_only = yes 
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+	}
+	
+	immediate = {
+		161 = {
+			add_province_modifier = {
+				name = trojan_walls
+				duration = -1
+			}
+		}
+		c_2101002 = { #Helen of Troy
+			add_trait = travelling
+			move_character = c_2200000 #Pariya-muwas
+		}
+		any_independent_ruler = {
+			limit = {
+				war_with = c_2200000 #Pariya-muwas
+			}
+			narrative_event = { id = tw.2 } #Greek Trojan War Event
+		}
+		any_independent_ruler = {
+			limit = {
+				war_with = c_2101000 #Menelaos
+			}
+			narrative_event = { id = tw.3 } #Trojan Trojan War Event
+		}
+	}
+}
+
+#Greek Trojan War Event
+narrative_event = {
+	id = tw.2
+	#Please add a custom picture, and when it is added, remove this comment
+	title = EVTTITLETW2
+	desc = {
+		trigger = {
+			has_landed_title = d_achaea
+		}
+		text = EVTDESCATW2
+	}
+	desc = {
+		trigger = {
+			has_landed_title = d_lacedemonia
+		}
+		text = EVTDESCBTW2
+	}
+	desc = {
+		trigger = {
+			has_landed_title = d_salamis
+		}
+		text = EVTDESCCTW2
+	}
+	desc = {
+		trigger = {
+			has_landed_title = d_messenia
+		}
+		text = EVTDESDCTW2
+	}
+	desc = {
+		trigger = {
+			has_landed_title = k_krete
+		}
+		text = EVTDESCETW2
+	}
+	desc = {
+		trigger = {
+			has_landed_title = c_lamia
+		}
+		text = EVTDESCFTW2
+	}
+	desc = {
+		trigger = {
+			has_landed_title = d_ithake
+		}
+		text = EVTDESCGTW2
+	}
+	desc = {
+		trigger = {
+			has_landed_title = c_mases
+		}
+		text = EVTDESCHTW2
+	}
+	desc = {
+		trigger = {
+			NOR = {
+				has_landed_title = d_achaea
+				has_landed_title = c_lamia
+				has_landed_title = d_lacedemonia
+				has_landed_title = d_messenia
+				has_landed_title = d_ithake
+				has_landed_title = d_salamis
+				has_landed_title = k_krete
+				has_landed_title = c_mases
+			}
+		}
+		text = EVTDESCTW2
+	}
+	hide_from = yes
+	is_triggered_only = yes 
+	
+	option = {
+		name = EVTOPTATW2
+		custom_tooltip = {
+			text = EVTOPTATW2_TT
+		}
+	}
+}
+
+#Trojan Trojan War Event
+narrative_event = {
+	id = tw.3
+	#Please add a custom picture, and when it is added, remove this comment
+	title = EVTTITLETW3
+	desc = {
+		trigger = {
+			has_landed_title = d_wilusa
+		}
+		text = EVTDESCATW3
+	}
+	desc = {
+		trigger = {
+			has_landed_title = c_dardania
+		}
+		text = EVTDESCBTW3
+	}
+	desc = {
+		trigger = {
+			NOR = {
+				has_landed_title = d_wilusa
+				has_landed_title = c_dardania
+			}
+		}
+		text = EVTDESCTW3
+	}
+
+	hide_from = yes
+	is_triggered_only = yes 
+	
+	option = {
+		name = EVTOPTATW3
+		custom_tooltip = {
+			text = EVTOPTATW3_TT
+		}
+	}
+}
+
+# **************************Important Trojan War Events***********************
+
+#Philoktetes gets bitten by a snake
+character_event = {
+	id = tw.4
+	desc = EVTDESCTW4
+	trigger = {
+		character = c_2102600 #Philoktetes
+		NOT = {
+			has_character_flag = bitten_by_snake
+		}
+		location = {
+			owner = {
+				any_war = {
+					using_cb = trojan_war_cb
+				}
+				war_with = ROOT
+			}
+		}
+		any_war = {
+			using_cb = trojan_war_cb
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTATW4
+		custom_tooltip = {
+			text = EVTOPTATW4_TT
+		}
+		set_character_flag = bitten_by_snake
+		add_trait = infection
+		add_trait = travelling
+		any_independent_ruler = {
+			limit = {
+				any_war = {
+					using_cb = trojan_war_cb
+					any_attacker = {
+						character = ROOT
+					}
+				}
+			}
+			character_event = { id = tw.5 } #Notification
+		}
+	}
+}
+
+#Notification
+character_event = {
+	id = tw.5
+	desc = EVTDESCTW5
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW5
+		custom_tooltip = {
+			text = EVTOPTATW5_TT
+		}
+	}
+}
+
+#Iólaos dies on the battlefield and becomes Protesilaos (on_combat_pulse)
+character_event = {
+	id = tw.6
+	desc = EVTDESCTW6
+	is_triggered_only = yes
+	trigger = {
+		character = c_2102501 #Iólaos
+		top_liege = {
+			any_war = {
+				using_cb = trojan_war_cb
+				any_attacker = {
+					character = PREVPREV
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTATW6
+		custom_tooltip = {
+			text = EVTOPTATW6_TT
+		}
+		set_name = Protesilaos
+		death = {
+			death_reason = death_battle
+		}
+		any_independent_ruler = {
+			limit = {
+				any_war = {
+					using_cb = trojan_war_cb
+					any_attacker = {
+						character = ROOT
+					}
+				}
+			}
+			character_event = { id = tw.7 } #Notification
+		}
+	}
+}
+
+#Notification
+character_event = {
+	id = tw.7
+	desc = EVTDESCTW7
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW7
+		custom_tooltip = {
+			text = EVTOPTATW7_TT
+		}
+	}
+}
+
+#Achilles raids the countryside
+character_event = {
+	id = tw.8
+	desc = EVTDESCTW8
+	trigger = {
+		character = c_2102101 #Akhilleus
+		NOT = {
+			has_global_flag = raided_lurnessos
+		}
+		top_liege = {
+			any_war = {
+				using_cb = trojan_war_cb
+				any_attacker = {
+					character = PREVPREV
+				}
+			}
+		}
+		location = {
+			owner = {
+				has_landed_title = c_lurnessos
+				any_war = {
+					using_cb = trojan_war_cb
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTATW8
+		custom_tooltip = {
+			text = EVTOPTATW8_TT
+		}
+		wealth = 200
+		set_global_flag = raided_lurnessos
+		if = {
+			limit = {
+				c_2200702 = { #Briseis
+					is_alive = yes
+				}
+			}
+			add_consort = c_2200702 #Briseis
+		}
+		else = {
+			create_character = {
+				random_traits = yes
+				age = 16
+				female = yes
+				culture = mysian
+				religion = haianiluwi
+				dynasty = none
+			}
+			add_consort = new_character
+		}
+		if = {
+			limit = {
+				c_2100900 = { #Agamemnon
+					is_alive = yes
+				}
+			}
+			c_2100900 = { #Agamemnon
+				character_event = { id = tw.9 } #Agamemnon Receives Chryseis/Random Consort
+			}
+			if = {
+				limit = {
+					c_2100900 = { #Agamemnon
+						at_location = 172 #Lurnessos
+					}
+				}
+				c_2100900 = { #Agamemnon
+					set_character_flag = at_lurnessos_desc
+				}
+			}
+			else = {
+				c_2100900 = { #Agamemnon
+					set_character_flag = not_at_lurnessos_desc
+				}
+			}
+		}
+	}
+}
+
+#Agamemnon Receives Chryseis/Random Consort
+character_event = {
+	id = tw.9
+	desc = {
+		text = EVTDESCATW9
+		trigger = {
+			has_character_flag = at_lurnessos_desc
+		}
+	}
+	desc = {
+		text = EVTDESCBTW9
+		trigger = {
+			has_character_flag = not_at_lurnessos_desc
+		}
+	}
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW9
+		custom_tooltip = {
+			text = EVTOPTATW9_TT
+		}
+		if = {
+			limit = {
+				c_2200704 = { #Chryseis
+					is_alive = yes
+				}
+			}
+			c_2200704 = {
+				set_character_flag = stolen_away
+			}
+			add_consort = c_2200704 #Chryseis
+		}
+		else = {
+			create_character = {
+				random_traits = yes
+				age = 16
+				female = yes
+				culture = mysian
+				religion = haianiluwi
+				dynasty = none
+			}
+			add_consort = new_character
+			new_character = {
+				set_character_flag = stolen_away
+			}
+		}
+		character_event = { id = tw.10 } #Chryses requests his daughter in exchange for gold
+	}
+}
+
+#Chryses requests his daughter in exchange for gold
+character_event = {
+	id = tw.10
+	desc = EVTDESCTW10
+	portrait = 2200705
+	is_triggered_only = yes
+	trigger = {
+		c_2200705 = { #Chryses
+			is_alive = yes
+		}
+	}
+	
+	option = { #Yes
+		name = EVTOPTATW10
+		trigger = {
+			ai = no
+		}
+		custom_tooltip = {
+			text = EVTOPTATW10_TT
+		}
+		c_2200705 = { #Chryses
+			wealth = -100
+		}
+		wealth = 100
+		c_lurnessos = {
+			owner = {
+				save_event_target_as = lurnessos_owner
+			}
+		}
+		any_consort = {
+			limit = {
+				has_character_flag = stolen_away
+			}
+			remove_consort = ROOT
+			move_character = event_target:lurnessos_owner
+			clr_character_flag = stolen_away
+		}
+		if = {
+			limit = {
+				c_2102101 = { #Akhilleus
+					any_consort = {
+						character = c_2200702 #Briseis
+					}
+				}
+			}
+			c_2200702 = { #Briseis
+				remove_consort = c_2102101 #Akhilleus
+			}
+			add_consort = c_2200702 #Briseis
+			set_character_flag = received_briseis
+		}
+		else_if = {
+			limit = {
+				c_2102101 = { #Akhilleus
+					any_consort = {
+						has_character_flag = fake_briseis
+					}
+				}
+			}
+			c_2102101 = { #Akhilleus
+				random_consort = {
+					limit = {
+						has_character_flag = fake_briseis
+					}
+					save_event_target_as = fake_briseis
+				}
+				event_target:fake_briseis = {
+					remove_consort = c_2102101 #Akhilleus
+				}
+			}
+			add_consort = event_target:fake_briseis
+			set_character_flag = received_briseis
+		}
+		else = {
+			wealth = 200
+			c_2102101 = { #Akhilleus
+				wealth = -200
+			}
+		}
+		c_2102101 = { #Akhilleus
+			character_event = { id = tw.14 }
+		}
+	}
+	option = { #No
+		name = EVTOPTBTW10
+		custom_tooltip = {
+			text = EVTOPTBTW10_TT
+		}
+		any_independent_ruler = {
+			limit = {
+				any_war = {
+					using_cb = trojan_war_cb
+					any_attacker = {
+						character = ROOT
+					}
+				}
+				in_command = yes
+			}
+			character_event = { id = tw.11 } #A Plague strikes the Achaeans
+		}
+		character_event = { id = tw.11 } #A Plague strikes the Achaeans
+		character_event = { id = tw.12 days = 9 } #Agamemnon is told he must return Chryseis/Random consort
+	}
+}
+
+#A Plague strikes the Achaeans
+character_event = {
+	id = tw.11
+	desc = EVTDESCTW11
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW11
+		custom_tooltip = {
+			text = EVTOPTATW11_TT
+		}
+		add_trait = malaise
+		add_trait = fever
+		add_trait = cramps
+	}
+}
+
+#Agamemnon is told he must return Chryseis/Random consort
+character_event = {
+	id = tw.12
+	desc = EVTDESCTW12
+	is_triggered_only = yes
+	
+	option = { #Yes, but give me Briseis/gold, Akhilleus
+		name = EVTOPTATW12
+		custom_tooltip = {
+			text = EVTOPTAATW12_TT
+		}
+		custom_tooltip = {
+			text = EVTOPTABTW12_TT
+			any_independent_ruler = {
+				limit = {
+					any_war = {
+						using_cb = trojan_war_cb
+						any_attacker = {
+							character = ROOT
+						}
+					}
+				}
+				remove_trait = malaise
+				remove_trait = fever
+				remove_trait = cramps
+			}
+			remove_trait = malaise
+			remove_trait = fever
+			remove_trait = cramps
+		}
+		c_lurnessos = {
+			owner = {
+				save_event_target_as = lurnessos_owner
+			}
+		}
+		any_consort = {
+			limit = {
+				has_character_flag = stolen_away
+			}
+			remove_consort = ROOT
+			move_character = event_target:lurnessos_owner
+			clr_character_flag = stolen_away
+		}
+		if = {
+			limit = {
+				c_2102101 = { #Akhilleus
+					any_consort = {
+						character = c_2200702 #Briseis
+					}
+				}
+			}
+			c_2200702 = { #Briseis
+				remove_consort = c_2102101 #Akhilleus
+			}
+			add_consort = c_2200702 #Briseis
+			set_character_flag = received_briseis
+		}
+		else_if = {
+			limit = {
+				c_2102101 = { #Akhilleus
+					any_consort = {
+						has_character_flag = fake_briseis
+					}
+				}
+			}
+			c_2102101 = { #Akhilleus
+				random_consort = {
+					limit = {
+						has_character_flag = fake_briseis
+					}
+					save_event_target_as = fake_briseis
+				}
+				event_target:fake_briseis = {
+					remove_consort = c_2102101 #Akhilleus
+				}
+			}
+			add_consort = event_target:fake_briseis
+			set_character_flag = received_briseis
+		}
+		else = {
+			wealth = 200
+			c_2102101 = { #Akhilleus
+				wealth = -200
+				prestige = 1000
+			}
+		}
+		c_2102101 = { #Akhilleus
+			character_event = { id = tw.14 }
+		}
+	}
+}
+
+#Chryseis dies, plague removed
+character_event = {
+	id = tw.13
+	is_triggered_only = yes
+	trigger = {
+		has_character_flag = stolen_away
+	}
+	
+	immediate = {
+		any_independent_ruler = {
+			limit = {
+				any_war = {
+					using_cb = trojan_war_cb
+					any_attacker = {
+						character = ROOT
+					}
+				}
+			}
+			remove_trait = malaise
+			remove_trait = fever
+			remove_trait = cramps
+		}
+	}
+}
+
+#Akhilleus is forced to give Agamemnon Briseis/Gold
+character_event = {
+	id = tw.14
+	desc = {
+		text = EVTDESCATW14
+		trigger = {
+			FROM = {
+				has_character_flag = received_briseis
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCBTW14
+		trigger = {
+			NOT = {
+				FROM = {
+					has_character_flag = received_briseis
+				}
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW14
+		custom_tooltip = {
+			text = EVTOPTATW14_TT #You ask your mother to speak to Zeus, so the Achaeans will know how much they need him
+		}
+		add_trait = wroth
+		add_trait = travelling
+		add_rival = FROM
+		FROM = {
+			character_event = { id = tw.15 } #Wrath of Akhilleus
+		}
+	}
+}
+
+#Wrath of Akhilleus
+character_event = {
+	id = tw.15
+	title = EVTTITLETW15
+	desc = EVTDESCTW15
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW15
+		custom_tooltip = {
+			text = EVTOPTATW15_TT
+		}
+		character_event = { id = tw.16 days = 2 } #Agamemnon is told to assault Troy by Zeus in a dream, but tests the resolve of the Greeks first
+		character_event = { id = tw.24 days = 5 } #Agamemnon sends Odysseus, Ajax, and Phoenix to Achilles
+	}
+}
+
+#Agamemnon is told to assault Troy by Zeus in a dream, but tests the resolve of the Greeks first
+character_event = {
+	id = tw.16
+	title = EVTTITLETW16
+	desc = {
+		trigger = {
+			c_2102300 = { #Odysseus
+				is_alive = yes
+			}
+		}
+		text = EVTDESCATW16
+	}
+	desc = {
+		trigger = {
+			c_2102300 = { #Odysseus
+				is_alive = no
+			}
+		}
+		text = EVTDESCBTW16
+	}
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW16
+		custom_tooltip = {
+			text = EVTOPTATW16_TT
+		}
+	}
+}
+
+#Paris attempts to set up a duel
+character_event = {
+	id = tw.17
+	title = EVTTITLETW17
+	desc = EVTDESCTW17
+	trigger = {
+		character = c_2200004 #Paris
+		NOT = {
+			has_global_flag = duel_paris_menelaus
+		}
+		is_incapable = no
+		c_2101000 = { #Menelaos
+			at_location = 161 #Troy
+		}
+		c_2200004 = { #Paris
+			at_location = 161 #Troy
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTATW17
+		custom_tooltip = {
+			text = EVTOPTATW17_TT
+		}
+		set_global_flag = duel_paris_menelaus
+		c_2101000 = { #Menelaos
+			letter_event = { id = tw.18 } #Menelaos receives a letter for Paris to duel him
+		}
+	}
+	option = {
+		name = EVTOPTBTW17
+		trigger = {
+			ai = no
+		}
+		custom_tooltip = {
+			text = EVTOPTBTW17_TT
+		}
+	}
+}
+
+#Menelaos receives a letter for Paris to duel him
+letter_event = {
+	id = tw.18
+	desc = EVTDESCTW18
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW18
+		custom_tooltip = {
+			text = EVTOPTATW18_TT
+		}
+		FROM = { save_event_target_as = combatant_1 } #the person issuing the duel...
+		save_event_target_as = combatant_2 #the target of the duel...
+
+		apply_degree_of_dishonorable_duel_effect = yes #checks a bunch of age and health statuses...
+		apply_any_applicable_harsh_penalties_effect = yes #if your target is someone 
+		FROM = {
+			set_character_flag = paris_menelaos_duel
+		}
+		set_character_flag = paris_menelaos_duel
+		FROM = {
+			pacifists_lose_piety_effect = yes
+			add_character_modifier = {
+				modifier = recent_duel_timer
+				duration = 90
+				hidden = yes
+			}
+		}
+		hidden_tooltip = {
+			character_event = { id = HFP.10095 } #Duel evaluation (hidden) + result event as follow-up.
+		}
+		set_character_flag = cannot_refuse_duel
+	}
+	option = {
+		name = EVTOPTBTW18
+		trigger = {
+			ai = no
+		}
+		custom_tooltip = {
+			text = EVTOPTBTW18_TT
+		}
+		FROM = {
+			character_event = { id = HFP.10097 }
+		}
+	}
+}
+
+#Trojan War ends due to a duel (on_death)
+character_event = {
+	id = tw.19
+	hide_window = yes
+	is_triggered_only = yes 
+	
+	immediate = {
+		#Trojan War Ends
+	}
+}
+
+#Menelaos is saved by Athene
+character_event = {
+	id = tw.20
+	title = EVTTITLETW20
+	desc = EVTDESCTW20
+	portrait = 1100147
+	is_triggered_only = yes 
+	
+	option = {
+		name = EVTOPTATW20
+		c_2101000 = { #Menelaos
+			clr_character_flag = paris_menelaos_duel
+			clr_character_flag = cannot_refuse_duel
+		}
+		c_2200004 = { #Paris
+			clr_character_flag = paris_menelaos_duel
+			clr_character_flag = cannot_refuse_duel
+		}
+		if = {
+			limit = {
+				c_2201300 = { #Pandarus
+					is_alive = yes
+				}
+			}
+			character_event = { id = tw.22 days = 5 } #Pandarus breaks the truce
+		}
+		else = {
+			character_event = { id = tw.23 days = 5 } #Generic Trojan breaks the truce
+		}
+	}
+}
+
+#Paris is saved by Aphrodite
+character_event = {
+	id = tw.21
+	title = EVTTITLETW21
+	desc = EVTDESCTW21
+	portrait = 1100155
+	is_triggered_only = yes 
+	
+	option = {
+		name = EVTOPTATW21
+		c_2101000 = { #Menelaos
+			clr_character_flag = paris_menelaos_duel
+			clr_character_flag = cannot_refuse_duel
+		}
+		c_2200004 = { #Paris
+			clr_character_flag = paris_menelaos_duel
+			clr_character_flag = cannot_refuse_duel
+		}
+		if = {
+			limit = {
+				c_2201300 = { #Pandarus
+					is_alive = yes
+				}
+			}
+			c_2101000 = { #Menelaos
+				character_event = { id = tw.22 days = 5 } #Pandarus breaks the truce
+			}
+		}
+		else = {
+			c_2101000 = { #Menelaos
+				character_event = { id = tw.23 days = 5 } #Generic Trojan breaks the truce
+			}
+		}
+	}
+}
+
+#Pandarus breaks the truce
+character_event = {
+	id = tw.22
+	title = EVTTITLETW22
+	desc = EVTDESCTW22
+	portrait = 2201300
+	is_triggered_only = yes 
+	
+	option = {
+		name = EVTOPTATW22
+		custom_tooltip = {
+			text = EVTOPTATW22_TT
+		}
+	}
+}
+
+#Generic Trojan breaks the truce
+character_event = {
+	id = tw.23
+	title = EVTTITLETW23
+	desc = EVTDESCTW23
+	hide_from = yes
+	is_triggered_only = yes 
+	
+	option = {
+		name = EVTOPTATW23
+		custom_tooltip = {
+			text = EVTOPTATW23_TT
+		}
+	}
+}
+
+#Agamemnon sends Odysseus, Ajax, and Phoenix to Achilles
+character_event = {
+	id = tw.24
+	title = EVTTITLETW24
+	desc = EVTDESCTW24
+	is_triggered_only = yes 
+	
+	option = {
+		name = EVTOPTATW24
+		custom_tooltip = {
+			text = EVTOPTATW24_TT
+		}
+		c_2102101 = { #Akhilleus
+			character_event = { id = tw.25 } #Achilles receives the embassy
+		}
+	}
+}
+
+#Achilles receives the embassy
+character_event = {
+	id = tw.25
+	title = EVTTITLETW25
+	desc = EVTDESCTW25
+	is_triggered_only = yes 
+	
+	option = {
+		name = EVTOPTATW25
+		trigger = {
+			c_2101619 = { #Patroclus
+				is_alive = yes
+			}
+		}
+		custom_tooltip = {
+			text = EVTOPTATW25_TT
+		}
+		c_2101619 = { #Patroclus
+			character_event = { id = tw.28 } #Patroclus begs Achilles to lend him his armor
+		}
+		FROM = {
+			character_event = { id = tw.26 } #Achilles says no
+		}
+	}
+	option = {
+		name = EVTOPTBTW25
+		trigger = {
+			OR = {
+				ai = no
+				c_2101619 = { #Patroclus
+					is_alive = no
+				}
+			}
+		}
+		custom_tooltip = {
+			text = EVTOPTBTW25_TT
+		}
+		if = {
+			limit = {
+				c_2100900 = { #Agamemnon
+					any_consort = {
+						character = c_2200702 #Briseis
+					}
+				}
+			}
+			c_2200702 = { #Briseis
+				remove_consort = c_2100900 #Akhilleus
+			}
+			add_consort = c_2200702 #Briseis
+		}
+		else_if = {
+			limit = {
+				c_2100900 = { #Agamemnon
+					any_consort = {
+						has_character_flag = fake_briseis
+					}
+				}
+			}
+			c_2100900 = { #Agamemnon
+				random_consort = {
+					limit = {
+						has_character_flag = fake_briseis
+					}
+					save_event_target_as = fake_briseis
+				}
+				event_target:fake_briseis = {
+					remove_consort = c_2100900 #Agamemnon
+				}
+			}
+			add_consort = event_target:fake_briseis
+		}
+		wealth = 100
+		remove_trait = travelling
+		remove_trait = wroth
+		FROM = {
+			character_event = { id = tw.27 } #Achilles says yes
+		}
+	}
+}
+
+#Achilles says no
+character_event = {
+	id = tw.26
+	title = EVTTITLETW26
+	desc = EVTDESCTW26
+	is_triggered_only = yes 
+	
+	option = {
+		name = EVTOPTATW26
+		custom_tooltip = {
+			text = EVTOPTATW26_TT
+		}
+	}
+}
+
+#Achilles says yes
+character_event = {
+	id = tw.27
+	title = EVTTITLETW27
+	desc = EVTDESCTW27
+	is_triggered_only = yes 
+	
+	option = {
+		name = EVTOPTATW27
+		custom_tooltip = {
+			text = EVTOPTATW27_TT
+		}
+	}
+}
+
+#Patroclus begs Achilles to lend him his armor
+character_event = {
+	id = tw.28
+	title = EVTTITLETW28
+	desc = EVTDESCTW28
+	is_triggered_only = yes 
+	
+	option = {
+		name = EVTOPTATW28
+		custom_tooltip = {
+			text = EVTOPTATW28_TT
+		}
+		c_2102101 = { #Akhilleus
+			character_event = { id = tw.29 } #Achilles receives Patroclus' plea
+		}
+	}
+}
+
+#Achilles receives Patroclus' plea
+character_event = {
+	id = tw.29
+	title = EVTTITLETW29
+	desc = EVTDESCTW29
+	is_triggered_only = yes 
+	
+	option = {
+		name = EVTOPTATW29
+		custom_tooltip = {
+			text = EVTOPTATW29_TT
+		}
+		FROM = {
+			character_event = { id = tw.30 } #Patroclus is allowed to wear the armor
+		}
+	}
+}
+
+#Patroclus is allowed to wear the armor
+character_event = {
+	id = tw.30
+	title = EVTTITLETW30
+	desc = EVTDESCTW30
+	is_triggered_only = yes 
+	
+	option = {
+		name = EVTOPTATW30
+		custom_tooltip = {
+			text = EVTOPTATW30_TT
+		}
+		set_character_flag = patroclus_as_achilles
+		FROM = {
+			random_artifact = {
+				limit = {
+					has_artifact_flag = achilles_armor
+				}
+				transfer_artifact = {
+					to = ROOT
+					from = FROM
+				}
+			}
+		}
+	}
+}
+
+#Hector kills Patroclus
+character_event = {
+	id = tw.31
+	title = EVTTITLETW31
+	desc = EVTDESCTW31
+	trigger = {
+		character = c_2200002 #Hector
+		is_incapable = no
+		c_2101619 = { #Patroclus
+			at_location = c_2200002 #Hector
+			has_character_flag = patroclus_as_achilles
+		}
+		top_liege = {
+			any_war = {
+				using_cb = trojan_war_cb
+				any_defender = {
+					character = PREVPREV
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = EVTOPTATW31
+		custom_tooltip = {
+			text = EVTOPTATW31_TT
+		}
+		c_2101619 = {
+			random_artifact = {
+				limit = {
+					has_artifact_flag = achilles_armor
+				}
+				transfer_artifact = {
+					to = ROOT
+					from = PREV
+				}
+			}
+			death = {
+				death_reason = death_battle
+				killer = ROOT
+			}
+		}
+		c_2102101 = { #Akhilleus
+			character_event = { id = tw.32 } #Achilles hears of Patroclus' death
+		}
+	}
+}
+
+#Achilles hears of Patroclus' death
+character_event = {
+	id = tw.32
+	title = EVTTITLETW32
+	desc = EVTDESCTW32
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW32
+		custom_tooltip = {
+			text = EVTOPTATW32_TT
+		}
+		add_artifact = shield_achilles
+		add_artifact = armor_achilles_2
+		remove_trait = travelling
+		remove_trait = wroth
+		set_global_flag = achilles_return
+		remove_rival = c_2100900 #Agamemnon
+		any_independent_ruler = {
+			limit = {
+				any_war = {
+					using_cb = trojan_war_cb
+					any_attacker = {
+						character = PREVPREV
+					}
+				}
+			}
+			character_event = { id = tw.33 } #Return of Achilles
+		}
+	}
+}
+
+#Return of Achilles
+character_event = {
+	id = tw.33
+	title = EVTTITLETW33
+	desc = EVTDESCTW33
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW33
+		custom_tooltip = {
+			text = EVTOPTATW33_TT
+		}
+	}
+}
+
+#Achilles gets back Briseis, but is indifferent
+character_event = {
+	id = tw.34
+	title = EVTTITLETW34
+	desc = {
+		trigger = {
+			c_2100900 = { #Agamemnon
+				at_location = 161 #Troy
+			}
+		}
+		text = EVTDESCATW34
+	}
+	desc = {
+		trigger = {
+			NOT = {
+				c_2100900 = { #Agamemnon
+					at_location = 161 #Troy
+				}
+			}
+		}
+		text = EVTDESCBTW34
+	}
+	trigger = {
+		at_location = 161 #Troy
+		character = c_2102101 #Achilles
+		has_global_flag = achilles_return
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTATW34
+		custom_tooltip = {
+			text = EVTOPTATW34_TT
+		}
+		if = {
+			limit = {
+				c_2100900 = { #Agamemnon
+					any_consort = {
+						character = c_2200702 #Briseis
+					}
+				}
+			}
+			c_2200702 = { #Briseis
+				remove_consort = c_2100900 #Agamemnon
+			}
+			add_consort = c_2200702 #Briseis
+		}
+		else_if = {
+			limit = {
+				c_2100900 = { #Agamemnon
+					any_consort = {
+						has_character_flag = fake_briseis
+					}
+				}
+			}
+			c_2100900 = { #Agamemnon
+				random_consort = {
+					limit = {
+						has_character_flag = fake_briseis
+					}
+					save_event_target_as = fake_briseis
+				}
+				event_target:fake_briseis = {
+					remove_consort = c_2100900 #Agamemnon
+				}
+			}
+			add_consort = event_target:fake_briseis
+		}
+		wealth = 100
+	}
+}
+
+#Hector duels Achilles
+character_event = {
+	id = tw.35
+	title = EVTTITLETW35
+	desc = EVTDESCTW35
+	trigger = {
+		character = c_2200002 #Hector
+		has_global_flag = achilles_return
+		is_incapable = no
+		c_2200002 = { #Hector
+			at_location = c_2102101 #Akhilleus
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTATW35
+		custom_tooltip = {
+			text = EVTOPTATW35_TT
+		}
+		c_2102101 = { #Achilles
+			character_event = { id = tw.36 } #Hector rushes to duel Achilles
+		}
+	}
+}
+
+#Hector rushes to duel Achilles
+character_event = {
+	id = tw.36
+	title = EVTTITLETW36
+	desc = EVTDESCTW36
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW36
+		custom_tooltip = {
+			text = EVTOPTATW36_TT
+		}
+		FROM = { save_event_target_as = combatant_1 } #the person issuing the duel...
+		save_event_target_as = combatant_2 #the target of the duel...
+
+		apply_degree_of_dishonorable_duel_effect = yes #checks a bunch of age and health statuses...
+		apply_any_applicable_harsh_penalties_effect = yes #if your target is someone 
+		FROM = {
+			set_character_flag = duel_hector_achilles
+		}
+		set_character_flag = duel_hector_achilles
+		FROM = {
+			pacifists_lose_piety_effect = yes
+			add_character_modifier = {
+				modifier = recent_duel_timer
+				duration = 90
+				hidden = yes
+			}
+		}
+		hidden_tooltip = {
+			character_event = { id = HFP.10095 } #Duel evaluation (hidden) + result event as follow-up.
+		}
+		set_character_flag = cannot_refuse_duel
+	}
+}
+
+#Hector dies in duel with Achilles
+character_event = {
+	id = tw.37
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		character = c_2200002 #Hector
+		has_character_flag = duel_hector_achilles
+	}
+	
+	immediate = {
+		c_2102101 = { #Achilles
+			clr_character_flag = cannot_refuse_duel
+			character_event = { id = tw.38 } #Achilles is reminded by Hector that he will die in combat, and Achilles drags his body around
+		}
+	}
+}
+
+#Achilles is reminded by Hector that he will die in combat, and Achilles drags his body around
+character_event = {
+	id = tw.38
+	title = EVTTITLETW38
+	desc = EVTDESCTW38
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTATW38
+		custom_tooltip = {
+			text = EVTOPTATW38_TT
+		}
+		set_global_flag = achilles_will_die
+		character_event = { id = tw.39 } #Ghost of Patroclus asks for funeral games to be held
+		c_2200000 = { #Pariya-muwas
+			character_event = { id = tw.41 } #Pariya-muwas goes to Achilles to request the body of Hector
+		}		
+	}
+}
+
+#Ghost of Patroclus asks for funeral games to be held
+character_event = {
+	id = tw.39
+	title = EVTTITLETW39
+	desc = EVTDESCTW39
+	is_triggered_only = yes
+	portrait = 2101619
+
+	option = {
+		name = EVTOPTATW39
+		custom_tooltip = {
+			text = EVTOPTATW39_TT
+		}
+		any_independent_ruler = {
+			limit = {
+				any_war = {
+					using_cb = trojan_war_cb
+					any_attacker = {
+						character = PREVPREV
+					}
+				}
+				at_location = 161 #Troy
+			}
+			character_event = { id = tw.40 } #Achaeans in Troy hold funeral games at the camp
+		}
+		character_event = { id = tw.40 } #Achaeans in Troy hold funeral games at the camp		
+	}
+}
+
+#Achaeans in Troy hold funeral games at the camp
+character_event = {
+	id = tw.40
+	title = EVTTITLETW40
+	desc = {
+		trigger = {
+			character = c_2102101 #Achilles
+		}
+		text = EVTDESCATW40
+	}
+	desc = {
+		trigger = {
+			NOT = {
+				character = c_2102101 #Achilles
+			}
+		}
+		text = EVTDESCBTW40
+	}
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTATW40
+		custom_tooltip = {
+			text = EVTOPTATW40_TT
+		}
+	}
+}
+
+#Pariya-muwas goes to Achilles to request the body of Hector
+character_event = {
+	id = tw.41
+	title = EVTTITLETW41
+	desc = EVTDESCTW41
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTATW41
+		custom_tooltip = {
+			text = EVTOPTATW41_TT
+		}
+		c_2102101 = {
+			character_event = { id = tw.42 days = 7 } #Pariya-muwas arrives at Achilles' camp
+		}
+	}
+}
+
+#Pariya-muwas arrives at Achilles' camp
+character_event = {
+	id = tw.42
+	title = EVTTITLETW42
+	desc = EVTDESCTW42
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTATW42
+		custom_tooltip = {
+			text = EVTOPTATW42_TT
+		}
+		FROM = {
+			character_event = { id = tw.43 } #Achilles agrees
+		}
+	}
+	option = {
+		name = EVTOPTBTW42
+		trigger = {
+			ai = no
+		}
+		custom_tooltip = {
+			text = EVTOPTBTW42_TT
+		}
+		FROM = {
+			character_event = { id = tw.44 } #Achilles says no
+		}
+	}
+}
+
+#Achilles agrees
+character_event = {
+	id = tw.43
+	title = EVTTITLETW43
+	desc = EVTDESCTW43
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTATW43
+		custom_tooltip = {
+			text = EVTOPTATW43_TT
+		}
+		any_independent_ruler = {
+			limit = {
+				any_war = {
+					using_cb = trojan_war_cb
+					any_defender = {
+						character = PREVPREV
+					}
+				}
+			}
+			character_event = { id = tw.45 } #Hector is buried
+		}
+		character_event = { id = tw.45 } #Hector is buried
+	}
+}
+
+#Achilles says no
+character_event = {
+	id = tw.44
+	title = EVTTITLETW44
+	desc = EVTDESCTW44
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTATW44
+		custom_tooltip = {
+			text = EVTOPTATW44_TT
+		}
+		random = {
+			chance = 50
+			add_trait = depressed
+		}
+	}
+}
+
+#Hector is buried
+character_event = {
+	id = tw.45
+	title = EVTTITLETW45
+	desc = EVTDESCTW45
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTATW45
+		custom_tooltip = {
+			text = EVTOPTATW45_TT
+		}
+	}
+}
+
+#Paris kills Achilles
+character_event = {
+	id = tw.46
+	title = EVTTITLETW46
+	desc = EVTDESCTW46
+	portrait = 1100149
+	trigger = {
+		had_global_flag = {
+			flag = achilles_will_die
+			days = 8
+		}
+		character = c_2200004 #Paris
+		c_2102101 = { #Achilles
+			at_location = c_2200004 #Paris
+		}
+		top_liege = {
+			any_war = {
+				using_cb = trojan_war_cb
+				any_defender = {
+					character = PREVPREV
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = EVTOPTATW46
+		custom_tooltip = {
+			text = EVTOPTATW46_TT
+		}
+		c_2102101 = { #Achilles
+			death = {
+				death_reason = death_battle
+				killer = ROOT
+			}
+			hidden_tooltip = {
+				any_artifact = {
+					limit = {
+						has_artifact_flag = achilles
+					}
+					transfer_artifact = {
+						to = c_1100146 #Zeus
+						from = PREV
+					}
+				}
+			} 
+		}
+		any_independent_ruler = {
+			limit = {
+				any_war = {
+					using_cb = trojan_war_cb
+					any_attacker = {
+						character = PREVPREV
+					}
+				}
+			}
+			character_event = { id = tw.47 } #Achaeans hear about the death of Achilles and hold funeral games
+		}
+	}
+}
+
+#Achaeans hear about the death of Achilles and hold funeral games
+character_event = {
+	id = tw.47
+	title = EVTTITLETW47
+	desc = EVTDESCTW47
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTATW47
+		custom_tooltip = {
+			text = EVTOPTATW47_TT
+		}
+		if = {
+			limit = {
+				OR = {
+					has_landed_title = d_lacedemonia
+					AND = {
+						has_landed_title = d_achaea
+						is_adult = yes
+					}
+				}
+			}
+			any_independent_ruler = {
+				limit = {
+					OR = {
+						has_landed_title = d_lacedemonia
+						AND = {
+							has_landed_title = d_achaea
+							is_adult = yes
+						}
+					}
+				}
+				if = {
+					limit = {
+						c_2200018 = { #Helenus
+							is_alive = yes
+						}
+					}
+					character_event = { id = tw.51 days = 3 } #Helenus is tortured to reveal win condition 
+				}
+				else = {
+					character_event = { id = tw.52 days = 3 } #Generic Trojan is tortured to reveal win condition 
+				}
+				if = {
+					limit = {
+						c_2100900 = { #Agamemnon
+							is_alive = yes
+							is_incapable = no
+						}
+					}
+					character_event = { id = tw.53 days = 3 } #Relevent people are sent to fetch the required items
+				}
+				else = {
+					c_2101000 = { #Menelaos
+						character_event = { id = tw.53 days = 3 } #Relevent people are sent to fetch the required items
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				c_2100701 = { #Ajax
+					is_alive = yes
+				}
+				c_2102300 = { #Odysseus
+					is_alive = yes
+				}
+			}
+			c_2100701 = { #Ajax
+				character_event = { id = tw.48 } #Odysseus and Ajax argue over Achilles' armor
+			}
+			c_2102300 = { #Odysseus
+				character_event = { id = tw.48 } #Odysseus and Ajax argue over Achilles' armor
+			}
+		}
+		else_if = {
+			limit = {
+				c_2100701 = { #Ajax
+					is_alive = yes
+				}
+			}
+			c_2100701 = { #Ajax
+				character_event = { id = tw.49 }
+			}
+		}
+		else_if = {
+			limit = {
+				c_2102300 = { #Odysseus
+					is_alive = yes
+				}
+			}
+			c_2102300 = { #Odysseus
+				character_event = { id = tw.49 }
+			}
+		}
+		else_if = {
+			limit = {
+				c_2101200 = { #Diomedes
+					is_alive = yes
+				}
+			}
+			c_2101200 = { #Diomedes
+				character_event = { id = tw.49 }
+			}
+		}
+		else = {
+			random_independent_ruler = {
+				limit = {
+					has_landed_title = c_lamia
+				}
+				character_event = { id = tw.49 }
+			}
+		}
+	}
+}
+
+#Odysseus and Ajax argue over Achilles' armor
+character_event = {
+	id = tw.48
+	title = EVTTITLETW48
+	desc = {
+		trigger = {
+			character = c_2100701 #Ajax
+		}
+		text = EVTDESCATW48
+	}
+	desc = {
+		trigger = {
+			character = c_2102300 #Odysseus
+		}
+		text = EVTDESCBTW48
+	}
+	is_triggered_only = yes
+
+	option = {
+		name = {
+			trigger = {
+				character = c_2100701 #Ajax
+			}
+			text = EVTOPTAATW48
+		}
+		name = {
+			trigger = {
+				character = c_2102300 #Odysseus
+			}
+			text = EVTOPTABTW48
+		}
+		custom_tooltip = {
+			text = EVTOPTATW48_TT
+		}
+		if = {
+			limit = {
+				character = c_2102300 #Odysseus
+			}
+			character_event = { id = tw.49 } #Receive the armor
+		}
+		if = {
+			limit = {
+				character = c_2100701 #Ajax
+			}
+			character_event = { id = tw.50 } #Don't Receive the armor
+		}
+	}
+}
+
+#Receive the armor
+character_event = {
+	id = tw.49
+	title = EVTTITLETW49
+	desc = EVTDESCTW49
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTATW49
+		custom_tooltip = {
+			text = EVTOPTATW49_TT
+		}
+		hidden_tooltip = {
+			c_1100146 = { #Zeus
+				any_artifact = {
+					limit = {
+						has_artifact_flag = achilles
+					}
+					transfer_artifact = {
+						to = ROOT
+						from = PREV
+					}
+				}
+			}
+		}
+	}
+}
+
+#Don't Receive the armor
+character_event = {
+	id = tw.50
+	title = EVTTITLETW50
+	desc = EVTDESCTW50
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTATW50
+		custom_tooltip = {
+			text = EVTOPTATW50_TT
+		}
+		death = {
+			death_reason = death_suicide
+		}
+	}
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTBTW50
+		custom_tooltip = {
+			text = EVTOPTBTW50_TT
+		}
+	}
+}
+
+#Helenus is tortured to reveal win condition 
+character_event = {
+	id = tw.51
+	title = EVTTITLETW51
+	desc = EVTDESCTW51
+	portrait = 2200018
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW51
+		custom_tooltip = {
+			text = EVTOPTATW51_TT
+		}
+	}
+}
+
+#Generic Trojan is tortured to reveal win condition 
+character_event = {
+	id = tw.52
+	title = EVTTITLETW52
+	desc = EVTDESCTW52
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW52
+		custom_tooltip = {
+			text = EVTOPTATW52_TT
+		}
+	}
+}
+
+#Relevent people are sent to fetch the required items
+character_event = {
+	id = tw.53
+	title = EVTTITLETW53
+	desc = EVTDESCTW53
+	is_triggered_only = yes
+	
+	immediate = {
+		random_independent_ruler = {
+			limit = {
+				has_artifact = palladium_troy
+			}
+			save_event_target_as = palladium_holder
+		}
+		random_independent_ruler = {
+			limit = {
+				has_artifact = bone_pelops
+			}
+			save_event_target_as = bone_holder
+		}
+	}
+	
+	option = {
+		name = EVTOPTATW53
+		custom_tooltip = {
+			text = EVTOPTATW53_TT
+		}
+		event_target:bone_holder = {
+			character_event = { id = tw.76 days = 3 } #Someone comes to take the Bones of Pelops
+		}
+		if = {
+			limit = {
+				OR = {
+					c_2102300 = { #Odysseus
+						is_alive = yes
+						is_incapable = no
+					}
+					c_2101200 = { #Diomedes
+						is_alive = yes
+						is_incapable = no
+					}
+				}
+			}
+			c_2102300 = { #Odysseus
+				character_event = { id = tw.54 } #Diomedes and Odysseus are sent to steal the Palladium
+			}
+			c_2101200 = { #Diomedes
+				character_event = { id = tw.54 } #Diomedes and Odysseus are sent to steal the Palladium
+			}
+		}
+		else = {
+			character_event = { id = tw.55 } #Palladium retrieved
+		}
+	}
+}
+
+#Someone comes to take the Bones of Pelops
+character_event = {
+	id = tw.76
+	title = EVTTITLETW76
+	desc = EVTDESCTW76
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTATW76
+		FROM = {
+			character_event = { id = tw.77 days = 3 } #Bones of Pelops retrieved
+		}
+	}
+}
+
+#Bones of Pelops retrieved
+character_event = {
+	id = tw.77
+	title = EVTTITLETW77
+	desc = EVTDESCTW77
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW77
+		custom_tooltip = {
+			text = EVTOPTATW77_TT
+		}
+		event_target:bone_holder = {
+			random_artifact = {
+				limit = {
+					has_artifact_flag = bone_pelops
+				}
+				transfer_artifact = {
+					to = ROOT
+					from = PREV
+				}
+			}
+		}
+	}
+}
+
+#Diomedes and Odysseus are sent to steal the Palladium
+character_event = {
+	id = tw.54
+	title = EVTTITLETW54
+	desc = {
+		trigger = {
+			character = c_2102300 #Odysseus
+			c_2101200 = { #Diomedes
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCATW54
+	}	
+	desc = {
+		trigger = {
+			character = c_2101200 #Diomedes
+			c_2102300 = { #Odysseus
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCBTW54
+	}	
+	desc = {
+		trigger = {
+			character = c_2102300 #Odysseus
+			c_2101200 = { #Diomedes
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCCTW54
+	}	
+	desc = {
+		trigger = {
+			character = c_2101200 #Diomedes
+			c_2102300 = { #Odysseus
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCDTW54
+	}	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW54
+		custom_tooltip = {
+			text = EVTOPTATW54_TT
+		}
+		if = {
+			limit = {
+				character = c_2101200 #Diomedes
+			}
+			FROM = {
+				character_event = { id = tw.55 } #Palladium retrieved
+			}
+		}
+		else_if = {
+			limit = {
+				character = c_2102300 #Odysseus
+				c_2101200 = { #Diomedes
+					is_alive = no
+				}
+			}
+			FROM = {
+				character_event = { id = tw.55 } #Palladium retrieved
+			}
+		}
+	}
+}
+
+#Palladium retrieved
+character_event = {
+	id = tw.55
+	title = EVTTITLETW55
+	desc = EVTDESCTW55
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW55
+		custom_tooltip = {
+			text = EVTOPTATW55_TT
+		}
+		event_target:palladium_holder = {
+			random_artifact = {
+				limit = {
+					has_artifact_flag = palladium
+				}
+				transfer_artifact = {
+					to = ROOT
+					from = PREV
+				}
+			}
+			character_event = { id = tw.56 } #Palladium stolen
+		}
+		if = {
+			limit = {
+				OR = {
+					c_2101200 = { #Diomedes
+						is_alive = yes
+						is_incapable = no
+					}
+					c_2102300 = { #Odysseus
+						is_alive = yes
+						is_incapable = no
+					}
+				}
+				c_2102600 { #Philoktetes
+					is_alive = yes
+					is_incapable = no
+				}
+			}
+			c_2101200 = { #Diomedes
+				character_event = { id = tw.57 } #Diomedes and Odysseus go to retrieve Philoktetes
+			}
+			c_2102300 = { #Odysseus
+				character_event = { id = tw.57 } #Diomedes and Odysseus go to retrieve Philoktetes
+			}
+		}
+		else_if = {
+			limit = {
+				c_2102600 { #Philoktetes
+					is_alive = yes
+					is_incapable = no
+				}
+				character_event = { id = tw.58 days = 1 } #Someone comes to retrieve Philoktetes
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					c_2101200 = { #Diomedes
+						is_alive = yes
+						is_incapable = no
+					}
+					c_2102300 = { #Odysseus
+						is_alive = yes
+						is_incapable = no
+					}
+				}
+			}
+			c_2101200 = { #Diomedes
+				character_event = { id = tw.60 } #Diomedes and Odysseus go to retrieve Arrows of Heracles
+			}
+			c_2102300 = { #Odysseus
+				character_event = { id = tw.60 } #Diomedes and Odysseus go to retrieve Arrows of Heracles
+			}
+		}
+		else = {
+			random_character = {
+				limit = {
+					has_artifact = arrow_heracles
+				}
+				character_event = { id = tw.61 } #Someone comes to retrieve the Arrows
+			}
+		}
+	}
+}
+
+#Palladium stolen
+character_event = {
+	id = tw.56
+	title = EVTTITLETW56
+	desc = EVTDESCTW56
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW56
+		custom_tooltip = {
+			text = EVTOPTATW56_TT
+		}
+		piety = -50
+	}
+}
+
+#Diomedes and Odysseus go to retrieve Philoktetes
+character_event = {
+	id = tw.57
+	title = EVTTITLETW57
+	desc = {
+		trigger = {
+			character = c_2102300 #Odysseus
+			c_2101200 = { #Diomedes
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCATW57
+	}	
+	desc = {
+		trigger = {
+			character = c_2101200 #Diomedes
+			c_2102300 = { #Odysseus
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCBTW57
+	}	
+	desc = {
+		trigger = {
+			character = c_2102300 #Odysseus
+			c_2101200 = { #Diomedes
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCCTW57
+	}	
+	desc = {
+		trigger = {
+			character = c_2101200 #Diomedes
+			c_2102300 = { #Odysseus
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCDTW57
+	}	
+	portrait = 2102600
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW57
+		custom_tooltip = {
+			text = EVTOPTATW57_TT
+		}
+		if = {
+			limit = {
+				character = c_2101200 #Diomedes
+			}
+			c_2102600 = { #Philoktetes
+				character_event = { id = tw.58 days = 1 } #Someone comes to retrieve Philoktetes
+			}
+		}
+		else_if = {
+			limit = {
+				character = c_2102300 #Odysseus
+				c_2101200 = { #Diomedes
+					is_alive = no
+				}
+			}
+			c_2102600 = { #Philoktetes
+				character_event = { id = tw.58 days = 1 } #Someone comes to retrieve Philoktetes
+			}
+		}
+	}
+}
+
+#Someone comes to retrieve Philoktetes
+character_event = {
+	id = tw.58
+	title = EVTTITLETW58
+	desc = {
+		trigger = {
+			c_2101200 = { #Diomedes
+				is_alive = yes
+				is_incapable = no
+			}
+			c_2102300 = { #Odysseus
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCATW58
+	}
+	desc = {
+		trigger = {
+			c_2101200 = { #Diomedes
+				is_alive = yes
+				is_incapable = no
+			}
+			c_2102300 = { #Odysseus
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCBTW58
+	}
+	desc = {
+		trigger = {
+			c_2101200 = { #Diomedes
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+			c_2102300 = { #Odysseus
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCCTW58
+	}
+	desc = {
+		trigger = {
+			c_2101200 = { #Diomedes
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+			c_2102300 = { #Odysseus
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCDTW58
+	}
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW58
+		custom_tooltip = {
+			text = EVTOPTATW58_TT
+		}
+		if = {
+			limit = {
+				AND = {
+					trait = infection
+					trait = travelling
+				}
+			}
+			remove_trait = infection
+			remove_trait = travelling
+		}
+		FROMFROM = {
+			character_event = { id = tw.59 days = 2 } #Arrows come to Troy
+		}
+	}
+}
+
+#Arrows come to Troy
+character_event = {
+	id = tw.59
+	title = EVTTITLETW59
+	desc = {
+		trigger = {
+			c_2102600 = { #Philoktetes
+				is_alive = yes
+			}
+		}
+		text = EVTDESCATW59
+	}
+	desc = {
+		trigger = {
+			c_2102600 = { #Philoktetes
+				is_alive = no
+			}
+		}
+		text = EVTDESCBTW59
+	}
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW59
+		custom_tooltip = {
+			text = EVTOPTATW59_TT
+		}
+		set_global_flag = arrows_in_troy
+		if = {
+			limit = {
+				OR = {
+					c_2101200 = { #Diomedes
+						is_alive = yes
+						is_incapable = no
+					}
+					c_2102300 = { #Odysseus
+						is_alive = yes
+						is_incapable = no
+					}
+				}
+				c_2102102 { #Pyrrhus
+					is_alive = yes
+					is_incapable = no
+				}
+			}
+			c_2101200 = { #Diomedes
+				character_event = { id = tw.62 } #Diomedes and Odysseus go to retrieve Pyrrhus
+			}
+			c_2102300 = { #Odysseus
+				character_event = { id = tw.62 } #Diomedes and Odysseus go to retrieve Pyrrhus
+			}
+		}
+		else_if = {
+			limit = {
+				c_2102102 { #Pyrrhus
+					is_alive = yes
+					is_incapable = no
+				}
+				character_event = { id = tw.63 days = 1 } #Someone comes to retrieve Pyrrhus
+			}
+		}
+	}
+}
+
+#Someone comes to retrieve Philoktetes
+character_event = {
+	id = tw.60
+	title = EVTTITLETW60
+	desc = {
+		trigger = {
+			character = c_2102300 #Odysseus
+			c_2101200 = { #Diomedes
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCATW60
+	}	
+	desc = {
+		trigger = {
+			character = c_2101200 #Diomedes
+			c_2102300 = { #Odysseus
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCBTW60
+	}	
+	desc = {
+		trigger = {
+			character = c_2102300 #Odysseus
+			c_2101200 = { #Diomedes
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCCTW60
+	}	
+	desc = {
+		trigger = {
+			character = c_2101200 #Diomedes
+			c_2102300 = { #Odysseus
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCDTW60
+	}	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW60
+		custom_tooltip = {
+			text = EVTOPTATW60_TT
+		}
+		if = {
+			limit = {
+				character = c_2101200 #Diomedes
+			}
+			random_character = {
+				limit = {
+					has_artifact = arrow_heracles
+				}
+				save_event_target_as = holder_of_arrows
+				character_event = { id = tw.61 days = 1 } #Someone comes to retrieve the Arrows
+			}
+		}
+		else_if = {
+			limit = {
+				character = c_2102300 #Odysseus
+				c_2101200 = { #Diomedes
+					is_alive = no
+				}
+			}
+			random_character = { #Philoktetes
+				limit = {
+					has_artifact = arrow_heracles
+				}
+				save_event_target_as = holder_of_arrows
+				character_event = { id = tw.61 days = 1 } #Someone comes to retrieve the Arrows
+			}
+		}
+	}
+}
+
+#Someone comes to retrieve the Arrows
+character_event = {
+	id = tw.61
+	title = EVTTITLETW61
+	desc = {
+		trigger = {
+			c_2101200 = { #Diomedes
+				is_alive = yes
+				is_incapable = no
+			}
+			c_2102300 = { #Odysseus
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCATW61
+	}
+	desc = {
+		trigger = {
+			c_2101200 = { #Diomedes
+				is_alive = yes
+				is_incapable = no
+			}
+			c_2102300 = { #Odysseus
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCBTW61
+	}
+	desc = {
+		trigger = {
+			c_2101200 = { #Diomedes
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+			c_2102300 = { #Odysseus
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCCTW61
+	}
+	desc = {
+		trigger = {
+			c_2101200 = { #Diomedes
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+			c_2102300 = { #Odysseus
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCDTW61
+	}
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW61
+		custom_tooltip = {
+			text = EVTOPTATW61_TT
+		}
+		FROMFROM = {
+			character_event = { id = tw.59 days = 2 } #Arrows come to Troy
+		}
+		random_artifact = {
+			limit = {
+				has_artifact_flag = arrow_heracles
+			}
+			transfer_artifact = {
+				to = FROMFROM
+				from = ROOT
+			}
+		}
+	}
+}
+
+#Diomedes and Odysseus go to retrieve Pyrrhus
+character_event = {
+	id = tw.62
+	title = EVTTITLETW62
+	desc = {
+		trigger = {
+			character = c_2102300 #Odysseus
+			c_2101200 = { #Diomedes
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCATW62
+	}	
+	desc = {
+		trigger = {
+			character = c_2101200 #Diomedes
+			c_2102300 = { #Odysseus
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCBTW62
+	}	
+	desc = {
+		trigger = {
+			character = c_2102300 #Odysseus
+			c_2101200 = { #Diomedes
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCCTW62
+	}	
+	desc = {
+		trigger = {
+			character = c_2101200 #Diomedes
+			c_2102300 = { #Odysseus
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCDTW62
+	}	
+	portrait = 2102102
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW62
+		custom_tooltip = {
+			text = EVTOPTATW62_TT
+		}
+		if = {
+			limit = {
+				character = c_2101200 #Diomedes
+			}
+			c_2102102 = { #Pyrrhus
+				character_event = { id = tw.63 days = 2 } #Someone comes to retrieve Philoktetes
+			}
+		}
+		else_if = {
+			limit = {
+				character = c_2102300 #Odysseus
+				c_2101200 = { #Diomedes
+					is_alive = no
+				}
+			}
+			c_2102102 = { #Pyrrhus
+				character_event = { id = tw.63 days = 2 } #Someone comes to retrieve Philoktetes
+			}
+		}
+	}
+}
+
+#Someone comes to retrieve Pyrrhus
+character_event = {
+	id = tw.63
+	title = EVTTITLETW63
+	desc = {
+		trigger = {
+			c_2101200 = { #Diomedes
+				is_alive = yes
+				is_incapable = no
+			}
+			c_2102300 = { #Odysseus
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCATW63
+	}
+	desc = {
+		trigger = {
+			c_2101200 = { #Diomedes
+				is_alive = yes
+				is_incapable = no
+			}
+			c_2102300 = { #Odysseus
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCBTW63
+	}
+	desc = {
+		trigger = {
+			c_2101200 = { #Diomedes
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+			c_2102300 = { #Odysseus
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCCTW63
+	}
+	desc = {
+		trigger = {
+			c_2101200 = { #Diomedes
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+			c_2102300 = { #Odysseus
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCDTW63
+	}
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW63
+		custom_tooltip = {
+			text = EVTOPTATW63_TT
+		}
+		liege = {
+			random_courtier_or_vassal = {
+				remove_title = title_commander
+			}
+		}
+		unsafe_give_minor_title = title_commander
+		FROMFROM = {
+			character_event = { id = tw.64 days = 2 } #Pyrrhus come to Troy
+		}
+	}
+}
+
+#Pyrrhus comes to Troy
+character_event = {
+	id = tw.64
+	title = EVTTITLETW64
+	desc = EVTDESCTW64
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW64
+		custom_tooltip = {
+			text = EVTOPTATW64_TT
+		}
+		if = {
+			limit = {
+				c_2102300 = { #Odysseus
+					is_alive = yes
+					is_incapable = no
+				}
+			}
+			c_2102300 = { #Odysseus
+				character_event = { id = tw.66 days = 7 } #Odysseus formulates the Trojan Horse
+			}
+		}
+	}
+}
+
+#Paris is killed by an Arrow of Heracles
+character_event = {
+	id = tw.65
+	title = EVTTITLETW65
+	desc = {
+		trigger = {
+			c_2102600 = { #Philoktetes
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCATW65
+	}	
+	desc = {
+		trigger = {
+			c_2102600 = { #Philoktetes
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCBTW65
+	}	
+	trigger = {
+		had_global_flag = {
+			flag = arrows_in_troy
+			days = 1
+		}
+		character = c_2200004 #Paris
+		top_liege = {
+			any_war = {
+				using_cb = trojan_war_cb
+				any_defender = {
+					character = PREVPREV
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = EVTOPTATW65
+		custom_tooltip = {
+			text = EVTOPTATW65_TT
+		}
+		if = {
+			limit = {
+				c_2102600 = { #Philoktetes
+					is_alive = yes
+				}
+			}
+			death = {
+				death_reason = death_battle
+				killer = c_2102600
+			}
+		}
+		else = {
+			death = {
+				death_reason = death_battle
+			}
+		}
+	}
+}
+
+#Odysseus formulates the Trojan Horse
+character_event = {
+	id = tw.66
+	title = EVTTITLETW66
+	desc = EVTDESCTW66
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW66
+		custom_tooltip = {
+			text = EVTOPTATW66_TT
+		}
+		FROM = {
+			character_event = { id = tw.67 } #Plans are received, and the building of the Trojan Horse commences
+		}
+	}
+}
+
+#Plans are received, and the building of the Trojan Horse commences
+character_event = {
+	id = tw.67
+	title = EVTTITLETW67
+	desc = {
+		trigger = {
+			c_2102300 = { #Odysseus
+				is_alive = yes
+				is_incapable = no
+			}
+		}
+		text = EVTDESCATW67
+	}
+	desc = {
+		trigger = {
+			c_2102300 = { #Odysseus
+				OR = {
+					is_alive = no
+					is_incapable = yes
+				}
+			}
+		}
+		text = EVTDESCBTW67
+	}
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW67
+		custom_tooltip = {
+			text = EVTOPTATW67_TT
+		}
+		character_event = { id = tw.68 days = 3 } #Trojan Horse complete
+	}
+}
+
+#Trojan Horse complete
+character_event = {
+	id = tw.68
+	title = EVTTITLETW68
+	desc = EVTDESCTW68
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW68
+		custom_tooltip = {
+			text = EVTOPTATW68_TT
+		}
+		c_truwisa = {
+			owner = {
+				character_event = { id = tw.69 } #Trojan Horse is presented
+			}
+		}
+	}
+}
+
+#Trojan Horse is presented
+character_event = {
+	id = tw.69
+	title = EVTTITLETW69
+	desc = EVTDESCTW69
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW69
+		custom_tooltip = {
+			text = EVTOPTATW69_TT
+		}
+		if = {
+			limit = {
+				c_2200106 = { #Laocoon
+					is_alive = yes
+				}
+			}
+			c_2200106 = { #Laocoon
+				character_event = { id = tw.70 } #Laokoon is suspicious
+			}
+		} 
+		else = {
+			hidden_tooltip = {
+				161 = { #Troy
+					remove_province_modifier = trojan_walls
+				}
+				any_independent_ruler = {
+					limit = {
+						any_war = {
+							using_cb = trojan_war_cb
+							any_attacker = {
+								character = PREVPREV
+							}
+						}
+						at_location = 161 #Troy
+					}
+					character_event = { id = tw.72 } #Achaeans leap out of the Trojan Horse
+				}
+			}
+		}
+	}
+}
+
+#Laocoon is suspicious
+character_event = {
+	id = tw.70
+	title = EVTTITLETW70
+	desc = EVTDESCTW70
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW70
+		custom_tooltip = {
+			text = EVTOPTATW70_TT
+		}
+		FROM = {
+			character_event = { id = tw.71 } #Laocoon warns of the Trojan Horse
+		} 
+	}
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTBTW70
+		custom_tooltip = {
+			text = EVTOPTBTW70_TT
+		}
+	}
+}
+
+#Laocoon warns of the Trojan Horse
+character_event = {
+	id = tw.71
+	title = EVTTITLETW71
+	desc = EVTDESCTW71
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW71
+		custom_tooltip = {
+			text = EVTOPTATW71_TT
+		}
+		FROM = {
+			death = {
+				death_reason = death_murder
+				killer = c_1100145
+			}
+		}
+		hidden_tooltip = {
+			161 = { #Troy
+				remove_province_modifier = trojan_walls
+			}
+			any_independent_ruler = {
+				limit = {
+					any_war = {
+						using_cb = trojan_war_cb
+						any_attacker = {
+							character = PREVPREV
+						}
+					}
+					at_location = 161 #Troy
+				}
+				character_event = { id = tw.72 } #Achaeans leap out of the Trojan Horse
+			}
+		}
+	}
+}
+
+#Achaeans leap out of the Trojan Horse
+character_event = {
+	id = tw.72
+	title = EVTTITLETW72
+	desc = EVTDESCTW72
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW72
+		custom_tooltip = {
+			text = EVTOPTATW72_TT
+		}
+		b_wilusa = {
+			remove_building = ca_wall_1
+			remove_building = ca_wall_2
+			remove_building = ca_wall_3
+			remove_building = ca_wall_4
+			remove_building = ca_wall_5
+			remove_building = ca_wall_q_1
+			remove_building = ca_wall_q_2
+			remove_building = ca_wall_q_3
+			remove_building = ca_con_wall_6
+		}
+		if = {
+			limit = {
+				has_landed_title = d_lacedemonia
+				c_2101002 = { #Helen
+					is_alive = yes
+				}
+			}
+			character_event = { id = tw.75 } #Helen and Menelaos reunite
+		}
+		e_hellenic_pantheon = {
+			owner = {
+				character = { id = tw.73 } #Destruction of Troy set-up
+			}
+		}	
+	}
+}
+
+#Destruction of Troy set-up
+character_event = {
+	id = tw.73
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				c_2101000 = { #Menelaos
+					at_location = 161 #Troy
+				}
+				c_2101002 = { #Helen
+					is_alive = yes
+				}
+			}
+			#do nothing here
+		}
+		else_if = {
+			limit = {
+				c_2101000 = { #Menelaos
+					is_alive = yes
+				}
+				c_2101002 = { #Helen
+					is_alive = yes
+				}
+			}
+			c_2101000 = { #Menelaos
+				character_event = { id = tw.75 days = 7 } #Helen and Menelaos reunite
+			}
+		}
+		any_playable_ruler = {
+			character_event = { id = tw.74 } #Destruction of Troy
+		}
+	}
+}
+
+#Destruction of Troy
+narrative_event = {
+	id = tw.74
+	title = EVTTITLETW74
+	desc = {
+		trigger = {
+			any_war = {
+				using_cb = trojan_war_cb
+				any_attacker = {
+					character = ROOT
+				}
+			}
+		}
+		text = EVTDESCATW74
+	}
+	desc = {
+		trigger = {
+			any_war = {
+				using_cb = trojan_war_cb
+				any_defender = {
+					character = ROOT
+				}
+			}
+		}
+		text = EVTDESCBTW74
+	}
+	desc = {
+		trigger = {
+			NOR = {
+				any_war = {
+					using_cb = trojan_war_cb
+					any_attacker = {
+						character = ROOT
+					}
+				}
+				any_war = {
+					using_cb = trojan_war_cb
+					any_defender = {
+						character = ROOT
+					}
+				}
+			}
+		}
+		text = EVTDESCCTW74
+	}
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			trigger = {
+				any_war = {
+					using_cb = trojan_war_cb
+					any_attacker = {
+						character = ROOT
+					}
+				}
+			}
+			text = EVTOPTAATW74
+		}
+		name = {
+			trigger = {
+				any_war = {
+					using_cb = trojan_war_cb
+					any_defender = {
+						character = ROOT
+					}
+				}
+			}
+			text = EVTOPTABTW74
+		}
+		name = {
+			trigger = {
+				NOR = {
+					any_war = {
+						using_cb = trojan_war_cb
+						any_attacker = {
+							character = ROOT
+						}
+					}
+					any_war = {
+						using_cb = trojan_war_cb
+						any_defender = {
+							character = ROOT
+						}
+					}
+				}
+			}
+			text = EVTOPTACTW74
+		}
+		custom_tooltip = {
+			text = EVTOPTATW74_TT
+		}
+	}
+	after = {
+		if = {
+			limit = {
+				character = c_2101000 #Menelaos
+				c_2101002 = { #Helen
+					is_alive = no
+				}
+			}
+			any_war = {
+				limit = {
+					using_cb = trojan_war_cb
+				}
+				end_war = success
+			}
+		}
+	}
+}
+
+#Helen and Menelaos reunite
+character_event = {
+	id = tw.75
+	title = EVTTITLETW75
+	desc = {
+		trigger = {
+			at_location = 161 #Troy
+		}
+		text = EVTDESCATW75
+	}
+	desc = {
+		trigger = {
+			NOT = {
+				at_location = 161 #Troy
+			}
+		}
+		text = EVTDESCBTW75
+	}
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATW75
+		custom_tooltip = {
+			text = EVTOPTATW75_TT
+		}
+		add_trait = kind
+		remove_trait = wroth
+		add_lover = c_2101002 #Helen
+		any_war = {
+			limit = {
+				using_cb = trojan_war_cb
+			}
+			end_war = success
+		}
+		ai_chance  {
+			factor = 50
+		}
+	}
+	option = {
+		name = EVTOPTATW75
+		custom_tooltip = {
+			text = EVTOPTATW75_TT
+		}
+		add_trait = wroth
+		remove_trait = kind
+		any_war = {
+			limit = {
+				using_cb = trojan_war_cb
+			}
+			end_war = success
+		}
+		ai_chance  {
+			factor = 50
+		}
+	}
+}
+
+
+
+
+
+
+
+
+

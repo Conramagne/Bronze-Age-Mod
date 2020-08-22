@@ -3,7 +3,7 @@
 2200000 = {
 	name = "Dardanid"
 	culture = "wilusan"
-	used_for_random = no 
+	used_for_random = no
 	coat_of_arms = {
 		religion = assussani
 		template = 0
@@ -15,7 +15,7 @@
 			color = 0
 			color = 0
 		}
-	}
+	}	
 }
 2200001 = {
 	name = "Tennesid"
@@ -58,7 +58,7 @@
 	used_for_random = no 
 }
 2200009  = {
-	name = "Nomionid"
+	name = "Amisodarid"
 	culture = "carian"
 	used_for_random = no 
 }
@@ -68,7 +68,7 @@
 	used_for_random = no 
 }
 2200011  = {
-	name = "Phaenopid"
+	name = "Akmonid"
 	culture = "phrygian"
 	used_for_random = no 
 }

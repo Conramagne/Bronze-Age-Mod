@@ -147,15 +147,76 @@ character_event = {
 		}
 	}
 	
+	option = {#Give land to player who was child of FROMFROM
+		name = EVTOPTEFKM6
+		trigger = {
+			ai = yes
+			FROMFROM = {
+				any_dynasty_member = {
+					ai = no
+				}
+			}
+		}
+		random_dynasty_member = {
+			limit = {
+				ai = no
+			}
+			ROOT_FROM = {
+				any_de_jure_vassal_title = {
+					limit = {
+						higher_real_tier_than = BARON
+						OR = {
+							has_holder = no
+							holder = ROOT
+						}
+					}
+					grant_title = PREVPREV
+				}
+			}
+			ROOT_FROM = {
+				grant_title = PREV
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 0.5
+				trait = just
+			}
+		}
+	}
+	
 	option = {#Creates vassal of your culture
 		name = EVTOPTAFKM6
-		create_character = {
-			random_traits = yes
-			age = 30
-			female = no
-			culture = ROOT
-			religion = ROOT
-			dynasty = random
+		custom_tooltip = {
+			text = EVTOPTAFKM6_TT
+		}
+		if = {
+			limit = {
+				culture = amazonian
+			}
+			create_character = {
+				random_traits = yes
+				age = 30
+				female = yes
+				culture = event_target:capital_county
+				religion = event_target:capital_county
+				dynasty = random
+			}
+		}
+		else = {
+			create_character = {
+				random_traits = yes
+				age = 30
+				female = no
+				culture = event_target:capital_county
+				religion = event_target:capital_county
+				dynasty = random
+			}
 		}
 		new_character = {
 			ROOT_FROM = {
@@ -172,12 +233,13 @@ character_event = {
 			}
 		}
 		new_character = {
+			character_event = { id = fkm.7 }
 			ROOT_FROM = {
 				grant_title = PREV
 			}
 		}
 		ai_chance = {
-			factor = 33
+			factor = 25
 			modifier = {
 				factor = 2
 				trait = arbitrary
@@ -191,6 +253,9 @@ character_event = {
 	
 	option = {#Give land to random close relative
 		name = EVTOPTBFKM6
+		custom_tooltip = {
+			text = EVTOPTAFKM6_TT
+		}
 		trigger = {
 			any_close_relative = {
 				is_adult = yes
@@ -241,7 +306,7 @@ character_event = {
 			}
 		}
 		ai_chance = {
-			factor = 33
+			factor = 50
 			modifier = {
 				factor = 2
 				trait = arbitrary
@@ -254,6 +319,9 @@ character_event = {
 	}
 		
 	option = {#Creates vassal of appropriate culture
+		custom_tooltip = {
+			text = EVTOPTCFKM6_TT
+		}
 		name = EVTOPTCFKM6
 		trigger = {
 			NOT = {
@@ -265,15 +333,33 @@ character_event = {
 				}
 			}
 		}
-		create_character = {
-			random_traits = yes
-			age = 30
-			female = no
-			culture = event_target:capital_county
-			religion = event_target:capital_county
-			dynasty = random
+		if = {
+			limit = {
+				event_target:capital_county = {
+					culture = amazonian
+				}
+			}
+			create_character = {
+				random_traits = yes
+				age = 30
+				female = yes
+				culture = event_target:capital_county
+				religion = event_target:capital_county
+				dynasty = random
+			}
+		}
+		else = {
+			create_character = {
+				random_traits = yes
+				age = 30
+				female = no
+				culture = event_target:capital_county
+				religion = event_target:capital_county
+				dynasty = random
+			}
 		}
 		new_character = {
+			character_event = { id = fkm.7 }
 			ROOT_FROM = {
 				any_de_jure_vassal_title = {
 					limit = {
@@ -293,7 +379,7 @@ character_event = {
 			}
 		}
 		ai_chance = {
-			factor = 33
+			factor = 25
 			modifier = {
 				factor = 0.5
 				trait = arbitrary
@@ -316,5 +402,20 @@ character_event = {
 			ai = no
 		}
 		name = EVTOPTDFKM6
+	}
+}
+
+#Randomizes name
+character_event = {
+	id = fkm.7
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		prompt_name = {
+			player = ROOT 
+			type = BAPTISM 
+			name_list = culture
+		}
 	}
 }

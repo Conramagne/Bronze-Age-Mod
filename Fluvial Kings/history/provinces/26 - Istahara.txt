@@ -2,8 +2,8 @@ title=c_istahara
 
 max_settlements= 3
 b_istahara= tribal
-b_nerik = temple
-b_hatenzuwa = city
+# b_nerik = temple
+# b_hatenzuwa = city
 
 culture=kaskian
 religion=ishalitethai

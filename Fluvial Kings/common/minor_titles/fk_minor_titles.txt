@@ -1,10 +1,43 @@
-title_chief_of_the_royal_bodyguard = {
-	dignity = 0.06
+title_chief_of_wine_stewards = {
+	dignity = 0.1
 	realm_in_name = yes
 	grant_limit = 1
-	opinion_effect = 10
+	opinion_effect = 20
 	
-	monthly_salary = 0.02
+	monthly_salary = 0.05
+	monthly_prestige = 0.50
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		is_adult = yes
+		male_can_hold_minor_title_trigger = yes
+		NOT = { trait = incapable } 
+	}
+	
+	allowed_to_grant = {
+		culture = hittite
+		government = hegemonic_government
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_chief_of_the_royal_bodyguard = {
+	dignity = 0.09
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 15
+	
+	monthly_salary = 0.04
 	monthly_prestige = 0.40
 	
 	is_unique = yes
@@ -19,7 +52,41 @@ title_chief_of_the_royal_bodyguard = {
 	}
 	
 	allowed_to_grant = {
-		has_landed_title = e_hittite_empire
+		culture = hittite
+		government = hegemonic_government
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+
+title_chief_of_the_scribes = {
+	dignity = 0.08
+	realm_in_name = yes
+	grant_limit = 1
+	opinion_effect = 10
+	
+	monthly_salary = 0.03
+	monthly_prestige = 0.4
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		is_adult = yes
+		male_can_hold_minor_title_trigger = yes
+		NOT = { trait = incapable } 
+	}
+	
+	allowed_to_grant = {
+		culture = hittite
 		government = hegemonic_government
 	}
 	
@@ -52,7 +119,7 @@ title_overseer_of_the_golden_grooms = {
 	}
 	
 	allowed_to_grant = {
-		has_landed_title = e_hittite_empire
+		culture = hittite
 		government = hegemonic_government
 	}
 	
@@ -85,7 +152,7 @@ title_chief_of_the_wooden_tablet_scribes = {
 	}
 	
 	allowed_to_grant = {
-		has_landed_title = e_hittite_empire
+		culture = hittite
 		government = hegemonic_government
 	}
 	
@@ -118,7 +185,7 @@ title_chief_of_the_palace_servants = {
 	}
 	
 	allowed_to_grant = {
-		has_landed_title = e_hittite_empire
+		culture = hittite
 		government = hegemonic_government
 	}
 	
@@ -151,40 +218,7 @@ title_chief_of_the_storehouse = {
 	}
 	
 	allowed_to_grant = {
-		has_landed_title = e_hittite_empire
-		government = hegemonic_government
-	}
-	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
-
-	message = yes
-}
-
-title_chief_of_the_scribes = {
-	dignity = 0.05
-	realm_in_name = yes
-	grant_limit = 1
-	opinion_effect = 5
-	
-	monthly_salary = 0.01
-	monthly_prestige = 0.20
-	
-	is_unique = yes
-	
-	allowed_to_hold = {
-		NOT = { 
-			primary_title = { temporary = yes } 
-		}
-		is_adult = yes
-		male_can_hold_minor_title_trigger = yes
-		NOT = { trait = incapable } 
-	}
-	
-	allowed_to_grant = {
-		has_landed_title = e_hittite_empire
+		culture = hittite
 		government = hegemonic_government
 	}
 	

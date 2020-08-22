@@ -692,7 +692,12 @@ laws = {
 		}
 		ai_will_do = { factor = 0 }
 		ai_will_revoke = { factor = 0 }
-		pass_effect = { }
+		pass_effect = { 
+			holder_scope = {
+				character_event = { id = fkr.117 }
+				character_event = { id = fkr.208 }
+			}
+		}
 		effect = {
 			if = {
 				limit = {
@@ -749,7 +754,12 @@ laws = {
 			}
 		}
 		ai_will_revoke = { factor = 0 }
-		pass_effect = { }
+		pass_effect = { 
+			holder_scope = {
+				character_event = { id = fkr.111 }
+				character_event = { id = fkr.214 }
+			}
+		}
 		effect = {
 			if = {
 				limit = { has_law = ze_administration_laws_0 }
@@ -828,7 +838,12 @@ laws = {
 			factor = 10
 		}
 		ai_will_revoke = { factor = 0 }
-		pass_effect = { }
+		pass_effect = { 
+			holder_scope = {
+				character_event = { id = fkr.111 }
+				character_event = { id = fkr.214 }
+			}
+		}
 		effect = {
 			if = {
 				limit = { has_law = ze_administration_laws_0 }

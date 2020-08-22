@@ -1,1 +1,259 @@
-#empty
+###########Greek###########
+
+armor_achilles = {
+    max_amount = 1
+    spawn_date = 2521.1.1
+	
+	spawn_chance = {
+		value = 100
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Holy Fury" }
+		}
+	}
+    
+    weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			father = {
+				primary_title = {
+					title = c_lamia
+				}
+			}
+		}
+	}
+    artifacts = {
+        armor_achilles = {
+            value = 1
+        }
+    }
+}
+
+sword_peleus = {
+    max_amount = 1
+    spawn_date = 2527.1.1
+	
+	spawn_chance = {
+		value = 100
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Holy Fury" }
+		}
+	}
+    
+    weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			father = {
+				primary_title = {
+					title = c_lamia
+				}
+			}
+		}
+	}
+    artifacts = {
+        sword_peleus = {
+            value = 1
+        }
+    }
+}
+
+spear_achilles = {
+    max_amount = 1
+    spawn_date = 2527.1.1
+	
+	spawn_chance = {
+		value = 100
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Holy Fury" }
+		}
+	}
+    
+    weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			father = {
+				primary_title = {
+					title = c_lamia
+				}
+			}
+		}
+	}
+    artifacts = {
+        spear_achilles = {
+            value = 1
+        }
+    }
+}
+
+armor_diomedes = {
+    max_amount = 1
+    spawn_date = 2526.1.1
+	
+	spawn_chance = {
+		value = 100
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Holy Fury" }
+		}
+	}
+    
+    weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			primary_title = {
+				title = c_mases
+			}
+		}
+	}
+    artifacts = {
+        armor_diomedes = {
+            value = 1
+        }
+    }
+}
+
+armor_glaucus = {
+    max_amount = 1
+    spawn_date = 2525.1.1
+	
+	spawn_chance = {
+		value = 100
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Holy Fury" }
+		}
+	}
+    
+    weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			primary_title = {
+				title = d_lukka
+			}
+		}
+	}
+    artifacts = {
+        armor_glaucus = {
+            value = 1
+        }
+    }
+}
+
+bow_eurytus = {
+    max_amount = 1
+    spawn_date = 2520.1.1
+	
+	spawn_chance = {
+		value = 100
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Holy Fury" }
+		}
+	}
+    
+    weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			primary_title = {
+				title = d_ithake
+			}
+		}
+	}
+    artifacts = {
+        bow_eurytus = {
+            value = 1
+        }
+    }
+}
+
+arrow_heracles = {
+    max_amount = 1
+    spawn_date = 2527.1.1
+	
+	spawn_chance = {
+		value = 100
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Holy Fury" }
+		}
+	}
+    
+    weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			primary_title = {
+				title = c_meliboia
+			}
+		}
+	}
+    artifacts = {
+        arrow_heracles = {
+            value = 1
+        }
+    }
+}
+
+bone_pelops = {
+    max_amount = 1
+    spawn_date = 2527.1.1
+	
+	spawn_chance = {
+		value = 100
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Mystics" }
+		}
+	}
+    
+    weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			primary_title = {
+				title = c_olympia
+			}
+		}
+	}
+    artifacts = {
+        bone_pelops = {
+            value = 1
+        }
+    }
+}
+
+palladium_troy = {
+    max_amount = 1
+    spawn_date = 2527.1.1
+	
+	spawn_chance = {
+		value = 100
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Mystics" }
+		}
+	}
+    
+    weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			primary_title = {
+				title = d_wilusa
+			}
+		}
+	}
+    artifacts = {
+        palladium_troy = {
+            value = 1
+        }
+    }
+}

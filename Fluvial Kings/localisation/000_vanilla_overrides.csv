@@ -1,7 +1,37 @@
-NAME_W_NICK;$TITLE$ $NAME$ $NICK$;$TITLE$ $NAME$ '$NICK$';$TITLE$ $NAME$ '$NICK$';;$TITLE$ $NAME$ '$NICK$';;;;;;;;;x
-TITLED_NAME_W_NICK;$TITLE$ $NAME$ $NICK$ of $HOLDING$;$TITLE$ $NAME$ '$NICK$' de $HOLDING$;$TITLE$ $NAME$ '$NICK$' von $HOLDING$;;$TITLE$ $NAME$ '$NICK$' de $HOLDING$;;;;;;;;;x
-EVTOPTA_HF_46000_TT;Restore the tomb of Hero [local_burial_tomb.province_hero.GetFirstNameWithNick] to its former glory.;;;;;;;;;;;;;x
+#Generic Land Titles#
+barony;Citadel;;;;;;;;;;;;;x
+barony_of;Citadel of;;;;;;;;;;;;;x
+county;Lordship;;;;;;;;;;;;;x
+county_of;Lordship of;;;;;;;;;;;;;x
+duchy;Land;;;;;;;;;;;;;x
+duchy_of;Land of;;;;;;;;;;;;;x
+empire;Great Kingdom;;;;;;;;;;;;;x
+empire_of;Great Kingdom of;;;;;;;;;;;;;x
 
+#Generic Character Titles#
+baron;Master;;;;;;;;;;;;;x
+baron_female;Mistress;;;;;;;;;;;;;x
+city_baron;Magistrate;;;;;;;;;;;;;x
+city_baron_female;Magistrate;;;;;;;;;;;;;x
+city_count;Lord Magistrate;;;;;;;;;;;;;x
+city_count_female;Lord Magistrate;;;;;;;;;;;;;x
+count;Lord;;;;;;;;;;;;;x
+count_female;Lady;;;;;;;;;;;;;x
+duke;Petty King;;;;;;;;;;;;;x
+duke_female;Petty Queen;;;;;;;;;;;;;x
+emperor;Great King;;;;;;;;;;;;;x
+emperor_female;Great Queen;;;;;;;;;;;;;x
+
+#Artifacts#
+boar_tusk_helm;Boar Tusk Helmet;;;;;;;;;;;;;x
+boar_tusk_helm_desc;A helmet made from slivers of boar tusks attached to a padded leather base. Dozens of boars were slain to make this savage piece of armor.;;;;;;;;;;;;;x
+armor_tier_1;Scale Armor;;;;;;;;;;;;;x
+armor_tier_1_desc;A basic set of armor made up of many small bronze scales linked together.;;;;;;;;;;;;;x
+armor_tier_2;Bronze Panoply;;;;;;;;;;;;;x
+armor_tier_2_desc;More protective then scales, this set of armor is made from great plates of solid bronze linked together.;;;;;;;;;;;;;x
+sword_tier_3_vengeance_desc;Forged with the the finest copper and tin available, the sword was named Vengeance, to bring certain doom to any traitor.;;;;;;;;;;;;;x
+
+#Laws#
 ze_administration_laws_0;Oligarchic Administration;;;;;;;;;;;;;x
 ze_administration_laws_0_option;Oligarchic;;;;;;;;;;;;;x
 ze_administration_laws_0_desc;An oligarchic society is a hierarchy of local rulers and their court, where each person in the system owes fealty to those directly above and commands those directly below. It is the way most smaller states work, and it means that the ruler depends greatly on the loyalty of [Player.GetHerHis] more powerful vassals.;;;;;;;;;;;;;x
@@ -13,3 +43,43 @@ ze_administration_laws_1_desc;Royal lords realize the importance of keeping the 
 ze_administration_laws_2;Hegemonic Administration;;;;;;;;;;;;;x
 ze_administration_laws_2_option;Hegemonic;;;;;;;;;;;;;x
 ze_administration_laws_2_desc;This system of administration is the natural state of all empires. From the river banks of the Nile to the rough mountains of Anatolia, these kings of kings utilize a hierarchy of magistrates and functionaries running daily business in their name. It allows for a power structure that hands less power to permanently landed vassals, though this causes said vassals to resent their liege.;;;;;;;;;;;;;x
+
+#Lion Hunt#
+hold_tiger_hunt;Hold a Lion Hunt;;;;;;;;;;;;;x
+hold_tiger_hunt_desc;Lion hunting is not only a noble sport but also an occasion to meet your vassals to forge bonds of friendship and discuss important business.;;;;;;;;;;;;;x
+EVTDESC_RoI_2000;You have decided to organize a lion hunt. You will invite your vassals to enjoy this occasion with you.;;;;;;;;;;;;;x
+EVTDESC_RoI_2001;Dear [Root.GetBestName],\n\nI am organizing a great lion hunt for all my vassals, and hereby invite you to attend.\n\n[From.GetFullName];;;;;;;;;;;;;x
+EVTOPTA_RoI_2001;A lion hunt! Of course I will go.;;;;;;;;;;;;;x
+EVTDESC_RoI_2002;My liege,\n\nYour wisdom and generosity is overwhelming. I will gladly come to the lion hunt.\n\n[From.GetFullName];;;;;;;;;;;;;x
+EVTDESC_RoI_2003;My liege,\n\nUnfortunately, I have pressing business that forces me to decline your invitation to the lion hunt.\n\n[From.GetFullName];;;;;;;;;;;;;x
+EVTDESC_RoI_2019;You have arrived at the hunting camp. Retainers are available to see to your every need, and soldiers will be useful both for guarding the camp and for flushing out any lions. This should be a fine day!;;;;;;;;;;;;;x
+EVTDESC_RoI_2020;The hunters and their respective entourages have gathered at the hunting camp. Retainers are available to see to your every need, and soldiers will be useful both for guarding the camp and for flushing out any lions. This should be a fine day!;;;;;;;;;;;;;x
+EVTDESC_RoI_2501;A most successful hunt! A slain lion means glory for the realm and everyone heads for home with new optimism.;;;;;;;;;;;;;x
+EVTDESC_RoI_2502;A failed hunt! No lions were slain, and this proves ill for the prestige of the realm and its sovereign. You vow to return and have better luck next time.;;;;;;;;;;;;;x
+EVTDESC_RoI_2100;The social life at the camp is an important part of the lion hunt. Late at night, after many cups of wine, you sit and talk into the small hours. You are having a good time, and it seems you have made a new friend.;;;;;;;;;;;;;x
+EVTDESC_RoI_2102;The social life at the camp is an important part of the lion hunt. Late at night, after many cups of wine, you sit and talk into the small hours. But misunderstandings occur so easily among the inebriated...;;;;;;;;;;;;;x
+EVTDESCA_RoI_2104;Evening pastimes during the lion hunt include playing petteia. A group has gathered to play and you join them. Of course, the game is only interesting if you play for gold and silver - but how much will you bet?;;;;;;;;;;;;;x
+EVTDESC_RoI_2104;Evening pastimes during the lion hunt include playing the Royal Game of Ur. A group has gathered to play and you join them. Of course, the game is only interesting if you play for gold and silver - but how much will you bet?;;;;;;;;;;;;;x
+EVTDESC_RoI_2105;The game didn't go very well, and you lost a significant amount of money.;;;;;;;;;;;;;x
+EVTDESC_RoI_2106;You had mixed fortunes at the game, and in the end your wins and losses balanced out.;Vous avez connu des hauts et des bas lors de la partie, et vos gains finissent par compenser vos pertes.;;;;;;;;;;;;;x
+EVTDESC_RoI_2107;You had an excellent run at the game, and won a significant amount of money.;;;;;;;;;;;;;x
+EVTDESC_RoI_2111;The hunting party moves through the jungle. You are hoping luck will find you a lion to kill. Suddenly, there is a movement in the underbrush... and a large lion springs out, roaring fiercely! It attacks the hunting party, but soldiers immediately move to attack it and they manage to kill it with their spears.;;;;;;;;;;;;;x
+EVTDESC_RoI_2112;The hunting party moves through the jungle. You are hoping luck will find you a lion to kill. Suddenly, there is a movement in the underbrush... and a large lion springs out, roaring fiercely! It attacks the hunting party, striking at one of the servants, ripping him to shreds before disappearing again into the jungle.;;;;;;;;;;;;;x
+EVTDESC_RoI_2113;The hunting party moves through the jungle. You are hoping luck will find you a lion to kill. Suddenly, there is a movement in the underbrush... and a large lion springs out, roaring fiercely! It attacks the hunting party, striking at one of the hunters, ripping and tearing flesh before disappearing again into the jungle.;;;;;;;;;;;;;x
+EVTDESC_RoI_2120;Several forward scouts come running back to the main hunting party. In excited whispers, they inform you that a large lion has been spotted ahead.;;;;;;;;;;;;;x
+EVTDESC_RoI_2121;Stepping forward, you watch the lion closely, weighing your spear in your hand and waiting for the right moment to strike. The lion prowls towards you, slowly. Then suddenly, it leaps towards you! You sidestep and stab with your spear, sinking it deeply into its flank.;;;;;;;;;;;;;x
+EVTOPTA_RoI_2121;I killed the lion!;;;;;;;;;;;;;x
+EVTDESC_RoI_2122;Stepping forward, you watch the lion closely, weighing your spear in your hand and waiting for the right moment to strike. The lion prowls towards you, slowly. Then suddenly, the huge beast stops, looking nervous. It turns and runs into the dense vegetation before you can throw your spear.;;;;;;;;;;;;;x
+EVTOPTA_RoI_2122;I failed to kill the lion!;;;;;;;;;;;;;;x
+EVTDESC_RoI_2123;Stepping forward, you watch the lion closely, weighing your spear in your hand and waiting for the right moment to strike. Then suddenly, the lion leaps towards you! Surprised, you stumble backwards as it starts to tear at you with claws and teeth. Your soldiers run in, stabbing at the beast, and it decides to retreat, disappearing into the dense vegetation.;;;;;;;;;;;;;x
+EVTDESC_RoI_2124;The hunting party edges forward, encircling the area and closing on the lion. The beast discovers the trap too late and tries to run, but the hunters close in from all sides, stabbing with their spears. The lion roars wildly as its life's blood spills over the ground.;;;;;;;;;;;;;;x
+EVTOPTA_RoI_2124;We killed the lion!;;;;;;;;;;;;;x
+EVTDESC_RoI_2125;The hunting party edges forward, encircling the area and closing on the lion. The beast, however, smells the trap and turns and flees into the dense vegetation. Several soldiers run after it but return shortly after to report that the animal is gone.;;;;;;;;;;;;;x
+
+#Miscellaneous#
+NAME_W_NICK;$TITLE$ $NAME$ $NICK$;$TITLE$ $NAME$ '$NICK$';$TITLE$ $NAME$ '$NICK$';;$TITLE$ $NAME$ '$NICK$';;;;;;;;;x
+TITLED_NAME_W_NICK;$TITLE$ $NAME$ $NICK$ of $HOLDING$;$TITLE$ $NAME$ '$NICK$' de $HOLDING$;$TITLE$ $NAME$ '$NICK$' von $HOLDING$;;$TITLE$ $NAME$ '$NICK$' de $HOLDING$;;;;;;;;;x
+EVTOPTA_HF_46000_TT;Restore the tomb of Hero [local_burial_tomb.province_hero.GetFirstNameWithNick] to its former glory.;;;;;;;;;;;;;x
+
+ca_con_wall_6;Trojan Wall;;;;;;;;;;;;;x
+ca_con_wall_6_desc;The Trojan Wall was built by Poseidaon and Apollon as punishment from Zeus during the reign of King Laomedon. Impenetrable by siege weapons, it would take an act from a god to break the wall.;;;;;;;;;;;;;x

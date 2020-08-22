@@ -299,6 +299,7 @@ character_event = {
 				trigger = {
 					NOT = { trait = berserker }
 					NOT = { is_indomitable_trigger = yes }  #The "Indomitable" power blocks "very bad stuff"
+					NOT = { has_character_flag = achilles }
 				}
 				bad_soldier_outcome_score = yes
 				warrior_lodge_risk_reduction_score = yes
@@ -315,6 +316,7 @@ character_event = {
 				trigger = {
 					NOT = { trait = wounded }
 					NOT = { trait = berserker }
+					NOT = { has_character_flag = achilles }
 					is_alive = yes
 				}
 				bad_soldier_outcome_score = yes
@@ -331,6 +333,7 @@ character_event = {
 						trait = disfigured 
 					}
 					NOT = { trait = berserker }
+					NOT = { has_character_flag = achilles }
 					is_alive = yes
 				}
 				bad_soldier_outcome_score = yes
@@ -342,6 +345,7 @@ character_event = {
 					NOT = { trait = incapable }
 					immortal = no
 					is_alive = yes
+					NOT = { has_character_flag = achilles }
 					NOT = { is_indomitable_trigger = yes } #The "Indomitable" power blocks "very bad stuff"
 				}
 				bad_soldier_outcome_score = yes
@@ -748,6 +752,7 @@ character_event = {
 	
 	trigger = {
 		NOT = { trait = berserker }
+		NOT = { has_character_flag = achilles }
 	}
 
 	desc = {
@@ -1437,6 +1442,7 @@ character_event = {
 	trigger = {
 		NOT = { trait = wounded }
 		NOT = { trait = berserker }
+		NOT = { has_character_flag = achilles }
 		is_alive = yes
 	}
 
@@ -1725,6 +1731,7 @@ character_event = {
 			trait = one_legged 
 			trait = disfigured 
 		}
+		NOT = { has_character_flag = achilles }
 		NOT = { trait = berserker }
 		is_alive = yes
 	}
@@ -2190,6 +2197,7 @@ character_event = {
 		NOT = { trait = incapable }
 		immortal = no
 		is_alive = yes
+		NOT = { has_character_flag = achilles }
 	}
 
 	option = {

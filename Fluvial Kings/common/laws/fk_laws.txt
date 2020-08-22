@@ -268,7 +268,6 @@ laws = {
 						opinion = {
 							who = ROOT
 							modifier = opinion_oppressive_overlord
-							years = 50
 						}
 					}
 				}
@@ -276,6 +275,7 @@ laws = {
 			revoke_law = foreigner_law_1
 			revoke_law = foreigner_law_2
 		}
+		culture_flex = 1
 	}
 	
 	foreigner_law_1 = { #Neutral
@@ -403,6 +403,23 @@ laws = {
 				}
 			}
 			modifier = {
+				factor = 10
+				any_realm_province = {
+					NOT = {
+						culture = holder_scope
+					}
+					count = 10
+				}
+				NOR = {
+					holder_scope = {
+						trait = cruel
+					}
+					holder_scope = {
+						trait = arbitrary
+					}
+				}
+			}
+			modifier = {
 				factor = 2
 				OR = {
 					holder_scope = {
@@ -472,6 +489,7 @@ laws = {
 			revoke_law = foreigner_law_0
 			revoke_law = foreigner_law_1
 		}
+		culture_flex = -0.75
 	}
 	
 	tribute_law_0 = { #Tax

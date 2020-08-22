@@ -2,7 +2,7 @@ title=c_kition
 
 max_settlements= 2
 b_kition=castle
-b_dromolaxia=city
+# b_dromolaxia=city
 
 culture=cypriot
 religion=pantes_theoi

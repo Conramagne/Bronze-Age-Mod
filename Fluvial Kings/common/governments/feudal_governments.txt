@@ -160,6 +160,7 @@ feudal_governments = {
 					 controls_religion = yes
 				}
 			}
+			in_revolt = no
 			independent = no
 			is_feudal = yes
 			liege = {

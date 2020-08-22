@@ -558,6 +558,10 @@ character_event = {
                 event_target:combatant_1 = { has_character_flag = mock_duel }
                 factor = 0
             }
+			modifier = {
+				has_character_flag = cannot_refuse_duel
+				factor = 0
+			}
             modifier = {
                 event_target:combatant_1 = {
                     OR = {
@@ -2532,6 +2536,27 @@ character_event = {
 			change_variable = { which = apotheosis_duel value = 1 }
 		}
         set_winner_flags_and_save_opponent_effect = yes
+		if = {
+			limit = {
+				event_target:other_combatant = {
+					character = c_2101000
+				}
+			}
+			event_target:other_combatant = {
+				character_event = { id = tw.20 } #Menelaos is saved by Athene
+			}
+		}
+		
+		if = {
+			limit = {
+				event_target:other_combatant = {
+					character = c_2200004
+				}
+			}
+			event_target:other_combatant = {
+				character_event = { id = tw.21 } #Paris is saved by Aphrodite
+			}
+		}
         if = {
             limit = { has_character_flag = mock_duel }
             random_list = {
@@ -3132,6 +3157,27 @@ character_event = {
     immediate = {
 		hidden_effect = {
 			change_variable = { which = apotheosis_duel value = 1 }
+		}
+		if = {
+			limit = {
+				event_target:other_combatant = {
+					character = c_2101000
+				}
+			}
+			event_target:other_combatant = {
+				character_event = { id = tw.20 } #Menelaos is saved by Athene
+			}
+		}
+		
+		if = {
+			limit = {
+				event_target:other_combatant = {
+					character = c_2200004
+				}
+			}
+			event_target:other_combatant = {
+				character_event = { id = tw.21 } #Paris is saved by Aphrodite
+			}
 		}
         set_winner_flags_and_save_opponent_effect = yes
         set_character_flag = stalemate_won

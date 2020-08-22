@@ -192,6 +192,9 @@ title_commander = {
 	revoke_allowed = no # Handled by diplomatic interaction
 	
 	allowed_to_hold = {
+		NOT = {
+			has_character_flag = stormed_off
+		}
 		OR = {
 			AND = {
 				liege = {
@@ -466,6 +469,7 @@ title_cupbearer = {
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
+		NOT = { culture = hittite }
 		NOT = { has_character_flag = guru }
 		NOT = { trait = incapable } 
 	}

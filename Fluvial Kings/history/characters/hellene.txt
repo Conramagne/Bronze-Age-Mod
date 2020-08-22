@@ -1437,6 +1437,9 @@
 	2491.1.1 = {
 		add_spouse = 2100703
 	}
+	2507.1.1 = {
+		add_spouse = 2200006
+	}
 	2541.1.1 = { death = yes }
 }
 
@@ -1457,19 +1460,24 @@
 	trait = proud
 	disallow_random_traits = yes
 	2506.1.1 = { birth = yes }
+	2527.1.1 = {
+		effect = {
+			set_character_flag = destined_hero
+		}
+	}
 	2538.1.1 = { death = yes }
 }
 
-# 2100702 = { #Teuker
-	# name = "Teuker"
-	# dynasty = 2100008 #Aeacid
-	# culture = achaean
-	# religion = pantes_theoi
-	# father = 2100700
-	# mother = 
-	# 2507.1.1 = { birth = yes }
-	# 2571.1.1 = { death = yes }
-# }
+2100702 = { #Teuker
+	name = "Teuker"
+	dynasty = 2100008 #Aeacid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100700
+	mother = 2200006
+	2507.1.1 = { birth = yes }
+	2571.1.1 = { death = yes }
+}
 
 2100703 = { #Periboea
 	name = "Periboea"
@@ -1679,7 +1687,7 @@
 	religion = pantes_theoi
 	father = 2100900
 	mother = 2101003
-	2518.1.1 = { birth = yes }
+	2524.1.1 = { birth = yes }
 	2576.1.1 = { death = yes }
 }
 
@@ -1884,8 +1892,8 @@
 	female = yes
 	father = 2100900
 	mother = 2101003
-	2524.1.1 = { birth = yes }
-	2584.1.1 = { death = yes }
+	2523.1.1 = { birth = yes }
+	2583.1.1 = { death = yes }
 }
 
 #Royal Family of Sparta (2101000-2101099)
@@ -1933,6 +1941,9 @@
 	2498.1.1 = { birth = yes }
 	2518.1.1 = {
 		add_spouse = 2101000
+		effect = {
+			set_character_flag = helen
+		}
 	}
 	2561.1.1 = { death = yes }
 }
@@ -1952,6 +1963,11 @@
 	2520.1.1 = {
 		effect = {
 			add_rival = 2101002
+		}
+	}
+	2527.1.1 = {
+		effect = {
+			add_rival = 2100900
 		}
 	}
 	2564.1.1 = { death = yes }
@@ -2753,6 +2769,7 @@
 			add_claim = c_argos
 			add_claim = c_methana
 			set_character_flag = destined_hero
+			set_character_flag = diomedes
 		}
 	}
 	2566.1.1 = { death = yes }
@@ -2829,6 +2846,9 @@
 	2471.1.1 = { birth = yes }
 	2501.1.1 = {
 		add_spouse = 2101207
+	}
+	2527.1.1 = {
+		employer = 2101200
 	}
 	2531.1.1 = { death = yes }
 }
@@ -3338,7 +3358,7 @@
 	mother = 2101503
 	father = 2101510
 	disallow_random_traits = yes
-	2466.1.1 = { birth = yes }
+	2450.1.1 = { birth = yes }
 	2521.1.1 = { death = yes }
 }
 
@@ -3633,6 +3653,51 @@
 			killer = 2100700
 		}
 	}
+}
+
+2101617 = { #Aktor
+	name = "Aktor"
+	dynasty = 2100019 #Deioneid
+	culture = achaean	
+	religion = pantes_theoi
+	father = 2101614
+	mother = 2101615
+	disallow_random_traits = yes
+	2463.1.1 = { birth = yes }
+	2483.1.1 = {
+		add_spouse = 1100191
+	}
+	2523.1.1 = { death = yes }
+}
+
+2101618 = { #Menoitios
+	name = "Menoitios"
+	dynasty = 2100019 #Deioneid
+	culture = achaean	
+	religion = pantes_theoi
+	father = 2101617
+	mother = 1100191
+	disallow_random_traits = yes
+	2483.1.1 = { birth = yes }
+	2507.1.1 = {
+		add_spouse = 2102411
+	}
+	2523.1.1 = { death = yes }
+}
+
+2101619 = { #Pátroklos
+	name = "Pátroklos"
+	dynasty = 2100019 #Deioneid
+	culture = achaean	
+	religion = pantes_theoi
+	father = 2101618
+	mother = 2102411
+	disallow_random_traits = yes
+	2507.1.1 = { birth = yes }
+	2527.1.1 = {
+		employer = 2101600
+	}
+	2567.1.1 = { death = yes }
 }
 
 #Royal Family of Calydon (2101700-2101799)
@@ -3966,11 +4031,19 @@
 	trait = proud
 	trait = fair
 	trait = groomed
+	trait = immortal
+	immortal_age = 20
 	father = 2102100
 	mother = 1100082
 	disallow_random_traits = yes
 	2501.1.1 = { birth = yes }
-	2533.1.1 = { death = yes }
+	2501.1.1 = {
+		effect = {
+			set_character_flag = destined_hero
+			set_character_flag = achilles
+		}
+	}
+	2536.1.1 = { death = yes }
 }
 
 2102102 = { #Púrrhos
@@ -3982,6 +4055,9 @@
 	mother = 2103201
 	trait = legit_bastard
 	2521.1.1 = { birth = yes }
+	2527.1.1 = {
+		employer = 2102100
+	}
 	2591.1.1 = { death = yes }
 }
 
@@ -4160,6 +4236,11 @@
 	2496.1.1 = { birth = yes }
 	2518.1.1 = {
 		add_spouse = 2101011
+	}
+	2527.1.1 = {
+		effect = {
+			set_character_flag = destined_hero
+		}
 	}
 	2566.1.1 = { death = yes }
 }
@@ -4404,6 +4485,7 @@
 	2501.1.1 = { death = yes }
 }
 
+
 2102409 = { #Kretheus
 	name = "Kretheus"
 	dynasty = 2100025 #Kretheid
@@ -4418,6 +4500,30 @@
 	}
 	2471.1.1 = { death = yes }
 }
+
+2102410 = { #Akastos
+	name = "Akastos"
+	dynasty = 2100026 #Peliad
+	culture = achaean	
+	religion = pantes_theoi
+	father = 2102408
+	mother = 2102407
+	disallow_random_traits = yes
+	2445.1.1 = { birth = yes }
+	2505.1.1 = { death = yes }
+}
+
+2102411 = { #Sthenele
+	name = "Sthenele"
+	dynasty = 2100026 #Peliad
+	culture = achaean	
+	religion = pantes_theoi
+	father = 2102410
+	disallow_random_traits = yes
+	2487.1.1 = { birth = yes }
+	2550.1.1 = { death = yes }
+}
+
 
 #Royal Family of Phylace (2102500-2102599)
 2102500 = { #Podarkes, King of Phylace
@@ -4584,6 +4690,18 @@
 	2516.1.1 = { death = yes }
 }
 
+2102706 = { #Phoinix
+	name = "Phoinix"
+	dynasty = 2100028 #Ormenid
+	culture = achaean
+	religion = pantes_theoi
+	father = 2102703
+	mother = 2102707
+	disallow_random_traits = yes
+	2481.1.1 = { birth = yes }
+	2541.1.1 = { death = yes }
+}
+
 2102703 = { #Amýntor, King of Ormenion
 	name = "Amýntor"
 	dynasty = 2100028 #Ormenid
@@ -4592,8 +4710,25 @@
 	father = 2102704
 	disallow_random_traits = yes
 	2461.1.1 = { birth = yes }
+	2481.1.1 = {
+		add_spouse = 2102707
+	}
 	2521.1.1 = { death = yes }
 }
+
+2102707 = { #Kleovoúle
+	name = "Kleovoúle"
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	disallow_random_traits = yes
+	2461.1.1 = { birth = yes }
+	2481.1.1 = {
+		add_spouse = 2102703
+	}
+	2521.1.1 = { death = yes }
+}
+
 
 2102704 = { #Ormenos, King of Ormenion
 	name = "Ormenos"
@@ -5000,4 +5135,34 @@
 	2520.1.1 = { death = yes }
 }
 
+#Royal Family of Lemnos (2103800-2103899)
+2103800 = { #Euneos, King of Lemnos
+	name = "Euneos"
+	dynasty = 2100040 #Thoasid
+	culture = achaean	
+	religion = pantes_theoi #Temporary
+	mother = 2103801
+	2510.1.1 = { birth = yes }
+	2570.1.1 = { death = yes }
+}
 
+2103801 = { #Hupsipule, Queen of Lemnos
+	name = "Hupsipule"
+	dynasty = 2100040 #Thoasid
+	culture = achaean	
+	religion = pantes_theoi #Temporary
+	father = 2103802
+	2490.1.1 = { birth = yes }
+	2527.1.1 = { death = yes }
+}
+
+2103802 = { #Thoas, King of Lemnos
+	name = "Thoas"
+	dynasty = 2100040 #Thoasid
+	culture = achaean	
+	religion = pantes_theoi #Temporary
+	father = 1100156
+	mother = 2101514
+	2470.1.1 = { birth = yes }
+	2520.1.1 = { death = yes }
+}

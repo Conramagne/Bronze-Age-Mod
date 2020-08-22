@@ -2,7 +2,7 @@ title=c_saranduwa
 
 max_settlements= 2
 b_saranduwa= tribal
-b_kirsu = temple
+# b_kirsu = temple
 
 culture=luwian
 religion=haianiluwi

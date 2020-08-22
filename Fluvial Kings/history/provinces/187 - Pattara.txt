@@ -1,7 +1,7 @@
 title=c_pattara
 
 max_settlements= 1
-b_pattara=castle
+b_pattara=tribal
 
 culture=lycian
 religion=haianiluwi

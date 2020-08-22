@@ -2,8 +2,8 @@ title=c_gassu
 
 max_settlements= 3
 b_gassu= tribal
-b_timuhala = city
-b_tahappisuna = temple
+# b_timuhala = city
+# b_tahappisuna = temple
 
 culture=pala
 religion=ishalitethai

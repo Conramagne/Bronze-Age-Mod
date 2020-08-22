@@ -255,7 +255,10 @@ character_event = { # Nomads may pillage holdings on siege
 			factor = 60
 			modifier = {
 				factor = 1.2
-				is_tribal = yes
+				OR = {
+					is_tribal = yes
+					temporary = yes
+				}
 			}
 		}
 		

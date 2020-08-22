@@ -34,6 +34,7 @@
 	2501.1.1 = { birth = yes }
 	2522.1.1 = {
 		add_spouse = 2200501
+		employer = 2200000
 	}
 	2561.1.1 = { death = yes }
 }
@@ -204,6 +205,55 @@
 	2425.1.1 = { death = yes }
 }
 
+2200017 = { #Kassandra
+	name = "Kassandra"
+	dynasty = 2200000 #Dardanid
+	culture = wilusan
+	religion = assussani
+	female = yes
+	father = 2200000
+	mother = 2200001
+	trait = twin
+	2509.1.1 = { birth = yes }
+	2569.1.1 = { death = yes }
+}
+
+2200018 = { #Helenos
+	name = "Helenos"
+	dynasty = 2200000 #Dardanid
+	culture = wilusan
+	religion = assussani
+	father = 2200000
+	mother = 2200001
+	trait = twin
+	2509.1.1 = { birth = yes }
+	2569.1.1 = { death = yes }
+}
+
+2200020 = { #Poluxena
+	name = "Poluxena"
+	dynasty = 2200000 #Dardanid
+	culture = wilusan
+	religion = assussani
+	female = yes
+	father = 2200000
+	mother = 2200001
+	2511.1.1 = { birth = yes }
+	2571.1.1 = { death = yes }
+}
+
+
+2200019 = { #Lukaon
+	name = "Lukaon"
+	dynasty = 2200000 #Dardanid
+	culture = wilusan
+	religion = assussani
+	father = 2200000
+	2502.1.1 = { birth = yes }
+	2562.1.1 = { death = yes }
+}
+
+
 #Royal Family of Dardania (2200100-2200199)
 2200100 = { #Ankhíses, King of Dardania
 	name = "Ankhíses"
@@ -241,6 +291,7 @@
 	2506.1.1 = { birth = yes }
 	2526.1.1 = {
 		add_spouse = 2200005
+		employer = 2200100
 	}
 	2571.1.1 = { death = yes }
 }
@@ -524,7 +575,7 @@
 	2565.1.1 = { death = yes }
 }
 
-2200702 = { #Hippodámeia
+2200702 = { #Hippodámeia (Briseis)
 	name = "Hippodámeia"
 	culture = mysian
 	religion = haianiluwi
@@ -542,6 +593,30 @@
 	culture = mysian
 	religion = haianiluwi
 	2485.1.1 = { birth = yes }
+	2527.1.1 = {
+		employer = 2200700
+	}
+	2545.1.1 = { death = yes }
+}
+
+2200704 = { #Astunome (Chryseis)
+	name = "Astunome"
+	culture = mysian
+	religion = haianiluwi
+	female = yes
+	father = 2200705
+	2505.1.1 = { birth = yes }
+	2565.1.1 = { death = yes }
+}
+
+2200705 = { #Khrúses
+	name = "Khrúses"
+	culture = mysian
+	religion = haianiluwi
+	2485.1.1 = { birth = yes }
+	2527.1.1 = {
+		employer = 2200700
+	}
 	2545.1.1 = { death = yes }
 }
 
@@ -618,10 +693,10 @@
 	2480.1.1 = { death = yes }
 }
 
-#Royal Family of Maeonia (2201000-2201099)
-2201000 = { #Nastes, King of Karkiya
-	name = "Nastes"
-	dynasty = 2200009 #Nomionid
+#Royal Family of Karkiya (2201000-2201099)
+2201000 = { #Atumnios, King of Karkiya
+	name = "Atumnios"
+	dynasty = 2200009 #Amisodarid
 	culture = carian
 	religion = haianiluwi
 	father = 2201002
@@ -629,9 +704,9 @@
 	2560.1.1 = { death = yes }
 }
 
-2201001 = { #Amphimakhos
-	name = "Amphimakhos"
-	dynasty = 2200009 #Nomionid
+2201001 = { #Maris
+	name = "Maris"
+	dynasty = 2200009 #Amisodarid
 	culture = carian
 	religion = haianiluwi
 	father = 2201002
@@ -639,9 +714,36 @@
 	2563.1.1 = { death = yes }
 }
 
-2201002 = { #Nomion, King of Karkiya
+2201002 = { #Amisodarios, King of Karkiya
+	name = "Amisodarios"
+	dynasty = 2200009 #Amisodarid
+	culture = carian
+	religion = haianiluwi
+	disallow_random_traits = yes
+	2470.1.1 = { birth = yes }
+	2525.1.1 = { death = yes }
+}
+
+2201003 = { #Nastes
+	name = "Nastes"
+	culture = carian
+	religion = haianiluwi
+	father = 2201002
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+2201004 = { #Amphimakhos
+	name = "Amphimakhos"
+	culture = carian
+	religion = haianiluwi
+	father = 2201002
+	2503.1.1 = { birth = yes }
+	2563.1.1 = { death = yes }
+}
+
+2201005 = { #Nomion
 	name = "Nomion"
-	dynasty = 2200009 #Nomionid
 	culture = carian
 	religion = haianiluwi
 	disallow_random_traits = yes
@@ -657,6 +759,11 @@
 	religion = haianiluwi
 	father = 2201101
 	2500.1.1 = { birth = yes }
+	2520.1.1 = {
+		effect = {
+			set_character_flag = glaucus
+		}
+	}
 	2560.1.1 = { death = yes }
 }
 
@@ -750,22 +857,66 @@
 }
 
 #Royal Family of Ascania (2201200-2201299)
-2201200 = { #Phorkus, King of Ascania
+2201200 = { #Phorkus
 	name = "Phorkus"
-	dynasty = 2200011 #Phaenopid
 	culture = phrygian
 	religion = haianiluwi #Temporary
 	father = 2201201
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+2201201 = { #Phaenops
+	name = "Phaenops"
+	culture = phrygian
+	religion = haianiluwi #Temporary
+	disallow_random_traits = yes
+	2460.1.1 = { birth = yes }
+	2520.1.1 = { death = yes }
+}
+
+2201203 = { #Koroebos, King of Ascania
+	name = "Koroebos"
+	dynasty = 2200011 #Akmonid
+	culture = phrygian
+	religion = haianiluwi #Temporary
+	father = 2201204
+	mother = 2201206
 	2505.1.1 = { birth = yes }
 	2560.1.1 = { death = yes }
 }
 
-2201201 = { #Phaenops, King of Ascania
-	name = "Phaenops"
-	dynasty = 2200011 #Phaenopid
+2201204 = { #Mugdon, King of Ascania
+	name = "Mugdon"
+	dynasty = 2200011 #Akmonid
 	culture = phrygian
 	religion = haianiluwi #Temporary
+	father = 2201205
+	disallow_random_traits = yes
 	2465.1.1 = { birth = yes }
+	2525.1.1 = { death = yes }
+}
+
+2201205 = { #Akmon, King of Ascania
+	name = "Akmon"
+	dynasty = 2200011 #Akmonid
+	culture = phrygian
+	religion = haianiluwi #Temporary
+	disallow_random_traits = yes
+	2440.1.1 = { birth = yes }
+	2500.1.1 = { death = yes }
+}
+
+2201206 = { #Anaximene
+	name = "Anaximene"
+	culture = phrygian
+	religion = haianiluwi #Temporary
+	female = yes
+	disallow_random_traits = yes
+	2465.1.1 = { birth = yes }
+	2485.1.1 = {
+		add_spouse = 2201204
+	}
 	2525.1.1 = { death = yes }
 }
 

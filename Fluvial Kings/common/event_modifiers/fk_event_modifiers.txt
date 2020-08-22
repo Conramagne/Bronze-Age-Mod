@@ -24,7 +24,7 @@ levy_tribute = {
 }
 
 foreign_rule = {
-	local_revolt_risk = 0.1
+	local_revolt_risk = 0.05
 	icon = 28
 }
 
@@ -33,6 +33,11 @@ imperial_authority = {
 	is_visible = { 
 		character = FROM
 	}
+}
+
+trojan_walls = {
+	siege_defence = 999.0
+	icon = 13
 }
 
 imperial_authority_increase_war = {
@@ -166,20 +171,20 @@ demeter_boon_2 = {
 	icon = 87
 }
 demeter_boon_3 = {
-	global_revolt_risk = -0.1
+	global_revolt_risk = -0.05
 	icon = 87
 }
 
 apollon_boon_1 = {
-	light_cavalry_defensive = 0.25
+	archers_defensive = 0.25
 	icon = 133
 }
 apollon_boon_2 = {
-	light_cavalry_offensive = 0.25
+	archers_offensive = 0.25
 	icon = 133
 }
 apollon_boon_3 = {
-	light_cavalry_morale = 0.25
+	archers_morale = 0.25
 	icon = 133
 }
 apollon_boon_4 = {
@@ -375,7 +380,7 @@ demeter_curse_3 = {
 }
 
 apollon_curse_1 = {
-	light_cavalry_defensive = -0.25
+	archers_defensive = -0.25
 	icon = 134
 }
 apollon_curse_2 = {

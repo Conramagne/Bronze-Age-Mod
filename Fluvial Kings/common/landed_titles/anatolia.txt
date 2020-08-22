@@ -242,11 +242,14 @@ e_hittite_empire = {
 				
 				b_tumanna = {}
 			}
-			c_sappa = {
-				color={ 234 42 71 }
+			c_athulissa = {
+				color={ 255 136 25 }
 				color2={ 255 255 255 }
 				
-				b_sappa = {}
+				b_athulissa = {}
+				b_tuhupurpuna = {}
+				b_sappiduwa = {}
+				b_tapapanuwa = {}
 			}
 		}
 		d_kassiya = { 
@@ -271,15 +274,6 @@ e_hittite_empire = {
 				b_salatiwara = {}
 				b_ankala = {}
 			}
-			c_athulissa = {
-				color={ 255 136 25 }
-				color2={ 255 255 255 }
-				
-				b_athulissa = {}
-				b_tuhupurpuna = {}
-				b_sappiduwa = {}
-				b_tapapanuwa = {}
-			}
 			c_piddaniyasa = {
 				color={ 226 157 138 }
 				color2={ 255 255 255 }
@@ -287,6 +281,12 @@ e_hittite_empire = {
 				b_piddaniyasa = {}
 				b_ippasana = {}
 				b_aliassa = {}
+			}
+			c_sappa = {
+				color={ 234 42 71 }
+				color2={ 255 255 255 }
+				
+				b_sappa = {}
 			}
 		}
 		d_kasula = { 
@@ -716,17 +716,17 @@ e_hittite_empire = {
 				b_dromolaxia = {}
 			}
 		}
-		d_palaepaphos = { 
+		d_paphos = { 
 			color={ 95 184 43 }
 			color2={ 255 255 255 }
 	
-			capital = 70 #Palaepaphos
+			capital = 70 #Paphos
 			
-			c_palaepaphos = {
+			c_paphos = {
 				color={ 95 184 43 }
 				color2={ 255 255 255 }
 				
-				b_palaepaphos = {}
+				b_paphos = {}
 				b_alassa = {}
 				b_episkopi = {}
 			}

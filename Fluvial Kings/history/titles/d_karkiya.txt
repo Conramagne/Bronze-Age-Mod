@@ -3,8 +3,8 @@
 	law = succ_gavelkind
 }
 2490.1.1={
-	holder = 2201002 #Nomion
+	holder = 2201002 #Amisodarus
 }
 2520.1.1={
-	holder = 2201000 #Nastes
+	holder = 2201000 #Atymnius
 }
