@@ -202,6 +202,37 @@ arrow_heracles = {
     }
 }
 
+shield_ajax = {
+    max_amount = 1
+    spawn_date = 2527.1.1
+	
+	spawn_chance = {
+		value = 100
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Holy Fury" }
+		}
+	}
+    
+    weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			father = {
+				primary_title = {
+					title = d_salamis
+				}
+			}
+		}
+	}
+    artifacts = {
+        shield_ajax = {
+            value = 1
+        }
+    }
+}
+
+
 bone_pelops = {
     max_amount = 1
     spawn_date = 2527.1.1
@@ -219,7 +250,7 @@ bone_pelops = {
 		additive_modifier = {
 			value = 100
 			primary_title = {
-				title = c_olympia
+				title = d_elis
 			}
 		}
 	}

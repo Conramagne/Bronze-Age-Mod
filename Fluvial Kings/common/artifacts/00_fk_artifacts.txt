@@ -170,6 +170,25 @@ arrow_heracles = {
 	slot = weapon
 }
 
+shield_ajax = {
+	monthly_character_prestige = 1
+	martial = 2
+	combat_rating = 15
+	command_modifier = { morale_offence = 0.15 }
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { shield legendary }
+	picture = "GFX_warden_armor"
+	slot = shield
+	stacking = no
+	indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}
+
 bone_pelops = {
 	quality = 2
 	monthly_character_prestige = 0.25

@@ -886,6 +886,9 @@ bow_eurytus_desc;Originally belonging to the famed archer King Eurutos of Oikhal
 arrow_heracles;Arrows of Herakles;;;;;;;;;;;;;x
 arrow_heracles_desc;Dipped in the poisonous blood of the Lérne Húdra, a single scratch from its point is enough to kill a man.;;;;;;;;;;;;;x
 
+shield_ajax;Shield of Ajax
+shield_ajax_desc;Made of bronze and seven layers of ox-hide, this shield forged for Aías, son of Telamon provides excellent defense against any foe.;;;;;;;;;;;;;x
+
 bone_pelops;Ivory Shoulder of Pelops;;;;;;;;;;;;;x
 bone_pelops_desc;This beautifully crafted piece of ivory was fashioned by Demeter as a replacement for Pelops' shoulder, which was accidently eaten when his father Tantalos served him to the gods.;;;;;;;;;;;;;x
 
@@ -913,4 +916,4 @@ opposite_gender_TT;Must be the opposite gender.;;;;;;;;;;;;;x
 tooltip_title_same_culture;Has same culture as capital of the title;;;;;;;;;;;;;x
 
 GOVERNMENT_UNIT_BONUS;Government Unit Bonus;;;;;;;;;;;;;x
-HERO_TITLE; ;;;;;;;;;;;;;x
+HERO_TITLE;Heros;;;;;;;;;;;;;x

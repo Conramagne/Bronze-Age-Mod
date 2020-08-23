@@ -2092,7 +2092,7 @@ character_event = {
 						is_incapable = no
 					}
 				}
-				c_2102600 { #Philoktetes
+				c_2102600 = { #Philoktetes
 					is_alive = yes
 					is_incapable = no
 				}
@@ -2106,7 +2106,7 @@ character_event = {
 		}
 		else_if = {
 			limit = {
-				c_2102600 { #Philoktetes
+				c_2102600 = { #Philoktetes
 					is_alive = yes
 					is_incapable = no
 				}
@@ -2365,7 +2365,7 @@ character_event = {
 						is_incapable = no
 					}
 				}
-				c_2102102 { #Pyrrhus
+				c_2102102 = { #Pyrrhus
 					is_alive = yes
 					is_incapable = no
 				}
@@ -2379,7 +2379,7 @@ character_event = {
 		}
 		else_if = {
 			limit = {
-				c_2102102 { #Pyrrhus
+				c_2102102 = { #Pyrrhus
 					is_alive = yes
 					is_incapable = no
 				}
@@ -3219,7 +3219,7 @@ character_event = {
 			}
 			end_war = success
 		}
-		ai_chance  {
+		ai_chance = {
 			factor = 50
 		}
 	}
@@ -3236,7 +3236,7 @@ character_event = {
 			}
 			end_war = success
 		}
-		ai_chance  {
+		ai_chance = {
 			factor = 50
 		}
 	}
