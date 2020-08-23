@@ -350,21 +350,21 @@ EVTOPTAFKA14;Take everything of value, and leave nothing behind.;;;;;;;;;;;;;x
 EVTOPTBFKA14;We are not petty like them, we will leave it be.;;;;;;;;;;;;;x
 
 EVTDESCFKA16;I shall venture to the tomb of a local hero on my way to the holy places! Perhaps I can learn many things from their deeds, as I learn more about the divine's role in our lives.;;;;;;;;;;;;;x
-EVTOPTAFKA16_1;I shall visit [first_burial_site.GetFirstName];;;;;;;;;;;;;x
-EVTOPTAFKA16_2;I shall visit [first_burial_site.GetFirstName];;;;;;;;;;;;;x
-EVTOPTAFKA16_3;I shall visit [first_burial_site.GetFirstName];;;;;;;;;;;;;x
+EVTOPTAFKA16_1;I shall visit [first_burial_site.GetName];;;;;;;;;;;;;x
+EVTOPTAFKA16_2;I shall visit [first_burial_site.GetName];;;;;;;;;;;;;x
+EVTOPTAFKA16_3;I shall visit [first_burial_site.GetName];;;;;;;;;;;;;x
 
-EVTOPTBFKA16_1;I shall visit [second_burial_site.GetFirstName];;;;;;;;;;;;;x
-EVTOPTBFKA16_2;I shall visit [second_burial_site.GetFirstName];;;;;;;;;;;;;x
-EVTOPTBFKA16_3;I shall visit [second_burial_site.GetFirstName];;;;;;;;;;;;;x
+EVTOPTBFKA16_1;I shall visit [second_burial_site.GetName];;;;;;;;;;;;;x
+EVTOPTBFKA16_2;I shall visit [second_burial_site.GetName];;;;;;;;;;;;;x
+EVTOPTBFKA16_3;I shall visit [second_burial_site.GetName];;;;;;;;;;;;;x
 
-EVTOPTCFKA16_1;I shall visit [third_burial.GetFirstName];;;;;;;;;;;;;x
-EVTOPTCFKA16_2;I shall visit [third_burial.GetFirstName];;;;;;;;;;;;;x
-EVTOPTCFKA16_3;I shall visit [third_burial.GetFirstName];;;;;;;;;;;;;x
+EVTOPTCFKA16_1;I shall visit [third_burial.GetName];;;;;;;;;;;;;x
+EVTOPTCFKA16_2;I shall visit [third_burial.GetName];;;;;;;;;;;;;x
+EVTOPTCFKA16_3;I shall visit [third_burial.GetName];;;;;;;;;;;;;x
 
-EVTOPTDFKA16_1;I shall visit [fourth_burial.GetFirstName];;;;;;;;;;;;;x
-EVTOPTDFKA16_2;I shall visit [fourth_burial.GetFirstName];;;;;;;;;;;;;x
-EVTOPTDFKA16_3;I shall visit [fourth_burial.GetFirstName];;;;;;;;;;;;;x
+EVTOPTDFKA16_1;I shall visit [fourth_burial.GetName];;;;;;;;;;;;;x
+EVTOPTDFKA16_2;I shall visit [fourth_burial.GetName];;;;;;;;;;;;;x
+EVTOPTDFKA16_3;I shall visit [fourth_burial.GetName];;;;;;;;;;;;;x
 
 EVTDESCFKA17;Traveling along a well kept path along the forested hills, passing by many plain cottages as you make your way to the various holy places that dot the serene hillsides.;;;;;;;;;;;;;x
 EVTOPTAFKA17;Onwards I go!;;;;;;;;;;;;;x
