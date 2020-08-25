@@ -214,6 +214,7 @@
 	father = 2200000
 	mother = 2200001
 	trait = twin
+	trait = mystic
 	2509.1.1 = { birth = yes }
 	2569.1.1 = { death = yes }
 }
@@ -230,6 +231,17 @@
 	2569.1.1 = { death = yes }
 }
 
+2200021 = { #Deiphobos
+	name = "Deiphobos"
+	dynasty = 2200000 #Dardanid
+	culture = wilusan
+	religion = assussani
+	father = 2200000
+	mother = 2200001
+	2507.1.1 = { birth = yes }
+	2567.1.1 = { death = yes }
+}
+
 2200020 = { #Poluxena
 	name = "Poluxena"
 	dynasty = 2200000 #Dardanid
@@ -242,7 +254,6 @@
 	2571.1.1 = { death = yes }
 }
 
-
 2200019 = { #Lukaon
 	name = "Lukaon"
 	dynasty = 2200000 #Dardanid
@@ -252,7 +263,6 @@
 	2502.1.1 = { birth = yes }
 	2562.1.1 = { death = yes }
 }
-
 
 #Royal Family of Dardania (2200100-2200199)
 2200100 = { #Ankhíses, King of Dardania

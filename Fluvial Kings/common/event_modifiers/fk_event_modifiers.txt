@@ -554,6 +554,15 @@ high_militarization = {
 }
 
 #Others
+trojan_war_wealth = {
+	icon = 10
+	# global_tax_modifier = 6
+	is_visible = { 
+		always = no
+	}
+}
+
+
 requested_personal_tribute = {
 	icon = 6
 }

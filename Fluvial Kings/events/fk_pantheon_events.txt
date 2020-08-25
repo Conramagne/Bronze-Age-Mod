@@ -600,6 +600,18 @@ character_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_character_flag = flag_god
+		OR = {
+			NOT = {
+				religion_group = hellenic
+			}
+			trait = zeus
+			trait = ares
+			trait = athene
+			trait = demeter
+			trait = apollon
+			trait = hermes
+			trait = aphrodite
+		}
 	}
 	
 	immediate = {
@@ -1374,7 +1386,7 @@ character_event = {
 			dynasty = mother
 		}
 		else = { #failsafe to prevent dynasty being Theogonos
-			dynasty = none
+			dynasty = father_bastard
 		}
 		remove_trait = bastard
 		remove_trait = legit_bastard

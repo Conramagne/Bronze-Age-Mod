@@ -1396,6 +1396,9 @@ trojan_war_cb = {
 	}
 	
 	on_success = {
+		any_playable_ruler = {
+			narrative_event = { id = tw.99 } #End of the Trojan War, Troy Stands
+		}
 		ROOT = {
 			if = {
 				limit = {
@@ -1482,6 +1485,9 @@ trojan_war_cb = {
 	}
 
 	on_reverse_demand = {
+		any_playable_ruler = {
+			narrative_event = { id = tw.100 } #End of the Trojan War, Troy Wins
+		}
 		FROM = {
 			if = {
 				limit = {

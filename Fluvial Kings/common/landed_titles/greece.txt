@@ -870,6 +870,7 @@ e_greek_empire = {
 				color = { 198 132 232 }
 				color2 = { 255 255 255 }
 				holy_site = pantes_theoi
+				holy_site = assussani
 				
 				b_samothraki = {}
 				b_iero_ton_kabieroi = {}

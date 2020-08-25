@@ -84,6 +84,9 @@ character_event = {
 		}
 		else = {
 			liege = {
+				capital_scope = {
+					save_event_target_as = hero_capital
+				}
 				random_demesne_province = {
 					limit = {
 						NOR = {
@@ -358,7 +361,64 @@ character_event = {
 		else = {
 			#Confirm that a burial site exists, for pilgrimage
 			set_global_flag = heroic_burial_sites_exist
+			event_target:hero_capital = {
+				owner = {
+					save_event_target_as = hero_capital_owner
+				}
+			}
 			if = {
+				limit = {
+					NOR = {
+						event_target:hero_capital = {
+							has_province_modifier = tomb_of_a_hero
+						}
+						event_target:hero_capital = {
+							has_province_modifier = pillaged_tomb_of_a_hero
+						}
+					}
+				}
+				event_target:hero_capital = {
+					setting_up_heroic_burial_site_effect = yes
+					save_persistent_event_target = {
+						name = province_hero
+						scope = event_target:hero_person
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					event_target:hero_capital = {
+						any_neighbor_province = {
+							owner = {
+								character = event_target:hero_capital_owner
+							}
+							NOR = {
+								has_province_modifier = tomb_of_a_hero
+								has_province_modifier = pillaged_tomb_of_a_hero
+							}
+						}
+					}
+				}
+				event_target:hero_capital = {
+					random_neighbor_province = {
+						limit = {
+							owner = {
+								character = event_target:hero_capital_owner
+							}
+							NOR = {
+								has_province_modifier = tomb_of_a_hero
+								has_province_modifier = pillaged_tomb_of_a_hero
+							}
+						}
+						setting_up_heroic_burial_site_effect = yes
+						save_persistent_event_target = {
+							name = province_hero
+							scope = event_target:hero_person
+						}
+					}
+				}
+			}
+			else_if = {
 				limit = {
 					NOR = {
 						event_target:random_hero_demesne_province = {
@@ -371,6 +431,10 @@ character_event = {
 				}
 				event_target:random_hero_demesne_province = {
 					setting_up_heroic_burial_site_effect = yes
+					save_persistent_event_target = {
+						name = province_hero
+						scope = event_target:hero_person
+					}
 				}
 			}
 			else_if = {
@@ -385,7 +449,11 @@ character_event = {
 					}
 				}
 				event_target:random_hero_realm_province = {
-					setting_up_heroic_burial_site_effect = yes             
+					setting_up_heroic_burial_site_effect = yes     
+					save_persistent_event_target = {
+						name = province_hero
+						scope = event_target:hero_person
+					}					
 				}
 			}
 		}

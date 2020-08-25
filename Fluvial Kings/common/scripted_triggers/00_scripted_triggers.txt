@@ -1012,6 +1012,7 @@ can_be_chancellor_trigger = {
 	prisoner = no
 	NOT = { trait = incapable }
 	NOT = { trait = in_hiding }
+	NOT = { has_character_flag = achilles }
 	NOT = { has_character_modifier = resigned_in_anger }
 	NOT = { 
 		liege = { 
@@ -1086,6 +1087,7 @@ can_be_marshal_trigger = {
 	NOT = { trait = in_hiding }
 	NOT = { has_character_flag = guru }
 	NOT = { has_character_modifier = resigned_in_anger }
+	NOT = { has_character_flag = achilles }
 	NOT = { 
 		liege = { 
 			has_opinion_modifier = {
@@ -1159,6 +1161,7 @@ can_be_treasurer_trigger = {
 	NOT = { trait = in_hiding }
 	NOT = { has_character_flag = guru }
 	NOT = { has_character_modifier = resigned_in_anger }
+	NOT = { has_character_flag = achilles }
 	NOT = { 
 		liege = { 
 			has_opinion_modifier = {
@@ -1243,6 +1246,7 @@ can_be_spymaster_trigger = {
 	NOT = { trait = in_hiding }
 	NOT = { has_character_flag = guru }
 	NOT = { has_character_modifier = resigned_in_anger }
+	NOT = { has_character_flag = achilles }
 	NOT = { 
 		liege = { 
 			has_opinion_modifier = {
@@ -1322,6 +1326,7 @@ can_be_spiritual_trigger = {
 	OR = {
 		# NOT = { religion_group = muslim }
 		# NOT = { liege = { religion_group = muslim } }
+		NOT = { has_character_flag = achilles }
 		trait = detached_priest
 		trait = martial_cleric
 		trait = scholarly_theologian

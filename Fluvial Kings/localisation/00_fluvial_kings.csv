@@ -27,7 +27,7 @@ bull;Taúrou;;;;;;;;;;;;;x
 european;Europes;;;;;;;;;;;;;x
 thracian;Thraikós;;;;;;;;;;;;;x
 disakenthas;Disakenthas;;;;;;;;;;;;;x
-###########Government and Law###########
+###########Government and Laws###########
 feudal_government;Local Polity;;;;;;;;;;;;;x
 feudal_government_desc;Local polities are states that have arisen from disunited tribes and confederations or have slipped out of the grasps of larger realms. Often considered nothing more than petty states with squabbling tyrants whose authority barely extends beyond the walls of their citadels, they lack the courtly grandeur and the ability to administer more than their local communities.;;;;;;;;;;;;;x
 
@@ -61,20 +61,23 @@ viceroyalty_succession;Military Governorship;;;;;;;;;;;;;x
 succ_viceroyalty_desc;Military Governorship;;;;;;;;;;;;;x
 succ_viceroyalty_succession_desc;Military Governors are appointed on the behest of their liege to govern a province or polity, a legal representative of their liege (sometimes even being of kin). They are appointed and thus can be replaced at the whim of their liege.;;;;;;;;;;;;;x
 
-system_law;Government System;;;;;;;;;;;;;x
-system_law_desc;The government system defines whether the realm relies on the courtly skills of their council or the magistrates of the cities of the realm.;;;;;;;;;;;;;x
-system_law_0;Oligarchy;;;;;;;;;;;;;x
-system_law_0_desc;Oligarchic States are reliant on their magistrates and local administrators of their realm's cities and provinces. Particularly cunning or shrewd administrators will prefer this form of governance as it is much easier to bypass the will of the Royal Family and Palace Court. The monarch will get a boon in taxes at the expense of their army. They will also be greatly restricted in their capacity to govern outside the palace and are more at the mercy of influential vassals.;;;;;;;;;;;;;x
-system_law_1;Stately;;;;;;;;;;;;;x
-system_law_1_desc;The royal court and family are the primary conduit for which the realm is governed. It is understood that the Monarch is a regent of the Divine and and thus their offsprings should succeed them, though that may not always be possible or practical. The warrior-aristocrats and palace scribes in the council greatly favor the strength of their lord. As a result the armies they field, wield a zeal for their liege but provincial lords scoff at the lost of their autonomy and may not be willing to cooperate with their sovereign.;;;;;;;;;;;;;x
+# system_law;Government System;;;;;;;;;;;;;x
+# system_law_desc;The government system defines whether the realm relies on the courtly skills of their council or the magistrates of the cities of the realm.;;;;;;;;;;;;;x
+# system_law_0;Oligarchy;;;;;;;;;;;;;x
+# system_law_0_desc;Oligarchic States are reliant on their magistrates and local administrators of their realm's cities and provinces. Particularly cunning or shrewd administrators will prefer this form of governance as it is much easier to bypass the will of the Royal Family and Palace Court. The monarch will get a boon in taxes at the expense of their army. They will also be greatly restricted in their capacity to govern outside the palace and are more at the mercy of influential vassals.;;;;;;;;;;;;;x
+# system_law_1;Stately;;;;;;;;;;;;;x
+# system_law_1_desc;The royal court and family are the primary conduit for which the realm is governed. It is understood that the Monarch is a regent of the Divine and and thus their offsprings should succeed them, though that may not always be possible or practical. The warrior-aristocrats and palace scribes in the council greatly favor the strength of their lord. As a result the armies they field, wield a zeal for their liege but provincial lords scoff at the lost of their autonomy and may not be willing to cooperate with their sovereign.;;;;;;;;;;;;;x
 
 foreigner_law;Status of Foreigners;;;;;;;;;;;;;x
 foreigner_law_desc;The status afforded to the foreigners that reside in the realm.;;;;;;;;;;;;;x
-foreigner_law_0;Harsh;;;;;;;;;;;;;x
+foreigner_law_0;Harsh Treatment;;;;;;;;;;;;;x
+foreigner_law_0_option;Harsh;;;;;;;;;;;;;x
 foreigner_law_0_desc;Dare we call them people? Dogs befits their stature and character better, and they will know who their masters are.;;;;;;;;;;;;;x
-foreigner_law_1;Neutral;;;;;;;;;;;;;x
+foreigner_law_1;Neutral Treatment;;;;;;;;;;;;;x
+foreigner_law_1_option;Neutral;;;;;;;;;;;;;x
 foreigner_law_1_desc;We placed no significance to the foreigners that reside in our realm and treat them with indifference.;;;;;;;;;;;;;x
-foreigner_law_2;Autonomous;;;;;;;;;;;;;x
+foreigner_law_2;Autonomous Treatment;;;;;;;;;;;;;x
+foreigner_law_2_option;Autonomous;;;;;;;;;;;;;x
 foreigner_law_2_desc;These foreigners are given autonomy in our realm so long as they acknowledge our sovereignty.;;;;;;;;;;;;;x
 
 tribute_law;Tribute Status;;;;;;;;;;;;;x
@@ -85,6 +88,10 @@ tribute_law_1;Neutral;;;;;;;;;;;;;x
 tribute_law_1_desc;Tributes are asked to contribute their fair share and troops for the good of the realm.;;;;;;;;;;;;;x
 tribute_law_2;Levied;;;;;;;;;;;;;x
 tribute_law_2_desc;Tributes are asked to contribute a larger share of their armies for the good of the realm, at the expense of tribute tax.;;;;;;;;;;;;;x
+
+ze_administration_laws_3;Palatial Administration;;;;;;;;;;;;;x
+ze_administration_laws_3_option;Palatial;;;;;;;;;;;;;x
+ze_administration_laws_3_desc;Palatial societies are based entirely upon the central palace and its bureaucracy. The palace complex manages all affairs of the realm, with smaller cities existing to serve it. This system is highly centralized, which lends itself both a rich state and a disgruntled set of vassals.;;;;;;;;;;;;;x
 
 ###########Religions###########
 bnai_avraham;B'nai Avraham;;;;;;;;;;;;;x
@@ -126,7 +133,7 @@ pantes_theoi_DESC;"...and the earth groaned beneath them as at the wrath of Zeus
 pantes_theoi_FEATURES;§Y*§! Pantes Theoi rulers may contact the gods Zeus, Ares, Athene, Demeter, Apollon, Hermes, and Aphrodite.\n;;;;;;;;;;;;;x
 
 assussani;Assussani;;;;;;;;;;;;;x
-assussani_DESC;Over the briny Aigaios came the wide-ruling gods of the tireless Danaoi. Salt-soaked oars and swift-turning chariot wheels carry the warriors and kings of Assuwa across the land, ever searching for wealth or land to raise up proud well-walled cities and the blood drinking altars of gleaming temples. Theirs is the flashing helm, the stamping horse, and the high white walls of the unbreakable citadels. Gleaming Zius quarrels and reprimands his seething sons and daughters who glide down from the high mountain to interfere in the lives and ways of mortal men. Some say the doom of the Asu has already been decided by the gods...;;;;;;;;;;;;;x
+assussani_DESC;Over the briny Aigaios came the wide-ruling gods of the tireless Danaoi. Salt-soaked oars and swift-turning chariot wheels carry the warriors and kings of Assuwa across the land, ever searching for wealth or land to raise up proud well-walled cities and the blood drinking altars of gleaming temples. Theirs is the flashing helm, the stamping horse, and the high white walls of the unbreakable citadels. Gleaming Ziuš quarrels and reprimands his seething sons and daughters who glide down from the high mountain to interfere in the lives and ways of mortal men. Some say the doom of the Asu has already been decided by the gods...;;;;;;;;;;;;;x
 assussani_FEATURES;§Y*§! Assussani rulers may contact the gods Zeus, Ares, Athene, Demeter, Apollon, Hermes, and Aphrodite.\n;;;;;;;;;;;;;x
 
 european_group;Europes;;;;;;;;;;;;;x
@@ -596,7 +603,7 @@ INSULT_INEFFECTUAL;Ineffectual;;;;;;;;;;;;;x
 strong_emperor;Strong Monarch;;;;;;;;;;;;;x
 strong_emperor_desc;You wield great power.;;;;;;;;;;;;;x
 
-#province modifiers
+#Province Modifiers
 oppressive_rule;Oppressive Rule;;;;;;;;;;;;;x
 oppressive_rule_desc;The foreign communities of this province are being oppressed.;;;;;;;;;;;;;x
 autonomous_rule;Autonomous Community;;;;;;;;;;;;;x
@@ -609,7 +616,7 @@ levy_tribute_desc;The tribute in this province is levy-focused.;;;;;;;;;;;;;x
 foreign_rule;Foreign Rule;;;;;;;;;;;;;x
 foreign_rule_desc;Due to the lack of a native ruler or autonomy, the local people are resistant to your rule...;;;;;;;;;;;;;x
 
-#sacrifice modifiers
+#Religious Opinion Modifiers
 made_sacrifice;Made a Sacrifce;;;;;;;;;;;;;x
 opinion_small_sacrifice;Successful Small Sacrifce;;;;;;;;;;;;;x
 opinion_medium_sacrifice;Successful Medium Sacrifce;;;;;;;;;;;;;x
@@ -618,9 +625,13 @@ opinion_small_sacrifice_fail;Small Sacrifce Failure;;;;;;;;;;;;;x
 opinion_medium_sacrifice_fail;Medium Sacrifce Failure;;;;;;;;;;;;;x
 opinion_large_sacrifice_fail;Large Sacrifce Failure;;;;;;;;;;;;;x
 
+opinion_defiled_priestess;Defiled Priestess;;;;;;;;;;;;;x
+
+opinion_sacrificed_human;Sacrifced Human;;;;;;;;;;;;;x
+
 #Palace Bureaucracy
 palace_bureaucracy;Palace Bureaucratic Efficiency ([From.PrimaryTitle.palace_bureaucracy_number.GetValue]%);;;;;;;;;;;;;x
-palace_bureaucracy_desc;The bureaucracy of a realm is determined by how much bureaucratic norms are prevalent in said realm. As it changes, the norms of the realm change with it.\nPalace bureaucracy can be §Gincreased§! by:\n§Y*§! Having qualified lords\n§Y*§! Having a powerful or qualified council\n§Y*§! Bureaucratic reforms\nPalace bureaucracy can be §Rdecreased§! by:\n§Y*§! Having unqualified lords\n§Y*§! Having a weak or unqualified council\n§Y*§! Succession\;;;;;;;;;;;;;x
+palace_bureaucracy_desc;The bureaucracy of a realm is determined by how much bureaucratic norms are prevalent in said realm. As it changes, the norms of the realm change with it.\nPalace bureaucracy can be §Gincreased§! by:\n§Y*§! Having qualified lords\n§Y*§! Having a powerful or qualified council\n§Y*§! Bureaucratic reforms\nPalace bureaucracy can be §Rdecreased§! by:\n§Y*§! Having unqualified lords\n§Y*§! Having a weak or unqualified council\n§Y*§! Succession;;;;;;;;;;;;;x
 
 #Palace Bureaucracy Decision Modifiers
 sold_bureaucratic_positions;Sold Bureaucratic Positions;;;;;;;;;;;;;x

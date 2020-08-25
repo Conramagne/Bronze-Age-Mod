@@ -876,4 +876,78 @@ laws = {
 		vassal_limit = 25
 		feudal_opinion = -25
 	}
+	ze_administration_laws_3 = {
+		group = ze_administration_laws
+		default_selection = {
+			factor = 0
+			
+			additive_modifier = { 
+				value = 10			
+				holder_scope = {
+					culture_group = hellene
+				}				
+			}
+		}
+		allow = {
+
+		}
+		potential = {
+			has_dlc = "Zeus"
+			holder_scope = { culture_group = hellene }
+			NOT = { holder_scope = { government = hegemonic_government } }
+			NOT = { holder_scope = { is_theocracy = yes } }
+			NOT = { holder_scope = { is_tribal = yes } }
+			NOT = { holder_scope = { is_nomadic = yes } }
+			NOT = { holder_scope = { is_republic = yes } }
+			NOT = { holder_scope = { is_theocracy = yes } }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.2
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				has_law = ze_administration_laws_2
+			}
+		}
+		ai_will_revoke = { factor = 0 }
+		pass_effect = { 
+			holder_scope = {
+				character_event = { id = fkr.111 }
+				character_event = { id = fkr.214 }
+			}
+		}
+		effect = {
+			if = {
+				limit = { has_law = ze_administration_laws_0 }
+				custom_tooltip = {
+					text = TOOLTIP_ze_administration_laws_1
+				}
+			}
+			if = {
+				limit = { 
+					NOT = { has_dlc = "Charlemagne" } 
+				}
+				set_allow_free_duchy_revokation = no
+			}
+			if = {
+				limit = { 
+					has_dlc = "Charlemagne" 
+				}
+				set_allow_free_vice_royalty_revokation = no
+			}
+			hidden_tooltip = {
+				revoke_law = ze_administration_laws_0
+				revoke_law = ze_administration_laws_2
+				#revoke_law = ze_administration_laws_3
+			}
+		}
+		# demesne_size = -3
+		vassal_limit = -10
+		global_tax_modifier = 1
+		castle_vassal_tax_modifier = 0.50
+		vassal_opinion = -10
+	}
 }

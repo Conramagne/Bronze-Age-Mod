@@ -52,6 +52,16 @@ opinion_large_sacrifice_fail = {
 	years = 5
 }
 
+opinion_defiled_priestess = {
+	opinion = -100
+	years = 50
+}
+
+opinion_sacrificed_human = {
+	opinion = -100
+	years = 50
+}
+
 opinion_rectified_grievance = {
 	opinion = 65
 	years = 10

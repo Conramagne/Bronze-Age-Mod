@@ -1572,6 +1572,26 @@
 	}
 	9999.1.1 = { death = yes }
 }
+
+1100192 = { #Proteus
+	name = "Proteus" #Proteus, Old Man of the Sea
+	dna = bagid0db000
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100145
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 20
+	1.1.20 = { birth = yes }
+	1.1.20 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
 #Pleiades/Atlantids (1100261-1100270)
 1100261 = { #Maia
 	name = "Maia" # Maia

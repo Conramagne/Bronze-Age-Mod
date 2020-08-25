@@ -104,7 +104,7 @@ armor_diomedes = {
 	active = {
 		is_adult = yes
 	}
-	flags = { armor_set armor legendary }
+	flags = { armor_set armor diomedes legendary }
 	picture = "GFX_splint_mail"
 	slot = torso
 	stacking = no
@@ -123,7 +123,7 @@ armor_glaucus = {
 	active = {
 		is_adult = yes
 	}
-	flags = { armor_set armor legendary }
+	flags = { armor_set armor glaucus legendary }
 	picture = "GFX_warden_armor"
 	slot = torso
 	stacking = no

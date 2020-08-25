@@ -547,7 +547,7 @@ castle = {
 		galleys = 6
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.3
+		extra_tech_building_start = 0
 	}
 	
 	ca_shipyard_2 = {

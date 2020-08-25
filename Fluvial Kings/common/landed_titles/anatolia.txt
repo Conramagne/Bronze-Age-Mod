@@ -44,6 +44,7 @@ e_hittite_empire = {
 				color={ 204 57 57 }
 				color2={ 255 255 255 }
 				holy_site = ishalitethai
+				holy_site = haianiluwi
 				
 				b_taskuriya = {}
 				b_salma = {}
@@ -345,6 +346,7 @@ e_hittite_empire = {
 			c_tarhuntassa = {
 				color={ 247 153 153 }
 				color2={ 255 255 255 }
+				holy_site = haianiluwi
 				
 				b_tarhuntassa = {}
 				b_talwisuwanda = {}
@@ -353,6 +355,8 @@ e_hittite_empire = {
 				color={ 136 6 58 }
 				color2={ 255 255 255 }
 				holy_site = ishalitethai
+				holy_site = haianiluwi
+				holy_site = assussani
 				
 				b_ura = {}
 				b_korikos = {}
@@ -765,6 +769,8 @@ e_arzawa = {
 			c_truwisa = {
 				color = { 216 112 77 }
 				color2 = { 255 255 255 }
+				holy_site = assussani
+				
 				achaean = "Troy"
 				
 				b_wilusa = {
@@ -1057,6 +1063,7 @@ e_arzawa = {
 			c_sfard = {
 				color = { 216 151 77 }
 				color2 = { 255 255 255 }
+				holy_site = assussani
 				
 				achaean = "Sardis"
 				
@@ -1087,7 +1094,11 @@ e_arzawa = {
 			c_apasa = {
 				color = { 183 238 121 }
 				color2 = { 255 255 255 }
+				holy_site = haianiluwi
+				holy_site = assussani
+				
 				achaean = "Ephesus"
+				
 				
 				b_apasa = {
 					achaean = "Ephesus"
@@ -1108,6 +1119,7 @@ e_arzawa = {
 			c_milawata = {
 				color = { 35 203 124 }
 				color2 = { 255 255 255 }
+				holy_site = haianiluwi
 				
 				b_milawata = {
 					achaean = "Miletus"

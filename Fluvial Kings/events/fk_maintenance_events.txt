@@ -233,7 +233,6 @@ character_event = {
 			}
 		}
 		new_character = {
-			character_event = { id = fkm.7 }
 			ROOT_FROM = {
 				grant_title = PREV
 			}
@@ -359,7 +358,6 @@ character_event = {
 			}
 		}
 		new_character = {
-			character_event = { id = fkm.7 }
 			ROOT_FROM = {
 				any_de_jure_vassal_title = {
 					limit = {
@@ -405,17 +403,45 @@ character_event = {
 	}
 }
 
-#Randomizes name
+#Themis returns to Olympus (on_death)
 character_event = {
 	id = fkm.7
-	is_triggered_only = yes
 	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		any_spouse = {
+			character = c_1100082
+		}
+	}
 	
 	immediate = {
-		prompt_name = {
-			player = ROOT 
-			type = BAPTISM 
-			name_list = culture
+		c_1100082 = {
+			move_character = c_1100146
+		}
+	}
+}
+
+#Themis returns to Olympus (MTTH)
+character_event = {
+	id = fkm.8
+	hide_window = yes
+	
+	trigger = {
+		character = c_1100082
+		num_of_spouses = 0
+		NOT = {
+			at_location = c_1100146
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		c_1100082 = {
+			move_character = c_1100146
 		}
 	}
 }
