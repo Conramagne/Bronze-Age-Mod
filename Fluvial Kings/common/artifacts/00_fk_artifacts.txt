@@ -46,7 +46,7 @@ shield_achilles = {
 		is_adult = yes
 	}
 	flags = { shield legendary achilles }
-	picture = "GFX_warden_armor"
+	picture = "GFX_achilles_shield"
 	slot = shield
 	stacking = no
 	indestructible = yes
