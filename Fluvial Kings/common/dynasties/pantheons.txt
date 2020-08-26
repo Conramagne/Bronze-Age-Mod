@@ -43,7 +43,7 @@
 		template = 0
 		layer = {
 			texture = 0
-			texture_internal = 29
+			texture_internal = 42
 			emblem = 0
 			color = 0
 			color = 0

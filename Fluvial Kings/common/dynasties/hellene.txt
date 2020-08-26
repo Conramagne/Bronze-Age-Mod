@@ -491,27 +491,74 @@
 			color = 0
 		}
 	}
-	
 }
 2100029 = {
 	name = "Phlegyid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100030 = {
 	name = "Tenthredonid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100031 = {
 	name = "Theseid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100032 = {
 	name = "Asklepid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100033 = {
 	name = "Gouneid"
@@ -565,3 +612,5 @@
 	culture = "achaean"
 	used_for_random = no
 }
+
+#Generic Greek Dynasties starts here
