@@ -556,7 +556,7 @@ high_militarization = {
 #Others
 trojan_war_wealth = {
 	icon = 10
-	# global_tax_modifier = 6
+	global_levy_size = -999
 	is_visible = { 
 		always = no
 	}

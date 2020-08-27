@@ -3,5 +3,5 @@ title=c_tumanna
 max_settlements= 1
 b_tumanna= tribal
 
-culture=pala
+culture=eneti
 religion=ishalitethai

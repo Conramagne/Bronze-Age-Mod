@@ -30,6 +30,15 @@ character_event = {
 				duration = -1
 				hidden = yes
 			}
+			spawn_unit = {
+				owner = THIS
+				province = 161 #Troy
+				home = THIS
+				match_character = THIS
+				attrition = 1.0
+				disband_on_peace = yes
+				maintenance_multiplier = 0
+			}
 			narrative_event = { id = tw.2 } #Greek Trojan War Event
 		}
 		any_independent_ruler = {
@@ -42,7 +51,35 @@ character_event = {
 				duration = -1
 				hidden = yes
 			}
+			spawn_unit = {
+				owner = THIS
+				province = 201 #Dardania
+				home = THIS
+				match_character = THIS
+				attrition = 1.0
+				disband_on_peace = yes
+				maintenance_multiplier = 0
+			}
 			narrative_event = { id = tw.3 } #Trojan Trojan War Event
+		}
+		c_2102101 = {
+			set_character_flag = flag_achaean
+			add_character_modifier = {
+				modifier = trojan_war_wealth
+				duration = -1
+				hidden = yes
+			}
+			spawn_unit = {
+				owner = THIS
+				leader = THIS
+				province = 161 #Troy
+				home = 125 #Lamia
+				match_character = c_2102100 #Peleus
+				attrition = 1.0
+				disband_on_peace = yes
+				maintenance_multiplier = 0
+			}
+			narrative_event = { id = tw.2 } #Greek Trojan War Event
 		}
 	}
 }
@@ -186,7 +223,7 @@ character_event = {
 			}
 			AND = {
 				year = 2535
-				month = 12
+				month = 11
 			}
 			
 		}
@@ -207,7 +244,7 @@ character_event = {
 		set_character_flag = bitten_by_snake
 		add_trait = infection
 		add_trait = travelling
-		any_independent_ruler = {
+		any_playable_ruler = {
 			limit = {
 				any_war = {
 					using_cb = trojan_war_cb
@@ -261,7 +298,7 @@ character_event = {
 		death = {
 			death_reason = death_battle
 		}
-		any_independent_ruler = {
+		any_playable_ruler = {
 			limit = {
 				any_war = {
 					using_cb = trojan_war_cb
@@ -585,7 +622,7 @@ character_event = {
 		custom_tooltip = {
 			text = EVTOPTBTW10_TT
 		}
-		any_independent_ruler = {
+		any_playable_ruler = {
 			limit = {
 				any_war = {
 					using_cb = trojan_war_cb
@@ -632,7 +669,7 @@ character_event = {
 		}
 		custom_tooltip = {
 			text = EVTOPTABTW12_TT
-			any_independent_ruler = {
+			any_playable_ruler = {
 				limit = {
 					any_war = {
 						using_cb = trojan_war_cb
@@ -720,7 +757,7 @@ character_event = {
 	# }
 	
 	# immediate = {
-		# any_independent_ruler = {
+		# any_playable_ruler = {
 			# limit = {
 				# any_war = {
 					# using_cb = trojan_war_cb
@@ -1709,7 +1746,7 @@ character_event = {
 		}
 		has_global_flag = achilles_return
 		year = 2536
-		month = 12
+		month = 11
 	}
 	
 	mean_time_to_happen = {
@@ -1818,13 +1855,13 @@ character_event = {
 					# }
 				}
 			}
-			character_event = { id = tw.91 } #Death of Hector
+			narrative_event = { id = tw.91 } #Death of Hector
 		}
 	}
 }
 
 #Death of Hector
-character_event = {
+narrative_event = {
 	id = tw.91
 	title = EVTTITLETW91
 	desc = EVTDESCTW91
@@ -1882,7 +1919,7 @@ character_event = {
 		custom_tooltip = {
 			text = EVTOPTATW39_TT
 		}
-		any_independent_ruler = {
+		any_playable_ruler = {
 			limit = {
 				any_war = {
 					using_cb = trojan_war_cb
@@ -1987,7 +2024,7 @@ character_event = {
 		custom_tooltip = {
 			text = EVTOPTATW43_TT
 		}
-		any_independent_ruler = {
+		any_playable_ruler = {
 			limit = {
 				any_war = {
 					using_cb = trojan_war_cb
@@ -3727,7 +3764,7 @@ character_event = {
 				161 = { #Troy
 					remove_province_modifier = trojan_walls
 				}
-				any_independent_ruler = {
+				any_playable_ruler = {
 					limit = {
 						any_war = {
 							using_cb = trojan_war_cb
@@ -3809,7 +3846,7 @@ character_event = {
 			161 = { #Troy
 				remove_province_modifier = trojan_walls
 			}
-			any_independent_ruler = {
+			any_playable_ruler = {
 				limit = {
 					any_war = {
 						using_cb = trojan_war_cb
@@ -4016,7 +4053,7 @@ narrative_event = {
 				}
 				at_location = 161 #Troy
 			}
-			wealth = 300`
+			wealth = 300
 		}
 	}
 	after = {
@@ -4433,6 +4470,28 @@ narrative_event = {
 		}
 	}
 	after = {
+		if = {
+			limit = {
+				c_2102101 = { #Achilles
+					at_location = 161 #Troy
+				}
+			}
+			c_2102101 = { #Akhilleus
+				character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
+			}
+		}
+		else_if = {
+			limit = {
+			c_2102101 = { #Achilles
+					NOT = {
+						at_location = 161 #Troy
+					}
+				}
+			}
+			c_2102101 = { #Akhilleus
+				character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
+			}
+		}
 		random_character = {
 			limit = {
 				has_artifact = arrow_heracles
@@ -4502,6 +4561,28 @@ narrative_event = {
 		}
 	}
 	after = {
+		if = {
+			limit = {
+				c_2102101 = { #Achilles
+					at_location = 161 #Troy
+				}
+			}
+			c_2102101 = { #Akhilleus
+				character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
+			}
+		}
+		else_if = {
+			limit = {
+			c_2102101 = { #Achilles
+					NOT = {
+						at_location = 161 #Troy
+					}
+				}
+			}
+			c_2102101 = { #Akhilleus
+				character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
+			}
+		}
 		random_character = {
 			limit = {
 				has_artifact = arrow_heracles
@@ -4651,6 +4732,22 @@ character_event = {
 		name = EVTOPTATW108
 		custom_tooltip = {
 			text = EVTOPTATW108_TT
+		}
+		if = {
+			limit = {
+				character = c_2200002 #Hector
+			}
+			any_playable_ruler = {
+				limit = {
+					any_war = {
+						using_cb = trojan_war_cb
+						# any_attacker = {
+							# character = PREVPREV
+						# }
+					}
+				}
+				narrative_event = { id = tw.91 } #Death of Hector
+			}
 		}
 	}
 }
@@ -5037,5 +5134,28 @@ character_event = {
 			}
 			join_defender_wars = event_target:trojan_war_leader
 		}
+	}
+}
+
+#The Murmidones title is destroyed (on_death)
+character_event = {
+	id = tw.116
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_landed_title = d_murmidones
+	}
+	
+	immediate = {
+		c_lamia = {
+			owner = {
+				save_event_target_as = lamia_holder
+			}
+		}
+		any_courtier = {
+			move_character = event_target:lamia_holder
+		}
+		unsafe_destroy_landed_title = d_murmidones
 	}
 }

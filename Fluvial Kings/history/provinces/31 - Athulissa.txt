@@ -6,5 +6,5 @@ b_athulissa= tribal
 # b_sappiduwa = city
 # b_tapapanuwa = castle
 
-culture=pala
+culture=eneti
 religion=ishalitethai

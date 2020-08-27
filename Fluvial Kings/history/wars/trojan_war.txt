@@ -42,6 +42,7 @@ casus_belli = {
 	add_attacker = 2103200
 	add_attacker = 2103700
 	add_attacker = 2103600
+	add_attacker = 2102101
 	add_defender = 2200000
 	add_defender = 2200200
 	add_defender = 2200400
@@ -60,6 +61,7 @@ casus_belli = {
 	add_defender = 2103400
 	add_defender = 2101400
 	add_defender = 2200200
+	add_defender = 2004003
 }
 
 2537.1.1 = {
@@ -97,6 +99,7 @@ casus_belli = {
 	rem_attacker = 2103200
 	rem_attacker = 2103700
 	rem_attacker = 2103600
+	rem_attacker = 2102101
 	rem_defender = 2200000
 	rem_defender = 2200200
 	rem_defender = 2200400
@@ -115,4 +118,5 @@ casus_belli = {
 	rem_defender = 2103400
 	rem_defender = 2101400
 	rem_defender = 2200200
+	rem_defender = 2004003
 }

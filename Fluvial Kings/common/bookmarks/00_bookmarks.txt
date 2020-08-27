@@ -1,6 +1,6 @@
 bm_test = {
-	name = "bm_test"
-	desc = "bm_test_DESC"
+	name = "bm_trojan_war"
+	desc = "bm_trojan_war_DESC"
 	date = 2527.1.1
 	
 	era = yes						## Will be shown on Era screen.

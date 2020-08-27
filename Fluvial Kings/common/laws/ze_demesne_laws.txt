@@ -724,8 +724,8 @@ laws = {
 				revoke_law = ze_administration_laws_2
 			}
 		}
-		castle_levy_size = -0.3
-		castle_vassal_tax_modifier = 0.15
+		castle_vassal_max_levy = -0.3
+		castle_vassal_tax_modifier = -0.25
 		vassal_opinion = 10
 	}
 	ze_administration_laws_1 = {
@@ -785,9 +785,10 @@ laws = {
 				#revoke_law = ze_administration_laws_3
 			}
 		}
-		castle_levy_size = 0.3
-		castle_vassal_tax_modifier = -0.15
-		vassal_opinion = -10
+		castle_vassal_min_levy = 0
+		castle_vassal_tax_modifier = 0.25
+		vassal_limit = -5
+		vassal_opinion = -15
 	}
 	ze_administration_laws_2 = {
 		group = ze_administration_laws

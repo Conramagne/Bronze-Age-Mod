@@ -1,7 +1,7 @@
 title=c_zalpa
 
-max_settlements= 1
-b_zalpa= castle
+max_settlements = 1
+b_zalpa = tribe
 
-culture=amazonian
-religion=pantes_theoi
+culture=kaskian
+religion=ishalitethai

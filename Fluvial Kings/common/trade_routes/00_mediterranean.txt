@@ -1,0 +1,56 @@
+mediterranean_trade = {
+	wealth = 100			# Total base wealth of silk route
+	trade_post_display_trigger = {
+		OR = {
+			province_id = 68 #Enkomi
+			province_id = 87 #Argos
+			province_id = 97 #Pylos
+			province_id = 99 #Attica
+			province_id = 111 #Knossos
+			province_id = 161 #Troy
+		}
+	}
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.10
+		city_tax_modifier = 0.10
+		temple_tax_modifier = 0.10
+		tribal_tax_modifier = 0.10
+		trade_route_value = 15
+		local_movement_speed = 0.20
+		tech_growth_modifier = 0.20
+		icon = 4
+	}
+
+	start = {				# Start provinces of trade route
+		87 #Argos
+	}
+
+	path = {	# Argos-Myrtoo Pelagos
+		87 211
+	}
+	path = {	# Myrtoo Pelagos-Pylos
+		211 94 207 206 97
+	}
+	path = {	# Myrtoo Pelagos-Attica
+		211 99
+	}
+	path = {	# Myrtoo Pelagos-Delos
+		211 152 212 149
+	}
+	path = {	# Delos-Peparethos
+		149 156 214 110
+	}
+	path = {	# Peparethos-Pieres
+		110 215 138
+	}
+	path = {	# Peparethos-Troy
+		110 154 216 153 162 161
+	}
+	path = {	# Delos-Knossos
+		149 223 111
+	}
+	path = {	# Delos-Enkomi
+		149 150 151 221 160 222 202 157 227 228 68
+	}
+}

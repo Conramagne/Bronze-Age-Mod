@@ -1,7 +1,7 @@
 ###########Cultures###########
 anatolian;Hardu;;;;;;;;;;;;;x
 hittite;Nešili;;;;;;;;;;;;;x
-pala;Palaumnili;;;;;;;;;;;;;x
+eneti;Eneti;;;;;;;;;;;;;x
 luwian;Luwili;;;;;;;;;;;;;x
 kaskian;Kaška;;;;;;;;;;;;;x
 isuwan;Isuwan;;;;;;;;;;;;;x
@@ -270,8 +270,10 @@ e_european_pantheon;Europes Pantheon;;;;;;;;;;;;;x
 e_hellenic_pantheon;Hellenic Pantheon;;;;;;;;;;;;;x
 e_pihassasi_pantheon;Pihassasi Pantheon;;;;;;;;;;;;;x
 
-d_amazon;the Amazons;;;;;;;;;;;;;x
-d_amazon_adj;Amazonian;;;;;;;;;;;;;x
+d_amazon;The Amazons;;;;;;;;;;;;;x
+d_amazon_adj;Amazonios;;;;;;;;;;;;;x
+d_murmidones;The Murmidones;;;;;;;;;;;;;x
+d_murmidones_adj;Murmidoni;;;;;;;;;;;;;x
 
 HIGH_GOD;High God;;;;;;;;;;;;;x
 HEAD_KOHEN_AMURRU;Kohen Amurru;;;;;;;;;;;;;x
@@ -301,27 +303,27 @@ tribal_count_female_hittite;Ishassara;;;;;;;;;;;;;x
 tribal_baron_hittite;Hassatarisha;;;;;;;;;;;;;x
 tribal_baron_female_hittite;Hassatarishassara;;;;;;;;;;;;;x
 
-emperor_pala;Salihassu;;;;;;;;;;;;;x
-emperor_female_pala;Tawananna;;;;;;;;;;;;;x
-king_pala;Hassu;;;;;;;;;;;;;x
-king_female_pala;Hassusara;;;;;;;;;;;;;x
-duke_pala;Maniyahha;;;;;;;;;;;;;x
-duke_female_pala;Maniyahhasara;;;;;;;;;;;;;x
-count_pala;Isha;;;;;;;;;;;;;x
-count_female_pala;Ishassara;;;;;;;;;;;;;x
-baron_pala;Happira-Isha;;;;;;;;;;;;;x
-baron_female_pala;Happira-Ishassara;;;;;;;;;;;;;x
+emperor_eneti;Salihassu;;;;;;;;;;;;;x
+emperor_female_eneti;Tawananna;;;;;;;;;;;;;x
+king_eneti;Hassu;;;;;;;;;;;;;x
+king_female_eneti;Hassusara;;;;;;;;;;;;;x
+duke_eneti;Maniyahha;;;;;;;;;;;;;x
+duke_female_eneti;Maniyahhasara;;;;;;;;;;;;;x
+count_eneti;Isha;;;;;;;;;;;;;x
+count_female_eneti;Ishassara;;;;;;;;;;;;;x
+baron_eneti;Happira-Isha;;;;;;;;;;;;;x
+baron_female_eneti;Happira-Ishassara;;;;;;;;;;;;;x
 
-tribal_emperor_pala;Salihassu;;;;;;;;;;;;;x
-tribal_emperor_female_pala;Tawananna;;;;;;;;;;;;;x
-tribal_king_pala;Hassu;;;;;;;;;;;;;x
-tribal_king_female_pala;Hassusara;;;;;;;;;;;;;x
-tribal_duke_pala;Maniyahha;;;;;;;;;;;;;x
-tribal_duke_female_pala;Maniyahhasara;;;;;;;;;;;;;x
-tribal_count_pala;Isha;;;;;;;;;;;;;x
-tribal_count_female_pala;Ishassara;;;;;;;;;;;;;x
-tribal_baron_pala;Hassatarisha;;;;;;;;;;;;;x
-tribal_baron_female_pala;Hassatarishassara;;;;;;;;;;;;;x
+tribal_emperor_eneti;Salihassu;;;;;;;;;;;;;x
+tribal_emperor_female_eneti;Tawananna;;;;;;;;;;;;;x
+tribal_king_eneti;Hassu;;;;;;;;;;;;;x
+tribal_king_female_eneti;Hassusara;;;;;;;;;;;;;x
+tribal_duke_eneti;Maniyahha;;;;;;;;;;;;;x
+tribal_duke_female_eneti;Maniyahhasara;;;;;;;;;;;;;x
+tribal_count_eneti;Isha;;;;;;;;;;;;;x
+tribal_count_female_eneti;Ishassara;;;;;;;;;;;;;x
+tribal_baron_eneti;Hassatarisha;;;;;;;;;;;;;x
+tribal_baron_female_eneti;Hassatarishassara;;;;;;;;;;;;;x
 
 emperor_luwian;Surhantawatt;;;;;;;;;;;;;x
 emperor_female_luwian;Surhantawattsara;;;;;;;;;;;;;x
@@ -928,3 +930,6 @@ tooltip_title_same_culture;Has same culture as capital of the title;;;;;;;;;;;;;
 
 GOVERNMENT_UNIT_BONUS;Government Unit Bonus;;;;;;;;;;;;;x
 HERO_TITLE;Heros;;;;;;;;;;;;;x
+
+mediterranean_trade;Mediterranean Trade Route;;;;;;;;;;;;;x
+mediterranean_trade_province_desc;Can only build §YMediterranean Trade Route Trade Posts§! in certain Counties along the §YMediterranean Trade Route§!\n   Open the §YTrade Zones Mapmode§! to see valid Counties;;;;;;;;;;;;;x

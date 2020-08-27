@@ -5,5 +5,5 @@ b_gassu= tribal
 # b_timuhala = city
 # b_tahappisuna = temple
 
-culture=pala
+culture=eneti
 religion=ishalitethai

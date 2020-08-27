@@ -173,10 +173,17 @@ e_hittite_empire = {
 		color={ 220 100 70 }
 		color2={ 255 255 255 }
 		
+		achaean = "Paphlagonía"
+		dorian = "Paphlagonía"
+		aeolian = "Paphlagonía"
+		ionian = "Paphlagonía"
+		amazonian = "Paphlagonía"
+		cypriot = "Paphlagonía"
+		cretan = "Paphlagonía"
+		eneti = "Paphlagonía"
+		
 		capital = 2
-		
-		culture = pala
-		
+				
 		d_kaska = { 
 			color={ 135 64 47 }
 			color2={ 255 255 255 }
@@ -189,6 +196,8 @@ e_hittite_empire = {
 				aeolian = "Saramene"
 				ionian = "Saramene"
 				amazonian = "Saramene"
+				cypriot = "Saramene"
+				cretan = "Saramene"
 				
 				color={ 135 64 47 }
 				color2={ 255 255 255 }
@@ -199,23 +208,30 @@ e_hittite_empire = {
 					aeolian = "Saramene"
 					ionian = "Saramene"
 					amazonian = "Saramene"
+					cypriot = "Saramene"
+					cretan = "Saramene"
 				}
 			}
 			c_sawit = {
-				achaean = "Enete"
-				dorian = "Enete"
-				aeolian = "Enete"
-				ionian = "Enete"
-				amazonian = "Enete"
+				achaean = "Saramene"
+				dorian = "Saramene"
+				aeolian = "Saramene"
+				ionian = "Saramene"
+				amazonian = "Saramene"
+				cypriot = "Saramene"
+				cretan = "Saramene"
+				
 				color={ 219 105 76 }
 				color2={ 255 255 255 }
 				
 				b_sawit = {
-					achaean = "Enete"
-					dorian = "Enete"
-					aeolian = "Enete"
-					ionian = "Enete"
-					amazonian = "Enete"
+					achaean = "Saramene"
+					dorian = "Saramene"
+					aeolian = "Saramene"
+					ionian = "Saramene"
+					amazonian = "Saramene"
+					cypriot = "Saramene"
+					cretan = "Saramene"
 				}
 			}
 			c_kunanamit = {
@@ -228,6 +244,15 @@ e_hittite_empire = {
 		d_kalasma = { 
 			color={ 237 118 39 }
 			color2={ 255 255 255 }
+			
+			achaean = "Paphlagonía"
+			dorian = "Paphlagonía"
+			aeolian = "Paphlagonía"
+			ionian = "Paphlagonía"
+			amazonian = "Paphlagonía"
+			cypriot = "Paphlagonía"
+			cretan = "Paphlagonía"
+			eneti = "Paphlagonía"
 	
 			capital = 22
 			

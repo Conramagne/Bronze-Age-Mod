@@ -6,5 +6,5 @@ b_washaya = castle
 b_lihzina = city
 b_hanhana = temple
 
-culture=pala
+culture=eneti
 religion=ishalitethai

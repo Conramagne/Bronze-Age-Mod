@@ -3,5 +3,5 @@ title=c_kalasma
 max_settlements= 1
 b_kalasma= tribal
 
-culture=pala
+culture=eneti
 religion=ishalitethai

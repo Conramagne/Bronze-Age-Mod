@@ -561,10 +561,20 @@
 }
 
 2004003 = {
-	name = "Tibe" # Tibe, Duke of Kalasma
-	dynasty = 2000013 #Annasili
-	culture = pala
+	name = "Pulaimenes" # Pulaimenes, Duke of Kalasma
+	dynasty = 2000013 #Enetili
+	culture = eneti
 	religion = ishalitethai
-	2497.1.1 = { birth = yes }
-	2557.1.1 = { death = yes }
+	2487.1.1 = { birth = yes }
+	2547.1.1 = { death = yes }
+}
+
+2004004 = {
+	name = "Harpalion" # Harpalion
+	dynasty = 2000013 #Enetili
+	culture = eneti
+	religion = ishalitethai
+	father = 2004003
+	2507.1.1 = { birth = yes }
+	2567.1.1 = { death = yes }
 }

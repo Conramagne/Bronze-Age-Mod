@@ -2006,6 +2006,7 @@ on_death = {
 		tw.96 #Death of Helen set-up
 		tw.110 #Successors join war
 		tw.113 #Patroclus dies from other causes after given the armor
+		tw.116 #The Murmidones title is destroyed
 		tw.37 #Hector dies in duel with Achilles
 	}
 	random_events = {

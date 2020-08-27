@@ -957,3 +957,17 @@ d_amazon = {
 		culture = amazonian
 	}
 }
+
+d_murmidones = {
+	color = { 74 145 35 }
+
+	short_name = yes
+	
+	landless = yes
+	
+	culture = achaean
+	
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
