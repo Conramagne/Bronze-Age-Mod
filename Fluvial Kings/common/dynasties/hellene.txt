@@ -564,21 +564,69 @@
 	name = "Gouneid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100034 = {
 	name = "Lukomediad"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100035 = {
 	name = "Troezenid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100036 = {
 	name = "Eusorid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100037 = {
 	name = "Herakleid"
@@ -601,16 +649,52 @@
 	name = "Eurypylid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100039 = {
 	name = "Kharopid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 40
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2100040 = {
 	name = "Thoasid"
 	culture = "achaean"
 	used_for_random = no
+	coat_of_arms = {
+		religion = pantes_theoi
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 41
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 #Generic Greek Dynasties starts here
