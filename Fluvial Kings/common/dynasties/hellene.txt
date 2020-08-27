@@ -614,3 +614,272 @@
 }
 
 #Generic Greek Dynasties starts here
+
+2100041 = {
+	name = "Aeimnestos"
+	culture = "achaean"
+}
+2100042 = {
+	name = "Aenesidamus"
+	culture = "achaean"
+}
+2100043 = {
+	name = "Agapetoi"
+	culture = "achaean"
+}
+2100044 = {
+	name = "Agatharkhidoi"
+	culture = "achaean"
+}
+2100045 = {
+	name = "Agron"
+	culture = "achaean"
+}
+2100046 = {
+	name = "Aisopos"
+	culture = "achaean"
+}
+2100047 = {
+	name = "Akakios"
+	culture = "achaean"
+}
+2100048 = {
+	name = "Akhaikoi"
+	culture = "achaean"
+}
+2100049 = {
+	name = "Alexios"
+	culture = "achaean"
+}
+2100050 = {
+	name = "Alkaeus"
+	culture = "achaean"
+}
+2100051 = {
+	name = "Alkaios"
+	culture = "achaean"
+}
+2100052 = {
+	name = "Alyattes"
+	culture = "achaean"
+}
+2100053 = {
+	name = "Antalkidas"
+	culture = "achaean"
+}
+2100054 = {
+	name = "Apollodoros"
+	culture = "achaean"
+}
+2100055 = {
+	name = "Ardys"
+	culture = "achaean"
+}
+2100056 = {
+	name = "Aristae"
+	culture = "achaean"
+}
+2100057 = {
+	name = "Aristeidai"
+	culture = "achaean"
+}
+2100058 = {
+	name = "Aristippos"
+	culture = "achaean"
+}
+2100059 = {
+	name = "Aristobulus"
+	culture = "achaean"
+}
+2100060 = {
+	name = "Aristodemid"
+	culture = "achaean"
+}
+2100061 = {
+	name = "Aristophae"
+	culture = "achaean"
+}
+2100062 = {
+	name = "Arseniae"
+	culture = "achaean"
+}
+2100063 = {
+	name = "Atys"
+	culture = "achaean"
+}
+2100064 = {
+	name = "Belus"
+	culture = "achaean"
+}
+2100065 = {
+	name = "Damokloi"
+	culture = "achaean"
+}
+2100066 = {
+	name = "Demokrae"
+	culture = "achaean"
+}
+2100067 = {
+	name = "Diodoros"
+	culture = "achaean"
+}
+2100068 = {
+	name = "Elatreid"
+	culture = "achaean"
+}
+2100069 = {
+	name = "Epaminondas"
+	culture = "achaean"
+}
+2100070 = {
+	name = "Gyges"
+	culture = "achaean"
+}
+2100071 = {
+	name = "Gygoi"
+	culture = "achaean"
+}
+2100072 = {
+	name = "Gylippai"
+	culture = "achaean"
+}
+2100073 = {
+	name = "Kallimakhos"
+	culture = "achaean"
+}
+2100074 = {
+	name = "Kandaules"
+	culture = "achaean"
+}
+2100075 = {
+	name = "Kleandridai"
+	culture = "achaean"
+}
+2100076 = {
+	name = "Kleandros"
+	culture = "achaean"
+}
+2100077 = {
+	name = "Kleinias"
+	culture = "achaean"
+}
+2100078 = {
+	name = "Kroesid"
+	culture = "achaean"
+}
+2100079 = {
+	name = "Lardanus"
+	culture = "achaean"
+}
+2100080 = {
+	name = "Leonikos"
+	culture = "achaean"
+}
+2100081 = {
+	name = "Leontios"
+	culture = "achaean"
+}
+2100082 = {
+	name = "Lydus"
+	culture = "achaean"
+}
+2100083 = {
+	name = "Lysimakhai"
+	culture = "achaean"
+}
+2100084 = {
+	name = "Marsyas"
+	culture = "achaean"
+}
+2100085 = {
+	name = "Melesae"
+	culture = "achaean"
+}
+2100086 = {
+	name = "Meliton"
+	culture = "achaean"
+}
+2100087 = {
+	name = "Miltiades"
+	culture = "achaean"
+}
+2100088 = {
+	name = "Myrsus"
+	culture = "achaean"
+}
+2100089 = {
+	name = "Pankratioi"
+	culture = "achaean"
+}
+2100090 = {
+	name = "Paramonos"
+	culture = "achaean"
+}
+2100091 = {
+	name = "Pausanid"
+	culture = "achaean"
+}
+2100092 = {
+	name = "Pelagios"
+	culture = "achaean"
+}
+2100093 = {
+	name = "Pelopoi"
+	culture = "achaean"
+}
+2100094 = {
+	name = "Phalaris"
+	culture = "achaean"
+}
+2100095 = {
+	name = "Phanoi"
+	culture = "achaean"
+}
+2100096 = {
+	name = "Pleistoanax"
+	culture = "achaean"
+}
+2100097 = {
+	name = "Sadyattoi"
+	culture = "achaean"
+}
+2100098 = {
+	name = "Tantalae"
+	culture = "achaean"
+}
+2100099 = {
+	name = "Telemakoi"
+	culture = "achaean"
+}
+2100100 = {
+	name = "Theoklymenoi"
+	culture = "achaean"
+}
+2100101 = {
+	name = "Theron"
+	culture = "achaean"
+}
+2100102 = {
+	name = "Thrasydae"
+	culture = "achaean"
+}
+2100103 = {
+	name = "Timokratae"
+	culture = "achaean"
+}
+2100104 = {
+	name = "Tlepolemus"
+	culture = "achaean"
+}
+2100105 = {
+	name = "Tmolus"
+	culture = "achaean"
+}
+2100106 = {
+	name = "Xanthid"
+	culture = "achaean"
+}
+2100107 = {
+	name = "Xanthippid"
+	culture = "achaean"
+}
