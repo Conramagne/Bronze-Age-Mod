@@ -50,15 +50,18 @@
 	2521.1.1 = { death = yes }
 }
 
-2100004 = { #Kl˙menos, King of Orchemenus
-	name = "Kl˙menos"
+2100004 = { #Kl√∫menos, King of Orchemenus
+	name = "Kl√∫menos"
 	dynasty = 2100000
 	culture = achaean
 	religion = pantes_theoi
 	father = 2100005
 	disallow_random_traits = yes
+	trait = wroth
+	trait = mangled 
 	2448.1.1 = { birth = yes }
 	2511.1.1 = { death = yes }
+	death = {death_reason = death_rabble} #quarreled with Thebans over a minor cause, mortally wounded by a thrown rock, had Erginus swear revenge -P
 }
 
 2100005 = { #Presbon, King of Orchemenus
@@ -85,14 +88,15 @@
 	2471.1.1 = { death = yes }
 }
 
-#Add KhalkiÛpe (2100007) when Colchis is being added
+#Add Khalki√≥pe (2100007) when Colchis is being added
 
 2100008 = { #Athamas, King of Orchemenus
-	name = "Athamas"
+	name = "Athamas" #has fling with Ino, angering Nephele
 	dynasty = 2100000
 	culture = achaean
 	religion = pantes_theoi
 	disallow_random_traits = yes
+	trait: kinslayer
 	2391.1.1 = { birth = yes }
 	2416.1.1 = {
 		add_spouse = 2100009
@@ -161,8 +165,8 @@
 	2491.1.1 = { death = yes }
 }
 
-2100104 = { #EleÓos, King of Elis
-	name = "EleÓos"
+2100104 = { #Ele√Æos, King of Elis
+	name = "Ele√Æos"
 	dynasty = 2100001
 	culture = achaean
 	religion = pantes_theoi
@@ -423,8 +427,8 @@
 	2481.1.1 = { death = yes }
 }
 
-2100308 = { #Kleovo˙le
-	name = "Kleovo˙le"
+2100308 = { #Kleovo√∫le
+	name = "Kleovo√∫le"
 	culture = achaean
 	religion = pantes_theoi
 	female = yes
@@ -435,8 +439,8 @@
 	2456.1.1 = { death = yes }
 }
 
-2100309 = { #Kephe˙s, King of Arcadia
-	name = "Kephe˙s"
+2100309 = { #Kephe√∫s, King of Arcadia
+	name = "Kephe√∫s"
 	dynasty = 2100003 #Arkid
 	culture = achaean
 	religion = pantes_theoi
@@ -638,8 +642,8 @@
 	2521.1.1 = { death = yes }
 }
 
-2100403 = { #Aige˙s, King of Athens
-	name = "Aige˙s"
+2100403 = { #Aige√∫s, King of Athens
+	name = "Aige√∫s"
 	dynasty = 2100005 #Erichthoniad
 	culture = achaean
 	religion = pantes_theoi
@@ -686,8 +690,8 @@
 	2451.1.1 = { death = yes }
 }
 
-2100407 = { #KÈkrops, King of Athens
-	name = "KÈkrops"
+2100407 = { #K√©krops, King of Athens
+	name = "K√©krops"
 	dynasty = 2100005 #Erichthoniad
 	culture = achaean
 	religion = pantes_theoi
@@ -873,8 +877,8 @@
 	2526.1.1 = { death = yes }
 }
 
-2100502 = { #PoluneÌkes
-	name = "PoluneÌkes"
+2100502 = { #Polune√≠kes
+	name = "Polune√≠kes"
 	dynasty = 2100006 #Cadmiad
 	culture = achaean
 	religion = pantes_theoi
@@ -924,8 +928,8 @@
 	2501.1.1 = { death = yes }
 }
 
-2100506 = { #OidÌpous, King of Thebes
-	name = "OidÌpous"
+2100506 = { #Oid√≠pous, King of Thebes
+	name = "Oid√≠pous"
 	dynasty = 2100006 #Cadmiad
 	culture = achaean
 	religion = pantes_theoi
@@ -958,8 +962,8 @@
 	}
 }
 
-2100522 = { #L·bdakos, King of Thebes
-	name = "L·bdakos"
+2100522 = { #L√°bdakos, King of Thebes
+	name = "L√°bdakos"
 	dynasty = 2100006 #Cadmiad
 	culture = achaean
 	religion = pantes_theoi
@@ -970,8 +974,8 @@
 	2431.1.1 = { death = yes }
 }
 
-2100508 = { #NukteÔs
-	name = "NukteÔs"
+2100508 = { #Nukte√Øs
+	name = "Nukte√Øs"
 	culture = achaean
 	religion = pantes_theoi
 	female = yes
@@ -984,8 +988,8 @@
 	2431.1.1 = { death = yes }
 }
 
-2100509 = { #Nukte˙s
-	name = "Nukte˙s"
+2100509 = { #Nukte√∫s
+	name = "Nukte√∫s"
 	culture = achaean
 	religion = pantes_theoi
 	father = 1100145
@@ -1038,7 +1042,7 @@
 
 2100513 = { #Pentheus, King of Thebes
 	name = "Pentheus"
-	# dynasty = 2100006 #Cadmiad
+	dynasty = 2100006 #Cadmiad
 	culture = achaean
 	religion = pantes_theoi
 	father = 2100514
@@ -1057,7 +1061,7 @@
 
 2100514 = { #Ekhion, King of Thebes
 	name = "Ekhion"
-	# dynasty = 2100006 #Cadmiad
+	dynasty = 2100006 #Cadmiad
 	culture = achaean
 	religion = pantes_theoi
 	disallow_random_traits = yes
@@ -1212,8 +1216,8 @@
 	2426.1.1 = { death = yes }
 }
 
-2100527 = { #Menoike˙s
-	name = "Menoike˙s"
+2100527 = { #Menoike√∫s
+	name = "Menoike√∫s"
 	# dynasty = 2100006 #Cadmiad
 	culture = achaean
 	religion = pantes_theoi
@@ -1223,6 +1227,27 @@
 	2451.1.1 = { death = yes }
 }
 
+2100528 = { #Ino
+	name = "Ino"
+	dynasty = 2100006 #Cadmiad
+	culture = achaean
+	religion = pantes_theoi
+	female = yes
+	father = 2100515
+	mother = 1100175
+	disallow_random_traits = yes
+	trait = envious
+	trait = ambitious
+	trait = cruel
+	trait = fair
+	trait = depressed
+	2390.1.1 = { birth = yes }
+	2417.1.1 = {
+		add_spouse = 2100008
+	}
+	2431.1.1 = { death = yes }
+	death = { death_reason = death_suicide }
+}
 #Royal Family of Pylos (2100600-2100699)
 2100600 = { #Nestor, King of Pylos
 	name = "Nestor"
@@ -1269,8 +1294,8 @@
 	2561.1.1 = { death = yes }
 }
 
-2100603 = { #AntÌlokhos
-	name = "AntÌlokhos"
+2100603 = { #Ant√≠lokhos
+	name = "Ant√≠lokhos"
 	dynasty = 2100007 #Neleid
 	culture = achaean
 	religion = pantes_theoi
@@ -1301,8 +1326,8 @@
 	2546.1.1 = { death = yes }
 }
 
-2100606 = { #¡retos
-	name = "¡retos"
+2100606 = { #√Åretos
+	name = "√Åretos"
 	dynasty = 2100007 #Neleid
 	culture = achaean
 	religion = pantes_theoi
@@ -1312,8 +1337,8 @@
 	2553.1.1 = { death = yes }
 }
 
-2100607 = { #Str·tikhos
-	name = "Str·tikhos"
+2100607 = { #Str√°tikhos
+	name = "Str√°tikhos"
 	dynasty = 2100007 #Neleid
 	culture = achaean
 	religion = pantes_theoi
@@ -1443,8 +1468,8 @@
 	2541.1.1 = { death = yes }
 }
 
-2100701 = { #AÌas
-	name = "AÌas"
+2100701 = { #A√≠as
+	name = "A√≠as"
 	dna = addgi0ecad0
 	dynasty = 2100008 #Aeacid
 	culture = achaean
@@ -1546,8 +1571,8 @@
 	2551.1.1 = { death = yes }
 }
 
-2100803 = { #Astud·meia
-	name = "Astud·meia"
+2100803 = { #Astud√°meia
+	name = "Astud√°meia"
 	dynasty = 2100009 #Pelopid
 	culture = achaean
 	religion = pantes_theoi
@@ -1611,8 +1636,8 @@
 	2491.1.1 = { death = yes }
 }
 
-2100808 = { #Hippod·meia
-	name = "Hippod·meia"
+2100808 = { #Hippod√°meia
+	name = "Hippod√°meia"
 	culture = achaean
 	religion = pantes_theoi
 	female = yes
@@ -1647,8 +1672,8 @@
 	2481.1.1 = { death = yes }
 }
 
-2100811 = { #OinÛmaos, King of Olympia
-	name = "OinÛmaos"
+2100811 = { #Oin√≥maos, King of Olympia
+	name = "Oin√≥maos"
 	culture = achaean
 	religion = pantes_theoi
 	father = 1100152
@@ -1816,8 +1841,8 @@
 	2431.1.1 = { death = yes }
 }
 
-2100911 = { #Kephe˙s
-	name = "Kephe˙s"
+2100911 = { #Kephe√∫s
+	name = "Kephe√∫s"
 	culture = achaean
 	religion = pantes_theoi
 	disallow_random_traits = yes
@@ -1994,8 +2019,8 @@
 	2538.1.1 = { death = yes }
 }
 
-2101006 = { #Tund·reos, King of Sparta
-	name = "Tund·reos"
+2101006 = { #Tund√°reos, King of Sparta
+	name = "Tund√°reos"
 	dynasty = 2100011 #Lacedaemonid
 	culture = achaean
 	religion = pantes_theoi
@@ -2011,8 +2036,8 @@
 	2537.1.1 = { death = yes }
 }
 
-2101007 = { #IppokÛon, King of Sparta
-	name = "IppokÛon"
+2101007 = { #Ippok√≥on, King of Sparta
+	name = "Ippok√≥on"
 	dynasty = 2100011 #Lacedaemonid
 	culture = achaean
 	religion = pantes_theoi
@@ -2023,8 +2048,8 @@
 	2517.1.1 = { death = yes }
 }
 
-2101008 = { #Ik·rios
-	name = "Ik·rios"
+2101008 = { #Ik√°rios
+	name = "Ik√°rios"
 	dynasty = 2100011 #Lacedaemonid
 	culture = achaean
 	religion = pantes_theoi
@@ -2132,8 +2157,8 @@
 	2421.1.1 = { death = yes }
 }
 
-2101017 = { #Am˙klas, King of Sparta
-	name = "Am˙klas"
+2101017 = { #Am√∫klas, King of Sparta
+	name = "Am√∫klas"
 	dynasty = 2100011 #Lacedaemonid
 	culture = achaean
 	religion = pantes_theoi
@@ -2144,8 +2169,8 @@
 	2416.1.1 = { death = yes }
 }
 
-2101018 = { #LakedaÌmon, King of Sparta
-	name = "LakedaÌmon"
+2101018 = { #Lakeda√≠mon, King of Sparta
+	name = "Lakeda√≠mon"
 	dynasty = 2100011 #Lacedaemonid
 	culture = achaean
 	religion = pantes_theoi
@@ -2275,8 +2300,8 @@
 	2521.1.1 = { death = yes }
 }
 
-2101103 = { #Kapane˙s
-	name = "Kapane˙s"
+2101103 = { #Kapane√∫s
+	name = "Kapane√∫s"
 	dynasty = 2100010 #Abantiad
 	culture = achaean
 	religion = pantes_theoi
@@ -2290,8 +2315,8 @@
 	2521.1.1 = { death = yes }
 }
 
-2101104 = { #IpponÛos
-	name = "IpponÛos"
+2101104 = { #Ippon√≥os
+	name = "Ippon√≥os"
 	culture = achaean
 	religion = pantes_theoi
 	father = 2101105
@@ -2429,8 +2454,8 @@
 	2411.1.1 = { death = yes }
 }
 
-2101116 = { #DanaÎ
-	name = "DanaÎ"
+2101116 = { #Dana√´
+	name = "Dana√´"
 	dynasty = 2100010 #Abantiad
 	culture = achaean
 	religion = pantes_theoi
@@ -2467,8 +2492,8 @@
 	2361.1.1 = { death = yes }
 }
 
-2101119 = { #Lunke˙s, King of Argos
-	name = "Lunke˙s"
+2101119 = { #Lunke√∫s, King of Argos
+	name = "Lunke√∫s"
 	dynasty = 2100013 #Belid
 	culture = achaean
 	religion = pantes_theoi
@@ -2494,8 +2519,8 @@
 	2291.1.1 = { death = yes }
 }
 
-2101121 = { #DanaÛs, King of Argos
-	name = "DanaÛs"
+2101121 = { #Dana√≥s, King of Argos
+	name = "Dana√≥s"
 	dynasty = 2100013 #Belid
 	culture = achaean
 	religion = pantes_theoi
@@ -2730,8 +2755,8 @@
 	2261.1.1 = { death = yes }
 }
 
-2101140 = { #PelasgÛs, King of Argos
-	name = "PelasgÛs"
+2101140 = { #Pelasg√≥s, King of Argos
+	name = "Pelasg√≥s"
 	dynasty = 2100014 #Inachid
 	culture = achaean
 	religion = pantes_theoi
@@ -2837,8 +2862,8 @@
 	2526.1.1 = { death = yes }
 }
 
-2101206 = { #Mekiste˙s
-	name = "Mekiste˙s"
+2101206 = { #Mekiste√∫s
+	name = "Mekiste√∫s"
 	dynasty = 2100015 #Amythaid
 	culture = achaean
 	religion = pantes_theoi
@@ -2862,8 +2887,8 @@
 	2541.1.1 = { death = yes }
 }
 
-2101208 = { #Eur˙alos
-	name = "Eur˙alos"
+2101208 = { #Eur√∫alos
+	name = "Eur√∫alos"
 	dynasty = 2100015 #Amythaid
 	culture = achaean
 	religion = pantes_theoi
@@ -2990,8 +3015,8 @@
 	2541.1.1 = { death = yes }
 }
 
-2101302 = { #AlkmaÌon
-	name = "AlkmaÌon"
+2101302 = { #Alkma√≠on
+	name = "Alkma√≠on"
 	dynasty = 2100015 #Amythaid
 	culture = achaean
 	religion = pantes_theoi
@@ -3001,8 +3026,8 @@
 	2525.1.1 = { death = yes }
 }
 
-2101303 = { #AmphÌlokhos, King of Argos (Partial)
-	name = "AmphÌlokhos"
+2101303 = { #Amph√≠lokhos, King of Argos (Partial)
+	name = "Amph√≠lokhos"
 	dynasty = 2100015 #Amythaid
 	culture = achaean
 	religion = pantes_theoi
@@ -3017,8 +3042,8 @@
 	2561.1.1 = { death = yes }
 }
 
-2101304 = { #AmphÌlokhos
-	name = "AmphÌlokhos"
+2101304 = { #Amph√≠lokhos
+	name = "Amph√≠lokhos"
 	dynasty = 2100015 #Amythaid
 	culture = achaean
 	religion = pantes_theoi
@@ -3040,8 +3065,8 @@
 	2561.1.1 = { death = yes }
 }
 
-2101306 = { #Oikle˙s
-	name = "Oikle˙s"
+2101306 = { #Oikle√∫s
+	name = "Oikle√∫s"
 	dynasty = 2100015 #Amythaid
 	culture = achaean
 	religion = pantes_theoi
@@ -3198,8 +3223,8 @@
 	2521.1.1 = { death = yes }
 }
 
-2101503 = { #Pasiph·e
-	name = "Pasiph·e"
+2101503 = { #Pasiph√°e
+	name = "Pasiph√°e"
 	culture = cretan	
 	religion = pantes_theoi #Temporary
 	female = yes
@@ -3250,8 +3275,8 @@
 	2511.1.1 = { death = yes }
 }
 
-2101507 = { #AÎrope 
-	name = "AÎrope"
+2101507 = { #A√´rope 
+	name = "A√´rope"
 	dynasty = 2100017 #Miniad
 	culture = cretan	
 	religion = pantes_theoi #Temporary
@@ -3281,8 +3306,8 @@
 	}
 }
 
-2101509 = { #KlumÈne 
-	name = "KlumÈne"
+2101509 = { #Klum√©ne 
+	name = "Klum√©ne"
 	dynasty = 2100017 #Miniad
 	culture = cretan	
 	religion = pantes_theoi #Temporary
@@ -3453,8 +3478,8 @@
 	2581.1.1 = { death = yes }
 }
 
-2101602 = { #Astud·meia
-	name = "Astud·meia"
+2101602 = { #Astud√°meia
+	name = "Astud√°meia"
 	dynasty = 2100008 #Aiakaid
 	culture = achaean	
 	religion = pantes_theoi
@@ -3529,8 +3554,8 @@
 	2536.1.1 = { death = yes }
 }
 
-2101608 = { #SkhedÌos
-	name = "SkhedÌos"
+2101608 = { #Skhed√≠os
+	name = "Skhed√≠os"
 	culture = achaean	
 	religion = pantes_theoi
 	father = 2101606
@@ -3685,16 +3710,17 @@
 	2523.1.1 = { death = yes }
 }
 
-2101619 = { #P·troklos
-	name = "P·troklos"
+2101619 = { #P√°troklos
+	name = "P√°troklos"
 	dynasty = 2100019 #Deioneid
 	culture = achaean	
 	religion = pantes_theoi
 	father = 2101618
 	mother = 2102411
+	disallow_random_traits = yes
 	2507.1.1 = { birth = yes }
 	2527.1.1 = {
-		employer = 2102100
+		employer = 2101600
 	}
 	2567.1.1 = { death = yes }
 }
@@ -3740,8 +3766,8 @@
 	2521.1.1 = { death = yes }
 }
 
-2101703 = { #Dei·neira
-	name = "Dei·neira"
+2101703 = { #Dei√°neira
+	name = "Dei√°neira"
 	dynasty = 2100021 #Porthaonid
 	culture = achaean	
 	religion = pantes_theoi
@@ -3790,8 +3816,8 @@
 	2511.1.1 = { death = yes }
 }
 
-2101707 = { #Oine˙s, King of Calydon
-	name = "Oine˙s"
+2101707 = { #Oine√∫s, King of Calydon
+	name = "Oine√∫s"
 	dynasty = 2100021 #Porthaonid
 	culture = achaean	
 	religion = pantes_theoi
@@ -3843,8 +3869,8 @@
 }
 
 #Royal Family of the Echinades (2101800-2101899)
-2101800 = { #MÈgÍs, King of the Echinades
-	name = "MÈgÍs"
+2101800 = { #M√©g√™s, King of the Echinades
+	name = "M√©g√™s"
 	dynasty = 2100001 #Eliad
 	culture = achaean	
 	religion = pantes_theoi
@@ -3892,8 +3918,8 @@
 }
 
 #Royal Family of Opuntian Locris (2102000-2102999)
-2102000 = { #AÌas, King of Opuntian Locris
-	name = "AÌas"
+2102000 = { #A√≠as, King of Opuntian Locris
+	name = "A√≠as"
 	dynasty = 2100023 #Opid
 	culture = achaean	
 	religion = pantes_theoi
@@ -3903,8 +3929,8 @@
 	2551.1.1 = { death = yes }
 }
 
-2102001 = { #Oile˙s, King of Opuntian Locris
-	name = "Oile˙s"
+2102001 = { #Oile√∫s, King of Opuntian Locris
+	name = "Oile√∫s"
 	dynasty = 2100023 #Opid
 	culture = achaean	
 	religion = pantes_theoi
@@ -3950,8 +3976,8 @@
 	2471.1.1 = { death = yes }
 }
 
-2102005 = { #Opo˚s, King of Opuntian Locris
-	name = "Opo˚s"
+2102005 = { #Opo√ªs, King of Opuntian Locris
+	name = "Opo√ªs"
 	dynasty = 2100023 #Opid
 	culture = achaean	
 	religion = pantes_theoi
@@ -3973,8 +3999,8 @@
 	2431.1.1 = { death = yes }
 }
 
-2102007 = { #Opo˚s
-	name = "Opo˚s"
+2102007 = { #Opo√ªs
+	name = "Opo√ªs"
 	dynasty = 2100023 #Opid
 	culture = achaean	
 	religion = pantes_theoi
@@ -4045,8 +4071,8 @@
 	2536.1.1 = { death = yes }
 }
 
-2102102 = { #P˙rrhos
-	name = "P˙rrhos"
+2102102 = { #P√∫rrhos
+	name = "P√∫rrhos"
 	dynasty = 2100008 #Aiakaid
 	culture = achaean	
 	religion = pantes_theoi
@@ -4178,8 +4204,8 @@
 	2511.1.1 = { death = yes }
 }
 
-2102201 = { #EndeÔs
-	name = "EndeÔs"
+2102201 = { #Ende√Øs
+	name = "Ende√Øs"
 	culture = achaean	
 	religion = pantes_theoi
 	female = yes
@@ -4216,8 +4242,8 @@
 }
 
 #Royal Family of Ithaca (2102300-2102399)
-2102300 = { #Odusse˙s, King of Ithaca
-	name = "Odusse˙s"
+2102300 = { #Odusse√∫s, King of Ithaca
+	name = "Odusse√∫s"
 	dynasty = 2100018 #Arcesiad
 	culture = achaean	
 	religion = pantes_theoi
@@ -4306,8 +4332,8 @@
 	2481.1.1 = { death = yes }
 }
 
-2102306 = { #LaÈrtes, King of Ithaca
-	name = "LaÈrtes"
+2102306 = { #La√©rtes, King of Ithaca
+	name = "La√©rtes"
 	dynasty = 2100018 #Arcesiad
 	culture = achaean	
 	religion = pantes_theoi
@@ -4356,8 +4382,8 @@
 }
 
 #Royal Family of Pherae (2102400-2102499)
-2102400 = { #E˙melos, King of Pherae
-	name = "E˙melos"
+2102400 = { #E√∫melos, King of Pherae
+	name = "E√∫melos"
 	dynasty = 2100025 #Kretheid
 	culture = achaean	
 	religion = pantes_theoi
@@ -4396,8 +4422,8 @@
 	2511.1.1 = { death = yes }
 }
 
-2102403 = { #KlumÈne
-	name = "KlumÈne"
+2102403 = { #Klum√©ne
+	name = "Klum√©ne"
 	culture = achaean	
 	religion = pantes_theoi
 	female = yes
@@ -4536,8 +4562,8 @@
 	2556.1.1 = { death = yes }
 }
 
-2102501 = { #IÛlaos
-	name = "IÛlaos"
+2102501 = { #I√≥laos
+	name = "I√≥laos"
 	dynasty = 2100019 #Deioneid
 	culture = achaean
 	religion = pantes_theoi
@@ -4575,8 +4601,8 @@
 	2526.1.1 = { death = yes }
 }
 
-2102504 = { #KlumÈne
-	name = "KlumÈne"
+2102504 = { #Klum√©ne
+	name = "Klum√©ne"
 	culture = achaean
 	religion = pantes_theoi
 	female = yes
@@ -4588,8 +4614,8 @@
 	2516.1.1 = { death = yes }
 }
 
-2102505 = { #Phul·kos, King of Phylace
-	name = "Phul·kos"
+2102505 = { #Phul√°kos, King of Phylace
+	name = "Phul√°kos"
 	dynasty = 2100019 #Deioneid
 	culture = achaean
 	religion = pantes_theoi
@@ -4701,8 +4727,8 @@
 	2541.1.1 = { death = yes }
 }
 
-2102703 = { #Am˝ntor, King of Ormenion
-	name = "Am˝ntor"
+2102703 = { #Am√Ωntor, King of Ormenion
+	name = "Am√Ωntor"
 	dynasty = 2100028 #Ormenid
 	culture = achaean
 	religion = pantes_theoi
@@ -4715,8 +4741,8 @@
 	2521.1.1 = { death = yes }
 }
 
-2102707 = { #Kleovo˙le
-	name = "Kleovo˙le"
+2102707 = { #Kleovo√∫le
+	name = "Kleovo√∫le"
 	culture = achaean
 	religion = pantes_theoi
 	female = yes
@@ -4762,8 +4788,8 @@
 	2561.1.1 = { death = yes }
 }
 
-2102801 = { #Hippod·meia
-	name = "Hippod·meia"
+2102801 = { #Hippod√°meia
+	name = "Hippod√°meia"
 	culture = achaean
 	religion = pantes_theoi
 	female = yes
@@ -4869,8 +4895,8 @@
 }
 
 #Royal Family of Kasthanaia (2102900-2102999)
-2102900 = { #ProthÛos, King of Kasthanaia
-	name = "ProthÛos"
+2102900 = { #Proth√≥os, King of Kasthanaia
+	name = "Proth√≥os"
 	dynasty = 2100030 #Tenthredonid
 	culture = achaean
 	religion = pantes_theoi
@@ -4948,8 +4974,8 @@
 	2541.1.1 = { death = yes }
 }
 
-2103201 = { #DeÔdameia
-	name = "DeÔdameia"
+2103201 = { #De√Ødameia
+	name = "De√Ødameia"
 	dynasty = 2100034 #Lukomediad
 	culture = achaean
 	religion = pantes_theoi
@@ -5002,8 +5028,8 @@
 }
 
 #Royal Family of Rhodes (2103500-2103599)
-2103500 = { #TlepÛlemos, King of Rhodes
-	name = "TlepÛlemos"
+2103500 = { #Tlep√≥lemos, King of Rhodes
+	name = "Tlep√≥lemos"
 	dynasty = 2100037 #Herakleid
 	culture = achaean
 	religion = pantes_theoi
@@ -5059,8 +5085,8 @@
 	2560.1.1 = { death = yes }
 }
 
-2103601 = { #¡ntiphos
-	name = "¡ntiphos"
+2103601 = { #√Åntiphos
+	name = "√Åntiphos"
 	dynasty = 2100038 #Eurypylid
 	culture = achaean
 	religion = pantes_theoi
@@ -5070,8 +5096,8 @@
 	2562.1.1 = { death = yes }
 }
 
-2103602 = { #KhalkiÛpe
-	name = "KhalkiÛpe"
+2103602 = { #Khalki√≥pe
+	name = "Khalki√≥pe"
 	culture = achaean
 	religion = pantes_theoi
 	female = yes
@@ -5089,8 +5115,8 @@
 	2525.1.1 = { death = yes }
 }
 
-2103604 = { #KhalkiÛpe
-	name = "KhalkiÛpe"
+2103604 = { #Khalki√≥pe
+	name = "Khalki√≥pe"
 	dynasty = 2100038 #Eurypylid
 	culture = achaean
 	religion = pantes_theoi
