@@ -15,27 +15,75 @@
 			color = 0
 			color = 0
 		}
-	}	
+	}
 }
 2200001 = {
 	name = "Tennesid"
 	culture = "wilusan"
 	used_for_random = no 
+	coat_of_arms = {
+		religion = assussani
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2200002 = {
 	name = "Meropid"
 	culture = "wilusan"
-	used_for_random = no 
+	used_for_random = no
+	coat_of_arms = {
+		religion = assussani
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2200003 = {
 	name = "Lukaonid"
 	culture = "wilusan"
 	used_for_random = no 
+	coat_of_arms = {
+		religion = assussani
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 2200004 = {
 	name = "Eetíonid"
 	culture = "wilusan"
-	used_for_random = no 
+	used_for_random = no
+	coat_of_arms = {
+		religion = assussani
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	
 }
 2200005 = {
 	name = "Arsinid"
