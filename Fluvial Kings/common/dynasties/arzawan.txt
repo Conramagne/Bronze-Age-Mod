@@ -83,7 +83,7 @@
 			color = 0
 			color = 0
 		}
-	
+	}
 }
 2200005 = {
 	name = "Arsinid"

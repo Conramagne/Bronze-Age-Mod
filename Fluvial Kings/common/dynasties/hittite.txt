@@ -56,27 +56,27 @@
 
 2000010 = {
 	name = "Sandusili"
-	culture = luwian
+	culture = "luwian"
 }
 2000011 = {
 	name = "Imarasili"
-	culture = luwian
+	culture = "luwian"
 }
 
 2000012 = {
 	name = "Kaskaili"
-	culture = kaskian
+	culture = "kaskian"
 }
 
 2000013 = {
 	name = "Annasili"
-	culture = pala
+	culture = "eneti"
 }
 2000014 = {
 	name = "Sandusili"
-	culture = pala
+	culture = "eneti"
 }
 2000015 = {
 	name = "Imarasili"
-	culture = pala
+	culture = "eneti"
 }
