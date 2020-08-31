@@ -1925,13 +1925,14 @@
 2101000 = { #Menelaos, King of Sparta
 	name = "Menelaos"
 	dynasty = 2100009 #Pelopid
-	dna = bcddc0gcae0
+	dna = bhjdayedcbd
 	culture = achaean
 	religion = pantes_theoi
 	father = 2100902
 	mother = 2101507
 	trait = tough_soldier
 	trait = duelist
+	trait = envious
 	trait = wroth
 	2493.1.1 = { birth = yes }
 	2518.1.1 = {
