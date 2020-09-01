@@ -1248,6 +1248,19 @@
 	death = { death_reason = death_suicide }
 }
 
+2100529 = { #Astupalaia
+	name = "Astupalaia"
+	culture = achaean
+	religion = pantes_theoi
+	father = 2100525
+	mother = 2100526
+	female = yes
+	disallow_random_traits = yes
+	2396.1.1 = { birth = yes }
+	2456.1.1 = { death = yes }
+}
+
+
 #Royal Family of Pylos (2100600-2100699)
 2100600 = { #Nestor, King of Pylos
 	name = "Nestor"
@@ -1271,7 +1284,7 @@
 }
 
 2100601 = { #Eurudike
-	name = "Eurydice"
+	name = "Eurudike"
 	culture = achaean
 	religion = pantes_theoi
 	female = yes
@@ -1925,14 +1938,13 @@
 2101000 = { #Menelaos, King of Sparta
 	name = "Menelaos"
 	dynasty = 2100009 #Pelopid
-	dna = bhjdayedcbd
+	dna = bcddc0gcce0
 	culture = achaean
 	religion = pantes_theoi
 	father = 2100902
 	mother = 2101507
 	trait = tough_soldier
 	trait = duelist
-	trait = envious
 	trait = wroth
 	2493.1.1 = { birth = yes }
 	2518.1.1 = {
@@ -3388,6 +3400,19 @@
 	2521.1.1 = { death = yes }
 }
 
+
+2101521 = { #Staphulos
+	name = "Staphulos"
+	dynasty = 2100017 #Miniad
+	culture = cretan	
+	religion = pantes_theoi #Temporary
+	mother = 2101514
+	father = 1100156
+	disallow_random_traits = yes
+	2467.1.1 = { birth = yes }
+	2526.1.1 = { death = yes }
+}
+
 2101515 = { #Orsilokhos
 	name = "Orsilokhos"
 	dynasty = 2100017 #Miniad
@@ -3725,6 +3750,16 @@
 	2567.1.1 = { death = yes }
 }
 
+2101620 = { #Epeios
+	name = "Epeios"
+	dynasty = 2100008 #Aiakaid
+	culture = achaean	
+	religion = pantes_theoi
+	father = 2101612
+	2501.1.1 = { birth = yes }
+	2561.1.1 = { death = yes }
+}
+
 #Royal Family of Calydon (2101700-2101799)
 2101700 = { #Thoas, King of Calydon
 	name = "Thoas"
@@ -3775,6 +3810,12 @@
 	father = 2101707
 	mother = 2101706
 	2478.1.1 = { birth = yes }
+	2498.1.1 = {
+		add_spouse = 1100157
+	}
+	2527.1.1 = {
+		remove_spouse = 1100157
+	}
 	2538.1.1 = { death = yes }
 }
 
@@ -4071,6 +4112,7 @@
 	2527.1.1 = {
 		effect = {
 			add_lover = 2101619
+			add_friend = 2101619
 		}
 	}
 	2536.1.1 = { death = yes }
@@ -4555,7 +4597,6 @@
 	2550.1.1 = { death = yes }
 }
 
-
 #Royal Family of Phylace (2102500-2102599)
 2102500 = { #Podarkes, King of Phylace
 	name = "Podarkes"
@@ -4976,6 +5017,7 @@
 	dynasty = 2100034 #Lukomediad
 	culture = achaean
 	religion = pantes_theoi
+	mother = 2104104
 	2481.1.1 = { birth = yes }
 	2541.1.1 = { death = yes }
 }
@@ -5196,4 +5238,209 @@
 	mother = 2101514
 	2470.1.1 = { birth = yes }
 	2520.1.1 = { death = yes }
+}
+
+#Royal Family of Pityoussa (2103900-2103999)
+2103900 = { #Pisiri, King of Pityoussa
+	name = "Pisiri"
+	dynasty = 2002007 #Pisirili
+	culture = luwian	
+	religion = haianiluwi
+	2490.1.1 = { birth = yes }
+	2550.1.1 = { death = yes }
+}
+
+#Royal Family of Delos (2104000-2104099)
+2104000 = { #Anios, King of Delos
+	name = "Anios"
+	dynasty = 2100041 #Aniosid
+	culture = achaean	
+	religion = pantes_theoi
+	father = 1100149
+	mother = 2104001
+	2507.1.1 = { birth = yes }
+	2567.1.1 = { death = yes }
+}
+
+2104001 = { #Rhoio
+	name = "Rhoio"
+	culture = achaean	
+	religion = pantes_theoi
+	father = 2101521
+	mother = 2104002
+	female = yes
+	2487.1.1 = { birth = yes }
+	2550.1.1 = { death = yes }
+}
+
+2104002 = { #Khrusothemis
+	name = "Khrusothemis"
+	culture = achaean	
+	religion = pantes_theoi
+	female = yes
+	disallow_random_traits = yes
+	2467.1.1 = { birth = yes }
+	2526.1.1 = { death = yes }
+}
+
+#Royal Family of Samos (2104100-2104199)
+2104100 = { #Perilaos, King of Samos
+	name = "Perilaos"
+	dynasty = 2100042 #Ankaîd
+	culture = achaean	
+	religion = pantes_theoi
+	father = 2104105
+	mother = 2104106
+	disallow_random_traits = yes
+	2456.1.1 = { birth = yes }
+	2530.1.1 = { death = yes }
+}
+
+2104101 = { #Enudos
+	name = "Enudos"
+	dynasty = 2100042 #Ankaîd
+	culture = achaean	
+	religion = pantes_theoi
+	father = 2104105
+	mother = 2104106
+	disallow_random_traits = yes
+	2457.1.1 = { birth = yes }
+	2530.1.1 = { death = yes }
+}
+
+2104102 = { #Samos
+	name = "Samos"
+	dynasty = 2100042 #Ankaîd
+	culture = achaean	
+	religion = pantes_theoi
+	father = 2104105
+	mother = 2104106
+	disallow_random_traits = yes
+	2459.1.1 = { birth = yes }
+	2530.1.1 = { death = yes }
+}
+
+2104103 = { #Alitherses
+	name = "Alitherses"
+	dynasty = 2100042 #Ankaîd
+	culture = achaean	
+	religion = pantes_theoi
+	father = 2104105
+	mother = 2104105
+	female = yes
+	disallow_random_traits = yes
+	2461.1.1 = { birth = yes }
+	2530.1.1 = { death = yes }
+}
+
+2104104 = { #Parthenope
+	name = "Parthenope"
+	dynasty = 2100042 #Ankaîd
+	culture = achaean	
+	religion = pantes_theoi
+	father = 2104105
+	mother = 2104105
+	female = yes
+	disallow_random_traits = yes
+	2462.1.1 = { birth = yes }
+	2530.1.1 = { death = yes }
+}
+
+2104105 = { #Ankaîos, King of Samos
+	name = "Ankaîos"
+	dynasty = 2100042 #Ankaîd
+	culture = achaean	
+	religion = pantes_theoi
+	father = 1100145
+	mother = 2100529
+	disallow_random_traits = yes
+	2426.1.1 = { birth = yes }
+	2486.1.1 = { death = yes }
+}
+
+2104106 = { #Samia
+	name = "Samia"
+	dynasty = 2100042 #Ankaîd
+	culture = achaean	
+	religion = pantes_theoi
+	father = 1100145
+	mother = 2100529
+	female = yes
+	disallow_random_traits = yes
+	2436.1.1 = { birth = yes }
+	2496.1.1 = { death = yes }
+}
+
+#Royal Family of Samothrace (2104200-2104299)
+2104200 = { #Amadokos, King of Samothrace
+	name = "Amadokos"
+	dynasty = 2100043 #Amadokid
+	culture = thracian	
+	religion = dentudisas
+	2502.1.1 = { birth = yes }
+	2562.1.1 = { death = yes }
+}
+
+#Royal Family of Dolopia (2104300-2104399)
+2104300 = { #Aigimios, King of Dolopia
+	name = "Aigimios"
+	dynasty = 2100044 #Aigimid
+	culture = dorian	
+	religion = pantes_theoi #Temporary
+	2487.1.1 = { birth = yes }
+	2562.1.1 = { death = yes }
+}
+
+2104301 = { #Dumas
+	name = "Dumas"
+	dynasty = 2100044 #Aigimid
+	culture = dorian	
+	religion = pantes_theoi #Temporary
+	father = 2104300
+	2507.1.1 = { birth = yes }
+	2567.1.1 = { death = yes }
+}
+
+2104302 = { #Pamphulos
+	name = "Pamphulos"
+	dynasty = 2100044 #Aigimid
+	culture = dorian	
+	religion = pantes_theoi #Temporary
+	father = 2104300
+	2509.1.1 = { birth = yes }
+	2569.1.1 = { death = yes }
+}
+
+2104303 = { #Hullas
+	name = "Hullas"
+	dynasty = 2100037 #Herakleid
+	culture = dorian	
+	religion = pantes_theoi #Temporary
+	father = 1100157
+	mother = 2101703
+	2498.1.1 = { birth = yes }
+	2527.1.1 = {
+		employer = 2104300
+	}
+	2558.1.1 = { death = yes }
+}
+
+2104304 = { #Kleodaeos
+	name = "Kleodaeos"
+	dynasty = 2100037 #Herakleid
+	culture = dorian	
+	religion = pantes_theoi #Temporary
+	father = 2104303
+	mother = 2104305
+	2518.1.1 = { birth = yes }
+	2578.1.1 = { death = yes }
+}
+
+2104305 = { #Iole
+	name = "Iole"
+	culture = achaean	
+	religion = pantes_theoi
+	female = yes
+	2498.1.1 = { birth = yes }
+	2562.1.1 = { death = yes }
 }

@@ -44,21 +44,7 @@ hellenic_birthright_invasion = {
 	}
 	
 	can_use_title = {
-		any_direct_de_jure_vassal_title = {
-			OR = {
-				ROOT = {
-					any_demesne_province = {
-						can_naval_path_to = PREVPREVPREV
-					}
-				}
-				holder_scope = {
-					OR = {
-						character = ROOT
-						is_liege_or_above = ROOT
-					}
-				}
-			}
-		}
+		# is_valid_viking_invasion_target = FROM
 	}
 	
 	is_valid_title = {

@@ -121,7 +121,7 @@ EVTOPTDFKP103;I call upon Athene Glaukopis, Whose Owl-Eyes Glistens in the Night
 #sacrifice events
 EVTDESCFKP200;You hope by making a sacrifice to the gods you are able to placate them and perhaps gain their favors, now it is up to you to decide the scope and grandeur of the ceremony...;;;;;;;;;;;;;x
 EVTOPTAFKP200;You decide on a modest offering to placate the gods.;;;;;;;;;;;;;x
-EVTOPTBFKP200;You decide to invite the necessarys and put on a decent show for the rituals.;;;;;;;;;;;;;x
+EVTOPTBFKP200;You decide to invite the necessary priests and put on a decent show for the rituals.;;;;;;;;;;;;;x
 EVTOPTCFKP200;HAH, what am I, some poor country yokel? Spare no expense!;;;;;;;;;;;;;x
 
 EVTDESCFKP201;As ruler, you of course have the option to carry out the sacrifice yourself. The prize bull is led into the throng signalling the beginning of the liturgy and the sacrifice. The priests nod, they are ready to initiate the ritual, you...;;;;;;;;;;;;;x
@@ -444,3 +444,413 @@ EVTDESCBTW3;"Ankhises prayed with outstretched hands, appeasing the mighty gods 
 EVTDESCTW3;"After they have prayed and swore to fight honorably, Priam says, 'Hear me, Wilusili and Achaeans, I will now go back to the wind-beaten city of Wilusa: I dare not with my own eyes witness this fight between my son and Menelaus, for Zeus and the other immortals alone know which shall fall.'"\n\nWilusili, unlike the Achaeans, have made no pledge. To no man have you offered arms in order to defend a great prize. The bodies you shall lay, and the laying done unto your armies, will not be made to protect honor, but to protect life. The gods conspire against you and your people, and against the great city of Wilusa, and every fiber of your being shall be put against total destruction by the Danaan horde. Now, [Root.GetFirstName], shall you fight against them, or resign to your fate, and let Wilusa crumble?;;;;;;;;;;;;;x 
 EVTOPTATW3;I shall defend Wilusa!;;;;;;;;;;;;;x
 EVTOPTATW3_TT;As you spend time in the battlefield, you may encounter certain events;;;;;;;;;;;;;x
+
+EVTDESCTW4;I have been laid low by a festering wound. As the bearer of the poisoned arrows of Herakles I now tend my poisoned flesh on the island of Lemnos while my fellow Achaeans abandon me to sickness and decay and press on to Troy. None can resist cruel fate.;;;;;;;;;;;;;x
+EVTOPTATW4;How strange are the gods...;;;;;;;;;;;;;x
+
+EVTDESCTW5;Tragedy! Leader of the Meliboians Philoktetes has been struck by the venom of a snake! We must leave him on the island of Lemnos to recover, as his smell and wails of pain are unbearable.;;;;;;;;;;;;;x
+EVTOPTATW5;Alas.;;;;;;;;;;;;;x
+
+EVTDESCTW6;As I set upon the soil of the Trojans, their army instantly descends upon us. In the heat of battle, I am struck down by Trojan bronze. As I look around in my final moments, it seems as if I was the first to fall.;;;;;;;;;;;;;x
+EVTOPTATW6;How strange.;;;;;;;;;;;;;x
+
+EVTDESCTW7;Eager Iólaos son of Iphikles leaps from his trim ship onto the Trojan beach. The mantis foretold that the first Achaean to set foot on the faraway beach will surely perish, and now Iólaos has become the first of the destined dead as he falls in battle against the Trojans. Even now the people call him Protesilaos - The First.;;;;;;;;;;;;;x
+EVTOPTATW7;Protesilaos, a long age shall sing your praises...;;;;;;;;;;;;;x
+
+EVTDESCTW8;You have put the town of Lurnessos to the sword, and taken a fair Mysian Lady to warm your bed.;;;;;;;;;;;;;x
+EVTOPTATW8;A fine trophy.;;;;;;;;;;;;;x
+
+EVTDESCATW9;Akhilleus has given you a most worthy prize from the spoils of Lurnessos, a fair priestess of Apollon.;;;;;;;;;;;;;x
+EVTDESCBTW9;Akhilleus has sent you a most worthy prize from the spoils of Lurnessos, a fair priestess of Apollon.;;;;;;;;;;;;;x
+EVTOPTATW9;The lion takes his share.;;;;;;;;;;;;;x
+
+EVTDESCTW120;Woe! My brother Agamemnon has passed. Though all is not gloom - in his will he has given me his war spoil, a concubine from Lurnessos.;;;;;;;;;;;;;x
+EVTOPTATW120;Splendid.;;;;;;;;;;;;;x
+
+EVTDESCTW122;Dark news! My concubine for Lurnessos has passed. I shall contact Akhilleus to request he give me his spoils.;;;;;;;;;;;;;x
+EVTOPTATW122;He must comply.;;;;;;;;;;;;;x
+
+EVTDESCATW10;The priestess of Apollon's father, Khrúses, has requested that his daughter be returned for a prize of gold. There may be consequences for the Achaeans if this offer is refused...;;;;;;;;;;;;;x
+EVTDESCBTW10;One of the priests of Apollon of Lurnessos requested that the priestess of Apollon, Astunome, be returned for a prize of gold. There may be consequences for the Achaeans if this offer is refused...;;;;;;;;;;;;;x
+EVTDESCCTW10;One of the priests of Apollon of Lurnessos requested that the priestess of Apollon be returned for a prize of gold. There may be consequences for the Achaeans if this offer is refused...;;;;;;;;;;;;;x
+EVTOPTATW10;She shall be returned.;;;;;;;;;;;;;x
+EVTOPTBTW10;She stays. That is war, Trojan.;;;;;;;;;;;;;x
+
+EVTDESCTW11;The captains and warriors of the Achaeans have been stricken with sickness, this must be the work of Plague-Bringing Apollon at the request of the wronged priestess. The Silver-Bow rains death upon the Achaeans.;;;;;;;;;;;;;x
+EVTOPTATW11;The god is angry...;;;;;;;;;;;;;x
+
+EVTDESCTW12;The seer has spoken, the consort taken in Lurnessos must be returned for the plague to abate. Shame, I love her better even than my own wife...;;;;;;;;;;;;;x
+EVTOPTATW12;Akhilleus must provide me tribute, in one form or another.;;;;;;;;;;;;;x
+
+EVTDESCATW14;Insolent and lustful [From.GetFirstName] has trodden on my honor and taken my concubine. Wine-sopped [From.GetFirstName] will regret this!;;;;;;;;;;;;;x
+EVTDESCBTW14;Insolent and lustful [From.GetFirstName] has trodden on my honor and taken my spoils. Wine-sopped [From.GetFirstName] will regret this!;;;;;;;;;;;;;x
+EVTOPTATW14;Divine Mother, Let the Achaeans perish on the sea-shore!;;;;;;;;;;;;;x
+EVTOPTATW14_TT;Your mother Thetis will ask Zeus to punish the Achaeans.;;;;;;;;;;;;;x
+
+EVTTITLETW15;The Wrath of Akhilleus;;;;;;;;;;;;;x
+EVTDESCTW15;Wrathful Akhilleus has left the camp of the Achaeans due to a dispute with [FromFrom.GetFirstName]. Without his mighty strength, the Achaean never be able to pierce the walls of Troy.;;;;;;;;;;;;;x
+EVTOPTAATW15;Woe to the soldiers!;;;;;;;;;;;;;x
+EVTOPTABTW15;Excellent!;;;;;;;;;;;;;x
+
+EVTDESCATW16;I have received a dream of honeyed words and flattery, surely Father Zeus favors me! And I rushed to get all the Achaeans under arms and bring woe to the Trojans, though I believed it wise to test the resolve of my men first. I announced to the camp that they are allowed to take leave and return to their wives, believing that their will to fight will make them stay. Sadly, only this broke their resolve, and only through the help of Odusseús do the Achaeans stay.;;;;;;;;;;;;;x
+EVTDESCBTW16;I have received a dream of honeyed words and flattery, surely Father Zeus favors me! And I rushed to get all the Achaeans under arms and bring woe to the Trojans, though I believed it wise to test the resolve of my men first. I announced to the camp that they are allowed to take leave and return to their wives, believing that their will to fight will make them stay. Sadly, only this broke their resolve, and only through the help of one of the soldiers do the Achaeans stay.;;;;;;;;;;;;;x
+
+EVTOPTATW16;May Priam’s house be laid low!;;;;;;;;;;;;;x
+
+EVTDESCTW17;This war is between me and red-haired Menelaos, if I slay him then the suitors may depart!;;;;;;;;;;;;;x
+EVTOPTATW17;I must be brave!;;;;;;;;;;;;;x
+EVTOPTBTW17;I'd rather not...;;;;;;;;;;;;;x
+
+EVTDESCTW18;The woman-mad Paris has challenged me to a duel! Now is the time to restore my honor. Priam’s son will bleed in the dust...;;;;;;;;;;;;;x
+EVTOPTATW18;The lion will devour the handsome hart.;;;;;;;;;;;;;x
+EVTOPTBTW18;I will not indulge the prince.;;;;;;;;;;;;;x
+
+EVTTITLETW85;Death of Menelaos;;;;;;;;;;;;;x
+EVTDESCTW85;The wronged bridegroom of Sparta has been killed in single combat. This bodes ill for the ranks of the Achaeans.;;;;;;;;;;;;;x
+EVTOPTAATW85;Utter tragedy!;;;;;;;;;;;;;x
+EVTOPTABTW85;So dies Menelaos of the war-cry...;;;;;;;;;;;;;x
+EVTOPTATW85_TT;The Trojan War ends.;;;;;;;;;;;;;x
+
+EVTTITLETW87;Death of Menelaos;;;;;;;;;;;;;x
+EVTDESCTW87;Blood! The wronged bridegroom of Sparta has died in a chaotic clash of glittering spears on a gory battlefield.;;;;;;;;;;;;;x
+EVTOPTAATW87;Utter tragedy!;;;;;;;;;;;;;x
+EVTOPTABTW87;So dies Menelaos of the war-cry...;;;;;;;;;;;;;x
+EVTOPTATW87_TT;The Trojan War ends.;;;;;;;;;;;;;x
+
+EVTTITLETW89;Death of Menelaos;;;;;;;;;;;;;x
+EVTDESCTW89;Mighty Menelaos breathed his last within the confines of his tent, either from sickness or treachery.;;;;;;;;;;;;;x
+EVTOPTAATW89;Utter tragedy!;;;;;;;;;;;;;x
+EVTOPTABTW89;So dies Menelaos of the war-cry...;;;;;;;;;;;;;x
+EVTOPTATW89_TT;The Trojan War ends.;;;;;;;;;;;;;x
+
+EVTDESCTW20;Menelaos is driven back and disarmed, but before the killing blow can be landed, Pallas Athene surrounds him in a cloud of darkness and whisks him away to the safety of the Achaeans camp.;;;;;;;;;;;;;x
+EVTOPTATW20;The gods feud among their own...;;;;;;;;;;;;;x
+EVTOPTATW20_TT;A truce shall temporarily be made.;;;;;;;;;;;;;x
+
+EVTTITLETW21;Paris is driven back and disarmed, but before the killing blow can be landed, Golden Aphrodite surrounds him in a cloud of darkness and whisks him away to the safety of the Trojan Walls.;;;;;;;;;;;;;x
+EVTOPTATW21;The gods feud among their own...;;;;;;;;;;;;;x
+EVTOPTATW21_TT;A truce shall temporarily be made.;;;;;;;;;;;;;x
+
+EVTDESCTW22;Treachery! The energetic archer Pandaros has fired an arrow at bold Menelaos and broken the truce!;;;;;;;;;;;;;x
+EVTOPTATW22;What could have gotten into him...;;;;;;;;;;;;;x
+
+EVTDESCTW23;Treachery! A Trojan archer has fired an arrow at bold Menelaos and broken the truce!;;;;;;;;;;;;;x
+EVTOPTATW23;What could have gotten into him...;;;;;;;;;;;;;x
+
+EVTDESCTW24;The Achaeans are near the end of their strength, now it is time to earn back the favor of godlike Akhilleus. A delegation is sent, hopefully they will bring him and his men back into the fray.;;;;;;;;;;;;;x
+EVTOPTATW24;Of all the warlords, I hate him the most...;;;;;;;;;;;;;x
+
+EVTDESCTW25;The handpicked messengers of Agamemnon enter my tent, and they speak of the treasure and slaves and land that will be given to me to heal my bruised honor. They mean well, and the treasure is tempting...;;;;;;;;;;;;;x
+EVTOPTATW25;[From.GetFirstName] has wronged me greatly! I shall stay.;;;;;;;;;;;;;x
+EVTOPTBTW25;I cannot be far from battle for too long...;;;;;;;;;;;;;x
+
+EVTDESCTW26;“I will be appeased neither by Agamemnon son of Atreus nor by any other of the Danaans, for I see that I have no thanks for all my fighting!” Akhilleus’ furious letter of refusal rings through my head as if he was here. The dejected messengers make their libations and glumly return to their tents.
+EVTOPTATW26;Rage...;;;;;;;;;;;;;x
+
+EVTDESCTW27;Praise the gods, swift-footed Akhilleus has swallowed his pride and returned to the fray!;;;;;;;;;;;;;x
+EVTOPTATW27;May the Trojans quake with fear!;;;;;;;;;;;;;x
+
+EVTDESCTW28;The state of the Achaeans fills me with despair, as a last resort I approach Akhilleus and say:
+“I feel grief for the disaster that has now befallen the Argives... Let me wear your armor - the Trojans may mistake me for you and quit the field!”;;;;;;;;;;;;;x
+EVTOPTATW28;Will he say yes?;;;;;;;;;;;;;x
+
+EVTDESCTW29;Pátroklos comes before you with tears streaming from his eyes. 
+“I feel grief for the disaster that has now befallen the Argives... Let me wear your armor - the Trojans may mistake me for you and quit the field!”;;;;;;;;;;;;;x
+EVTOPTATW29;I may relent, but do not keep all the glory for yourself...;;;;;;;;;;;;;x
+
+EVTDESCTW30;I gird myself in the flashing armor of Akhilleus and make ready to take the field.;;;;;;;;;;;;;x
+EVTOPTATW30;For glory!;;;;;;;;;;;;;x
+
+EVTTITLETW90;Return of Akhilleus?;;;;;;;;;;;;;x
+EVTDESCTW90;From a great ship comes the bloodthirsty Murmidónes behind the chariot of... Akhilleus? It must be so, who else could wear that well-made cuirass and peaked helm crested with horse-hair.;;;;;;;;;;;;;x
+EVTOPTAATW90;Suspicious...;;;;;;;;;;;;;x
+EVTOPTABTW90;Is it truly he?;;;;;;;;;;;;;x
+
+EVTDESCTW31;In the middle of the battle-fray I see wounded 'Akhilleus' - helpless, disarmed, and his true identity revealed. It is great-hearted Pátroklos! I force my way through the ranks, and when close I strike him with my spear, driving the point right through so that he falls heavily to the ground. The armor of Peleus' son is mine to take.;;;;;;;;;;;;;x
+EVTOPTATW31;Akhilleus could not help you today, Pátroklos...;;;;;;;;;;;;;x
+
+EVTTITLETW32;Death of Pátroklos;;;;;;;;;;;;;x
+EVTDESCTW32;"Son of noble Peleus, I bring you bad tidings, would indeed that they were untrue. Pátroklos has fallen, and-"
+Darkness, darkness. I grab the filth and dust of the earth and pour it over my head, with a terrible ragged shout I fall upon the ground and tear away at my clothes and hair with hands twisted into claws. The women of the camp wail and shriek with grief, my cries are heard by Mother Thetis in the depths of the sea, and all of her sister-goddesses weep and beat their breasts.;;;;;;;;;;;;;x
+EVTOPTATW32;He whom I loved as dearly as my own life.;;;;;;;;;;;;;x
+EVTOPTATW32_TT;Thetis has Haphaistos craft new armor and an ornate shield for your return.;;;;;;;;;;;;;x
+
+EVTTITLETW33;Return of Akhilleus;;;;;;;;;;;;;x
+EVTDESCATW33;Raging Akhilleus has returned to the fray, his shouts of fury are heard throughout the land.;;;;;;;;;;;;;x
+EVTDESCBTW33;Raging and grieving Akhilleus has returned to the fray, his shouts of pain and rage are heard throughout the land.;;;;;;;;;;;;;x
+EVTOPTAATW33;Troy will bleed...;;;;;;;;;;;;;x
+EVTOPTABTW33;Apollon protect us!;;;;;;;;;;;;;x
+
+EVTDESCATW34;"Son of Atreus, king of men Agamemnon, you can give such gifts as you think proper, or you can withhold them, let us now prepare for battle...”\n
+I have made peace with Agamemnon who showers me with gifts, including my lost concubine Briseis. Paying little mind to her, I strap on the new forged gear made for you by strong-handed Hephaistos and head off to battle as Briseis mourns the death of Pátroklos.;;;;;;;;;;;;;x
+EVTDESCBTW34;Entering my camp, I see that Agamemnon has ordered my spoils be returned to me. I have made peace with Agamemnon who sends me gifts, including my lost concubine Briseis. Paying little mind to her, I strap on the new forged gear made for you by strong-handed Hephaistos and head off to battle as Briseis mourns the death of Pátroklos.;;;;;;;;;;;;;x
+EVTOPTATW34;I will give the Trojans their share of fighting...;;;;;;;;;;;;;x
+
+EVTDESCTW35;I will not flee. Courage wells up within me as I turn and face terrifying Akhilleus who stalks towards me like a lion. I will ready my spear, and face my doom.;;;;;;;;;;;;;x
+EVTOPTATW35;May you miss your aim, Akhilleus.;;;;;;;;;;;;;x
+
+EVTDESCTW36;His spear poised, tall Hektor rushes towards me filled with battle-fire. I snarl and raise my shield, while he soars towards me like the rushing eagle. Priam’s son will not live to see his children grow.;;;;;;;;;;;;;x
+EVTOPTATW36;No covenants between men and lions.;;;;;;;;;;;;;x
+
+EVTTITLETW91;Death of Hektor;;;;;;;;;;;;;x
+EVTDESCTW91;Hektor has been struck down by great Akhilleus! In glorious battle, Akhilleus has slain the Trojan prince, leaving the Dardanoi in grief.;;;;;;;;;;;;;x
+EVTOPTAATW91;The prince falls...;;;;;;;;;;;;;x
+EVTOPTABTW91;May he rest.;;;;;;;;;;;;;x
+
+EVTDESCTW38;"Iron-hearted.... beware... my curse, the god's wrath... Paris and Apollon... death at the Scaean Gates!"\nThen my Myrmidons fell on him, stabbing his corpse ten, twenty times over for every blow he gave to Pátroklos. But it is not enough. I pierce his heels, knot them to rawhide, lash them to my chariot. Fast as the wind my horses fly, dragging his body in the dust across the plain. A great cry rings out on the walls of Ilium -- the mother of Hektor tearing out her hair, Dardan Priam with tears coursing down his face. Lament! Lament! No Trojan can feel a tenth of the agony he has caused me, by taking Pátroklos! I will not suffer his murderer to be mourned before him! I turn my horses to the camps, dragging Hektor's broken body behind me.;;;;;;;;;;;;;x
+EVTOPTATW38;Not even in death shall I forget you, my Pátroklos.;;;;;;;;;;;;;x
+
+EVTDESCTW39;A figure draws near, the mournful shade of dead Pátroklos.
+"You sleep, Akhilleus, and have forgotten me; you loved me living, but now that I am dead you think for me no further. Bury me with all speed that I may pass the gates of Hades.”
+\nI open my arms to embrace him, but there was nothing, and the spirit vanishes as a vapor.;;;;;;;;;;;;;x
+EVTOPTATW39;I shall carry out his final wish.;;;;;;;;;;;;;x
+
+EVTTITLETW40;Funeral Games for Pátroklos;;;;;;;;;;;;;x
+EVTDESCATW40;The grieving Achaeans burn many hecatombs and prepare the funeral games for my Pátroklos. Chariot-races, boxing, furious wrestling, the foot-race, single combat, archery, and then the throwing of the javelin. I heaps prizes on the winners, but my heart is filled with darkness as I peer at the unwashed body of dead Hektor.;;;;;;;;;;;;;x
+EVTDESCBTW40;The grieving Achaeans burn many hecatombs and prepare the funeral games for poor Pátroklos. Chariot-races, boxing, furious wrestling, the foot-race, single combat, archery, and then the throwing of the javelin. Akhilleus heaps prizes on the winners, but his heart is filled with darkness as he peers at the unwashed body of dead Hektor.;;;;;;;;;;;;;x
+EVTOPTATW40;Good champions all.;;;;;;;;;;;;;x
+
+EVTTITLETW41;Hektor's Body;;;;;;;;;;;;;x
+EVTDESCTW41;My house is filled with weeping and lamentation. Hektor, brave Hektor, my most beloved son has been slain and his body is kept as a spoil of war by the abominable Danaans. I prepare a mule-wagon carrying treasures of bronze and gold, and with a trusted driver I make my way to the camp of the relentless Achaeans, guided in the night by the twinkling wings of golden Hermes. I enter the dwelling of Akhilleus, and kiss those terrible bloody hands and beg for the body of my Hektor to be returned.\n“Akhilleus, the wrath of heaven; think on your own father and have compassion upon me.”;;;;;;;;;;;;;x
+EVTOPTATW41;Wretched man that I am.;;;;;;;;;;;;;x
+
+EVTTITLETW42;Hektor's Body;;;;;;;;;;;;;x
+EVTDESCTW42;A most strange happening, Priam of Ilion enters my presence and kisses my hands, beseeching me to return the body of his son Hektor. He speaks of my own aged father, and seeing this great king brought to such grief moves me as well...;;;;;;;;;;;;;x
+EVTOPTATW42;I shall grant you this;;;;;;;;;;;;;x
+EVTOPTBTW42;Leave from this camp. Be glad I have not slain you.;;;;;;;;;;;;;x
+
+EVTTITLETW43;Hektor's Body;;;;;;;;;;;;;x
+EVTDESCTW43;Akhilleus looks me in the eyes, the eyes of his enemy, and says, "Vex me, sir, no longer - I am of myself minded to give up the body of Hektor.”;;;;;;;;;;;;;x
+EVTOPTATW43;His soul shall finally rest.;;;;;;;;;;;;;x
+
+EVTTITLETW44;Hektor's Body;;;;;;;;;;;;;x
+EVTDESCTW44;Akhilleus pulls his hand away from mind and says, “Mourn as you may for your brave son, you will take nothing by it.;;;;;;;;;;;;;x
+EVTOPTATW44;Such cruelty...;;;;;;;;;;;;;x
+
+EVTTITLETW45;Burial of Hektor;;;;;;;;;;;;;x
+EVTDESCTW45;The body of dear Hektor is laid upon the pile of wood and the entire grand pyre is set alight. Days later the flames are quenched with rich and hissing wine, the bones are taken and wrapped in soft robes of purple and laid to rest in the tomb-mound with the other great sons of Ilios.;;;;;;;;;;;;;x
+EVTOPTATW45;And so is Hektor, breaker of horses.;;;;;;;;;;;;;x
+
+EVTDESCTW46;My arrows will find their mark. Dread Akhilleus, murderer of brother Hektor. As I draw near. Appaliunaš guides my arrows, they pierce the skin of the hero, and carry the poison into his veins.;;;;;;;;;;;;;x
+EVTOPTATW46;Hektor, you are avenged.;;;;;;;;;;;;;x
+
+EVTTITLETW92;Death of Akhilleus;;;;;;;;;;;;;x
+EVTDESCTW92;Akhilleus, the greatest warrior of the Achaeans has fallen. The Achaeans lament the death of this troubled hero, the Trojans curse his name and await the vengeful wrath of the Danaans.;;;;;;;;;;;;;x
+EVTOPTAATW92;Will this terrible war ever end?;;;;;;;;;;;;;x
+EVTOPTABTW92;May Troy be safe now he is gone.;;;;;;;;;;;;;x
+
+EVTTITLETW47;Funeral Games for Akhilleus;;;;;;;;;;;;;x
+EVTDESCTW47;The body of Akhilleus is burned, his ashes and bones mixed with those of beloved Pátroklos and interred in the earth of the Troada. The Achaeans hold another round of funeral games, sacrifices, and the exchange of awards and gifts.;;;;;;;;;;;;;x
+EVTOPTATW47;Now for his divine armor...;;;;;;;;;;;;;x
+
+EVTTITLETW48;The Armor of Akhilleus;;;;;;;;;;;;;x
+EVTDESCATW48;Cunning Odusseús claims the divine armor of my dead cousin Akhilleus for himself, hopefully I can overcome his honeyed words and make my case to the rest of the Achaeans.;;;;;;;;;;;;;x
+EVTOPTAATW48;I will not be refused.;;;;;;;;;;;;;x
+EVTDESCBTW48;Mighty Aías claims the divine armor of dead Akhilleus for himself, perhaps with my honeyed words I may make my case to the rest of the Achaeans.;;;;;;;;;;;;;x
+EVTOPTABTW48;They do call me the teller-of-tales...;;;;;;;;;;;;;x
+
+EVTTITLETW49;The Armor of Akhilleus;;;;;;;;;;;;;x
+EVTDESCTW49;I have proven myself most worthy! Akhilleus' shining armor is mine to take. Though it is uncouth to put on the armor at this time, once I return to my private quarters, I'll see if the breastplate fits;;;;;;;;;;;;;x
+EVTOPTATW49;I pity the others.;;;;;;;;;;;;;x
+
+EVTTITLETW50;The Armor of Akhilleus;;;;;;;;;;;;;x
+EVTDESCTW50;Crafty Odusseús has won my dead cousin’s armor by tricks and flattery! Him, that thieving snake, has stolen what is mine by right! I cannot bear this dishonor, this inhuman guile! Liar, LIAR!!!;;;;;;;;;;;;;x
+EVTOPTATW50;Aías nevermore shall they insult... Farewell.;;;;;;;;;;;;;x
+
+EVTOPTBTW50;Maybe I am overreacting a bit.;;;;;;;;;;;;;x
+
+EVTTITLETW117;Suicide of Aías;;;;;;;;;;;;;x
+EVTDESCTW117;Woe to the family of Aías! After Odusseús won the armor of Akhilleus, he fell on his own sword and took his own life. May he find peace in death.;;;;;;;;;;;;;x
+EVTOPTATW117;Great wrath befell him...;;;;;;;;;;;;;x
+
+EVTDESCTW51;We have captured the prophetic son of Priam named Helenos, who under torture reveals a most interesting prophecy. “If the bones of Pelops are brought to Troy, if the poisoned arrows of Herakles are held by your captains, if Púrrhos son of Akhilleus fights for you, and if the Palladion which had fallen from heaven is stolen from the city, Troy will finally fall to the Achaeans.”;;;;;;;;;;;;;x
+EVTOPTATW51;I will see Ilion float in gore!;;;;;;;;;;;;;x
+EVTOPTATW51_TT;People are sent out to retreive the items.;;;;;;;;;;;;;x
+
+EVTDESCTW93;Under torture, one of the Trojans have revealed a prophecy that will bring victory to the our camp and bring the Trojan Walls crumbling down!;;;;;;;;;;;;;x
+EVTOPTATW93;Soon I can return home!;;;;;;;;;;;;;x
+
+EVTDESCTW52;We have captured a Trojan seer, who under torture reveals a most interesting prophecy. “If the bones of Pelops are brought to Troy, if the poisoned arrows of Herakles are held by your captains, if Púrrhos son of Akhilleus fights for you, and if the Palladion which had fallen from heaven is stolen from the city, Troy will finally fall to the Achaeans.”;;;;;;;;;;;;;x
+EVTOPTATW52;I will see Ilion float in gore!;;;;;;;;;;;;;x
+EVTOPTATW52_TT;People are sent out to retreive the items.;;;;;;;;;;;;;x
+
+EVTDESCTW53;For Troy to fall, the ivory shoulder of Grandfather Pelops must be brought to the Troada, the arrows and bow of Herakles must be held in Troy, the sacred Palladion of Ilios must be stolen, and Púrrhos must fight for us at Ilion. I will send our most trusted companions to complete this task.;;;;;;;;;;;;;x
+EVTOPTATW53;Closer and closer...;;;;;;;;;;;;;x
+
+EVTDESCTW76;Envoys of the House of Atreus have arrived at my gates I am told, demanding the stout bones of their ancestor Pelops. They speak of prophecy, seers, and Troy burning.;;;;;;;;;;;;;x
+EVTOPTATW76;I will give it to them.;;;;;;;;;;;;;x
+
+EVTDESCTW77;Grandfather Pelops bones have been retrieved, we are another step closer to taking this doomed city.;;;;;;;;;;;;;x
+EVTOPTATW77;Excellent.;;;;;;;;;;;;;x
+
+EVTDESCATW54;Mighty Diomedes and I are to secretly enter Troy, and make off with the precious wooden Palladion that protects the city.;;;;;;;;;;;;;x
+EVTDESCBTW54;Crafty Odusseús and I are to secretly enter Troy, and make off with the precious wooden Palladion that protects the city. Sneaking into a secret entrance into the city, we take the Palladion and return to the camp undetected.;;;;;;;;;;;;;x
+EVTDESCCTW54;I and a few others are to secretly enter Troy, and make off with the precious wooden Palladion that protects the city. Sneaking into a secret entrance into the city, we take the Palladion and return to the camp undetected.;;;;;;;;;;;;;x
+EVTDESCDTW54;I and a few others are to secretly enter Troy, and make off with the precious wooden Palladion that protects the city. Sneaking into a secret entrance into the city, we take the Palladion and return to the camp undetected.;;;;;;;;;;;;;x
+EVTOPTATW54;Just a few more tasks...;;;;;;;;;;;;;x
+EVTDESCTW55;The mission to the city of Troy has returned with the Palladion in tow. Soon Troy will fall.;;;;;;;;;;;;;x
+EVTOPTATW55;I shall see too it that the city will never rise again.;;;;;;;;;;;;;x
+
+EVTDESCTW56;Terrible news, the precious wooden totem fashioned by Atina has been taken by the Achaeans. We have lost a most valuable ward, will our walls still keep out the foe?;;;;;;;;;;;;;x
+EVTOPTATW56;We must be more vigilant!;;;;;;;;;;;;;x
+
+EVTDESCTW57;We set off for the island of Lemnos to take the poisoned arrows of godly Herakles, left behind on the isle with the unfortunate Philoktetes. In a cave within the Lemnian forests I find the forlorn Philokteces still nursing his festering and desiccated leg laying upon a rustic bed of leaves. Leaning against the cave-wall behind him are the deadly arrows of Herakles, still dripping with the Hydra’s venom.;;;;;;;;;;;;;x
+EVTOPTATW57;We shall have him healed and returned to the camp.;;;;;;;;;;;;;x
+
+EVTDESCATW58;While I lay in Lemnos tending to my still festering wound, I see Diomedes' and Odusseús' ship arrive on the island. They inform me that I am desperately needed in Troy, and that they will have me healed.;;;;;;;;;;;;;x
+EVTDESCBTW58;While I lay in Lemnos tending to my still festering wound, I see Diomedes' ship arrive on the island. He informs me that I am desperately needed in Troy, and that they will have me healed.;;;;;;;;;;;;;x
+EVTDESCCTW58;While I lay in Lemnos tending to my still festering wound, I see Odusseús' ship arrive on the island. He informs me that I am desperately needed in Troy, and that they will have me healed.;;;;;;;;;;;;;x
+EVTDESCDTW58;While I lay in Lemnos tending to my still festering wound, I see a ship with several Achaeans arrive on the island. They inform me that I am desperately needed in Troy, and that they will have me healed.;;;;;;;;;;;;;x
+EVTOPTATW58;Finally I am appreciated!;;;;;;;;;;;;;x
+
+EVTDESCATW59;Philokteces, along with the golden arrows of Herakles have arrived at the camp of the Achaeans. Unstoppable fate shambles on to its bloody conclusion.;;;;;;;;;;;;;x
+EVTDESCBTW59;The golden arrows of Herakles have arrived at the camp of the Achaeans. Unstoppable fate shambles on to its bloody conclusion.;;;;;;;;;;;;;x
+EVTOPTATW59;Perhaps Herakles watches us now...;;;;;;;;;;;;;x
+
+EVTDESCTW60;We set off for the mainland to the realm of the holder of the poisoned arrows of Herakles we find its holder outside of a palace, relaxing.;;;;;;;;;;;;;x
+
+EVTDESCATW61;While I sit outside my palace in relaxation, I see Diomedes' and Odusseús' ship arrive on the island. They inform me that the arrows of Herakles are desperately needed in Troy, and that they will be returned once Troy falls.;;;;;;;;;;;;;x
+EVTDESCBTW61;While I sit outside my palace in relaxation, I see Diomedes' ship arrive on the island. He informs me that the arrows of Herakles are desperately needed in Troy, and that they will be returned once Troy falls.;;;;;;;;;;;;;x
+EVTDESCCTW61;While I sit outside my palace in relaxation, I see Odusseús' ship arrive on the island. He informs me that the arrows of Herakles are desperately needed in Troy, and that they will be returned once Troy falls.;;;;;;;;;;;;;x
+EVTDESCDTW61;While I sit outside my palace in relaxation, I see a ship with several Achaeans arrive on the island. They inform me that the arrows of Herakles are desperately needed in Troy, and that they will be returned once Troy falls.;;;;;;;;;;;;;x
+EVTOPTATW61;I'll fetch them right now.;;;;;;;;;;;;;x
+
+EVTDESCTW62;We go now to fertile Phthia to find the son of Akhilleus. There we find the boy-child Púrrhos, still a youth but already tall, swift, and cruel. He will be our Neoptolemos, new-warrior.;;;;;;;;;;;;;x
+EVTOPTATW62;He is the image of his father...;;;;;;;;;;;;;x
+
+EVTDESCATW63;As I walk around the palace of my grandfather, still mourning the death of my father, I see Diomedes and Odusseús approach me. They explain that I am desperately needed in Troy, as a prophecy mandates.;;;;;;;;;;;;;x
+EVTDESCBTW63;As I walk around the palace of my grandfather, still mourning the death of my father, I see Diomedes approach me. They explain that I am desperately needed in Troy, as a prophecy mandates.;;;;;;;;;;;;;x
+EVTDESCCTW63;As I walk around the palace of my grandfather, still mourning the death of my father, I see Odusseús approach me. They explain that I am desperately needed in Troy, as a prophecy mandates.;;;;;;;;;;;;;x
+EVTDESCDTW63;As I walk around the palace of my grandfather, still mourning the death of my father, I see Achaean soldiers approach me. They explain that I am desperately needed in Troy, as a prophecy mandates.;;;;;;;;;;;;;x
+EVTOPTATW63;I'll pack my things!;;;;;;;;;;;;;x
+
+EVTDESCTW64;Púrrhos has come to the Troada, burning with the battle-fire that belonged to his doomed father Akhilleus. He demands vengeance for his father, and we will let him have it when the time is right.;;;;;;;;;;;;;x
+
+EVTOPTATW64;Let flow the warm blood.;;;;;;;;;;;;;x
+
+EVTDESCTW65;As I fire my arrows outside of the battlements of the Trojan Walls, I spot an archer taking aim at me. I began to scuttle the other way in order to avoid the arrow, but it is too late. The arrow, seemingly poisoned, strikes my heel, and begins to kill me instantly.;;;;;;;;;;;;;x
+EVTOPTATW65;So this is the end...;;;;;;;;;;;;;x
+
+EVTDESCTW66;Pure inspiration, a brilliant and cunning plan has been devised by me! The Achaeans are to make a great wooden horse which inside will hide their bravest captains and the rest of the host will burn the camp and sail away. The Trojans will take the carved horse as a votive offering and pull it within their walls, unknowingly bringing their own destruction down on their heads!!;;;;;;;;;;;;;x
+EVTOPTATW66;A thing of guile!;;;;;;;;;;;;;x
+
+EVTTITLETW67;'The Trojan Horse';;;;;;;;;;;;;x
+EVTDESCTW67;[From.GetFirstName] has devised a brilliant plan for our troops to breach the Trojan Walls. A great wooden horse which inside will hide their bravest captains and the rest of the host will burn the camp and sail away. The Trojans will take the carved horse as a votive offering and pull it within their walls, unknowingly bringing their own destruction down on their heads.;;;;;;;;;;;;;x
+EVTOPTATW67;We will choose its passengers by lots...;;;;;;;;;;;;;x
+
+EVTDESCTW94;The craftsmen and warriors of the Danaans work tirelessly under the leadership of our greatest architect to build a deadly horse, within its cavernous depths it will carry the doom of the Trojans.;;;;;;;;;;;;;x
+EVTOPTATW94;Will it work?;;;;;;;;;;;;;x
+
+EVTDESCTW95;It is complete, the great wooden horse towers over plains higher then the walls of Ilios itself. The host of the Achaeans will feign a retreat and wait for the Trojans to fall for the treachery.;;;;;;;;;;;;;x
+EVTOPTATW95;We are committed.;;;;;;;;;;;;;x
+
+EVTDESCTW68;It is complete, the great wooden horse towers over plains higher then the walls of Ilios itself. The host of the Achaeans will feign a retreat and wait for the Trojans to fall for the treachery.;;;;;;;;;;;;;x
+EVTOPTATW68;It will soon be over.;;;;;;;;;;;;;x
+
+EVTTITLETW69;Danaans Bearing Gifts;;;;;;;;;;;;;x
+EVTDESCTW69;Have we finally earned Father Zeus’ favor? The camp of the vile Danaans is empty, their ships have departed. On the plain they have left what must be a votive offering, a massive wooden horse.;;;;;;;;;;;;;x
+EVTOPTATW69;An offering? Perhaps they fear the offended the gods.;;;;;;;;;;;;;x
+
+EVTTITLETW70;Danaans Bearing Gifts;;;;;;;;;;;;;x
+EVTDESCTW70;A wooden horse... who knows what awaits within its cavernous holds? This must be a tool of the Achaeans to take our city!;;;;;;;;;;;;;x
+EVTOPTATW70;I trust not Danaans, even when they leave gifts.;;;;;;;;;;;;;x
+
+EVTTITLETW71;Danaans Bearing Gifts;;;;;;;;;;;;;x
+EVTDESCTW71;Laokoöno f Dardania announces his suspicion of the wooden horse. “Do you think the enemy's sailed away? Do you think the Danaans are free of treachery? Trojans, don't trust this horse. Whatever it is, I am afraid of Danaans even those bearing gifts.” He hurls a spear into the horse’s wooden flank to prove his point, it rings out like a hollow chest. As if in answer to this, two massive serpents rise from the sea and coil themselves around proud Laokoon. He collapses, bellowing up to heaven like a dying bull as the serpents sink their teeth again and again into his venom soaked flesh.;;;;;;;;;;;;;x
+EVTOPTATW71;The gods have made their point, we must keep the wooden horse.;;;;;;;;;;;;;x
+
+EVTTITLETW72;In the Belly of the Beast;;;;;;;;;;;;;x
+EVTDESCTW72;Laying await until sundown when the Trojans will be at their weakest, some of us begin to have their resolves weakened. However, inspirational words seemingly from Athene herself spill from our captains, assuring us in the inevitability of victory. As the sun fell and the moon rose, we poured out of the horse and onto the streets of Troy, destroying its walls and razing the city to the ground.;;;;;;;;;;;;;x
+EVTOPTATW72;And thus... it ends...;;;;;;;;;;;;;x
+
+EVTTITLETW74;The Sack of Troy;;;;;;;;;;;;;x
+EVTDESCATW74;Ilios burns. The whole host of the Achaeans with reckless battle-lust poured into the city. Palaces, temples, horribly blazing on all sides - glowed the Danaan hearts with joy. Ares maddened them: blood runs in torrents, drenched was all the earth, as Trojans and their allies died. All about the city, dolorous howls of strong men stricken to death rose, mixed with the terror-shrieks of women.;;;;;;;;;;;;;x
+EVTDESCBTW74;Wilusa burns. The whole host of the Achaeans with reckless battle-lust poured into the city. Palaces, temples, horribly blazing on all sides - glowed the Danaan hearts with joy. Ares maddened them: blood runs in torrents, drenched was all the earth, as Trojans and their allies died. All about the city, dolorous howls of strong men stricken to death rose, mixed with the terror-shrieks of women.;;;;;;;;;;;;;x
+EVTDESCCTW74;Troy burns. The whole host of the Achaeans with reckless battle-lust poured into the city. Palaces, temples, horribly blazing on all sides - glowed the Danaan hearts with joy. Ares maddened them: blood runs in torrents, drenched was all the earth, as Trojans and their allies died. All about the city, dolorous howls of strong men stricken to death rose, mixed with the terror-shrieks of women.;;;;;;;;;;;;;x
+EVTOPTAATW74;Save some spoils for me!;;;;;;;;;;;;;x
+EVTOPTABTW74;Merciless are the Danaans.;;;;;;;;;;;;;x
+EVTOPTACTW74;The barbarity!;;;;;;;;;;;;;x
+
+EVTTITLETW75;Seeing Her;;;;;;;;;;;;;x
+EVTDESCATW75;I press on into the palace dealing merciless death to foes, for maddened is my soul with jealousy. At last in the inner chamber I find my cowering wife, and my bold heart is blackened with rage as I pull her from the midst of the cushions and toss her down at my feet. \nBut, but... As if Aphrodite herself had stayed my sword I was gripped by the beauty which shone as pure as it had the last day I had seen her some ten years before. Helen, Helen, daughter of Zeus, my wedded wife...;;;;;;;;;;;;;x
+EVTOPTATW75;Helen, I will forgo wrath.;;;;;;;;;;;;;x
+EVTOPTBTW75;You have ruined me forever, Helen! Too many lie dead for your sake!;;;;;;;;;;;;;x
+
+EVTDESCTW78;In the burning palace bestrewn with dying men and rapacious Achaeans I find him, Priam, lord of the Troada, father of the Dardanoi. He speaks, “Oh, if only your dread father Akhilleus had slain me in his camp so I would not live to see this day, my house and seed are lost forever. Fierce-hearted son of Akhilleus strong in war, slay me, and pity not my misery.”;;;;;;;;;;;;;x
+EVTOPTATW78;Gladly I fulfill this wish.;;;;;;;;;;;;;x
+
+EVTDESCTW79;Surrounded by the destruction of my city, I see Púrrhos, sword in hand and ready to strike me down. I cry out to him, begging him to release me from the pain of losing my sons and my city, and he obliges.;;;;;;;;;;;;;x
+EVTOPTATW79;My line ends...;;;;;;;;;;;;;x
+
+EVTDESCTW80;With the blood of Trojans on my sword, I feel like a lion, a god even. In the temple of Athene I find her, the weird and prophetic daughter of Priam. Kassandra clings to the wooden statue of the grey-eyed goddess and begs for mercy. She will not get it from me.;;;;;;;;;;;;;x
+EVTOPTATW80;With those wooden eyes watching I will take her.;;;;;;;;;;;;;x
+EVTOPTBTW80;I shall respect a woman of Athene.;;;;;;;;;;;;;x
+
+EVTDESCTW81;All is lost. They would never listen, they couldn’t. The city is falling and I have taken refuge within the temple of Atina. He finds me, the Achaean they call Aías the Lesser, it is all familiar, I knew this day would come...;;;;;;;;;;;;;x
+EVTOPTATW81;I must not weep.;;;;;;;;;;;;;x
+
+EVTDESCTW82;A vapor, an apparition, the shade of my father Akhilleus stands before me with burning dead eyes. \n“Hail, glorious son. Do not grieve for me, death offers me that peace I never knew in life. I need but one offering from you. That seed of Priam, the maiden Polyxena, you must take her to the mound where the bones of Pátroklos and myself were lowered into the earth. Take her life, spill her blood upon my resting place. Or else my wrath will be stirred once again, and none of the Danaans will see their homeland.” \nHe vanishes with the wind.;;;;;;;;;;;;;x
+EVTOPTATW82;Hark, Argives! Find the girl!;;;;;;;;;;;;;x
+EVTOPTBTW82;I cannot sacrifice a human, not even for my father.;;;;;;;;;;;;;x
+
+EVTDESCTW83;I have been taken by the Danaans from the burning city, who announce their intentions to sacrifice me upon the bones of their departed hero.;;;;;;;;;;;;;x
+EVTOPTATW83;I am afraid...;;;;;;;;;;;;;x
+
+EVTDESCTW84;Polyxena daughter of Priam is carried out of the madness and slaughter of fallen Troy by a troop of blood smeared Achaeans. With glittering armor, like grinning furys howling and chanting and staggering around like drunk men. They hold the girl over the buried bones of Akhilleus and Pátroklos and raggedly open her white throat with a blade of bronze. Blood spills onto the earth and feet of the Achaeans who splash and shout out curses and prayers. Akhilleus will notice this.;;;;;;;;;;;;;x
+EVTOPTATW84;Hear our prayer...;;;;;;;;;;;;;x
+
+EVTTITLETW97;Death of Helen;;;;;;;;;;;;;x
+EVTDESCTW97;Helen daughter of Zeus has perished, either from sickness or treachery.;;;;;;;;;;;;;x
+EVTOPTAATW97;Tragic.;;;;;;;;;;;;;x
+EVTOPTABTW97;The Trojans shall pay for this ten-fold.;;;;;;;;;;;;;x
+EVTOPTBTW97;She is dead, burning Troy cannot change that.;;;;;;;;;;;;;x
+
+EVTTITLETW98;End of the Trojan War;;;;;;;;;;;;;x
+EVTDESCTW98;With the death of Helen, the captains of the Achaeans have disbanded and returned to their homes. None see the purpose of continuing this war.;;;;;;;;;;;;;x
+EVTOPTAATW98;I can finally return to my wife...;;;;;;;;;;;;;x
+EVTOPTABTW98;Thank Appaliunaš!;;;;;;;;;;;;;x
+EVTOPTACTW98;A thousand ships return to their harbors...;;;;;;;;;;;;;x
+
+EVTTITLETW99;End of the Trojan War;;;;;;;;;;;;;x
+EVTDESCTW99;Great Ilos still stands in Wilusa. The Trojan War has ended with an uneasy peace.;;;;;;;;;;;;;x
+EVTOPTAATW99;An unsatisfying end.;;;;;;;;;;;;;x
+EVTOPTABTW99;At least the city still stands.;;;;;;;;;;;;;x
+EVTOPTACTW99;Was it worth it?;;;;;;;;;;;;;x
+
+EVTTITLETW100;End of the Trojan War;;;;;;;;;;;;;x
+EVTDESCTW100;The Trojans have crushed the ranks of the Achaeans, the poets will sing of the proud Kings of Wilusa who beat back the vicious Danaans.;;;;;;;;;;;;;x
+EVTOPTAATW100;Unending shame!;;;;;;;;;;;;;x
+EVTOPTABTW100;Appaliunaš protects event from the wrath of Ziuš;;;;;;;;;;;;;x
+EVTOPTACTW100;Who could have foreseen this?;;;;;;;;;;;;;x
+
+EVTDESCTW107;In the city of Troy, I have taken great joy in burning the city to the ground and gathering spoils of war. However, the Trojan princes see me, and rush with their arms to strike me down. After and ardous battle, I reign victorious, however I succumb to my wounds shortly after.;;;;;;;;;;;;;x
+EVTOPTATW107;This is the end.;;;;;;;;;;;;;x
+
+EVTDESCTW108;Seeing Akhilleus take pleasure in the destruction of our city, I and other Trojan princes rush to end his reign of terror. After an ardous battle, we are struck down, though Akhilleus is gravely wounded.;;;;;;;;;;;;;x
+EVTOPTATW108;May you succumb to your wounds.;;;;;;;;;;;;;x
+
+EVTDESCTW109;Away from the ravaging of Troy, I believe myself safe, until a radiant warrior challenges me to a duel. After fighting with the warrior for some time, I realize it is not a man, but Apollon, who strikes me down.;;;;;;;;;;;;;x
+EVTOPTATW109;Only a god is able to kill me;;;;;;;;;;;;;x
+
+EVTTITLETW118;As the Danaans destroy my city, they also slaughter its inhabitants. Although I thought myself safe, a group of Danaans found and slew me.;;;;;;;;;;;;;x
+EVTDESCBTW118;As the Danaans destroy the city, they also slaughter its inhabitants. Although I thought myself safe, a group of Danaans found and slew me.;;;;;;;;;;;;;x
+EVTOPTATW118;And thus, I die.;;;;;;;;;;;;;x
+
+EVTDESCTW101;On the plain of battle before the walls of Ilios, I see Glaukos, the captain of the Lukians. I speak to him of Oineús, my grandfather, close friend to his own grandfather Bellerophon slayer of the Khímaira.;;;;;;;;;;;;;x
+EVTOPTATW101;Let us avoid one anothers spears.;;;;;;;;;;;;;x
+EVTOPTBTW101;He is the enemy.;;;;;;;;;;;;;x
+
+EVTDESCTW102;On the plain of battle before the walls of Ilios, I see godlike Diomedes, a captain of the Achaeans. I speak to him of Bellerophon slayer of the Khímaira, my grandfather, close friend to his own grandfather Oineús.;;;;;;;;;;;;;x
+EVTOPTATW102;Let us avoid one anothers spears.;;;;;;;;;;;;;x
+EVTOPTATW102_TT;You and Diomedes exchange armor.;;;;;;;;;;;;;x
+EVTOPTBTW102;He is the enemy.;;;;;;;;;;;;;x
+
+EVTDESCTW103;Glaukos and I spring from our chariots, clasp hands, and exchange our armor.;;;;;;;;;;;;;x
+EVTOPTATW103;Friendship can grow, even on a battlefield.;;;;;;;;;;;;;x
+
+EVTDESCTW104;Glaukos has refused the hand of friendship offered by me.;;;;;;;;;;;;;x
+EVTOPTATW104;Pity.;;;;;;;;;;;;;x
+
+EVTDESCTW105;The items needed for Troy to fall have been returned to their original owners.;;;;;;;;;;;;;x
+
+EVTOPTATW105;Alright.;;;;;;;;;;;;;x

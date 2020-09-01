@@ -15,6 +15,7 @@ hellene;Héllen;;;;;;;;;;;;;x
 achaean;Akhaiós;;;;;;;;;;;;;x
 aeolian;Aiolikós;;;;;;;;;;;;;x
 amazonian;Amazonios;;;;;;;;;;;;;x
+arcadian;Arkás;;;;;;;;;;;;;x
 dorian;Dorieús;;;;;;;;;;;;;x
 ionian;Ionikós;;;;;;;;;;;;;x
 theogonos;Theogonos;;;;;;;;;;;;;x
@@ -270,10 +271,10 @@ e_european_pantheon;Europes Pantheon;;;;;;;;;;;;;x
 e_hellenic_pantheon;Hellenic Pantheon;;;;;;;;;;;;;x
 e_pihassasi_pantheon;Pihassasi Pantheon;;;;;;;;;;;;;x
 
-d_amazon;The Amazons;;;;;;;;;;;;;x
+d_amazon;Amazons;;;;;;;;;;;;;x
 d_amazon_adj;Amazonios;;;;;;;;;;;;;x
-d_murmidones;The Murmidones;;;;;;;;;;;;;x
-d_murmidones_adj;Murmidoni;;;;;;;;;;;;;x
+d_murmidones;Murmidónes;;;;;;;;;;;;;x
+d_murmidones_adj;Murmidónios;;;;;;;;;;;;;x
 
 HIGH_GOD;High God;;;;;;;;;;;;;x
 HEAD_KOHEN_AMURRU;Kohen Amurru;;;;;;;;;;;;;x
@@ -871,6 +872,7 @@ title_chief_of_the_scribes;Gal Dubsar;;;;;;;;;;;;;x
 
 ###########Artifacts###########
 shield;Shield;;;;;;;;;;;;;x
+helmet;Helmet;;;;;;;;;;;;;x
 
 armor_achilles;Armor of Akhilleus;;;;;;;;;;;;;x
 armor_achilles_desc;Originally belonging to Akhilleus' father Peleus, it was forged by Haphaistos as a wedding present.;;;;;;;;;;;;;x

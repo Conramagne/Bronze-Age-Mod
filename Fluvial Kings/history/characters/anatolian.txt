@@ -535,7 +535,7 @@
 #Independent Lords (2004000-2004999)
 2004000 = {
 	name = "Ura-Tarhundas" # Ura-Tarhundas, Duke of Hulaya
-	dynasty = 2000010 #Sandusili
+	dynasty = 2002005 #Sandusili
 	culture = luwian
 	religion = haianiluwi
 	2507.1.1 = { birth = yes }
@@ -544,7 +544,7 @@
 
 2004001 = {
 	name = "Ruwantia" # Ruwantia, Duke of Kastaraya
-	dynasty = 2000011 #Imarasili
+	dynasty = 2002006 #Imarasili
 	culture = luwian
 	religion = haianiluwi
 	2502.1.1 = { birth = yes }
@@ -553,7 +553,7 @@
 
 2004002 = {
 	name = "Hašhatatta" # Hašhatatta, Count of Istahara
-	dynasty = 2000012 #Kaskaili
+	dynasty = 2003000 #Kaskaili
 	culture = kaskian
 	religion = ishalitethai
 	2497.1.1 = { birth = yes }
@@ -562,7 +562,7 @@
 
 2004003 = {
 	name = "Pulaimenes" # Pulaimenes, Duke of Kalasma
-	dynasty = 2000013 #Enetili
+	dynasty = 2004001 #Enetili
 	culture = eneti
 	religion = ishalitethai
 	2487.1.1 = { birth = yes }
@@ -571,7 +571,7 @@
 
 2004004 = {
 	name = "Harpalion" # Harpalion
-	dynasty = 2000013 #Enetili
+	dynasty = 2004002 #Enetili
 	culture = eneti
 	religion = ishalitethai
 	father = 2004003

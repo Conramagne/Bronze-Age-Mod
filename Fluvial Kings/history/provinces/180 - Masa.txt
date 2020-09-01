@@ -3,5 +3,5 @@ title=c_masa
 max_settlements= 1
 b_masa=tribal
 
-culture=luwian
+culture=phrygian
 religion=haianiluwi

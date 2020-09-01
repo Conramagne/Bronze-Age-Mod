@@ -4,5 +4,5 @@ max_settlements= 2
 b_cardamyle=castle
 b_khios=temple
 
-culture=achaean
-religion=pantes_theoi
+culture=luwian
+religion=haianiluwi

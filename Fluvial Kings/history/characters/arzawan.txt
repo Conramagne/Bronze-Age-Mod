@@ -533,31 +533,85 @@
 }
 
 #Royal Family of Mysia (2200600-2200699)
-2200600 = { #Arsinoos, King of Mysia
+2200600 = { #Telephos, King of Mysia
+	name = "Telephos"
+	dynasty = 2100037 #Herakleid
+	culture = achaean
+	religion = haianiluwi
+	father = 1100157
+	mother = 2100305
+	2501.1.1 = { 
+		birth = yes
+		effect = {
+			culture = mysian
+		}
+	}
+	2521.1.1 = {
+		add_spouse = 2200603
+	}
+	2561.1.1 = { death = yes }
+}
+
+2200601 = { #Eurupulos
+	name = "Eurupulos"
+	dynasty = 2100037 #Herakleid
+	culture = achaean
+	religion = haianiluwi
+	father = 2200600
+	mother = 2200603
+	2521.1.1 = { 
+		birth = yes 
+		effect = {
+			culture = mysian
+		}
+	}
+	2581.1.1 = { death = yes }
+}
+
+2200602 = { #Teuthras, King of Mysua
+	name = "Teuthras"
+	dynasty = 2201001 #Teuthrasid
+	culture = mysian
+	religion = haianiluwi
+	disallow_random_traits = yes
+	2461.1.1 = { birth = yes }
+	2521.1.1 = { death = yes }
+}
+
+2200603 = { #Argiope
+	name = "Argiope"
+	dynasty = 2201001 #Teuthrasid
+	culture = mysian
+	religion = haianiluwi
+	female = yes
+	father = 2200602
+	2501.1.1 = { birth = yes }
+	2561.1.1 = { death = yes }
+}
+
+
+2200604 = { #Arsinoos
 	name = "Arsinoos"
-	dynasty = 2200005 #Arsinid
 	culture = mysian
 	religion = haianiluwi
 	2475.1.1 = { birth = yes }
 	2535.1.1 = { death = yes }
 }
 
-2200601 = { #Khromis
+2200605 = { #Khromis
 	name = "Khromis"
-	dynasty = 2200005 #Arsinid
 	culture = mysian
 	religion = haianiluwi
-	father = 2200600
+	father = 2200604
 	2500.1.1 = { birth = yes }
 	2560.1.1 = { death = yes }
 }
 
-2200602 = { #Ennomos
+2200606 = { #Ennomos
 	name = "Ennomos"
-	dynasty = 2200005 #Arsinid
 	culture = mysian
 	religion = haianiluwi
-	father = 2200600
+	father = 2200604
 	2506.1.1 = { birth = yes }
 	2566.1.1 = { death = yes }
 }
@@ -565,7 +619,7 @@
 #Royal Family of Lurnessos (2200700-2200799)
 2200700 = { #Euenos, King of Lurnessos
 	name = "Euenos"
-	dynasty = 2200006 #Euenid
+	dynasty = 2201002 #Euenid
 	culture = mysian
 	religion = haianiluwi
 	2470.1.1 = { birth = yes }
@@ -574,7 +628,7 @@
 
 2200701 = { #Munes
 	name = "Munes"
-	dynasty = 2200006 #Euenid
+	dynasty = 2201002 #Euenid
 	culture = mysian
 	religion = haianiluwi
 	father = 2200700
@@ -633,7 +687,7 @@
 #Royal Family of Larissa (2200800-2200899)
 2200800 = { #Lethos, King of Larissa
 	name = "Lethos"
-	dynasty = 2200007 #Lethid
+	dynasty = 2201003 #Lethid
 	culture = mysian
 	religion = haianiluwi
 	2480.1.1 = { birth = yes }
@@ -642,7 +696,7 @@
 
 2200801 = { #Hippothoos
 	name = "Hippothous"
-	dynasty = 2200007 #Lethid
+	dynasty = 2201003 #Lethid
 	culture = mysian
 	religion = haianiluwi
 	father = 2200800
@@ -652,7 +706,7 @@
 
 2200802 = { #Pulaios
 	name = "Pulaios"
-	dynasty = 2200007 #Lethid
+	dynasty = 2201003 #Lethid
 	culture = mysian
 	religion = haianiluwi
 	father = 2200800
@@ -663,7 +717,7 @@
 #Royal Family of Maeonia (2200900-2200999)
 2200900 = { #Iardanos, King of Maeonia
 	name = "Iardanos"
-	dynasty = 2200008 #Manesid
+	dynasty = 2202000 #Manesid
 	culture = lydian
 	religion = assussani #Temporary
 	father = 2200901
@@ -673,7 +727,7 @@
 
 2200901 = { #Ludos, King of Maeonia
 	name = "Ludos"
-	dynasty = 2200008 #Manesid
+	dynasty = 2202000 #Manesid
 	culture = lydian
 	religion = assussani #Temporary
 	father = 2200902
@@ -684,7 +738,7 @@
 
 2200902 = { #Atus, King of Maeonia
 	name = "Atus"
-	dynasty = 2200008 #Manesid
+	dynasty = 2202000 #Manesid
 	culture = lydian
 	religion = assussani #Temporary
 	father = 2200903
@@ -695,7 +749,7 @@
 
 2200903 = { #Manes, King of Maeonia
 	name = "Manes"
-	dynasty = 2200008 #Manesid
+	dynasty = 2202000 #Manesid
 	culture = lydian
 	religion = assussani #Temporary
 	disallow_random_traits = yes
@@ -706,7 +760,7 @@
 #Royal Family of Karkiya (2201000-2201099)
 2201000 = { #Atumnios, King of Karkiya
 	name = "Atumnios"
-	dynasty = 2200009 #Amisodarid
+	dynasty = 2203000 #Amisodarid
 	culture = carian
 	religion = haianiluwi
 	father = 2201002
@@ -716,7 +770,7 @@
 
 2201001 = { #Maris
 	name = "Maris"
-	dynasty = 2200009 #Amisodarid
+	dynasty = 2203000 #Amisodarid
 	culture = carian
 	religion = haianiluwi
 	father = 2201002
@@ -726,7 +780,7 @@
 
 2201002 = { #Amisodarios, King of Karkiya
 	name = "Amisodarios"
-	dynasty = 2200009 #Amisodarid
+	dynasty = 2203000 #Amisodarid
 	culture = carian
 	religion = haianiluwi
 	disallow_random_traits = yes
@@ -738,7 +792,7 @@
 	name = "Nastes"
 	culture = carian
 	religion = haianiluwi
-	father = 2201002
+	father = 2201005
 	2500.1.1 = { birth = yes }
 	2560.1.1 = { death = yes }
 }
@@ -747,7 +801,7 @@
 	name = "Amphimakhos"
 	culture = carian
 	religion = haianiluwi
-	father = 2201002
+	father = 2201005
 	2503.1.1 = { birth = yes }
 	2563.1.1 = { death = yes }
 }
@@ -764,11 +818,16 @@
 #Royal Family of Lycia (2201100-2201199)
 2201100 = { #Glaukos, King of Lycia
 	name = "Glaukos"
-	dynasty = 2200010 #Bellerophonid
-	culture = lycian
+	dynasty = 2204000 #Bellerophonid
+	culture = achaean
 	religion = haianiluwi
 	father = 2201101
-	2500.1.1 = { birth = yes }
+	2500.1.1 = { 
+		birth = yes 
+		effect = {
+			culture = lycian
+		}
+	}
 	2520.1.1 = {
 		effect = {
 			set_character_flag = glaucus
@@ -779,7 +838,7 @@
 
 2201101 = { #Hippolokhos, King of Lycia
 	name = "Hippolokhos"
-	dynasty = 2200010 #Bellerophonid
+	dynasty = 2204000 #Bellerophonid
 	culture = lycian
 	religion = haianiluwi
 	father = 2201106
@@ -791,7 +850,7 @@
 
 2201102 = { #Laodámeia
 	name = "Laodámeia"
-	dynasty = 2200010 #Bellerophonid
+	dynasty = 2204000 #Bellerophonid
 	culture = lycian
 	religion = haianiluwi
 	female = yes
@@ -804,7 +863,7 @@
 
 2201103 = { #Sarpedon
 	name = "Sarpedon"
-	dynasty = 2200010 #Bellerophonid
+	dynasty = 2204000 #Bellerophonid
 	culture = lycian
 	religion = haianiluwi
 	father = 1100146
@@ -818,7 +877,7 @@
 
 2201104 = { #Philonoe
 	name = "Philonoe"
-	dynasty = 2200013 #Iobatid
+	dynasty = 2204001 #Iobatid
 	culture = lycian
 	religion = haianiluwi
 	female = yes
@@ -833,7 +892,7 @@
 
 2201105 = { #Iobates, King of Lycia
 	name = "Iobates"
-	dynasty = 2200013 #Iobatid
+	dynasty = 2204001 #Iobatid
 	culture = lycian
 	religion = haianiluwi
 	disallow_random_traits = yes
@@ -843,7 +902,7 @@
 
 2201106 = { #Bellerophon, King of Lycia
 	name = "Bellerophon"
-	dynasty = 2200010 #Bellerophon
+	dynasty = 2204000 #Bellerophon
 	culture = achaean
 	religion = pantes_theoi
 	father = 1100145
@@ -887,7 +946,7 @@
 
 2201203 = { #Koroebos, King of Ascania
 	name = "Koroebos"
-	dynasty = 2200011 #Akmonid
+	dynasty = 2200046 #Akmonid
 	culture = phrygian
 	religion = haianiluwi #Temporary
 	father = 2201204
@@ -898,7 +957,7 @@
 
 2201204 = { #Mugdon, King of Ascania
 	name = "Mugdon"
-	dynasty = 2200011 #Akmonid
+	dynasty = 2200046 #Akmonid
 	culture = phrygian
 	religion = haianiluwi #Temporary
 	father = 2201205
@@ -909,7 +968,7 @@
 
 2201205 = { #Akmon, King of Ascania
 	name = "Akmon"
-	dynasty = 2200011 #Akmonid
+	dynasty = 2200046 #Akmonid
 	culture = phrygian
 	religion = haianiluwi #Temporary
 	disallow_random_traits = yes
@@ -933,9 +992,91 @@
 #Royal Family of Aisepos (2201300-2201399)
 2201300 = { #Pandaros, King of Aisepos
 	name = "Pandaros"
-	dynasty = 2200012 #Pandarid
+	dynasty = 2200005 #Pandarid
 	culture = wilusan
 	religion = assussani
 	2500.1.1 = { birth = yes }
 	2560.1.1 = { death = yes }
 }
+
+#Royal Family of Lesbos (2201400-2201499)
+2201400 = { #Phorbas, King of Lesbos
+	name = "Phorbas"
+	dynasty = 2002000 #Phorbasid
+	culture = luwian
+	religion = haianiluwi
+	2482.1.1 = { birth = yes }
+	2542.1.1 = { death = yes }
+}
+
+2201401 = { #Diomede
+	name = "Diomede"
+	dynasty = 2002000 #Phorbasid
+	culture = luwian
+	religion = haianiluwi
+	father = 2201400
+	female = yes
+	2507.1.1 = { birth = yes }
+	2567.1.1 = { death = yes }
+}
+
+#Royal Family of Apasa (2201500-2201599)
+2201500 = { #Kiyakiya, King of Apasa
+	name = "Kiyakiya"
+	dynasty = 2002001 #Kiyakili
+	culture = luwian
+	religion = haianiluwi
+	2497.1.1 = { birth = yes }
+	2557.1.1 = { death = yes }
+}
+
+#Royal Family of Kyzikos (2201600-2201699)
+2201600 = { #Ahuni, King of Kyzikos
+	name = "Ahuni"
+	dynasty = 2002002 #Ahunili
+	culture = luwian
+	religion = haianiluwi
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+#Royal Family of Kuwaliya (2201700-2201799)
+2201700 = { #Larama, King of Kuwaliya
+	name = "Larama"
+	dynasty = 2002003 #Laramili
+	culture = luwian
+	religion = haianiluwi
+	2505.1.1 = { birth = yes }
+	2565.1.1 = { death = yes }
+}
+
+#Royal Family of Arzawa (2201800-2201899)
+2201800 = { #Huzziya, King of Arzawa
+	name = "Huzziya"
+	dynasty = 2002004 #Huzziyili
+	culture = luwian
+	religion = haianiluwi
+	2495.1.1 = { birth = yes }
+	2555.1.1 = { death = yes }
+}
+
+#Royal Family of Cyprus (2201900-2201999)
+2201900 = { #Kinruas, King of Cyprus
+	name = "Kinruas"
+	dynasty = 2100045 #Kinruasid
+	culture = cypriot
+	religion = pantes_theoi
+	2487.1.1 = { birth = yes }
+	2567.1.1 = { death = yes }
+}
+
+
+
+
+
+
+
+
+
+
+

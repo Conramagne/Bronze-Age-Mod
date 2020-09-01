@@ -2008,6 +2008,8 @@ on_death = {
 		tw.113 #Patroclus dies from other causes after given the armor
 		tw.116 #The Murmidones title is destroyed
 		tw.37 #Hector dies in duel with Achilles
+		tw.119 #Menelaus receives Chryseis (set-up)
+		tw.121 #Chryseis dies premature, Agamemnon requests Achilles give him Briseis (set-up)
 	}
 	random_events = {
 		1 = RIP.29800 #reincarnation investigation

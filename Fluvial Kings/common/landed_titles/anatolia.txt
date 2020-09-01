@@ -718,10 +718,12 @@ e_hittite_empire = {
 		}
 	}
 	k_kupros = {
-		color={ 143 138 102 }
+		color={ 184 115 51 }
 		color2={ 255 255 255 }
 		
 		capital = 68 #Enkomi (Salamis)
+		
+		hittite = "Alashiya"
 		
 		culture = cypriot
 		
@@ -848,6 +850,12 @@ e_arzawa = {
 			c_lazpa = {
 				
 				achaean = "Lesbos"
+				dorian = "Lesbos"
+				aeolian = "Lesbos"
+				ionian = "Lesbos"
+				amazonian = "Lesbos"
+				cypriot = "Lesbos"
+				cretan = "Lesbos"
 				
 				color = { 207 198 97 }
 				color2 = { 255 255 255 }
@@ -1166,9 +1174,28 @@ e_arzawa = {
 			capital = 197 # Alos Karnos
 			
 			c_alos_karnos = {
+				
+				hittite = "Pitassa"
+				achaean = "Halikarnassós"
+				dorian = "Halikarnassós"
+				aeolian = "Halikarnassós"
+				ionian = "Halikarnassós"
+				amazonian = "Halikarnassós"
+				cypriot = "Halikarnassós"
+				cretan = "Halikarnassós"
+				
 				color = { 140 211 99 }
 				color2 = { 255 255 255 }
 				
+				b_pitassa = {
+					achaean = "Pedassa"
+					dorian = "Pedassa"
+					aeolian = "Pedassa"
+					ionian = "Pedassa"
+					amazonian = "Pedassa"
+					cypriot = "Pedassa"
+					cretan = "Pedassa"
+				}
 				b_alos_karnos = {}
 			}
 			c_karia = {

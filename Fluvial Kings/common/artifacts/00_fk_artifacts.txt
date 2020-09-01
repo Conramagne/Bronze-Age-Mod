@@ -220,9 +220,10 @@ boar_tusk_helm = {
 	command_modifier = {
 		actual_light_infantry = 0.05
 	}
+	flags = { wearable_helmet }
 	picture = "GFX_boar_tusk_helm"
 	stacking = no
-	
+	slot = helmet
 }
 
 khopes = {

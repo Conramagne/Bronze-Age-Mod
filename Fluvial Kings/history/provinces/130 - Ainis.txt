@@ -1,8 +1,8 @@
 title=c_ainis
 
 max_settlements= 2
-b_herakleia=castle
+b_herakleia=tribal
 # b_potidania=temple
 
-culture=achaean
-religion=pantes_theoi
+culture=dorian
+religion=pantes_theoi #temporary

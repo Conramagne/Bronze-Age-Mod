@@ -2,6 +2,9 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_apasa
+2446.1.1={
+	holder = 2104105
+}
+2486.1.1={
+	holder = 2104100
 }

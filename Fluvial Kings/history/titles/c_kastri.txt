@@ -2,6 +2,43 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1 = {
-	liege = d_kythera
+2301.1.1 = {
+	liege = d_lacedemonia
+	holder = 2101022 #Lelex
+}
+2341.1.1 = {
+	holder = 2101021 #Myles
+}
+2361.1.1 = {
+	holder = 2101020 #Eurutos
+}
+2381.1.1 = { 
+	holder = 2101018 #Lacedaemon
+}
+2411.1.1 = { 
+	holder = 2101017 #Amyklas
+}
+2416.1.1 = {
+	holder = 2101016 #Argalos
+}
+2421.1.1 = {
+	holder = 2101015 #Cynortas
+}
+2457.1.1 = {
+	holder = 2101014 #Pereires
+}
+2487.1.1 = {
+	holder = 2101013 #Oivalos
+}
+2511.1.1 = {
+	holder = 2101006 #Tundáreos
+}
+2512.1.1 = {
+	holder = 2101007 #Ippokóon
+}
+2517.1.1 = {
+	holder = 2101006 #Tundáreos
+}
+2518.1.1 = {
+	holder = 2101000 #Menelaos
 }

@@ -2,6 +2,7 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
+2520.1.1={
+	holder = 2201600
 	liege=d_kyzikos
 }

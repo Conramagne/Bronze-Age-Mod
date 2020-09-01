@@ -590,7 +590,6 @@
 	9999.1.1 = { death = yes }
 }
 
-
 #Olympians (1100141-1100160)
 1100141 = { #Hestia
 	name = "Hestia" # Hestia, Goddess of the Hearth
@@ -942,7 +941,6 @@
 	2396.1.1 = {
 		effect = {
 			set_character_flag = flag_god
-			set_character_flag = flag_can_contact
 		}
 	}
 	9999.1.1 = { death = yes }
@@ -951,7 +949,7 @@
 1100157 = { #Herakles
 	name = "Herakles" # Herakles (Not an Olympian but whatever)
 	dna = chdfh0dc000
-	dynasty = 1000001 #Theogonos
+	dynasty = 2100037 #Herakleid
 	culture = theogonos
 	religion = pantes_theoi
 	father = 1100146
@@ -1580,6 +1578,25 @@
 	culture = theogonos
 	religion = pantes_theoi
 	father = 1100145
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 20
+	1.1.20 = { birth = yes }
+	1.1.20 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1100193 = { #Maiandros, God of the River Maiander
+	name = "Maiandros"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	father = 1100003
+	mother = 1100013
 	disallow_random_traits = yes
 	trait = trait_god
 	immortal_age = 20

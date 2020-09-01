@@ -2,6 +2,7 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=k_wilusa
+2507.1.1={
+	holder = 2201400
+	liege=d_lazpa
 }

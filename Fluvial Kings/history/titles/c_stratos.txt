@@ -2,6 +2,7 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=d_dolopia
+2507.1.1={
+	holder = 2104300
+	liege = d_dolopia
 }

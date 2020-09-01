@@ -696,274 +696,325 @@
 		}
 	}
 }
+2100041 = {
+	name = "Aniosid"
+	culture = "achaean"
+	used_for_random = no
+}
+2100042 = {
+	name = "Ankaîd"
+	culture = "achaean"
+	used_for_random = no
+}
+2100043 = {
+	name = "Amadokid"
+	culture = "thracian"
+	used_for_random = no
+}
+2100044 = {
+	name = "Aigimid"
+	culture = "dorian"
+	used_for_random = no
+}
+2100045 = {
+	name = "Kinruasid"
+	culture = "cypriot"
+	used_for_random = no
+}
+2200046 = {
+	name = "Akmonid"
+	culture = "phrygian"
+	used_for_random = no 
+}
 
 #Generic Greek Dynasties starts here
 
-2100041 = {
+#Achaean Names (2001000-2001999)
+2001000 = {
+	name = "Adeimantid"
+	culture = "achaean"
+}
+2001001 = {
 	name = "Aeimnestos"
 	culture = "achaean"
 }
-2100042 = {
+2001002 = {
 	name = "Aenesidamus"
 	culture = "achaean"
 }
-2100043 = {
+2001003 = {
 	name = "Agapetoi"
 	culture = "achaean"
 }
-2100044 = {
+2001004 = {
 	name = "Agatharkhidoi"
 	culture = "achaean"
 }
-2100045 = {
+2001005 = {
 	name = "Agron"
 	culture = "achaean"
 }
-2100046 = {
+2001006 = {
 	name = "Aisopos"
 	culture = "achaean"
 }
-2100047 = {
+2001007 = {
 	name = "Akakios"
 	culture = "achaean"
 }
-2100048 = {
+2001008 = {
 	name = "Akhaikoi"
 	culture = "achaean"
 }
-2100049 = {
+2001009 = {
 	name = "Alexios"
 	culture = "achaean"
 }
-2100050 = {
+2001010 = {
 	name = "Alkaeus"
 	culture = "achaean"
 }
-2100051 = {
+2001011 = {
 	name = "Alkaios"
 	culture = "achaean"
 }
-2100052 = {
+2001012 = {
 	name = "Alyattes"
 	culture = "achaean"
 }
-2100053 = {
+2001013 = {
 	name = "Antalkidas"
 	culture = "achaean"
 }
-2100054 = {
+2001014 = {
 	name = "Apollodoros"
 	culture = "achaean"
 }
-2100055 = {
+2001015 = {
 	name = "Ardys"
 	culture = "achaean"
 }
-2100056 = {
+2001016 = {
 	name = "Aristae"
 	culture = "achaean"
 }
-2100057 = {
+2001017 = {
 	name = "Aristeidai"
 	culture = "achaean"
 }
-2100058 = {
+2001018 = {
 	name = "Aristippos"
 	culture = "achaean"
 }
-2100059 = {
+2001019 = {
 	name = "Aristobulus"
 	culture = "achaean"
 }
-2100060 = {
+2001020 = {
 	name = "Aristodemid"
 	culture = "achaean"
 }
-2100061 = {
+2001021 = {
 	name = "Aristophae"
 	culture = "achaean"
 }
-2100062 = {
+2001022 = {
 	name = "Arseniae"
 	culture = "achaean"
 }
-2100063 = {
+2001023 = {
 	name = "Atys"
 	culture = "achaean"
 }
-2100064 = {
+2001024 = {
 	name = "Belus"
 	culture = "achaean"
 }
-2100065 = {
+2001025 = {
 	name = "Damokloi"
 	culture = "achaean"
 }
-2100066 = {
+2001026 = {
 	name = "Demokrae"
 	culture = "achaean"
 }
-2100067 = {
+2001027 = {
 	name = "Diodoros"
 	culture = "achaean"
 }
-2100068 = {
+2001028 = {
 	name = "Elatreid"
 	culture = "achaean"
 }
-2100069 = {
+2001029 = {
 	name = "Epaminondas"
 	culture = "achaean"
 }
-2100070 = {
+2001030 = {
 	name = "Gyges"
 	culture = "achaean"
 }
-2100071 = {
+2001031 = {
 	name = "Gygoi"
 	culture = "achaean"
 }
-2100072 = {
+2001032 = {
 	name = "Gylippai"
 	culture = "achaean"
 }
-2100073 = {
+2001033 = {
 	name = "Kallimakhos"
 	culture = "achaean"
 }
-2100074 = {
+2001034 = {
 	name = "Kandaules"
 	culture = "achaean"
 }
-2100075 = {
+2001035 = {
 	name = "Kleandridai"
 	culture = "achaean"
 }
-2100076 = {
+2001036 = {
 	name = "Kleandros"
 	culture = "achaean"
 }
-2100077 = {
+2001037 = {
 	name = "Kleinias"
 	culture = "achaean"
 }
-2100078 = {
+2001038 = {
 	name = "Kroesid"
 	culture = "achaean"
 }
-2100079 = {
+2001039 = {
 	name = "Lardanus"
 	culture = "achaean"
 }
-2100080 = {
+2001040 = {
 	name = "Leonikos"
 	culture = "achaean"
 }
-2100081 = {
+2001041 = {
 	name = "Leontios"
 	culture = "achaean"
 }
-2100082 = {
+2001042 = {
 	name = "Lydus"
 	culture = "achaean"
 }
-2100083 = {
+2001043 = {
 	name = "Lysimakhai"
 	culture = "achaean"
 }
-2100084 = {
+2001044 = {
 	name = "Marsyas"
 	culture = "achaean"
 }
-2100085 = {
+2001045 = {
 	name = "Melesae"
 	culture = "achaean"
 }
-2100086 = {
+2001046 = {
 	name = "Meliton"
 	culture = "achaean"
 }
-2100087 = {
+2001047 = {
 	name = "Miltiades"
 	culture = "achaean"
 }
-2100088 = {
+2001048 = {
 	name = "Myrsus"
 	culture = "achaean"
 }
-2100089 = {
+2001049 = {
 	name = "Pankratioi"
 	culture = "achaean"
 }
-2100090 = {
+2001050 = {
 	name = "Paramonos"
 	culture = "achaean"
 }
-2100091 = {
+2001051 = {
 	name = "Pausanid"
 	culture = "achaean"
 }
-2100092 = {
+2001052 = {
 	name = "Pelagios"
 	culture = "achaean"
 }
-2100093 = {
+2001053 = {
 	name = "Pelopoi"
 	culture = "achaean"
 }
-2100094 = {
+2001054 = {
 	name = "Phalaris"
 	culture = "achaean"
 }
-2100095 = {
+2001055 = {
 	name = "Phanoi"
 	culture = "achaean"
 }
-2100096 = {
+2001056 = {
 	name = "Pleistoanax"
 	culture = "achaean"
 }
-2100097 = {
+2001057 = {
 	name = "Sadyattoi"
 	culture = "achaean"
 }
-2100098 = {
+2001058 = {
 	name = "Tantalae"
 	culture = "achaean"
 }
-2100099 = {
+2001059 = {
 	name = "Telemakoi"
 	culture = "achaean"
 }
-2100100 = {
+2001060 = {
 	name = "Theoklymenoi"
 	culture = "achaean"
 }
-2100101 = {
+2001061 = {
 	name = "Theron"
 	culture = "achaean"
 }
-2100102 = {
+2001062 = {
 	name = "Thrasydae"
 	culture = "achaean"
 }
-2100103 = {
+2001063 = {
 	name = "Timokratae"
 	culture = "achaean"
 }
-2100104 = {
+2001064 = {
 	name = "Tlepolemus"
 	culture = "achaean"
 }
-2100105 = {
+2001065 = {
 	name = "Tmolus"
 	culture = "achaean"
 }
-2100106 = {
+2001066 = {
 	name = "Xanthid"
 	culture = "achaean"
 }
-2100107 = {
+2001067 = {
 	name = "Xanthippid"
 	culture = "achaean"
 }
+
+#Dorian Names (2002000-2002999)
+
+#Aeolian Names (2003000-2003999)
+
+#Arcadian Names (2004000-2004999)
+
+#Ionian Names (2005000-2005999)
+
+#Cretan Names (2006000-2006999)
+
+#Cypriot Names (2006000-2006999)
+
+#Amazonian Names (2007000-2007999)
+
+#Phrygian Names (2007000-2007999)

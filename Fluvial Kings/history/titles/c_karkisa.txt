@@ -3,6 +3,7 @@
 	law = succ_gavelkind
 }
 2460.1.1={
+	liege = d_masa
 	holder = 2201205 #Akmon
 }
 2500.1.1={

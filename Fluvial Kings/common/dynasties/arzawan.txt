@@ -1,5 +1,6 @@
 #IDS from 2200000-2299999
 
+#Wilusan Names (2200000-2200999)
 2200000 = {
 	name = "Dardanid"
 	culture = "wilusan"
@@ -86,47 +87,50 @@
 	}
 }
 2200005 = {
-	name = "Arsinid"
-	culture = "mysian"
-	used_for_random = no 
-}
-2200006 = {
-	name = "Euenid"
-	culture = "mysian"
-	used_for_random = no 
-}
-2200007 = {
-	name = "Lethid"
-	culture = "mysian"
-	used_for_random = no 
-}
-2200008 = {
-	name = "Manesid"
-	culture = "lydian"
-	used_for_random = no 
-}
-2200009  = {
-	name = "Amisodarid"
-	culture = "carian"
-	used_for_random = no 
-}
-2200010  = {
-	name = "Bellerophonid"
-	culture = "lycian"
-	used_for_random = no 
-}
-2200011  = {
-	name = "Akmonid"
-	culture = "phrygian"
-	used_for_random = no 
-}
-2200012  = {
 	name = "Pandarid"
 	culture = "wilusan"
 	used_for_random = no 
 }
-2200013  = {
+
+#Mysian Names (2201000-2201999)
+2201001 = {
+	name = "Teuthrasid"
+	culture = "mysian"
+	used_for_random = no 
+}
+2201002 = {
+	name = "Euenid"
+	culture = "mysian"
+	used_for_random = no 
+}
+2201003 = {
+	name = "Lethid"
+	culture = "mysian"
+	used_for_random = no 
+}
+
+#Lydian Names (2202000-2202999)
+2202000 = {
+	name = "Manesid"
+	culture = "lydian"
+	used_for_random = no 
+}
+
+#Carian Names (2203000-2203999)
+2203000 = {
+	name = "Amisodarid"
+	culture = "carian"
+	used_for_random = no 
+}
+
+#Lycian Names (2204000-2204999)
+2204000 = {
+	name = "Bellerophonid"
+	culture = "lycian"
+	used_for_random = no 
+}
+2204001 = {
 	name = "Iobatid"
-	culture = "phrygian"
+	culture = "lycian"
 	used_for_random = no 
 }

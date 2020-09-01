@@ -4,5 +4,5 @@ max_settlements= 2
 b_samothraki=castle
 b_iero_ton_kabieroi=temple
 
-culture=achaean
-religion=pantes_theoi
+culture=thracian
+religion=dentudisas

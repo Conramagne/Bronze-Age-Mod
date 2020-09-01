@@ -3,5 +3,5 @@
 	law = succ_gavelkind
 }
 2527.1.1={
-	liege=d_voreios_aigaion
+	holder = 2104200
 }

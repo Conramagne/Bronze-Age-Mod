@@ -2,6 +2,12 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege=k_arzawa
+2460.1.1={
+	holder = 2201205 #Akmon
+}
+2500.1.1={
+	holder = 2201204 #Mugdon
+}
+2525.1.1={
+	holder = 2201203 #Koroebos
 }

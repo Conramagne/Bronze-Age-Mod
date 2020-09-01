@@ -32,6 +32,7 @@ character_event = {
 			}
 			spawn_unit = {
 				owner = THIS
+				leader = THIS
 				province = 161 #Troy
 				home = THIS
 				match_character = THIS
@@ -53,6 +54,7 @@ character_event = {
 			}
 			spawn_unit = {
 				owner = THIS
+				leader = THIS
 				province = 201 #Dardania
 				home = THIS
 				match_character = THIS
@@ -238,9 +240,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW4
-		custom_tooltip = {
-			text = EVTOPTATW4_TT
-		}
 		set_character_flag = bitten_by_snake
 		add_trait = infection
 		add_trait = travelling
@@ -266,9 +265,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW5
-		custom_tooltip = {
-			text = EVTOPTATW5_TT
-		}
 	}
 }
 
@@ -291,9 +287,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW6
-		custom_tooltip = {
-			text = EVTOPTATW6_TT
-		}
 		set_name = Protesilaos
 		death = {
 			death_reason = death_battle
@@ -320,9 +313,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW7
-		custom_tooltip = {
-			text = EVTOPTATW7_TT
-		}
 	}
 }
 
@@ -362,9 +352,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW8
-		custom_tooltip = {
-			text = EVTOPTATW8_TT
-		}
 		wealth = 200
 		set_global_flag = raided_lurnessos
 		if = {
@@ -417,16 +404,16 @@ character_event = {
 			}
 			if = {
 				limit = {
-					c_2101000 = { #Agamemnon
+					c_2101000 = { #Menelaos
 						at_location = 172 #Lurnessos
 					}
 				}
-				c_2101000 = { #Agamemnon
+				c_2101000 = { #Menelaos
 					set_character_flag = at_lurnessos_desc
 				}
 			}
 			else = {
-				c_2101000 = { #Agamemnon
+				c_2101000 = { #Menelaos
 					set_character_flag = not_at_lurnessos_desc
 				}
 			}
@@ -453,9 +440,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW9
-		custom_tooltip = {
-			text = EVTOPTATW9_TT
-		}
 		if = {
 			limit = {
 				c_2200704 = { #Chryseis
@@ -483,6 +467,137 @@ character_event = {
 		}
 		set_character_flag = agamemnon_received_consort
 		# character_event = { id = tw.10 } #Chryses requests his daughter in exchange for gold
+	}
+}
+
+#Menelaus receives Chryseis (set-up)
+character_event = {
+	id = tw.119
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_character_flag = agamemnon_received_consort
+		NOT = {
+			character = c_2101000 #Menelaos
+		}
+		any_consort = {
+			has_character_flag = stolen_away
+		}
+		any_war = {
+			using_cb = trojan_war_cb
+			any_attacker = {
+				character = ROOT
+			}
+		}
+	}
+
+	immediate = {
+		c_2101000 = { #Menelaos
+			character_event = { id = tw.120 }
+		}
+	}
+}
+
+#Menelaus receives Chryseis
+character_event = {
+	id = tw.120
+	desc = EVTDESCTW120
+	is_triggered_only = yes
+
+	immediate = {
+		random_character = {
+			limit = {
+				has_character_flag = stolen_away
+			}
+			save_event_target_as = fake_chryseis
+		}
+	}
+
+	option = {
+		name = EVTOPTATW120
+		if = {
+			limit = {
+				c_2200704 = { #Chryseis
+					is_alive = yes
+				}
+			}
+			add_consort = c_2200704 #Chryseis
+		}
+		else = {
+			add_consort = event_target:fake_chryseis
+		}
+	}
+}
+
+#Chryseis dies premature, Agamemnon requests Achilles give him Briseis (set-up)
+character_event = {
+	id = tw.121
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_character_flag = stolen_away
+	}
+
+	immediate = {
+		consort = {
+			character_event = { id = tw.122 }
+		}
+	}
+}
+
+#Chryseis dies premature, Agamemnon requests Achilles give him Briseis
+character_event = {
+	id = tw.122
+	desc = EVTDESCTW122
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTATW122
+		if = {
+			limit = {
+				c_2102101 = { #Akhilleus
+					any_consort = {
+						character = c_2200702 #Briseis
+					}
+				}
+			}
+			c_2200702 = { #Briseis
+				remove_consort = c_2102101 #Akhilleus
+			}
+			add_consort = c_2200702 #Briseis
+			set_character_flag = received_briseis
+		}
+		else_if = {
+			limit = {
+				c_2102101 = { #Akhilleus
+					any_consort = {
+						has_character_flag = fake_briseis
+					}
+				}
+			}
+			c_2102101 = { #Akhilleus
+				random_consort = {
+					limit = {
+						has_character_flag = fake_briseis
+					}
+					save_event_target_as = fake_briseis
+				}
+				event_target:fake_briseis = {
+					remove_consort = c_2102101 #Akhilleus
+				}
+			}
+			add_consort = event_target:fake_briseis
+			set_character_flag = received_briseis
+		}
+		else = {
+			wealth = 200
+			c_2102101 = { #Akhilleus
+				wealth = -200
+			}
+		}
+		c_2102101 = { #Akhilleus
+			character_event = { id = tw.14 }
+		}
 	}
 }
 
@@ -522,6 +637,9 @@ character_event = {
 	# is_triggered_only = yes
 	trigger = {
 		has_character_flag = agamemnon_received_consort
+		any_consort = {
+			has_character_flag = stolen_away
+		}
 		NOT = {
 			has_global_flag = request_from_chryses
 		}
@@ -541,9 +659,6 @@ character_event = {
 		trigger = {
 			ai = no
 		}
-		custom_tooltip = {
-			text = EVTOPTATW10_TT
-		}
 		if = {
 			limit = {
 				c_2200705 = { #Chryses
@@ -556,6 +671,9 @@ character_event = {
 			c_2200705 = { #Chryses
 				wealth = -100
 			}
+			wealth = 100
+		}
+		else = {
 			wealth = 100
 		}
 		c_lurnessos = {
@@ -619,9 +737,6 @@ character_event = {
 	}
 	option = { #No
 		name = EVTOPTBTW10
-		custom_tooltip = {
-			text = EVTOPTBTW10_TT
-		}
 		any_playable_ruler = {
 			limit = {
 				any_war = {
@@ -647,9 +762,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW11
-		custom_tooltip = {
-			text = EVTOPTATW11_TT
-		}
 		add_trait = malaise
 		add_trait = fever
 		add_trait = cramps
@@ -665,10 +777,6 @@ character_event = {
 	option = { #Yes, but give me Briseis/gold, Akhilleus
 		name = EVTOPTATW12
 		custom_tooltip = {
-			text = EVTOPTAATW12_TT
-		}
-		custom_tooltip = {
-			text = EVTOPTABTW12_TT
 			any_playable_ruler = {
 				limit = {
 					any_war = {
@@ -739,7 +847,6 @@ character_event = {
 			wealth = 200
 			c_2102101 = { #Akhilleus
 				wealth = -200
-				prestige = 1000
 			}
 		}
 		c_2102101 = { #Akhilleus
@@ -843,16 +950,12 @@ character_event = {
 			}
 			text = EVTOPTABTW15
 		}
-		custom_tooltip = {
-			text = EVTOPTATW15_TT
-		}
 	}
 }
 
 #Agamemnon is told to assault Troy by Zeus in a dream, but tests the resolve of the Greeks first
 character_event = {
 	id = tw.16
-	title = EVTTITLETW16
 	desc = {
 		trigger = {
 			c_2102300 = { #Odysseus
@@ -873,16 +976,12 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW16
-		custom_tooltip = {
-			text = EVTOPTATW16_TT
-		}
 	}
 }
 
 #Paris attempts to set up a duel
 character_event = {
 	id = tw.17
-	title = EVTTITLETW17
 	desc = EVTDESCTW17
 	trigger = {
 		character = c_2200004 #Paris
@@ -905,9 +1004,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW17
-		custom_tooltip = {
-			text = EVTOPTATW17_TT
-		}
 		set_global_flag = duel_paris_menelaus
 		c_2101000 = { #Menelaos
 			letter_event = { id = tw.18 } #Menelaos receives a letter for Paris to duel him
@@ -917,9 +1013,6 @@ character_event = {
 		name = EVTOPTBTW17
 		trigger = {
 			ai = no
-		}
-		custom_tooltip = {
-			text = EVTOPTBTW17_TT
 		}
 	}
 }
@@ -932,9 +1025,6 @@ letter_event = {
 	
 	option = {
 		name = EVTOPTATW18
-		custom_tooltip = {
-			text = EVTOPTATW18_TT
-		}
 		FROM = { save_event_target_as = combatant_1 } #the person issuing the duel...
 		save_event_target_as = combatant_2 #the target of the duel...
 
@@ -961,9 +1051,6 @@ letter_event = {
 		name = EVTOPTBTW18
 		trigger = {
 			ai = no
-		}
-		custom_tooltip = {
-			text = EVTOPTBTW18_TT
 		}
 		FROM = {
 			character_event = { id = HFP.10097 }
@@ -1118,13 +1205,15 @@ narrative_event = {
 #Menelaos is saved by Athene
 character_event = {
 	id = tw.20
-	title = EVTTITLETW20
 	desc = EVTDESCTW20
 	portrait = 1100147
 	is_triggered_only = yes 
 	
 	option = {
 		name = EVTOPTATW20
+		custom_tooltip = {
+			text = EVTOPTATW20_TT
+		}
 		c_2101000 = { #Menelaos
 			clr_character_flag = paris_menelaos_duel
 			clr_character_flag = cannot_refuse_duel
@@ -1157,6 +1246,9 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW21
+		custom_tooltip = {
+			text = EVTOPTATW21_TT
+		}
 		c_2101000 = { #Menelaos
 			clr_character_flag = paris_menelaos_duel
 			clr_character_flag = cannot_refuse_duel
@@ -1193,9 +1285,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW22
-		custom_tooltip = {
-			text = EVTOPTATW22_TT
-		}
 		c_2101000 = { #Menelaos
 			clr_character_flag = paris_menelaos_duel
 			clr_character_flag = cannot_refuse_duel
@@ -1217,9 +1306,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW23
-		custom_tooltip = {
-			text = EVTOPTATW23_TT
-		}
 		c_2101000 = { #Menelaos
 			clr_character_flag = paris_menelaos_duel
 			clr_character_flag = cannot_refuse_duel
@@ -1234,15 +1320,11 @@ character_event = {
 #Agamemnon sends Odysseus, Ajax, and Phoenix to Achilles
 character_event = {
 	id = tw.24
-	title = EVTTITLETW24
 	desc = EVTDESCTW24
 	is_triggered_only = yes 
 	
 	option = {
 		name = EVTOPTATW24
-		custom_tooltip = {
-			text = EVTOPTATW24_TT
-		}
 		c_2102101 = { #Akhilleus
 			character_event = { id = tw.25 } #Achilles receives the embassy
 		}
@@ -1252,7 +1334,6 @@ character_event = {
 #Achilles receives the embassy
 character_event = {
 	id = tw.25
-	title = EVTTITLETW25
 	desc = EVTDESCTW25
 	is_triggered_only = yes 
 	
@@ -1262,9 +1343,6 @@ character_event = {
 			c_2101619 = { #Patroclus
 				is_alive = yes
 			}
-		}
-		custom_tooltip = {
-			text = EVTOPTATW25_TT
 		}
 		c_2101619 = { #Patroclus
 			character_event = { id = tw.28 } #Patroclus begs Achilles to lend him his armor
@@ -1282,9 +1360,6 @@ character_event = {
 					is_alive = no
 				}
 			}
-		}
-		custom_tooltip = {
-			text = EVTOPTBTW25_TT
 		}
 		if = {
 			limit = {
@@ -1332,30 +1407,22 @@ character_event = {
 #Achilles says no
 character_event = {
 	id = tw.26
-	title = EVTTITLETW26
 	desc = EVTDESCTW26
 	is_triggered_only = yes 
 	
 	option = {
 		name = EVTOPTATW26
-		custom_tooltip = {
-			text = EVTOPTATW26_TT
-		}
 	}
 }
 
 #Achilles says yes
 character_event = {
 	id = tw.27
-	title = EVTTITLETW27
 	desc = EVTDESCTW27
 	is_triggered_only = yes 
 	
 	option = {
 		name = EVTOPTATW27
-		custom_tooltip = {
-			text = EVTOPTATW27_TT
-		}
 		set_global_flag = achilles_return
 		any_playable_ruler = {
 			limit = {
@@ -1374,15 +1441,11 @@ character_event = {
 #Patroclus begs Achilles to lend him his armor
 character_event = {
 	id = tw.28
-	title = EVTTITLETW28
 	desc = EVTDESCTW28
 	is_triggered_only = yes 
 	
 	option = {
 		name = EVTOPTATW28
-		custom_tooltip = {
-			text = EVTOPTATW28_TT
-		}
 		c_2102101 = { #Akhilleus
 			character_event = { id = tw.29 } #Achilles receives Patroclus' plea
 		}
@@ -1392,15 +1455,11 @@ character_event = {
 #Achilles receives Patroclus' plea
 character_event = {
 	id = tw.29
-	title = EVTTITLETW29
 	desc = EVTDESCTW29
 	is_triggered_only = yes 
 	
 	option = {
 		name = EVTOPTATW29
-		custom_tooltip = {
-			text = EVTOPTATW29_TT
-		}
 		FROM = {
 			character_event = { id = tw.30 } #Patroclus is allowed to wear the armor
 		}
@@ -1410,15 +1469,11 @@ character_event = {
 #Patroclus is allowed to wear the armor
 character_event = {
 	id = tw.30
-	title = EVTTITLETW30
 	desc = EVTDESCTW30
 	is_triggered_only = yes 
 	
 	option = {
 		name = EVTOPTATW30
-		custom_tooltip = {
-			text = EVTOPTATW30_TT
-		}
 		set_character_flag = patroclus_as_achilles
 		FROM = {
 			random_artifact = {
@@ -1464,9 +1519,6 @@ character_event = {
 				has_character_flag = flag_trojan
 			}
 			text = EVTOPTABTW90
-		}
-		custom_tooltip = {
-			text = EVTOPTATW90_TT
 		}
 	}
 }
@@ -1529,7 +1581,6 @@ character_event = {
 #Hector kills Patroclus
 character_event = {
 	id = tw.31
-	title = EVTTITLETW31
 	desc = EVTDESCTW31
 	trigger = {
 		character = c_2200002 #Hector
@@ -1564,9 +1615,6 @@ character_event = {
 
 	option = {
 		name = EVTOPTATW31
-		custom_tooltip = {
-			text = EVTOPTATW31_TT
-		}
 		set_global_flag = death_of_patroclus
 		c_2101619 = {
 			random_artifact = {
@@ -1654,16 +1702,12 @@ character_event = {
 			}
 			text = EVTOPTABTW33
 		}
-		custom_tooltip = {
-			text = EVTOPTATW33_TT
-		}
 	}
 }
 
 #Achilles gets back Briseis, but is indifferent
 character_event = {
 	id = tw.34
-	title = EVTTITLETW34
 	desc = {
 		trigger = {
 			c_2100900 = { #Agamemnon
@@ -1694,9 +1738,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW34
-		custom_tooltip = {
-			text = EVTOPTATW34_TT
-		}
 		if = {
 			limit = {
 				c_2100900 = { #Agamemnon
@@ -1761,7 +1802,6 @@ character_event = {
 #Hector duels Achilles
 character_event = {
 	id = tw.35
-	title = EVTTITLETW35
 	desc = EVTDESCTW35
 	trigger = {
 		character = c_2200002 #Hector
@@ -1785,9 +1825,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW35
-		custom_tooltip = {
-			text = EVTOPTATW35_TT
-		}
 		c_2102101 = { #Achilles
 			character_event = { id = tw.36 } #Hector rushes to duel Achilles
 		}
@@ -1797,15 +1834,11 @@ character_event = {
 #Hector rushes to duel Achilles
 character_event = {
 	id = tw.36
-	title = EVTTITLETW36
 	desc = EVTDESCTW36
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW36
-		custom_tooltip = {
-			text = EVTOPTATW36_TT
-		}
 		FROM = { save_event_target_as = combatant_1 } #the person issuing the duel...
 		save_event_target_as = combatant_2 #the target of the duel...
 
@@ -1844,7 +1877,7 @@ character_event = {
 	immediate = {
 		c_2102101 = { #Achilles
 			clr_character_flag = cannot_refuse_duel
-			character_event = { id = tw.38 } #Achilles is reminded by Hector that he will die in combat, and Achilles drags his body around
+			long_character_event = { id = tw.38 } #Achilles is reminded by Hector that he will die in combat, and Achilles drags his body around
 		}
 		any_playable_ruler = {
 			limit = {
@@ -1880,28 +1913,21 @@ narrative_event = {
 			}
 			text = EVTOPTABTW91
 		}
-		custom_tooltip = {
-			text = EVTOPTATW91_TT
-		}
 	}
 }
 
 #Achilles is reminded by Hector that he will die in combat, and Achilles drags his body around
-character_event = {
+long_character_event = {
 	id = tw.38
-	title = EVTTITLETW38
 	desc = EVTDESCTW38
 	is_triggered_only = yes
 
 	option = {
 		name = EVTOPTATW38
-		custom_tooltip = {
-			text = EVTOPTATW38_TT
-		}
 		set_global_flag = achilles_will_die
 		character_event = { id = tw.39 } #Ghost of Patroclus asks for funeral games to be held
 		c_2200000 = { #Pariya-muwas
-			character_event = { id = tw.41 } #Pariya-muwas goes to Achilles to request the body of Hector
+			long_character_event = { id = tw.41 } #Pariya-muwas goes to Achilles to request the body of Hector
 		}		
 	}
 }
@@ -1909,16 +1935,12 @@ character_event = {
 #Ghost of Patroclus asks for funeral games to be held
 character_event = {
 	id = tw.39
-	title = EVTTITLETW39
 	desc = EVTDESCTW39
 	is_triggered_only = yes
 	portrait = 2101619
 
 	option = {
 		name = EVTOPTATW39
-		custom_tooltip = {
-			text = EVTOPTATW39_TT
-		}
 		any_playable_ruler = {
 			limit = {
 				any_war = {
@@ -1957,14 +1979,11 @@ character_event = {
 
 	option = {
 		name = EVTOPTATW40
-		custom_tooltip = {
-			text = EVTOPTATW40_TT
-		}
 	}
 }
 
 #Pariya-muwas goes to Achilles to request the body of Hector
-character_event = {
+long_character_event = {
 	id = tw.41
 	title = EVTTITLETW41
 	desc = EVTDESCTW41
@@ -1972,9 +1991,6 @@ character_event = {
 
 	option = {
 		name = EVTOPTATW41
-		custom_tooltip = {
-			text = EVTOPTATW41_TT
-		}
 		c_2102101 = { #Achilles
 			character_event = { id = tw.42 days = 7 } #Pariya-muwas arrives at Achilles' camp
 		}
@@ -1990,9 +2006,6 @@ character_event = {
 
 	option = {
 		name = EVTOPTATW42
-		custom_tooltip = {
-			text = EVTOPTATW42_TT
-		}
 		remove_trait = wroth
 		FROM = {
 			character_event = { id = tw.43 } #Achilles agrees
@@ -2002,9 +2015,6 @@ character_event = {
 		name = EVTOPTBTW42
 		trigger = {
 			ai = no
-		}
-		custom_tooltip = {
-			text = EVTOPTBTW42_TT
 		}
 		FROM = {
 			character_event = { id = tw.44 } #Achilles says no
@@ -2021,9 +2031,6 @@ character_event = {
 
 	option = {
 		name = EVTOPTATW43
-		custom_tooltip = {
-			text = EVTOPTATW43_TT
-		}
 		any_playable_ruler = {
 			limit = {
 				any_war = {
@@ -2047,10 +2054,6 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTATW44
-		custom_tooltip = {
-			text = EVTOPTATW44_TT
-		}
 		random = {
 			chance = 50
 			add_trait = depressed
@@ -2067,9 +2070,6 @@ character_event = {
 
 	option = {
 		name = EVTOPTATW45
-		custom_tooltip = {
-			text = EVTOPTATW45_TT
-		}
 	}
 }
 
@@ -2128,7 +2128,6 @@ character_event = {
 #Paris kills Achilles
 character_event = {
 	id = tw.46
-	title = EVTTITLETW46
 	desc = EVTDESCTW46
 	portrait = 1100149
 	trigger = {
@@ -2165,9 +2164,6 @@ character_event = {
 
 	option = {
 		name = EVTOPTATW46
-		custom_tooltip = {
-			text = EVTOPTATW46_TT
-		}
 		c_2102101 = { #Achilles
 			death = {
 				death_reason = death_battle
@@ -2219,9 +2215,6 @@ character_event = {
 			}
 			text = EVTOPTABTW92
 		}
-		custom_tooltip = {
-			text = EVTOPTATW92_TT
-		}
 		if = {
 			limit = {
 				NOT = {
@@ -2248,9 +2241,6 @@ character_event = {
 
 	option = {
 		name = EVTOPTATW47
-		custom_tooltip = {
-			text = EVTOPTATW47_TT
-		}
 		if = {
 			limit = {
 				NOT = {
@@ -2298,10 +2288,10 @@ character_event = {
 				}
 			}
 			c_2100701 = { #Ajax
-				character_event = { id = tw.48 } #Odysseus and Ajax argue over Achilles' armor
+				character_event = { id = tw.48 days = 2 } #Odysseus and Ajax argue over Achilles' armor
 			}
 			c_2102300 = { #Odysseus
-				character_event = { id = tw.48 } #Odysseus and Ajax argue over Achilles' armor
+				character_event = { id = tw.48 days = 2 } #Odysseus and Ajax argue over Achilles' armor
 			}
 		}
 		else_if = {
@@ -2376,9 +2366,6 @@ character_event = {
 			}
 			text = EVTOPTABTW48
 		}
-		custom_tooltip = {
-			text = EVTOPTATW48_TT
-		}
 		if = {
 			limit = {
 				character = c_2102300 #Odysseus
@@ -2403,9 +2390,6 @@ character_event = {
 
 	option = {
 		name = EVTOPTATW49
-		custom_tooltip = {
-			text = EVTOPTATW49_TT
-		}
 		hidden_tooltip = {
 			c_1100146 = { #Zeus
 				any_artifact = {
@@ -2431,11 +2415,19 @@ character_event = {
 
 	option = {
 		name = EVTOPTATW50
-		custom_tooltip = {
-			text = EVTOPTATW50_TT
-		}
 		death = {
 			death_reason = death_suicide
+		}
+		any_playable_ruler = {
+			limit = {
+				any_war = {
+					using_cb = trojan_war_cb
+					any_attacker = {
+						character = PREVPREV
+					}
+				}
+			}
+			character_event = { id = tw.117 } #Suicide over armor
 		}
 	}
 	option = {
@@ -2443,16 +2435,24 @@ character_event = {
 			ai = no
 		}
 		name = EVTOPTBTW50
-		custom_tooltip = {
-			text = EVTOPTBTW50_TT
-		}
+	}
+}
+
+#Suicide over armor
+character_event = {
+	id = tw.117
+	title = EVTTITLETW117
+	desc = EVTDESCTW117
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTATW117
 	}
 }
 
 #Helenus is tortured to reveal win condition 
 character_event = {
 	id = tw.51
-	title = EVTTITLETW51
 	desc = EVTDESCTW51
 	portrait = 2200018
 	is_triggered_only = yes
@@ -2484,30 +2484,22 @@ character_event = {
 #Win condition revealed
 character_event = {
 	id = tw.93
-	title = EVTTITLETW93
 	desc = EVTDESCTW93
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW93
-		custom_tooltip = {
-			text = EVTOPTATW93_TT
-		}
 	}
 }
 
 #Generic Trojan is tortured to reveal win condition 
 character_event = {
 	id = tw.52
-	title = EVTTITLETW52
 	desc = EVTDESCTW52
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW52
-		custom_tooltip = {
-			text = EVTOPTATW52_TT
-		}
 		if = {
 			limit = {
 				has_landed_title = d_lacedemonia
@@ -2530,7 +2522,6 @@ character_event = {
 #Relevent people are sent to fetch the required items
 character_event = {
 	id = tw.53
-	title = EVTTITLETW53
 	desc = EVTDESCTW53
 	is_triggered_only = yes
 	
@@ -2551,9 +2542,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW53
-		custom_tooltip = {
-			text = EVTOPTATW53_TT
-		}
 		event_target:bone_holder = {
 			character_event = { id = tw.76 days = 3 } #Someone comes to take the Bones of Pelops
 		}
@@ -2588,7 +2576,6 @@ character_event = {
 #Someone comes to take the Bones of Pelops
 character_event = {
 	id = tw.76
-	title = EVTTITLETW76
 	desc = EVTDESCTW76
 	is_triggered_only = yes
 	option = {
@@ -2602,15 +2589,11 @@ character_event = {
 #Bones of Pelops retrieved
 character_event = {
 	id = tw.77
-	title = EVTTITLETW77
 	desc = EVTDESCTW77
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW77
-		custom_tooltip = {
-			text = EVTOPTATW77_TT
-		}
 		event_target:bone_holder = {
 			random_artifact = {
 				limit = {
@@ -2628,7 +2611,6 @@ character_event = {
 #Diomedes and Odysseus are sent to steal the Palladium
 character_event = {
 	id = tw.54
-	title = EVTTITLETW54
 	desc = {
 		trigger = {
 			character = c_2102300 #Odysseus
@@ -2681,9 +2663,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW54
-		custom_tooltip = {
-			text = EVTOPTATW54_TT
-		}
 		if = {
 			limit = {
 				character = c_2101200 #Diomedes
@@ -2731,15 +2710,11 @@ character_event = {
 #Palladium retrieved
 character_event = {
 	id = tw.55
-	title = EVTTITLETW55
 	desc = EVTDESCTW55
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW55
-		custom_tooltip = {
-			text = EVTOPTATW55_TT
-		}
 		event_target:palladium_holder = {
 			if = {
 				limit = {
@@ -2839,15 +2814,11 @@ character_event = {
 #Palladium stolen
 character_event = {
 	id = tw.56
-	title = EVTTITLETW56
 	desc = EVTDESCTW56
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW56
-		custom_tooltip = {
-			text = EVTOPTATW56_TT
-		}
 		piety = -50
 	}
 }
@@ -2855,63 +2826,60 @@ character_event = {
 #Diomedes and Odysseus go to retrieve Philoktetes
 character_event = {
 	id = tw.57
-	title = EVTTITLETW57
-	desc = {
-		trigger = {
-			character = c_2102300 #Odysseus
-			c_2101200 = { #Diomedes
-				is_alive = yes
-				is_incapable = no
-				prisoner = no
-			}
-		}
-		text = EVTDESCATW57
-	}	
-	desc = {
-		trigger = {
-			character = c_2101200 #Diomedes
-			c_2102300 = { #Odysseus
-				is_alive = yes
-				is_incapable = no
-				prisoner = no
-			}
-		}
-		text = EVTDESCBTW57
-	}	
-	desc = {
-		trigger = {
-			character = c_2102300 #Odysseus
-			c_2101200 = { #Diomedes
-				OR = {
-					is_alive = no
-					is_incapable = yes
-					prisoner = yes
-				}
-			}
-		}
-		text = EVTDESCCTW57
-	}	
-	desc = {
-		trigger = {
-			character = c_2101200 #Diomedes
-			c_2102300 = { #Odysseus
-				OR = {
-					is_alive = no
-					is_incapable = yes
-					prisoner = yes
-				}
-			}
-		}
-		text = EVTDESCDTW57
-	}	
+	desc = EVTDESCTW57
+	# desc = {
+		# trigger = {
+			# character = c_2102300 #Odysseus
+			# c_2101200 = { #Diomedes
+				# is_alive = yes
+				# is_incapable = no
+				# prisoner = no
+			# }
+		# }
+		# text = EVTDESCATW57
+	# }	
+	# desc = {
+		# trigger = {
+			# character = c_2101200 #Diomedes
+			# c_2102300 = { #Odysseus
+				# is_alive = yes
+				# is_incapable = no
+				# prisoner = no
+			# }
+		# }
+		# text = EVTDESCBTW57
+	# }	
+	# desc = {
+		# trigger = {
+			# character = c_2102300 #Odysseus
+			# c_2101200 = { #Diomedes
+				# OR = {
+					# is_alive = no
+					# is_incapable = yes
+					# prisoner = yes
+				# }
+			# }
+		# }
+		# text = EVTDESCCTW57
+	# }	
+	# desc = {
+		# trigger = {
+			# character = c_2101200 #Diomedes
+			# c_2102300 = { #Odysseus
+				# OR = {
+					# is_alive = no
+					# is_incapable = yes
+					# prisoner = yes
+				# }
+			# }
+		# }
+		# text = EVTDESCDTW57
+	# }	
 	portrait = 2102600
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW57
-		custom_tooltip = {
-			text = EVTOPTATW57_TT
-		}
 		if = {
 			limit = {
 				character = c_2101200 #Diomedes
@@ -2937,7 +2905,6 @@ character_event = {
 #Someone comes to retrieve Philoktetes
 character_event = {
 	id = tw.58
-	title = EVTTITLETW58
 	desc = {
 		trigger = {
 			c_2101200 = { #Diomedes
@@ -3010,9 +2977,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW58
-		custom_tooltip = {
-			text = EVTOPTATW58_TT
-		}
+
 		if = {
 			limit = {
 				AND = {
@@ -3032,7 +2997,6 @@ character_event = {
 #Arrows come to Troy
 character_event = {
 	id = tw.59
-	title = EVTTITLETW59
 	desc = {
 		trigger = {
 			c_2102600 = { #Philoktetes
@@ -3053,9 +3017,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW59
-		custom_tooltip = {
-			text = EVTOPTATW59_TT
-		}
 		set_global_flag = arrows_in_troy
 		set_character_flag = borrowed_arrows
 		if = {
@@ -3142,65 +3103,62 @@ character_event = {
 	}
 }
 
-#Someone comes to retrieve Philoktetes
+#Diomedes and Odysseus go to retrieve Arrows of Heracles
 character_event = {
 	id = tw.60
-	title = EVTTITLETW60
-	desc = {
-		trigger = {
-			character = c_2102300 #Odysseus
-			c_2101200 = { #Diomedes
-				is_alive = yes
-				is_incapable = no
-				prisoner = no
-			}
-		}
-		text = EVTDESCATW60
-	}	
-	desc = {
-		trigger = {
-			character = c_2101200 #Diomedes
-			c_2102300 = { #Odysseus
-				is_alive = yes
-				is_incapable = no
-				prisoner = no
-			}
-		}
-		text = EVTDESCBTW60
-	}	
-	desc = {
-		trigger = {
-			character = c_2102300 #Odysseus
-			c_2101200 = { #Diomedes
-				OR = {
-					is_alive = no
-					is_incapable = yes
-					prisoner = yes
-				}
-			}
-		}
-		text = EVTDESCCTW60
-	}	
-	desc = {
-		trigger = {
-			character = c_2101200 #Diomedes
-			c_2102300 = { #Odysseus
-				OR = {
-					is_alive = no
-					is_incapable = yes
-					prisoner = yes
-				}
-			}
-		}
-		text = EVTDESCDTW60
-	}	
+	desc = EVTDESCTW60
+	# desc = {
+		# trigger = {
+			# character = c_2102300 #Odysseus
+			# c_2101200 = { #Diomedes
+				# is_alive = yes
+				# is_incapable = no
+				# prisoner = no
+			# }
+		# }
+		# text = EVTDESCATW60
+	# }	
+	# desc = {
+		# trigger = {
+			# character = c_2101200 #Diomedes
+			# c_2102300 = { #Odysseus
+				# is_alive = yes
+				# is_incapable = no
+				# prisoner = no
+			# }
+		# }
+		# text = EVTDESCBTW60
+	# }	
+	# desc = {
+		# trigger = {
+			# character = c_2102300 #Odysseus
+			# c_2101200 = { #Diomedes
+				# OR = {
+					# is_alive = no
+					# is_incapable = yes
+					# prisoner = yes
+				# }
+			# }
+		# }
+		# text = EVTDESCCTW60
+	# }	
+	# desc = {
+		# trigger = {
+			# character = c_2101200 #Diomedes
+			# c_2102300 = { #Odysseus
+				# OR = {
+					# is_alive = no
+					# is_incapable = yes
+					# prisoner = yes
+				# }
+			# }
+		# }
+		# text = EVTDESCDTW60
+	# }	
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW60
-		custom_tooltip = {
-			text = EVTOPTATW60_TT
-		}
 		if = {
 			limit = {
 				character = c_2101200 #Diomedes
@@ -3220,7 +3178,7 @@ character_event = {
 					is_alive = no
 				}
 			}
-			random_character = { #Philoktetes
+			random_character = {
 				limit = {
 					has_artifact = arrow_heracles
 				}
@@ -3234,7 +3192,6 @@ character_event = {
 #Someone comes to retrieve the Arrows
 character_event = {
 	id = tw.61
-	title = EVTTITLETW61
 	desc = {
 		trigger = {
 			c_2101200 = { #Diomedes
@@ -3328,63 +3285,60 @@ character_event = {
 #Diomedes and Odysseus go to retrieve Pyrrhus
 character_event = {
 	id = tw.62
-	title = EVTTITLETW62
-	desc = {
-		trigger = {
-			character = c_2102300 #Odysseus
-			c_2101200 = { #Diomedes
-				is_alive = yes
-				is_incapable = no
-				prisoner = no
-			}
-		}
-		text = EVTDESCATW62
-	}	
-	desc = {
-		trigger = {
-			character = c_2101200 #Diomedes
-			c_2102300 = { #Odysseus
-				is_alive = yes
-				is_incapable = no
-				prisoner = no
-			}
-		}
-		text = EVTDESCBTW62
-	}	
-	desc = {
-		trigger = {
-			character = c_2102300 #Odysseus
-			c_2101200 = { #Diomedes
-				OR = {
-					is_alive = no
-					is_incapable = yes
-					prisoner = yes
-				}
-			}
-		}
-		text = EVTDESCCTW62
-	}	
-	desc = {
-		trigger = {
-			character = c_2101200 #Diomedes
-			c_2102300 = { #Odysseus
-				OR = {
-					is_alive = no
-					is_incapable = yes
-					prisoner = yes
-				}
-			}
-		}
-		text = EVTDESCDTW62
-	}	
+	desc = EVTDESCTW62
+	# desc = {
+		# trigger = {
+			# character = c_2102300 #Odysseus
+			# c_2101200 = { #Diomedes
+				# is_alive = yes
+				# is_incapable = no
+				# prisoner = no
+			# }
+		# }
+		# text = EVTDESCATW62
+	# }	
+	# desc = {
+		# trigger = {
+			# character = c_2101200 #Diomedes
+			# c_2102300 = { #Odysseus
+				# is_alive = yes
+				# is_incapable = no
+				# prisoner = no
+			# }
+		# }
+		# text = EVTDESCBTW62
+	# }	
+	# desc = {
+		# trigger = {
+			# character = c_2102300 #Odysseus
+			# c_2101200 = { #Diomedes
+				# OR = {
+					# is_alive = no
+					# is_incapable = yes
+					# prisoner = yes
+				# }
+			# }
+		# }
+		# text = EVTDESCCTW62
+	# }	
+	# desc = {
+		# trigger = {
+			# character = c_2101200 #Diomedes
+			# c_2102300 = { #Odysseus
+				# OR = {
+					# is_alive = no
+					# is_incapable = yes
+					# prisoner = yes
+				# }
+			# }
+		# }
+		# text = EVTDESCDTW62
+	# }	
 	portrait = 2102102
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW62
-		custom_tooltip = {
-			text = EVTOPTATW62_TT
-		}
 		if = {
 			limit = {
 				character = c_2101200 #Diomedes
@@ -3410,7 +3364,6 @@ character_event = {
 #Someone comes to retrieve Pyrrhus
 character_event = {
 	id = tw.63
-	title = EVTTITLETW63
 	desc = {
 		trigger = {
 			c_2101200 = { #Diomedes
@@ -3437,7 +3390,7 @@ character_event = {
 				OR = {
 					is_alive = no
 					is_incapable = yes
-				prisoner = yes
+					prisoner = yes
 				}
 			}
 		}
@@ -3483,9 +3436,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW63
-		custom_tooltip = {
-			text = EVTOPTATW63_TT
-		}
 		liege = {
 			random_courtier_or_vassal = {
 				remove_title = title_commander
@@ -3501,15 +3451,11 @@ character_event = {
 #Pyrrhus comes to Troy
 character_event = {
 	id = tw.64
-	title = EVTTITLETW64
 	desc = EVTDESCTW64
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW64
-		custom_tooltip = {
-			text = EVTOPTATW64_TT
-		}
 		if = {
 			limit = {
 				c_2102300 = { #Odysseus
@@ -3553,29 +3499,29 @@ character_event = {
 #Paris is killed by an Arrow of Heracles
 character_event = {
 	id = tw.65
-	title = EVTTITLETW65
-	desc = {
-		trigger = {
-			c_2102600 = { #Philoktetes
-				is_alive = yes
-				is_incapable = no
-				prisoner = no
-			}
-		}
-		text = EVTDESCATW65
-	}	
-	desc = {
-		trigger = {
-			c_2102600 = { #Philoktetes
-				OR = {
-					is_alive = no
-					is_incapable = yes
-					prisoner = yes
-				}
-			}
-		}
-		text = EVTDESCBTW65
-	}	
+	desc = EVTDESCTW65
+	# desc = {
+		# trigger = {
+			# c_2102600 = { #Philoktetes
+				# is_alive = yes
+				# is_incapable = no
+				# prisoner = no
+			# }
+		# }
+		# text = EVTDESCATW65
+	# }	
+	# desc = {
+		# trigger = {
+			# c_2102600 = { #Philoktetes
+				# OR = {
+					# is_alive = no
+					# is_incapable = yes
+					# prisoner = yes
+				# }
+			# }
+		# }
+		# text = EVTDESCBTW65
+	# }	
 	trigger = {
 		had_global_flag = {
 			flag = arrows_in_troy
@@ -3598,9 +3544,6 @@ character_event = {
 
 	option = {
 		name = EVTOPTATW65
-		custom_tooltip = {
-			text = EVTOPTATW65_TT
-		}
 		if = {
 			limit = {
 				c_2102600 = { #Philoktetes
@@ -3623,15 +3566,11 @@ character_event = {
 #Odysseus/Someone formulates the Trojan Horse
 character_event = {
 	id = tw.66
-	title = EVTTITLETW66
 	desc = EVTDESCTW66
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW66
-		custom_tooltip = {
-			text = EVTOPTATW66_TT
-		}
 		FROM = {
 			character_event = { id = tw.67 } #Plans are received, and the building of the Trojan Horse commences
 		}
@@ -3642,35 +3581,11 @@ character_event = {
 character_event = {
 	id = tw.67
 	title = EVTTITLETW67
-	desc = {
-		trigger = {
-			c_2102300 = { #Odysseus
-				is_alive = yes
-				is_incapable = no
-				prisoner = no
-			}
-		}
-		text = EVTDESCATW67
-	}
-	desc = {
-		trigger = {
-			c_2102300 = { #Odysseus
-				OR = {
-					is_alive = no
-					is_incapable = yes
-					prisoner = yes
-				}
-			}
-		}
-		text = EVTDESCBTW67
-	}
+	desc = EVTDESCTW67
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW67
-		custom_tooltip = {
-			text = EVTOPTATW67_TT
-		}
 		character_event = { id = tw.68 days = 3 } #Trojan Horse complete
 		any_playable_ruler = {
 			limit = {
@@ -3690,30 +3605,22 @@ character_event = {
 #Trojan Horse under construction
 character_event = {
 	id = tw.94
-	title = EVTTITLETW94
 	desc = EVTDESCTW94
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW94
-		custom_tooltip = {
-			text = EVTOPTATW94_TT
-		}
 	}
 }
 
 #Trojan Horse complete
 character_event = {
 	id = tw.95
-	title = EVTTITLETW95
 	desc = EVTDESCTW95
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW95
-		custom_tooltip = {
-			text = EVTOPTATW95_TT
-		}
 	}
 }
 
@@ -3746,9 +3653,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW69
-		custom_tooltip = {
-			text = EVTOPTATW69_TT
-		}
 		if = {
 			limit = {
 				c_2200106 = { #Laocoon
@@ -3806,11 +3710,8 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW70
-		custom_tooltip = {
-			text = EVTOPTATW70_TT
-		}
 		FROM = {
-			character_event = { id = tw.71 } #Laocoon warns of the Trojan Horse
+			long_character_event = { id = tw.71 } #Laocoon warns of the Trojan Horse
 		} 
 	}
 	option = {
@@ -3825,7 +3726,7 @@ character_event = {
 }
 
 #Laocoon warns of the Trojan Horse
-character_event = {
+long_character_event = {
 	id = tw.71
 	title = EVTTITLETW71
 	desc = EVTDESCTW71
@@ -3833,9 +3734,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW71
-		custom_tooltip = {
-			text = EVTOPTATW71_TT
-		}
 		FROM = {
 			death = {
 				death_reason = death_murder
@@ -3880,9 +3778,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW72
-		custom_tooltip = {
-			text = EVTOPTATW72_TT
-		}
 		b_wilusa = {
 			remove_building = ca_wall_1
 			remove_building = ca_wall_2
@@ -3915,7 +3810,7 @@ character_event = {
 				}
 			}
 			c_2101000 = { #Menelaos
-				character_event = { id = tw.75 } #Helen and Menelaos reunite
+				long_character_event = { id = tw.75 } #Helen and Menelaos reunite
 			}
 		}
 		else_if = {
@@ -3928,14 +3823,62 @@ character_event = {
 				}
 			}
 			c_2101000 = { #Menelaos
-				character_event = { id = tw.75 days = 7 } #Helen and Menelaos reunite
+				long_character_event = { id = tw.75 days = 7 } #Helen and Menelaos reunite
 			}
 		}
 		any_playable_ruler = {
 			character_event = { id = tw.74 } #Destruction of Troy
 		}
-		c_2102102 = { #Pyrrhus
-			character_event = { id = tw.78 } #Pyrrhus finds and kills Priam
+		if = {
+			limit = {
+				c_2102102 = { #Pyrrhus
+					is_alive = yes
+				}
+				c_2200000 = { #Pariya-muwas
+					is_alive = yes
+				}
+			}
+			c_2102102 = { #Pyrrhus
+				character_event = { id = tw.78 } #Pyrrhus finds and kills Priam
+			}
+		}
+		else_if = {
+			limit = {
+				c_2102102 = { #Pyrrhus
+					is_alive = yes
+				}
+			}
+			c_2102102 = { #Pyrrhus
+				long_character_event = { id = tw.82 } #Pyrrhus is contacted by Achilles' ghost to kill Polyxena
+			}
+			d_wilusa = {
+				owner = {
+					character_event = { id = tw.118 } #Achaeans slay the Trojan princes
+				}
+			}
+		}
+		else = {
+			d_wilusa = {
+				owner = {
+					character_event = { id = tw.118 } #Achaeans slay the Trojan princes
+				}
+			}
+		}
+		if = {
+			limit = {
+				c_2102101 = { #Achilles
+					is_alive = no
+				}
+				any_character = {
+					limit = {
+						father_even_if_dead = {
+							character = c_2200000
+						}
+						is_female = no
+					}
+					character_event = { id = tw.118 } #Achaeans slay the Trojan princes
+				}
+			}
 		}
 		c_2102000 = { #Ajax the Lesser
 			character_event = { id = tw.80 } #Ajax the Lesser spots Cassandra
@@ -4038,9 +3981,6 @@ narrative_event = {
 			}
 			text = EVTOPTACTW74
 		}
-		custom_tooltip = {
-			text = EVTOPTATW74_TT
-		}
 		if = {
 			limit = {
 				top_liege = {
@@ -4082,7 +4022,7 @@ narrative_event = {
 }
 
 #Helen and Menelaos reunite
-character_event = {
+long_character_event = {
 	id = tw.75
 	title = EVTTITLETW75
 	hide_from = yes
@@ -4104,9 +4044,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW75
-		custom_tooltip = {
-			text = EVTOPTATW75_TT
-		}
 		add_trait = kind
 		remove_trait = wroth
 		add_lover = c_2101002 #Helen
@@ -4121,10 +4058,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPTATW75
-		custom_tooltip = {
-			text = EVTOPTATW75_TT
-		}
+		name = EVTOPTBTW75
 		add_trait = wroth
 		remove_trait = kind
 		any_war = {
@@ -4142,7 +4076,6 @@ character_event = {
 #Pyrrhus finds Priam
 character_event = {
 	id = tw.78
-	title = EVTTITLETW78
 	desc = EVTDESCTW78
 	hide_from = yes
 	is_triggered_only = yes
@@ -4157,9 +4090,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW78
-		custom_tooltip = {
-			text = EVTOPTATW78_TT
-		}
 		c_2200000 = { #Pariya-muwas
 			character_event = { id = tw.79 } #Priam is killed
 		} 
@@ -4169,15 +4099,11 @@ character_event = {
 #Priam is killed
 character_event = {
 	id = tw.79
-	title = EVTTITLETW79
 	desc = EVTDESCTW79
 	is_triggered_only = yes
 
 	option = {
 		name = EVTOPTATW79
-		custom_tooltip = {
-			text = EVTOPTATW79_TT
-		}
 		death = {
 			death_reason = death_battle
 			killer = FROM
@@ -4189,16 +4115,15 @@ character_event = {
 				}
 			}
 			FROM = {
-				character_event = { id = tw.82 } #Pyrrhus is contacted by Achilles' ghost to kill Polyxena
+				long_character_event = { id = tw.82 } #Pyrrhus is contacted by Achilles' ghost to kill Polyxena
 			}
 		}
 	}
 }
 
 #Ajax the Lesser spots Cassandra
-character_event = {
+long_character_event = {
 	id = tw.80
-	title = EVTTITLETW80
 	desc = EVTDESCTW80
 	hide_from = yes
 	is_triggered_only = yes
@@ -4213,9 +4138,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW80
-		custom_tooltip = {
-			text = EVTOPTATW80_TT
-		}
 		prestige = -100
 		piety = -100
 		any_character = {
@@ -4236,24 +4158,17 @@ character_event = {
 			ai = no
 		}
 		name = EVTOPTBTW80
-		custom_tooltip = {
-			text = EVTOPTBTW80_TT
-		}
 	}
 }
 
 #Cassandra is raped
 character_event = {
 	id = tw.81
-	title = EVTTITLETW81
 	desc = EVTDESCTW81
 	is_triggered_only = yes
 
 	option = {
 		name = EVTOPTATW81
-		custom_tooltip = {
-			text = EVTOPTATW81_TT
-		}
 		random = {
 			chance = 50
 			impregnate = ROOT
@@ -4262,9 +4177,8 @@ character_event = {
 }
 
 #Pyrrhus is contacted by Achilles' ghost to kill Polyxena
-character_event = {
+long_character_event = {
 	id = tw.82
-	title = EVTTITLETW82
 	desc = EVTDESCTW82
 	is_triggered_only = yes
 	trigger = {
@@ -4275,9 +4189,6 @@ character_event = {
 
 	option = {
 		name = EVTOPTATW82
-		custom_tooltip = {
-			text = EVTOPTATW82_TT
-		}
 		c_2200020 = {
 			character_event = { id = tw.83 } #Polyxena is captured
 		}
@@ -4288,16 +4199,12 @@ character_event = {
 			ai = no
 		}
 		name = EVTOPTBTW82
-		custom_tooltip = {
-			text = EVTOPTBTW82_TT
-		}
 	}
 }
 
 #Polyxena is captured
 character_event = {
 	id = tw.83
-	title = EVTTITLETW83
 	desc = EVTDESCTW83
 	is_triggered_only = yes
 
@@ -4305,15 +4212,14 @@ character_event = {
 		name = EVTOPTATW83
 		imprison = FROM
 		FROM = {
-			character_event = { id = tw.84 days = 7 } #Polyxena is taken to Achilles' grave to be slaughtered
+			long_character_event = { id = tw.84 days = 7 } #Polyxena is taken to Achilles' grave to be slaughtered
 		}
 	}
 }
 
 #Polyxena is taken to Achilles' grave to be slaughtered
-character_event = {
+long_character_event = {
 	id = tw.84
-	title = EVTTITLETW84
 	desc = EVTDESCTW84
 	is_triggered_only = yes
 
@@ -4396,9 +4302,6 @@ narrative_event = {
 			character = c_2101000 #Menelaos
 		}
 		name = EVTOPTBTW97
-		custom_tooltip = {
-			text = EVTOPTBTW97_TT
-		}	
 		any_playable_ruler = {
 			narrative_event = { id = tw.98 } #End of the Trojan War, Death of Helen
 		}
@@ -4416,27 +4319,7 @@ narrative_event = {
 	id = tw.98
 	title = EVTTITLETW98
 	hide_from = yes
-	desc = {
-		trigger = {
-			has_character_flag = flag_achaean
-		}
-		text = EVTDESCATW98
-	}
-	desc = {
-		trigger = {
-			has_character_flag = flag_trojan
-		}
-		text = EVTDESCBTW98
-	}
-	desc = {
-		trigger = {
-			NOR = {
-				has_character_flag = flag_achaean
-				has_character_flag = flag_trojan
-			}
-		}
-		text = EVTDESCCTW98
-	}
+	desc = EVTDESCTW98
 	is_triggered_only = yes
 	
 	immediate = {
@@ -4464,9 +4347,6 @@ narrative_event = {
 				}
 			}
 			text = EVTOPTACTW98
-		}
-		custom_tooltip = {
-			text = EVTOPTATW98_TT
 		}
 	}
 	after = {
@@ -4507,27 +4387,7 @@ narrative_event = {
 	id = tw.99
 	title = EVTTITLETW99
 	hide_from = yes
-	desc = {
-		trigger = {
-			has_character_flag = flag_achaean
-		}
-		text = EVTDESCATW99
-	}
-	desc = {
-		trigger = {
-			has_character_flag = flag_trojan
-		}
-		text = EVTDESCBTW99
-	}
-	desc = {
-		trigger = {
-			NOR = {
-				has_character_flag = flag_achaean
-				has_character_flag = flag_trojan
-			}
-		}
-		text = EVTDESCCTW99
-	}
+	desc = EVTDESCTW99
 	is_triggered_only = yes
 	
 	immediate = {
@@ -4555,9 +4415,6 @@ narrative_event = {
 				}
 			}
 			text = EVTOPTACTW99
-		}
-		custom_tooltip = {
-			text = EVTOPTATW99_TT
 		}
 	}
 	after = {
@@ -4598,27 +4455,7 @@ narrative_event = {
 	id = tw.100
 	title = EVTTITLETW100
 	hide_from = yes
-	desc = {
-		trigger = {
-			has_character_flag = flag_achaean
-		}
-		text = EVTDESCATW100
-	}
-	desc = {
-		trigger = {
-			has_character_flag = flag_trojan
-		}
-		text = EVTDESCBTW100
-	}
-	desc = {
-		trigger = {
-			NOR = {
-				has_character_flag = flag_achaean
-				has_character_flag = flag_trojan
-			}
-		}
-		text = EVTDESCCTW100
-	}
+	desc = EVTDESCTW100
 	is_triggered_only = yes
 	
 	immediate = {
@@ -4646,9 +4483,6 @@ narrative_event = {
 				}
 			}
 			text = EVTOPTACTW100
-		}
-		custom_tooltip = {
-			text = EVTOPTATW100_TT
 		}
 	}
 	after = {
@@ -4687,15 +4521,11 @@ narrative_event = {
 #Akhilleus dies in battle with Trojan Princes
 character_event = {
 	id = tw.107
-	title = EVTTITLETW107
 	desc = EVTDESCTW107
 	is_triggered_only = yes
 
 	option = {
 		name = EVTOPTATW107
-		custom_tooltip = {
-			text = EVTOPTATW107_TT
-		}
 		c_2200002 = { #Hector
 			character_event = { id = tw.108 } #Killed by Achilles in the Siege
 		}
@@ -4724,15 +4554,11 @@ character_event = {
 #Killed by Achilles in the Siege
 character_event = {
 	id = tw.108
-	title = EVTTITLETW108
 	desc = EVTDESCTW108
 	is_triggered_only = yes
 
 	option = {
 		name = EVTOPTATW108
-		custom_tooltip = {
-			text = EVTOPTATW108_TT
-		}
 		if = {
 			limit = {
 				character = c_2200002 #Hector
@@ -4755,16 +4581,12 @@ character_event = {
 #Akhilleus dies in battle with Apollo
 character_event = {
 	id = tw.109
-	title = EVTTITLETW109
 	desc = EVTDESCTW109
 	portrait = 1100149
 	is_triggered_only = yes
 
 	option = {
 		name = EVTOPTATW109
-		custom_tooltip = {
-			text = EVTOPTATW109_TT
-		}
 		death = {
 			death_reason = death_battle
 			killer = c_1100149
@@ -4785,12 +4607,39 @@ character_event = {
 	}
 }
 
+#Achaeans slay Trojan Princes
+character_event = {
+	id = tw.118
+	desc = {
+		trigger = {
+			has_landed_title = d_wilusa
+		}
+		text = EVTDESCATW118
+	}
+	desc = {
+		trigger = {
+			NOT = {
+				has_landed_title = d_wilusa
+			}
+		}
+		text = EVTDESCBTW118
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTATW118
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
 # **************************Other Trojan War Events***********************
 
 #Diomedes sees Glaukos
 character_event = {
 	id = tw.101
-	title = EVTTITLETW101
 	desc = EVTDESCTW101
 	
 	trigger = {
@@ -4830,9 +4679,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW101
-		custom_tooltip = {
-			text = EVTOPTATW101_TT
-		}
 		c_2201100 = { #Glaukos
 			character_event = { id = tw.102 } #Glaukos is approached by Diomedes
 		}
@@ -4842,16 +4688,12 @@ character_event = {
 		trigger = {
 			ai = no
 		}
-		custom_tooltip = {
-			text = EVTOPTBTW101_TT
-		}
 	}
 }
 
 #Glaukos is approached by Diomedes
 character_event = {
 	id = tw.102
-	title = EVTTITLETW102
 	desc = EVTDESCTW102
 	is_triggered_only = yes
 	
@@ -4869,9 +4711,6 @@ character_event = {
 		trigger = {
 			ai = no
 		}
-		custom_tooltip = {
-			text = EVTOPTBTW102_TT
-		}
 		FROM = {
 			character_event = { id = tw.104 } #Glaukos turns Diomedes away
 		}
@@ -4881,15 +4720,11 @@ character_event = {
 #Glaukos and Diomedes exchange armor
 character_event = {
 	id = tw.103
-	title = EVTTITLETW103
 	desc = EVTDESCTW103
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW103
-		custom_tooltip = {
-			text = EVTOPTATW103_TT
-		}
 		FROM = {
 			random_artifact = {
 				limit = {
@@ -4916,22 +4751,17 @@ character_event = {
 #Glaukos turns Diomedes away
 character_event = {
 	id = tw.104
-	title = EVTTITLETW104
 	desc = EVTDESCTW104
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTATW104
-		custom_tooltip = {
-			text = EVTOPTATW104_TT
-		}
 	}
 }
 
 #Arrows of Heracles and Bones of Pelops are sent back
 character_event = {
 	id = tw.105
-	title = EVTTITLETW105
 	desc = EVTDESCTW105
 	is_triggered_only = yes
 	
@@ -4952,9 +4782,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW105
-		custom_tooltip = {
-			text = EVTOPTATW105_TT
-		}
 		c_olympia = {
 			owner = {
 				save_event_target_as = holder_olympia

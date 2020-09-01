@@ -20,9 +20,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		# NOT = {
 			# religion_group = muslim
 		# }
@@ -224,9 +224,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		NOT = {
 			trait = gluttonous
 		}
@@ -415,9 +415,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		NOT = {
 			trait = gluttonous
 		}
@@ -626,9 +626,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		NOT = {
 			trait = greedy
 		}
@@ -809,9 +809,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		NOT = {
 			trait = diligent
 		}
@@ -1044,9 +1044,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		NOT = {
 			trait = envious
 		}
@@ -1243,9 +1243,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		NOT = {
 			trait = envious
 		}
@@ -1438,9 +1438,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		NOT = {
 			trait = wroth
 		}
@@ -1618,9 +1618,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		NOT = {
 			trait = proud
 		}
@@ -1805,9 +1805,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		NOT = {
 			trait = deceitful
 		}
@@ -2006,7 +2006,7 @@ character_event = {
 	trigger = {
 		NOR = {
 			trait = incapable
-			personality_traits = 5
+			# personality_traits = 5
 			trait = craven
 			trait = brave
 			trait = berserker
@@ -2180,9 +2180,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		NOT = {
 			trait = shy
 		}
@@ -2403,9 +2403,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		NOT = {
 			trait = ambitious
 		}
@@ -2614,9 +2614,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		NOT = {
 			trait = arbitrary
 		}
@@ -3051,9 +3051,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		# NOT = {
 			# religion_group = muslim
 		# }
@@ -3255,9 +3255,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		NOT = {
 			trait = paranoid
 		}
@@ -3450,9 +3450,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		NOT = {
 			trait = kind
 		}
@@ -3646,9 +3646,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		# NOT = {
 			# religion_group = muslim
 		# }
@@ -3854,9 +3854,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			personality_traits = 5
-		}
+		# NOT = {
+			# personality_traits = 5
+		# }
 		# NOT = {
 			# religion_group = muslim
 		# }
@@ -4047,1007 +4047,6 @@ character_event = {
 				}
 			}
 		}
-	}
-}
-
-### THESE EVENTS REMOVES TRAITS ###
-
-# Remove Lustful - male
-character_event = {
-	id = 1028
-	desc = "EVTDESC1028"
-	picture = "GFX_evt_lovers"
-	
-	min_age = 16
-	only_men = yes
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		trait = lustful
-		personality_traits = 6
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1028"
-		remove_trait = lustful
-	}
-}
-
-# Remove Chaste
-character_event = {
-	id = 1029
-	desc = "EVTDESC1029"
-	picture = "GFX_evt_lovers"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		trait = chaste
-		personality_traits = 6
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-
-	option = {
-		name = "EVTOPTA1000"
-		trigger = {
-			OR = {
-				AND = {
-					is_female = yes
-					trait = homosexual
-				}
-				AND = {
-					is_female = no
-					NOT = { trait = homosexual }
-				}
-			}
-		}
-		remove_trait = chaste
-	}
-	
-	option = {
-		name = "EVTOPTB1029"
-		trigger = {
-			OR = {
-				AND = {
-					is_female = yes
-					NOT = {
-						trait = homosexual
-					}
-				}
-				AND = {
-					is_female = no
-					trait = homosexual
-				}
-			}
-		}
-		remove_trait = chaste
-	}
-}
-
-#Remove Temperate
-character_event = {
-	id = 1030
-	desc = "EVTDESC1030"
-	picture = "GFX_evt_feast"
-	
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		trait = temperate
-		personality_traits = 6
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1030"
-		remove_trait = temperate
-	}
-}
-
-#Remove Gluttonous
-character_event = {
-	id = 1031
-	desc = "EVTDESC1031"
-	picture = "GFX_evt_feast"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		OR = {
-			personality_traits = 6
-			has_ambition = obj_buddhist_temperance_food
-		}
-		trait = gluttonous
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-		modifier = {
-			factor = 10
-			has_ambition = obj_buddhist_temperance_food
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1031"
-		remove_trait = gluttonous
-		lose_weight_small_effect = yes
-		weight_trait_check_effect = yes
-	}
-}
-
-#Remove Charitable
-character_event = {
-	id = 1032
-	desc = "EVTDESC1032"
-	picture = "GFX_evt_market"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = charitable
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1032"
-		remove_trait = charitable
-	}
-	
-	option = {
-		name = "EVTOPTB1032"
-		if = {
-			limit = { NOT = { trait = stressed } }
-			add_trait = stressed
-		}
-	}
-}
-
-#Remove Greedy
-character_event = {
-	id = 1033
-	desc = "EVTDESC1033"
-	picture = "GFX_evt_market"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		OR = {
-			personality_traits = 6
-			has_ambition = obj_buddhist_reject_greed
-		}
-		trait = greedy
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-		modifier = {
-			factor = 20
-			has_ambition = obj_buddhist_reject_greed
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1033"
-		remove_trait = greedy
-	}
-}
-
-#Remove Diligent
-character_event = {
-	id = 1034
-	desc = "EVTDESC1034"
-	picture = "GFX_evt_emissary"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = diligent
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1034"
-		remove_trait = diligent
-	}
-}
-
-#Remove Slothful
-character_event = {
-	id = 1035
-	desc = "EVTDESC1035"
-	picture = "GFX_evt_drunk"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = slothful
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1035"
-		remove_trait = slothful
-	}
-}
-
-#Remove Kind
-character_event = {
-	id = 1036
-	desc = "EVTDESC1036"
-	picture = "GFX_evt_family"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = kind
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1036"
-		remove_trait = kind
-	}
-}
-
-#Remove Envious
-character_event = {
-	id = 1037
-	desc = "EVTDESC1037"
-	picture = "GFX_evt_shadowy_cabal"
-	
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		OR = {
-			personality_traits = 6
-			has_ambition = obj_buddhist_reject_envy
-		}
-		trait = envious
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-		modifier = {
-			factor = 20
-			has_ambition = obj_buddhist_reject_envy
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1037"
-		remove_trait = envious
-	}
-}
-
-#Remove Patient
-character_event = {
-	id = 1038
-	desc = "EVTDESC1038"
-	picture = "GFX_evt_emissary"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = patient
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1038"
-		remove_trait = patient
-	}
-}
-
-#Remove Wroth
-character_event = {
-	id = 1039
-	desc = "EVTDESC1039"
-	picture = "GFX_evt_melee"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		OR = {
-			personality_traits = 6
-			has_ambition = obj_buddhist_reject_hate
-		}
-		trait = wroth
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-		modifier = {
-			factor = 20
-			has_ambition = obj_buddhist_reject_hate
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1039"
-		remove_trait = wroth
-	}
-}
-
-#Remove Humble
-character_event = {
-	id = 1040
-	desc = "EVTDESC1040"
-	picture = "GFX_evt_garden"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = humble
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1040"
-		remove_trait = humble
-	}
-}
-
-#Remove Proud
-character_event = {
-	id = 1041
-	desc = "EVTDESC1041"
-	picture = "GFX_evt_throne_room"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		OR = {
-			personality_traits = 6
-			has_ambition = obj_buddhist_reject_pride
-		}
-		trait = proud
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-		modifier = {
-			factor = 20
-			has_ambition = obj_buddhist_reject_pride
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1041"
-		remove_trait = proud
-	}
-}
-
-#Remove Lustful - female
-character_event = {
-	id = 1042
-	desc = "EVTDESC1042"
-	picture = "GFX_evt_lovers"
-	
-	min_age = 16
-	only_capable = yes
-	only_women = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		trait = lustful
-		personality_traits = 6
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1028"
-		remove_trait = lustful
-	}
-}
-
-#Remove Honest
-character_event = {
-	id = 1043
-	desc = "EVTDESC1043"
-	picture = "GFX_evt_quarrel"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = honest
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1043"
-		remove_trait = honest
-	}
-}
-	
-# Remove Deceitful
-character_event = {
-	id = 1044
-	desc = "EVTDESC1044"
-	picture = "GFX_evt_shadowy_cabal"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = deceitful
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1044"
-		remove_trait = deceitful
-	}
-}
-	
-# Remove Brave
-character_event = {
-	id = 1045
-	desc = "EVTDESC1045"
-	picture = "GFX_evt_melee"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = brave
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1045"
-		remove_trait = brave
-	}
-}
-	
-# Remove Craven
-character_event = {
-	id = 1046
-	desc = "EVTDESC1046"
-	picture = "GFX_evt_courier"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		OR = {
-			personality_traits = 6
-			has_ambition = obj_buddhist_defeat_fear
-		}
-		trait = craven
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-		modifier = {
-			factor = 20
-			has_ambition = obj_buddhist_defeat_fear
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1046"
-		remove_trait = craven
-	}
-}
-
-# Remove Gregarious
-character_event = {
-	id = 1047
-	desc = "EVTDESC1047"
-	picture = "GFX_evt_feast"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = gregarious
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1047"
-		remove_trait = gregarious
-	}
-}
-
-# Remove Shy
-character_event = {
-	id = 1048
-	desc = "EVTDESC1048"
-	picture = "GFX_evt_family"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = shy
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1048"
-		remove_trait = shy
-	}
-}
-	
-# Remove Content
-character_event = {
-	id = 1049
-	desc = "EVTDESC1049"
-	picture = "GFX_evt_garden"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = content
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1049"
-		remove_trait = content
-	}
-}
-
-# Remove Ambitious
-character_event = {
-	id = 1050
-	desc = "EVTDESC1050"
-	picture = "GFX_evt_emissary"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = ambitious
-		NOR = {
-			has_character_flag = is_child_of_destiny
-			any_owned_bloodline = {
-				has_bloodline_flag = bloodline_ambition
-			}
-		}
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1050"
-		remove_trait = ambitious
-	}
-}
-
-# Remove Just
-character_event = {
-	id = 1051
-	desc = "EVTDESC1051"
-	picture = "GFX_evt_emissary"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = just
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1051"
-		remove_trait = just
-	}
-}
-
-# Remove Arbitrary
-character_event = {
-	id = 1052
-	desc = "EVTDESC1052"
-	picture = "GFX_evt_beheading"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = arbitrary
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1052"
-		remove_trait = arbitrary
-	}
-}
-
-# Remove Zealous
-character_event = {
-	id = 1053
-	desc = "EVTDESC1053"
-	picture = "GFX_evt_beheading"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = zealous
-	}
-
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1053"
-		remove_trait = zealous
-	}
-}
-
-# Remove Cynical
-character_event = {
-	id = 1054
-	desc = "EVTDESC1054"
-	picture = "GFX_evt_jugglers"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = cynical
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1054"
-		remove_trait = cynical
-	}
-}
-
-# Remove Paranoid
-character_event = {
-	id = 1057
-	desc = "EVTDESC1057"
-	picture = "GFX_evt_lunatic"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		OR = {
-			personality_traits = 6
-			has_ambition = obj_buddhist_defeat_fear
-		}
-		trait = paranoid
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-		modifier = {
-			factor = 20
-			has_ambition = obj_buddhist_defeat_fear
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1057"
-		remove_trait = paranoid
-	}
-}
-
-# Remove Trusting
-character_event = {
-	id = 1058
-	desc = "EVTDESC1058"
-	picture = "GFX_evt_family"
-	
-	min_age = 16
-	only_capable = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		personality_traits = 6
-		trait = trusting
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 2
-			personality_traits = 6
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA1058"
-		remove_trait = trusting
 	}
 }
 

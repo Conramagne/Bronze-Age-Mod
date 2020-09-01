@@ -2,7 +2,10 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2500.1.1={
+2481.1.1={
 	liege=d_mysia
+	holder = 2200602
+}
+2521.1.1={
 	holder = 2200600
 }

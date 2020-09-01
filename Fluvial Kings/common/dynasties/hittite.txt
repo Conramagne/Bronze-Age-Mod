@@ -1,5 +1,6 @@
 #IDS from 2000000-2099999
 
+#Hittite Names (2000000-2000999)
 2000000 = {
 	name = "Labarnid"
 	culture = "hittite"
@@ -49,34 +50,81 @@
 	name = "Hullisili"
 	culture = "hittite"
 }
+
+#Isuwan Names (2001000-2001999)
 2000009 = {
 	name = "Tiwasili"
-	culture = "hittite"
+	culture = "isuwan"
 }
 
-2000010 = {
+#Luwian Names (2002000-2002999)
+2002000 = {
+	name = "Phorbasid"
+	culture = "luwian"
+	used_for_random = no 
+}
+
+2002001 = {
+	name = "Kiyakili"
+	culture = "luwian"
+}
+2002002 = {
+	name = "Ahunili"
+	culture = "luwian"
+}
+2002003 = {
+	name = "Laramili"
+	culture = "luwian"
+}
+2002004 = {
+	name = "Huzziyili"
+	culture = "luwian"
+}
+2002005 = {
 	name = "Sandusili"
 	culture = "luwian"
 }
-2000011 = {
+2002006 = {
 	name = "Imarasili"
 	culture = "luwian"
 }
+2002007 = {
+	name = "Pisirili"
+	culture = "luwian"
+}
 
-2000012 = {
+#Kaskan Names (2003000-2003999)
+2003000 = {
 	name = "Kaskaili"
 	culture = "kaskian"
 }
 
-2000013 = {
-	name = "Annasili"
-	culture = "eneti"
-}
-2000014 = {
+#Eneti Names (2004000-2004999)
+2004000 = {
 	name = "Sandusili"
 	culture = "eneti"
 }
-2000015 = {
+2004001 = {
 	name = "Imarasili"
+	culture = "eneti"
+}
+2004002 = {
+	name = "Kiyakili"
+	culture = "eneti"
+}
+2004003 = {
+	name = "Ahunili"
+	culture = "eneti"
+}
+2004004 = {
+	name = "Laramili"
+	culture = "eneti"
+}
+2004005 = {
+	name = "Huzziyili"
+	culture = "eneti"
+}
+2004006 = {
+	name = "Pisirili"
 	culture = "eneti"
 }

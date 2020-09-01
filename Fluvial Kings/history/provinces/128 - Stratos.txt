@@ -1,8 +1,8 @@
 title=c_stratos
 
 max_settlements= 2
-b_stratos=castle
-b_agrinion=city
+b_stratos=tribal
+b_agrinion=tribal
 
-culture=achaean
-religion=pantes_theoi
+culture=dorian
+religion=pantes_theoi #temporary
