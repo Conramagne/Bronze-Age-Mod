@@ -243,3 +243,15 @@ khopes = {
 	picture = "GFX_sword_khopes"
 	slot = weapon
 }
+
+lionskin = {
+	quality = 4
+	combat_rating = 5
+	martial = 1
+	monthly_character_prestige = 1
+	hellenic_opinion = 5
+	flags = { wearable_helmet }
+	picture = "GFX_lionskin"
+	stacking = no
+	slot = helmet
+}

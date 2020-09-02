@@ -314,8 +314,8 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\\GFX_priam_asks_for_body.dds"
 	}
 	spriteType = {
-		name = "GFX_achilles_shield"
-		texturefile = "gfx\\event_pictures\\GFX_achilles_shield.dds"
+		name = "GFX_shield_of_achilles"
+		texturefile = "gfx\\event_pictures\\GFX_shield_of_achilles.dds"
 	}
 	spriteType = {
 		name = "GFX_death_of_achilles"

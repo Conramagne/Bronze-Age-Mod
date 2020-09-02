@@ -1673,7 +1673,7 @@ character_event = {
 #Achilles hears of Patroclus' death
 character_event = {
 	id = tw.32
-	picture = GFX_achilles_shield
+	picture = GFX_shield_of_achilles
 	title = EVTTITLETW32
 	desc = EVTDESCTW32
 	is_triggered_only = yes
