@@ -120,7 +120,7 @@ spriteTypes = {
 		norefcount = yes
 	}
 	
-### custom event pictures
+### General custom event pictures
 	
 	spriteType = {
 		name = "GFX_evt_succession"
@@ -250,6 +250,100 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_evt_ancient_duels"
 		texturefile = "gfx\\event_pictures\\GFX_evt_ancient_duels.dds"
+	}
+
+### TROJAN WAR event pictures ###
+	spriteType = {
+		name = "GFX_left_on_lemnos"
+		texturefile = "gfx\\event_pictures\\GFX_left_on_lemnos.dds"
+	}
+	spriteType = {
+		name = "GFX_iolaos_become_protesilaos"
+		texturefile = "gfx\\event_pictures\\GFX_iolaos_become_protesilaos.dds"
+	}
+	spriteType = {
+		name = "GFX_achilles_pillages"
+		texturefile = "gfx\\event_pictures\\GFX_achilles_pillages.dds"
+	}
+	spriteType = {
+		name = "GFX_achilles_takes_lycaon"
+		texturefile = "gfx\\event_pictures\\GFX_achilles_takes_lycaon.dds"
+	}
+	spriteType = {
+		name = "GFX_achilles_takes_chryseis"
+		texturefile = "gfx\\event_pictures\\GFX_achilles_takes_chryseis.dds"
+	}
+	spriteType = {
+		name = "GFX_chryseis_returned"
+		texturefile = "gfx\\event_pictures\\GFX_chryseis_returned.dds"
+	}
+	spriteType = {
+		name = "GFX_briseis"
+		texturefile = "gfx\\event_pictures\\GFX_briseis.dds"
+	}
+	spriteType = {
+		name = "GFX_wrath_of_akhilleus"
+		texturefile = "gfx\\event_pictures\\GFX_wrath_of_akhilleus.dds"
+	}
+	spriteType = {
+		name = "GFX_diomedes_sees_glaukos"
+		texturefile = "gfx\\event_pictures\\GFX_diomedes_sees_glaukos.dds"
+	}
+	spriteType = {
+		name = "GFX_patroclus_armor"
+		texturefile = "gfx\\event_pictures\\GFX_patroclus_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_patroclus_dies"
+		texturefile = "gfx\\event_pictures\\GFX_patroclus_dies.dds"
+	}
+	spriteType = {
+		name = "GFX_return_of_achilles"
+		texturefile = "gfx\\event_pictures\\GFX_return_of_achilles.dds"
+	}
+	spriteType = {
+		name = "GFX_achilles_duels_hector"
+		texturefile = "gfx\\event_pictures\\GFX_achilles_duels_hector.dds"
+	}
+	spriteType = {
+		name = "GFX_death_of_hector"
+		texturefile = "gfx\\event_pictures\\GFX_death_of_hector.dds"
+	}
+	spriteType = {
+		name = "GFX_priam_asks_for_body"
+		texturefile = "gfx\\event_pictures\\GFX_priam_asks_for_body.dds"
+	}
+	spriteType = {
+		name = "GFX_achilles_shield"
+		texturefile = "gfx\\event_pictures\\GFX_achilles_shield.dds"
+	}
+	spriteType = {
+		name = "GFX_death_of_achilles"
+		texturefile = "gfx\\event_pictures\\GFX_death_of_achilles.dds"
+	}
+	spriteType = {
+		name = "GFX_ajax_and_odysseus"
+		texturefile = "gfx\\event_pictures\\GFX_ajax_and_odysseus.dds"
+	}
+	spriteType = {
+		name = "GFX_menelaus_and_helen"
+		texturefile = "gfx\\event_pictures\\GFX_menelaus_and_helen.dds"
+	}
+	spriteType = {
+		name = "GFX_philoktetes"
+		texturefile = "gfx\\event_pictures\\GFX_philoktetes.dds"
+	}
+	spriteType = {
+		name = "GFX_death_of_paris"
+		texturefile = "gfx\\event_pictures\\GFX_death_of_paris.dds"
+	}
+	spriteType = {
+		name = "GFX_trojan_horse"
+		texturefile = "gfx\\event_pictures\\GFX_trojan_horse.dds"
+	}
+	spriteType = {
+		name = "GFX_troy_sacked"
+		texturefile = "gfx\\event_pictures\\GFX_troy_sacked.dds"
 	}
 	
 ## decisions

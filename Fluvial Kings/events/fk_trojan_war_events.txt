@@ -89,7 +89,7 @@ character_event = {
 #Greek Trojan War Event
 narrative_event = {
 	id = tw.2
-	#Please add a custom picture, and when it is added, remove this comment
+	picture = GFX_evt_warrior_greek_gathering
 	title = EVTTITLETW2
 	desc = {
 		trigger = {
@@ -168,7 +168,7 @@ narrative_event = {
 #Trojan Trojan War Event
 narrative_event = {
 	id = tw.3
-	#Please add a custom picture, and when it is added, remove this comment
+	picture = GFX_evt_warrior_greek_gathering
 	title = EVTTITLETW3
 	desc = {
 		trigger = {
@@ -208,6 +208,7 @@ narrative_event = {
 #Philoktetes gets bitten by a snake
 character_event = {
 	id = tw.4
+	picture = GFX_left_on_lemnos
 	desc = EVTDESCTW4
 	trigger = {
 		character = c_2102600 #Philoktetes
@@ -261,6 +262,7 @@ character_event = {
 character_event = {
 	id = tw.5
 	desc = EVTDESCTW5
+	picture = GFX_left_on_lemnos
 	is_triggered_only = yes
 	
 	option = {
@@ -271,6 +273,7 @@ character_event = {
 #Iólaos dies on the battlefield and becomes Protesilaos (on_combat_pulse)
 character_event = {
 	id = tw.6
+	picture = GFX_iolaos_become_protesilaos
 	desc = EVTDESCTW6
 	is_triggered_only = yes
 	trigger = {
@@ -308,6 +311,7 @@ character_event = {
 #Notification
 character_event = {
 	id = tw.7
+	picture = GFX_iolaos_become_protesilaos
 	desc = EVTDESCTW7
 	is_triggered_only = yes
 	
@@ -319,6 +323,7 @@ character_event = {
 #Achilles raids the countryside
 character_event = {
 	id = tw.8
+	picture = GFX_achilles_pillages
 	desc = EVTDESCTW8
 	trigger = {
 		character = c_2102101 #Akhilleus
@@ -424,6 +429,7 @@ character_event = {
 #Agamemnon Receives Chryseis/Random Consort
 character_event = {
 	id = tw.9
+	picture = GFX_achilles_takes_chryseis
 	desc = {
 		text = EVTDESCATW9
 		trigger = {
@@ -502,6 +508,7 @@ character_event = {
 character_event = {
 	id = tw.120
 	desc = EVTDESCTW120
+	picture = GFX_achilles_takes_chryseis
 	is_triggered_only = yes
 
 	immediate = {
@@ -548,6 +555,7 @@ character_event = {
 #Chryseis dies premature, Agamemnon requests Achilles give him Briseis
 character_event = {
 	id = tw.122
+	picture = GFX_briseis
 	desc = EVTDESCTW122
 	is_triggered_only = yes
 
@@ -604,6 +612,7 @@ character_event = {
 #Chryses requests his daughter in exchange for gold
 character_event = {
 	id = tw.10
+	picture = GFX_achilles_takes_chryseis
 	desc = {
 		trigger = {
 			c_2200705 = { #Chryses
@@ -757,6 +766,7 @@ character_event = {
 #A Plague strikes the Achaeans
 character_event = {
 	id = tw.11
+	picture = GFX_chryseis_returned
 	desc = EVTDESCTW11
 	is_triggered_only = yes
 	
@@ -771,6 +781,7 @@ character_event = {
 #Agamemnon is told he must return Chryseis/Random consort
 character_event = {
 	id = tw.12
+	picture = GFX_chryseis_returned
 	desc = EVTDESCTW12
 	is_triggered_only = yes
 	
@@ -883,6 +894,7 @@ character_event = {
 #Akhilleus is forced to give Agamemnon Briseis/Gold
 character_event = {
 	id = tw.14
+	picture = GFX_briseis
 	desc = {
 		text = EVTDESCATW14
 		trigger = {
@@ -933,6 +945,7 @@ character_event = {
 #Wrath of Akhilleus
 character_event = {
 	id = tw.15
+	picture = GFX_wrath_of_akhilleus
 	title = EVTTITLETW15
 	desc = EVTDESCTW15
 	is_triggered_only = yes
@@ -956,6 +969,7 @@ character_event = {
 #Agamemnon is told to assault Troy by Zeus in a dream, but tests the resolve of the Greeks first
 character_event = {
 	id = tw.16
+	picture = GFX_wrath_of_akhilleus
 	desc = {
 		trigger = {
 			c_2102300 = { #Odysseus
@@ -982,6 +996,7 @@ character_event = {
 #Paris attempts to set up a duel
 character_event = {
 	id = tw.17
+	picture = GFX_achilles_duels_hector
 	desc = EVTDESCTW17
 	trigger = {
 		character = c_2200004 #Paris
@@ -1020,6 +1035,7 @@ character_event = {
 #Menelaos receives a letter for Paris to duel him
 letter_event = {
 	id = tw.18
+	picture = GFX_achilles_duels_hector
 	desc = EVTDESCTW18
 	is_triggered_only = yes
 	
@@ -1082,6 +1098,7 @@ character_event = {
 #Menelaus dies of a duel
 narrative_event = {
 	id = tw.85
+	picture = GFX_achilles_duels_hector
 	title = EVTTITLETW85
 	desc = EVTDESCTW85
 	is_triggered_only = yes 
@@ -1129,6 +1146,7 @@ character_event = {
 #Menelaus dies in battle
 narrative_event = {
 	id = tw.87
+	picture = GFX_achilles_duels_hector
 	title = EVTTITLETW87
 	desc = EVTDESCTW87
 	is_triggered_only = yes 
@@ -1179,6 +1197,7 @@ character_event = {
 #Menelaus dies (generic)
 narrative_event = {
 	id = tw.89
+	picture = GFX_achilles_duels_hector
 	title = EVTTITLETW89
 	desc = EVTDESCTW89
 	is_triggered_only = yes 
@@ -1205,6 +1224,7 @@ narrative_event = {
 #Menelaos is saved by Athene
 character_event = {
 	id = tw.20
+	picture = GFX_wrath_of_akhilleus
 	desc = EVTDESCTW20
 	portrait = 1100147
 	is_triggered_only = yes 
@@ -1239,6 +1259,7 @@ character_event = {
 #Paris is saved by Aphrodite
 character_event = {
 	id = tw.21
+	picture = GFX_wrath_of_akhilleus
 	title = EVTTITLETW21
 	desc = EVTDESCTW21
 	portrait = 1100155
@@ -1278,6 +1299,7 @@ character_event = {
 #Pandarus breaks the truce
 character_event = {
 	id = tw.22
+	picture = GFX_wrath_of_akhilleus
 	title = EVTTITLETW22
 	desc = EVTDESCTW22
 	portrait = 2201300
@@ -1299,6 +1321,7 @@ character_event = {
 #Generic Trojan breaks the truce
 character_event = {
 	id = tw.23
+	picture = GFX_wrath_of_akhilleus
 	title = EVTTITLETW23
 	desc = EVTDESCTW23
 	hide_from = yes
@@ -1320,6 +1343,7 @@ character_event = {
 #Agamemnon sends Odysseus, Ajax, and Phoenix to Achilles
 character_event = {
 	id = tw.24
+	picture = GFX_wrath_of_akhilleus
 	desc = EVTDESCTW24
 	is_triggered_only = yes 
 	
@@ -1334,6 +1358,7 @@ character_event = {
 #Achilles receives the embassy
 character_event = {
 	id = tw.25
+	picture = GFX_wrath_of_akhilleus
 	desc = EVTDESCTW25
 	is_triggered_only = yes 
 	
@@ -1407,6 +1432,7 @@ character_event = {
 #Achilles says no
 character_event = {
 	id = tw.26
+	picture = GFX_wrath_of_akhilleus
 	desc = EVTDESCTW26
 	is_triggered_only = yes 
 	
@@ -1418,6 +1444,7 @@ character_event = {
 #Achilles says yes
 character_event = {
 	id = tw.27
+	picture = GFX_wrath_of_akhilleus
 	desc = EVTDESCTW27
 	is_triggered_only = yes 
 	
@@ -1441,6 +1468,7 @@ character_event = {
 #Patroclus begs Achilles to lend him his armor
 character_event = {
 	id = tw.28
+	picture = GFX_patroclus_armor
 	desc = EVTDESCTW28
 	is_triggered_only = yes 
 	
@@ -1455,6 +1483,7 @@ character_event = {
 #Achilles receives Patroclus' plea
 character_event = {
 	id = tw.29
+	picture = GFX_patroclus_armor
 	desc = EVTDESCTW29
 	is_triggered_only = yes 
 	
@@ -1469,6 +1498,7 @@ character_event = {
 #Patroclus is allowed to wear the armor
 character_event = {
 	id = tw.30
+	picture = GFX_patroclus_armor
 	desc = EVTDESCTW30
 	is_triggered_only = yes 
 	
@@ -1503,6 +1533,7 @@ character_event = {
 #Return of Achilles?
 character_event = {
 	id = tw.90
+	picture = GFX_return_of_achilles
 	title = EVTTITLETW90
 	desc = EVTDESCTW90
 	is_triggered_only = yes
@@ -1557,6 +1588,7 @@ character_event = {
 #Patroclus dies from other causes after given the armor (on_death) (failsafe)
 character_event = {
 	id = tw.113
+	picture = GFX_patroclus_dies
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
@@ -1581,6 +1613,7 @@ character_event = {
 #Hector kills Patroclus
 character_event = {
 	id = tw.31
+	picture = GFX_patroclus_dies
 	desc = EVTDESCTW31
 	trigger = {
 		character = c_2200002 #Hector
@@ -1640,6 +1673,7 @@ character_event = {
 #Achilles hears of Patroclus' death
 character_event = {
 	id = tw.32
+	picture = GFX_achilles_shield
 	title = EVTTITLETW32
 	desc = EVTDESCTW32
 	is_triggered_only = yes
@@ -1672,6 +1706,7 @@ character_event = {
 #Return of Achilles
 character_event = {
 	id = tw.33
+	picture = GFX_return_of_achilles
 	title = EVTTITLETW33
 	desc = {
 		trigger = {
@@ -1708,6 +1743,7 @@ character_event = {
 #Achilles gets back Briseis, but is indifferent
 character_event = {
 	id = tw.34
+	picture = GFX_return_of_achilles
 	desc = {
 		trigger = {
 			c_2100900 = { #Agamemnon
@@ -1802,6 +1838,7 @@ character_event = {
 #Hector duels Achilles
 character_event = {
 	id = tw.35
+	picture = GFX_achilles_duels_hector
 	desc = EVTDESCTW35
 	trigger = {
 		character = c_2200002 #Hector
@@ -1834,6 +1871,7 @@ character_event = {
 #Hector rushes to duel Achilles
 character_event = {
 	id = tw.36
+	picture = GFX_achilles_duels_hector
 	desc = EVTDESCTW36
 	is_triggered_only = yes
 	
@@ -1866,6 +1904,7 @@ character_event = {
 #Hector dies in duel with Achilles
 character_event = {
 	id = tw.37
+	picture = GFX_achilles_duels_hector
 	hide_window = yes
 	is_triggered_only = yes
 	
@@ -1896,6 +1935,7 @@ character_event = {
 #Death of Hector
 narrative_event = {
 	id = tw.91
+	picture = GFX_death_of_hector
 	title = EVTTITLETW91
 	desc = EVTDESCTW91
 	is_triggered_only = yes
@@ -1919,6 +1959,7 @@ narrative_event = {
 #Achilles is reminded by Hector that he will die in combat, and Achilles drags his body around
 long_character_event = {
 	id = tw.38
+	picture = GFX_death_of_hector
 	desc = EVTDESCTW38
 	is_triggered_only = yes
 
@@ -1935,6 +1976,7 @@ long_character_event = {
 #Ghost of Patroclus asks for funeral games to be held
 character_event = {
 	id = tw.39
+	picture = GFX_death_of_achilles
 	desc = EVTDESCTW39
 	is_triggered_only = yes
 	portrait = 2101619
@@ -1960,6 +2002,7 @@ character_event = {
 #Achaeans in Troy hold funeral games at the camp
 character_event = {
 	id = tw.40
+	picture = GFX_death_of_achilles
 	title = EVTTITLETW40
 	desc = {
 		trigger = {
@@ -1985,6 +2028,7 @@ character_event = {
 #Pariya-muwas goes to Achilles to request the body of Hector
 long_character_event = {
 	id = tw.41
+	picture = GFX_priam_asks_for_body
 	title = EVTTITLETW41
 	desc = EVTDESCTW41
 	is_triggered_only = yes
@@ -2000,6 +2044,7 @@ long_character_event = {
 #Pariya-muwas arrives at Achilles' camp
 character_event = {
 	id = tw.42
+	picture = GFX_priam_asks_for_body
 	title = EVTTITLETW42
 	desc = EVTDESCTW42
 	is_triggered_only = yes
@@ -2025,6 +2070,7 @@ character_event = {
 #Achilles agrees
 character_event = {
 	id = tw.43
+	picture = GFX_priam_asks_for_body
 	title = EVTTITLETW43
 	desc = EVTDESCTW43
 	is_triggered_only = yes
@@ -2049,6 +2095,7 @@ character_event = {
 #Achilles says no
 character_event = {
 	id = tw.44
+	picture = GFX_priam_asks_for_body
 	title = EVTTITLETW44
 	desc = EVTDESCTW44
 	is_triggered_only = yes
@@ -2064,6 +2111,7 @@ character_event = {
 #Hector is buried
 character_event = {
 	id = tw.45
+	picture = GFX_priam_asks_for_body
 	title = EVTTITLETW45
 	desc = EVTDESCTW45
 	is_triggered_only = yes
@@ -2128,6 +2176,7 @@ character_event = {
 #Paris kills Achilles
 character_event = {
 	id = tw.46
+	picture = GFX_death_of_achilles
 	desc = EVTDESCTW46
 	portrait = 1100149
 	trigger = {
@@ -2198,6 +2247,7 @@ character_event = {
 #Death of Achilles
 character_event = {
 	id = tw.92
+	picture = GFX_death_of_achilles
 	title = EVTTITLETW92
 	desc = EVTDESCTW92
 	is_triggered_only = yes
@@ -2235,6 +2285,7 @@ character_event = {
 #Achaeans hold funeral games for Achilles
 character_event = {
 	id = tw.47
+	picture = GFX_death_of_achilles
 	title = EVTTITLETW47
 	desc = EVTDESCTW47
 	is_triggered_only = yes
@@ -2338,6 +2389,7 @@ character_event = {
 #Odysseus and Ajax argue over Achilles' armor
 character_event = {
 	id = tw.48
+	picture = GFX_ajax_and_odysseus
 	title = EVTTITLETW48
 	desc = {
 		trigger = {
@@ -2384,6 +2436,7 @@ character_event = {
 #Receive the armor
 character_event = {
 	id = tw.49
+	picture = GFX_ajax_and_odysseus
 	title = EVTTITLETW49
 	desc = EVTDESCTW49
 	is_triggered_only = yes
@@ -2409,6 +2462,7 @@ character_event = {
 #Don't Receive the armor
 character_event = {
 	id = tw.50
+	picture = GFX_ajax_and_odysseus
 	title = EVTTITLETW50
 	desc = EVTDESCTW50
 	is_triggered_only = yes
@@ -2441,6 +2495,7 @@ character_event = {
 #Suicide over armor
 character_event = {
 	id = tw.117
+	picture = GFX_ajax_and_odysseus
 	title = EVTTITLETW117
 	desc = EVTDESCTW117
 	is_triggered_only = yes
@@ -2453,6 +2508,7 @@ character_event = {
 #Helenus is tortured to reveal win condition 
 character_event = {
 	id = tw.51
+	picture = GFX_menelaus_and_helen
 	desc = EVTDESCTW51
 	portrait = 2200018
 	is_triggered_only = yes
@@ -2484,6 +2540,7 @@ character_event = {
 #Win condition revealed
 character_event = {
 	id = tw.93
+	picture = GFX_patroclus_dies
 	desc = EVTDESCTW93
 	is_triggered_only = yes
 	
@@ -2495,6 +2552,7 @@ character_event = {
 #Generic Trojan is tortured to reveal win condition 
 character_event = {
 	id = tw.52
+	picture = GFX_patroclus_dies
 	desc = EVTDESCTW52
 	is_triggered_only = yes
 	
@@ -2522,6 +2580,7 @@ character_event = {
 #Relevent people are sent to fetch the required items
 character_event = {
 	id = tw.53
+	picture = GFX_philoktetes
 	desc = EVTDESCTW53
 	is_triggered_only = yes
 	
@@ -2576,6 +2635,7 @@ character_event = {
 #Someone comes to take the Bones of Pelops
 character_event = {
 	id = tw.76
+	picture = GFX_philoktetes
 	desc = EVTDESCTW76
 	is_triggered_only = yes
 	option = {
@@ -2589,6 +2649,7 @@ character_event = {
 #Bones of Pelops retrieved
 character_event = {
 	id = tw.77
+	picture = GFX_philoktetes
 	desc = EVTDESCTW77
 	is_triggered_only = yes
 	
@@ -2611,6 +2672,7 @@ character_event = {
 #Diomedes and Odysseus are sent to steal the Palladium
 character_event = {
 	id = tw.54
+	picture = GFX_philoktetes
 	desc = {
 		trigger = {
 			character = c_2102300 #Odysseus
@@ -2710,6 +2772,7 @@ character_event = {
 #Palladium retrieved
 character_event = {
 	id = tw.55
+	picture = GFX_philoktetes
 	desc = EVTDESCTW55
 	is_triggered_only = yes
 	
@@ -2814,6 +2877,7 @@ character_event = {
 #Palladium stolen
 character_event = {
 	id = tw.56
+	picture = GFX_philoktetes
 	desc = EVTDESCTW56
 	is_triggered_only = yes
 	
@@ -2826,6 +2890,7 @@ character_event = {
 #Diomedes and Odysseus go to retrieve Philoktetes
 character_event = {
 	id = tw.57
+	picture = GFX_philoktetes
 	desc = EVTDESCTW57
 	# desc = {
 		# trigger = {
@@ -2905,6 +2970,7 @@ character_event = {
 #Someone comes to retrieve Philoktetes
 character_event = {
 	id = tw.58
+	picture = GFX_philoktetes
 	desc = {
 		trigger = {
 			c_2101200 = { #Diomedes
@@ -2997,6 +3063,7 @@ character_event = {
 #Arrows come to Troy
 character_event = {
 	id = tw.59
+	picture = GFX_philoktetes
 	desc = {
 		trigger = {
 			c_2102600 = { #Philoktetes
@@ -3106,6 +3173,7 @@ character_event = {
 #Diomedes and Odysseus go to retrieve Arrows of Heracles
 character_event = {
 	id = tw.60
+	picture = GFX_philoktetes
 	desc = EVTDESCTW60
 	# desc = {
 		# trigger = {
@@ -3192,6 +3260,7 @@ character_event = {
 #Someone comes to retrieve the Arrows
 character_event = {
 	id = tw.61
+	picture = GFX_philoktetes
 	desc = {
 		trigger = {
 			c_2101200 = { #Diomedes
@@ -3285,6 +3354,7 @@ character_event = {
 #Diomedes and Odysseus go to retrieve Pyrrhus
 character_event = {
 	id = tw.62
+	picture = GFX_philoktetes
 	desc = EVTDESCTW62
 	# desc = {
 		# trigger = {
@@ -3364,6 +3434,7 @@ character_event = {
 #Someone comes to retrieve Pyrrhus
 character_event = {
 	id = tw.63
+	picture = GFX_philoktetes
 	desc = {
 		trigger = {
 			c_2101200 = { #Diomedes
@@ -3451,6 +3522,7 @@ character_event = {
 #Pyrrhus comes to Troy
 character_event = {
 	id = tw.64
+	picture = GFX_philoktetes
 	desc = EVTDESCTW64
 	is_triggered_only = yes
 	
@@ -3499,6 +3571,7 @@ character_event = {
 #Paris is killed by an Arrow of Heracles
 character_event = {
 	id = tw.65
+	picture = GFX_death_of_paris
 	desc = EVTDESCTW65
 	# desc = {
 		# trigger = {
@@ -3566,6 +3639,7 @@ character_event = {
 #Odysseus/Someone formulates the Trojan Horse
 character_event = {
 	id = tw.66
+	picture = GFX_trojan_horse
 	desc = EVTDESCTW66
 	is_triggered_only = yes
 	
@@ -3580,6 +3654,7 @@ character_event = {
 #Plans are received, and the building of the Trojan Horse commences
 character_event = {
 	id = tw.67
+	picture = GFX_trojan_horse
 	title = EVTTITLETW67
 	desc = EVTDESCTW67
 	is_triggered_only = yes
@@ -3605,6 +3680,7 @@ character_event = {
 #Trojan Horse under construction
 character_event = {
 	id = tw.94
+	picture = GFX_trojan_horse
 	desc = EVTDESCTW94
 	is_triggered_only = yes
 	
@@ -3616,6 +3692,7 @@ character_event = {
 #Trojan Horse complete
 character_event = {
 	id = tw.95
+	picture = GFX_trojan_horse
 	desc = EVTDESCTW95
 	is_triggered_only = yes
 	
@@ -3627,6 +3704,7 @@ character_event = {
 #Trojan Horse complete (Agamemnon)
 character_event = {
 	id = tw.68
+	picture = GFX_trojan_horse
 	title = EVTTITLETW68
 	desc = EVTDESCTW68
 	is_triggered_only = yes
@@ -3647,6 +3725,7 @@ character_event = {
 #Trojan Horse is presented
 character_event = {
 	id = tw.69
+	picture = GFX_trojan_horse
 	title = EVTTITLETW69
 	desc = EVTDESCTW69
 	is_triggered_only = yes
@@ -3704,6 +3783,7 @@ character_event = {
 #Laocoon is suspicious
 character_event = {
 	id = tw.70
+	picture = GFX_trojan_horse
 	title = EVTTITLETW70
 	desc = EVTDESCTW70
 	is_triggered_only = yes
@@ -3728,6 +3808,7 @@ character_event = {
 #Laocoon warns of the Trojan Horse
 long_character_event = {
 	id = tw.71
+	picture = GFX_trojan_horse
 	title = EVTTITLETW71
 	desc = EVTDESCTW71
 	is_triggered_only = yes
@@ -3772,6 +3853,7 @@ long_character_event = {
 #Achaeans leap out of the Trojan Horse
 character_event = {
 	id = tw.72
+	picture = GFX_troy_sacked
 	title = EVTTITLETW72
 	desc = EVTDESCTW72
 	is_triggered_only = yes
@@ -3889,6 +3971,7 @@ character_event = {
 #Sack of Troy
 narrative_event = {
 	id = tw.74
+	picture = GFX_troy_sacked
 	title = EVTTITLETW74
 	hide_from = yes
 	desc = {
@@ -4024,6 +4107,7 @@ narrative_event = {
 #Helen and Menelaos reunite
 long_character_event = {
 	id = tw.75
+	picture = GFX_menelaus_and_helen
 	title = EVTTITLETW75
 	hide_from = yes
 	desc = {
@@ -4076,6 +4160,7 @@ long_character_event = {
 #Pyrrhus finds Priam
 character_event = {
 	id = tw.78
+	picture = GFX_achilles_duels_hector
 	desc = EVTDESCTW78
 	hide_from = yes
 	is_triggered_only = yes
@@ -4099,6 +4184,7 @@ character_event = {
 #Priam is killed
 character_event = {
 	id = tw.79
+	picture = GFX_achilles_duels_hector
 	desc = EVTDESCTW79
 	is_triggered_only = yes
 
@@ -4124,6 +4210,7 @@ character_event = {
 #Ajax the Lesser spots Cassandra
 long_character_event = {
 	id = tw.80
+	picture = GFX_menelaus_and_helen
 	desc = EVTDESCTW80
 	hide_from = yes
 	is_triggered_only = yes
@@ -4164,6 +4251,7 @@ long_character_event = {
 #Cassandra is raped
 character_event = {
 	id = tw.81
+	picture = GFX_menelaus_and_helen
 	desc = EVTDESCTW81
 	is_triggered_only = yes
 
@@ -4179,6 +4267,7 @@ character_event = {
 #Pyrrhus is contacted by Achilles' ghost to kill Polyxena
 long_character_event = {
 	id = tw.82
+	picture = GFX_patroclus_dies
 	desc = EVTDESCTW82
 	is_triggered_only = yes
 	trigger = {
@@ -4205,6 +4294,7 @@ long_character_event = {
 #Polyxena is captured
 character_event = {
 	id = tw.83
+	picture = GFX_patroclus_dies
 	desc = EVTDESCTW83
 	is_triggered_only = yes
 
@@ -4220,6 +4310,7 @@ character_event = {
 #Polyxena is taken to Achilles' grave to be slaughtered
 long_character_event = {
 	id = tw.84
+	picture = GFX_death_of_achilles
 	desc = EVTDESCTW84
 	is_triggered_only = yes
 
@@ -4276,6 +4367,7 @@ character_event = {
 #Death of Helen
 narrative_event = {
 	id = tw.97
+	picture = GFX_death_of_paris
 	title = EVTTITLETW97
 	desc = EVTDESCTW97
 	is_triggered_only = yes 
@@ -4317,6 +4409,7 @@ narrative_event = {
 #End of the Trojan War, Death of Helen
 narrative_event = {
 	id = tw.98
+	picture = GFX_death_of_paris
 	title = EVTTITLETW98
 	hide_from = yes
 	desc = EVTDESCTW98
@@ -4385,6 +4478,7 @@ narrative_event = {
 #End of the Trojan War, Troy Stands
 narrative_event = {
 	id = tw.99
+	picture = GFX_iolaos_become_protesilaos
 	title = EVTTITLETW99
 	hide_from = yes
 	desc = EVTDESCTW99
@@ -4453,6 +4547,7 @@ narrative_event = {
 #End of the Trojan War, Troy Wins
 narrative_event = {
 	id = tw.100
+	picture = GFX_patroclus_dies
 	title = EVTTITLETW100
 	hide_from = yes
 	desc = EVTDESCTW100
@@ -4521,6 +4616,7 @@ narrative_event = {
 #Akhilleus dies in battle with Trojan Princes
 character_event = {
 	id = tw.107
+	picture = GFX_death_of_achilles
 	desc = EVTDESCTW107
 	is_triggered_only = yes
 
@@ -4554,6 +4650,7 @@ character_event = {
 #Killed by Achilles in the Siege
 character_event = {
 	id = tw.108
+	picture = GFX_death_of_achilles
 	desc = EVTDESCTW108
 	is_triggered_only = yes
 
@@ -4581,6 +4678,7 @@ character_event = {
 #Akhilleus dies in battle with Apollo
 character_event = {
 	id = tw.109
+	picture = GFX_death_of_achilles
 	desc = EVTDESCTW109
 	portrait = 1100149
 	is_triggered_only = yes
@@ -4610,6 +4708,7 @@ character_event = {
 #Achaeans slay Trojan Princes
 character_event = {
 	id = tw.118
+	picture = GFX_patroclus_dies
 	desc = {
 		trigger = {
 			has_landed_title = d_wilusa
@@ -4640,6 +4739,7 @@ character_event = {
 #Diomedes sees Glaukos
 character_event = {
 	id = tw.101
+	picture = GFX_diomedes_sees_glaukos
 	desc = EVTDESCTW101
 	
 	trigger = {
@@ -4694,6 +4794,7 @@ character_event = {
 #Glaukos is approached by Diomedes
 character_event = {
 	id = tw.102
+	picture = GFX_diomedes_sees_glaukos
 	desc = EVTDESCTW102
 	is_triggered_only = yes
 	
@@ -4720,6 +4821,7 @@ character_event = {
 #Glaukos and Diomedes exchange armor
 character_event = {
 	id = tw.103
+	picture = GFX_diomedes_sees_glaukos
 	desc = EVTDESCTW103
 	is_triggered_only = yes
 	
@@ -4751,6 +4853,7 @@ character_event = {
 #Glaukos turns Diomedes away
 character_event = {
 	id = tw.104
+	picture = GFX_diomedes_sees_glaukos
 	desc = EVTDESCTW104
 	is_triggered_only = yes
 	
@@ -4762,6 +4865,7 @@ character_event = {
 #Arrows of Heracles and Bones of Pelops are sent back
 character_event = {
 	id = tw.105
+	picture = GFX_philoktetes
 	desc = EVTDESCTW105
 	is_triggered_only = yes
 	
@@ -4827,6 +4931,7 @@ character_event = {
 #Helen is released if ever imprisoned during war
 character_event = {
 	id = tw.106
+	picture = GFX_menelaus_and_helen
 	hide_window = yes
 	trigger = {
 		character = c_2101002 #Helen
