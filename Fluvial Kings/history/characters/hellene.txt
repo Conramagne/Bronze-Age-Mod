@@ -2106,6 +2106,8 @@
 	female = yes
 	father = 2101008
 	mother = 2100602
+	trait = chaste
+	trait = patient
 	2501.1.1 = { birth = yes }
 	2518.1.1 = {
 		add_spouse = 2102300
@@ -4308,7 +4310,10 @@
 	2496.1.1 = { birth = yes }
 	2518.1.1 = {
 		add_spouse = 2101011
-	}
+		effect = {
+			add_lover = 2101011
+		}
+	}	
 	2527.1.1 = {
 		effect = {
 			set_character_flag = destined_hero

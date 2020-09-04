@@ -1,8 +1,8 @@
 title=c_alos_karnos
 
-max_settlements= 1
-b_pitassa=tribal
-b_alos_karnos=tribal
+max_settlements = 2
+b_pitassa = tribal
+b_alos_karnos = tribal
 
-culture=carian
-religion=haianiluwi
+culture = carian
+religion = haianiluwi

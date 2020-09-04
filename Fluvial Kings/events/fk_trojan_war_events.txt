@@ -766,7 +766,7 @@ character_event = {
 #A Plague strikes the Achaeans
 character_event = {
 	id = tw.11
-	picture = GFX_chryseis_returned
+	picture = GFX_achilles_takes_chryseis
 	desc = EVTDESCTW11
 	is_triggered_only = yes
 	
@@ -1224,7 +1224,7 @@ narrative_event = {
 #Menelaos is saved by Athene
 character_event = {
 	id = tw.20
-	picture = GFX_wrath_of_akhilleus
+	picture = GFX_achilles_duels_hector
 	desc = EVTDESCTW20
 	portrait = 1100147
 	is_triggered_only = yes 
@@ -1259,7 +1259,7 @@ character_event = {
 #Paris is saved by Aphrodite
 character_event = {
 	id = tw.21
-	picture = GFX_wrath_of_akhilleus
+	picture = GFX_achilles_duels_hector
 	title = EVTTITLETW21
 	desc = EVTDESCTW21
 	portrait = 1100155
@@ -1299,7 +1299,7 @@ character_event = {
 #Pandarus breaks the truce
 character_event = {
 	id = tw.22
-	picture = GFX_wrath_of_akhilleus
+	picture = GFX_achilles_duels_hector
 	title = EVTTITLETW22
 	desc = EVTDESCTW22
 	portrait = 2201300
@@ -1321,7 +1321,7 @@ character_event = {
 #Generic Trojan breaks the truce
 character_event = {
 	id = tw.23
-	picture = GFX_wrath_of_akhilleus
+	picture = GFX_achilles_duels_hector
 	title = EVTTITLETW23
 	desc = EVTDESCTW23
 	hide_from = yes
@@ -1580,7 +1580,7 @@ character_event = {
 			}
 		}
 		c_2102101 = { #Akhilleus
-			character_event = { id = tw.32 } #Achilles hears of Patroclus' death
+			long_character_event = { id = tw.32 } #Achilles hears of Patroclus' death
 		}
 	}
 }
@@ -1605,7 +1605,7 @@ character_event = {
 			unsafe_destroy_artifact = armor_achilles
 		}
 		c_2102101 = { #Akhilleus
-			character_event = { id = tw.32 } #Achilles hears of Patroclus' death
+			long_character_event = { id = tw.32 } #Achilles hears of Patroclus' death
 		}
 	}
 }
@@ -1665,13 +1665,13 @@ character_event = {
 			}
 		}
 		c_2102101 = { #Akhilleus
-			character_event = { id = tw.32 } #Achilles hears of Patroclus' death
+			long_character_event = { id = tw.32 } #Achilles hears of Patroclus' death
 		}
 	}
 }
 
 #Achilles hears of Patroclus' death
-character_event = {
+long_character_event = {
 	id = tw.32
 	picture = GFX_shield_of_achilles
 	title = EVTTITLETW32
@@ -1976,7 +1976,7 @@ long_character_event = {
 #Ghost of Patroclus asks for funeral games to be held
 character_event = {
 	id = tw.39
-	picture = GFX_death_of_achilles
+	picture = GFX_patroclus_dies
 	desc = EVTDESCTW39
 	is_triggered_only = yes
 	portrait = 2101619
@@ -2002,7 +2002,7 @@ character_event = {
 #Achaeans in Troy hold funeral games at the camp
 character_event = {
 	id = tw.40
-	picture = GFX_death_of_achilles
+	picture = GFX_patroclus_dies
 	title = EVTTITLETW40
 	desc = {
 		trigger = {
@@ -2508,7 +2508,7 @@ character_event = {
 #Helenus is tortured to reveal win condition 
 character_event = {
 	id = tw.51
-	picture = GFX_menelaus_and_helen
+	picture = GFX_evt_warrior_greek_gathering
 	desc = EVTDESCTW51
 	portrait = 2200018
 	is_triggered_only = yes
@@ -2540,7 +2540,7 @@ character_event = {
 #Win condition revealed
 character_event = {
 	id = tw.93
-	picture = GFX_patroclus_dies
+	picture = GFX_evt_warrior_greek_gathering
 	desc = EVTDESCTW93
 	is_triggered_only = yes
 	
@@ -2552,7 +2552,7 @@ character_event = {
 #Generic Trojan is tortured to reveal win condition 
 character_event = {
 	id = tw.52
-	picture = GFX_patroclus_dies
+	picture = GFX_evt_warrior_greek_gathering
 	desc = EVTDESCTW52
 	is_triggered_only = yes
 	
@@ -2580,7 +2580,7 @@ character_event = {
 #Relevent people are sent to fetch the required items
 character_event = {
 	id = tw.53
-	picture = GFX_philoktetes
+	picture = GFX_evt_warrior_greek_gathering
 	desc = EVTDESCTW53
 	is_triggered_only = yes
 	
@@ -3860,6 +3860,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW72
+		set_global_flag = sack_of_troy
 		b_wilusa = {
 			remove_building = ca_wall_1
 			remove_building = ca_wall_2
@@ -4267,7 +4268,7 @@ character_event = {
 #Pyrrhus is contacted by Achilles' ghost to kill Polyxena
 long_character_event = {
 	id = tw.82
-	picture = GFX_patroclus_dies
+	picture = GFX_death_of_achilles
 	desc = EVTDESCTW82
 	is_triggered_only = yes
 	trigger = {
@@ -4294,7 +4295,7 @@ long_character_event = {
 #Polyxena is captured
 character_event = {
 	id = tw.83
-	picture = GFX_patroclus_dies
+	picture = GFX_death_of_achilles
 	desc = EVTDESCTW83
 	is_triggered_only = yes
 
@@ -4367,7 +4368,7 @@ character_event = {
 #Death of Helen
 narrative_event = {
 	id = tw.97
-	picture = GFX_death_of_paris
+	picture = GFX_menelaus_and_helen
 	title = EVTTITLETW97
 	desc = EVTDESCTW97
 	is_triggered_only = yes 
@@ -4409,7 +4410,7 @@ narrative_event = {
 #End of the Trojan War, Death of Helen
 narrative_event = {
 	id = tw.98
-	picture = GFX_death_of_paris
+	picture = GFX_menelaus_and_helen
 	title = EVTTITLETW98
 	hide_from = yes
 	desc = EVTDESCTW98
@@ -4445,32 +4446,37 @@ narrative_event = {
 	after = {
 		if = {
 			limit = {
-				c_2102101 = { #Achilles
-					at_location = 161 #Troy
-				}
+				character = c_2101000 #Menelaos
 			}
-			c_2102101 = { #Akhilleus
-				character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
-			}
-		}
-		else_if = {
-			limit = {
-			c_2102101 = { #Achilles
-					NOT = {
+			if = {
+				limit = {
+					c_2102101 = { #Achilles
 						at_location = 161 #Troy
 					}
 				}
+				c_2102101 = { #Akhilleus
+					character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
+				}
 			}
-			c_2102101 = { #Akhilleus
-				character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
+			else_if = {
+				limit = {
+				c_2102101 = { #Achilles
+						NOT = {
+							at_location = 161 #Troy
+						}
+					}
+				}
+				c_2102101 = { #Akhilleus
+					character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
+				}
 			}
-		}
-		random_character = {
-			limit = {
-				has_artifact = arrow_heracles
-				has_character_flag = borrowed_arrows
+			random_character = {
+				limit = {
+					has_artifact = arrow_heracles
+					has_character_flag = borrowed_arrows
+				}
+				character_event = { id = tw.105 } #Arrows of Heracles are sent back
 			}
-			character_event = { id = tw.105 } #Arrows of Heracles are sent back
 		}
 	}
 }
@@ -4650,7 +4656,7 @@ character_event = {
 #Killed by Achilles in the Siege
 character_event = {
 	id = tw.108
-	picture = GFX_death_of_achilles
+	picture = GFX_death_of_paris
 	desc = EVTDESCTW108
 	is_triggered_only = yes
 
@@ -4708,7 +4714,7 @@ character_event = {
 #Achaeans slay Trojan Princes
 character_event = {
 	id = tw.118
-	picture = GFX_patroclus_dies
+	picture = GFX_death_of_paris
 	desc = {
 		trigger = {
 			has_landed_title = d_wilusa
@@ -5089,5 +5095,96 @@ character_event = {
 			move_character = event_target:lamia_holder
 		}
 		unsafe_destroy_landed_title = d_murmidones
+	}
+}
+
+
+#End of the Trojan War, Troy Stands set-up
+narrative_event = {
+	id = tw.126
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		any_playable_ruler = {
+			narrative_event = { id = tw.99 }
+		}
+	}
+	after = {
+		if = {
+			limit = {
+				c_2102101 = { #Achilles
+					at_location = 161 #Troy
+				}
+			}
+			c_2102101 = { #Akhilleus
+				character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
+			}
+		}
+		else_if = {
+			limit = {
+			c_2102101 = { #Achilles
+					NOT = {
+						at_location = 161 #Troy
+					}
+					is_alive = yes
+				}
+			}
+			c_2102101 = { #Akhilleus
+				character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
+			}
+		}
+		random_character = {
+			limit = {
+				has_artifact = arrow_heracles
+				has_character_flag = borrowed_arrows
+			}
+			character_event = { id = tw.105 } #Arrows of Heracles are sent back
+		}
+	}
+}
+
+#End of the Trojan War, Troy Wins set-up
+narrative_event = {
+	id = tw.127
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		any_playable_ruler = {
+			narrative_event = { id = tw.100 }
+		}
+	}
+	after = {
+		if = {
+			limit = {
+				c_2102101 = { #Achilles
+					at_location = 161 #Troy
+				}
+			}
+			c_2102101 = { #Akhilleus
+				character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
+			}
+		}
+		else_if = {
+			limit = {
+			c_2102101 = { #Achilles
+					NOT = {
+						at_location = 161 #Troy
+					}
+					is_alive = yes
+				}
+			}
+			c_2102101 = { #Akhilleus
+				character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
+			}
+		}
+		random_character = {
+			limit = {
+				has_artifact = arrow_heracles
+				has_character_flag = borrowed_arrows
+			}
+			character_event = { id = tw.105 } #Arrows of Heracles are sent back
+		}
 	}
 }
