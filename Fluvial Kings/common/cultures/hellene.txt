@@ -247,7 +247,7 @@ hellene = {
 	}
 	
 	phrygian = {
-		graphical_cultures = { achaeangfx }
+		graphical_cultures = { thraciangfx }
 
 		color = { 1 0.9 0.1 }
 
