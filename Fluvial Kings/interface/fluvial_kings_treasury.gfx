@@ -39,4 +39,12 @@ spriteTypes = {
 		name = "GFX_lionskin_small"
 		texturefile = "gfx\\interface\\inventory\\artifacts\\lionskin_small.tga"
 	}
+	spriteType = {
+		name = "GFX_scepter_agamemnon"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\scepter_agamemnon.tga"
+	}
+	spriteType = {
+		name = "GFX_scepter_agamemnon_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\scepter_agamemnon_small.tga"
+	}
 }

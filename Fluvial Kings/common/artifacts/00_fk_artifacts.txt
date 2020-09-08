@@ -255,3 +255,14 @@ lionskin = {
 	stacking = no
 	slot = helmet
 }
+
+scepter_agamemnon = {
+	quality = 4
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.5
+	diplomacy = 2
+	vassal_opinion = 5
+	picture = "GFX_scepter_agamemnon"
+	stacking = no
+	slot = scepter
+}
