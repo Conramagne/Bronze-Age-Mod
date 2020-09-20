@@ -1,9 +1,9 @@
 title=c_olumpos
 
 max_settlements= 2
-b_vergina=castle
+b_vergina=tribal
 b_olumpos=temple
 
-culture=achaean
+culture=macedonian
 religion=pantes_theoi
 terrain = mountain 

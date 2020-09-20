@@ -1,0 +1,31 @@
+tyrrhenian = {
+	graphical_cultures = { westerngfx }
+	
+	lemnian = {
+		graphical_cultures = { achaeangfx }
+
+		color = { 1 0.7 0.1 }
+
+		male_names = {
+			Apatrui_Apatrui Aranth_Aranth Aranthur_Aranthur Aril_Aril Arnza_Arnza Arruns_Arruns Arte_Arte Aule_Aule Avile_Avile Cae_Cae Cai_Cai Caile_Caile Cneve_Cneve Cuinte_Cuinte Cursni_Cursni Cutu_Cutu Eivas_Eivas Epiur_Epiur Etule_Etule Faun_Faun Holaie_Holaie Kaisie_Kaisie Karcuna_Karcuna Kavie_Kavie Larce_Larce Laris_Laris Larth_Larth Lecne_Lecne Lemni_Lemni Lnche_Lnche Macstarna_Macstarna Mamarce_Mamarce Marce_Marce Memrum_Memrum Menle_Menle Metie_Metie Nerie_Nerie Numesie_Numesie Pava-Tarchies_Pava-Tarchies Pavle_Pavle Pele_Pele Pesna_Pesna Pherse_Pherse Plecu_Plecu Pultuce_Pultuce Puplie_Puplie Rasce_Rasce Sethre_Sethre Spurie_Spurie Spurinna_Spurinna Tages_Tages Taitle_Taitle Talmithe_Talmithe Tarchies_Tarchies Tarchon_Tarchon Tarquin_Tarquin Techrs_Techrs Teitu_Teitu Thefarie_Thefarie Thesanthei_Thesanthei These_These Thresu_Thresu Thucer_Thucer Tite_Tite Tlamu_Tlamu Tyrrhen_Tyrrhen Uchsie_Uchsie Uchulni_Uchulni Urphe_Urphe Vel_Vel Velparun_Velparun Velthur_Velthur Venel_Venel Venox_Venox Venthi_Venthi Vikare_Vikare Vilae_Vilae Vipie_Vipie Vulca_Vulca
+		}
+		
+		female_names = {
+			Arathia_Arathia Araziia_Araziia Arnthi_Arnthi Arnthia_Arnthia Arunthia_Arunthia Ati_Ati Cainei_Cainei Ceine_Ceine Cilnia_Cilnia Culni_Culni Fastia_Fastia Hastia_Hastia Hathli_Hathli Haynes_Haynes Hercna_Hercna Kurvena_Kurvena Laraniia_Laraniia Larthia_Larthia Metli_Metli Nesithva_Nesithva Peci_Peci Pevtha_Pevtha Pure_Pure Ramtha-Cainei_Ramtha-Cainei Ramtha_Ramtha Ramutha_Ramutha Raunthu_Raunthu Ravntha_Ravntha Sarsinaia_Sarsinaia Seianthia_Seianthia Semni_Semni Sesanseia_Sesanseia Sethra_Sethra Spitu_Spitu Tarchumenaia_Tarchumenaia Tarquinia_Tarquinia Tetia_Tetia Thana_Thana Thanchvil_Thanchvil Thanusa_Thanusa Thupeltha_Thupeltha Tita_Tita Vela_Vela Vesia_Vesia Zertnia_Zertnia
+		}
+		dukes_called_kings = yes
+
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+		allow_looting = yes
+	}
+}

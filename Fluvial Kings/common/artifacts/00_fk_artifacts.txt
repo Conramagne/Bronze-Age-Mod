@@ -7,7 +7,7 @@ armor_achilles = {
 	active = {
 		is_adult = yes
 	}
-	flags = { armor_set armor legendary achilles_armor achilles }
+	flags = { armor_set armor legendary achilles_armor achilles old_achilles_armor }
 	picture = "GFX_warden_armor"
 	slot = torso
 	stacking = no
@@ -212,6 +212,21 @@ palladium_troy = {
 	indestructible = yes
 }
 
+scepter_agamemnon = {
+	quality = 4
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.5
+	diplomacy = 2
+	vassal_opinion = 5
+	allowed_gift = {
+		always = no
+	}
+	flags = { legendary scepter }
+	stacking = no
+	picture = "GFX_scepter_agamemnon"
+	slot = scepter
+}
+
 boar_tusk_helm = {
 	quality = 3
 	combat_rating = 5
@@ -254,15 +269,4 @@ lionskin = {
 	picture = "GFX_lionskin"
 	stacking = no
 	slot = helmet
-}
-
-scepter_agamemnon = {
-	quality = 4
-	monthly_character_prestige = 0.5
-	monthly_character_piety = 0.5
-	diplomacy = 2
-	vassal_opinion = 5
-	picture = "GFX_scepter_agamemnon"
-	stacking = no
-	slot = scepter
 }

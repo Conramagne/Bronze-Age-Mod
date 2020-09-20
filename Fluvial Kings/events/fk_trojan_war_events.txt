@@ -1300,7 +1300,6 @@ character_event = {
 character_event = {
 	id = tw.22
 	picture = GFX_achilles_duels_hector
-	title = EVTTITLETW22
 	desc = EVTDESCTW22
 	portrait = 2201300
 	is_triggered_only = yes 
@@ -1322,7 +1321,6 @@ character_event = {
 character_event = {
 	id = tw.23
 	picture = GFX_achilles_duels_hector
-	title = EVTTITLETW23
 	desc = EVTDESCTW23
 	hide_from = yes
 	is_triggered_only = yes 
@@ -2222,6 +2220,9 @@ character_event = {
 				any_artifact = {
 					limit = {
 						has_artifact_flag = achilles
+						NOT = {
+							has_artifact_flag = old_achilles_armor
+						}
 					}
 					transfer_artifact = {
 						to = c_1100146 #Zeus
@@ -3798,10 +3799,7 @@ character_event = {
 		trigger = {
 			ai = no
 		}
-		name = EVTOPTBTW70
-		custom_tooltip = {
-			text = EVTOPTBTW70_TT
-		}
+		name = EVTOPTATW70
 	}
 }
 
@@ -3819,6 +3817,12 @@ long_character_event = {
 			death = {
 				death_reason = death_murder
 				killer = c_1100145
+			}
+			any_child = {
+				death = {
+					death_reason = death_murder
+					killer = c_1100145
+				}
 			}
 		}
 		hidden_tooltip = {
@@ -3916,6 +3920,7 @@ character_event = {
 			limit = {
 				c_2102102 = { #Pyrrhus
 					is_alive = yes
+					at_location = 161 #Troy
 				}
 				c_2200000 = { #Pariya-muwas
 					is_alive = yes
@@ -3952,15 +3957,18 @@ character_event = {
 				c_2102101 = { #Achilles
 					is_alive = no
 				}
-				any_character = {
-					limit = {
-						father_even_if_dead = {
-							character = c_2200000
-						}
-						is_female = no
+			}
+			any_character = {
+				limit = {
+					father_even_if_dead = {
+						character = c_2200000
 					}
-					character_event = { id = tw.118 } #Achaeans slay the Trojan princes
+					is_female = no
+					NOT = {
+						has_landed_title = d_wilusa
+					}
 				}
+				character_event = { id = tw.118 } #Achaeans slay the Trojan princes
 			}
 		}
 		c_2102000 = { #Ajax the Lesser
@@ -4714,6 +4722,7 @@ character_event = {
 #Achaeans slay Trojan Princes
 character_event = {
 	id = tw.118
+	hide_from = yes
 	picture = GFX_death_of_paris
 	desc = {
 		trigger = {
@@ -4734,6 +4743,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTATW118
+		
 		death = {
 			death_reason = death_battle
 		}

@@ -2,6 +2,12 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
+2465.1.1={
+	holder = 2104402
+}
+2525.1.1={
+	holder = 2104401
+}
 2527.1.1={
-	liege=k_aiolia
+	holder = 2104400
 }

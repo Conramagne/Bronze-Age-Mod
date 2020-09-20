@@ -849,6 +849,7 @@ character_event = {
 		}
 	}
 }
+
 # ************************** Imperial Authority Events***********************
 
 #Setup (on_startup)
@@ -2687,15 +2688,29 @@ character_event = {
 			name = palace_bureaucracy
 			duration = -1
 		}
-		liege = {
+		if = {
+			limit = {
+				liege = {
+					is_feudal = yes
+				}
+			}
+			liege = {
+				primary_title = {
+					set_variable = { which = global_transfer_bureaucracy_number which = palace_bureaucracy_number }
+				}
+			}
 			primary_title = {
-				set_variable = { which = global_transfer_bureaucracy_number which = palace_bureaucracy_number }
+				set_variable = { which = palace_bureaucracy_number which = global_transfer_bureaucracy_number }
+				set_title_flag = primary_set
+				set_title_flag = palace_bureaucracy_set
 			}
 		}
-		primary_title = {
-			set_variable = { which = palace_bureaucracy_number which = global_transfer_bureaucracy_number }
-			set_title_flag = primary_set
-			set_title_flag = palace_bureaucracy_set
+		else = {
+			primary_title = {
+				set_variable = { which = palace_bureaucracy_number value = 50 }
+				set_title_flag = primary_set
+				set_title_flag = palace_bureaucracy_set
+			}
 		}
 	}
 }
@@ -2786,8 +2801,10 @@ character_event = {
 		NOT = {
 			has_character_flag = quality_ruler
 		}
-		NOT = {
+		NOR = {
 			trait = arbitrary
+			stewardship < 6
+			learning < 6
 		}
 	}
 	
@@ -2813,6 +2830,7 @@ character_event = {
 				independent = no
 				liege = {
 					is_feudal = yes
+					ai = no
 					has_character_modifier = palace_bureaucracy
 				}
 			}
@@ -3032,6 +3050,7 @@ character_event = {
 	picture = GFX_evt_dark_court
 	only_playable = yes
 	min_age = 16
+	# ai = no
 	
 	trigger = {
 		is_feudal = yes
@@ -3068,6 +3087,7 @@ character_event = {
 				independent = no
 				liege = {
 					is_feudal = yes
+					ai = no
 					has_character_modifier = palace_bureaucracy
 				}
 			}
@@ -4175,6 +4195,10 @@ character_event = {
 	notification = yes
 	is_triggered_only = yes
 	
+	trigger = {
+		government = stratocratic_government
+	}
+	
 	immediate = {
 		primary_title = {
 			change_variable = { which = militarization_number value = 2 }
@@ -4684,7 +4708,6 @@ character_event = {
 		}
 	}
 }
-
 
 #Maintenance
 character_event = {

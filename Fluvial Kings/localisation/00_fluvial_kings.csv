@@ -18,6 +18,7 @@ amazonian;Amazonios;;;;;;;;;;;;;x
 arcadian;Arkás;;;;;;;;;;;;;x
 dorian;Dorieús;;;;;;;;;;;;;x
 ionian;Ionikós;;;;;;;;;;;;;x
+macedonian;Makedonikós;;;;;;;;;;;;;x
 theogonos;Theogonos;;;;;;;;;;;;;x
 cretan;Kresijos;;;;;;;;;;;;;x
 phrygian;Phrugios;;;;;;;;;;;;;x
@@ -910,6 +911,10 @@ bone_pelops_desc;This beautifully crafted piece of ivory was fashioned by Demete
 palladium_troy;Palladion of Truwisa;;;;;;;;;;;;;x
 palladium_troy_desc;This wooden statue of Pallas Athena protects Troy from destruction as long as it is within its walls.;;;;;;;;;;;;;x
 
+scepter_agamemnon;Pelop's Scepter;;;;;;;;;;;;;x
+scepter_agamemnon_desc;The divine scepter of the House of dark-faced Pelops. Haphaistos gave it to Father Zeus, Zeus gave it to Hermes, and Hermes gave it to Pelops, the mighty charioteer.
+;;;;;;;;;;;;;x
+
 boar_tusk_helm;Boar Tusk Helmet;;;;;;;;;;;;;x
 boar_tusk_helm_desc;A helmet made from slivers of boar tusks attached to a padded leather base. Dozens of boars were slain to make this savage piece of armor.;;;;;;;;;;;;;x
 
@@ -918,10 +923,6 @@ khopes_desc;This is Bronze Khopes Description;;;;;;;;;;;;;x
 
 lionskin;Lionskin;;;;;;;;;;;;;x
 lionskin_desc;This lion-pelt was taken as a trophy from some unlucky lion. Wearing it almost fills one with courage, as if the spirit of the beast itself enters the wearer...
-;;;;;;;;;;;;;x
-
-scepter_agamemnon;Pelop's Scepter;;;;;;;;;;;;;x
-scepter_agamemnon_desc;The divine scepter of the House of dark-faced Pelops. Haphaistos gave it to Father Zeus, Zeus gave it to Hermes who gave it to Pelops the mighty charioteer.
 ;;;;;;;;;;;;;x
 
 ###########Regions###########

@@ -4,5 +4,5 @@ max_settlements= 2
 b_pallene=tribal
 # b_ichnae=castle
 
-culture=achaean
+culture=macedonian
 religion=pantes_theoi

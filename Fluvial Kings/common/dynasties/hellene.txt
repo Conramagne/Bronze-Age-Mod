@@ -726,6 +726,11 @@
 	culture = "phrygian"
 	used_for_random = no 
 }
+2100047 = {
+	name = "Makedonid"
+	culture = "macedonian"
+	used_for_random = no 
+}
 
 #Generic Greek Dynasties starts here
 
@@ -1018,3 +1023,5 @@
 #Amazonian Names (2007000-2007999)
 
 #Phrygian Names (2007000-2007999)
+
+#Macedonian Names (2008000-2008999)

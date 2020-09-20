@@ -964,6 +964,9 @@
 			add_trait = trait_god
 			add_spouse = 1100151
 		}
+		create_bloodline = {
+			type = heracles_bloodline
+		}
 	}
 	9999.1.1 = { death = yes }
 }
@@ -1079,8 +1082,8 @@
 	9999.1.1 = { death = yes }
 }
 
-1100166 = { #Deucalion
-	name = "Deucalion"
+1100166 = { #Deukalion
+	name = "Deukalion"
 	dynasty = 1000001 #Theogonos
 	culture = theogonos
 	religion = pantes_theoi
@@ -1608,6 +1611,28 @@
 	}
 	9999.1.1 = { death = yes }
 }
+
+1100194 = { #Thuia
+	name = "Thuia"
+	dynasty = 1000001 #Theogonos
+	culture = theogonos
+	religion = pantes_theoi
+	female = yes
+	father = 1100166
+	mother = 1100169
+	disallow_random_traits = yes
+	trait = trait_god
+	immortal_age = 50
+	1.1.22 = { birth = yes }
+	1.1.22 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+		employer = 1100146
+	}
+	9999.1.1 = { death = yes }
+}
+
 
 #Pleiades/Atlantids (1100261-1100270)
 1100261 = { #Maia

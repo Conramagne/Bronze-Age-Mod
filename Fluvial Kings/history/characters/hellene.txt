@@ -5449,3 +5449,40 @@
 	2498.1.1 = { birth = yes }
 	2562.1.1 = { death = yes }
 }
+
+#Royal Family of Macedonia (2104400-2104499)
+2104400 = { #Pieros, King of Macedonia
+	name = "Pieros"
+	dynasty = 2100047 #Makedonid
+	culture = macedonian	
+	religion = pantes_theoi
+	father = 2104402
+	mother = 1100194
+	2500.1.1 = { birth = yes }
+	2550.1.1 = { death = yes }
+}
+
+2104401 = { #Emathos, King of Macedonia
+	name = "Emathos"
+	dynasty = 2100047 #Makedonid
+	culture = macedonian	
+	religion = pantes_theoi
+	father = 2104402
+	mother = 1100194
+	disallow_random_traits = yes
+	2495.1.1 = { birth = yes }
+	2527.1.1 = { death = yes }
+}
+
+2104402 = { #Makedon, King of Macedonia
+	name = "Makedon"
+	dynasty = 2100047 #Makedonid
+	culture = macedonian	
+	religion = pantes_theoi
+	disallow_random_traits = yes
+	2465.1.1 = { birth = yes }
+	2495.1.1 = {
+		add_spouse = 1100194
+	}
+	2525.1.1 = { death = yes }
+}

@@ -707,6 +707,7 @@ EVTDESCBTW59;The golden arrows of Herakles have arrived at the camp of the Achae
 EVTOPTATW59;Perhaps Herakles watches us now...;;;;;;;;;;;;;x
 
 EVTDESCTW60;We set off for the mainland to the realm of the holder of the poisoned arrows of Herakles we find its holder outside of a palace, relaxing.;;;;;;;;;;;;;x
+EVTOPTATW60;We must get the arrows to Troy!;;;;;;;;;;;;;x
 
 EVTDESCATW61;While I sit outside my palace in relaxation, I see Diomedes' and Odusseús' ship arrive on the island. They inform me that the arrows of Herakles are desperately needed in Troy, and that they will be returned once Troy falls.;;;;;;;;;;;;;x
 EVTDESCBTW61;While I sit outside my palace in relaxation, I see Diomedes' ship arrive on the island. He informs me that the arrows of Herakles are desperately needed in Troy, and that they will be returned once Troy falls.;;;;;;;;;;;;;x
@@ -743,6 +744,7 @@ EVTOPTATW94;Will it work?;;;;;;;;;;;;;x
 EVTDESCTW95;It is complete, the great wooden horse towers over plains higher then the walls of Ilios itself. The host of the Achaeans will feign a retreat and wait for the Trojans to fall for the treachery.;;;;;;;;;;;;;x
 EVTOPTATW95;We are committed.;;;;;;;;;;;;;x
 
+EVTOPTATW60;The Trojan Horse;;;;;;;;;;;;;x
 EVTDESCTW68;It is complete, the great wooden horse towers over plains higher then the walls of Ilios itself. The host of the Achaeans will feign a retreat and wait for the Trojans to fall for the treachery.;;;;;;;;;;;;;x
 EVTOPTATW68;It will soon be over.;;;;;;;;;;;;;x
 
@@ -755,7 +757,7 @@ EVTDESCTW70;A wooden horse... who knows what awaits within its cavernous holds? 
 EVTOPTATW70;I trust not Danaans, even when they leave gifts.;;;;;;;;;;;;;x
 
 EVTTITLETW71;Danaans Bearing Gifts;;;;;;;;;;;;;x
-EVTDESCTW71;Laokoöno f Dardania announces his suspicion of the wooden horse. “Do you think the enemy's sailed away? Do you think the Danaans are free of treachery? Trojans, don't trust this horse. Whatever it is, I am afraid of Danaans even those bearing gifts.” He hurls a spear into the horse’s wooden flank to prove his point, it rings out like a hollow chest. As if in answer to this, two massive serpents rise from the sea and coil themselves around proud Laokoon. He collapses, bellowing up to heaven like a dying bull as the serpents sink their teeth again and again into his venom soaked flesh.;;;;;;;;;;;;;x
+EVTDESCTW71;Laokoön of Dardania announces his suspicion of the wooden horse. “Do you think the enemy's sailed away? Do you think the Danaans are free of treachery? Trojans, don't trust this horse. Whatever it is, I am afraid of Danaans even those bearing gifts.” He hurls a spear into the horse’s wooden flank to prove his point, it rings out like a hollow chest. As if in answer to this, two massive serpents rise from the sea and coil themselves around proud Laokoon. He collapses, bellowing up to heaven like a dying bull as the serpents sink their teeth again and again into his venom soaked flesh.;;;;;;;;;;;;;x
 EVTOPTATW71;The gods have made their point, we must keep the wooden horse.;;;;;;;;;;;;;x
 
 EVTTITLETW72;In the Belly of the Beast;;;;;;;;;;;;;x
@@ -772,6 +774,7 @@ EVTOPTACTW74;The barbarity!;;;;;;;;;;;;;x
 
 EVTTITLETW75;Seeing Her;;;;;;;;;;;;;x
 EVTDESCATW75;I press on into the palace dealing merciless death to foes, for maddened is my soul with jealousy. At last in the inner chamber I find my cowering wife, and my bold heart is blackened with rage as I pull her from the midst of the cushions and toss her down at my feet. \nBut, but... As if Aphrodite herself had stayed my sword I was gripped by the beauty which shone as pure as it had the last day I had seen her some ten years before. Helen, Helen, daughter of Zeus, my wedded wife...;;;;;;;;;;;;;x
+EVTDESCBTW75;Away from the chaos in Troy, I await my wife's return with much anxiety. As one of my men presents her to me, I am struck with many things, happiness, rage, and awe. She is still as radiant as she was ten years ago. Helen, Helen, daughter of Zeus, my wedded wife...;;;;;;;;;;;;;x
 EVTOPTATW75;Helen, I will forgo wrath.;;;;;;;;;;;;;x
 EVTOPTBTW75;You have ruined me forever, Helen! Too many lie dead for your sake!;;;;;;;;;;;;;x
 
@@ -831,7 +834,7 @@ EVTOPTATW108;May you succumb to your wounds.;;;;;;;;;;;;;x
 EVTDESCTW109;Away from the ravaging of Troy, I believe myself safe, until a radiant warrior challenges me to a duel. After fighting with the warrior for some time, I realize it is not a man, but Apollon, who strikes me down.;;;;;;;;;;;;;x
 EVTOPTATW109;Only a god is able to kill me;;;;;;;;;;;;;x
 
-EVTTITLETW118;As the Danaans destroy my city, they also slaughter its inhabitants. Although I thought myself safe, a group of Danaans found and slew me.;;;;;;;;;;;;;x
+EVTDESCATW118;As the Danaans destroy my city, they also slaughter its inhabitants. Although I thought myself safe, a group of Danaans found and slew me.;;;;;;;;;;;;;x
 EVTDESCBTW118;As the Danaans destroy the city, they also slaughter its inhabitants. Although I thought myself safe, a group of Danaans found and slew me.;;;;;;;;;;;;;x
 EVTOPTATW118;And thus, I die.;;;;;;;;;;;;;x
 
@@ -853,3 +856,4 @@ EVTOPTATW104;Pity.;;;;;;;;;;;;;x
 EVTDESCTW105;The items needed for Troy to fall have been returned to their original owners.;;;;;;;;;;;;;x
 
 EVTOPTATW105;Alright.;;;;;;;;;;;;;x
+

@@ -791,8 +791,9 @@ targetted_decisions = {
 		potential = {
 			age < 10
 			devotion_trait_trigger = no
-			NOT = {
+			NOR = {
 				religion_group = hellenic
+				religion_group = european_group
 			}
 		}
 		allow = {

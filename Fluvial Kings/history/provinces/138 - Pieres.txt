@@ -3,5 +3,5 @@ title=c_pieres
 max_settlements= 1
 b_pella=tribal
 
-culture=achaean
+culture=macedonian
 religion=pantes_theoi

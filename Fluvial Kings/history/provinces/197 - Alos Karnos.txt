@@ -4,5 +4,5 @@ max_settlements = 2
 b_pitassa = tribal
 b_alos_karnos = tribal
 
-culture = carian
-religion = haianiluwi
+culture = achaean
+religion = pantes_theoi

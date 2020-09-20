@@ -4,5 +4,5 @@
 }
 2517.1.1={
 	liege=d_apasa
-	holder = 2201600
+	holder = 2201500
 }

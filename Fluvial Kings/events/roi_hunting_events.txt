@@ -250,6 +250,10 @@ character_event = {
 		clr_character_flag = killed_tiger
 		clr_character_flag = hunting_tigers
 		clr_character_flag = do_not_disturb
+		random = {
+			chance = 50
+			add_artifact = lionskin
+		}
 		add_character_modifier = {
 			name = good_hunt
 			days = 180

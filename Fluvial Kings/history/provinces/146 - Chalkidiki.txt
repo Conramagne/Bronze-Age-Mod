@@ -4,5 +4,5 @@ max_settlements= 2
 b_charadrise=tribal
 # b_apollonia=city
 
-culture=achaean
+culture=macedonian
 religion=pantes_theoi

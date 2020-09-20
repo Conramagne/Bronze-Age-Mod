@@ -29,6 +29,7 @@ technology = {
 technology = {
 	titles = {
 		d_puruma
+		d_wilusa
 	}
 
 	2527 = {
@@ -47,6 +48,8 @@ technology = {
 #Medium Technology
 technology = {
 	titles = {
+		d_apasa
+		d_karkiya
 		d_katerra_udne
 		d_samura
 		d_tarhuntassa
@@ -116,10 +119,18 @@ technology = {
 #Very Low Technology
 technology = {
 	titles = {
+		d_arzawa
 		d_hulaya
+		d_lapza
+		d_lukka
 		d_kalasma
 		d_kastaraya
 		d_kasula
+		d_kuwaliya
+		d_kyzikos
+		d_masa
+		d_mysia
+		d_sfard
 	}
 
 	2527 = {
