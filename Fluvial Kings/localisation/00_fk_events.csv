@@ -64,6 +64,14 @@ EVTDESCFKR137;Vultures! You return to your realm defeated and humilated. Your su
 
 EVTDESCFKR138;Alas! An invading army has stampeded your capital and plundered the riches within. Your vassals now believe you to be less fit to rule, seeing as you are unable to defend the capital.;;;;;;;;;;;;;x
 
+EVTTITLEFKR149;Collapse of Central Authority;;;;;;;;;;;;;x
+EVTDESCFKR149;Alas! Your authority as [Root.GetTitle] has completely collapsed, and you have no sway over any of your vassals. Your title and any respect you once commanded as disappeared as your vassals become independent.;;;;;;;;;;;;;x
+EVTOPTAFKR149;Woe unto me!;;;;;;;;;;;;;x
+
+EVTTITLEFKR150;End of an Empire;;;;;;;;;;;;;x
+EVTDESCFKR150;The [emperor_title.GetFullName] has collapsed, and the previous ruler is now lord of a significantly smaller area.;;;;;;;;;;;;;x
+EVTOPTAFKR150;Thus ends an era.;;;;;;;;;;;;;x
+
 ###########Imperial Authority Slander Events###########
 EVTDESCFKR125;That damn [Root.Liege.GetTitle]! His rule over these lands is a farce, and I shall show my fellow lord the true nature of [Root.Liege.GetSheHe]!;;;;;;;;;;;;;x
 EVTOPTAFKR125;All of [Root.Liege.GetTitle] shall know of [Root.Liege.GetHerHis] crimes!;;;;;;;;;;;;;x
@@ -418,10 +426,10 @@ EVTOPTAFKA26;It was a good journey...;;;;;;;;;;;;;x
 ###########Maintenance Events###########
 EVTDESCFKM6;I have just inherited the land of [From.GetName] from [FromFrom.GetTitledFirstName]. Now I must decide on how I shall distribute it.;;;;;;;;;;;;;x
 EVTOPTAFKM6;A member of the capital nobility will be just fine.;;;;;;;;;;;;;x
-EVTOPTAFKM6_TT;You will be able to choose their successor if they stay a viceroy, however [capital_county.culture.GetName] provinces in the region will be upset.;;;;;;;;;;;;;x
+EVTOPTAFKM6_TT;You will be able to choose their successor if they stay a viceroy, however [capital_county.Culture.GetName] provinces in the region will be upset if they are not of their culture.;;;;;;;;;;;;;x
 EVTOPTBFKM6;I trust one of my blood to rule [From.GetName];;;;;;;;;;;;;x
-EVTOPTCFKM6;A [capital_county.culture.GetName] noble will be able to rule best.;;;;;;;;;;;;;x
-EVTOPTCFKM6_TT;The [capital_county.culture.GetName] of the region will be pleased, however the land will not be a viceroyalty.;;;;;;;;;;;;;x 
+EVTOPTCFKM6;A [capital_county.Culture.GetName] noble will be able to rule best.;;;;;;;;;;;;;x
+EVTOPTCFKM6_TT;The [capital_county.Culture.GetName] of the region will be pleased, however the land will not be a viceroyalty.;;;;;;;;;;;;;x 
 EVTOPTDFKM6;I shall make this decision later.;;;;;;;;;;;;;x
 
 ###########Trojan War Events###########

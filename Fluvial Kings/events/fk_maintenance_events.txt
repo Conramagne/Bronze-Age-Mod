@@ -92,7 +92,7 @@ character_event = {
 	}
 }
 
-#AI receives event to distribute inherited kingdom (on_new_holder)
+#AI receives event to distribute inherited kingdom (on_new_holder, on_new_holder_usurpation)
 character_event = {
 	id = fkm.6
 	desc = EVTDESCFKM6
@@ -120,10 +120,56 @@ character_event = {
 				}
 				tier = EMPEROR
 			}
+			AND = {
+				FROM = {
+					tier = COUNT
+					dejure_liege_title = {
+						tier = DUKE
+						OR = {
+							has_holder = no
+							NOT = {
+								holder = ROOT
+							}
+							NOT = {
+								ROOT = {
+									any_realm_lord = {
+										has_landed_title = PREVPREV
+									}
+								}
+							}
+						}
+					}
+				}
+				higher_real_tier_than = COUNT
+			}
+			AND = {
+				FROM = {
+					tier = DUKE
+					kingdom = {
+						OR = {
+							has_holder = no
+							NOT = {
+								holder = ROOT
+							}
+							NOT = {
+								ROOT = {
+									any_realm_lord = {
+										has_landed_title = PREVPREV
+									}
+								}
+							}
+						}
+					}
+				}
+				higher_real_tier_than = DUKE
+			}
 		}
 		OR = {
 			government = hegemonic_government
 			government = military_governorate_government
+		}
+		NOT = {
+			has_character_flag = dont_fire_fkm6
 		}
 	}
 	
@@ -203,8 +249,8 @@ character_event = {
 				random_traits = yes
 				age = 30
 				female = yes
-				culture = event_target:capital_county
-				religion = event_target:capital_county
+				culture = ROOT
+				religion = ROOT
 				dynasty = random
 			}
 		}
@@ -213,8 +259,8 @@ character_event = {
 				random_traits = yes
 				age = 30
 				female = no
-				culture = event_target:capital_county
-				religion = event_target:capital_county
+				culture = ROOT
+				religion = ROOT
 				dynasty = random
 			}
 		}
@@ -443,5 +489,51 @@ character_event = {
 		c_1100082 = {
 			move_character = c_1100146
 		}
+	}
+}
+
+#Maintenance to prevent shenaniganery with fkm.6
+character_event = {
+	id = fkm.9
+	hide_window = yes
+	is_triggered_only = yes
+		
+	trigger = {
+		higher_real_tier_than = BARON
+	}
+	
+	immediate = {
+		any_demesne_title = {
+			current_heir = {
+				character_event = { id = fkm.10 } #Sets the flag
+				character_event = { id = fkm.11 days = 2 } #Clears fkm.9 flag
+			}
+		}		
+	}
+}
+
+#Sets the flag
+character_event = {
+	id = fkm.10
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		is_landed = no
+	}
+	
+	immediate = {
+		set_character_flag = dont_fire_fkm6		
+	}
+}
+
+ #Clears fkm.9 flag
+character_event = {
+	id = fkm.11
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		clr_character_flag = dont_fire_fkm6		
 	}
 }

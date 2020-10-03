@@ -562,7 +562,6 @@ trojan_war_wealth = {
 	}
 }
 
-
 requested_personal_tribute = {
 	icon = 6
 }

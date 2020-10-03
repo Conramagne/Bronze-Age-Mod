@@ -101,6 +101,12 @@ hellenic_birthright_invasion = {
 	
 	on_success_title = {
 		ROOT = {
+			show_scope_change = no
+			hidden_tooltip = {
+				clr_character_flag = claimant_adventurer
+			}
+		}
+		ROOT = {
 			if = {
 				limit = {
 					government = hegemonic_government
@@ -167,6 +173,17 @@ hellenic_birthright_invasion = {
 					}
 					FROM = { imprison = ROOT }
 				}
+			}
+		}
+	}
+
+	on_fail_title = {
+		ROOT = {
+			show_scope_change = no
+			prestige = -100
+			hidden_tooltip = {
+				disband_event_forces = yes
+				clr_character_flag = claimant_adventurer
 			}
 		}
 	}

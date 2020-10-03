@@ -87,7 +87,7 @@ rejected_stratocracy = {
 	years = 25
 }
 
-opinion_very_model_of_a_modern_major_general = { #Do NOT name it it's code name in localisation. Please name it something else when you localize it.
+opinion_very_model_of_a_modern_major_general = { #Do NOT name it its code name in localisation. Please name it something else when you localize it.
 	opinion = 10
 	years = 5
 }
@@ -95,4 +95,9 @@ opinion_very_model_of_a_modern_major_general = { #Do NOT name it it's code name 
 opinion_poor_military_ruler = {
 	opinion = -20
 	years = 5
+}
+
+opinion_demoted_from_coking = {
+	opinion = -100
+	years = 50
 }

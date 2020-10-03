@@ -229,3 +229,48 @@ title_chief_of_the_storehouse = {
 
 	message = yes
 }
+
+title_co_king = {
+	is_high_prio = yes
+	realm_in_name = yes
+	dignity = 0.9
+	grant_limit = 1
+	opinion_effect = 20
+	revoke_allowed = no
+	is_voter = yes
+
+	monthly_salary = 0.05
+	monthly_prestige = 0.75
+
+	allowed_to_hold = {
+		is_adult = yes
+		prisoner = no
+		NOT = { trait = incapable }
+		is_close_relative = FROM
+	}
+	
+	allowed_to_grant = {
+		NOR = {
+			trait = weak_emperor
+			trait = figurehead_emperor
+		}
+		government = hegemonic_government
+	}
+	
+	revoke_trigger = {
+		FROM = {
+			NOR = {
+				trait = weak_emperor
+				trait = figurehead_emperor
+			}
+		}
+	}
+
+	gain_effect = {
+	}
+
+	lose_effect = {
+		opinion = { who = FROM modifier = opinion_demoted_from_coking }
+	}
+	message = yes
+}

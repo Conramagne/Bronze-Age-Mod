@@ -1,0 +1,4 @@
+2527.1.1 = {
+	holder = 2104303 #Hullas
+	liege = d_dolopia
+}

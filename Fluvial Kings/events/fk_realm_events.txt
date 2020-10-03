@@ -1308,10 +1308,10 @@ character_event = {
 character_event = {
 	id = fkr.109
 	hide_window = yes
-	
-	has_job_title = yes
-	
+		
 	trigger = {
+		is_voter = yes
+		
 		liege = {
 			government = hegemonic_government
 		}
@@ -1525,12 +1525,11 @@ character_event = {
 	id = fkr.115
 	hide_window = yes
 	
-	has_job_title = yes
-	
 	trigger = {
 		liege = {
 			government = hegemonic_government
 		}
+		is_voter = yes
 		NOT = {
 			has_character_flag = disloyal_councilor
 		}
@@ -2526,6 +2525,64 @@ character_event = {
 	}
 }
 
+#Collapse of Central Authority
+character_event = {
+	id = fkr.149
+	title = EVTTITLEFKR149
+	desc = EVTDESCFKR149
+	picture = GFX_evt_dark_court
+	only_playable = yes
+	
+	trigger = {
+		government = hegemonic_government
+		has_character_modifier = imperial_authority
+		primary_title = {
+			check_variable = { which = var_imperial_authority value < 1 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		primary_title = {
+			save_event_target_as = emperor_title
+		}
+		remove_trait = weak_emperor
+		remove_trait = figurehead_emperor
+		remove_trait = strong_emperor
+		remove_character_modifier = imperial_authority
+		remove_character_modifier = slandered_emperor
+	}
+	
+	option = {
+		name = EVTOPTAFKR149
+		any_playable_ruler = {
+			character_event = { id = fkr.150 }
+		}
+		any_demesne_title = {
+			limit = {
+				tier = EMPEROR
+			}
+			unsafe_destroy_landed_title = THIS
+		}
+	}
+}
+
+#Collapse of Central Authority Notification
+character_event = {
+	id = fkr.150
+	title = EVTTITLEFKR150
+	desc = EVTDESCFKR150
+	picture = GFX_evt_dark_court
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAFKR150
+	}
+}
+
 
 # ************************** Palace Bureaucracy Events***********************
 
@@ -3274,7 +3331,7 @@ character_event = {
 	
 	immediate = {
 		primary_title = {
-			change_variable = { which = palace_bureaucracy_number value = -10 }
+			change_variable = { which = palace_bureaucracy_number value = -5 }
 		}
 		current_heir = {
 			add_character_modifier = {
@@ -3287,7 +3344,7 @@ character_event = {
 	option = {
 		name = EVTOPTAFKR217
 		custom_tooltip = {
-			text = bureau_decrease_10_TT
+			text = bureau_decrease_5_TT
 		}
 	}
 }

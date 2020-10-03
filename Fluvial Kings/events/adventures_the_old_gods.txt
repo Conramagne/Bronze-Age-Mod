@@ -48,44 +48,56 @@ character_event = {
 		
 #		year = 867
 		
-		any_claim = {
-			has_holder = yes
-			holder_scope = {
-				independent = yes # Only do this vs independent rulers
-				NAND = {
-					government = nomadic_government
+		OR = {
+			any_claim = {
+				has_holder = yes
+				holder_scope = {
+					independent = yes # Only do this vs independent rulers
+					NAND = {
+						government = nomadic_government
+						OR = {
+							clan_title = {
+								title = PREVPREV
+							}
+							primary_title = {
+								title = PREVPREV
+							}
+						}
+					}
 					OR = {
-						clan_title = {
-							title = PREVPREV
+						# Don't target my liege unless I am ambitious
+						NOT = { is_vassal_or_below = ROOT }
+						ROOT = { trait = ambitious }
+					}
+					OR = {
+						is_merchant_republic = no
+						NOT = {
+							capital_holding = {
+								de_jure_liege_or_above = PREVPREV
+							}
 						}
-						primary_title = {
-							title = PREVPREV
+					}
+					ROOT = {
+						NOR = {
+							obedient = PREV
+							non_interference = PREV
 						}
 					}
 				}
 				OR = {
-					# Don't target my liege unless I am ambitious
-					NOT = { is_vassal_or_below = ROOT }
-					ROOT = { trait = ambitious }
-				}
-				OR = {
-					is_merchant_republic = no
-					NOT = {
-						capital_holding = {
-							de_jure_liege_or_above = PREVPREV
-						}
-					}
-				}
-				ROOT = {
-					NOR = {
-						obedient = PREV
-						non_interference = PREV
-					}
+					tier = KING
+					holder_scope = { tier = PREV }
 				}
 			}
-			OR = {
-				tier = KING
-				holder_scope = { tier = PREV }
+			AND = {
+				has_character_modifier = hellenic_birthright
+				NOR = {
+					any_dynasty_member = {
+						is_landed = yes
+					}
+					is_married = yes
+					is_consort = yes
+				}
 			}
 		}
 		
@@ -109,6 +121,11 @@ character_event = {
 		modifier = {
 			factor = 0.2
 			has_character_flag = flag_denied_title
+		}
+		modifier = {
+			factor = 0.01
+			has_character_modifier = hellenic_birthright
+			age = 25
 		}
 		modifier = {
 			factor = 0.5
@@ -164,74 +181,118 @@ character_event = {
 	}
 	
 	immediate = {
-		random_claim = {
+		if = {
 			limit = {
-				has_holder = yes
-				holder_scope = {
-					independent = yes # Only do this vs independent rulers
-					NAND = {
-						government = nomadic_government
-						OR = {
-							clan_title = {
-								title = PREVPREV
-							}
-							primary_title = {
-								title = PREVPREV
-							}
-						}
-					}
-					OR = {
-						# Don't target my liege unless I am ambitious
-						NOT = { is_vassal_or_below = ROOT }
-						ROOT = { trait = ambitious }
-					}
-					OR = {
-						is_merchant_republic = no
-						NOT = {
-							capital_holding = {
-								de_jure_liege_or_above = PREVPREV
-							}
-						}
-					}
-				}
-				OR = {
-					tier = KING
-					holder_scope = { tier = PREV }
+				NOT = {
+					has_character_modifier = hellenic_birthright
 				}
 			}
-			
-			holder_scope = {
-				reverse_opinion = {
-					who = ROOT
-					years = 3
-					modifier = opinion_claimant_adventure_target
-				}
-				character_event = {
-					id = TOG.1201 # Warn the target
-				}
-			}
-			ROOT = {
-				add_character_modifier = {
-					name = planning_claimant_adventure
-					hidden = yes
-					days = 730
-				}
-				character_event = {
-					id = TOG.1202 # Fire the attack
-					days = 730
-				}
-			}
-			
-			if = {
+			random_claim = {
 				limit = {
+					has_holder = yes
 					holder_scope = {
-						is_vassal_or_below = ROOT
+						independent = yes # Only do this vs independent rulers
+						NAND = {
+							government = nomadic_government
+							OR = {
+								clan_title = {
+									title = PREVPREV
+								}
+								primary_title = {
+									title = PREVPREV
+								}
+							}
+						}
+						OR = {
+							# Don't target my liege unless I am ambitious
+							NOT = { is_vassal_or_below = ROOT }
+							ROOT = { trait = ambitious }
+						}
+						OR = {
+							is_merchant_republic = no
+							NOT = {
+								capital_holding = {
+									de_jure_liege_or_above = PREVPREV
+								}
+							}
+						}
+					}
+					OR = {
+						tier = KING
+						holder_scope = { tier = PREV }
 					}
 				}
-				ROOT = { banish = yes } # Can't prepare for the attack from within the realm
+				
+				holder_scope = {
+					reverse_opinion = {
+						who = ROOT
+						years = 3
+						modifier = opinion_claimant_adventure_target
+					}
+					character_event = {
+						id = TOG.1201 # Warn the target
+					}
+				}
+				ROOT = {
+					add_character_modifier = {
+						name = planning_claimant_adventure
+						hidden = yes
+						days = 730
+					}
+					character_event = {
+						id = TOG.1202 # Fire the attack
+						days = 730
+					}
+				}
+				
+				if = {
+					limit = {
+						holder_scope = {
+							is_vassal_or_below = ROOT
+						}
+					}
+					ROOT = { banish = yes } # Can't prepare for the attack from within the realm
+				}
 			}
 		}
-
+		else = {
+			random_landed_title = {
+				limit = {
+					has_holder = yes
+					tier = KING
+				}
+				add_claim = ROOT
+				holder_scope = {
+					reverse_opinion = {
+						who = ROOT
+						years = 3
+						modifier = opinion_claimant_adventure_target
+					}
+					character_event = {
+						id = TOG.1201 # Warn the target
+					}
+				}
+				ROOT = {
+					add_character_modifier = {
+						name = planning_claimant_adventure
+						hidden = yes
+						days = 730
+					}
+					character_event = {
+						id = TOG.1202 # Fire the attack
+						days = 730
+					}
+				}
+				if = {
+					limit = {
+						holder_scope = {
+							is_vassal_or_below = ROOT
+						}
+					}
+					ROOT = { banish = yes } # Can't prepare for the attack from within the realm
+				}
+			}
+		}
 		end_inaccessibility_effect = yes #removes in hiding or in_seclusion
 		
 		set_character_flag = do_not_disturb
@@ -706,15 +767,35 @@ character_event = {
 			
 #			log = "TOG.1202: [Root.GetBestName] starts claim adventure for [This.GetName]"
 			
-			holder_scope = {
-				reverse_unsafe_war = {
-					target = ROOT
-					casus_belli = claim
-					thirdparty_title = PREV
+			if = {
+				limit = {
+					ROOT = {
+						has_character_modifier = hellenic_birthright
+					}
 				}
-				reverse_remove_opinion = {
-					who = ROOT
-					modifier = opinion_claimant_adventure_target
+				holder_scope = {
+					reverse_unsafe_war = {
+						target = ROOT
+						casus_belli = hellenic_birthright_invasion
+						thirdparty_title = PREV
+					}
+					reverse_remove_opinion = {
+						who = ROOT
+						modifier = opinion_claimant_adventure_target
+					}
+				}
+			}
+			else = {
+				holder_scope = {
+					reverse_unsafe_war = {
+						target = ROOT
+						casus_belli = claim
+						thirdparty_title = PREV
+					}
+					reverse_remove_opinion = {
+						who = ROOT
+						modifier = opinion_claimant_adventure_target
+					}
 				}
 			}
 		}
