@@ -554,6 +554,24 @@ high_militarization = {
 }
 
 #Others
+severe_drought = {
+	icon = 24
+	local_tax_modifier = -0.5
+	levy_size = -0.5
+	local_revolt_risk = 0.05
+}
+
+greek_migration = {
+	icon = 1
+}
+
+thessalian_migration = {
+	icon = 19
+	local_tax_modifier = -0.1
+	levy_size = -0.5
+}
+
+
 trojan_war_wealth = {
 	icon = 10
 	# global_levy_size = -999

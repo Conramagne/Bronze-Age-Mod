@@ -225,8 +225,6 @@ b_apasa;Apasa;;;;;;;;;;;;;x
 b_apasa_adj;Apasani;;;;;;;;;;;;;x
 b_klaros;Klaros;;;;;;;;;;;;;x
 b_klaros_adj;Klarosani;;;;;;;;;;;;;x
-b_klaros;Klaros;;;;;;;;;;;;;x
-b_klaros_adj;Klarosani;;;;;;;;;;;;;x
 b_kolophon;Kolophon;;;;;;;;;;;;;x
 b_kolophon_adj;Kolophonai;;;;;;;;;;;;;x
 b_notion;Notion;;;;;;;;;;;;;x
@@ -245,8 +243,8 @@ b_myous;Myous;;;;;;;;;;;;;x
 b_myous_adj;Myousani;;;;;;;;;;;;;x
 b_priene_apasa;Priene;;;;;;;;;;;;;x
 b_priene_apasa_adj;Priene;;;;;;;;;;;;;x
-b_samos;Samos;;;;;;;;;;;;;x
-b_samos_adj;Samosani;;;;;;;;;;;;;x
+b_samos_apasa;Samos;;;;;;;;;;;;;x
+b_samos_apasa_adj;Samosani;;;;;;;;;;;;;x
 b_alos_karnos;Alos Karnos;;;;;;;;;;;;;x
 b_alos_karnos_adj;Alos Karnosani;;;;;;;;;;;;;x
 b_pitassa;Pitassa;;;;;;;;;;;;;x

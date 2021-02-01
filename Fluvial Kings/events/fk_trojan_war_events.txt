@@ -1523,7 +1523,7 @@ character_event = {
 					# }
 				}
 			}
-			character_event = { id = tw.90 } #Return of Achilles?
+			character_event = { id = tw.90 days = 2 } #Return of Achilles?
 		}
 	}
 }
@@ -1558,6 +1558,9 @@ character_event = {
 	hide_window = yes
 	trigger = {
 		has_landed_title = e_hellenic_pantheon
+		c_2101619 = {
+			is_alive = yes
+		}
 		c_2200002 = { #Hector
 			is_alive = no
 		}
@@ -1675,6 +1678,7 @@ long_character_event = {
 	title = EVTTITLETW32
 	desc = EVTDESCTW32
 	is_triggered_only = yes
+	hide_from = yes
 	
 	option = {
 		name = EVTOPTATW32
@@ -2125,6 +2129,9 @@ character_event = {
 	hide_window = yes
 	trigger = {
 		has_landed_title = e_hellenic_pantheon
+		c_2102101 = {
+			is_alive = yes
+		}
 		c_2200004 = { #Paris
 			OR = {
 				is_alive = no
@@ -2251,6 +2258,7 @@ character_event = {
 	picture = GFX_death_of_achilles
 	title = EVTTITLETW92
 	desc = EVTDESCTW92
+	hide_from = yes
 	is_triggered_only = yes
 	
 	option = {
@@ -2531,6 +2539,10 @@ character_event = {
 							character = PREVPREV
 						}
 					}
+					NOR = {
+						character = c_2101000
+						character = c_2100900
+					}
 				}
 				character_event = { id = tw.93 } #Win condition revealed
 			}
@@ -2578,7 +2590,7 @@ character_event = {
 	}
 }
 
-#Relevent people are sent to fetch the required items
+#Relavent people are sent to fetch the required items
 character_event = {
 	id = tw.53
 	picture = GFX_evt_warrior_greek_gathering
@@ -2782,12 +2794,24 @@ character_event = {
 		event_target:palladium_holder = {
 			if = {
 				limit = {
-					ROOT_FROM = {
-						OR = {
-							character = c_2101200 #Diomedes
+					OR = {
+						ROOT_FROM = {
+							OR = {
+								character = c_2101200 #Diomedes
+							}
+							OR = {
+								character = c_2102300 #Odysseus
+							}
 						}
-						OR = {
-							character = c_2102300 #Odysseus
+						c_2101200 = { #Diomedes
+							is_alive = yes
+							prisoner = no
+							is_incapable = no
+						}
+						c_2102300 = { #Odysseus
+							is_alive = yes
+							prisoner = no
+							is_incapable = no
 						}
 					}
 				}
@@ -3126,46 +3150,114 @@ character_event = {
 		}
 		if = {
 			limit = {
-				c_2102300 = { #Odysseus
-					is_alive = yes
-					is_incapable = no
-					prisoner = no
-				}
-				c_2102102 = { #Pyrrhus
-					OR = {
-						is_alive = no
-						is_incapable = yes
-						prisoner = yes
+				character = c_2100900
+			}
+			if = {
+				limit = {
+					c_2102300 = { #Odysseus
+						is_alive = yes
+						is_incapable = no
+						prisoner = no
+					}
+					c_2102102 = { #Pyrrhus
+						OR = {
+							is_alive = no
+							is_incapable = yes
+							prisoner = yes
+						}
 					}
 				}
+				c_2102300 = { #Odysseus
+					character_event = { id = tw.66 days = 7 } #Odysseus formulates the Trojan Horse
+				}
 			}
-			c_2102300 = { #Odysseus
-				character_event = { id = tw.66 days = 7 } #Odysseus formulates the Trojan Horse
+			else_if = {
+				limit = {
+					c_2102300 = { #Odysseus
+						OR = {
+							is_alive = no
+							is_incapable = yes
+							prisoner = yes
+						}
+					}
+					c_2102102 = { #Pyrrhus
+						OR = {
+							is_alive = no
+							is_incapable = yes
+							prisoner = yes
+						}
+					}
+				}
+				random_character = {
+					limit = {
+						top_liege = {
+							any_war = {
+								using_cb = trojan_war_cb
+								any_attacker = {
+									character = PREVPREV
+								}
+							}
+						}
+						in_command = yes
+					}
+					character_event = { id = tw.66 days = 7 } #Odysseus formulates the Trojan Horse
+				}
 			}
 		}
 		else_if = {
 			limit = {
-				c_2102300 = { #Odysseus
-					OR = {
-						is_alive = no
-						is_incapable = yes
-						prisoner = yes
-					}
-				}
+				character = c_2101000
 			}
-			random_character = {
+			if = {
 				limit = {
-					top_liege = {
-						any_war = {
-							using_cb = trojan_war_cb
-							any_attacker = {
-								character = PREVPREV
-							}
+					c_2102300 = { #Odysseus
+						is_alive = yes
+						is_incapable = no
+						prisoner = no
+					}
+					c_2102102 = { #Pyrrhus
+						OR = {
+							is_alive = no
+							is_incapable = yes
+							prisoner = yes
 						}
 					}
-					in_command = yes
 				}
-				character_event = { id = tw.66 days = 7 } #Odysseus formulates the Trojan Horse
+				c_2102300 = { #Odysseus
+					character_event = { id = tw.66 days = 7 } #Odysseus formulates the Trojan Horse
+				}
+			}
+			else_if = {
+				limit = {
+					c_2102300 = { #Odysseus
+						OR = {
+							is_alive = no
+							is_incapable = yes
+							prisoner = yes
+						}
+					}
+					c_2102102 = { #Pyrrhus
+						OR = {
+							is_alive = no
+							is_incapable = yes
+							prisoner = yes
+						}
+					}
+				}
+				random_character = {
+					limit = {
+						top_liege = {
+							any_war = {
+								using_cb = trojan_war_cb
+								any_attacker = {
+									character = PREVPREV
+								}
+							}
+						}
+						in_command = yes
+					}
+					character_event = { id = tw.66 days = 7 } #Odysseus formulates the Trojan Horse
+				}
 			}
 		}
 	}
@@ -3415,7 +3507,7 @@ character_event = {
 				character = c_2101200 #Diomedes
 			}
 			c_2102102 = { #Pyrrhus
-				character_event = { id = tw.63 days = 2 } #Someone comes to retrieve Philoktetes
+				character_event = { id = tw.63 days = 2 } #Someone comes to retrieve Pyrrhus
 			}
 		}
 		else_if = {
@@ -3426,7 +3518,7 @@ character_event = {
 				}
 			}
 			c_2102102 = { #Pyrrhus
-				character_event = { id = tw.63 days = 2 } #Someone comes to retrieve Philoktetes
+				character_event = { id = tw.63 days = 2 } #Someone comes to retrieve Pyrrhus
 			}
 		}
 	}
@@ -3531,39 +3623,44 @@ character_event = {
 		name = EVTOPTATW64
 		if = {
 			limit = {
-				c_2102300 = { #Odysseus
-					is_alive = yes
-					is_incapable = no
-					prisoner = no
-				}
+				character = c_2101000
 			}
-			c_2102300 = { #Odysseus
-				character_event = { id = tw.66 days = 7 } #Odysseus formulates the Trojan Horse
-			}
-		}
-		else_if = {
-			limit = {
-				c_2102300 = { #Odysseus
-					OR = {
-						is_alive = no
-						is_incapable = yes
-						prisoner = yes
+			if = {
+				limit = {
+					c_2102300 = { #Odysseus
+						is_alive = yes
+						is_incapable = no
+						prisoner = no
 					}
 				}
+				c_2102300 = { #Odysseus
+					character_event = { id = tw.66 days = 7 } #Odysseus formulates the Trojan Horse
+				}
 			}
-			random_character = {
+			else_if = {
 				limit = {
-					top_liege = {
-						any_war = {
-							using_cb = trojan_war_cb
-							any_attacker = {
-								character = PREVPREV
-							}
+					c_2102300 = { #Odysseus
+						OR = {
+							is_alive = no
+							is_incapable = yes
+							prisoner = yes
 						}
 					}
-					in_command = yes
 				}
-				character_event = { id = tw.66 days = 7 } #Odysseus formulates the Trojan Horse
+				random_character = {
+					limit = {
+						top_liege = {
+							any_war = {
+								using_cb = trojan_war_cb
+								any_attacker = {
+									character = PREVPREV
+								}
+							}
+						}
+						in_command = yes
+					}
+					character_event = { id = tw.66 days = 7 } #Odysseus formulates the Trojan Horse
+				}
 			}
 		}
 	}
@@ -3646,8 +3743,22 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW66
-		FROM = {
-			character_event = { id = tw.67 } #Plans are received, and the building of the Trojan Horse commences
+		if = {
+			limit = {
+				c_2100900 = {
+					is_alive = yes
+					prisoner = no
+					is_incapable = no
+				}
+			}
+			c_2100900 = {
+				character_event = { id = tw.67 } #Plans are received, and the building of the Trojan Horse commences
+			}
+		}
+		else = {
+			c_2101000 = {
+				character_event = { id = tw.67 } #Plans are received, and the building of the Trojan Horse commences
+			}
 		}
 	}
 }
@@ -3671,9 +3782,13 @@ character_event = {
 						character = PREVPREV
 					}
 				}
+				NOR = {
+					character = ROOT
+					character = FROM
+				}
 			}
 			character_event = { id = tw.94 } #Trojan Horse under construction
-			character_event = { id = tw.95 } #Trojan Horse complete
+			character_event = { id = tw.95 days = 3 } #Trojan Horse complete
 		}
 	}
 }
@@ -3759,22 +3874,6 @@ character_event = {
 						at_location = 161 #Troy
 					}
 					character_event = { id = tw.72 } #Achaeans leap out of the Trojan Horse
-				}
-			}
-		}
-	}
-	after = {
-		if = {
-			limit = {
-				c_2200106 = { #Laocoon
-					is_alive = yes
-				}
-			}
-			hidden_tooltip = {
-				e_hellenic_pantheon = {
-					owner = {
-						character_event = { id = tw.73 } #Sack of Troy set-up
-					}
 				}
 			}
 		}
@@ -3941,14 +4040,14 @@ character_event = {
 			}
 			d_wilusa = {
 				owner = {
-					character_event = { id = tw.118 } #Achaeans slay the Trojan princes
+					character_event = { id = tw.118 days = 1 } #Achaeans slay the Trojan princes
 				}
 			}
 		}
 		else = {
 			d_wilusa = {
 				owner = {
-					character_event = { id = tw.118 } #Achaeans slay the Trojan princes
+					character_event = { id = tw.118 days = 1 } #Achaeans slay the Trojan princes
 				}
 			}
 		}
@@ -3968,7 +4067,7 @@ character_event = {
 						has_landed_title = d_wilusa
 					}
 				}
-				character_event = { id = tw.118 } #Achaeans slay the Trojan princes
+				character_event = { id = tw.118 days = 1 } #Achaeans slay the Trojan princes
 			}
 		}
 		c_2102000 = { #Ajax the Lesser
@@ -4107,6 +4206,12 @@ narrative_event = {
 			limit = {
 				has_artifact = arrow_heracles
 				has_character_flag = borrowed_arrows
+			}
+			character_event = { id = tw.105 } #Arrows of Heracles are sent back
+		}
+		random_character = {
+			limit = {
+				has_artifact = bone_pelops
 			}
 			character_event = { id = tw.105 } #Arrows of Heracles are sent back
 		}
@@ -4461,6 +4566,7 @@ narrative_event = {
 					c_2102101 = { #Achilles
 						at_location = 161 #Troy
 					}
+					is_alive = yes
 				}
 				c_2102101 = { #Akhilleus
 					character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
@@ -4472,6 +4578,7 @@ narrative_event = {
 						NOT = {
 							at_location = 161 #Troy
 						}
+						is_alive = yes
 					}
 				}
 				c_2102101 = { #Akhilleus
@@ -4482,6 +4589,12 @@ narrative_event = {
 				limit = {
 					has_artifact = arrow_heracles
 					has_character_flag = borrowed_arrows
+				}
+				character_event = { id = tw.105 } #Arrows of Heracles are sent back
+			}
+			random_character = {
+				limit = {
+					has_artifact = bone_pelops
 				}
 				character_event = { id = tw.105 } #Arrows of Heracles are sent back
 			}
@@ -4538,10 +4651,11 @@ narrative_event = {
 		}
 		else_if = {
 			limit = {
-			c_2102101 = { #Achilles
+				c_2102101 = { #Achilles
 					NOT = {
 						at_location = 161 #Troy
 					}
+					is_alive = yes
 				}
 			}
 			c_2102101 = { #Akhilleus
@@ -4552,6 +4666,12 @@ narrative_event = {
 			limit = {
 				has_artifact = arrow_heracles
 				has_character_flag = borrowed_arrows
+			}
+			character_event = { id = tw.105 } #Arrows of Heracles are sent back
+		}
+		random_character = {
+			limit = {
+				has_artifact = bone_pelops
 			}
 			character_event = { id = tw.105 } #Arrows of Heracles are sent back
 		}
@@ -4607,10 +4727,11 @@ narrative_event = {
 		}
 		else_if = {
 			limit = {
-			c_2102101 = { #Achilles
+				c_2102101 = { #Achilles
 					NOT = {
 						at_location = 161 #Troy
 					}
+					is_alive = yes
 				}
 			}
 			c_2102101 = { #Akhilleus
@@ -4621,6 +4742,12 @@ narrative_event = {
 			limit = {
 				has_artifact = arrow_heracles
 				has_character_flag = borrowed_arrows
+			}
+			character_event = { id = tw.105 } #Arrows of Heracles are sent back
+		}
+		random_character = {
+			limit = {
+				has_artifact = bone_pelops
 			}
 			character_event = { id = tw.105 } #Arrows of Heracles are sent back
 		}
@@ -4902,15 +5029,32 @@ character_event = {
 	
 	option = {
 		name = EVTOPTATW105
-		c_olympia = {
-			owner = {
-				save_event_target_as = holder_olympia
+		if = {
+			limit = {
+				event_target:event_target_bone_pelops = {
+					previous_artifact_owner = {
+						is_alive = yes
+					}
+				}
+			}
+			event_target:event_target_bone_pelops = {
+				transfer_artifact = {
+					to = previous_artifact_owner
+					from = ROOT
+				}
 			}
 		}
-		event_target:event_target_bone_pelops = {
-			transfer_artifact = {
-				to = event_target:holder_olympia
-				from = ROOT
+		else = {
+			c_olympia = {
+				owner = {
+					save_event_target_as = holder_olympia
+				}
+			}
+			event_target:event_target_bone_pelops = {
+				transfer_artifact = {
+					to = event_target:holder_olympia
+					from = ROOT
+				}
 			}
 		}
 		if = {
@@ -5151,6 +5295,12 @@ narrative_event = {
 			}
 			character_event = { id = tw.105 } #Arrows of Heracles are sent back
 		}
+		random_character = {
+			limit = {
+				has_artifact = bone_pelops
+			}
+			character_event = { id = tw.105 } #Arrows of Heracles are sent back
+		}
 	}
 }
 
@@ -5193,6 +5343,12 @@ narrative_event = {
 			limit = {
 				has_artifact = arrow_heracles
 				has_character_flag = borrowed_arrows
+			}
+			character_event = { id = tw.105 } #Arrows of Heracles are sent back
+		}
+		random_character = {
+			limit = {
+				has_artifact = bone_pelops
 			}
 			character_event = { id = tw.105 } #Arrows of Heracles are sent back
 		}

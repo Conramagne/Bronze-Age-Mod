@@ -729,8 +729,8 @@
 	9999.1.1 = { death = yes }
 }
 
-1100147 = { #Athene
-	name = "Athene" # Athene, Goddess of Strategy
+1100147 = { #Athenâ
+	name = "Athenâ" # Athenâ, Goddess of Strategy
 	dna = adgdc0fa000
 	dynasty = 1000001 #Theogonos
 	culture = theogonos

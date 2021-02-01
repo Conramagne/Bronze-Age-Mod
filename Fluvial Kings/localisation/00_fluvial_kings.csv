@@ -24,6 +24,7 @@ cretan;Kresijos;;;;;;;;;;;;;x
 phrygian;Phrugios;;;;;;;;;;;;;x
 # minoan;Minoikós;;;;;;;;;;;;;x
 cypriot;Kúprios;;;;;;;;;;;;;x
+cypriot_dorian;Kúprios;;;;;;;;;;;;;x
 bull;Taúrou;;;;;;;;;;;;;x
 
 european;Europes;;;;;;;;;;;;;x
@@ -132,11 +133,11 @@ hellenic;Hellenic;;;;;;;;;;;;;x
 
 pantes_theoi;Pantes Theoi;;;;;;;;;;;;;x
 pantes_theoi_DESC;"...and the earth groaned beneath them as at the wrath of Zeus whose joy is in the thunder, when he lasheth the earth about Typhoeus in the country of the Arimoi...” Aegis-bearing Zeus reprimands and punishes his celestial and mortal children with hideous swears and flaming darts of lightning while his jealous seaward brother causes the land to roll and shudder like the waves of the wine-dark sea. The goddesses are just as fearsome as their brothers and husbands. Cow-eyed Here brings both comfort and pain to men and women and Artemis pierces the hearts of woodsmen with silver-tipped arrows of horn.;;;;;;;;;;;;;x
-pantes_theoi_FEATURES;§Y*§! Pantes Theoi rulers may contact the gods Zeus, Ares, Athene, Demeter, Apollon, Hermes, and Aphrodite.\n;;;;;;;;;;;;;x
+pantes_theoi_FEATURES;§Y*§! Pantes Theoi rulers may contact the gods Zeus, Ares, Athenâ, Demeter, Apollon, Hermes, and Aphrodite.\n;;;;;;;;;;;;;x
 
 assussani;Assussani;;;;;;;;;;;;;x
 assussani_DESC;Over the briny Aigaios came the wide-ruling gods of the tireless Danaoi. Salt-soaked oars and swift-turning chariot wheels carry the warriors and kings of Assuwa across the land, ever searching for wealth or land to raise up proud well-walled cities and the blood drinking altars of gleaming temples. Theirs is the flashing helm, the stamping horse, and the high white walls of the unbreakable citadels. Gleaming Ziuš quarrels and reprimands his seething sons and daughters who glide down from the high mountain to interfere in the lives and ways of mortal men. Some say the doom of the Asu has already been decided by the gods...;;;;;;;;;;;;;x
-assussani_FEATURES;§Y*§! Assussani rulers may contact the gods Zeus, Ares, Athene, Demeter, Apollon, Hermes, and Aphrodite.\n;;;;;;;;;;;;;x
+assussani_FEATURES;§Y*§! Assussani rulers may contact the gods Zeus, Ares, Athenâ, Demeter, Apollon, Hermes, and Aphrodite.\n;;;;;;;;;;;;;x
 
 european_group;Europes;;;;;;;;;;;;;x
 
@@ -168,7 +169,7 @@ GOD_ARTEMIS;Artemis;;;;;;;;;;;;;x
 GOD_ARTEMISU;Artemišu;;;;;;;;;;;;;x
 GOD_ASHERAH;Asherah;;;;;;;;;;;;;x
 GOD_ASSUR;Assur;;;;;;;;;;;;;x
-GOD_ATHENE;Athene;;;;;;;;;;;;;x
+GOD_ATHENE;Athenâ;;;;;;;;;;;;;x
 GOD_ATINA;Atina;;;;;;;;;;;;;x
 GOD_BAAL_HADAD;Ba'al Hadad;;;;;;;;;;;;;x
 GOD_BASSAREOS;Bassareos;;;;;;;;;;;;;x
@@ -277,8 +278,10 @@ d_amazon_adj;Amazonios;;;;;;;;;;;;;x
 d_murmidones;Murmidónes;;;;;;;;;;;;;x
 d_murmidones_adj;Murmidónios;;;;;;;;;;;;;x
 
-c_herakleidae;Herakleîdai;;;;;;;;;;;;;x
-c_herakleidae_adj;Herakleios;;;;;;;;;;;;;x
+d_herakleidae;Herakleîdai;;;;;;;;;;;;;x
+d_herakleidae_adj;Herakleios;;;;;;;;;;;;;x
+
+HERAKLEIDAE;Herakleîdai;;;;;;;;;;;;;x
 
 HIGH_GOD;High God;;;;;;;;;;;;;x
 HEAD_KOHEN_AMURRU;Kohen Amurru;;;;;;;;;;;;;x
@@ -682,6 +685,7 @@ bureau_decrease_2_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 2%;
 bureau_decrease_3_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 3%;;;;;;;;;;;;;x
 bureau_decrease_5_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 7%;;;;;;;;;;;;;x
 bureau_decrease_10_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 10%;;;;;;;;;;;;;x
+bureau_decrease_20_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 20%;;;;;;;;;;;;;x
 
 #Palace Bureaucracy Opinions
 model_bureaucrat;Model Bureaucrat;;;;;;;;;;;;;x
@@ -724,7 +728,7 @@ telipinu;Telipinu;;;;;;;;;;;;;x
 
 zeus;Zeus;;;;;;;;;;;;;x
 ares;Ares;;;;;;;;;;;;;x
-athene;Athene;;;;;;;;;;;;;x
+athene;Athenâ;;;;;;;;;;;;;x
 demeter;Demeter;;;;;;;;;;;;;x
 apollon;Apollon;;;;;;;;;;;;;x
 hermes;Hermes;;;;;;;;;;;;;x
@@ -748,7 +752,7 @@ devotion_derzelas_desc;This character is devoted to Derzelas;;;;;;;;;;;;;x
 syncretic_pihassasi;Syncretic with [pihassasi.GetName];;;;;;;;;;;;;x
 syncretic_pihassasi_desc;This character is syncretic with with those of the [pihassasi.GetName] Pantheon, and may interact with the gods Tarhunna, Arinniti, and Telipinu.;;;;;;;;;;;;;x
 syncretic_hellenic;Syncretic with [hellenic.GetName];;;;;;;;;;;;;x
-syncretic_hellenic_desc;This character is syncretic with with those of the [hellenic.GetName] Pantheon, and may interact with the gods Zeus, Ares, Athene, Demeter, Apollon, Hermes, and Aphrodite.;;;;;;;;;;;;;x
+syncretic_hellenic_desc;This character is syncretic with with those of the [hellenic.GetName] Pantheon, and may interact with the gods Zeus, Ares, Athenâ, Demeter, Apollon, Hermes, and Aphrodite.;;;;;;;;;;;;;x
 syncretic_european_group;Syncretic with [european_group.GetName];;;;;;;;;;;;;x
 syncretic_european_group_desc;This character is syncretic with with those of the [european_group.GetName] Pantheon, and may interact with the gods Sabázios, Pleistoros, and Derzelas.;;;;;;;;;;;;;x
 
@@ -802,12 +806,12 @@ ares_curse_1;Spirit of Cowardice;;;;;;;;;;;;;x
 ares_curse_2;Ares' Crazed Wrath;;;;;;;;;;;;;x
 ares_curse_3;Curse of Weakness;;;;;;;;;;;;;x
 
-athene_boon_1;Spear of Athene Drákaina;;;;;;;;;;;;;x
-athene_boon_2;Shield of Athene Promachos;;;;;;;;;;;;;x
-athene_boon_3;Athene Ombrimothumos' Strategy;;;;;;;;;;;;;x
-athene_boon_4;Ingenuity of Athene Ergane;;;;;;;;;;;;;x
-athene_boon_5;Athene Poluboulos' Tongue;;;;;;;;;;;;;x
-athene_boon_6;Wisdom of Athene Glaukopis;;;;;;;;;;;;;x
+athene_boon_1;Spear of Athenâ Drákaina;;;;;;;;;;;;;x
+athene_boon_2;Shield of Athenâ Promachos;;;;;;;;;;;;;x
+athene_boon_3;Athenâ Ombrimothumos' Strategy;;;;;;;;;;;;;x
+athene_boon_4;Ingenuity of Athenâ Ergane;;;;;;;;;;;;;x
+athene_boon_5;Athenâ Poluboulos' Tongue;;;;;;;;;;;;;x
+athene_boon_6;Wisdom of Athenâ Glaukopis;;;;;;;;;;;;;x
 athene_curse_1;Curse of Feathers;;;;;;;;;;;;;x
 athene_curse_2;Curse of Forgetfulness;;;;;;;;;;;;;x
 athene_curse_3;Curse of Disarray;;;;;;;;;;;;;x
@@ -905,7 +909,7 @@ bow_eurytus_desc;Originally belonging to the famed archer King Eurutos of Oikhal
 arrow_heracles;Arrows of Herakles;;;;;;;;;;;;;x
 arrow_heracles_desc;Dipped in the poisonous blood of the Lérne Húdra, a single scratch from its point is enough to kill a man.;;;;;;;;;;;;;x
 
-shield_ajax;Shield of Ajax
+shield_ajax;Shield of Ajax;;;;;;;;;;;;;x
 shield_ajax_desc;Made of bronze and seven layers of ox-hide, this shield forged for Aías, son of Telamon provides excellent defense against any foe.;;;;;;;;;;;;;x
 
 bone_pelops;Ivory Shoulder of Pelops;;;;;;;;;;;;;x
@@ -930,6 +934,7 @@ lionskin_desc;This lion-pelt was taken as a trophy from some unlucky lion. Weari
 
 ###########Regions###########
 world_greece;Greece;;;;;;;;;;;;;x
+world_asia_minor;Asia Minor;;;;;;;;;;;;;x
 
 ###########Miscellaneous###########
 amazonian_marriage;[Root.Culture.GetName] Marriage;;;;;;;;;;;;;x

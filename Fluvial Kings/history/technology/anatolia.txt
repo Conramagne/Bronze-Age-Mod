@@ -33,7 +33,7 @@ technology = {
 	}
 
 	2527 = {
-		military = 0.8
+		military = 1
 		economy = 1
 		culture = 1
 	}

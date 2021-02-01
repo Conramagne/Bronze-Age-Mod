@@ -200,12 +200,14 @@ character_event = {
 			FROMFROM = {
 				any_dynasty_member = {
 					ai = no
+					is_adult = yes
 				}
 			}
 		}
 		random_dynasty_member = {
 			limit = {
 				ai = no
+				is_adult = yes
 			}
 			ROOT_FROM = {
 				any_de_jure_vassal_title = {
@@ -224,7 +226,7 @@ character_event = {
 			}
 		}
 		ai_chance = {
-			factor = 50
+			factor = 25
 			modifier = {
 				factor = 2
 				trait = arbitrary

@@ -1164,7 +1164,7 @@ e_arzawa = {
 				color = { 36 221 72 }
 				color2 = { 255 255 255 }
 				
-				b_samos = {}
+				b_samos_apasa = {}
 			}
 		}
 		d_karkiya = { 

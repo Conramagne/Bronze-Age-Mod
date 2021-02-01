@@ -722,6 +722,7 @@ laws = {
 			hidden_tooltip = {
 				revoke_law = ze_administration_laws_1
 				revoke_law = ze_administration_laws_2
+				revoke_law = ze_administration_laws_3
 			}
 		}
 		castle_vassal_max_levy = -0.3
@@ -782,7 +783,7 @@ laws = {
 			hidden_tooltip = {
 				revoke_law = ze_administration_laws_0
 				revoke_law = ze_administration_laws_2
-				#revoke_law = ze_administration_laws_3
+				revoke_law = ze_administration_laws_3
 			}
 		}
 		castle_vassal_min_levy = 0
@@ -868,7 +869,7 @@ laws = {
 			hidden_tooltip = {
 				revoke_law = ze_administration_laws_0
 				revoke_law = ze_administration_laws_1
-				#revoke_law = ze_administration_laws_3
+				revoke_law = ze_administration_laws_3
 			}
 		}
 		
@@ -942,7 +943,6 @@ laws = {
 			hidden_tooltip = {
 				revoke_law = ze_administration_laws_0
 				revoke_law = ze_administration_laws_2
-				#revoke_law = ze_administration_laws_3
 			}
 		}
 		# demesne_size = -3

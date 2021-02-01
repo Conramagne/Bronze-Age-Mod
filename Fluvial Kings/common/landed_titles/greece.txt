@@ -965,18 +965,16 @@ d_murmidones = {
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
 
-c_herakleidae = {
+d_herakleidae = {
 	color = { 74 145 35 }
 	
 	capital = 128 # Stratos
-
+	
 	short_name = yes
 	
 	landless = yes
 	
 	culture = achaean
-	
-	primary = yes
-	
+		
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }

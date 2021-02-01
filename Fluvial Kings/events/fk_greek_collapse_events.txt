@@ -1,0 +1,1914 @@
+namespace = fkcg
+
+character_event = {
+	id = fkcg.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+		year = 2561
+		NOT = {
+			has_global_flag = greek_collapse
+		}
+	}
+	
+	immediate = {
+		set_global_flag = greek_collapse
+		any_province = {
+			limit = {
+				OR = {
+					region = world_greece
+					kingdom = {
+						title = k_kupros
+					}
+				}
+			}
+			add_province_modifier = {
+				name = severe_drought
+				duration = -1
+			}
+		}
+		any_playable_ruler = {
+			limit = {
+				any_demesne_province = {
+					OR = {
+						region = world_greece
+						kingdom = {
+							title = k_kupros
+						}
+					}
+				}
+			}
+			narrative_event = { id = fkcg.2 } #Drought strikes Greece
+			narrative_event = { id = fkcg.3 days = 100 } #Earthquakes strike Greece
+		}
+	}
+}
+
+#Drought strikes Greece
+narrative_event = {
+	id = fkcg.2
+	title = EVTTITLEFKCG2
+	desc = EVTDESCFKCG2
+	hide_from = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAFKCG2
+		if = {
+			limit = {
+				primary_title = {
+					check_variable = { which = palace_bureaucracy_number value = 30 }
+				}
+			}
+			custom_tooltip = {
+				text = bureau_decrease_20_TT
+				primary_title = {
+					change_variable = { which = palace_bureaucracy_number value = -20 }
+				}
+			}
+		}
+		set_character_flag = law_no_change
+		primary_title = {
+			add_law = {
+				law = ze_administration_laws_0
+				opinion_effect = no
+			}
+		}
+		clr_character_flag = law_no_change
+	}
+}
+
+#Earthquakes strike Greece
+narrative_event = {
+	id = fkcg.3
+	title = EVTTITLEFKCG3
+	desc = EVTDESCFKCG3
+	hide_from = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAFKCG3
+		any_demesne_province = {
+			limit = {
+				kingdom = {
+					OR = {
+						title = k_achaea
+						title = k_lakonia
+						title = k_attica
+						title = k_krete
+					}
+				}
+			}
+			any_province_holding = {
+				destroy_random_building = THIS
+				destroy_random_building = THIS
+			}
+		}
+	}
+}
+
+#Drought Recedes
+character_event = {
+	id = fkcg.4
+	desc = EVTDESCFKCG4
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = severe_drought
+		}
+		year = 2611
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAFKCG2
+		any_demesne_province = {
+			limit = {
+				has_province_modifier = severe_drought
+			}
+			remove_province_modifier = severe_drought
+			add_province_modifier = {
+				name = recovering_from_drought
+				years = 25
+			}
+		}
+	}
+}
+
+#Dorian Invasion
+character_event = {
+	id = fkcg.6
+	hide_window = yes
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+		year = 2571
+		NOT = {
+			has_global_flag = dorian_invasion
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	immediate = {
+		set_global_flag = dorian_invasion
+		random_character = {
+			limit = {
+				any_owned_bloodline = {
+					has_bloodline_flag = blood_of_heracles
+				}
+				is_adult = yes
+				prisoner = no
+				is_incapable = no
+				is_female = no
+			}
+			preferred_limit = {
+				father_even_if_dead = {
+					father_even_if_dead = {
+						father_even_if_dead = {
+							father_even_if_dead = {
+								character = c_1100157
+							}
+						}
+					}
+				}
+				has_landed_title = d_herakleidae
+			}
+			preferred_limit = {
+				father_even_if_dead = {
+					father_even_if_dead = {
+						father_even_if_dead = {
+							father_even_if_dead = {
+								character = c_1100157
+							}
+						}
+					}
+				}
+			}
+			preferred_limit = {
+				has_landed_title = d_herakleidae
+				NOT = {
+					age = 40
+				}
+			}
+			preferred_limit = {
+				father = {
+					has_landed_title = d_herakleidae
+				}
+			}
+			character_event = { id = fkcg.7 } #Heracleidae Prepare
+		}
+	}
+}
+
+#Heracleidae Prepare
+character_event = {
+	id = fkcg.7
+	desc = EVTDESCFKCG7
+	hide_from = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG7
+		spawn_unit = {
+			province = 128 # Stratos
+			home = 128 # Stratos
+			owner = ROOT
+			leader = ROOT
+			troops = {
+				light_cavalry = { 200 200 }
+				light_infantry = { 600 600 }
+				heavy_infantry = { 300 300 }
+				knights = { 100 100 }
+				pikemen = { 200 200 }
+			}
+			attrition = 0.5
+			maintenance_multiplier = 0
+			cannot_inherit = yes
+			disband_on_peace = yes
+			earmark = heracleidae_troops
+		}
+		spawn_unit = {
+			province = 128 # Stratos
+			home = 128 # Stratos
+			owner = ROOT
+			leader = ROOT
+			troops = {
+				light_cavalry = { 200 200 }
+				light_infantry = { 600 600 }
+				heavy_infantry = { 300 300 }
+				knights = { 100 100 }
+				pikemen = { 200 200 }
+			}
+			attrition = 0.5
+			maintenance_multiplier = 0
+			cannot_inherit = yes
+			disband_on_peace = yes
+			earmark = heracleidae_troops
+		}
+		spawn_unit = {
+			province = 128 # Stratos
+			home = 128 # Stratos
+			owner = ROOT
+			leader = ROOT
+			troops = {
+				light_cavalry = { 200 200 }
+				light_infantry = { 600 600 }
+				heavy_infantry = { 300 300 }
+				knights = { 100 100 }
+				pikemen = { 200 200 }
+			}
+			attrition = 0.5
+			maintenance_multiplier = 0
+			cannot_inherit = yes
+			disband_on_peace = yes
+			earmark = heracleidae_troops
+		}
+		spawn_unit = {
+			province = 128 # Stratos
+			home = 128 # Stratos
+			owner = ROOT
+			leader = ROOT
+			troops = {
+				light_cavalry = { 200 200 }
+				light_infantry = { 600 600 }
+				heavy_infantry = { 300 300 }
+				knights = { 100 100 }
+				pikemen = { 200 200 }
+			}
+			attrition = 0.5
+			maintenance_multiplier = 0
+			cannot_inherit = yes
+			disband_on_peace = yes
+			earmark = heracleidae_troops
+		}
+		spawn_unit = {
+			province = 128 # Stratos
+			home = 128 # Stratos
+			owner = ROOT
+			leader = ROOT
+			troops = {
+				light_cavalry = { 200 200 }
+				light_infantry = { 600 600 }
+				heavy_infantry = { 300 300 }
+				knights = { 100 100 }
+				pikemen = { 200 200 }
+			}
+			attrition = 0.5
+			maintenance_multiplier = 0
+			cannot_inherit = yes
+			disband_on_peace = yes
+			earmark = heracleidae_troops
+		}
+		spawn_unit = {
+			province = 128 # Stratos
+			home = 128 # Stratos
+			owner = ROOT
+			leader = ROOT
+			troops = {
+				light_cavalry = { 200 200 }
+				light_infantry = { 600 600 }
+				heavy_infantry = { 300 300 }
+				knights = { 100 100 }
+				pikemen = { 200 200 }
+			}
+			attrition = 0.5
+			maintenance_multiplier = 0
+			cannot_inherit = yes
+			disband_on_peace = yes
+			earmark = heracleidae_troops
+		}
+		spawn_unit = {
+			province = 128 # Stratos
+			home = 128 # Stratos
+			owner = ROOT
+			leader = ROOT
+			troops = {
+				light_cavalry = { 200 200 }
+				light_infantry = { 600 600 }
+				heavy_infantry = { 300 300 }
+				knights = { 100 100 }
+				pikemen = { 200 200 }
+			}
+			attrition = 0.5
+			maintenance_multiplier = 0
+			cannot_inherit = yes
+			disband_on_peace = yes
+			earmark = heracleidae_troops
+		}
+		spawn_unit = {
+			province = 128 # Stratos
+			home = 128 # Stratos
+			owner = ROOT
+			leader = ROOT
+			troops = {
+				light_cavalry = { 200 200 }
+				light_infantry = { 600 600 }
+				heavy_infantry = { 300 300 }
+				knights = { 100 100 }
+				pikemen = { 200 200 }
+			}
+			attrition = 0.5
+			maintenance_multiplier = 0
+			cannot_inherit = yes
+			disband_on_peace = yes
+			earmark = heracleidae_troops
+		}
+		spawn_unit = {
+			province = 128 # Stratos
+			home = 128 # Stratos
+			owner = ROOT
+			leader = ROOT
+			troops = {
+				light_cavalry = { 200 200 }
+				light_infantry = { 600 600 }
+				heavy_infantry = { 300 300 }
+				knights = { 100 100 }
+				pikemen = { 200 200 }
+			}
+			attrition = 0.5
+			maintenance_multiplier = 0
+			cannot_inherit = yes
+			disband_on_peace = yes
+			earmark = heracleidae_troops
+		}
+		spawn_unit = {
+			province = 128 # Stratos
+			home = 128 # Stratos
+			owner = ROOT
+			leader = ROOT
+			troops = {
+				light_cavalry = { 200 200 }
+				light_infantry = { 600 600 }
+				heavy_infantry = { 300 300 }
+				knights = { 100 100 }
+				pikemen = { 200 200 }
+			}
+			attrition = 0.5
+			maintenance_multiplier = 0
+			cannot_inherit = yes
+			disband_on_peace = yes
+			earmark = heracleidae_troops
+		}
+		any_playable_ruler = {
+			# limit = {
+				# any_demesne_province = {
+					# region = world_greece
+				# }
+			# }
+			narrative_event = { id = fkcg.8 } #Return of the Heracleidae
+		}
+		hidden_tooltip = {
+			set_character_flag = argos_invader
+			any_independent_ruler = {
+				limit = {
+					any_realm_province = {
+						duchy = {
+							title = d_argolis
+						}
+					}
+				}
+				ROOT = {
+					unsafe_war = {
+						target = PREV
+						casus_belli = dorian_invasion_cb
+					}
+				}
+			}
+		}
+		
+		hidden_tooltip = {
+			random_dynasty_member = {
+				limit = {
+					is_adult = yes
+					is_heir = no
+					prisoner = no
+					is_incapable = no
+					is_landed = no
+					is_female = no
+					NOR = {
+						has_character_flag = flag_god
+						has_character_flag = argos_invader
+					}
+				}
+				preferred_limit = {
+					father_even_if_dead = {
+						father_even_if_dead = {
+							father_even_if_dead = {
+								father_even_if_dead = {
+									character = c_1100157
+								}
+							}
+						}
+					}
+					has_landed_title = d_herakleidae
+				}
+				preferred_limit = {
+					father_even_if_dead = {
+						father_even_if_dead = {
+							father_even_if_dead = {
+								father_even_if_dead = {
+									character = c_1100157
+								}
+							}
+						}
+					}
+				}
+				preferred_limit = {
+					has_landed_title = d_herakleidae
+					NOT = {
+						age = 40
+					}
+				}
+				preferred_limit = {
+					father = {
+						has_landed_title = d_herakleidae
+					}
+				}
+				
+				set_character_flag = lacedemonia_invader
+				
+				create_title = {
+					tier = DUKE
+					landless = yes
+					temporary = yes
+					adventurer = yes
+					culture = THIS
+					name = "HERAKLEIDAE"
+					holder = THIS
+				}
+				
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+
+				
+				any_independent_ruler = {
+					limit = {
+						any_realm_province = {
+							duchy = {
+								title = d_lacedemonia
+							}
+						}
+					}
+					reverse_unsafe_war = {
+						target = PREV
+						casus_belli = dorian_invasion_cb
+					}
+				}
+			}
+		}
+		
+		hidden_tooltip = {
+			random_dynasty_member = {
+				limit = {
+					is_adult = yes
+					is_heir = no
+					prisoner = no
+					is_incapable = no
+					is_landed = no
+					is_female = no
+					NOR = {
+						has_character_flag = flag_god
+						has_character_flag = argos_invader
+						has_character_flag = lacedemonia_invader
+					}
+				}
+				preferred_limit = {
+					father_even_if_dead = {
+						father_even_if_dead = {
+							father_even_if_dead = {
+								father_even_if_dead = {
+									character = c_1100157
+								}
+							}
+						}
+					}
+					has_landed_title = d_herakleidae
+				}
+				preferred_limit = {
+					father_even_if_dead = {
+						father_even_if_dead = {
+							father_even_if_dead = {
+								father_even_if_dead = {
+									character = c_1100157
+								}
+							}
+						}
+					}
+				}
+				preferred_limit = {
+					has_landed_title = d_herakleidae
+					NOT = {
+						age = 40
+					}
+				}
+				preferred_limit = {
+					father = {
+						has_landed_title = d_herakleidae
+					}
+				}
+				preferred_limit = {
+					any_sibling = {
+						has_landed_title = d_herakleidae
+					}
+				}
+				
+				set_character_flag = messenia_invader
+				
+				create_title = {
+					tier = DUKE
+					landless = yes
+					temporary = yes
+					adventurer = yes
+					culture = THIS
+					name = "HERAKLEIDAE"
+					holder = THIS
+				}
+				
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+				spawn_unit = {
+					province = 128 # Stratos
+					home = 128 # Stratos
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = heracleidae_troops
+				}
+
+				
+				any_independent_ruler = {
+					limit = {
+						any_realm_province = {
+							duchy = {
+								title = d_messenia
+							}
+						}
+					}
+					reverse_unsafe_war = {
+						target = PREV
+						casus_belli = dorian_invasion_cb
+					}
+				}
+			}
+		}
+	}
+}
+
+#Return of the Heracleidae
+narrative_event = {
+	id = fkcg.8
+	title = EVTTITLEFKCG8
+	desc = EVTDESCFKCG8
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG8
+	}
+}
+
+#Maintenance
+character_event = {
+	id = fkcg.9
+	hide_window = yes
+	trigger = {
+		OR = {
+			has_character_flag = argos_invader
+			has_character_flag = lacedemonia_invader
+			has_character_flag = messenia_invader
+		}
+		is_landed = yes
+		war = no
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		disband_event_forces = heracleidae_troops
+		if = {
+			limit = {
+				has_landed_title = d_herakleidae
+			}
+			d_herakleidae = {
+				unsafe_destroy_landed_title = THIS
+			}
+		}
+	}
+}
+
+#Heracleidae take Argos
+narrative_event = {
+	id = fkcg.10
+	title = EVTTITLEFKCG10
+	desc = EVTDESCFKCG10
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG10
+	}
+}
+
+#Heracleidae take Lacedemonia
+narrative_event = {
+	id = fkcg.11
+	title = EVTTITLEFKCG11
+	desc = EVTDESCFKCG11
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG11
+	}
+}
+
+#Heracleidae take Messenia
+narrative_event = {
+	id = fkcg.12
+	title = EVTTITLEFKCG12
+	desc = EVTDESCFKCG12
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG12
+	}
+}
+
+#Dorian Migration Set Up
+character_event = {
+	id = fkcg.13
+	hide_window = yes
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+		OR = {
+			has_global_flag = heracleidae_argos
+			has_global_flag = heracleidae_lacedemonia
+			has_global_flag = heracleidae_messenia
+		}
+		NOT = {
+			has_global_flag = greek_migration
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 10
+		modifier = {
+			factor = 0.01
+			year = 2581
+		}
+	}
+	
+	immediate = {
+		set_global_flag = greek_migration
+		any_province = {
+			limit = {
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
+				}
+			}
+			add_province_modifier = {
+				name = greek_migration
+				years = 50
+			}
+		}
+		any_playable_ruler = {
+			# limit = {
+				# any_demesne_province = {
+					# region = world_greece
+				# }
+			# }
+			narrative_event = { id = fkcg.14 } #Greeks Migrate
+		}
+	}
+}
+
+#Greeks Migrate
+narrative_event = {
+	id = fkcg.14
+	title = EVTTITLEFKCG14
+	desc = EVTDESCFKCG14
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG14
+	}
+}
+
+#Ionian Split
+character_event = {
+	id = fkcg.15
+	hide_window = yes
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+		has_global_flag = greek_migration
+		NOT = {
+			has_global_flag = ionian_split
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 80
+		modifier = {
+			factor = 0.01
+			year = 2661
+		}
+	}
+	
+	immediate = {
+		set_global_flag = ionian_split
+		any_province = {
+			limit = {
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
+				}
+				OR = {
+					duchy = {
+						title = d_attica
+					}
+					duchy = {
+						title = d_boetica
+					}
+					duchy = {
+						title = d_kuklades
+					}
+					duchy = {
+						title = d_voreios_aigaion
+					}
+					NOT = {
+						county = {
+							title = c_lemnos
+						}
+					}
+				}
+			}
+			culture = ionian
+			add_province_modifier = {
+				name = greek_migration
+				years = 50
+			}
+		}
+		any_province = {
+			limit = {
+				OR = {
+					county = {
+						title = d_apasa
+					}
+					county = {
+						title = c_pityoussa
+					}
+				}
+			}
+			add_province_modifier = {
+				name = ionian_migration
+				years = 50
+			}
+		}
+		any_playable_ruler = {
+			limit = {
+				any_demesne_province = {
+					culture = ionian
+				}
+			}
+			narrative_event = { id = fkcg.16 } #Ionian Culture
+		}
+	}
+}
+
+#Ionian Culture
+narrative_event = {
+	id = fkcg.16
+	title = EVTTITLEFKCG16
+	desc = EVTDESCFKCG16
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG16
+	}
+}
+
+#Dorians Take Charge
+character_event = {
+	id = fkcg.17
+	hide_window = yes
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+		has_global_flag = greek_migration
+		NOT = {
+			has_global_flag = dorian_split
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 80
+		modifier = {
+			factor = 0.01
+			year = 2661
+		}
+	}
+	
+	immediate = {
+		set_global_flag = dorian_split
+		any_province = {
+			limit = {
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
+				}
+				OR = {
+					kingdom = {
+						title = k_lakonia
+					}
+					kingdom = {
+						title = k_achaea
+					}
+					kingdom = {
+						title = k_krete
+					}
+					kingdom = {
+						title = k_aitolia
+					}
+					OR = {
+						NOT = {
+							duchy = {
+								title = d_arcadia
+							}
+						}
+						county = {
+							title = c_tegea
+						}
+					}
+				}
+			}
+			culture = dorian
+			add_province_modifier = {
+				name = greek_migration
+				years = 50
+			}
+		}
+		any_playable_ruler = {
+			limit = {
+				any_demesne_province = {
+					culture = dorian
+				}
+			}
+			narrative_event = { id = fkcg.18 } #Dorian Culture
+		}
+	}
+}
+
+#Dorian Culture
+narrative_event = {
+	id = fkcg.18
+	title = EVTTITLEFKCG18
+	desc = EVTDESCFKCG18
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG18
+	}
+}
+
+#Arcadian Split
+character_event = {
+	id = fkcg.19
+	hide_window = yes
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+		has_global_flag = greek_migration
+		NOT = {
+			has_global_flag = arcadian_split
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 80
+		modifier = {
+			factor = 0.01
+			year = 2661
+		}
+	}
+	
+	immediate = {
+		set_global_flag = arcadian_split
+		any_province = {
+			limit = {
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
+				}
+				duchy = {
+					title = d_arcadia
+				}
+				NOT = {
+					county = {
+						title = c_tegea
+					}
+				}
+			}
+			culture = arcadian
+			add_province_modifier = {
+				name = greek_migration
+				years = 50
+			}
+		}
+		any_playable_ruler = {
+			limit = {
+				any_demesne_province = {
+					culture = arcadian
+				}
+			}
+			narrative_event = { id = fkcg.20 } #Arcadian Culture
+		}
+	}
+}
+
+#Arcadian Culture
+narrative_event = {
+	id = fkcg.20
+	title = EVTTITLEFKCG20
+	desc = EVTDESCFKCG20
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG20
+	}
+}
+
+#Cypriot Split
+character_event = {
+	id = fkcg.21
+	hide_window = yes
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+		has_global_flag = greek_migration
+		NOT = {
+			has_global_flag = cypriot_split
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 80
+		modifier = {
+			factor = 0.01
+			year = 2661
+		}
+	}
+	
+	immediate = {
+		set_global_flag = cypriot_split
+		any_province = {
+			limit = {
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
+				}
+				kingdom = {
+					title = k_kupros
+				}
+			}
+			culture = cypriot_dorian
+			add_province_modifier = {
+				name = greek_migration
+				years = 50
+			}
+		}
+		any_playable_ruler = {
+			limit = {
+				any_demesne_province = {
+					culture = cypriot_dorian
+				}
+			}
+			narrative_event = { id = fkcg.22 } #Cypriot Culture
+		}
+	}
+}
+
+#Cypriot Culture
+narrative_event = {
+	id = fkcg.22
+	title = EVTTITLEFKCG22
+	desc = EVTDESCFKCG22
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG22
+	}
+}
+
+#Aeolian Split
+character_event = {
+	id = fkcg.23
+	hide_window = yes
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+		has_global_flag = greek_migration
+		NOT = {
+			has_global_flag = aeolian_split
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 80
+		modifier = {
+			factor = 0.01
+			year = 2661
+		}
+	}
+	
+	immediate = {
+		set_global_flag = aeolian_split
+		any_province = {
+			limit = {
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
+				}
+				kingdom = {
+					title = k_aiolia
+				}
+			}
+			culture = aeolian
+			add_province_modifier = {
+				name = greek_migration
+				years = 50
+			}
+		}
+		any_playable_ruler = {
+			limit = {
+				any_demesne_province = {
+					culture = aeolian
+				}
+			}
+			narrative_event = { id = fkcg.24 } #Aeolian Culture
+		}
+	}
+}
+
+#Aeolian Culture
+narrative_event = {
+	id = fkcg.24
+	title = EVTTITLEFKCG24
+	desc = EVTDESCFKCG24
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG24
+	}
+}
+
+#Thessalian Invasion
+character_event = {
+	id = fkcg.25
+	desc = EVTDESCFKCG25
+	trigger = {
+		is_landed = yes
+		culture = aeolian
+		has_global_flag = aeolian_split
+		NOT = {
+			has_global_flag = thessalian_invasion
+		}
+		any_realm_province = {
+			kingdom = {
+				title = k_aiolia
+				OR = {
+					has_holder = no
+					holder_scope = {
+						character = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 10
+		modifier = {
+			factor = 0.01
+			year = 2671
+		}
+	}
+
+	immediate = {
+		set_global_flag = thessalian_invasion
+		random_realm_province = {
+			limit = {
+				kingdom = {
+					title = k_aiolia
+					OR = {
+						has_holder = no
+						holder_scope = {
+							character = ROOT
+						}
+					}
+				}
+			}
+			ROOT = {
+				create_character = {
+					random_traits = yes
+					age = 20
+					female = no
+					culture = thessalian
+					religion = pantes_theoi
+					dynasty = random
+				}
+				new_character = {
+					set_character_flag = thessalian_invader
+					spawn_unit = {
+						province = PREVPREV
+						home = PREVPREV
+						owner = THIS
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = thessalian_troops
+					}
+					spawn_unit = {
+						province = PREVPREV
+						home = PREVPREV
+						owner = THIS
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = thessalian_troops
+					}
+					spawn_unit = {
+						province = PREVPREV
+						home = PREVPREV
+						owner = THIS
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = thessalian_troops
+					}
+					spawn_unit = {
+						province = PREVPREV
+						home = PREVPREV
+						owner = THIS
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = thessalian_troops
+					}
+					spawn_unit = {
+						province = PREVPREV
+						home = PREVPREV
+						owner = THIS
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = thessalian_troops
+					}
+					spawn_unit = {
+						province = PREVPREV
+						home = PREVPREV
+						owner = THIS
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = thessalian_troops
+					}
+					spawn_unit = {
+						province = PREVPREV
+						home = PREVPREV
+						owner = THIS
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = thessalian_troops
+					}
+					spawn_unit = {
+						province = PREVPREV
+						home = PREVPREV
+						owner = THIS
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = thessalian_troops
+					}
+					spawn_unit = {
+						province = PREVPREV
+						home = PREVPREV
+						owner = THIS
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = thessalian_troops
+					}
+					spawn_unit = {
+						province = PREVPREV
+						home = PREVPREV
+						owner = THIS
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = thessalian_troops
+					}
+					war = {
+						target = ROOT
+						casus_belli = thessalian_invasion_cb
+						thirdparty_title = PREVPREV
+						tier = KING
+					}
+				}
+			}
+		}
+		any_playable_ruler = {
+			# limit = {
+				# any_demesne_province = {
+					# region = world_greece
+				# }
+			# }
+			narrative_event = { id = fkcg.26 } #Thessalian Invasion Pop-Up
+		}
+	}
+}
+
+#Thessalian Invasion Pop-Up
+narrative_event = {
+	id = fkcg.26
+	title = EVTTITLEFKCG26
+	desc = EVTDESCFKCG26
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG26
+	}
+}
+
+#Thessalians Succeed, Aeolians Flee
+narrative_event = {
+	id = fkcg.27
+	title = EVTTITLEFKCG27
+	desc = EVTDESCFKCG27
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG27
+	}
+}
+
+#Thessalians Spread, Aeolians Flee
+character_event = {
+	id = fkcg.28
+	desc = EVTDESCFKCG28
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG27
+		set_global_flag = thessalian_migration
+		custom_tooltip = {
+			text = thessalians_spread
+			hidden_tooltip = {
+				any_province = {
+					limit = {
+						culture = aeolian
+					}
+					add_province_modifier = {
+						name = thessalian_migration
+						years = 50
+					}
+				}
+			}
+		}
+	}
+}
+
+#Aeolians Settle in Western Anatolia
+character_event = {
+	id = fkcg.29
+	hide_window = yes
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+		has_global_flag = greek_migration
+		NOT = {
+			has_global_flag = aeolian_migration
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 80
+		modifier = {
+			factor = 0.01
+			year = 2661
+		}
+	}
+	
+	immediate = {
+		set_global_flag = aeolian_migration
+		any_province = {
+			limit = {
+				OR = {
+					county = {
+						title = c_truwisa
+					}
+					county = {
+						title = c_tenedos
+					}
+					county = {
+						title = c_adramyttion
+					}
+					duchy = {
+						title = d_lazpa
+					}
+					county = {
+						title = c_mysia
+					}
+					county = {
+						title = c_lurnessos
+					}
+					county = {
+						title = c_phokaia
+					}
+				}
+			}
+			add_province_modifier = {
+				name = aeolian_migration
+				years = 50
+			}
+		}
+	}
+}
+
+#Ionians become majority
+character_event = {
+	id = fkcg.30
+	hide_window = yes
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+		has_global_flag = greek_migration
+		has_global_flag = ionian_migration
+		NOT = {
+			has_global_flag = ionian_majority
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 50
+		modifier = {
+			factor = 0.01
+			year = 2711
+		}
+	}
+	
+	immediate = {
+		set_global_flag = ionian_majority
+		any_province = {
+			limit = {
+				has_province_modifier = ionian_migration
+			}
+			culture = ionian
+		}
+		any_playable_ruler = {
+			character_event = { id = fkcg.30 } #Ionian become majority Pop-Up
+		}
+	}
+}
+
+#Ionian become majority Pop-Up
+character_event = {
+	id = fkcg.30
+	title = EVTTITLEFKCG30
+	desc = EVTDESCFKCG30
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG30
+	}
+}
+
+#Aeolians become majority
+character_event = {
+	id = fkcg.31
+	hide_window = yes
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+		has_global_flag = greek_migration
+		has_global_flag = aeolian_migration
+		NOT = {
+			has_global_flag = aeolian_majority
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 50
+		modifier = {
+			factor = 0.01
+			year = 2711
+		}
+	}
+	
+	immediate = {
+		set_global_flag = aeolian_majority
+		any_province = {
+			limit = {
+				has_province_modifier = aeolian_migration
+			}
+			culture = aeolian
+		}
+		any_playable_ruler = {
+			character_event = { id = fkcg.32 } #Aeolian become majority Pop-Up
+		}
+	}
+}
+
+#Aeolian become majority Pop-Up
+character_event = {
+	id = fkcg.32
+	title = EVTTITLEFKCG32
+	desc = EVTDESCFKCG32
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG32
+	}
+}

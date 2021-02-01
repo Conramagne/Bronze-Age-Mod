@@ -10,7 +10,13 @@ character_event = {
 			in_revolt = yes
 		}
 		any_realm_province = {
-			culture = ROOT
+			OR = {
+				culture = ROOT
+				AND = {
+					culture_group = hellene
+					culture_group = ROOT
+				}
+			}
 			OR = {
 				has_province_modifier = oppressive_rule
 				has_province_modifier = autonomous_rule
@@ -28,7 +34,13 @@ character_event = {
 	immediate = {
 		any_realm_province = {
 			limit = {
-				culture = ROOT
+				OR = {
+					culture = ROOT
+					AND = {
+						culture_group = hellene
+						culture_group = ROOT
+					}
+				}
 			}
 			remove_province_modifier = oppressive_rule
 			remove_province_modifier = autonomous_rule
@@ -68,8 +80,12 @@ character_event = {
 			}
 			any_realm_province = {
 				limit = {
-					NOT = {
+					NOR = {
 						culture = ROOT
+						AND = {
+							culture_group = hellene
+							culture_group = ROOT
+						}
 					}
 				}
 				add_province_modifier = {
@@ -110,8 +126,12 @@ character_event = {
 			}
 			any_realm_province = {
 				limit = {
-					NOT = {
+					NOR = {
 						culture = ROOT
+						AND = {
+							culture_group = hellene
+							culture_group = ROOT
+						}
 					}
 				}
 				add_province_modifier = {
@@ -152,8 +172,12 @@ character_event = {
 			}
 			any_realm_province = {
 				limit = {
-					NOT = {
+					NOR = {
 						culture = ROOT
+						AND = {
+							culture_group = hellene
+							culture_group = ROOT
+						}
 					}
 				}
 				add_province_modifier = {
@@ -194,8 +218,12 @@ character_event = {
 			}
 			any_realm_province = {
 				limit = {
-					NOT = {
+					NOR = {
 						culture = ROOT
+						AND = {
+							culture_group = hellene
+							culture_group = ROOT
+						}
 					}
 				}
 				add_province_modifier = {
@@ -229,8 +257,12 @@ character_event = {
 	immediate = {
 		any_realm_province = {
 			limit = {
-				NOT = {
+				NOR = {
 					culture = ROOT
+					AND = {
+						culture_group = hellene
+						culture_group = ROOT
+					}
 				}
 			}
 			add_province_modifier = {
@@ -251,7 +283,13 @@ character_event = {
 		has_law = foreigner_law_2
 		any_realm_province = {
 			NOT = {
-				culture = ROOT
+				OR = {
+					culture = ROOT
+					AND = {
+						culture_group = hellene
+						culture_group = ROOT
+					}
+				}
 				has_province_modifier = autonomous_rule
 			}
 		}
@@ -264,8 +302,12 @@ character_event = {
 	immediate = {
 		any_realm_province = {
 			limit = {
-				NOT = {
+				NOR = {
 					culture = ROOT
+					AND = {
+						culture_group = hellene
+						culture_group = ROOT
+					}
 				}
 			}
 			add_province_modifier = {
@@ -287,7 +329,13 @@ character_event = {
 		has_law = tribute_law_0
 		any_realm_province = {
 			NOT = {
-				culture = ROOT
+				OR = {
+					culture = ROOT
+					AND = {
+						culture_group = hellene
+						culture_group = ROOT
+					}
+				}
 				has_province_modifier = tax_tribute
 			}
 		}
@@ -300,8 +348,12 @@ character_event = {
 	immediate = {
 		any_realm_province = {
 			 limit = {
-				NOT = {
+				NOR = {
 					culture = ROOT
+					AND = {
+						culture_group = hellene
+						culture_group = ROOT
+					}
 				}
 			}
 			add_province_modifier = {
@@ -322,7 +374,13 @@ character_event = {
 		has_law = tribute_law_2
 		any_realm_province = {
 			NOT = {
-				culture = ROOT
+				OR = {
+					culture = ROOT
+					AND = {
+						culture_group = hellene
+						culture_group = ROOT
+					}
+				}
 				has_province_modifier = levy_tribute
 			}
 		}
@@ -335,8 +393,12 @@ character_event = {
 	immediate = {
 		any_realm_province = {
 			 limit = {
-				NOT = {
+				NOR = {
 					culture = ROOT
+					AND = {
+						culture_group = hellene
+						culture_group = ROOT
+					}
 				}
 			}
 			add_province_modifier = {
@@ -2554,6 +2616,20 @@ character_event = {
 		remove_trait = strong_emperor
 		remove_character_modifier = imperial_authority
 		remove_character_modifier = slandered_emperor
+		
+		any_demesne_title = {
+			limit = {
+				has_title_flag = primary_set
+			}
+			set_variable = { which = global_selfbureau_number which = palace_bureaucracy_number }
+			clr_title_flag = palace_bureaucracy_set
+			clr_title_flag = primary_set
+		}
+		primary_title = {
+			set_variable = { which = palace_bureaucracy_number which = global_selfbureau_number }
+			set_title_flag = palace_bureaucracy_set
+			set_title_flag = primary_set
+		}
 	}
 	
 	option = {

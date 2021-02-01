@@ -794,6 +794,14 @@ character_event = {
 						long_character_event = { id = fkp.404 } #Pursued disguised as an animal
 					}
 				}
+				modifier = { #anti-cuckery
+					factor = 0.5
+					ROOT = { opinion = { who = spouse value <= 40 } }
+				}
+				modifier = {
+					factor = 0.5
+					ROOT = { opinion = { who = spouse value <= 60 } }
+				}
 				modifier = {
 					factor = 100
 					FROM = { is_friend = ROOT }

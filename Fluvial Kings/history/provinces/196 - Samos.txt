@@ -1,7 +1,7 @@
 title=c_samos
 
 max_settlements= 1
-b_samos=castle
+b_samos_apasa=castle
 
 culture=achaean
 religion=pantes_theoi

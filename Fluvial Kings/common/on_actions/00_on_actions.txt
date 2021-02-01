@@ -93,6 +93,8 @@ on_yearly_pulse = {
 		# fkp.9000 #Regularly clears god's wealth
 		
 		# tw.8 #Achilles raids the countryside
+		
+		fkcg.1 #Greek Drought Set-Up
 	}
 	
 	random_events = {
