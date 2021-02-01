@@ -565,6 +565,14 @@ greek_migration = {
 	icon = 1
 }
 
+aeolian_migration = {
+	icon = 1
+}
+
+ionian_migration = {
+	icon = 1
+}
+
 thessalian_migration = {
 	icon = 19
 	local_tax_modifier = -0.1
