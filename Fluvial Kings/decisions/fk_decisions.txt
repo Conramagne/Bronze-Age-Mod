@@ -550,6 +550,37 @@ decisions = {
 			}
 		}
 	}
+
+	expel_greeks = {
+		is_high_prio = yes
+		ai = no
+		
+		potential = {
+			is_adult = yes
+			NOT = {
+				culture_group = hellene
+			}
+			
+		}
+		allow = {
+			prisoner = no
+			in_command = no
+			prisoner = no
+			is_incapable = no
+			any_realm_province = {
+				OR = {
+					has_province_modifier = aeolian_migration
+					has_province_modifier = ionian_migration
+				}
+			}
+			NOT = {
+				trait = kind
+			}
+		}
+		effect = {
+			character_event = { id = fkcg.33 } #Expelling the Greeks
+		}
+	}
 }
 
 targetted_decisions = {

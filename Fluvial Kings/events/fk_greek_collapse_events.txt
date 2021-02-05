@@ -1122,7 +1122,7 @@ character_event = {
 						title = d_attica
 					}
 					duchy = {
-						title = d_boetica
+						title = d_euvoia
 					}
 					duchy = {
 						title = d_kuklades
@@ -1179,6 +1179,14 @@ narrative_event = {
 
 	option = {
 		name = EVTOPTAFKCG16
+		if = {
+			limit = {
+				capital_scope = {
+					culture = ionian
+				}
+			}
+			culture = ionian
+		}
 	}
 }
 
@@ -1262,6 +1270,14 @@ narrative_event = {
 
 	option = {
 		name = EVTOPTAFKCG18
+		if = {
+			limit = {
+				capital_scope = {
+					culture = dorian
+				}
+			}
+			culture = dorian
+		}
 	}
 }
 
@@ -1329,6 +1345,14 @@ narrative_event = {
 
 	option = {
 		name = EVTOPTAFKCG20
+		if = {
+			limit = {
+				capital_scope = {
+					culture = arcadian
+				}
+			}
+			culture = arcadian
+		}
 	}
 }
 
@@ -1391,6 +1415,14 @@ narrative_event = {
 
 	option = {
 		name = EVTOPTAFKCG22
+		if = {
+			limit = {
+				capital_scope = {
+					culture = cypriot_dorian
+				}
+			}
+			culture = cypriot_dorian
+		}
 	}
 }
 
@@ -1423,8 +1455,13 @@ character_event = {
 					culture = cretan
 					culture = cypriot
 				}
-				kingdom = {
-					title = k_aiolia
+				OR = {
+					kingdom = {
+						title = k_aiolia
+					}
+					duchy = {
+						title = d_boetica
+					}
 				}
 			}
 			culture = aeolian
@@ -1453,12 +1490,21 @@ narrative_event = {
 
 	option = {
 		name = EVTOPTAFKCG24
+		if = {
+			limit = {
+				capital_scope = {
+					culture = aeolian
+				}
+			}
+			culture = aeolian
+		}
 	}
 }
 
 #Thessalian Invasion
 character_event = {
 	id = fkcg.25
+	hide_window = yes
 	desc = EVTDESCFKCG25
 	trigger = {
 		is_landed = yes
@@ -1513,6 +1559,15 @@ character_event = {
 				}
 				new_character = {
 					set_character_flag = thessalian_invader
+					create_title = {
+						tier = DUKE
+						landless = yes
+						temporary = yes
+						adventurer = yes
+						culture = THIS
+						name = "THESSALIAN_INVASION"
+						holder = THIS
+					}
 					spawn_unit = {
 						province = PREVPREV
 						home = PREVPREV
@@ -1528,7 +1583,7 @@ character_event = {
 						attrition = 0.5
 						maintenance_multiplier = 0
 						cannot_inherit = yes
-						disband_on_peace = yes
+						disband_on_peace = no
 						earmark = thessalian_troops
 					}
 					spawn_unit = {
@@ -1546,7 +1601,7 @@ character_event = {
 						attrition = 0.5
 						maintenance_multiplier = 0
 						cannot_inherit = yes
-						disband_on_peace = yes
+						disband_on_peace = no
 						earmark = thessalian_troops
 					}
 					spawn_unit = {
@@ -1564,7 +1619,7 @@ character_event = {
 						attrition = 0.5
 						maintenance_multiplier = 0
 						cannot_inherit = yes
-						disband_on_peace = yes
+						disband_on_peace = no
 						earmark = thessalian_troops
 					}
 					spawn_unit = {
@@ -1582,118 +1637,10 @@ character_event = {
 						attrition = 0.5
 						maintenance_multiplier = 0
 						cannot_inherit = yes
-						disband_on_peace = yes
+						disband_on_peace = no
 						earmark = thessalian_troops
 					}
-					spawn_unit = {
-						province = PREVPREV
-						home = PREVPREV
-						owner = THIS
-						leader = THIS
-						troops = {
-							light_cavalry = { 200 200 }
-							light_infantry = { 600 600 }
-							heavy_infantry = { 300 300 }
-							knights = { 100 100 }
-							pikemen = { 200 200 }
-						}
-						attrition = 0.5
-						maintenance_multiplier = 0
-						cannot_inherit = yes
-						disband_on_peace = yes
-						earmark = thessalian_troops
-					}
-					spawn_unit = {
-						province = PREVPREV
-						home = PREVPREV
-						owner = THIS
-						leader = THIS
-						troops = {
-							light_cavalry = { 200 200 }
-							light_infantry = { 600 600 }
-							heavy_infantry = { 300 300 }
-							knights = { 100 100 }
-							pikemen = { 200 200 }
-						}
-						attrition = 0.5
-						maintenance_multiplier = 0
-						cannot_inherit = yes
-						disband_on_peace = yes
-						earmark = thessalian_troops
-					}
-					spawn_unit = {
-						province = PREVPREV
-						home = PREVPREV
-						owner = THIS
-						leader = THIS
-						troops = {
-							light_cavalry = { 200 200 }
-							light_infantry = { 600 600 }
-							heavy_infantry = { 300 300 }
-							knights = { 100 100 }
-							pikemen = { 200 200 }
-						}
-						attrition = 0.5
-						maintenance_multiplier = 0
-						cannot_inherit = yes
-						disband_on_peace = yes
-						earmark = thessalian_troops
-					}
-					spawn_unit = {
-						province = PREVPREV
-						home = PREVPREV
-						owner = THIS
-						leader = THIS
-						troops = {
-							light_cavalry = { 200 200 }
-							light_infantry = { 600 600 }
-							heavy_infantry = { 300 300 }
-							knights = { 100 100 }
-							pikemen = { 200 200 }
-						}
-						attrition = 0.5
-						maintenance_multiplier = 0
-						cannot_inherit = yes
-						disband_on_peace = yes
-						earmark = thessalian_troops
-					}
-					spawn_unit = {
-						province = PREVPREV
-						home = PREVPREV
-						owner = THIS
-						leader = THIS
-						troops = {
-							light_cavalry = { 200 200 }
-							light_infantry = { 600 600 }
-							heavy_infantry = { 300 300 }
-							knights = { 100 100 }
-							pikemen = { 200 200 }
-						}
-						attrition = 0.5
-						maintenance_multiplier = 0
-						cannot_inherit = yes
-						disband_on_peace = yes
-						earmark = thessalian_troops
-					}
-					spawn_unit = {
-						province = PREVPREV
-						home = PREVPREV
-						owner = THIS
-						leader = THIS
-						troops = {
-							light_cavalry = { 200 200 }
-							light_infantry = { 600 600 }
-							heavy_infantry = { 300 300 }
-							knights = { 100 100 }
-							pikemen = { 200 200 }
-						}
-						attrition = 0.5
-						maintenance_multiplier = 0
-						cannot_inherit = yes
-						disband_on_peace = yes
-						earmark = thessalian_troops
-					}
-					war = {
+					unsafe_war = {
 						target = ROOT
 						casus_belli = thessalian_invasion_cb
 						thirdparty_title = PREVPREV
@@ -1910,5 +1857,178 @@ character_event = {
 
 	option = {
 		name = EVTOPTAFKCG32
+	}
+}
+
+#Expelling the Greeks
+character_event = {
+	id = fkcg.33
+	title = EVTTITLEFKCG33
+	desc = EVTDESCFKCG33
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG33
+		wealth = -200
+		trigger = {
+			OR = {
+				ai = no
+				wealth = 200
+			}
+		}
+		ai_chance = {
+			factor = 0.6
+			modifier = {
+				factor = 0.1
+				trait = greedy
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBFKCG33
+		custom_tooltip = {
+			text = greeks_may_revolt_TT
+			hidden_tooltip = {
+				30 = {
+					character_event = { id = fkcg.34 days = 30 } #Greeks don't revolt
+				}
+				70 = {
+					character_event = { id = fkcg.35 days = 30 } #Gamers rise up
+				}
+			}
+		}
+		trigger = {
+			NOT = {
+				trait = just
+			}
+		}
+		ai_chance = {
+			factor = 0.6
+			modifier = {
+				factor = 0.1
+				trait = greedy
+			}
+		}
+	}
+}
+
+#Greeks don't revolt
+character_event = {
+	id = fkcg.34
+	title = EVTTITLEFKCG34
+	desc = EVTDESCFKCG34
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG34
+		any_demesne_province = {
+			limit = {
+				OR = {
+					culture_group = hellene
+					has_province_modifier = aeolian_migration
+					has_province_modifier = ionian_migration
+				}
+			}
+			culture = ROOT
+			remove_province_modifier = aeolian_migration
+			remove_province_modifier = ionian_migration
+		}
+	}
+}
+
+#Gamers rise up
+character_event = {
+	id = fkcg.35
+	title = EVTTITLEFKCG35
+	desc = EVTDESCFKCG35
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG35
+		hidden_tooltip = {
+			random_realm_province = {
+				limit = {
+					duchy = {
+						OR = {
+							has_holder = no
+							holder_scope = {
+								character = ROOT
+							}
+						}
+					}
+					culture_group = hellene
+				}
+				ROOT = {
+					random_list = {
+						50 = {
+							trigger = {
+								any_demesne_province = {
+									has_province_modifier = aeolian_migration
+								}
+							}
+							create_character = {
+								random_traits = yes
+								age = 20
+								female = no
+								culture = aeolian
+								religion = pantes_theoi
+								dynasty = random
+							}
+						}
+						50 = {
+							trigger = {
+								any_demesne_province = {
+									has_province_modifier = ionian_migration
+								}
+							}
+							create_character = {
+								random_traits = yes
+								age = 20
+								female = no
+								culture = ionian
+								religion = pantes_theoi
+								dynasty = random
+							}
+						}
+					}
+					new_character = {
+						set_character_flag = greek_invader
+						create_title = {
+							tier = DUKE
+							landless = yes
+							temporary = yes
+							adventurer = yes
+							culture = THIS
+							name = "GREEK_INVASION"
+							holder = THIS
+						}
+						spawn_unit = {
+							province = PREVPREV
+							home = PREVPREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = greek_troops
+						}
+						unsafe_war = {
+							target = ROOT
+							casus_belli = greek_revolt_cb
+							thirdparty_title = PREVPREV
+							tier = KING
+						}
+					}
+				}
+			}
+		}
 	}
 }
