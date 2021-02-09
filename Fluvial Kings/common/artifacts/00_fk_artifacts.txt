@@ -227,6 +227,14 @@ scepter_agamemnon = {
 	slot = scepter
 }
 
+cup_nestor = {
+	quality = 4
+	monthly_character_prestige = 0.5
+	vassal_opinion = 15
+	flags = { cup }
+	picture = "GFX_cup_fancy"
+}
+
 boar_tusk_helm = {
 	quality = 3
 	combat_rating = 5

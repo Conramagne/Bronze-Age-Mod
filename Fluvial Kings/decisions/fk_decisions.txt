@@ -18,7 +18,7 @@ decisions = {
 		}
 	}
 	
-	choose_devotion = {
+	choose_devotion_pihassasi = {
 		is_high_prio = yes
 		ai_check_interval = 1
 		only_playable = yes
@@ -29,11 +29,7 @@ decisions = {
 			NOT = {
 				has_character_flag = flag_god
 			}
-			OR = {
-				pihassasi_or_syncretic = yes
-				# religion = (Insert Phrygian Religion)
-				trait = syncretic_european_group
-			}
+			pihassasi_or_syncretic = yes
 		}
 		allow = {
 			is_incapable = no
@@ -42,6 +38,35 @@ decisions = {
 		effect = {
 			set_character_flag = choose_devotion_flag
 			character_event = { id = fkrel.100 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	choose_devotion_european = {
+		is_high_prio = yes
+		ai_check_interval = 1
+		only_playable = yes
+		
+		potential = {
+			devotion_trait_trigger = no
+			is_adult = yes
+			NOT = {
+				has_character_flag = flag_god
+			}
+			european_group_or_syncretic = yes
+		}
+		allow = {
+			is_incapable = no
+			NOT = { has_character_flag = choose_devotion_flag }
+		}
+		effect = {
+			set_character_flag = choose_devotion_flag
+			character_event = { id = fkrel.101 }
 		}
 		revoke_allowed = {
 			always = no
@@ -560,19 +585,19 @@ decisions = {
 			NOT = {
 				culture_group = hellene
 			}
-			
-		}
-		allow = {
-			prisoner = no
-			in_command = no
-			prisoner = no
-			is_incapable = no
 			any_realm_province = {
 				OR = {
 					has_province_modifier = aeolian_migration
 					has_province_modifier = ionian_migration
 				}
 			}
+		}
+		allow = {
+			prisoner = no
+			in_command = no
+			prisoner = no
+			is_incapable = no
+			
 			NOT = {
 				trait = kind
 			}
@@ -721,9 +746,14 @@ targetted_decisions = {
 				}
 				wealth = 50
 			}
-			OR = {
-				outside_pantheon_trigger = no
-				appropriate_devotion_trigger = yes
+			custom_tooltip = {
+				text = devotee_or_religion_TT
+				hidden_tooltip = {
+					OR = {
+						outside_pantheon_trigger = no
+						appropriate_devotion_trigger = yes
+					}
+				}
 			}
 		}
 		effect = {
@@ -781,10 +811,14 @@ targetted_decisions = {
 					}
 				}
 			}
-			OR = {
-				outside_pantheon_trigger = no
-				appropriate_devotion_trigger = yes
-				can_contact_god_trigger = yes
+			custom_tooltip = {
+				text = devotee_or_religion_TT
+				hidden_tooltip = {
+					OR = {
+						outside_pantheon_trigger = no
+						appropriate_devotion_trigger = yes
+					}
+				}
 			}
 		}
 		effect = {
@@ -822,10 +856,7 @@ targetted_decisions = {
 		potential = {
 			age < 10
 			devotion_trait_trigger = no
-			NOR = {
-				religion_group = hellenic
-				religion_group = european_group
-			}
+			religion_group = pihassasi
 		}
 		allow = {
 			NOT = {
@@ -841,7 +872,7 @@ targetted_decisions = {
 		effect = {
 			FROM = {
 				set_character_flag = choose_devotion_flag
-				character_event = { id = fkrel.101 }
+				character_event = { id = fkrel.103 }
 			}
 		}
 		revoke_allowed = {

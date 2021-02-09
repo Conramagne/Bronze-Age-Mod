@@ -100,7 +100,6 @@ character_event = {
 	desc = EVTDESCFKREL100
 	picture = GFX_evt_visit_the_temple_pantheon
 	
-	#Pihassasi Devotion
 	option = {
 		name = EVTOPTAFKREL100
 		add_trait = devotion_tarhunna
@@ -129,12 +128,123 @@ character_event = {
 			factor = 33
 		}
 	}
+}
+
+#Choosing Devotion European Group
+character_event = {
+	id = fkrel.101
+	is_triggered_only = yes
+	desc = EVTDESCFKREL101
+	picture = GFX_evt_visit_the_temple_pantheon
+	
+	#European Devotion
+	option = {
+		name = EVTOPTAFKREL101
+		trigger = {
+			always = no
+		}
+		add_trait = devotion_sabazios
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33 
+			modifier = {
+				factor = 2
+				likes_war_god_trigger = yes
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBFKREL101
+		trigger = {
+			religion = doumos
+		}
+		add_trait = devotion_pleistoros
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33 
+			modifier = {
+				factor = 2
+				likes_war_god_trigger = yes
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCFKREL101
+		trigger = {
+			religion = doumos
+		}
+		add_trait = devotion_derzelas
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33
+		}
+	}
+	option = {
+		name = EVTOPTDFKREL101
+		trigger = {
+			NOT = {
+				religion = doumos
+			}
+		}
+		add_trait = devotion_kubeleya
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33
+		}
+	}
+}
+
+#Choosing Devotion Foreign Faith
+character_event = {
+	id = fkrel.101
+	is_triggered_only = yes
+	desc = EVTDESCFKREL101
+	picture = GFX_evt_visit_the_temple_pantheon
+
+	#Pihassasi Devotion
+	option = {
+		name = EVTOPTAFKREL100
+		trigger = {
+			trait = syncretic_pihassasi
+		}
+		add_trait = devotion_tarhunna
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33 
+			modifier = {
+				factor = 2
+				likes_war_god_trigger = yes
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBFKREL100
+		trigger = {
+			trait = syncretic_pihassasi
+		}
+		add_trait = devotion_arinniti
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33 
+		}
+	}
+	option = {
+		name = EVTOPTCFKREL100
+		trigger = {
+			trait = syncretic_pihassasi
+		}
+		add_trait = devotion_telipinu
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33
+		}
+	}
 	
 	#European Devotion
 	option = {
 		name = EVTOPTDFKREL100
 		trigger = {
-			european_group_or_syncretic = yes
+			trait = syncretic_european_group
 		}
 		add_trait = devotion_sabazios
 		clr_character_flag = choose_devotion_flag
@@ -149,7 +259,7 @@ character_event = {
 	option = {
 		name = EVTOPTEFKREL100
 		trigger = {
-			european_group_or_syncretic = yes
+			trait = syncretic_european_group
 		}
 		add_trait = devotion_pleistoros
 		clr_character_flag = choose_devotion_flag
@@ -164,9 +274,20 @@ character_event = {
 	option = {
 		name = EVTOPTFFKREL100
 		trigger = {
-			european_group_or_syncretic = yes
+			trait = syncretic_european_group
 		}
 		add_trait = devotion_derzelas
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 33
+		}
+	}
+	option = {
+		name = EVTOPTGFKREL100
+		trigger = {
+			trait = syncretic_european_group
+		}
+		add_trait = devotion_kubeleya
 		clr_character_flag = choose_devotion_flag
 		ai_chance = {
 			factor = 33
@@ -176,13 +297,13 @@ character_event = {
 
 #Choosing Devotion Child Pihassasi
 character_event = {
-	id = fkrel.101
+	id = fkrel.200
 	is_triggered_only = yes
-	desc = EVTDESCFKREL101
+	desc = EVTDESCFKREL200
 	picture = GFX_evt_visit_the_temple_pantheon
 	
 	option = {
-		name = EVTOPTAFKREL101
+		name = EVTOPTAFKREL200
 		FROM = {
 			add_trait = devotion_tarhunna
 		}
@@ -192,7 +313,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPTBFKREL101
+		name = EVTOPTBFKREL200
 		FROM = {
 			add_trait = devotion_arinniti
 		}
@@ -208,7 +329,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPTCFKREL101
+		name = EVTOPTCFKREL200
 		FROM = {
 			add_trait = devotion_telipinu
 		}

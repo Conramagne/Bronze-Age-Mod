@@ -208,29 +208,11 @@ hellene = {
 		color = { 0.8 0.2 0.8 }
 
 		male_names = {
-			Abas Akastos Aiguptios Agamemnon Agenor Agrius Aiakos Achareus Akhilleus Aktaion Alektruon Alexandros Alkathous Amphimedes Andronich Antromaxos Aranareus_Aranare Argurios Aristaios Arkeisios Atreus Augewas 
-			Dhmofanhs Didereus Diomedes Drakokardos Drakomaxos 
-			Echinos Enchelyawon Eruthros Etewoklewes Eumenes Euruptolemos 
-			Filaretos 
-			Glaukos Gouneus 
-			Hektor 
-			Iason Idmon 
-			Kadmos Kalchas Khalkeus Kleonich Klumenos Kretheus Kupridhmos Kyprios 
-			Laertes Leukopeus Lukios Lukimnios Lukomedes 
-			Machawon Medon Melas Menelaos 
-			Narkissos Nestor Nikostratos 
-			Oineus Orestes 
-			Pandion Pátroklos Peleus Phoinix Phokus Plouteus Poimen Poimnios Poliwos Radamanqus Sarpedon Sterope 
-			Tawagalawa Telamon Teukros Theseus Thestor Trambelus Tripodiskos Tripolemos Tros Tudeus Tulisios Turios Twinon Tudeus 
-			Wedaneus 
-			Xaridhmos
+			a_a
 		}
 		
 		female_names = {
-			Alexandra Ariadnh_Ariadnh
-			Eritha 
-			Karpathia Korinsia 
-			Poulxeria
+			b_b
 		}
 
 		from_dynasty_prefix = "of "
@@ -451,17 +433,18 @@ european = {
 	}
 	
 	disakenthas = {
-		graphical_cultures = { thraciangfx }
+		graphical_cultures = { europeangodgfx }
 
 		color = { 0.3 0.2 0.2 }
 
 		male_names = {
-			Amadokos Asteropaios Bardyllis Bato Berisades Blendidoros Brinkainos Brinkazeis Brinkazis Bryzos Byrebistas Byzas Dapyx Dekebalos Dekeneos Dentupes Deopus Desakenthos Diazelmis Diazenis Diegylis Diomedes Drenis Dromikhaetes Duras Eptaper Eptekentos Eptenis Eptepus Eptepyris Eúmolpos Gaidres Gentios Harpalykos Hezbenus Iptakens Keler Kersebleptes Kersebleptos Kersos Ketriporis Kharnabon Kisseus Kleitus Komosikus Koson Kothelas Kotiso Kotys Lukourgos_Lukourgos Medauras Midas Mokasokos Monunios Mopsos Mukaboris Mukakenthos Mukapaibes Mukaporis Mukazeis Mukazenis Mukos Oroles Orpheus Peiroos Pleuratus Poltys Puraíkhmes Pytros Rabokentos Raizdos Reskuturme Rhaskos Rhaskuporis Rhemaxos Rheskuporis Rhesus Rhoemetalkes Rholes Rubobostes Sadalas Satres Sautes Seuthes Sitalkes Skaris Skorilo Skílas Spartakos Suratralis Tarusinas Teres Thrax Zalmodegikos Ziepyrus Ziles Zipaibes Ziper Zyraxes
+			a_a
 		}
 		
 		female_names = {
-			Adiega Afina Aia Audata Bendidora Bendis Birkenna Birkita Branka Dana Daorsona Daortho Dassaro Demetriana Dentusuka Devnet Dita Epona Eptarys Eptesyka Eurudike_Eurudike Fallon Galatea Harpalyke Iambe Kaeria Karia Kasta Kerzula Ketripora Naparis Nerenea Partho Phullis Potita Rhodope Rolisteneas Sanda Serapia Teuta Tilezypta Trieuta Vlatucia Zia
+			b_b
 		}
+		
 		dukes_called_kings = yes
 
 		from_dynasty_prefix = "of "

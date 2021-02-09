@@ -214,12 +214,13 @@ telipinu = {
 #European Devotion Traits
 devotion_sabazios = {
 	potential = {
-		religion_group = pihassasi
+		religion_group = european_group
 	}
 	random = no
 	opposites = {
 		devotion_pleistoros
 		devotion_derzelas
+		devotion_kubeleya
 	}
 	same_religion_opinion = 5
 	martial = 1
@@ -227,12 +228,13 @@ devotion_sabazios = {
 
 devotion_pleistoros = {
 	potential = {
-		religion_group = pihassasi
+		religion_group = european_group
 	}
 	random = no
 	opposites = {
 		devotion_sabazios
 		devotion_derzelas
+		devotion_kubeleya
 	}
 	health = 0.5
 	monthly_character_piety = 1
@@ -240,15 +242,30 @@ devotion_pleistoros = {
 
 devotion_derzelas = {
 	potential = {
-		religion_group = pihassasi
+		religion_group = european_group
 	}
 	random = no
 	opposites = {
 		devotion_pleistoros
 		devotion_sabazios
+		devotion_kubeleya
 	}
 	plot_discovery_chance = 0.05
 	health = 0.5
+}
+
+devotion_kubeleya = {
+	potential = {
+		religion_group = european_group
+	}
+	random = no
+	opposites = {
+		devotion_sabazios
+		devotion_derzelas
+		devotion_pleistoros
+	}
+	health = 0.5
+	monthly_character_piety = 1
 }
 
 #Pihassasi Devotion Traits
@@ -276,8 +293,8 @@ devotion_arinniti = {
 		devotion_tarhunna
 		devotion_telipinu
 	}
-	combat_rating = 5
-	martial = 5
+	health = 0.5
+	monthly_character_piety = 1
 }
 
 devotion_telipinu = {
@@ -289,8 +306,8 @@ devotion_telipinu = {
 		devotion_arinniti
 		devotion_tarhunna
 	}
-	health = 0.5
-	monthly_character_piety = 1
+	global_tax_modifier = 0.05
+	stewardship = 1
 }
 
 
@@ -449,7 +466,7 @@ aphrodite = {
 	in_hiding = yes
 }
 
-#Thracian Pantheon
+#European Pantheon
 sabazios = {
 	hidden_from_others = yes
 	immortal = yes
@@ -464,6 +481,7 @@ sabazios = {
 	opinion_of_zealous = 5
 	opinion_of_cynical = -10
 	opinion_of_erudite = 10
+	opinion_of_devotion_sabazios = 15
 	monthly_character_wealth = 10000
 	in_hiding = yes
 }
@@ -490,10 +508,10 @@ pleistoros = {
 	brilliant_strategist_opinion = 5
 	duelist_opinion = 5
 	strong_opinion = 5	
+	opinion_of_devotion_pleistoros = 15
 	monthly_character_wealth = 10000
 	in_hiding = yes
 }
-
 
 derzelas = {
 	hidden_from_others = yes
@@ -508,6 +526,25 @@ derzelas = {
 	}
 	opinion_of_zealous = 5
 	opinion_of_cynical = -10
+	opinion_of_devotion_derzelas = 15
+	monthly_character_wealth = 10000
+	in_hiding = yes
+}
+
+kubeleya = {
+	hidden_from_others = yes
+	immortal = yes
+	cannot_inherit = yes
+	cannot_marry = yes
+	fertility = -1000
+	random = no
+	customizer = no
+	opposites = {
+		excommunicated
+	}
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
+	opinion_of_devotion_kubeleya = 15
 	monthly_character_wealth = 10000
 	in_hiding = yes
 }

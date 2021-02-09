@@ -1243,10 +1243,18 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = hittitegodgfx
+				graphical_culture = europeangodgfx
+			}
 			NOR = {
 				trait = zeus
 				trait = hestia
+				trait = tarhunna
+				trait = arinniti
+				trait = sabazios
+				trait = kubeleya
 			}
 		}
 	}
@@ -1254,16 +1262,24 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = hittitegodgfx
+				graphical_culture = europeangodgfx
+			}
 			NOR = {
 				trait = poseidaon
 				trait = demeter
+				trait = telipinu
+				trait = derzelas
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = hittitegodgfx
+				graphical_culture = europeangodgfx
 			}
 		}
 	}
@@ -1271,7 +1287,11 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = hittitegodgfx
+				graphical_culture = europeangodgfx
+			}
 			NOR = {
 				trait = apollon
 				trait = here
@@ -1279,8 +1299,10 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = hittitegodgfx
+				graphical_culture = europeangodgfx
 			}
 		}
 	}

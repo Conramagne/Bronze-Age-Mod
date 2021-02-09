@@ -3,6 +3,7 @@ is_head_god_trigger = {
 		trait = tarhunna
 		trait = zeus
 		trait = sabazios
+		trait = kubeleya
 	}
 }
 is_war_god_trigger = {
@@ -33,6 +34,7 @@ is_sun_god_trigger = {
 is_guardian_god_trigger = {
 	OR = {
 		trait = arinniti
+		trait = kubeleya
 	}
 }
 is_love_god_trigger = {
@@ -112,6 +114,7 @@ devotion_trait_trigger = {
 		trait = devotion_sabazios
 		trait = devotion_pleistoros
 		trait = devotion_derzelas
+		trait = devotion_kubeleya
 	}
 }
 
@@ -132,6 +135,30 @@ outside_pantheon_trigger = {
 				trait = arinniti
 			}
 		}
+		AND = {
+			FROM = {
+				religion = dentudisas
+			}
+			ROOT = {
+				trait = kubeleya
+			}
+		}
+		AND = {
+			FROM = {
+				religion = doumos
+			}
+			ROOT = {
+				trait = pleistoros
+			}
+		}
+		AND = {
+			FROM = {
+				religion = doumos
+			}
+			ROOT = {
+				trait = derzelas
+			}
+		}
 	}
 }
 
@@ -141,6 +168,24 @@ outside_pantheon_trigger_no_FROM = {
 			religion = haianiluwi
 			ROOT = {
 				trait = arinniti
+			}
+		}
+		AND = {
+			religion = dentudisas
+			ROOT = {
+				trait = kubeleya
+			}
+		}
+		AND = {
+			religion = doumos
+			ROOT = {
+				trait = derzelas
+			}
+		}
+		AND = {
+			religion = doumos
+			ROOT = {
+				trait = pleistoros
 			}
 		}
 	}
@@ -156,6 +201,30 @@ appropriate_devotion_trigger = {
 				trait = devotion_arinniti
 			}
 		}
+		AND = {
+			ROOT = {
+				trait = kubeleya
+			}
+			FROM = {
+				trait = devotion_kubeleya
+			}
+		}
+		AND = {
+			ROOT = {
+				trait = pleistoros
+			}
+			FROM = {
+				trait = devotion_pleistoros
+			}
+		}
+		AND = {
+			ROOT = {
+				trait = derzelas
+			}
+			FROM = {
+				trait = devotion_derzelas
+			}
+		}
 	}
 }
 
@@ -166,6 +235,24 @@ appropriate_devotion_trigger_no_FROM = {
 				trait = arinniti
 			}
 			trait = devotion_arinniti
+		}
+		AND = {
+			ROOT = {
+				trait = kubeleya
+			}
+			trait = devotion_kubeleya
+		}
+		AND = {
+			ROOT = {
+				trait = pleistoros
+			}
+			trait = devotion_pleistoros
+		}
+		AND = {
+			ROOT = {
+				trait = derzelas
+			}
+			trait = devotion_derzelas
 		}
 	}
 }
@@ -182,6 +269,10 @@ has_boon_trigger = {
 		has_boon_apollon_trigger = yes
 		has_boon_hermes_trigger = yes
 		has_boon_aphrodite_trigger = yes
+		has_boon_sabazios_trigger = yes
+		has_boon_derzelas_trigger = yes
+		has_boon_pleistoros_trigger = yes
+		has_boon_kubeleya_trigger = yes
 	}
 }
 
@@ -285,6 +376,14 @@ has_boon_derzelas_trigger = {
 	}
 }
 
+has_boon_kubeleyatrigger = {
+	OR = {
+		has_character_modifier = kubeleya_boon_1
+		has_character_modifier = kubeleya_boon_2
+		has_character_modifier = kubeleya_boon_3
+	}
+}
+
 has_curse_trigger = {
 	OR = {
 		has_character_modifier = tarhunna_curse_1
@@ -338,6 +437,9 @@ has_curse_trigger = {
 		has_character_modifier = derzelas_curse_1
 		has_character_modifier = derzelas_curse_2
 		has_character_modifier = derzelas_curse_3
+		has_character_modifier = kubeleya_curse_1
+		has_character_modifier = kubeleya_curse_2
+		has_character_modifier = kubeleya_curse_3
 	}
 }
 
@@ -414,6 +516,14 @@ hellenic_or_syncretic = {
 european_group_or_syncretic = {
 	OR = {
 		religion_group = european_group
+		trait = syncretic_european_group
+	}
+}
+
+is_syncretic_trigger = {
+	OR = {
+		trait = syncretic_pihassasi
+		trait = syncretic_hellenic
 		trait = syncretic_european_group
 	}
 }

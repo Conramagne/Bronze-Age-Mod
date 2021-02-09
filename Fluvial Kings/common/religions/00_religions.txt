@@ -28,7 +28,7 @@ bnai_avraham = {
 		high_god_name = GOD_ELOHIM
 		
 		god_names = {
-			GOD_EL GOD_GOD GOD_THE_LORD GOD_ADONAI GOD_ELYON
+			GOD_ELOHIM GOD_EL GOD_GOD GOD_THE_LORD GOD_ADONAI GOD_ELYON
 		}
 		evil_god_names = {
 			GOD_BAAL GOD_ASHERAH GOD_MOLEK GOD_DAGON
@@ -91,6 +91,7 @@ bnai_kenaan = {
 		intermarry = pantes_theoi
 		intermarry = assussani
 		intermarry = dentudisas
+		intermarry = doumos
 	}
 	
 	bene_elihi = {
@@ -129,6 +130,7 @@ bnai_kenaan = {
 		intermarry = pantes_theoi
 		intermarry = assussani
 		intermarry = dentudisas
+		intermarry = doumos
 	}
 
 	ili_abinia = {
@@ -169,6 +171,7 @@ bnai_kenaan = {
 		intermarry = pantes_theoi
 		intermarry = assussani
 		intermarry = dentudisas
+		intermarry = doumos
 	}
 }
 
@@ -217,6 +220,7 @@ mesopotamian = {
 		intermarry = pantes_theoi
 		intermarry = assussani
 		intermarry = dentudisas
+		intermarry = doumos
 	}
 }
 
@@ -276,6 +280,7 @@ pihassasi = {
 		intermarry = pantes_theoi
 		intermarry = assussani
 		intermarry = dentudisas
+		intermarry = doumos
 	}
 	
 	ishalitethai = {
@@ -313,6 +318,7 @@ pihassasi = {
 		intermarry = pantes_theoi
 		intermarry = assussani
 		intermarry = dentudisas
+		intermarry = doumos
 	}
 }
 
@@ -340,7 +346,7 @@ hellenic = {
 		high_god_name = GOD_ZEUS
 		
 		god_names = {
-			GOD_POSEIDAON GOD_APOLLON GOD_HERE GOD_ARES GOD_ATHENE GOD_DIONUSOS GOD_APHRODITE GOD_ARTEMIS GOD_DEMETER GOD_HAPHAISTOS GOD_HERMES
+			GOD_ZEUS GOD_POSEIDAON GOD_APOLLON GOD_HERE GOD_ARES GOD_ATHENE GOD_DIONUSOS GOD_APHRODITE GOD_ARTEMIS GOD_DEMETER GOD_HAPHAISTOS GOD_HERMES
 		}
 		evil_god_names = {
 			GOD_TYPHOEUS GOD_ERIS GOD_KRONOS
@@ -363,6 +369,7 @@ hellenic = {
 		intermarry = ishalitethai
 		intermarry = assussani
 		intermarry = dentudisas
+		intermarry = doumos
 	}
 	
 	assussani = {
@@ -378,7 +385,7 @@ hellenic = {
 		high_god_name = GOD_ZIUS
 		
 		god_names = {
-			GOD_PESEDAEN GOD_APPALIUNAS GOD_HERE GOD_ARES GOD_ATINA GOD_DIUNNUSU GOD_APARADITI GOD_ARTEMISU GOD_DEMETERA GOD_HAPASATUSU GOD_HEMESU
+			GOD_ZIUS GOD_PESEDAEN GOD_APPALIUNAS GOD_HERE GOD_ARES GOD_ATINA GOD_DIUNNUSU GOD_APARADITI GOD_ARTEMISU GOD_DEMETERA GOD_HAPASATUSU GOD_HEMESU
 		}
 		evil_god_names = {
 			GOD_ILLUYANKA GOD_ERRA
@@ -401,6 +408,7 @@ hellenic = {
 		intermarry = ishalitethai
 		intermarry = dentudisas
 		intermarry = pantes_theoi
+		intermarry = doumos
 	}
 }
 
@@ -422,7 +430,7 @@ european_group = {
 		high_god_name = GOD_SABAZIOS
 		
 		god_names = {
-			GOD_PLEISTOROS GOD_KOTYS GOD_GEBELEXIS GOD_ZEMELA GOD_BASSAREOS GOD_BENDIS GOD_DERZELAS GOD_ZBELSURDOS
+			GOD_SABAZIOS GOD_PLEISTOROS GOD_KOTYS GOD_GEBELEXIS GOD_ZEMELA GOD_BASSAREOS GOD_BENDIS GOD_DERZELAS GOD_ZBELSURDOS
 		}
 		evil_god_names = {
 			GOD_ZUML
@@ -444,5 +452,44 @@ european_group = {
 		intermarry = ishalitethai
 		intermarry = pantes_theoi
 		intermarry = assussani
+		intermarry = doumos
+	}
+	
+	doumos = {
+		icon = 20
+		heresy_icon = 20
+		
+		scripture_name = WITIOS
+		priest_title = ALU
+		crusade_name = GREAT_HOLY_WAR
+
+		color = { 1 0.8 0 }
+		
+		high_god_name = GOD_KUBELEYA
+		
+		god_names = {
+			GOD_KUBELEYA GOD_SABAZIOS 
+		}
+		evil_god_names = {
+			GOD_ZUML
+		}
+		
+		allow_rivermovement = yes
+		allow_looting = yes
+		allow_viking_invasion = yes
+		max_consorts = 4
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		female_temple_holders = yes
+		
+		intermarry = barqos
+		intermarry = bene_elihi
+		intermarry = ili_abinia
+		intermarry = egal_assur
+		intermarry = haianiluwi
+		intermarry = ishalitethai
+		intermarry = pantes_theoi
+		intermarry = assussani
+		intermarry = dentudisas
 	}
 }

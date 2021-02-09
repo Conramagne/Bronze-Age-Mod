@@ -1290,6 +1290,37 @@ opinion_of_devotion_telipinu = {
 	max_decimals = 0
 }
 
+opinion_of_devotion_sabazios = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+opinion_of_devotion_pleistoros = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+opinion_of_devotion_derzelas = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+opinion_of_devotion_kubeleya = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
 #Stewardship Opinions
 opinion_of_indulgent_wastrel = {
 	show_as_percent = no

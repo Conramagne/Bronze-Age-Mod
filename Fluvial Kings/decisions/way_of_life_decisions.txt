@@ -52,6 +52,9 @@ targetted_decisions = {
 			has_focus = focus_seduction
 			is_marriage_adult = yes
 			NOT = { trait = incapable }
+			NOT = {
+				has_character_flag = flag_god
+			}
 			prisoner = no
 			NOT = { has_any_opinion_modifier = opinion_seducing }
 			OR = {
@@ -86,6 +89,9 @@ targetted_decisions = {
 		}
 		
 		potential = {
+			NOT = {
+				has_character_flag = flag_god
+			}
 			is_marriage_adult = yes
 			NOT = { character = FROM }
 			NOT = { trait = incapable }
@@ -431,8 +437,14 @@ targetted_decisions = {
 			prisoner = no
 			NOT = { has_any_opinion_modifier = opinion_spying_on }
 			NOT = { has_any_opinion_modifier = opinion_breaking_out }
+			NOT = {
+				has_character_flag = flag_god
+			}
 		}
 		potential = {
+			NOT = {
+				has_character_flag = flag_god
+			}
 			NOT = { trait = incapable }
 			same_realm = FROM
 			NOT = { character = FROM }
@@ -683,6 +695,9 @@ targetted_decisions = {
 			NOT = { is_inaccessible_trigger = yes }
 			NOT = { had_character_flag = { flag = inviting_guests_to_party_timer days = 90 } }
 			NOT = { has_character_flag = party_host }
+			NOT = {
+				has_character_flag = flag_god
+			}
 		}
 		potential = {
 			is_adult = yes

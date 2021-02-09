@@ -262,9 +262,9 @@ obj_land_for_daughter = {
 	type = character
 	
 	potential = {
-			NOT = {
-				has_character_flag = flag_god
-			}
+		NOT = {
+			has_character_flag = flag_god
+		}
 		independent = no
 		is_nomadic = no
 		OR = { 

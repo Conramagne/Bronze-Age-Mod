@@ -79,6 +79,36 @@ conversion_removal_effect = {
 		remove_boon_arinniti_effect = yes
 		remove_curse_arinniti_effect = yes
 	}
+	if = {
+		limit = {
+			religion = dentudisas
+			NOT = {
+				trait = devotion_kubeleya
+			}
+		}
+		remove_boon_kubeleya_effect = yes
+		remove_curse_kubeleya_effect = yes
+	}
+	if = {
+		limit = {
+			religion = doumos
+			NOT = {
+				trait = devotion_pleistoros
+			}
+		}
+		remove_boon_pleistoros_effect = yes
+		remove_curse_pleistoros_effect = yes
+	}
+	if = {
+		limit = {
+			religion = doumos
+			NOT = {
+				trait = devotion_derzelas
+			}
+		}
+		remove_boon_derzelas_effect = yes
+		remove_curse_derzelas_effect = yes
+	}
 }
 
 boon_or_no_boon_effect = {
@@ -546,6 +576,33 @@ apply_random_boon_effect = {
 			}
 		}
 	}
+	if = {
+		limit = {
+			FROM = {
+				trait = kubeleya
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = kubeleya_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = kubeleya_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = kubeleya_boon_3
+					years = 5
+				}
+			}
+		}
+	}
 }
 
 apply_random_special_boon_effect_klutotoxos = {
@@ -676,6 +733,11 @@ remove_boon_derzelas_effect = {
 	remove_character_modifier = derzelas_boon_3
 }
 
+remove_boon_kubeleya_effect = {
+	remove_character_modifier = kubeleya_boon_1
+	remove_character_modifier = kubeleya_boon_2
+	remove_character_modifier = kubeleya_boon_3
+}
 
 remove_boon_zeus_effect = {
 	remove_character_modifier = zeus_boon_1
@@ -1157,6 +1219,33 @@ apply_random_curse_effect_FROMFROM = {
 			}
 		}
 	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = kubeleya
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = kubeleya_curse_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = kubeleya_curse_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = kubeleya_curse_3
+					years = 5
+				}
+			}
+		}
+	}
 }
 
 remove_boon_effect_FROMFROM = {
@@ -1266,6 +1355,14 @@ remove_boon_effect_FROMFROM = {
 		}
 		remove_boon_derzelas_effect = yes
 	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = kubeleya
+			}
+		}
+		remove_boon_kubeleya_effect = yes
+	}
 }
 
 remove_curse_effect = {
@@ -1357,6 +1454,12 @@ remove_curse_derzelas_effect = {
 	remove_character_modifier = derzelas_curse_1
 	remove_character_modifier = derzelas_curse_2
 	remove_character_modifier = derzelas_curse_3
+}
+
+remove_curse_kubeleya_effect = {
+	remove_character_modifier = kubeleya_curse_1
+	remove_character_modifier = kubeleya_curse_2
+	remove_character_modifier = kubeleya_curse_3
 }
 
 
@@ -1833,6 +1936,28 @@ ai_make_sacrifice_to_evaluation_effect = {
 				ai_sacrifice_success_or_fail = yes
 			}
 		}
+		30 = { #Kubeleya
+			trigger = {
+				OR = {
+					religion = doumos
+					trait = devotion_kubeleya
+				}
+				c_1200003 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1200003 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+		}
+
 	}
 }
 
@@ -2239,7 +2364,7 @@ ai_request_boon_evaluation_effect = {
 			}
 		}
 	
-		40 = { #Tarhunna
+		40 = { #Sabazios
 			trigger = {
 				OR = {
 					religion_group = european_group
@@ -2264,10 +2389,14 @@ ai_request_boon_evaluation_effect = {
 					received_sacrifice_recently_trigger = yes
 				}
 			}
+			modifier = {
+				factor = 3
+				likes_war_god_trigger = yes
+			}
 		}
-		30 = { #Arinniti
+		30 = { #Pleistoros
 			trigger = {
-				c_1000001 = {
+				c_1200001 = {
 					NOT = {
 						reverse_has_opinion_modifier = {
 							who = ROOT
@@ -2276,32 +2405,38 @@ ai_request_boon_evaluation_effect = {
 					}
 				}
 				OR = {
-					religion_group = european_group
+					religion = dentudisas
 					trait = syncretic_european_group
+					trait = devotion_pleistoros
 				}
 			}
-			c_1000001 = {
+			c_1200001 = {
 				save_event_target_as = target_god
 				boon_or_no_boon_effect = yes
 			}
 			modifier = {
 				factor = 100
-				c_1000001 = {
+				c_1200001 = {
 					received_sacrifice_recently_trigger = yes
 				}
 			}
 			modifier = {
 				factor = 3
-				trait = devotion_arinniti
+				trait = devotion_pleistoros
+			}
+			modifier = {
+				factor = 3
+				likes_war_god_trigger = yes
 			}
 		}
 		30 = { #Derzelas
 			trigger = {
 				OR = {
-					religion_group = european_group
+					religion = dentudisas
 					trait = syncretic_european_group
+					trait = devotion_derzelas
 				}
-				c_1000002 = {
+				c_1200002 = {
 					NOT = {
 						reverse_has_opinion_modifier = {
 							who = ROOT
@@ -2319,6 +2454,40 @@ ai_request_boon_evaluation_effect = {
 				c_1200002 = {
 					received_sacrifice_recently_trigger = yes
 				}
+			}
+			modifier = {
+				factor = 3
+				trait = devotion_derzelas
+			}
+		}
+		30 = { #Kubeleya
+			trigger = {
+				OR = {
+					religion = doumos
+					trait = syncretic_european_group
+				}
+				c_1200003 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1200003 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1200003 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 3
+				trait = devotion_kubeleya
 			}
 		}
 	}
@@ -2708,6 +2877,33 @@ ai_apply_random_boon_effect = {
 			33 = {
 				add_character_modifier = {
 					modifier = derzelas_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = kubeleya
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = kubeleya_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = kubeleya_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = kubeleya_boon_3
 					years = 5
 				}
 			}

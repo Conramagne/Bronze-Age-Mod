@@ -154,29 +154,29 @@ EVTDESCFKREL1;You gather the choicest treasures from the enemy plunder, and offe
 OPTAFKREL1;I pillage in the name of [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
 
 ###########Devotion Decision Events###########
-choose_devotion;Devote Yourself to a God of the [Root.Religion.GetFullName] Pantheon;;;;;;;;;;;;;x
-choose_devotion_desc;The [Root.Religion.GetFullName] Pantheon has many gods to choose from, perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
+choose_devotion_pihassasi;Devote Yourself to a God of the Pihassasi Pantheon;;;;;;;;;;;;;x
+choose_devotion_pihassasi_desc;The Pihassasi Pantheon has many gods to choose from, perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
 switch_devotion;Devote Yourself to Another God;;;;;;;;;;;;;x
-switch_devotion_desc;The [Root.Religion.GetFullName] Pantheon has many gods to choose from perhaps it is time devote yourself to another...;;;;;;;;;;;;;x
+switch_devotion_desc;Pantheons have many gods to choose from perhaps it is time devote yourself to another...;;;;;;;;;;;;;x
 dedicate_child;Dedicate your Child to a God;;;;;;;;;;;;;x
 dedicate_child_desc;Dedicate your child to a god of the [Root.Religion.GetFullName] Pantheon.;;;;;;;;;;;;;x
 absolve_curse_sacrifice;Sacrifice to Absolve the Gods' curse!;;;;;;;;;;;;;x
 absolve_curse_sacrifice_desc;Sacrifice to absolve the gods' curse which was laid upon you.;;;;;;;;;;;;;x
 
-EVTDESCFKREL100;You enter the temple complex, cleansed and in the proper garb. The priests of each deity eagerly await your choice of patron, they display the images of their mighty lives and deeds... Now is the time to choose.;;;;;;;;;;;;;x
-EVTDESCFKREL101;You enter the temple complex along with your child, cleansed and in the proper garb. The priests of each deity eagerly await your choice of patron for your young one, they display the images of their mighty lives and deeds... Now is the time to choose.;;;;;;;;;;;;;x
+EVTDESCFKREL101;You enter the temple complex, cleansed and in the proper garb. The priests of each deity eagerly await your choice of patron, they display the images of their mighty lives and deeds... Now is the time to choose.;;;;;;;;;;;;;x
 
-EVTOPTAFKREL100;"I devote myself to you oh Lord of the Land, Heavenly Sovereign.";;;;;;;;;;;;;x
-EVTOPTBFKREL100;"I devote myself to you, The Sun of the Earth, fairest of all.";;;;;;;;;;;;;x
-EVTOPTCFKREL100;"I devote myself to you, Exalted Son of Tarhunna, Prince of all.";;;;;;;;;;;;;x
+EVTOPTAFKREL101;"I devote myself to you oh Lord of the Land, Heavenly Sovereign.";;;;;;;;;;;;;x
+EVTOPTBFKREL101;"I devote myself to you, The Sun of the Earth, fairest of all.";;;;;;;;;;;;;x
+EVTOPTCFKREL101;"I devote myself to you, Exalted Son of Tarhunna, Prince of all.";;;;;;;;;;;;;x
 
 EVTOPTDFKREL100;"I devote myself to you who greatest shines upon Horseback...";;;;;;;;;;;;;x
 EVTOPTEFKREL100;"I devote myself to you Guiding Spear upon the Plains...";;;;;;;;;;;;;x
 EVTOPTFFKREL100;"I devote myself to you oh Lord who brings life to every soul...";;;;;;;;;;;;;x
 
-EVTOPTAFKREL101;"I devote my child to you, oh Lord of all lands...";;;;;;;;;;;;;x
-EVTOPTBFKREL101;"I devote my child to you, The Sun of the Earth...";;;;;;;;;;;;;x
-EVTOPTCFKREL101;"I devote my child to you, Exalted Son of Tarhunna...";;;;;;;;;;;;;x
+EVTDESCFKREL200;You enter the temple complex along with your child, cleansed and in the proper garb. The priests of each deity eagerly await your choice of patron for your young one, they display the images of their mighty lives and deeds... Now is the time to choose.;;;;;;;;;;;;;x
+EVTOPTAFKREL200;"I devote my child to you, oh Lord of all lands...";;;;;;;;;;;;;x
+EVTOPTBFKREL200;"I devote my child to you, The Sun of the Earth...";;;;;;;;;;;;;x
+EVTOPTCFKREL200;"I devote my child to you, Exalted Son of Tarhunna...";;;;;;;;;;;;;x
 
 EVTDESCFKP206;You call upon the temple functionaries to allow you access to an altar, so that you may perform the sacrifices needed to appease the gods.;;;;;;;;;;;;;x
 EVTOPTAFKP206;May this offering appease the gods!;;;;;;;;;;;;;x
@@ -558,12 +558,10 @@ EVTOPTATW26;Rage...;;;;;;;;;;;;;x
 EVTDESCTW27;Praise the gods, swift-footed Akhilleus has swallowed his pride and returned to the fray!;;;;;;;;;;;;;x
 EVTOPTATW27;May the Trojans quake with fear!;;;;;;;;;;;;;x
 
-EVTDESCTW28;The state of the Achaeans fills me with despair, as a last resort I approach Akhilleus and say:
-“I feel grief for the disaster that has now befallen the Argives... Let me wear your armor - the Trojans may mistake me for you and quit the field!”;;;;;;;;;;;;;x
+EVTDESCTW28;The state of the Achaeans fills me with despair, as a last resort I approach Akhilleus and say: “I feel grief for the disaster that has now befallen the Argives... Let me wear your armor - the Trojans may mistake me for you and quit the field!”;;;;;;;;;;;;;x
 EVTOPTATW28;Will he say yes?;;;;;;;;;;;;;x
 
-EVTDESCTW29;Pátroklos comes before you with tears streaming from his eyes. 
-“I feel grief for the disaster that has now befallen the Argives... Let me wear your armor - the Trojans may mistake me for you and quit the field!”;;;;;;;;;;;;;x
+EVTDESCTW29;Pátroklos comes before you with tears streaming from his eyes. “I feel grief for the disaster that has now befallen the Argives... Let me wear your armor - the Trojans may mistake me for you and quit the field!”;;;;;;;;;;;;;x
 EVTOPTATW29;I may relent, but do not keep all the glory for yourself...;;;;;;;;;;;;;x
 
 EVTDESCTW30;I gird myself in the flashing armor of Akhilleus and make ready to take the field.;;;;;;;;;;;;;x
@@ -578,8 +576,7 @@ EVTDESCTW31;In the middle of the battle-fray I see wounded 'Akhilleus' - helples
 EVTOPTATW31;Akhilleus could not help you today, Pátroklos...;;;;;;;;;;;;;x
 
 EVTTITLETW32;Death of Pátroklos;;;;;;;;;;;;;x
-EVTDESCTW32;"Son of noble Peleus, I bring you bad tidings, would indeed that they were untrue. Pátroklos has fallen, and-"
-Darkness, darkness. I grab the filth and dust of the earth and pour it over my head, with a terrible ragged shout I fall upon the ground and tear away at my clothes and hair with hands twisted into claws. The women of the camp wail and shriek with grief, my cries are heard by Mother Thetis in the depths of the sea, and all of her sister-goddesses weep and beat their breasts.;;;;;;;;;;;;;x
+EVTDESCTW32;"Son of noble Peleus, I bring you bad tidings, would indeed that they were untrue. Pátroklos has fallen, and-"Darkness, darkness. I grab the filth and dust of the earth and pour it over my head, with a terrible ragged shout I fall upon the ground and tear away at my clothes and hair with hands twisted into claws. The women of the camp wail and shriek with grief, my cries are heard by Mother Thetis in the depths of the sea, and all of her sister-goddesses weep and beat their breasts.;;;;;;;;;;;;;x
 EVTOPTATW32;He whom I loved as dearly as my own life.;;;;;;;;;;;;;x
 EVTOPTATW32_TT;Thetis has Haphaistos craft new armor and an ornate shield for your return.;;;;;;;;;;;;;x
 
@@ -589,8 +586,7 @@ EVTDESCBTW33;Raging and grieving Akhilleus has returned to the fray, his shouts 
 EVTOPTAATW33;Troy will bleed...;;;;;;;;;;;;;x
 EVTOPTABTW33;Apollon protect us!;;;;;;;;;;;;;x
 
-EVTDESCATW34;"Son of Atreus, king of men Agamemnon, you can give such gifts as you think proper, or you can withhold them, let us now prepare for battle...”\n
-I have made peace with Agamemnon who showers me with gifts, including my lost concubine Briseis. Paying little mind to her, I strap on the new forged gear made for you by strong-handed Hephaistos and head off to battle as Briseis mourns the death of Pátroklos.;;;;;;;;;;;;;x
+EVTDESCATW34;"Son of Atreus, king of men Agamemnon, you can give such gifts as you think proper, or you can withhold them, let us now prepare for battle...”\nI have made peace with Agamemnon who showers me with gifts, including my lost concubine Briseis. Paying little mind to her, I strap on the new forged gear made for you by strong-handed Hephaistos and head off to battle as Briseis mourns the death of Pátroklos.;;;;;;;;;;;;;x
 EVTDESCBTW34;Entering my camp, I see that Agamemnon has ordered my spoils be returned to me. I have made peace with Agamemnon who sends me gifts, including my lost concubine Briseis. Paying little mind to her, I strap on the new forged gear made for you by strong-handed Hephaistos and head off to battle as Briseis mourns the death of Pátroklos.;;;;;;;;;;;;;x
 EVTOPTATW34;I will give the Trojans their share of fighting...;;;;;;;;;;;;;x
 
@@ -608,8 +604,7 @@ EVTOPTABTW91;May he rest.;;;;;;;;;;;;;x
 EVTDESCTW38;"Iron-hearted.... beware... my curse, the god's wrath... Paris and Apollon... death at the Scaean Gates!"\nThen my Myrmidons fell on him, stabbing his corpse ten, twenty times over for every blow he gave to Pátroklos. But it is not enough. I pierce his heels, knot them to rawhide, lash them to my chariot. Fast as the wind my horses fly, dragging his body in the dust across the plain. A great cry rings out on the walls of Ilium -- the mother of Hektor tearing out her hair, Dardan Priam with tears coursing down his face. Lament! Lament! No Trojan can feel a tenth of the agony he has caused me, by taking Pátroklos! I will not suffer his murderer to be mourned before him! I turn my horses to the camps, dragging Hektor's broken body behind me.;;;;;;;;;;;;;x
 EVTOPTATW38;Not even in death shall I forget you, my Pátroklos.;;;;;;;;;;;;;x
 
-EVTDESCTW39;A figure draws near, the mournful shade of dead Pátroklos.
-"You sleep, Akhilleus, and have forgotten me - you loved me living, but now that I am dead you think for me no further. Bury me with all speed that I may pass the gates of Hades.”\nI open my arms to embrace him, but there was nothing, and the spirit vanishes as a vapor.;;;;;;;;;;;;;x
+EVTDESCTW39;A figure draws near, the mournful shade of dead Pátroklos. "You sleep, Akhilleus, and have forgotten me - you loved me living, but now that I am dead you think for me no further. Bury me with all speed that I may pass the gates of Hades.”\nI open my arms to embrace him, but there was nothing, and the spirit vanishes as a vapor.;;;;;;;;;;;;;x
 EVTOPTATW39;I shall carry out his final wish.;;;;;;;;;;;;;x
 
 EVTTITLETW40;Funeral Games for Pátroklos;;;;;;;;;;;;;x

@@ -145,6 +145,8 @@ dentudisas;Dentudisas;;;;;;;;;;;;;x
 dentudisas_DESC;Thrax’s sons are a ferocious and tempestuous lot, according to some they are the most numerous of all the peoples in the world. The clang of metal, the sweet sound of the war horn and the rattle of the javelin resound throughout the land while the moldering bones of ancient kings lay upon piles of weapons and treasure beneath high burial mounds. Sabázios the fair horseman gallops across the heavens and tramples the serpents under the sharp hooves of his steed. Woe to the enemies of Thrax, for when taken in battle they are almost always offered in sacrifice to battle-glad Pleistoros.;;;;;;;;;;;;;x
 dentudisas_FEATURES;§Y*§! Dentudisas rulers may contact the gods Sabázios, Pleistoros, and Derzelas.\n;;;;;;;;;;;;;x
 
+doumos;Doumos;;;;;;;;;;;;;x
+doumos_FEATURES;§Y*§! Doumos rulers may contact the gods Sabázios and Kubeleya.\n;;;;;;;;;;;;;x
 
 ###########Gods and Books###########
 THE_AMURRU_KTOVET;The Amurru K'tovet;;;;;;;;;;;;;x
@@ -155,6 +157,7 @@ THE_NESILI_ISTANDANT;The Nešili Istandant;;;;;;;;;;;;;x
 THE_SURAS_LEGENDS;The Suras' Legends;;;;;;;;;;;;;x
 THE_TORAH;The Torah;;;;;;;;;;;;;x
 THE_QOS_KTOVET;The Qos K'tovet;;;;;;;;;;;;;x
+WITIOS;Witios;;;;;;;;;;;;;x #From Phrygian wit- (to know), and tios (gods)
 
 GOD_ADONAI;Adonai;;;;;;;;;;;;;x
 GOD_AMURRU;Amurru;;;;;;;;;;;;;x
@@ -200,6 +203,7 @@ GOD_LAMASHTU;Lamashtu;;;;;;;;;;;;;x
 GOD_LITANU;Litanu;;;;;;;;;;;;;x
 GOD_KOTYS;Kotys;;;;;;;;;;;;;x
 GOD_KRONOS;Kronos;;;;;;;;;;;;;x
+GOD_KUBELEYA;Kubeleya;;;;;;;;;;;;;x
 GOD_MANAT;Manat;;;;;;;;;;;;;x
 GOD_MARDUK;Marduk;;;;;;;;;;;;;x
 GOD_MOLEK;Molek;;;;;;;;;;;;;x
@@ -231,6 +235,7 @@ GOD_ZUML;Zuml;;;;;;;;;;;;;x
 KOHEN;kohen;;;;;;;;;;;;;x
 SANKUNNI;sankunni;;;;;;;;;;;;;x
 HIEREUS;hiereús;;;;;;;;;;;;;x
+ALU;alu;;;;;;;;;;;;;x
 
 ###########Fluvial King Casus Belli###########
 CB_NAME_HELLENIC_BIRTHRIGHT;Divine Birthright War for [Title.GetBaseName];;;;;;;;;;;;;x
@@ -574,13 +579,22 @@ midas_touched_opinion_EXPLANATION; (effect on Midas Touched);;;;;;;;;;;;;x
 strong_opinion;Strong Character Opinion;;;;;;;;;;;;;x
 strong_opinion_EXPLANATION; (effect on Strong);;;;;;;;;;;;;x
 
-#devotion opinions
+#Devotion opinions
 opinion_of_devotion_tarhunna;Opinion of Devoted to Tarhunna;;;;;;;;;;;;;x
 opinion_of_devotion_tarhunna_EXPLANATION; (opinion on Devoted to Tarhunna);;;;;;;;;;;;;x
 opinion_of_devotion_arinniti;Opinion of Devoted to Arinniti;;;;;;;;;;;;;x
 opinion_of_devotion_arinniti_EXPLANATION; (opinion on Devoted to Arinniti);;;;;;;;;;;;;x
 opinion_of_devotion_telipinu;Opinion of Devoted to Telipinu;;;;;;;;;;;;;x
 opinion_of_devotion_telipinu_EXPLANATION; (opinion on Devoted to Telipinu);;;;;;;;;;;;;x
+
+opinion_of_devotion_sabazios;Opinion of Devoted to Sabazios;;;;;;;;;;;;;x
+opinion_of_devotion_sabazios_EXPLANATION; (opinion on Devoted to Sabazios);;;;;;;;;;;;;x
+opinion_of_devotion_pleistoros;Opinion of Devoted to Pleistoros;;;;;;;;;;;;;x
+opinion_of_devotion_pleistoros_EXPLANATION; (opinion on Devoted to Pleistoros);;;;;;;;;;;;;x
+opinion_of_devotion_derzelas;Opinion of Devoted to Derzelas;;;;;;;;;;;;;x
+opinion_of_devotion_derzelas_EXPLANATION; (opinion on Devoted to Derzelas);;;;;;;;;;;;;x
+opinion_of_devotion_kubeleya;Opinion of Devoted to Kubeleya;;;;;;;;;;;;;x
+opinion_of_devotion_kubeleya_EXPLANATION; (opinion on Devoted to Kubeleya);;;;;;;;;;;;;x
 
 #Religion Opinion
 pihassasi_opinion;[pihassasi.GetName] Character Opinion;;;;;;;;;;;;;x
@@ -754,7 +768,7 @@ syncretic_pihassasi_desc;This character is syncretic with with those of the [pih
 syncretic_hellenic;Syncretic with [hellenic.GetName];;;;;;;;;;;;;x
 syncretic_hellenic_desc;This character is syncretic with with those of the [hellenic.GetName] Pantheon, and may interact with the gods Zeus, Ares, Athenâ, Demeter, Apollon, Hermes, and Aphrodite.;;;;;;;;;;;;;x
 syncretic_european_group;Syncretic with [european_group.GetName];;;;;;;;;;;;;x
-syncretic_european_group_desc;This character is syncretic with with those of the [european_group.GetName] Pantheon, and may interact with the gods Sabázios, Pleistoros, and Derzelas.;;;;;;;;;;;;;x
+syncretic_european_group_desc;This character is syncretic with with those of the [european_group.GetName] Pantheon, and may interact with the gods Sabázios, Pleistoros, Derzelas, and Kubeleya.;;;;;;;;;;;;;x
 
 #Stratocratic Traits
 amazonian_trait;Amazonios;;;;;;;;;;;;;x

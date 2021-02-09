@@ -130,11 +130,14 @@ character_event = {
 							NOT = {
 								holder = ROOT
 							}
-							NOT = {
+							NOR = {
 								ROOT = {
 									any_realm_lord = {
 										has_landed_title = PREVPREV
 									}
+								}
+								ROOT = {
+									has_landed_title = PREV
 								}
 							}
 						}
@@ -151,11 +154,14 @@ character_event = {
 							NOT = {
 								holder = ROOT
 							}
-							NOT = {
+							NOR = {
 								ROOT = {
 									any_realm_lord = {
 										has_landed_title = PREVPREV
 									}
+								}
+								ROOT = {
+									has_landed_title = PREV
 								}
 							}
 						}

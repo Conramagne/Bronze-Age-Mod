@@ -13,6 +13,12 @@ anatoliangfx = {
 doriangfx = {
 	skin_tone = 1
 }
+europeangodgfx = {
+	skin_tone = 1
+}
+hittitegodgfx = {
+	skin_tone = 1
+}
 greekgodgfx = {
 	skin_tone = 1
 }

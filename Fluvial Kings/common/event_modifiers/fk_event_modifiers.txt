@@ -276,6 +276,18 @@ derzelas_boon_3 = {
 	icon = 50
 }
 
+kubeleya_boon_1 = {
+	monthly_character_piety = 2
+	icon = 9
+}
+kubeleya_boon_2 = {
+	vassal_opinion = 10
+	icon = 9
+}
+kubeleya_boon_3 = {
+	plot_discovery_chance = 0.2
+	icon = 9
+}
 
 #Curses (Add comments on how a sacrifice can rectify this for the description)
 tarhunna_curse_1 = {
@@ -464,6 +476,19 @@ derzelas_curse_3 = {
 		defence = -0.1
 	}
 	icon = 51
+}
+
+kubeleya_curse_1 = {
+	monthly_character_piety = -2
+	icon = 27
+}
+kubeleya_curse_2 = {
+	vassal_opinion = -10
+	icon = 27
+}
+kubeleya_curse_3 = {
+	plot_discovery_chance = -0.2
+	icon = 27
 }
 
 

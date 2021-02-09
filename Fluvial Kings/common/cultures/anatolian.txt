@@ -261,46 +261,16 @@ anatolian = {
 	}
 
 	pihassasi = {
-		graphical_cultures = { anatoliangfx }
+		graphical_cultures = { hittitegodgfx }
 
 		color = { 0.8 0.3 0.3 }
 
 		male_names = {
-			Adduwa Ahabbu Ahuni Alalimi Alihhešni Ali-ziti Alluwamna Ambaris Ammuna Anitta Appuašu Ariyahina Ari-Šarruma Arnuwanda Arnuwanti Ashwisi Astiruwa Astuwalamanza Awariku Azatiwata
-			Bamah Bentišina
-			Dadi-Ilu
-			Eni-Ilu
-			Gabbar Gunzinanu Gurdi Gusi
-			Hadram Hadyan Halpa-šulupi Hamiyata Hannutti Hapatila Hattuša-Kurunta Hattušili Hantili Hayya Hazael Hešni Hilaruada Hulli Huzziya
-			Ini-Teššub Ir-Teššub Iškallu 
-			Kamani Kammaliya Katuwa Katuzili Kilamuwa Kikki Kirua Kirri Kiyakiya Kundašpu Kupanta-Kurunta Kurti Kurunta Kuzi-Teššub   
-			Labarna Lalli Larama
-			Mahhuzzi Manana Mari Martiti Mašturi Mati-Ilu Mittanna-muwa Mugallu Muršili Muwaharani Muwattalli Muwizi    
-			Nerikkaili
-			Palla Panamuwa Parita Pihirim Pisiri Piyamaradu Piyaššili Puhamme   
-			Raqianu Runtiya 
-			Šahurunuwa  Sanduarri Sangara Sahu Sahwi Sandasarme Saruwani Sasi Sastura Satiruntiya Suhi Sulumal Šuppiluliuma Suwarimi Surri   
-			Taita Talmi-Teššub Tarhunazi Tarhunta-piya Tašmi-Šarruma Telipinu Toi Tudhaliya Tuhamme Tulli Tutammu Tuttu Tuwati 
-			Uhha-ziti Ulmi-Teššub Uppara-muwa Urahilina Urhi-Teššub Uratami Uratarhunza Urimme Ušhitti
-			Walwa-ziti Warpalawa Wasuruntiya Wasusarma
-			Zakur Zannanza Zida Zidanta
-			Yariri Yau-bidi
-			Qarli 
+			a_a
 		}
 		
 		female_names = {
-			Arinna Ašmu-nikal
-			Estan 
-			Gaššulawiya
-			Harapšili Harapšeki Haštayara Hebat Henti
-			Ištapariya Istustaya 
-			Kali Kiluš-Hepa
-			Maššanauzzi Muwatti
-			Nikal-mati
-			Papaya Pudu-Hepa
-			Tadu-Hepa Tanu-Hepa Tawannanna
-			Walanni Wirisemu
-			Yaya
+			b_b
 		}
 
 		from_dynasty_prefix = "of "

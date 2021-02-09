@@ -5039,24 +5039,15 @@
 }
 
 #Royal Family of Ismarus (2103300-2103399)
-2103300 = { #Euphemos, King of Ismarus
-	name = "Euphemos"
+2103300 = { #Rhesus, King of Ismarus
+	name = "Rhesus"
 	dynasty = 2100035 #Troezenid
 	culture = thracian
 	religion = dentudisas
-	father = 2103301
+	father = 1100274
+	mother = 1100275
 	2501.1.1 = { birth = yes }
 	2561.1.1 = { death = yes }
-}
-
-2103301 = { #Troezenos, King of Ismarus
-	name = "Troezenos"
-	dynasty = 2100035 #Troezenid
-	culture = thracian
-	religion = dentudisas
-	disallow_random_traits = yes
-	2471.1.1 = { birth = yes }
-	2521.1.1 = { death = yes }
 }
 
 #Royal Family of Khersonesos (2103400-2103499)

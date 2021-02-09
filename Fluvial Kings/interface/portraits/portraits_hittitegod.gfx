@@ -2,19 +2,19 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_greekgod_male_base"
-		texturefile = "gfx\\characters\\god\\greekgod_male_portrait.dds"
-		noOfFrames = 22
+		name = "GFX_hittitegod_male_base"
+		texturefile = "gfx\\characters\\god\\hittitegod_male_portrait.dds"
+		noOfFrames = 3
 		norefcount = yes
 	}
 
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
 	portraitType = {
-		name = "PORTRAIT_greekgodgfx_male"
+		name = "PORTRAIT_hittitegodgfx_male"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
-			"GFX_greekgod_male_base:p2"
+			"GFX_hittitegod_male_base:p2"
 		}
 
 		hair_color_index = 8
@@ -40,10 +40,10 @@ spriteTypes = {
 	
 	# middle age
 	portraitType = {
-		name = "PORTRAIT_greekgodgfx_male1"
+		name = "PORTRAIT_hittitegodgfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
-			"GFX_greekgod_male_base:p2"
+			"GFX_hittitegod_male_base:p2"
 		}
 
 		hair_color_index = 8
@@ -69,10 +69,10 @@ spriteTypes = {
 	
 	# old age
 	portraitType = {
-		name = "PORTRAIT_greekgodgfx_male2"
+		name = "PORTRAIT_hittitegodgfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
-			"GFX_greekgod_male_base:p2"
+			"GFX_hittitegod_male_base:p2"
 		}
 
 		hair_color_index = 8
@@ -97,9 +97,9 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_greekgod_female_base"
-		texturefile = "gfx\\characters\\god\\greekgod_female_portrait.dds"
-		noOfFrames = 22
+		name = "GFX_hittitegod_female_base"
+		texturefile = "gfx\\characters\\god\\hittitegod_female_portrait.dds"
+		noOfFrames = 3
 		norefcount = yes
 	}
 
@@ -107,10 +107,10 @@ spriteTypes = {
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
 	portraitType = {
-		name = "PORTRAIT_greekgodgfx_female"
+		name = "PORTRAIT_hittitegodgfx_female"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
-			"GFX_greekgod_female_base:p2"
+			"GFX_hittitegod_female_base:p2"
 		}
 
 		hair_color_index = 8
@@ -136,10 +136,10 @@ spriteTypes = {
 	
 	# middle age
 	portraitType = {
-		name = "PORTRAIT_greekgodgfx_female1"
+		name = "PORTRAIT_hittitegodgfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
-			"GFX_greekgod_female_base:p2"
+			"GFX_hittitegod_female_base:p2"
 		}
 
 		hair_color_index = 8
@@ -165,10 +165,10 @@ spriteTypes = {
 	
 	# old age
 	portraitType = {
-		name = "PORTRAIT_greekgodgfx_female2"
+		name = "PORTRAIT_hittitegodgfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
-			"GFX_greekgod_female_base:p2"
+			"GFX_hittitegod_female_base:p2"
 		}
 
 		hair_color_index = 8

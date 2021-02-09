@@ -316,3 +316,31 @@ scepter_agamemnon = {
         }
     }
 }
+
+cup_nestor = {
+    max_amount = 1
+    spawn_date = 2527.1.1
+	
+	spawn_chance = {
+		value = 100
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Holy Fury" }
+		}
+	}
+    
+    weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			primary_title = {
+				title = d_messenia
+			}
+		}
+	}
+    artifacts = {
+        cup_nestor = {
+            value = 1
+        }
+    }
+}
