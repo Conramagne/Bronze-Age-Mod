@@ -91,7 +91,7 @@
 
 2000008 = {
 	name = "Arnuwanda" # Arnuwanda I
-	dynasty = 2000000 #Labarnid
+	# dynasty = 2000000 #Labarnid
 	culture = hittite
 	religion = ishalitethai
 	2321.1.1 = { birth = yes }
@@ -172,7 +172,7 @@
 
 2000016 = {
 	name = "Telipinu" # Telipinu I
-	dynasty = 2000000
+	# dynasty = 2000000
 	culture = hittite
 	religion = ishalitethai
 	2176.1.1 = { birth = yes }
@@ -203,7 +203,7 @@
 
 2000019 = {
 	name = "Zidanta" # Zidanta I
-	dynasty = 2000000
+	# dynasty = 2000000
 	culture = hittite
 	religion = ishalitethai
 	2131.1.1 = { birth = yes }
@@ -213,7 +213,7 @@
 
 2000020 = {
 	name = "Hantili" # Hantili I
-	dynasty = 2000000
+	# dynasty = 2000000
 	culture = hittite
 	religion = ishalitethai
 	2111.1.1 = { birth = yes }
@@ -243,7 +243,7 @@
 
 2000023 = {
 	name = "Labarna" #Labarna I
-	dynasty = 2000000
+	# dynasty = 2000000
 	culture = hittite
 	religion = ishalitethai
 	2061.1.1 = { birth = yes }
@@ -399,7 +399,7 @@
 2002005 = {
 	name = "Pudu-Hepa"
 	female = yes
-	dynasty = 2000000
+	# dynasty = 2000000
 	culture = hittite
 	religion = ishalitethai
 	trait = mastermind_theologian

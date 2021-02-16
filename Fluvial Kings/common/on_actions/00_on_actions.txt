@@ -95,6 +95,7 @@ on_yearly_pulse = {
 		# tw.8 #Achilles raids the countryside
 		
 		fkcg.1 #Greek Drought Set-Up
+		fkca.1 #Anatolia Drought Set-Up
 	}
 	
 	random_events = {

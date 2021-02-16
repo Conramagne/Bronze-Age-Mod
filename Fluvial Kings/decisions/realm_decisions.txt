@@ -820,235 +820,235 @@ decisions = {
 		}
 	}
 	
-	convert_to_republic_indep  = {
-		only_independent = yes
-		is_high_prio = yes
+	# convert_to_republic_indep  = {
+		# only_independent = yes
+		# is_high_prio = yes
 		
-		potential = {
-			NOT = {
-				has_character_flag = flag_god
-			}
-			is_playable = yes
-			is_tribal = yes
-			independent = yes
-			has_dlc = "The Republic"
-		}
-		allow = {
-			war = no
-			is_female = no
-			higher_tier_than = COUNT
-			custom_tooltip = {
-				text = TT_NOT_UNREFORMED_PAGAN
-				hidden_tooltip = {
-					OR = {
-						NOT = { religion_group = pagan_group }
-						is_reformed_religion = yes
-					}
-				}
-			}
-			primary_title = { has_law = tribal_organization_4 }
-			capital_scope = {
-				port = yes
-			}
-			capital_holding = {
-				OR = {
-					AND = {
-						holding_type = tribal
-						has_building = tb_market_town_4
-					}
-					holding_type = city
-				}
-			}
-		}
+		# potential = {
+			# NOT = {
+				# has_character_flag = flag_god
+			# }
+			# is_playable = yes
+			# is_tribal = yes
+			# independent = yes
+			# has_dlc = "The Republic"
+		# }
+		# allow = {
+			# war = no
+			# is_female = no
+			# higher_tier_than = COUNT
+			# custom_tooltip = {
+				# text = TT_NOT_UNREFORMED_PAGAN
+				# hidden_tooltip = {
+					# OR = {
+						# NOT = { religion_group = pagan_group }
+						# is_reformed_religion = yes
+					# }
+				# }
+			# }
+			# primary_title = { has_law = tribal_organization_4 }
+			# capital_scope = {
+				# port = yes
+			# }
+			# capital_holding = {
+				# OR = {
+					# AND = {
+						# holding_type = tribal
+						# has_building = tb_market_town_4
+					# }
+					# holding_type = city
+				# }
+			# }
+		# }
 		
-		effect = {
-			hidden_tooltip = {
-				create_family_palace = yes
+		# effect = {
+			# hidden_tooltip = {
+				# create_family_palace = yes
 				
-				set_government_type = merchant_republic_government
+				# set_government_type = merchant_republic_government
 				
-				if = {
-					limit = {
-						NOT = {
-							num_of_government_vassals = {
-								government = merchant_republic_government
-								value = 1
-							}
-						}
-					}
+				# if = {
+					# limit = {
+						# NOT = {
+							# num_of_government_vassals = {
+								# government = merchant_republic_government
+								# value = 1
+							# }
+						# }
+					# }
 					
-					any_unique_dynasty_vassal = { # gives random vassals a family palace
-						count = 4
-						limit = {
-							is_female = no
-							OR = {
-								is_republic = yes
-								is_tribal = yes
-							}
-							is_patrician = no
-							prisoner = no
-							NOT = { trait = incapable }
-							is_adult = yes
-							NOT = { 
-								dynasty = none 
-							}
-						}
+					# any_unique_dynasty_vassal = { # gives random vassals a family palace
+						# count = 4
+						# limit = {
+							# is_female = no
+							# OR = {
+								# is_republic = yes
+								# is_tribal = yes
+							# }
+							# is_patrician = no
+							# prisoner = no
+							# NOT = { trait = incapable }
+							# is_adult = yes
+							# NOT = { 
+								# dynasty = none 
+							# }
+						# }
 						
-						if = {
-							limit = { is_tribal = yes }
+						# if = {
+							# limit = { is_tribal = yes }
 							
-							hidden_tooltip = {
-								any_demesne_title = {
-									limit = {
-										tier = baron
-										holding_type = tribal
-									}
-									convert_to = CITY
-									refill_holding_levy = yes
-									location = { #Clear Tribal Great Pillars
-										clr_province_flag = flag_great_pillar_norse
-										clr_province_flag = flag_great_pillar_tengri
-										clr_province_flag = flag_great_pillar_slavic
-										clr_province_flag = flag_great_pillar_baltic
-										clr_province_flag = flag_great_pillar_finnish
-										clr_province_flag = flag_great_pillar_west_african
-										clr_province_flag = flag_great_pillar_aztec
-										clr_province_flag = flag_great_pillar_bon
-										clr_province_flag = flag_great_pillar_zun
-										clr_province_flag = flag_great_pillar_hellenic
-									}
+							# hidden_tooltip = {
+								# any_demesne_title = {
+									# limit = {
+										# tier = baron
+										# holding_type = tribal
+									# }
+									# convert_to = CITY
+									# refill_holding_levy = yes
+									# location = { #Clear Tribal Great Pillars
+										# clr_province_flag = flag_great_pillar_norse
+										# clr_province_flag = flag_great_pillar_tengri
+										# clr_province_flag = flag_great_pillar_slavic
+										# clr_province_flag = flag_great_pillar_baltic
+										# clr_province_flag = flag_great_pillar_finnish
+										# clr_province_flag = flag_great_pillar_west_african
+										# clr_province_flag = flag_great_pillar_aztec
+										# clr_province_flag = flag_great_pillar_bon
+										# clr_province_flag = flag_great_pillar_zun
+										# clr_province_flag = flag_great_pillar_hellenic
+									# }
 									
-									if = {
-										limit = {
-											dejure_liege_title = {
-												holder = PREVPREV
-												location = {
-													num_of_empty_holdings = 2
-												}
-												NOT = {
-													any_direct_de_jure_vassal_title = {
-														holding_type = castle
-													}
-												}
-											}
-										}
-										location = {
-											build_holding = {
-												type = castle
-											}
-										}
-									}
-									if = {
-										limit = {
-											dejure_liege_title = {
-												holder = PREVPREV
-												location = {
-													num_of_empty_holdings = 2
-												}
-												NOT = {
-													any_direct_de_jure_vassal_title = {
-														holding_type = temple
-													}
-												}
-											}
-										}
-										location = {
-											build_holding = {
-												type = temple
-											}
-										}
-									}
-								}
-							}
-						}
+									# if = {
+										# limit = {
+											# dejure_liege_title = {
+												# holder = PREVPREV
+												# location = {
+													# num_of_empty_holdings = 2
+												# }
+												# NOT = {
+													# any_direct_de_jure_vassal_title = {
+														# holding_type = castle
+													# }
+												# }
+											# }
+										# }
+										# location = {
+											# build_holding = {
+												# type = castle
+											# }
+										# }
+									# }
+									# if = {
+										# limit = {
+											# dejure_liege_title = {
+												# holder = PREVPREV
+												# location = {
+													# num_of_empty_holdings = 2
+												# }
+												# NOT = {
+													# any_direct_de_jure_vassal_title = {
+														# holding_type = temple
+													# }
+												# }
+											# }
+										# }
+										# location = {
+											# build_holding = {
+												# type = temple
+											# }
+										# }
+									# }
+								# }
+							# }
+						# }
 						
-						create_family_palace = yes
-					}
-				}
+						# create_family_palace = yes
+					# }
+				# }
 				
-				any_demesne_title = {
-					limit = {
-						tier = baron
-						holding_type = tribal
-					}
-					convert_to = CITY
-					refill_holding_levy = yes
-					location = { #Clear Tribal Great Pillars
-						clr_province_flag = flag_great_pillar_norse
-						clr_province_flag = flag_great_pillar_tengri
-						clr_province_flag = flag_great_pillar_slavic
-						clr_province_flag = flag_great_pillar_baltic
-						clr_province_flag = flag_great_pillar_finnish
-						clr_province_flag = flag_great_pillar_west_african
-						clr_province_flag = flag_great_pillar_aztec
-						clr_province_flag = flag_great_pillar_bon
-						clr_province_flag = flag_great_pillar_zun
-						clr_province_flag = flag_great_pillar_hellenic
-					}
+				# any_demesne_title = {
+					# limit = {
+						# tier = baron
+						# holding_type = tribal
+					# }
+					# convert_to = CITY
+					# refill_holding_levy = yes
+					# location = { #Clear Tribal Great Pillars
+						# clr_province_flag = flag_great_pillar_norse
+						# clr_province_flag = flag_great_pillar_tengri
+						# clr_province_flag = flag_great_pillar_slavic
+						# clr_province_flag = flag_great_pillar_baltic
+						# clr_province_flag = flag_great_pillar_finnish
+						# clr_province_flag = flag_great_pillar_west_african
+						# clr_province_flag = flag_great_pillar_aztec
+						# clr_province_flag = flag_great_pillar_bon
+						# clr_province_flag = flag_great_pillar_zun
+						# clr_province_flag = flag_great_pillar_hellenic
+					# }
 					
-					if = {
-						limit = {
-							dejure_liege_title = {
-								holder = ROOT
-								location = {
-									num_of_empty_holdings = 2
-								}
-								NOT = {
-									any_direct_de_jure_vassal_title = {
-										holding_type = castle
-									}
-								}
-							}
-						}
-						location = {
-							build_holding = {
-								type = castle
-							}
-						}
-					}
-					if = {
-						limit = {
-							dejure_liege_title = {
-								holder = ROOT
-								location = {
-									num_of_empty_holdings = 2
-								}
-								NOT = {
-									any_direct_de_jure_vassal_title = {
-										holding_type = temple
-									}
-								}
-							}
-						}
-						location = {
-							build_holding  ={
-								type = temple
-							}
-						}
-					}
-				}
-			}
+					# if = {
+						# limit = {
+							# dejure_liege_title = {
+								# holder = ROOT
+								# location = {
+									# num_of_empty_holdings = 2
+								# }
+								# NOT = {
+									# any_direct_de_jure_vassal_title = {
+										# holding_type = castle
+									# }
+								# }
+							# }
+						# }
+						# location = {
+							# build_holding = {
+								# type = castle
+							# }
+						# }
+					# }
+					# if = {
+						# limit = {
+							# dejure_liege_title = {
+								# holder = ROOT
+								# location = {
+									# num_of_empty_holdings = 2
+								# }
+								# NOT = {
+									# any_direct_de_jure_vassal_title = {
+										# holding_type = temple
+									# }
+								# }
+							# }
+						# }
+						# location = {
+							# build_holding  ={
+								# type = temple
+							# }
+						# }
+					# }
+				# }
+			# }
 			
-			if = {
-				limit = { ai = no }
-				set_character_flag = achievement_res_publica
-			}
+			# if = {
+				# limit = { ai = no }
+				# set_character_flag = achievement_res_publica
+			# }
 			
-			if = {
-				limit = {
-					ai = no
-				}
-				chronicle = {
-					entry = CHRONICLE_FOUNDED_MERCHANT_REPUBLIC
-					picture = GFX_evt_busy_trading_dock_republic
-				}
-			}
+			# if = {
+				# limit = {
+					# ai = no
+				# }
+				# chronicle = {
+					# entry = CHRONICLE_FOUNDED_MERCHANT_REPUBLIC
+					# picture = GFX_evt_busy_trading_dock_republic
+				# }
+			# }
 			
-			set_government_type = merchant_republic_government
-		}
+			# set_government_type = merchant_republic_government
+		# }
 		
-		ai_will_do = {
-			factor = 0
-		}
-	}
+		# ai_will_do = {
+			# factor = 0
+		# }
+	# }
 }

@@ -16,12 +16,7 @@ character_event = {
 		set_global_flag = greek_collapse
 		any_province = {
 			limit = {
-				OR = {
-					region = world_greece
-					kingdom = {
-						title = k_kupros
-					}
-				}
+				region = world_greece
 			}
 			add_province_modifier = {
 				name = severe_drought
@@ -31,12 +26,7 @@ character_event = {
 		any_playable_ruler = {
 			limit = {
 				any_demesne_province = {
-					OR = {
-						region = world_greece
-						kingdom = {
-							title = k_kupros
-						}
-					}
+					region = world_greece
 				}
 			}
 			narrative_event = { id = fkcg.2 } #Drought strikes Greece
@@ -124,7 +114,7 @@ character_event = {
 	}
 	
 	option = {
-		name = EVTOPTAFKCG2
+		name = EVTOPTAFKCG4
 		any_demesne_province = {
 			limit = {
 				has_province_modifier = severe_drought
@@ -145,7 +135,11 @@ character_event = {
 	trigger = {
 		has_landed_title = e_hellenic_pantheon
 		year = 2571
-		NOT = {
+		NOR = {
+			has_game_rule = {
+				name = greek_collapse_invasion
+				value = off
+			}
 			has_global_flag = dorian_invasion
 		}
 	}
@@ -1036,6 +1030,10 @@ character_event = {
 			has_global_flag = heracleidae_argos
 			has_global_flag = heracleidae_lacedemonia
 			has_global_flag = heracleidae_messenia
+			has_game_rule = {
+				name = greek_collapse_invasion
+				value = off
+			}
 		}
 		NOT = {
 			has_global_flag = greek_migration
@@ -1510,7 +1508,11 @@ character_event = {
 		is_landed = yes
 		culture = aeolian
 		has_global_flag = aeolian_split
-		NOT = {
+		NOR = {
+			has_game_rule = {
+				name = greek_collapse_invasion
+				value = off
+			}
 			has_global_flag = thessalian_invasion
 		}
 		any_realm_province = {
@@ -1717,16 +1719,24 @@ character_event = {
 	trigger = {
 		has_landed_title = e_hellenic_pantheon
 		has_global_flag = greek_migration
+		OR = {
+			has_game_rule = {
+				name = greek_collapse_invasion
+				value = off
+			}
+			has_global_flag = thessalian_migration
+		}
 		NOT = {
 			has_global_flag = aeolian_migration
 		}
+		year = 2661
 	}
 	
 	mean_time_to_happen = {
-		years = 80
+		years = 10
 		modifier = {
 			factor = 0.01
-			year = 2661
+			year = 2671
 		}
 	}
 	
@@ -2024,7 +2034,7 @@ character_event = {
 							target = ROOT
 							casus_belli = greek_revolt_cb
 							thirdparty_title = PREVPREV
-							tier = KING
+							tier = DUKE
 						}
 					}
 				}

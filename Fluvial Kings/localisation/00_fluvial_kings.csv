@@ -30,6 +30,10 @@ bull;Taúrou;;;;;;;;;;;;;x
 european;Europes;;;;;;;;;;;;;x
 thracian;Thraikós;;;;;;;;;;;;;x
 disakenthas;Disakenthas;;;;;;;;;;;;;x
+
+tyrrhenian;Turrhenós;;;;;;;;;;;;;x
+lemnian;Lemniakós;;;;;;;;;;;;;x
+
 ###########Government and Laws###########
 feudal_government;Local Polity;;;;;;;;;;;;;x
 feudal_government_desc;Local polities are states that have arisen from disunited tribes and confederations or have slipped out of the grasps of larger realms. Often considered nothing more than petty states with squabbling tyrants whose authority barely extends beyond the walls of their citadels, they lack the courtly grandeur and the ability to administer more than their local communities.;;;;;;;;;;;;;x
@@ -256,6 +260,10 @@ conquer_cooldown;Conquest Cooldown;;;;;;;;;;;;;x
 
 CB_NAME_TROJAN_WAR;Trojan War;;;;;;;;;;;;;x
 WAR_NAME_TROJAN_WAR;Trojan War;;;;;;;;;;;;;x
+
+CB_NAME_PHRYGIAN_INVASION;Phrygian Invasion;;;;;;;;;;;;;x
+WAR_NAME_PHRYGIAN_INVASION;$ORDER$ Phrygian Invasion for $OTHER_TITLE$;;;;;;;;;;;;;x
+
 
 ###########Bloodline Localization###########
 god_zeus_bloodline;Blood of Zeus;;;;;;;;;;;;;x

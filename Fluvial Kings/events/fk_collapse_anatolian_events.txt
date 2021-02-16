@@ -1,0 +1,1342 @@
+namespace = fkca
+
+character_event = {
+	id = fkca.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+		year = 2561
+		NOT = {
+			has_global_flag = anatolian_collapse
+		}
+	}
+	
+	immediate = {
+		set_global_flag = anatolian_collapse
+		any_province = {
+			limit = {
+				region = world_asia_minor
+			}
+			add_province_modifier = {
+				name = severe_drought
+				duration = -1
+			}
+		}
+		any_playable_ruler = {
+			limit = {
+				any_demesne_province = {
+					region = world_asia_minor
+				}
+			}
+			narrative_event = { id = fkca.2 } #Drought strikes Anatolia
+			narrative_event = { id = fkca.3 days = 100 } #Earthquakes strike Anatolia
+		}
+	}
+}
+
+#Drought strikes Anatolia
+narrative_event = {
+	id = fkca.2
+	title = EVTTITLEFKCA2
+	desc = EVTDESCFKCA2
+	hide_from = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAFKCA2
+		if = {
+			limit = {
+				primary_title = {
+					check_variable = { which = palace_bureaucracy_number value = 30 }
+				}
+			}
+			custom_tooltip = {
+				text = bureau_decrease_20_TT
+				primary_title = {
+					change_variable = { which = palace_bureaucracy_number value = -20 }
+				}
+			}
+		}
+		set_character_flag = law_no_change
+		primary_title = {
+			add_law = {
+				law = ze_administration_laws_0
+				opinion_effect = no
+			}
+		}
+		clr_character_flag = law_no_change
+	}
+}
+
+#Earthquakes strike Anatolia
+narrative_event = {
+	id = fkca.3
+	title = EVTTITLEFKCA3
+	desc = EVTDESCFKCA3
+	hide_from = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAFKCA3
+		any_demesne_province = {
+			limit = {
+				region = world_asia_minor
+			}
+			any_province_holding = {
+				destroy_random_building = THIS
+				destroy_random_building = THIS
+			}
+		}
+	}
+}
+
+#Drought Recedes
+character_event = {
+	id = fkca.4
+	desc = EVTDESCFKCA4
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = severe_drought
+		}
+		year = 2611
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAFKCA4
+		any_demesne_province = {
+			limit = {
+				has_province_modifier = severe_drought
+			}
+			remove_province_modifier = severe_drought
+			add_province_modifier = {
+				name = recovering_from_drought
+				years = 25
+			}
+		}
+	}
+}
+
+#Kaskian Invasion Set-Up
+character_event = {
+	id = fkca.5
+	hide_window = yes
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+		NOR = {
+			has_game_rule = {
+				name = anatolian_collapse_invasion
+				value = off
+			}
+			has_global_flag = kaskian_invasion
+		}
+		year = 2561
+	}
+	
+	mean_time_to_happen = {
+		years = 10
+		modifier = {
+			factor = 0.01
+			year = 2571
+		}
+	}
+	
+	immediate = {
+		set_global_flag = kaskian_invasion
+		if = {
+			limit = {
+				any_playable_ruler = {
+					higher_real_tier_than = COUNT
+					culture = kaskian
+					independent = yes
+					NOT = {
+						has_character_flag = refused_invasion
+					}
+				}
+			}
+			random_playable_ruler = {
+				limit = {
+					higher_real_tier_than = COUNT
+					culture = kaskian
+					independent = yes
+				}
+				character_event = { id = fkca.6 } #Kaskian Invasion (Independent Kaskian Lord)
+			}
+		}
+	}
+}
+
+#Kaskian Invasion (Independent Kaskian Lord)
+character_event = {
+	id = fkca.6
+	desc = EVTDESCFKCA6
+	hide_from = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCA6
+		set_global_flag = kaskian_invasion
+		hidden_tooltip = {
+			spawn_unit = {
+				province = capital_scope
+				home = capital_scope
+				owner = THIS
+				leader = THIS
+				troops = {
+					light_cavalry = { 200 200 }
+					light_infantry = { 600 600 }
+					heavy_infantry = { 300 300 }
+					knights = { 100 100 }
+					pikemen = { 200 200 }
+				}
+				attrition = 0.5
+				maintenance_multiplier = 0
+				cannot_inherit = yes
+				disband_on_peace = yes
+				earmark = kaskian_troops
+			}
+			spawn_unit = {
+				province = capital_scope
+				home = capital_scope
+				owner = THIS
+				leader = THIS
+				troops = {
+					light_cavalry = { 200 200 }
+					light_infantry = { 600 600 }
+					heavy_infantry = { 300 300 }
+					knights = { 100 100 }
+					pikemen = { 200 200 }
+				}
+				attrition = 0.5
+				maintenance_multiplier = 0
+				cannot_inherit = yes
+				disband_on_peace = yes
+				earmark = kaskian_troops
+			}
+			spawn_unit = {
+				province = capital_scope
+				home = capital_scope
+				owner = THIS
+				leader = THIS
+				troops = {
+					light_cavalry = { 200 200 }
+					light_infantry = { 600 600 }
+					heavy_infantry = { 300 300 }
+					knights = { 100 100 }
+					pikemen = { 200 200 }
+				}
+				attrition = 0.5
+				maintenance_multiplier = 0
+				cannot_inherit = yes
+				disband_on_peace = yes
+				earmark = kaskian_troops
+			}
+			spawn_unit = {
+				province = capital_scope
+				home = capital_scope
+				owner = THIS
+				leader = THIS
+				troops = {
+					light_cavalry = { 200 200 }
+					light_infantry = { 600 600 }
+					heavy_infantry = { 300 300 }
+					knights = { 100 100 }
+					pikemen = { 200 200 }
+				}
+				attrition = 0.5
+				maintenance_multiplier = 0
+				cannot_inherit = yes
+				disband_on_peace = yes
+				earmark = kaskian_troops
+			}
+			spawn_unit = {
+				province = capital_scope
+				home = capital_scope
+				owner = THIS
+				leader = THIS
+				troops = {
+					light_cavalry = { 200 200 }
+					light_infantry = { 600 600 }
+					heavy_infantry = { 300 300 }
+					knights = { 100 100 }
+					pikemen = { 200 200 }
+				}
+				attrition = 0.5
+				maintenance_multiplier = 0
+				cannot_inherit = yes
+				disband_on_peace = yes
+				earmark = kaskian_troops
+			}
+			spawn_unit = {
+				province = capital_scope
+				home = capital_scope
+				owner = THIS
+				leader = THIS
+				troops = {
+					light_cavalry = { 200 200 }
+					light_infantry = { 600 600 }
+					heavy_infantry = { 300 300 }
+					knights = { 100 100 }
+					pikemen = { 200 200 }
+				}
+				attrition = 0.5
+				maintenance_multiplier = 0
+				cannot_inherit = yes
+				disband_on_peace = yes
+				earmark = kaskian_troops
+			}
+			spawn_unit = {
+				province = capital_scope
+				home = capital_scope
+				owner = THIS
+				leader = THIS
+				troops = {
+					light_cavalry = { 200 200 }
+					light_infantry = { 600 600 }
+					heavy_infantry = { 300 300 }
+					knights = { 100 100 }
+					pikemen = { 200 200 }
+				}
+				attrition = 0.5
+				maintenance_multiplier = 0
+				cannot_inherit = yes
+				disband_on_peace = yes
+				earmark = kaskian_troops
+			}
+			spawn_unit = {
+				province = capital_scope
+				home = capital_scope
+				owner = THIS
+				leader = THIS
+				troops = {
+					light_cavalry = { 200 200 }
+					light_infantry = { 600 600 }
+					heavy_infantry = { 300 300 }
+					knights = { 100 100 }
+					pikemen = { 200 200 }
+				}
+				attrition = 0.5
+				maintenance_multiplier = 0
+				cannot_inherit = yes
+				disband_on_peace = yes
+				earmark = kaskian_troops
+			}
+		}
+		any_independent_ruler = {
+			limit = {
+				any_realm_province = {
+					kingdom = {
+						title = k_hatti
+					}
+				}
+			}
+			reverse_unsafe_war = {
+				target = PREV
+				casus_belli = kaskian_invasion_cb
+			}
+		}
+		any_playable_ruler = {
+			narrative_event = { id = fkca.7 } #Kaskian Invasion Pop-Up
+		}
+	}
+	option = {
+		name = EVTOPTBFKCA6	
+		trigger = {
+			ai = no
+		}
+		set_character_flag = refused_invasion
+		hidden_tooltip = {
+			create_character = {
+				random_traits = yes
+				age = 20
+				female = no
+				culture = kaskian
+				religion = haianiluwi
+				dynasty = random
+			}
+			new_character = {
+				set_character_flag = kaskian_invader
+				create_title = {
+					tier = DUKE
+					landless = yes
+					temporary = yes
+					adventurer = yes
+					culture = THIS
+					name = "KASKIAN_INVASION"
+					holder = THIS
+				}
+				spawn_unit = {
+					province = 26
+					home = 26
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
+				}
+				spawn_unit = {
+					province = 26
+					home = 26
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
+				}
+				spawn_unit = {
+					province = 26
+					home = 26
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
+				}
+				spawn_unit = {
+					province = 26
+					home = 26
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
+				}
+				spawn_unit = {
+					province = 26
+					home = 26
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
+				}
+				spawn_unit = {
+					province = 26
+					home = 26
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
+				}
+				spawn_unit = {
+					province = 26
+					home = 26
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
+				}
+				spawn_unit = {
+					province = 26
+					home = 26
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
+				}
+				any_independent_ruler = {
+					limit = {
+						any_demesne_province = {
+							kingdom = {
+								title = k_hatti
+							}
+						}
+					}
+					reverse_unsafe_war = {
+						target = PREV
+						casus_belli = kaskian_invasion_cb
+					}
+				}
+			}
+		}
+		any_playable_ruler = {
+			narrative_event = { id = fkca.7 } #Kaskian Invasion Pop-Up
+		}
+	}
+}
+
+#Kaskian Invasion Pop-Up
+narrative_event = {
+	id = fkca.7
+	title = EVTTITLEFKCA7
+	desc = EVTDESCFKCA7
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCA7
+	}
+}
+
+#Kaskians Win
+narrative_event = {
+	id = fkca.8
+	title = EVTTITLEFKCA8
+	desc = EVTDESCFKCA8
+	is_triggered_only = yes
+
+	option = {
+		name = {
+			trigger = {
+				NOT = {
+					has_landed_title = e_hittite_empire
+				}
+			}
+			text = EVTOPTAAFKCA8
+		}
+		name = {
+			trigger = {
+				has_landed_title = e_hittite_empire
+			}
+			text = EVTOPTABFKCA8
+		}
+		if = {
+			limit = {
+				has_landed_title = e_hittite_empire
+			}
+			custom_tooltip = {
+				text = bureau_set_0_TT
+				hidden_tooltip = {
+					set_variable = { which = palace_bureaucracy_number value = 0 }
+				}
+			}
+		}	
+	}
+}
+
+#Phrygian Invasion Set-Up
+character_event = {
+	id = fkca.9
+	hide_window = yes
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+		NOR = {
+			has_game_rule = {
+				name = anatolian_collapse_invasion
+				value = off
+			}
+			has_global_flag = phrygian_invasion
+		}
+		year = 2561
+	}
+	
+	mean_time_to_happen = {
+		years = 10
+		modifier = {
+			factor = 0.01
+			year = 2571
+		}
+	}
+	
+	immediate = {
+		set_global_flag = phrygian_invasion
+		if = {
+			limit = {
+				any_playable_ruler = {
+					higher_real_tier_than = COUNT
+					culture = phrygian
+					independent = yes
+					NOT = {
+						has_character_flag = refused_invasion
+					}
+				}
+			}
+			random_playable_ruler = {
+				limit = {
+					higher_real_tier_than = COUNT
+					culture = phrygian
+					independent = yes
+				}
+				character_event = { id = fkca.10 } #Phrygian Invasion (Independent Phrygian Lord)
+			}
+		}
+	}
+}
+
+#Phrygian Invasion (Independent Phrygian Lord)
+character_event = {
+	id = fkca.10
+	desc = EVTDESCFKCA10
+	hide_from = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCA10
+		set_global_flag = phrygian_invasion
+		set_character_flag = phrygian_invader
+		custom_tooltip = {  
+			text = phrygian_invasion_TT
+			hidden_tooltip = {
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = no
+					earmark = phrygian_troops
+				}
+			}
+		}
+		any_playable_ruler = {
+			narrative_event = { id = fkca.11 } #Phrygian Invasion Pop-Up
+		}
+	}
+	option = {
+		name = EVTOPTBFKCA10	
+		trigger = {
+			ai = no
+		}
+		set_character_flag = refused_invasion
+		hidden_tooltip = {
+			random_independent_ruler = {
+				limit = {
+					OR = {
+						primary_title = {
+							empire = {
+								title = e_hittite_empire
+							}
+						}
+						has_landed_title = e_hittite_empire
+					}
+				}
+				preferred_limit = {
+					has_landed_title = e_hittite_empire
+				}
+				preferred_limit = {
+					realm_size = 100
+				}
+				preferred_limit = {
+					realm_size = 100
+				}
+				preferred_limit = {
+					realm_size = 75
+				}
+				preferred_limit = {
+					realm_size = 50
+				}
+				preferred_limit = {
+					realm_size = 25
+				}
+				random_realm_province = {
+					limit = {
+						kingdom = {
+							title = k_pala
+						}
+					}
+					create_character = {
+						random_traits = yes
+						age = 20
+						female = no
+						culture = phrygian
+						religion = doumos
+						dynasty = random
+					}
+					new_character = {
+						set_character_flag = phrygian_invader
+						create_title = {
+							tier = DUKE
+							landless = yes
+							temporary = yes
+							adventurer = yes
+							culture = THIS
+							name = "PHRYGIAN_INVASION"
+							holder = THIS
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						unsafe_war = {
+							target = PREVPREV
+							casus_belli = phrygian_invasion_cb
+							thirdparty_title = PREV
+							tier = KING
+						}
+					}
+				}
+			}
+		}
+		any_playable_ruler = {
+			narrative_event = { id = fkca.11 } #Phrygian Invasion Pop-Up
+		}
+	}
+}
+
+#Phrygian Invasion Pop-Up
+narrative_event = {
+	id = fkca.11
+	title = EVTTITLEFKCA11
+	desc = EVTDESCFKCA11
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCA11
+	}
+}
+
+#Phrygians Win
+narrative_event = {
+	id = fkca.12
+	title = EVTTITLEFKCA12
+	desc = EVTDESCFKCA12
+	is_triggered_only = yes
+
+	option = {
+		name = {
+			trigger = {
+				NOT = {
+					has_landed_title = e_hittite_empire
+				}
+			}
+			text = EVTOPTAAFKCA8
+		}
+		name = {
+			trigger = {
+				has_landed_title = e_hittite_empire
+			}
+			text = EVTOPTABFKCA8
+		}	
+	}
+}
