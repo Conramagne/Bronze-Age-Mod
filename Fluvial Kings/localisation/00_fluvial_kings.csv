@@ -152,6 +152,9 @@ dentudisas_FEATURES;§Y*§! Dentudisas rulers may contact the gods Sabázios, Pleis
 doumos;Doumos;;;;;;;;;;;;;x
 doumos_FEATURES;§Y*§! Doumos rulers may contact the gods Sabázios and Kubeleya.\n;;;;;;;;;;;;;x
 
+noreligion;The Eternal Darkness;;;;;;;;;;;;;x
+noreligion_DESC;From the time even before the creation of the World and its Celestial Shroud of Stars and Gods that illuminate, lies the dark expanse of the endless oceans. Everlasting, Unchanging, the embodiment of the Primordial forces of Chaos. Even the so-called Chaos Gods from Apep the Serpent and Tiamat the Winged Mistress fear the deepest shadows of the One that pre-date all. It is said that those that know the name of it were driven to madness, others worship its wicked snarl, but what it most troubling is that it is said that the soil of this world was once consumed in its bosom of sacrilege. Most troubling yet even among the "Higher Planes" It is rumored to linger in the shadow of the divine... waiting as it has for since before the spark and when the last light flicker out to take all in its eternal expanse.;;;;;;;;;;;;;x
+
 ###########Gods and Books###########
 THE_AMURRU_KTOVET;The Amurru K'tovet;;;;;;;;;;;;;x
 THE_BAAL_KTOVET;The Ba’al K'tovet;;;;;;;;;;;;;x
