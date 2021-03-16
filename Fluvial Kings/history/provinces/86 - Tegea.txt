@@ -1,10 +1,18 @@
-title=c_tegea
+# c_tegea
 
-max_settlements= 4
-b_tegea=castle
-b_mantineia=city
-# b_oresthesium=city
-# b_thyrae=temple
+# County Title
+title = c_tegea
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 4
+
+b_tegea = castle
+b_mantinea = city
+b_oresthesium = city
+b_thyrae = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

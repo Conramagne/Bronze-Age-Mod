@@ -1,8 +1,16 @@
-title=c_maroni
+# c_maroni
 
-max_settlements= 2
-b_maroni=castle
-b_kalavasos=city
+# County Title
+title = c_maroni
 
-culture=cypriot
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_maroni = castle
+b_kalavasos = city
+
+# Misc
+culture = cypriot
+religion = pantes_theoi
+
+#History

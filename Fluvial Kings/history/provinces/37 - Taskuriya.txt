@@ -1,10 +1,18 @@
-title=c_taskuriya
+# c_taskuriya
 
-max_settlements= 4
-b_taskuriya= castle
+# County Title
+title = c_taskuriya
+
+# Settlements
+max_settlements = 4
+
+b_taskuriya = castle
 b_salma = city
-b_arinna= temple
-b_taritara = city
+b_arinna = temple
+b_taritara = castle
 
-culture=hittite
-religion=ishalitethai
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

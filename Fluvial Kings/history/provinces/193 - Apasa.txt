@@ -1,10 +1,18 @@
-title=c_apasa
+# c_apasa
 
-max_settlements= 4
-b_apasa=tribal
-b_klaros=temple
-b_kolophon=city
-#b_notion=city
+# County Title
+title = c_apasa
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 4
+
+b_apasa = tribal
+b_klaros = temple
+b_kolophon = city
+b_notion = city
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

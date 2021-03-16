@@ -1,9 +1,17 @@
-title=c_locris
+# c_locris
 
-max_settlements= 3
-b_locris=castle
-b_opus=temple
-b_cynus=city
+# County Title
+title = c_locris
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_locris = castle
+b_opus = city
+b_cynus = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

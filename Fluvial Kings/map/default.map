@@ -1,4 +1,6 @@
-max_provinces = 500
+max_provinces = 247
+# stats:  246 provinces
+# unused:
 definitions = "definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
@@ -21,4 +23,13 @@ sea_zones = { 203 232 }
 
 ocean_region = {	# Western Mediterranean Sea
 	sea_zones = { 1 }
+}
+
+# Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
+tree = { 3 4 7 10 }
+
+major_rivers = 
+{
+	# Western Mediterranean Sea
+	
 }

@@ -1,8 +1,16 @@
-title=c_sariya
+# c_sariya
 
-max_settlements= 2
-b_sariya=  tribal
-# b_almina = city
+# County Title
+title = c_sariya
 
-culture=kaskian
-religion=ishalitethai
+# Settlements
+max_settlements = 2
+
+b_sariya = castle
+#b_almina = city
+
+# Misc
+culture = kaskian
+religion = ishalitethai
+
+#History

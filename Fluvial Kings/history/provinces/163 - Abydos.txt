@@ -1,8 +1,16 @@
-title=c_abydos
+# c_abydos
 
-max_settlements= 2
-b_abydos=castle
-b_perkote=city
+# County Title
+title = c_abydos
 
+# Settlements
+max_settlements = 2
+
+b_abydos = castle
+b_perkote = city
+
+# Misc
 culture = wilusan
 religion = assussani
+
+#History

@@ -1,7 +1,15 @@
-title=c_sinnuwanda
+# c_sinnuwanda
 
-max_settlements= 1
-b_sinnuwanda=castle
+# County Title
+title = c_sinnuwanda
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_sinnuwanda = tribal
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

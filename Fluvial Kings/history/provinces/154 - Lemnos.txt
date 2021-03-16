@@ -1,8 +1,16 @@
-title=c_lemnos
+# c_lemnos
 
-max_settlements= 2
-b_myrina=castle
-b_hesphaista=temple
+# County Title
+title = c_lemnos
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_myrina = castle
+b_hesphaista = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

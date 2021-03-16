@@ -1,9 +1,17 @@
-title=c_paphos
+# c_paphos
 
-max_settlements= 3
-b_paphos=castle
-b_alassa=city
-b_episkopi=temple
+# County Title
+title = c_paphos
 
-culture=cypriot
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_paphos = castle
+#b_alassa = city
+#b_episkopi = temple
+
+# Misc
+culture = cypriot
+religion = pantes_theoi
+
+#History

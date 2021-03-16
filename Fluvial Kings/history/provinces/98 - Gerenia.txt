@@ -1,8 +1,16 @@
-title=c_gerenia
+# c_gerenia
 
-max_settlements= 2
-b_gerenia=castle
-b_pherea=temple
+# County Title
+title = c_gerenia
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_gerenia = castle
+b_pherea = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

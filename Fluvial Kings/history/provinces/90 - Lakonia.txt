@@ -1,10 +1,18 @@
-title=c_lacedemonia
+# c_lakonia
 
-max_settlements= 4
-b_lacedemonia=castle
-b_amyclae=temple
-b_menelaeion=city
-# b_pharis=city
+# County Title
+title = c_lakonia
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 4
+
+b_lacedemonia = castle
+b_amyclae = city
+b_menelaeion = temple
+#b_pharis = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

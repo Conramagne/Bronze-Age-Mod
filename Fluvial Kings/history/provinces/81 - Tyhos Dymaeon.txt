@@ -1,8 +1,16 @@
-title=c_tyhos
+# c_tyhos_dymaeon
 
+# County Title
+title = c_tyhos_dymaeon
+
+# Settlements
 max_settlements = 2
-b_tyhos=castle
-# b_letrini=city
 
-culture=achaean
-religion=pantes_theoi
+b_tyhos = castle
+b_letrini = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

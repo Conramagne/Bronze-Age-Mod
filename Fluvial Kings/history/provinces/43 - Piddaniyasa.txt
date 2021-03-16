@@ -1,9 +1,17 @@
-title=c_piddaniyasa
+# c_piddaniyasa
 
-max_settlements= 3
-b_piddaniyasa= castle
-b_ippasana = temple
-b_aliassa = city
+# County Title
+title = c_piddaniyasa
 
-culture=eneti
-religion=ishalitethai
+# Settlements
+max_settlements = 3
+
+b_piddaniyasa = castle
+b_ippasana = city
+b_aliassa = temple
+
+# Misc
+culture = eneti
+religion = ishalitethai
+
+#History

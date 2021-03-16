@@ -1,7 +1,17 @@
-title=c_mala
+# c_mala
 
-max_settlements= 1
-b_mala=castle
+# County Title
+title = c_mala
 
-culture=isuwan
-religion=ishalitethai
+# Settlements
+max_settlements = 3
+
+b_mala = castle
+b_mala_2 = city
+b_mala_3 = temple
+
+# Misc
+culture = isuwan
+religion = ishalitethai
+
+#History

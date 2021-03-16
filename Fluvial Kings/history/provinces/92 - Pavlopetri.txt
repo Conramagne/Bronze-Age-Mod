@@ -1,9 +1,17 @@
-title=c_pavlopetri
+# c_pavlopetri
 
-max_settlements=3
-b_pavlopetri=castle
-b_epidauros_limera=city
-# b_zarax=temple
+# County Title
+title = c_pavlopetri
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_pavlopetri = castle
+b_epidauros_limera = city
+#b_zarax = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

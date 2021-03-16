@@ -1,11 +1,19 @@
-title=c_knossos
+# c_knossos
 
+# County Title
+title = c_knossos
+
+# Settlements
 max_settlements = 5
+
 b_knossos = castle
 b_amnysos = city
 b_axos = temple
 b_chersonissos = castle
-# b_koumasa=temple
+b_koumasa = temple
 
+# Misc
 culture = cretan
 religion = pantes_theoi
+
+#History

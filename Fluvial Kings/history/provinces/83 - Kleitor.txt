@@ -1,7 +1,15 @@
-title=c_kleitor
+# c_kleitor
 
+# County Title
+title = c_kleitor
+
+# Settlements
 max_settlements = 1
-b_kleitor=castle
 
-culture=achaean
-religion=pantes_theoi
+b_kleitor = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

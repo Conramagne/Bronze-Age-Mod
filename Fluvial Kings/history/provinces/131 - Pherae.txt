@@ -1,9 +1,17 @@
-title=c_pherae
+# c_pherae
 
-max_settlements= 3
-b_pherae=castle
-b_iolkos=city
-# b_boibe=temple
+# County Title
+title = c_pherae
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_pherae = castle
+b_iolkos = city
+#b_boibe = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

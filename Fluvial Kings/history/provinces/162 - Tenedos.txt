@@ -1,7 +1,15 @@
-title=c_tenedos
+# c_tenedos
 
-max_settlements= 1
-b_tenedos=castle
+# County Title
+title = c_tenedos
 
+# Settlements
+max_settlements = 1
+
+b_tenedos = castle
+
+# Misc
 culture = wilusan
 religion = assussani
+
+#History

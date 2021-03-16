@@ -1,9 +1,17 @@
-title=c_marathon
+# c_marathon
 
-max_settlements= 3
-b_marathon=castle
-b_aphidnaea=temple
-# b_ramnous=city
+# County Title
+title = c_marathon
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_marathon = castle
+b_aphidnaea = temple
+#b_ramnous = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

@@ -1,9 +1,17 @@
-title=c_kanes
+# c_kanes
 
-max_settlements= 3
-b_kanes= castle
+# County Title
+title = c_kanes
+
+# Settlements
+max_settlements = 3
+
+b_kanes = castle
 b_talahi = city
 b_daha = temple
 
-culture=hittite
-religion=ishalitethai
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

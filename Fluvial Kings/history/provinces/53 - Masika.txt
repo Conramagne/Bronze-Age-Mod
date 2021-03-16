@@ -1,10 +1,18 @@
-title=c_masika
+# c_masika
 
-max_settlements= 4
-b_masika= castle
+# County Title
+title = c_masika
+
+# Settlements
+max_settlements = 4
+
+b_masika = castle
 b_zaminuwa = city
 b_lakimissa = temple
-b_ankuwa = city
+b_ankuwa = castle
 
-culture=hittite
-religion=ishalitethai
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

@@ -1,10 +1,18 @@
-title=c_athulissa
+# c_athulissa
 
-max_settlements= 4
-b_athulissa= tribal
-# b_tuhupurpuna = temple
-# b_sappiduwa = city
-# b_tapapanuwa = castle
+# County Title
+title = c_athulissa
 
-culture=eneti
-religion=ishalitethai
+# Settlements
+max_settlements = 4
+
+b_athulissa = tribal
+#b_tuhupurpuna = city
+#b_sappiduwa = temple
+#b_tapapanuwa = castle
+
+# Misc
+culture = eneti
+religion = ishalitethai
+
+#History

@@ -1,7 +1,15 @@
-title=c_aigeira
+# c_aigeira
 
-max_settlements= 1
-b_aigeira=castle
+# County Title
+title = c_aigeira
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_aigeira = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

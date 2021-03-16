@@ -12,7 +12,7 @@
 	holder = 2100005 #Presbon
 }
 2501.1.1 = {
-	holder = 2100004 #Klúmenos
+	holder = 2100004 #KlÃºmenos
 }
 2511.1.1 = {
 	holder = 2100003 #Actor

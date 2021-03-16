@@ -1,8 +1,16 @@
-title=c_delos
+# c_delos
 
-max_settlements= 2
-b_delos=castle
+# County Title
+title = c_delos
+
+# Settlements
+max_settlements = 2
+
+b_delos = castle
 b_kynthos = temple
 
-culture=achaean
-religion=pantes_theoi
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

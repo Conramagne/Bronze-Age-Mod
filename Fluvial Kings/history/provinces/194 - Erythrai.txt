@@ -1,10 +1,18 @@
-title=c_erythrai
+# c_erythrai
 
-max_settlements= 4
-b_erythrai=tribal
-#b_lebedos=temple
-#b_teos=city
-#b_klazomenai=tribal
+# County Title
+title = c_erythrai
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 4
+
+b_erythrai = tribal
+b_lebedos = temple
+b_teos = city
+b_klazomenai = tribal
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

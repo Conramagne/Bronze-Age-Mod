@@ -1,7 +1,15 @@
-title=c_kasula
+# c_kasula
 
-max_settlements= 1
-b_kasula= tribal
+# County Title
+title = c_kasula
 
-culture=eneti
-religion=ishalitethai
+# Settlements
+max_settlements = 1
+
+b_kasula = tribal
+
+# Misc
+culture = eneti
+religion = ishalitethai
+
+#History

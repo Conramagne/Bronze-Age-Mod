@@ -1,8 +1,16 @@
-title=c_zaruna
+# c_zaruna
 
-max_settlements= 2
-b_zaruna= castle
+# County Title
+title = c_zaruna
+
+# Settlements
+max_settlements = 2
+
+b_zaruna = castle
 b_markasu = city
 
-culture=luwian
-religion=haianiluwi
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

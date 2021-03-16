@@ -1,7 +1,15 @@
-title=c_naxos
+# c_naxos
 
-max_settlements= 1
-b_naxos=castle
+# County Title
+title = c_naxos
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_naxos = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

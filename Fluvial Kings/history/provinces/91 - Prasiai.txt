@@ -1,8 +1,16 @@
-title=c_prasiai
+# c_prasiai
 
-max_settlements= 2
-b_prasiai=castle
-b_kypantha=city
+# County Title
+title = c_prasiai
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_prasiai = castle
+b_kypantha = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

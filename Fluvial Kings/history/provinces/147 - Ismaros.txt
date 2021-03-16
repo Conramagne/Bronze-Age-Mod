@@ -1,8 +1,16 @@
-title=c_ismaros
+# c_ismaros
 
-max_settlements= 2
-b_abdera=tribal
-# b_ismaros=castle
+# County Title
+title = c_ismaros
 
-culture=thracian
-religion=dentudisas
+# Settlements
+max_settlements = 2
+
+b_abdera = tribal
+#b_ismaros = city
+
+# Misc
+culture = thracian
+religion = dentudisas
+
+#History

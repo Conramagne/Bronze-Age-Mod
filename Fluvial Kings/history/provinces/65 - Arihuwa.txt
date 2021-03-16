@@ -1,7 +1,15 @@
-title=c_arihuwa
+# c_arihuwa
 
-max_settlements= 1
-b_arihuwa=castle
+# County Title
+title = c_arihuwa
 
-culture=isuwan
-religion=ishalitethai
+# Settlements
+max_settlements = 1
+
+b_arihuwa = castle
+
+# Misc
+culture = isuwan
+religion = ishalitethai
+
+#History

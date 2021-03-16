@@ -1,9 +1,17 @@
-title=c_messene
+# c_messene
 
-max_settlements= 3
-b_messene=castle
-b_oechalia=city
-# b_corone=temple
+# County Title
+title = c_messene
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_messene = castle
+b_oechalia = city
+#b_corone = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

@@ -1,9 +1,17 @@
-title=c_aegion
+# c_aigio
 
-max_settlements= 3
-b_aegion=castle
-#b_patra=temple
-#b_panormos=city
+# County Title
+title = c_aigio
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_aegion = castle
+b_patra = temple
+b_panormos = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

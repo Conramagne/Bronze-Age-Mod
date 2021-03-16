@@ -1,7 +1,15 @@
-title=c_lahhwiyassi
+# c_lahhwiyassi
 
-max_settlements= 1
-b_lahhwiyassi= tribal
+# County Title
+title = c_lahhwiyassi
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_lahhwiyassi = tribal
+
+# Misc
+culture = luwian
+religion = ishalitethai
+
+#History

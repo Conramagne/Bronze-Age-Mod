@@ -1,7 +1,15 @@
-title=c_bisaltia
+# c_bisaltia
 
-max_settlements= 1
-b_bisaltia=tribal
+# County Title
+title = c_bisaltia
 
-culture=macedonian
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_bisaltia = tribal
+
+# Misc
+culture = macedonian
+religion = pantes_theoi
+
+#History

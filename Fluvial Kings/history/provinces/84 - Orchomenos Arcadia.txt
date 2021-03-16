@@ -1,8 +1,16 @@
-title=c_orchomenus_ar
+# c_orchomenos_arcadia
 
-max_settlements= 2
-b_orchomenus_ar=castle
-b_hypsus=city
+# County Title
+title = c_orchomenos_arcadia
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_orchomenos_arcadia = castle
+#b_hypsus = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

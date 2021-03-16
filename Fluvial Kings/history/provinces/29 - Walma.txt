@@ -1,7 +1,15 @@
-title=c_walma
+# c_walma
 
-max_settlements= 1
-b_walma=castle
+# County Title
+title = c_walma
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_walma = castle
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

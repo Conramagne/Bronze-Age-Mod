@@ -1,8 +1,15 @@
-title=c_hurma
+# c_hurma
 
-max_settlements= 1
-b_hurma= castle
+# County Title
+title = c_hurma
 
+# Settlements
+max_settlements = 1
 
-culture=hittite
-religion=ishalitethai
+b_hurma = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

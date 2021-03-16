@@ -1,7 +1,15 @@
-title=c_syme
+# c_syme
 
-max_settlements= 1
-b_syme=castle
+# County Title
+title = c_syme
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_syme = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

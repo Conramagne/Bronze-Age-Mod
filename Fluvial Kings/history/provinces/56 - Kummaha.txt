@@ -1,7 +1,15 @@
-title=c_kummaha
+# c_kummaha
 
-max_settlements= 1
-b_kummaha=castle
+# County Title
+title = c_kummaha
 
-culture=hittite
-religion=ishalitethai
+# Settlements
+max_settlements = 1
+
+b_kummaha = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

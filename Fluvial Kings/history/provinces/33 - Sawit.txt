@@ -1,7 +1,15 @@
-title=c_sawit
+# c_sawit
 
-max_settlements= 1
-b_sawit= castle
+# County Title
+title = c_sawit
 
-culture=amazonian
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_sawit = castle
+
+# Misc
+culture = amazonian
+religion = pantes_theoi
+
+#History

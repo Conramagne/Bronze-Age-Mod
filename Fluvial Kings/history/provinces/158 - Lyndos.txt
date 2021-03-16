@@ -1,8 +1,16 @@
-title=c_lyndos
+# c_lyndos
 
-max_settlements= 2
-b_lyndos=castle
-b_kameiros=city
+# County Title
+title = c_lyndos
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_lyndos = castle
+b_kameiros = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

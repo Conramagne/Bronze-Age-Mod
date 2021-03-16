@@ -1,9 +1,17 @@
-title=c_lavrion
+# c_lavrion
 
-max_settlements= 3
-b_lavrion=castle
-# b_perati=city
-b_sounio=temple
+# County Title
+title = c_lavrion
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_lavrion = castle
+b_sounio = temple
+#b_perati = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

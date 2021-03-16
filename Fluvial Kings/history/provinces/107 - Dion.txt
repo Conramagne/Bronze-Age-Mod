@@ -1,9 +1,17 @@
-title=c_dium
+# c_dion
 
-max_settlements= 3
-b_dium=castle
-# b_artemiaio=city
-# b_kerynthos=temple
+# County Title
+title = c_dion
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_dium = castle
+#b_artemiaio = city
+#b_kerynthos = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

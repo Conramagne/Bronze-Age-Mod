@@ -1,7 +1,15 @@
-title=c_kyphos
+# c_kyphos
 
-max_settlements= 1
-b_kyphos=tribal
+# County Title
+title = c_kyphos
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_kyphos = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

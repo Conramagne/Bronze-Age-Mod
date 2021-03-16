@@ -1,7 +1,15 @@
-title=c_ithake
+# c_ithake
 
-max_settlements= 1
-b_ithake=castle
+# County Title
+title = c_ithake
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_ithake = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

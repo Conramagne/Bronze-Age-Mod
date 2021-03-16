@@ -1,7 +1,15 @@
-title=c_salamis
+# c_salamina
 
-max_settlements= 1
-b_salamis=castle
+# County Title
+title = c_salamina
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_salamis = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

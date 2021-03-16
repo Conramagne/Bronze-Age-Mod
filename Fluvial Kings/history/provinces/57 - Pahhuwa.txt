@@ -1,8 +1,16 @@
-title=c_pahhuwa
+# c_pahhuwa
 
-max_settlements= 2
-b_pahhuwa= castle
+# County Title
+title = c_pahhuwa
+
+# Settlements
+max_settlements = 2
+
+b_pahhuwa = castle
 b_hahha = city
 
-culture=hittite
-religion=ishalitethai
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

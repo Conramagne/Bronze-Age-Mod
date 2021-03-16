@@ -1,9 +1,17 @@
-title=c_elis
+# c_elis
 
-max_settlements= 3
-b_elis=castle
-# b_buprasium=temple
-# b_myrsinus=city
+# County Title
+title = c_elis
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_elis = castle
+b_buprasium = temple
+b_myrsinus = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

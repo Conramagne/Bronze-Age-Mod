@@ -1,8 +1,16 @@
-title=c_oeneidae
+# c_oeneidae
 
-max_settlements= 2
-b_oeneidae=castle
-#b_astakos=city
+# County Title
+title = c_oeneidae
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_oeneidae = castle
+#b_astakos = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

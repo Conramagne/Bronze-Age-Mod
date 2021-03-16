@@ -1,9 +1,17 @@
-title=c_olynthos
+# c_olynthos
 
-max_settlements= 3
-b_olynthos=tribal
-# b_petralonia = castle
-# b_thermes = city
+# County Title
+title = c_olynthos
 
-culture=macedonian
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_olynthos = tribal
+#b_petralonia = city
+#b_thermes = temple
+
+# Misc
+culture = macedonian
+religion = pantes_theoi
+
+#History

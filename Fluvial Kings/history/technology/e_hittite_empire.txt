@@ -1,0 +1,34 @@
+#HITTITE EMPIRE
+technology = {
+	titles = {
+		d_ambara
+		d_hatti
+		d_hulaya
+		d_kalasma
+		d_kaska
+		d_kassiya
+		d_kastaraya
+		d_kasula
+		d_kattera_udne
+		d_mala
+		d_marqasa
+		d_paphos
+		d_pitassa
+		d_puruma
+		d_salamis_cyp
+		d_samura
+		d_sarazzi_udne
+		d_tarhuntassa
+		d_tegarama
+	}
+	2527 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+	3160 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

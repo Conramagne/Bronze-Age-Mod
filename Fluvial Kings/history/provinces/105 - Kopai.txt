@@ -1,8 +1,16 @@
-title=c_kopai
+# c_kopai
 
-max_settlements=2
-b_kopai=castle
-b_ocalea=temple
+# County Title
+title = c_kopai
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_kopai = castle
+b_ocalae = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

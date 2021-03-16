@@ -1,7 +1,15 @@
-title=c_kunanamit
+# c_kunanamit
 
-max_settlements= 1
-b_kunanamit= tribal
+# County Title
+title = c_kunanamit
 
-culture=kaskian
-religion=ishalitethai
+# Settlements
+max_settlements = 1
+
+b_kunanamit = tribal
+
+# Misc
+culture = kaskian
+religion = ishalitethai
+
+#History

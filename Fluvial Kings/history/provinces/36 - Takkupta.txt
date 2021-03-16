@@ -1,11 +1,19 @@
-title=c_takkupta
+# c_takkupta
 
-max_settlements= 5
-b_takkupta= castle
+# County Title
+title = c_takkupta
+
+# Settlements
+max_settlements = 5
+
+b_takkupta = castle
 b_kappurnanda = city
 b_ishupitta = temple
 b_tiliura = city
 b_karanah = city
 
-culture=hittite
-religion=ishalitethai
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

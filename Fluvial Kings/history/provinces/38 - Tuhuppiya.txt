@@ -1,10 +1,18 @@
-title=c_tuhuppiya
+# c_tuhuppiya
 
-max_settlements= 4
-b_tuhuppiya= castle
+# County Title
+title = c_tuhuppiya
+
+# Settlements
+max_settlements = 4
+
+b_tuhuppiya = castle
 b_alisar = city
 b_tawa = temple
-b_wahsusana = city
+b_wahsusana = castle
 
-culture=hittite
-religion=ishalitethai
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

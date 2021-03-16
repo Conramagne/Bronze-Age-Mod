@@ -1,7 +1,15 @@
-title=c_pattara
+# c_pattara
 
-max_settlements= 1
-b_pattara=tribal
+# County Title
+title = c_pattara
 
-culture=lycian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_pattara = tribal
+
+# Misc
+culture = lycian
+religion = haianiluwi
+
+#History

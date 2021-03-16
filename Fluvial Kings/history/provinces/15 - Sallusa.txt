@@ -1,7 +1,15 @@
-title=c_sallusa
+# c_sallusa
 
-max_settlements= 1
-b_sallusa= tribal
+# County Title
+title = c_sallusa
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_sallusa = tribal
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

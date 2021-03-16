@@ -1,7 +1,15 @@
-title=c_karia
+# c_karia
 
-max_settlements= 1
-b_karia=tribal
+# County Title
+title = c_karia
 
-culture=carian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_karia = tribal
+
+# Misc
+culture = carian
+religion = haianiluwi
+
+#History

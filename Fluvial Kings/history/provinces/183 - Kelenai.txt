@@ -1,7 +1,15 @@
-title=c_kelenai
+# c_kelenai
 
-max_settlements= 1
-b_kelenai=tribal
+# County Title
+title = c_kelenai
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_kelenai = tribal
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

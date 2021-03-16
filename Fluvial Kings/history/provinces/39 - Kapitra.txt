@@ -1,9 +1,17 @@
-title=c_kapitra
+# c_kapitra
 
-max_settlements= 3
-b_kapitra= castle
+# County Title
+title = c_kapitra
+
+# Settlements
+max_settlements = 3
+
+b_kapitra = castle
 b_suppiluliya = city
 b_zippalanda = temple
 
-culture=hittite
-religion=ishalitethai
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

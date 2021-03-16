@@ -1,7 +1,15 @@
-title=c_hulana
+# c_hulana
 
-max_settlements= 1
-b_hulana=tribal
+# County Title
+title = c_hulana
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_hulana = tribal
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

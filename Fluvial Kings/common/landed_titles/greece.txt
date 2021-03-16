@@ -23,7 +23,7 @@ e_greek_empire = {
 			
 			achaean = "Mykenae"
 			
-			c_mycenae = {
+			c_mykenae = {
 				color = { 45 130 235 }
 				color2 = { 255 255 255 }
 				
@@ -54,7 +54,7 @@ e_greek_empire = {
 				
 				b_aigeira = {}
 			}
-			c_aegion = {
+			c_aigio = {
 				color={ 58 77 100 }
 				color2={ 255 255 255 }
 				
@@ -69,7 +69,7 @@ e_greek_empire = {
 	
 			capital = 77 #Salamína
 			
-			c_salamis = {
+			c_salamina = {
 				color = { 136 150 209 }
 				color2 = { 255 255 255 }
 				
@@ -104,7 +104,7 @@ e_greek_empire = {
 				b_pisa = {}
 				b_olympia = {}
 			}
-			c_tyhos = {
+			c_tyhos_dymaeon = {
 				color = { 47 69 133 }
 				color2 = { 255 61 100 }
 				
@@ -132,11 +132,11 @@ e_greek_empire = {
 				
 				b_kleitor = {}
 			}
-			c_orchomenus_ar = {
+			c_orchomenos_arcadia = {
 				color = { 47 69 133 }
 				color2 = { 255 61 100 }
 				
-				b_orchomenus_ar = {}
+				b_orchomenos_arcadia = {}
 				b_hypsus = {}
 			}
 			c_stymphalos = {
@@ -204,7 +204,7 @@ e_greek_empire = {
 	
 			capital = 90 # Sparta
 			
-			c_lacedemonia = {
+			c_lakonia = {
 				color = { 41 93 114 }
 				color2 = { 255 255 255 }
 				
@@ -346,7 +346,7 @@ e_greek_empire = {
 				b_platea = {}
 				b_leuctra = {}
 			}
-			c_thebes = {
+			c_thebai = {
 				color = { 37 66 16 }
 				color2 = { 255 255 255 }
 				
@@ -363,11 +363,11 @@ e_greek_empire = {
 				b_kopai = {}
 				b_ocalea = {}
 			}
-			c_chaeronea = {
+			c_khaironeia = {
 				color = { 73 102 52 }
 				color2 = { 255 255 255 }
 				
-				b_chaeronea = {}
+				b_khaironeia = {}
 				b_thisbe = {}
 				b_onchestus = {}
 			}
@@ -378,7 +378,7 @@ e_greek_empire = {
 	
 			capital = 107 # Eretria
 			
-			c_dium = {
+			c_dion = {
 				color = { 177 248 125 }
 				color2 = { 255 255 255 }
 				
@@ -598,7 +598,7 @@ e_greek_empire = {
 				b_cynus = {}
 				b_opus = {}
 			}
-			c_orchomenus = {
+			c_orchomenos = {
 				color = { 0 200 143 }
 				color2 = { 255 255 255 }
 				

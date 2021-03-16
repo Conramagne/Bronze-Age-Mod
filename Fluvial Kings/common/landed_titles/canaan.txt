@@ -1,0 +1,121 @@
+e_canaan = {
+	color={ 85 255 165 }
+	color2={ 255 255 20 }
+	
+	capital = 233 # c_beru
+	culture = hittite
+	
+	k_yizrael = {
+		color={ 75 9 160 }
+		color2={ 255 255 255 }
+		
+		capital = 233 # c_beru
+		culture = hittite
+		
+		d_yizrael = {
+			color={ 55 29 150 }
+			color2={ 255 255 255 }
+			
+			capital = 233 # c_beru
+			
+			c_beru = { # 233
+				color={ 45 39 145 }
+				color2={ 255 255 255 }
+				
+				b_placeholder = {
+				}
+			}
+			c_akko = { # 240
+				color={ 62 56 151 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_8 = {
+				}
+			}
+			c_carmel = { # 241
+				color={ 92 88 136 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_9 = {
+				}
+			}
+			c_danabu = { # 236
+				color={ 88 129 151 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_4 = {
+				}
+			}
+			c_galil_elion = { # 246
+				color={ 92 68 140 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_14 = {
+				}
+			}
+			c_galil_tachton = { # 245
+				color={ 93 63 166 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_13 = {
+				}
+			}
+			c_kumidi = { # 235
+				color={ 54 44 212 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_3 = {
+				}
+			}
+			c_laban = { # 237
+				color={ 95 97 151 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_5 = {
+				}
+			}
+			c_shomron = { # 244
+				color={ 102 96 192 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_12 = {
+				}
+			}
+			c_sidon = { # 238
+				color={ 64 60 124 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_6 = {
+				}
+			}
+			c_sobah = { # 234
+				color={ 62 56 162 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_2 = {
+				}
+			}
+			c_sur = { # 239
+				color={ 56 53 101 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_7 = {
+				}
+			}
+			c_yafo = { # 242
+				color={ 85 124 134 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_10 = {
+				}
+			}
+			c_yizrael = { # 243
+				color={ 143 139 203 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_11 = {
+				}
+			}
+		}
+	}
+}

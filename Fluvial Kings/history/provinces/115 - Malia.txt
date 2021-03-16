@@ -1,10 +1,18 @@
-title=c_malia
+# c_malia
 
-max_settlements= 4
-b_malia=castle
-b_rhytion=city
-#b_lato=temple
-#b_oaxos=city
+# County Title
+title = c_malia
 
+# Settlements
+max_settlements = 4
+
+b_malia = castle
+b_rhytion = city
+#b_lato = temple
+b_oaxos = city
+
+# Misc
 culture = cretan
 religion = pantes_theoi
+
+#History

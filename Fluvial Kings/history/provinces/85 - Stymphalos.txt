@@ -1,10 +1,18 @@
-title=c_stymphalos
+# c_stymphalos
 
-max_settlements= 4
-b_stymphalos=castle
-b_pheneos=temple
-# b_orneae=city
-# b_alea=castle
+# County Title
+title = c_stymphalos
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 4
+
+b_stymphalos = castle
+b_pheneos = temple
+b_orneae = city
+b_alea = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

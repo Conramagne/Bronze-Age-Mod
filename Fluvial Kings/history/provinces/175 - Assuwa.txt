@@ -1,7 +1,15 @@
-title=c_assuwa
+# c_assuwa
 
-max_settlements= 1
-b_assuwa=tribal
+# County Title
+title = c_assuwa
 
+# Settlements
+max_settlements = 1
+
+b_assuwa = tribal
+
+# Misc
 culture = mysian
 religion = haianiluwi
+
+#History

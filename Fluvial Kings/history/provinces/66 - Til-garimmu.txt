@@ -1,7 +1,15 @@
-title=c_til_garimmu
+# c_til_garimmu
 
-max_settlements= 1
-b_til_garimmu=castle
+# County Title
+title = c_til_garimmu
 
-culture=isuwan
-religion=ishalitethai
+# Settlements
+max_settlements = 1
+
+b_til_garimmu = castle
+
+# Misc
+culture = isuwan
+religion = ishalitethai
+
+#History

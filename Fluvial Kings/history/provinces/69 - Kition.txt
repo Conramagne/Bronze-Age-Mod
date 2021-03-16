@@ -1,8 +1,16 @@
-title=c_kition
+# c_kition
 
-max_settlements= 2
-b_kition=castle
-# b_dromolaxia=city
+# County Title
+title = c_kition
 
-culture=cypriot
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_kition = castle
+#b_dromolaxia = city
+
+# Misc
+culture = cypriot
+religion = pantes_theoi
+
+#History

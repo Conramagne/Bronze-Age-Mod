@@ -1,8 +1,16 @@
-title=c_trikka
+# c_trikka
 
-max_settlements= 2
-b_trikka=tribal
-b_ithome=temple
+# County Title
+title = c_trikka
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_trikka = tribal
+b_ithome = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

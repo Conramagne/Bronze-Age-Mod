@@ -1,9 +1,17 @@
-title=c_kefalonia
+# c_kefalonia
 
-max_settlements= 3
-b_poros=castle
-#b_pale=temple
-#b_krani=city
+# County Title
+title = c_kefalonia
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_poros = castle
+#b_pale = city
+#b_krani = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

@@ -1,10 +1,18 @@
-title=c_gyrton
+# c_gyrton
 
-max_settlements= 4
-b_gyrton=castle
-b_oloosson=temple
-#b_perrhaebi=castle
-#b_homolion=city
+# County Title
+title = c_gyrton
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 4
+
+b_gyrton = tribal
+b_oloosson = city
+b_perrhaebi = temple
+#b_homolion = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

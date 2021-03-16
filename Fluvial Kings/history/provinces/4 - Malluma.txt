@@ -1,7 +1,15 @@
-title=c_malluma
+# c_malluma
 
-max_settlements= 1
-b_malluma=castle
+# County Title
+title = c_malluma
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_malluma = castle
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

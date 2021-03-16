@@ -1,10 +1,16 @@
-title=c_truwisa
+# c_truwisa
 
-max_settlements= 3
-b_wilusa=castle
-b_assos=temple
-b_pedashash=city
+# County Title
+title = c_truwisa
 
+# Settlements
+max_settlements = 3
+
+b_wilusa = castle
+b_assos = temple
+b_pedashash = city
+
+# Misc
 culture = wilusan
 religion = assussani
 

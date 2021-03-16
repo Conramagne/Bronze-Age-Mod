@@ -1,9 +1,17 @@
-title=c_izziya
+# c_izziya
 
-max_settlements= 3
-b_izziya= castle
+# County Title
+title = c_izziya
+
+# Settlements
+max_settlements = 3
+
+b_izziya = castle
 b_shamal = city
 b_zalwar = temple
 
-culture=luwian
-religion=haianiluwi
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

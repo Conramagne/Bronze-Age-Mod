@@ -1,8 +1,16 @@
-title=c_lamia
+# c_lamia
 
-max_settlements= 2
-b_alope=castle
-# b_lamia=city
+# County Title
+title = c_lamia
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_alope = castle
+#b_lamia = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

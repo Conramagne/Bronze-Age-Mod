@@ -1,8 +1,16 @@
-title=c_thera
+# c_thera
 
-max_settlements= 2
-b_akrotiri=castle
-# b_thera=city
+# County Title
+title = c_thera
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_akrotiri = castle
+#b_thera = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

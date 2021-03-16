@@ -1,8 +1,16 @@
-title=c_sykyon
+# c_sykyon
 
-max_settlements= 2
-b_sykyon=castle
-#b_pellene=city
+# County Title
+title = c_sykyon
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_sykyon = castle
+#b_pellene = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

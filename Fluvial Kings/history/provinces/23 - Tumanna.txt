@@ -1,7 +1,15 @@
-title=c_tumanna
+# c_tumanna
 
-max_settlements= 1
-b_tumanna= tribal
+# County Title
+title = c_tumanna
 
-culture=eneti
-religion=ishalitethai
+# Settlements
+max_settlements = 1
+
+b_tumanna = tribal
+
+# Misc
+culture = eneti
+religion = ishalitethai
+
+#History

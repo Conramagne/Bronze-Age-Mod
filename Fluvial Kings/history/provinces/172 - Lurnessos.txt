@@ -1,7 +1,15 @@
-title=c_lurnessos
+# c_lurnessos
 
-max_settlements= 1
-b_lurnessos=tribal
+# County Title
+title = c_lurnessos
 
+# Settlements
+max_settlements = 1
+
+b_lurnessos = tribal
+
+# Misc
 culture = mysian
 religion = haianiluwi
+
+#History

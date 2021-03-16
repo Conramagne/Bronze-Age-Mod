@@ -1,10 +1,18 @@
-title=c_samuha
+# c_samuha
 
-max_settlements= 4
-b_samuha= castle
+# County Title
+title = c_samuha
+
+# Settlements
+max_settlements = 4
+
+b_samuha = castle
 b_marista = city
 b_suluppa = city
-b_hatikaitra = temple
+b_hatikaitra = castle
 
-culture=hittite
-religion=ishalitethai
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

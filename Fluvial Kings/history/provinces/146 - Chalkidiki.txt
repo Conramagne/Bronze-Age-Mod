@@ -1,8 +1,16 @@
-title=c_chalkidiki
+# c_chalkidiki
 
-max_settlements= 2
-b_charadrise=tribal
-# b_apollonia=city
+# County Title
+title = c_chalkidiki
 
-culture=macedonian
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_charadrise = tribal
+#b_apollonia = city
+
+# Misc
+culture = macedonian
+religion = pantes_theoi
+
+#History

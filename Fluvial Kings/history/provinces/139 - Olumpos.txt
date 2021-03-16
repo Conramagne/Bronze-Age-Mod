@@ -1,9 +1,16 @@
-title=c_olumpos
+# c_olumpos
 
-max_settlements= 2
-b_vergina=tribal
-b_olumpos=temple
+# County Title
+title = c_olumpos
 
-culture=macedonian
-religion=pantes_theoi
-terrain = mountain 
+# Settlements
+max_settlements = 2
+
+b_vergina = castle
+b_olumpos = city
+
+# Misc
+culture = macedonian
+religion = pantes_theoi
+
+#History

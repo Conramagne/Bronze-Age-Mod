@@ -1,10 +1,17 @@
-title=c_kysomos
+# c_kysomos
 
-max_settlements= 3
-b_kysomos=castle
+# County Title
+title = c_kysomos
 
-#b_polyrinia=temple
-#b_doulopolis=city
+# Settlements
+max_settlements = 3
 
+b_kysomos = castle
+#b_polyrinia = city
+#b_doulopolis = temple
+
+# Misc
 culture = cretan
 religion = pantes_theoi
+
+#History

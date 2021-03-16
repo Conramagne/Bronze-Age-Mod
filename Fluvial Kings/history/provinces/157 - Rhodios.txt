@@ -1,8 +1,16 @@
-title=c_rhodios
+# c_rhodios
 
-max_settlements= 2
-b_rhodios=castle
-b_jalysus=city
+# County Title
+title = c_rhodios
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_rhodios = castle
+b_jalysus = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

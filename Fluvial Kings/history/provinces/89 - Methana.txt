@@ -1,8 +1,16 @@
-title=c_methana
+# c_methana
 
-max_settlements= 2
-b_methana=castle
-# b_troezen=city
+# County Title
+title = c_methana
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_methana = castle
+b_troezen = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

@@ -1,7 +1,15 @@
-title=c_ormenion
+# c_ormenion
 
-max_settlements= 1
-b_ormenion=castle
+# County Title
+title = c_ormenion
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_ormenion = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

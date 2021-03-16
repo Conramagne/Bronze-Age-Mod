@@ -1,8 +1,16 @@
-title=c_adramyttion
+# c_adramyttion
 
-max_settlements= 2
-b_adramyttion=castle
-b_zeleia_ad=city
+# County Title
+title = c_adramyttion
 
+# Settlements
+max_settlements = 2
+
+b_adramyttion = castle
+b_zeleia_ad = city
+
+# Misc
 culture = wilusan
 religion = assussani
+
+#History

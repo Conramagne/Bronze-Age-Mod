@@ -1,7 +1,15 @@
-title=c_sarpa
+# c_sarpa
 
-max_settlements= 1
-b_sarpa= castle
+# County Title
+title = c_sarpa
 
-culture=hittite
-religion=ishalitethai
+# Settlements
+max_settlements = 1
+
+b_sarpa = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

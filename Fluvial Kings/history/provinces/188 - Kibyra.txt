@@ -1,7 +1,15 @@
-title=c_kibyra
+# c_kibyra
 
-max_settlements= 1
-b_kibyra=tribal
+# County Title
+title = c_kibyra
 
-culture=lycian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_kibyra = tribal
+
+# Misc
+culture = lycian
+religion = haianiluwi
+
+#History

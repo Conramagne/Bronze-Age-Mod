@@ -1,7 +1,15 @@
-title=c_thebe
+# c_thebe
 
-max_settlements= 1
-b_thebe=castle
+# County Title
+title = c_thebe
 
+# Settlements
+max_settlements = 1
+
+b_thebe = castle
+
+# Misc
 culture = wilusan
 religion = assussani
+
+#History

@@ -1,9 +1,17 @@
-title=c_katapa
+# c_katapa
 
-max_settlements= 3
-b_katapa= castle
-b_hakmis= city
+# County Title
+title = c_katapa
+
+# Settlements
+max_settlements = 3
+
+b_katapa = castle
+b_hakmis = city
 b_sapinuwa = temple
 
-culture=hittite
-religion=ishalitethai
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

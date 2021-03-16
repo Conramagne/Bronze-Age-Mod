@@ -1,7 +1,15 @@
-title=c_meliboia
+# c_meliboia
 
-max_settlements= 1
-b_meliboia=castle
+# County Title
+title = c_meliboia
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_meliboia = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

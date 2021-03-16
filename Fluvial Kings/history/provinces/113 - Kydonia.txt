@@ -1,11 +1,18 @@
-title=c_kydonia
+# c_kydonia
 
-max_settlements= 4
-b_kydonia=castle
+# County Title
+title = c_kydonia
 
-#b_aptarra=city
-#b_lissos=temple
-#b_armeni=castle
+# Settlements
+max_settlements = 4
 
+b_kydonia = castle
+#b_aptarra = city
+#b_lissos = temple
+#b_armeni = castle
+
+# Misc
 culture = cretan
 religion = pantes_theoi
+
+#History

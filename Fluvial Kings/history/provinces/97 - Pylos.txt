@@ -1,10 +1,18 @@
-title=c_pylos
+# c_pylos
 
-max_settlements= 4
-b_pylos=castle
-b_peristeria=city
-b_amphigeneia=temple
-b_methone=castle
+# County Title
+title = c_pylos
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 4
+
+b_pylos = castle
+b_peristeria = city
+b_amphigeneia = temple
+b_methone = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

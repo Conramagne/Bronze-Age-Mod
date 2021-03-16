@@ -1,8 +1,16 @@
-title=c_phigalia
+# c_phigalia
 
-max_settlements= 2
-b_phigalia=castle
-b_bassae=temple
+# County Title
+title = c_phigalia
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_phigalia = castle
+b_bassae = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

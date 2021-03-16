@@ -1,8 +1,16 @@
-title=c_saranduwa
+# c_saranduwa
 
-max_settlements= 2
-b_saranduwa= tribal
-# b_kirsu = temple
+# County Title
+title = c_saranduwa
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 2
+
+b_saranduwa = castle
+#b_kirsu = city
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

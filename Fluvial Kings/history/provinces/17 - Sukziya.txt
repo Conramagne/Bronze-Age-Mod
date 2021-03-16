@@ -1,7 +1,15 @@
-title=c_sukziya
+# c_sukziya
 
-max_settlements= 1
-b_sukziya=castle
+# County Title
+title = c_sukziya
 
-culture=isuwan
-religion=ishalitethai
+# Settlements
+max_settlements = 1
+
+b_sukiya = castle
+
+# Misc
+culture = isuwan
+religion = ishalitethai
+
+#History

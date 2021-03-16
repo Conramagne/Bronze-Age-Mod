@@ -1,0 +1,40 @@
+#GREEK EMPIRE
+technology = {
+	titles = {
+		d_achaea
+		d_arcadia
+		d_argolis
+		d_attica
+		d_boetica
+		d_chalkidiki
+		d_dolopia
+		d_elis
+		d_euvoia
+		d_ithake
+		d_knossos
+		d_kuklades
+		d_lacedemonia
+		d_lasynthos
+		d_magnesia
+		d_makedonia
+		d_malis
+		d_messenia
+		d_ozolian_lokris
+		d_phokis
+		d_rhodios
+		d_salamis
+		d_thessalia
+		d_thraki
+		d_voreios_aigaion
+	}
+	2527 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+	3160 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

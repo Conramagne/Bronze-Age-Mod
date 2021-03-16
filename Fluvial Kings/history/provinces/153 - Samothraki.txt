@@ -1,8 +1,16 @@
-title=c_samothraki
+# c_samothraki
 
-max_settlements= 2
-b_samothraki=castle
-b_iero_ton_kabieroi=temple
+# County Title
+title = c_samothraki
 
-culture=thracian
-religion=dentudisas
+# Settlements
+max_settlements = 2
+
+b_samothraki = castle
+b_iero_ton_kabieroi = temple
+
+# Misc
+culture = thracian
+religion = dentudisas
+
+#History

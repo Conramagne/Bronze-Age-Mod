@@ -1,9 +1,17 @@
-title=c_phaistos
+# c_phaistos
 
-max_settlements= 3
-b_phaistos=castle
-#b_rithymna=temple
-#b_gortyn = city
+# County Title
+title = c_phaistos
 
+# Settlements
+max_settlements = 3
+
+b_phaistos = castle
+#b_rithymna = city
+#b_gortyn = temple
+
+# Misc
 culture = cretan
 religion = pantes_theoi
+
+#History

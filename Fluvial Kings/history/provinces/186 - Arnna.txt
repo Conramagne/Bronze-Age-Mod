@@ -1,7 +1,15 @@
-title=c_arnna
+# c_arnna
 
-max_settlements= 1
-b_arnna=tribal
+# County Title
+title = c_arnna
 
-culture=lycian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_arnna = tribal
+
+# Misc
+culture = lycian
+religion = haianiluwi
+
+#History

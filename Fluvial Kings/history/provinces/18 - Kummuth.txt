@@ -1,9 +1,17 @@
-title=c_kummuth
+# c_kummuth
 
-max_settlements= 3
-b_kummuth= castle
+# County Title
+title = c_kummuth
+
+# Settlements
+max_settlements = 3
+
+b_kummuth = castle
 b_hahhum = city
 b_terussa = temple
 
-culture=isuwan
-religion=ishalitethai
+# Misc
+culture = isuwan
+religion = ishalitethai
+
+#History

@@ -1,20 +1,19 @@
-title=c_hattusa
+# c_hattusa
 
-max_settlements= 5
+# County Title
+title = c_hattusa
+
+# Settlements
+max_settlements = 5
+
 b_hattusa = castle
 b_tahurpa = city
 b_tawiniya = temple
-b_hiyasna = city
+b_hiyasna = castle
 b_matila = city
 
-culture=hittite
-religion=ishalitethai
+# Misc
+culture = hittite
+religion = ishalitethai
 
-2421.1.1 = {
-	b_hattusa = ca_wall_1
-	b_hattusa = ca_wall_2
-	b_hattusa = ca_wall_3
-	b_hattusa = ca_wall_q_1
-	b_hattusa = ca_wall_q_2
-	b_hattusa = ca_wall_q_3
-}
+#History

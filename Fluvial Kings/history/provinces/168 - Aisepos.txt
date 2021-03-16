@@ -1,7 +1,15 @@
-title=c_aisepos
+# c_aisepos
 
-max_settlements= 1
-b_aisepos=castle
+# County Title
+title = c_aisepos
 
-culture=wilusan
-religion=assussani
+# Settlements
+max_settlements = 1
+
+b_aisepos = castle
+
+# Misc
+culture = wilusan
+religion = assussani
+
+#History

@@ -1,8 +1,16 @@
-title=c_pallene
+# c_pallene
 
-max_settlements= 2
-b_pallene=tribal
-# b_ichnae=castle
+# County Title
+title = c_pallene
 
-culture=macedonian
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_pallene = tribal
+#b_ichnae = city
+
+# Misc
+culture = macedonian
+religion = pantes_theoi
+
+#History

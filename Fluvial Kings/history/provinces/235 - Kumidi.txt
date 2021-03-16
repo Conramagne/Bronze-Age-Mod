@@ -1,0 +1,15 @@
+# c_kumidi
+
+# County Title
+title = c_kumidi
+
+# Settlements
+max_settlements = 1
+
+b_placeholder_3 = castle
+
+# Misc
+culture = hittite
+religion = berith
+
+#History

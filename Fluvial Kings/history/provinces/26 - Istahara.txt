@@ -1,9 +1,17 @@
-title=c_istahara
+# c_istahara
 
-max_settlements= 3
-b_istahara= tribal
-# b_nerik = temple
-# b_hatenzuwa = city
+# County Title
+title = c_istahara
 
-culture=kaskian
-religion=ishalitethai
+# Settlements
+max_settlements = 3
+
+b_istahara = tribal
+#b_nerik = city
+#b_hatenzuwa = temple
+
+# Misc
+culture = kaskian
+religion = ishalitethai
+
+#History

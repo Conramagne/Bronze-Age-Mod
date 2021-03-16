@@ -1,7 +1,15 @@
-title=c_nahita
+# c_nahita
 
-max_settlements= 1
-b_nahita= tribal
+# County Title
+title = c_nahita
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_nahita = tribal
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

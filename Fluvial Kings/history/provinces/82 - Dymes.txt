@@ -1,9 +1,17 @@
-title=c_dymes
+# c_dymes
 
+# County Title
+title = c_dymes
+
+# Settlements
 max_settlements = 3
-b_dymes=castle
-# b_pharae=city
-# b_tritaia=temple
 
-culture=achaean
-religion=pantes_theoi
+b_dymes = castle
+#b_pharae = city
+#b_tritaia = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

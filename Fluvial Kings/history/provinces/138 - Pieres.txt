@@ -1,7 +1,15 @@
-title=c_pieres
+# c_pieres
 
-max_settlements= 1
-b_pella=tribal
+# County Title
+title = c_pieres
 
-culture=macedonian
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_pella = tribal
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

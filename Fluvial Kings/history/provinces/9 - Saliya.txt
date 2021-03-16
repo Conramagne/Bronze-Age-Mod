@@ -1,8 +1,16 @@
-title=c_saliya
+# c_saliya
 
-max_settlements= 2
-b_saliya= castle
+# County Title
+title = c_saliya
+
+# Settlements
+max_settlements = 2
+
+b_saliya = castle
 b_lamiya = city
 
-culture=luwian
-religion=haianiluwi
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

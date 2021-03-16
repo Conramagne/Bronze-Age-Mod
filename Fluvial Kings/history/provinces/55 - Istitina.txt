@@ -1,7 +1,15 @@
-title=c_istitina
+# c_istitina
 
-max_settlements= 1
-b_istitina=castle
+# County Title
+title = c_istitina
 
-culture=hittite
-religion=ishalitethai
+# Settlements
+max_settlements = 1
+
+b_istitina = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

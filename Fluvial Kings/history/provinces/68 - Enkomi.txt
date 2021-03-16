@@ -1,7 +1,15 @@
-title=c_enkomi
+# c_enkomi
 
-max_settlements= 1
-b_enkomi=castle
+# County Title
+title = c_enkomi
 
-culture=cypriot
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_enkomi = castle
+
+# Misc
+culture = cypriot
+religion = pantes_theoi
+
+#History

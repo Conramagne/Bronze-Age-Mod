@@ -1,8 +1,16 @@
-title=c_pityoussa
+# c_pityoussa
 
-max_settlements= 2
-b_cardamyle=castle
-b_khios=temple
+# County Title
+title = c_pityoussa
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 2
+
+b_cardamyle = castle
+b_khios = temple
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

@@ -1,7 +1,15 @@
-title=c_orchomenus
+# c_orchomenos
 
-max_settlements= 1
-b_orchomenos=castle
+# County Title
+title = c_orchomenos
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_orchomenos = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

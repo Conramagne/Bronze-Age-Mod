@@ -1,8 +1,16 @@
-title=c_salatiwara
+# c_salatiwara
 
-max_settlements= 2
-b_salatiwara=castle
+# County Title
+title = c_salatiwara
+
+# Settlements
+max_settlements = 2
+
+b_salatiwara = castle
 b_ankala = city
 
-culture=eneti
-religion=ishalitethai
+# Misc
+culture = eneti
+religion = ishalitethai
+
+#History

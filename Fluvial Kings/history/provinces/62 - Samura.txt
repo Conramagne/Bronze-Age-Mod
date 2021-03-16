@@ -1,9 +1,17 @@
-title=c_samura
+# c_samura
 
-max_settlements= 3
-b_samura= castle
+# County Title
+title = c_samura
+
+# Settlements
+max_settlements = 3
+
+b_samura = castle
 b_kumaha = city
 b_nesa = temple
 
-culture=hittite
-religion=ishalitethai
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

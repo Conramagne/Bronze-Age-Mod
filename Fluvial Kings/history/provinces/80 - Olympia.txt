@@ -1,8 +1,16 @@
-title=c_olympia
+# c_olympia
 
-max_settlements= 2
-b_pisa =castle
-b_olympia=temple
+# County Title
+title = c_olympia
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_pisa = castle
+b_olympia = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

@@ -1,7 +1,15 @@
-title=c_tymphaea
+# c_tymphaea
 
-max_settlements= 1
-b_tymphaea=tribal
+# County Title
+title = c_tymphaea
 
-culture=dorian
-religion=pantes_theoi #temporary
+# Settlements
+max_settlements = 1
+
+b_tymphaea = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

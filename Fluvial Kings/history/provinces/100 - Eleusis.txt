@@ -1,7 +1,15 @@
-title=c_eleusis
+# c_eleusis
 
-max_settlements= 1
-b_eleusis=castle
+# County Title
+title = c_eleusis
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_eleusis = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

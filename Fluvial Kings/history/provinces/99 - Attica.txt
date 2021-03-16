@@ -1,10 +1,18 @@
-title=c_attica
+# c_attica
 
-max_settlements= 4
-b_athens=castle
-b_penteli=city
-b_brauron=temple
-# b_pireas=city
+# County Title
+title = c_attica
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 4
+
+b_athens = castle
+b_penteli = city
+b_brauron = temple
+#b_pireas = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

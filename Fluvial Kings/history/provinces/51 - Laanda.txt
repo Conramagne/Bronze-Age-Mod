@@ -1,7 +1,15 @@
-title=c_laanda
+# c_laanda
 
-max_settlements= 1
-b_laanda=castle
+# County Title
+title = c_laanda
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_laanda = castle
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

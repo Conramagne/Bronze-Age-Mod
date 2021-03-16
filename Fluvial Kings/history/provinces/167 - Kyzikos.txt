@@ -1,8 +1,16 @@
-title=c_kyzikos
+# c_kyzikos
 
-max_settlements= 2
-b_kyzikos=tribal
-b_artakia=city
+# County Title
+title = c_kyzikos
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 2
+
+b_kyzikos = castle
+b_artakia = city
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

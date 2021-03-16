@@ -1,7 +1,15 @@
-title=c_doris
+# c_doris
 
-max_settlements= 1
-b_nafpaktos=castle
+# County Title
+title = c_doris
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_nafpaktos = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

@@ -1,8 +1,16 @@
-title=c_stratos
+# c_stratos
 
-max_settlements= 2
-b_stratos=tribal
-b_agrinion=tribal
+# County Title
+title = c_stratos
 
-culture=dorian
-religion=pantes_theoi #temporary
+# Settlements
+max_settlements = 2
+
+b_stratos = castle
+b_agrinons = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

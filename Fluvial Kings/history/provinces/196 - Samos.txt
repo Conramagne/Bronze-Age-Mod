@@ -1,7 +1,15 @@
-title=c_samos
+# c_samos
 
-max_settlements= 1
-b_samos_apasa=castle
+# County Title
+title = c_samos
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_samos_apasa = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

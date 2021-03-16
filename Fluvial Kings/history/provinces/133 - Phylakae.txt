@@ -1,10 +1,18 @@
-title=c_phylakae
+# c_phylakae
 
-max_settlements= 4
-b_phylakae=castle
-b_itonus=temple
-# b_antron=city
-# b_pteleus = castle
+# County Title
+title = c_phylakae
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 4
+
+b_phylakae = castle
+b_itonus = city
+#b_antron = temple
+#b_pteleus = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

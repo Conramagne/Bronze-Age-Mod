@@ -1,7 +1,15 @@
-title=c_tarsa
+# c_tarsa
 
-max_settlements= 1
-b_tarsa= castle
+# County Title
+title = c_tarsa
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_tarsa = castle
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

@@ -1,9 +1,17 @@
-title=c_lazpa
+# c_lazpa
 
-max_settlements= 3
-b_antissa=tribal
-# b_mithymna=city
-# b_mytilini=temple
+# County Title
+title = c_lazpa
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 3
+
+b_antissa = castle
+b_mithymna = city
+b_mytilini = temple
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

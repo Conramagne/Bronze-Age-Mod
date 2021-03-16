@@ -1,8 +1,16 @@
-title=c_suwatara
+# c_suwatara
 
-max_settlements= 2
-b_suwatara= castle
+# County Title
+title = c_suwatara
+
+# Settlements
+max_settlements = 2
+
+b_suwatara = castle
 b_lusna = city
 
-culture=hittite
-religion=ishalitethai
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

@@ -1,8 +1,16 @@
-title=c_karystos
+# c_karystos
 
-max_settlements= 2
-b_karystos=castle
-# b_dystos=temple
+# County Title
+title = c_karystos
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 2
+
+b_karystos = castle
+b_dystos = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

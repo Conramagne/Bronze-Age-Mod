@@ -1,7 +1,15 @@
-title=c_asturiya
+# c_asturiya
 
-max_settlements= 1
-b_asturiya=castle
+# County Title
+title = c_asturiya
 
-culture=isuwan
-religion=ishalitethai
+# Settlements
+max_settlements = 1
+
+b_asturiya = castle
+
+# Misc
+culture = isuwan
+religion = ishalitethai
+
+#History

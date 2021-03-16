@@ -1,9 +1,17 @@
-title=c_milawata
+# c_milawata
 
-max_settlements = 4
+# County Title
+title = c_milawata
+
+# Settlements
+max_settlements = 3
+
 b_milawata = castle
-# b_priene_apasa = temple
-# b_myous = city
+b_priene_apasa = temple
+b_myous = city
 
+# Misc
 culture = achaean
 religion = pantes_theoi
+
+#History

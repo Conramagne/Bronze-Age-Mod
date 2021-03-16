@@ -1,9 +1,17 @@
-title=c_haburat
+# c_haburat
 
-max_settlements= 3
-b_haburat= castle
+# County Title
+title = c_haburat
+
+# Settlements
+max_settlements = 3
+
+b_haburat = castle
 b_pittiyarika = city
 b_aryiza = temple
 
-culture=hittite
-religion=ishalitethai
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

@@ -1,0 +1,15 @@
+# c_yizrael
+
+# County Title
+title = c_yizrael
+
+# Settlements
+max_settlements = 1
+
+b_placeholder_11 = castle
+
+# Misc
+culture = hittite
+religion = berith
+
+#History

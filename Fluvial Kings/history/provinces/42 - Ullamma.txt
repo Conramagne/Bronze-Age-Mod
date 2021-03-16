@@ -1,9 +1,17 @@
-title=c_ullamma
+# c_ullamma
 
-max_settlements= 3
-b_ullamma= castle
+# County Title
+title = c_ullamma
+
+# Settlements
+max_settlements = 3
+
+b_ullama = castle
 b_kussara = city
 b_ninassa = city
 
-culture=hittite
-religion=ishalitethai
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

@@ -1,10 +1,18 @@
-title=c_mases
+# c_mases
 
-max_settlements= 4
-b_mases=castle
-b_epidaurus=temple
-# b_hermione=city
-# b_franchthi=city
+# County Title
+title = c_mases
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 4
+
+b_mases = castle
+b_epidaurus = temple
+b_hermione = city
+b_franchthi = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

@@ -1,8 +1,16 @@
-title=c_tegarama
+# c_tegarama
 
-max_settlements= 2
-b_tegarama= castle
+# County Title
+title = c_tegarama
+
+# Settlements
+max_settlements = 2
+
+b_tegarama = castle
 b_melid = city
 
-culture=isuwan
-religion=ishalitethai
+# Misc
+culture = isuwan
+religion = ishalitethai
+
+#History

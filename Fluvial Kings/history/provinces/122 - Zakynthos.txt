@@ -1,7 +1,15 @@
-title=c_zakynthos
+# c_zakynthos
 
-max_settlements= 1
-b_zakynthos=castle
+# County Title
+title = c_zakynthos
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_zakynthos = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

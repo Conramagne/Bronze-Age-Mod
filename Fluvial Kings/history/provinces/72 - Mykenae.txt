@@ -1,10 +1,18 @@
-title=c_mycenae
+# c_mykenae
 
-max_settlements= 4
-b_mycenae=castle
-b_corinth=city
-b_nemea=castle
-b_kleonai=temple
+# County Title
+title = c_mykenae
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 4
+
+b_mycenae = castle
+b_corinth = city
+b_nemea = castle
+b_kleonai = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

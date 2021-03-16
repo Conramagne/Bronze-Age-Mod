@@ -1,7 +1,15 @@
-title=c_dardania
+# c_dardania
 
-max_settlements= 1
-b_dardanos=castle
+# County Title
+title = c_dardania
 
+# Settlements
+max_settlements = 1
+
+b_dardanos = castle
+
+# Misc
 culture = wilusan
 religion = assussani
+
+#History

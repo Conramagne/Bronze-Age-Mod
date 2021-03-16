@@ -1,9 +1,17 @@
-title=c_thyrion
+# c_thyrion
 
-max_settlements= 3
-b_phara=castle
-#b_thyrion=temple
-#b_alyzia=city
+# County Title
+title = c_thyrion
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_phara = castle
+#b_thyrion = city
+#b_alyzia = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

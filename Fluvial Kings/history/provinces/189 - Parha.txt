@@ -1,7 +1,15 @@
-title=c_parha
+# c_parha
 
-max_settlements= 1
-b_parha=tribal
+# County Title
+title = c_parha
 
-culture=lycian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_parha = tribal
+
+# Misc
+culture = lycian
+religion = haianiluwi
+
+#History

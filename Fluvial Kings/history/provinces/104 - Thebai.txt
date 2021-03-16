@@ -1,11 +1,19 @@
-title=c_thebes
+# c_thebai
 
-max_settlements= 5
-b_thebes=castle
-b_gla=city
-b_aulis=temple
-b_hyria=castle
-# b_thespiae=city
+# County Title
+title = c_thebai
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 5
+
+b_thebes = castle
+b_gla = city
+b_aulis = temple
+b_hyria = castle
+#b_thespiae = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

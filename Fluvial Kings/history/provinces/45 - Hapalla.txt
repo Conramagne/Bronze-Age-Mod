@@ -1,9 +1,17 @@
-title=c_hapalla
+# c_hapalla
 
-max_settlements= 3
-b_hapalla= castle
+# County Title
+title = c_hapalla
+
+# Settlements
+max_settlements = 3
+
+b_hapalla = castle
 b_ikkuwaniya = city
 b_ussa = temple
 
-culture=hittite
-religion=ishalitethai
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

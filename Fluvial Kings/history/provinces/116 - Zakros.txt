@@ -1,9 +1,17 @@
-title=c_zakros
+# c_zakros
 
-max_settlements= 3
-b_zakros=castle
-b_itanos=city
-b_palekastro=temple
+# County Title
+title = c_zakros
 
+# Settlements
+max_settlements = 3
+
+b_zakros = castle
+b_itanos = city
+b_palekastro = temple
+
+# Misc
 culture = cretan
 religion = pantes_theoi
+
+#History

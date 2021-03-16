@@ -1,7 +1,15 @@
-title=c_krapathos
+# c_krapathos
 
-max_settlements= 1
-b_krapathos=castle
+# County Title
+title = c_krapathos
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_krapathos = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

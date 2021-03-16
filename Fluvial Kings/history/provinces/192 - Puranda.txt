@@ -1,7 +1,15 @@
-title=c_puranda
+# c_puranda
 
-max_settlements= 1
-b_puranda=tribal
+# County Title
+title = c_puranda
 
+# Settlements
+max_settlements = 1
+
+b_puranda = tribal
+
+# Misc
 culture = lydian
 religion = assussani
+
+#History

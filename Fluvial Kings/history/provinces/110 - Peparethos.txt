@@ -1,7 +1,15 @@
-title=c_peparethos
+# c_peparethos
 
-max_settlements= 1
-b_peparethos=castle
+# County Title
+title = c_peparethos
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_peparethos = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

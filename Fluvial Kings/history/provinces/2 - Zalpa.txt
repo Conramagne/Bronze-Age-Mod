@@ -1,7 +1,15 @@
-title=c_zalpa
+# c_zalpa
 
+# County Title
+title = c_zalpa
+
+# Settlements
 max_settlements = 1
-b_zalpa = tribe
 
-culture=kaskian
-religion=ishalitethai
+b_zalpa = tribal
+
+# Misc
+culture = kaskian
+religion = ishalitethai
+
+#History

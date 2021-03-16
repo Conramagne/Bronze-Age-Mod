@@ -1,8 +1,16 @@
-title=c_ainis
+# c_ainis
 
-max_settlements= 2
-b_herakleia=tribal
-# b_potidania=temple
+# County Title
+title = c_ainis
 
-culture=dorian
-religion=pantes_theoi #temporary
+# Settlements
+max_settlements = 2
+
+b_herakleia = castle
+#b_potidania = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

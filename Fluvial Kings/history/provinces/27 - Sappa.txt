@@ -1,7 +1,15 @@
-title=c_sappa
+# c_sappa
 
-max_settlements= 1
-b_sappa= tribal
+# County Title
+title = c_sappa
 
-culture=eneti
-religion=ishalitethai
+# Settlements
+max_settlements = 1
+
+b_sappa = tribal
+
+# Misc
+culture = eneti
+religion = ishalitethai
+
+#History

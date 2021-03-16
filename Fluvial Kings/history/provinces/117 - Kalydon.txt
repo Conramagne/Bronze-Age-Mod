@@ -1,9 +1,17 @@
-title=c_kalydon
+# c_kalydon
 
-max_settlements= 3
-b_kalydon=castle
-b_khalkis=city
-b_olenos=temple
+# County Title
+title = c_kalydon
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_kalydon = castle
+b_khalkis = city
+b_olenos = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

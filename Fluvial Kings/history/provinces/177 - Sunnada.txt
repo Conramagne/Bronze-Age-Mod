@@ -1,7 +1,15 @@
-title=c_sunnada
+# c_sunnada
 
-max_settlements= 1
-b_sunnada=tribal
+# County Title
+title = c_sunnada
 
-culture=luwian
-religion=haianiluwi
+# Settlements
+max_settlements = 1
+
+b_sunnada = tribal
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

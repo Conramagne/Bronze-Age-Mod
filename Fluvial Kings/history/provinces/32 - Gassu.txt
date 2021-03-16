@@ -1,9 +1,17 @@
-title=c_gassu
+# c_gassu
 
-max_settlements= 3
-b_gassu= tribal
-# b_timuhala = city
-# b_tahappisuna = temple
+# County Title
+title = c_gassu
 
-culture=eneti
-religion=ishalitethai
+# Settlements
+max_settlements = 3
+
+b_gassu = tribal
+#b_timuhala = city
+#b_tahappisuna = temple
+
+# Misc
+culture = eneti
+religion = ishalitethai
+
+#History

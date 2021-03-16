@@ -1,8 +1,16 @@
-title=c_mysia
+# c_mysia
 
-max_settlements= 2
-b_mysia=tribal
-# b_pergamon=city
+# County Title
+title = c_mysia
 
+# Settlements
+max_settlements = 2
+
+b_mysia = tribal
+#b_pergamon = city
+
+# Misc
 culture = mysian
 religion = haianiluwi
+
+#History

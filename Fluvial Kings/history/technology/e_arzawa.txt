@@ -1,0 +1,26 @@
+#ARZAWA
+technology = {
+	titles = {
+		d_apasa
+		d_arzawa
+		d_karkiya
+		d_kuwaliya
+		d_kyzikos
+		d_lazpa
+		d_lukka
+		d_masa
+		d_mysia
+		d_sfard
+		d_wilusa
+	}
+	2527 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+	3160 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

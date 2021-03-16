@@ -1,7 +1,15 @@
-title=c_melos
+# c_melos
 
-max_settlements= 1
-b_phylakopi=castle
+# County Title
+title = c_melos
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 1
+
+b_phylakopi = castle
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

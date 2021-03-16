@@ -1,9 +1,17 @@
-title=c_sahiriya
+# c_sahiriya
 
-max_settlements= 3
-b_sahiriya= castle
+# County Title
+title = c_sahiriya
+
+# Settlements
+max_settlements = 3
+
+b_sahiriya = castle
 b_sallapa = city
 b_parsuhanda = temple
 
-culture=luwian
-religion=haianiluwi
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

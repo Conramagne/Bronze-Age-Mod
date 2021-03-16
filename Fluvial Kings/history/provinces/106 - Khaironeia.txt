@@ -1,9 +1,17 @@
-title=c_chaeronea
+# c_khaironeia
 
-max_settlements= 3
-b_chaeronea=castle
-b_thisbe=temple
-b_onchestus=city
+# County Title
+title = c_khaironeia
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_chaeronea = castle
+b_thisbe = temple
+b_onchestus = city
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

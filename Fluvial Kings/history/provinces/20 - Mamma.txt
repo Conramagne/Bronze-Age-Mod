@@ -1,7 +1,15 @@
-title=c_mamma
+# c_mamma
 
-max_settlements= 1
-b_mamma=castle
+# County Title
+title = c_mamma
 
-culture=hittite
-religion=ishalitethai
+# Settlements
+max_settlements = 1
+
+b_mamma = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

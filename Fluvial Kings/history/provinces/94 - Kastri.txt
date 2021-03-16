@@ -1,9 +1,17 @@
-title=c_kastri
+# c_kastri
 
-max_settlements= 3
-b_kastri=castle
-# b_skandeia=city
-# b_kythria=temple
+# County Title
+title = c_kastri
 
-culture=achaean
-religion=pantes_theoi
+# Settlements
+max_settlements = 3
+
+b_kastri = castle
+#b_skandeia = city
+#b_kythria = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

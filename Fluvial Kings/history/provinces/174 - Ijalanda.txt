@@ -1,7 +1,15 @@
-title=c_ijalanda
+# c_ijalanda
 
-max_settlements= 1
-b_synaos=tribal
+# County Title
+title = c_ijalanda
 
+# Settlements
+max_settlements = 1
+
+b_synaos = tribal
+
+# Misc
 culture = mysian
 religion = haianiluwi
+
+#History

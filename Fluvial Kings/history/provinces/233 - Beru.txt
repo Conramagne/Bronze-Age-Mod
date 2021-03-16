@@ -1,0 +1,15 @@
+# c_beru
+
+# County Title
+title = c_beru
+
+# Settlements
+max_settlements = 1
+
+b_placeholder = castle
+
+# Misc
+culture = hittite
+religion = berith
+
+#History

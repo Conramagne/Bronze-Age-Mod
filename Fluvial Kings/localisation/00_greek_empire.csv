@@ -90,8 +90,8 @@ c_sykyon;Sykyon;;;;;;;;;;;;;x
 c_sykyon_adj;Sykyonian;;;;;;;;;;;;;x
 c_aigeira;Aigeira;;;;;;;;;;;;;x
 c_aigeira_adj;Aigeiran;;;;;;;;;;;;;x
-c_aegion;Aigio;;;;;;;;;;;;;x
-c_aegion_adj;Aegionite;;;;;;;;;;;;;x
+c_aigio;Aigio;;;;;;;;;;;;;x
+c_aigio_adj;Aegionite;;;;;;;;;;;;;x
 c_salamis;Salamína;;;;;;;;;;;;;x
 c_salamis_adj;Salamite;;;;;;;;;;;;;x
 c_aigina;Aígina;;;;;;;;;;;;;x
@@ -100,14 +100,14 @@ c_elis;Elis;;;;;;;;;;;;;x
 c_elis_adj;Elisite;;;;;;;;;;;;;x
 c_olympia;Olympia;;;;;;;;;;;;;x
 c_olympia_adj;Olympian;;;;;;;;;;;;;x
-c_tyhos;Tyhos Dymaeon;;;;;;;;;;;;;x
-c_tyhos_adj;Tyhosite;;;;;;;;;;;;;x
+c_tyhos_dymaeon;Tyhos Dymaeon;;;;;;;;;;;;;x
+c_tyhos_dymaeon_adj;Tyhosite;;;;;;;;;;;;;x
 c_dymes;Dymes;;;;;;;;;;;;;x
 c_dymes_adj;Dymesite;;;;;;;;;;;;;x
 c_kleitor;Kleitor;;;;;;;;;;;;;x
 c_kleitor_adj;Kleitorian;;;;;;;;;;;;;x
-c_orchomenus_ar;Orchomenos Arcadia;;;;;;;;;;;;;x
-c_orchomenus_ar_adj;Orchomenosi;;;;;;;;;;;;;x
+c_orchomenos_arcadia;Orchomenos Arcadia;;;;;;;;;;;;;x
+c_orchomenos_arcadia_adj;Orchomenosi;;;;;;;;;;;;;x
 c_stymphalos;Stymphalos;;;;;;;;;;;;;x
 c_stymphalos_adj;Stymphali;;;;;;;;;;;;;x
 c_tegea;Tegea;;;;;;;;;;;;;x
@@ -150,8 +150,8 @@ c_thebes;Thêbai;;;;;;;;;;;;;x
 c_thebes_adj;Thêbaian;;;;;;;;;;;;;x
 c_kopai;Kopai;;;;;;;;;;;;;x
 c_kopai_adj;Kopaiei;;;;;;;;;;;;;x
-c_chaeronea;Khaironeia;;;;;;;;;;;;;x
-c_chaeronea_adj;Khaironeiai;;;;;;;;;;;;;x
+c_khaironeia;Khaironeia;;;;;;;;;;;;;x
+c_khaironeia_adj;Khaironeiai;;;;;;;;;;;;;x
 c_dium;Dion;;;;;;;;;;;;;x
 c_dium_adj;Dionian;;;;;;;;;;;;;x
 c_eretria;Eretria;;;;;;;;;;;;;x
@@ -311,8 +311,8 @@ b_tritaia;Tritaia;;;;;;;;;;;;;x
 b_tritaia_adj;Tritaian;;;;;;;;;;;;;x
 b_kleitor;Kleitor;;;;;;;;;;;;;x
 b_kleitor_adj;Kleitorian;;;;;;;;;;;;;x
-b_orchomenus_ar;Orchomenus;;;;;;;;;;;;;x
-b_orchomenus_ar_adj;Orchomenusai;;;;;;;;;;;;;x
+b_orchomenos_arcadia;Orchomenos;;;;;;;;;;;;;x
+b_orchomenos_arcadia_adj;Orchomenosai;;;;;;;;;;;;;x
 b_orchomenus_at;Orchomenus;;;;;;;;;;;;;x
 b_orchomenus_at_adj;Orchomenusai;;;;;;;;;;;;;x
 b_pheneos;Pheneos;;;;;;;;;;;;;x
@@ -469,8 +469,8 @@ b_kopai;Kopai;;;;;;;;;;;;;x
 b_kopai_adj;Kopaiei;;;;;;;;;;;;;x
 b_ocalea;Ocalea;;;;;;;;;;;;;x
 b_ocalea_adj;Ocaleaen;;;;;;;;;;;;;x
-b_chaeronea;Khaironeia;;;;;;;;;;;;;x
-b_chaeronea_adj;Khaironeia;;;;;;;;;;;;;x
+b_khaironeia;Khaironeia;;;;;;;;;;;;;x
+b_khaironeia_adj;Khaironeia;;;;;;;;;;;;;x
 b_dium;Dion;;;;;;;;;;;;;x
 b_dium_adj;Dionian;;;;;;;;;;;;;x
 b_artemiaio;Artemisio;;;;;;;;;;;;;x

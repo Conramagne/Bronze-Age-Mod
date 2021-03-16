@@ -1,7 +1,15 @@
-title=c_sfard
+# c_sfard
 
-max_settlements= 1
-b_sfard=tribal
+# County Title
+title = c_sfard
 
+# Settlements
+max_settlements = 1
+
+b_sfard = tribal
+
+# Misc
 culture = lydian
 religion = assussani
+
+#History
