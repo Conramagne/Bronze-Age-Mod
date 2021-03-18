@@ -1,40 +1,150 @@
 #GREEK EMPIRE
+
+#Very High Technology
+# technology = {
+	# titles = {
+		# d_achaea
+		# d_boetica
+	# }
+	
+	# 2527 = {
+		# military = 1.2		
+		# economy = 1.5
+		# culture = 1.5
+		# TECH_RECRUITMENT = 3
+		# TECH_CASTLE_CONSTRUCTION = 3
+		# TECH_CITY_CONSTRUCTION = 3
+		# TECH_CONSTRUCTION = 3
+		# TECH_MAJESTY = 2
+		# TECH_LEGALISM = 3
+	# }
+		
+	# 3061 = {
+		# military = 5
+		# economy = 5
+		# culture = 5
+	# }
+# }
+
+#High Technology
 technology = {
 	titles = {
 		d_achaea
-		d_arcadia
-		d_argolis
 		d_attica
 		d_boetica
-		d_chalkidiki
-		d_dolopia
+		d_laconia
+		d_messenia
+	}
+
+	2527 = {
+		military = 0.8
+		economy = 1
+		culture = 1
+		TECH_CASTLE_CONSTRUCTION = 2
+		TECH_CITY_CONSTRUCTION = 1.2
+		TECH_FORTIFICATIONS_CONSTRUCTION = 1.2
+		TECH_CONSTRUCTION = 1.2
+		TECH_RELIGIOUS_CUSTOMS = 1.4
+		TECH_CAVALRY = 1.5
+	}
+		
+	3061 = {
+		military = 5
+		economy = 5
+		culture = 5
+	}
+}
+
+#Medium Technology
+technology = {
+	titles = {
+		d_argolis
+		d_knossos
+		d_thessalia
+	}
+
+	2527 = {
+		military = 0.5
+		economy = 0.85
+		culture = 1.0
+		TECH_INFANTRY = 1
+		TECH_MELEE = 0.75
+		TECH_FORTIFICATIONS_CONSTRUCTION = 1
+		TECH_CASTLE_CONSTRUCTION = 1
+		TECH_NAVAL = 1
+	}
+
+	3061 = {
+	
+		military = 4
+		economy = 4
+		culture = 4
+		TECH_CAVALRY = 4
+		TECH_MELEE = 5		
+		TECH_FORTIFICATIONS_CONSTRUCTION = 6.0
+		TECH_CASTLE_CONSTRUCTION = 6.0
+	}
+}
+
+#Low Technology
+technology = {
+	titles = {
 		d_elis
 		d_euvoia
-		d_ithake
-		d_knossos
 		d_kuklades
-		d_lacedemonia
 		d_lasynthos
-		d_magnesia
-		d_makedonia
 		d_malis
-		d_messenia
-		d_ozolian_lokris
-		d_phokis
 		d_rhodios
 		d_salamis
-		d_thessalia
-		d_thraki
 		d_voreios_aigaion
 	}
+	
 	2527 = {
-		military = 2.0
-		economy = 2.0
-		culture = 2.0
+		military = 0.2
+		economy = 0.1
+		culture = 0.15
+		TECH_INFANTRY = 1
+		TECH_MELEE = 0.75
+		TECH_FORTIFICATIONS_CONSTRUCTION = 1
+		TECH_CASTLE_CONSTRUCTION = 1
+		TECH_NAVAL = 1
 	}
-	3160 = {
-		military = 5.0
-		economy = 5.0
-		culture = 5.0
+	
+	3061 = {
+		military = 4
+		economy = 4
+		culture = 4
+	}
+}
+
+#Very Low Technology
+technology = {
+	titles = {
+		d_arcadia
+		d_chalkidiki
+		d_dolopia
+		d_ithake
+		d_magnesia
+		d_makedonia
+		d_ozolian_lokris
+		d_phokis
+		d_thraki
+	}
+
+	2527 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+		TECH_INFANTRY = 1
+		TECH_MELEE = 0.75
+		TECH_FORTIFICATIONS_CONSTRUCTION = 1
+		TECH_CASTLE_CONSTRUCTION = 1
+		TECH_NAVAL = 1
+
+	}
+	3061 = {
+		military = 4
+		economy = 4
+		culture = 4
 	}
 }

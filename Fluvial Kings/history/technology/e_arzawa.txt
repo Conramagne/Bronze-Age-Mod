@@ -1,26 +1,67 @@
 #ARZAWA
+
+#High Technology
+technology = {
+	titles = {
+		d_wilusa
+	}
+
+	2527 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+		
+	3061 = {
+		military = 5
+		economy = 5
+		culture = 5
+	}
+}
+
+#Medium Technology
 technology = {
 	titles = {
 		d_apasa
-		d_arzawa
 		d_karkiya
+	}
+
+	2527 = {
+		military = 0.5
+		economy = 0.85
+		culture = 1.0
+	}
+
+	3061 = {
+	
+		military = 4
+		economy = 4
+		culture = 4
+	}
+}
+
+#Very Low Technology
+technology = {
+	titles = {
+		d_arzawa
+		d_lapza
+		d_lukka
 		d_kuwaliya
 		d_kyzikos
-		d_lazpa
-		d_lukka
 		d_masa
 		d_mysia
 		d_sfard
-		d_wilusa
 	}
+
 	2527 = {
-		military = 2.0
-		economy = 2.0
-		culture = 2.0
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+
 	}
-	3160 = {
-		military = 5.0
-		economy = 5.0
-		culture = 5.0
+	3061 = {
+		military = 2.5
+		economy = 2.5
+		culture = 2.5
 	}
 }

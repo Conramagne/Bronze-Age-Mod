@@ -1,34 +1,136 @@
-#HITTITE EMPIRE
+#Anatolia
+
+#Very High Technology
+technology = {
+	titles = {
+		d_hatti
+	}
+	
+	2527 = {
+		military = 1.2		
+		economy = 1.5
+		culture = 1.5
+		TECH_RECRUITMENT = 3
+		TECH_CASTLE_CONSTRUCTION = 3
+		TECH_CITY_CONSTRUCTION = 3
+		TECH_CONSTRUCTION = 3
+		TECH_MAJESTY = 2
+		TECH_LEGALISM = 3
+	}
+		
+	3061 = {
+		military = 4.5
+		economy = 4.5
+		culture = 4.5
+	}
+}
+
+#High Technology
+technology = {
+	titles = {
+		d_puruma
+	}
+
+	2527 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+		
+	3061 = {
+		military = 5
+		economy = 5
+		culture = 5
+	}
+}
+
+#Medium Technology
+technology = {
+	titles = {
+		d_katerra_udne
+		d_samura
+		d_tarhuntassa
+	}
+
+	2527 = {
+		military = 0.5
+		economy = 0.85
+		culture = 1.0
+	}
+
+	3061 = {
+	
+		military = 4
+		economy = 4
+		culture = 4
+	}
+}
+
+#Low Technology
 technology = {
 	titles = {
 		d_ambara
-		d_hatti
-		d_hulaya
-		d_kalasma
-		d_kaska
 		d_kassiya
-		d_kastaraya
-		d_kasula
-		d_kattera_udne
 		d_mala
 		d_marqasa
-		d_paphos
 		d_pitassa
-		d_puruma
-		d_salamis_cyp
-		d_samura
 		d_sarazzi_udne
-		d_tarhuntassa
 		d_tegarama
 	}
+	
 	2527 = {
-		military = 2.0
-		economy = 2.0
-		culture = 2.0
+		military = 0.2
+		economy = 0.1
+		culture = 0.15
+		
 	}
-	3160 = {
-		military = 5.0
-		economy = 5.0
-		culture = 5.0
+	
+	3061 = {
+		military = 3.5
+		economy = 3.5
+		culture = 3.5
+	}
+}
+
+#Low Technology (Amazons)
+technology = {
+	titles = {
+		d_kaska
+	}
+	
+	2527 = {
+		military = 0.2
+		economy = 0.1
+		culture = 0.15
+		TECH_CULTURE_FLEX = 6
+	}
+	
+	3061 = {
+		military = 3.5
+		economy = 3.5
+		culture = 3.5
+	}
+}
+
+
+#Very Low Technology
+technology = {
+	titles = {
+		d_hulaya
+		d_kalasma
+		d_kastaraya
+		d_kasula
+	}
+
+	2527 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+
+	}
+	3061 = {
+		military = 2.5
+		economy = 2.5
+		culture = 2.5
 	}
 }
