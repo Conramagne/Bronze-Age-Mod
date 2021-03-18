@@ -198,7 +198,7 @@ e_greek_empire = {
 		
 		capital = 90 # Sparta
 				
-		d_lacedemonia = { 
+		d_laconia = { 
 			color = { 41 93 114 }
 			color2 = { 255 255 255 }
 	
@@ -249,9 +249,9 @@ e_greek_empire = {
 			color = { 81 161 171 }
 			color2 = { 255 255 255 }
 	
-			capital = 95 #Pylos
+			capital = 97 #Pylos
 			
-			achaean = "Pylos"
+			achaean = "Púlos"
 			
 			c_messene = {
 				color = { 81 161 171 }

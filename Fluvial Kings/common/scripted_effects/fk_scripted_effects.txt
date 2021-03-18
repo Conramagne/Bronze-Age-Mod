@@ -1462,7 +1462,6 @@ remove_curse_kubeleya_effect = {
 	remove_character_modifier = kubeleya_curse_3
 }
 
-
 remove_curse_sacrifice_effect = {
 	if = {
 		limit = {
@@ -1567,6 +1566,85 @@ remove_curse_sacrifice_effect = {
 			}
 		}
 		remove_curse_derzelas_effect = yes
+	}
+}
+
+technology_reduction_hittite_effect = {
+	any_realm_province = {
+		change_tech = {
+			technology = TECH_INFANTRY
+			value = -1
+		}
+		change_tech = {
+			technology = TECH_CAVALRY
+			value = -1
+		}
+		change_tech = {
+			technology = TECH_SKIRMISH
+			value = -1
+		}
+		change_tech = {
+			technology = TECH_MELEE
+			value = -1
+		}
+		change_tech = {
+			technology = TECH_SIEGE_EQUIPMENT
+			value = -1
+		}
+		change_tech = {
+			technology = TECH_RECRUITMENT
+			value = -3
+		}
+		
+		change_tech = {
+			technology = TECH_CASTLE_CONSTRUCTION
+			value = -3
+		}
+		change_tech = {
+			technology = TECH_CITY_CONSTRUCTION
+			value = -3
+		}
+		change_tech = {
+			technology = TECH_FORTIFICATIONS_CONSTRUCTION
+			value = -1
+		}
+		change_tech = {
+			technology = TECH_TRADE_PRACTICES
+			value = -1
+		}
+		change_tech = {
+			technology = TECH_CONSTRUCTION
+			value = -3
+		}
+		change_tech = {
+			technology = TECH_NAVAL
+			value = -1
+		}
+		
+		change_tech = {
+			technology = TECH_NOBLE_CUSTOMS
+			value = -1
+		}
+		change_tech = {
+			technology = TECH_POPULAR_CUSTOMS
+			value = -1
+		}
+		change_tech = {
+			technology = TECH_RELIGIOUS_CUSTOMS
+			value = -1
+		}
+		change_tech = {
+			technology = TECH_MAJESTY
+			value = -2
+		}
+		change_tech = {
+			technology = TECH_CULTURE_FLEX
+			value = -1
+		}
+		change_tech = {
+			technology = TECH_LEGALISM
+			value = -3
+		}
 	}
 }
 

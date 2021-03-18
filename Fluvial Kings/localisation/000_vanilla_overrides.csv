@@ -81,3 +81,6 @@ EVTOPTA_HF_46000_TT;Restore the tomb of Hero [local_burial_tomb.province_hero.Ge
 
 ca_con_wall_6;Trojan Wall;;;;;;;;;;;;;x
 ca_con_wall_6_desc;The Trojan Wall was built by Poseidaon and Apollon as punishment from Zeus during the reign of King Laomedon. Impenetrable by siege weapons, it would take an act from a god to break the wall.;;;;;;;;;;;;;x
+
+title_chief_architect;Chief Architect;;;;;;;;;;;;;x
+title_chief_architect_desc;The Chief Architect is responsible for designing and overseeing the construction of palaces, temples and grand monuments.;;;;;;;;;;;;;x

@@ -52,8 +52,8 @@ d_tegarama;Tegarama;;;;;;;;;;;;;x
 d_tegarama_adj;Tegaramu;;;;;;;;;;;;;x
 d_marqasa;Marqasa;;;;;;;;;;;;;x
 d_marqasa_adj;Marqasi;;;;;;;;;;;;;x
-d_salamis_cyp;Salamís;;;;;;;;;;;;;x
-d_salamis_cyp_adj;Salamísi;;;;;;;;;;;;;x
+d_salamis_cyp;Enkomi;;;;;;;;;;;;;x
+d_salamis_cyp_adj;Enkomi;;;;;;;;;;;;;x
 d_paphos;Paphos;;;;;;;;;;;;;x
 d_paphos_adj;Paphosani;;;;;;;;;;;;;x
 
@@ -494,6 +494,8 @@ b_til_garimmu_adj;Garimmi;;;;;;;;;;;;;x
 ###########Kúprosai Baronies###########
 b_enkomi;Enkomi;;;;;;;;;;;;;x
 b_enkomi_adj;Enkomisi;;;;;;;;;;;;;x
+b_salamis_cyp;Salamís;;;;;;;;;;;;;x
+b_salamis_cyp_adj;Salamísi;;;;;;;;;;;;;x
 b_kition;Kítion;;;;;;;;;;;;;x
 b_kition_adj;Kítionai;;;;;;;;;;;;;x
 b_dromolaxia;Dromolaxia;;;;;;;;;;;;;x

@@ -36,8 +36,8 @@ d_arcadia;Arkadia;;;;;;;;;;;;;x
 d_arcadia_adj;Arkadian;;;;;;;;;;;;;x
 d_argolis;Argolís;;;;;;;;;;;;;x
 d_argolis_adj;Argeios;;;;;;;;;;;;;x
-d_lacedemonia;Lákonía;;;;;;;;;;;;;x
-d_lacedemonia_adj;Lákon;;;;;;;;;;;;;x
+d_laconia;Lákonía;;;;;;;;;;;;;x
+d_laconia_adj;Lákon;;;;;;;;;;;;;x
 d_kythera;Kuthera;;;;;;;;;;;;;x
 d_kythera_adj;Kutheran;;;;;;;;;;;;;x
 d_messenia;Messenia;;;;;;;;;;;;;x
@@ -132,8 +132,8 @@ c_messene;Messene;;;;;;;;;;;;;x
 c_messene_adj;Messenai;;;;;;;;;;;;;x
 c_phigalia;Phigalia;;;;;;;;;;;;;x
 c_phigalia_adj;Phigali;;;;;;;;;;;;;x
-c_pylos;Pylos;;;;;;;;;;;;;x
-c_pylos_adj;Pylosani;;;;;;;;;;;;;x
+c_pylos;Púlos;;;;;;;;;;;;;x
+c_pylos_adj;Púlosani;;;;;;;;;;;;;x
 c_gerenia;Gerenía;;;;;;;;;;;;;x
 c_gerenia_adj;Gereniai;;;;;;;;;;;;;x
 c_attica;Attika;;;;;;;;;;;;;x
@@ -401,8 +401,8 @@ b_phigalia;Phigalia;;;;;;;;;;;;;x
 b_phigalia_adj;Phigali;;;;;;;;;;;;;x
 b_bassae;Bássae;;;;;;;;;;;;;x
 b_bassae_adj;Bassaeni;;;;;;;;;;;;;x
-b_pylos;Pylos;;;;;;;;;;;;;x
-b_pylos_adj;Pylosani;;;;;;;;;;;;;x
+b_pylos;Púlos;;;;;;;;;;;;;x
+b_pylos_adj;Púlosani;;;;;;;;;;;;;x
 b_peristeria;Peristeria;;;;;;;;;;;;;x
 b_peristeria_adj;Peristerian;;;;;;;;;;;;;x
 b_amphigeneia;Amphigéneia;;;;;;;;;;;;;x

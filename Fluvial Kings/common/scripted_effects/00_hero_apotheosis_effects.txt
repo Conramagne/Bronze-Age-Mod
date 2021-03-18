@@ -271,14 +271,12 @@ deciding_upon_hero_effect = {
         #First hero of a Religion is easier
         modifier = {
             factor = 3
-            OR = {
-                AND = {
-                    religion_group = pantes_theoi
-                    NOT = {
-                        has_global_flag = pantes_theoi_hero
-                    }
-                }
-            }
+			AND = {
+				religion_group = pantes_theoi
+				NOT = {
+					has_global_flag = pantes_theoi_hero
+				}
+			}
         }
         if = {
 			limit = {

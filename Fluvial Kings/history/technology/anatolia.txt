@@ -18,7 +18,7 @@ technology = {
 		TECH_LEGALISM = 3
 	}
 		
-	3160 = {
+	3061 = {
 		military = 4.5
 		economy = 4.5
 		culture = 4.5
@@ -38,7 +38,7 @@ technology = {
 		culture = 1
 	}
 		
-	3160 = {
+	3061 = {
 		military = 5
 		economy = 5
 		culture = 5
@@ -61,7 +61,7 @@ technology = {
 		culture = 1.0
 	}
 
-	3160 = {
+	3061 = {
 	
 		military = 4
 		economy = 4
@@ -88,7 +88,7 @@ technology = {
 		
 	}
 	
-	3160 = {
+	3061 = {
 		military = 3.5
 		economy = 3.5
 		culture = 3.5
@@ -108,7 +108,7 @@ technology = {
 		TECH_CULTURE_FLEX = 6
 	}
 	
-	3160 = {
+	3061 = {
 		military = 3.5
 		economy = 3.5
 		culture = 3.5
@@ -139,7 +139,7 @@ technology = {
 		culture = 0.1
 
 	}
-	3160 = {
+	3061 = {
 		military = 2.5
 		economy = 2.5
 		culture = 2.5

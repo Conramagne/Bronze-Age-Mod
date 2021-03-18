@@ -13646,9 +13646,9 @@ remove_scrying_omen_modifiers_effect = { #For cleaning up end-states of the Herm
 	clr_character_flag = negative_reaction_to_scrying_flag
 	clr_character_flag = positive_event_flag
 	clr_character_flag = negative_event_flag
-	clear_delayed_event = { id = MNM.1225 }
-	clear_delayed_event = { id = MNM.1226 }
-	clear_delayed_event = { id = MNM.1227 }
+	# clear_delayed_event = { id = MNM.1225 }
+	# clear_delayed_event = { id = MNM.1226 }
+	# clear_delayed_event = { id = MNM.1227 }
 }
 
 calculate_scrying_outcome_effect = { # the positive_event_flag/negative_event_flag need to be set somewhere in the target event in order for this to work...

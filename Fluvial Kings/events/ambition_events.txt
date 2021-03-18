@@ -1585,72 +1585,72 @@ character_event = {
 }
 
 # Otis Second Attempt
-character_event = {
-	id = 94089
-	desc = EVTDESC94089
-	picture = GFX_evt_falconing
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94089
+	# desc = EVTDESC94089
+	# picture = GFX_evt_falconing
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94089
-		character_event = { id = 94091 days = 6 tooltip = EVTTOOLTIP94091 }
-	}
-}
+	# option = {
+		# name = EVTOPTA94089
+		# character_event = { id = 94091 days = 6 tooltip = EVTTOOLTIP94091 }
+	# }
+# }
 
 # al-Otis Second Attempt (Muslim version)
-character_event = {
-	id = 94096
-	desc = EVTDESC94096
-	picture = GFX_evt_falconing
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94096
+	# desc = EVTDESC94096
+	# picture = GFX_evt_falconing
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94096
-		character_event = { id = 94091 days = 6 tooltip = EVTTOOLTIP94091 }
-	}
-}
+	# option = {
+		# name = EVTOPTA94096
+		# character_event = { id = 94091 days = 6 tooltip = EVTTOOLTIP94091 }
+	# }
+# }
 
 # Meldrick Second Attempt
-character_event = {
-	id = 94090
-	desc = EVTDESC94090
-	picture = GFX_evt_falconing
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94090
+	# desc = EVTDESC94090
+	# picture = GFX_evt_falconing
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94090
-		character_event = { id = 94091 days = 6 tooltip = EVTTOOLTIP94091 }
-	}
-}
+	# option = {
+		# name = EVTOPTA94090
+		# character_event = { id = 94091 days = 6 tooltip = EVTTOOLTIP94091 }
+	# }
+# }
 
 # Ba'ah al-Drik Second Attempt
-character_event = {
-	id = 94097
-	desc = EVTDESC94097
-	picture = GFX_evt_falconing
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94097
+	# desc = EVTDESC94097
+	# picture = GFX_evt_falconing
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94090
-		character_event = { id = 94091 days = 6 tooltip = EVTTOOLTIP94091 }
-	}
-}
+	# option = {
+		# name = EVTOPTA94090
+		# character_event = { id = 94091 days = 6 tooltip = EVTTOOLTIP94091 }
+	# }
+# }
 
 # Aftermath
 character_event = {

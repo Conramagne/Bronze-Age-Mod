@@ -324,6 +324,7 @@ hero_tomb_pilgrimage_desc;You desire to visit a tomb of a legendary hero...;;;;;
 EVTDESCFKA6;A Great Hero was laid to rest in your domain...;;;;;;;;;;;;;x
 TT_HERO_FAMILY;It is an honor that I am related...;;;;;;;;;;;;;x
 EVTOPTAFKA11_TT;You grab a handful of trinkets;;;;;;;;;;;;;x
+EVTOPTBFKA11_TT;You find some valuable items;;;;;;;;;;;;;x
 
 EVTTITLEFKA7;A Hero has Ascended!;;;;;;;;;;;;;x
 EVTDESCFKA7;[hero_person.GetDynName] lived a glorious life, truly following the example of [hero_person.Religion.GetHighGodName]. [hero_person.GetSheHeCap] passed on [hero_person.GetDeathDate], and people have long wondered if [hero_person.GetSheHe] would be considered a hero of the [hero_person.Religion.GetGroupName] people or not. After many worshippers graced the tomb of [hero_person.GetFirstNameWithNick], it has been popularly declared that [hero_person.GetFirstNameWithNick] as a [hero_person.Religion.GetGroupName] who has indeed ascended into a state of apotheosis, celebrated by the people of [hero_capital.GetName] as well as by the [hero_person.Religion.GetGroupName] world as a whole.  \n\nWe can only wish to follow [hero_person.GetHerHis] example, and become worthy people in the eyes of [hero_person.Religion.GetHighGodName].;;;;;;;;;;;;;x
@@ -339,10 +340,12 @@ EVTOPTFFKA8;I pray that the hero's name will be known for many generations...;;;
 
 EVTDESCFKA9;Inspired by [hero_person.GetName], you have tried to emulate their great deeds. Many people have already begun to speak highly of you as a potential new protege of the late hero. Whether their feats of cunning or strength, the people of [hero_person.PrimaryTitle.GetName] wonder whether the spirit of the hero emunates from you...;;;;;;;;;;;;;x
 EVTOPTAFKA9;May I do a fraction of their deeds...;;;;;;;;;;;;;x
+EVTOPTBFKA9;I can only wish to be like [hero_person.GetHerHim]...;;;;;;;;;;;;;x
 
 EVTDESCFKA10;[target_burial_site.GetName] is a well known traveling spot for people wishing to see the tomb of the Hero [target_burial_site.province_hero.GetFirstName]. I have never cared much for the hero [target_burial_site.province_hero.GetFirstName] nor [offended_burial_site_owner.GetTitledFirstName], and an opportunity to grab the valuables of the tomb has offered itself. But is it worth the risk?;;;;;;;;;;;;;x
 EVTOPTAFKA10;No, I rather not offend the gods...;;;;;;;;;;;;;x
 EVTOPTBFKA10;Perhaps I can find something of worth...;;;;;;;;;;;;;x
+EVTOPTBFKA10_TT;Preparations to pillage the burial site begins;;;;;;;;;;;;;x
 
 EVTDESCFKA11;Entering the tomb of [target_burial_site.GetName], I began to observe the surrounding guaging the amount of treasures I can plunder for my own gain...;;;;;;;;;;;;;x
 EVTOPTAFKA11;I should pick a few shinies and make haste...;;;;;;;;;;;;;x
@@ -449,7 +452,7 @@ EVTOPTATW2_TT;As you spend time in the battlefield and at Troy, you may encounte
 EVTTITLETW3;The Trojan War;;;;;;;;;;;;;x
 EVTDESCATW3;"'Let [Root.GetFirstName] bleed! If yet you thirst for more, bleed all of his sons, and let Ilion float with gore.'"\n\n[Root.GetFirstName], [Root.GetTitle] of the Trojans, how you curse both the Achaeans and your son for this travesty! Eris of discord has banished your city to siege, and your armies to the slaughter. Your own child, Pari-zitis, has cursed you! It seems outside of lord Appaliunaš and lady Aparaditi, the gods have conspired against you, and your cities shall surely burn for this.;;;;;;;;;;;;;x
 EVTDESCBTW3;"Ankhises prayed with outstretched hands, appeasing the mighty gods with sacrifice: - 'Be gracious, great gods, ward off the threats, spare the devoted!'"\n\nDevoted Ankhises, great punishment you surely will suffer for coming to the aid of your cousin Pariya-muwas. However, your son, Aineías, a child of lady Aparaditi, will surely have his day of triumph, whether it be here, or some land far away...;;;;;;;;;;;;;x
-EVTDESCTW3;"After they have prayed and swore to fight honorably, Priam says, 'Hear me, Wilusili and Achaeans, I will now go back to the wind-beaten city of Wilusa: I dare not with my own eyes witness this fight between my son and Menelaus, for Zeus and the other immortals alone know which shall fall.'"\n\nWilusili, unlike the Achaeans, have made no pledge. To no man have you offered arms in order to defend a great prize. The bodies you shall lay, and the laying done unto your armies, will not be made to protect honor, but to protect life. The gods conspire against you and your people, and against the great city of Wilusa, and every fiber of your being shall be put against total destruction by the Danaan horde. Now, [Root.GetFirstName], shall you fight against them, or resign to your fate, and let Wilusa crumble?;;;;;;;;;;;;;x 
+EVTDESCTW3;"After they have prayed and swore to fight honorably, Priam says, 'Hear me, Wilusili and Achaeans, I will now go back to the wind-beaten city of Wilusa: I dare not with my own eyes witness this fight between my son and Menelaos, for Zeus and the other immortals alone know which shall fall.'"\n\nWilusili, unlike the Achaeans, have made no pledge. To no man have you offered arms in order to defend a great prize. The bodies you shall lay, and the laying done unto your armies, will not be made to protect honor, but to protect life. The gods conspire against you and your people, and against the great city of Wilusa, and every fiber of your being shall be put against total destruction by the Danaan horde. Now, [Root.GetFirstName], shall you fight against them, or resign to your fate, and let Wilusa crumble?;;;;;;;;;;;;;x 
 EVTOPTATW3;I shall defend Wilusa!;;;;;;;;;;;;;x
 EVTOPTATW3_TT;As you spend time in the battlefield, you may encounter certain events;;;;;;;;;;;;;x
 
@@ -860,3 +863,139 @@ EVTDESCTW105;The items needed for Troy to fall have been returned to their origi
 
 EVTOPTATW105;Alright.;;;;;;;;;;;;;x
 
+###########Bronze Age Collapse Events###########
+#Greek
+EVTTITLEFKCG2;Drought Befalls Us;;;;;;;;;;;;;x
+EVTDESCFKCG2;The land is barren. Trees are gnarled. Fruits are dried on the vine. Drought befalls the land of the Héllenes.;;;;;;;;;;;;;x
+EVTOPTAFKCG2;Disaster!;;;;;;;;;;;;;x
+
+EVTTITLEFKCG3;The Ground Shakes!;;;;;;;;;;;;;x
+EVTDESCFKCG3;Disaster! The ground has opened up and caused devastation across the land many buildings in the land have been destroyed.;;;;;;;;;;;;;x
+EVTOPTAFKCG3;The land itself is angered!;;;;;;;;;;;;;x
+
+EVTDESCFKCG4;The Drought Receeds;;;;;;;;;;;;;x
+EVTOPTAFKCG4;Life has been brought back to the land of the Héllenes as the drought begins to receed. It shall still take many years for the land and the people to recover.;;;;;;;;;;;;;x
+EVTOPTAFKCG4;It's as if we live after the end!;;;;;;;;;;;;;x
+
+EVTDESCFKCG7;The day is come to reclaim Father Herakles' birthright. Troops flock to my banner, and the land of the Héllenes lay prostrate.;;;;;;;;;;;;;x
+EVTOPTAFKCG7;By Athenâ's hand we shall see victory!;;;;;;;;;;;;;x
+
+EVTTITLEFKCG8;Return of the Herakleîdai;;;;;;;;;;;;;x
+EVTDESCFKCG8;The Herakleîdai have returned from the land of the Dorians to claim Herakles' birthright. Dorian soldiers flood the lands and are poised to overrun all the Héllenes.;;;;;;;;;;;;;x
+EVTOPTAFKCG8;Woe, woe befalls the Héllenes!;;;;;;;;;;;;;x
+
+EVTTITLEFKCG10;The Herakleîdai Take Argos;;;;;;;;;;;;;x
+EVTDESCFKCG10;Sing muses, of the fall of Argos! The old city of strong Inakhos has been defeated by the Herakleîdai. Dorians now flood the region, and the sons of Herakles rule the lands.;;;;;;;;;;;;;x
+EVTOPTAFKCG10;Woe unto the Argeîoi!;;;;;;;;;;;;;x
+
+EVTTITLEFKCG10;The Herakleîdai Take Lakonía;;;;;;;;;;;;;x
+EVTDESCFKCG10;Sing muses, of the fall of Lakonía! The fortresses of Menelaos have fallen to the Herakleîdai. Dorians now flood the region, and the sons of Herakles rule the lands.;;;;;;;;;;;;;x
+EVTOPTAFKCG10;Woe unto the Lákones!;;;;;;;;;;;;;x
+
+EVTTITLEFKCG11;The Herakleîdai Take Púlos;;;;;;;;;;;;;x
+EVTDESCFKCG11;Sing muses, of the fall of Púlos! The palace of crafty Nestor have fallen to the Herakleîdai. Dorians now flood the region, and the sons of Herakles rule the lands.;;;;;;;;;;;;;x
+EVTOPTAFKCG11;Woe unto the Púles!;;;;;;;;;;;;;x
+
+EVTTITLEFKCG14;Migration of the Héllenes;;;;;;;;;;;;;x
+EVTDESCFKCG14;The flood of Dorians into the heartlands of the Héllenes has become too great to ignore. Our society may not be able to withstand such a flood of men.;;;;;;;;;;;;;x
+EVTOPTAFKCG14;Barbarous Héllenes?;;;;;;;;;;;;;x
+
+EVTTITLEFKCG16;Ionikos Culture;;;;;;;;;;;;;x
+EVTDESCFKCG16;The influence of Dorians has greatly changed our culture, so much that we are now considered Ionikos.;;;;;;;;;;;;;x
+EVTOPTAFKCG16;I'm still a Héllen!;;;;;;;;;;;;;x
+
+EVTTITLEFKCG18;Dorieús Culture;;;;;;;;;;;;;x
+EVTDESCFKCG18;The influence of Dorians has greatly changed our culture, so much that we are now considered Dorieús.;;;;;;;;;;;;;x
+EVTOPTAFKCG18;I'm still a Héllen!;;;;;;;;;;;;;x
+
+EVTTITLEFKCG20;Arkás Culture;;;;;;;;;;;;;x
+EVTDESCFKCG20;The influence of Dorians has greatly changed our culture, so much that we are now considered Arkás.;;;;;;;;;;;;;x
+EVTOPTAFKCG20;I'm still a Héllen!;;;;;;;;;;;;;x
+
+EVTTITLEFKCG22;Kúprios Culture;;;;;;;;;;;;;x
+EVTDESCFKCG22;The influence of Dorians has greatly changed our culture, so much that we are now considered Kúprios.;;;;;;;;;;;;;x
+EVTOPTAFKCG22;I'm still a Héllen!;;;;;;;;;;;;;x
+
+EVTTITLEFKCG24;Aiolikos Culture;;;;;;;;;;;;;x
+EVTDESCFKCG24;The influence of Dorians has greatly changed our culture, so much that we are now considered Aiolikos.;;;;;;;;;;;;;x
+EVTOPTAFKCG24;I'm still a Héllen!;;;;;;;;;;;;;x
+
+EVTTITLEFKCG26;Invasion of the Thessalikoí;;;;;;;;;;;;;x
+EVTDESCFKCG26;Grave news from the Aiolikoi! Thessalikoí descend on their lands and crash like waves against their people. Though the Thessalikoí are Héllenes, they have taken to barbarous ways, and live in a hostile matter to fellow Héllenes. May [Root.GetHighGodName] defend them!.;;;;;;;;;;;;;x
+ EVTOPTAFKCG26;A scourge upon the Aiolikoi!;;;;;;;;;;;;;x
+ 
+EVTTITLEFKCG27;Defeat of the Aiolikoi;;;;;;;;;;;;;x
+EVTDESCFKCG27;The Thessalikoí are victorious over the Aiolikoi. Thousands have been enslaved, and the land lays prostrate to them. Many Aiolikoi flee to the east to escape the Thessalikoí.;;;;;;;;;;;;;x
+
+EVTDESCFKCG28;Victory! The weak-willed Aiolikoi have fallen to us. What was once their land is now our land. Our banners fly amongst their citadels, and the people are now subject to us.;;;;;;;;;;;;;x
+EVTOPTAFKCG28;The gods smile on us.;;;;;;;;;;;;;x
+thessalians_spread_TT;The Thessalikoí will proliferate through the homeland of the Aiolikoi;;;;;;;;;;;;;x
+thessalian_migration;Thessalikoí Migration;;;;;;;;;;;;;x
+
+EVTDESCFKCG30;The Ionikói have cemented their influence upon our land, their culture and faith are now near-native to the region.;;;;;;;;;;;;;x
+EVTOPTAFKCG30;Interesting;;;;;;;;;;;;;x
+
+EVTDESCFKCG32;The Aiolikoi have cemented their influence upon our land, their culture and faith are now near-native to the region.;;;;;;;;;;;;;x
+EVTOPTAFKCG32;Interesting;;;;;;;;;;;;;x
+
+EVTTITLEFKCG33;Expulsion of the Héllenes;;;;;;;;;;;;;x
+EVTDESCFKCG33;The Héllenes have flooded the land with their wives and children. I shall not bow down to these invaders. They must leave at once.;;;;;;;;;;;;;x
+EVTOPTAFKCG33;They shall be given gold to leave;;;;;;;;;;;;;x
+EVTOPTBFKCG33;My armies will drive them from the shores!;;;;;;;;;;;;;x
+greeks_may_revolt_TT;The Héllenes may rise up and forcibly take charge;;;;;;;;;;;;;x
+
+EVTTITLEFKCG34;Expulsion of the Héllenes;;;;;;;;;;;;;x
+EVTDESCFKCG34;Luckily, my plan to expel the Héllenes worked. They left my lands without a fuss.;;;;;;;;;;;;;x
+EVTOPTAFKCG34;I am glad no blood was spilt;;;;;;;;;;;;;x
+
+EVTTITLEFKCG35;Héllenes Revolt!;;;;;;;;;;;;;x
+EVTDESCFKCG35;Disaster! My threat did not have its desired effects, and now there are reports of a Héllen army amassing in the countryside.;;;;;;;;;;;;;x
+EVTOPTAFKCG35;They shall be dealt with;;;;;;;;;;;;;x
+
+EVTDESCFKCG36;Ionikói have settles in our lands in Arzawa. Although they seem to be simply migrants, they may soon cement their influence upon our people.;;;;;;;;;;;;;x
+EVTOPTAFKCG36;Very interesting;;;;;;;;;;;;;x
+ionian_migration;Ionikos Migration;;;;;;;;;;;;;x
+
+EVTDESCFKCG37;Aiolikoi have settles in our lands in Arzawa. Although they seem to be simply migrants, they may soon cement their influence upon our people.;;;;;;;;;;;;;x
+EVTOPTAFKCG37;Very interesting;;;;;;;;;;;;;x
+aeolian_migration;Aiolikos Migration;;;;;;;;;;;;;x
+
+#Anatolian
+EVTTITLEFKCA2;Drought Befalls Us;;;;;;;;;;;;;x
+EVTDESCFKCGA;The land is barren. Trees are gnarled. Fruits are dried on the vine. Drought befalls the land.;;;;;;;;;;;;;x
+EVTOPTAFKCGA;Disaster!;;;;;;;;;;;;;x
+
+EVTTITLEFKCG3;The Ground Shakes!;;;;;;;;;;;;;x
+EVTDESCFKCG3;Disaster! The ground has opened up and caused devastation across the land many buildings in the land have been destroyed.;;;;;;;;;;;;;x
+EVTOPTAFKCG3;The land itself is angered!;;;;;;;;;;;;;x
+
+EVTDESCFKCA4;The Drought Receeds;;;;;;;;;;;;;x
+EVTOPTAFKCA4;Life has been brought back to the land of the Héllenes as the drought begins to receed. It shall still take many years for the land and the people to recover.;;;;;;;;;;;;;x
+EVTOPTAFKCA4;It's as if we live after the end!;;;;;;;;;;;;;x
+
+EVTDESCFKCA6;The drought has begun to take a great toll on the land. The tribes are beckoning for me to raid the land of Hatti to feed our people.;;;;;;;;;;;;;x
+EVTOPTAFKCA6;I shall arm my countrymen and invade!;;;;;;;;;;;;;x
+kaskian_invasion_TT;War will be declared on all independent lords in the land of Hatti;;;;;;;;;;;;;x
+EVTOPTBFKCA6;I will give my blessing but not lead this army;;;;;;;;;;;;;x
+
+EVTTITLEFKCA7;Kaška Invasion;;;;;;;;;;;;;x
+EVTDESCFKCA7;Suffering from a great famine, the Kaška have armed themselves and now are marching towards the land of Hatti. Their numbers seem unending, and their soldiers are fierce.;;;;;;;;;;;;;x
+EVTOPTAFKCA7;Hatti lays prostrate...;;;;;;;;;;;;;x
+
+EVTTITLEFKCA8;Kaška Invasion;;;;;;;;;;;;;x
+EVTDESCFKCA8;The Kaška stand victorious over the people of the land of Hatti as they return from their pillage. Their buildings are destroyed, their granaries are barren, and their civilized nature itself seems violated.;;;;;;;;;;;;;x
+EVTOPTAAFKCA8;The land is now empty;;;;;;;;;;;;;x
+EVTOPTABFKCA8;Woeful are my lands!;;;;;;;;;;;;;x 
+
+EVTDESCFKCA10;The drought has begun to take a great toll on the land. The tribes are beckoning for me to invade the land of Hatti to feed our people.;;;;;;;;;;;;;x
+phrygian_invasion_TT;War will be declared on all independent lords in the land of Hatti;;;;;;;;;;;;;x
+EVTOPTBFKCA10;I will give my blessing but not lead this army;;;;;;;;;;;;;x
+
+EVTTITLEFKCA11;Phrugios Invasion;;;;;;;;;;;;;x
+EVTDESCFKCA11;Suffering from a great famine, the Phrugios have armed themselves and now are marching towards the land of Hatti. Their numbers seem unending, and their soldiers are fierce.;;;;;;;;;;;;;x
+EVTOPTAFKCA10;Hatti lays prostrate...;;;;;;;;;;;;;x
+
+EVTTITLEFKCA12;Phrugios Invasion;;;;;;;;;;;;;x
+EVTDESCFKCA12;The Phrugios stand victorious as they settle in their new lands. Buildings are destroyed, granaries lay barren, and civilization has ceased in the their land.;;;;;;;;;;;;;x
+EVTOPTAAFKCA12;The land is now empty;;;;;;;;;;;;;x
+EVTOPTABFKCA12;Woeful are my lands!;;;;;;;;;;;;;x 

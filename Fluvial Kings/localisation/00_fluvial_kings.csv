@@ -20,6 +20,7 @@ dorian;Dorieús;;;;;;;;;;;;;x
 ionian;Ionikós;;;;;;;;;;;;;x
 macedonian;Makedonikós;;;;;;;;;;;;;x
 theogonos;Theogonos;;;;;;;;;;;;;x
+thessalian;Thessalikós;;;;;;;;;;;;;x
 cretan;Kresijos;;;;;;;;;;;;;x
 phrygian;Phrugios;;;;;;;;;;;;;x
 # minoan;Minoikós;;;;;;;;;;;;;x
@@ -153,7 +154,7 @@ doumos;Doumos;;;;;;;;;;;;;x
 doumos_FEATURES;§Y*§! Doumos rulers may contact the gods Sabázios and Kubeleya.\n;;;;;;;;;;;;;x
 
 noreligion;The Eternal Darkness;;;;;;;;;;;;;x
-noreligion_DESC;From the time even before the creation of the World and its Celestial Shroud of Stars and Gods that illuminate, lies the dark expanse of the endless oceans. Everlasting, Unchanging, the embodiment of the Primordial forces of Chaos. Even the so-called Chaos Gods from Apep the Serpent and Tiamat the Winged Mistress fear the deepest shadows of the One that pre-date all. It is said that those that know the name of it were driven to madness, others worship its wicked snarl, but what it most troubling is that it is said that the soil of this world was once consumed in its bosom of sacrilege. Most troubling yet even among the "Higher Planes" It is rumored to linger in the shadow of the divine... waiting as it has for since before the spark and when the last light flicker out to take all in its eternal expanse.;;;;;;;;;;;;;x
+noreligion_DESC;PLEASE REPORT THIS IF YOU SEE IT\nFrom the time even before the creation of the World and its Celestial Shroud of Stars and Gods that illuminate, lies the dark expanse of the endless oceans. Everlasting, Unchanging, the embodiment of the Primordial forces of Chaos. Even the so-called Chaos Gods from Apep the Serpent and Tiamat the Winged Mistress fear the deepest shadows of the One that pre-date all. It is said that those that know the name of it were driven to madness, others worship its wicked snarl, but what it most troubling is that it is said that the soil of this world was once consumed in its bosom of sacrilege. Most troubling yet even among the "Higher Planes" It is rumored to linger in the shadow of the divine... waiting as it has for since before the spark and when the last light flicker out to take all in its eternal expanse.;;;;;;;;;;;;;x
 
 ###########Gods and Books###########
 THE_AMURRU_KTOVET;The Amurru K'tovet;;;;;;;;;;;;;x
@@ -244,7 +245,7 @@ SANKUNNI;sankunni;;;;;;;;;;;;;x
 HIEREUS;hiereús;;;;;;;;;;;;;x
 ALU;alu;;;;;;;;;;;;;x
 
-###########Fluvial King Casus Belli###########
+###########Fluvial Kings Casus Belli###########
 CB_NAME_HELLENIC_BIRTHRIGHT;Divine Birthright War for [Title.GetBaseName];;;;;;;;;;;;;x
 WAR_NAME_HELLENIC_BIRTHRIGHT;$ORDER$ Divine Birthright War for $OTHER_TITLE$;;;;;;;;;;;;;x
 
@@ -264,9 +265,21 @@ conquer_cooldown;Conquest Cooldown;;;;;;;;;;;;;x
 CB_NAME_TROJAN_WAR;Trojan War;;;;;;;;;;;;;x
 WAR_NAME_TROJAN_WAR;Trojan War;;;;;;;;;;;;;x
 
-CB_NAME_PHRYGIAN_INVASION;Phrygian Invasion;;;;;;;;;;;;;x
-WAR_NAME_PHRYGIAN_INVASION;$ORDER$ Phrygian Invasion for $OTHER_TITLE$;;;;;;;;;;;;;x
+CB_NAME_DORIAN_INVASION;Dorieús Invasion;;;;;;;;;;;;;x
+WAR_NAME_DORIAN_INVASION;Dorieús Invasion of $OTHER_TITLE$;;;;;;;;;;;;;x
 
+CB_NAME_THESSALIAN_INVASION;Thessalikós Invasion;;;;;;;;;;;;;x
+WAR_NAME_THESSALIAN_INVASION;Thessalikós Invasion of $OTHER_TITLE$;;;;;;;;;;;;;x
+
+CB_NAME_KASKIAN_INVASION;Kaška Invasion;;;;;;;;;;;;;x
+WAR_NAME_KASKIAN_INVASION;Kaška Invasion;;;;;;;;;;;;;x
+
+CB_NAME_PHRYGIAN_INVASION;Phrugios Invasion;;;;;;;;;;;;;x
+WAR_NAME_PHRYGIAN_INVASION;$ORDER$ Phrugios Invasion of $OTHER_TITLE$;;;;;;;;;;;;;x
+not_invaded_thrice_TT;Has not used the Phrugios Invasion Casus Belli thrice;;;;;;;;;;;;;x
+
+CB_NAME_GREEK_REVOLT;Héllen Revolt;;;;;;;;;;;;;x
+WAR_NAME_GREEK_REVOLT;Héllen Revolt of $OTHER_TITLE$;;;;;;;;;;;;;x
 
 ###########Bloodline Localization###########
 god_zeus_bloodline;Blood of Zeus;;;;;;;;;;;;;x
@@ -530,6 +543,13 @@ imperial_authority_increase_war;Received Imperial Authority Increase From War;;;
 
 trojan_walls;Trojan Walls;;;;;;;;;;;;;x
 
+severe_drought;Severe Drought;;;;;;;;;;;;;x
+
+greek_migration;Héllen Migration;;;;;;;;;;;;;x
+
+thessalian_migration;Thessalikós Migration;;;;;;;;;;;;;x
+
+
 #opinion of traits
 opinion_of_zealous;Opinion of Zealous;;;;;;;;;;;;;x
 opinion_of_cynical;Opinion of Cynical;;;;;;;;;;;;;x
@@ -598,8 +618,8 @@ opinion_of_devotion_arinniti_EXPLANATION; (opinion on Devoted to Arinniti);;;;;;
 opinion_of_devotion_telipinu;Opinion of Devoted to Telipinu;;;;;;;;;;;;;x
 opinion_of_devotion_telipinu_EXPLANATION; (opinion on Devoted to Telipinu);;;;;;;;;;;;;x
 
-opinion_of_devotion_sabazios;Opinion of Devoted to Sabazios;;;;;;;;;;;;;x
-opinion_of_devotion_sabazios_EXPLANATION; (opinion on Devoted to Sabazios);;;;;;;;;;;;;x
+opinion_of_devotion_sabazios;Opinion of Devoted to Sabázios;;;;;;;;;;;;;x
+opinion_of_devotion_sabazios_EXPLANATION; (opinion on Devoted to Sabázios);;;;;;;;;;;;;x
 opinion_of_devotion_pleistoros;Opinion of Devoted to Pleistoros;;;;;;;;;;;;;x
 opinion_of_devotion_pleistoros_EXPLANATION; (opinion on Devoted to Pleistoros);;;;;;;;;;;;;x
 opinion_of_devotion_derzelas;Opinion of Devoted to Derzelas;;;;;;;;;;;;;x
@@ -625,6 +645,8 @@ opinion_poor_military_ruler;Opinion of Incompetent General;;;;;;;;;;;;;x
 
 #misc
 strategist_opinion;Strategist Character Opinion;;;;;;;;;;;;;x
+
+opinion_demoted_from_coking;Demoted from Co-Monarch;;;;;;;;;;;;;x
 
 #Religious Wars
 won_hellenic_invasion;Won [hellenic.GetName] Invasion;;;;;;;;;;;;;x
@@ -712,6 +734,8 @@ bureau_decrease_5_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 7%;
 bureau_decrease_10_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 10%;;;;;;;;;;;;;x
 bureau_decrease_20_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 20%;;;;;;;;;;;;;x
 
+bureau_set_0_TT;§YPalace Bureaucratic Efficiency§! be set at 0%;;;;;;;;;;;;;x
+
 #Palace Bureaucracy Opinions
 model_bureaucrat;Model Bureaucrat;;;;;;;;;;;;;x
 bad_bureaucrat;Poor Bureaucrat;;;;;;;;;;;;;x
@@ -758,6 +782,11 @@ demeter;Demeter;;;;;;;;;;;;;x
 apollon;Apollon;;;;;;;;;;;;;x
 hermes;Hermes;;;;;;;;;;;;;x
 aphrodite;Aphrodite;;;;;;;;;;;;;x
+
+sabazios;Sabázios;;;;;;;;;;;;;x
+pleistoros;Pleistoros;;;;;;;;;;;;;x
+derzelas;Derzelas;;;;;;;;;;;;;x
+kubeleya;Kubeleya;;;;;;;;;;;;;x
 
 #Devotion Traits
 devotion_tarhunna;Devoted to Tarhunna;;;;;;;;;;;;;x
@@ -895,13 +924,21 @@ derzelas_curse_3;Scattering of Derzelas;;;;;;;;;;;;;x
 
 ###########Minor Titles###########
 
-title_chief_of_the_royal_bodyguard;Gal Mesedi;;;;;;;;;;;;;x
-title_chief_of_wine_stewards;Gal Gestin;;;;;;;;;;;;;x
+title_chief_of_the_royal_bodyguard;Chief of the Royal Bodyguards;;;;;;;;;;;;;x
+title_chief_of_the_royal_bodyguard_desc;The Chief of the Royal Bodyguards is responsible for procuring and administrating the royal guards, having immense control over the livelihood of the great king.;;;;;;;;;;;;;x
+title_chief_of_the_palace_servants;Chief of the Palace Servants;;;;;;;;;;;;;x
+title_chief_of_the_palace_servants_desc;The Chief of the Palace Servants oversees the servants of the royal palace, and is in regular contact with those close to the great king and with the great king themselves.;;;;;;;;;;;;;x
+title_chief_of_the_storehouse;Chief of the Storehouse;;;;;;;;;;;;;x
+title_chief_of_the_storehouse_desc;The Chief of the Storehouse is responsible for one of the most important facets of a civilization - grain storage. Keeping track of the in and outflow of grain is both a difficult and prestigious job.;;;;;;;;;;;;;x
+title_chief_of_the_scribes;Chief of the Scribes;;;;;;;;;;;;;x
+title_chief_of_the_scribes_desc;The Chief of the Scribes is one of the most prestigious titles in an empire. As the overseer of all scribes in the land, the Chief of the Scribes is responsible for imperial transactions and recordkeeping.;;;;;;;;;;;;;x
+
+title_chief_of_wine_stewards;Chief of Wine Stewards;;;;;;;;;;;;;x
 title_overseer_of_the_golden_grooms;Overseer of the Golden Grooms;;;;;;;;;;;;;x
 title_chief_of_the_wooden_tablet_scribes;Chief of the Wooden Tablet Scribes;;;;;;;;;;;;;x
-title_chief_of_the_palace_servants;Chief of the Palace Servants;;;;;;;;;;;;;x
-title_chief_of_the_storehouse;Chief of the Storehouse;;;;;;;;;;;;;x
-title_chief_of_the_scribes;Gal Dubsar;;;;;;;;;;;;;x
+
+title_co_king;Co-Monarch;;;;;;;;;;;;;x
+title_co_king_desc;Since a hegemon has a wide array of responsibilities, it is advantageous for a ruler to allow a close relative to be co-monarch, both allowing the relative to gain experience and the hegemon to relieve some of their duties.;;;;;;;;;;;;;x
 
 ###########Artifacts###########
 shield;Shield;;;;;;;;;;;;;x
@@ -944,8 +981,7 @@ palladium_troy;Palladion of Truwisa;;;;;;;;;;;;;x
 palladium_troy_desc;This wooden statue of Pallas Athena protects Troy from destruction as long as it is within its walls.;;;;;;;;;;;;;x
 
 scepter_agamemnon;Pelop's Scepter;;;;;;;;;;;;;x
-scepter_agamemnon_desc;The divine scepter of the House of dark-faced Pelops. Haphaistos gave it to Father Zeus, Zeus gave it to Hermes, and Hermes gave it to Pelops, the mighty charioteer.
-;;;;;;;;;;;;;x
+scepter_agamemnon_desc;The divine scepter of the House of dark-faced Pelops. Haphaistos gave it to Zeus, Zeus gave it to Hermes, and Hermes gave it to Pelops.;;;;;;;;;;;;;x
 
 boar_tusk_helm;Boar Tusk Helmet;;;;;;;;;;;;;x
 boar_tusk_helm_desc;A helmet made from slivers of boar tusks attached to a padded leather base. Dozens of boars were slain to make this savage piece of armor.;;;;;;;;;;;;;x
@@ -977,3 +1013,13 @@ HERO_TITLE;Heros;;;;;;;;;;;;;x
 
 mediterranean_trade;Mediterranean Trade Route;;;;;;;;;;;;;x
 mediterranean_trade_province_desc;Can only build §YMediterranean Trade Route Trade Posts§! in certain Counties along the §YMediterranean Trade Route§!\n   Open the §YTrade Zones Mapmode§! to see valid Counties;;;;;;;;;;;;;x
+
+RULE_COLLAPSE_INVASION;Bronze Age Collapse Invasions;;;;;;;;;;;;;x
+
+RULE_GREEK_COLLAPSE_INVASION;Greek Bronze Age Collapse Invasion;;;;;;;;;;;;;x
+RULE_GREEK_COLLAPSE_INVASION_ON;Greece will be invaded during the Bronze Age Collapse;;;;;;;;;;;;;x
+RULE_GREEK_COLLAPSE_INVASION_OFF;Greece will not be invaded during the Bronze Age Collapse;;;;;;;;;;;;;x
+
+RULE_ANATOLIAN_COLLAPSE_INVASION;Anatolian Bronze Age Collapse Invasion;;;;;;;;;;;;;x
+RULE_ANATOLIAN_COLLAPSE_INVASION_ON;Anatolia will be invaded during the Bronze Age Collapse;;;;;;;;;;;;;x
+RULE_ANATOLIAN_COLLAPSE_INVASION_OFF;Anatolia will not be invaded during the Bronze Age Collapse;;;;;;;;;;;;;x

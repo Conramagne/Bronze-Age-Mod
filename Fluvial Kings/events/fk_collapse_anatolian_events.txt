@@ -99,11 +99,15 @@ character_event = {
 		any_demesne_province = {
 			has_province_modifier = severe_drought
 		}
-		year = 2611
+		year = 2601
 	}
 	
 	mean_time_to_happen = {
-		days = 1
+		years = 10
+		modifier = {
+			factor = 0.01
+			year = 2611
+		}
 	}
 	
 	option = {
@@ -167,6 +171,260 @@ character_event = {
 				character_event = { id = fkca.6 } #Kaskian Invasion (Independent Kaskian Lord)
 			}
 		}
+		else = {
+			hidden_tooltip = {
+				create_character = {
+					random_traits = yes
+					age = 20
+					female = no
+					culture = kaskian
+					religion = haianiluwi
+					dynasty = random
+				}
+				new_character = {
+					set_character_flag = kaskian_invader
+					create_title = {
+						tier = DUKE
+						landless = yes
+						temporary = yes
+						adventurer = yes
+						culture = THIS
+						name = "KASKIAN_INVASION"
+						holder = THIS
+					}
+					any_independent_ruler = {
+						limit = {
+							any_demesne_province = {
+								kingdom = {
+									title = k_hatti
+								}
+							}
+						}
+						reverse_unsafe_war = {
+							target = PREV
+							casus_belli = kaskian_invasion_cb
+						}
+					}
+					spawn_unit = {
+						province = 26
+						home = 26
+						owner = THIS
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = kaskian_troops
+					}
+					create_character = {
+						random_traits = yes
+						age = 20
+						female = no
+						culture = kaskian
+						religion = haianiluwi
+						dynasty = random
+					}
+					new_character = {
+						spawn_unit = {
+							province = 26
+							home = 26
+							owner = PREV
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = yes
+							earmark = kaskian_troops
+						}
+					}
+					create_character = {
+						random_traits = yes
+						age = 20
+						female = no
+						culture = kaskian
+						religion = haianiluwi
+						dynasty = random
+					}
+					new_character = {
+						spawn_unit = {
+							province = 26
+							home = 26
+							owner = PREV
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = yes
+							earmark = kaskian_troops
+						}
+					}
+					create_character = {
+						random_traits = yes
+						age = 20
+						female = no
+						culture = kaskian
+						religion = haianiluwi
+						dynasty = random
+					}
+					new_character = {
+						spawn_unit = {
+							province = 26
+							home = 26
+							owner = PREV
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = yes
+							earmark = kaskian_troops
+						}
+					}
+					create_character = {
+						random_traits = yes
+						age = 20
+						female = no
+						culture = kaskian
+						religion = haianiluwi
+						dynasty = random
+					}
+					new_character = {
+						spawn_unit = {
+							province = 26
+							home = 26
+							owner = PREV
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = yes
+							earmark = kaskian_troops
+						}
+					}
+					create_character = {
+						random_traits = yes
+						age = 20
+						female = no
+						culture = kaskian
+						religion = haianiluwi
+						dynasty = random
+					}
+					new_character = {
+						spawn_unit = {
+							province = 26
+							home = 26
+							owner = PREV
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = yes
+							earmark = kaskian_troops
+						}
+					}
+					create_character = {
+						random_traits = yes
+						age = 20
+						female = no
+						culture = kaskian
+						religion = haianiluwi
+						dynasty = random
+					}
+					new_character = {
+						spawn_unit = {
+							province = 26
+							home = 26
+							owner = PREV
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = yes
+							earmark = kaskian_troops
+						}
+					}
+					create_character = {
+						random_traits = yes
+						age = 20
+						female = no
+						culture = kaskian
+						religion = haianiluwi
+						dynasty = random
+					}
+					new_character = {
+						spawn_unit = {
+							province = 26
+							home = 26
+							owner = PREV
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = yes
+							earmark = kaskian_troops
+						}
+					}
+				}
+			}
+			any_playable_ruler = {
+				narrative_event = { id = fkca.7 } #Kaskian Invasion Pop-Up
+			}
+		}	
 	}
 }
 
@@ -180,150 +438,153 @@ character_event = {
 	option = {
 		name = EVTOPTAFKCA6
 		set_global_flag = kaskian_invasion
-		hidden_tooltip = {
-			spawn_unit = {
-				province = capital_scope
-				home = capital_scope
-				owner = THIS
-				leader = THIS
-				troops = {
-					light_cavalry = { 200 200 }
-					light_infantry = { 600 600 }
-					heavy_infantry = { 300 300 }
-					knights = { 100 100 }
-					pikemen = { 200 200 }
+		custom_tooltip = {
+			text = kaskian_invasion_TT
+			hidden_tooltip = {
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
 				}
-				attrition = 0.5
-				maintenance_multiplier = 0
-				cannot_inherit = yes
-				disband_on_peace = yes
-				earmark = kaskian_troops
-			}
-			spawn_unit = {
-				province = capital_scope
-				home = capital_scope
-				owner = THIS
-				leader = THIS
-				troops = {
-					light_cavalry = { 200 200 }
-					light_infantry = { 600 600 }
-					heavy_infantry = { 300 300 }
-					knights = { 100 100 }
-					pikemen = { 200 200 }
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
 				}
-				attrition = 0.5
-				maintenance_multiplier = 0
-				cannot_inherit = yes
-				disband_on_peace = yes
-				earmark = kaskian_troops
-			}
-			spawn_unit = {
-				province = capital_scope
-				home = capital_scope
-				owner = THIS
-				leader = THIS
-				troops = {
-					light_cavalry = { 200 200 }
-					light_infantry = { 600 600 }
-					heavy_infantry = { 300 300 }
-					knights = { 100 100 }
-					pikemen = { 200 200 }
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
 				}
-				attrition = 0.5
-				maintenance_multiplier = 0
-				cannot_inherit = yes
-				disband_on_peace = yes
-				earmark = kaskian_troops
-			}
-			spawn_unit = {
-				province = capital_scope
-				home = capital_scope
-				owner = THIS
-				leader = THIS
-				troops = {
-					light_cavalry = { 200 200 }
-					light_infantry = { 600 600 }
-					heavy_infantry = { 300 300 }
-					knights = { 100 100 }
-					pikemen = { 200 200 }
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
 				}
-				attrition = 0.5
-				maintenance_multiplier = 0
-				cannot_inherit = yes
-				disband_on_peace = yes
-				earmark = kaskian_troops
-			}
-			spawn_unit = {
-				province = capital_scope
-				home = capital_scope
-				owner = THIS
-				leader = THIS
-				troops = {
-					light_cavalry = { 200 200 }
-					light_infantry = { 600 600 }
-					heavy_infantry = { 300 300 }
-					knights = { 100 100 }
-					pikemen = { 200 200 }
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
 				}
-				attrition = 0.5
-				maintenance_multiplier = 0
-				cannot_inherit = yes
-				disband_on_peace = yes
-				earmark = kaskian_troops
-			}
-			spawn_unit = {
-				province = capital_scope
-				home = capital_scope
-				owner = THIS
-				leader = THIS
-				troops = {
-					light_cavalry = { 200 200 }
-					light_infantry = { 600 600 }
-					heavy_infantry = { 300 300 }
-					knights = { 100 100 }
-					pikemen = { 200 200 }
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
 				}
-				attrition = 0.5
-				maintenance_multiplier = 0
-				cannot_inherit = yes
-				disband_on_peace = yes
-				earmark = kaskian_troops
-			}
-			spawn_unit = {
-				province = capital_scope
-				home = capital_scope
-				owner = THIS
-				leader = THIS
-				troops = {
-					light_cavalry = { 200 200 }
-					light_infantry = { 600 600 }
-					heavy_infantry = { 300 300 }
-					knights = { 100 100 }
-					pikemen = { 200 200 }
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
 				}
-				attrition = 0.5
-				maintenance_multiplier = 0
-				cannot_inherit = yes
-				disband_on_peace = yes
-				earmark = kaskian_troops
-			}
-			spawn_unit = {
-				province = capital_scope
-				home = capital_scope
-				owner = THIS
-				leader = THIS
-				troops = {
-					light_cavalry = { 200 200 }
-					light_infantry = { 600 600 }
-					heavy_infantry = { 300 300 }
-					knights = { 100 100 }
-					pikemen = { 200 200 }
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = THIS
+					leader = THIS
+					troops = {
+						light_cavalry = { 200 200 }
+						light_infantry = { 600 600 }
+						heavy_infantry = { 300 300 }
+						knights = { 100 100 }
+						pikemen = { 200 200 }
+					}
+					attrition = 0.5
+					maintenance_multiplier = 0
+					cannot_inherit = yes
+					disband_on_peace = yes
+					earmark = kaskian_troops
 				}
-				attrition = 0.5
-				maintenance_multiplier = 0
-				cannot_inherit = yes
-				disband_on_peace = yes
-				earmark = kaskian_troops
 			}
 		}
 		any_independent_ruler = {
@@ -387,131 +648,201 @@ character_event = {
 					disband_on_peace = yes
 					earmark = kaskian_troops
 				}
-				spawn_unit = {
-					province = 26
-					home = 26
-					owner = THIS
-					leader = THIS
-					troops = {
-						light_cavalry = { 200 200 }
-						light_infantry = { 600 600 }
-						heavy_infantry = { 300 300 }
-						knights = { 100 100 }
-						pikemen = { 200 200 }
-					}
-					attrition = 0.5
-					maintenance_multiplier = 0
-					cannot_inherit = yes
-					disband_on_peace = yes
-					earmark = kaskian_troops
+				create_character = {
+					random_traits = yes
+					age = 20
+					female = no
+					culture = kaskian
+					religion = haianiluwi
+					dynasty = random
 				}
-				spawn_unit = {
-					province = 26
-					home = 26
-					owner = THIS
-					leader = THIS
-					troops = {
-						light_cavalry = { 200 200 }
-						light_infantry = { 600 600 }
-						heavy_infantry = { 300 300 }
-						knights = { 100 100 }
-						pikemen = { 200 200 }
+				new_character = {
+					spawn_unit = {
+						province = 26
+						home = 26
+						owner = PREV
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = kaskian_troops
 					}
-					attrition = 0.5
-					maintenance_multiplier = 0
-					cannot_inherit = yes
-					disband_on_peace = yes
-					earmark = kaskian_troops
 				}
-				spawn_unit = {
-					province = 26
-					home = 26
-					owner = THIS
-					leader = THIS
-					troops = {
-						light_cavalry = { 200 200 }
-						light_infantry = { 600 600 }
-						heavy_infantry = { 300 300 }
-						knights = { 100 100 }
-						pikemen = { 200 200 }
-					}
-					attrition = 0.5
-					maintenance_multiplier = 0
-					cannot_inherit = yes
-					disband_on_peace = yes
-					earmark = kaskian_troops
+				create_character = {
+					random_traits = yes
+					age = 20
+					female = no
+					culture = kaskian
+					religion = haianiluwi
+					dynasty = random
 				}
-				spawn_unit = {
-					province = 26
-					home = 26
-					owner = THIS
-					leader = THIS
-					troops = {
-						light_cavalry = { 200 200 }
-						light_infantry = { 600 600 }
-						heavy_infantry = { 300 300 }
-						knights = { 100 100 }
-						pikemen = { 200 200 }
+				new_character = {
+					spawn_unit = {
+						province = 26
+						home = 26
+						owner = PREV
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = kaskian_troops
 					}
-					attrition = 0.5
-					maintenance_multiplier = 0
-					cannot_inherit = yes
-					disband_on_peace = yes
-					earmark = kaskian_troops
 				}
-				spawn_unit = {
-					province = 26
-					home = 26
-					owner = THIS
-					leader = THIS
-					troops = {
-						light_cavalry = { 200 200 }
-						light_infantry = { 600 600 }
-						heavy_infantry = { 300 300 }
-						knights = { 100 100 }
-						pikemen = { 200 200 }
-					}
-					attrition = 0.5
-					maintenance_multiplier = 0
-					cannot_inherit = yes
-					disband_on_peace = yes
-					earmark = kaskian_troops
+				create_character = {
+					random_traits = yes
+					age = 20
+					female = no
+					culture = kaskian
+					religion = haianiluwi
+					dynasty = random
 				}
-				spawn_unit = {
-					province = 26
-					home = 26
-					owner = THIS
-					leader = THIS
-					troops = {
-						light_cavalry = { 200 200 }
-						light_infantry = { 600 600 }
-						heavy_infantry = { 300 300 }
-						knights = { 100 100 }
-						pikemen = { 200 200 }
+				new_character = {
+					spawn_unit = {
+						province = 26
+						home = 26
+						owner = PREV
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = kaskian_troops
 					}
-					attrition = 0.5
-					maintenance_multiplier = 0
-					cannot_inherit = yes
-					disband_on_peace = yes
-					earmark = kaskian_troops
 				}
-				spawn_unit = {
-					province = 26
-					home = 26
-					owner = THIS
-					leader = THIS
-					troops = {
-						light_cavalry = { 200 200 }
-						light_infantry = { 600 600 }
-						heavy_infantry = { 300 300 }
-						knights = { 100 100 }
-						pikemen = { 200 200 }
+				create_character = {
+					random_traits = yes
+					age = 20
+					female = no
+					culture = kaskian
+					religion = haianiluwi
+					dynasty = random
+				}
+				new_character = {
+					spawn_unit = {
+						province = 26
+						home = 26
+						owner = PREV
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = kaskian_troops
 					}
-					attrition = 0.5
-					maintenance_multiplier = 0
-					cannot_inherit = yes
-					disband_on_peace = yes
-					earmark = kaskian_troops
+				}
+				create_character = {
+					random_traits = yes
+					age = 20
+					female = no
+					culture = kaskian
+					religion = haianiluwi
+					dynasty = random
+				}
+				new_character = {
+					spawn_unit = {
+						province = 26
+						home = 26
+						owner = PREV
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = kaskian_troops
+					}
+				}
+				create_character = {
+					random_traits = yes
+					age = 20
+					female = no
+					culture = kaskian
+					religion = haianiluwi
+					dynasty = random
+				}
+				new_character = {
+					spawn_unit = {
+						province = 26
+						home = 26
+						owner = PREV
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = kaskian_troops
+					}
+				}
+				create_character = {
+					random_traits = yes
+					age = 20
+					female = no
+					culture = kaskian
+					religion = haianiluwi
+					dynasty = random
+				}
+				new_character = {
+					spawn_unit = {
+						province = 26
+						home = 26
+						owner = PREV
+						leader = THIS
+						troops = {
+							light_cavalry = { 200 200 }
+							light_infantry = { 600 600 }
+							heavy_infantry = { 300 300 }
+							knights = { 100 100 }
+							pikemen = { 200 200 }
+						}
+						attrition = 0.5
+						maintenance_multiplier = 0
+						cannot_inherit = yes
+						disband_on_peace = yes
+						earmark = kaskian_troops
+					}
 				}
 				any_independent_ruler = {
 					limit = {
@@ -531,6 +862,7 @@ character_event = {
 		any_playable_ruler = {
 			narrative_event = { id = fkca.7 } #Kaskian Invasion Pop-Up
 		}
+		narrative_event = { id = fkca.7 } #Kaskian Invasion Pop-Up
 	}
 }
 
@@ -539,6 +871,7 @@ narrative_event = {
 	id = fkca.7
 	title = EVTTITLEFKCA7
 	desc = EVTDESCFKCA7
+	hide_from = yes
 	is_triggered_only = yes
 
 	option = {
@@ -595,6 +928,7 @@ character_event = {
 			}
 			has_global_flag = phrygian_invasion
 		}
+		has_global_flag = kaskian_invasion
 		year = 2561
 	}
 	
@@ -626,6 +960,509 @@ character_event = {
 					independent = yes
 				}
 				character_event = { id = fkca.10 } #Phrygian Invasion (Independent Phrygian Lord)
+			}
+		}
+		else = {
+			random_independent_ruler = {
+				limit = {
+					OR = {
+						primary_title = {
+							empire = {
+								title = e_hittite_empire
+							}
+						}
+						has_landed_title = e_hittite_empire
+					}
+				}
+				preferred_limit = {
+					has_landed_title = e_hittite_empire
+				}
+				preferred_limit = {
+					realm_size = 100
+				}
+				preferred_limit = {
+					realm_size = 100
+				}
+				preferred_limit = {
+					realm_size = 75
+				}
+				preferred_limit = {
+					realm_size = 50
+				}
+				preferred_limit = {
+					realm_size = 25
+				}
+				random_realm_province = {
+					limit = {
+						kingdom = {
+							title = k_pala
+						}
+					}
+					create_character = {
+						random_traits = yes
+						age = 20
+						female = no
+						culture = phrygian
+						religion = doumos
+						dynasty = random
+					}
+					new_character = {
+						set_character_flag = phrygian_invader
+						create_title = {
+							tier = DUKE
+							landless = yes
+							temporary = yes
+							adventurer = yes
+							culture = THIS
+							name = "PHRYGIAN_INVASION"
+							holder = THIS
+						}
+						spawn_unit = {
+							province = PREV
+							home = PREV
+							owner = THIS
+							leader = THIS
+							troops = {
+								light_cavalry = { 200 200 }
+								light_infantry = { 600 600 }
+								heavy_infantry = { 300 300 }
+								knights = { 100 100 }
+								pikemen = { 200 200 }
+							}
+							attrition = 0.5
+							maintenance_multiplier = 0
+							cannot_inherit = yes
+							disband_on_peace = no
+							earmark = phrygian_troops
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						unsafe_war = {
+							target = PREVPREV
+							casus_belli = phrygian_invasion_cb
+							thirdparty_title = PREV
+							tier = KING
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1018,275 +1855,425 @@ character_event = {
 							disband_on_peace = no
 							earmark = phrygian_troops
 						}
-						spawn_unit = {
-							province = PREV
-							home = PREV
-							owner = THIS
-							leader = THIS
-							troops = {
-								light_cavalry = { 200 200 }
-								light_infantry = { 600 600 }
-								heavy_infantry = { 300 300 }
-								knights = { 100 100 }
-								pikemen = { 200 200 }
-							}
-							attrition = 0.5
-							maintenance_multiplier = 0
-							cannot_inherit = yes
-							disband_on_peace = no
-							earmark = phrygian_troops
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
 						}
-						spawn_unit = {
-							province = PREV
-							home = PREV
-							owner = THIS
-							leader = THIS
-							troops = {
-								light_cavalry = { 200 200 }
-								light_infantry = { 600 600 }
-								heavy_infantry = { 300 300 }
-								knights = { 100 100 }
-								pikemen = { 200 200 }
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
 							}
-							attrition = 0.5
-							maintenance_multiplier = 0
-							cannot_inherit = yes
-							disband_on_peace = no
-							earmark = phrygian_troops
 						}
-						spawn_unit = {
-							province = PREV
-							home = PREV
-							owner = THIS
-							leader = THIS
-							troops = {
-								light_cavalry = { 200 200 }
-								light_infantry = { 600 600 }
-								heavy_infantry = { 300 300 }
-								knights = { 100 100 }
-								pikemen = { 200 200 }
-							}
-							attrition = 0.5
-							maintenance_multiplier = 0
-							cannot_inherit = yes
-							disband_on_peace = no
-							earmark = phrygian_troops
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
 						}
-						spawn_unit = {
-							province = PREV
-							home = PREV
-							owner = THIS
-							leader = THIS
-							troops = {
-								light_cavalry = { 200 200 }
-								light_infantry = { 600 600 }
-								heavy_infantry = { 300 300 }
-								knights = { 100 100 }
-								pikemen = { 200 200 }
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
 							}
-							attrition = 0.5
-							maintenance_multiplier = 0
-							cannot_inherit = yes
-							disband_on_peace = no
-							earmark = phrygian_troops
 						}
-						spawn_unit = {
-							province = PREV
-							home = PREV
-							owner = THIS
-							leader = THIS
-							troops = {
-								light_cavalry = { 200 200 }
-								light_infantry = { 600 600 }
-								heavy_infantry = { 300 300 }
-								knights = { 100 100 }
-								pikemen = { 200 200 }
-							}
-							attrition = 0.5
-							maintenance_multiplier = 0
-							cannot_inherit = yes
-							disband_on_peace = no
-							earmark = phrygian_troops
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
 						}
-						spawn_unit = {
-							province = PREV
-							home = PREV
-							owner = THIS
-							leader = THIS
-							troops = {
-								light_cavalry = { 200 200 }
-								light_infantry = { 600 600 }
-								heavy_infantry = { 300 300 }
-								knights = { 100 100 }
-								pikemen = { 200 200 }
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
 							}
-							attrition = 0.5
-							maintenance_multiplier = 0
-							cannot_inherit = yes
-							disband_on_peace = no
-							earmark = phrygian_troops
 						}
-						spawn_unit = {
-							province = PREV
-							home = PREV
-							owner = THIS
-							leader = THIS
-							troops = {
-								light_cavalry = { 200 200 }
-								light_infantry = { 600 600 }
-								heavy_infantry = { 300 300 }
-								knights = { 100 100 }
-								pikemen = { 200 200 }
-							}
-							attrition = 0.5
-							maintenance_multiplier = 0
-							cannot_inherit = yes
-							disband_on_peace = no
-							earmark = phrygian_troops
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
 						}
-						spawn_unit = {
-							province = PREV
-							home = PREV
-							owner = THIS
-							leader = THIS
-							troops = {
-								light_cavalry = { 200 200 }
-								light_infantry = { 600 600 }
-								heavy_infantry = { 300 300 }
-								knights = { 100 100 }
-								pikemen = { 200 200 }
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
 							}
-							attrition = 0.5
-							maintenance_multiplier = 0
-							cannot_inherit = yes
-							disband_on_peace = no
-							earmark = phrygian_troops
 						}
-						spawn_unit = {
-							province = PREV
-							home = PREV
-							owner = THIS
-							leader = THIS
-							troops = {
-								light_cavalry = { 200 200 }
-								light_infantry = { 600 600 }
-								heavy_infantry = { 300 300 }
-								knights = { 100 100 }
-								pikemen = { 200 200 }
-							}
-							attrition = 0.5
-							maintenance_multiplier = 0
-							cannot_inherit = yes
-							disband_on_peace = no
-							earmark = phrygian_troops
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
 						}
-						spawn_unit = {
-							province = PREV
-							home = PREV
-							owner = THIS
-							leader = THIS
-							troops = {
-								light_cavalry = { 200 200 }
-								light_infantry = { 600 600 }
-								heavy_infantry = { 300 300 }
-								knights = { 100 100 }
-								pikemen = { 200 200 }
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
 							}
-							attrition = 0.5
-							maintenance_multiplier = 0
-							cannot_inherit = yes
-							disband_on_peace = no
-							earmark = phrygian_troops
 						}
-						spawn_unit = {
-							province = PREV
-							home = PREV
-							owner = THIS
-							leader = THIS
-							troops = {
-								light_cavalry = { 200 200 }
-								light_infantry = { 600 600 }
-								heavy_infantry = { 300 300 }
-								knights = { 100 100 }
-								pikemen = { 200 200 }
-							}
-							attrition = 0.5
-							maintenance_multiplier = 0
-							cannot_inherit = yes
-							disband_on_peace = no
-							earmark = phrygian_troops
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
 						}
-						spawn_unit = {
-							province = PREV
-							home = PREV
-							owner = THIS
-							leader = THIS
-							troops = {
-								light_cavalry = { 200 200 }
-								light_infantry = { 600 600 }
-								heavy_infantry = { 300 300 }
-								knights = { 100 100 }
-								pikemen = { 200 200 }
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
 							}
-							attrition = 0.5
-							maintenance_multiplier = 0
-							cannot_inherit = yes
-							disband_on_peace = no
-							earmark = phrygian_troops
 						}
-						spawn_unit = {
-							province = PREV
-							home = PREV
-							owner = THIS
-							leader = THIS
-							troops = {
-								light_cavalry = { 200 200 }
-								light_infantry = { 600 600 }
-								heavy_infantry = { 300 300 }
-								knights = { 100 100 }
-								pikemen = { 200 200 }
-							}
-							attrition = 0.5
-							maintenance_multiplier = 0
-							cannot_inherit = yes
-							disband_on_peace = no
-							earmark = phrygian_troops
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
 						}
-						spawn_unit = {
-							province = PREV
-							home = PREV
-							owner = THIS
-							leader = THIS
-							troops = {
-								light_cavalry = { 200 200 }
-								light_infantry = { 600 600 }
-								heavy_infantry = { 300 300 }
-								knights = { 100 100 }
-								pikemen = { 200 200 }
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
 							}
-							attrition = 0.5
-							maintenance_multiplier = 0
-							cannot_inherit = yes
-							disband_on_peace = no
-							earmark = phrygian_troops
 						}
-						spawn_unit = {
-							province = PREV
-							home = PREV
-							owner = THIS
-							leader = THIS
-							troops = {
-								light_cavalry = { 200 200 }
-								light_infantry = { 600 600 }
-								heavy_infantry = { 300 300 }
-								knights = { 100 100 }
-								pikemen = { 200 200 }
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
 							}
-							attrition = 0.5
-							maintenance_multiplier = 0
-							cannot_inherit = yes
-							disband_on_peace = no
-							earmark = phrygian_troops
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
+						}
+						create_character = {
+							random_traits = yes
+							age = 20
+							female = no
+							culture = phrygian
+							religion = doumos
+							dynasty = random
+						}
+						new_character = {
+							spawn_unit = {
+								province = PREVPREV
+								home = PREVPREV
+								owner = PREV
+								leader = THIS
+								troops = {
+									light_cavalry = { 200 200 }
+									light_infantry = { 600 600 }
+									heavy_infantry = { 300 300 }
+									knights = { 100 100 }
+									pikemen = { 200 200 }
+								}
+								attrition = 0.5
+								maintenance_multiplier = 0
+								cannot_inherit = yes
+								disband_on_peace = no
+								earmark = phrygian_troops
+							}
 						}
 						unsafe_war = {
 							target = PREVPREV
@@ -1301,6 +2288,7 @@ character_event = {
 		any_playable_ruler = {
 			narrative_event = { id = fkca.11 } #Phrygian Invasion Pop-Up
 		}
+		narrative_event = { id = fkca.11 } #Phrygian Invasion Pop-Up
 	}
 }
 
@@ -1309,6 +2297,7 @@ narrative_event = {
 	id = fkca.11
 	title = EVTTITLEFKCA11
 	desc = EVTDESCFKCA11
+	hide_from = yes
 	is_triggered_only = yes
 
 	option = {
@@ -1330,13 +2319,13 @@ narrative_event = {
 					has_landed_title = e_hittite_empire
 				}
 			}
-			text = EVTOPTAAFKCA8
+			text = EVTOPTAAFKCA12
 		}
 		name = {
 			trigger = {
 				has_landed_title = e_hittite_empire
 			}
-			text = EVTOPTABFKCA8
+			text = EVTOPTABFKCA12
 		}	
 	}
 }

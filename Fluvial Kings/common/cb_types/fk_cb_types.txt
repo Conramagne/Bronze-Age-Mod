@@ -1695,7 +1695,7 @@ dorian_invasion_cb = {
 							has_character_flag = lacedemonia_invader
 						}
 					}
-					d_lacedemonia = {
+					d_laconia = {
 						any_de_jure_vassal_title = {
 							limit = {
 								OR = {
@@ -2316,6 +2316,7 @@ kaskian_invasion_cb = {
 					destroy_random_building = THIS
 				}
 			}
+			technology_reduction_effect = yes
 			transfer_scaled_wealth = {
 				to = ROOT
 				value = 5
@@ -2701,6 +2702,7 @@ phrygian_invasion_cb = {
 					
 					any_demesne_title = {
 						limit = { tier = BARON }
+						convert_to = tribal
 						remove_holding_modifier = recently_conquered
 						refill_holding_levy = yes
 					}

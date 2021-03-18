@@ -738,6 +738,7 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_enkomi = {}
+				b_salamis_cyp = {}
 			}
 			c_kition = {
 				color={ 186 66 114 }

@@ -839,36 +839,51 @@
 2201101 = { #Hippolokhos, King of Lycia
 	name = "Hippolokhos"
 	dynasty = 2204000 #Bellerophonid
-	culture = lycian
+	culture = achaean
 	religion = haianiluwi
 	father = 2201106
 	mother = 2201104
 	disallow_random_traits = yes
-	2470.1.1 = { birth = yes }
+	2470.1.1 = { 
+		birth = yes 
+		effect = {
+			culture = lycian
+		}
+	}
 	2520.1.1 = { death = yes }
 }
 
 2201102 = { #Laodámeia
 	name = "Laodámeia"
 	dynasty = 2204000 #Bellerophonid
-	culture = lycian
+	culture = achaean
 	religion = haianiluwi
 	female = yes
 	father = 2201106
 	mother = 2201104
 	disallow_random_traits = yes
-	2470.1.1 = { birth = yes }
+	2470.1.1 = { 
+		birth = yes 
+		effect = {
+			culture = lycian
+		}
+	}
 	2520.1.1 = { death = yes }
 }
 
 2201103 = { #Sarpedon
 	name = "Sarpedon"
 	dynasty = 2204000 #Bellerophonid
-	culture = lycian
+	culture = achaean
 	religion = haianiluwi
 	father = 1100146
 	mother = 2201102
-	2505.1.1 = { birth = yes }
+	2505.1.1 = { 
+		birth = yes 
+		effect = {
+			culture = lycian
+		}
+	}
 	2520.1.1. = {
 		employer = 2201100
 	}

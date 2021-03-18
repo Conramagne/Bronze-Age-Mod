@@ -29,14 +29,14 @@ character_event = {
 					region = world_greece
 				}
 			}
-			narrative_event = { id = fkcg.2 } #Drought strikes Greece
-			narrative_event = { id = fkcg.3 days = 100 } #Earthquakes strike Greece
+			character_event = { id = fkcg.2 } #Drought strikes Greece
+			character_event = { id = fkcg.3 days = 100 } #Earthquakes strike Greece
 		}
 	}
 }
 
 #Drought strikes Greece
-narrative_event = {
+character_event = {
 	id = fkcg.2
 	title = EVTTITLEFKCG2
 	desc = EVTDESCFKCG2
@@ -70,7 +70,7 @@ narrative_event = {
 }
 
 #Earthquakes strike Greece
-narrative_event = {
+character_event = {
 	id = fkcg.3
 	title = EVTTITLEFKCG3
 	desc = EVTDESCFKCG3
@@ -105,12 +105,17 @@ character_event = {
 	trigger = {
 		any_demesne_province = {
 			has_province_modifier = severe_drought
+			region = world_greece
 		}
-		year = 2611
+		year = 2601
 	}
 	
 	mean_time_to_happen = {
-		days = 1
+		years = 10
+		modifier = {
+			factor = 0.01
+			year = 2611
+		}
 	}
 	
 	option = {
@@ -662,7 +667,7 @@ character_event = {
 					limit = {
 						any_realm_province = {
 							duchy = {
-								title = d_lacedemonia
+								title = d_laconia
 							}
 						}
 					}
@@ -1150,15 +1155,30 @@ character_event = {
 					county = {
 						title = c_pityoussa
 					}
+					AND = {
+						kingdom = {
+							title = k_ahhiyawa
+						}
+						culture_group = hellene
+					}
 				}
 			}
 			add_province_modifier = {
 				name = ionian_migration
-				years = 50
+				duration = -1
 			}
 		}
 		any_playable_ruler = {
 			limit = {
+				any_realm_province = {
+					has_province_modifier = ionian_migration
+				}
+			}
+			character_event = { id = fkcg.36 }
+		}
+		any_character = {
+			limit = {
+				is_landed = yes
 				any_demesne_province = {
 					culture = ionian
 				}
@@ -1173,6 +1193,7 @@ narrative_event = {
 	id = fkcg.16
 	title = EVTTITLEFKCG16
 	desc = EVTDESCFKCG16
+	hide_from = yes
 	is_triggered_only = yes
 
 	option = {
@@ -1181,6 +1202,34 @@ narrative_event = {
 			limit = {
 				capital_scope = {
 					culture = ionian
+				}
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
+				}
+			}
+			culture = ionian
+		}
+		any_courtier_or_vassal = {
+			limit = {
+				OR = {
+					AND = {
+						primary_title = {
+							location = {
+								culture = ionian
+							}
+						}
+						tier = BARON
+					}
+					location = {
+						culture = ionian
+					}
+				}
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
 				}
 			}
 			culture = ionian
@@ -1221,8 +1270,20 @@ character_event = {
 					kingdom = {
 						title = k_lakonia
 					}
-					kingdom = {
-						title = k_achaea
+					AND = {
+						kingdom = {
+							title = k_achaea
+						}
+						OR = {
+							NOT = {
+								duchy = {
+									title = d_arcadia
+								}
+							}
+							county = {
+								title = c_tegea
+							}
+						}
 					}
 					kingdom = {
 						title = k_krete
@@ -1230,26 +1291,17 @@ character_event = {
 					kingdom = {
 						title = k_aitolia
 					}
-					OR = {
-						NOT = {
-							duchy = {
-								title = d_arcadia
-							}
-						}
-						county = {
-							title = c_tegea
-						}
-					}
 				}
 			}
 			culture = dorian
-			add_province_modifier = {
-				name = greek_migration
-				years = 50
-			}
+			# add_province_modifier = {
+				# name = greek_migration
+				# years = 50
+			# }
 		}
-		any_playable_ruler = {
+		any_character = {
 			limit = {
+				is_landed = yes
 				any_demesne_province = {
 					culture = dorian
 				}
@@ -1264,6 +1316,7 @@ narrative_event = {
 	id = fkcg.18
 	title = EVTTITLEFKCG18
 	desc = EVTDESCFKCG18
+	hide_from = yes
 	is_triggered_only = yes
 
 	option = {
@@ -1272,6 +1325,34 @@ narrative_event = {
 			limit = {
 				capital_scope = {
 					culture = dorian
+				}
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
+				}
+			}
+			culture = dorian
+		}
+		any_courtier_or_vassal = {
+			limit = {
+				OR = {
+					AND = {
+						primary_title = {
+							location = {
+								culture = dorian
+							}
+						}
+						tier = BARON
+					}
+					location = {
+						culture = dorian
+					}
+				}
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
 				}
 			}
 			culture = dorian
@@ -1323,8 +1404,9 @@ character_event = {
 				years = 50
 			}
 		}
-		any_playable_ruler = {
+		any_character = {
 			limit = {
+				is_landed = yes
 				any_demesne_province = {
 					culture = arcadian
 				}
@@ -1339,6 +1421,7 @@ narrative_event = {
 	id = fkcg.20
 	title = EVTTITLEFKCG20
 	desc = EVTDESCFKCG20
+	hide_from = yes
 	is_triggered_only = yes
 
 	option = {
@@ -1347,6 +1430,34 @@ narrative_event = {
 			limit = {
 				capital_scope = {
 					culture = arcadian
+				}
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
+				}
+			}
+			culture = arcadian
+		}
+		any_courtier_or_vassal = {
+			limit = {
+				OR = {
+					AND = {
+						primary_title = {
+							location = {
+								culture = arcadian
+							}
+						}
+						tier = BARON
+					}
+					location = {
+						culture = arcadian
+					}
+				}
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
 				}
 			}
 			culture = arcadian
@@ -1393,8 +1504,9 @@ character_event = {
 				years = 50
 			}
 		}
-		any_playable_ruler = {
+		any_character = {
 			limit = {
+				is_landed = yes
 				any_demesne_province = {
 					culture = cypriot_dorian
 				}
@@ -1409,6 +1521,7 @@ narrative_event = {
 	id = fkcg.22
 	title = EVTTITLEFKCG22
 	desc = EVTDESCFKCG22
+	hide_from = yes
 	is_triggered_only = yes
 
 	option = {
@@ -1417,6 +1530,34 @@ narrative_event = {
 			limit = {
 				capital_scope = {
 					culture = cypriot_dorian
+				}
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
+				}
+			}
+			culture = cypriot_dorian
+		}
+		any_courtier_or_vassal = {
+			limit = {
+				OR = {
+					AND = {
+						primary_title = {
+							location = {
+								culture = cypriot_dorian
+							}
+						}
+						tier = BARON
+					}
+					location = {
+						culture = cypriot_dorian
+					}
+				}
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
 				}
 			}
 			culture = cypriot_dorian
@@ -1468,8 +1609,9 @@ character_event = {
 				years = 50
 			}
 		}
-		any_playable_ruler = {
+		any_character = {
 			limit = {
+				is_landed = yes
 				any_demesne_province = {
 					culture = aeolian
 				}
@@ -1484,6 +1626,7 @@ narrative_event = {
 	id = fkcg.24
 	title = EVTTITLEFKCG24
 	desc = EVTDESCFKCG24
+	hide_from = yes
 	is_triggered_only = yes
 
 	option = {
@@ -1492,6 +1635,34 @@ narrative_event = {
 			limit = {
 				capital_scope = {
 					culture = aeolian
+				}
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
+				}
+			}
+			culture = aeolian
+		}
+		any_courtier_or_vassal = {
+			limit = {
+				OR = {
+					AND = {
+						primary_title = {
+							location = {
+								culture = aeolian
+							}
+						}
+						tier = BARON
+					}
+					location = {
+						culture = aeolian
+					}
+				}
+				OR = {
+					culture = achaean
+					culture = cretan
+					culture = cypriot
 				}
 			}
 			culture = aeolian
@@ -1503,7 +1674,6 @@ narrative_event = {
 character_event = {
 	id = fkcg.25
 	hide_window = yes
-	desc = EVTDESCFKCG25
 	trigger = {
 		is_landed = yes
 		culture = aeolian
@@ -1693,10 +1863,10 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTAFKCG27
+		name = EVTOPTAFKCG28
 		set_global_flag = thessalian_migration
 		custom_tooltip = {
-			text = thessalians_spread
+			text = thessalians_spread_TT
 			hidden_tooltip = {
 				any_province = {
 					limit = {
@@ -1770,7 +1940,15 @@ character_event = {
 			}
 			add_province_modifier = {
 				name = aeolian_migration
-				years = 50
+				duration = -1
+			}
+			any_playable_ruler = {
+				limit = {
+					any_realm_province = {
+						has_province_modifier = aeolian_migration
+					}
+				}
+				character_event = { id = fkcg.37 }
 			}
 		}
 	}
@@ -1804,7 +1982,9 @@ character_event = {
 				has_province_modifier = ionian_migration
 			}
 			culture = ionian
+			religion = pantes_theoi
 		}
+		remove_province_modifier = ionian_migration
 		any_playable_ruler = {
 			character_event = { id = fkcg.30 } #Ionian become majority Pop-Up
 		}
@@ -1814,8 +1994,8 @@ character_event = {
 #Ionian become majority Pop-Up
 character_event = {
 	id = fkcg.30
-	title = EVTTITLEFKCG30
 	desc = EVTDESCFKCG30
+	hide_from = yes
 	is_triggered_only = yes
 
 	option = {
@@ -1851,7 +2031,9 @@ character_event = {
 				has_province_modifier = aeolian_migration
 			}
 			culture = aeolian
+			religion = pantes_theoi
 		}
+		remove_province_modifier = aeolian_migration
 		any_playable_ruler = {
 			character_event = { id = fkcg.32 } #Aeolian become majority Pop-Up
 		}
@@ -1861,8 +2043,8 @@ character_event = {
 #Aeolian become majority Pop-Up
 character_event = {
 	id = fkcg.32
-	title = EVTTITLEFKCG32
 	desc = EVTDESCFKCG32
+	hide_from = yes
 	is_triggered_only = yes
 
 	option = {
@@ -1887,9 +2069,9 @@ character_event = {
 			}
 		}
 		ai_chance = {
-			factor = 0.6
+			factor = 0.4
 			modifier = {
-				factor = 0.1
+				factor = 0
 				trait = greedy
 			}
 		}
@@ -1915,8 +2097,8 @@ character_event = {
 		ai_chance = {
 			factor = 0.6
 			modifier = {
-				factor = 0.1
-				trait = greedy
+				factor = 1.2
+				trait = cruel
 			}
 		}
 	}
@@ -2040,5 +2222,29 @@ character_event = {
 				}
 			}
 		}
+	}
+}
+
+#Ionian Settlement Pop-Up
+character_event = {
+	id = fkcg.36
+	desc = EVTDESCFKCG36
+	hide_from = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG36
+	}
+}
+
+#Aeolian Settlement Pop-Up
+character_event = {
+	id = fkcg.37
+	desc = EVTDESCFKCG37
+	hide_from = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG37
 	}
 }

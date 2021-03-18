@@ -161,7 +161,7 @@
 	mother = 2100105
 	disallow_random_traits = yes
 	2436.1.1 = { birth = yes }
-	2491.1.1 = { death = yes }
+	2501.1.1 = { death = yes }
 }
 
 2100104 = { #Eleîos, King of Elis
@@ -3914,7 +3914,7 @@
 #Royal Family of the Echinades (2101800-2101899)
 2101800 = { #Mégês, King of the Echinades
 	name = "Mégês"
-	dynasty = 2100001 #Eliad
+	dynasty = 2100001 #Eleid
 	culture = achaean	
 	religion = pantes_theoi
 	father = 2101802
@@ -3938,7 +3938,21 @@
 
 2101802 = { #Phuleos, King of the Echinades
 	name = "Phuleos"
-	dynasty = 2100001 #Eliad
+	dynasty = 2100001 #Eleid
+	culture = achaean	
+	religion = pantes_theoi
+	father = 2100103
+	disallow_random_traits = yes
+	2458.1.1 = { birth = yes }
+	2491.1.1 = {
+		add_spouse = 2101801
+	}
+	2521.1.1 = { death = yes }
+}
+
+2101803 = { #Phuleos, King of the Echinades
+	name = "Phuleos"
+	dynasty = 2100001 #Eleid
 	culture = achaean	
 	religion = pantes_theoi
 	father = 2100103

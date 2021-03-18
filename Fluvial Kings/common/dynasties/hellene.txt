@@ -17,7 +17,7 @@
 	}
 }
 2100001 = {
-	name = "Eliad"
+	name = "Eleid"
 	culture = "achaean"
 	used_for_random = no
 	coat_of_arms = {
@@ -68,7 +68,7 @@
 	}
 }
 2100004 = {
-	name = "Lykaid"
+	name = "Lukaid"
 	culture = "achaean"
 	used_for_random = no
 	coat_of_arms = {
@@ -1009,19 +1009,2741 @@
 }
 
 #Dorian Names (2002000-2002999)
+2002000 = {
+	name = "Adeimantid"
+	culture = "dorian"
+}
+2002001 = {
+	name = "Aeimnestos"
+	culture = "dorian"
+}
+2002002 = {
+	name = "Aenesidamus"
+	culture = "dorian"
+}
+2002003 = {
+	name = "Agapetoi"
+	culture = "dorian"
+}
+2002004 = {
+	name = "Agatharkhidoi"
+	culture = "dorian"
+}
+2002005 = {
+	name = "Agron"
+	culture = "dorian"
+}
+2002006 = {
+	name = "Aisopos"
+	culture = "dorian"
+}
+2002007 = {
+	name = "Akakios"
+	culture = "dorian"
+}
+2002008 = {
+	name = "Akhaikoi"
+	culture = "dorian"
+}
+2002009 = {
+	name = "Alexios"
+	culture = "dorian"
+}
+2002010 = {
+	name = "Alkaeus"
+	culture = "dorian"
+}
+2002011 = {
+	name = "Alkaios"
+	culture = "dorian"
+}
+2002012 = {
+	name = "Alyattes"
+	culture = "dorian"
+}
+2002013 = {
+	name = "Antalkidas"
+	culture = "dorian"
+}
+2002014 = {
+	name = "Apollodoros"
+	culture = "dorian"
+}
+2002015 = {
+	name = "Ardys"
+	culture = "dorian"
+}
+2002016 = {
+	name = "Aristae"
+	culture = "dorian"
+}
+2002017 = {
+	name = "Aristeidai"
+	culture = "dorian"
+}
+2002018 = {
+	name = "Aristippos"
+	culture = "dorian"
+}
+2002019 = {
+	name = "Aristobulus"
+	culture = "dorian"
+}
+2002020 = {
+	name = "Aristodemid"
+	culture = "dorian"
+}
+2002021 = {
+	name = "Aristophae"
+	culture = "dorian"
+}
+2002022 = {
+	name = "Arseniae"
+	culture = "dorian"
+}
+2002023 = {
+	name = "Atys"
+	culture = "dorian"
+}
+2002024 = {
+	name = "Belus"
+	culture = "dorian"
+}
+2002025 = {
+	name = "Damokloi"
+	culture = "dorian"
+}
+2002026 = {
+	name = "Demokrae"
+	culture = "dorian"
+}
+2002027 = {
+	name = "Diodoros"
+	culture = "dorian"
+}
+2002028 = {
+	name = "Elatreid"
+	culture = "dorian"
+}
+2002029 = {
+	name = "Epaminondas"
+	culture = "dorian"
+}
+2002030 = {
+	name = "Gyges"
+	culture = "dorian"
+}
+2002031 = {
+	name = "Gygoi"
+	culture = "dorian"
+}
+2002032 = {
+	name = "Gylippai"
+	culture = "dorian"
+}
+2002033 = {
+	name = "Kallimakhos"
+	culture = "dorian"
+}
+2002034 = {
+	name = "Kandaules"
+	culture = "dorian"
+}
+2002035 = {
+	name = "Kleandridai"
+	culture = "dorian"
+}
+2002036 = {
+	name = "Kleandros"
+	culture = "dorian"
+}
+2002037 = {
+	name = "Kleinias"
+	culture = "dorian"
+}
+2002038 = {
+	name = "Kroesid"
+	culture = "dorian"
+}
+2002039 = {
+	name = "Lardanus"
+	culture = "dorian"
+}
+2002040 = {
+	name = "Leonikos"
+	culture = "dorian"
+}
+2002041 = {
+	name = "Leontios"
+	culture = "dorian"
+}
+2002042 = {
+	name = "Lydus"
+	culture = "dorian"
+}
+2002043 = {
+	name = "Lysimakhai"
+	culture = "dorian"
+}
+2002044 = {
+	name = "Marsyas"
+	culture = "dorian"
+}
+2002045 = {
+	name = "Melesae"
+	culture = "dorian"
+}
+2002046 = {
+	name = "Meliton"
+	culture = "dorian"
+}
+2002047 = {
+	name = "Miltiades"
+	culture = "dorian"
+}
+2002048 = {
+	name = "Myrsus"
+	culture = "dorian"
+}
+2002049 = {
+	name = "Pankratioi"
+	culture = "dorian"
+}
+2002050 = {
+	name = "Paramonos"
+	culture = "dorian"
+}
+2002051 = {
+	name = "Pausanid"
+	culture = "dorian"
+}
+2002052 = {
+	name = "Pelagios"
+	culture = "dorian"
+}
+2002053 = {
+	name = "Pelopoi"
+	culture = "dorian"
+}
+2002054 = {
+	name = "Phalaris"
+	culture = "dorian"
+}
+2002055 = {
+	name = "Phanoi"
+	culture = "dorian"
+}
+2002056 = {
+	name = "Pleistoanax"
+	culture = "dorian"
+}
+2002057 = {
+	name = "Sadyattoi"
+	culture = "dorian"
+}
+2002058 = {
+	name = "Tantalae"
+	culture = "dorian"
+}
+2002059 = {
+	name = "Telemakoi"
+	culture = "dorian"
+}
+2002060 = {
+	name = "Theoklymenoi"
+	culture = "dorian"
+}
+2002061 = {
+	name = "Theron"
+	culture = "dorian"
+}
+2002062 = {
+	name = "Thrasydae"
+	culture = "dorian"
+}
+2002063 = {
+	name = "Timokratae"
+	culture = "dorian"
+}
+2002064 = {
+	name = "Tlepolemus"
+	culture = "dorian"
+}
+2002065 = {
+	name = "Tmolus"
+	culture = "dorian"
+}
+2002066 = {
+	name = "Xanthid"
+	culture = "dorian"
+}
+2002067 = {
+	name = "Xanthippid"
+	culture = "dorian"
+}
 
 #Aeolian Names (2003000-2003999)
+2003000 = {
+	name = "Adeimantid"
+	culture = "aeolian"
+}
+2003001 = {
+	name = "Aeimnestos"
+	culture = "aeolian"
+}
+2003002 = {
+	name = "Aenesidamus"
+	culture = "aeolian"
+}
+2003003 = {
+	name = "Agapetoi"
+	culture = "aeolian"
+}
+2003004 = {
+	name = "Agatharkhidoi"
+	culture = "aeolian"
+}
+2003005 = {
+	name = "Agron"
+	culture = "aeolian"
+}
+2003006 = {
+	name = "Aisopos"
+	culture = "aeolian"
+}
+2003007 = {
+	name = "Akakios"
+	culture = "aeolian"
+}
+2003008 = {
+	name = "Akhaikoi"
+	culture = "aeolian"
+}
+2003009 = {
+	name = "Alexios"
+	culture = "aeolian"
+}
+2003010 = {
+	name = "Alkaeus"
+	culture = "aeolian"
+}
+2003011 = {
+	name = "Alkaios"
+	culture = "aeolian"
+}
+2003012 = {
+	name = "Alyattes"
+	culture = "aeolian"
+}
+2003013 = {
+	name = "Antalkidas"
+	culture = "aeolian"
+}
+2003014 = {
+	name = "Apollodoros"
+	culture = "aeolian"
+}
+2003015 = {
+	name = "Ardys"
+	culture = "aeolian"
+}
+2003016 = {
+	name = "Aristae"
+	culture = "aeolian"
+}
+2003017 = {
+	name = "Aristeidai"
+	culture = "aeolian"
+}
+2003018 = {
+	name = "Aristippos"
+	culture = "aeolian"
+}
+2003019 = {
+	name = "Aristobulus"
+	culture = "aeolian"
+}
+2003020 = {
+	name = "Aristodemid"
+	culture = "aeolian"
+}
+2003021 = {
+	name = "Aristophae"
+	culture = "aeolian"
+}
+2003022 = {
+	name = "Arseniae"
+	culture = "aeolian"
+}
+2003023 = {
+	name = "Atys"
+	culture = "aeolian"
+}
+2003024 = {
+	name = "Belus"
+	culture = "aeolian"
+}
+2003025 = {
+	name = "Damokloi"
+	culture = "aeolian"
+}
+2003026 = {
+	name = "Demokrae"
+	culture = "aeolian"
+}
+2003027 = {
+	name = "Diodoros"
+	culture = "aeolian"
+}
+2003028 = {
+	name = "Elatreid"
+	culture = "aeolian"
+}
+2003029 = {
+	name = "Epaminondas"
+	culture = "aeolian"
+}
+2003030 = {
+	name = "Gyges"
+	culture = "aeolian"
+}
+2003031 = {
+	name = "Gygoi"
+	culture = "aeolian"
+}
+2003032 = {
+	name = "Gylippai"
+	culture = "aeolian"
+}
+2003033 = {
+	name = "Kallimakhos"
+	culture = "aeolian"
+}
+2003034 = {
+	name = "Kandaules"
+	culture = "aeolian"
+}
+2003035 = {
+	name = "Kleandridai"
+	culture = "aeolian"
+}
+2003036 = {
+	name = "Kleandros"
+	culture = "aeolian"
+}
+2003037 = {
+	name = "Kleinias"
+	culture = "aeolian"
+}
+2003038 = {
+	name = "Kroesid"
+	culture = "aeolian"
+}
+2003039 = {
+	name = "Lardanus"
+	culture = "aeolian"
+}
+2003040 = {
+	name = "Leonikos"
+	culture = "aeolian"
+}
+2003041 = {
+	name = "Leontios"
+	culture = "aeolian"
+}
+2003042 = {
+	name = "Lydus"
+	culture = "aeolian"
+}
+2003043 = {
+	name = "Lysimakhai"
+	culture = "aeolian"
+}
+2003044 = {
+	name = "Marsyas"
+	culture = "aeolian"
+}
+2003045 = {
+	name = "Melesae"
+	culture = "aeolian"
+}
+2003046 = {
+	name = "Meliton"
+	culture = "aeolian"
+}
+2003047 = {
+	name = "Miltiades"
+	culture = "aeolian"
+}
+2003048 = {
+	name = "Myrsus"
+	culture = "aeolian"
+}
+2003049 = {
+	name = "Pankratioi"
+	culture = "aeolian"
+}
+2003050 = {
+	name = "Paramonos"
+	culture = "aeolian"
+}
+2003051 = {
+	name = "Pausanid"
+	culture = "aeolian"
+}
+2003052 = {
+	name = "Pelagios"
+	culture = "aeolian"
+}
+2003053 = {
+	name = "Pelopoi"
+	culture = "aeolian"
+}
+2003054 = {
+	name = "Phalaris"
+	culture = "aeolian"
+}
+2003055 = {
+	name = "Phanoi"
+	culture = "aeolian"
+}
+2003056 = {
+	name = "Pleistoanax"
+	culture = "aeolian"
+}
+2003057 = {
+	name = "Sadyattoi"
+	culture = "aeolian"
+}
+2003058 = {
+	name = "Tantalae"
+	culture = "aeolian"
+}
+2003059 = {
+	name = "Telemakoi"
+	culture = "aeolian"
+}
+2003060 = {
+	name = "Theoklymenoi"
+	culture = "aeolian"
+}
+2003061 = {
+	name = "Theron"
+	culture = "aeolian"
+}
+2003062 = {
+	name = "Thrasydae"
+	culture = "aeolian"
+}
+2003063 = {
+	name = "Timokratae"
+	culture = "aeolian"
+}
+2003064 = {
+	name = "Tlepolemus"
+	culture = "aeolian"
+}
+2003065 = {
+	name = "Tmolus"
+	culture = "aeolian"
+}
+2003066 = {
+	name = "Xanthid"
+	culture = "aeolian"
+}
+2003067 = {
+	name = "Xanthippid"
+	culture = "aeolian"
+}
 
 #Arcadian Names (2004000-2004999)
+2004000 = {
+	name = "Adeimantid"
+	culture = "arcadian"
+}
+2004001 = {
+	name = "Aeimnestos"
+	culture = "arcadian"
+}
+2004002 = {
+	name = "Aenesidamus"
+	culture = "arcadian"
+}
+2004003 = {
+	name = "Agapetoi"
+	culture = "arcadian"
+}
+2004004 = {
+	name = "Agatharkhidoi"
+	culture = "arcadian"
+}
+2004005 = {
+	name = "Agron"
+	culture = "arcadian"
+}
+2004006 = {
+	name = "Aisopos"
+	culture = "arcadian"
+}
+2004007 = {
+	name = "Akakios"
+	culture = "arcadian"
+}
+2004008 = {
+	name = "Akhaikoi"
+	culture = "arcadian"
+}
+2004009 = {
+	name = "Alexios"
+	culture = "arcadian"
+}
+2004010 = {
+	name = "Alkaeus"
+	culture = "arcadian"
+}
+2004011 = {
+	name = "Alkaios"
+	culture = "arcadian"
+}
+2004012 = {
+	name = "Alyattes"
+	culture = "arcadian"
+}
+2004013 = {
+	name = "Antalkidas"
+	culture = "arcadian"
+}
+2004014 = {
+	name = "Apollodoros"
+	culture = "arcadian"
+}
+2004015 = {
+	name = "Ardys"
+	culture = "arcadian"
+}
+2004016 = {
+	name = "Aristae"
+	culture = "arcadian"
+}
+2004017 = {
+	name = "Aristeidai"
+	culture = "arcadian"
+}
+2004018 = {
+	name = "Aristippos"
+	culture = "arcadian"
+}
+2004019 = {
+	name = "Aristobulus"
+	culture = "arcadian"
+}
+2004020 = {
+	name = "Aristodemid"
+	culture = "arcadian"
+}
+2004021 = {
+	name = "Aristophae"
+	culture = "arcadian"
+}
+2004022 = {
+	name = "Arseniae"
+	culture = "arcadian"
+}
+2004023 = {
+	name = "Atys"
+	culture = "arcadian"
+}
+2004024 = {
+	name = "Belus"
+	culture = "arcadian"
+}
+2004025 = {
+	name = "Damokloi"
+	culture = "arcadian"
+}
+2004026 = {
+	name = "Demokrae"
+	culture = "arcadian"
+}
+2004027 = {
+	name = "Diodoros"
+	culture = "arcadian"
+}
+2004028 = {
+	name = "Elatreid"
+	culture = "arcadian"
+}
+2004029 = {
+	name = "Epaminondas"
+	culture = "arcadian"
+}
+2004030 = {
+	name = "Gyges"
+	culture = "arcadian"
+}
+2004031 = {
+	name = "Gygoi"
+	culture = "arcadian"
+}
+2004032 = {
+	name = "Gylippai"
+	culture = "arcadian"
+}
+2004033 = {
+	name = "Kallimakhos"
+	culture = "arcadian"
+}
+2004034 = {
+	name = "Kandaules"
+	culture = "arcadian"
+}
+2004035 = {
+	name = "Kleandridai"
+	culture = "arcadian"
+}
+2004036 = {
+	name = "Kleandros"
+	culture = "arcadian"
+}
+2004037 = {
+	name = "Kleinias"
+	culture = "arcadian"
+}
+2004038 = {
+	name = "Kroesid"
+	culture = "arcadian"
+}
+2004039 = {
+	name = "Lardanus"
+	culture = "arcadian"
+}
+2004040 = {
+	name = "Leonikos"
+	culture = "arcadian"
+}
+2004041 = {
+	name = "Leontios"
+	culture = "arcadian"
+}
+2004042 = {
+	name = "Lydus"
+	culture = "arcadian"
+}
+2004043 = {
+	name = "Lysimakhai"
+	culture = "arcadian"
+}
+2004044 = {
+	name = "Marsyas"
+	culture = "arcadian"
+}
+2004045 = {
+	name = "Melesae"
+	culture = "arcadian"
+}
+2004046 = {
+	name = "Meliton"
+	culture = "arcadian"
+}
+2004047 = {
+	name = "Miltiades"
+	culture = "arcadian"
+}
+2004048 = {
+	name = "Myrsus"
+	culture = "arcadian"
+}
+2004049 = {
+	name = "Pankratioi"
+	culture = "arcadian"
+}
+2004050 = {
+	name = "Paramonos"
+	culture = "arcadian"
+}
+2004051 = {
+	name = "Pausanid"
+	culture = "arcadian"
+}
+2004052 = {
+	name = "Pelagios"
+	culture = "arcadian"
+}
+2004053 = {
+	name = "Pelopoi"
+	culture = "arcadian"
+}
+2004054 = {
+	name = "Phalaris"
+	culture = "arcadian"
+}
+2004055 = {
+	name = "Phanoi"
+	culture = "arcadian"
+}
+2004056 = {
+	name = "Pleistoanax"
+	culture = "arcadian"
+}
+2004057 = {
+	name = "Sadyattoi"
+	culture = "arcadian"
+}
+2004058 = {
+	name = "Tantalae"
+	culture = "arcadian"
+}
+2004059 = {
+	name = "Telemakoi"
+	culture = "arcadian"
+}
+2004060 = {
+	name = "Theoklymenoi"
+	culture = "arcadian"
+}
+2004061 = {
+	name = "Theron"
+	culture = "arcadian"
+}
+2004062 = {
+	name = "Thrasydae"
+	culture = "arcadian"
+}
+2004063 = {
+	name = "Timokratae"
+	culture = "arcadian"
+}
+2004064 = {
+	name = "Tlepolemus"
+	culture = "arcadian"
+}
+2004065 = {
+	name = "Tmolus"
+	culture = "arcadian"
+}
+2004066 = {
+	name = "Xanthid"
+	culture = "arcadian"
+}
+2004067 = {
+	name = "Xanthippid"
+	culture = "arcadian"
+}
 
 #Ionian Names (2005000-2005999)
+2005000 = {
+	name = "Adeimantid"
+	culture = "ionian"
+}
+2005001 = {
+	name = "Aeimnestos"
+	culture = "ionian"
+}
+2005002 = {
+	name = "Aenesidamus"
+	culture = "ionian"
+}
+2005003 = {
+	name = "Agapetoi"
+	culture = "ionian"
+}
+2005004 = {
+	name = "Agatharkhidoi"
+	culture = "ionian"
+}
+2005005 = {
+	name = "Agron"
+	culture = "ionian"
+}
+2005006 = {
+	name = "Aisopos"
+	culture = "ionian"
+}
+2005007 = {
+	name = "Akakios"
+	culture = "ionian"
+}
+2005008 = {
+	name = "Akhaikoi"
+	culture = "ionian"
+}
+2005009 = {
+	name = "Alexios"
+	culture = "ionian"
+}
+2005010 = {
+	name = "Alkaeus"
+	culture = "ionian"
+}
+2005011 = {
+	name = "Alkaios"
+	culture = "ionian"
+}
+2005012 = {
+	name = "Alyattes"
+	culture = "ionian"
+}
+2005013 = {
+	name = "Antalkidas"
+	culture = "ionian"
+}
+2005014 = {
+	name = "Apollodoros"
+	culture = "ionian"
+}
+2005015 = {
+	name = "Ardys"
+	culture = "ionian"
+}
+2005016 = {
+	name = "Aristae"
+	culture = "ionian"
+}
+2005017 = {
+	name = "Aristeidai"
+	culture = "ionian"
+}
+2005018 = {
+	name = "Aristippos"
+	culture = "ionian"
+}
+2005019 = {
+	name = "Aristobulus"
+	culture = "ionian"
+}
+2005020 = {
+	name = "Aristodemid"
+	culture = "ionian"
+}
+2005021 = {
+	name = "Aristophae"
+	culture = "ionian"
+}
+2005022 = {
+	name = "Arseniae"
+	culture = "ionian"
+}
+2005023 = {
+	name = "Atys"
+	culture = "ionian"
+}
+2005024 = {
+	name = "Belus"
+	culture = "ionian"
+}
+2005025 = {
+	name = "Damokloi"
+	culture = "ionian"
+}
+2005026 = {
+	name = "Demokrae"
+	culture = "ionian"
+}
+2005027 = {
+	name = "Diodoros"
+	culture = "ionian"
+}
+2005028 = {
+	name = "Elatreid"
+	culture = "ionian"
+}
+2005029 = {
+	name = "Epaminondas"
+	culture = "ionian"
+}
+2005030 = {
+	name = "Gyges"
+	culture = "ionian"
+}
+2005031 = {
+	name = "Gygoi"
+	culture = "ionian"
+}
+2005032 = {
+	name = "Gylippai"
+	culture = "ionian"
+}
+2005033 = {
+	name = "Kallimakhos"
+	culture = "ionian"
+}
+2005034 = {
+	name = "Kandaules"
+	culture = "ionian"
+}
+2005035 = {
+	name = "Kleandridai"
+	culture = "ionian"
+}
+2005036 = {
+	name = "Kleandros"
+	culture = "ionian"
+}
+2005037 = {
+	name = "Kleinias"
+	culture = "ionian"
+}
+2005038 = {
+	name = "Kroesid"
+	culture = "ionian"
+}
+2005039 = {
+	name = "Lardanus"
+	culture = "ionian"
+}
+2005040 = {
+	name = "Leonikos"
+	culture = "ionian"
+}
+2005041 = {
+	name = "Leontios"
+	culture = "ionian"
+}
+2005042 = {
+	name = "Lydus"
+	culture = "ionian"
+}
+2005043 = {
+	name = "Lysimakhai"
+	culture = "ionian"
+}
+2005044 = {
+	name = "Marsyas"
+	culture = "ionian"
+}
+2005045 = {
+	name = "Melesae"
+	culture = "ionian"
+}
+2005046 = {
+	name = "Meliton"
+	culture = "ionian"
+}
+2005047 = {
+	name = "Miltiades"
+	culture = "ionian"
+}
+2005048 = {
+	name = "Myrsus"
+	culture = "ionian"
+}
+2005049 = {
+	name = "Pankratioi"
+	culture = "ionian"
+}
+2005050 = {
+	name = "Paramonos"
+	culture = "ionian"
+}
+2005051 = {
+	name = "Pausanid"
+	culture = "ionian"
+}
+2005052 = {
+	name = "Pelagios"
+	culture = "ionian"
+}
+2005053 = {
+	name = "Pelopoi"
+	culture = "ionian"
+}
+2005054 = {
+	name = "Phalaris"
+	culture = "ionian"
+}
+2005055 = {
+	name = "Phanoi"
+	culture = "ionian"
+}
+2005056 = {
+	name = "Pleistoanax"
+	culture = "ionian"
+}
+2005057 = {
+	name = "Sadyattoi"
+	culture = "ionian"
+}
+2005058 = {
+	name = "Tantalae"
+	culture = "ionian"
+}
+2005059 = {
+	name = "Telemakoi"
+	culture = "ionian"
+}
+2005060 = {
+	name = "Theoklymenoi"
+	culture = "ionian"
+}
+2005061 = {
+	name = "Theron"
+	culture = "ionian"
+}
+2005062 = {
+	name = "Thrasydae"
+	culture = "ionian"
+}
+2005063 = {
+	name = "Timokratae"
+	culture = "ionian"
+}
+2005064 = {
+	name = "Tlepolemus"
+	culture = "ionian"
+}
+2005065 = {
+	name = "Tmolus"
+	culture = "ionian"
+}
+2005066 = {
+	name = "Xanthid"
+	culture = "ionian"
+}
+2005067 = {
+	name = "Xanthippid"
+	culture = "ionian"
+}
 
 #Cretan Names (2006000-2006999)
+2006000 = {
+	name = "Adeimantid"
+	culture = "cretan"
+}
+2006001 = {
+	name = "Aeimnestos"
+	culture = "cretan"
+}
+2006002 = {
+	name = "Aenesidamus"
+	culture = "cretan"
+}
+2006003 = {
+	name = "Agapetoi"
+	culture = "cretan"
+}
+2006004 = {
+	name = "Agatharkhidoi"
+	culture = "cretan"
+}
+2006005 = {
+	name = "Agron"
+	culture = "cretan"
+}
+2006006 = {
+	name = "Aisopos"
+	culture = "cretan"
+}
+2006007 = {
+	name = "Akakios"
+	culture = "cretan"
+}
+2006008 = {
+	name = "Akhaikoi"
+	culture = "cretan"
+}
+2006009 = {
+	name = "Alexios"
+	culture = "cretan"
+}
+2006010 = {
+	name = "Alkaeus"
+	culture = "cretan"
+}
+2006011 = {
+	name = "Alkaios"
+	culture = "cretan"
+}
+2006012 = {
+	name = "Alyattes"
+	culture = "cretan"
+}
+2006013 = {
+	name = "Antalkidas"
+	culture = "cretan"
+}
+2006014 = {
+	name = "Apollodoros"
+	culture = "cretan"
+}
+2006015 = {
+	name = "Ardys"
+	culture = "cretan"
+}
+2006016 = {
+	name = "Aristae"
+	culture = "cretan"
+}
+2006017 = {
+	name = "Aristeidai"
+	culture = "cretan"
+}
+2006018 = {
+	name = "Aristippos"
+	culture = "cretan"
+}
+2006019 = {
+	name = "Aristobulus"
+	culture = "cretan"
+}
+2006020 = {
+	name = "Aristodemid"
+	culture = "cretan"
+}
+2006021 = {
+	name = "Aristophae"
+	culture = "cretan"
+}
+2006022 = {
+	name = "Arseniae"
+	culture = "cretan"
+}
+2006023 = {
+	name = "Atys"
+	culture = "cretan"
+}
+2006024 = {
+	name = "Belus"
+	culture = "cretan"
+}
+2006025 = {
+	name = "Damokloi"
+	culture = "cretan"
+}
+2006026 = {
+	name = "Demokrae"
+	culture = "cretan"
+}
+2006027 = {
+	name = "Diodoros"
+	culture = "cretan"
+}
+2006028 = {
+	name = "Elatreid"
+	culture = "cretan"
+}
+2006029 = {
+	name = "Epaminondas"
+	culture = "cretan"
+}
+2006030 = {
+	name = "Gyges"
+	culture = "cretan"
+}
+2006031 = {
+	name = "Gygoi"
+	culture = "cretan"
+}
+2006032 = {
+	name = "Gylippai"
+	culture = "cretan"
+}
+2006033 = {
+	name = "Kallimakhos"
+	culture = "cretan"
+}
+2006034 = {
+	name = "Kandaules"
+	culture = "cretan"
+}
+2006035 = {
+	name = "Kleandridai"
+	culture = "cretan"
+}
+2006036 = {
+	name = "Kleandros"
+	culture = "cretan"
+}
+2006037 = {
+	name = "Kleinias"
+	culture = "cretan"
+}
+2006038 = {
+	name = "Kroesid"
+	culture = "cretan"
+}
+2006039 = {
+	name = "Lardanus"
+	culture = "cretan"
+}
+2006040 = {
+	name = "Leonikos"
+	culture = "cretan"
+}
+2006041 = {
+	name = "Leontios"
+	culture = "cretan"
+}
+2006042 = {
+	name = "Lydus"
+	culture = "cretan"
+}
+2006043 = {
+	name = "Lysimakhai"
+	culture = "cretan"
+}
+2006044 = {
+	name = "Marsyas"
+	culture = "cretan"
+}
+2006045 = {
+	name = "Melesae"
+	culture = "cretan"
+}
+2006046 = {
+	name = "Meliton"
+	culture = "cretan"
+}
+2006047 = {
+	name = "Miltiades"
+	culture = "cretan"
+}
+2006048 = {
+	name = "Myrsus"
+	culture = "cretan"
+}
+2006049 = {
+	name = "Pankratioi"
+	culture = "cretan"
+}
+2006050 = {
+	name = "Paramonos"
+	culture = "cretan"
+}
+2006051 = {
+	name = "Pausanid"
+	culture = "cretan"
+}
+2006052 = {
+	name = "Pelagios"
+	culture = "cretan"
+}
+2006053 = {
+	name = "Pelopoi"
+	culture = "cretan"
+}
+2006054 = {
+	name = "Phalaris"
+	culture = "cretan"
+}
+2006055 = {
+	name = "Phanoi"
+	culture = "cretan"
+}
+2006056 = {
+	name = "Pleistoanax"
+	culture = "cretan"
+}
+2006057 = {
+	name = "Sadyattoi"
+	culture = "cretan"
+}
+2006058 = {
+	name = "Tantalae"
+	culture = "cretan"
+}
+2006059 = {
+	name = "Telemakoi"
+	culture = "cretan"
+}
+2006060 = {
+	name = "Theoklymenoi"
+	culture = "cretan"
+}
+2006061 = {
+	name = "Theron"
+	culture = "cretan"
+}
+2006062 = {
+	name = "Thrasydae"
+	culture = "cretan"
+}
+2006063 = {
+	name = "Timokratae"
+	culture = "cretan"
+}
+2006064 = {
+	name = "Tlepolemus"
+	culture = "cretan"
+}
+2006065 = {
+	name = "Tmolus"
+	culture = "cretan"
+}
+2006066 = {
+	name = "Xanthid"
+	culture = "cretan"
+}
+2006067 = {
+	name = "Xanthippid"
+	culture = "cretan"
+}
 
-#Cypriot Names (2006000-2006999)
+#Cypriot Names (2007000-2007999)
+2007000 = {
+	name = "Adeimantid"
+	culture = "cypriot"
+}
+2007001 = {
+	name = "Aeimnestos"
+	culture = "cypriot"
+}
+2007002 = {
+	name = "Aenesidamus"
+	culture = "cypriot"
+}
+2007003 = {
+	name = "Agapetoi"
+	culture = "cypriot"
+}
+2007004 = {
+	name = "Agatharkhidoi"
+	culture = "cypriot"
+}
+2007005 = {
+	name = "Agron"
+	culture = "cypriot"
+}
+2007006 = {
+	name = "Aisopos"
+	culture = "cypriot"
+}
+2007007 = {
+	name = "Akakios"
+	culture = "cypriot"
+}
+2007008 = {
+	name = "Akhaikoi"
+	culture = "cypriot"
+}
+2007009 = {
+	name = "Alexios"
+	culture = "cypriot"
+}
+2007010 = {
+	name = "Alkaeus"
+	culture = "cypriot"
+}
+2007011 = {
+	name = "Alkaios"
+	culture = "cypriot"
+}
+2007012 = {
+	name = "Alyattes"
+	culture = "cypriot"
+}
+2007013 = {
+	name = "Antalkidas"
+	culture = "cypriot"
+}
+2007014 = {
+	name = "Apollodoros"
+	culture = "cypriot"
+}
+2007015 = {
+	name = "Ardys"
+	culture = "cypriot"
+}
+2007016 = {
+	name = "Aristae"
+	culture = "cypriot"
+}
+2007017 = {
+	name = "Aristeidai"
+	culture = "cypriot"
+}
+2007018 = {
+	name = "Aristippos"
+	culture = "cypriot"
+}
+2007019 = {
+	name = "Aristobulus"
+	culture = "cypriot"
+}
+2007020 = {
+	name = "Aristodemid"
+	culture = "cypriot"
+}
+2007021 = {
+	name = "Aristophae"
+	culture = "cypriot"
+}
+2007022 = {
+	name = "Arseniae"
+	culture = "cypriot"
+}
+2007023 = {
+	name = "Atys"
+	culture = "cypriot"
+}
+2007024 = {
+	name = "Belus"
+	culture = "cypriot"
+}
+2007025 = {
+	name = "Damokloi"
+	culture = "cypriot"
+}
+2007026 = {
+	name = "Demokrae"
+	culture = "cypriot"
+}
+2007027 = {
+	name = "Diodoros"
+	culture = "cypriot"
+}
+2007028 = {
+	name = "Elatreid"
+	culture = "cypriot"
+}
+2007029 = {
+	name = "Epaminondas"
+	culture = "cypriot"
+}
+2007030 = {
+	name = "Gyges"
+	culture = "cypriot"
+}
+2007031 = {
+	name = "Gygoi"
+	culture = "cypriot"
+}
+2007032 = {
+	name = "Gylippai"
+	culture = "cypriot"
+}
+2007033 = {
+	name = "Kallimakhos"
+	culture = "cypriot"
+}
+2007034 = {
+	name = "Kandaules"
+	culture = "cypriot"
+}
+2007035 = {
+	name = "Kleandridai"
+	culture = "cypriot"
+}
+2007036 = {
+	name = "Kleandros"
+	culture = "cypriot"
+}
+2007037 = {
+	name = "Kleinias"
+	culture = "cypriot"
+}
+2007038 = {
+	name = "Kroesid"
+	culture = "cypriot"
+}
+2007039 = {
+	name = "Lardanus"
+	culture = "cypriot"
+}
+2007040 = {
+	name = "Leonikos"
+	culture = "cypriot"
+}
+2007041 = {
+	name = "Leontios"
+	culture = "cypriot"
+}
+2007042 = {
+	name = "Lydus"
+	culture = "cypriot"
+}
+2007043 = {
+	name = "Lysimakhai"
+	culture = "cypriot"
+}
+2007044 = {
+	name = "Marsyas"
+	culture = "cypriot"
+}
+2007045 = {
+	name = "Melesae"
+	culture = "cypriot"
+}
+2007046 = {
+	name = "Meliton"
+	culture = "cypriot"
+}
+2007047 = {
+	name = "Miltiades"
+	culture = "cypriot"
+}
+2007048 = {
+	name = "Myrsus"
+	culture = "cypriot"
+}
+2007049 = {
+	name = "Pankratioi"
+	culture = "cypriot"
+}
+2007050 = {
+	name = "Paramonos"
+	culture = "cypriot"
+}
+2007051 = {
+	name = "Pausanid"
+	culture = "cypriot"
+}
+2007052 = {
+	name = "Pelagios"
+	culture = "cypriot"
+}
+2007053 = {
+	name = "Pelopoi"
+	culture = "cypriot"
+}
+2007054 = {
+	name = "Phalaris"
+	culture = "cypriot"
+}
+2007055 = {
+	name = "Phanoi"
+	culture = "cypriot"
+}
+2007056 = {
+	name = "Pleistoanax"
+	culture = "cypriot"
+}
+2007057 = {
+	name = "Sadyattoi"
+	culture = "cypriot"
+}
+2007058 = {
+	name = "Tantalae"
+	culture = "cypriot"
+}
+2007059 = {
+	name = "Telemakoi"
+	culture = "cypriot"
+}
+2007060 = {
+	name = "Theoklymenoi"
+	culture = "cypriot"
+}
+2007061 = {
+	name = "Theron"
+	culture = "cypriot"
+}
+2007062 = {
+	name = "Thrasydae"
+	culture = "cypriot"
+}
+2007063 = {
+	name = "Timokratae"
+	culture = "cypriot"
+}
+2007064 = {
+	name = "Tlepolemus"
+	culture = "cypriot"
+}
+2007065 = {
+	name = "Tmolus"
+	culture = "cypriot"
+}
+2007066 = {
+	name = "Xanthid"
+	culture = "cypriot"
+}
+2007067 = {
+	name = "Xanthippid"
+	culture = "cypriot"
+}
 
-#Amazonian Names (2007000-2007999)
+#Amazonian Names (2008000-2008999)
+2008000 = {
+	name = "Adeimantid"
+	culture = "amazonian"
+}
+2008001 = {
+	name = "Aeimnestos"
+	culture = "amazonian"
+}
+2008002 = {
+	name = "Aenesidamus"
+	culture = "amazonian"
+}
+2008003 = {
+	name = "Agapetoi"
+	culture = "amazonian"
+}
+2008004 = {
+	name = "Agatharkhidoi"
+	culture = "amazonian"
+}
+2008005 = {
+	name = "Agron"
+	culture = "amazonian"
+}
+2008006 = {
+	name = "Aisopos"
+	culture = "amazonian"
+}
+2008007 = {
+	name = "Akakios"
+	culture = "amazonian"
+}
+2008008 = {
+	name = "Akhaikoi"
+	culture = "amazonian"
+}
+2008009 = {
+	name = "Alexios"
+	culture = "amazonian"
+}
+2008010 = {
+	name = "Alkaeus"
+	culture = "amazonian"
+}
+2008011 = {
+	name = "Alkaios"
+	culture = "amazonian"
+}
+2008012 = {
+	name = "Alyattes"
+	culture = "amazonian"
+}
+2008013 = {
+	name = "Antalkidas"
+	culture = "amazonian"
+}
+2008014 = {
+	name = "Apollodoros"
+	culture = "amazonian"
+}
+2008015 = {
+	name = "Ardys"
+	culture = "amazonian"
+}
+2008016 = {
+	name = "Aristae"
+	culture = "amazonian"
+}
+2008017 = {
+	name = "Aristeidai"
+	culture = "amazonian"
+}
+2008018 = {
+	name = "Aristippos"
+	culture = "amazonian"
+}
+2008019 = {
+	name = "Aristobulus"
+	culture = "amazonian"
+}
+2008020 = {
+	name = "Aristodemid"
+	culture = "amazonian"
+}
+2008021 = {
+	name = "Aristophae"
+	culture = "amazonian"
+}
+2008022 = {
+	name = "Arseniae"
+	culture = "amazonian"
+}
+2008023 = {
+	name = "Atys"
+	culture = "amazonian"
+}
+2008024 = {
+	name = "Belus"
+	culture = "amazonian"
+}
+2008025 = {
+	name = "Damokloi"
+	culture = "amazonian"
+}
+2008026 = {
+	name = "Demokrae"
+	culture = "amazonian"
+}
+2008027 = {
+	name = "Diodoros"
+	culture = "amazonian"
+}
+2008028 = {
+	name = "Elatreid"
+	culture = "amazonian"
+}
+2008029 = {
+	name = "Epaminondas"
+	culture = "amazonian"
+}
+2008030 = {
+	name = "Gyges"
+	culture = "amazonian"
+}
+2008031 = {
+	name = "Gygoi"
+	culture = "amazonian"
+}
+2008032 = {
+	name = "Gylippai"
+	culture = "amazonian"
+}
+2008033 = {
+	name = "Kallimakhos"
+	culture = "amazonian"
+}
+2008034 = {
+	name = "Kandaules"
+	culture = "amazonian"
+}
+2008035 = {
+	name = "Kleandridai"
+	culture = "amazonian"
+}
+2008036 = {
+	name = "Kleandros"
+	culture = "amazonian"
+}
+2008037 = {
+	name = "Kleinias"
+	culture = "amazonian"
+}
+2008038 = {
+	name = "Kroesid"
+	culture = "amazonian"
+}
+2008039 = {
+	name = "Lardanus"
+	culture = "amazonian"
+}
+2008040 = {
+	name = "Leonikos"
+	culture = "amazonian"
+}
+2008041 = {
+	name = "Leontios"
+	culture = "amazonian"
+}
+2008042 = {
+	name = "Lydus"
+	culture = "amazonian"
+}
+2008043 = {
+	name = "Lysimakhai"
+	culture = "amazonian"
+}
+2008044 = {
+	name = "Marsyas"
+	culture = "amazonian"
+}
+2008045 = {
+	name = "Melesae"
+	culture = "amazonian"
+}
+2008046 = {
+	name = "Meliton"
+	culture = "amazonian"
+}
+2008047 = {
+	name = "Miltiades"
+	culture = "amazonian"
+}
+2008048 = {
+	name = "Myrsus"
+	culture = "amazonian"
+}
+2008049 = {
+	name = "Pankratioi"
+	culture = "amazonian"
+}
+2008050 = {
+	name = "Paramonos"
+	culture = "amazonian"
+}
+2008051 = {
+	name = "Pausanid"
+	culture = "amazonian"
+}
+2008052 = {
+	name = "Pelagios"
+	culture = "amazonian"
+}
+2008053 = {
+	name = "Pelopoi"
+	culture = "amazonian"
+}
+2008054 = {
+	name = "Phalaris"
+	culture = "amazonian"
+}
+2008055 = {
+	name = "Phanoi"
+	culture = "amazonian"
+}
+2008056 = {
+	name = "Pleistoanax"
+	culture = "amazonian"
+}
+2008057 = {
+	name = "Sadyattoi"
+	culture = "amazonian"
+}
+2008058 = {
+	name = "Tantalae"
+	culture = "amazonian"
+}
+2008059 = {
+	name = "Telemakoi"
+	culture = "amazonian"
+}
+2008060 = {
+	name = "Theoklymenoi"
+	culture = "amazonian"
+}
+2008061 = {
+	name = "Theron"
+	culture = "amazonian"
+}
+2008062 = {
+	name = "Thrasydae"
+	culture = "amazonian"
+}
+2008063 = {
+	name = "Timokratae"
+	culture = "amazonian"
+}
+2008064 = {
+	name = "Tlepolemus"
+	culture = "amazonian"
+}
+2008065 = {
+	name = "Tmolus"
+	culture = "amazonian"
+}
+2008066 = {
+	name = "Xanthid"
+	culture = "amazonian"
+}
+2008067 = {
+	name = "Xanthippid"
+	culture = "amazonian"
+}
 
-#Phrygian Names (2007000-2007999)
+#Phrygian Names (2009000-2009999)
+2009000 = {
+	name = "Adeimantid"
+	culture = "phrygian"
+}
+2009001 = {
+	name = "Aeimnestos"
+	culture = "phrygian"
+}
+2009002 = {
+	name = "Aenesidamus"
+	culture = "phrygian"
+}
+2009003 = {
+	name = "Agapetoi"
+	culture = "phrygian"
+}
+2009004 = {
+	name = "Agatharkhidoi"
+	culture = "phrygian"
+}
+2009005 = {
+	name = "Agron"
+	culture = "phrygian"
+}
+2009006 = {
+	name = "Aisopos"
+	culture = "phrygian"
+}
+2009007 = {
+	name = "Akakios"
+	culture = "phrygian"
+}
+2009008 = {
+	name = "Akhaikoi"
+	culture = "phrygian"
+}
+2009009 = {
+	name = "Alexios"
+	culture = "phrygian"
+}
+2009010 = {
+	name = "Alkaeus"
+	culture = "phrygian"
+}
+2009011 = {
+	name = "Alkaios"
+	culture = "phrygian"
+}
+2009012 = {
+	name = "Alyattes"
+	culture = "phrygian"
+}
+2009013 = {
+	name = "Antalkidas"
+	culture = "phrygian"
+}
+2009014 = {
+	name = "Apollodoros"
+	culture = "phrygian"
+}
+2009015 = {
+	name = "Ardys"
+	culture = "phrygian"
+}
+2009016 = {
+	name = "Aristae"
+	culture = "phrygian"
+}
+2009017 = {
+	name = "Aristeidai"
+	culture = "phrygian"
+}
+2009018 = {
+	name = "Aristippos"
+	culture = "phrygian"
+}
+2009019 = {
+	name = "Aristobulus"
+	culture = "phrygian"
+}
+2009020 = {
+	name = "Aristodemid"
+	culture = "phrygian"
+}
+2009021 = {
+	name = "Aristophae"
+	culture = "phrygian"
+}
+2009022 = {
+	name = "Arseniae"
+	culture = "phrygian"
+}
+2009023 = {
+	name = "Atys"
+	culture = "phrygian"
+}
+2009024 = {
+	name = "Belus"
+	culture = "phrygian"
+}
+2009025 = {
+	name = "Damokloi"
+	culture = "phrygian"
+}
+2009026 = {
+	name = "Demokrae"
+	culture = "phrygian"
+}
+2009027 = {
+	name = "Diodoros"
+	culture = "phrygian"
+}
+2009028 = {
+	name = "Elatreid"
+	culture = "phrygian"
+}
+2009029 = {
+	name = "Epaminondas"
+	culture = "phrygian"
+}
+2009030 = {
+	name = "Gyges"
+	culture = "phrygian"
+}
+2009031 = {
+	name = "Gygoi"
+	culture = "phrygian"
+}
+2009032 = {
+	name = "Gylippai"
+	culture = "phrygian"
+}
+2009033 = {
+	name = "Kallimakhos"
+	culture = "phrygian"
+}
+2009034 = {
+	name = "Kandaules"
+	culture = "phrygian"
+}
+2009035 = {
+	name = "Kleandridai"
+	culture = "phrygian"
+}
+2009036 = {
+	name = "Kleandros"
+	culture = "phrygian"
+}
+2009037 = {
+	name = "Kleinias"
+	culture = "phrygian"
+}
+2009038 = {
+	name = "Kroesid"
+	culture = "phrygian"
+}
+2009039 = {
+	name = "Lardanus"
+	culture = "phrygian"
+}
+2009040 = {
+	name = "Leonikos"
+	culture = "phrygian"
+}
+2009041 = {
+	name = "Leontios"
+	culture = "phrygian"
+}
+2009042 = {
+	name = "Lydus"
+	culture = "phrygian"
+}
+2009043 = {
+	name = "Lysimakhai"
+	culture = "phrygian"
+}
+2009044 = {
+	name = "Marsyas"
+	culture = "phrygian"
+}
+2009045 = {
+	name = "Melesae"
+	culture = "phrygian"
+}
+2009046 = {
+	name = "Meliton"
+	culture = "phrygian"
+}
+2009047 = {
+	name = "Miltiades"
+	culture = "phrygian"
+}
+2009048 = {
+	name = "Myrsus"
+	culture = "phrygian"
+}
+2009049 = {
+	name = "Pankratioi"
+	culture = "phrygian"
+}
+2009050 = {
+	name = "Paramonos"
+	culture = "phrygian"
+}
+2009051 = {
+	name = "Pausanid"
+	culture = "phrygian"
+}
+2009052 = {
+	name = "Pelagios"
+	culture = "phrygian"
+}
+2009053 = {
+	name = "Pelopoi"
+	culture = "phrygian"
+}
+2009054 = {
+	name = "Phalaris"
+	culture = "phrygian"
+}
+2009055 = {
+	name = "Phanoi"
+	culture = "phrygian"
+}
+2009056 = {
+	name = "Pleistoanax"
+	culture = "phrygian"
+}
+2009057 = {
+	name = "Sadyattoi"
+	culture = "phrygian"
+}
+2009058 = {
+	name = "Tantalae"
+	culture = "phrygian"
+}
+2009059 = {
+	name = "Telemakoi"
+	culture = "phrygian"
+}
+2009060 = {
+	name = "Theoklymenoi"
+	culture = "phrygian"
+}
+2009061 = {
+	name = "Theron"
+	culture = "phrygian"
+}
+2009062 = {
+	name = "Thrasydae"
+	culture = "phrygian"
+}
+2009063 = {
+	name = "Timokratae"
+	culture = "phrygian"
+}
+2009064 = {
+	name = "Tlepolemus"
+	culture = "phrygian"
+}
+2009065 = {
+	name = "Tmolus"
+	culture = "phrygian"
+}
+2009066 = {
+	name = "Xanthid"
+	culture = "phrygian"
+}
+2009067 = {
+	name = "Xanthippid"
+	culture = "phrygian"
+}
 
-#Macedonian Names (2008000-2008999)
+#Macedonian Names (2010000-2010999)
+2010000 = {
+	name = "Adeimantid"
+	culture = "macedonian"
+}
+2010001 = {
+	name = "Aeimnestos"
+	culture = "macedonian"
+}
+2010002 = {
+	name = "Aenesidamus"
+	culture = "macedonian"
+}
+2010003 = {
+	name = "Agapetoi"
+	culture = "macedonian"
+}
+2010004 = {
+	name = "Agatharkhidoi"
+	culture = "macedonian"
+}
+2010005 = {
+	name = "Agron"
+	culture = "macedonian"
+}
+2010006 = {
+	name = "Aisopos"
+	culture = "macedonian"
+}
+2010007 = {
+	name = "Akakios"
+	culture = "macedonian"
+}
+2010008 = {
+	name = "Akhaikoi"
+	culture = "macedonian"
+}
+2010009 = {
+	name = "Alexios"
+	culture = "macedonian"
+}
+2010010 = {
+	name = "Alkaeus"
+	culture = "macedonian"
+}
+2010011 = {
+	name = "Alkaios"
+	culture = "macedonian"
+}
+2010012 = {
+	name = "Alyattes"
+	culture = "macedonian"
+}
+2010013 = {
+	name = "Antalkidas"
+	culture = "macedonian"
+}
+2010014 = {
+	name = "Apollodoros"
+	culture = "macedonian"
+}
+2010015 = {
+	name = "Ardys"
+	culture = "macedonian"
+}
+2010016 = {
+	name = "Aristae"
+	culture = "macedonian"
+}
+2010017 = {
+	name = "Aristeidai"
+	culture = "macedonian"
+}
+2010018 = {
+	name = "Aristippos"
+	culture = "macedonian"
+}
+2010019 = {
+	name = "Aristobulus"
+	culture = "macedonian"
+}
+2010020 = {
+	name = "Aristodemid"
+	culture = "macedonian"
+}
+2010021 = {
+	name = "Aristophae"
+	culture = "macedonian"
+}
+2010022 = {
+	name = "Arseniae"
+	culture = "macedonian"
+}
+2010023 = {
+	name = "Atys"
+	culture = "macedonian"
+}
+2010024 = {
+	name = "Belus"
+	culture = "macedonian"
+}
+2010025 = {
+	name = "Damokloi"
+	culture = "macedonian"
+}
+2010026 = {
+	name = "Demokrae"
+	culture = "macedonian"
+}
+2010027 = {
+	name = "Diodoros"
+	culture = "macedonian"
+}
+2010028 = {
+	name = "Elatreid"
+	culture = "macedonian"
+}
+2010029 = {
+	name = "Epaminondas"
+	culture = "macedonian"
+}
+2010030 = {
+	name = "Gyges"
+	culture = "macedonian"
+}
+2010031 = {
+	name = "Gygoi"
+	culture = "macedonian"
+}
+2010032 = {
+	name = "Gylippai"
+	culture = "macedonian"
+}
+2010033 = {
+	name = "Kallimakhos"
+	culture = "macedonian"
+}
+2010034 = {
+	name = "Kandaules"
+	culture = "macedonian"
+}
+2010035 = {
+	name = "Kleandridai"
+	culture = "macedonian"
+}
+2010036 = {
+	name = "Kleandros"
+	culture = "macedonian"
+}
+2010037 = {
+	name = "Kleinias"
+	culture = "macedonian"
+}
+2010038 = {
+	name = "Kroesid"
+	culture = "macedonian"
+}
+2010039 = {
+	name = "Lardanus"
+	culture = "macedonian"
+}
+2010040 = {
+	name = "Leonikos"
+	culture = "macedonian"
+}
+2010041 = {
+	name = "Leontios"
+	culture = "macedonian"
+}
+2010042 = {
+	name = "Lydus"
+	culture = "macedonian"
+}
+2010043 = {
+	name = "Lysimakhai"
+	culture = "macedonian"
+}
+2010044 = {
+	name = "Marsyas"
+	culture = "macedonian"
+}
+2010045 = {
+	name = "Melesae"
+	culture = "macedonian"
+}
+2010046 = {
+	name = "Meliton"
+	culture = "macedonian"
+}
+2010047 = {
+	name = "Miltiades"
+	culture = "macedonian"
+}
+2010048 = {
+	name = "Myrsus"
+	culture = "macedonian"
+}
+2010049 = {
+	name = "Pankratioi"
+	culture = "macedonian"
+}
+2010050 = {
+	name = "Paramonos"
+	culture = "macedonian"
+}
+2010051 = {
+	name = "Pausanid"
+	culture = "macedonian"
+}
+2010052 = {
+	name = "Pelagios"
+	culture = "macedonian"
+}
+2010053 = {
+	name = "Pelopoi"
+	culture = "macedonian"
+}
+2010054 = {
+	name = "Phalaris"
+	culture = "macedonian"
+}
+2010055 = {
+	name = "Phanoi"
+	culture = "macedonian"
+}
+2010056 = {
+	name = "Pleistoanax"
+	culture = "macedonian"
+}
+2010057 = {
+	name = "Sadyattoi"
+	culture = "macedonian"
+}
+2010058 = {
+	name = "Tantalae"
+	culture = "macedonian"
+}
+2010059 = {
+	name = "Telemakoi"
+	culture = "macedonian"
+}
+2010060 = {
+	name = "Theoklymenoi"
+	culture = "macedonian"
+}
+2010061 = {
+	name = "Theron"
+	culture = "macedonian"
+}
+2010062 = {
+	name = "Thrasydae"
+	culture = "macedonian"
+}
+2010063 = {
+	name = "Timokratae"
+	culture = "macedonian"
+}
+2010064 = {
+	name = "Tlepolemus"
+	culture = "macedonian"
+}
+2010065 = {
+	name = "Tmolus"
+	culture = "macedonian"
+}
+2010066 = {
+	name = "Xanthid"
+	culture = "macedonian"
+}
+2010067 = {
+	name = "Xanthippid"
+	culture = "macedonian"
+}
+
+#Dorian Cypriot Names (2011000-2011999)
+2011000 = {
+	name = "Adeimantid"
+	culture = "cypriot_dorian"
+}
+2011001 = {
+	name = "Aeimnestos"
+	culture = "cypriot_dorian"
+}
+2011002 = {
+	name = "Aenesidamus"
+	culture = "cypriot_dorian"
+}
+2011003 = {
+	name = "Agapetoi"
+	culture = "cypriot_dorian"
+}
+2011004 = {
+	name = "Agatharkhidoi"
+	culture = "cypriot_dorian"
+}
+2011005 = {
+	name = "Agron"
+	culture = "cypriot_dorian"
+}
+2011006 = {
+	name = "Aisopos"
+	culture = "cypriot_dorian"
+}
+2011007 = {
+	name = "Akakios"
+	culture = "cypriot_dorian"
+}
+2011008 = {
+	name = "Akhaikoi"
+	culture = "cypriot_dorian"
+}
+2011009 = {
+	name = "Alexios"
+	culture = "cypriot_dorian"
+}
+2011010 = {
+	name = "Alkaeus"
+	culture = "cypriot_dorian"
+}
+2011011 = {
+	name = "Alkaios"
+	culture = "cypriot_dorian"
+}
+2011012 = {
+	name = "Alyattes"
+	culture = "cypriot_dorian"
+}
+2011013 = {
+	name = "Antalkidas"
+	culture = "cypriot_dorian"
+}
+2011014 = {
+	name = "Apollodoros"
+	culture = "cypriot_dorian"
+}
+2011015 = {
+	name = "Ardys"
+	culture = "cypriot_dorian"
+}
+2011016 = {
+	name = "Aristae"
+	culture = "cypriot_dorian"
+}
+2011017 = {
+	name = "Aristeidai"
+	culture = "cypriot_dorian"
+}
+2011018 = {
+	name = "Aristippos"
+	culture = "cypriot_dorian"
+}
+2011019 = {
+	name = "Aristobulus"
+	culture = "cypriot_dorian"
+}
+2011020 = {
+	name = "Aristodemid"
+	culture = "cypriot_dorian"
+}
+2011021 = {
+	name = "Aristophae"
+	culture = "cypriot_dorian"
+}
+2011022 = {
+	name = "Arseniae"
+	culture = "cypriot_dorian"
+}
+2011023 = {
+	name = "Atys"
+	culture = "cypriot_dorian"
+}
+2011024 = {
+	name = "Belus"
+	culture = "cypriot_dorian"
+}
+2011025 = {
+	name = "Damokloi"
+	culture = "cypriot_dorian"
+}
+2011026 = {
+	name = "Demokrae"
+	culture = "cypriot_dorian"
+}
+2011027 = {
+	name = "Diodoros"
+	culture = "cypriot_dorian"
+}
+2011028 = {
+	name = "Elatreid"
+	culture = "cypriot_dorian"
+}
+2011029 = {
+	name = "Epaminondas"
+	culture = "cypriot_dorian"
+}
+2011030 = {
+	name = "Gyges"
+	culture = "cypriot_dorian"
+}
+2011031 = {
+	name = "Gygoi"
+	culture = "cypriot_dorian"
+}
+2011032 = {
+	name = "Gylippai"
+	culture = "cypriot_dorian"
+}
+2011033 = {
+	name = "Kallimakhos"
+	culture = "cypriot_dorian"
+}
+2011034 = {
+	name = "Kandaules"
+	culture = "cypriot_dorian"
+}
+2011035 = {
+	name = "Kleandridai"
+	culture = "cypriot_dorian"
+}
+2011036 = {
+	name = "Kleandros"
+	culture = "cypriot_dorian"
+}
+2011037 = {
+	name = "Kleinias"
+	culture = "cypriot_dorian"
+}
+2011038 = {
+	name = "Kroesid"
+	culture = "cypriot_dorian"
+}
+2011039 = {
+	name = "Lardanus"
+	culture = "cypriot_dorian"
+}
+2011040 = {
+	name = "Leonikos"
+	culture = "cypriot_dorian"
+}
+2011041 = {
+	name = "Leontios"
+	culture = "cypriot_dorian"
+}
+2011042 = {
+	name = "Lydus"
+	culture = "cypriot_dorian"
+}
+2011043 = {
+	name = "Lysimakhai"
+	culture = "cypriot_dorian"
+}
+2011044 = {
+	name = "Marsyas"
+	culture = "cypriot_dorian"
+}
+2011045 = {
+	name = "Melesae"
+	culture = "cypriot_dorian"
+}
+2011046 = {
+	name = "Meliton"
+	culture = "cypriot_dorian"
+}
+2011047 = {
+	name = "Miltiades"
+	culture = "cypriot_dorian"
+}
+2011048 = {
+	name = "Myrsus"
+	culture = "cypriot_dorian"
+}
+2011049 = {
+	name = "Pankratioi"
+	culture = "cypriot_dorian"
+}
+2011050 = {
+	name = "Paramonos"
+	culture = "cypriot_dorian"
+}
+2011051 = {
+	name = "Pausanid"
+	culture = "cypriot_dorian"
+}
+2011052 = {
+	name = "Pelagios"
+	culture = "cypriot_dorian"
+}
+2011053 = {
+	name = "Pelopoi"
+	culture = "cypriot_dorian"
+}
+2011054 = {
+	name = "Phalaris"
+	culture = "cypriot_dorian"
+}
+2011055 = {
+	name = "Phanoi"
+	culture = "cypriot_dorian"
+}
+2011056 = {
+	name = "Pleistoanax"
+	culture = "cypriot_dorian"
+}
+2011057 = {
+	name = "Sadyattoi"
+	culture = "cypriot_dorian"
+}
+2011058 = {
+	name = "Tantalae"
+	culture = "cypriot_dorian"
+}
+2011059 = {
+	name = "Telemakoi"
+	culture = "cypriot_dorian"
+}
+2011060 = {
+	name = "Theoklymenoi"
+	culture = "cypriot_dorian"
+}
+2011061 = {
+	name = "Theron"
+	culture = "cypriot_dorian"
+}
+2011062 = {
+	name = "Thrasydae"
+	culture = "cypriot_dorian"
+}
+2011063 = {
+	name = "Timokratae"
+	culture = "cypriot_dorian"
+}
+2011064 = {
+	name = "Tlepolemus"
+	culture = "cypriot_dorian"
+}
+2011065 = {
+	name = "Tmolus"
+	culture = "cypriot_dorian"
+}
+2011066 = {
+	name = "Xanthid"
+	culture = "cypriot_dorian"
+}
+2011067 = {
+	name = "Xanthippid"
+	culture = "cypriot_dorian"
+}

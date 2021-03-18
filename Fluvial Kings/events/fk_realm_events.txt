@@ -731,13 +731,13 @@ character_event = {
 	trigger = {
 		government = tribal_confederacy_government
 		NOT = {
-			has_law = succ_feudal_elective
+			has_law = succ_eldership
 		}
 	}
 	immediate = {
 		primary_title = {
 			add_law = {
-				law = succ_feudal_elective
+				law = succ_eldership
 				opinion_effect = no
 				cooldown = no
 			}
@@ -752,7 +752,7 @@ character_event = {
 	trigger = {
 		government = tribal_confederacy_government
 		NOT = {
-			has_law = succ_feudal_elective
+			has_law = succ_eldership
 		}
 	}
 	mean_time_to_happen = {
@@ -761,7 +761,7 @@ character_event = {
 	immediate = {
 		primary_title = {
 			add_law = {
-				law = succ_feudal_elective
+				law = succ_eldership
 				opinion_effect = no
 				cooldown = no
 			}

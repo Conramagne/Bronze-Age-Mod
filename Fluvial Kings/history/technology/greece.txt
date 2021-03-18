@@ -19,7 +19,7 @@
 		# TECH_LEGALISM = 3
 	# }
 		
-	# 3160 = {
+	# 3061 = {
 		# military = 5
 		# economy = 5
 		# culture = 5
@@ -32,7 +32,7 @@ technology = {
 		d_achaea
 		d_attica
 		d_boetica
-		d_lacedemonia
+		d_laconia
 		d_messenia
 	}
 
@@ -48,7 +48,7 @@ technology = {
 		TECH_CAVALRY = 1.5
 	}
 		
-	3160 = {
+	3061 = {
 		military = 5
 		economy = 5
 		culture = 5
@@ -74,7 +74,7 @@ technology = {
 		TECH_NAVAL = 1
 	}
 
-	3160 = {
+	3061 = {
 	
 		military = 4
 		economy = 4
@@ -110,7 +110,7 @@ technology = {
 		TECH_NAVAL = 1
 	}
 	
-	3160 = {
+	3061 = {
 		military = 4
 		economy = 4
 		culture = 4
@@ -142,7 +142,7 @@ technology = {
 		TECH_NAVAL = 1
 
 	}
-	3160 = {
+	3061 = {
 		military = 4
 		economy = 4
 		culture = 4

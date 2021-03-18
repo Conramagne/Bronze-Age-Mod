@@ -715,6 +715,7 @@ succession_laws = {
 		dynasty_opinion = -5
 		vassal_opinion = 10
 		potential = {
+			always = no
 			holder_scope = {
 				NOR = {
 					government = tribal_government

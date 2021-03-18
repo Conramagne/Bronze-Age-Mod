@@ -99,7 +99,7 @@ narrative_event = {
 	}
 	desc = {
 		trigger = {
-			has_landed_title = d_lacedemonia
+			has_landed_title = d_laconia
 		}
 		text = EVTDESCBTW2
 	}
@@ -144,7 +144,7 @@ narrative_event = {
 			NOR = {
 				has_landed_title = d_achaea
 				has_landed_title = c_lamia
-				has_landed_title = d_lacedemonia
+				has_landed_title = d_laconia
 				has_landed_title = d_messenia
 				has_landed_title = d_ithake
 				has_landed_title = d_salamis
@@ -1119,6 +1119,24 @@ narrative_event = {
 		custom_tooltip = {
 			text = EVTOPTATW85_TT
 		}
+		if = {
+			limit = {
+				has_landed_title = e_hellenic_pantheon
+			}
+			random_character = {
+				limit = {
+					has_artifact = arrow_heracles
+					has_character_flag = borrowed_arrows
+				}
+				character_event = { id = tw.105 } #Arrows of Heracles are sent back
+			}
+			random_character = {
+				limit = {
+					has_artifact = bone_pelops
+				}
+				character_event = { id = tw.105 } #Arrows of Heracles are sent back
+			}
+		}
 	}
 }
 
@@ -1166,6 +1184,24 @@ narrative_event = {
 		}
 		custom_tooltip = {
 			text = EVTOPTATW87_TT
+		}
+		if = {
+			limit = {
+				has_landed_title = e_hellenic_pantheon
+			}
+			random_character = {
+				limit = {
+					has_artifact = arrow_heracles
+					has_character_flag = borrowed_arrows
+				}
+				character_event = { id = tw.105 } #Arrows of Heracles are sent back
+			}
+			random_character = {
+				limit = {
+					has_artifact = bone_pelops
+				}
+				character_event = { id = tw.105 } #Arrows of Heracles are sent back
+			}
 		}
 	}
 }
@@ -1217,6 +1253,24 @@ narrative_event = {
 		}
 		custom_tooltip = {
 			text = EVTOPTATW89_TT
+		}
+		if = {
+			limit = {
+				has_landed_title = e_hellenic_pantheon
+			}
+			random_character = {
+				limit = {
+					has_artifact = arrow_heracles
+					has_character_flag = borrowed_arrows
+				}
+				character_event = { id = tw.105 } #Arrows of Heracles are sent back
+			}
+			random_character = {
+				limit = {
+					has_artifact = bone_pelops
+				}
+				character_event = { id = tw.105 } #Arrows of Heracles are sent back
+			}
 		}
 	}
 }
@@ -2529,7 +2583,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_landed_title = d_lacedemonia
+				has_landed_title = d_laconia
 			}
 			any_playable_ruler = {
 				limit = {
@@ -2573,7 +2627,7 @@ character_event = {
 		name = EVTOPTATW52
 		if = {
 			limit = {
-				has_landed_title = d_lacedemonia
+				has_landed_title = d_laconia
 			}
 			any_playable_ruler = {
 				limit = {
@@ -4662,18 +4716,23 @@ narrative_event = {
 				character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
 			}
 		}
-		random_character = {
+		if = {
 			limit = {
-				has_artifact = arrow_heracles
-				has_character_flag = borrowed_arrows
+				has_landed_title = e_hellenic_pantheon
 			}
-			character_event = { id = tw.105 } #Arrows of Heracles are sent back
-		}
-		random_character = {
-			limit = {
-				has_artifact = bone_pelops
+			random_character = {
+				limit = {
+					has_artifact = arrow_heracles
+					has_character_flag = borrowed_arrows
+				}
+				character_event = { id = tw.105 } #Arrows of Heracles are sent back
 			}
-			character_event = { id = tw.105 } #Arrows of Heracles are sent back
+			random_character = {
+				limit = {
+					has_artifact = bone_pelops
+				}
+				character_event = { id = tw.105 } #Arrows of Heracles are sent back
+			}
 		}
 	}
 }
@@ -4738,18 +4797,23 @@ narrative_event = {
 				character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
 			}
 		}
-		random_character = {
+		if = {
 			limit = {
-				has_artifact = arrow_heracles
-				has_character_flag = borrowed_arrows
+				has_landed_title = e_hellenic_pantheon
 			}
-			character_event = { id = tw.105 } #Arrows of Heracles are sent back
-		}
-		random_character = {
-			limit = {
-				has_artifact = bone_pelops
+			random_character = {
+				limit = {
+					has_artifact = arrow_heracles
+					has_character_flag = borrowed_arrows
+				}
+				character_event = { id = tw.105 } #Arrows of Heracles are sent back
 			}
-			character_event = { id = tw.105 } #Arrows of Heracles are sent back
+			random_character = {
+				limit = {
+					has_artifact = bone_pelops
+				}
+				character_event = { id = tw.105 } #Arrows of Heracles are sent back
+			}
 		}
 	}
 }
