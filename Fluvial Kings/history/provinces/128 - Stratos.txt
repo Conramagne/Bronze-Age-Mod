@@ -6,11 +6,11 @@ title = c_stratos
 # Settlements
 max_settlements = 2
 
-b_stratos = castle
-b_agrinons = city
+b_stratos = tribal
+b_agrinons = tribal
 
 # Misc
-culture = achaean
+culture = dorian
 religion = pantes_theoi
 
 #History

@@ -6,7 +6,7 @@ title = c_kyphos
 # Settlements
 max_settlements = 1
 
-b_kyphos = castle
+b_kyphos = tribal
 
 # Misc
 culture = achaean

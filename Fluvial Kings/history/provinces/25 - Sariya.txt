@@ -6,7 +6,7 @@ title = c_sariya
 # Settlements
 max_settlements = 2
 
-b_sariya = castle
+b_sariya = tribal
 #b_almina = city
 
 # Misc

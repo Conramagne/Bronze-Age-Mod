@@ -6,7 +6,7 @@ title = c_gyrton
 # Settlements
 max_settlements = 4
 
-b_gyrton = tribal
+b_gyrton = castle
 b_oloosson = city
 b_perrhaebi = temple
 #b_homolion = castle

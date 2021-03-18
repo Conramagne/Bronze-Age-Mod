@@ -6,11 +6,11 @@ title = c_ainis
 # Settlements
 max_settlements = 2
 
-b_herakleia = castle
+b_herakleia = tribal
 #b_potidania = city
 
 # Misc
-culture = achaean
+culture = dorian
 religion = pantes_theoi
 
 #History

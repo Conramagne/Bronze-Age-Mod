@@ -6,8 +6,8 @@ title = c_olumpos
 # Settlements
 max_settlements = 2
 
-b_vergina = castle
-b_olumpos = city
+b_vergina = tribal
+b_olumpos = temple
 
 # Misc
 culture = macedonian
