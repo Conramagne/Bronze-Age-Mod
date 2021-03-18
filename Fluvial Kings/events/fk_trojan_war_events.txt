@@ -99,7 +99,7 @@ narrative_event = {
 	}
 	desc = {
 		trigger = {
-			has_landed_title = d_laconia
+			has_landed_title = d_lakonia
 		}
 		text = EVTDESCBTW2
 	}
@@ -144,7 +144,7 @@ narrative_event = {
 			NOR = {
 				has_landed_title = d_achaea
 				has_landed_title = c_lamia
-				has_landed_title = d_laconia
+				has_landed_title = d_lakonia
 				has_landed_title = d_messenia
 				has_landed_title = d_ithake
 				has_landed_title = d_salamis
@@ -2583,7 +2583,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_landed_title = d_laconia
+				has_landed_title = d_lakonia
 			}
 			any_playable_ruler = {
 				limit = {
@@ -2627,7 +2627,7 @@ character_event = {
 		name = EVTOPTATW52
 		if = {
 			limit = {
-				has_landed_title = d_laconia
+				has_landed_title = d_lakonia
 			}
 			any_playable_ruler = {
 				limit = {

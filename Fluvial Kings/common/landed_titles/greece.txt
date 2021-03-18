@@ -198,7 +198,7 @@ e_greek_empire = {
 		
 		capital = 90 # Sparta
 				
-		d_laconia = { 
+		d_lakonia = { 
 			color = { 41 93 114 }
 			color2 = { 255 255 255 }
 	

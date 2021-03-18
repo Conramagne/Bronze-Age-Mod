@@ -3,7 +3,7 @@
 	law = succ_gavelkind
 }
 2301.1.1 = {
-	liege = d_laconia
+	liege = d_lakonia
 	holder = 2101022 #Lelex
 }
 2341.1.1 = {

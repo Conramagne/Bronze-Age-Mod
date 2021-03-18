@@ -32,7 +32,7 @@ technology = {
 		d_achaea
 		d_attica
 		d_boetica
-		d_laconia
+		d_lakonia
 		d_messenia
 	}
 

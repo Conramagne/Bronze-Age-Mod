@@ -667,7 +667,7 @@ character_event = {
 					limit = {
 						any_realm_province = {
 							duchy = {
-								title = d_laconia
+								title = d_lakonia
 							}
 						}
 					}
