@@ -1,0 +1,21 @@
+# c_kappurnanda
+
+# County Title
+title = c_kappurnanda
+
+# Settlements
+max_settlements = 7
+
+b_kappurnanda = castle
+b_ishupitta = city
+b_karahna = temple
+b_hatikaitra = castle
+b_sakdunuwa = city
+b_suluppa = temple
+b_marista = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

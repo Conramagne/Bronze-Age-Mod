@@ -7,9 +7,9 @@ title = c_samuha
 max_settlements = 4
 
 b_samuha = castle
-b_marista = city
-b_suluppa = city
-b_hatikaitra = castle
+b_marista_2 = city
+b_suluppa_2 = city
+b_samuha_2 = castle
 
 # Misc
 culture = hittite

@@ -4,12 +4,14 @@
 title = c_taskuriya
 
 # Settlements
-max_settlements = 4
+max_settlements = 5
 
 b_taskuriya = castle
-b_salma = city
-b_arinna = temple
-b_taritara = castle
+b_tuhuppiya = city
+b_zithara = temple
+b_salma = castle
+b_wahsusana = city
+#b_malitta = temple
 
 # Misc
 culture = hittite

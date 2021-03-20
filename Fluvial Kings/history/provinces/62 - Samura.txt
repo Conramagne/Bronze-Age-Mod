@@ -8,7 +8,7 @@ max_settlements = 3
 
 b_samura = castle
 b_kumaha = city
-b_nesa = temple
+b_nesa_2 = temple
 
 # Misc
 culture = hittite

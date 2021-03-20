@@ -141,10 +141,10 @@ c_kalydon;Kalydon;Kalydon;Kalydon;;Kalydon;;;;;;;;;x
 c_kalydon_adj;Kalydonian;;kalydoner;;;;;;;;;;;x
 c_kamalla;Kamalla;Kamalla;Kamalla;;Kamalla;;;;;;;;;x
 c_kamalla_adj;Kamallan;;kamaller;;;;;;;;;;;x
-c_kanes;Kanes;Kanes;Kanes;;Kanes;;;;;;;;;x
-c_kanes_adj;Kanesian;;kaneser;;;;;;;;;;;x
 c_kapitra;Kapitra;Kapitra;Kapitra;;Kapitra;;;;;;;;;x
 c_kapitra_adj;Kapitran;;kapitrer;;;;;;;;;;;x
+c_kappurnanda;Kappurnanda;Kappurnanda;Kappurnanda;;Kappurnanda;;;;;;;;;x
+c_kappurnanda_adj;Kappurnandan;;kappurnander;;;;;;;;;;;x
 c_karia;Karia;Karia;Karia;;Karia;;;;;;;;;x
 c_karia_adj;Karian;;karer;;;;;;;;;;;x
 c_karkisa;Karkisa;Karkisa;Karkisa;;Karkisa;;;;;;;;;x
@@ -185,8 +185,6 @@ c_kummaha;Kummaha;Kummaha;Kummaha;;Kummaha;;;;;;;;;x
 c_kummaha_adj;Kummahan;;kummaher;;;;;;;;;;;x
 c_kummuth;Kummuth;Kummuth;Kummuth;;Kummuth;;;;;;;;;x
 c_kummuth_adj;Kummuthian;;kummuther;;;;;;;;;;;x
-c_kunanamit;Kunanamit;Kunanamit;Kunanamit;;Kunanamit;;;;;;;;;x
-c_kunanamit_adj;Kunanamitian;;kunanamiter;;;;;;;;;;;x
 c_kuwalapassa;Kuwalapassa;Kuwalapassa;Kuwalapassa;;Kuwalapassa;;;;;;;;;x
 c_kuwalapassa_adj;Kuwalapassan;;kuwalapasser;;;;;;;;;;;x
 c_kuwaliya;Kuwaliya;Kuwaliya;Kuwaliya;;Kuwaliya;;;;;;;;;x
@@ -269,6 +267,8 @@ c_nahita;Nahita;Nahita;Nahita;;Nahita;;;;;;;;;x
 c_nahita_adj;Nahitan;;nahiter;;;;;;;;;;;x
 c_naxos;Naxos;Naxos;Naxos;;Naxos;;;;;;;;;x
 c_naxos_adj;Naxosian;;naxoser;;;;;;;;;;;x
+c_nesa;Nesa;Nesa;Nesa;;Nesa;;;;;;;;;x
+c_nesa_adj;Nesan;;neser;;;;;;;;;;;x
 c_noties_sporades;Noties Sporades;Noties Sporades;Noties Sporades;;Noties Sporades;;;;;;;;;x
 c_noties_sporades_adj;Noties Sporadesian;;Noties Sporadeser;;;;;;;;;;;x
 c_oeneidae;Oeneidae;Oeneidae;Oeneidae;;Oeneidae;;;;;;;;;x

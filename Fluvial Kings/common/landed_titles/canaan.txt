@@ -16,6 +16,12 @@ e_canaan = {
 			color={ 55 29 150 }
 			color2={ 255 255 255 }
 			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 233 province_id = 234 province_id = 235 province_id = 236 province_id = 237 } }
+				}
+			}
 			capital = 233 # c_beru
 			
 			c_beru = { # 233
@@ -58,6 +64,12 @@ e_canaan = {
 			color={ 74 50 129 }
 			color2={ 255 255 255 }
 			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 238 province_id = 239 province_id = 240 } }
+				}
+			}
 			capital = 238 # c_sidon
 			
 			c_sidon = { # 238
@@ -94,6 +106,12 @@ e_canaan = {
 			color={ 111 160 140 }
 			color2={ 255 255 255 }
 			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 248 province_id = 249 province_id = 250 province_id = 251 } }
+				}
+			}
 			capital = 248 # c_gath
 			
 			c_gath = { # 248
@@ -129,6 +147,12 @@ e_canaan = {
 			color={ 70 175 149 }
 			color2={ 255 255 255 }
 			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 252 province_id = 253 province_id = 254 } }
+				}
+			}
 			capital = 252 # c_gaza
 			
 			c_gaza = { # 252
@@ -161,17 +185,16 @@ e_canaan = {
 		capital = 241 # c_carmel
 		culture = hittite
 		
-		c_efraim = { # 244
-			color={ 102 96 193 }
-			color2={ 255 255 255 }
-			
-			b_placeholder_12 = {
-			}
-		}
 		d_yisrael = {
 			color={ 102 78 141 }
 			color2={ 255 255 255 }
 			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 241 province_id = 242 province_id = 243 province_id = 244 province_id = 245 province_id = 246 province_id = 247 province_id = 255 } }
+				}
+			}
 			capital = 241 # c_carmel
 			
 			c_carmel = { # 241
@@ -248,6 +271,12 @@ e_canaan = {
 			color={ 49 120 150 }
 			color2={ 255 255 255 }
 			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 256 province_id = 257 province_id = 258 province_id = 259 province_id = 260 } }
+				}
+			}
 			capital = 256 # c_hevron
 			
 			c_hevron = { # 256

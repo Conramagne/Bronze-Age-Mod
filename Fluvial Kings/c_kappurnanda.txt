@@ -1,0 +1,4 @@
+2527.1.1={
+	holder = 2003006
+	liege = d_sarazzi_udne
+}

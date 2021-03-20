@@ -1,0 +1,4 @@
+2523.1.1={
+	liege= d_hatti
+	holder = 2000000
+}

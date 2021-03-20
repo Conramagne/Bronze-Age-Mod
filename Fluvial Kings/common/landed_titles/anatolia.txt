@@ -29,65 +29,83 @@ e_hittite_empire = {
 	
 			capital = 1
 			
-			c_hattusa = {
-				color = { 153 0 0 }
-				color2 = { 255 255 255 }
-				holy_site = ishalitethai
-				
-				b_hattusa = {}
-				b_tahurpa = {}
-				b_suppiluliya = {}
-				b_tawiniya = {}
-				b_hiyasna = {}
-				b_kammama = {}
-				b_matilla = {}
-			}
-			c_taskuriya = {
-				color={ 204 57 57 }
-				color2={ 255 255 255 }
-				holy_site = ishalitethai
-				holy_site = haianiluwi
-				
-				b_taskuriya = {}
-				b_salma = {}
-				b_arinna = {}
-				b_taritara = {}
-			}
-			
-			c_tuhuppiya = {
-				color={ 219 0 0 }
+			c_hattusa = { # 1
+				color={ 153 0 0 }
 				color2={ 255 255 255 }
 				
-				b_tuhuppiya = {}
-				b_alisar = {}
-				b_tawa = {}
-				b_wahsusana = {}
+				b_hattusa = {
+				}
+				b_tahurpa = {
+				}
+				b_suppiluliya = {
+				}
+				b_tawiniya = {
+				}
+				b_hiyasna = {
+				}
+				b_kammama = {
+				}
+				b_matilla = {
+				}
 			}
-			
-			c_katapa = {
+			c_kapitra = { # 39
 				color={ 196 7 7 }
 				color2={ 255 255 255 }
 				
-				b_katapa = {}
-				b_hakmis = {}
-				b_sapinuwa = {}
+				b_kapitra = {
+				}
+				b_talahi = {
+				}
 			}
-			
-			c_kanes = {
-				color={ 119 28 28 }
-				color2={ 255 255 255 }
-				
-				b_kanes = {}
-				b_talahi = {}
-				b_daha = {}
-			}
-			c_kapitra = {
+			c_katapa = { # 21
 				color={ 140 4 4 }
 				color2={ 255 255 255 }
 				
-				b_kapitra = {}
-				b_zippalanda = {}
-				b_suppiluliya = {}
+				b_katapa = {
+				}
+				b_hakmis = {
+				}
+				b_sapinuwa = {
+				}
+			}
+			c_masika = { # 53
+				color={ 155 23 0 }
+				color2={ 255 255 255 }
+				
+				b_masika = {
+				}
+				b_harsamna = {
+				}
+				b_lakimissa = {
+				}
+				b_atuna = {
+				}
+			}
+			c_taskuriya = { # 37
+				color={ 204 57 57 }
+				color2={ 255 255 255 }
+				
+				b_taskuriya = {
+				}
+				b_tuhuppiya = {
+				}
+				b_zithara = {
+				}
+				b_salma = {
+				}
+				b_wahsusana = {
+				}
+				b_malitta = {
+				}
+			}
+			c_tuhuppiya = { # 38
+				color={ 219 0 0 }
+				color2={ 255 255 255 }
+				
+				b_washaniya = {
+				}
+				b_salampa = {
+				}
 			}
 		}
 		d_ambara = { 
@@ -96,32 +114,39 @@ e_hittite_empire = {
 	
 			capital = 56
 			
-			c_kummaha = {
-				color={ 196 170 0 }
-				color2={ 255 255 255 }
-				
-				b_kummaha = {}
-			}
-			c_haburat = {
+			c_haburat = { # 54
 				color={ 236 140 0 }
 				color2={ 255 255 255 }
 				
-				b_haburat = {}
-				b_pittiyarika = {}
-				b_aryiza = {}
+				b_haburat = {
+				}
+				b_pittiyarika = {
+				}
+				b_aryiza = {
+				}
 			}
-			c_pahhuwa = {
-				color={ 216 20 26 }
-				color2={ 255 255 255 }
-				
-				b_pahhuwa = {}
-				b_hahha = {}
-			}
-			c_istitina = {
+			c_istitina = { # 55
 				color={ 196 74 0 }
 				color2={ 255 255 255 }
 				
-				b_istitina = {}
+				b_istitina = {
+				}
+			}
+			c_kummaha = { # 56
+				color={ 196 170 0 }
+				color2={ 255 255 255 }
+				
+				b_kummaha = {
+				}
+			}
+			c_pahhuwa = { # 57
+				color={ 216 20 26 }
+				color2={ 255 255 255 }
+				
+				b_pahhuwa = {
+				}
+				b_hahha = {
+				}
 			}
 		}
 		d_sarazzi_udne = { 
@@ -130,43 +155,69 @@ e_hittite_empire = {
 	
 			capital = 53
 			
-			c_masika = {
-				color={ 155 23 0 }
-				color2={ 255 255 255 }
-				
-				b_masika = {}
-				b_zaminuwa = {}
-				b_lakimissa = {}
-				b_ankuwa = {}
-			}
-			c_zipishuna = {
-				color={ 106 4 4 }
-				color2={ 255 255 255 }
-				
-				b_zipishuna = {}
-				b_tabikka = {}
-				b_gazziura = {}
-				b_kabulsan = {}
-				b_hananaga = {}
-			}
-			c_takkupta = {
+			c_kappurnanda = { # 36
 				color={ 255 58 117 }
 				color2={ 255 255 255 }
 				
-				b_takkupta = {}
-				b_kappurnanda = {}
-				b_ishupitta = {}
-				b_tiliura = {}
-				b_karanah = {}
+				b_kappurnanda = {
+				}
+				b_ishupitta = {
+				}
+				b_karahna = {
+				}
+				b_hatikaitra = {
+				}
+				b_sakdunuwa = {
+				}
+				b_suluppa = {
+				}
+				b_marista = {
+				}
 			}
-			c_samuha = {
+			c_nesa = { # 40
+				color={ 119 28 28 }
+				color2={ 255 255 255 }
+				
+				b_nesa = {
+				}
+				b_warsabama = {
+				}
+				b_artalu = {
+				}
+				b_zaminuwa = {
+				}
+				b_kussara = {
+				}
+				b_hasikkasnawanda = {
+				}
+			}
+			c_samuha = { # 58
 				color={ 153 3 3 }
 				color2={ 255 255 255 }
 				
-				b_samuha = {}
-				b_marista = {}
-				b_suluppa = {}
-				b_hatikaitra = {}
+				b_samuha = {
+				}
+				b_marista_2 = {
+				}
+				b_suluppa_2 = {
+				}
+				b_samuha_2 = {
+				}
+			}
+			c_zipishuna = { # 41
+				color={ 106 4 4 }
+				color2={ 255 255 255 }
+				
+				b_zipishuna = {
+				}
+				b_tabikka = {
+				}
+				b_gazziura = {
+				}
+				b_kabulsan = {
+				}
+				b_hananaga = {
+				}
 			}
 		}
 	}
@@ -236,11 +287,11 @@ e_hittite_empire = {
 					cretan = "Saramene"
 				}
 			}
-			c_kunanamit = {
+			c_takkupta = {
 				color={ 219 43 0 }
 				color2={ 255 255 255 }
 				
-				b_kunanamit = {}
+				b_takkupta = {}
 			}
 		}
 		d_kalasma = { 

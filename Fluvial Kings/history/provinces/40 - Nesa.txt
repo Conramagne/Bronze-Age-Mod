@@ -1,0 +1,20 @@
+# c_nesa
+
+# County Title
+title = c_nesa
+
+# Settlements
+max_settlements = 6
+
+b_nesa = castle
+b_warsabama = city
+b_artalu = temple
+b_zaminuwa = castle
+b_kussara = city
+b_hasikkasnawanda = temple
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History
