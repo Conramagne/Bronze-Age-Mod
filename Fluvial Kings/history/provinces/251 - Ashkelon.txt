@@ -1,12 +1,12 @@
-# c_akko
+# c_ashkelon
 
 # County Title
-title = c_akko
+title = c_ashkelon
 
 # Settlements
 max_settlements = 1
 
-b_placeholder_8 = castle
+b_ashkelon = castle
 
 # Misc
 culture = hittite

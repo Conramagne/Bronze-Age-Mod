@@ -1,0 +1,15 @@
+# c_gath
+
+# County Title
+title = c_gath
+
+# Settlements
+max_settlements = 1
+
+b_gath = castle
+
+# Misc
+culture = hittite
+religion = berith
+
+#History

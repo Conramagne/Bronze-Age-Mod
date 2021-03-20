@@ -1,12 +1,12 @@
-# c_yizrael
+# c_ashdod
 
 # County Title
-title = c_yizrael
+title = c_ashdod
 
 # Settlements
 max_settlements = 1
 
-b_placeholder_11 = castle
+b_ashdod = castle
 
 # Misc
 culture = hittite

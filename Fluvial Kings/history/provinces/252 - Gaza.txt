@@ -1,12 +1,12 @@
-# c_shomron
+# c_gaza
 
 # County Title
-title = c_shomron
+title = c_gaza
 
 # Settlements
 max_settlements = 1
 
-b_placeholder_12 = castle
+b_gaza = castle
 
 # Misc
 culture = hittite

@@ -5,14 +5,14 @@ e_canaan = {
 	capital = 233 # c_beru
 	culture = hittite
 	
-	k_yizrael = {
+	k_put = {
 		color={ 75 9 160 }
 		color2={ 255 255 255 }
 		
 		capital = 233 # c_beru
 		culture = hittite
 		
-		d_yizrael = {
+		d_beru = {
 			color={ 55 29 150 }
 			color2={ 255 255 255 }
 			
@@ -25,39 +25,11 @@ e_canaan = {
 				b_placeholder = {
 				}
 			}
-			c_akko = { # 240
-				color={ 62 56 151 }
-				color2={ 255 255 255 }
-				
-				b_placeholder_8 = {
-				}
-			}
-			c_carmel = { # 241
-				color={ 92 88 136 }
-				color2={ 255 255 255 }
-				
-				b_placeholder_9 = {
-				}
-			}
 			c_danabu = { # 236
 				color={ 88 129 151 }
 				color2={ 255 255 255 }
 				
 				b_placeholder_4 = {
-				}
-			}
-			c_galil_elion = { # 246
-				color={ 92 68 140 }
-				color2={ 255 255 255 }
-				
-				b_placeholder_14 = {
-				}
-			}
-			c_galil_tachton = { # 245
-				color={ 93 63 166 }
-				color2={ 255 255 255 }
-				
-				b_placeholder_13 = {
 				}
 			}
 			c_kumidi = { # 235
@@ -74,13 +46,20 @@ e_canaan = {
 				b_placeholder_5 = {
 				}
 			}
-			c_shomron = { # 244
-				color={ 102 96 192 }
+			c_sobah = { # 234
+				color={ 62 56 162 }
 				color2={ 255 255 255 }
 				
-				b_placeholder_12 = {
+				b_placeholder_2 = {
 				}
 			}
+		}
+		d_put = {
+			color={ 74 50 129 }
+			color2={ 255 255 255 }
+			
+			capital = 238 # c_sidon
+			
 			c_sidon = { # 238
 				color={ 64 60 124 }
 				color2={ 255 255 255 }
@@ -88,11 +67,11 @@ e_canaan = {
 				b_placeholder_6 = {
 				}
 			}
-			c_sobah = { # 234
-				color={ 62 56 162 }
+			c_akka = { # 240
+				color={ 62 56 151 }
 				color2={ 255 255 255 }
 				
-				b_placeholder_2 = {
+				b_placeholder_8 = {
 				}
 			}
 			c_sur = { # 239
@@ -102,6 +81,141 @@ e_canaan = {
 				b_placeholder_7 = {
 				}
 			}
+		}
+	}
+	k_plishtim = {
+		color={ 91 180 130 }
+		color2={ 255 255 255 }
+		
+		capital = 248 # c_gath
+		culture = hittite
+		
+		d_gath = {
+			color={ 111 160 140 }
+			color2={ 255 255 255 }
+			
+			capital = 248 # c_gath
+			
+			c_gath = { # 248
+				color={ 121 150 145 }
+				color2={ 255 255 255 }
+				
+				b_gath = {
+				}
+			}
+			c_ashdod = { # 249
+				color={ 77 83 156 }
+				color2={ 255 255 255 }
+				
+				b_ashdod = {
+				}
+			}
+			c_ashkelon = { # 251
+				color={ 64 104 112 }
+				color2={ 255 255 255 }
+				
+				b_ashkelon = {
+				}
+			}
+			c_ekron = { # 250
+				color={ 53 61 164 }
+				color2={ 255 255 255 }
+				
+				b_ekron = {
+				}
+			}
+		}
+		d_gaza = {
+			color={ 70 175 149 }
+			color2={ 255 255 255 }
+			
+			capital = 252 # c_gaza
+			
+			c_gaza = { # 252
+				color={ 80 165 154 }
+				color2={ 255 255 255 }
+				
+				b_gaza = {
+				}
+			}
+			c_rafiah = { # 254
+				color={ 57 130 188 }
+				color2={ 255 255 255 }
+				
+				b_rafiah = {
+				}
+			}
+			c_tsiklag = { # 253
+				color={ 72 204 214 }
+				color2={ 255 255 255 }
+				
+				b_tsiklag = {
+				}
+			}
+		}
+	}
+	k_yisrael = {
+		color={ 122 58 151 }
+		color2={ 255 255 255 }
+		
+		capital = 241 # c_carmel
+		culture = hittite
+		
+		c_efraim = { # 244
+			color={ 102 96 193 }
+			color2={ 255 255 255 }
+			
+			b_placeholder_12 = {
+			}
+		}
+		d_yisrael = {
+			color={ 102 78 141 }
+			color2={ 255 255 255 }
+			
+			capital = 241 # c_carmel
+			
+			c_carmel = { # 241
+				color={ 92 88 136 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_9 = {
+				}
+			}
+			c_efraim = { # 244
+				color={ 102 96 193 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_12 = {
+				}
+			}
+			c_galil_elion = { # 246
+				color={ 92 68 140 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_14 = {
+				}
+			}
+			c_galil_tachton = { # 245
+				color={ 93 63 166 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_13 = {
+				}
+			}
+			c_hayarden = { # 255
+				color={ 76 126 130 }
+				color2={ 255 255 255 }
+				
+				b_hayarden = {
+				}
+			}
+			c_shomron = { # 243
+				color={ 143 139 203 }
+				color2={ 255 255 255 }
+				
+				b_placeholder_11 = {
+				}
+			}
 			c_yafo = { # 242
 				color={ 85 124 134 }
 				color2={ 255 255 255 }
@@ -109,11 +223,66 @@ e_canaan = {
 				b_placeholder_10 = {
 				}
 			}
-			c_yizrael = { # 243
-				color={ 143 139 203 }
+			c_yerushalaim = { # 247
+				color={ 98 72 172 }
 				color2={ 255 255 255 }
 				
-				b_placeholder_11 = {
+				b_yerushalaim = {
+				}
+				b_jericho = {
+				}
+				b_nob = {
+					holy_site = berith
+				}
+				b_ay = {
+				}
+				b_yerushalaim_2 = {
+				}
+				b_yerushalaim_3 = {
+				}
+				b_yerushalaim_4 = {
+				}
+			}
+		}
+		d_yehuda = {
+			color={ 49 120 150 }
+			color2={ 255 255 255 }
+			
+			capital = 256 # c_hevron
+			
+			c_hevron = { # 256
+				color={ 39 130 145 }
+				color2={ 255 255 255 }
+				
+				b_hevron = {
+				}
+			}
+			c_beer_sheva = { # 259
+				color={ 71 40 168 }
+				color2={ 255 255 255 }
+				
+				b_beer_sheva = {
+				}
+			}
+			c_bet_lehem = { # 257
+				color={ 66 117 148 }
+				color2={ 255 255 255 }
+				
+				b_bet_lehem = {
+				}
+			}
+			c_en_gedi = { # 258
+				color={ 38 102 150 }
+				color2={ 255 255 255 }
+				
+				b_en_gedi = {
+				}
+			}
+			c_har_hanegev = { # 260
+				color={ 80 119 168 }
+				color2={ 255 255 255 }
+				
+				b_har_hanegev = {
 				}
 			}
 		}

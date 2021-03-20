@@ -238,10 +238,24 @@ province;red;green;blue;x;x
 237;95;97;151;Laban;x
 238;64;60;124;Sidon;x
 239;56;53;101;Sur;x
-240;62;56;151;Akko;x
+240;62;56;151;Akka;x
 241;92;88;136;Carmel;x
 242;85;124;134;Yafo;x
-243;143;139;203;Yizrael;x
-244;102;96;192;Shomron;x
+243;143;139;203;Shomron;x
+244;102;96;193;Efraim;x
 245;93;63;166;Galil Tachton;x
 246;92;68;140;Galil Elion;x
+247;98;72;172;Yerushalaim;x
+248;121;150;145;Gath;x
+249;77;83;156;Ashdod;x
+250;53;61;164;Ekron;x
+251;64;104;112;Ashkelon;x
+252;80;165;154;Gaza;x
+253;72;204;214;Tsiklag;x
+254;57;130;188;Rafiah;x
+255;76;126;130;HaYarden;x
+256;39;130;145;Hevron;x
+257;66;117;148;Bet Lehem;x
+258;38;102;150;En Gedi;x
+259;71;40;168;Beer Sheva;x
+260;80;119;168;Har HaNegev;x

@@ -1,0 +1,15 @@
+# c_tsiklag
+
+# County Title
+title = c_tsiklag
+
+# Settlements
+max_settlements = 1
+
+b_tsiklag = castle
+
+# Misc
+culture = hittite
+religion = berith
+
+#History

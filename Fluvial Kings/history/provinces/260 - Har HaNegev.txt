@@ -1,0 +1,15 @@
+# c_har_hanegev
+
+# County Title
+title = c_har_hanegev
+
+# Settlements
+max_settlements = 1
+
+b_har_hanegev = castle
+
+# Misc
+culture = hittite
+religion = berith
+
+#History
