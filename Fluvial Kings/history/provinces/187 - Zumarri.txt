@@ -1,0 +1,17 @@
+# c_zumarri
+
+# County Title
+title = c_zumarri
+
+# Settlements
+max_settlements = 3
+
+b_zumarri = tribal
+b_hinduwa = city
+#b_suruda = temple
+
+# Misc
+culture = lycian
+religion = haianiluwi
+
+#History

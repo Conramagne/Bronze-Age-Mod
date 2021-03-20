@@ -1049,7 +1049,7 @@
 2201600 = { #Ahuni, King of Kyzikos
 	name = "Ahuni"
 	dynasty = 2002002 #Ahunili
-	culture = luwian
+	culture = mysian
 	religion = haianiluwi
 	2500.1.1 = { birth = yes }
 	2560.1.1 = { death = yes }
@@ -1085,6 +1085,15 @@
 	2567.1.1 = { death = yes }
 }
 
+#Royal Family of Mira (2202000-2202099)
+2202000 = { #Sandasarme, King of Mira
+	name = "Sandasarme"
+	dynasty = 2002008 #Paritili
+	culture = luwian
+	religion = haianiluwi
+	2492.1.1 = { birth = yes }
+	2555.1.1 = { death = yes }
+}
 
 
 

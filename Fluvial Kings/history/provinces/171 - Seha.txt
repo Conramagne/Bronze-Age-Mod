@@ -1,0 +1,16 @@
+# c_seha
+
+# County Title
+title = c_seha
+
+# Settlements
+max_settlements = 2
+
+b_seha = tribal
+#b_pergamon = city
+
+# Misc
+culture = mysian
+religion = haianiluwi
+
+#History

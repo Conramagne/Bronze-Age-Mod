@@ -6,6 +6,6 @@ world_greece = {
 
 world_asia_minor = {
 	duchies = {
-		d_ambara d_apasa d_arzawa d_hatti d_hulaya d_kalasma d_karkiya d_kaska d_kassiya d_kastaraya d_kasula d_katerra_udne d_kuwaliya d_kyzikos d_lapza d_lukka d_mala d_marqasa d_masa d_mysia d_paphos d_pitassa d_puruma d_salamis_cyp d_samura d_sarazzi_udne d_sfard d_tarhuntassa d_tegarama d_wilusa
+		d_ambara d_apasa d_hapalla d_hatti d_hulaya d_kalasma d_karkiya d_kaska d_kassiya d_kastaraya d_kasula d_katerra_udne d_lapza d_lukka d_mala d_masa d_marqasa d_mira d_kamalla d_seha d_paphos d_pitassa d_puruma d_salamis_cyp d_samura d_sarazzi_udne d_sfard d_tarhuntassa d_tegarama d_wilusa
 	}
 }

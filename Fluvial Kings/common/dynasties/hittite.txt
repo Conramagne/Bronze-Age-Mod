@@ -92,6 +92,10 @@
 	name = "Pisirili"
 	culture = "luwian"
 }
+2002008 = {
+	name = "Paritili"
+	culture = luwian
+}
 
 #Kaskan Names (2003000-2003999)
 2003000 = {

@@ -4,5 +4,5 @@
 }
 2520.1.1={
 	holder = 2201600
-	liege=d_kyzikos
+	liege=d_masa
 }

@@ -935,29 +935,29 @@ thessalian_migration;Thessalikoí Migration;;;;;;;;;;;;;x
 EVTDESCFKCG30;The Ionikói have cemented their influence upon our land, their culture and faith are now near-native to the region.;;;;;;;;;;;;;x
 EVTOPTAFKCG30;Interesting;;;;;;;;;;;;;x
 
-EVTDESCFKCG32;The Aiolikoi have cemented their influence upon our land, their culture and faith are now near-native to the region.;;;;;;;;;;;;;x
-EVTOPTAFKCG32;Interesting;;;;;;;;;;;;;x
-
-EVTTITLEFKCG33;Expulsion of the Héllenes;;;;;;;;;;;;;x
-EVTDESCFKCG33;The Héllenes have flooded the land with their wives and children. I shall not bow down to these invaders. They must leave at once.;;;;;;;;;;;;;x
-EVTOPTAFKCG33;They shall be given gold to leave;;;;;;;;;;;;;x
-EVTOPTBFKCG33;My armies will drive them from the shores!;;;;;;;;;;;;;x
-greeks_may_revolt_TT;The Héllenes may rise up and forcibly take charge;;;;;;;;;;;;;x
+EVTDESCFKCG33;The Aiolikoi have cemented their influence upon our land, their culture and faith are now near-native to the region.;;;;;;;;;;;;;x
+EVTOPTAFKCG33;Interesting;;;;;;;;;;;;;x
 
 EVTTITLEFKCG34;Expulsion of the Héllenes;;;;;;;;;;;;;x
-EVTDESCFKCG34;Luckily, my plan to expel the Héllenes worked. They left my lands without a fuss.;;;;;;;;;;;;;x
-EVTOPTAFKCG34;I am glad no blood was spilt;;;;;;;;;;;;;x
+EVTDESCFKCG34;The Héllenes have flooded the land with their wives and children. I shall not bow down to these invaders. They must leave at once.;;;;;;;;;;;;;x
+EVTOPTAFKCG34;They shall be given gold to leave;;;;;;;;;;;;;x
+EVTOPTBFKCG34;My armies will drive them from the shores!;;;;;;;;;;;;;x
+greeks_may_revolt_TT;The Héllenes may rise up and forcibly take charge;;;;;;;;;;;;;x
 
-EVTTITLEFKCG35;Héllenes Revolt!;;;;;;;;;;;;;x
-EVTDESCFKCG35;Disaster! My threat did not have its desired effects, and now there are reports of a Héllen army amassing in the countryside.;;;;;;;;;;;;;x
-EVTOPTAFKCG35;They shall be dealt with;;;;;;;;;;;;;x
+EVTTITLEFKCG35;Expulsion of the Héllenes;;;;;;;;;;;;;x
+EVTDESCFKCG35;Luckily, my plan to expel the Héllenes worked. They left my lands without a fuss.;;;;;;;;;;;;;x
+EVTOPTAFKCG35;I am glad no blood was spilt;;;;;;;;;;;;;x
 
-EVTDESCFKCG36;Ionikói have settles in our lands in Arzawa. Although they seem to be simply migrants, they may soon cement their influence upon our people.;;;;;;;;;;;;;x
-EVTOPTAFKCG36;Very interesting;;;;;;;;;;;;;x
+EVTTITLEFKCG36;Héllenes Revolt!;;;;;;;;;;;;;x
+EVTDESCFKCG36;Disaster! My threat did not have its desired effects, and now there are reports of a Héllen army amassing in the countryside.;;;;;;;;;;;;;x
+EVTOPTAFKCG36;They shall be dealt with;;;;;;;;;;;;;x
+
+EVTDESCFKCG37;Ionikói have settles in our lands in Arzawa. Although they seem to be simply migrants, they may soon cement their influence upon our people.;;;;;;;;;;;;;x
+EVTOPTAFKCG37;Very interesting;;;;;;;;;;;;;x
 ionian_migration;Ionikos Migration;;;;;;;;;;;;;x
 
-EVTDESCFKCG37;Aiolikoi have settles in our lands in Arzawa. Although they seem to be simply migrants, they may soon cement their influence upon our people.;;;;;;;;;;;;;x
-EVTOPTAFKCG37;Very interesting;;;;;;;;;;;;;x
+EVTDESCFKCG38;Aiolikoi have settles in our lands in Arzawa. Although they seem to be simply migrants, they may soon cement their influence upon our people.;;;;;;;;;;;;;x
+EVTOPTAFKCG38;Very interesting;;;;;;;;;;;;;x
 aeolian_migration;Aiolikos Migration;;;;;;;;;;;;;x
 
 #Anatolian

@@ -603,7 +603,7 @@ decisions = {
 			}
 		}
 		effect = {
-			character_event = { id = fkcg.33 } #Expelling the Greeks
+			character_event = { id = fkcg.34 } #Expelling the Greeks
 		}
 	}
 }

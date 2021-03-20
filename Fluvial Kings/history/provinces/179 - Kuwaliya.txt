@@ -1,0 +1,16 @@
+# c_kuwaliya
+
+# County Title
+title = c_kuwaliya
+
+# Settlements
+max_settlements = 2
+
+b_halluwa = tribal
+#b_waliwanda = city
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

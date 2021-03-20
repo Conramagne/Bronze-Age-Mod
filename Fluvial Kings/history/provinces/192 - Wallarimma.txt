@@ -1,0 +1,16 @@
+# c_wallarimma
+
+# County Title
+title = c_wallarimma
+
+# Settlements
+max_settlements = 2
+
+b_wallarimma = tribal
+#b_atriya = city
+
+# Misc
+culture = lydian
+religion = assussani
+
+#History

@@ -1,0 +1,16 @@
+# c_mira
+
+# County Title
+title = c_mira
+
+# Settlements
+max_settlements = 2
+
+b_mira = tribal
+b_huwalusa = tribal
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

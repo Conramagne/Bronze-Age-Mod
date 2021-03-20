@@ -43,13 +43,13 @@ technology = {
 #Very Low Technology
 technology = {
 	titles = {
-		d_arzawa
+		d_hapalla
+		d_kamalla
 		d_lapza
 		d_lukka
-		d_kuwaliya
-		d_kyzikos
 		d_masa
-		d_mysia
+		d_mira
+		d_seha
 		d_sfard
 	}
 

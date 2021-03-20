@@ -1,0 +1,16 @@
+# c_attarima
+
+# County Title
+title = c_attarima
+
+# Settlements
+max_settlements = 2
+
+b_attarima = tribal
+#b_isnati = city
+
+# Misc
+culture = lycian
+religion = haianiluwi
+
+#History

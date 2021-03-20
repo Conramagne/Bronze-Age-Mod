@@ -1,0 +1,15 @@
+# c_utima
+
+# County Title
+title = c_utima
+
+# Settlements
+max_settlements = 1
+
+b_utima = tribal
+
+# Misc
+culture = carian
+religion = haianiluwi
+
+#History

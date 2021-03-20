@@ -1,0 +1,15 @@
+# c_masa
+
+# County Title
+title = c_masa
+
+# Settlements
+max_settlements = 1
+
+b_masa = tribal
+
+# Misc
+culture = mysian
+religion = haianiluwi
+
+#History

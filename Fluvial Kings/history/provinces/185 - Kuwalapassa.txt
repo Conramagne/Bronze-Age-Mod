@@ -1,0 +1,15 @@
+# c_kuwalapassa
+
+# County Title
+title = c_kuwalapassa
+
+# Settlements
+max_settlements = 1
+
+b_kuwalapassa = tribal
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

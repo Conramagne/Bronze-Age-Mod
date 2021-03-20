@@ -1174,7 +1174,7 @@ character_event = {
 					has_province_modifier = ionian_migration
 				}
 			}
-			character_event = { id = fkcg.36 }
+			character_event = { id = fkcg.37 }
 		}
 		any_character = {
 			limit = {
@@ -1948,7 +1948,7 @@ character_event = {
 						has_province_modifier = aeolian_migration
 					}
 				}
-				character_event = { id = fkcg.37 }
+				character_event = { id = fkcg.38 }
 			}
 		}
 	}
@@ -1993,19 +1993,19 @@ character_event = {
 
 #Ionian become majority Pop-Up
 character_event = {
-	id = fkcg.30
-	desc = EVTDESCFKCG30
+	id = fkcg.31
+	desc = EVTDESCFKCG31
 	hide_from = yes
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTAFKCG30
+		name = EVTOPTAFKCG31
 	}
 }
 
 #Aeolians become majority
 character_event = {
-	id = fkcg.31
+	id = fkcg.32
 	hide_window = yes
 	trigger = {
 		has_landed_title = e_hellenic_pantheon
@@ -2042,25 +2042,25 @@ character_event = {
 
 #Aeolian become majority Pop-Up
 character_event = {
-	id = fkcg.32
-	desc = EVTDESCFKCG32
+	id = fkcg.33
+	desc = EVTDESCFKCG33
 	hide_from = yes
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTAFKCG32
+		name = EVTOPTAFKCG33
 	}
 }
 
 #Expelling the Greeks
 character_event = {
-	id = fkcg.33
-	title = EVTTITLEFKCG33
-	desc = EVTDESCFKCG33
+	id = fkcg.34
+	title = EVTTITLEFKCG34
+	desc = EVTDESCFKCG34
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTAFKCG33
+		name = EVTOPTAFKCG34
 		wealth = -200
 		trigger = {
 			OR = {
@@ -2077,15 +2077,15 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPTBFKCG33
+		name = EVTOPTBFKCG34
 		custom_tooltip = {
 			text = greeks_may_revolt_TT
 			hidden_tooltip = {
 				30 = {
-					character_event = { id = fkcg.34 days = 30 } #Greeks don't revolt
+					character_event = { id = fkcg.35 days = 30 } #Greeks don't revolt
 				}
 				70 = {
-					character_event = { id = fkcg.35 days = 30 } #Gamers rise up
+					character_event = { id = fkcg.36 days = 30 } #Gamers rise up
 				}
 			}
 		}
@@ -2106,13 +2106,13 @@ character_event = {
 
 #Greeks don't revolt
 character_event = {
-	id = fkcg.34
-	title = EVTTITLEFKCG34
-	desc = EVTDESCFKCG34
+	id = fkcg.35
+	title = EVTTITLEFKCG35
+	desc = EVTDESCFKCG35
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTAFKCG34
+		name = EVTOPTAFKCG35
 		any_demesne_province = {
 			limit = {
 				OR = {
@@ -2130,13 +2130,13 @@ character_event = {
 
 #Gamers rise up
 character_event = {
-	id = fkcg.35
-	title = EVTTITLEFKCG35
-	desc = EVTDESCFKCG35
+	id = fkcg.36
+	title = EVTTITLEFKCG36
+	desc = EVTDESCFKCG36
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTAFKCG35
+		name = EVTOPTAFKCG36
 		hidden_tooltip = {
 			random_realm_province = {
 				limit = {
@@ -2227,18 +2227,6 @@ character_event = {
 
 #Ionian Settlement Pop-Up
 character_event = {
-	id = fkcg.36
-	desc = EVTDESCFKCG36
-	hide_from = yes
-	is_triggered_only = yes
-
-	option = {
-		name = EVTOPTAFKCG36
-	}
-}
-
-#Aeolian Settlement Pop-Up
-character_event = {
 	id = fkcg.37
 	desc = EVTDESCFKCG37
 	hide_from = yes
@@ -2246,5 +2234,17 @@ character_event = {
 
 	option = {
 		name = EVTOPTAFKCG37
+	}
+}
+
+#Aeolian Settlement Pop-Up
+character_event = {
+	id = fkcg.38
+	desc = EVTDESCFKCG38
+	hide_from = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAFKCG38
 	}
 }

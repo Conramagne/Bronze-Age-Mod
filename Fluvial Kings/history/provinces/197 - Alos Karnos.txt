@@ -4,10 +4,11 @@
 title = c_alos_karnos
 
 # Settlements
-max_settlements = 2
+max_settlements = 3
 
-b_pitassa = tribal
 b_alos_karnos = tribal
+b_pitassa = tribal
+#b_zapura = temple
 
 # Misc
 culture = achaean

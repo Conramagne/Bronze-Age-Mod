@@ -866,85 +866,77 @@ e_arzawa = {
 				b_mytilini = {}
 			}
 		}
-		d_kyzikos = { 
-			color = { 219 166 148 }
-			color2 = { 255 255 255 }
-	
-			capital = 167 # Kyzikos
+		d_masa = {
+			color={ 209 176 143 }
+			color2={ 255 255 255 }
 			
-			c_kyzikos = {
-				color = { 219 166 148 }
-				color2 = { 255 255 255 }
+			capital = 167 # c_kyzikos
+			
+			c_kyzikos = { # 167
+				color={ 219 166 148 }
+				color2={ 255 255 255 }
 				
-				b_kyzikos = {}
-				b_artakia = {}
+				b_kyzikos = {
+				}
+				b_artakia = {
+				}
 			}
-			c_aisepos = {
-				color = { 216 134 106 }
-				color2 = { 255 255 255 }
+			c_aisepos = { # 168
+				color={ 216 134 106 }
+				color2={ 255 255 255 }
 				
-				b_aisepos = {}
+				b_aisepos = {
+				}
 			}
-			c_apaliassos = {
-				color = { 224 64 66 }
-				color2 = { 255 255 255 }
+			c_karkisa = { # 170
+				color={ 101 167 125 }
+				color2={ 255 255 255 }
 				
-				b_prousa = {}
-			}
-			c_seha = {
-				color = { 101 167 125 }
-				color2 = { 255 255 255 }
-				
+				b_karkisa = {
+				}
 				b_pericharaxis = {
-					luwian = "Seha"
-					hittite = "Seha"
+				}
+			}
+			c_masa = { # 169
+				color={ 224 62 66 }
+				color2={ 255 255 255 }
+				
+				b_masa = {
 				}
 			}
 		}
-		d_mysia = { 
-			color = { 187 216 100 }
-			color2 = { 255 255 255 }
-	
-			capital = 171 # Mysia
+		d_seha = {
+			color={ 177 226 95 }
+			color2={ 255 255 255 }
 			
-			c_mysia = {
-				color = { 187 216 100 }
-				color2 = { 255 255 255 }
+			capital = 171 # c_seha
+			
+			c_seha = { # 171
+				color={ 187 216 100 }
+				color2={ 255 255 255 }
 				
-				# hittite = "Masa"
-				# luwian = "Masa"
-				
-				b_mysia = {
-					# hittite = "Masa"
-					# luwian = "Masa"
+				b_seha = {
 				}
-				b_pergamon = {}
+				b_pergamon = {
+				}
 			}
-			c_lurnessos = {
-				color = { 75 114 50 }
-				color2 = { 255 255 255 }
-
-				b_lurnessos = {}
-			}
-			c_phokaia = {
-				color = { 200 91 52 }
-				color2 = { 255 255 255 }
+			c_lurnessos = { # 172
+				color={ 75 114 50 }
+				color2={ 255 255 255 }
 				
-				b_phokaia = {}
-				b_kyme = {}
-				b_larissa = {}
+				b_lurnessos = {
+				}
 			}
-			c_ijalanda = {
-				color = { 111 171 74 }
-				color2 = { 255 255 255 }
+			c_phokaia = { # 173
+				color={ 200 91 52 }
+				color2={ 255 255 255 }
 				
-				b_synaos = {}
-			}
-			c_assuwa = {
-				color = { 255 183 159 }
-				color2 = { 255 255 255 }
-				
-				b_assuwa = {}
+				b_phokaia = {
+				}
+				b_kyme = {
+				}
+				b_larissa = {
+				}
 			}
 		}
 	}
@@ -952,62 +944,97 @@ e_arzawa = {
 		color = { 197 175 26 }
 		color2 = { 255 255 255 }
 		
-		capital = 176 # Arawana
+		capital = 175 #Walma
 		
-		d_arzawa = { 
-			color = { 197 175 26 }
-			color2 = { 255 255 255 }
-	
-			capital = 176 # Arawana
+		d_hapalla = {
+			color={ 61 141 56 }
+			color2={ 255 255 255 }
 			
-			c_arawana = {
-				color = { 197 175 26 }
-				color2 = { 255 255 255 }
-				
-				b_arawana = {}
-			}
-			c_sunnada = {
-				color = { 168 206 39 }
-				color2 = { 255 255 255 }
-				
-				b_sunnada = {}
-			}
-			c_hulana = {
-				color = { 123 112 37 }
-				color2 = { 255 255 255 }
-				
-				b_hulana = {}
-			}
-		}
-		d_masa = { 
-			color = { 139 216 44 }
-			color2 = { 255 255 255 }
-	
-			capital = 179 # Karkisa
+			capital = 175 # c_walma_2
 			
-			c_karkisa = {
-				color = { 139 216 44 }
-				color2 = { 255 255 255 }
+			c_walma_2 = { # 175
+				color={ 51 151 51 }
+				color2={ 255 255 255 }
 				
-				achaean = "Ascania"
-				phrygian = "Ascania"
-				
-				b_karkisa = {
-					achaean = "Ascania"
-					phrygian = "Ascania"
+				b_walma_2 = {
+				}
+				b_parsuhanda_2 = {
 				}
 			}
-			c_masa = {
-				color = { 100 151 12 }
-				color2 = { 255 255 255 }
+			c_lalanda = { # 177
+				color={ 168 206 39 }
+				color2={ 255 255 255 }
 				
-				b_masa = {}
+				b_lalanda = {
+				}
+				b_sallapa_2 = {
+				}
+				b_aura = {
+				}
+				b_wibassa = {
+				}
 			}
-			c_partahuina = {
-				color = { 214 225 113 }
-				color2 = { 255 255 255 }
+		}
+		d_kamalla = {
+			color={ 129 226 39 }
+			color2={ 255 255 255 }
+			
+			capital = 181 # c_ascania
+			
+			c_ascania = { # 181
+				color={ 139 216 44 }
+				color2={ 255 255 255 }
 				
-				b_partahuina = {}
+				b_ascania = {
+				}
+			}
+			c_kamalla = { # 182
+				color={ 100 151 12 }
+				color2={ 255 255 255 }
+				
+				b_kamalla = {
+				}
+			}
+			c_partahuina = { # 183
+				color={ 214 225 113 }
+				color2={ 255 255 255 }
+				
+				b_partahuina = {
+				}
+			}
+		}
+		d_mira = {
+			color={ 84 122 79 }
+			color2={ 255 255 255 }
+			
+			capital = 178 # c_mira
+			
+			c_mira = { # 178
+				color={ 74 132 74 }
+				color2={ 255 255 255 }
+				
+				b_mira = {
+				}
+				b_huwalusa = {
+				}
+			}
+			c_ankala = { # 180
+				color={ 123 112 37 }
+				color2={ 255 255 255 }
+				
+				b_ankala_2 = {
+				}
+				b_kursamassa = {
+				}
+			}
+			c_kuwaliya = { # 179
+				color={ 78 174 39 }
+				color2={ 255 255 255 }
+				
+				b_halluwa = {
+				}
+				b_waliwanda = {
+				}
 			}
 		}
 	}
@@ -1015,68 +1042,60 @@ e_arzawa = {
 		color = { 204 187 0 }
 		color2 = { 255 255 255 }
 		
-		capital = 182 # Salawassa
+		capital = 185 # Kuwalapassa
 		
-		d_kuwaliya = { 
-			color = { 204 187 0 }
-			color2 = { 255 255 255 }
-	
-			capital = 182 # Salawassa
+		d_lukka = {
+			color={ 226 218 36 }
+			color2={ 255 255 255 }
 			
-			c_salawassa = {
-				color = { 204 187 0 }
-				color2 = { 255 255 255 }
-				
-				b_salawassa = {}
-			}
-			c_kelenai = {
-				color = { 117 147 32 }
-				color2 = { 255 255 255 }
-				
-				b_kelenai = {}
-			}
-			c_lukka = {
-				color = { 68 158 27 }
-				color2 = { 255 255 255 }
-				
-				b_lukka = {}
-			}
-			c_pisidia = {
-				color = { 236 208 41 }
-				color2 = { 255 255 255 }
-				
-				b_pisidia = {}
-			}
-		}
-		d_lukka = { 
-			color = { 36 206 69 }
-			color2 = { 255 255 255 }
-	
-			capital = 186 # Arnna
+			capital = 185 # c_kuwalapassa
 			
-			c_arnna = {
-				color = { 36 206 69 }
-				color2 = { 255 255 255 }
+			c_kuwalapassa = { # 185
+				color={ 236 208 41 }
+				color2={ 255 255 255 }
 				
-				b_arnna = {}
+				b_kuwalapassa = {
+				}
 			}
-			c_pattara = {
-				color = { 100 224 36 }
-				color2 = { 255 255 255 }
+			c_attarima = { # 189
+				color={ 195 240 66 }
+				color2={ 255 255 255 }
 				
-				b_pattara = {}
+				b_attarima = {
+				}
+				b_isnati = {
+				}
 			}
-			c_kibyra = {
-				color = { 231 180 40 }
-				color2 = { 255 255 255 }
+			c_awarna = { # 186
+				color={ 36 206 69 }
+				color2={ 255 255 255 }
 				
-				b_kibyra = {}
+				b_awarna = {
+				}
+				b_patara = {
+				}
+				b_pinata = {
+				}
+				b_talawa = {
+				}
 			}
-			c_parha = {
-				color = { 195 240 66 }
-				color2 = { 255 255 255 }
+			c_wiyanawanda = { # 188
+				color={ 231 180 40 }
+				color2={ 255 255 255 }
 				
-				b_parha = {}
+				b_wiyanawanda = {
+				}
+			}
+			c_zumarri = { # 187
+				color={ 100 224 36 }
+				color2={ 255 255 255 }
+				
+				b_zumarri = {
+				}
+				b_hinduwa = {
+				}
+				b_suruda = {
+				}
 			}
 		}
 	}
@@ -1105,17 +1124,20 @@ e_arzawa = {
 					achaean = "Sardis"
 				}
 			}
-			c_szapparanda = {
+			c_assaratta = {
 				color = { 216 183 77 }
 				color2 = { 255 255 255 }
 				
-				b_szapparanda = {}
+				b_assaratta = {}
 			}
-			c_puranda = {
-				color = { 128 217 70 }
-				color2 = { 255 255 255 }
+			c_wallarimma = {
+				color={ 128 217 70 }
+				color2={ 255 255 255 }
 				
-				b_puranda = {}
+				b_wallarimma = {
+				}
+				b_atriya = {
+				}
 			}
 		}
 		d_apasa = { 
@@ -1158,8 +1180,9 @@ e_arzawa = {
 				b_milawata = {
 					achaean = "Miletus"
 				}
+				b_pariyana = {}
 				b_myous = {}
-				b_priene_apasa = {}
+				b_iyalanda = {}
 			}
 			c_samos = {
 				color = { 36 221 72 }
@@ -1198,6 +1221,7 @@ e_arzawa = {
 					cretan = "Pedassa"
 				}
 				b_alos_karnos = {}
+				b_zapura = {}
 			}
 			c_karia = {
 				color = { 206 139 30 }
@@ -1211,11 +1235,11 @@ e_arzawa = {
 				
 				b_khbide = {}
 			}
-			c_knidos = {
+			c_utima = {
 				color = { 215 205 52 }
 				color2 = { 255 255 255 }
 				
-				b_knidos = {}
+				b_utima = {}
 			}
 		}
 	}

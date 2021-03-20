@@ -1,0 +1,18 @@
+# c_awarna
+
+# County Title
+title = c_awarna
+
+# Settlements
+max_settlements = 4
+
+b_awarna = tribal
+b_patara = tribal
+#b_pinata = temple
+#b_talawa = castle
+
+# Misc
+culture = lycian
+religion = haianiluwi
+
+#History

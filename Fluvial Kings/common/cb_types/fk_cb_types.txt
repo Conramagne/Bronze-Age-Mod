@@ -1777,6 +1777,20 @@ dorian_invasion_cb = {
 			character_event = { id = fkr.321 }
 
 		}
+		any_province = {
+			if = {
+				limit = {
+					num_of_settlements = 2
+				}
+				random_province_holding = {
+					destroy_settlement = THIS
+				}
+			}
+			any_province_holding = {
+				destroy_random_building = THIS
+				destroy_random_building = THIS
+			}
+		}
 		hidden_tooltip = {
 			check_war_effect = yes
 			FROM = {

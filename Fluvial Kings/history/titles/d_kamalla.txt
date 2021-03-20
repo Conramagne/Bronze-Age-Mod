@@ -1,0 +1,13 @@
+2000.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2460.1.1={
+	holder = 2201205 #Akmon
+}
+2500.1.1={
+	holder = 2201204 #Mugdon
+}
+2525.1.1={
+	holder = 2201203 #Koroebos
+}

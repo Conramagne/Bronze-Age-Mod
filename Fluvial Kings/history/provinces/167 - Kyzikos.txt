@@ -10,7 +10,7 @@ b_kyzikos = castle
 b_artakia = city
 
 # Misc
-culture = luwian
+culture = mysian
 religion = haianiluwi
 
 #History

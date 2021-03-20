@@ -167,30 +167,30 @@ province;red;green;blue;x;x
 166;207;198;97;Lazpa;x
 167;219;166;148;Kyzikos;x
 168;216;134;106;Aisepos;x
-169;224;62;66;Apaliassos;x
-170;101;167;125;Seha;x
-171;187;216;100;Mysia;x
+169;224;62;66;Masa;x
+170;101;167;125;Karkisa;x
+171;187;216;100;Seha;x
 172;75;114;50;Lurnessos;x
 173;200;91;52;Phokaia;x
-174;111;171;74;Ijalanda;x
-175;255;183;159;Assuwa;x
-176;197;175;26;Arawana;x
-177;168;206;39;Sunnada;x
-178;123;112;37;Hulana;x
-179;139;216;44;Karkisa;x
-180;100;151;12;Masa;x
-181;214;225;113;Partahuina;x
-182;204;187;0;Salawassa;x
-183;117;147;32;Kelenai;x
-184;68;158;27;Lukka;x
-185;236;208;41;Pisidia;x
-186;36;206;69;Arnna;x
-187;100;224;36;Pattara;x
-188;231;180;40;Kibyra;x
-189;195;240;66;Parha;x
+174;111;171;74;Karkisian Highlands;x
+175;51;151;51;Walma_2;x
+176;197;175;26;Hulana Highlands;x
+177;168;206;39;Lalanda;x
+178;74;132;74;Mira;x
+179;78;174;39;Kuwaliya;x
+180;123;112;37;Ankala;x
+181;139;216;44;Ascania;x
+182;100;151;12;Kamalla;x
+183;214;225;113;Partahuina;x
+184;153;134;27;Lukkan Highlands;x
+185;236;208;41;Kuwalapassa;x
+186;36;206;69;Awarna;x
+187;100;224;36;Zumarri;x
+188;231;180;40;Wiyanawanda;x
+189;195;240;66;Attarima;x
 190;216;151;77;Sfard;x
-191;216;183;77;Szapparanda;x
-192;128;217;70;Puranda;x
+191;216;183;77;Assaratta;x
+192;128;217;70;Wallarimma;x
 193;183;238;121;Apasa;x
 194;139;229;43;Erythrai;x
 195;35;203;124;Milawata;x
@@ -198,7 +198,7 @@ province;red;green;blue;x;x
 197;140;211;99;Alos Karnos;x
 198;206;139;30;Karia;x
 199;117;215;13;Khbide;x
-200;215;205;52;Knidos;x
+200;215;205;52;Utima;x
 201;142;74;51;Dardania;x
 202;135;39;99;Syme;x
 203;244;243;255;Urqananu Sea;x

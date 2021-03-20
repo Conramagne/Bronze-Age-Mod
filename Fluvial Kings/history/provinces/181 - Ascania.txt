@@ -1,0 +1,15 @@
+# c_ascania
+
+# County Title
+title = c_ascania
+
+# Settlements
+max_settlements = 1
+
+b_ascania = tribal
+
+# Misc
+culture = phrygian
+religion = doumos
+
+#History

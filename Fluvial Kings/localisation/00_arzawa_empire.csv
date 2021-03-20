@@ -20,10 +20,10 @@ d_wilusa;Wilusa;;;;;;;;;;;;;x
 d_wilusa_adj;Wilusan;;;;;;;;;;;;;x
 d_lazpa;Lazpa;;;;;;;;;;;;;x
 d_lazpa_adj;Lazpan;;;;;;;;;;;;;x
-d_kyzikos;Kyzikos;;;;;;;;;;;;;x
-d_kyzikos_adj;Kyzikosi;;;;;;;;;;;;;x
-d_mysia;Mysia;;;;;;;;;;;;;x
-d_mysia_adj;Mysian;;;;;;;;;;;;;x
+d_kamalla;Kamalla;;;;;;;;;;;;;x
+d_kamalla_adj;Kamallan;;;;;;;;;;;;;x
+d_seha;Seha;;;;;;;;;;;;;x
+d_seha_adj;Sehani;;;;;;;;;;;;;x
 d_arzawa;Arzawa;;;;;;;;;;;;;x
 d_arzawa_adj;Arzawan;;;;;;;;;;;;;x
 d_masa;Masa;;;;;;;;;;;;;x
@@ -38,6 +38,10 @@ d_apasa;Apasa;;;;;;;;;;;;;x
 d_apasa_adj;Apasani;;;;;;;;;;;;;x
 d_karkiya;Karkiya;;;;;;;;;;;;;x
 d_karkiya_adj;Karkiyan;;;;;;;;;;;;;x
+d_mira;Mira;;;;;;;;;;;;;x
+d_mira_adj;Miran;;;;;;;;;;;;;x
+d_hapalla;Hapalla;;;;;;;;;;;;;x
+d_hapalla_adj;Hapallan;;;;;;;;;;;;;x
 
 ###########Counties Titles###########
 
@@ -123,6 +127,36 @@ c_khbide;Khbide;;;;;;;;;;;;;x
 c_khbide_adj;Khbidean;;;;;;;;;;;;;x
 c_knidos;Knidos;;;;;;;;;;;;;x
 c_knidos_adj;Knidosani;;;;;;;;;;;;;x
+c_lalanda;Lalanda;;;;;;;;;;;;;x
+c_lalanda_adj;Lalandan;;;;;;;;;;;;;x
+c_ankala;Ankala;;;;;;;;;;;;;x
+c_ankala;Ankalan;;;;;;;;;;;;;x
+c_ascania;Ascania;;;;;;;;;;;;;x
+c_ascania_adj;Ascanian;;;;;;;;;;;;;x
+c_kamalla;Kamalla;;;;;;;;;;;;;x
+c_kamalla_adj;Kamallan;;;;;;;;;;;;;x
+c_kuwalapassa;Kuwalapassa;;;;;;;;;;;;;x
+c_kuwalapassa_adj;Kuwalapassa;;;;;;;;;;;;;x
+c_awarna;Awarna;;;;;;;;;;;;;x
+c_awarna_adj;Awarna;;;;;;;;;;;;;x
+c_zumarri;Zumarri;;;;;;;;;;;;;x
+c_zumarri_adj;Zumarrian;;;;;;;;;;;;;x
+c_wiyanawana;Wiyanawana;;;;;;;;;;;;;x
+c_wiyanawana_adj;Wiyanawanan;;;;;;;;;;;;;x
+c_attarima;Attarima;;;;;;;;;;;;;x
+c_attarima_adj;Attariman;;;;;;;;;;;;;x
+c_assaratta;Assaratta;;;;;;;;;;;;;x
+c_assaratta_adj;Assarattan;;;;;;;;;;;;;x
+c_wallarimma;Wallarimma;;;;;;;;;;;;;x
+c_wallarimma_adj;Wallarimman;;;;;;;;;;;;;x
+c_utima;Utima;;;;;;;;;;;;;x
+c_utima_adj;Utiman;;;;;;;;;;;;;x
+c_walma;Walma;;;;;;;;;;;;;x
+c_walma_adj;Walman;;;;;;;;;;;;;x
+c_mira;Mira;;;;;;;;;;;;;x
+c_mira_adj;Miran;;;;;;;;;;;;;x
+c_kuwaliya;Kuwaliya;;;;;;;;;;;;;x
+c_kuwaliya_adj;Kuwaliyan;;;;;;;;;;;;;x
 
 ###########Wilusan Baronies###########
 

@@ -1,0 +1,16 @@
+# c_karkisa
+
+# County Title
+title = c_karkisa
+
+# Settlements
+max_settlements = 2
+
+b_karkisa = tribal
+#b_pericharaxis = city
+
+# Misc
+culture = mysian
+religion = haianiluwi
+
+#History

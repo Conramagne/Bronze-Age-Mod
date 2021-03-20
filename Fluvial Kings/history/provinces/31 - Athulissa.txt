@@ -9,7 +9,7 @@ max_settlements = 4
 b_athulissa = tribal
 #b_tuhupurpuna = city
 #b_sappiduwa = temple
-#b_tapapanuwa = castle
+#b_athulissa_2 = castle
 
 # Misc
 culture = eneti

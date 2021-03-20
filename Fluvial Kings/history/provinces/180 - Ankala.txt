@@ -1,0 +1,16 @@
+# c_ankala
+
+# County Title
+title = c_ankala
+
+# Settlements
+max_settlements = 2
+
+b_ankala_2 = tribal
+#b_kursamassa = city
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History
