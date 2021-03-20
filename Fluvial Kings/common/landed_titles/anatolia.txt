@@ -36,9 +36,11 @@ e_hittite_empire = {
 				
 				b_hattusa = {}
 				b_tahurpa = {}
+				b_suppiluliya = {}
 				b_tawiniya = {}
 				b_hiyasna = {}
-				b_matila = {}
+				b_kammama = {}
+				b_matilla = {}
 			}
 			c_taskuriya = {
 				color={ 204 57 57 }
@@ -202,7 +204,7 @@ e_hittite_empire = {
 				color={ 135 64 47 }
 				color2={ 255 255 255 }
 				
-				b_zalpa = {
+				b_zalpuwa = {
 					achaean = "Saramene"
 					dorian = "Saramene"
 					aeolian = "Saramene"

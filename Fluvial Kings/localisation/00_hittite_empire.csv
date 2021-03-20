@@ -210,8 +210,10 @@ b_tawiniya;Tawiniya;;;;;;;;;;;;;x
 b_tawiniya_adj;Tawiniyu;;;;;;;;;;;;;x
 b_hiyasna;Hiyasna;;;;;;;;;;;;;x
 b_hiyasna_adj;Hiyasni;;;;;;;;;;;;;x
-b_matila;Matila;;;;;;;;;;;;;x
-b_matila_adj;Matili;;;;;;;;;;;;;x
+b_matilla;Matilla;Matilla;Matilla;;Matilla;;;;;;;;;x
+b_matilla_adj;Matili;;Matili;;;;;;;;;;;x
+b_kammama;Kammama;Kammama;Kammama;;Kammama;;;;;;;;;x
+b_kammama_adj;Kammaman;;kammamer;;;;;;;;;;;x
 b_taskuriya;Taskuriya;;;;;;;;;;;;;x
 b_taskuriya_adj;Taskuri;;;;;;;;;;;;;x
 b_salma;Salma;;;;;;;;;;;;;x
