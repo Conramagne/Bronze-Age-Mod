@@ -1,0 +1,4 @@
+2527.1.1 = {
+	liege = d_kassiya
+	holder = 2003007
+}

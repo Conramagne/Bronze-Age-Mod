@@ -1,0 +1,15 @@
+# c_arawana
+
+# County Title
+title = c_arawana
+
+# Settlements
+max_settlements = 1
+
+b_arawana = tribal
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

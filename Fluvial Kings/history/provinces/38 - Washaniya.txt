@@ -1,0 +1,16 @@
+# c_washaniya
+
+# County Title
+title = c_washaniya
+
+# Settlements
+max_settlements = 2
+
+b_washaniya = castle
+b_salampa = city
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

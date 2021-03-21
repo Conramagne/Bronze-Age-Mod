@@ -1,0 +1,20 @@
+# c_tuhuppiya
+
+# County Title
+title = c_tuhuppiya
+
+# Settlements
+max_settlements = 5
+
+b_taskuriya = castle
+b_tuhuppiya = city
+b_zithara = temple
+b_salma = castle
+b_wahsusana = city
+#b_malitta = temple
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

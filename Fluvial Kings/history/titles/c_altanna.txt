@@ -1,4 +1,86 @@
-2527.1.1 = {
-	liege = d_kassiya
-	holder = 2003007
+2051.1.1={
+	holder=2000025 # Pu-Šarruma I
+	law = succ_adult_familial_elective
+	liege = d_hatti
+}
+2071.1.1={
+	holder=2000024 # Papahdilmah I
+}
+2081.1.1={
+	holder=2000023 # Labarna I
+}
+2111.1.1={
+	holder=2000022 # Hattušili I
+}
+2141.1.1={
+	holder=2000021 # Muršili I
+}
+2171.1.1={
+	holder=2000020 # Hantili I
+}
+2201.1.1={
+	holder=2000019 # Zidanta I
+}
+2211.1.1={
+	holder=2000018 # Ammuna I
+}
+2231.1.1={
+	holder=2000017 # Huzziya I
+}
+2236.1.1={
+	holder=2000016 # Telipinu I
+}
+2261.1.1={
+	holder=2000015 # Alluwamna I
+}
+2271.1.1={
+	holder=2000014 # Hantili II
+}
+2281.1.1={
+	holder=2000013 # Tahurwaili I
+}
+2286.1.1={
+	holder=2000012 # Zidanta II
+}
+2321.1.1={
+	holder=2000011 # Huzziya II
+}
+2340.1.1={
+	holder=2000010 # Muwatalli I
+}
+2341.1.1={
+	holder=2000009 # Tudhaliya II
+}
+2361.1.1={
+	holder=2000008 # Arnuwanda I
+}
+2376.1.1={
+	holder=2000007 # Tudhaliya III
+}
+2381.1.1={
+	holder=0
+}
+2417.1.1={
+	holder=2000006 # Šuppiluliuma I 
+}
+2441.1.1={
+	holder=2000005 # Arnuwanda II
+}
+2444.1.1={
+	holder=2000004 # Muršili II
+}
+2468.1.1={
+	holder=2000003 # Muwattalli II
+}
+2490.1.1={
+	holder=2000002 # Muršili III
+}
+2497.1.1={
+	holder=2000001 # Hattušili III
+}
+2512.1.1={
+	holder=0
+}
+2523.1.1={
+	holder=2000000 # Tudhaliya IV
 }
