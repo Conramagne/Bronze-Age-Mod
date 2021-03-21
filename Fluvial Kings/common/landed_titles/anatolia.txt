@@ -575,7 +575,6 @@ e_hittite_empire = {
 				color2={ 255 255 255 }
 				
 				b_ullamma = {}
-				b_kussara = {}
 				b_ninassa = {}
 			}
 			c_suwatara = {
@@ -650,7 +649,6 @@ e_hittite_empire = {
 				
 				b_samura = {}
 				b_kumaha = {}
-				b_nesa = {}
 			}
 			c_paduwanda = {
 				color={ 255 74 25 }

@@ -1,8 +1,5 @@
-# e_hittite_empire
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+2527.1.1={
+	holder = 2003006
+	liege = d_sarazzi_udne
 }
-800.1.1={
-	liege=k_pala
-}
+
