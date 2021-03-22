@@ -1,0 +1,15 @@
+# c_kenatha
+
+# County Title
+title = c_kenatha
+
+# Settlements
+max_settlements = 1
+
+b_kenatha = castle
+
+# Misc
+culture = aramean
+religion = berith
+
+#History

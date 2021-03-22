@@ -1,0 +1,17 @@
+# c_ramoth
+
+# County Title
+title = c_ramoth
+
+# Settlements
+max_settlements = 3
+
+b_ramoth = castle
+b_gilead = city
+#b_edrei = temple
+
+# Misc
+culture = israelite
+religion = berith
+
+#History

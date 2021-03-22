@@ -1,0 +1,17 @@
+# c_siqlag
+
+# County Title
+title = c_siqlag
+
+# Settlements
+max_settlements = 3
+
+b_siqlag = castle
+b_gerar = city
+#b_saruhen = temple
+
+# Misc
+culture = canaanite
+religion = berith
+
+#History

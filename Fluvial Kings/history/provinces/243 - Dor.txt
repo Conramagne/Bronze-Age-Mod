@@ -1,0 +1,18 @@
+# c_dor
+
+# County Title
+title = c_dor
+
+# Settlements
+max_settlements = 4
+
+b_dor = castle
+b_megiddo = city
+b_gath_carmel = temple
+#b_yoqneam = castle
+
+# Misc
+culture = canaanite
+religion = berith
+
+#History

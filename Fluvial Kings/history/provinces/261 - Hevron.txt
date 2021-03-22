@@ -1,0 +1,19 @@
+# c_hevron
+
+# County Title
+title = c_hevron
+
+# Settlements
+max_settlements = 5
+
+b_hevron = castle
+b_beyt_sur = city
+b_eyn_gedi = temple
+#b_zip = castle
+#b_maon = city
+
+# Misc
+culture = israelite
+religion = berith
+
+#History

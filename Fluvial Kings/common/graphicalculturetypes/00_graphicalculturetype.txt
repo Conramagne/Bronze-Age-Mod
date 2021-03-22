@@ -28,6 +28,9 @@ luwiangfx = {
 thraciangfx = {
 	skin_tone = 0
 }
+westsemiticgfx = {
+	skin_tone = 2
+}
 
 # Western
 

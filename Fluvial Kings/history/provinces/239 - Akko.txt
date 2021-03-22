@@ -1,0 +1,18 @@
+# c_akko
+
+# County Title
+title = c_akko
+
+# Settlements
+max_settlements = 4
+
+b_akko = castle
+b_akzib = city
+b_beyt_anat = temple
+#b_kabul = castle
+
+# Misc
+culture = phoenician
+religion = berith
+
+#History

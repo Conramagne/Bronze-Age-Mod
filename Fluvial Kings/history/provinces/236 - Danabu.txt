@@ -6,10 +6,10 @@ title = c_danabu
 # Settlements
 max_settlements = 1
 
-b_placeholder_4 = castle
+b_danabu = castle
 
 # Misc
-culture = hittite
+culture = aramean
 religion = berith
 
 #History

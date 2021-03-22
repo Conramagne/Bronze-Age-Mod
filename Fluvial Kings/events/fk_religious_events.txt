@@ -196,7 +196,7 @@ character_event = {
 
 #Choosing Devotion Foreign Faith
 character_event = {
-	id = fkrel.101
+	id = fkrel.102
 	is_triggered_only = yes
 	desc = EVTDESCFKREL101
 	picture = GFX_evt_visit_the_temple_pantheon

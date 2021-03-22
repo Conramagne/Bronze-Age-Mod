@@ -1,0 +1,18 @@
+# c_ashdod
+
+# County Title
+title = c_ashdod
+
+# Settlements
+max_settlements = 4
+
+b_ashdod = castle
+b_eqron = city
+b_yahbneel = temple
+#b_baalat = castle
+
+# Misc
+culture = canaanite
+religion = berith
+
+#History

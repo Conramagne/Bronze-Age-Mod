@@ -4,12 +4,15 @@
 title = c_beru
 
 # Settlements
-max_settlements = 1
+max_settlements = 4
 
-b_placeholder = castle
+b_beru = castle
+b_samsimuruna = city
+#b_hildua = temple
+#b_harisu = castle
 
 # Misc
-culture = hittite
+culture = phoenician
 religion = berith
 
 #History

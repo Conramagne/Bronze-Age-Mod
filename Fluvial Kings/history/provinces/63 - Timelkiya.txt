@@ -6,7 +6,7 @@ title = c_timelkiya
 # Settlements
 max_settlements = 1
 
-b_timekilya = castle
+b_timelkiya = castle
 
 # Misc
 culture = hittite

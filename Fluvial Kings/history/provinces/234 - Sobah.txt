@@ -4,12 +4,13 @@
 title = c_sobah
 
 # Settlements
-max_settlements = 1
+max_settlements = 2
 
-b_placeholder_2 = castle
+b_sobah = castle
+b_hizzayon = city
 
 # Misc
-culture = hittite
+culture = aramean
 religion = berith
 
 #History

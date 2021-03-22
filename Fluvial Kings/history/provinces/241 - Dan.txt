@@ -1,0 +1,17 @@
+# c_dan
+
+# County Title
+title = c_dan
+
+# Settlements
+max_settlements = 3
+
+b_dan = castle
+b_iyyon = city
+#b_qedes = temple
+
+# Misc
+culture = israelite
+religion = berith
+
+#History

@@ -1,0 +1,17 @@
+# c_gath
+
+# County Title
+title = c_gath
+
+# Settlements
+max_settlements = 3
+
+b_gath = castle
+b_beth_semes = city
+#b_azeqah = temple
+
+# Misc
+culture = canaanite
+religion = berith
+
+#History

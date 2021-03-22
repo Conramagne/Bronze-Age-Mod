@@ -1,0 +1,18 @@
+# c_gilgal
+
+# County Title
+title = c_gilgal
+
+# Settlements
+max_settlements = 4
+
+b_gilgal = castle
+b_adam = city
+#b_abel_meholah = temple
+#b_saretan = castle
+
+# Misc
+culture = israelite
+religion = berith
+
+#History

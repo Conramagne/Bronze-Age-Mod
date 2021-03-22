@@ -1,0 +1,17 @@
+# c_yisrael
+
+# County Title
+title = c_yisrael
+
+# Settlements
+max_settlements = 3
+
+b_yisrael = castle
+b_jafia = city
+#b_sunem = temple
+
+# Misc
+culture = israelite
+religion = berith
+
+#History

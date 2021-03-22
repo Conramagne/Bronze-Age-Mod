@@ -6,7 +6,7 @@ title = c_khaironeia
 # Settlements
 max_settlements = 3
 
-b_chaeronea = castle
+b_khaironeia = castle
 b_thisbe = temple
 b_onchestus = city
 

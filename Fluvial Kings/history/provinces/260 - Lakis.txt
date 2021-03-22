@@ -1,0 +1,18 @@
+# c_lakis
+
+# County Title
+title = c_lakis
+
+# Settlements
+max_settlements = 4
+
+b_lakis = castle
+b_maresah = city
+b_adullam = temple
+#b_moreset_gat = castle
+
+# Misc
+culture = israelite
+religion = berith
+
+#History

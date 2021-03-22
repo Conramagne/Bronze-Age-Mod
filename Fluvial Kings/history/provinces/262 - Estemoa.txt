@@ -1,0 +1,18 @@
+# c_estemoa
+
+# County Title
+title = c_estemoa
+
+# Settlements
+max_settlements = 4
+
+b_estemoa = castle
+b_debir = city
+b_arad = temple
+#b_yattir = castle
+
+# Misc
+culture = israelite
+religion = berith
+
+#History

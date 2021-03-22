@@ -1,0 +1,16 @@
+# c_jazer
+
+# County Title
+title = c_jazer
+
+# Settlements
+max_settlements = 2
+
+b_jazer = castle
+#b_yogbehah = city
+
+# Misc
+culture = israelite
+religion = berith
+
+#History

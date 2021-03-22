@@ -1,0 +1,129 @@
+roe = {
+	graphical_cultures = { easterngfx }
+	
+	amorite = {
+		graphical_cultures = { westsemiticgfx }
+
+		color = { 0.7 0.3 0.2 }
+		
+		male_names = {
+			Adam
+		}
+		
+		female_names = {
+			Eve
+		}
+		
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+	aramean = {
+		graphical_cultures = { westsemiticgfx }
+
+		color = { 0.1 0.3 0.3 }
+		
+		male_names = {
+			Adam
+		}
+		
+		female_names = {
+			Eve
+		}
+		
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+	israelite = {
+		graphical_cultures = { westsemiticgfx }
+
+		color = { 0.3 0.7 0.8 }
+		
+		male_names = {
+			Adam
+		}
+		
+		female_names = {
+			Eve
+		}
+		
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+	canaanite = {
+		graphical_cultures = { westsemiticgfx }
+
+		color = { 0.9 0.7 0.2 }
+		
+		male_names = {
+			Adam
+		}
+		
+		female_names = {
+			Eve
+		}
+		
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+	phoenician = {
+		graphical_cultures = { westsemiticgfx }
+
+		color = { 0.6 0.3 0.7 }
+		
+		male_names = {
+			Adam
+		}
+		
+		female_names = {
+			Eve
+		}
+		
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+}

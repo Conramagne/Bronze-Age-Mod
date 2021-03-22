@@ -7,7 +7,7 @@ title = c_zumarri
 max_settlements = 3
 
 b_zumarri = tribal
-b_hinduwa = city
+b_hinduwa = tribal
 #b_suruda = temple
 
 # Misc

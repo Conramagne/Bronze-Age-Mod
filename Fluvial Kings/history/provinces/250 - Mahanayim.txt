@@ -1,0 +1,18 @@
+# c_mahanayim
+
+# County Title
+title = c_mahanayim
+
+# Settlements
+max_settlements = 4
+
+b_mahanayim = castle
+b_beyt_sean = city
+b_zafon = temple
+#b_kamon = castle
+
+# Misc
+culture = israelite
+religion = berith
+
+#History

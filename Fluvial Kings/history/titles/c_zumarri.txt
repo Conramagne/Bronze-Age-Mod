@@ -1,3 +1,8 @@
-800.1.1={
-	liege=k_lukka
+2000.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2527.1.1={
+	holder = 2201100
+	liege=d_lukka
 }

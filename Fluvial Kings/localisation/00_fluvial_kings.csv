@@ -35,6 +35,13 @@ disakenthas;Disakenthas;;;;;;;;;;;;;x
 tyrrhenian;Turrhenós;;;;;;;;;;;;;x
 lemnian;Lemniakós;;;;;;;;;;;;;x
 
+roe;Ro'e;;;;;;;;;;;;;x
+amorite;Amurrum;;;;;;;;;;;;;x
+aramean;Aramaye;;;;;;;;;;;;;x
+canaanite;B'nai Kena'an;;;;;;;;;;;;;x
+israelite;B'nai Yisra'el;;;;;;;;;;;;;x
+phoenician;Ponnim;;;;;;;;;;;;;x
+
 ###########Government and Laws###########
 feudal_government;Local Polity;;;;;;;;;;;;;x
 feudal_government_desc;Local polities are states that have arisen from disunited tribes and confederations or have slipped out of the grasps of larger realms. Often considered nothing more than petty states with squabbling tyrants whose authority barely extends beyond the walls of their citadels, they lack the courtly grandeur and the ability to administer more than their local communities.;;;;;;;;;;;;;x
@@ -105,7 +112,7 @@ ze_administration_laws_3_desc;Palatial societies are based entirely upon the cen
 bnai_avraham;B'nai Avraham;;;;;;;;;;;;;x
 
 berith;B'rith;;;;;;;;;;;;;x
-berith_DESC;“Blessed are you, Adonai Eloheinu, King of the universe.”\n\nIt was in the dust of the heathen streets of Ur that Avraham ben Tera heard the voice of the One God. At His command Avraham braved hardship and war leading his household into Canaan, where he received the instructions for the Covenant. Out of his loins will come a great nation it is said, and now the sons of his grandson Yisrael bin Yitzhak have become an extended family of twelve tribes. Under the leadership of Moshe they defied the Kings of Mizrayim and were instructed by him in the Law. Their priests are usually drawn from the Tribe of Levi, and their duties include ritual animal sacrifice and the smearing of blood in atonement for sins.;;;;;;;;;;;;;x
+berith_DESC;“Blessed are you, Adonai Eloheinu, King of the universe.”\n\nIt was in the dust of the heathen streets of Ur that Avraham ben Tera heard the voice of the One God. At His command Avraham braved hardship and war leading his household into Canaan, where he received the instructions for the Covenant. Out of his loins will come a great nation it is said, and now the sons of his grandson Yisra'el bin Yitzhak have become an extended family of twelve tribes. Under the leadership of Moshe they defied the Kings of Mizrayim and were instructed by him in the Law. Their priests are usually drawn from the Tribe of Levi, and their duties include ritual animal sacrifice and the smearing of blood in atonement for sins.;;;;;;;;;;;;;x
 
 bnai_kenaan;B'nai Kenaan;;;;;;;;;;;;;x
 

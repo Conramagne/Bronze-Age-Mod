@@ -7,9 +7,9 @@ title = c_erythrai
 max_settlements = 4
 
 b_erythrai = tribal
-b_lebedos = temple
-b_teos = city
 b_klazomenai = tribal
+#b_teos = city
+#b_lebedos = temple
 
 # Misc
 culture = luwian

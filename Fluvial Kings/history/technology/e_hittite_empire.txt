@@ -48,6 +48,8 @@ technology = {
 technology = {
 	titles = {
 		d_katerra_udne
+		d_paphos
+		d_salamis_cyp
 		d_samura
 		d_tarhuntassa
 	}
@@ -120,6 +122,7 @@ technology = {
 		d_kalasma
 		d_kastaraya
 		d_kasula
+		d_lazpa
 	}
 
 	2527 = {

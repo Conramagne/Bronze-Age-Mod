@@ -3,143 +3,366 @@ e_canaan = {
 	color2={ 255 255 20 }
 	
 	capital = 233 # c_beru
-	culture = hittite
 	
 	k_put = {
 		color={ 75 9 160 }
 		color2={ 255 255 255 }
 		
 		capital = 233 # c_beru
-		culture = hittite
 		
 		d_beru = {
 			color={ 55 29 150 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 233 province_id = 234 province_id = 235 province_id = 236 province_id = 237 } }
-				}
-			}
 			capital = 233 # c_beru
 			
 			c_beru = { # 233
 				color={ 45 39 145 }
 				color2={ 255 255 255 }
 				
-				b_placeholder = {
+				b_beru = {
+				}
+				b_samsimuruna = {
+				}
+				b_hildua = {
+				}
+				b_harisu = {
 				}
 			}
 			c_danabu = { # 236
 				color={ 88 129 151 }
 				color2={ 255 255 255 }
 				
-				b_placeholder_4 = {
+				b_danabu = {
 				}
 			}
 			c_kumidi = { # 235
 				color={ 54 44 212 }
 				color2={ 255 255 255 }
 				
-				b_placeholder_3 = {
+				b_kumidi = {
 				}
-			}
-			c_laban = { # 237
-				color={ 95 97 151 }
-				color2={ 255 255 255 }
-				
-				b_placeholder_5 = {
+				b_tebah = {
+				}
+				b_sazana = {
 				}
 			}
 			c_sobah = { # 234
 				color={ 62 56 162 }
 				color2={ 255 255 255 }
 				
-				b_placeholder_2 = {
+				b_sobah = {
+				}
+				b_hizzayon = {
 				}
 			}
 		}
-		d_put = {
-			color={ 74 50 129 }
+		d_sidon = {
+			color={ 66 43 106 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 238 province_id = 239 province_id = 240 } }
+			capital = 237 # c_sur
+			
+			c_sur = { # 237
+				color={ 56 53 101 }
+				color2={ 255 255 255 }
+				
+				b_sur = {
+				}
+				b_usu = {
+				}
+				b_qana = {
 				}
 			}
-			capital = 238 # c_sidon
-			
+			c_akko = { # 239
+				color={ 62 56 151 }
+				color2={ 255 255 255 }
+				
+				b_akko = {
+				}
+				b_akzib = {
+				}
+				b_beyt_anat = {
+				}
+				b_kabul = {
+				}
+			}
+			c_dan = { # 241
+				color={ 62 56 201 }
+				color2={ 255 255 255 }
+				
+				b_dan = {
+				}
+				b_iyyon = {
+				}
+				b_qedes = {
+				}
+			}
+			c_rimmon = { # 240
+				color={ 69 31 136 }
+				color2={ 255 255 255 }
+				
+				b_rimmon = {
+				}
+				b_hannaton = {
+				}
+				b_chesulloth = {
+				}
+			}
 			c_sidon = { # 238
 				color={ 64 60 124 }
 				color2={ 255 255 255 }
 				
-				b_placeholder_6 = {
+				b_sidon = {
+				}
+				b_sarepat = {
 				}
 			}
-			c_akka = { # 240
-				color={ 62 56 151 }
+		}
+	}
+	k_ever_hayarden = {
+		color={ 123 33 181 }
+		color2={ 255 255 255 }
+		
+		capital = 250 # c_mahanayim
+		
+		d_gilead = {
+			color={ 103 53 171 }
+			color2={ 255 255 255 }
+			
+			capital = 250 # c_mahanayim
+			
+			c_mahanayim = { # 250
+				color={ 93 63 166 }
 				color2={ 255 255 255 }
 				
-				b_placeholder_8 = {
+				b_mahanayim = {
+				}
+				b_beyt_sean = {
+				}
+				b_zafon = {
+				}
+				b_kamon = {
 				}
 			}
-			c_sur = { # 239
-				color={ 56 53 101 }
+			c_jazer = { # 251
+				color={ 63 61 113 }
 				color2={ 255 255 255 }
 				
-				b_placeholder_7 = {
+				b_jazer = {
+				}
+				b_yogbehah = {
+				}
+			}
+			c_rabbat_ammon = { # 253
+				color={ 52 197 158 }
+				color2={ 255 255 255 }
+				
+				b_rabbat_ammon = {
+				}
+				b_abel_keramim = {
+				}
+			}
+			c_ramoth = { # 252
+				color={ 102 131 166 }
+				color2={ 255 255 255 }
+				
+				b_ramoth = {
+				}
+				b_gilead = {
+				}
+				b_edrei = {
+				}
+			}
+		}
+		d_bashan = {
+			color={ 92 106 187 }
+			color2={ 255 255 255 }
+			
+			capital = 254 # c_geshur
+			
+			c_geshur = { # 254
+				color={ 102 96 192 }
+				color2={ 255 255 255 }
+				
+				b_ashteroth = {
+				}
+				b_qarnayim = {
+				}
+				b_geter = {
+				}
+			}
+			c_kenatha = { # 255
+				color={ 52 151 129 }
+				color2={ 255 255 255 }
+				
+				b_kenatha = {
+				}
+			}
+		}
+		d_moab = {
+			color={ 163 78 101 }
+			color2={ 255 255 255 }
+			
+			capital = 256 # c_ar
+			
+			c_ar = { # 256
+				color={ 153 88 96 }
+				color2={ 255 255 255 }
+				
+				b_ar = {
+				}
+				b_eglat = {
+				}
+				b_balu = {
+				}
+			}
+			c_dibon = { # 257
+				color={ 98 95 142 }
+				color2={ 255 255 255 }
+				
+				b_dibon = {
+				}
+				b_jahaza = {
+				}
+				b_beser = {
+				}
+				b_hesbon = {
+				}
+			}
+			c_qir_hareset = { # 258
+				color={ 172 118 70 }
+				color2={ 255 255 255 }
+				
+				b_qir_hareset = {
+				}
+				b_horonayim = {
+				}
+			}
+			c_yahas = { # 259
+				color={ 81 73 66 }
+				color2={ 255 255 255 }
+				
+				b_yahas = {
+				}
+				b_meypaat = {
+				}
+			}
+		}
+	}
+	k_negev = {
+		color={ 151 15 73 }
+		color2={ 255 255 255 }
+		
+		capital = 271 # c_zoar
+		
+		d_edom = {
+			color={ 131 35 63 }
+			color2={ 255 255 255 }
+			
+			capital = 271 # c_zoar
+			
+			c_zoar = { # 271
+				color={ 121 45 58 }
+				color2={ 255 255 255 }
+				
+				b_zoar = {
+				}
+				b_luhit = {
+				}
+			}
+			c_bosra = { # 274
+				color={ 146 72 85 }
+				color2={ 255 255 255 }
+				
+				b_bosra = {
+				}
+				b_punon = {
+				}
+			}
+			c_ezion_geber = { # 275
+				color={ 221 60 46 }
+				color2={ 255 255 255 }
+				
+				b_ezion_geber = {
+				}
+			}
+			c_kadesh_barnea = { # 272
+				color={ 55 95 220 }
+				color2={ 255 255 255 }
+				
+				b_kadesh_barnea = {
+				}
+			}
+			c_talmar = { # 273
+				color={ 156 106 72 }
+				color2={ 255 255 255 }
+				
+				b_talmar = {
+				}
+				b_zalmona = {
 				}
 			}
 		}
 	}
 	k_plishtim = {
-		color={ 91 180 130 }
+		color={ 94 74 127 }
 		color2={ 255 255 255 }
 		
-		capital = 248 # c_gath
-		culture = hittite
+		capital = 264 # c_ashdod
 		
 		d_gath = {
-			color={ 111 160 140 }
+			color={ 74 94 117 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 248 province_id = 249 province_id = 250 province_id = 251 } }
+			capital = 264 # c_ashdod
+			
+			c_ashdod = { # 264
+				color={ 64 104 112 }
+				color2={ 255 255 255 }
+				
+				b_ashdod = {
+				}
+				b_eqron = {
+				}
+				b_yahbneel = {
+				}
+				b_baalat = {
 				}
 			}
-			capital = 248 # c_gath
-			
-			c_gath = { # 248
+			c_ekron = { # 267
+				color={ 53 61 164 }
+				color2={ 255 255 255 }
+				
+				b_ekron = {
+				}
+				b_timnah = {
+				}
+				b_kepirah = {
+				}
+				b_sorah = {
+				}
+			}
+			c_gath = { # 265
 				color={ 121 150 145 }
 				color2={ 255 255 255 }
 				
 				b_gath = {
 				}
+				b_beth_semes = {
+				}
+				b_azeqah = {
+				}
 			}
-			c_ashdod = { # 249
+			c_gath_rimmon = { # 266
 				color={ 77 83 156 }
 				color2={ 255 255 255 }
 				
-				b_ashdod = {
+				b_gath_rimmon = {
 				}
-			}
-			c_ashkelon = { # 251
-				color={ 64 104 112 }
-				color2={ 255 255 255 }
-				
-				b_ashkelon = {
+				b_jaffa = {
 				}
-			}
-			c_ekron = { # 250
-				color={ 53 61 164 }
-				color2={ 255 255 255 }
-				
-				b_ekron = {
+				b_azuru = {
 				}
 			}
 		}
@@ -147,106 +370,52 @@ e_canaan = {
 			color={ 70 175 149 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 252 province_id = 253 province_id = 254 } }
-				}
-			}
-			capital = 252 # c_gaza
+			capital = 268 # c_asqelon
 			
-			c_gaza = { # 252
+			c_asqelon = { # 268
 				color={ 80 165 154 }
 				color2={ 255 255 255 }
 				
-				b_gaza = {
+				b_asqelon = {
 				}
 			}
-			c_rafiah = { # 254
+			c_azza = { # 270
 				color={ 57 130 188 }
 				color2={ 255 255 255 }
 				
-				b_rafiah = {
+				b_azza = {
+				}
+				b_rapihu = {
+				}
+				b_yurza = {
 				}
 			}
-			c_tsiklag = { # 253
+			c_siqlag = { # 269
 				color={ 72 204 214 }
 				color2={ 255 255 255 }
 				
-				b_tsiklag = {
+				b_siqlag = {
+				}
+				b_gerar = {
+				}
+				b_saruhen = {
 				}
 			}
 		}
 	}
 	k_yisrael = {
-		color={ 122 58 151 }
+		color={ 128 42 187 }
 		color2={ 255 255 255 }
 		
-		capital = 241 # c_carmel
-		culture = hittite
+		capital = 242 # c_yerushalaim
 		
 		d_yisrael = {
-			color={ 102 78 141 }
+			color={ 108 62 177 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 241 province_id = 242 province_id = 243 province_id = 244 province_id = 245 province_id = 246 province_id = 247 province_id = 255 } }
-				}
-			}
-			capital = 241 # c_carmel
+			capital = 242 # c_yerushalaim
 			
-			c_carmel = { # 241
-				color={ 92 88 136 }
-				color2={ 255 255 255 }
-				
-				b_placeholder_9 = {
-				}
-			}
-			c_efraim = { # 244
-				color={ 102 96 193 }
-				color2={ 255 255 255 }
-				
-				b_placeholder_12 = {
-				}
-			}
-			c_galil_elion = { # 246
-				color={ 92 68 140 }
-				color2={ 255 255 255 }
-				
-				b_placeholder_14 = {
-				}
-			}
-			c_galil_tachton = { # 245
-				color={ 93 63 166 }
-				color2={ 255 255 255 }
-				
-				b_placeholder_13 = {
-				}
-			}
-			c_hayarden = { # 255
-				color={ 76 126 130 }
-				color2={ 255 255 255 }
-				
-				b_hayarden = {
-				}
-			}
-			c_shomron = { # 243
-				color={ 143 139 203 }
-				color2={ 255 255 255 }
-				
-				b_placeholder_11 = {
-				}
-			}
-			c_yafo = { # 242
-				color={ 85 124 134 }
-				color2={ 255 255 255 }
-				
-				b_placeholder_10 = {
-				}
-			}
-			c_yerushalaim = { # 247
+			c_yerushalaim = { # 242
 				color={ 98 72 172 }
 				color2={ 255 255 255 }
 				
@@ -257,13 +426,100 @@ e_canaan = {
 				b_nob = {
 					holy_site = berith
 				}
+				b_gibon = {
+				}
+				b_beerot = {
+				}
+				b_geba = {
+				}
+				b_ramah = {
+				}
+			}
+			c_dor = { # 243
+				color={ 92 88 136 }
+				color2={ 255 255 255 }
+				
+				b_dor = {
+				}
+				b_megiddo = {
+				}
+				b_gath_carmel = {
+				}
+				b_yoqneam = {
+				}
+			}
+			c_efraim = { # 246
+				color={ 102 96 193 }
+				color2={ 255 255 255 }
+				
+				b_gezer = {
+				}
+				b_siloh = {
+				}
+				b_beyt_el = {
+				}
+				b_beyt_horon = {
+				}
 				b_ay = {
 				}
-				b_yerushalaim_2 = {
+			}
+			c_gath_padalla = { # 244
+				color={ 85 124 134 }
+				color2={ 255 255 255 }
+				
+				b_gath_padalla = {
 				}
-				b_yerushalaim_3 = {
+				b_sokoh = {
 				}
-				b_yerushalaim_4 = {
+				b_heper = {
+				}
+			}
+			c_gilgal = { # 249
+				color={ 76 126 130 }
+				color2={ 255 255 255 }
+				
+				b_gilgal = {
+				}
+				b_adam = {
+				}
+				b_abel_meholah = {
+				}
+				b_saretan = {
+				}
+			}
+			c_hasor = { # 248
+				color={ 92 68 140 }
+				color2={ 255 255 255 }
+				
+				b_hasor = {
+				}
+				b_kinaret = {
+				}
+				b_cammat = {
+				}
+			}
+			c_shomron = { # 245
+				color={ 143 139 203 }
+				color2={ 255 255 255 }
+				
+				b_shomron = {
+				}
+				b_tirsah = {
+				}
+				b_bezeq = {
+				}
+				b_tebes = {
+				}
+			}
+			c_yisrael = { # 247
+				color={ 80 50 167 }
+				color2={ 255 255 255 }
+				
+				b_yisrael = {
+				}
+				b_jafia = {
+				}
+				b_sunem = {
 				}
 			}
 		}
@@ -271,47 +527,54 @@ e_canaan = {
 			color={ 49 120 150 }
 			color2={ 255 255 255 }
 			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 256 province_id = 257 province_id = 258 province_id = 259 province_id = 260 } }
-				}
-			}
-			capital = 256 # c_hevron
+			capital = 260 # c_lakis
 			
-			c_hevron = { # 256
+			c_lakis = { # 260
 				color={ 39 130 145 }
 				color2={ 255 255 255 }
 				
-				b_hevron = {
+				b_lakis = {
+				}
+				b_maresah = {
+				}
+				b_adullam = {
+				}
+				b_moreset_gat = {
 				}
 			}
-			c_beer_sheva = { # 259
+			c_beer_sheva = { # 263
 				color={ 71 40 168 }
 				color2={ 255 255 255 }
 				
 				b_beer_sheva = {
 				}
 			}
-			c_bet_lehem = { # 257
-				color={ 66 117 148 }
-				color2={ 255 255 255 }
-				
-				b_bet_lehem = {
-				}
-			}
-			c_en_gedi = { # 258
+			c_estemoa = { # 262
 				color={ 38 102 150 }
 				color2={ 255 255 255 }
 				
-				b_en_gedi = {
+				b_estemoa = {
+				}
+				b_debir = {
+				}
+				b_arad = {
+				}
+				b_yattir = {
 				}
 			}
-			c_har_hanegev = { # 260
-				color={ 80 119 168 }
+			c_hevron = { # 261
+				color={ 66 117 148 }
 				color2={ 255 255 255 }
 				
-				b_har_hanegev = {
+				b_hevron = {
+				}
+				b_beyt_sur = {
+				}
+				b_eyn_gedi = {
+				}
+				b_zip = {
+				}
+				b_maon = {
 				}
 			}
 		}

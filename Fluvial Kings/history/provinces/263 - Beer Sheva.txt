@@ -1,0 +1,15 @@
+# c_beer_sheva
+
+# County Title
+title = c_beer_sheva
+
+# Settlements
+max_settlements = 1
+
+b_beer_sheva = castle
+
+# Misc
+culture = israelite
+religion = berith
+
+#History

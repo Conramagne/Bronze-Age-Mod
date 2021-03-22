@@ -7,8 +7,8 @@ title = c_delphi
 max_settlements = 3
 
 b_kyparissos = castle
-b_delphi = city
-#b_alyzia_2 = temple
+b_delphi = temple
+b_kirra = city
 
 # Misc
 culture = achaean

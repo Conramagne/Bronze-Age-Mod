@@ -1,0 +1,16 @@
+# c_rabbat_ammon
+
+# County Title
+title = c_rabbat_ammon
+
+# Settlements
+max_settlements = 2
+
+b_rabbat_ammon = castle
+b_abel_keramim = city
+
+# Misc
+culture = canaanite
+religion = berith
+
+#History

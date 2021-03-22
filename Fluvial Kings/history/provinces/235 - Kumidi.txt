@@ -4,12 +4,14 @@
 title = c_kumidi
 
 # Settlements
-max_settlements = 1
+max_settlements = 3
 
-b_placeholder_3 = castle
+b_kumidi = castle
+b_tebah = city
+#b_sazana = temple
 
 # Misc
-culture = hittite
+culture = aramean
 religion = berith
 
 #History

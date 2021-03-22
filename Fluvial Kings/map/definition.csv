@@ -235,27 +235,42 @@ province;red;green;blue;x;x
 234;62;56;162;Sobah;x
 235;54;44;212;Kumidi;x
 236;88;129;151;Danabu;x
-237;95;97;151;Laban;x
+237;56;53;101;Sur;x
 238;64;60;124;Sidon;x
-239;56;53;101;Sur;x
-240;62;56;151;Akka;x
-241;92;88;136;Carmel;x
-242;85;124;134;Yafo;x
-243;143;139;203;Shomron;x
-244;102;96;193;Efraim;x
-245;93;63;166;Galil Tachton;x
-246;92;68;140;Galil Elion;x
-247;98;72;172;Yerushalaim;x
-248;121;150;145;Gath;x
-249;77;83;156;Ashdod;x
-250;53;61;164;Ekron;x
-251;64;104;112;Ashkelon;x
-252;80;165;154;Gaza;x
-253;72;204;214;Tsiklag;x
-254;57;130;188;Rafiah;x
-255;76;126;130;HaYarden;x
-256;39;130;145;Hevron;x
-257;66;117;148;Bet Lehem;x
-258;38;102;150;En Gedi;x
-259;71;40;168;Beer Sheva;x
-260;80;119;168;Har HaNegev;x
+239;62;56;151;Akko;x
+240;69;31;136;Rimmon;x
+241;62;56;201;Dan;x
+242;98;72;172;Yerushalaim;x
+243;92;88;136;Dor;x
+244;85;124;134;Gath Padalla;x
+245;143;139;203;Shomron;x
+246;102;96;193;Efraim;x
+247;80;50;167;Yisrael;x
+248;92;68;140;Hasor;x
+249;76;126;130;Gilgal;x
+250;93;63;166;Mahanayim;x
+251;63;61;113;Jazer;x
+252;102;131;166;Ramoth;x
+253;52;197;158;Rabbat Ammon;x
+254;102;96;192;Geshur;x
+255;52;151;129;Kenatha;x
+256;153;88;96;Ar;x
+257;98;95;142;Dibon;x
+258;172;118;70;Qir Hareset;x
+259;81;73;66;Yahas;x
+260;39;130;145;Lakis;x
+261;66;117;148;Hevron;x
+262;38;102;150;Estemoa;x
+263;71;40;168;Beer Sheva;x
+264;64;104;112;Ashdod;x
+265;121;150;145;Gath;x
+266;77;83;156;Gath Rimmon;x
+267;53;61;164;Ekron;x
+268;80;165;154;Asqelon;x
+269;72;204;214;Siqlag;x
+270;57;130;188;Azza;x
+271;121;45;58;Zoar;x
+272;55;95;220;Kadesh Barnea;x
+273;156;106;72;Talmar;x
+274;146;72;85;Bosra;x
+275;221;60;46;Ezion Geber;x

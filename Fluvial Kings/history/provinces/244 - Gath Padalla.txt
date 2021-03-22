@@ -1,0 +1,17 @@
+# c_gath_padalla
+
+# County Title
+title = c_gath_padalla
+
+# Settlements
+max_settlements = 3
+
+b_gath_padalla = castle
+b_sokoh = city
+#b_heper = temple
+
+# Misc
+culture = canaanite
+religion = berith
+
+#History

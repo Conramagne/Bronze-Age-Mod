@@ -1,0 +1,17 @@
+# c_sur
+
+# County Title
+title = c_sur
+
+# Settlements
+max_settlements = 3
+
+b_sur = castle
+b_usu = city
+#b_qana = temple
+
+# Misc
+culture = phoenician
+religion = berith
+
+#History

@@ -1,0 +1,18 @@
+# c_shomron
+
+# County Title
+title = c_shomron
+
+# Settlements
+max_settlements = 4
+
+b_shomron = castle
+b_tirsah = city
+b_bezeq = temple
+#b_tebes = castle
+
+# Misc
+culture = israelite
+religion = berith
+
+#History

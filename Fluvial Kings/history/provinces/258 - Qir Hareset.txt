@@ -1,0 +1,16 @@
+# c_qir_hareset
+
+# County Title
+title = c_qir_hareset
+
+# Settlements
+max_settlements = 2
+
+b_qir_hareset = castle
+#b_horonayim = city
+
+# Misc
+culture = canaanite
+religion = berith
+
+#History
