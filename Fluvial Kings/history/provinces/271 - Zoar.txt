@@ -11,6 +11,6 @@ b_zoar = castle
 
 # Misc
 culture = canaanite
-religion = berith
+religion = barqos
 
 #History

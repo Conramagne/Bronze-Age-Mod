@@ -13,6 +13,6 @@ b_gath_carmel = temple
 
 # Misc
 culture = canaanite
-religion = berith
+religion = bene_elihi
 
 #History

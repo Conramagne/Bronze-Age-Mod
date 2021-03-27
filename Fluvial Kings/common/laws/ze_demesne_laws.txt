@@ -947,8 +947,8 @@ laws = {
 		}
 		# demesne_size = -3
 		vassal_limit = -10
-		global_tax_modifier = 1
+		global_tax_modifier = 0.25
 		castle_vassal_tax_modifier = 0.50
-		vassal_opinion = -10
+		vassal_opinion = -25
 	}
 }

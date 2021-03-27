@@ -11,6 +11,6 @@ b_hizzayon = city
 
 # Misc
 culture = aramean
-religion = berith
+religion = bene_elihi
 
 #History

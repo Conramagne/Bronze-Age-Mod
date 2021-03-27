@@ -12,6 +12,6 @@ b_tebah = city
 
 # Misc
 culture = aramean
-religion = berith
+religion = bene_elihi
 
 #History

@@ -11,6 +11,6 @@ b_yahas = castle
 
 # Misc
 culture = canaanite
-religion = berith
+religion = bene_elihi
 
 #History

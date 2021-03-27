@@ -10,6 +10,6 @@ b_kenatha = castle
 
 # Misc
 culture = aramean
-religion = berith
+religion = bene_elihi
 
 #History

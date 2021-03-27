@@ -5,6 +5,13 @@
 	culture = wilusan
 	religion = assussani
 	father = 2200007
+	trait = skilled_tactician
+	trait = brave
+	trait = shrewd
+	trait =  kind
+	trait = just
+	trait = charitable
+	disallow_random_traits = yes
 	2481.1.1 = { birth = yes }
 	2501.1.1 = {
 		add_spouse = 2200001
@@ -17,6 +24,12 @@
 	culture = wilusan
 	religion = assussani
 	female = yes
+	trait = martial_cleric
+	trait = kind
+	trait = fair
+	trait = chaste
+	trait = groomed
+	disallow_random_traits = yes
 	2481.1.1 = { birth = yes }
 	2501.1.1 = {
 		add_spouse = 2200000
@@ -31,6 +44,15 @@
 	religion = assussani
 	father = 2200000
 	mother = 2200001
+	trait = brilliant_strategist
+	trait = brave
+	trait = strong
+	trait = quick
+	trait = duelist
+	trait = zealous
+	trait = patient
+	trait = inspiring_leader
+	disallow_random_traits = yes
 	2501.1.1 = { birth = yes }
 	2522.1.1 = {
 		add_spouse = 2200501
@@ -46,6 +68,15 @@
 	religion = assussani
 	father = 2200000
 	mother = 2200001
+	trait = intricate_webweaver
+	trait = fair
+	trait = shrewd
+	trait = envious
+	trait = groomed
+	trait = lustful
+	trait = light_foot_leader
+	trait = inspiring_leader
+	disallow_random_traits = yes
 	2506.1.1 = { birth = yes }
 	2535.1.1 = { death = yes }
 }
@@ -226,7 +257,13 @@
 	religion = assussani
 	father = 2200000
 	mother = 2200001
+	trait = mastermind_theologian
 	trait = twin
+	trait = genius
+	trait = envious
+	trait = ambitious
+	trait = mystic
+	disallow_random_traits = yes
 	2509.1.1 = { birth = yes }
 	2569.1.1 = { death = yes }
 }
@@ -238,6 +275,13 @@
 	religion = assussani
 	father = 2200000
 	mother = 2200001
+	trait = skilled_tactician
+	trait = strong
+	trait = wroth
+	trait = duelist
+	trait = stubborn
+	trait = aggressive_leader
+	disallow_random_traits = yes
 	2507.1.1 = { birth = yes }
 	2567.1.1 = { death = yes }
 }
@@ -250,6 +294,13 @@
 	female = yes
 	father = 2200000
 	mother = 2200001
+	trait = naive_appeaser
+	trait = fair
+	trait = groomed
+	trait = chaste
+	trait = shy
+	trait = paranoid
+	disallow_random_traits = yes
 	2511.1.1 = { birth = yes }
 	2571.1.1 = { death = yes }
 }
@@ -260,8 +311,25 @@
 	culture = wilusan
 	religion = assussani
 	father = 2200000
+	trait = tough_soldier
+	trait = proud
+	trait = envious
+	trait = hunter
+	disallow_random_traits = yes
 	2502.1.1 = { birth = yes }
 	2562.1.1 = { death = yes }
+}
+
+2200022 = { #Poludoros
+	name = "Poludoros"
+	dynasty = 2200000 #Dardanid
+	culture = wilusan
+	religion = assussani
+	female = yes
+	father = 2200000
+	mother = 2200001
+	2510.1.1 = { birth = yes }
+	2537.1.1 = { death = yes }
 }
 
 #Royal Family of Dardania (2200100-2200199)
@@ -272,6 +340,12 @@
 	religion = assussani
 	father = 2200107
 	mother = 2200008
+	trait = charismatic_negotiator
+	trait = fair
+	trait = zealous
+	trait = shrewd
+	trait = charitable
+	disallow_random_traits = yes
 	2481.1.1 = { birth = yes }
 	2501.1.1 = {
 		add_spouse = 2200103
@@ -298,6 +372,13 @@
 	religion = assussani
 	father = 2200100
 	mother = 1100155
+	trait = skilled_tactician
+	trait = fair
+	trait = brave
+	trait = wroth
+	trait = zealous
+	trait = duelist
+	disallow_random_traits = yes
 	2506.1.1 = { birth = yes }
 	2526.1.1 = {
 		add_spouse = 2200005
@@ -346,6 +427,11 @@
 	culture = wilusan
 	religion = assussani
 	father = 2200105
+	trait = scholarly_theologian
+	trait = cynical
+	trait = paranoid
+	trait = lustful
+	disallow_random_traits = yes
 	2506.1.1 = { birth = yes }
 	2537.1.1 = { death = yes }
 }
@@ -540,6 +626,13 @@
 	religion = haianiluwi
 	father = 1100157
 	mother = 2100305
+	trait = skilled_tactician
+	trait = strong
+	trait = uncouth
+	trait = hunter
+	trait = humble
+	trait = patient
+	disallow_random_traits = yes
 	2501.1.1 = { 
 		birth = yes
 		effect = {
@@ -764,6 +857,12 @@
 	culture = carian
 	religion = haianiluwi
 	father = 2201002
+	trait = tough_soldier
+	trait = greedy
+	trait = wroth
+	trait = uncouth
+	trait = dull
+	disallow_random_traits = yes
 	2500.1.1 = { birth = yes }
 	2560.1.1 = { death = yes }
 }
@@ -822,6 +921,11 @@
 	culture = achaean
 	religion = haianiluwi
 	father = 2201101
+	trait = fortune_builder
+	trait = fair
+	trait = charitable
+	trait = patient
+	disallow_random_traits = yes
 	2500.1.1 = { 
 		birth = yes 
 		effect = {
@@ -862,7 +966,7 @@
 	father = 2201106
 	mother = 2201104
 	disallow_random_traits = yes
-	2470.1.1 = { 
+	2475.1.1 = { 
 		birth = yes 
 		effect = {
 			culture = lycian
@@ -878,13 +982,19 @@
 	religion = haianiluwi
 	father = 1100146
 	mother = 2201102
+	trait = skilled_tactician
+	trait = strong
+	trait = brave
+	trait = ambitious
+	trait = strategist
+	disallow_random_traits = yes
 	2505.1.1 = { 
 		birth = yes 
 		effect = {
 			culture = lycian
 		}
 	}
-	2520.1.1. = {
+	2520.1.1 = {
 		employer = 2201100
 	}
 	2560.1.1 = { death = yes }
@@ -1010,6 +1120,11 @@
 	dynasty = 2200005 #Pandarid
 	culture = wilusan
 	religion = assussani
+	trait = flamboyant_schemer
+	trait = lustful
+	trait = robust
+	trait = deceitful
+	disallow_random_traits = yes
 	2500.1.1 = { birth = yes }
 	2560.1.1 = { death = yes }
 }

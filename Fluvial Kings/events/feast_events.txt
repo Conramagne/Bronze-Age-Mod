@@ -1750,7 +1750,7 @@ character_event = {
 								}
 								any_liege = {
 									war = no
-									NOT = { personality_traits  = 6 }
+									#NOT = { personality_traits = 6 }
 									has_character_flag = host_feast_started
 									has_character_modifier = holding_large_feast
 									NOT = {
@@ -1780,7 +1780,7 @@ character_event = {
 							}
 							any_liege = {
 								war = no
-								NOT = { personality_traits  = 6 }
+								#NOT = { personality_traits = 6 }
 								has_character_flag = host_feast_started
 								has_character_modifier = holding_large_feast
 								NOT = {
@@ -3802,7 +3802,7 @@ character_event = {
 		}
 		any_liege = {
 			war = no
-			NOT = { personality_traits  = 6 }
+			#NOT = { personality_traits = 6 }
 			has_character_flag = host_feast_started
 			has_character_modifier = holding_large_feast
 			NOT = {

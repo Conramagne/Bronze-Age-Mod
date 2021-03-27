@@ -1,0 +1,73 @@
+#IDS from 2300000-2399999
+
+#Israelite Names (2300000-2300999)
+2300000 = {
+	name = "ben R'uvén"
+	culture = "israelite"
+	used_for_random = no
+}
+2300001 = {
+	name = "ben Shim'ón"
+	culture = "israelite"
+	used_for_random = no
+}
+2300002 = {
+	name = "ben Gad"
+	culture = "israelite"
+	used_for_random = no
+}
+2300003 = {
+	name = "ben Y'hudá"
+	culture = "israelite"
+	used_for_random = no
+}
+2300004 = {
+	name = "ben Yisakhár"
+	culture = "israelite"
+	used_for_random = no
+}
+2300005 = {
+	name = "ben Z'vulún"
+	culture = "israelite"
+	used_for_random = no
+}
+2300006 = {
+	name = "ben Menashé"
+	culture = "israelite"
+	used_for_random = no
+}
+2300007 = {
+	name = "ben 'Efráyim"
+	culture = "israelite"
+	used_for_random = no
+}
+2300008 = {
+	name = "ben Binyamin"
+	culture = "israelite"
+	used_for_random = no
+}
+2300009 = {
+	name = "ben Dan"
+	culture = "israelite"
+	used_for_random = no
+}
+2300010 = {
+	name = "ben 'Ashér"
+	culture = "israelite"
+	used_for_random = no
+}
+2300011 = {
+	name = "ben Naftalí"
+	culture = "israelite"
+	used_for_random = no
+}
+2300012 = {
+	name = "ben Leví"
+	culture = "israelite"
+	used_for_random = no
+}
+2300013 = {
+	name = "ben Shém"
+	culture = "israelite"
+	used_for_random = no
+}

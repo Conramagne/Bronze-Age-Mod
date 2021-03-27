@@ -11,6 +11,6 @@ b_punon = city
 
 # Misc
 culture = canaanite
-religion = berith
+religion = barqos
 
 #History

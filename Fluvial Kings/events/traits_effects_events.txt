@@ -1238,7 +1238,7 @@ character_event = {
 	option = {
 		name = EVTOPTB3040
 		trigger = {
-			NOT = {	personality_traits = 5	}
+			# NOT = {	personality_traits = 5	}
 		}
 		add_trait = greedy
 	}
@@ -2160,7 +2160,7 @@ character_event = {
 		trigger = {
 			NOR = {
 				trait = proud
-				personality_traits = 6
+				#personality_traits = 6
 			}
 		}
 		opinion = { who = ROOT modifier = charitable_to_you }
@@ -3321,7 +3321,7 @@ character_event = {
 		if = {
 			limit = { 
 				NOR = {
-					personality_traits = 6
+					#personality_traits = 6
 					trait = proud
 					trait = wroth
 				}
@@ -3348,7 +3348,7 @@ character_event = {
 		if = {
 			limit = { 
 				NOR = {
-					personality_traits = 6
+					#personality_traits = 6
 					trait = deceitful
 					trait = humble
 				}
@@ -3428,7 +3428,7 @@ character_event = {
 		if = {
 			limit = { 
 				NOR = {
-					personality_traits = 6
+					#personality_traits = 6
 					trait = proud
 					trait = wroth
 				}
@@ -3454,7 +3454,7 @@ character_event = {
 		if = {
 			limit = { 
 				NOR = {
-					personality_traits = 6
+					#personality_traits = 6
 					trait = deceitful
 					trait = humble
 				}
@@ -3534,7 +3534,7 @@ character_event = {
 		if = {
 			limit = { 
 				NOR = {
-					personality_traits = 6
+					#personality_traits = 6
 					trait = proud
 					trait = wroth
 				}
@@ -3560,7 +3560,7 @@ character_event = {
 		if = {
 			limit = { 
 				NOR = {
-					personality_traits = 6
+					#personality_traits = 6
 					trait = deceitful
 					trait = humble
 				}
@@ -3639,7 +3639,7 @@ character_event = {
 		}	
 		if = {
 			limit = { 
-				NOT = { personality_traits = 6 } 
+				# NOT = { personality_traits = 6 } 
 				NOT = { trait = proud }
 				NOT = { trait = wroth }
 			}
@@ -3664,7 +3664,7 @@ character_event = {
 		if = {
 			limit = { 
 				NOR = {
-					personality_traits = 6
+					#personality_traits = 6
 					trait = deceitful
 					trait = humble
 				}
@@ -3744,7 +3744,7 @@ character_event = {
 		if = {
 			limit = { 
 				NOR = {
-					personality_traits = 6
+					#personality_traits = 6
 					trait = proud
 					trait = wroth
 				}
@@ -3770,7 +3770,7 @@ character_event = {
 		if = {
 			limit = { 
 				NOR = {
-					personality_traits = 6
+					#personality_traits = 6
 					trait = deceitful
 					trait = humble
 				}
@@ -3878,7 +3878,7 @@ character_event = {
 		if = {
 			limit = { 
 				NOR = {
-					personality_traits = 6
+					#personality_traits = 6
 					trait = proud
 					trait = wroth
 				}
@@ -3898,7 +3898,7 @@ character_event = {
 		if = {
 			limit = { 
 				NOR = {
-					personality_traits = 6
+					#personality_traits = 6
 					trait = deceitful
 					trait = humble
 				}

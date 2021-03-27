@@ -10,6 +10,33 @@ k_yizrael_adj;Yizra'elite;;Yizra'elite;;;;;;;;;;;x
 d_yizrael;Yizra'el;Yizra'el;Yizra'el;;Yizra'el;;;;;;;;;x
 d_yizrael_adj;Yizra'elite;;Yizra'elite;;;;;;;;;;;x
 
+TRIBEOFPREFIX;Tribe of;;;;;;;;;;;;;x
+
+d_reubenite;R'uvén;;;;;;;;;;;;;x
+d_reubenite_adj;HaR'uvén;;;;;;;;;;;;;x
+d_simeonite;Shim'ón;;;;;;;;;;;;;x
+d_simeonite_adj;HaShim'ón;;;;;;;;;;;;;x
+d_gadite;Gad;;;;;;;;;;;;;x
+d_gadite_adj;HaGad;;;;;;;;;;;;;x
+d_judahite;Y'hudá;;;;;;;;;;;;;x
+d_judahite_adj;HaY'hudá;;;;;;;;;;;;;x
+d_issacharite;Yisakhár;;;;;;;;;;;;;x
+d_issacharite_adj;HaYisakhár;;;;;;;;;;;;;x
+d_zebulunite;Z'vulún;;;;;;;;;;;;;x
+d_zebulunite_adj;HaZ'vulún;;;;;;;;;;;;;x
+d_manassehite;Menashé;;;;;;;;;;;;;x
+d_manassehite_adj;HaMenashé;;;;;;;;;;;;;x
+d_ephraimite;Efráyim;;;;;;;;;;;;;x
+d_ephraimite_adj;HaEfráyim;;;;;;;;;;;;;x
+d_benjaminite;Binyamin;;;;;;;;;;;;;x
+d_benjaminite_adj;HaBinyamin;;;;;;;;;;;;;x
+d_danite;Dan;;;;;;;;;;;;;x
+d_danite_adj;HaDam;;;;;;;;;;;;;x
+d_asherite;'Ashér;;;;;;;;;;;;;x
+d_asherite_adj;Ha'Ashér;;;;;;;;;;;;;x
+d_naphtalite;Naftalí;;;;;;;;;;;;;x
+d_naphtalite_adj;HaNaftalí;;;;;;;;;;;;;x
+
 ###########Counties Titles###########
 c_beru;Beru;Beru;Beru;;Beru;;;;;;;;;x
 c_beru_adj;Beruite;;Beruite;;;;;;;;;;;x
@@ -39,33 +66,3 @@ c_yafo;Yafo;Yafo;Yafo;;Yafo;;;;;;;;;x
 c_yafo_adj;Yafian;;yafer;;;;;;;;;;;x
 c_yizrael;Yizrael;Yizrael;Yizrael;;Yizrael;;;;;;;;;x
 c_yizrael_adj;Yizraelite;;Yizraelite;;;;;;;;;;;x
-
-###########Yizra'elite Baronies###########
-b_placeholder;placeholder;placeholder;placeholder;;placeholder;;;;;;;;;x
-b_placeholder_adj;placeholderian;;placeholderer;;;;;;;;;;;x
-b_placeholder_10;placeholder;placeholder;placeholder;;placeholder;;;;;;;;;x
-b_placeholder_10_adj;placeholderian;;placeholderer;;;;;;;;;;;x
-b_placeholder_11;placeholder;placeholder;placeholder;;placeholder;;;;;;;;;x
-b_placeholder_11_adj;placeholderian;;placeholderer;;;;;;;;;;;x
-b_placeholder_12;placeholder;placeholder;placeholder;;placeholder;;;;;;;;;x
-b_placeholder_12_adj;placeholderian;;placeholderer;;;;;;;;;;;x
-b_placeholder_13;placeholder;placeholder;placeholder;;placeholder;;;;;;;;;x
-b_placeholder_13_adj;placeholderian;;placeholderer;;;;;;;;;;;x
-b_placeholder_14;placeholder;placeholder;placeholder;;placeholder;;;;;;;;;x
-b_placeholder_14_adj;placeholderian;;placeholderer;;;;;;;;;;;x
-b_placeholder_2;placeholder;placeholder;placeholder;;placeholder;;;;;;;;;x
-b_placeholder_2_adj;placeholderian;;placeholderer;;;;;;;;;;;x
-b_placeholder_3;placeholder;placeholder;placeholder;;placeholder;;;;;;;;;x
-b_placeholder_3_adj;placeholderian;;placeholderer;;;;;;;;;;;x
-b_placeholder_4;placeholder;placeholder;placeholder;;placeholder;;;;;;;;;x
-b_placeholder_4_adj;placeholderian;;placeholderer;;;;;;;;;;;x
-b_placeholder_5;placeholder;placeholder;placeholder;;placeholder;;;;;;;;;x
-b_placeholder_5_adj;placeholderian;;placeholderer;;;;;;;;;;;x
-b_placeholder_6;placeholder;placeholder;placeholder;;placeholder;;;;;;;;;x
-b_placeholder_6_adj;placeholderian;;placeholderer;;;;;;;;;;;x
-b_placeholder_7;placeholder;placeholder;placeholder;;placeholder;;;;;;;;;x
-b_placeholder_7_adj;placeholderian;;placeholderer;;;;;;;;;;;x
-b_placeholder_8;placeholder;placeholder;placeholder;;placeholder;;;;;;;;;x
-b_placeholder_8_adj;placeholderian;;placeholderer;;;;;;;;;;;x
-b_placeholder_9;placeholder;placeholder;placeholder;;placeholder;;;;;;;;;x
-b_placeholder_9_adj;placeholderian;;placeholderer;;;;;;;;;;;x

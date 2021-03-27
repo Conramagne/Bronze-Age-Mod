@@ -12,6 +12,6 @@ b_hannaton = city
 
 # Misc
 culture = canaanite
-religion = berith
+religion = bene_elihi
 
 #History

@@ -57,13 +57,16 @@ roe = {
 		color = { 0.3 0.7 0.8 }
 		
 		male_names = {
-			Adam
+			 Adar Aharon Ahia Ahiezer Ahihid Ahihud Ahinadav Ahitov Akiva Amiel Amihud Aminadav Amir Amishdai Amitai Ammiel Amnon Amos Aner Ari Asaf Avdon Avia Avidan Avihu Avimelech Avinoam Avishai Avner Avshalom Azan Azriel Barak Baruch Be'eri Be'zelael Bnaya Boaz Buki Calev Carmi Daniel Darel David Ediel Ehud Eilon Einan Eithan Elad Elhanan Elhi Eli Elia Eliadad Eliahu Eliatzfan Eliav Eliel Eliezer Elimelech Elisha Elishema Elitzur Elkana Elnatan Elroei Elyahsiv Elyasaf Eran Evyatar Ezra Gadi Gadiel Gamliel Gavriel Gemalli Gera Gershon Geuel Gideon Gilad Giora Hadar Hagai Hananel Hananyah Haniel Harel Helon Hezi Hilel Hori Idan Ido Ilay Imanuel Imri Itamar Itay Kislon Kmuel Knaz Machi Mahania Matan Meidad Menachem Menashé Michael Mordechai Moshe Moti Nachbi Nachshon Nadav Nahum Naor Natan Ner Neriyah Netanel Nevo Nitai Niv Nun Ochran Oded Ofer Ohad Omer Omri Ophir Ovadyah Pagiel Paltiel Parnach Pdahel Pinhas Plati Puah Raphu Refael Reuel Sa'ar Sethur Shammuah Shaphat Shaul Shdeiur Shiftan Shimshon Shlomi Shlumiel Shmagar Shmayah Shmuel Sodi Susi Tolah Tuvia Tzadok Tzor Tzuar Tzuriel Uri Uriel Vafsi Yagel Yair Yakir Yakob Yanai Yedidyah Yehezkel Yehonatan Yehoshua Yekutiel Yephunneh Yiftah Yigal Yinon Yirmi Yishai Yishaia Yoav Yoel Yogli Yohanan Yona Yoram Yoséf Yotam Yuval Zakkur
 		}
 		
 		female_names = {
-			Eve
+			Achsa Ada Adiel Adva Ahinoam Ahuva Alma Anat Arad Athalia Atrah Avigail Avihail Avishag Avital Aya Azuva Basmath Bat-Sheva Batyah Bilhah Bruriah Carmi Dana Diklah Dina Dvora Efrat Egla Eipha Elisheva Ella Gomer Hadar Hadasa Hagit Hamotal Hana Hava Heftsiba Hela'a Hogla Huldah Leah Lo-Rokhama Ma'acha Mahla Merav Michal Milkah Miryam Naama Naara Neomi Nitzevet Noa Noga Ofra Osnat Pnina Puah Rakhel Rena Renanah Rinah Ritzpa Rivka Ruth Sapir  Sherakh Shifra Shlomit Shoshanah Shulamit Smadar Tafat Tamar Tirzah Tsila Tsofnat Tsvia Yaara Yael Yakirah Yecholia Yedidah Yehoaddan Yehosheva Yerioth Yerusha Yisca Yocheved Zilpah Zipporah Zohar
 		}
 		
+		male_patronym = "ben "
+		female_patronym = "bat "
+		prefix = yes
 		from_dynasty_prefix = "of "
 
 		pat_grf_name_chance = 50
@@ -82,11 +85,11 @@ roe = {
 		color = { 0.9 0.7 0.2 }
 		
 		male_names = {
-			Adam
+			Abdeshmun Abdmelqart Aharon Abinadab Ahinadab Sikarbaal Eshmunamash Adina Shiza Adlai Shafat Eshbaal Saul Adael Eliab Ozem Lamekh Jabal Jubal Tubal-cain Abel Abdosir Abimelcis Acoholim Aderbaal Admago Adonibaal Agbal Anysus Arabo Ashtartyaton Ashzaph Astegal Baalhanno Baalshillek Baalyaton Bodashtart Bodeshmun Bodegal Bodtanit Bomilcar Boudes Bostar Carthalo Eshmunamash Eshmunazar Eshmuncilles Fierelus Fuabal Fuano Germilcar Gisgo Haggith Hamilax Hamilcar Hamicorus Hampsicora Hannibaal Hanno Hasdrubaal Himilco Hiram Jabnit Kandaulo Kanmis Lulis Malcus Mago Maharbaal Mapen Mathos Milcarpilles Merbal Metallo Milcerem Milcpilles Milcyaton Mintho Muttines Philosir Pumayyaton Khillezbaal Sakarbaal Salicar Shafat Shipitbaal Sirom Tendao Tetramnestus Yaroah Yehawwielon Yutpan Zaracas Zinnridis Eri-Aku Abimilkas Abi-Milku Baal-Termeg
 		}
 		
 		female_names = {
-			Eve
+			Adah Avigayil Naamah Adebel Adonisba Agbel Anna Ashtarte Ashtilce Athirah Ayzebel Bomilce Carchedilce Dido Elisha_Elissa Elissa_Elissa Elyssa Gerebel Hamilce Hasubel Jezebel Mahhebel Mardubel Metucosba Mirabel Molchet Nitzevet Similce Sicharba Sophonisba Tanit Tophet Yarebel Yehebel Yzebel
 		}
 		
 		from_dynasty_prefix = "of "

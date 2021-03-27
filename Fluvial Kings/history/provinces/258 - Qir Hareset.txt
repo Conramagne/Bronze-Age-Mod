@@ -11,6 +11,6 @@ b_qir_hareset = castle
 
 # Misc
 culture = canaanite
-religion = berith
+religion = bene_elihi
 
 #History

@@ -293,9 +293,11 @@ WAR_NAME_GREEK_REVOLT;Héllen Revolt of $OTHER_TITLE$;;;;;;;;;;;;;x
 god_zeus_bloodline;Blood of Zeus;;;;;;;;;;;;;x
 god_zeus_bloodline_desc;"...but the son of Kronos, even Zeus that beareth the aegis, hath brought sorrows upon me, in that he casteth me into the midst of fruitless strifes and wranglings.";;;;;;;;;;;;;x
 god_poseidaon_bloodline;Blood of Poseidaon;;;;;;;;;;;;;x
-god_poseidaon_bloodline_desc;"Forthwith then he went down from the rugged mount, striding forth with swift footsteps, and the high mountains trembled beneath the immortal feet of Poseidaon as he went.";;;;;;;;;;;;;x
+god_poseidaon_bloodline_desc;"...striding forth with swift footsteps, and the high mountains trembled beneath the immortal feet of Poseidaon as he went.";;;;;;;;;;;;;x
 god_ares_bloodline;Blood of Ares;;;;;;;;;;;;;x
 god_ares_bloodline_desc;“Ares, Ares, thou bane of mortals, thou blood-stained stormer of walls, wilt thou not now enter into the battle...";;;;;;;;;;;;;x
+heracles_bloodline;Blood of Herakles;;;;;;;;;;;;;x
+heracles_bloodline_desc;"I see the children of Herakles who was erst so great, clad in the vesture of the grave, and his loving wife dragging her babes along at her side...";;;;;;;;;;;;;x
 heroic_bloodline_hellenic;Blood of [This.Founder.GetFirstNameWithNick];;;;;;;;;;;;;x
 heroic_bloodline_hellenic_desc;A hero with the power invested in [This.Founder.GetHerHim] by the gods themselves, their descendants command respect, and their legacy commands adoration.;;;;;;;;;;;;;x
 

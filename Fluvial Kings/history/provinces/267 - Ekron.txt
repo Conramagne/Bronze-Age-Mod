@@ -13,6 +13,6 @@ b_timnah = city
 
 # Misc
 culture = canaanite
-religion = berith
+religion = bene_elihi
 
 #History

@@ -10,6 +10,6 @@ b_asqelon = castle
 
 # Misc
 culture = canaanite
-religion = berith
+religion = bene_elihi
 
 #History

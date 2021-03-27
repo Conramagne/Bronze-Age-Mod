@@ -11,6 +11,6 @@ b_zalmona = city
 
 # Misc
 culture = canaanite
-religion = berith
+religion = barqos
 
 #History

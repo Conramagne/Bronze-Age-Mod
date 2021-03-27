@@ -16,6 +16,6 @@ b_nob = temple
 
 # Misc
 culture = canaanite
-religion = berith
+religion = bene_elihi
 
 #History
