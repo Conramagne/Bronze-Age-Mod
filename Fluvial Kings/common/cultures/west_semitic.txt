@@ -7,11 +7,26 @@ roe = {
 		color = { 0.7 0.3 0.2 }
 		
 		male_names = {
-			Adam
+			Abba-El Abdi-Ashirta Abieshu Adad-Nirari Adam Addu-nirari "Adoni Tzedek"  Akizzi Ammi-ditana Ammisaduqa Ammitakum Amut-pi'el Apil-Sin Ari-Teshub Ashtamar-Adad Asinum Atamrum Aziru
+			Ben-Teshina Bunu-Estar
+			Dvir
+			Hammu-Nabih Hammurabi Haya-Abum Himdiya Hoham
+			Idanda Idrimi Ila-kabkabu Ilim-Ilimma Immeya Irkabtum Ishar-Lim Ishme-Dagan Itur-Addu Išhi-Addu
+			Mut-Ashkur Mutiya Nakkusse
+			Naplimma Niqmepa Niqmi-Epuh
+			Og
+			Piram Pubahla
+			Qarni-Lim
+			Rimush
+			Sabium Samsu-Ditana Samsu-Iluna Sarra-El Shamshi-Adad Shapili Shaushkamuwa Sikhon Simah-Ilane Sin-Muballit Sumu-abum Sumu-Epuh Sumu-la-El Sumu-Yamam Sînadu
+			Till-Abnu Tuppi-Teshub Turum-Natki
+			Yafia Yaggid-Lim Yahdun-Lim Yakun-Asar Yarim-Lim Yasmah-Adad
+			Zimri-Lim Zuzu
+			
 		}
 		
 		female_names = {
-			Eve
+			Eve Sumunna-Abi Gashera Shibtu Tatteya Nakkusse
 		}
 		
 		from_dynasty_prefix = "of "
@@ -57,7 +72,7 @@ roe = {
 		color = { 0.3 0.7 0.8 }
 		
 		male_names = {
-			 Adar Aharon Ahia Ahiezer Ahihid Ahihud Ahinadav Ahitov Akiva Amiel Amihud Aminadav Amir Amishdai Amitai Ammiel Amnon Amos Aner Ari Asaf Avdon Avia Avidan Avihu Avimelech Avinoam Avishai Avner Avshalom Azan Azriel Barak Baruch Be'eri Be'zelael Bnaya Boaz Buki Calev Carmi Daniel Darel David Ediel Ehud Eilon Einan Eithan Elad Elhanan Elhi Eli Elia Eliadad Eliahu Eliatzfan Eliav Eliel Eliezer Elimelech Elisha Elishema Elitzur Elkana Elnatan Elroei Elyahsiv Elyasaf Eran Evyatar Ezra Gadi Gadiel Gamliel Gavriel Gemalli Gera Gershon Geuel Gideon Gilad Giora Hadar Hagai Hananel Hananyah Haniel Harel Helon Hezi Hilel Hori Idan Ido Ilay Imanuel Imri Itamar Itay Kislon Kmuel Knaz Machi Mahania Matan Meidad Menachem Menashé Michael Mordechai Moshe Moti Nachbi Nachshon Nadav Nahum Naor Natan Ner Neriyah Netanel Nevo Nitai Niv Nun Ochran Oded Ofer Ohad Omer Omri Ophir Ovadyah Pagiel Paltiel Parnach Pdahel Pinhas Plati Puah Raphu Refael Reuel Sa'ar Sethur Shammuah Shaphat Shaul Shdeiur Shiftan Shimshon Shlomi Shlumiel Shmagar Shmayah Shmuel Sodi Susi Tolah Tuvia Tzadok Tzor Tzuar Tzuriel Uri Uriel Vafsi Yagel Yair Yakir Yakob Yanai Yedidyah Yehezkel Yehonatan Yehoshua Yekutiel Yephunneh Yiftah Yigal Yinon Yirmi Yishai Yishaia Yoav Yoel Yogli Yohanan Yona Yoram Yoséf Yotam Yuval Zakkur
+			 Adar Aharon Ahia Ahiezer Ahihid Ahihud Ahinadav Ahitov Akiva Amiel Amihud Aminadav Amir Amishdai Amitai Ammiel Amnon Amos Aner Ari Asaf Avdon Avia Avidan Avihu Avimelech Avinoam Avishai Avner Avshalom Azan Azriel Barak Baruch Be'eri Bezalael Bnaya Boaz Buki Calev Carmi Daniel Darel David Ediel Ehud Eilon Einan Eithan Elad Elhanan Elhi Eli Elia Eliadad Eliahu Eliatzfan Eliav Eliel Eliezer Elimelech Elisha Elishema Elitzur Elkana Elnatan Elroei Elyahsiv Elyasaf Eran Evyatar Ezra Gadi Gadiel Gamliel Gavriel Gemalli Gera Gershon Geuel Gideon Gilad Giora Hadar Hagai Hananel Hananyah Haniel Harel Helon Hezi Hilel Hori Idan Ido Ilay Imanuel Imri Itamar Itay Kislon Kmuel Knaz Machi Mahania Matan Meidad Menachem Menashé Michael Mordechai Moshe Moti Nachbi Nachshon Nadav Nahum Naor Natan Ner Neriyah Netanel Nevo Nitai Niv Nun Ochran Oded Ofer Ohad Omer Omri Ophir Ovadyah Pagiel Paltiel Parnach Pdahel Pinhas Plati Puah Raphu Refael Reuel Sa'ar Sethur Shammuah Shaphat Shaul Shdeiur Shiftan Shimshon Shlomi Shlumiel Shmagar Shmayah Shmuel Sodi Susi Tolah Tuvia Tzadok Tzor Tzuar Tzuriel Uri Uriel Vafsi Yagel Yair Yakir Yakob Yanai Yedidyah Yehezkel Yehonatan Yehoshua Yekutiel Yephunneh Yiftah Yigal Yinon Yirmi Yishai Yishaia Yoav Yoel Yogli Yohanan Yona Yoram Yoséf Yotam Yuval Zakkur
 		}
 		
 		female_names = {
