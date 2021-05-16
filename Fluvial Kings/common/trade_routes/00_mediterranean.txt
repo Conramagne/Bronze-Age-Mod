@@ -2,12 +2,12 @@ mediterranean_trade = {
 	wealth = 100			# Total base wealth of silk route
 	trade_post_display_trigger = {
 		OR = {
-			province_id = 68 #Enkomi
-			province_id = 87 #Argos
-			province_id = 97 #Pylos
-			province_id = 99 #Attica
-			province_id = 111 #Knossos
-			province_id = 161 #Troy
+			province_id = 75 #Enkomi
+			province_id = 94 #Argos
+			province_id = 104 #Pylos
+			province_id = 106 #Attica
+			province_id = 118 #Knossos
+			province_id = 168 #Troy
 		}
 	}
 
@@ -23,34 +23,34 @@ mediterranean_trade = {
 	}
 
 	start = {				# Start provinces of trade route
-		87 #Argos
+		94 #Argos
 	}
 
 	path = {	# Argos-Myrtoo Pelagos
-		87 211
+		94 218
 	}
 	path = {	# Myrtoo Pelagos-Pylos
-		211 94 207 206 97
+		218 101 214 213 104
 	}
 	path = {	# Myrtoo Pelagos-Attica
-		211 99
+		218 108
 	}
 	path = {	# Myrtoo Pelagos-Delos
-		211 152 212 149
+		218 159 219 156
 	}
 	path = {	# Delos-Peparethos
-		149 156 214 110
+		156 163 221 117
 	}
 	path = {	# Peparethos-Pieres
-		110 215 138
+		117 222 145
 	}
 	path = {	# Peparethos-Troy
-		110 154 216 153 162 161
+		117 161 223 160 169 168
 	}
 	path = {	# Delos-Knossos
-		149 223 111
+		156 230 118
 	}
 	path = {	# Delos-Enkomi
-		149 150 151 221 160 222 202 157 227 228 68
+		156 157 158 228 167 229 209 164 234 235 75
 	}
 }

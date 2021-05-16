@@ -1,0 +1,17 @@
+# c_tarittara
+
+# County Title
+title = c_tarittara
+
+# Settlements
+max_settlements = 3
+
+b_tarittara = castle
+#b_athulissa = city
+#b_sappiduwa = temple
+
+# Misc
+culture = eneti
+religion = ishalitethai
+
+#History

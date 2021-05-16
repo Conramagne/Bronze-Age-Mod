@@ -1,0 +1,16 @@
+# c_ambara
+
+# County Title
+title = c_ambara
+
+# Settlements
+max_settlements = 2
+
+b_ambara = castle
+#b_arihuwa = city
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

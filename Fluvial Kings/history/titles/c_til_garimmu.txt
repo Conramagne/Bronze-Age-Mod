@@ -1,4 +1,4 @@
-2505.1.1={
-	liege = d_tegarama
-	holder = 2003008
+2527.1.1 = {
+	liege = d_marqasa
+	holder = 2003002
 }

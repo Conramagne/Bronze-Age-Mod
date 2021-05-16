@@ -4,5 +4,5 @@
 }
 2527.1.1={
 	liege = d_manassehite
-	holder = 2303600
+	holder = 2303700
 }

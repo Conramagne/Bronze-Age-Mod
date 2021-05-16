@@ -7,12 +7,12 @@ title = c_hattusa
 max_settlements = 7
 
 b_hattusa = castle
-b_tahurpa = city
-b_suppiluliya = temple
-b_tawiniya = castle
+b_tawa = city
+b_kapitra = temple
+b_suppiluliya = castle
 b_hiyasna = city
-b_kammama = temple
-b_matilla = castle
+b_tawiniya = temple
+b_tahurpa = castle
 
 # Misc
 culture = hittite

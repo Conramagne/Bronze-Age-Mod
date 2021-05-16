@@ -66,6 +66,21 @@ pantheon_court_effect = {
 		}
 		character_event = { id = fkp.3 }
 	}
+	if = {
+		limit = {
+			OR = {
+				canaanite_religion_or_syncretic = yes
+				ili_abinia_or_syncretic = yes
+			}
+		}
+		character_event = { id = fkp.4 }
+	}
+	if = {
+		limit = {
+			edomite_religion_or_syncretic = yes
+		}
+		character_event = { id = fkp.5 }
+	}
 }
 
 conversion_removal_effect = {
@@ -603,6 +618,142 @@ apply_random_boon_effect = {
 			}
 		}
 	}
+
+	if = {
+		limit = {
+			FROM = {
+				trait = el
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = el_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = el_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = el_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				trait = baal_hadad
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = baal_hadad_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = baal_hadad_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = baal_hadad_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				trait = asherah
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = asherah_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = asherah_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = asherah_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				trait = resheph
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = resheph_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = resheph_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = resheph_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				trait = qaws
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = qaws_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = qaws_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = qaws_boon_3
+					years = 5
+				}
+			}
+		}
+	}
 }
 
 apply_random_special_boon_effect_klutotoxos = {
@@ -779,6 +930,36 @@ remove_boon_aphrodite_effect = {
 	remove_character_modifier = aphrodite_boon_1
 	remove_character_modifier = aphrodite_boon_2
 	remove_character_modifier = aphrodite_boon_3
+}
+
+remove_boon_el_effect = {
+	remove_character_modifier = el_boon_1
+	remove_character_modifier = el_boon_2
+	remove_character_modifier = el_boon_3
+}
+
+remove_boon_baal_hadad_effect = {
+	remove_character_modifier = baal_hadad_boon_1
+	remove_character_modifier = baal_hadad_boon_2
+	remove_character_modifier = baal_hadad_boon_3
+}
+
+remove_boon_asherah_effect = {
+	remove_character_modifier = asherah_boon_1
+	remove_character_modifier = asherah_boon_2
+	remove_character_modifier = asherah_boon_3
+}
+
+remove_boon_resheph_effect = {
+	remove_character_modifier = resheph_boon_1
+	remove_character_modifier = resheph_boon_2
+	remove_character_modifier = resheph_boon_3
+}
+
+remove_boon_qaws_effect = {
+	remove_character_modifier = qaws_boon_1
+	remove_character_modifier = qaws_boon_2
+	remove_character_modifier = qaws_boon_3
 }
 
 # apply_random_curse_effect = {
@@ -1246,6 +1427,142 @@ apply_random_curse_effect_FROMFROM = {
 			}
 		}
 	}
+
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = el
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = el_curse_1
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = el_curse_2
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = el_curse_3
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = baal_hadad
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = baal_hadad_curse_1
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = baal_hadad_curse_2
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = baal_hadad_curse_3
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = asherah
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = asherah_curse_1
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = asherah_curse_2
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = asherah_curse_3
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = resheph
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = resheph_curse_1
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = resheph_curse_2
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = resheph_curse_3
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = qaws
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = qaws_curse_1
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = qaws_curse_2
+					duration = -1
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = qaws_curse_3
+					duration = -1
+				}
+			}
+		}
+	}
 }
 
 remove_boon_effect_FROMFROM = {
@@ -1363,6 +1680,47 @@ remove_boon_effect_FROMFROM = {
 		}
 		remove_boon_kubeleya_effect = yes
 	}
+
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = el
+			}
+		}
+		remove_boon_el_effect = yes
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = baal_hadad
+			}
+		}
+		remove_boon_baal_hadad_effect = yes
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = asherah
+			}
+		}
+		remove_boon_asherah_effect = yes
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = resheph
+			}
+		}
+		remove_boon_resheph_effect = yes
+	}
+	if = {
+		limit = {
+			FROMFROM = {
+				trait = qaws
+			}
+		}
+		remove_boon_qaws_effect = yes
+	}
 }
 
 remove_curse_effect = {
@@ -1376,6 +1734,15 @@ remove_curse_effect = {
 	remove_curse_apollon_effect = yes
 	remove_curse_hermes_effect = yes
 	remove_curse_aphrodite_effect = yes
+	remove_curse_sabazios_effect = yes
+	remove_curse_pleistoros_effect = yes
+	remove_curse_derzelas_effect = yes
+	remove_curse_kubeleya_effect = yes
+	remove_curse_el_effect = yes
+	remove_curse_baal_hadad_effect = yes
+	remove_curse_asherah_effect = yes
+	remove_curse_resheph_effect = yes
+	remove_curse_qaws_effect = yes
 }
 
 remove_curse_tarhunna_effect = {
@@ -1460,6 +1827,36 @@ remove_curse_kubeleya_effect = {
 	remove_character_modifier = kubeleya_curse_1
 	remove_character_modifier = kubeleya_curse_2
 	remove_character_modifier = kubeleya_curse_3
+}
+
+remove_curse_el_effect = {
+	remove_character_modifier = el_curse_1
+	remove_character_modifier = el_curse_2
+	remove_character_modifier = el_curse_3
+}
+
+remove_curse_baal_hadad_effect = {
+	remove_character_modifier = baal_hadad_curse_1
+	remove_character_modifier = baal_hadad_curse_2
+	remove_character_modifier = baal_hadad_curse_3
+}
+
+remove_curse_asherah_effect = {
+	remove_character_modifier = asherah_curse_1
+	remove_character_modifier = asherah_curse_2
+	remove_character_modifier = asherah_curse_3
+}
+
+remove_curse_resheph_effect = {
+	remove_character_modifier = resheph_curse_1
+	remove_character_modifier = resheph_curse_2
+	remove_character_modifier = resheph_curse_3
+}
+
+remove_curse_qaws_effect = {
+	remove_character_modifier = qaws_curse_1
+	remove_character_modifier = qaws_curse_2
+	remove_character_modifier = qaws_curse_3
 }
 
 remove_curse_sacrifice_effect = {
@@ -1567,6 +1964,46 @@ remove_curse_sacrifice_effect = {
 		}
 		remove_curse_derzelas_effect = yes
 	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = el
+			}
+		}
+		remove_curse_el_effect = yes
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = baal_hadad
+			}
+		}
+		remove_curse_baal_hadad_effect = yes
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = asherah
+			}
+		}
+		remove_curse_asherah_effect = yes
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = resheph
+			}
+		}
+		remove_curse_resheph_effect = yes
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = qaws
+			}
+		}
+		remove_curse_qaws_effect = yes
+	}
 }
 
 technology_reduction_hittite_effect = {
@@ -1644,6 +2081,437 @@ technology_reduction_hittite_effect = {
 		change_tech = {
 			technology = TECH_LEGALISM
 			value = -3
+		}
+	}
+}
+
+apply_twelve_tribe_trait_effect = {
+	if = {
+		limit = {
+			dynasty = 2300000
+		}
+		add_trait = reubenite
+	}
+	if = {
+		limit = {
+			dynasty = 2300001
+		}
+		add_trait = simeonite
+	}
+	if = {
+		limit = {
+			dynasty = 2300002
+		}
+		add_trait = gadite
+	}
+	if = {
+		limit = {
+			dynasty = 2300003
+		}
+		add_trait = judahite
+	}
+	if = {
+		limit = {
+			dynasty = 2300004
+		}
+		add_trait = issacharite
+	}
+	if = {
+		limit = {
+			dynasty = 2300005
+		}
+		add_trait = zebulunite
+	}
+	if = {
+		limit = {
+			dynasty = 2300006
+		}
+		add_trait = manassehite
+	}
+	if = {
+		limit = {
+			dynasty = 2300007
+		}
+		add_trait = ephraimite
+	}
+	if = {
+		limit = {
+			dynasty = 2300008
+		}
+		add_trait = benjaminite
+	}
+	if = {
+		limit = {
+			dynasty = 2300009
+		}
+		add_trait = danite
+	}
+	if = {
+		limit = {
+			dynasty = 2300010
+		}
+		add_trait = asherite
+	}
+	if = {
+		limit = {
+			dynasty = 2300011
+		}
+		add_trait = naphtalite
+	}
+	if = {
+		limit = {
+			dynasty = 2300012
+		}
+		add_trait = levite
+	}
+	else_if = {
+		limit = {
+			top_liege = {
+				dynasty = 2300000
+			}
+		}
+		add_trait = reubenite
+	}
+	else_if = {
+		limit = {
+			top_liege = {
+				dynasty = 2300001
+			}
+		}
+		add_trait = simeonite
+	}
+	else_if = {
+		limit = {
+			top_liege = {
+				dynasty = 2300002
+			}
+		}
+		add_trait = gadite
+	}
+	else_if = {
+		limit = {
+			top_liege = {
+				dynasty = 2300003
+			}
+		}
+		add_trait = judahite
+	}
+	else_if = {
+		limit = {
+			top_liege = {
+				dynasty = 2300004
+			}
+		}
+		add_trait = issacharite
+	}
+	else_if = {
+		limit = {
+			top_liege = {
+				dynasty = 2300005
+			}
+		}
+		add_trait = zebulunite
+	}
+	else_if = {
+		limit = {
+			top_liege = {
+				dynasty = 2300006
+			}
+		}
+		add_trait = manassehite
+	}
+	else_if = {
+		limit = {
+			top_liege = {
+				dynasty = 2300007
+			}
+		}
+		add_trait = ephraimite
+	}
+	else_if = {
+		limit = {
+			top_liege = {
+				dynasty = 2300008
+			}
+		}
+		add_trait = benjaminite
+	}
+	else_if = {
+		limit = {
+			top_liege = {
+				dynasty = 2300009
+			}
+		}
+		add_trait = danite
+	}
+	else_if = {
+		limit = {
+			top_liege = {
+				dynasty = 2300010
+			}
+		}
+		add_trait = asherite
+	}
+	else_if = {
+		limit = {
+			top_liege = {
+				dynasty = 2300011
+			}
+		}
+		add_trait = naphtalite
+	}
+	else_if = {
+		limit = {
+			top_liege = {
+				dynasty = 2300012
+			}
+		}
+		add_trait = levite
+	}
+	else = {
+		random_list = {
+			8 = {
+				add_trait = reubenite
+			}
+			8 = {
+				add_trait = simeonite
+			}
+			8 = {
+				add_trait = levite
+			}
+			8 = {
+				add_trait = judahite
+			}
+			8 = {
+				add_trait = danite
+			}
+			8 = {
+				add_trait = naphtalite
+			}
+			8 = {
+				add_trait = gadite
+			}
+			8 = {
+				add_trait = asherite
+			}
+			8 = {
+				add_trait = issacharite
+			}
+			8 = {
+				add_trait = zebulunite
+			}
+			8 = {
+				add_trait = manassehite
+			}
+			8 = {
+				add_trait = ephraimite
+			}
+			8 = {
+				add_trait = benjaminite
+			}
+		}
+	}
+}
+
+remove_syncretic_effect = {
+	remove_trait = syncretic_pihassasi
+	remove_trait = syncretic_hellenic
+	remove_trait = syncretic_european_group
+	remove_trait = syncretic_canaanite_religion
+	remove_trait = syncretic_edomite_religion
+	remove_trait = syncretic_berith
+	remove_trait = syncretic_ili_abinia
+}
+
+remove_evil_effect = {
+	random_list = {
+		10 = {
+			trigger = {
+				trait = arbitrary
+			}
+			remove_trait = arbitrary
+		}
+		10 = {
+			trigger = {
+				trait = cruel
+			}
+			remove_trait = cruel
+		}
+		10 = {
+			trigger = {
+				trait = impaler
+			}
+			remove_trait = impaler
+		}
+		
+		10 = {
+			trigger = {
+				trait = deceitful
+			}
+			remove_trait = deceitful
+		}
+		10 = {
+			trigger = {
+				trait = cynical
+			}
+			remove_trait = cynical
+		}
+		10 = {
+			trigger = {
+				trait = hedonist
+			}
+			remove_trait = hedonist
+		}
+		10 = {
+			trigger = {
+				trait = cannibal_trait
+			}
+			remove_trait = cannibal_trait
+		}
+		
+		10 = {
+			trigger = {
+				trait = impaler
+			}
+			remove_trait = impaler
+		}
+		10 = {
+			trigger = {
+				trait = lustful
+			}
+			remove_trait = lustful
+		}
+		10 = {
+			trigger = {
+				trait = gluttonous
+			}
+			remove_trait = gluttonous
+		}
+		10 = {
+			trigger = {
+				trait = greedy
+			}
+			remove_trait = greedy
+		}
+		
+		10 = {
+			trigger = {
+				trait = slothful
+			}
+			remove_trait = slothful
+		}
+		10 = {
+			trigger = {
+				trait = wroth
+			}
+			remove_trait = wroth
+		}
+		10 = {
+			trigger = {
+				trait = envious
+			}
+			remove_trait = envious
+		}
+		10 = {
+			trigger = {
+				trait = proud
+			}
+			remove_trait = proud
+		}
+	}
+}
+
+add_good_effect = {
+	random_list = {
+		10 = {
+			trigger = {
+				NOR = {
+					trait = just
+					trait = arbitrary
+				}
+			}
+			add_trait = just
+		}
+		10 = {
+			trigger = {
+				NOR = {
+					trait = kind
+					trait = cruel
+				}
+			}
+			add_trait = kind
+		}
+		10 = {
+			trigger = {
+				NOR = {
+					trait = charitable
+					trait = greedy
+				}
+			}
+			add_trait = charitable
+		}
+		10 = {
+			trigger = {
+				NOR = {
+					trait = patient
+					trait = wroth
+				}
+			}
+			add_trait = patient
+		}
+		10 = {
+			trigger = {
+				NOR = {
+					trait = honest
+					trait = deceitful
+				}
+			}
+			add_trait = honest
+		}
+		10 = {
+			trigger = {
+				NOR = {
+					trait = content
+					trait = ambitious
+				}
+			}
+			add_trait = content
+		}
+		10 = {
+			trigger = {
+				NOR = {
+					trait = chaste
+					trait = lustful
+				}
+			}
+			add_trait = chaste
+		}
+		10 = {
+			trigger = {
+				NOR = {
+					trait = temperate
+					trait = gluttonous
+				}
+			}
+			add_trait = temperate
+		}
+		10 = {
+			trigger = {
+				NOR = {
+					trait = diligent
+					trait = slothful
+				}
+			}
+			add_trait = diligent
+		}
+		10 = {
+			trigger = {
+				NOR = {
+					trait = humble
+					trait = proud
+				}
+			}
+			add_trait = humble
 		}
 	}
 }
@@ -2035,7 +2903,163 @@ ai_make_sacrifice_to_evaluation_effect = {
 				ai_sacrifice_success_or_fail = yes
 			}
 		}
-
+		
+		25 = { #'El
+			trigger = {
+				OR = {
+					canaanite_religion_or_syncretic = yes 
+					edomite_religion_or_syncretic = yes
+					ili_abinia_or_syncretic = yes
+				}
+				c_1300000 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1300000 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					trait = devotion_baal_hadad
+					trait = devotion_asherah
+					trait = devotion_resheph
+					trait = devotion_qaws
+				}
+			}
+		}
+		25 = { #Ba'al Hadad
+			trigger = {
+				OR = {
+					canaanite_religion_or_syncretic = yes 
+					edomite_religion_or_syncretic = yes
+					ili_abinia_or_syncretic = yes
+				}
+				c_1300001 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1300001 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					trait = devotion_el
+					trait = devotion_asherah
+					trait = devotion_resheph
+					trait = devotion_qaws
+				}
+			}
+			modifier = {
+				factor = 3
+				likes_commerce_god_trigger = yes
+			}
+		}
+		25 = { #Asherah
+			trigger = {
+				OR = {
+					canaanite_religion_or_syncretic = yes 
+					edomite_religion_or_syncretic = yes
+					ili_abinia_or_syncretic = yes
+				}
+				c_1300002 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1300002 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					trait = devotion_el
+					trait = devotion_baal_hadad
+					trait = devotion_resheph
+					trait = devotion_qaws
+				}
+			}
+		}
+		25 = { #Resheph
+			trigger = {
+				OR = {
+					canaanite_religion_or_syncretic = yes 
+					edomite_religion_or_syncretic = yes
+				}
+				c_1300003 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1300003 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					trait = devotion_el
+					trait = devotion_baal_hadad
+					trait = devotion_asherah
+					trait = devotion_qaws
+				}
+			}
+		}
+		50 = { #Qaws
+			trigger = {
+				OR = {
+					edomite_religion_or_syncretic = yes
+				}
+				c_1300004 = {
+					NOR = {
+						received_sacrifice_recently_trigger_ROOT = yes
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1300004 = {
+				save_event_target_as = target_god
+				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					trait = devotion_el
+					trait = devotion_baal_hadad
+					trait = devotion_asherah
+					trait = devotion_resheph
+				}
+			}
+		}
 	}
 }
 
@@ -2568,6 +3592,184 @@ ai_request_boon_evaluation_effect = {
 				trait = devotion_kubeleya
 			}
 		}
+	
+		25 = { #'El
+			trigger = {
+				OR = {
+					canaanite_religion_or_syncretic = yes 
+					edomite_religion_or_syncretic = yes
+					ili_abinia_or_syncretic = yes
+				}
+				c_1300000 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1300000 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1300000 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					trait = devotion_baal_hadad
+					trait = devotion_asherah
+					trait = devotion_resheph
+					trait = qaws 
+				}
+			}
+		}
+		25 = { #Ba'al Hadad
+			trigger = {
+				OR = {
+					canaanite_religion_or_syncretic = yes 
+					edomite_religion_or_syncretic = yes
+					ili_abinia_or_syncretic = yes
+				}
+				c_1300001 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1300001 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1300001 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					trait = devotion_el
+					trait = devotion_asherah
+					trait = devotion_resheph
+					trait = qaws
+				}
+			}
+		}
+		25 = { #Asherah
+			trigger = {
+				OR = {
+					canaanite_religion_or_syncretic = yes 
+					edomite_religion_or_syncretic = yes
+					ili_abinia_or_syncretic = yes
+				}
+				c_1300002 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1300002 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1300002 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					trait = devotion_el
+					trait = devotion_baal_hadad
+					trait = devotion_resheph
+					trait = qaws
+				}
+			}
+		}
+		25 = { #Resheph
+			trigger = {
+				OR = {
+					canaanite_religion_or_syncretic = yes 
+					edomite_religion_or_syncretic = yes
+				}
+				c_1300003 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1300003 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1300003 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					trait = devotion_el
+					trait = devotion_baal_hadad
+					trait = devotion_asherah
+					trait = qaws
+				}
+			}
+		}
+		50 = { #Qaws
+			trigger = {
+				OR = {
+					edomite_religion_or_syncretic = yes
+				}
+				c_1300004 = {
+					NOT = {
+						reverse_has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_cursed_by
+						}
+					}
+				}
+			}
+			c_1300004 = {
+				save_event_target_as = target_god
+				boon_or_no_boon_effect = yes
+			}
+			modifier = {
+				factor = 100
+				c_1300004 = {
+					received_sacrifice_recently_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					trait = devotion_el
+					trait = devotion_baal_hadad
+					trait = devotion_asherah
+					trait = qaws
+				}
+			}
+		}
 	}
 }
 
@@ -2982,6 +4184,142 @@ ai_apply_random_boon_effect = {
 			33 = {
 				add_character_modifier = {
 					modifier = kubeleya_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = el
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = el_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = el_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = el_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = baal_hadad
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = baal_hadad_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = baal_hadad_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = baal_hadad_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = asherah
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = asherah_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = asherah_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = asherah_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = resheph
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = resheph_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = resheph_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = resheph_boon_3
+					years = 5
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			event_target:target_god = {
+				trait = qaws
+			}
+		}
+		random_list = {
+			33 = {
+				add_character_modifier = {
+					modifier = qaws_boon_1
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = qaws_boon_2
+					years = 5
+				}
+			}
+			33 = {
+				add_character_modifier = {
+					modifier = qaws_boon_3
 					years = 5
 				}
 			}

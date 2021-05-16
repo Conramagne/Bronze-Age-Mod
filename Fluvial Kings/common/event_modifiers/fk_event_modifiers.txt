@@ -60,6 +60,10 @@ switched_devotion = {
 	icon = 9
 }
 
+israelite_repented_modifier = {
+	icon = 9
+}
+
 #Boons
 tarhunna_boon_1 = {
 	command_modifier = {
@@ -289,6 +293,75 @@ kubeleya_boon_3 = {
 	icon = 9
 }
 
+el_boon_1 = {
+	same_religion_opinion = 20
+	icon = 10 
+}
+el_boon_2 = {
+	monthly_character_prestige = 3
+	icon = 10 
+}
+el_boon_3 = {
+	command_modifier = {
+		morale_offence = 0.15
+	} 
+	icon = 10 
+}
+
+baal_hadad_boon_1 = {
+	global_tax_modifier = 0.1
+	icon = 131 
+}
+baal_hadad_boon_2 = {
+	command_modifier = {
+		damage = 0.1
+	}
+	icon = 131 
+}
+baal_hadad_boon_3 = {
+	global_revolt_risk = -0.05
+	icon = 131 
+}
+
+asherah_boon_1 = {
+	fertility = 0.1
+	icon = 39 
+}
+asherah_boon_2 = {
+	sex_appeal_opinion = 20
+	icon = 39 
+}
+asherah_boon_3 = {
+	monthly_character_piety = 5
+	icon = 39
+}
+
+resheph_boon_1 = {
+	health = 2
+	icon = 54
+}
+resheph_boon_2 = {
+	global_levy_size = 0.1
+	icon = 54
+}
+resheph_boon_3 = {
+	land_morale = 0.1
+	icon = 54 
+}
+
+qaws_boon_1 = {
+	attrition = -0.1
+	icon = 129
+}
+qaws_boon_2 = {
+	global_movement_speed = 0.2
+	icon = 129
+}
+qaws_boon_3 = {
+	same_religion_opinion = 20
+	icon = 129
+}
+
 #Curses (Add comments on how a sacrifice can rectify this for the description)
 tarhunna_curse_1 = {
 	command_modifier = {
@@ -310,7 +383,7 @@ arinniti_curse_1 = {
 	icon = 134
 }
 arinniti_curse_2 = {
-	health = -1
+	health_penalty = -1
 	icon = 134
 }
 arinniti_curse_3 = {
@@ -400,7 +473,7 @@ apollon_curse_2 = {
 	icon = 134
 }
 apollon_curse_3 = {
-	health = -2
+	health_penalty = -2
 	icon = 134
 }
 
@@ -464,7 +537,7 @@ pleistoros_curse_3 = {
 }
 
 derzelas_curse_1 = {
-	health = -2
+	health_penalty = -2
 	icon = 51
 }
 derzelas_curse_2 = {
@@ -491,6 +564,74 @@ kubeleya_curse_3 = {
 	icon = 27
 }
 
+el_curse_1 = {
+	same_religion_opinion = -20
+	icon = 28 
+}
+el_curse_2 = {
+	monthly_character_prestige = -5
+	icon = 28 
+}
+el_curse_3 = {
+	command_modifier = {
+		morale_offence = -0.15
+	} 
+	icon = 28 
+}
+
+baal_hadad_curse_1 = {
+	global_tax_modifier = -0.1
+	icon = 132 
+}
+baal_hadad_curse_2 = {
+	command_modifier = {
+		damage = -0.1
+	}
+	icon = 132
+}
+baal_hadad_curse_3 = {
+	global_revolt_risk = 0.1
+	icon = 132
+}
+
+asherah_curse_1 = {
+	fertility = -0.1
+	icon = 40 
+}
+asherah_curse_2 = {
+	sex_appeal_opinion = -20
+	icon = 40 
+}
+asherah_curse_3 = {
+	monthly_character_piety = -5
+	icon = 40
+}
+
+resheph_curse_1 = {
+	health_penalty = -3
+	icon = 55
+}
+resheph_curse_2 = {
+	global_levy_size = -0.1
+	icon = 55
+}
+resheph_curse_3 = {
+	land_morale = -0.1
+	icon = 55 
+}
+
+qaws_curse_1 = {
+	attrition = 0.1
+	icon = 130
+}
+qaws_curse_2 = {
+	global_movement_speed = -0.2
+	icon = 130
+}
+qaws_curse_3 = {
+	same_religion_opinion = -20
+	icon = 130
+}
 
 #Palace Bureaucracy
 palace_bureaucracy = {

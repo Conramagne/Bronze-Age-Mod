@@ -1,0 +1,75 @@
+###########Empire Titles###########
+e_canaan;Canaan;Canaan;Canaan;;Canaan;;;;;;;;;x
+e_canaan_adj;Canaanian;;canaaner;;;;;;;;;;;x
+
+###########Kingdom Titles###########
+k_yizrael;Yizra'el;Yizra'el;Yizra'el;;Yizra'el;;;;;;;;;x
+k_yizrael_adj;Yizra'elite;;Yizra'elite;;;;;;;;;;;x
+
+###########Duchy Titles###########
+d_yizrael;Yizra'el;;;;;;;;;;;;;x
+d_yizrael_adj;Yizra'elite;;;;;;;;;;;;;x
+
+KRITOCRACYOFPREFIX;Shofté;;;;;;;;;;;;;x
+
+JUDGE;Shofét;;;;;;;;;;;;;x
+JUDGE_FEMALE;Shofétet;;;;;;;;;;;;;x
+
+k_judge_of_israel;Yizra'el;;;;;;;;;;;;;x
+
+TRIBEOFPREFIX;Tribe of;;;;;;;;;;;;;x
+
+d_reubenite;Reuvén;;;;;;;;;;;;;x
+d_reubenite_adj;HaReuvéni;;;;;;;;;;;;;x
+d_simeonite;Shim'ón;;;;;;;;;;;;;x
+d_simeonite_adj;HaShim'óni;;;;;;;;;;;;;x
+d_gadite;Gad;;;;;;;;;;;;;x
+d_gadite_adj;HaGadi;;;;;;;;;;;;;x
+d_judahite;Yehudá;;;;;;;;;;;;;x
+d_judahite_adj;HaYehudi;;;;;;;;;;;;;x
+d_issacharite;Yisakhár;;;;;;;;;;;;;x
+d_issacharite_adj;HaYisakhári;;;;;;;;;;;;;x
+d_zebulunite;Z'vulún;;;;;;;;;;;;;x
+d_zebulunite_adj;HaZ'vulúni;;;;;;;;;;;;;x
+d_manassehite;Menashé;;;;;;;;;;;;;x
+d_manassehite_adj;HaMenashi;;;;;;;;;;;;;x
+d_ephraimite;Efráyim;;;;;;;;;;;;;x
+d_ephraimite_adj;HaEfráyimi;;;;;;;;;;;;;x
+d_benjaminite;Binyamin;;;;;;;;;;;;;x
+d_benjaminite_adj;HaBinyamini;;;;;;;;;;;;;x
+d_danite;Dan;;;;;;;;;;;;;x
+d_danite_adj;HaDani;;;;;;;;;;;;;x
+d_asherite;'Ashér;;;;;;;;;;;;;x
+d_asherite_adj;Ha'Ashéri;;;;;;;;;;;;;x
+d_naphtalite;Naftalí;;;;;;;;;;;;;x
+d_naphtalite_adj;HaNaftalí;;;;;;;;;;;;;x
+
+###########Counties Titles###########
+c_beru;Beru;Beru;Beru;;Beru;;;;;;;;;x
+c_beru_adj;Beruite;;Beruite;;;;;;;;;;;x
+c_akko;Akko;Akko;Akko;;Akko;;;;;;;;;x
+c_akko_adj;Akkian;;Akkian;;;;;;;;;;;x
+c_carmel;Carmel;Carmel;Carmel;;Carmel;;;;;;;;;x
+c_carmel_adj;Carmelite;;Carmelite;;;;;;;;;;;x
+c_danabu;Danabu;Danabu;Danabu;;Danabu;;;;;;;;;x
+c_danabu_adj;Danabian;;danaber;;;;;;;;;;;x
+c_galil_elion;Galil Elion;Galil Elion;Galil Elion;;Galil Elion;;;;;;;;;x
+c_galil_elion_adj;Galil Elionian;;Galil Elioner;;;;;;;;;;;x
+c_galil_tachton;Galil Tachton;Galil Tachton;Galil Tachton;;Galil Tachton;;;;;;;;;x
+c_galil_tachton_adj;Galil Tachtonian;;Galil Tachtoner;;;;;;;;;;;x
+c_kumidi;Kumidi;Kumidi;Kumidi;;Kumidi;;;;;;;;;x
+c_kumidi_adj;Kumidian;;kumider;;;;;;;;;;;x
+c_laban;Laban;Laban;Laban;;Laban;;;;;;;;;x
+c_laban_adj;Labanite;;labanite;;;;;;;;;;;x
+c_shomron;Shomron;Shomron;Shomron;;Shomron;;;;;;;;;x
+c_shomron_adj;Shomronian;;shomroner;;;;;;;;;;;x
+c_sidon;Sidon;Sidon;Sidon;;Sidon;;;;;;;;;x
+c_sidon_adj;Sidonite;;sidonite;;;;;;;;;;;x
+c_sobah;Sobah;Sobah;Sobah;;Sobah;;;;;;;;;x
+c_sobah_adj;Sobahian;;sobaher;;;;;;;;;;;x
+c_sur;Sur;Sur;Sur;;Sur;;;;;;;;;x
+c_sur_adj;Surian;;surer;;;;;;;;;;;x
+c_yafo;Yafo;Yafo;Yafo;;Yafo;;;;;;;;;x
+c_yafo_adj;Yafian;;yafer;;;;;;;;;;;x
+c_yisrael;Yizrael;Yizrael;Yizrael;;Yizrael;;;;;;;;;x
+c_yisrael_adj;Yizraelite;;Yizraelite;;;;;;;;;;;x

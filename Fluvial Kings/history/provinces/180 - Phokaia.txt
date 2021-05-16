@@ -1,0 +1,17 @@
+# c_phokaia
+
+# County Title
+title = c_phokaia
+
+# Settlements
+max_settlements = 3
+
+b_phokaia = tribal
+# b_kyme = temple
+# b_larissa = city
+
+# Misc
+culture = mysian
+religion = haianiluwi
+
+#History

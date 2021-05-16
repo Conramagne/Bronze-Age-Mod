@@ -1,0 +1,16 @@
+# c_sahiriya
+
+# County Title
+title = c_sahiriya
+
+# Settlements
+max_settlements = 2
+
+b_sahiriya = castle
+b_salatiwara = city
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

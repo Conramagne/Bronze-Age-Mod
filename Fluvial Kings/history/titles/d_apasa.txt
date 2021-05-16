@@ -4,4 +4,8 @@
 }
 2517.1.1={
 	holder = 2201500
+	set_tribute_suzerain = {
+		who = e_hittite_empire
+		type = default
+	}
 }

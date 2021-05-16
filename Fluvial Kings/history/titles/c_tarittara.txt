@@ -1,0 +1,3 @@
+2523.1.1={
+	holder=2000000 # Tudhaliya IV
+}

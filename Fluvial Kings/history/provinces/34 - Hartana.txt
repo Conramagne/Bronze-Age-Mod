@@ -1,0 +1,18 @@
+# c_hartana
+
+# County Title
+title = c_hartana
+
+# Settlements
+max_settlements = 4
+
+b_hartana = castle
+b_wahstansana = city
+b_ziwana = temple
+#b_atarawanna = castle
+
+# Misc
+culture = eneti
+religion = ishalitethai
+
+#History

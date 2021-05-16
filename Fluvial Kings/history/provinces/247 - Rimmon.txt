@@ -1,0 +1,17 @@
+# c_rimmon
+
+# County Title
+title = c_rimmon
+
+# Settlements
+max_settlements = 3
+
+b_rimmon = castle
+b_hannaton = city
+#b_chesulloth = temple
+
+# Misc
+culture = canaanite
+religion = canaanite_religion
+
+#History

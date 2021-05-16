@@ -7,6 +7,7 @@
 	father = 1100152
 	mother = 2100002
 	trait = twin
+	trait = child_of_consort
 	2496.1.1 = { birth = yes }
 	2551.1.1 = { death = yes }
 }
@@ -19,6 +20,7 @@
 	father = 1100152
 	mother = 2100002
 	trait = twin
+	trait = child_of_consort
 	2496.1.1 = { birth = yes }
 	2551.1.1 = { death = yes }
 }
@@ -176,6 +178,7 @@
 	father = 1100145
 	mother = 2100106
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2411.1.1 = { birth = yes }
 	2427.1.1 = {
 		add_spouse = 2100105
@@ -297,9 +300,7 @@
 	culture = achaean
 	religion = pantes_theoi
 	female = yes
-	2471.1.1 = { 
-		birth = yes 
-	}
+	2471.1.1 = { birth = yes }
 	2531.1.1 = { death = yes }
 }
 
@@ -311,6 +312,9 @@
 	father = 2100203
 	disallow_random_traits = yes
 	2471.1.1 = { birth = yes }
+	2491.1.1 = {
+		add_spouse = 2100201
+	}
 	2521.1.1 = { death = yes }
 }
 
@@ -322,6 +326,7 @@
 	father = 1100145
 	mother = 1100081
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2451.1.1 = { birth = yes }
 	2511.1.1 = { death = yes }
 }
@@ -436,9 +441,7 @@
 	religion = pantes_theoi
 	female = yes
 	disallow_random_traits = yes
-	2431.1.1 = { 
-		birth = yes 
-	}
+	2431.1.1 = { birth = yes }
 	2456.1.1 = { death = yes }
 }
 
@@ -450,6 +453,7 @@
 	father = 2100307
 	mother = 2100308
 	disallow_random_traits = yes
+	trait = legit_bastard
 	2451.1.1 = { birth = yes }
 	2511.1.1 = { death = yes }
 }
@@ -462,6 +466,7 @@
 	father = 2100307
 	mother = 2100308
 	disallow_random_traits = yes
+	trait = legit_bastard
 	2453.1.1 = { birth = yes }
 	2521.1.1 = { death = yes }
 }
@@ -513,6 +518,7 @@
 	father = 1100146
 	mother = 2100315
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2371.1.1 = { birth = yes }
 	2387.1.1 = {
 		add_spouse = 2100313
@@ -633,6 +639,7 @@
 	father = 1100145
 	mother = 2100805
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2466.1.1 = { birth = yes }
 	2466.1.1 = {
 		create_bloodline = {
@@ -663,9 +670,7 @@
 	religion = pantes_theoi
 	female = yes
 	disallow_random_traits = yes
-	2421.1.1 = { 
-		birth = yes
-	}
+	2421.1.1 = { birth = yes }
 	2501.1.1 = { death = yes }
 }
 
@@ -678,6 +683,9 @@
 	mother = 2100406
 	disallow_random_traits = yes
 	2414.1.1 = { birth = yes }
+	2441.1.1 = {
+		add_spouse = 2100406
+	}
 	2479.1.1 = { death = yes }
 }
 
@@ -687,9 +695,7 @@
 	religion = pantes_theoi
 	female = yes
 	disallow_random_traits = yes
-	2391.1.1 = { 
-		birth = yes 
-	}
+	2391.1.1 = { birth = yes }
 	2451.1.1 = { death = yes }
 }
 
@@ -711,9 +717,7 @@
 	religion = pantes_theoi
 	female = yes
 	disallow_random_traits = yes
-	2364.1.1 = { 
-		birth = yes 
-	}
+	2364.1.1 = { birth = yes }
 	2424.1.1 = { death = yes }
 }
 
@@ -726,6 +730,9 @@
 	mother = 2100410
 	disallow_random_traits = yes
 	2344.1.1 = { birth = yes }
+	2384.1.1 = {
+		add_spouse = 2100408
+	}
 	2414.1.1 = { death = yes }
 }
 
@@ -735,9 +742,7 @@
 	religion = pantes_theoi
 	female = yes
 	disallow_random_traits = yes
-	2304.1.1 = { 
-		birth = yes
-	}
+	2304.1.1 = { birth = yes }
 	2364.1.1 = { death = yes }
 }
 
@@ -750,6 +755,9 @@
 	mother = 2100412
 	disallow_random_traits = yes
 	2304.1.1 = { birth = yes }
+	2324.1.1 = {
+		add_spouse = 2100410
+	}
 	2364.1.1 = { death = yes }
 }
 
@@ -759,9 +767,7 @@
 	religion = pantes_theoi
 	female = yes
 	disallow_random_traits = yes
-	2284.1.1 = { 
-		birth = yes
-	}
+	2284.1.1 = { birth = yes }
 	2324.1.1 = { death = yes }
 }
 
@@ -773,7 +779,11 @@
 	father = 1100153
 	mother = 1100000
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2254.1.1 = { birth = yes }
+	2304.1.1 = {
+		add_spouse = 2100412
+	}
 	2324.1.1 = { death = yes }
 }
 
@@ -998,6 +1008,7 @@
 	father = 1100145
 	mother = 1100262
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2351.1.1 = { birth = yes }
 	2411.1.1 = { death = yes }
 }
@@ -1095,6 +1106,7 @@
 	father = 1100146
 	mother = 2100420
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2331.1.1 = { 
 		birth = yes
 	}
@@ -1132,6 +1144,7 @@
 	father = 1100146
 	mother = 2100521
 	trait = twin
+	trait = child_of_consort
 	disallow_random_traits = yes
 	2401.1.1 = { 
 		birth = yes
@@ -1149,6 +1162,7 @@
 	father = 1100146
 	mother = 2100521
 	trait = twin
+	trait = child_of_consort
 	disallow_random_traits = yes
 	2401.1.1 = { 
 		birth = yes
@@ -1175,6 +1189,7 @@
 	father = 1100145
 	mother = 2101125
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2326.1.1 = { birth = yes }
 	2346.1.1 = {
 		add_spouse = 2100524
@@ -1442,6 +1457,7 @@
 	father = 1100145
 	mother = 2100615 
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2401.1.1 = { birth = yes }
 	2401.1.1 = {
 		create_bloodline = {
@@ -1541,6 +1557,7 @@
 	father = 1100145
 	mother = 1100179
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2451.1.1 = { birth = yes }
 	2511.1.1 = { death = yes }
 }
@@ -1648,6 +1665,7 @@
 	father = 2100809
 	mother = 2100810
 	disallow_random_traits = yes
+	trait = bastard
 	2441.1.1 = { birth = yes }
 	2491.1.1 = { death = yes }
 }
@@ -1671,6 +1689,7 @@
 	father = 1100172
 	mother = 1100027
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2396.1.1 = { birth = yes }
 	2416.1.1 = {
 		add_spouse = 2100808
@@ -1863,6 +1882,9 @@
 	religion = pantes_theoi
 	disallow_random_traits = yes
 	2371.1.1 = { birth = yes }
+	2391.1.1 = {
+		add_spouse = 2100910
+	}
 	2431.1.1 = { death = yes }
 }
 
@@ -1874,6 +1896,7 @@
 	father = 1100146
 	mother = 2101116
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2391.1.1 = { birth = yes }
 	2411.1.1 = {
 		add_spouse = 2100909
@@ -1979,6 +2002,8 @@
 	mother = 2101005
 	trait = fair
 	trait = groomed
+	trait = twin
+	trait = child_of_consort
 	2498.1.1 = { birth = yes }
 	2518.1.1 = {
 		add_spouse = 2101000
@@ -1997,6 +2022,7 @@
 	female = yes
 	father = 2101006
 	mother = 2101005
+	trait = twin
 	2498.1.1 = { birth = yes }
 	2518.1.1 = {
 		add_spouse = 2100900
@@ -2195,7 +2221,11 @@
 	father = 1100146
 	mother = 1100263
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2351.1.1 = { birth = yes }
+	2371.1.1 = {
+		add_spouse = 2101019
+	}
 	2411.1.1 = { death = yes }
 }
 
@@ -2241,6 +2271,9 @@
 	religion = pantes_theoi
 	disallow_random_traits = yes
 	2281.1.1 = { birth = yes }
+	2301.1.1 = {
+		add_spouse = 2101023
+	}
 	2341.1.1 = { death = yes }
 }
 
@@ -2363,6 +2396,7 @@
 	father = 1100154
 	mother = 1100183
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2411.1.1 = { birth = yes }
 	2471.1.1 = { death = yes }
 }
@@ -2458,7 +2492,9 @@
 	mother = 2101117
 	disallow_random_traits = yes
 	2336.1.1 = { birth = yes }
-	
+	2356.1.1 = {
+		add_spouse = 2101115
+	}
 	2411.1.1 = { death = yes }
 }
 
@@ -2584,6 +2620,7 @@
 	father = 1100145
 	mother = 2101125
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2241.1.1 = { birth = yes }
 	2261.1.1 = {
 		add_spouse = 1100185
@@ -2600,6 +2637,7 @@
 	father = 2101126
 	mother = 1100186
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2111.1.1 = { birth = yes }
 	2386.1.1 = { death = yes }
 }
@@ -2612,6 +2650,7 @@
 	father = 1100146
 	mother = 2101127
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2091.1.1 = { birth = yes }
 	2184.1.1 = { death = yes }
 }
@@ -2637,6 +2676,7 @@
 	father = 1100003
 	mother = 1100013
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2021.1.1 = { birth = yes }
 	2041.1.1 = {
 		add_spouse = 1100028
@@ -2687,6 +2727,7 @@
 	father = 1100146
 	mother = 2101131
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2101.1.1 = { birth = yes }
 	2121.1.1 = {
 		add_spouse = 1100029
@@ -3124,6 +3165,7 @@
 	father = 1100152
 	mother = 2101404
 	martial = 6
+	trait = child_of_consort
 	trait = amazonian_trait
 	trait = skilled_tactician
 	2506.1.1 = { birth = yes }
@@ -3138,6 +3180,7 @@
 	female = yes
 	father = 1100152
 	mother = 2101404
+	trait = child_of_consort
 	trait = amazonian_trait
 	disallow_random_traits = yes
 	2501.1.1 = { birth = yes }
@@ -3152,6 +3195,7 @@
 	female = yes
 	father = 1100152
 	mother = 2101404
+	trait = child_of_consort
 	trait = amazonian_trait
 	trait = tough_soldier
 	2508.1.1 = { birth = yes }
@@ -3169,6 +3213,7 @@
 	female = yes
 	father = 1100152
 	mother = 2101404
+	trait = child_of_consort
 	trait = amazonian_trait
 	trait = tough_soldier
 	2510.1.1 = { birth = yes }
@@ -3343,6 +3388,7 @@
 	mother = 2101511
 	father = 1100146
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2429.1.1 = { birth = yes }
 	2449.1.1 = {
 		add_spouse = 2101503
@@ -3383,6 +3429,7 @@
 	mother = 2101503
 	trait = minotaur
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2452.1.1 = { birth = yes }
 	2486.1.1 = {
 		death = {
@@ -3414,6 +3461,7 @@
 	mother = 2101514
 	father = 1100156
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2467.1.1 = { birth = yes }
 	2526.1.1 = { death = yes }
 }
@@ -4035,6 +4083,9 @@
 	father = 2102004
 	disallow_random_traits = yes
 	2431.1.1 = { birth = yes }
+	2451.1.1 = {
+		add_spouse = 2102002
+	}
 	2501.1.1 = { death = yes }
 }
 
@@ -4080,6 +4131,7 @@
 	father = 1100146
 	mother = 2102008
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2351.1.1 = { birth = yes }
 	2411.1.1 = { death = yes }
 }
@@ -4134,6 +4186,7 @@
 	father = 2102100
 	mother = 1100082
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2501.1.1 = { birth = yes }
 	2501.1.1 = {
 		effect = {
@@ -4252,6 +4305,7 @@
 	father = 1100146
 	mother = 2102110
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2381.1.1 = { birth = yes }
 	2401.1.1 = {
 		add_spouse = 2102108
@@ -4397,6 +4451,7 @@
 	father = 1100154
 	mother = 2102305
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2441.1.1 = { birth = yes }
 	2461.1.1 = {
 		add_spouse = 2102303
@@ -4447,6 +4502,7 @@
 	religion = pantes_theoi
 	father = 1100146
 	mother = 2102309
+	trait = child_of_consort
 	2441.1.1 = { birth = yes }
 	2461.1.1 = {
 		add_spouse = 2102307
@@ -4585,6 +4641,7 @@
 	father = 1100145
 	mother = 2100615
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2413.1.1 = { birth = yes }
 	2433.1.1 = {
 		add_spouse = 2102407
@@ -4933,6 +4990,7 @@
 	father = 1100152
 	mother = 2102806
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2421.1.1 = { birth = yes }
 	2441.1.1 = {
 		add_spouse = 2102807
@@ -5076,6 +5134,7 @@
 	religion = dentudisas
 	father = 1100274
 	mother = 1100275
+	trait = child_of_consort
 	2501.1.1 = { birth = yes }
 	2561.1.1 = { death = yes }
 }
@@ -5109,6 +5168,7 @@
 	religion = pantes_theoi
 	father = 1100157
 	mother = 2103501
+	trait = child_of_consort
 	trait = underhanded_rogue
 	2497.1.1 = { birth = yes }
 	2517.1.1 = {
@@ -5187,6 +5247,9 @@
 	religion = pantes_theoi
 	mother = 2103604
 	2475.1.1 = { birth = yes }
+	2495.1.1 = {
+		add_spouse = 2103602
+	}
 	2525.1.1 = { death = yes }
 }
 
@@ -5221,6 +5284,7 @@
 	father = 2103701
 	mother = 1100271
 	trait = fair
+	trait = child_of_consort
 	2500.1.1 = { birth = yes }
 	2560.1.1 = { death = yes }
 }
@@ -5264,6 +5328,7 @@
 	religion = pantes_theoi #Temporary
 	father = 1100156
 	mother = 2101514
+	trait = child_of_consort
 	2470.1.1 = { birth = yes }
 	2520.1.1 = { death = yes }
 }
@@ -5286,6 +5351,7 @@
 	religion = pantes_theoi
 	father = 1100149
 	mother = 2104001
+	trait = child_of_consort
 	2507.1.1 = { birth = yes }
 	2567.1.1 = { death = yes }
 }
@@ -5308,6 +5374,9 @@
 	female = yes
 	disallow_random_traits = yes
 	2467.1.1 = { birth = yes }
+	2487.1.1 = {
+		add_spouse = 2101521
+	}
 	2526.1.1 = { death = yes }
 }
 
@@ -5382,7 +5451,11 @@
 	father = 1100145
 	mother = 2100529
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2426.1.1 = { birth = yes }
+	2456.1.1 = {
+		add_spouse = 2104106
+	}
 	2486.1.1 = { death = yes }
 }
 
@@ -5395,6 +5468,7 @@
 	mother = 2100529
 	female = yes
 	disallow_random_traits = yes
+	trait = child_of_consort
 	2436.1.1 = { birth = yes }
 	2496.1.1 = { death = yes }
 }
@@ -5457,6 +5531,7 @@
 	religion = pantes_theoi #Temporary
 	father = 2104303
 	mother = 2104305
+	trait = child_of_consort
 	2518.1.1 = { birth = yes }
 	2578.1.1 = { death = yes }
 }

@@ -1,0 +1,92 @@
+#Canaanite Pantheon
+1300000 = {
+	name = "'El" # 'El, Head God
+	dynasty = 1000003 
+	culture = elohim
+	religion = canaanite_religion
+	disallow_random_traits = yes
+	trait = el
+	immortal_age = 30
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
+		}
+		add_spouse = 1300002
+	}
+	9999.1.1 = { death = yes }
+}
+
+1300001 = {
+	name = "Ba'al Hadad" # Ba'al Hadad, Master of Thunder and Fertility God
+	dynasty = 1000003 
+	culture = elohim
+	religion = canaanite_religion
+	disallow_random_traits = yes
+	trait = baal_hadad
+	immortal_age = 30
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1300002 = {
+	name = "Asherah" # Asherah, Consort of 'El
+	dynasty = 1000003 
+	culture = elohim
+	religion = canaanite_religion
+	disallow_random_traits = yes
+	trait = asherah
+	immortal_age = 20
+	female = yes
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1300003 = {
+	name = "Resheph" # Resheph, God of Healing
+	dynasty = 1000003 
+	culture = elohim
+	religion = canaanite_religion
+	disallow_random_traits = yes
+	trait = resheph
+	immortal_age = 30
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1300004 = {
+	name = "Qaws" # Qaws, God of the Edomites
+	dynasty = 1000003 
+	culture = elohim
+	religion = edomite_religion
+	disallow_random_traits = yes
+	trait = qaws
+	immortal_age = 30
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+			set_character_flag = flag_can_contact
+		}
+	}
+	9999.1.1 = { death = yes }
+}

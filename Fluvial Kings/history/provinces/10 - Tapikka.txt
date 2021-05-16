@@ -1,0 +1,18 @@
+# c_tapikka
+
+# County Title
+title = c_tapikka
+
+# Settlements
+max_settlements = 4
+
+b_tapikka = castle
+b_anziliya = city
+b_kubilsan = temple
+#b_hananaga = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

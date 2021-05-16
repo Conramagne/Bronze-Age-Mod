@@ -1,0 +1,16 @@
+# c_sobah
+
+# County Title
+title = c_sobah
+
+# Settlements
+max_settlements = 2
+
+b_sobah = castle
+b_hizzayon = city
+
+# Misc
+culture = aramean
+religion = canaanite_religion
+
+#History

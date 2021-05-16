@@ -1,0 +1,18 @@
+# c_til_garimmu
+
+# County Title
+title = c_til_garimmu
+
+# Settlements
+max_settlements = 4
+
+b_til_garimmu = castle
+b_hurma = city
+b_luhuzantiya = temple
+#b_asturiya = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

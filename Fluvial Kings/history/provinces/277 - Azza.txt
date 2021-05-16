@@ -1,0 +1,17 @@
+# c_azza
+
+# County Title
+title = c_azza
+
+# Settlements
+max_settlements = 3
+
+b_azza = castle
+b_rapihu = city
+#b_yurza = temple
+
+# Misc
+culture = canaanite
+religion = canaanite_religion
+
+#History

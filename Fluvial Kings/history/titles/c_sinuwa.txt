@@ -1,0 +1,4 @@
+2525.1.1={
+	liege = d_tegarama
+	holder = 2004006
+}

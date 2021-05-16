@@ -1,0 +1,16 @@
+# c_serigga
+
+# County Title
+title = c_serigga
+
+# Settlements
+max_settlements = 2
+
+b_serigga = castle
+b_unipsum = city
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

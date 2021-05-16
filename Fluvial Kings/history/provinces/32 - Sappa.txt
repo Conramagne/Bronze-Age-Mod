@@ -1,0 +1,16 @@
+# c_sappa
+
+# County Title
+title = c_sappa
+
+# Settlements
+max_settlements = 2
+
+b_sappa = tribal
+#b_ziuzila = city
+
+# Misc
+culture = eneti
+religion = ishalitethai
+
+#History

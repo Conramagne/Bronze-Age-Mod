@@ -1,0 +1,16 @@
+# c_asita
+
+# County Title
+title = c_asita
+
+# Settlements
+max_settlements = 2
+
+b_asita = castle
+#b_walwara = city
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

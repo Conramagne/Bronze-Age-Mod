@@ -1,0 +1,15 @@
+# c_asqelon
+
+# County Title
+title = c_asqelon
+
+# Settlements
+max_settlements = 1
+
+b_asqelon = castle
+
+# Misc
+culture = canaanite
+religion = canaanite_religion
+
+#History

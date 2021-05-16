@@ -1,0 +1,15 @@
+# c_nahitiya
+
+# County Title
+title = c_nahitiya
+
+# Settlements
+max_settlements = 1
+
+b_nahitiya = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

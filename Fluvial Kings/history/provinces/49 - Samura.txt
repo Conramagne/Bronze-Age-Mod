@@ -1,0 +1,15 @@
+# c_samura
+
+# County Title
+title = c_samura
+
+# Settlements
+max_settlements = 1
+
+b_salahsuwa = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

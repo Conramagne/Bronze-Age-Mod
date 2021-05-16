@@ -1,0 +1,18 @@
+# c_milawata
+
+# County Title
+title = c_milawata
+
+# Settlements
+max_settlements = 4
+
+b_milawata = castle
+b_pariyana = city
+# b_myous = castle
+# b_iyalanda = temple
+
+# Misc
+culture = achaean
+religion = pantes_theoi
+
+#History

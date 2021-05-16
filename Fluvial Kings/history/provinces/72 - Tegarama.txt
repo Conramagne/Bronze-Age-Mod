@@ -1,0 +1,16 @@
+# c_tegarama
+
+# County Title
+title = c_tegarama
+
+# Settlements
+max_settlements = 2
+
+b_tegarama = castle
+b_malidiya = city
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

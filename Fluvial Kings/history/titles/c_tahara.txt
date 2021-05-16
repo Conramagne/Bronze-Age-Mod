@@ -1,0 +1,7 @@
+2526.1.1 = {
+	holder = 2004007
+	set_tribute_suzerain = {
+		who = e_hittite_empire
+		type = default
+	}
+}

@@ -1,0 +1,15 @@
+# c_lahhwiyassi
+
+# County Title
+title = c_lahhwiyassi
+
+# Settlements
+max_settlements = 1
+
+b_lahhwiyassi = castle
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

@@ -1,0 +1,18 @@
+# c_lalanda
+
+# County Title
+title = c_lalanda
+
+# Settlements
+max_settlements = 4
+
+b_lalanda = tribal
+b_sallapa = tribal
+#b_aura = temple
+#b_wibassa = castle
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

@@ -1,0 +1,16 @@
+# c_ura
+
+# County Title
+title = c_ura
+
+# Settlements
+max_settlements = 2
+
+b_ura = castle
+b_walma_tarhuntassa = city
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

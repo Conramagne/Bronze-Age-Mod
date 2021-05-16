@@ -1,0 +1,15 @@
+# c_hapalla
+
+# County Title
+title = c_hapalla
+
+# Settlements
+max_settlements = 1
+
+b_hapalla = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

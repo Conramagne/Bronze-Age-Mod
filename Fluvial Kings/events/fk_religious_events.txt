@@ -60,6 +60,34 @@ character_event = {
 		}
 		if = {
 			limit = {
+				FROM = {
+					religion = berith
+				}
+				NOT = {
+					religion = berith
+				}
+			}
+			add_trait = syncretic_berith
+		}
+		if = {
+			limit = {
+				FROM = {
+					religion_group = bnai_kenaan
+				}
+				NOT = {
+					religion_group = bnai_kenaan
+				}
+			}
+			add_trait = syncretic_canaanite_religion
+		}
+		if = {
+			limit = {
+				religion = berith
+			}
+			remove_syncretic_effect = yes
+		}
+		if = {
+			limit = {
 				NOT = {
 					FROM = {
 						religion_group = pihassasi
@@ -134,7 +162,7 @@ character_event = {
 character_event = {
 	id = fkrel.101
 	is_triggered_only = yes
-	desc = EVTDESCFKREL101
+	desc = EVTDESCFKREL100
 	picture = GFX_evt_visit_the_temple_pantheon
 	
 	#European Devotion
@@ -194,103 +222,92 @@ character_event = {
 	}
 }
 
-#Choosing Devotion Foreign Faith
+#Choosing Devotion Canaanite
 character_event = {
 	id = fkrel.102
 	is_triggered_only = yes
-	desc = EVTDESCFKREL101
+	desc = EVTDESCFKREL100
 	picture = GFX_evt_visit_the_temple_pantheon
-
-	#Pihassasi Devotion
-	option = {
-		name = EVTOPTAFKREL100
-		trigger = {
-			trait = syncretic_pihassasi
-		}
-		add_trait = devotion_tarhunna
-		clr_character_flag = choose_devotion_flag
-		ai_chance = {
-			factor = 33 
-			modifier = {
-				factor = 2
-				likes_war_god_trigger = yes
-			}
-		}
-	}
-	option = {
-		name = EVTOPTBFKREL100
-		trigger = {
-			trait = syncretic_pihassasi
-		}
-		add_trait = devotion_arinniti
-		clr_character_flag = choose_devotion_flag
-		ai_chance = {
-			factor = 33 
-		}
-	}
-	option = {
-		name = EVTOPTCFKREL100
-		trigger = {
-			trait = syncretic_pihassasi
-		}
-		add_trait = devotion_telipinu
-		clr_character_flag = choose_devotion_flag
-		ai_chance = {
-			factor = 33
-		}
-	}
 	
-	#European Devotion
 	option = {
-		name = EVTOPTDFKREL100
-		trigger = {
-			trait = syncretic_european_group
-		}
-		add_trait = devotion_sabazios
+		name = EVTOPTAFKREL102
+		add_trait = devotion_el
 		clr_character_flag = choose_devotion_flag
 		ai_chance = {
-			factor = 33 
+			factor = 40 
+		}
+	}
+	option = {
+		name = EVTOPTBFKREL102
+		add_trait = devotion_baal_hadad
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 20 
 			modifier = {
 				factor = 2
-				likes_war_god_trigger = yes
+				likes_commerce_god_trigger = yes
 			}
 		}
 	}
 	option = {
-		name = EVTOPTEFKREL100
-		trigger = {
-			trait = syncretic_european_group
-		}
-		add_trait = devotion_pleistoros
+		name = EVTOPTCFKREL102
+		add_trait = devotion_asherah
 		clr_character_flag = choose_devotion_flag
 		ai_chance = {
-			factor = 33 
+			factor = 20
+		}
+	}
+	option = {
+		name = EVTOPTDFKREL102
+		add_trait = devotion_resheph
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+#Choosing Devotion Edomite
+character_event = {
+	id = fkrel.103
+	is_triggered_only = yes
+	desc = EVTDESCFKREL100
+	picture = GFX_evt_visit_the_temple_pantheon
+	
+	option = {
+		name = EVTOPTAFKREL102
+		add_trait = devotion_el
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 25 
+		}
+	}
+	option = {
+		name = EVTOPTBFKREL102
+		add_trait = devotion_baal_hadad
+		clr_character_flag = choose_devotion_flag
+		ai_chance = {
+			factor = 25 
 			modifier = {
 				factor = 2
-				likes_war_god_trigger = yes
+				likes_commerce_god_trigger = yes
 			}
 		}
 	}
 	option = {
-		name = EVTOPTFFKREL100
-		trigger = {
-			trait = syncretic_european_group
-		}
-		add_trait = devotion_derzelas
+		name = EVTOPTCFKREL102
+		add_trait = devotion_asherah
 		clr_character_flag = choose_devotion_flag
 		ai_chance = {
-			factor = 33
+			factor = 25
 		}
 	}
 	option = {
-		name = EVTOPTGFKREL100
-		trigger = {
-			trait = syncretic_european_group
-		}
-		add_trait = devotion_kubeleya
+		name = EVTOPTDFKREL103
+		add_trait = devotion_qaws
 		clr_character_flag = choose_devotion_flag
 		ai_chance = {
-			factor = 33
+			factor = 50
 		}
 	}
 }

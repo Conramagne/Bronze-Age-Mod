@@ -1,0 +1,17 @@
+# c_altanna
+
+# County Title
+title = c_altanna
+
+# Settlements
+max_settlements = 3
+
+b_altanna = castle
+b_hanhana = temple
+b_lihzana = city
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

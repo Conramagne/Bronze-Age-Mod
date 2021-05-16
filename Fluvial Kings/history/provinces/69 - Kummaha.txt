@@ -1,0 +1,17 @@
+# c_kummaha
+
+# County Title
+title = c_kummaha
+
+# Settlements
+max_settlements = 3
+
+b_kummaha = castle
+b_hahhum = city
+#b_terussa = temple
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

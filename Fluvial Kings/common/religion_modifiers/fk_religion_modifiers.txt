@@ -7,3 +7,12 @@ lost_hellenic_invasion = {
 	authority = -5
 	years = 20
 }
+
+israelite_repented = {
+	authority = 5
+	years = 10
+}
+israelite_did_not_repent = {
+	authority = -5
+	years = 10
+}

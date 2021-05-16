@@ -1,33 +1,20 @@
 e_hittite_empire = {
 	color={ 180 35 70 }
-	color2={ 255 255 255 }
+	color2={ 255 255 20 }
 	
-	capital = 1 # Hattusa
-	
-	culture = hittite
-	
-	controls_religion = ishalitethai
-	
-	short_name = yes
-	
-	allow = {
-		war = no
-		religion = ishalitethai
-	}
+	capital = 1 # c_hattusa
 	
 	k_hatti = {
 		color = { 150 30 50 }
-		color2 = { 255 255 255 }
+		color2={ 255 255 255 }
 		
-		capital = 1
+		capital = 1 # c_hattusa
 		
-		culture = hittite
-		
-		d_hatti = { 
-			color = { 153 0 0 }
-			color2 = { 255 255 255 }
-	
-			capital = 1
+		d_hatti = {
+			color={ 150 61 114 }
+			color2={ 255 255 255 }
+			
+			capital = 1 # c_hattusa
 			
 			c_hattusa = { # 1
 				color={ 153 0 0 }
@@ -35,66 +22,70 @@ e_hittite_empire = {
 				
 				b_hattusa = {
 				}
-				b_tahurpa = {
+				b_tawa = {
+				}
+				b_kapitra = {
+					holy_site = ishalitethai
 				}
 				b_suppiluliya = {
 				}
-				b_tawiniya = {
-				}
 				b_hiyasna = {
 				}
-				b_kammama = {
+				b_tawiniya = {
 				}
-				b_matilla = {
+				b_tahurpa = {
 				}
 			}
-			c_altanna = { # 35
+			c_altanna = { # 6
 				color={ 204 57 57 }
 				color2={ 255 255 255 }
 				
 				b_altanna = {
 				}
-				b_washaya = {
+				b_hanhana = {
 				}
 				b_lihzana = {
 				}
-				b_hanhana = {
-				}
 			}
-			c_kapitra = { # 39
-				color={ 196 7 7 }
-				color2={ 255 255 255 }
-				
-				b_kapitra = {
-				}
-				b_talahi = {
-				}
-			}
-			c_katapa = { # 21
+			c_arinna = { # 2
 				color={ 140 4 4 }
 				color2={ 255 255 255 }
 				
+				b_matilla = {
+				}
+				b_alisa = {
+				}
+				b_arinna = {
+					holy_site = ishalitethai
+				}
 				b_katapa = {
 				}
-				b_hakmis = {
-				}
-				b_sapinuwa = {
-				}
 			}
-			c_masika = { # 53
+			c_harsamna = { # 7
 				color={ 155 23 0 }
 				color2={ 255 255 255 }
 				
-				b_masika = {
-				}
 				b_harsamna = {
+				}
+				b_masika = {
 				}
 				b_lakimissa = {
 				}
 				b_atuna = {
 				}
 			}
-			c_tuhuppiya = { # 37
+			c_talahi = { # 3
+				color={ 196 7 7 }
+				color2={ 255 255 255 }
+				
+				b_talahi = {
+				}
+				b_zippalanda = {
+				}
+				b_ankuwa = {
+				}
+			}
+			c_tuhuppiya = { # 5
 				color={ 219 0 0 }
 				color2={ 255 255 255 }
 				
@@ -103,6 +94,7 @@ e_hittite_empire = {
 				b_tuhuppiya = {
 				}
 				b_zithara = {
+					holy_site = haianiluwi
 				}
 				b_salma = {
 				}
@@ -111,7 +103,7 @@ e_hittite_empire = {
 				b_malitta = {
 				}
 			}
-			c_washaniya = { # 38
+			c_washaniya = { # 4
 				color={ 119 28 28 }
 				color2={ 255 255 255 }
 				
@@ -121,110 +113,408 @@ e_hittite_empire = {
 				}
 			}
 		}
-		d_ambara = { 
-			color={ 196 170 0 }
+		d_ambara = {
+			color={ 246 130 5 }
 			color2={ 255 255 255 }
-	
-			capital = 56
 			
-			c_haburat = { # 54
+			capital = 16 # c_pittiyarika
+			
+			c_pittiyarika = { # 16
 				color={ 236 140 0 }
 				color2={ 255 255 255 }
 				
-				b_haburat = {
-				}
 				b_pittiyarika = {
 				}
 				b_aryiza = {
 				}
 			}
-			c_istitina = { # 55
-				color={ 196 74 0 }
-				color2={ 255 255 255 }
-				
-				b_istitina = {
-				}
-			}
-			c_kummaha = { # 56
+			c_ambara = { # 18
 				color={ 196 170 0 }
 				color2={ 255 255 255 }
 				
-				b_kummaha = {
+				b_ambara = {
+				}
+				b_arihuwa = {
 				}
 			}
-			c_pahhuwa = { # 57
+			c_hahha = { # 19
 				color={ 216 20 26 }
+				color2={ 255 255 255 }
+				
+				b_hahha = {
+				}
+			}
+			c_pahhuwa = { # 17
+				color={ 196 74 0 }
 				color2={ 255 255 255 }
 				
 				b_pahhuwa = {
 				}
-				b_hahha = {
-				}
 			}
 		}
-		d_sarazzi_udne = { 
-			color={ 155 23 0 }
+		d_sarazzi_udne = {
+			color={ 245 68 65 }
 			color2={ 255 255 255 }
-	
-			capital = 53
 			
-			c_kappurnanda = { # 36
-				color={ 255 58 117 }
+			capital = 8 # c_sakdunuwa
+			
+			c_sakdunuwa = { # 8
+				color={ 255 58 70 }
 				color2={ 255 255 255 }
 				
-				b_kappurnanda = {
-				}
-				b_ishupitta = {
-				}
-				b_karahna = {
-				}
-				b_hatikaitra = {
-				}
 				b_sakdunuwa = {
 				}
 				b_suluppa = {
 				}
 				b_marista = {
 				}
+				b_arziya = {
+				}
 			}
-			c_zipishuna = { # 41
-				color={ 106 4 4 }
+			c_hakmis = { # 11
+				color={ 89 12 4 }
 				color2={ 255 255 255 }
 				
-				b_zipishuna = {
+				b_hakmis = {
 				}
-				b_tabikka = {
+				b_zipishurna = {
 				}
-				b_gazziura = {
-				}
-				b_kabulsan = {
-				}
-				b_hananaga = {
+				b_tismurna = {
 				}
 			}
-			c_nesa = { # 40
+			c_kanes = { # 14
 				color={ 153 3 3 }
 				color2={ 255 255 255 }
 				
 				b_nesa = {
 				}
-				b_warsabama = {
+				b_zaminuwa = {
 				}
 				b_artalu = {
+					holy_site = ishalitethai
 				}
-				b_zaminuwa = {
+				b_warsabama = {
+				}
+			}
+			c_kappurnanda = { # 13
+				color={ 205 58 70 }
+				color2={ 255 255 255 }
+				
+				b_kappurnanda = {
+				}
+				b_ishupitta = {
+				}
+				b_tahazzimuna = {
+				}
+				b_tiliura = {
+				}
+			}
+			c_karahna = { # 12
+				color={ 255 58 117 }
+				color2={ 255 255 255 }
+				
+				b_karahna = {
+				}
+				b_haitkaitra = {
+				}
+				b_samuha = {
+				}
+				b_kutiya = {
+				}
+			}
+			c_sapinuwa = { # 9
+				color={ 106 4 4 }
+				color2={ 255 255 255 }
+				
+				b_sapinuwa = {
+				}
+				b_sanahwitta = {
+					holy_site = ishalitethai
+				}
+			}
+			c_sarissa = { # 15
+				color={ 136 24 3 }
+				color2={ 255 255 255 }
+				
+				b_sarisa = {
 				}
 				b_kussara = {
 				}
 				b_hasikkasnawanda = {
 				}
 			}
+			c_tapikka = { # 10
+				color={ 104 24 24 }
+				color2={ 255 255 255 }
+				
+				b_tapikka = {
+				}
+				b_anziliya = {
+				}
+				b_kubilsan = {
+				}
+				b_hananaga = {
+				}
+			}
 		}
 	}
-	
-	k_pala = {
-		color={ 220 100 70 }
+	k_kizzuwatna = {
+		color={ 251 90 15 }
 		color2={ 255 255 255 }
+		
+		capital = 39 # c_shamal
+		
+		d_puruma = {
+			color={ 231 110 5 }
+			color2={ 255 255 255 }
+			
+			capital = 39 # c_shamal
+			
+			c_shamal = { # 39
+				color={ 221 120 0 }
+				color2={ 255 255 255 }
+				
+				b_shamal = {
+				}
+				b_azitawataya = {
+				}
+				b_pahara = {
+				}
+				b_izziya = {
+				}
+				b_zalwar = {
+				}
+			}
+			c_lawazantiya = { # 41
+				color={ 221 163 0 }
+				color2={ 255 255 255 }
+				
+				b_lawazantiya = {
+				}
+				b_arusna = {
+				}
+				b_zaruna = {
+				}
+			}
+			c_malluma = { # 40
+				color={ 221 60 0 }
+				color2={ 255 255 255 }
+				
+				b_malluma = {
+				}
+				b_kumanni = {
+				}
+			}
+			c_tarsa = { # 42
+				color={ 137 118 64 }
+				color2={ 255 255 255 }
+				
+				b_tarsa = {
+				}
+				b_adaniya = {
+				}
+			}
+		}
+		d_marqasa = {
+			color={ 209 189 170 }
+			color2={ 255 255 255 }
+			
+			capital = 43 # c_til_garimmu
+			
+			c_til_garimmu = { # 43
+				color={ 219 179 175 }
+				color2={ 255 255 255 }
+				
+				b_til_garimmu = {
+				}
+				b_hurma = {
+				}
+				b_luhuzantiya = {
+				}
+				b_asturiya = {
+				}
+			}
+			c_bulbulhum = { # 45
+				color={ 237 121 109 }
+				color2={ 255 255 255 }
+				
+				b_bulbulhum = {
+				}
+			}
+			c_mamma = { # 46
+				color={ 175 63 51 }
+				color2={ 255 255 255 }
+				
+				b_mamma = {
+				}
+			}
+			c_timelkiya = { # 44
+				color={ 239 71 52 }
+				color2={ 255 255 255 }
+				
+				b_timelkiya = {
+				}
+			}
+		}
+		d_samura = {
+			color={ 227 10 5 }
+			color2={ 255 255 255 }
+			
+			capital = 47 # c_serigga
+			
+			c_serigga = { # 47
+				color={ 217 20 0 }
+				color2={ 255 255 255 }
+				
+				b_serigga = {
+				}
+				b_unipsum = {
+				}
+			}
+			c_paduwanda = { # 48
+				color={ 255 74 25 }
+				color2={ 255 255 255 }
+				
+				b_paduwanda = {
+				}
+				b_illuya = {
+				}
+				b_tuwanuwa = {
+				}
+			}
+			c_samura = { # 49
+				color={ 255 219 40 }
+				color2={ 255 255 255 }
+				
+				b_salahsuwa = {
+				}
+			}
+		}
+	}
+	k_kummuh = {
+		color={ 173 41 124 }
+		color2={ 255 255 255 }
+		
+		capital = 69 # c_kummaha
+		
+		d_mala = {
+			color={ 143 61 114 }
+			color2={ 255 255 255 }
+			
+			capital = 69 # c_kummaha
+			
+			c_kummaha = { # 69
+				color={ 143 71 109 }
+				color2={ 255 255 255 }
+				
+				b_kummaha = {
+				}
+				b_hahhum = {
+				}
+				b_terussa = {
+				}
+			}
+			c_mala = { # 71
+				color={ 142 71 71 }
+				color2={ 255 255 255 }
+				
+				b_mala = {
+				}
+			}
+			c_sukziya = { # 70
+				color={ 206 103 103 }
+				color2={ 255 255 255 }
+				
+				b_sukziya = {
+				}
+			}
+		}
+		d_tegarama = {
+			color={ 152 44 5 }
+			color2={ 255 255 255 }
+			
+			capital = 72 # c_tegarama
+			
+			c_tegarama = { # 72
+				color={ 142 54 0 }
+				color2={ 255 255 255 }
+				
+				b_tegarama = {
+				}
+				b_malidiya = {
+				}
+			}
+			c_sinuwa = { # 73
+				color={ 198 125 79 }
+				color2={ 255 255 255 }
+				
+				b_sinuwa = {
+				}
+			}
+		}
+	}
+	k_kupros = {
+		color={ 184 115 51 }
+		color2={ 255 255 255 }
+		
+		capital = 75 # c_enkomi
+		
+		d_salamis_cyp = {
+			color={ 133 148 97 }
+			color2={ 255 255 255 }
+			
+			capital = 75 # c_enkomi
+			
+			c_enkomi = { # 75
+				color={ 143 138 102 }
+				color2={ 255 255 255 }
+				
+				b_enkomi = {
+				}
+			}
+			c_kition = { # 76
+				color={ 186 66 114 }
+				color2={ 255 255 255 }
+				
+				b_kition = {
+				}
+				b_dromolaxia = {
+				}
+			}
+		}
+		d_paphos = {
+			color={ 105 174 48 }
+			color2={ 255 255 255 }
+			
+			capital = 77 # c_paphos
+			
+			c_paphos = { # 77
+				color={ 95 184 43 }
+				color2={ 255 255 255 }
+				
+				b_paphos = {
+				}
+				b_alassa = {
+				}
+				b_episkopi = {
+				}
+			}
+			c_maroni = { # 78
+				color={ 69 121 64 }
+				color2={ 255 255 255 }
+				
+				b_maroni = {
+				}
+				b_kalavasos = {
+				}
+			}
+		}
+	}
+	k_pala = {
+		color={ 165 47 42 }
+		color2={ 255 255 255 }
+		
+		capital = 20 # c_istahara
 		
 		achaean = "Paphlagonía"
 		dorian = "Paphlagonía"
@@ -235,608 +525,415 @@ e_hittite_empire = {
 		cretan = "Paphlagonía"
 		eneti = "Paphlagonía"
 		
-		capital = 2
-				
-		d_kaska = { 
-			color={ 135 64 47 }
+		d_istahara = {
+			color={ 145 67 32 }
 			color2={ 255 255 255 }
-	
-			capital = 2
 			
-			c_zalpa = {
-				achaean = "Saramene"
-				dorian = "Saramene"
-				aeolian = "Saramene"
-				ionian = "Saramene"
-				amazonian = "Saramene"
-				cypriot = "Saramene"
-				cretan = "Saramene"
-				
-				color={ 135 64 47 }
+			capital = 20 # c_istahara
+			
+			c_istahara = { # 20
+				color={ 135 77 27 }
 				color2={ 255 255 255 }
 				
-				b_zalpuwa = {
-					achaean = "Saramene"
-					dorian = "Saramene"
-					aeolian = "Saramene"
-					ionian = "Saramene"
-					amazonian = "Saramene"
-					cypriot = "Saramene"
-					cretan = "Saramene"
+				b_istahara = {
+				}
+				b_tahappisuna = {
+				}
+				b_hatenzuwa = {
+					holy_site = ishalitethai
+				}
+				b_gazzapa = {
+				}
+				b_karassuwa = {
 				}
 			}
-			c_sawit = {
-				achaean = "Saramene"
-				dorian = "Saramene"
-				aeolian = "Saramene"
-				ionian = "Saramene"
-				amazonian = "Saramene"
-				cypriot = "Saramene"
-				cretan = "Saramene"
-				
-				color={ 219 105 76 }
+			c_durmitta = { # 24
+				color={ 43 78 46 }
 				color2={ 255 255 255 }
 				
-				b_sawit = {
-					achaean = "Saramene"
-					dorian = "Saramene"
-					aeolian = "Saramene"
-					ionian = "Saramene"
-					amazonian = "Saramene"
-					cypriot = "Saramene"
-					cretan = "Saramene"
+				b_durmitta = {
+				}
+				b_taedizina = {
+				}
+				b_kurustama = {
 				}
 			}
-			c_takkupta = {
+			c_kapperi = { # 23
+				color={ 85 77 27 }
+				color2={ 255 255 255 }
+				
+				b_kapperi = {
+				}
+				b_harpisa = {
+				}
+				b_marithum = {
+				}
+			}
+			c_nerikka = { # 25
+				color={ 70 76 26 }
+				color2={ 255 255 255 }
+				
+				b_nerikka = {
+				}
+			}
+			c_takkupta = { # 22
 				color={ 219 43 0 }
 				color2={ 255 255 255 }
 				
-				b_takkupta = {}
+				b_takkupta = {
+				}
+			}
+			c_timuhala = { # 21
+				color={ 216 121 43 }
+				color2={ 255 255 255 }
+				
+				b_timuhala = {
+				}
 			}
 		}
-		d_kalasma = { 
-			color={ 237 118 39 }
+		d_kalasma = {
+			color={ 227 128 34 }
 			color2={ 255 255 255 }
 			
-			achaean = "Paphlagonía"
-			dorian = "Paphlagonía"
-			aeolian = "Paphlagonía"
-			ionian = "Paphlagonía"
-			amazonian = "Paphlagonía"
-			cypriot = "Paphlagonía"
-			cretan = "Paphlagonía"
-			eneti = "Paphlagonía"
-	
-			capital = 22
+			capital = 26 # c_kalasma
 			
-			c_kalasma = { # 22
+			c_kalasma = { # 26
 				color={ 237 118 39 }
 				color2={ 255 255 255 }
 				
 				b_kalasma = {
 				}
 			}
-			c_athulissa = { # 31
-				color={ 255 136 25 }
-				color2={ 255 255 255 }
-				
-				b_athulissa = {
-				}
-				b_tuhupurpuna = {
-				}
-				b_sappiduwa = {
-				}
-				b_athulissa_2 = {
-				}
-			}
-			c_tumanna = { # 23
+			c_midduwa = { # 31
 				color={ 234 175 138 }
 				color2={ 255 255 255 }
 				
-				b_tumanna = {
+				b_midduwa = {
 				}
 			}
 		}
-		d_kassiya = { 
-			color={ 226 102 0 }
+		d_kaska = {
+			color={ 145 54 52 }
 			color2={ 255 255 255 }
-	
-			capital = 35
 			
-			c_sappa = { # 27
+			capital = 36 # c_zalpuwa
+			
+			c_zalpuwa = { # 36
+				color={ 135 64 47 }
+				color2={ 255 255 255 }
+				
+				b_zalpuwa = {
+				}
+			}
+			c_almina = { # 38
+				color={ 216 85 43 }
+				color2={ 255 255 255 }
+				
+				b_almina = {
+				}
+			}
+			c_sawit = { # 37
+				color={ 219 105 76 }
+				color2={ 255 255 255 }
+				
+				b_sawit = {
+				}
+				b_kunanamit = {
+				}
+			}
+		}
+		d_kassiya = {
+			color={ 236 92 5 }
+			color2={ 255 255 255 }
+			
+			capital = 32 # c_sappa
+			
+			c_sappa = { # 32
 				color={ 226 102 0 }
 				color2={ 255 255 255 }
 				
 				b_sappa = {
 				}
+				b_ziuzila = {
+				}
 			}
-			c_piddaniyasa = { # 43
+			c_arawana = { # 35
+				color={ 234 42 71 }
+				color2={ 255 255 255 }
+				
+				b_arawana = {
+				}
+			}
+			c_hartana = { # 34
+				color={ 213 141 94 }
+				color2={ 255 255 255 }
+				
+				b_hartana = {
+				}
+				b_wahstansana = {
+				}
+				b_ziwana = {
+				}
+				b_atarawanna = {
+				}
+			}
+			c_piddaniyasa = { # 33
 				color={ 226 157 138 }
 				color2={ 255 255 255 }
 				
 				b_piddaniyasa = {
+				}
+				b_mallidaskuriya = {
 				}
 				b_ippasana = {
 				}
 				b_aliassa = {
 				}
 			}
-			c_salatiwara = { # 44
-				color={ 213 141 94 }
-				color2={ 255 255 255 }
-				
-				b_salatiwara = {
-				}
-				b_ankala = {
-				}
-			}
-			c_arawana = { # 58
-				color={ 153 3 3 }
-				color2={ 255 255 255 }
-				
-				b_arawana = {
-				}
-			}
 		}
-		d_kasula = { 
-			color={ 99 55 19 }
+		d_kasula = {
+			color={ 109 45 24 }
 			color2={ 255 255 255 }
-	
-			capital = 24
 			
-			c_kasula = { # 24
+			capital = 27 # c_kasula
+			
+			c_kasula = { # 27
 				color={ 99 55 19 }
 				color2={ 255 255 255 }
 				
-				b_kasula = {
+				b_zaparasta = {
 				}
 			}
-			c_gassu = { # 32
+			c_tahara = { # 28
 				color={ 188 129 81 }
 				color2={ 255 255 255 }
 				
-				b_gassu = {
-				}
-				b_timuhala = {
-				}
-				b_tahappisuna = {
+				b_tapapanuwa = {
 				}
 			}
-			c_istahara = { # 26
-				color={ 135 77 27 }
+			c_tarittara = { # 29
+				color={ 174 88 57 }
 				color2={ 255 255 255 }
 				
-				b_istahara = {
+				b_tarittara = {
 				}
-				b_nerik = {
+				b_athulissa = {
 				}
-				b_hatenzuwa = {
+				b_sappiduwa = {
 				}
 			}
-			c_sariya = { # 25
-				color={ 216 121 43 }
+			c_tumanna = { # 30
+				color={ 255 136 25 }
 				color2={ 255 255 255 }
 				
-				b_sariya = {
+				b_tumanna = {
 				}
-				b_almina = {
+				b_washaya = {
+				}
+				b_tuhupurpuna = {
 				}
 			}
 		}
 	}
-	
 	k_tarhuntassa = {
-		color={ 200 130 50 }
+		color={ 217 109 64 }
 		color2={ 255 255 255 }
 		
-		capital = 11
+		capital = 50 # c_tarhuntassa
 		
-		culture = luwian
-		
-		d_tarhuntassa = { 
-			color={ 247 153 153 }
+		d_tarhuntassa = {
+			color={ 237 89 74 }
 			color2={ 255 255 255 }
-	
-			capital = 11
 			
-			c_tarhuntassa = {
-				color={ 247 153 153 }
-				color2={ 255 255 255 }
-				holy_site = haianiluwi
-				
-				b_tarhuntassa = {}
-				b_talwisuwanda = {}
-			}
-			c_ura = {
-				color={ 136 6 58 }
-				color2={ 255 255 255 }
-				holy_site = ishalitethai
-				holy_site = haianiluwi
-				holy_site = assussani
-				
-				b_ura = {}
-				b_korikos = {}
-			}
-			c_saliya = {
-				color={ 213 6 58 }
-				color2={ 255 255 255 }
-				
-				b_saliya = {}
-				b_lamiya = {}
-			}
-			c_laanda = {
-				color={ 244 68 68 }
-				color2={ 255 255 255 }
-				
-				b_laanda = {}
-			}
-			c_hupisna = {
-				color={ 255 196 197 }
-				color2={ 255 255 255 }
-				
-				b_hupisna = {}
-				b_uda = {}
-			}
-		}
-		d_pitassa = { 
-			color={ 178 57 98 }
-			color2={ 255 255 255 }
-	
-			capital = 29
+			capital = 50 # c_tarhuntassa
 			
-			c_walma = {
-				color={ 178 57 98 }
-				color2={ 255 255 255 }
-				
-				b_walma = {}
-			}
-			c_sahiriya = {
-				color={ 219 57 98 }
-				color2={ 255 255 255 }
-				
-				b_sahiriya = {}
-				b_sallapa = {}
-				b_parsuhanda = {}
-			}
-			c_sinnuwanda = {
-				color={ 234 37 23 }
-				color2={ 255 255 255 }
-				
-				b_sinnuwanda = {}
-			}
-		}
-		d_kastaraya = { 
-			color={ 255 132 120 }
-			color2={ 255 255 255 }
-	
-			capital = 13
-			
-			c_kastaraya = {
-				color={ 255 132 120 }
-				color2={ 255 255 255 }
-				
-				b_kastaraya = {}
-			}
-			c_marasa = {
-				color={ 255 132 176 }
-				color2={ 255 255 255 }
-				
-				b_marasa = {}
-			}
-			c_asita = {
-				color={ 255 89 82 }
-				color2={ 255 255 255 }
-				
-				b_asita = {}
-			}
-		}
-		d_hulaya = { 
-			color={ 234 124 128 }
-			color2={ 255 255 255 }
-	
-			capital = 47
-			
-			c_lahhwiyassi = {
-				color={ 234 124 128 }
-				color2={ 255 255 255 }
-				
-				b_lahhwiyassi = {}
-			}
-			c_hulaya = {
-				color={ 255 6 13 }
-				color2={ 255 255 255 }
-				
-				b_hulaya = {}
-			}
-			c_nahita = {
-				color={ 145 4 9 }
-				color2={ 255 255 255 }
-				
-				b_nahita = {}
-			}
-			c_saranduwa = {
+			c_tarhuntassa = { # 50
 				color={ 247 79 79 }
 				color2={ 255 255 255 }
 				
-				b_saranduwa = {}
-				b_kirsu = {}
+				b_tarhuntassa = {
+				}
+				b_kirsu = {
+				}
+				b_saranduwa = {
+					holy_site = haianiluwi
+				}
 			}
-			c_sallusa = {
+			c_hupisna = { # 54
+				color={ 255 196 197 }
+				color2={ 255 255 255 }
+				
+				b_hupisna = {
+				}
+				b_tunna = {
+				}
+			}
+			c_laanda = { # 53
+				color={ 244 68 68 }
+				color2={ 255 255 255 }
+				
+				b_laanda = {
+				}
+				b_uda = {
+				}
+			}
+			c_saliya = { # 51
+				color={ 213 6 58 }
+				color2={ 255 255 255 }
+				
+				b_saliya = {
+				}
+				b_lamiya = {
+				}
+			}
+			c_ura = { # 52
+				color={ 136 6 58 }
+				color2={ 255 255 255 }
+				
+				b_ura = {
+				}
+				b_walma_tarhuntassa = {
+					holy_site = haianiluwi
+					holy_site = assussani
+				}
+			}
+			c_talwisuwanda = { # 55
+				color={ 247 153 153 }
+				color2={ 255 255 255 }
+				
+				b_talwisuwanda = {
+				}
+			}
+		}
+		d_hulaya = {
+			color={ 237 163 148 }
+			color2={ 255 255 255 }
+			
+			capital = 59 # c_hulaya
+			
+			c_hulaya = { # 59
+				color={ 255 6 13 }
+				color2={ 255 255 255 }
+				
+				b_lusna = {
+				}
+			}
+			c_lahhwiyassi = { # 58
+				color={ 234 124 128 }
+				color2={ 255 255 255 }
+				
+				b_lahhwiyassi = {
+				}
+			}
+			c_nahita = { # 57
+				color={ 145 4 9 }
+				color2={ 255 255 255 }
+				
+				b_nahita = {
+				}
+			}
+			c_sallusa = { # 56
 				color={ 145 75 77 }
 				color2={ 255 255 255 }
 				
-				b_sallusa = {}
+				b_sallusa = {
+				}
 			}
 		}
-		d_katerra_udne = { 
-			color={ 226 72 77 }
+		d_kastaraya = {
+			color={ 245 99 77 }
 			color2={ 255 255 255 }
-	
-			capital = 45
 			
-			c_hapalla = {
-				color={ 226 72 77 }
+			capital = 60 # c_asita
+			
+			c_asita = { # 60
+				color={ 255 89 82 }
 				color2={ 255 255 255 }
 				
-				b_hapalla = {}
-				b_ikkuwaniya = {}
-				b_ussa = {}
+				b_asita = {
+				}
+				b_walwara = {
+				}
 			}
-			c_sarpa = {
-				color={ 96 31 33 }
+			c_kastaraya = { # 61
+				color={ 255 132 120 }
 				color2={ 255 255 255 }
 				
-				b_sarpa= {}
+				b_parha = {
+				}
 			}
-			c_ullamma = {
+		}
+		d_katerra_udne = {
+			color={ 236 126 5 }
+			color2={ 255 255 255 }
+			
+			capital = 65 # c_nenassa
+			
+			c_nenassa = { # 65
 				color={ 226 136 0 }
 				color2={ 255 255 255 }
 				
-				b_ullamma = {}
-				b_ninassa = {}
+				b_nenassa = {
+				}
+				b_ussuna = {
+				}
+				b_parnassa = {
+				}
 			}
-			c_suwatara = {
+			c_hapalla = { # 66
+				color={ 226 72 77 }
+				color2={ 255 255 255 }
+				
+				b_hapalla = {
+				}
+			}
+			c_nahitiya = { # 68
+				color={ 96 31 33 }
+				color2={ 255 255 255 }
+				
+				b_nahitiya = {
+				}
+			}
+			c_suwatara = { # 67
 				color={ 226 105 0 }
 				color2={ 255 255 255 }
 				
-				b_suwatara = {}
-				b_lusna = {}
+				b_suwatara = {
+				}
 			}
 		}
-	}
-	
-	k_kizzuwatna = {
-		color={ 220 170 20 }
-		color2={ 255 255 255 }
-		
-		capital = 5
-		
-		culture = luwian
-		
-		d_puruma = { 
-			color={ 221 163 0 }
+		d_pitassa = {
+			color={ 229 47 103 }
 			color2={ 255 255 255 }
-	
-			capital = 5
 			
-			c_lawazantiya = {
-				color={ 221 163 0 }
-				color2={ 255 255 255 }
-				
-				b_lawazantiya = {}
-				b_adana = {}
-				b_arusna = {}
-			}
-			c_izziya = {
-				color={ 221 120 0 }
-				color2={ 255 255 255 }
-				
-				b_izziya = {}
-				b_shamal = {}
-				b_zalwar = {}
-			}
-			c_tarsa = {
-				color={ 137 118 64 }
-				color2={ 255 255 255 }
-				
-				b_tarsa = {}
-			}
-			c_zaruna = {
-				color={ 165 121 0 }
-				color2={ 255 255 255 }
-				
-				b_zaruna = {}
-				b_markasu = {}
-			}
-			c_malluma = {
-				color={ 221 60 0 }
-				color2={ 255 255 255 }
-				
-				b_malluma = {}
-			}
-		}
-		d_samura = { 
-			color={ 255 219 40 }
-			color2={ 255 255 255 }
-	
-			capital = 62
+			capital = 62 # c_sahiriya
 			
-			c_samura = {
-				color={ 255 219 40 }
+			c_sahiriya = { # 62
+				color={ 219 57 98 }
 				color2={ 255 255 255 }
 				
-				b_samura = {}
-				b_kumaha = {}
+				b_sahiriya = {
+				}
+				b_salatiwara = {
+				}
 			}
-			c_paduwanda = {
-				color={ 255 74 25 }
+			c_marasa = { # 64
+				color={ 178 57 98 }
 				color2={ 255 255 255 }
 				
-				b_paduwanda = {}
-				b_illuya = {}
-				b_tunna = {}
+				b_marasa = {
+				}
 			}
-			c_serigga = {
-				color={ 217 20 0 }
+			c_sinnuwanda = { # 63
+				color={ 234 37 23 }
 				color2={ 255 255 255 }
 				
-				b_serigga = {}
-				b_kumanni = {}
-				b_unipsum = {}
-			}
-		}
-		d_marqasa = { 
-			color={ 175 63 51 }
-			color2={ 255 255 255 }
-	
-			capital = 20
-			
-			c_mamma = {
-				color={ 175 63 51 }
-				color2={ 255 255 255 }
-				
-				b_mamma = {}
-			}
-			c_hurma = {
-				color={ 219 179 175 }
-				color2={ 255 255 255 }
-				
-				b_hurma = {}
-			}
-			c_timelkiya = {
-				color={ 175 63 51 }
-				color2={ 255 255 255 }
-				
-				b_timelkiya = {}
-			}
-			c_bulbulhum = {
-				color={ 237 121 109 }
-				color2={ 255 255 255 }
-				
-				b_bulbulhum = {}
-			}
-		}
-	}
-	
-	k_isuwa = {
-		color={ 186 56 17 }
-		color2={ 255 255 255 }
-		
-		capital = 46
-		
-		culture = isuwan
-		
-		d_mala = { 
-			color={ 142 71 71 }
-			color2={ 255 255 255 }
-	
-			capital = 19
-			
-			c_mala = {
-				color={ 142 71 71 }
-				color2={ 255 255 255 }
-				
-				b_mala = {}
-			}
-			c_kummuth = {
-				color={ 143 71 109 }
-				color2={ 255 255 255 }
-				
-				b_kummuth = {}
-				b_hahhum = {}
-				b_terussa = {}
-			}
-			c_sukziya = {
-				color={ 206 103 103 }
-				color2={ 255 255 255 }
-				
-				b_sukziya = {}
-			}
-		}
-		d_tegarama = { 
-			color={ 142 54 0 }
-			color2={ 255 255 255 }
-	
-			capital = 46
-			
-			c_tegarama = {
-				color={ 142 54 0 }
-				color2={ 255 255 255 }
-				
-				b_tegarama = {}
-				b_melid = {}
-			}
-			c_asturiya = {
-				color={ 217 84 0 }
-				color2={ 255 255 255 }
-				
-				b_asturiya = {}
-			}
-			c_arihuwa = {
-				color={ 198 125 79 }
-				color2={ 255 255 255 }
-				
-				b_arihuwa = {}
-			}
-			c_til_garimmu = {
-				color={ 198 70 55 }
-				color2={ 255 255 255 }
-				
-				b_til_garimmu = {}
-			}
-		}
-	}
-	k_kupros = {
-		color={ 184 115 51 }
-		color2={ 255 255 255 }
-		
-		capital = 68 #Enkomi (Salamis)
-		
-		hittite = "Alashiya"
-		
-		culture = cypriot
-		
-		d_salamis_cyp = { 
-			color={ 143 138 102 }
-			color2={ 255 255 255 }
-	
-			capital = 68 #Enkomi
-			
-			c_enkomi = {
-				color={ 143 138 102 }
-				color2={ 255 255 255 }
-				
-				b_enkomi = {}
-				b_salamis_cyp = {}
-			}
-			c_kition = {
-				color={ 186 66 114 }
-				color2={ 255 255 255 }
-				
-				b_kition = {}
-				b_dromolaxia = {}
-			}
-		}
-		d_paphos = { 
-			color={ 95 184 43 }
-			color2={ 255 255 255 }
-	
-			capital = 70 #Paphos
-			
-			c_paphos = {
-				color={ 95 184 43 }
-				color2={ 255 255 255 }
-				
-				b_paphos = {}
-				b_alassa = {}
-				b_episkopi = {}
-			}
-			c_maroni = {
-				color={ 69 121 64 }
-				color2={ 255 255 255 }
-				
-				b_maroni = {}
-				b_kalavasos = {}
+				b_sinnuwanda = {
+				}
+				b_ikkuwaniya = {
+				}
+				b_ussa = {
+				}
 			}
 		}
 	}
@@ -848,9 +945,7 @@ e_arzawa = {
 	capital = 161 # Wilusa (Troy)
 	
 	culture = luwian
-	
-	short_name = yes
-	
+
 	k_wilusa = {
 		color = { 216 112 77 }
 		color2 = { 255 255 255 }
@@ -1019,15 +1114,15 @@ e_arzawa = {
 			color={ 61 141 56 }
 			color2={ 255 255 255 }
 			
-			capital = 175 # c_walma_2
+			capital = 175 # c_walma
 			
-			c_walma_2 = { # 175
+			c_walma = { # 175
 				color={ 51 151 51 }
 				color2={ 255 255 255 }
 				
-				b_walma_2 = {
+				b_walma = {
 				}
-				b_parsuhanda_2 = {
+				b_parsuhanda = {
 				}
 			}
 			c_lalanda = { # 177
@@ -1036,7 +1131,7 @@ e_arzawa = {
 				
 				b_lalanda = {
 				}
-				b_sallapa_2 = {
+				b_sallapa = {
 				}
 				b_aura = {
 				}
@@ -1091,7 +1186,7 @@ e_arzawa = {
 				color={ 123 112 37 }
 				color2={ 255 255 255 }
 				
-				b_ankala_2 = {
+				b_ankala = {
 				}
 				b_kursamassa = {
 				}
@@ -1108,34 +1203,18 @@ e_arzawa = {
 		}
 	}
 	k_lukka = {
-		color = { 204 187 0 }
-		color2 = { 255 255 255 }
+		color={ 66 176 84 }
+		color2={ 255 255 255 }
 		
-		capital = 185 # Kuwalapassa
+		capital = 192 # c_awarna
 		
 		d_lukka = {
-			color={ 226 218 36 }
+			color={ 46 196 74 }
 			color2={ 255 255 255 }
 			
-			capital = 185 # c_kuwalapassa
+			capital = 192 # c_awarna
 			
-			c_kuwalapassa = { # 185
-				color={ 236 208 41 }
-				color2={ 255 255 255 }
-				
-				b_kuwalapassa = {
-				}
-			}
-			c_attarima = { # 189
-				color={ 195 240 66 }
-				color2={ 255 255 255 }
-				
-				b_attarima = {
-				}
-				b_isnati = {
-				}
-			}
-			c_awarna = { # 186
+			c_awarna = { # 192
 				color={ 36 206 69 }
 				color2={ 255 255 255 }
 				
@@ -1148,14 +1227,16 @@ e_arzawa = {
 				b_talawa = {
 				}
 			}
-			c_wiyanawanda = { # 188
-				color={ 231 180 40 }
+			c_attarima = { # 194
+				color={ 195 240 66 }
 				color2={ 255 255 255 }
 				
-				b_wiyanawanda = {
+				b_attarima = {
+				}
+				b_isnati = {
 				}
 			}
-			c_zumarri = { # 187
+			c_zumarri = { # 193
 				color={ 100 224 36 }
 				color2={ 255 255 255 }
 				
@@ -1164,6 +1245,27 @@ e_arzawa = {
 				b_hinduwa = {
 				}
 				b_suruda = {
+				}
+			}
+		}
+		d_kuwalapassa = {
+			color={ 226 218 36 }
+			color2={ 255 255 255 }
+			
+			capital = 195 # c_kuwalapassa
+			
+			c_kuwalapassa = { # 195
+				color={ 236 208 41 }
+				color2={ 255 255 255 }
+				
+				b_kuwalapassa = {
+				}
+			}
+			c_wiyanawanda = { # 196
+				color={ 231 180 40 }
+				color2={ 255 255 255 }
+				
+				b_wiyanawanda = {
 				}
 			}
 		}

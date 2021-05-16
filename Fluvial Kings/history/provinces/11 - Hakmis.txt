@@ -1,0 +1,17 @@
+# c_hakmis
+
+# County Title
+title = c_hakmis
+
+# Settlements
+max_settlements = 3
+
+b_hakmis = castle
+b_zipishurna = city
+b_tismurna = temple
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

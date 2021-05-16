@@ -1,0 +1,17 @@
+# c_talahi
+
+# County Title
+title = c_talahi
+
+# Settlements
+max_settlements = 3
+
+b_talahi = castle
+b_zippalanda = city
+b_ankuwa = temple
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

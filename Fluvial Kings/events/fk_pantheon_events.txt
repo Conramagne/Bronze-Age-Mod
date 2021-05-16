@@ -49,6 +49,39 @@ character_event = {
 }
 
 
+#Canaanite Pantheon
+character_event = {
+	id = fkp.4
+	desc = EVTDESCFKP1
+	picture = GFX_evt_blessed_by_the_gods
+	is_triggered_only = yes
+	portrait = 1300000
+	
+	option = {
+		name = OK
+		custom_tooltip = {
+			text = click_on_portrait_TT
+		}
+	}
+}
+
+#Edomite Pantheon
+character_event = {
+	id = fkp.5
+	desc = EVTDESCFKP1
+	picture = GFX_evt_blessed_by_the_gods
+	is_triggered_only = yes
+	portrait = 1300004
+	
+	option = {
+		name = OK
+		custom_tooltip = {
+			text = click_on_portrait_TT
+		}
+	}
+}
+
+
 ####Boon Events
 #Given Boon
 character_event = { 

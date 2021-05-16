@@ -1,0 +1,15 @@
+# c_hahha
+
+# County Title
+title = c_hahha
+
+# Settlements
+max_settlements = 1
+
+b_hahha = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

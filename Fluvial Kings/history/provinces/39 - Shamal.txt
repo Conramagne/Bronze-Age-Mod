@@ -1,0 +1,19 @@
+# c_shamal
+
+# County Title
+title = c_shamal
+
+# Settlements
+max_settlements = 5
+
+b_shamal = castle
+b_azitawataya = city
+b_pahara = temple
+b_izziya = castle
+b_zalwar = city
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

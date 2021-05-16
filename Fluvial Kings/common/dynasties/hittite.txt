@@ -50,9 +50,30 @@
 	name = "Hullisili"
 	culture = "hittite"
 }
+2000009 = {
+	name = "Sandusili"
+	culture = "hittite"
+}
+2000010 = {
+	name = "Imarasili"
+	culture = "hittite"
+}
+2000011 = {
+	name = "Kummili"
+	culture = "hittite"
+}
+2000012 = {
+	name = "Tegramili"
+	culture = "hittite"
+}
+2000013 = {
+	name = "Istaharili"
+	culture = "hittite"
+}
+
 
 #Isuwan Names (2001000-2001999)
-2000009 = {
+2001000 = {
 	name = "Tiwasili"
 	culture = "isuwan"
 }
@@ -130,5 +151,9 @@
 }
 2004006 = {
 	name = "Pisirili"
+	culture = "eneti"
+}
+2004007 = {
+	name = "Tumannili"
 	culture = "eneti"
 }

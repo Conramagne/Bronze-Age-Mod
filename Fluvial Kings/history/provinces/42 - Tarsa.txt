@@ -1,0 +1,16 @@
+# c_tarsa
+
+# County Title
+title = c_tarsa
+
+# Settlements
+max_settlements = 2
+
+b_tarsa = castle
+b_adaniya = city
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

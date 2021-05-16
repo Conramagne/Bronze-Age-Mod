@@ -6862,6 +6862,7 @@
 	religion = berith
 	disallow_random_traits = yes
 	father = 2306408
+	mother = 2306409
 	2364.8.12 = { birth = yes }
 	2430.1.1 = {
 		add_spouse = 2302402
@@ -6876,6 +6877,7 @@
 	religion = berith
 	disallow_random_traits = yes
 	father = 2306408
+	mother = 2306409
 	2368.1.1 = { birth = yes }
 	2488.1.1 = { death = yes }
 }
@@ -6888,6 +6890,7 @@
 	disallow_random_traits = yes
 	female = yes
 	father = 2306408
+	mother = 2306409
 	2358.1.1 = { birth = yes }
 	2420.1.1 = { death = yes }
 }
@@ -6929,16 +6932,16 @@
 	2340.1.1 = { death = yes }
 }
 
-####Others  (2310000-2319999)
+####Adamites  (2310000-2319999)
 
 ###Shemites
 
-##Terahites
+##Abrahamites
 
 #Abrahamites (2310000-2310099)
 
-2310000 = { #R'uvén
-	name = "R'uvén"
+2310000 = { #Reuvén
+	name = "Reuvén"
 	dynasty = 2300000
 	culture = israelite
 	religion = berith
@@ -6973,8 +6976,8 @@
 	2332.5.2 = { death = yes }
 }
 
-2310003 = { #Y'hudá
-	name = "Y'hudá"
+2310003 = { #Yehudá
+	name = "Yehudá"
 	dynasty = 2300003 
 	culture = israelite
 	religion = berith
@@ -7103,7 +7106,7 @@
 2310013 = { #Shechem
 	name = "Shechem"
 	culture = canaanite
-	religion = bene_elihi
+	religion = canaanite_religion
 	disallow_random_traits = yes
 	2200.1.1 = { birth = yes }
 	2260.1.1 = { death = yes }
@@ -7122,8 +7125,8 @@
 	2300.1.1 = { death = yes }
 }
 
-2310015 = { #Yakob
-	name = "Yakob"
+2310015 = { #Yisra'el
+	name = "Yisra'el"
 	dynasty = 2300013 #Shemite
 	culture = israelite
 	religion = berith
@@ -7185,8 +7188,8 @@
 	2238.1.1 = { death = yes }
 }
 
-2310018 = { #Yishaq 
-	name = "Yishaq"
+2310018 = { #Yitzhak 
+	name = "Yitzhak"
 	dynasty = 2300013 #Shemite
 	culture = israelite
 	religion = berith
@@ -7215,7 +7218,7 @@
 2310020 = { #Avraham 
 	name = "Avraham"
 	dynasty = 2300013 #Shemite
-	culture = israelite
+	culture = israelite #temporary
 	religion = berith
 	disallow_random_traits = yes
 	father = 2310021
@@ -7241,19 +7244,121 @@
 2310021 = { #Terah 
 	name = "Terah"
 	dynasty = 2300013 #Shemite
-	culture = israelite
+	culture = israelite #temporary
 	religion = berith
 	disallow_random_traits = yes
-	# father = 2310022
+	father = 2310022
 	1878.1.1 = { birth = yes }
 	2083.1.1 = { death = yes }
+}
+
+2310022 = { #Nachor 
+	name = "Nachor"
+	dynasty = 2300013 #Shemite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310023
+	1849.1.1 = { birth = yes }
+	1997.1.1 = { death = yes }
+}
+
+2310023 = { #Serug 
+	name = "Serug"
+	dynasty = 2300013 #Shemite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310025
+	mother = 2310024
+	1819.1.1 = { birth = yes }
+	2049.1.1 = { death = yes }
+}
+
+2310024 = { #Ora 
+	name = "Ora"
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	female = yes
+	1787.1.1 = { birth = yes }
+	2126.1.1 = { death = yes }
+}
+
+2310025 = { #Reu 
+	name = "Reu"
+	dynasty = 2300013 #Shemite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310026
+	1787.1.1 = { birth = yes }
+	1807.1.1 = {
+		add_spouse = 2310024
+	}
+	2126.1.1 = { death = yes }
+}
+
+2310026 = { #Peleg 
+	name = "Peleg"
+	dynasty = 2300013 #Shemite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310027
+	1757.1.1 = { birth = yes }
+	1996.1.1 = { death = yes }
+}
+
+2310027 = { #Eber 
+	name = "Eber"
+	dynasty = 2300013 #Shemite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310028
+	1723.1.1 = { birth = yes }
+	2187.1.1 = { death = yes }
+}
+
+2310028 = { #Shelach 
+	name = "Shelach"
+	dynasty = 2300013 #Shemite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310029
+	1693.1.1 = { birth = yes }
+	2126.1.1 = { death = yes }
+}
+
+2310029 = { #Arpachshad 
+	name = "Arpachshad"
+	dynasty = 2300013 #Shemite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310030
+	1658.1.1 = { birth = yes }
+	2096.1.1 = { death = yes }
+}
+
+2310030 = { #Shem 
+	name = "Shem"
+	dynasty = 2300013 #Shemite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310700
+	1558.1.1 = { birth = yes }
+	2158.1.1 = { death = yes }
 }
 
 #Esauites (2310100-2310199)
 2310100 = { #Esau
 	name = "Esau"
 	dynasty = 2300013 #Shemite
-	culture = israelite
+	culture = israelite #temporary
 	religion = berith
 	trait = twin
 	disallow_random_traits = yes
@@ -7285,11 +7390,13 @@
 	2171.1.1 = { death = yes }
 }
 
+##Nahorites
+
 #Nahorites (2310300-2310399)
 2310300 = { #Rachel 
 	name = "Rachel"
 	dynasty = 2300013 #Shemite
-	culture = israelite
+	culture = aramean
 	religion = berith
 	disallow_random_traits = yes
 	female = yes
@@ -7316,7 +7423,7 @@
 	name = "Laban"
 	dynasty = 2300013 #Shemite
 	culture = aramean
-	religion = bene_elihi
+	religion = canaanite_religion
 	disallow_random_traits = yes
 	father = 2310305
 	2070.1.1 = { birth = yes }
@@ -7329,7 +7436,7 @@
 2310303 = { #Adinah 
 	name = "Adinah"
 	culture = aramean
-	religion = bene_elihi
+	religion = canaanite_religion
 	disallow_random_traits = yes
 	female = yes
 	2070.1.1 = { birth = yes }
@@ -7352,17 +7459,17 @@
 	name = "Bethuel"
 	dynasty = 2300013 #Shemite
 	culture = aramean
-	religion = bene_elihi
+	religion = canaanite_religion
 	disallow_random_traits = yes
 	father = 2310307
 	2018.1.1 = { birth = yes }
 	2118.1.1 = { death = yes }
 }
 
-2310306 = { #Milcah 
-	name = "Milcah"
+2310306 = { #Milkah 
+	name = "Milkah"
 	culture = aramean
-	religion = bene_elihi
+	religion = canaanite_religion
 	disallow_random_traits = yes
 	female = yes
 	1958.1.1 = { birth = yes }
@@ -7373,7 +7480,7 @@
 	name = "Nahor"
 	dynasty = 2300013 #Shemite
 	culture = aramean
-	religion = bene_elihi
+	religion = canaanite_religion
 	disallow_random_traits = yes
 	father = 2310021
 	1958.1.1 = { birth = yes }
@@ -7383,4 +7490,258 @@
 	2058.1.1 = { death = yes }
 }
 
+##Haranites
+
 #Haranites (2310400-2310499)
+
+###Hamites
+
+##Hamites
+
+#Hamites (2310500-2310599)
+
+###Japhethites
+
+##Japhethites
+
+#Japhethites (2310600-2310699)
+
+###Adamites
+
+##Adamites
+
+#Adamites (2310700-2310799)
+2310700 = { #Noah 
+	name = "Noah"
+	dynasty = 2300014 #Adamite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310701
+	1056.1.1 = { birth = yes }
+	2006.1.1 = { death = yes }
+}
+
+2310701 = { #Lemech 
+	name = "Lemech"
+	dynasty = 2300014 #Adamite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310702
+	874.1.1 = { birth = yes }
+	1651.1.1 = { death = yes }
+}
+
+2310702 = { #Methuselah 
+	name = "Methuselah"
+	dynasty = 2300014 #Adamite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310703
+	687.1.1 = { birth = yes }
+	1656.1.1 = { death = yes }
+}
+
+2310703 = { #Enoch 
+	name = "Enoch"
+	dynasty = 2300014 #Adamite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310704
+	622.1.1 = { birth = yes }
+	987.1.1 = { death = yes }
+}
+
+2310704 = { #Jared 
+	name = "Jared"
+	dynasty = 2300014 #Adamite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310705
+	460.1.1 = { birth = yes }
+	1422.1.1 = { death = yes }
+}
+
+2310705 = { #Mahalalel 
+	name = "Mahalalel"
+	dynasty = 2300014 #Adamite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310706
+	395.1.1 = { birth = yes }
+	1290.1.1 = { death = yes }
+}
+
+2310706 = { #Kenan 
+	name = "Kenan"
+	dynasty = 2300014 #Adamite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310707
+	325.1.1 = { birth = yes }
+	1235.1.1 = { death = yes }
+}
+
+2310707 = { #Enos 
+	name = "Enos"
+	dynasty = 2300014 #Adamite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310708
+	235.1.1 = { birth = yes }
+	1140.1.1 = { death = yes }
+}
+
+2310708 = { #Seth 
+	name = "Seth"
+	dynasty = 2300014 #Adamite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310710
+	mother = 2310711
+	130.1.1 = { birth = yes }
+	1042.1.1 = { death = yes }
+}
+
+2310709 = { #Abel 
+	name = "Abel"
+	dynasty = 2300014 #Adamite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310710
+	mother = 2310711
+	1.10.8 = { birth = yes }
+	41.1.7 = { 
+		death = {
+			death_reason = death_murder
+			killer = 2310800
+		} 
+	}
+}
+
+2310710 = { #Adam 
+	name = "Adam"
+	dynasty = 2300014 #Adamite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	1.10.7 = { birth = yes }
+	1.10.7 = {
+		add_spouse = 2310711
+	}
+	931.1.7 = { death = yes }
+}
+
+2310711 = { #Havva
+	name = "Havva"
+	dynasty = 2300014 #Adamite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	female = yes
+	1.10.7 = { birth = yes }
+	931.1.7 = { death = yes }
+}
+
+
+###Cainites
+
+##Cainites
+
+#Cainites (2310800-2310899)
+2310800 = { #Cain 
+	name = "Cain"
+	dynasty = 2300014 #Adamite
+	culture = israelite #temporary
+	religion = berith
+	disallow_random_traits = yes
+	father = 2310710
+	mother = 2310711
+	1.10.8 = { birth = yes }
+	731.1.7 = { death = yes }
+}
+
+####Others  (2320000-2329999)
+
+#Kings of Edom (2320000-2320099)
+
+2320000 = { #Bela, King of Edom
+	name = "Bela"
+	dynasty = 2300015 #ben Beor
+	culture = canaanite
+	religion = edomite_religion
+	father = 2320001
+	2505.1.1 = { birth = yes }
+	2565.1.1 = { death = yes }
+}
+
+2320001 = { #Beor 
+	name = "Beor"
+	dynasty = 2300015 #ben Beor
+	culture = canaanite
+	religion = edomite_religion
+	2475.1.1 = { birth = yes }
+	2535.1.1 = { death = yes }
+}
+
+#Kings of Moab  (2320100-2320199)
+2320100 = { #Abdmelqart, King of Edom
+	name = "Abdmelqart"
+	dynasty = 2300016 #ben Zippor
+	culture = canaanite
+	religion = canaanite_religion
+	father = 2320101
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+2320101 = { #Balak, King of Edom
+	name = "Balak"
+	dynasty = 2300016 #ben Zippor
+	culture = canaanite
+	religion = canaanite_religion
+	disallow_random_traits = yes
+	father = 2320102
+	2460.1.1 = { birth = yes }
+	2520.1.1 = { death = yes }
+}
+
+2320102 = { #Zippor, King of Edom
+	name = "Zippor"
+	dynasty = 2300016 #ben Zippor
+	culture = canaanite
+	religion = canaanite_religion
+	disallow_random_traits = yes
+	2420.1.1 = { birth = yes }
+	2480.1.1 = { death = yes }
+}
+
+#Kings of Bashan  (2320200-2320299)
+2320200 = { #Shaushkamuwa, King of Bashan
+	name = "Shaushkamuwa"
+	dynasty = 2300017 #ben Og
+	culture = amorite
+	religion = ili_abinia
+	father = 2320201
+	2465.1.1 = { birth = yes }
+	2530.1.1 = { death = yes }
+}
+
+2320201 = { #Og, King of Bashan
+	name = "Og"
+	dynasty = 2300017 #ben Og
+	culture = amorite
+	religion = ili_abinia
+	disallow_random_traits = yes
+	2440.1.1 = { birth = yes }
+	2485.1.1 = { death = yes }
+}

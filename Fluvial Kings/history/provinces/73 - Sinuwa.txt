@@ -1,0 +1,15 @@
+# c_sinuwa
+
+# County Title
+title = c_sinuwa
+
+# Settlements
+max_settlements = 1
+
+b_sinuwa = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

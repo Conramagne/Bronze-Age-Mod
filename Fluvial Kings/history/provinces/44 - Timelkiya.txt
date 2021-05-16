@@ -1,0 +1,15 @@
+# c_timelkiya
+
+# County Title
+title = c_timelkiya
+
+# Settlements
+max_settlements = 1
+
+b_timelkiya = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

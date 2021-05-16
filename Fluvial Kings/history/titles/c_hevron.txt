@@ -4,5 +4,5 @@
 }
 2527.1.1={
 	liege = d_judahite
-	holder = 2302200
+	holder = 2302500
 }

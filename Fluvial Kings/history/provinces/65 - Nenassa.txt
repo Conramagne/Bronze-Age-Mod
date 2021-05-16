@@ -1,0 +1,17 @@
+# c_nenassa
+
+# County Title
+title = c_nenassa
+
+# Settlements
+max_settlements = 3
+
+b_nenassa = castle
+b_ussuna = city
+#b_parnassa = temple
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

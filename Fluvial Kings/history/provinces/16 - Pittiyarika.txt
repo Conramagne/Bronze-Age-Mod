@@ -1,0 +1,16 @@
+# c_pittiyarika
+
+# County Title
+title = c_pittiyarika
+
+# Settlements
+max_settlements = 2
+
+b_pittiyarika = castle
+b_aryiza = city
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

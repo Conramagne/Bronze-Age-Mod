@@ -4,4 +4,8 @@
 }
 2520.1.1={
 	holder = 2201300 #Pandaros
+	set_tribute_suzerain = {
+		who = e_hittite_empire
+		type = default
+	}
 }

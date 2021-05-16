@@ -1,0 +1,17 @@
+# c_lawazantiya
+
+# County Title
+title = c_lawazantiya
+
+# Settlements
+max_settlements = 3
+
+b_lawazantiya = castle
+b_arusna = city
+b_zaruna = temple
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

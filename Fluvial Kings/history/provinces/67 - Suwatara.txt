@@ -1,0 +1,15 @@
+# c_suwatara
+
+# County Title
+title = c_suwatara
+
+# Settlements
+max_settlements = 1
+
+b_suwatara = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

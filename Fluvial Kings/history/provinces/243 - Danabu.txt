@@ -1,0 +1,15 @@
+# c_danabu
+
+# County Title
+title = c_danabu
+
+# Settlements
+max_settlements = 1
+
+b_danabu = castle
+
+# Misc
+culture = aramean
+religion = canaanite_religion
+
+#History

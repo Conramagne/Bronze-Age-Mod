@@ -1,0 +1,18 @@
+# c_sakdunuwa
+
+# County Title
+title = c_sakdunuwa
+
+# Settlements
+max_settlements = 4
+
+b_sakdunuwa = castle
+b_suluppa = city
+b_marista = temple
+b_arziya = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

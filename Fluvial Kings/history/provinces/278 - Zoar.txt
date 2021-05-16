@@ -1,0 +1,16 @@
+# c_zoar
+
+# County Title
+title = c_zoar
+
+# Settlements
+max_settlements = 1
+
+b_zoar = castle
+#b_luhit = city
+
+# Misc
+culture = canaanite
+religion = edomite_religion
+
+#History

@@ -1,0 +1,15 @@
+# c_ezion_geber
+
+# County Title
+title = c_ezion_geber
+
+# Settlements
+max_settlements = 1
+
+b_ezion_geber = castle
+
+# Misc
+culture = canaanite
+religion = edomite_religion
+
+#History

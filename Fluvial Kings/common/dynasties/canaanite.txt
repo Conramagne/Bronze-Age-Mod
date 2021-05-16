@@ -2,72 +2,92 @@
 
 #Israelite Names (2300000-2300999)
 2300000 = {
-	name = "ben R'uvén"
+	name = "HaReuvni"
 	culture = "israelite"
 	used_for_random = no
 }
 2300001 = {
-	name = "ben Shim'ón"
+	name = "HaShim'óni"
 	culture = "israelite"
 	used_for_random = no
 }
 2300002 = {
-	name = "ben Gad"
+	name = "HaGadi"
 	culture = "israelite"
 	used_for_random = no
 }
 2300003 = {
-	name = "ben Y'hudá"
+	name = "HaYehudi"
 	culture = "israelite"
 	used_for_random = no
 }
 2300004 = {
-	name = "ben Yisakhár"
+	name = "HaYisakhári"
 	culture = "israelite"
 	used_for_random = no
 }
 2300005 = {
-	name = "ben Z'vulún"
+	name = "HaZ'vulúni"
 	culture = "israelite"
 	used_for_random = no
 }
 2300006 = {
-	name = "ben Menashé"
+	name = "HaMenashi"
 	culture = "israelite"
 	used_for_random = no
 }
 2300007 = {
-	name = "ben 'Efráyim"
+	name = "Ha'Efráyimi"
 	culture = "israelite"
 	used_for_random = no
 }
 2300008 = {
-	name = "ben Binyamin"
+	name = "HaBinyamini"
 	culture = "israelite"
 	used_for_random = no
 }
 2300009 = {
-	name = "ben Dan"
+	name = "HaDani"
 	culture = "israelite"
 	used_for_random = no
 }
 2300010 = {
-	name = "ben 'Ashér"
+	name = "Ha'Ashéri"
 	culture = "israelite"
 	used_for_random = no
 }
 2300011 = {
-	name = "ben Naftalí"
+	name = "HaNaftalí"
 	culture = "israelite"
 	used_for_random = no
 }
 2300012 = {
-	name = "ben Leví"
+	name = "HaLeví"
 	culture = "israelite"
 	used_for_random = no
 }
 2300013 = {
-	name = "ben Shém"
+	name = "HaShémi"
 	culture = "israelite"
+	used_for_random = no
+}
+2300014 = {
+	name = "ben Adam"
+	culture = "israelite"
+	used_for_random = no
+}
+2300015 = {
+	name = "ben Beor"
+	culture = "canaanite"
+	used_for_random = no
+}
+2300016 = {
+	name = "ben Zippor"
+	culture = "canaanite"
+	used_for_random = no
+}
+2300017 = {
+	name = "ben Og"
+	culture = "amorite"
 	used_for_random = no
 }

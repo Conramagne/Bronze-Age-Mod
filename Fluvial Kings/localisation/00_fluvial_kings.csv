@@ -1,6 +1,6 @@
 ###########Cultures###########
 anatolian;Hardu;;;;;;;;;;;;;x
-hittite;Nešili;;;;;;;;;;;;;x
+hittite;Nešumines;;;;;;;;;;;;;x
 eneti;Eneti;;;;;;;;;;;;;x
 luwian;Luwili;;;;;;;;;;;;;x
 kaskian;Kaška;;;;;;;;;;;;;x
@@ -38,9 +38,10 @@ lemnian;Lemniakós;;;;;;;;;;;;;x
 roe;Ro'e;;;;;;;;;;;;;x
 amorite;Amurrum;;;;;;;;;;;;;x
 aramean;Aramaye;;;;;;;;;;;;;x
-canaanite;B'nai Kena'an;;;;;;;;;;;;;x
-israelite;B'nai Yisra'el;;;;;;;;;;;;;x
+canaanite;B'nei Kena'an;;;;;;;;;;;;;x
+israelite;B'nei Yisra'el;;;;;;;;;;;;;x
 phoenician;Ponnim;;;;;;;;;;;;;x
+elohim;Elohim;;;;;;;;;;;;;x
 
 ###########Government and Laws###########
 feudal_government;Local Polity;;;;;;;;;;;;;x
@@ -109,18 +110,20 @@ ze_administration_laws_3_option;Palatial;;;;;;;;;;;;;x
 ze_administration_laws_3_desc;Palatial societies are based entirely upon the central palace and its bureaucracy. The palace complex manages all affairs of the realm, with smaller cities existing to serve it. This system is highly centralized, which lends itself both a rich state and a disgruntled set of vassals.;;;;;;;;;;;;;x
 
 ###########Religions###########
-bnai_avraham;B'nai Avraham;;;;;;;;;;;;;x
+bnai_avraham;B'nei Avraham;;;;;;;;;;;;;x
 
 berith;B'rith;;;;;;;;;;;;;x
 berith_DESC;“Blessed are you, Adonai Eloheinu, King of the universe.”\n\nIt was in the dust of the heathen streets of Ur that Avraham ben Tera heard the voice of the One God. At His command Avraham braved hardship and war leading his household into Canaan, where he received the instructions for the Covenant. Out of his loins will come a great nation it is said, and now the sons of his grandson Yisra'el bin Yitzhak have become an extended family of twelve tribes. Under the leadership of Moshe they defied the Kings of Mizrayim and were instructed by him in the Law. Their priests are usually drawn from the Tribe of Levi, and their duties include ritual animal sacrifice and the smearing of blood in atonement for sins.;;;;;;;;;;;;;x
 
-bnai_kenaan;B'nai Kenaan;;;;;;;;;;;;;x
+bnai_kenaan;B'nei Kenaan;;;;;;;;;;;;;x
 
-barqos;Barqos;;;;;;;;;;;;;x
-barqos_DESC;The men of Edom are not wholly sons of Kenaan, but are indeed kin to the Yisraelim. These sons of Esau have turned to idolatry and nearly forgotten the covenant of their father Avraham ben Terah. They do however retain the practice of circumcision and name El Shaddai among the gods worthy of veneration. Qos is their patron god, the archer who gleams forth in the desert and hunts his foes like the lion hunts the antelope. Qos is also worshipped by the Nabatu and others of the banu Yishma'el under the name “Quzah”.;;;;;;;;;;;;;x,,,
+edomite_religion;Kat Qaws;;;;;;;;;;;;;x
+edomite_religion_DESC;The men of Edom are not wholly sons of Kenaan, but are indeed kin to the Yisraelim. These sons of Esau have turned to idolatry and nearly forgotten the covenant of their father Avraham ben Terah. They do however retain the practice of circumcision and name El Shaddai among the gods worthy of veneration. Qaws is their patron god, the archer who gleams forth in the desert and hunts his foes like the lion hunts the antelope. Qaws is also worshipped by the Nabatu and others of the Banu Yishma'el under the name “Quzah”.;;;;;;;;;;;;;x
+edomite_religion_FEATURES;§Y*§! Kat Qaws rulers may contact the gods Qaws, 'El, Ba'al Hadad, and Asherah.\n;;;;;;;;;;;;;x
 
-bene_elihi;Bene Elihi;;;;;;;;;;;;;x
-bene_elihi_DESC;The fertile westlands of Kenaan are home to a unique blend of gods and heroes. The creator and gray-haired father of the Elihi is El “The Bull” who rules from his tent atop mount Sappan and instructs his children and servants alongside his consort Asherah. Ba’al Hadaad son of Dagon holds lightning in the palm of his hand and brings the summer rains, in the youth of the world he challenged wicked Yam of the sea and defeated the coiling serpent Litanu. Fiery Molek fumes and demands offerings from his followers and grants them boons of health and herds. Each city and king tends to have a particular patron from among the pantheon.;;;;;;;;;;;;;x,,,,
+canaanite_religion;Kat Elohim;;;;;;;;;;;;;x
+canaanite_religion_DESC;The fertile westlands of Kenaan are home to a unique blend of gods and heroes. The creator and gray-haired father of the Elohim is El “The Bull” who rules from his tent atop mount Sappan and instructs his children and servants alongside his consort Asherah. Ba’al Hadad son of Dagon holds lightning in the palm of his hand and brings the summer rains, in the youth of the world he challenged wicked Yam of the sea and defeated the coiling serpent Litanu. Fiery Molek fumes and demands offerings from his followers and grants them boons of health and herds. Each city and king tends to have a particular patron from among the pantheon.;;;;;;;;;;;;;x
+canaanite_religion_FEATURES;§Y*§! Kat Elohim rulers may contact the gods 'El, Ba'al Hadad, Asherah, and Resheph.\n;;;;;;;;;;;;;x
 
 ili_abinia;Ili Abinia;;;;;;;;;;;;;x
 ili_abinia_DESC;The traditions and cults of the Amurru, a tall, brash, and ancient people of mountain and pasture. They ruled as Kings and Princes over the Akkadi and Sumeru for 500 years and carried their gods with them on the backs of their furious chariots. The old gods of their forefathers have been preserved outside of Akkadi in the plains and deserts of the westlands. At the head of the host of Hosts is El Amurru, god of the high mountains and desert wind who leads the familiar host of the gods of Kenaan and Akkadi. Belet-Seri is his wife and queen of the desert, and Ba’al Hadad the Thunderer is his regent.;;;;;;;;;;;;;x
@@ -134,12 +137,11 @@ pihassasi;Pihassasi;;;;;;;;;;;;;x
 
 ishalitethai;Ishalitethai;;;;;;;;;;;;;x
 ishalitethai_DESC;The Nešili took up the mantle of the peoples they conquered and thereafter called themselves heirs to Hatti. Their gods still have the fierce air of the chariot and the steppe about them, every city and village swears itself to a different god of thunder and celebrates the defeat of the serpent Illuyanka every spring. The Great King of the Hatti is called “Our Sun” by his subjects who believe that his power on earth is drawn from the stormgod Tarhunna and his queen Arinniti of the sun. Tarhunna was of the Nešili, and Arinniti of the Old Hatti. Their marriage symbolized the union of two great nations and reflects the dual ancestry of the inhabitants of Hatti. At his investiture the Sallihassu of Hattussa symbolically marries the Sun and is proclaimed High Priest and Regent of the gods.;;;;;;;;;;;;;x
-ishalitethai_FEATURES;§Y*§! Ishalitethai rulers may contact the gods Tarhunna, Arinniti, and Telipinu.\n;;;;;;;;;;;;;x
+ishalitethai_FEATURES;§Y*§! Ishalitethai rulers may contact the gods Tarhunna, Arinniti, and Telipinu.\n§Y*§! Ishalitethai rulers may raid others for piety.\n;;;;;;;;;;;;;x
 
 haianiluwi;Haianiluwi;;;;;;;;;;;;;x
 haianiluwi_DESC;The Luwi traditions and gods are kin to their Nešili cousins. Tarhunna the Thunderer brings the summer rains and fattens the kine, and from the haft of his axe hangs great bunches of grapes and vines. Freemen pray to him in their huts for golden grain and friendly weather while princes and chieftains pray in loud shouts to heaven on the fields of a chariot filled battle. Mount Korikos is believed to be the site of the Dracomachy where Tarhunna and Tiwaz the Father-Sun slew the great Serpent to win back Tarhunna’s stolen eyes and heart. The festival of Puruli is held in spring to celebrate the death of the dragon and triumph of the gods.;;;;;;;;;;;;;x
 haianiluwi_FEATURES;§Y*§! Haianiluwi rulers may contact the gods Tarhunna, Arinniti, and Telipinu.\n;;;;;;;;;;;;;x
-
 
 hellenic;Hellenic;;;;;;;;;;;;;x
 
@@ -155,7 +157,7 @@ european_group;Europes;;;;;;;;;;;;;x
 
 dentudisas;Dentudisas;;;;;;;;;;;;;x
 dentudisas_DESC;Thrax’s sons are a ferocious and tempestuous lot, according to some they are the most numerous of all the peoples in the world. The clang of metal, the sweet sound of the war horn and the rattle of the javelin resound throughout the land while the moldering bones of ancient kings lay upon piles of weapons and treasure beneath high burial mounds. Sabázios the fair horseman gallops across the heavens and tramples the serpents under the sharp hooves of his steed. Woe to the enemies of Thrax, for when taken in battle they are almost always offered in sacrifice to battle-glad Pleistoros.;;;;;;;;;;;;;x
-dentudisas_FEATURES;§Y*§! Dentudisas rulers may contact the gods Sabázios, Pleistoros, and Derzelas.\n;;;;;;;;;;;;;x
+dentudisas_FEATURES;§Y*§! Dentudisas rulers may contact the gods Sabázios, Pleistoros, and Derzelas.\n§Y*§! Dentudisas rulers may sacrifice captured commanders to Pleistoros\n;;;;;;;;;;;;;x
 
 doumos;Doumos;;;;;;;;;;;;;x
 doumos_FEATURES;§Y*§! Doumos rulers may contact the gods Sabázios and Kubeleya.\n;;;;;;;;;;;;;x
@@ -171,7 +173,7 @@ THE_LUWIAN_ISTANDANT;The Luwian Istandant;;;;;;;;;;;;;x
 THE_NESILI_ISTANDANT;The Nešili Istandant;;;;;;;;;;;;;x
 THE_SURAS_LEGENDS;The Suras' Legends;;;;;;;;;;;;;x
 THE_TORAH;The Torah;;;;;;;;;;;;;x
-THE_QOS_KTOVET;The Qos K'tovet;;;;;;;;;;;;;x
+THE_QAWS_KTOVET;The Qaws K'tovet;;;;;;;;;;;;;x
 WITIOS;Witios;;;;;;;;;;;;;x #From Phrygian wit- (to know), and tios (gods)
 
 GOD_ADONAI;Adonai;;;;;;;;;;;;;x
@@ -228,6 +230,7 @@ GOD_NASU;Nasu;;;;;;;;;;;;;x
 GOD_PESEDAEN;Pešedaen;;;;;;;;;;;;;x
 GOD_PLEISTOROS;Pleistoros;;;;;;;;;;;;;x
 GOD_POSEIDAON;Poseidaon;;;;;;;;;;;;;x
+GOD_QAWS;Qaws;;;;;;;;;;;;;x
 GOD_RESHEPH;Resheph;;;;;;;;;;;;;x
 GOD_SABAZIOS;Sabázios;;;;;;;;;;;;;x
 GOD_SHAMASH;Shamash;;;;;;;;;;;;;x
@@ -309,6 +312,7 @@ d_ili_abinia_adj;Priestly;;;;;;;;;;;;;x
 d_haianiluwi;High Haianiluwi Priesthood;;;;;;;;;;;;;x
 d_haianiluwi_adj;Priestly;;;;;;;;;;;;;x
 e_european_pantheon;Europes Pantheon;;;;;;;;;;;;;x
+e_canaanite_religion_pantheon;Kat Elohim Pantheon;;;;;;;;;;;;;x
 e_hellenic_pantheon;Hellenic Pantheon;;;;;;;;;;;;;x
 e_pihassasi_pantheon;Pihassasi Pantheon;;;;;;;;;;;;;x
 
@@ -486,14 +490,252 @@ king_female_cypriot;Basilissa;;;;;;;;;;;;;x
 emperor_cypriot;Wanax;;;;;;;;;;;;;x
 emperor_female_cypriot;Wanaxia;;;;;;;;;;;;;x
 
-count_dorian;Phularkhos;;;;;;;;;;;;;x #placeholder
-count_female_dorian;Phularkhosa;;;;;;;;;;;;;x #placeholder
-duke_dorian;Arkhon;;;;;;;;;;;;;x #placeholder
-duke_female_dorian;Arkhousa;;;;;;;;;;;;;x #placeholder
-king_dorian;Basileus;;;;;;;;;;;;;x #placeholder
-king_female_dorian;Basilissa;;;;;;;;;;;;;x #placeholder
-emperor_dorian;Hegemon;;;;;;;;;;;;;x #placeholder
-emperor_female_dorian;Hegemonia;;;;;;;;;;;;;x #placeholder
+barony_of_aeolian;Phroúrion of;;;;;;;;;;;;;x
+baron_aeolian;Hegemon;;;;;;;;;;;;;x
+baron_aeolian_female;Hegemonia;;;;;;;;;;;;;x
+county_of_aeolian;Khora of;;;;;;;;;;;;;x
+count_aeolian;Despótes;;;;;;;;;;;;;x
+count_female_aeolian;Déspoina;;;;;;;;;;;;;x
+duchy_of_aeolian;Megále Khora of;;;;;;;;;;;;;x
+duke_aeolian;Arkhon;;;;;;;;;;;;;x
+duke_female_aeolian;Arkhousa;;;;;;;;;;;;;x
+kingdom_of_aeolian;Basileía of;;;;;;;;;;;;;x
+king_aeolian;Basileús;;;;;;;;;;;;;x
+king_female_aeolian;Basilissa;;;;;;;;;;;;;x
+empire_of_aeolian;Megále Basileía of;;;;;;;;;;;;;x
+emperor_aeolian;Mégas Basileús;;;;;;;;;;;;;x
+emperor_female_aeolian;Megále Basileús;;;;;;;;;;;;;x
+city_barony_of_aeolian;Dêmos;;;;;;;;;;;;;x
+city_baron_aeolian;Demarkhos;;;;;;;;;;;;;x
+city_baron_aeolian_female;Demarkhos;;;;;;;;;;;;;x
+tribal_barony_of_aeolian;Phule of;;;;;;;;;;;;;x
+tribal_baron_aeolian;Hegemon;;;;;;;;;;;;;x
+tribal_baron_aeolian_female;Hegemonia;;;;;;;;;;;;;x
+tribal_county_of_aeolian;Éthnos of;;;;;;;;;;;;;x
+tribal_count_aeolian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_count_female_aeolian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_duchy_of_aeolian;Méga Éthnos of;;;;;;;;;;;;;x
+tribal_duke_aeolian;Mégas Ethnárkhes;;;;;;;;;;;;;x
+tribal_duke_female_aeolian;Megále Ethnárkhes;;;;;;;;;;;;;x
+tribal_kingdom_of;Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_king_aeolian;Basilískos;;;;;;;;;;;;;x
+tribal_king_female_aeolian;Basilískos;;;;;;;;;;;;;x
+tribal_empire_of;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_emperor_aeolian;MégasBasilískos;;;;;;;;;;;;;x
+tribal_emperor_female_aeolian;Megále Basilískos;;;;;;;;;;;;;x
+
+barony_of_arcadian;Phroúrion of;;;;;;;;;;;;;x
+baron_arcadian;Hegemon;;;;;;;;;;;;;x
+baron_arcadian_female;Hegemonia;;;;;;;;;;;;;x
+county_of_arcadian;Khora of;;;;;;;;;;;;;x
+count_arcadian;Despótes;;;;;;;;;;;;;x
+count_female_arcadian;Déspoina;;;;;;;;;;;;;x
+duchy_of_arcadian;Megále Khora of;;;;;;;;;;;;;x
+duke_arcadian;Arkhon;;;;;;;;;;;;;x
+duke_female_arcadian;Arkhousa;;;;;;;;;;;;;x
+kingdom_of_arcadian;Basileía of;;;;;;;;;;;;;x
+king_arcadian;Basileús;;;;;;;;;;;;;x
+king_female_arcadian;Basilissa;;;;;;;;;;;;;x
+empire_of_arcadian;Megále Basileía of;;;;;;;;;;;;;x
+emperor_arcadian;Mégas Basileús;;;;;;;;;;;;;x
+emperor_female_arcadian;Megále Basileús;;;;;;;;;;;;;x
+city_barony_of_arcadian;Dêmos;;;;;;;;;;;;;x
+city_baron_arcadian;Demarkhos;;;;;;;;;;;;;x
+city_baron_arcadian_female;Demarkhos;;;;;;;;;;;;;x
+tribal_barony_of_arcadian;Phule of;;;;;;;;;;;;;x
+tribal_baron_arcadian;Hegemon;;;;;;;;;;;;;x
+tribal_baron_arcadian_female;Hegemonia;;;;;;;;;;;;;x
+tribal_county_of_arcadian;Éthnos of;;;;;;;;;;;;;x
+tribal_count_arcadian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_count_female_arcadian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_duchy_of_arcadian;Méga Éthnos of;;;;;;;;;;;;;x
+tribal_duke_arcadian;Mégas Ethnárkhes;;;;;;;;;;;;;x
+tribal_duke_female_arcadian;Megále Ethnárkhes;;;;;;;;;;;;;x
+tribal_kingdom_of;Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_king_arcadian;Basilískos;;;;;;;;;;;;;x
+tribal_king_female_arcadian;Basilískos;;;;;;;;;;;;;x
+tribal_empire_of;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_emperor_arcadian;MégasBasilískos;;;;;;;;;;;;;x
+tribal_emperor_female_arcadian;Megále Basilískos;;;;;;;;;;;;;x
+
+barony_of_cypriot_dorian;Phroúrion of;;;;;;;;;;;;;x
+baron_cypriot_dorian;Hegemon;;;;;;;;;;;;;x
+baron_cypriot_dorian_female;Hegemonia;;;;;;;;;;;;;x
+county_of_cypriot_dorian;Khora of;;;;;;;;;;;;;x
+count_cypriot_dorian;Despótes;;;;;;;;;;;;;x
+count_female_cypriot_dorian;Déspoina;;;;;;;;;;;;;x
+duchy_of_cypriot_dorian;Megále Khora of;;;;;;;;;;;;;x
+duke_cypriot_dorian;Arkhon;;;;;;;;;;;;;x
+duke_female_cypriot_dorian;Arkhousa;;;;;;;;;;;;;x
+kingdom_of_cypriot_dorian;Basileía of;;;;;;;;;;;;;x
+king_cypriot_dorian;Basileús;;;;;;;;;;;;;x
+king_female_cypriot_dorian;Basilissa;;;;;;;;;;;;;x
+empire_of_cypriot_dorian;Megále Basileía of;;;;;;;;;;;;;x
+emperor_cypriot_dorian;Mégas Basileús;;;;;;;;;;;;;x
+emperor_female_cypriot_dorian;Megále Basileús;;;;;;;;;;;;;x
+city_barony_of_cypriot_dorian;Dêmos;;;;;;;;;;;;;x
+city_baron_cypriot_dorian;Demarkhos;;;;;;;;;;;;;x
+city_baron_cypriot_dorian_female;Demarkhos;;;;;;;;;;;;;x
+tribal_barony_of_cypriot_dorian;Phule of;;;;;;;;;;;;;x
+tribal_baron_cypriot_dorian;Hegemon;;;;;;;;;;;;;x
+tribal_baron_cypriot_dorian_female;Hegemonia;;;;;;;;;;;;;x
+tribal_county_of_cypriot_dorian;Éthnos of;;;;;;;;;;;;;x
+tribal_count_cypriot_dorian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_count_female_cypriot_dorian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_duchy_of_cypriot_dorian;Méga Éthnos of;;;;;;;;;;;;;x
+tribal_duke_cypriot_dorian;Mégas Ethnárkhes;;;;;;;;;;;;;x
+tribal_duke_female_cypriot_dorian;Megále Ethnárkhes;;;;;;;;;;;;;x
+tribal_kingdom_of;Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_king_cypriot_dorian;Basilískos;;;;;;;;;;;;;x
+tribal_king_female_cypriot_dorian;Basilískos;;;;;;;;;;;;;x
+tribal_empire_of;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_emperor_cypriot_dorian;MégasBasilískos;;;;;;;;;;;;;x
+tribal_emperor_female_cypriot_dorian;Megále Basilískos;;;;;;;;;;;;;x
+
+barony_of_dorian;Phroúrion of;;;;;;;;;;;;;x
+baron_dorian;Hegemon;;;;;;;;;;;;;x
+baron_dorian_female;Hegemonia;;;;;;;;;;;;;x
+county_of_dorian;Khora of;;;;;;;;;;;;;x
+count_dorian;Despótes;;;;;;;;;;;;;x
+count_female_dorian;Déspoina;;;;;;;;;;;;;x
+duchy_of_dorian;Megále Khora of;;;;;;;;;;;;;x
+duke_dorian;Arkhon;;;;;;;;;;;;;x
+duke_female_dorian;Arkhousa;;;;;;;;;;;;;x
+kingdom_of_dorian;Basileía of;;;;;;;;;;;;;x
+king_dorian;Basileús;;;;;;;;;;;;;x
+king_female_dorian;Basilissa;;;;;;;;;;;;;x
+empire_of_dorian;Megále Basileía of;;;;;;;;;;;;;x
+emperor_dorian;Mégas Basileús;;;;;;;;;;;;;x
+emperor_female_dorian;Megále Basileús;;;;;;;;;;;;;x
+city_barony_of_dorian;Dêmos;;;;;;;;;;;;;x
+city_baron_dorian;Demarkhos;;;;;;;;;;;;;x
+city_baron_dorian_female;Demarkhos;;;;;;;;;;;;;x
+tribal_barony_of_dorian;Phule of;;;;;;;;;;;;;x
+tribal_baron_dorian;Hegemon;;;;;;;;;;;;;x
+tribal_baron_dorian_female;Hegemonia;;;;;;;;;;;;;x
+tribal_county_of_dorian;Éthnos of;;;;;;;;;;;;;x
+tribal_count_dorian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_count_female_dorian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_duchy_of_dorian;Méga Éthnos of;;;;;;;;;;;;;x
+tribal_duke_dorian;Mégas Ethnárkhes;;;;;;;;;;;;;x
+tribal_duke_female_dorian;Megále Ethnárkhes;;;;;;;;;;;;;x
+tribal_kingdom_of;Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_king_dorian;Basilískos;;;;;;;;;;;;;x
+tribal_king_female_dorian;Basilískos;;;;;;;;;;;;;x
+tribal_empire_of;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_emperor_dorian;MégasBasilískos;;;;;;;;;;;;;x
+tribal_emperor_female_dorian;Megále Basilískos;;;;;;;;;;;;;x
+
+barony_of_ionian;Phroúrion of;;;;;;;;;;;;;x
+baron_ionian;Hegemon;;;;;;;;;;;;;x
+baron_ionian_female;Hegemonia;;;;;;;;;;;;;x
+county_of_ionian;Khora of;;;;;;;;;;;;;x
+count_ionian;Despótes;;;;;;;;;;;;;x
+count_female_ionian;Déspoina;;;;;;;;;;;;;x
+duchy_of_ionian;Megále Khora of;;;;;;;;;;;;;x
+duke_ionian;Arkhon;;;;;;;;;;;;;x
+duke_female_ionian;Arkhousa;;;;;;;;;;;;;x
+kingdom_of_ionian;Basileía of;;;;;;;;;;;;;x
+king_ionian;Basileús;;;;;;;;;;;;;x
+king_female_ionian;Basilissa;;;;;;;;;;;;;x
+empire_of_ionian;Megále Basileía of;;;;;;;;;;;;;x
+emperor_ionian;Mégas Basileús;;;;;;;;;;;;;x
+emperor_female_ionian;Megále Basileús;;;;;;;;;;;;;x
+city_barony_of_ionian;Dêmos;;;;;;;;;;;;;x
+city_baron_ionian;Demarkhos;;;;;;;;;;;;;x
+city_baron_ionian_female;Demarkhos;;;;;;;;;;;;;x
+tribal_barony_of_ionian;Phule of;;;;;;;;;;;;;x
+tribal_baron_ionian;Hegemon;;;;;;;;;;;;;x
+tribal_baron_ionian_female;Hegemonia;;;;;;;;;;;;;x
+tribal_county_of_ionian;Éthnos of;;;;;;;;;;;;;x
+tribal_count_ionian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_count_female_ionian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_duchy_of_ionian;Méga Éthnos of;;;;;;;;;;;;;x
+tribal_duke_ionian;Mégas Ethnárkhes;;;;;;;;;;;;;x
+tribal_duke_female_ionian;Megále Ethnárkhes;;;;;;;;;;;;;x
+tribal_kingdom_of;Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_king_ionian;Basilískos;;;;;;;;;;;;;x
+tribal_king_female_ionian;Basilískos;;;;;;;;;;;;;x
+tribal_empire_of;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_emperor_ionian;MégasBasilískos;;;;;;;;;;;;;x
+tribal_emperor_female_ionian;Megále Basilískos;;;;;;;;;;;;;x
+
+barony_of_macedonian;Phroúrion of;;;;;;;;;;;;;x
+baron_macedonian;Hegemon;;;;;;;;;;;;;x
+baron_macedonian_female;Hegemonia;;;;;;;;;;;;;x
+county_of_macedonian;Khora of;;;;;;;;;;;;;x
+count_macedonian;Despótes;;;;;;;;;;;;;x
+count_female_macedonian;Déspoina;;;;;;;;;;;;;x
+duchy_of_macedonian;Megále Khora of;;;;;;;;;;;;;x
+duke_macedonian;Arkhon;;;;;;;;;;;;;x
+duke_female_macedonian;Arkhousa;;;;;;;;;;;;;x
+kingdom_of_macedonian;Basileía of;;;;;;;;;;;;;x
+king_macedonian;Basileús;;;;;;;;;;;;;x
+king_female_macedonian;Basilissa;;;;;;;;;;;;;x
+empire_of_macedonian;Megále Basileía of;;;;;;;;;;;;;x
+emperor_macedonian;Mégas Basileús;;;;;;;;;;;;;x
+emperor_female_macedonian;Megále Basileús;;;;;;;;;;;;;x
+city_barony_of_macedonian;Dêmos;;;;;;;;;;;;;x
+city_baron_macedonian;Demarkhos;;;;;;;;;;;;;x
+city_baron_macedonian_female;Demarkhos;;;;;;;;;;;;;x
+tribal_barony_of_macedonian;Phule of;;;;;;;;;;;;;x
+tribal_baron_macedonian;Hegemon;;;;;;;;;;;;;x
+tribal_baron_macedonian_female;Hegemonia;;;;;;;;;;;;;x
+tribal_county_of_macedonian;Éthnos of;;;;;;;;;;;;;x
+tribal_count_macedonian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_count_female_macedonian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_duchy_of_macedonian;Méga Éthnos of;;;;;;;;;;;;;x
+tribal_duke_macedonian;Mégas Ethnárkhes;;;;;;;;;;;;;x
+tribal_duke_female_macedonian;Megále Ethnárkhes;;;;;;;;;;;;;x
+tribal_kingdom_of;Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_king_macedonian;Basilískos;;;;;;;;;;;;;x
+tribal_king_female_macedonian;Basilískos;;;;;;;;;;;;;x
+tribal_empire_of;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_emperor_macedonian;MégasBasilískos;;;;;;;;;;;;;x
+tribal_emperor_female_macedonian;Megále Basilískos;;;;;;;;;;;;;x
+
+barony_of_thessalian;Phroúrion of;;;;;;;;;;;;;x
+baron_thessalian;Hegemon;;;;;;;;;;;;;x
+baron_thessalian_female;Hegemonia;;;;;;;;;;;;;x
+county_of_thessalian;Khora of;;;;;;;;;;;;;x
+count_thessalian;Despótes;;;;;;;;;;;;;x
+count_female_thessalian;Déspoina;;;;;;;;;;;;;x
+duchy_of_thessalian;Megále Khora of;;;;;;;;;;;;;x
+duke_thessalian;Arkhon;;;;;;;;;;;;;x
+duke_female_thessalian;Arkhousa;;;;;;;;;;;;;x
+kingdom_of_thessalian;Basileía of;;;;;;;;;;;;;x
+king_thessalian;Basileús;;;;;;;;;;;;;x
+king_female_thessalian;Basilissa;;;;;;;;;;;;;x
+empire_of_thessalian;Megále Basileía of;;;;;;;;;;;;;x
+emperor_thessalian;Mégas Basileús;;;;;;;;;;;;;x
+emperor_female_thessalian;Megále Basileús;;;;;;;;;;;;;x
+city_barony_of_thessalian;Dêmos;;;;;;;;;;;;;x
+city_baron_thessalian;Demarkhos;;;;;;;;;;;;;x
+city_baron_thessalian_female;Demarkhos;;;;;;;;;;;;;x
+tribal_barony_of_thessalian;Phule of;;;;;;;;;;;;;x
+tribal_baron_thessalian;Hegemon;;;;;;;;;;;;;x
+tribal_baron_thessalian_female;Hegemonia;;;;;;;;;;;;;x
+tribal_county_of_thessalian;Éthnos of;;;;;;;;;;;;;x
+tribal_count_thessalian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_count_female_thessalian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_duchy_of_thessalian;Méga Éthnos of;;;;;;;;;;;;;x
+tribal_duke_thessalian;Mégas Ethnárkhes;;;;;;;;;;;;;x
+tribal_duke_female_thessalian;Megále Ethnárkhes;;;;;;;;;;;;;x
+tribal_kingdom_of;Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_king_thessalian;Basilískos;;;;;;;;;;;;;x
+tribal_king_female_thessalian;Basilískos;;;;;;;;;;;;;x
+tribal_empire_of;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_emperor_thessalian;MégasBasilískos;;;;;;;;;;;;;x
+tribal_emperor_female_thessalian;Megále Basilískos;;;;;;;;;;;;;x
+
+count_phrygian;Phularkhos;;;;;;;;;;;;;x #placeholder
+count_female_phrygian;Phularkhosa;;;;;;;;;;;;;x #placeholder
+duke_phrygian;Arkhon;;;;;;;;;;;;;x #placeholder
+duke_female_phrygian;Arkhousa;;;;;;;;;;;;;x #placeholder
+king_phrygian;Basileus;;;;;;;;;;;;;x #placeholder
+king_female_phrygian;Basilissa;;;;;;;;;;;;;x #placeholder
+emperor_phrygian;Hegemon;;;;;;;;;;;;;x #placeholder
+emperor_female_phrygian;Hegemonia;;;;;;;;;;;;;x #placeholder
 
 # count_thracian;Prokoreter;;;;;;;;;;;;;x
 # count_female_thracian;Klawiphoros;;;;;;;;;;;;;x
@@ -504,6 +746,25 @@ king_female_thracian;Merilteas;;;;;;;;;;;;;x
 emperor_thracian;Merrezas;;;;;;;;;;;;;x
 emperor_female_thracian;Mekamatar;;;;;;;;;;;;;x
 
+barony_of_israelite;M'tsudá;;;;;;;;;;;;;x
+baron_israelite;Manhíg;;;;;;;;;;;;;x
+baron_female_israelite;Manhíga;;;;;;;;;;;;;x
+county_of_israelite;Adonit;;;;;;;;;;;;;x
+count_israelite;Adón;;;;;;;;;;;;;x
+count_female_israelite;Atsíla;;;;;;;;;;;;;x
+duchy_of_israelite;N'sikhút;;;;;;;;;;;;;x
+duke_israelite;Nasí;;;;;;;;;;;;;x
+duke_female_israelite;Nesikhá;;;;;;;;;;;;;x
+kingdom_of_israelite;Mamlekhet;;;;;;;;;;;;;x
+king_israelite;Mélekh;;;;;;;;;;;;;x
+king_female_israelite;Malká;;;;;;;;;;;;;x
+empire_of_israelite;Mamlekhet Gadol;;;;;;;;;;;;;x
+emperor_israelite;Mélekh Gadol;;;;;;;;;;;;;x
+emperor_female_israelite;Malká G'dola;;;;;;;;;;;;;x
+city_barony_of_israelite;'Ir;;;;;;;;;;;;;x
+city_baron_israelite;Rosh Iriyá;;;;;;;;;;;;;x
+city_baron_israelite_female;Rosh Iriyát;;;;;;;;;;;;;x
+
 ###########Religious Title Localisation###########
 temple_barony_of_pihassasi;Karimmi of;;;;;;;;;;;;;x
 temple_baron_pihassasi;Sankunni;;;;;;;;;;;;;x
@@ -512,6 +773,9 @@ temple_baron_female_pihassasi;Sankunnisara;;;;;;;;;;;;;x
 temple_barony_of_hellenic;Hierón of;;;;;;;;;;;;;x
 temple_baron_hellenic;Hiereús;;;;;;;;;;;;;x
 temple_baron_female_hellenic;Hiéreia;;;;;;;;;;;;;x
+
+temple_barony_of_berith;Mishkan;;;;;;;;;;;;;x
+temple_baron_berith;Kohén;;;;;;;;;;;;;x
 
 ###########Nicknames###########
 nick_anax_andron;Anax Andron;;;;;;;;;;;;;x
@@ -559,17 +823,18 @@ greek_migration;Héllen Migration;;;;;;;;;;;;;x
 
 thessalian_migration;Thessalikós Migration;;;;;;;;;;;;;x
 
+israelite_repented_modifier;B'nei Yisra'el Repented;;;;;;;;;;;;;x
 
 #opinion of traits
 opinion_of_zealous;Opinion of Zealous;;;;;;;;;;;;;x
-opinion_of_cynical;Opinion of Cynical;;;;;;;;;;;;;x
-opinion_of_erudite;Opinion of Erudite;;;;;;;;;;;;;x
-opinion_of_brave;Opinion of Brave;;;;;;;;;;;;;x
-opinion_of_craven;Opinion of Craven;;;;;;;;;;;;;x
 opinion_of_zealous_EXPLANATION; (opinion on Zealous);;;;;;;;;;;;;x
+opinion_of_cynical;Opinion of Cynical;;;;;;;;;;;;;x
 opinion_of_cynical_EXPLANATION; (opinion on Cynical);;;;;;;;;;;;;x
+opinion_of_erudite;Opinion of Erudite;;;;;;;;;;;;;x
 opinion_of_erudite_EXPLANATION; (opinion on Erudite);;;;;;;;;;;;;x
+opinion_of_brave;Opinion of Brave;;;;;;;;;;;;;x
 opinion_of_brave_EXPLANATION; (opinion on Brave);;;;;;;;;;;;;x
+opinion_of_craven;Opinion of Craven;;;;;;;;;;;;;x
 opinion_of_craven_EXPLANATION; (opinion on Craven);;;;;;;;;;;;;x
 opinion_of_chaste;Opinion of Chaste;;;;;;;;;;;;;x
 opinion_of_chaste_EXPLANATION; (opinion on Chaste);;;;;;;;;;;;;x
@@ -636,6 +901,14 @@ opinion_of_devotion_derzelas;Opinion of Devoted to Derzelas;;;;;;;;;;;;;x
 opinion_of_devotion_derzelas_EXPLANATION; (opinion on Devoted to Derzelas);;;;;;;;;;;;;x
 opinion_of_devotion_kubeleya;Opinion of Devoted to Kubeleya;;;;;;;;;;;;;x
 opinion_of_devotion_kubeleya_EXPLANATION; (opinion on Devoted to Kubeleya);;;;;;;;;;;;;x
+opinion_of_devotion_el;Opinion of Devoted to 'El;;;;;;;;;;;;;x
+opinion_of_devotion_el_EXPLANATION; (opinion on Devoted to 'El);;;;;;;;;;;;;x
+opinion_of_devotion_baal_hadad;Opinion of Devoted to Ba'al Hadad;;;;;;;;;;;;;x
+opinion_of_devotion_baal_hadad_EXPLANATION; (opinion on Devoted to Ba'al Hadad);;;;;;;;;;;;;x
+opinion_of_devotion_asherah;Opinion of Devoted to Asherah;;;;;;;;;;;;;x
+opinion_of_devotion_asherah_EXPLANATION; (opinion on Devoted to Asherah);;;;;;;;;;;;;x
+opinion_of_devotion_resheph;Opinion of Devoted to Resheph;;;;;;;;;;;;;x
+opinion_of_devotion_resheph_EXPLANATION; (opinion on Devoted to Resheph);;;;;;;;;;;;;x
 
 #Religion Opinion
 pihassasi_opinion;[pihassasi.GetName] Character Opinion;;;;;;;;;;;;;x
@@ -646,6 +919,13 @@ pantes_theoi_opinion;[pantes_theoi.GetName] Character Opinion;;;;;;;;;;;;;x
 pantes_theoi_opinion_EXPLANATION; (effect on [pantes_theoi.GetName]);;;;;;;;;;;;;x
 saintly_bloodline_same_religion_TT; Same Religion as the Founder of this Bloodline;;;;;;;;;;;;;x
 
+#Culture Opinion
+edomite_opinion;[edomite.GetName] Character Opinion;;;;;;;;;;;;;x
+edomite_opinion_EXPLANATION; (effect on [edomite.GetName]);;;;;;;;;;;;;x
+opinion_of_edomite;Opinion of Edomites;;;;;;;;;;;;;x
+opinion_of_edomite_EXPLANATION; (opinion on Edomite Characters);;;;;;;;;;;;;x
+
+
 #Stratocratic Opinion
 became_stratocratic_tyrant;Became a Stratocratic Tyrant;;;;;;;;;;;;;x
 rejected_stratocracy;Rejected Stratocracy;;;;;;;;;;;;;x
@@ -653,10 +933,13 @@ rejected_stratocracy;Rejected Stratocracy;;;;;;;;;;;;;x
 opinion_very_model_of_a_modern_major_general;Opinion of Competent General;;;;;;;;;;;;;x
 opinion_poor_military_ruler;Opinion of Incompetent General;;;;;;;;;;;;;x
 
-#misc
+#Misc
 strategist_opinion;Strategist Character Opinion;;;;;;;;;;;;;x
 
 opinion_demoted_from_coking;Demoted from Co-Monarch;;;;;;;;;;;;;x
+
+israelite_repented;B'nei Yisra'el Repented;;;;;;;;;;;;;x
+israelite_did_not_repent;B'nei Yisra'el Did Not Repent;;;;;;;;;;;;;x
 
 #Religious Wars
 won_hellenic_invasion;Won [hellenic.GetName] Invasion;;;;;;;;;;;;;x
@@ -810,15 +1093,30 @@ devotion_sabazios_desc;This character is devoted to Sabázios;;;;;;;;;;;;;x
 devotion_pleistoros;Devoted to Pleistoros;;;;;;;;;;;;;x
 devotion_pleistoros_desc;This character is devoted to Pleistoros;;;;;;;;;;;;;x
 devotion_derzelas;Devoted to Derzelas;;;;;;;;;;;;;x
-devotion_derzelas_desc;This character is devoted to Derzelas;;;;;;;;;;;;;x
+devotion_derzelas_desc;This character is devoted to Kubeleya;;;;;;;;;;;;;x
+devotion_kubeleya;Devoted to Derzelas;;;;;;;;;;;;;x
+devotion_kubeleya_desc;This character is devoted to Kubeleya;;;;;;;;;;;;;x
+devotion_el;Devoted to 'El;;;;;;;;;;;;;x
+devotion_el_desc;This character is devoted to 'El;;;;;;;;;;;;;x
+devotion_baal_hadad;Devoted to Ba'al Hadad;;;;;;;;;;;;;x
+devotion_baal_hadad_desc;This character is devoted to Ba'al Hadad;;;;;;;;;;;;;x
+devotion_asherah;Devoted to Asherah;;;;;;;;;;;;;x
+devotion_asherah_desc;This character is devoted to Asherah;;;;;;;;;;;;;x
+devotion_resheph;Devoted to Resheph;;;;;;;;;;;;;x
+devotion_resheph_desc;This character is devoted to Resheph;;;;;;;;;;;;;x
 
 #Syncretic Traits
 syncretic_pihassasi;Syncretic with [pihassasi.GetName];;;;;;;;;;;;;x
-syncretic_pihassasi_desc;This character is syncretic with with those of the [pihassasi.GetName] Pantheon, and may interact with the gods Tarhunna, Arinniti, and Telipinu.;;;;;;;;;;;;;x
+syncretic_pihassasi_desc;This character is syncretic with with those of the [pihassasi.GetName] faith, and may interact with the gods Tarhunna, Arinniti, and Telipinu.;;;;;;;;;;;;;x
 syncretic_hellenic;Syncretic with [hellenic.GetName];;;;;;;;;;;;;x
-syncretic_hellenic_desc;This character is syncretic with with those of the [hellenic.GetName] Pantheon, and may interact with the gods Zeus, Ares, Athenâ, Demeter, Apollon, Hermes, and Aphrodite.;;;;;;;;;;;;;x
+syncretic_hellenic_desc;This character is syncretic with with those of the [hellenic.GetName] faith, and may interact with the gods Zeus, Ares, Athenâ, Demeter, Apollon, Hermes, and Aphrodite.;;;;;;;;;;;;;x
 syncretic_european_group;Syncretic with [european_group.GetName];;;;;;;;;;;;;x
-syncretic_european_group_desc;This character is syncretic with with those of the [european_group.GetName] Pantheon, and may interact with the gods Sabázios, Pleistoros, Derzelas, and Kubeleya.;;;;;;;;;;;;;x
+syncretic_european_group_desc;This character is syncretic with with those of the [european_group.GetName] faith, and may interact with the gods Sabázios, Pleistoros, Derzelas, and Kubeleya.;;;;;;;;;;;;;x
+syncretic_canaanite_religion;Syncretic with [canaanite_religion.GetName];;;;;;;;;;;;;x
+syncretic_canaanite_religion_desc;This character is syncretic with with those of the [canaanite_religion.GetName] faith, and may interact with the gods 'El, Ba'al Hadad, Asherah, and Resheph.;;;;;;;;;;;;;x
+syncretic_berith;Syncretic with [berith.GetName];;;;;;;;;;;;;x
+syncretic_berith_desc;This character is syncretic with with those of the [berith.GetName] faith.;;;;;;;;;;;;;x
+
 
 #Stratocratic Traits
 amazonian_trait;Amazonios;;;;;;;;;;;;;x
@@ -913,10 +1211,10 @@ aphrodite_curse_3;The Wicked Trials of Aphrodite;;;;;;;;;;;;;x
 
 sabazios_boon_1;Stalwart Equestrian;;;;;;;;;;;;;x
 sabazios_boon_2;Sabázios' Charge;;;;;;;;;;;;;x
-sabazios_boon_3;Sabázios' Galloping Pride;;;;;;;;;;;;;
+sabazios_boon_3;Sabázios' Galloping Pride;;;;;;;;;;;;;x
 sabazios_curse_1;Aloof Equestrian;;;;;;;;;;;;;x
 sabazios_curse_2;Raging Stallion;;;;;;;;;;;;;x
-sabazios_curse_3;Shaken Equestrian;;;;;;;;;;;;;
+sabazios_curse_3;Shaken Equestrian;;;;;;;;;;;;;x
 
 pleistoros_boon_1;Pleistoros' Guiding Arrow;;;;;;;;;;;;;x
 pleistoros_boon_2;Pleistoros' Martial Spirit;;;;;;;;;;;;;x
@@ -931,6 +1229,42 @@ derzelas_boon_3;Defense of Derzelas;;;;;;;;;;;;;x
 derzelas_curse_1;Curse of Draining Vigor;;;;;;;;;;;;;x
 derzelas_curse_2;Derzelas' Void of Intelligence;;;;;;;;;;;;;x
 derzelas_curse_3;Scattering of Derzelas;;;;;;;;;;;;;x
+
+el_boon_1;Grace of 'El;;;;;;;;;;;;;x
+el_boon_2;'El's Favor;;;;;;;;;;;;;x
+el_boon_3;Soldiers of 'El;;;;;;;;;;;;;
+el_curse_1;'El's Hatred;;;;;;;;;;;;;x
+el_curse_2;Scorn of the Creator;;;;;;;;;;;;;x
+el_curse_3;Enemy of the Lord of Creation;;;;;;;;;;;;;x
+
+baal_hadad_boon_1;Nourishing Rains;;;;;;;;;;;;;x
+baal_hadad_boon_2;Yagrush and Aymur;;;;;;;;;;;;;x
+baal_hadad_boon_3;Grains of the Thunderer;;;;;;;;;;;;;x
+baal_hadad_curse_1;The Lord of Thunder's Absense;;;;;;;;;;;;;x
+baal_hadad_curse_2;Attack of Thunder;;;;;;;;;;;;;x
+baal_hadad_curse_3;Drought and Starvation;;;;;;;;;;;;;x
+
+asherah_boon_1;Blessing of 'El's Consort;;;;;;;;;;;;;x
+asherah_boon_2;Love of the Great Lady;;;;;;;;;;;;;x
+asherah_boon_3;Light of the Creatrix;;;;;;;;;;;;;x
+asherah_curse_1;Curse of Asherah;;;;;;;;;;;;;x
+asherah_curse_2;Scorn of the Great Lady;;;;;;;;;;;;;x
+asherah_curse_3;In the Shadow of the Creatrix;;;;;;;;;;;;;x
+
+resheph_boon_1;Protection of Resheph;;;;;;;;;;;;;x
+resheph_boon_2;Healing of the Land;;;;;;;;;;;;;x
+resheph_boon_3;Resheph's Shield;;;;;;;;;;;;;x
+resheph_curse_1;Arrow of Plague;;;;;;;;;;;;;x
+resheph_curse_2;Death Upon the Land;;;;;;;;;;;;;x
+resheph_curse_3;Exposed to Resheph's Arrow;;;;;;;;;;;;;x
+
+qaws_boon_1;God of the Rough Land;;;;;;;;;;;;;x
+qaws_boon_2;Swift Wind of Qaws;;;;;;;;;;;;;x
+qaws_boon_3;Qaws' Favor;;;;;;;;;;;;;x
+qaws_curse_1;Blazing Desert;;;;;;;;;;;;;x
+qaws_curse_2;Hostile Winds;;;;;;;;;;;;;x
+qaws_curse_3;Qaws' Scorn;;;;;;;;;;;;;x
+
 
 ###########Minor Titles###########
 

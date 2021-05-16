@@ -1,0 +1,19 @@
+# c_istahara
+
+# County Title
+title = c_istahara
+
+# Settlements
+max_settlements = 5
+
+b_istahara = tribal
+b_tahappisuna = tribal
+#b_hatenzuwa = temple
+#b_gazzapa = castle
+#b_karassuwa = city
+
+# Misc
+culture = kaskian
+religion = ishalitethai
+
+#History

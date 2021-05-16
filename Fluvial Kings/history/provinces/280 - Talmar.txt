@@ -1,0 +1,16 @@
+# c_talmar
+
+# County Title
+title = c_talmar
+
+# Settlements
+max_settlements = 2
+
+b_talmar = castle
+b_zalmona = city
+
+# Misc
+culture = canaanite
+religion = edomite_religion
+
+#History

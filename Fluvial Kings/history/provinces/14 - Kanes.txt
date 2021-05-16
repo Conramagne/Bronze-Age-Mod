@@ -1,0 +1,18 @@
+# c_kanes
+
+# County Title
+title = c_kanes
+
+# Settlements
+max_settlements = 4
+
+b_nesa = castle
+b_zaminuwa = city
+b_artalu = temple
+b_warsabama = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

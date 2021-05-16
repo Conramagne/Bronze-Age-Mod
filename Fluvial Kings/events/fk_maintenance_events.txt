@@ -545,3 +545,263 @@ character_event = {
 		clr_character_flag = dont_fire_fkm6		
 	}
 }
+
+#Assigns Twelve Tribe Traits (on_startup)
+character_event = {
+	id = fkm.12
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		culture = israelite
+		has_twelve_tribe_trait_trigger = no
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				NOR = {
+					is_theocracy = yes
+					liege = {
+						is_theocracy = yes
+					}
+				}
+			}
+			apply_twelve_tribe_trait_effect = yes
+		}
+		else = {
+			add_trait = levite
+		}
+	}
+}
+
+#Assigns Twelve Tribe Traits (MTTH)
+character_event = {
+	id = fkm.13
+	hide_window = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		culture = israelite
+		has_twelve_tribe_trait_trigger = no
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				NOR = {
+					is_theocracy = yes
+					liege = {
+						is_theocracy = yes
+					}
+				}
+			}
+			apply_twelve_tribe_trait_effect = yes
+		}
+		else = {
+			add_trait = levite
+		}
+	}
+}
+
+#Destroys Israelite Tribe Title if Held By Wrong Person (MTTH)
+character_event = {
+	id = fkm.14
+	hide_window = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		OR = {
+			AND = {
+				has_landed_title = d_reubenite
+				NOT = {
+					trait = reubenite
+				}
+			}
+			AND = {
+				has_landed_title = d_simeonite
+				NOT = {
+					trait = simeonite
+				}
+			}
+			AND = {
+				has_landed_title = d_judahite
+				NOT = {
+					trait = judahite
+				}
+			}
+			AND = {
+				has_landed_title = d_danite
+				NOT = {
+					trait = danite
+				}
+			}
+			AND = {
+				has_landed_title = d_naphtalite
+				NOT = {
+					trait = naphtalite
+				}
+			}
+			AND = {
+				has_landed_title = d_gadite
+				NOT = {
+					trait = gadite
+				}
+			}
+			AND = {
+				has_landed_title = d_asherite
+				NOT = {
+					trait = asherite
+				}
+			}
+			AND = {
+				has_landed_title = d_issacharite
+				NOT = {
+					trait = issacharite
+				}
+			}
+			AND = {
+				has_landed_title = d_zebulunite
+				NOT = {
+					trait = zebulunite
+				}
+			}
+			AND = {
+				has_landed_title = d_manassehite
+				NOT = {
+					trait = manassehite
+				}
+			}
+			AND = {
+				has_landed_title = d_ephraimite
+				NOT = {
+					trait = ephraimite
+				}
+			}
+			AND = {
+				has_landed_title = d_benjaminite
+				NOT = {
+					trait = benjaminite
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				has_landed_title = d_reubenite
+				NOT = {
+					trait = reubenite
+				}
+			}
+			unsafe_destroy_landed_title = d_reubenite
+		}
+		if = {
+			limit = {
+				has_landed_title = d_simeonite
+				NOT = {
+					trait = simeonite
+				}
+			}
+			unsafe_destroy_landed_title = d_simeonite
+		}
+		if = {
+			limit = {
+				has_landed_title = d_judahite
+				NOT = {
+					trait = judahite
+				}
+			}
+			unsafe_destroy_landed_title = d_judahite
+		}
+		if = {
+			limit = {
+				has_landed_title = d_danite
+				NOT = {
+					trait = danite
+				}
+			}
+			unsafe_destroy_landed_title = d_danite
+		}
+		if = {
+			limit = {
+				has_landed_title = d_naphtalite
+				NOT = {
+					trait = naphtalite
+				}
+			}
+			unsafe_destroy_landed_title = d_naphtalite
+		}
+		if = {
+			limit = {
+				has_landed_title = d_gadite
+				NOT = {
+					trait = gadite
+				}
+			}
+			unsafe_destroy_landed_title = d_gadite
+		}
+		if = {
+			limit = {
+				has_landed_title = d_asherite
+				NOT = {
+					trait = asherite
+				}
+			}
+			unsafe_destroy_landed_title = d_asherite
+		}
+		if = {
+			limit = {
+				has_landed_title = d_issacharite
+				NOT = {
+					trait = issacharite
+				}
+			}
+			unsafe_destroy_landed_title = d_issacharite
+		}
+		if = {
+			limit = {
+				has_landed_title = d_zebulunite
+				NOT = {
+					trait = zebulunite
+				}
+			}
+			unsafe_destroy_landed_title = d_zebulunite
+		}
+		if = {
+			limit = {
+				has_landed_title = d_manassehite
+				NOT = {
+					trait = manassehite
+				}
+			}
+			unsafe_destroy_landed_title = d_manassehite
+		}
+		if = {
+			limit = {
+				has_landed_title = d_ephraimite
+				NOT = {
+					trait = ephraimite
+				}
+			}
+			unsafe_destroy_landed_title = d_ephraimite
+		}
+		if = {
+			limit = {
+				has_landed_title = d_benjamite
+				NOT = {
+					trait = benjamite
+				}
+			}
+			unsafe_destroy_landed_title = d_benjamite
+		}
+		else = {
+			add_trait = levite
+		}
+	}
+}

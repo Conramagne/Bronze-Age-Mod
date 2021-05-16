@@ -4,5 +4,5 @@
 }
 2527.1.1={
 	liege = d_reubenite
-	holder = 2301300
+	holder = 2300000
 }

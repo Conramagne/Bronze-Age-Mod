@@ -1,0 +1,4 @@
+2526.1.1 = {
+	holder = 2004002
+	liege = d_kaska
+}

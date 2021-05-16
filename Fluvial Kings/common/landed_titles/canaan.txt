@@ -579,149 +579,162 @@ e_canaan = {
 			}
 		}
 	}
-
-	d_reubenite = {
-		color ={ 242 243 140 }
+	k_judge_of_israel = {
+		color = { 0 97 194 }
 		
-		title_prefix = TRIBEOFPREFIX
-			
+		title_prefix = KRITOCRACYOFPREFIX
+		
+		title = JUDGE
+		
+		title_female = JUDGE_FEMALE
+		
 		primary = yes
 		
-		dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+		dynasty_title_names = no
 		
-		# allow = {
-		# }
-	}
-	d_simeonite = {
-		color = { 240 217 26 }
-	
-		title_prefix = TRIBEOFPREFIX
+		d_reubenite = {
+			color ={ 242 243 140 }
 			
-		primary = yes
-		
-		dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-		
-		# allow = {
-		# }
-	}
-	d_gadite = {
-		color = { 123 190 160 }
-		
-		title_prefix = TRIBEOFPREFIX
+			title_prefix = TRIBEOFPREFIX
+				
+			primary = yes
 			
-		primary = yes
-		
-		dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-		
-		# allow = {
-		# }
-	}
-	d_judahite = {
-		color = { 237 189 61 }
-		
-		title_prefix = TRIBEOFPREFIX
+			dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 			
-		primary = yes
+			# allow = {
+			# }
+		}
+		d_simeonite = {
+			color = { 240 217 26 }
 		
-		dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-		
-		# allow = {
-		# }
-	}
-	d_issacharite = {
-		color = { 235 38 41 }
-	
-		title_prefix = TRIBEOFPREFIX
+			title_prefix = TRIBEOFPREFIX
+				
+			primary = yes
 			
-		primary = yes
-		
-		dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-		
-		# allow = {
-		# }
-	}
-	d_zebulunite = {
-		color = { 186 143 186 }
-	
-		title_prefix = TRIBEOFPREFIX
+			dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 			
-		primary = yes
-		
-		dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-		
-		# allow = {
-		# }
-	}
-	d_manassehite = {
-		color = { 232 222 18 }
-	
-		title_prefix = TRIBEOFPREFIX
+			# allow = {
+			# }
+		}
+		d_gadite = {
+			color = { 123 190 160 }
 			
-		primary = yes
-		
-		dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-		
-		# allow = {
-		# }
-	}
-	d_ephraimite = {
-		color = { 255 252 200 }
-		
-		title_prefix = TRIBEOFPREFIX
+			title_prefix = TRIBEOFPREFIX
+				
+			primary = yes
 			
-		primary = yes
-		
-		dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-		
-		# allow = {
-		# }
-	}
-	d_benjaminite = {
-		color = { 228 242 247 }
-	
-		title_prefix = TRIBEOFPREFIX
+			dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 			
-		primary = yes
-		
-		dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-		
-		# allow = {
-		# }
-	}
-	d_danite = {
-		color = { 68 145 108 }
-	
-		title_prefix = TRIBEOFPREFIX
+			# allow = {
+			# }
+		}
+		d_judahite = {
+			color = { 237 189 61 }
 			
-		primary = yes
-		
-		dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-		
-		# allow = {
-		# }
-	}
-	d_asherite = {
-		color = { 184 219 124 }
-	
-		title_prefix = TRIBEOFPREFIX
+			title_prefix = TRIBEOFPREFIX
+				
+			primary = yes
 			
-		primary = yes
-		
-		dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-		
-		# allow = {
-		# }
-	}
-	d_naphtalite = {
-		color = { 248 195 0 }
-	
-		title_prefix = TRIBEOFPREFIX
+			dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 			
-		primary = yes
+			# allow = {
+			# }
+		}
+		d_issacharite = {
+			color = { 235 38 41 }
 		
-		dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+			title_prefix = TRIBEOFPREFIX
+				
+			primary = yes
+			
+			dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+			
+			# allow = {
+			# }
+		}
+		d_zebulunite = {
+			color = { 186 143 186 }
 		
-		# allow = {
-		# }
+			title_prefix = TRIBEOFPREFIX
+				
+			primary = yes
+			
+			dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+			
+			# allow = {
+			# }
+		}
+		d_manassehite = {
+			color = { 232 222 18 }
+		
+			title_prefix = TRIBEOFPREFIX
+				
+			primary = yes
+			
+			dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+			
+			# allow = {
+			# }
+		}
+		d_ephraimite = {
+			color = { 255 252 200 }
+			
+			title_prefix = TRIBEOFPREFIX
+				
+			primary = yes
+			
+			dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+			
+			# allow = {
+			# }
+		}
+		d_benjaminite = {
+			color = { 228 242 247 }
+		
+			title_prefix = TRIBEOFPREFIX
+				
+			primary = yes
+			
+			dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+			
+			# allow = {
+			# }
+		}
+		d_danite = {
+			color = { 68 145 108 }
+		
+			title_prefix = TRIBEOFPREFIX
+				
+			primary = yes
+			
+			dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+			
+			# allow = {
+			# }
+		}
+		d_asherite = {
+			color = { 184 219 124 }
+		
+			title_prefix = TRIBEOFPREFIX
+				
+			primary = yes
+			
+			dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+			
+			# allow = {
+			# }
+		}
+		d_naphtalite = {
+			color = { 248 195 0 }
+		
+			title_prefix = TRIBEOFPREFIX
+				
+			primary = yes
+			
+			dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+			
+			# allow = {
+			# }
+		}
 	}
 }

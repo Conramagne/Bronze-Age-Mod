@@ -1,0 +1,17 @@
+# c_kapperi
+
+# County Title
+title = c_kapperi
+
+# Settlements
+max_settlements = 3
+
+b_kapperi = tribal
+#b_harpisa = city
+#b_marithum = temple
+
+# Misc
+culture = kaskian
+religion = ishalitethai
+
+#History

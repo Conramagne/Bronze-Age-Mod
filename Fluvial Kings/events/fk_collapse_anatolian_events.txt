@@ -206,8 +206,8 @@ character_event = {
 						}
 					}
 					spawn_unit = {
-						province = 26
-						home = 26
+						province = 20
+						home = 20
 						owner = THIS
 						leader = THIS
 						troops = {
@@ -233,8 +233,8 @@ character_event = {
 					}
 					new_character = {
 						spawn_unit = {
-							province = 26
-							home = 26
+							province = 20
+							home = 20
 							owner = PREV
 							leader = THIS
 							troops = {
@@ -261,8 +261,8 @@ character_event = {
 					}
 					new_character = {
 						spawn_unit = {
-							province = 26
-							home = 26
+							province = 20
+							home = 20
 							owner = PREV
 							leader = THIS
 							troops = {
@@ -289,8 +289,8 @@ character_event = {
 					}
 					new_character = {
 						spawn_unit = {
-							province = 26
-							home = 26
+							province = 20
+							home = 20
 							owner = PREV
 							leader = THIS
 							troops = {
@@ -317,8 +317,8 @@ character_event = {
 					}
 					new_character = {
 						spawn_unit = {
-							province = 26
-							home = 26
+							province = 20
+							home = 20
 							owner = PREV
 							leader = THIS
 							troops = {
@@ -345,8 +345,8 @@ character_event = {
 					}
 					new_character = {
 						spawn_unit = {
-							province = 26
-							home = 26
+							province = 20
+							home = 20
 							owner = PREV
 							leader = THIS
 							troops = {
@@ -373,8 +373,8 @@ character_event = {
 					}
 					new_character = {
 						spawn_unit = {
-							province = 26
-							home = 26
+							province = 20
+							home = 20
 							owner = PREV
 							leader = THIS
 							troops = {
@@ -401,8 +401,8 @@ character_event = {
 					}
 					new_character = {
 						spawn_unit = {
-							province = 26
-							home = 26
+							province = 20
+							home = 20
 							owner = PREV
 							leader = THIS
 							troops = {
@@ -631,8 +631,8 @@ character_event = {
 					holder = THIS
 				}
 				spawn_unit = {
-					province = 26
-					home = 26
+					province = 20
+					home = 20
 					owner = THIS
 					leader = THIS
 					troops = {
@@ -658,8 +658,8 @@ character_event = {
 				}
 				new_character = {
 					spawn_unit = {
-						province = 26
-						home = 26
+						province = 20
+						home = 20
 						owner = PREV
 						leader = THIS
 						troops = {
@@ -686,8 +686,8 @@ character_event = {
 				}
 				new_character = {
 					spawn_unit = {
-						province = 26
-						home = 26
+						province = 20
+						home = 20
 						owner = PREV
 						leader = THIS
 						troops = {
@@ -714,8 +714,8 @@ character_event = {
 				}
 				new_character = {
 					spawn_unit = {
-						province = 26
-						home = 26
+						province = 20
+						home = 20
 						owner = PREV
 						leader = THIS
 						troops = {
@@ -742,8 +742,8 @@ character_event = {
 				}
 				new_character = {
 					spawn_unit = {
-						province = 26
-						home = 26
+						province = 20
+						home = 20
 						owner = PREV
 						leader = THIS
 						troops = {
@@ -770,8 +770,8 @@ character_event = {
 				}
 				new_character = {
 					spawn_unit = {
-						province = 26
-						home = 26
+						province = 20
+						home = 20
 						owner = PREV
 						leader = THIS
 						troops = {
@@ -798,8 +798,8 @@ character_event = {
 				}
 				new_character = {
 					spawn_unit = {
-						province = 26
-						home = 26
+						province = 20
+						home = 20
 						owner = PREV
 						leader = THIS
 						troops = {
@@ -826,8 +826,8 @@ character_event = {
 				}
 				new_character = {
 					spawn_unit = {
-						province = 26
-						home = 26
+						province = 20
+						home = 20
 						owner = PREV
 						leader = THIS
 						troops = {

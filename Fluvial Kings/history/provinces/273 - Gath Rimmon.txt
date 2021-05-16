@@ -1,0 +1,17 @@
+# c_gath_rimmon
+
+# County Title
+title = c_gath_rimmon
+
+# Settlements
+max_settlements = 3
+
+b_gath_rimmon = castle
+b_jaffa = city
+#b_azuru = temple
+
+# Misc
+culture = canaanite
+religion = canaanite_religion
+
+#History

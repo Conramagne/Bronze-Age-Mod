@@ -534,19 +534,19 @@
 
 #Independent Lords (2004000-2004999)
 2004000 = {
-	name = "Ura-Tarhundas" # Ura-Tarhundas, Duke of Hulaya
-	dynasty = 2002005 #Sandusili
-	culture = luwian
-	religion = haianiluwi
+	name = "Tutammu" # Tutammu, Duke of Hulaya
+	dynasty = 2000009
+	culture = hittite
+	religion = ishalitethai
 	2507.1.1 = { birth = yes }
 	2567.1.1 = { death = yes }
 }
 
 2004001 = {
-	name = "Ruwantia" # Ruwantia, Duke of Kastaraya
-	dynasty = 2002006 #Imarasili
-	culture = luwian
-	religion = haianiluwi
+	name = "Runtiya" # Runtiya, Duke of Kastaraya
+	dynasty = 2000010
+	culture = hittite
+	religion = ishalitethai
 	2502.1.1 = { birth = yes }
 	2562.1.1 = { death = yes }
 }
@@ -577,4 +577,40 @@
 	father = 2004003
 	2507.1.1 = { birth = yes }
 	2567.1.1 = { death = yes }
+}
+
+2004005 = {
+	name = "Hešni" # Hešni, Duke of Mala
+	dynasty = 2000011
+	culture = hittite
+	religion = ishalitethai
+	2507.1.1 = { birth = yes }
+	2567.1.1 = { death = yes }
+}
+
+2004006 = {
+	name = "Mari" # Mari, Duke of Tegarama
+	dynasty = 2000012
+	culture = hittite
+	religion = ishalitethai
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+2004007 = {
+	name = "Walwa-ziti" # Walwa-ziti, Count of Tumanna
+	dynasty = 2004007
+	culture = eneti
+	religion = ishalitethai
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+2004008 = {
+	name = "Yau-bidi" # Yau-bidi, Duke of Istahara
+	dynasty = 2000013
+	culture = hittite
+	religion = ishalitethai
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
 }

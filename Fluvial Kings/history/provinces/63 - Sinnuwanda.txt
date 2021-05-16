@@ -1,0 +1,17 @@
+# c_sinnuwanda
+
+# County Title
+title = c_sinnuwanda
+
+# Settlements
+max_settlements = 3
+
+b_sinnuwanda = castle
+b_ikkuwaniya = city
+b_ussa = temple
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

@@ -1,8 +1,13 @@
-# e_canaan
-500.1.1={
+2000.1.1={
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-800.1.1={
-	liege=k_ever_hayarden
+2440.1.1={
+	holder = 2320102
+}
+2480.1.1={
+	holder = 2320101
+}
+2520.1.1={
+	holder = 2320100
 }

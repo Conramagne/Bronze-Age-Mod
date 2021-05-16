@@ -118,3 +118,19 @@ e_european_pantheon = {
 	# Cannot be held as a secondary title
 	primary = yes
 }
+
+e_canaanite_religion_pantheon = {
+	color = { 255 255 255 }
+	capital = 147
+	
+	title = "HIGH_GOD"
+	foa = "POPE_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+}

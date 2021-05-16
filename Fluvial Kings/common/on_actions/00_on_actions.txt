@@ -36,7 +36,9 @@ on_startup = {
 		fkr.200 #Sets up Palace Bureaucracy
 		fkr.300 #Sets up Militarization
 		fkm.1 #Amazonian Trait Event
+		fkm.12 #Assigns Twelve Tribe Traits
 		tw.1 #Trojan War Set-Up
+		fkc.1 #Puts Twelve Tribes into Alliance
 	}
 }
 
@@ -746,6 +748,12 @@ on_bi_yearly_pulse = {
 	
 	
 	random_events = {
+	
+		israelite_lapse_events = {
+			95 = 0
+			5 = fkc.8 #Province Lapses
+			5 = fkc.10 #Person Lapses
+		}
 
 		#Various Traits Events
 		10 = 65000
@@ -975,6 +983,8 @@ on_five_year_pulse = {
 		HF.24236 # Artists arrive.
 		# HF.15100 # Rain/Drought status changes in most of Africa
 	}
+	
+	
 	
 	random_events = {
 		#----  misc traits needing revision below...

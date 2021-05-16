@@ -1,0 +1,18 @@
+# c_karahna
+
+# County Title
+title = c_karahna
+
+# Settlements
+max_settlements = 4
+
+b_karahna = castle
+b_haitkaitra = city
+b_samuha = temple
+#b_kutiya = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

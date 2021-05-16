@@ -1,0 +1,15 @@
+# c_pahhuwa
+
+# County Title
+title = c_pahhuwa
+
+# Settlements
+max_settlements = 1
+
+b_pahhuwa = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

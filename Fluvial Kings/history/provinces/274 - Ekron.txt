@@ -1,0 +1,18 @@
+# c_ekron
+
+# County Title
+title = c_ekron
+
+# Settlements
+max_settlements = 4
+
+b_ekron = castle
+b_timnah = city
+#b_kepirah = temple
+#b_sorah = castle
+
+# Misc
+culture = canaanite
+religion = canaanite_religion
+
+#History

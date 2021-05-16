@@ -1,0 +1,4 @@
+2524.1.1 = {
+	liege = d_puruma
+	holder = 2003000
+}

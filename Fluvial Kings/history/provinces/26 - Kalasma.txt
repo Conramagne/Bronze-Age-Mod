@@ -1,0 +1,15 @@
+# c_kalasma
+
+# County Title
+title = c_kalasma
+
+# Settlements
+max_settlements = 1
+
+b_kalasma = tribal
+
+# Misc
+culture = eneti
+religion = ishalitethai
+
+#History

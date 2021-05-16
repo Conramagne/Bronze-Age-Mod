@@ -1,4 +1,4 @@
 2526.1.1 = {
-	holder = 2004001
-	liege = d_kastaraya
+	holder = 2003003
+	liege = d_pitassa
 }

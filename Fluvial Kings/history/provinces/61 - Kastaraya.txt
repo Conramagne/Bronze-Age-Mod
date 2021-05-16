@@ -1,0 +1,15 @@
+# c_kastaraya
+
+# County Title
+title = c_kastaraya
+
+# Settlements
+max_settlements = 1
+
+b_parha = castle
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

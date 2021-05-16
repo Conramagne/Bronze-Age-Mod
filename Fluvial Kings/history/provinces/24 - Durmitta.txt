@@ -1,0 +1,17 @@
+# c_durmitta
+
+# County Title
+title = c_durmitta
+
+# Settlements
+max_settlements = 3
+
+b_durmitta = tribal
+#b_taedizina = city
+#b_kurustama = temple
+
+# Misc
+culture = kaskian
+religion = ishalitethai
+
+#History

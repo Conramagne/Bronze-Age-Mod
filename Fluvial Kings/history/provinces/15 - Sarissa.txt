@@ -1,0 +1,17 @@
+# c_sarissa
+
+# County Title
+title = c_sarissa
+
+# Settlements
+max_settlements = 3
+
+b_sarisa = castle
+b_kussara = city
+b_hasikkasnawanda = temple
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

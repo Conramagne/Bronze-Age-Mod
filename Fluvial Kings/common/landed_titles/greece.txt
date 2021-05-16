@@ -4,9 +4,6 @@ e_greek_empire = {
 	
 	capital = 72 # Mykenae
 	
-
-	short_name = yes
-	
 	k_achaea = {
 		color = { 93 236 205 }
 		color2 = { 255 255 255 }

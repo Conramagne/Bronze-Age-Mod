@@ -1,0 +1,16 @@
+# c_malluma
+
+# County Title
+title = c_malluma
+
+# Settlements
+max_settlements = 2
+
+b_malluma = castle
+#b_kumanni = city
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

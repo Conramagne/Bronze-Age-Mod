@@ -1,0 +1,15 @@
+# c_midduwa
+
+# County Title
+title = c_midduwa
+
+# Settlements
+max_settlements = 1
+
+b_midduwa = tribal
+
+# Misc
+culture = eneti
+religion = ishalitethai
+
+#History

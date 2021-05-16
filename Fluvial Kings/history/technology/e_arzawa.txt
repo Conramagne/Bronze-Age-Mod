@@ -45,6 +45,7 @@ technology = {
 	titles = {
 		d_hapalla
 		d_kamalla
+		d_kuwalapassa
 		d_lapza
 		d_lukka
 		d_masa

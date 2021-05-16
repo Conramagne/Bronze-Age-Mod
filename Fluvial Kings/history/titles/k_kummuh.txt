@@ -1,0 +1,4 @@
+2525.1.1={
+	holder = 2004005
+	liege = e_hittite_empire
+}

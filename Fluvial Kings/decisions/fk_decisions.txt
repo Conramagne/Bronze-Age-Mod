@@ -4,7 +4,7 @@ decisions = {
 		ai = no
 		
 		potential = {
-			#is_monetheist_trigger = no
+			is_monetheist_trigger = no
 			is_adult = yes
 		}
 		allow = {
@@ -76,12 +76,71 @@ decisions = {
 		}
 	}
 	
-	switch_devotion = {
+	choose_devotion_canaanite_religion = {
+		is_high_prio = yes
+		ai_check_interval = 120
+		only_playable = yes
+		
+		potential = {
+			devotion_trait_trigger = no
+			is_adult = yes
+			NOT = {
+				has_character_flag = flag_god
+			}
+			canaanite_religion_or_syncretic = yes
+		}
+		allow = {
+			is_incapable = no
+			NOT = { has_character_flag = choose_devotion_flag }
+		}
+		effect = {
+			set_character_flag = choose_devotion_flag
+			character_event = { id = fkrel.102 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.33
+		}
+	}
+	
+	choose_devotion_edomite_religion = {
+		is_high_prio = yes
+		ai_check_interval = 120
+		only_playable = yes
+		
+		potential = {
+			devotion_trait_trigger = no
+			is_adult = yes
+			NOT = {
+				has_character_flag = flag_god
+			}
+			edomite_religion_or_syncretic = yes
+		}
+		allow = {
+			is_incapable = no
+			NOT = { has_character_flag = choose_devotion_flag }
+		}
+		effect = {
+			set_character_flag = choose_devotion_flag
+			character_event = { id = fkrel.103 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.33
+		}
+	}
+		
+	switch_devotion_pihassasi = {
 		is_high_prio = yes
 		only_playable = yes
 		
 		potential = {
 			devotion_trait_trigger = yes
+			pihassasi_or_syncretic = yes
 			ai = no
 		}
 		allow = {
@@ -96,6 +155,87 @@ decisions = {
 				duration = 1825
 			}
 			character_event = { id = fkrel.100 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
+	
+	switch_devotion_european = {
+		is_high_prio = yes
+		only_playable = yes
+		
+		potential = {
+			devotion_trait_trigger = yes
+			european_group_or_syncretic = yes
+			ai = no
+		}
+		allow = {
+			is_incapable = no
+			NOT = {
+				has_character_modifier = switched_devotion
+			}
+		}
+		effect = {
+			add_character_modifier = {
+				modifier = switched_devotion
+				duration = 1825
+			}
+			character_event = { id = fkrel.101 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
+		
+	switch_devotion_canaanite_religion = {
+		is_high_prio = yes
+		only_playable = yes
+		
+		potential = {
+			devotion_trait_trigger = yes
+			canaanite_religion_or_syncretic = yes
+			ai = no
+		}
+		allow = {
+			is_incapable = no
+			NOT = {
+				has_character_modifier = switched_devotion
+			}
+		}
+		effect = {
+			add_character_modifier = {
+				modifier = switched_devotion
+				duration = 1825
+			}
+			character_event = { id = fkrel.102 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
+	
+	switch_devotion_edomite_religion = {
+		is_high_prio = yes
+		only_playable = yes
+		
+		potential = {
+			devotion_trait_trigger = yes
+			edomite_religion_or_syncretic = yes
+			ai = no
+		}
+		allow = {
+			is_incapable = no
+			NOT = {
+				has_character_modifier = switched_devotion
+			}
+		}
+		effect = {
+			add_character_modifier = {
+				modifier = switched_devotion
+				duration = 1825
+			}
+			character_event = { id = fkrel.103 }
 		}
 		revoke_allowed = {
 			always = no
@@ -1513,6 +1653,123 @@ targetted_decisions = {
 				ROOT = {
 					real_tier = KING
 				}
+			}
+		}
+	}
+
+	judge_israel = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		only_playable = yes
+		
+		from_potential = {
+			is_adult = yes
+			NOT = {
+				has_character_flag = flag_god
+			}
+			religion = berith
+			has_landed_title = k_judge_of_israel
+			is_incapable = no
+			prisoner = no
+			in_command = no
+			is_inaccessible_trigger = no
+		}
+		potential = {
+			is_adult = yes
+			OR = {
+				higher_real_tier_than = BARON
+				is_close_relative = FROM
+				mother = {
+					has_landed_title = yes
+				}
+				father = {
+					has_landed_title = yes
+				}
+			}
+			OR = {
+				religion_group = bnai_avraham
+				religion_group = bnai_kenaan
+			}
+			OR = {
+				religion = berith
+				culture = israelite
+			}
+			OR = {
+				has_evil_trait_trigger = yes
+				trait = deceitful
+				has_impious_trait_trigger = yes
+				has_vice_trigger = yes
+			}
+		}
+		allow = {
+			is_incapable = no
+			prisoner = no
+			in_command = no
+			is_inaccessible_trigger = no
+			NOR = {
+				has_character_modifier = israelite_repented_modifier
+				FROM = {
+					has_character_modifier = israelite_repented_modifier
+				}
+			}
+		}
+		effect = {
+			letter_event = { id = fkc.5 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 10
+				ROOT = {
+					is_monetheist_trigger = no
+				}				
+			}
+			modifier = {
+				factor = 5
+				ROOT = {
+					is_evil_trigger = yes
+				}				
+			}
+		}
+	}
+}
+
+settlement_decisions = {
+	become_syncretic_canaanite = {
+		ai_check_interval = 60
+		filter = capital 
+		
+		from_potential = {
+			religion = berith
+			age = 16
+			NOR = {
+				trait = syncretic_canaanite_religion
+				trait = zealous
+			}
+		}
+		potential = {
+			religion = canaanite_religion
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			FROM = {
+				add_trait = syncretic_canaanite_religion
+				liege = {
+					character_event = { id = fkc.11 } #Vassal Turned to Paganism
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 2
+				trait = cynical
 			}
 		}
 	}

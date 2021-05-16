@@ -160,6 +160,12 @@ feudal_governments = {
 					 controls_religion = yes
 				}
 			}
+			NAND = {
+				has_twelve_tribe_title_trigger = yes
+				NOT = {
+					higher_real_tier_than = DUKE
+				}
+			}
 			in_revolt = no
 			independent = no
 			is_feudal = yes

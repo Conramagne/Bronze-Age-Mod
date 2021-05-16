@@ -1,0 +1,18 @@
+# c_piddaniyasa
+
+# County Title
+title = c_piddaniyasa
+
+# Settlements
+max_settlements = 4
+
+b_piddaniyasa = castle
+b_mallidaskuriya = city
+#b_ippasana = temple
+#b_aliassa = castle
+
+# Misc
+culture = eneti
+religion = ishalitethai
+
+#History

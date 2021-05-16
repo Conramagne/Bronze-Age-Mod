@@ -22,4 +22,8 @@
 }
 2521.1.1={
 	holder = 2200000 #Pariya-muwas
+	set_tribute_suzerain = {
+		who = e_hittite_empire
+		type = default
+	}
 }

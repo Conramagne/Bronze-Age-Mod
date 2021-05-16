@@ -1,0 +1,17 @@
+# c_paduwanda
+
+# County Title
+title = c_paduwanda
+
+# Settlements
+max_settlements = 3
+
+b_paduwanda = castle
+b_illuya = city
+b_tuwanuwa = temple
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

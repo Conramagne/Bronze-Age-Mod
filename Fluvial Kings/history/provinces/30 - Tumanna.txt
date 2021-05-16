@@ -1,0 +1,17 @@
+# c_tumanna
+
+# County Title
+title = c_tumanna
+
+# Settlements
+max_settlements = 3
+
+b_tumanna = tribal
+b_washaya = tribal
+#b_tuhupurpuna = temple
+
+# Misc
+culture = eneti
+religion = ishalitethai
+
+#History

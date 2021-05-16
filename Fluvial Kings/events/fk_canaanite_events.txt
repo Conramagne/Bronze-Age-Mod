@@ -1,0 +1,444 @@
+namespace = fkc
+
+#Puts Twelve Tribes into Alliance (on_startup)
+character_event = {
+	id = fkc.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_twelve_tribe_title_trigger = yes
+		any_playable_ruler = {
+			has_twelve_tribe_title_trigger = yes
+			NOR = {
+				is_allied_with = ROOT
+				character = ROOT
+			}
+		}
+	}
+	
+	immediate = {
+		any_playable_ruler = {
+			limit = {
+				has_twelve_tribe_title_trigger = yes
+				NOR = {
+					is_allied_with = ROOT
+					character = ROOT
+				}
+			}
+			add_alliance = {
+				who = ROOT
+				years = 100
+			}
+			reverse_opinion = {
+				modifier = in_non_aggression_pact
+				years = 100
+				who = ROOT
+			}
+		}
+	}
+}
+
+#Puts Twelve Tribes into Alliance (MTTH) 
+##Chad: "Yes, I did create a system that has the possibility of firing 132 times, how could you tell?"
+character_event = {
+	id = fkc.2
+	hide_window = yes
+	trigger = {
+		has_twelve_tribe_title_trigger = yes
+		any_playable_ruler = {
+			has_twelve_tribe_title_trigger = yes
+			NOR = {
+				is_allied_with = ROOT
+				character = ROOT
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_playable_ruler = {
+			limit = {
+				has_twelve_tribe_title_trigger = yes
+				NOR = {
+					is_allied_with = ROOT
+					character = ROOT
+				}
+			}
+			add_alliance = {
+				who = ROOT
+				years = 100
+			}
+			reverse_opinion = {
+				modifier = in_non_aggression_pact
+				years = 100
+				who = ROOT
+			}
+		}
+	}
+}
+
+#Israelite Tribe gets attacked
+character_event = {
+	id = fkc.3
+	desc = EVTDESCFKC3
+	trigger = {
+		has_twelve_tribe_title_trigger = yes
+		is_primary_war_defender = yes
+		NOR = {
+			higher_tier_than = DUKE
+			any_playable_ruler = {
+				has_landed_title = k_judge_of_israel
+			}
+		}
+		any_war = {
+			defender = { character = ROOT }
+			attacker = {
+				OR = {
+					tier = KING
+					tier = EMPEROR
+				}
+			}
+		}
+		any_playable_ruler = {
+			has_twelve_tribe_title_trigger = yes
+			NOR = {
+				character = ROOT
+				higher_tier_than = DUKE
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { #Begin Judges
+		name = EVTOPTAFKC3
+		random_character = {
+			save_event_target_as = judge_of_israel
+			limit = {
+				is_landed = no
+				is_adult = yes
+				is_female = no
+				is_incapable = no
+				prisoner = no 
+				is_inaccessible_trigger = no
+				religion = berith
+				is_evil_trigger = no
+				is_impious_trigger = no
+			}
+			preferred_limit = {
+				is_benevolent_trigger = yes
+				is_pious_trigger = yes
+				has_education_martial_trigger = yes
+			}
+			preferred_limit = {
+				OR = {
+					is_benevolent_trigger = yes
+					is_pious_trigger = yes
+					has_education_martial_trigger = yes
+				}
+			}
+			grant_title_no_reverse_opinion = k_judge_of_israel
+			primary_title = {
+				add_law = {
+					law = succ_feudal_elective
+					reverse_opinion_effect = no
+					cooldown = no
+				}
+			}
+			ROOT = {
+				set_defacto_liege = PREV
+			}
+			join_defender_wars = ROOT
+			any_playable_ruler = {
+				limit = {
+					has_twelve_tribe_title_trigger = yes
+					NOT = {
+						higher_tier_than = DUKE
+					}
+				}
+				character_event = { id = fkc.4 }				
+			}
+		}
+	}
+	option = { #Refuse help of Judge
+		name = EVTOPTBFKC3
+		
+		trigger = {
+			ai = no
+		}
+	}
+}
+
+character_event = {
+	id = fkc.4
+	desc = EVTDESCFKC4
+	is_triggered_only = yes
+	option = { #Yes
+		name = EVTOPTAFKC4
+		
+		set_defacto_liege = event_target:judge_of_israel
+	}
+	option = { #No
+		name = EVTOPTBFKC4
+		
+		trigger = {
+			ai = no
+		}
+	}
+}
+
+#Judge asks you to repent
+letter_event = {
+	id = fkc.5
+	desc = EVTDESCFKC5
+	is_triggered_only = yes
+	option = { #Yes
+		name = EVTOPTAFKC5
+		if = {
+			limit = {
+				is_syncretic_trigger = yes
+			}
+			remove_syncretic_effect = yes
+		}
+		else = {
+			remove_evil_effect = yes
+		}
+		FROMFROM = {
+			letter_event = { id = fkc.6 }
+		}
+		random = {
+			chance = 50
+			add_good_effect = yes
+		}
+		random = {
+			chance = 25
+			add_trait = zealous
+		}
+		add_character_modifier = {
+			name = israelite_repented_modifier
+			years = 10
+		}
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 0.5
+				is_evil_trigger = yes
+			}
+			modifier = {
+				factor = 100
+				FROMFROM = { is_friend = ROOT }
+			}
+			modifier = {
+				factor = 0.01
+				FROMFROM = { is_rival = ROOT }
+			}
+			modifier = {
+				factor = 0.2
+				FROMFROM = { reverse_opinion = { who = ROOT value <= -80 } }
+			}
+			modifier = {
+				factor = 0.4
+				FROMFROM = { reverse_opinion = { who = ROOT value <= -60 } }
+			}
+			modifier = {
+				factor = 0.6
+				FROMFROM = { reverse_opinion = { who = ROOT value <= -40 } }
+			}
+			modifier = {
+				factor = 0.8
+				FROMFROM = { reverse_opinion = { who = ROOT value <= -20 } }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { reverse_opinion = { who = ROOT value = 20 } }
+			}
+			modifier = {
+				factor = 1.4
+				FROMFROM = { reverse_opinion = { who = ROOT value = 40 } }
+			}
+			modifier = {
+				factor = 1.6
+				FROMFROM = { reverse_opinion = { who = ROOT value = 60 } }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { reverse_opinion = { who = ROOT value = 80 } }
+			}
+		}
+	}
+	option = { #No
+		name = EVTOPTBFKC5
+		FROMFROM = {
+			letter_event = { id = fkc.7 }
+		}
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 2
+				is_evil_trigger = yes
+			}
+		}
+	}
+}
+
+#Israelite Repented
+letter_event = {
+	id = fkc.6
+	desc = EVTDESCFKC6
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTAFKC6
+		add_character_modifier = {
+			name = israelite_repented_modifier
+			years = 5
+		}
+		religion_authority = {
+			modifier = israelite_repented
+		}
+	}
+}
+
+#Israelite Did Not Repent
+letter_event = {
+	id = fkc.7
+	desc = EVTDESCFKC7
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTAFKC7
+		religion_authority = {
+			modifier = israelite_did_not_repent
+		}
+		random = {
+			chance = 10
+			add_rival = FROM
+		}
+	}
+}
+
+#Berith Province Lapses
+character_event = {
+	id = fkc.8
+	desc = EVTDESCFKC8
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		higher_tier_than = BARON
+		religion = berith
+		any_demesne_province = {
+			religion = berith
+		}
+	}
+	weight_multiplier = {
+		days = 1 
+		modifier = {
+			factor = 10
+			NOT = { religion_authority = 0.5 }
+		}
+	}
+	immediate = {
+		if = {
+			limit = {
+				capital_scope = {
+					religion = berith
+				}
+			}
+			capital_scope = {
+				religion = canaanite_religion
+			}
+			owner = {
+				character_event = { id = fkc.9 } #Owner Notified
+			}
+		}
+		else = {
+			random_demesne_province = {
+				limit = {
+					religion = berith
+				}
+				religion = canaanite_religion
+			}
+			owner = {
+				character_event = { id = fkc.9 } #Owner Notified
+			}
+		}
+	}
+}
+
+#Owner Notified
+character_event = {
+	id = fkc.9
+	desc = EVTDESCFKC9
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAFKC9
+		ai_chance = {
+			factor = 75
+		}
+	}
+	option = {
+		name = EVTOPTBFKC9
+		trigger = {
+			NOT = {
+				trait = zealous
+			}
+		}
+		add_trait = syncretic_canaanite_religion
+		
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+#Berith Person Lapses
+character_event = {
+	id = fkc.10
+	desc = EVTDESCFKC10
+	is_triggered_only = yes
+	trigger = {
+		religion = berith
+		NOR = {
+			trait = zealous
+			trait = syncretic_canaanite_religion
+		}
+	}
+	weight_multiplier = {
+		days = 1 
+		modifier = {
+			factor = 10
+			NOT = { religion_authority = 0.5 }
+		}
+	}
+	option = {
+		name = EVTOPTAFKC10
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 2
+				trait = cynical
+			}
+		}
+		add_trait = syncretic_canaanite_religion
+	}
+	option = {
+		name = EVTOPTBFKC9
+		ai_chance = {
+			factor = 75
+		}
+	}
+}
+
+#Vassal Turned to Paganism
+character_event = {
+	id = fkc.11
+	desc = EVTDESCFKC11
+	is_triggered_only = yes
+	option = {
+		name = EVTOPTAFKC11
+	}
+}

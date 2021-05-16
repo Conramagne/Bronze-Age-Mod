@@ -1,0 +1,16 @@
+# c_sawit
+
+# County Title
+title = c_sawit
+
+# Settlements
+max_settlements = 2
+
+b_sawit = castle
+b_kunanamit = city
+
+# Misc
+culture = amazonian
+religion = pantes_theoi
+
+#History

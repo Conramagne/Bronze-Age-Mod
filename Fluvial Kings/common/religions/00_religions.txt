@@ -37,6 +37,7 @@ bnai_avraham = {
 		can_excommunicate = yes
 		allow_rivermovement = yes
 		allow_looting = yes
+		max_wives = 4
 		autocephaly = yes
 		priests_can_marry = yes
 		priests_can_inherit = yes
@@ -55,22 +56,22 @@ bnai_kenaan = {
 	
 	# interface_skin = {  }
 	
-	barqos = {
+	edomite_religion = {
 		graphical_culture = muslimgfx
 		
 		icon = 10
 		heresy_icon = 10
 		
-		scripture_name = THE_QOS_KTOVET
+		scripture_name = THE_QAWS_KTOVET
 		priest_title = KOHEN
 		crusade_name = GREAT_HOLY_WAR
 
 		color = { 0.7 0.6 0.2  }
 		
-		high_god_name = GOD_QOS
+		high_god_name = GOD_QAWS
 		
 		god_names = {
-			GOD_QOS GOD_EL_SHADDAI GOD_ASHERAH GOD_BAAL_HADAD GOD_MANAT
+			GOD_QAWS GOD_EL GOD_ASHERAH GOD_BAAL_HADAD
 		}
 		evil_god_names = {
 			GOD_LITANU GOD_YAM GOD_MOLEK
@@ -83,7 +84,7 @@ bnai_kenaan = {
 		priests_can_marry = yes
 		priests_can_inherit = yes
 		
-		intermarry = bene_elihi
+		intermarry = canaanite_religion
 		intermarry = ili_abinia
 		intermarry = egal_assur
 		intermarry = haianiluwi
@@ -94,7 +95,7 @@ bnai_kenaan = {
 		intermarry = doumos
 	}
 	
-	bene_elihi = {
+	canaanite_religion = {
 		graphical_culture = muslimgfx
 		
 		icon = 4
@@ -122,7 +123,7 @@ bnai_kenaan = {
 		priests_can_inherit = yes
 		female_temple_holders = yes
 		
-		intermarry = barqos
+		intermarry = edomite_religion
 		intermarry = ili_abinia
 		intermarry = egal_assur
 		intermarry = haianiluwi
@@ -163,8 +164,8 @@ bnai_kenaan = {
 		priests_can_marry = yes
 		priests_can_inherit = yes
 		
-		intermarry = barqos
-		intermarry = bene_elihi
+		intermarry = edomite_religion
+		intermarry = canaanite_religion
 		intermarry = egal_assur
 		intermarry = haianiluwi
 		intermarry = ishalitethai
@@ -212,8 +213,8 @@ mesopotamian = {
 		priests_can_marry = yes
 		priests_can_inherit = yes
 		
-		intermarry = barqos
-		intermarry = bene_elihi
+		intermarry = edomite_religion
+		intermarry = canaanite_religion
 		intermarry = ili_abinia
 		intermarry = haianiluwi
 		intermarry = ishalitethai
@@ -272,8 +273,8 @@ pihassasi = {
 		priests_can_inherit = yes
 		female_temple_holders = yes
 		
-		intermarry = barqos
-		intermarry = bene_elihi
+		intermarry = edomite_religion
+		intermarry = canaanite_religion
 		intermarry = ili_abinia
 		intermarry = egal_assur
 		intermarry = ishalitethai
@@ -310,8 +311,8 @@ pihassasi = {
 		priests_can_marry = yes
 		priests_can_inherit = yes
 		
-		intermarry = barqos
-		intermarry = bene_elihi
+		intermarry = edomite_religion
+		intermarry = canaanite_religion
 		intermarry = ili_abinia
 		intermarry = egal_assur
 		intermarry = haianiluwi
@@ -361,8 +362,8 @@ hellenic = {
 		priests_can_inherit = yes
 		female_temple_holders = yes
 		
-		intermarry = barqos
-		intermarry = bene_elihi
+		intermarry = edomite_religion
+		intermarry = canaanite_religion
 		intermarry = ili_abinia
 		intermarry = egal_assur
 		intermarry = haianiluwi
@@ -400,8 +401,8 @@ hellenic = {
 		priests_can_inherit = yes
 		female_temple_holders = yes
 		
-		intermarry = barqos
-		intermarry = bene_elihi
+		intermarry = edomite_religion
+		intermarry = canaanite_religion
 		intermarry = ili_abinia
 		intermarry = egal_assur
 		intermarry = haianiluwi
@@ -444,8 +445,8 @@ european_group = {
 		priests_can_inherit = yes
 		female_temple_holders = yes
 		
-		intermarry = barqos
-		intermarry = bene_elihi
+		intermarry = edomite_religion
+		intermarry = canaanite_religion
 		intermarry = ili_abinia
 		intermarry = egal_assur
 		intermarry = haianiluwi
@@ -482,8 +483,8 @@ european_group = {
 		priests_can_inherit = yes
 		female_temple_holders = yes
 		
-		intermarry = barqos
-		intermarry = bene_elihi
+		intermarry = edomite_religion
+		intermarry = canaanite_religion
 		intermarry = ili_abinia
 		intermarry = egal_assur
 		intermarry = haianiluwi

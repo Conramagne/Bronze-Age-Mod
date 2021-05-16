@@ -1,0 +1,18 @@
+# c_arinna
+
+# County Title
+title = c_arinna
+
+# Settlements
+max_settlements = 4
+
+b_matilla = castle
+b_alisa = city
+b_arinna = temple
+b_katapa = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

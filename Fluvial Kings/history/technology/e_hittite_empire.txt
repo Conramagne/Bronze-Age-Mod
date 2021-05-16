@@ -119,6 +119,7 @@ technology = {
 technology = {
 	titles = {
 		d_hulaya
+		d_istahara
 		d_kalasma
 		d_kastaraya
 		d_kasula

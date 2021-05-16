@@ -23,6 +23,294 @@ hero = {
 	random = no
 	customizer = no
 }
+#Twelve Tribe Traits
+reubenite = {
+	same_opinion = 10 
+	agnatic = yes
+	
+	opposites = {
+		simeonite
+		levite
+		judahite
+		danite
+		naphtalite
+		gadite
+		asherite
+		issacharite
+		zebulunite
+		manassehite
+		ephraimite
+		benjaminite
+	}
+
+	random = no
+	customizer = no
+}
+simeonite = {
+	same_opinion = 10 
+	agnatic = yes
+	
+	opposites = {
+		reubenite
+		levite
+		judahite
+		danite
+		naphtalite
+		gadite
+		asherite
+		issacharite
+		zebulunite
+		manassehite
+		ephraimite
+		benjaminite
+	}
+
+	random = no
+	customizer = no
+}
+levite = {
+	same_opinion = 10 
+	agnatic = yes
+	
+	opposites = {
+		reubenite
+		simeonite
+		judahite
+		danite
+		naphtalite
+		gadite
+		asherite
+		issacharite
+		zebulunite
+		manassehite
+		ephraimite
+		benjaminite
+	}
+
+	random = no
+	customizer = no
+}
+judahite = {
+	same_opinion = 10 
+	agnatic = yes
+	
+	opposites = {
+		reubenite
+		simeonite
+		levite
+		danite
+		naphtalite
+		gadite
+		asherite
+		issacharite
+		zebulunite
+		manassehite
+		ephraimite
+		benjaminite
+	}
+
+	random = no
+	customizer = no
+}
+danite = {
+	same_opinion = 10 
+	agnatic = yes
+	
+	opposites = {
+		reubenite
+		simeonite
+		levite
+		judahite
+		naphtalite
+		gadite
+		asherite
+		issacharite
+		zebulunite
+		manassehite
+		ephraimite
+		benjaminite
+	}
+
+	random = no
+	customizer = no
+}
+naphtalite = {
+	same_opinion = 10 
+	agnatic = yes
+	
+	opposites = {
+		reubenite
+		simeonite
+		levite
+		judahite
+		danite
+		gadite
+		asherite
+		issacharite
+		zebulunite
+		manassehite
+		ephraimite
+		benjaminite
+	}
+
+	random = no
+	customizer = no
+}
+gadite = {
+	same_opinion = 10 
+	agnatic = yes
+	
+	opposites = {
+		reubenite
+		simeonite
+		levite
+		judahite
+		danite
+		naphtalite
+		asherite
+		issacharite
+		zebulunite
+		manassehite
+		ephraimite
+		benjaminite
+	}
+
+	random = no
+	customizer = no
+}
+asherite = {
+	same_opinion = 10 
+	agnatic = yes
+	
+	opposites = {
+		reubenite
+		simeonite
+		levite
+		judahite
+		danite
+		naphtalite
+		gadite
+		issacharite
+		zebulunite
+		manassehite
+		ephraimite
+		benjaminite
+	}
+
+	random = no
+	customizer = no
+}
+issacharite = {
+	same_opinion = 10 
+	agnatic = yes
+	
+	opposites = {
+		reubenite
+		simeonite
+		levite
+		judahite
+		danite
+		naphtalite
+		gadite
+		asherite
+		asherite
+		zebulunite
+		manassehite
+		ephraimite
+		benjaminite
+	}
+
+	random = no
+	customizer = no
+}
+zebulunite = {
+	same_opinion = 10 
+	agnatic = yes
+	
+	opposites = {
+		reubenite
+		simeonite
+		levite
+		judahite
+		danite
+		naphtalite
+		gadite
+		asherite
+		issacharite
+		manassehite
+		ephraimite
+		benjaminite
+	}
+
+	random = no
+	customizer = no
+}
+manassehite = {
+	same_opinion = 10 
+	agnatic = yes
+	
+	opposites = {
+		reubenite
+		simeonite
+		levite
+		judahite
+		danite
+		naphtalite
+		gadite
+		asherite
+		issacharite
+		zebulunite
+		ephraimite
+		benjaminite
+	}
+
+	random = no
+	customizer = no
+}
+ephraimite = {
+	same_opinion = 10 
+	agnatic = yes
+	
+	opposites = {
+		reubenite
+		simeonite
+		levite
+		judahite
+		danite
+		naphtalite
+		gadite
+		asherite
+		issacharite
+		zebulunite
+		manassehite
+		benjaminite
+	}
+
+	random = no
+	customizer = no
+}
+benjaminite = {
+	same_opinion = 10 
+	agnatic = yes
+	
+	opposites = {
+		reubenite
+		simeonite
+		levite
+		judahite
+		danite
+		naphtalite
+		gadite
+		asherite
+		issacharite
+		zebulunite
+		manassehite
+		ephraimite
+	}
+
+	random = no
+	customizer = no
+}
 
 #Imperial Authority Events
 figurehead_emperor = {
@@ -128,6 +416,87 @@ syncretic_european_group = {
 	}
 
 	tolerates_european_group = yes
+
+	same_opinion_if_same_religion = 5
+
+	customizer = no
+	random = no
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+
+syncretic_berith = {
+	
+	potential = {
+		NOT = { religion = berith }
+	}
+
+	tolerates_bnai_avraham = yes
+
+	same_opinion_if_same_religion = 5
+
+	customizer = no
+	random = no
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+
+
+syncretic_canaanite_religion = {
+	
+	potential = {
+		NOT = { religion = canaanite_religion }
+	}
+
+	tolerates_bnai_kenaan = yes
+
+	same_opinion_if_same_religion = 5
+
+	customizer = no
+	random = no
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+
+syncretic_edomite_religion = {
+	
+	potential = {
+		NOT = { religion = edomite_religion }
+	}
+
+	tolerates_bnai_kenaan = yes
+
+	same_opinion_if_same_religion = 5
+
+	customizer = no
+	random = no
+
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}
+
+syncretic_ili_abinia = {
+	
+	potential = {
+		NOT = { religion = ili_abinia }
+	}
+
+	tolerates_bnai_kenaan = yes
 
 	same_opinion_if_same_religion = 5
 
@@ -310,6 +679,59 @@ devotion_telipinu = {
 	stewardship = 1
 }
 
+#Canaanite Devotion Traits
+devotion_el = {
+	random = no
+	opposites = {
+		devotion_baal_hadad
+		devotion_asherah
+		devotion_resheph
+	}
+	same_religion_opinion = 10
+}
+
+devotion_baal_hadad = {
+	random = no
+	opposites = {
+		devotion_el
+		devotion_asherah
+		devotion_resheph
+	}
+	global_tax_modifier = 0.10
+}
+
+devotion_asherah = {
+	random = no
+	opposites = {
+		devotion_el
+		devotion_baal_hadad
+		devotion_resheph
+	}
+	fertility = 0.05
+}
+
+devotion_resheph = {
+	random = no
+	opposites = {
+		devotion_el
+		devotion_baal_hadad
+		devotion_asherah
+	}
+	health = 0.1
+}
+
+devotion_qaws = {
+	random = no
+	opposites = {
+		devotion_el
+		devotion_baal_hadad
+		devotion_asherah
+	}
+	
+	edomite_opinion = 20
+	opinion_of_edomite = 20
+}
+
 
 #Hellenic Pantheon Traits
 zeus = {
@@ -480,7 +902,6 @@ sabazios = {
 	}
 	opinion_of_zealous = 5
 	opinion_of_cynical = -10
-	opinion_of_erudite = 10
 	opinion_of_devotion_sabazios = 15
 	monthly_character_wealth = 10000
 	in_hiding = yes
@@ -545,6 +966,106 @@ kubeleya = {
 	opinion_of_zealous = 5
 	opinion_of_cynical = -10
 	opinion_of_devotion_kubeleya = 15
+	monthly_character_wealth = 10000
+	in_hiding = yes
+}
+
+#Canaanite Pantheon
+el = {
+	hidden_from_others = yes
+	immortal = yes
+	cannot_inherit = yes
+	cannot_marry = yes
+	fertility = -1000
+	random = no
+	customizer = no
+	opposites = {
+		excommunicated
+	}
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
+	opinion_of_devotion_el = 15
+	monthly_character_wealth = 10000
+	in_hiding = yes
+}
+
+baal_hadad = {
+	hidden_from_others = yes
+	immortal = yes
+	cannot_inherit = yes
+	cannot_marry = yes
+	fertility = -1000
+	random = no
+	customizer = no
+	opposites = {
+		excommunicated
+	}
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
+	opinion_of_devotion_baal_hadad = 15
+	monthly_character_wealth = 10000
+	in_hiding = yes
+}
+
+asherah = {
+	hidden_from_others = yes
+	immortal = yes
+	cannot_inherit = yes
+	cannot_marry = yes
+	fertility = -1000
+	random = no
+	customizer = no
+	opposites = {
+		excommunicated
+	}
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
+	opinion_of_celibate = -20
+	opinion_of_erudite = 10
+	opinion_of_lustful = 5
+	opinion_of_chaste = 5
+	opinion_of_hedonist = 5
+	opinion_of_seducer = 10
+	opinion_of_seductress = 10
+	seducer_opinion = 10
+	seductress_opinion = 10
+	chaste_opinion = -5
+	lustful_opinion = 5
+	hedonist_opinion = 5
+	monthly_character_wealth = 10000
+	in_hiding = yes
+}
+
+resheph = {
+	hidden_from_others = yes
+	immortal = yes
+	cannot_inherit = yes
+	cannot_marry = yes
+	fertility = -1000
+	random = no
+	customizer = no
+	opposites = {
+		excommunicated
+	}
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
+	monthly_character_wealth = 10000
+	in_hiding = yes
+}
+
+qaws = {
+	hidden_from_others = yes
+	immortal = yes
+	cannot_inherit = yes
+	cannot_marry = yes
+	fertility = -1000
+	random = no
+	customizer = no
+	opposites = {
+		excommunicated
+	}
+	opinion_of_zealous = 5
+	opinion_of_cynical = -10
 	monthly_character_wealth = 10000
 	in_hiding = yes
 }

@@ -1,0 +1,15 @@
+# c_sallusa
+
+# County Title
+title = c_sallusa
+
+# Settlements
+max_settlements = 1
+
+b_sallusa = castle
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

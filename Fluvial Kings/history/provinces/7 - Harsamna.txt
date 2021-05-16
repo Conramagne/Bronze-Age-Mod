@@ -1,0 +1,18 @@
+# c_harsamna
+
+# County Title
+title = c_harsamna
+
+# Settlements
+max_settlements = 4
+
+b_harsamna = castle
+b_masika = city
+b_lakimissa = temple
+#b_atuna = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

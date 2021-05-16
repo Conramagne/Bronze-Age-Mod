@@ -1,0 +1,15 @@
+# c_sukziya
+
+# County Title
+title = c_sukziya
+
+# Settlements
+max_settlements = 1
+
+b_sukziya = castle
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

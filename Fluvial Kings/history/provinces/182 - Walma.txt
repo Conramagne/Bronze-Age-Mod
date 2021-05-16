@@ -1,0 +1,16 @@
+# c_walma
+
+# County Title
+title = c_walma
+
+# Settlements
+max_settlements = 2
+
+b_walma = tribal
+#b_parsuhanda = city
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

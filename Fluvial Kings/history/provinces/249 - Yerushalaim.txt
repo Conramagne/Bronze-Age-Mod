@@ -1,0 +1,21 @@
+# c_yerushalaim
+
+# County Title
+title = c_yerushalaim
+
+# Settlements
+max_settlements = 7
+
+b_yerushalaim = castle
+b_jericho = city
+b_nob = temple
+#b_gibon = castle
+#b_beerot = city
+#b_geba = temple
+#b_ramah = castle
+
+# Misc
+culture = canaanite
+religion = canaanite_religion
+
+#History

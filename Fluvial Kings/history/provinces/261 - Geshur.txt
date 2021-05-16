@@ -1,0 +1,17 @@
+# c_geshur
+
+# County Title
+title = c_geshur
+
+# Settlements
+max_settlements = 3
+
+b_ashteroth = castle
+b_qarnayim = city
+#b_geter = temple
+
+# Misc
+culture = amorite
+religion = ili_abinia
+
+#History

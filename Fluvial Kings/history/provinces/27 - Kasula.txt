@@ -1,0 +1,15 @@
+# c_kasula
+
+# County Title
+title = c_kasula
+
+# Settlements
+max_settlements = 1
+
+b_zaparasta = tribal
+
+# Misc
+culture = eneti
+religion = ishalitethai
+
+#History

@@ -1,276 +1,283 @@
 province;red;green;blue;x;x
 1;153;0;0;Hattusa;x
-2;135;64;47;Zalpa;x
-3;221;120;0;Izziya;x
-4;221;60;0;Malluma;x
-5;221;163;0;Lawazantiya;x
-6;165;121;0;Zaruna;x
-7;237;121;109;Bulbulhum;x
-8;137;118;64;Tarsa;x
-9;213;6;58;Saliya;x
-10;136;6;58;Ura;x
-11;247;153;153;Tarhuntassa;x
-12;247;79;79;Saranduwa;x
-13;255;132;120;Kastaraya;x
-14;255;89;82;Asita;x
-15;145;75;77;Sallusa;x
-16;145;4;9;Nahita;x
-17;206;103;103;Sukziya;x
-18;143;71;109;Kummuth;x
-19;142;71;71;Mala;x
-20;175;63;51;Mamma;x
-21;140;4;4;Katapa;x
-22;237;118;39;Kalasma;x
-23;234;175;138;Tumanna;x
-24;99;55;19;Kasula;x
-25;216;121;43;Sariya;x
-26;135;77;27;Istahara;x
-27;226;102;0;Sappa;x
-28;219;57;98;Sahiriya;x
-29;178;57;98;Walma;x
-30;255;132;176;Marasa;x
-31;255;136;25;Athulissa;x
-32;188;129;81;Gassu;x
-33;219;105;76;Sawit;x
-34;219;43;0;Takkupta;x
-35;204;57;57;Altanna;x
-36;255;58;117;Kappurnanda;x
-37;219;0;0;Tuhuppiya;x
-38;119;28;28;Washaniya;x
-39;196;7;7;Kapitra;x
-40;153;3;3;Nesa;x
-41;106;4;4;Zipishuna;x
-42;226;136;0;Ullamma;x
-43;226;157;138;Piddaniyasa;x
-44;213;141;94;Salatiwara;x
-45;226;72;77;Hapalla;x
-46;142;54;0;Tegarama;x
-47;234;124;128;Lahhwiyassi;x
-48;255;6;13;Hulaya;x
-49;234;37;23;Sinnuwanda;x
-50;226;105;0;Suwatara;x
-51;244;68;68;Laanda;x
-52;255;196;197;Hupisna;x
-53;155;23;0;Masika;x
-54;236;140;0;Haburat;x
-55;196;74;0;Istitina;x
-56;196;170;0;Kummaha;x
-57;216;20;26;Pahhuwa;x
-58;234;42;71;Arawana;x
-59;217;20;0;Serigga;x
-60;255;74;25;Paduwanda;x
-61;96;31;33;Sarpa;x
-62;255;219;40;Samura;x
-63;239;71;52;Timelkiya;x
-64;219;179;175;Hurma;x
-65;198;125;79;Arihuwa;x
-66;198;70;55;Til-garimmu;x
-67;217;85;0;Asturiya;x
-68;143;138;102;Enkomi;x
-69;186;66;114;Kition;x
-70;95;184;43;Paphos;x
-71;69;121;64;Maroni;x
-72;45;130;235;Mykenae;x
-73;93;160;243;Megara;x
-74;91;127;171;Sykyon;x
-75;26;62;107;Aigeira;x
-76;58;77;100;Aigio;x
-77;136;150;209;Salamina;x
-78;100;150;209;Aigina;x
-79;47;61;100;Elis;x
-80;44;64;121;Olympia;x
-81;47;69;133;Tyhos Dymaeon;x
-82;83;104;161;Dymes;x
-83;120;136;188;Kleitor;x
-84;104;115;145;Orchomenos Arcadia;x
-85;30;68;189;Stymphalos;x
-86;76;91;140;Tegea;x
-87;96;142;166;Argos;x
-88;124;152;166;Mases;x
-89;74;106;123;Methana;x
-90;41;93;114;Lakonia;x
-91;23;36;42;Prasiai;x
-92;20;62;80;Pavlopetri;x
-93;32;72;88;Gytheion;x
-94;50;162;163;Kastri;x
-95;81;161;171;Messene;x
-96;22;93;102;Phigalia;x
-97;39;123;133;Pylos;x
-98;41;131;142;Gerenia;x
-99;147;183;120;Attica;x
-100;63;125;17;Eleusis;x
-101;105;162;62;Marathon;x
-102;71;136;23;Lavrion;x
-103;49;95;15;Leuctra;x
-104;37;66;16;Thebai;x
-105;49;100;15;Kopai;x
-106;73;102;52;Khaironeia;x
-107;177;248;125;Dion;x
-108;108;255;0;Eretria;x
-109;98;220;8;Karystos;x
-110;99;191;32;Peparethos;x
-111;237;98;54;Knossos;x
-112;163;55;21;Phaistos;x
-113;181;103;39;Kydonia;x
-114;135;81;37;Kysomos;x
-115;255;195;87;Malia;x
-116;140;171;62;Zakros;x
-117;157;155;95;Kalydon;x
-118;95;147;157;Oeneidae;x
-119;104;136;86;Thyrion;x
-120;100;195;47;Kefalonia;x
-121;116;182;79;Ithake;x
-122;117;189;79;Zakynthos;x
-123;67;0;200;Delphi;x
-124;0;182;200;Doris;x
-125;143;0;150;Lamia;x
-126;0;150;143;Locris;x
-127;0;200;143;Orchomenos;x
-128;67;0;255;Stratos;x
-129;86;131;58;Tymphaea;x
-130;110;208;49;Ainis;x
-131;200;40;240;Pherae;x
-132;175;53;183;Thaumakie;x
-133;243;51;255;Phylakae;x
-134;188;184;142;Methone;x
-135;169;164;108;Ormenion;x
-136;191;182;80;Kasthanaia;x
-137;32;121;135;Meliboia;x
-138;255;0;18;Pieres;x
-139;88;100;189;Olumpos;x
-140;66;167;183;Trikka;x
-141;107;225;243;Kyphos;x
-142;69;162;177;Gyrton;x
-143;75;39;41;Pallene;x
-144;133;36;82;Bisaltia;x
-145;189;88;95;Olynthos;x
-146;222;63;63;Chalkidiki;x
-147;190;65;118;Ismaros;x
-148;190;200;118;Khersonesos;x
-149;26;155;74;Delos;x
-150;29;217;100;Naxos;x
-151;172;231;142;Thera;x
-152;140;158;156;Melos;x
-153;198;132;232;Samothraki;x
-154;232;132;212;Lemnos;x
-155;129;70;101;Pityoussa;x
-156;228;119;109;Skyros;x
-157;191;55;139;Rhodios;x
-158;159;117;129;Lyndos;x
-159;119;95;139;Krapathos;x
-160;159;46;185;Noties Sporades;x
-161;216;112;77;Truwisa;x
-162;216;80;77;Tenedos;x
-163;163;126;106;Abydos;x
-164;214;216;77;Adramyttion;x
-165;65;70;128;Thebe;x
-166;207;198;97;Lazpa;x
-167;219;166;148;Kyzikos;x
-168;216;134;106;Aisepos;x
-169;224;62;66;Masa;x
-170;101;167;125;Karkisa;x
-171;187;216;100;Seha;x
-172;75;114;50;Lurnessos;x
-173;200;91;52;Phokaia;x
-174;111;171;74;Karkisian Highlands;x
-175;51;151;51;Walma_2;x
-176;197;175;26;Hulana Highlands;x
-177;168;206;39;Lalanda;x
-178;74;132;74;Mira;x
-179;78;174;39;Kuwaliya;x
-180;123;112;37;Ankala;x
-181;139;216;44;Ascania;x
-182;100;151;12;Kamalla;x
-183;214;225;113;Partahuina;x
-184;153;134;27;Lukkan Highlands;x
-185;236;208;41;Kuwalapassa;x
-186;36;206;69;Awarna;x
-187;100;224;36;Zumarri;x
-188;231;180;40;Wiyanawanda;x
-189;195;240;66;Attarima;x
-190;216;151;77;Sfard;x
-191;216;183;77;Assaratta;x
-192;128;217;70;Wallarimma;x
-193;183;238;121;Apasa;x
-194;139;229;43;Erythrai;x
-195;35;203;124;Milawata;x
-196;36;221;72;Samos;x
-197;140;211;99;Alos Karnos;x
-198;206;139;30;Karia;x
-199;117;215;13;Khbide;x
-200;215;205;52;Utima;x
-201;142;74;51;Dardania;x
-202;135;39;99;Syme;x
-203;244;243;255;Urqananu Sea;x
-204;168;0;72;Odrysia;x
-205;134;126;131;Heptanese;x
-206;213;161;104;Moni Strofadon;x
-207;58;21;33;Lakonikos Kolpos;x
-208;109;121;73;Latoko Kolpos;x
-209;167;187;203;Patraikos Kolpos;x
-210;115;171;214;Korinthiakos Kolpos;x
-211;181;140;203;Myrtoo Pelagos;x
-212;53;97;143;Steno Keas;x
-213;244;149;225;Maliakos Kolpos;x
-214;139;107;189;Sporadenisi;x
-215;79;31;46;Thermaikos Kolpos;x
-216;167;126;190;Thrakiko Pelagos;x
-217;107;121;187;Propontis;x
-218;104;42;61;Masakos Kolpos;x
-219;107;121;112;Amazonios Pelagos;x
-220;195;126;235;Steno Mitilinis;x
-221;147;182;219;Kykladinisi;x
-222;176;155;188;Dodecanese;x
-223;63;121;73;Knossokos Kolpos;x
-224;80;182;54;Notio Kritikos Pelagos;x
-225;176;85;141;Agiokos Kolpos;x
-226;46;159;120;Zakros Pelagos;x
-227;183;104;235;Lukka Aruna;x
-228;122;111;147;Tarhunaruna;x
-229;52;142;125;Tarsusaruna;x
-230;86;104;151;Amurruruna;x
-231;181;151;162;Putwaruna;x
-232;165;155;194;Alasiyaruna;x
-233;45;39;145;Beru;x
-234;62;56;162;Sobah;x
-235;54;44;212;Kumidi;x
-236;88;129;151;Danabu;x
-237;56;53;101;Sur;x
-238;64;60;124;Sidon;x
-239;62;56;151;Akko;x
-240;69;31;136;Rimmon;x
-241;62;56;201;Dan;x
-242;98;72;172;Yerushalaim;x
-243;92;88;136;Dor;x
-244;85;124;134;Gath Padalla;x
-245;143;139;203;Shomron;x
-246;102;96;193;Efraim;x
-247;80;50;167;Yisrael;x
-248;92;68;140;Hasor;x
-249;76;126;130;Gilgal;x
-250;93;63;166;Mahanayim;x
-251;63;61;113;Jazer;x
-252;102;131;166;Ramoth;x
-253;52;197;158;Rabbat Ammon;x
-254;102;96;192;Geshur;x
-255;52;151;129;Kenatha;x
-256;153;88;96;Ar;x
-257;98;95;142;Dibon;x
-258;172;118;70;Qir Hareset;x
-259;81;73;66;Yahas;x
-260;39;130;145;Lakis;x
-261;66;117;148;Hevron;x
-262;38;102;150;Estemoa;x
-263;71;40;168;Beer Sheva;x
-264;64;104;112;Ashdod;x
-265;121;150;145;Gath;x
-266;77;83;156;Gath Rimmon;x
-267;53;61;164;Ekron;x
-268;80;165;154;Asqelon;x
-269;72;204;214;Siqlag;x
-270;57;130;188;Azza;x
-271;121;45;58;Zoar;x
-272;55;95;220;Kadesh Barnea;x
-273;156;106;72;Talmar;x
-274;146;72;85;Bosra;x
-275;221;60;46;Ezion Geber;x
+2;140;4;4;Arinna;x
+3;196;7;7;Talahi;x
+4;119;28;28;Washaniya;x
+5;219;0;0;Tuhuppiya;x
+6;204;57;57;Altanna;x
+7;155;23;0;Harsamna;x
+8;255;58;70;Sakdunuwa;x
+9;106;4;4;Sapinuwa;x
+10;104;24;24;Tapikka;x
+11;89;12;4;Hakmis;x
+12;255;58;117;Karahna;x
+13;205;58;70;Kappurnanda;x
+14;153;3;3;Kanes;x
+15;136;24;3;Sarissa;x
+16;236;140;0;Pittiyarika;x
+17;196;74;0;Pahhuwa;x
+18;196;170;0;Ambara;x
+19;216;20;26;Hahha;x
+20;135;77;27;Istahara;x
+21;216;121;43;Timuhala;x
+22;219;43;0;Takkupta;x
+23;85;77;27;Kapperi;x
+24;43;78;46;Durmitta;x
+25;70;76;26;Nerikka;x
+26;237;118;39;Kalasma;x
+27;99;55;19;Kasula;x
+28;188;129;81;Tahara;x
+29;174;88;57;Tarittara;x
+30;255;136;25;Tumanna;x
+31;234;175;138;Midduwa;x
+32;226;102;0;Sappa;x
+33;226;157;138;Piddaniyasa;x
+34;213;141;94;Hartana;x
+35;234;42;71;Arawana;x
+36;135;64;47;Zalpuwa;x
+37;219;105;76;Sawit;x
+38;216;85;43;Almina;x
+39;221;120;0;Shamal;x
+40;221;60;0;Malluma;x
+41;221;163;0;Lawazantiya;x
+42;137;118;64;Tarsa;x
+43;219;179;175;Til-garimmu;x
+44;239;71;52;Timelkiya;x
+45;237;121;109;Bulbulhum;x
+46;175;63;51;Mamma;x
+47;217;20;0;Serigga;x
+48;255;74;25;Paduwanda;x
+49;255;219;40;Samura;x
+50;247;79;79;Tarhuntassa;x
+51;213;6;58;Saliya;x
+52;136;6;58;Ura;x
+53;244;68;68;Laanda;x
+54;255;196;197;Hupisna;x
+55;247;153;153;Talwisuwanda;x
+56;145;75;77;Sallusa;x
+57;145;4;9;Nahita;x
+58;234;124;128;Lahhwiyassi;x
+59;255;6;13;Hulaya;x
+60;255;89;82;Asita;x
+61;255;132;120;Kastaraya;x
+62;219;57;98;Sahiriya;x
+63;234;37;23;Sinnuwanda;x
+64;178;57;98;Marasa;x
+65;226;136;0;Nenassa;x
+66;226;72;77;Hapalla;x
+67;226;105;0;Suwatara;x
+68;96;31;33;Nahitiya;x
+69;143;71;109;Kummaha;x
+70;206;103;103;Sukziya;x
+71;142;71;71;Mala;x
+72;142;54;0;Tegarama;x
+73;198;125;79;Sinuwa;x
+74;217;85;0;Kummuh Highlands;x
+75;143;138;102;Enkomi;x
+76;186;66;114;Kition;x
+77;95;184;43;Paphos;x
+78;69;121;64;Maroni;x
+79;45;130;235;Mykenae;x
+80;93;160;243;Megara;x
+81;91;127;171;Sykyon;x
+82;26;62;107;Aigeira;x
+83;58;77;100;Aigio;x
+84;136;150;209;Salamina;x
+85;100;150;209;Aigina;x
+86;47;61;100;Elis;x
+87;44;64;121;Olympia;x
+88;47;69;133;Tyhos Dymaeon;x
+89;83;104;161;Dymes;x
+90;120;136;188;Kleitor;x
+91;104;115;145;Orchomenos Arcadia;x
+92;30;68;189;Stymphalos;x
+93;76;91;140;Tegea;x
+94;96;142;166;Argos;x
+95;124;152;166;Mases;x
+96;74;106;123;Methana;x
+97;41;93;114;Lakonia;x
+98;23;36;42;Prasiai;x
+99;20;62;80;Pavlopetri;x
+100;32;72;88;Gytheion;x
+101;50;162;163;Kastri;x
+102;81;161;171;Messene;x
+103;22;93;102;Phigalia;x
+104;39;123;133;Pylos;x
+105;41;131;142;Gerenia;x
+106;147;183;120;Attica;x
+107;63;125;17;Eleusis;x
+108;105;162;62;Marathon;x
+109;71;136;23;Lavrion;x
+110;49;95;15;Leuctra;x
+111;37;66;16;Thebai;x
+112;49;100;15;Kopai;x
+113;73;102;52;Khaironeia;x
+114;177;248;125;Dion;x
+115;108;255;0;Eretria;x
+116;98;220;8;Karystos;x
+117;99;191;32;Peparethos;x
+118;237;98;54;Knossos;x
+119;163;55;21;Phaistos;x
+120;181;103;39;Kydonia;x
+121;135;81;37;Kysomos;x
+122;255;195;87;Malia;x
+123;140;171;62;Zakros;x
+124;157;155;95;Kalydon;x
+125;95;147;157;Oeneidae;x
+126;104;136;86;Thyrion;x
+127;100;195;47;Kefalonia;x
+128;116;182;79;Ithake;x
+129;117;189;79;Zakynthos;x
+130;67;0;200;Delphi;x
+131;0;182;200;Doris;x
+132;143;0;150;Lamia;x
+133;0;150;143;Locris;x
+134;0;200;143;Orchomenos;x
+135;67;0;255;Stratos;x
+136;86;131;58;Tymphaea;x
+137;110;208;49;Ainis;x
+138;200;40;240;Pherae;x
+139;175;53;183;Thaumakie;x
+140;243;51;255;Phylakae;x
+141;188;184;142;Methone;x
+142;169;164;108;Ormenion;x
+143;191;182;80;Kasthanaia;x
+144;32;121;135;Meliboia;x
+145;255;0;18;Pieres;x
+146;88;100;189;Olumpos;x
+147;66;167;183;Trikka;x
+148;107;225;243;Kyphos;x
+149;69;162;177;Gyrton;x
+150;75;39;41;Pallene;x
+151;133;36;82;Bisaltia;x
+152;189;88;95;Olynthos;x
+153;222;63;63;Chalkidiki;x
+154;190;65;118;Ismaros;x
+155;190;200;118;Khersonesos;x
+156;26;155;74;Delos;x
+157;29;217;100;Naxos;x
+158;172;231;142;Thera;x
+159;140;158;156;Melos;x
+160;198;132;232;Samothraki;x
+161;232;132;212;Lemnos;x
+162;129;70;101;Pityoussa;x
+163;228;119;109;Skyros;x
+164;191;55;139;Rhodios;x
+165;159;117;129;Lyndos;x
+166;119;95;139;Krapathos;x
+167;159;46;185;Noties Sporades;x
+168;216;112;77;Truwisa;x
+169;216;80;77;Tenedos;x
+170;163;126;106;Abydos;x
+171;214;216;77;Adramyttion;x
+172;65;70;128;Thebe;x
+173;207;198;97;Lazpa;x
+174;219;166;148;Kyzikos;x
+175;216;134;106;Aisepos;x
+176;224;62;66;Masa;x
+177;101;167;125;Karkisa;x
+178;187;216;100;Seha;x
+179;75;114;50;Lurnessos;x
+180;200;91;52;Phokaia;x
+181;111;171;74;Karkisian Highlands;x
+182;51;151;51;Walma;x
+183;197;175;26;Hulana Highlands;x
+184;168;206;39;Lalanda;x
+185;74;132;74;Mira;x
+186;78;174;39;Kuwaliya;x
+187;123;112;37;Ankala;x
+188;139;216;44;Ascania;x
+189;100;151;12;Kamalla;x
+190;214;225;113;Partahuina;x
+191;153;134;27;Lukkan Highlands;x
+192;36;206;69;Awarna;x
+193;100;224;36;Zumarri;x
+194;195;240;66;Attarima;x
+195;236;208;41;Kuwalapassa;x
+196;231;180;40;Wiyanawanda;x
+197;216;151;77;Sfard;x
+198;216;183;77;Assaratta;x
+199;128;217;70;Wallarimma;x
+200;183;238;121;Apasa;x
+201;139;229;43;Erythrai;x
+202;35;203;124;Milawata;x
+203;36;221;72;Samos;x
+204;140;211;99;Alos Karnos;x
+205;206;139;30;Karia;x
+206;117;215;13;Khbide;x
+207;215;205;52;Utima;x
+208;142;74;51;Dardania;x
+209;135;39;99;Syme;x
+210;244;243;255;Urqananu Sea;x
+211;168;0;72;Odrysia;x
+212;134;126;131;Heptanese;x
+213;213;161;104;Moni Strofadon;x
+214;58;21;33;Lakonikos Kolpos;x
+215;109;121;73;Latoko Kolpos;x
+216;167;187;203;Patraikos Kolpos;x
+217;115;171;214;Korinthiakos Kolpos;x
+218;181;140;203;Myrtoo Pelagos;x
+219;53;97;143;Steno Keas;x
+220;244;149;225;Maliakos Kolpos;x
+221;139;107;189;Sporadenisi;x
+222;79;31;46;Thermaikos Kolpos;x
+223;167;126;190;Thrakiko Pelagos;x
+224;107;121;187;Propontis;x
+225;104;42;61;Masakos Kolpos;x
+226;107;121;112;Amazonios Pelagos;x
+227;195;126;235;Steno Mitilinis;x
+228;147;182;219;Kykladinisi;x
+229;176;155;188;Dodecanese;x
+230;63;121;73;Knossokos Kolpos;x
+231;80;182;54;Notio Kritikos Pelagos;x
+232;176;85;141;Agiokos Kolpos;x
+233;46;159;120;Zakros Pelagos;x
+234;183;104;235;Lukka Aruna;x
+235;122;111;147;Tarhunaruna;x
+236;52;142;125;Tarsusaruna;x
+237;86;104;151;Amurruruna;x
+238;181;151;162;Putwaruna;x
+239;165;155;194;Alasiyaruna;x
+240;45;39;145;Beru;x
+241;62;56;162;Sobah;x
+242;54;44;212;Kumidi;x
+243;88;129;151;Danabu;x
+244;56;53;101;Sur;x
+245;64;60;124;Sidon;x
+246;62;56;151;Akko;x
+247;69;31;136;Rimmon;x
+248;62;56;201;Dan;x
+249;98;72;172;Yerushalaim;x
+250;92;88;136;Dor;x
+251;85;124;134;Gath Padalla;x
+252;143;139;203;Shomron;x
+253;102;96;193;Efraim;x
+254;80;50;167;Yisrael;x
+255;92;68;140;Hasor;x
+256;76;126;130;Gilgal;x
+257;93;63;166;Mahanayim;x
+258;63;61;113;Jazer;x
+259;102;131;166;Ramoth;x
+260;52;197;158;Rabbat Ammon;x
+261;102;96;192;Geshur;x
+262;52;151;129;Kenatha;x
+263;153;88;96;Ar;x
+264;98;95;142;Dibon;x
+265;172;118;70;Qir Hareset;x
+266;81;73;66;Yahas;x
+267;39;130;145;Lakis;x
+268;66;117;148;Hevron;x
+269;38;102;150;Estemoa;x
+270;71;40;168;Beer Sheva;x
+271;64;104;112;Ashdod;x
+272;121;150;145;Gath;x
+273;77;83;156;Gath Rimmon;x
+274;53;61;164;Ekron;x
+275;80;165;154;Asqelon;x
+276;72;204;214;Siqlag;x
+277;57;130;188;Azza;x
+278;121;45;58;Zoar;x
+279;55;95;220;Kadesh Barnea;x
+280;156;106;72;Talmar;x
+281;146;72;85;Bosra;x
+282;221;60;46;Ezion Geber;x

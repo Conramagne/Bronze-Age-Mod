@@ -1247,6 +1247,7 @@
 				graphical_culture = greekgodgfx
 				graphical_culture = hittitegodgfx
 				graphical_culture = europeangodgfx
+				graphical_culture = canaanitegodgfx
 			}
 			NOR = {
 				trait = zeus
@@ -1255,6 +1256,8 @@
 				trait = arinniti
 				trait = sabazios
 				trait = kubeleya
+				trait = el
+				trait = asherah
 			}
 		}
 	}
@@ -1266,12 +1269,14 @@
 				graphical_culture = greekgodgfx
 				graphical_culture = hittitegodgfx
 				graphical_culture = europeangodgfx
+				graphical_culture = canaanitegodgfx
 			}
 			NOR = {
 				trait = poseidaon
 				trait = demeter
 				trait = telipinu
 				trait = derzelas
+				trait = baal_hadad
 			}
 		}
 		modifier = {
@@ -1280,6 +1285,7 @@
 				graphical_culture = greekgodgfx
 				graphical_culture = hittitegodgfx
 				graphical_culture = europeangodgfx
+				graphical_culture = canaanitegodgfx
 			}
 		}
 	}
@@ -1291,10 +1297,12 @@
 				graphical_culture = greekgodgfx
 				graphical_culture = hittitegodgfx
 				graphical_culture = europeangodgfx
+				graphical_culture = canaanitegodgfx
 			}
 			NOR = {
 				trait = apollon
 				trait = here
+				trait = resheph
 			}
 		}
 		modifier = {
@@ -1303,6 +1311,7 @@
 				graphical_culture = greekgodgfx
 				graphical_culture = hittitegodgfx
 				graphical_culture = europeangodgfx
+				graphical_culture = canaanitegodgfx
 			}
 		}
 	}
@@ -1310,16 +1319,21 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = canaanitegodgfx
+			}
 			NOR = {
 				trait = ares
 				trait = athene
+				trait = qaws
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = canaanitegodgfx
 			}
 		}
 	}
@@ -1327,7 +1341,10 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = canaanitegodgfx
+			}
 			NOR = {
 				trait = haphaistos
 				trait = persephone
@@ -1335,8 +1352,9 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = canaanitegodgfx
 			}
 		}
 	}

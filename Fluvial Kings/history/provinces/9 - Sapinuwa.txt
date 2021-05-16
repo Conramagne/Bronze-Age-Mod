@@ -1,0 +1,16 @@
+# c_sapinuwa
+
+# County Title
+title = c_sapinuwa
+
+# Settlements
+max_settlements = 2
+
+b_sapinuwa = castle
+b_sanahwitta = temple
+
+# Misc
+culture = hittite
+religion = ishalitethai
+
+#History

@@ -106,8 +106,8 @@ EVTOPTAFKR134;Not just myself, but my blood? Perhaps I will take their eyes...;;
 
 ###########Contacting the Divines Events###########
 switched_devotion;Switched Devotion;;;;;;;;;;;;;x
-contact_pantheon;Pray to the gods of the [Root.Religion.GetFullName] pantheon;;;;;;;;;;;;;x
-contact_pantheon_desc;By praying to the [Root.Religion.GetFullName] pantheon, you wish to gain the blessings of the divines, whether they will recieve your request depends on your devotion to them and their fickle natures.;;;;;;;;;;;;;x
+contact_pantheon;Pray to the Gods;;;;;;;;;;;;;x
+contact_pantheon_desc;By praying to the gods, you wish to gain the blessings of the divines, whether they will recieve your request depends on your devotion to them and their fickle natures.;;;;;;;;;;;;;x
 request_boon;Request Boon;;;;;;;;;;;;;x
 request_boon_desc;Request a Boon from the Gods.;;;;;;;;;;;;;x
 make_sacrifice_to;Make a Sacrifice to the Gods;;;;;;;;;;;;;x
@@ -156,22 +156,42 @@ OPTAFKREL1;I pillage in the name of [Root.Religion.GetRandomGodName]!;;;;;;;;;;;
 ###########Devotion Decision Events###########
 choose_devotion_pihassasi;Devote Yourself to a God of the Pihassasi Pantheon;;;;;;;;;;;;;x
 choose_devotion_pihassasi_desc;The Pihassasi Pantheon has many gods to choose from, perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
-switch_devotion;Devote Yourself to Another God;;;;;;;;;;;;;x
-switch_devotion_desc;Pantheons have many gods to choose from perhaps it is time devote yourself to another...;;;;;;;;;;;;;x
+choose_devotion_european;Devote Yourself to a God of the Europes Pantheon;;;;;;;;;;;;;x
+choose_devotion_european_desc;The Europes Pantheon has many gods to choose from, perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
+choose_devotion_canaanite_religion;Devote Yourself to a God of the [canaanite_religion.GetName] Pantheon;;;;;;;;;;;;;x
+choose_devotion_canaanite_religion_desc;The [canaanite_religion.GetName] Pantheon has many gods to choose from, perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
+choose_devotion_edomite_religion;Devote Yourself to a God of the [edomite_religion.GetName] Pantheon;;;;;;;;;;;;;x
+choose_devotion_edomite_religion_desc;The [edomite_religion.GetName] Pantheon has many gods to choose from, perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
+switch_devotion_pihassasi;Devote Yourself to Another God of the Pihassasi Pantheon;;;;;;;;;;;;;x
+switch_devotion_pihassasi_desc;Pantheons have many gods to choose from perhaps it is time devote yourself to another...;;;;;;;;;;;;;x
+switch_devotion_european;Devote Yourself to Another God of the Europes Pantheon;;;;;;;;;;;;;x
+switch_devotion_european_desc;Pantheons have many gods to choose from perhaps it is time devote yourself to another...;;;;;;;;;;;;;x
+switch_devotion_canaanite_religion;Devote Yourself to Another God of the Bene Elihi Pantheon;;;;;;;;;;;;;x
+switch_devotion_edomite_religion_desc;Pantheons have many gods to choose from perhaps it is time devote yourself to another...;;;;;;;;;;;;;x
+switch_devotion_edomite_religion;Devote Yourself to Another God of the  [edomite_religion.GetName] Pantheon;;;;;;;;;;;;;x
+switch_devotion_canaanite_religion_desc;Pantheons have many gods to choose from perhaps it is time devote yourself to another...;;;;;;;;;;;;;x
 dedicate_child;Dedicate your Child to a God;;;;;;;;;;;;;x
 dedicate_child_desc;Dedicate your child to a god of the [Root.Religion.GetFullName] Pantheon.;;;;;;;;;;;;;x
 absolve_curse_sacrifice;Sacrifice to Absolve the Gods' curse!;;;;;;;;;;;;;x
 absolve_curse_sacrifice_desc;Sacrifice to absolve the gods' curse which was laid upon you.;;;;;;;;;;;;;x
 
-EVTDESCFKREL101;You enter the temple complex, cleansed and in the proper garb. The priests of each deity eagerly await your choice of patron, they display the images of their mighty lives and deeds... Now is the time to choose.;;;;;;;;;;;;;x
+EVTDESCFKREL100;You enter the temple complex, cleansed and in the proper garb. The priests of each deity eagerly await your choice of patron, they display the images of their mighty lives and deeds... Now is the time to choose.;;;;;;;;;;;;;x
 
-EVTOPTAFKREL101;"I devote myself to you oh Lord of the Land, Heavenly Sovereign.";;;;;;;;;;;;;x
-EVTOPTBFKREL101;"I devote myself to you, The Sun of the Earth, fairest of all.";;;;;;;;;;;;;x
-EVTOPTCFKREL101;"I devote myself to you, Exalted Son of Tarhunna, Prince of all.";;;;;;;;;;;;;x
+EVTOPTAFKREL100;"I devote myself to you oh Lord of the Land, Heavenly Sovereign.";;;;;;;;;;;;;x
+EVTOPTBFKREL100;"I devote myself to you, The Sun of the Earth, fairest of all.";;;;;;;;;;;;;x
+EVTOPTCFKREL100;"I devote myself to you, Exalted Son of Tarhunna, Prince of all.";;;;;;;;;;;;;x
 
-EVTOPTDFKREL100;"I devote myself to you who greatest shines upon Horseback...";;;;;;;;;;;;;x
-EVTOPTEFKREL100;"I devote myself to you Guiding Spear upon the Plains...";;;;;;;;;;;;;x
-EVTOPTFFKREL100;"I devote myself to you oh Lord who brings life to every soul...";;;;;;;;;;;;;x
+EVTOPTAFKREL101;"I devote myself to you who greatest shines upon Horseback...";;;;;;;;;;;;;x
+EVTOPTBFKREL101;"I devote myself to you Guiding Spear upon the Plains...";;;;;;;;;;;;;x
+EVTOPTCFKREL101;"I devote myself to you oh Lord who brings life to every soul...";;;;;;;;;;;;;x
+EVTOPTCFKREL101;"I devote myself to you Great Mother who shields us from harm...";;;;;;;;;;;;;x
+
+EVTOPTAFKREL102;"I devote myself to you oh Lord of Creation...";;;;;;;;;;;;;x
+EVTOPTBFKREL102;"I devote myself to you Master of Thunder...";;;;;;;;;;;;;x
+EVTOPTCFKREL102;"I devote myself to you Queen of Heaven...";;;;;;;;;;;;;x
+EVTOPTDFKREL102;"I devote myself to you Healer and Arrow of Plague ...";;;;;;;;;;;;;x
+
+EVTOPTDFKREL103;"I devote myself to you, supreme god of the Edomites ...";;;;;;;;;;;;;x
 
 EVTDESCFKREL200;You enter the temple complex along with your child, cleansed and in the proper garb. The priests of each deity eagerly await your choice of patron for your young one, they display the images of their mighty lives and deeds... Now is the time to choose.;;;;;;;;;;;;;x
 EVTOPTAFKREL200;"I devote my child to you, oh Lord of all lands...";;;;;;;;;;;;;x
@@ -999,3 +1019,10 @@ EVTTITLEFKCA12;Phrugios Invasion;;;;;;;;;;;;;x
 EVTDESCFKCA12;The Phrugios stand victorious as they settle in their new lands. Buildings are destroyed, granaries lay barren, and civilization has ceased in the their land.;;;;;;;;;;;;;x
 EVTOPTAAFKCA12;The land is now empty;;;;;;;;;;;;;x
 EVTOPTABFKCA12;Woeful are my lands!;;;;;;;;;;;;;x 
+
+###########Israelite Events###########
+judge_israel;Judge B'nei Yisra'el;;;;;;;;;;;;;x
+judge_israel_desc;Judge this sins of the B'nei Yisra'el.;;;;;;;;;;;;;x
+
+become_syncretic_canaanite;Become Syncretic With [canaanite_religion.GetName];;;;;;;;;;;;;x
+become_syncretic_canaanite_desc;The God of Yisra'el has failed the people of your capital. It is time to hear their plight and pray to the gods of the B'nei Kena'an.;;;;;;;;;;;;;x

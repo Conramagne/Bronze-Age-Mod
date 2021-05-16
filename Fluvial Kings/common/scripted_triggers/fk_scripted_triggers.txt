@@ -4,6 +4,8 @@ is_head_god_trigger = {
 		trait = zeus
 		trait = sabazios
 		trait = kubeleya
+		trait = el
+		trait = qaws
 	}
 }
 is_war_god_trigger = {
@@ -18,6 +20,7 @@ is_agricultural_god_trigger = {
 	OR = {
 		trait = telipinu
 		trait = demeter
+		trait = baal_hadad
 	}
 }
 is_commerce_god_trigger = {
@@ -40,11 +43,13 @@ is_guardian_god_trigger = {
 is_love_god_trigger = {
 	OR = {
 		trait = aphrodite
+		trait = asherah
 	}
 }
 is_health_god_trigger = {
 	OR = {
 		trait = derzelas
+		trait = resheph
 	}
 }
 
@@ -115,6 +120,11 @@ devotion_trait_trigger = {
 		trait = devotion_pleistoros
 		trait = devotion_derzelas
 		trait = devotion_kubeleya
+		
+		trait = devotion_el
+		trait = devotion_baal_hadad
+		trait = devotion_asherah
+		trait = devotion_resheph
 	}
 }
 
@@ -159,6 +169,22 @@ outside_pantheon_trigger = {
 				trait = derzelas
 			}
 		}
+		AND = {
+			FROM = {
+				religion = canaanite_religion
+			}
+			ROOT = {
+				trait = resheph
+			}
+		}
+		# AND = {
+			# FROM = {
+				# religion = ili_abinia
+			# }
+			# ROOT = {
+				# trait = resheph
+			# }
+		# }
 	}
 }
 
@@ -188,6 +214,18 @@ outside_pantheon_trigger_no_FROM = {
 				trait = pleistoros
 			}
 		}
+		AND = {
+			religion = canaanite_religion
+			ROOT = {
+				trait = resheph
+			}
+		}
+		# AND = {
+			# religion = ili_abinia
+			# ROOT = {
+				# trait = resheph
+			# }
+		# }
 	}
 }
 
@@ -225,6 +263,14 @@ appropriate_devotion_trigger = {
 				trait = devotion_derzelas
 			}
 		}
+		AND = {
+			ROOT = {
+				trait = resheph
+			}
+			FROM = {
+				trait = devotion_resheph
+			}
+		}
 	}
 }
 
@@ -254,6 +300,12 @@ appropriate_devotion_trigger_no_FROM = {
 			}
 			trait = devotion_derzelas
 		}
+		AND = {
+			ROOT = {
+				trait = resheph
+			}
+			trait = devotion_resheph
+		}
 	}
 }
 
@@ -273,6 +325,11 @@ has_boon_trigger = {
 		has_boon_derzelas_trigger = yes
 		has_boon_pleistoros_trigger = yes
 		has_boon_kubeleya_trigger = yes
+		has_boon_el_trigger = yes
+		has_boon_baal_hadad_trigger = yes
+		has_boon_asherah_trigger = yes
+		has_boon_resheph_trigger = yes
+		has_boon_qaws_trigger = yes
 	}
 }
 
@@ -376,11 +433,47 @@ has_boon_derzelas_trigger = {
 	}
 }
 
-has_boon_kubeleyatrigger = {
+has_boon_kubeleya_trigger = {
 	OR = {
 		has_character_modifier = kubeleya_boon_1
 		has_character_modifier = kubeleya_boon_2
 		has_character_modifier = kubeleya_boon_3
+	}
+}
+
+has_boon_el_trigger = {
+	OR = {
+		has_character_modifier = el_boon_1
+		has_character_modifier = el_boon_2
+		has_character_modifier = el_boon_3
+	}
+}
+has_boon_baal_hadad_trigger = {
+	OR = {
+		has_character_modifier = baal_hadad_boon_1
+		has_character_modifier = baal_hadad_boon_2
+		has_character_modifier = baal_hadad_boon_3
+	}
+}
+has_boon_asherah_trigger = {
+	OR = {
+		has_character_modifier = asherah_boon_1
+		has_character_modifier = asherah_boon_2
+		has_character_modifier = asherah_boon_3
+	}
+}
+has_boon_resheph_trigger = {
+	OR = {
+		has_character_modifier = resheph_boon_1
+		has_character_modifier = resheph_boon_2
+		has_character_modifier = resheph_boon_3
+	}
+}
+has_boon_qaws_trigger = {
+	OR = {
+		has_character_modifier = qaws_boon_1
+		has_character_modifier = qaws_boon_2
+		has_character_modifier = qaws_boon_3
 	}
 }
 
@@ -437,9 +530,30 @@ has_curse_trigger = {
 		has_character_modifier = derzelas_curse_1
 		has_character_modifier = derzelas_curse_2
 		has_character_modifier = derzelas_curse_3
+		
 		has_character_modifier = kubeleya_curse_1
 		has_character_modifier = kubeleya_curse_2
 		has_character_modifier = kubeleya_curse_3
+		
+		has_character_modifier = el_curse_1
+		has_character_modifier = el_curse_2
+		has_character_modifier = el_curse_3
+		
+		has_character_modifier = baal_hadad_curse_1
+		has_character_modifier = baal_hadad_curse_2
+		has_character_modifier = baal_hadad_curse_3
+		
+		has_character_modifier = asherah_curse_1
+		has_character_modifier = asherah_curse_2
+		has_character_modifier = asherah_curse_3
+		
+		has_character_modifier = resheph_curse_1
+		has_character_modifier = resheph_curse_2
+		has_character_modifier = resheph_curse_3
+		
+		has_character_modifier = qaws_curse_1
+		has_character_modifier = qaws_curse_2
+		has_character_modifier = qaws_curse_3
 	}
 }
 
@@ -519,12 +633,40 @@ european_group_or_syncretic = {
 		trait = syncretic_european_group
 	}
 }
+berith_or_syncretic = {
+	OR = {
+		religion = berith
+		trait = syncretic_berith
+	}
+}
+canaanite_religion_or_syncretic = {
+	OR = {
+		religion = canaanite_religion
+		trait = syncretic_canaanite_religion
+	}
+}
+edomite_religion_or_syncretic = {
+	OR = {
+		religion = edomite_religion
+		trait = syncretic_edomite_religion
+	}
+}
+ili_abinia_or_syncretic = {
+	OR = {
+		religion = ili_abinia
+		trait = syncretic_ili_abinia
+	}
+}
 
 is_syncretic_trigger = {
 	OR = {
 		trait = syncretic_pihassasi
 		trait = syncretic_hellenic
 		trait = syncretic_european_group
+		trait = syncretic_canaanite_religion
+		trait = syncretic_edomite_religion
+		trait = syncretic_berith
+		trait = syncretic_ili_abinia
 	}
 }
 
@@ -542,5 +684,64 @@ syncretic_for_true_religion_of_root_trigger = {
 			trait = syncretic_european_group
 			ROOT = { religion_group = european_group }
 		}
+		AND = {
+			trait = syncretic_berith
+			ROOT = { religion = berith }
+		}
+		AND = {
+			trait = syncretic_canaanite_religion
+			ROOT = { religion = canaanite_religion }
+		}
+		AND = {
+			trait = syncretic_edomite_religion
+			ROOT = { religion = edomite_religion }
+		}
+		AND = {
+			trait = syncretic_ili_abinia
+			ROOT = { religion = ili_abinia }
+		}
 	}
+}
+
+has_twelve_tribe_trait_trigger = {
+	OR = {
+		trait = reubenite
+		trait = simeonite
+		trait = levite
+		trait = judahite
+		trait = danite
+		trait = naphtalite
+		trait = gadite
+		trait = asherite
+		trait = issacharite
+		trait = zebulunite
+		trait = manassehite
+		trait = ephraimite
+		trait = benjaminite
+	}
+}
+
+has_twelve_tribe_title_trigger = {
+	OR = {
+		has_landed_title = d_reubenite
+		has_landed_title = d_simeonite
+		has_landed_title = d_gadite
+		has_landed_title = d_judahite
+		has_landed_title = d_issacharite
+		has_landed_title = d_zebulunite
+		has_landed_title = d_manassehite
+		has_landed_title = d_ephraimite
+		has_landed_title = d_benjaminite
+		has_landed_title = d_danite
+		has_landed_title = d_asherite
+		has_landed_title = d_naphtalite
+
+	}
+}
+
+is_monotheist_trigger = {
+	OR = {
+		religion = berith
+	}
+	is_syncretic_trigger = no
 }

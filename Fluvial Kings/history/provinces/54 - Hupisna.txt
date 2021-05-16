@@ -1,0 +1,16 @@
+# c_hupisna
+
+# County Title
+title = c_hupisna
+
+# Settlements
+max_settlements = 2
+
+b_hupisna = castle
+b_tunna = city
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

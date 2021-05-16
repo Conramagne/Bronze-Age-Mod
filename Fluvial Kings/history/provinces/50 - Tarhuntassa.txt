@@ -1,0 +1,17 @@
+# c_tarhuntassa
+
+# County Title
+title = c_tarhuntassa
+
+# Settlements
+max_settlements = 3
+
+b_tarhuntassa = castle
+b_kirsu = city
+b_saranduwa = temple
+
+# Misc
+culture = luwian
+religion = haianiluwi
+
+#History

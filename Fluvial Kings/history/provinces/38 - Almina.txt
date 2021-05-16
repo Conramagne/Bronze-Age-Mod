@@ -1,0 +1,15 @@
+# c_almina
+
+# County Title
+title = c_almina
+
+# Settlements
+max_settlements = 1
+
+b_almina = tribal
+
+# Misc
+culture = kaskian
+religion = ishalitethai
+
+#History

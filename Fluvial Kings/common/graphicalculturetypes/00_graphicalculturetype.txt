@@ -10,6 +10,9 @@ amazoniangfx = {
 anatoliangfx = {
 	skin_tone = 1
 }
+canaanitegodgfx = {
+	skin_tone = 2
+}
 doriangfx = {
 	skin_tone = 1
 }
