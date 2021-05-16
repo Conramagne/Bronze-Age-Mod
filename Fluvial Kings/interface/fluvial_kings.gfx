@@ -352,11 +352,27 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\decision_icon_pick_main_deity.dds"
 	}
 	spriteType = {
-		name = "GFX_choose_devotion"
+		name = "GFX_choose_devotion_canaanite_religion"
 		texturefile = "gfx\\interface\\decision_devote_to_the_gods.dds"
 	}
 	spriteType = {
-		name = "GFX_switch_devotion"
+		name = "GFX_choose_devotion_edomite_religion"
+		texturefile = "gfx\\interface\\decision_devote_to_the_gods.dds"
+	}
+	spriteType = {
+		name = "GFX_switch_devotion_pihassasi"
+		texturefile = "gfx\\interface\\decision_devote_to_the_gods.dds"
+	}
+	spriteType = {
+		name = "GFX_switch_devotion_european"
+		texturefile = "gfx\\interface\\decision_devote_to_the_gods.dds"
+	}
+	spriteType = {
+		name = "GFX_switch_devotion_canaanite_religion"
+		texturefile = "gfx\\interface\\decision_devote_to_the_gods.dds"
+	}
+	spriteType = {
+		name = "GFX_switch_devotion_edomite_religion"
 		texturefile = "gfx\\interface\\decision_devote_to_the_gods.dds"
 	}
 	spriteType = {
@@ -390,6 +406,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_hero_tomb_pilgrimage"
 		texturefile = "gfx\\interface\\decision_visit_tomb_of_hero.dds"
+	}
+	spriteType = {
+		name = "GFX_judge_israel"
+		texturefile = "gfx\\interface\\decision_judge_israel.dds"
+	}
+	spriteType = {
+		name = "GFX_become_syncretic_canaanite"
+		texturefile = "gfx\\interface\\decision_become_syncretic_canaanite.dds"
 	}
 	
 ### imperial traits
@@ -460,6 +484,41 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		name = "GFX_trait_devotion_el"
+		texturefile = "gfx/traits/devotion_el.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_devotion_baal_hadad"
+		texturefile = "gfx/traits/devotion_baal_hadad.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_devotion_asherah"
+		texturefile = "gfx/traits/devotion_asherah.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_devotion_resheph"
+		texturefile = "gfx/traits/devotion_resheph.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_devotion_qaws"
+		texturefile = "gfx/traits/devotion_qaws.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 
 ### syncretic traits
 
@@ -480,6 +539,34 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_trait_syncretic_european_group"
 		texturefile = "gfx/traits/syncretic_european_group.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_syncretic_berith"
+		texturefile = "gfx/traits/syncretic_berith.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_syncretic_canaanite_religion"
+		texturefile = "gfx/traits/syncretic_canaanite_religion.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_syncretic_edomite_religion"
+		texturefile = "gfx/traits/syncretic_edomite_religion.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_syncretic_ili_abinia"
+		texturefile = "gfx/traits/syncretic_ili_abinia.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
