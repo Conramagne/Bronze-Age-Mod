@@ -1116,6 +1116,10 @@ syncretic_canaanite_religion;Syncretic with [canaanite_religion.GetName];;;;;;;;
 syncretic_canaanite_religion_desc;This character is syncretic with with those of the [canaanite_religion.GetName] faith, and may interact with the gods 'El, Ba'al Hadad, Asherah, and Resheph.;;;;;;;;;;;;;x
 syncretic_berith;Syncretic with [berith.GetName];;;;;;;;;;;;;x
 syncretic_berith_desc;This character is syncretic with with those of the [berith.GetName] faith.;;;;;;;;;;;;;x
+syncretic_ili_abinia;Syncretic with [ili_abinia.GetName];;;;;;;;;;;;;x
+syncretic_ili_abinia_desc;This character is syncretic with with those of the [ili_abinia.GetName] faith.;;;;;;;;;;;;;x
+syncretic_edomite_religion;Syncretic with [edomite_religion.GetName];;;;;;;;;;;;;x
+syncretic_edomite_religion_desc;This character is syncretic with with those of the [edomite_religion.GetName] faith.;;;;;;;;;;;;;x
 
 
 #Stratocratic Traits
@@ -1127,6 +1131,34 @@ stratocrat_desc;This character is a Stratocratic ruler;;;;;;;;;;;;;x
 #Apotheosis
 hero;Hero;;;;;;;;;;;;;x
 hero_desc;This Hero has made a name for themselves among their people!;;;;;;;;;;;;;x
+
+#Twelve Tribes of Israel
+reubenite;Reubenite;;;;;;;;;;;;;x
+reubenite_desc;This character is a member of the Tribe of Reuben.;;;;;;;;;;;;;x
+simeonite;Simeonite;;;;;;;;;;;;;x
+simeonite_desc;This character is a member of the Tribe of Simeon.;;;;;;;;;;;;;x
+levite;Levite;;;;;;;;;;;;;x
+levite_desc;This character is a member of the Tribe of Levi.;;;;;;;;;;;;;x
+judahite;Judahite;;;;;;;;;;;;;x
+judahite_desc;This character is a member of the Tribe of Judah.;;;;;;;;;;;;;x
+danite;Danite;;;;;;;;;;;;;x
+danite_desc;This character is a member of the Tribe of Dan.;;;;;;;;;;;;;x
+naphtalite;Naphtalite;;;;;;;;;;;;;x
+naphtalite_desc;This character is a member of the Tribe of Naphtali.;;;;;;;;;;;;;x
+gadite;Gadite;;;;;;;;;;;;;x
+gadite_desc;This character is a member of the Tribe of Gad.;;;;;;;;;;;;;x
+asherite;Asherite;;;;;;;;;;;;;x
+asherite_desc;This character is a member of the Tribe of Asher.;;;;;;;;;;;;;x
+issacharite;Issacharite;;;;;;;;;;;;;x
+issacharite_desc;This character is a member of the Tribe of Issachari.;;;;;;;;;;;;;x
+zebulunite;Zebulunite;;;;;;;;;;;;;x
+zebulunite_desc;This character is a member of the Tribe of Zebulun.;;;;;;;;;;;;;x
+manassehite;Manassehite;;;;;;;;;;;;;x
+manassehite_desc;This character is a member of the Tribe of Manasseh.;;;;;;;;;;;;;x
+ephraimite;Ephraimite;;;;;;;;;;;;;x
+ephraimite_desc;This character is a member of the Tribe of Ephraim.;;;;;;;;;;;;;x
+benjaminite;Benjaminite;;;;;;;;;;;;;x
+benjaminite_desc;This character is a member of the Tribe of Benjamin.;;;;;;;;;;;;;x
 
 ###########God Boons and Curses###########
 denied_boon;Denied Blessings of the Gods;;;;;;;;;;;;;x
