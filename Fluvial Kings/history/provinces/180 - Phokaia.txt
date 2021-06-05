@@ -7,8 +7,8 @@ title = c_phokaia
 max_settlements = 3
 
 b_phokaia = tribal
-# b_kyme = temple
-# b_larissa = city
+b_kyme = temple
+b_larissa = city
 
 # Misc
 culture = mysian

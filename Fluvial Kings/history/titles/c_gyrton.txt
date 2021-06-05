@@ -11,6 +11,6 @@
 2501.1.1={
 	holder = 2102802 #Pirithous
 }
-2521.1.1={
+2511.1.1={
 	holder = 2102800 #Polupoites
 }

@@ -736,8 +736,8 @@ fk_conquest = {
 				}
 			}
 			OR = {
-				ROOT = { government = hegemonic_government }
-				ROOT = { liege = { government = hegemonic_government } }
+				ROOT = { tier = EMPEROR }
+				ROOT = { liege = { tier = EMPEROR } }
 			}
 		}
 		
@@ -1237,8 +1237,8 @@ fk_county_conquest = {
 				}
 			}
 			OR = {
-				ROOT = { government = hegemonic_government }
-				ROOT = { liege = { government = hegemonic_government } }
+				ROOT = { tier = EMPEROR }
+				ROOT = { liege = { tier = EMPEROR } }
 			}
 		}
 				

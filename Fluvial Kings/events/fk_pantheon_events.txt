@@ -336,38 +336,18 @@ character_event = {
 				60 = { #Do Well
 					character_event = { id = fkp.204 }
 					modifier = {
-						factor = 1.5
-						OR = {
-							trait = scholarly_theologian
-							trait = mastermind_theologian
-							trait = erudite
-							learning = 12
-						}
-					}
-					modifier = {
 						factor = 1.2
 						has_character_flag = medium_sacrifice
 					}
 					modifier = {
 						factor = 1.3
 						OR = {
-							trait = dull
 							has_character_flag = large_sacrifice
-							learning < 10
 						}
 					}
 				}
 				40 = { #Do Poorly
 					character_event = { id = fkp.205 }
-					modifier = {
-						factor = 1.5
-						OR = {
-							trait = inbred
-							trait = slow
-							trait = imbecile
-							learning < 10
-						}
-					}
 				}
 			}
 		}
@@ -648,10 +628,8 @@ character_event = {
 	}
 	
 	immediate = {
-		any_character = {
+		any_playable_ruler = {
 			limit = {
-				is_landed = yes
-				higher_real_tier_than = BARON
 				OR = {
 					outside_pantheon_trigger_no_FROM = no
 					appropriate_devotion_trigger_no_FROM = no
@@ -742,6 +720,91 @@ character_event = {
 		}
 	}
 }
+
+#Random event to make gods angry over betrayal
+character_event = {
+	id = fkp.303
+	hide_window = yes
+	trigger = {
+		has_character_flag = flag_god
+		OR = {
+			trait = el
+			trait = baal_hadad
+			trait = asherah
+			trait = resheph
+			trait = qaws
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		any_playable_ruler = {
+			limit = {
+				OR = {
+					outside_pantheon_trigger_no_FROM = no
+					appropriate_devotion_trigger_no_FROM = no
+				}
+				can_contact_god_trigger = yes
+				has_appropriate_head_god_law = yes
+				NOT = {
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_betrayed_devotion
+					}
+				}
+				any_character = {
+					has_character_flag = flag_god
+					OR = {
+						has_opinion_modifier = {
+							who = PREV
+							modifier = opinion_small_sacrifice
+						}
+						has_opinion_modifier = {
+							who = PREV
+							modifier = opinion_medium_sacrifice
+						}
+						has_opinion_modifier = {
+							who = PREV
+							modifier = opinion_large_sacrifice
+						}
+						has_opinion_modifier = {
+							who = PREV
+							modifier = opinion_small_sacrifice
+						}
+					}
+					NOT = {
+						character = ROOT
+					}
+				}
+			}
+			random_list = {
+				60 = {}
+				40 = {
+					character_event = { id = fkp.304 } #God is angry
+				}
+			}
+		}
+	}
+}
+
+#God is angry
+character_event = {
+	id = fkp.304
+	desc = EVTDESCFKP304
+	picture = GFX_evt_cursed_by_the_gods
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAFKP304
+		reverse_opinion = {
+			modifier = opinion_betrayed_devotion
+			who = FROM
+		}
+	}
+}
+
 
 ###God Impregnation
 #Random Event to impregnation (on_yearly_pulse)

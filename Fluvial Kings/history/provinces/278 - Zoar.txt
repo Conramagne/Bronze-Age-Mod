@@ -11,6 +11,6 @@ b_zoar = castle
 
 # Misc
 culture = canaanite
-religion = edomite_religion
+religion = canaanite_religion
 
 #History

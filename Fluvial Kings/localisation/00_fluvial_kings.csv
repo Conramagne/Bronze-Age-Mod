@@ -1,6 +1,6 @@
 ###########Cultures###########
 anatolian;Hardu;;;;;;;;;;;;;x
-hittite;Nešumines;;;;;;;;;;;;;x
+hittite;Nešili;;;;;;;;;;;;;x
 eneti;Eneti;;;;;;;;;;;;;x
 luwian;Luwili;;;;;;;;;;;;;x
 kaskian;Kaška;;;;;;;;;;;;;x
@@ -109,6 +109,20 @@ ze_administration_laws_3;Palatial Administration;;;;;;;;;;;;;x
 ze_administration_laws_3_option;Palatial;;;;;;;;;;;;;x
 ze_administration_laws_3_desc;Palatial societies are based entirely upon the central palace and its bureaucracy. The palace complex manages all affairs of the realm, with smaller cities existing to serve it. This system is highly centralized, which lends itself both a rich state and a disgruntled set of vassals.;;;;;;;;;;;;;x
 
+head_god;National God;;;;;;;;;;;;;x
+
+head_god_el;'El;;;;;;;;;;;;;x
+head_god_el_option;El;;;;;;;;;;;;;x
+head_god_el_desc;El;;;;;;;;;;;;;x
+
+head_god_baal_hadad;Ba'al Hadad;;;;;;;;;;;;;x
+head_god_baal_hadad_option;Ba'al Hadad;;;;;;;;;;;;;x
+head_god_baal_hadad_desc;Ba'al Hadad;;;;;;;;;;;;;x
+
+head_god_qaws;Qaws;;;;;;;;;;;;;x
+head_god_qaws_option;Qaws;;;;;;;;;;;;;x
+head_god_qaws_desc;Qaws;;;;;;;;;;;;;x
+
 ###########Religions###########
 bnai_avraham;B'nei Avraham;;;;;;;;;;;;;x
 
@@ -177,7 +191,7 @@ THE_QAWS_KTOVET;The Qaws K'tovet;;;;;;;;;;;;;x
 WITIOS;Witios;;;;;;;;;;;;;x #From Phrygian wit- (to know), and tios (gods)
 
 GOD_ADONAI;Adonai;;;;;;;;;;;;;x
-GOD_AMURRU;Amurru;;;;;;;;;;;;;x
+GOD_AMURRU;Amurru El;;;;;;;;;;;;;x
 GOD_APARADITI;Aparaditi;;;;;;;;;;;;;x
 GOD_APOLLON;Apollon;;;;;;;;;;;;;x
 GOD_APHRODITE;Aphrodite;;;;;;;;;;;;;x
@@ -790,8 +804,8 @@ nick_theoeidis;Theoeidis;;;;;;;;;;;;;x
 nick_thumoleonta;Thumoleonta;;;;;;;;;;;;;x
 
 ###########Character/Province Modifiers###########
-imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]%);;;;;;;;;;;;;x
-imperial_authority_desc;The authority of the sovereign is determined by how much control over their realm they have. As it ebbs and flows, so does their power.\nImperial authority can be §Gincreased§! by:\n§Y*§! Having high attributes or skills\n§Y*§! Having loyal councilors\n§Y*§! Having a Weak Council\n§Y*§! Winning wars\nImperial authority can be §Rdecreased§! by:\n§Y*§! Having low attributes or skills\n§Y*§! Succession\n§Y*§! Long regencies\n§Y*§! Having disloyal councilors\n§Y*§! Having a Strong Council\n§Y*§! Losing wars and major battles;;;;;;;;;;;;;x
+imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]% | [From.yearly_imperial_authority_change.GetValue]%);;;;;;;;;;;;;x
+imperial_authority_desc;The authority of the sovereign is determined by how much control over their realm they have. As it ebbs and flows, so does their power.\n*Diplomacy: [Root.diplomacy_number.GetValue]\n*Martial: [Root.martial_number.GetValue]\n*Stewardship: [Root.stewardship_number.GetValue]\n*Learning: [Root.learning_number.GetValue]\n*Positive Traits: [Root.trait_bonus.GetValue]\n*Loyal Councilors: [Root.councilor_bonus.GetValue]\n*Negative Traits: [Root.trait_penalty.GetValue]\n*Disloyal Councilors: [Root.councilor_penalty.GetValue];;;;;;;;;;;;x
 imperial_authority_decrease_5_TT;§YImperial Authority§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
 imperial_authority_decrease_7_TT;§YImperial Authority§! will §Rdecrease§! by 7%;;;;;;;;;;;;;x
 imperial_authority_decrease_10_TT;§YImperial Authority§! will §Rdecrease§! by 10%;;;;;;;;;;;;;x
@@ -941,6 +955,8 @@ opinion_demoted_from_coking;Demoted from Co-Monarch;;;;;;;;;;;;;x
 israelite_repented;B'nei Yisra'el Repented;;;;;;;;;;;;;x
 israelite_did_not_repent;B'nei Yisra'el Did Not Repent;;;;;;;;;;;;;x
 
+opinion_betrayed_devotion;Betrayed Devotion;;;;;;;;;;;;;x
+
 #Religious Wars
 won_hellenic_invasion;Won [hellenic.GetName] Invasion;;;;;;;;;;;;;x
 lost_hellenic_invasion;Lost [hellenic.GetName] Invasion;;;;;;;;;;;;;x
@@ -980,8 +996,8 @@ opinion_defiled_priestess;Defiled Priestess;;;;;;;;;;;;;x
 opinion_sacrificed_human;Sacrifced Human;;;;;;;;;;;;;x
 
 #Palace Bureaucracy
-palace_bureaucracy;Palace Bureaucratic Efficiency ([From.PrimaryTitle.palace_bureaucracy_number.GetValue]%);;;;;;;;;;;;;x
-palace_bureaucracy_desc;The bureaucracy of a realm is determined by how much bureaucratic norms are prevalent in said realm. As it changes, the norms of the realm change with it.\nPalace bureaucracy can be §Gincreased§! by:\n§Y*§! Having qualified lords\n§Y*§! Having a powerful or qualified council\n§Y*§! Bureaucratic reforms\nPalace bureaucracy can be §Rdecreased§! by:\n§Y*§! Having unqualified lords\n§Y*§! Having a weak or unqualified council\n§Y*§! Succession;;;;;;;;;;;;;x
+palace_bureaucracy;Palace Bureaucratic Efficiency ([From.PrimaryTitle.palace_bureaucracy_number.GetValue]% | [From.yearly_bureaucracy_change.GetValue]%);;;;;;;;;;;;;x
+palace_bureaucracy_desc;The bureaucracy of a realm is determined by how much bureaucratic norms are prevalent in said realm. As it changes, the norms of the realm change with it.\n*Diplomacy: [Root.diplomacy_number_bureaucracy.GetValue]\n*Martial: [Root.martial_number_bureaucracy.GetValue]\n*Stewardship: [Root.stewardship_number_bureaucracy.GetValue]\n*Learning: [Root.learning_number_bureaucracy.GetValue]\n*Positive Traits: [Root.trait_bonus_bureaucracy.GetValue]\n*Quality Councilors: [Root.councilor_bonus_bureaucracy.GetValue]\n*Quality Vassals: [Root.vassal_bonus_bureaucracy.GetValue]\n*Negative Traits: [Root.trait_penalty_bureaucracy.GetValue]\n*Poor Councilors: [Root.councilor_penalty_bureaucracy.GetValue]\n*Poor Vassals: [Root.vassal_penalty_bureaucracy.GetValue];;;;;;;;;;;;;x
 
 #Palace Bureaucracy Decision Modifiers
 sold_bureaucratic_positions;Sold Bureaucratic Positions;;;;;;;;;;;;;x
@@ -1104,6 +1120,8 @@ devotion_asherah;Devoted to Asherah;;;;;;;;;;;;;x
 devotion_asherah_desc;This character is devoted to Asherah;;;;;;;;;;;;;x
 devotion_resheph;Devoted to Resheph;;;;;;;;;;;;;x
 devotion_resheph_desc;This character is devoted to Resheph;;;;;;;;;;;;;x
+devotion_qaws;Devoted to Qaws;;;;;;;;;;;;;x
+devotion_qaws_desc;This character is devoted to Qaws;;;;;;;;;;;;;x
 
 #Syncretic Traits
 syncretic_pihassasi;Syncretic with [pihassasi.GetName];;;;;;;;;;;;;x
@@ -1116,10 +1134,6 @@ syncretic_canaanite_religion;Syncretic with [canaanite_religion.GetName];;;;;;;;
 syncretic_canaanite_religion_desc;This character is syncretic with with those of the [canaanite_religion.GetName] faith, and may interact with the gods 'El, Ba'al Hadad, Asherah, and Resheph.;;;;;;;;;;;;;x
 syncretic_berith;Syncretic with [berith.GetName];;;;;;;;;;;;;x
 syncretic_berith_desc;This character is syncretic with with those of the [berith.GetName] faith.;;;;;;;;;;;;;x
-syncretic_ili_abinia;Syncretic with [ili_abinia.GetName];;;;;;;;;;;;;x
-syncretic_ili_abinia_desc;This character is syncretic with with those of the [ili_abinia.GetName] faith.;;;;;;;;;;;;;x
-syncretic_edomite_religion;Syncretic with [edomite_religion.GetName];;;;;;;;;;;;;x
-syncretic_edomite_religion_desc;This character is syncretic with with those of the [edomite_religion.GetName] faith.;;;;;;;;;;;;;x
 
 
 #Stratocratic Traits
@@ -1132,33 +1146,34 @@ stratocrat_desc;This character is a Stratocratic ruler;;;;;;;;;;;;;x
 hero;Hero;;;;;;;;;;;;;x
 hero_desc;This Hero has made a name for themselves among their people!;;;;;;;;;;;;;x
 
+#Tribe Traits
 #Twelve Tribes of Israel
-reubenite;Reubenite;;;;;;;;;;;;;x
-reubenite_desc;This character is a member of the Tribe of Reuben.;;;;;;;;;;;;;x
-simeonite;Simeonite;;;;;;;;;;;;;x
-simeonite_desc;This character is a member of the Tribe of Simeon.;;;;;;;;;;;;;x
-levite;Levite;;;;;;;;;;;;;x
+reubenite;HaReuvéni;;;;;;;;;;;;;x
+reubenite_desc;This character is a member of the Tribe of Reuvén.;;;;;;;;;;;;;x
+simeonite;HaShim'óni;;;;;;;;;;;;;x
+simeonite_desc;This character is a member of the Tribe of Shim'ón.;;;;;;;;;;;;;x
+levite;HaLevi;;;;;;;;;;;;;x
 levite_desc;This character is a member of the Tribe of Levi.;;;;;;;;;;;;;x
-judahite;Judahite;;;;;;;;;;;;;x
-judahite_desc;This character is a member of the Tribe of Judah.;;;;;;;;;;;;;x
-danite;Danite;;;;;;;;;;;;;x
+judahite;HaYehudi;;;;;;;;;;;;;x
+judahite_desc;This character is a member of the Tribe of Yehudá.;;;;;;;;;;;;;x
+danite;HaDani;;;;;;;;;;;;;x
 danite_desc;This character is a member of the Tribe of Dan.;;;;;;;;;;;;;x
-naphtalite;Naphtalite;;;;;;;;;;;;;x
-naphtalite_desc;This character is a member of the Tribe of Naphtali.;;;;;;;;;;;;;x
-gadite;Gadite;;;;;;;;;;;;;x
+naphtalite;HaNaftalí;;;;;;;;;;;;;x
+naphtalite_desc;This character is a member of the Tribe of Naftalí.;;;;;;;;;;;;;x
+gadite;HaGadi;;;;;;;;;;;;;x
 gadite_desc;This character is a member of the Tribe of Gad.;;;;;;;;;;;;;x
-asherite;Asherite;;;;;;;;;;;;;x
-asherite_desc;This character is a member of the Tribe of Asher.;;;;;;;;;;;;;x
-issacharite;Issacharite;;;;;;;;;;;;;x
-issacharite_desc;This character is a member of the Tribe of Issachari.;;;;;;;;;;;;;x
-zebulunite;Zebulunite;;;;;;;;;;;;;x
-zebulunite_desc;This character is a member of the Tribe of Zebulun.;;;;;;;;;;;;;x
-manassehite;Manassehite;;;;;;;;;;;;;x
-manassehite_desc;This character is a member of the Tribe of Manasseh.;;;;;;;;;;;;;x
-ephraimite;Ephraimite;;;;;;;;;;;;;x
-ephraimite_desc;This character is a member of the Tribe of Ephraim.;;;;;;;;;;;;;x
-benjaminite;Benjaminite;;;;;;;;;;;;;x
-benjaminite_desc;This character is a member of the Tribe of Benjamin.;;;;;;;;;;;;;x
+asherite;Ha'Ashéri;;;;;;;;;;;;;x
+asherite_desc;This character is a member of the Tribe of 'Ashér.;;;;;;;;;;;;;x
+issacharite;HaYisakhári;;;;;;;;;;;;;x
+issacharite_desc;This character is a member of the Tribe of Yisakhár.;;;;;;;;;;;;;x
+zebulunite;HaZ'vulúni;;;;;;;;;;;;;x
+zebulunite_desc;This character is a member of the Tribe of Z'vulún.;;;;;;;;;;;;;x
+manassehite;HaMenashi;;;;;;;;;;;;;x
+manassehite_desc;This character is a member of the Tribe of Menashé.;;;;;;;;;;;;;x
+ephraimite;HaEfráyimi;;;;;;;;;;;;;x
+ephraimite_desc;This character is a member of the Tribe of Efráyim.;;;;;;;;;;;;;x
+benjaminite;HaBinyamini;;;;;;;;;;;;;x
+benjaminite_desc;This character is a member of the Tribe of Binyamin.;;;;;;;;;;;;;x
 
 ###########God Boons and Curses###########
 denied_boon;Denied Blessings of the Gods;;;;;;;;;;;;;x

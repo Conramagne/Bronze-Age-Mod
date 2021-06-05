@@ -745,3 +745,41 @@ is_monotheist_trigger = {
 	}
 	is_syncretic_trigger = no
 }
+
+has_appropriate_head_god_law = {
+	OR = {
+		AND = {
+			OR = {
+				has_law = head_god_el
+				has_law = head_god_amurru
+			}
+			ROOT = {
+				trait = el
+			}
+		}
+		AND = {
+			has_law = head_god_baal_hadad
+			ROOT = {
+				trait = baal_hadad
+			}
+		}
+		AND = {
+			has_law = head_god_asherah
+			ROOT = {
+				trait = asherah
+			}
+		}
+		AND = {
+			has_law = head_god_resheph
+			ROOT = {
+				trait = resheph
+			}
+		}
+		AND = {
+			has_law = head_god_qaws
+			ROOT = {
+				trait = qaws
+			}
+		}
+	}
+}

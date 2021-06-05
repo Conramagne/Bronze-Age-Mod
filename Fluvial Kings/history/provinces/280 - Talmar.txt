@@ -11,6 +11,6 @@ b_zalmona = city
 
 # Misc
 culture = canaanite
-religion = edomite_religion
+religion = canaanite_religion
 
 #History

@@ -100,7 +100,7 @@ roe = {
 		color = { 0.9 0.7 0.2 }
 		
 		male_names = {
-			Abdeshmun Abdmelqart Aharon Abinadab Ahinadab Sikarbaal Eshmunamash Adina Shiza Adlai Shafat Eshbaal Saul Adael Eliab Ozem Lamekh Jabal Jubal Tubal-cain Abel Abdosir Abimelcis Acoholim Aderbaal Admago Adonibaal Agbal Anysus Arabo Ashtartyaton Ashzaph Astegal Baalhanno Baalshillek Baalyaton Bodashtart Bodeshmun Bodegal Bodtanit Bomilcar Boudes Bostar Carthalo Eshmunamash Eshmunazar Eshmuncilles Fierelus Fuabal Fuano Germilcar Gisgo Haggith Hamilax Hamilcar Hamicorus Hampsicora Hannibaal Hanno Hasdrubaal Himilco Hiram Jabnit Kandaulo Kanmis Lulis Malcus Mago Maharbaal Mapen Mathos Milcarpilles Merbal Metallo Milcerem Milcpilles Milcyaton Mintho Muttines Philosir Pumayyaton Khillezbaal Sakarbaal Salicar Shafat Shipitbaal Sirom Tendao Tetramnestus Yaroah Yehawwielon Yutpan Zaracas Zinnridis Eri-Aku Abimilkas Abi-Milku Baal-Termeg
+			Abdeshmun Abdmelqart Abdosir Abel Abi-Milku Abimelcis Abimilkas Abinadab Acoholim Adael Aderbaal Adina Adlai Admago Adonibaal Agbal Aharon Ahinadab Anysus Arabo Ashtartyaton Ashzaph Astegal Baal-Termeg Baalhanno Baalshillek Baalyaton Bodashtart Bodegal Bodeshmun Bodtanit Bomilcar Bostar Boudes Carthalo Eliab Eri-Aku Eshbaal Eshmunamash Eshmunazar Eshmuncilles Fierelus Fuabal Fuano Germilcar Gisgo Haggith Hamicorus Hamilax Hamilcar Hampsicora Hannibaal Hanno Hasdrubaal Himilco Hiram Jabal Jabnit Jubal Kandaulo Kanmis Khillezbaal Lamekh Lulis Mago Maharbaal Malcus Mapen Mathos Merbal Metallo Milcarpilles Milcerem Milcpilles Milcyaton Mintho Muttines Ozem Philosir Pumayyaton Sakarbaal Salicar Saul Shafat Shipitbaal Shiza Sikarbaal Sirom Tendao Tetramnestus Tubal-cain Yaroah Yehawwielon Yutpan Zaracas Zinnridis
 		}
 		
 		female_names = {

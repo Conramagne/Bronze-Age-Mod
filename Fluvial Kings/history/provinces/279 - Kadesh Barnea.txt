@@ -10,6 +10,6 @@ b_kadesh_barnea = castle
 
 # Misc
 culture = canaanite
-religion = edomite_religion
+religion = canaanite_religion
 
 #History

@@ -120,6 +120,120 @@ character_event = {
 	}
 }
 
+#Head God Changed, asked to change devotion
+character_event = {
+	id = fkrel.3
+	desc = EVTDESCFKREL3
+	is_triggered_only = yes
+	
+	trigger = {
+		religion = FROM
+		OR = {
+			AND = {
+				FROM = {
+					has_law = head_god_el
+				}
+				NOT = {
+					trait = devotion_el
+				}
+			}
+			AND = {
+				FROM = {
+					has_law = head_god_baal_hadad
+				}
+				NOT = {
+					trait = devotion_baal_hadad
+				}
+			}
+			AND = {
+				FROM = {
+					has_law = head_god_asherah
+				}
+				NOT = {
+					trait = devotion_asherah
+				}
+			}
+			AND = {
+				FROM = {
+					has_law = head_god_resheph
+				}
+				NOT = {
+					trait = devotion_resheph
+				}
+			}
+			AND = {
+				FROM = {
+					has_law = head_god_qaws
+				}
+				NOT = {
+					trait = devotion_qaws
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTAFKREL3
+		if = {
+			limit = {
+				FROM = {
+					has_law = head_god_el
+				}
+			}
+			add_trait = devotion_el
+		}
+		else_if = {
+			limit = {
+				FROM = {
+					has_law = head_god_baal_hadad
+				}
+			}
+			add_trait = devotion_baal_hadad
+		}
+		else_if = {
+			limit = {
+				FROM = {
+					has_law = head_god_asherah
+				}
+			}
+			add_trait = devotion_asherah
+		}
+		else_if = {
+			limit = {
+				FROM = {
+					has_law = head_god_resheph
+				}
+			}
+			add_trait = devotion_resheph
+		}
+		else_if = {
+			limit = {
+				FROM = {
+					has_law = head_god_qaws
+				}
+			}
+			add_trait = devotion_qaws
+		}
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 0.5
+				trait = zealous
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBFKREL3
+		reverse_opinion = {
+			who = FROM
+			modifier = opinion_denied_god
+		}
+		ai_chance = {
+			factor = 40
+		}
+	}
+}
+
 ##Choosing Devotion
 #Choosing Devotion Pihassasi
 character_event = {

@@ -7678,7 +7678,7 @@
 	name = "Bela"
 	dynasty = 2300015 #ben Beor
 	culture = canaanite
-	religion = edomite_religion
+	religion = canaanite_religion
 	father = 2320001
 	2505.1.1 = { birth = yes }
 	2565.1.1 = { death = yes }
@@ -7688,7 +7688,7 @@
 	name = "Beor"
 	dynasty = 2300015 #ben Beor
 	culture = canaanite
-	religion = edomite_religion
+	religion = canaanite_religion
 	2475.1.1 = { birth = yes }
 	2535.1.1 = { death = yes }
 }
@@ -7730,7 +7730,7 @@
 	name = "Shaushkamuwa"
 	dynasty = 2300017 #ben Og
 	culture = amorite
-	religion = ili_abinia
+	religion = canaanite_religion
 	father = 2320201
 	2465.1.1 = { birth = yes }
 	2530.1.1 = { death = yes }
@@ -7740,8 +7740,58 @@
 	name = "Og"
 	dynasty = 2300017 #ben Og
 	culture = amorite
-	religion = ili_abinia
+	religion = canaanite_religion
 	disallow_random_traits = yes
 	2440.1.1 = { birth = yes }
 	2485.1.1 = { death = yes }
+}
+
+#Kings of Gath  (2320300-2320399)
+2320300 = { #Yehawwielon, King of Gath
+	name = "Yehawwielon"
+	dynasty = 2300018 #ben Yehawwielon
+	culture = canaanite
+	religion = canaanite_religion
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+#Kings of Gaza  (2320400-2320499)
+2320400 = { #Hamicorus, King of Gaza
+	name = "Hamicorus"
+	dynasty = 2300019 #ben Hamicorus
+	culture = canaanite
+	religion = canaanite_religion
+	2505.1.1 = { birth = yes }
+	2565.1.1 = { death = yes }
+}
+
+#Kings of Rabbat Ammon  (2320500-2320599)
+2320500 = { #Abdosir, King of Rabbat Ammon
+	name = "Abdosir"
+	dynasty = 2300020 #ben Abdosir
+	culture = canaanite
+	religion = canaanite_religion
+	2503.1.1 = { birth = yes }
+	2563.1.1 = { death = yes }
+}
+
+#Kings of Sobah  (2320600-2320699)
+2320600 = { #Hazael, King of Sobah
+	name = "Hazael"
+	dynasty = 2300021 #ben Hazael
+	culture = aramean
+	religion = canaanite_religion
+	2502.1.1 = { birth = yes }
+	2562.1.1 = { death = yes }
+}
+
+#Kings of Beru  (2320700-2320799)
+2320700 = { #Abi-Baal, King of Beru
+	name = "Abi-Baal"
+	dynasty = 2300022 #ben Abi-Baal
+	culture = phoenician
+	religion = canaanite_religion #temporary
+	2502.1.1 = { birth = yes }
+	2562.1.1 = { death = yes }
 }

@@ -91,3 +91,28 @@
 	culture = "amorite"
 	used_for_random = no
 }
+2300018 = {
+	name = "ben Yehawwielon"
+	culture = "canaanite"
+	used_for_random = no
+}
+2300019 = {
+	name = "ben Hamicorus"
+	culture = "canaanite"
+	used_for_random = no
+}
+2300020 = {
+	name = "ben Abdosir"
+	culture = "canaanite"
+	used_for_random = no
+}
+2300021 = {
+	name = "ben Hazael"
+	culture = "aramean"
+	used_for_random = no
+}
+2300022 = {
+	name = "ben Abi-Baal"
+	culture = "phoenician"
+	used_for_random = no
+}

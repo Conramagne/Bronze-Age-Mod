@@ -1,16 +1,47 @@
-#CANAAN
+#Medium Technology
 technology = {
 	titles = {
-		d_yizrael
+		d_sidon
 	}
+
 	2527 = {
-		military = 2.0
-		economy = 2.0
-		culture = 2.0
+		military = 0.5
+		economy = 0.85
+		culture = 1.0
 	}
-	3160 = {
-		military = 5.0
-		economy = 5.0
-		culture = 5.0
+
+	3061 = {
+	
+		military = 4
+		economy = 4
+		culture = 4
+	}
+}
+
+#Low Technology
+technology = {
+	titles = {
+		d_bashan
+		d_beru
+		d_edom
+		d_gath
+		d_gaza
+		d_gilead
+		d_moab
+		d_yisrael
+		d_yehuda
+	}
+	
+	2527 = {
+		military = 0.2
+		economy = 0.1
+		culture = 0.15
+		
+	}
+	
+	3061 = {
+		military = 3.5
+		economy = 3.5
+		culture = 3.5
 	}
 }

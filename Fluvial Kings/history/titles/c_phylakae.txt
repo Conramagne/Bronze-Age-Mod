@@ -2,7 +2,7 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2471.1.1={
+2451.1.1={
 	holder = 2102505 #Phylákos
 }
 2491.1.1={

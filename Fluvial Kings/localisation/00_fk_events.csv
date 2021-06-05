@@ -21,6 +21,9 @@ EVTOPTAFKR105_B;By [Root.Religion.GetHighGodName] I will regain control!;;;;;;;;
 EVTDESCFKR105_STRONG;As you gain more influence in the affairs of court, those formerly smug serpents who whispered treason now whisper your name in fear as they observe your ascension into near complete control of your court and realm.;;;;;;;;;;;;;x
 EVTOPTAFKR105_STRONG;It is good to be the [Root.GetTitle]!;;;;;;;;;;;;;x
 
+EVTDESCFKR151;Diplomacy: [Root.diplomacy_number.GetValue] | Martial: [Root.martial_number.GetValue] | Stewardship: [Root.stewardship_number.GetValue] | Learning: [Root.learning_number.GetValue] | Positive Traits: [Root.trait_bonus.GetValue] | Loyal Councilors: [Root.councilor_bonus.GetValue] | Negative Traits: [Root.trait_penalty.GetValue] | Disloyal Councilors: [Root.councilor_penalty.GetValue];;;;;;;;;;;;;x
+EVTOPTAFKR151;Ok;;;;;;;;;;;;;x
+
 ###########Toolbox Notice###########
 council_hates_vassal_TT;The council has turned against the vassal for speaking ill of the [Root.Liege.GetTitle];;;;;;;;;;;;;x
 council_dislikes_emperor_TT;The council has turned against the [Root.Liege.GetTitle];;;;;;;;;;;;;x
@@ -242,6 +245,9 @@ EVTDESCFKR222;The enemies have broken the gates of your palace, and your seat of
 EVTOPTAFKR222;What a horrible sight!;;;;;;;;;;;;;x
 
 #Changes in Palace Bureaucracy
+
+EVTDESCFKR255;Diplomacy: [Root.diplomacy_number_bureaucracy.GetValue] | Martial: [Root.martial_number_bureaucracy.GetValue] | Stewardship: [Root.stewardship_number_bureaucracy.GetValue] | Learning: [Root.learning_number_bureaucracy.GetValue] | Positive Traits: [Root.trait_bonus_bureaucracy.GetValue] | Quality Councilors: [Root.councilor_bonus_bureaucracy.GetValue] | Quality Vassals: [Root.vassal_bonus_bureaucracy.GetValue] | Negative Traits: [Root.trait_penalty_bureaucracy.GetValue] | Poor Councilors: [Root.councilor_penalty_bureaucracy.GetValue] | Poor Vassals: [Root.vassal_penalty_bureaucracy.GetValue];;;;;;;;;;;;;x
+EVTOPTAFKR255;Ok;;;;;;;;;;;;;x
 
 ##Decrease##
 EVTDESCFKR230;Your palace is filled with imbeciles, they have squandered the resources of your realm in displays of bloated inefficiency.;;;;;;;;;;;;;x

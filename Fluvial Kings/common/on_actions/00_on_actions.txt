@@ -90,7 +90,11 @@ on_yearly_pulse = {
 		LT.61003 #Add modifiers
 		LT.61004 #Add nicknames
 		
+		fkr.105 #Yearly Imperial Authority
+		fkr.254 #Yearly Bureaucracy
+		
 		fkp.300	#Random event to apply curses
+		fkp.303	#Random event to make gods angry over betrayal
 		fkp.400	#God Impregnation
 		# fkp.9000 #Regularly clears god's wealth
 		

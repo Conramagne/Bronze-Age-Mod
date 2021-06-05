@@ -12,6 +12,6 @@ b_qarnayim = city
 
 # Misc
 culture = amorite
-religion = ili_abinia
+religion = canaanite_religion
 
 #History

@@ -4,7 +4,7 @@ decisions = {
 		ai = no
 		
 		potential = {
-			is_monetheist_trigger = no
+			is_monotheist_trigger = no
 			is_adult = yes
 		}
 		allow = {
@@ -87,6 +87,7 @@ decisions = {
 			NOT = {
 				has_character_flag = flag_god
 			}
+			independent = no
 			canaanite_religion_or_syncretic = yes
 		}
 		allow = {
@@ -745,6 +746,50 @@ decisions = {
 		effect = {
 			character_event = { id = fkcg.34 } #Expelling the Greeks
 		}
+	}
+
+	# see_imperial_authority_change = {
+		# is_high_prio = yes
+		# only_playable = yes
+		
+		# potential = {
+			# ai = no
+			# has_character_modifier = imperial_authority
+		# }
+		# allow = {
+			# always = yes
+		# }
+		# effect = {
+			# long_character_event = { id = fkr.151 }
+		# }
+		# revoke_allowed = {
+			# always = no
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# } 
+	# }
+	
+	# see_bureaucracy_change = {
+		# is_high_prio = yes
+		# only_playable = yes
+		
+		# potential = {
+			# ai = no
+			# has_character_modifier = palace_bureaucracy
+		# }
+		# allow = {
+			# always = yes
+		# }
+		# effect = {
+			# long_character_event = { id = fkr.255 }
+		# }
+		# revoke_allowed = {
+			# always = no
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# } 
 	}
 }
 

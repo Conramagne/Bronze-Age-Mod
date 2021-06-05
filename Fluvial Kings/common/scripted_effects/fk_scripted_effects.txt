@@ -1723,6 +1723,28 @@ remove_boon_effect_FROMFROM = {
 	}
 }
 
+remove_boon_effect = {
+	remove_boon_tarhunna_effect = yes
+	remove_boon_arinniti_effect = yes
+	remove_boon_telipinu_effect = yes
+	remove_boon_sabazios_effect = yes
+	remove_boon_pleistoros_effect = yes
+	remove_boon_derzelas_effect = yes
+	remove_boon_kubeleya_effect = yes
+	remove_boon_zeus_effect = yes
+	remove_boon_ares_effect = yes
+	remove_boon_athene_effect = yes
+	remove_boon_demeter_effect = yes
+	remove_boon_apollon_effect = yes
+	remove_boon_hermes_effect = yes
+	remove_boon_aphrodite_effect = yes
+	remove_boon_el_effect = yes
+	remove_boon_baal_hadad_effect = yes
+	remove_boon_asherah_effect = yes
+	remove_boon_resheph_effect = yes
+	remove_boon_qaws_effect = yes
+}
+
 remove_curse_effect = {
 	remove_curse_tarhunna_effect = yes
 	remove_curse_arinniti_effect = yes
@@ -2516,6 +2538,15 @@ add_good_effect = {
 	}
 }
 
+revoke_head_god_law_effect = {
+	revoke_law = head_god_el
+	revoke_law = head_god_baal_hadad
+	revoke_law = head_god_asherah
+	revoke_law = head_god_resheph
+	revoke_law = head_god_qaws
+	revoke_law = head_god_amurru
+}
+
 #AI Only
 ai_make_sacrifice_to_evaluation_effect = {
 	save_event_target_as = sacrificer
@@ -2926,6 +2957,17 @@ ai_make_sacrifice_to_evaluation_effect = {
 				ai_sacrifice_success_or_fail = yes
 			}
 			modifier = {
+				factor = 0
+				primary_title = {
+					OR = {
+						has_law = head_god_baal_hadad
+						has_law = head_god_asherah
+						has_law = head_god_resheph
+						has_law = head_god_qaws
+					}
+				}
+			}
+			modifier = {
 				factor = 0.1
 				OR = {
 					trait = devotion_baal_hadad
@@ -2957,18 +2999,31 @@ ai_make_sacrifice_to_evaluation_effect = {
 				ai_sacrifice_success_or_fail = yes
 			}
 			modifier = {
+				factor = 0
+				primary_title = {
+					OR = {
+						has_law = head_god_el
+						has_law = head_god_asherah
+						has_law = head_god_resheph
+						has_law = head_god_qaws
+						has_law = head_god_amurru
+					}
+				}
+			}
+			modifier = {
 				factor = 0.1
 				OR = {
 					trait = devotion_el
+					trait = devotion_baal_hadad
 					trait = devotion_asherah
 					trait = devotion_resheph
 					trait = devotion_qaws
 				}
 			}
-			modifier = {
-				factor = 3
-				likes_commerce_god_trigger = yes
-			}
+			# modifier = {
+				# factor = 3
+				# likes_commerce_god_trigger = yes
+			# }
 		}
 		25 = { #Asherah
 			trigger = {
@@ -2990,6 +3045,17 @@ ai_make_sacrifice_to_evaluation_effect = {
 			c_1300002 = {
 				save_event_target_as = target_god
 				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 0
+				primary_title = {
+					OR = {
+						has_law = head_god_el
+						has_law = head_god_resheph
+						has_law = head_god_qaws
+						has_law = head_god_amurru
+					}
+				}
 			}
 			modifier = {
 				factor = 0.1
@@ -3022,6 +3088,18 @@ ai_make_sacrifice_to_evaluation_effect = {
 				ai_sacrifice_success_or_fail = yes
 			}
 			modifier = {
+				factor = 0
+				primary_title = {
+					OR = {
+						has_law = head_god_el
+						has_law = head_god_baal_hadad
+						has_law = head_god_asherah
+						has_law = head_god_qaws
+						has_law = head_god_amurru
+					}
+				}
+			}
+			modifier = {
 				factor = 0.1
 				OR = {
 					trait = devotion_el
@@ -3034,7 +3112,11 @@ ai_make_sacrifice_to_evaluation_effect = {
 		50 = { #Qaws
 			trigger = {
 				OR = {
-					edomite_religion_or_syncretic = yes
+					# edomite_religion_or_syncretic = yes
+					religion = canaanite_religion
+					primary_title = {
+						has_law = head_god_qaws
+					}
 				}
 				c_1300004 = {
 					NOR = {
@@ -3049,6 +3131,18 @@ ai_make_sacrifice_to_evaluation_effect = {
 			c_1300004 = {
 				save_event_target_as = target_god
 				ai_sacrifice_success_or_fail = yes
+			}
+			modifier = {
+				factor = 0
+				primary_title = {
+					OR = {
+						has_law = head_god_el
+						has_law = head_god_baal_hadad
+						has_law = head_god_asherah
+						has_law = head_god_resheph
+						has_law = head_god_amurru
+					}
+				}
 			}
 			modifier = {
 				factor = 0.1
@@ -3613,6 +3707,17 @@ ai_request_boon_evaluation_effect = {
 				save_event_target_as = target_god
 				boon_or_no_boon_effect = yes
 			}
+			# modifier = {
+				# factor = 0
+				# primary_title = {
+					# OR = {
+						# has_law = head_god_baal_hadad
+						# has_law = head_god_asherah
+						# has_law = head_god_resheph
+						# has_law = head_god_qaws
+					# }
+				# }
+			# }
 			modifier = {
 				factor = 100
 				c_1300000 = {
@@ -3625,7 +3730,7 @@ ai_request_boon_evaluation_effect = {
 					trait = devotion_baal_hadad
 					trait = devotion_asherah
 					trait = devotion_resheph
-					trait = qaws 
+					trait = devotion_qaws 
 				}
 			}
 		}
@@ -3655,13 +3760,24 @@ ai_request_boon_evaluation_effect = {
 					received_sacrifice_recently_trigger = yes
 				}
 			}
+			# modifier = {
+				# factor = 0
+				# primary_title = {
+					# OR = {
+						# has_law = head_god_el
+						# has_law = head_god_asherah
+						# has_law = head_god_resheph
+						# has_law = head_god_qaws
+					# }
+				# }
+			# }
 			modifier = {
 				factor = 0.1
 				OR = {
 					trait = devotion_el
 					trait = devotion_asherah
 					trait = devotion_resheph
-					trait = qaws
+					trait = devotion_qaws
 				}
 			}
 		}
@@ -3691,13 +3807,24 @@ ai_request_boon_evaluation_effect = {
 					received_sacrifice_recently_trigger = yes
 				}
 			}
+			# modifier = {
+				# factor = 0
+				# primary_title = {
+					# OR = {
+						# has_law = head_god_el
+						# has_law = head_god_baal_hadad
+						# has_law = head_god_resheph
+						# has_law = head_god_qaws
+					# }
+				# }
+			# }
 			modifier = {
 				factor = 0.1
 				OR = {
 					trait = devotion_el
 					trait = devotion_baal_hadad
 					trait = devotion_resheph
-					trait = qaws
+					trait = devotion_qaws
 				}
 			}
 		}
@@ -3726,20 +3853,35 @@ ai_request_boon_evaluation_effect = {
 					received_sacrifice_recently_trigger = yes
 				}
 			}
+			# modifier = {
+				# factor = 0
+				# primary_title = {
+					# OR = {
+						# has_law = head_god_el
+						# has_law = head_god_baal_hadad
+						# has_law = head_god_asherah
+						# has_law = head_god_qaws
+					# }
+				# }
+			# }
 			modifier = {
 				factor = 0.1
 				OR = {
 					trait = devotion_el
 					trait = devotion_baal_hadad
 					trait = devotion_asherah
-					trait = qaws
+					trait = devotion_qaws
 				}
 			}
 		}
 		50 = { #Qaws
 			trigger = {
 				OR = {
-					edomite_religion_or_syncretic = yes
+					# edomite_religion_or_syncretic = yes
+					religion = canaanite_religion
+					primary_title = {
+						has_law = head_god_qaws
+					}
 				}
 				c_1300004 = {
 					NOT = {
@@ -3760,13 +3902,23 @@ ai_request_boon_evaluation_effect = {
 					received_sacrifice_recently_trigger = yes
 				}
 			}
+			# modifier = {
+				# factor = 0
+				# primary_title = {
+					# OR = {
+						# has_law = head_god_el
+						# has_law = head_god_baal_hadad
+						# has_law = head_god_asherah
+						# has_law = head_god_resheph
+					# }
+				# }
+			# }
 			modifier = {
 				factor = 0.1
 				OR = {
 					trait = devotion_el
 					trait = devotion_baal_hadad
 					trait = devotion_asherah
-					trait = qaws
 				}
 			}
 		}

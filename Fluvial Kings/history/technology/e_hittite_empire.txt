@@ -28,7 +28,7 @@ technology = {
 #High Technology
 technology = {
 	titles = {
-		d_puruma
+		d_tarhuntassa
 	}
 
 	2527 = {
@@ -47,11 +47,12 @@ technology = {
 #Medium Technology
 technology = {
 	titles = {
+		d_ambara
 		d_katerra_udne
 		d_paphos
+		d_puruma
 		d_salamis_cyp
 		d_samura
-		d_tarhuntassa
 	}
 
 	2527 = {
@@ -71,7 +72,6 @@ technology = {
 #Low Technology
 technology = {
 	titles = {
-		d_ambara
 		d_kassiya
 		d_mala
 		d_marqasa
@@ -123,7 +123,6 @@ technology = {
 		d_kalasma
 		d_kastaraya
 		d_kasula
-		d_lazpa
 	}
 
 	2527 = {
