@@ -1,0 +1,16 @@
+# c_halabit
+
+# County Title
+title = c_halabit
+
+# Settlements
+max_settlements = 2
+
+b_halabit = castle
+#b_nemed_ishtar = city
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

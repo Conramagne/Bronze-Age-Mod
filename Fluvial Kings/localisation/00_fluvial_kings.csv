@@ -47,6 +47,9 @@ elohim;Elohim;;;;;;;;;;;;;x
 feudal_government;Local Polity;;;;;;;;;;;;;x
 feudal_government_desc;Local polities are states that have arisen from disunited tribes and confederations or have slipped out of the grasps of larger realms. Often considered nothing more than petty states with squabbling tyrants whose authority barely extends beyond the walls of their citadels, they lack the courtly grandeur and the ability to administer more than their local communities.;;;;;;;;;;;;;x
 
+politan_government;Polis;;;;;;;;;;;;;x
+politan_government_desc;A polis is a realm centered around a city and its surrounding settlements.;;;;;;;;;;;;;x
+
 regional_kingdom_government;Regional Authority;;;;;;;;;;;;;x
 regional_kingdom_government_desc;Regional Authorities are the kingdoms and regional powers that are below the prominence of a hegemon but are potent enough powers in their own locale. Monarchs rely on landed military aristocrats and a growing palace structure. This represent the united polity of a people as well as their subjugated neighbors.;;;;;;;;;;;;;x
 
@@ -73,9 +76,10 @@ adult_familial_elective;Adult Familial Elective;;;;;;;;;;;;;x
 succ_adult_familial_elective;Adult Familial Elective;;;;;;;;;;;;;x
 succ_adult_familial_elective_desc;The successor of the monarch is chosen by them along among their adult kin.;;;;;;;;;;;;;x
 
-viceroyalty_succession;Military Governorship;;;;;;;;;;;;;x
-succ_viceroyalty_desc;Military Governorship;;;;;;;;;;;;;x
-succ_viceroyalty_succession_desc;Military Governors are appointed on the behest of their liege to govern a province or polity, a legal representative of their liege (sometimes even being of kin). They are appointed and thus can be replaced at the whim of their liege.;;;;;;;;;;;;;x
+viceroyalty_succession;Appointment;;;;;;;;;;;;;x
+succ_viceroyalty;Appointment;;;;;;;;;;;;;x
+succ_viceroyalty_desc;Appointment;;;;;;;;;;;;;x
+succ_viceroyalty_succession_desc;Governors are appointed on the behest of their liege to govern a province or polity, a legal representative of their liege (sometimes even being of kin). They are appointed and thus can be replaced at the whim of their liege.;;;;;;;;;;;;;x
 
 # system_law;Government System;;;;;;;;;;;;;x
 # system_law_desc;The government system defines whether the realm relies on the courtly skills of their council or the magistrates of the cities of the realm.;;;;;;;;;;;;;x
@@ -105,23 +109,101 @@ tribute_law_1_desc;Tributes are asked to contribute their fair share and troops 
 tribute_law_2;Levied;;;;;;;;;;;;;x
 tribute_law_2_desc;Tributes are asked to contribute a larger share of their armies for the good of the realm, at the expense of tribute tax.;;;;;;;;;;;;;x
 
-ze_administration_laws_3;Palatial Administration;;;;;;;;;;;;;x
-ze_administration_laws_3_option;Palatial;;;;;;;;;;;;;x
-ze_administration_laws_3_desc;Palatial societies are based entirely upon the central palace and its bureaucracy. The palace complex manages all affairs of the realm, with smaller cities existing to serve it. This system is highly centralized, which lends itself both a rich state and a disgruntled set of vassals.;;;;;;;;;;;;;x
-
 head_god;National God;;;;;;;;;;;;;x
+head_god_desc;Across many lands, one god out of many is given precedence as the patron of the city, nation, and king. One must be loyal to their national god, and there will be retribution if one does not keep loyal...;;;;;;;;;;;;;x
 
 head_god_el;'El;;;;;;;;;;;;;x
 head_god_el_option;El;;;;;;;;;;;;;x
-head_god_el_desc;El;;;;;;;;;;;;;x
+head_god_el_desc;El is the creator of the world and a powerful deity. His name is a byname for all other gods, and his influence on this world is shall be a boon.;;;;;;;;;;;;;x
 
 head_god_baal_hadad;Ba'al Hadad;;;;;;;;;;;;;x
-head_god_baal_hadad_option;Ba'al Hadad;;;;;;;;;;;;;x
+head_god_baal_hadad_option;Ba'al Hadad is the great thunderer who brings both nourishing rains and damning destruction. One must be in his favor to effectively rule.;;;;;;;;;;;;;x
 head_god_baal_hadad_desc;Ba'al Hadad;;;;;;;;;;;;;x
 
 head_god_qaws;Qaws;;;;;;;;;;;;;x
 head_god_qaws_option;Qaws;;;;;;;;;;;;;x
-head_god_qaws_desc;Qaws;;;;;;;;;;;;;x
+head_god_qaws_desc;Qaws is the national god of the B'nei Edom, and favors his children over all others.;;;;;;;;;;;;;x
+
+head_god_amurru;Amurru;;;;;;;;;;;;;x
+head_god_amurru_option;Amurru;;;;;;;;;;;;;x
+head_god_amurru_desc;Amurru is the national god of the B'nei Edom, and favors his children over all others.;;;;;;;;;;;;;x
+
+bureaucracy_efficiency;Bureaucratic Efficiency;;;;;;;;;;;;;x
+bureaucracy_efficiency;The efficiency of a realms bureaucracy determines how effectively it can exercize its authority across a realm.;;;;;;;;;;;;;x
+
+bureaucracy_efficiency_0;Low Bureaucratic Efficiency;;;;;;;;;;;;;x
+bureaucracy_efficiency_0;Low;;;;;;;;;;;;;x
+bureaucracy_efficiency_0_desc;The bureaucracy has been so mismanaged that basic governance is labyrinthine.;;;;;;;;;;;;;x
+bureaucracy_efficiency_1;Average Bureaucratic Efficiency;;;;;;;;;;;;;x
+bureaucracy_efficiency_1;Average;;;;;;;;;;;;;x
+bureaucracy_efficiency_1_desc;The bureaucracy is performing as it is supposed to.;;;;;;;;;;;;;x
+bureaucracy_efficiency_2;High Bureaucratic Efficiency;;;;;;;;;;;;;x
+bureaucracy_efficiency_2;High;;;;;;;;;;;;;x
+bureaucracy_efficiency_2_desc;The bureaucracy runs with a great efficiency.;;;;;;;;;;;;;x
+
+###########Religions###########
+
+fk_mansion_1;Small Palace;;;;;;;;;;;;;x
+fk_mansion_2;Minor Palace;;;;;;;;;;;;;x
+fk_mansion_3;Palace;;;;;;;;;;;;;x
+fk_mansion_4;Grand Palace;;;;;;;;;;;;;x
+fk_barracks_1;Guard Barracks;;;;;;;;;;;;;x
+fk_barracks_2;Swordsmith;;;;;;;;;;;;;x
+fk_barracks_3;Armory;;;;;;;;;;;;;x
+fk_stable_1;Small Stable;;;;;;;;;;;;;x
+fk_stable_2;Riding Grounds;;;;;;;;;;;;;x
+fk_stable_3;Horse Breeder;;;;;;;;;;;;;x
+fk_bowyer_1;Bowyer;;;;;;;;;;;;;x
+fk_bowyer_2;Target Range;;;;;;;;;;;;;x
+fk_bowyer_3;Crossbow Workshop;;;;;;;;;;;;;x
+fk_shipyard_1;Map Room;;;;;;;;;;;;;x
+fk_shipyard_2;Private Shipyard;;;;;;;;;;;;;x
+fk_shipyard_3;Naval Arsenal;;;;;;;;;;;;;x
+fk_warehouse_1;Military Warehouse;;;;;;;;;;;;;;x
+fk_warehouse_2;Palace Archive;;;;;;;;;;;;;x
+fk_warehouse_3;Administrative Office;;;;;;;;;;;;;x
+fk_garden_1;Palace Garden;;;;;;;;;;;;;x
+fk_garden_2;Scenic Pond;;;;;;;;;;;;;x
+fk_garden_3;Hedge Maze;;;;;;;;;;;;;x
+fk_cellar_1;Wine Cellar;;;;;;;;;;;;;x
+fk_cellar_2;Catacombs;;;;;;;;;;;;;x
+fk_cellar_3;Dungeon Complex;;;;;;;;;;;;;x
+fk_shrine_1;Secluded Shrine;;;;;;;;;;;;;x
+fk_shrine_2;Private Art Collection;;;;;;;;;;;;;x
+fk_shrine_3;Grand Library;;;;;;;;;;;;;x
+fk_vault_1;Fortified Vault;;;;;;;;;;;;;x
+fk_vault_2;Secret Passages;;;;;;;;;;;;;x
+fk_vault_3;Hidden Chamber;;;;;;;;;;;;;x
+fk_mansion_1_desc;This palace has belonged to this family for generations, and although it may not look very impressive, it has all the comforts of home.;;;;;;;;;;;;;x
+fk_mansion_2_desc;This palace is impressive enough to command the respect of the surrounding countryside. It is clearly the home of someone important.;;;;;;;;;;;;;x
+fk_mansion_3_desc;A palace fit for a king, its shining towers can be seen from a league away on a clear day. Though it may only consist of brick and mortar, it is the beating heart of this entire realm.;;;;;;;;;;;;;x
+fk_mansion_4_desc;Truly, the splendor of this palace would be the envy of even the gods. Its great halls shine of gold and marble, and hundreds of servants scurry through them daily in service of their masters. It is nothing less than a monument to the greatness of this realm.;;;;;;;;;;;;;x
+fk_barracks_1_desc;The realm's household guards are lodged within these simple barracks. They are crowded and unsanitary, but provide decent protection against the elements.;;;;;;;;;;;;;x
+fk_barracks_2_desc;An industrious swordsmith has opened up a forge in the palace courtyard. This will make it easier to equip new recruits with weapons.;;;;;;;;;;;;;x
+fk_stable_1_desc;This small stable just outside the palace walls reeks of hay and manure. It holds the horses of the guard, as well as those of any visitors.;;;;;;;;;;;;;x
+fk_stable_2_desc;Several large fields just outside the palace have been graciously "donated" by local farmers and set aside as riding grounds. Here the fighting men can practise the art of war on horseback.;;;;;;;;;;;;;x
+fk_stable_3_desc;A horse breeder has set up shop in the vicinity of the palace. The large pens can hold hundreds of animals, and ensure a steady supply of mounts for forces raised locally.;;;;;;;;;;;;;x
+fk_bowyer_1_desc;A skilled bowyer has set up his small workshop inside the palace courtyard. Here he can make new bows or repair broken ones as needed.;;;;;;;;;;;;;x
+fk_bowyer_2_desc;This target range lets the men practise their archery. There are several targets positioned at different distances, but as yet, no one has managed to split another's arrow.;;;;;;;;;;;;;x
+fk_bowyer_3_desc;TThis workshop ensures a steady supply of accurate and sturdy bows.;;;;;;;;;;;;;x
+fk_shipyard_1_desc;A small shipyard containing a minor fleet of ships and barges is stationed right outside the palace.;;;;;;;;;;;;;x
+fk_shipyard_2_desc;This large shipyard is located along the coast. Skilled shipwrights stand ready to build trade galleys.;;;;;;;;;;;;;x
+fk_shipyard_3_desc;This naval arsenal is located along the coast. It is a huge complex that has everything needed to assemble and man an entire fleet.;;;;;;;;;;;;;x
+fk_warehouse_1_desc;A large warehouse containing all the supplies necessary to field a military force, whether it be an army or a fleet.;;;;;;;;;;;;;x
+fk_warehouse_2_desc;It is easy to get lost in this colossal archive housed entirely within the palace. It holds documents and records of all realm assets, from ships and buildings down to individual soldiers and clerks.;;;;;;;;;;;;;x
+fk_warehouse_3_desc;This office deep within the palace acts as the nerve center of the entire empire. Here clerks and officials oversee the day-to-day affairs of trade negotiations and fleet deployments.;;;;;;;;;;;;;x
+fk_garden_1_desc;A large and impressive garden filled with the manifold wonders of nature. This tranquil environment is ideal for moments of quiet reflection.;;;;;;;;;;;;;x
+fk_garden_2_desc;This scenic pond, often frequented by swans, is the centerpiece of the palace garden. A small fountain in its middle sprays water into the air while fish can be glimpsed just beneath the surface.;;;;;;;;;;;;;x
+fk_garden_3_desc;No self-respecting garden is complete without one. This intricate hedge maze delights visitors, and many dignitaries have spent hours navigating its twisting paths.;;;;;;;;;;;;;x
+fk_cellar_1_desc;A well-stocked wine cellar is an absolute must for any person of rank, and this one certainly doesn't disappoint. Some of the wines stored here date back decades.;;;;;;;;;;;;;x
+fk_cellar_2_desc;These catacombs located far beneath the palace contain the dynastic tombs. Here countless generations dating back centuries are joined in eternal slumber. May they rest in peace.;;;;;;;;;;;;;x
+fk_cellar_3_desc;This vast complex of dungeons is hidden away deep enough below the palace to block the cries of its unfortunate inhabitants. Every imaginable instrument of torture can be found within these cold and dark chambers.;;;;;;;;;;;;;x
+fk_shrine_1_desc;A secluded shrine hidden away in a quiet wing of the palace. Here men and women can spend their time in prayer and introspective soul-searching.;;;;;;;;;;;;;x
+fk_shrine_2_desc;This gallery occupies a large chamber in one of the palace wings, and it contains all works of art accumulated by members of this dynasty over the years.;;;;;;;;;;;;;x
+fk_shrine_3_desc;A huge library containing all sorts of dusty old tomes collected and purchased from all over the known world by members of this dynasty. They are in many different languages and no person alive has read them all, but at least here they will be protected for posterity.;;;;;;;;;;;;;x
+fk_vault_1_desc;This fortified vault deep within the palace is where the dynasty keeps all of their treasures collected over the years. Only the head of the dynasty has access to the vault keys, but the stories of piles upon piles of golden coins, deep enough for a man to dive around in like a porpoise, or burrow through like a gopher, must surely be false.;;;;;;;;;;;;;x
+fk_vault_2_desc;These secret passages run through the entire palace, and enable those in the know to quickly move from one end to the other without being seen. By pulling on the right candelabrum, an unassuming bookshelf or a lit fireplace might slide open. Perfect for escaping would-be assassins or awkward social gatherings.;;;;;;;;;;;;;x
+fk_vault_3_desc;This hidden chamber inside the palace can only be reached through one of the secret passages, and even then several special keys are required. It serves as a well-protected retreat for the head of the dynasty, where he or she can safely plot the conquest of the world without irritating distractions.;;;;;;;;;;;;;x
 
 ###########Religions###########
 bnai_avraham;B'nei Avraham;;;;;;;;;;;;;x
@@ -287,11 +369,20 @@ has_not_conquered_recently_TT;Has not conquered recently.;;;;;;;;;;;;;x
 
 conquer_cooldown;Conquest Cooldown;;;;;;;;;;;;;x
 
+CB_NAME_TRIBUTARY_LEAGUE;Force League Treaty;;;;;;;;;;;;;x
+tributary_league_cb_desc;Poleis can force other poleis to become a league city.;;;;;;;;;;;;;x
+WAR_NAME_TRIBUTARY_LEAGUE;$ORDER$$FIRST_ADJ$ War to Make $DEFENDER$ a League City;;;;;;;;;;;;;x
+
+CB_NAME_DISMANTLE_LEAGUE;Dismantle League;;;;;;;;;;;;;x
+dismantle_league_cb;Poleis can force another polis to dismantle their league.;;;;;;;;;;;;;x
+WAR_NAME_DISMANTLE_LEAGUE;$ORDER$$FIRST_ADJ$ War to Make $DEFENDER$ a Dismantle League;;;;;;;;;;;;;x
+dismantle_league_TT;Free all league cities;;;;;;;;;;;;;x
+
 CB_NAME_TROJAN_WAR;Trojan War;;;;;;;;;;;;;x
 WAR_NAME_TROJAN_WAR;Trojan War;;;;;;;;;;;;;x
 
 CB_NAME_DORIAN_INVASION;Dorieús Invasion;;;;;;;;;;;;;x
-WAR_NAME_DORIAN_INVASION;Dorieús Invasion of $OTHER_TITLE$;;;;;;;;;;;;;x
+WAR_NAME_DORIAN_INVASION;Dorieús Invasion;;;;;;;;;;;;;x
 
 CB_NAME_THESSALIAN_INVASION;Thessalikós Invasion;;;;;;;;;;;;;x
 WAR_NAME_THESSALIAN_INVASION;Thessalikós Invasion of $OTHER_TITLE$;;;;;;;;;;;;;x
@@ -301,7 +392,7 @@ WAR_NAME_KASKIAN_INVASION;Kaška Invasion;;;;;;;;;;;;;x
 
 CB_NAME_PHRYGIAN_INVASION;Phrugios Invasion;;;;;;;;;;;;;x
 WAR_NAME_PHRYGIAN_INVASION;$ORDER$ Phrugios Invasion of $OTHER_TITLE$;;;;;;;;;;;;;x
-not_invaded_thrice_TT;Has not used the Phrugios Invasion Casus Belli thrice;;;;;;;;;;;;;x
+not_invaded_twice_TT;Has not used the Phrugios Invasion Casus Belli twice;;;;;;;;;;;;;x
 
 CB_NAME_GREEK_REVOLT;Héllen Revolt;;;;;;;;;;;;;x
 WAR_NAME_GREEK_REVOLT;Héllen Revolt of $OTHER_TITLE$;;;;;;;;;;;;;x
@@ -467,6 +558,7 @@ tribal_count_female_lycian;Ishassara;;;;;;;;;;;;;x #placeholder
 tribal_baron_lycian;Hassatarisha;;;;;;;;;;;;;x #placeholder
 tribal_baron_female_lycian;Hassatarishassara;;;;;;;;;;;;;x #placeholder
 
+county_of_achaean;Damos of;;;;;;;;;;;;;x
 count_achaean;Prokoreter;;;;;;;;;;;;;x
 count_female_achaean;Klawiphoros;;;;;;;;;;;;;x
 duke_achaean;Koreter;;;;;;;;;;;;;x
@@ -475,6 +567,7 @@ king_achaean;Basileos;;;;;;;;;;;;;x
 king_female_achaean;Basilissa;;;;;;;;;;;;;x
 emperor_achaean;Wanax;;;;;;;;;;;;;x
 emperor_female_achaean;Wanaxia;;;;;;;;;;;;;x
+job_spiritual_achaean;Lawagetas;;;;;;;;;;;;;x
 
 count_amazonian;Prokoreter;;;;;;;;;;;;;x
 count_female_amazonian;Klawiphoros;;;;;;;;;;;;;x
@@ -535,7 +628,7 @@ tribal_kingdom_of;Phuletiki Basileía of;;;;;;;;;;;;;x
 tribal_king_aeolian;Basilískos;;;;;;;;;;;;;x
 tribal_king_female_aeolian;Basilískos;;;;;;;;;;;;;x
 tribal_empire_of;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
-tribal_emperor_aeolian;MégasBasilískos;;;;;;;;;;;;;x
+tribal_emperor_aeolian;Mégas Basilískos;;;;;;;;;;;;;x
 tribal_emperor_female_aeolian;Megále Basilískos;;;;;;;;;;;;;x
 
 barony_of_arcadian;Phroúrion of;;;;;;;;;;;;;x
@@ -569,7 +662,7 @@ tribal_kingdom_of;Phuletiki Basileía of;;;;;;;;;;;;;x
 tribal_king_arcadian;Basilískos;;;;;;;;;;;;;x
 tribal_king_female_arcadian;Basilískos;;;;;;;;;;;;;x
 tribal_empire_of;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
-tribal_emperor_arcadian;MégasBasilískos;;;;;;;;;;;;;x
+tribal_emperor_arcadian;Mégas Basilískos;;;;;;;;;;;;;x
 tribal_emperor_female_arcadian;Megále Basilískos;;;;;;;;;;;;;x
 
 barony_of_cypriot_dorian;Phroúrion of;;;;;;;;;;;;;x
@@ -603,7 +696,7 @@ tribal_kingdom_of;Phuletiki Basileía of;;;;;;;;;;;;;x
 tribal_king_cypriot_dorian;Basilískos;;;;;;;;;;;;;x
 tribal_king_female_cypriot_dorian;Basilískos;;;;;;;;;;;;;x
 tribal_empire_of;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
-tribal_emperor_cypriot_dorian;MégasBasilískos;;;;;;;;;;;;;x
+tribal_emperor_cypriot_dorian;Mégas Basilískos;;;;;;;;;;;;;x
 tribal_emperor_female_cypriot_dorian;Megále Basilískos;;;;;;;;;;;;;x
 
 barony_of_dorian;Phroúrion of;;;;;;;;;;;;;x
@@ -637,7 +730,7 @@ tribal_kingdom_of;Phuletiki Basileía of;;;;;;;;;;;;;x
 tribal_king_dorian;Basilískos;;;;;;;;;;;;;x
 tribal_king_female_dorian;Basilískos;;;;;;;;;;;;;x
 tribal_empire_of;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
-tribal_emperor_dorian;MégasBasilískos;;;;;;;;;;;;;x
+tribal_emperor_dorian;Mégas Basilískos;;;;;;;;;;;;;x
 tribal_emperor_female_dorian;Megále Basilískos;;;;;;;;;;;;;x
 
 barony_of_ionian;Phroúrion of;;;;;;;;;;;;;x
@@ -671,7 +764,7 @@ tribal_kingdom_of;Phuletiki Basileía of;;;;;;;;;;;;;x
 tribal_king_ionian;Basilískos;;;;;;;;;;;;;x
 tribal_king_female_ionian;Basilískos;;;;;;;;;;;;;x
 tribal_empire_of;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
-tribal_emperor_ionian;MégasBasilískos;;;;;;;;;;;;;x
+tribal_emperor_ionian;Mégas Basilískos;;;;;;;;;;;;;x
 tribal_emperor_female_ionian;Megále Basilískos;;;;;;;;;;;;;x
 
 barony_of_macedonian;Phroúrion of;;;;;;;;;;;;;x
@@ -705,7 +798,7 @@ tribal_kingdom_of;Phuletiki Basileía of;;;;;;;;;;;;;x
 tribal_king_macedonian;Basilískos;;;;;;;;;;;;;x
 tribal_king_female_macedonian;Basilískos;;;;;;;;;;;;;x
 tribal_empire_of;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
-tribal_emperor_macedonian;MégasBasilískos;;;;;;;;;;;;;x
+tribal_emperor_macedonian;Mégas Basilískos;;;;;;;;;;;;;x
 tribal_emperor_female_macedonian;Megále Basilískos;;;;;;;;;;;;;x
 
 barony_of_thessalian;Phroúrion of;;;;;;;;;;;;;x
@@ -739,7 +832,7 @@ tribal_kingdom_of;Phuletiki Basileía of;;;;;;;;;;;;;x
 tribal_king_thessalian;Basilískos;;;;;;;;;;;;;x
 tribal_king_female_thessalian;Basilískos;;;;;;;;;;;;;x
 tribal_empire_of;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
-tribal_emperor_thessalian;MégasBasilískos;;;;;;;;;;;;;x
+tribal_emperor_thessalian;Mégas Basilískos;;;;;;;;;;;;;x
 tribal_emperor_female_thessalian;Megále Basilískos;;;;;;;;;;;;;x
 
 count_phrygian;Phularkhos;;;;;;;;;;;;;x #placeholder
@@ -805,7 +898,7 @@ nick_thumoleonta;Thumoleonta;;;;;;;;;;;;;x
 
 ###########Character/Province Modifiers###########
 imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]% | [From.yearly_imperial_authority_change.GetValue]%);;;;;;;;;;;;;x
-imperial_authority_desc;The authority of the sovereign is determined by how much control over their realm they have. As it ebbs and flows, so does their power.\n*Diplomacy: [Root.diplomacy_number.GetValue]\n*Martial: [Root.martial_number.GetValue]\n*Stewardship: [Root.stewardship_number.GetValue]\n*Learning: [Root.learning_number.GetValue]\n*Positive Traits: [Root.trait_bonus.GetValue]\n*Loyal Councilors: [Root.councilor_bonus.GetValue]\n*Negative Traits: [Root.trait_penalty.GetValue]\n*Disloyal Councilors: [Root.councilor_penalty.GetValue];;;;;;;;;;;;x
+imperial_authority_desc;The authority of the sovereign is determined by how much control over their realm they have. As it ebbs and flows, so does their power.\n§Y*§!Diplomacy: [Root.diplomacy_number.GetValue]\n§Y*§!Martial: [Root.martial_number.GetValue]\n§Y*§!Stewardship: [Root.stewardship_number.GetValue]\n§Y*§!Learning: [Root.learning_number.GetValue]\n§Y*§!Positive Traits: [Root.trait_bonus.GetValue]\n§Y*§!Loyal Councilors: [Root.councilor_bonus.GetValue]\n§Y*§!Loyal Vassals: [Root.vassal_bonus.GetValue]\n§Y*§!Negative Traits: [Root.trait_penalty.GetValue]\n§Y*§!Disloyal Councilors: [Root.councilor_penalty.GetValue]\n§Y*§!Disloyal Vassals: [Root.vassal_penalty.GetValue]\n§Y*§!Stability: [Root.stability.GetValue];;;;;;;;;;;;x
 imperial_authority_decrease_5_TT;§YImperial Authority§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
 imperial_authority_decrease_7_TT;§YImperial Authority§! will §Rdecrease§! by 7%;;;;;;;;;;;;;x
 imperial_authority_decrease_10_TT;§YImperial Authority§! will §Rdecrease§! by 10%;;;;;;;;;;;;;x
@@ -838,6 +931,8 @@ greek_migration;Héllen Migration;;;;;;;;;;;;;x
 thessalian_migration;Thessalikós Migration;;;;;;;;;;;;;x
 
 israelite_repented_modifier;B'nei Yisra'el Repented;;;;;;;;;;;;;x
+
+desolate_land;Desolate Land;;;;;;;;;;;;;x
 
 #opinion of traits
 opinion_of_zealous;Opinion of Zealous;;;;;;;;;;;;;x
@@ -962,9 +1057,9 @@ won_hellenic_invasion;Won [hellenic.GetName] Invasion;;;;;;;;;;;;;x
 lost_hellenic_invasion;Lost [hellenic.GetName] Invasion;;;;;;;;;;;;;x
 
 figurehead_emperor;Weak Monarch;;;;;;;;;;;;;x
-figurehead_emperor_desc;You wield no real power.;;;;;;;;;;;;;x
+figurehead_emperor_desc;You wield little power.;;;;;;;;;;;;;x
 weak_emperor;Figurehead Monarch;;;;;;;;;;;;;x
-weak_emperor_desc;You wield little power.;;;;;;;;;;;;;x
+weak_emperor_desc;You wield no real power.;;;;;;;;;;;;;x
 INSULT_INEFFECTUAL;Ineffectual;;;;;;;;;;;;;x
 strong_emperor;Strong Monarch;;;;;;;;;;;;;x
 strong_emperor_desc;You wield great power.;;;;;;;;;;;;;x
@@ -997,7 +1092,7 @@ opinion_sacrificed_human;Sacrifced Human;;;;;;;;;;;;;x
 
 #Palace Bureaucracy
 palace_bureaucracy;Palace Bureaucratic Efficiency ([From.PrimaryTitle.palace_bureaucracy_number.GetValue]% | [From.yearly_bureaucracy_change.GetValue]%);;;;;;;;;;;;;x
-palace_bureaucracy_desc;The bureaucracy of a realm is determined by how much bureaucratic norms are prevalent in said realm. As it changes, the norms of the realm change with it.\n*Diplomacy: [Root.diplomacy_number_bureaucracy.GetValue]\n*Martial: [Root.martial_number_bureaucracy.GetValue]\n*Stewardship: [Root.stewardship_number_bureaucracy.GetValue]\n*Learning: [Root.learning_number_bureaucracy.GetValue]\n*Positive Traits: [Root.trait_bonus_bureaucracy.GetValue]\n*Quality Councilors: [Root.councilor_bonus_bureaucracy.GetValue]\n*Quality Vassals: [Root.vassal_bonus_bureaucracy.GetValue]\n*Negative Traits: [Root.trait_penalty_bureaucracy.GetValue]\n*Poor Councilors: [Root.councilor_penalty_bureaucracy.GetValue]\n*Poor Vassals: [Root.vassal_penalty_bureaucracy.GetValue];;;;;;;;;;;;;x
+palace_bureaucracy_desc;The bureaucracy of a realm is determined by how much bureaucratic norms are prevalent in said realm. As it changes, the norms of the realm change with it.\n§Y*§!Stewardship: [Root.stewardship_number_bureaucracy.GetValue]\n§Y*§!Learning: [Root.learning_number_bureaucracy.GetValue]\n§Y*§!Positive Traits: [Root.trait_bonus_bureaucracy.GetValue]\n§Y*§!Quality Councilors: [Root.councilor_bonus_bureaucracy.GetValue]\n§Y*§!Quality Vassals: [Root.vassal_bonus_bureaucracy.GetValue]\n§Y*§!Negative Traits: [Root.trait_penalty_bureaucracy.GetValue]\n§Y*§!Poor Councilors: [Root.councilor_penalty_bureaucracy.GetValue]\n§Y*§!Poor Vassals: [Root.vassal_penalty_bureaucracy.GetValue]\n§Y*§!Bureaucratic Scope: [Root.passive_bureaucracy.GetValue];;;;;;;;;;;;;x
 
 #Palace Bureaucracy Decision Modifiers
 sold_bureaucratic_positions;Sold Bureaucratic Positions;;;;;;;;;;;;;x
@@ -1039,7 +1134,7 @@ bureau_decrease_05_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 0.
 bureau_decrease_1_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 1%;;;;;;;;;;;;;x
 bureau_decrease_2_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 2%;;;;;;;;;;;;;x
 bureau_decrease_3_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 3%;;;;;;;;;;;;;x
-bureau_decrease_5_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 7%;;;;;;;;;;;;;x
+bureau_decrease_5_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
 bureau_decrease_10_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 10%;;;;;;;;;;;;;x
 bureau_decrease_20_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 20%;;;;;;;;;;;;;x
 
@@ -1109,8 +1204,8 @@ devotion_sabazios_desc;This character is devoted to Sabázios;;;;;;;;;;;;;x
 devotion_pleistoros;Devoted to Pleistoros;;;;;;;;;;;;;x
 devotion_pleistoros_desc;This character is devoted to Pleistoros;;;;;;;;;;;;;x
 devotion_derzelas;Devoted to Derzelas;;;;;;;;;;;;;x
-devotion_derzelas_desc;This character is devoted to Kubeleya;;;;;;;;;;;;;x
-devotion_kubeleya;Devoted to Derzelas;;;;;;;;;;;;;x
+devotion_derzelas_desc;This character is devoted to Derzelas;;;;;;;;;;;;;x
+devotion_kubeleya;Devoted to Kubeleya;;;;;;;;;;;;;x
 devotion_kubeleya_desc;This character is devoted to Kubeleya;;;;;;;;;;;;;x
 devotion_el;Devoted to 'El;;;;;;;;;;;;;x
 devotion_el_desc;This character is devoted to 'El;;;;;;;;;;;;;x
@@ -1277,6 +1372,13 @@ derzelas_curse_1;Curse of Draining Vigor;;;;;;;;;;;;;x
 derzelas_curse_2;Derzelas' Void of Intelligence;;;;;;;;;;;;;x
 derzelas_curse_3;Scattering of Derzelas;;;;;;;;;;;;;x
 
+kubelya_boon_1;Kubeleya's Grace;;;;;;;;;;;;;x
+kubelya_boon_2;Blessings of Kubeleya;;;;;;;;;;;;;x
+kubelya_boon_3;Kubeleya's Protection;;;;;;;;;;;;;x
+kubelya_curse_1;Damnation of Kubeleya;;;;;;;;;;;;;x
+kubelya_curse_2;Shunned From Kubeleya;;;;;;;;;;;;;x
+kubelya_curse_3;Kubeleya's Spite;;;;;;;;;;;;;x
+
 el_boon_1;Grace of 'El;;;;;;;;;;;;;x
 el_boon_2;'El's Favor;;;;;;;;;;;;;x
 el_boon_3;Soldiers of 'El;;;;;;;;;;;;;
@@ -1377,18 +1479,27 @@ scepter_agamemnon_desc;The divine scepter of the House of dark-faced Pelops. Hap
 boar_tusk_helm;Boar Tusk Helmet;;;;;;;;;;;;;x
 boar_tusk_helm_desc;A helmet made from slivers of boar tusks attached to a padded leather base. Dozens of boars were slain to make this savage piece of armor.;;;;;;;;;;;;;x
 
+cup_nestor;Cup of Nestor;;;;;;;;;;;;;x
+cup_nestor_desc;A golden cup beautifully adorned with four handles and two doves. It is said that, when full, it is so heavy that only the hero Nestor could lift it.;;;;;;;;;;;;;x
+
 khopes;Bronze Khopes;;;;;;;;;;;;;x
 khopes_desc;This is Bronze Khopes Description;;;;;;;;;;;;;x
 
 lionskin;Lionskin;;;;;;;;;;;;;x
-lionskin_desc;This lion-pelt was taken as a trophy from some unlucky lion. Wearing it almost fills one with courage, as if the spirit of the beast itself enters the wearer...
-;;;;;;;;;;;;;x
+lionskin_desc;This lion-pelt was taken as a trophy from some unlucky lion. Wearing it almost fills one with courage, as if the spirit of the beast itself enters the wearer...;;;;;;;;;;;;;x
 
 ###########Regions###########
 world_greece;Greece;;;;;;;;;;;;;x
 world_asia_minor;Asia Minor;;;;;;;;;;;;;x
 
 ###########Miscellaneous###########
+
+ask_to_be_league_member;Ask to Become Part of Your League;;;;;;;;;;;;;x
+ask_to_be_league_member;Ask [Root.GetTitledFirstName] to become your league city.;;;;;;;;;;;;;x
+relative_power_TT;Relative Power;;;;;;;;;;;;;x
+
+EVTDESCFKR500;To [Root.GetTitledName],\nI shall accept your request to become part of your league.\n\nSincerely,\n[From.GetTitledName];;;;;;;;;;;;;x
+
 amazonian_marriage;[Root.Culture.GetName] Marriage;;;;;;;;;;;;;x
 amazonian_marriage_desc;As an [Root.Culture.GetName], you must matrilineally wed another [Root.Culture.GetName].;;;;;;;;;;;;;x
 
@@ -1399,18 +1510,26 @@ opposite_gender_TT;Must be the opposite gender.;;;;;;;;;;;;;x
 
 tooltip_title_same_culture;Has same culture as capital of the title;;;;;;;;;;;;;x
 
-GOVERNMENT_UNIT_BONUS;Government Unit Bonus;;;;;;;;;;;;;x
+GOVERNMENT_BONUS;Government Bonus;;;;;;;;;;;;;x
 HERO_TITLE;Heros;;;;;;;;;;;;;x
 
 mediterranean_trade;Mediterranean Trade Route;;;;;;;;;;;;;x
 mediterranean_trade_province_desc;Can only build §YMediterranean Trade Route Trade Posts§! in certain Counties along the §YMediterranean Trade Route§!\n   Open the §YTrade Zones Mapmode§! to see valid Counties;;;;;;;;;;;;;x
 
-RULE_COLLAPSE_INVASION;Bronze Age Collapse Invasions;;;;;;;;;;;;;x
+RULE_COLLAPSE;Bronze Age Collapse;;;;;;;;;;;;;x
 
 RULE_GREEK_COLLAPSE_INVASION;Greek Bronze Age Collapse Invasion;;;;;;;;;;;;;x
 RULE_GREEK_COLLAPSE_INVASION_ON;Greece will be invaded during the Bronze Age Collapse;;;;;;;;;;;;;x
 RULE_GREEK_COLLAPSE_INVASION_OFF;Greece will not be invaded during the Bronze Age Collapse;;;;;;;;;;;;;x
 
+RULE_GREEK_COLLAPSE_REALM;Greek Bronze Age Realm Collapse;;;;;;;;;;;;;x
+RULE_GREEK_COLLAPSE_REALM_ON;Greek realms will collapse during the Bronze Age Collapse;;;;;;;;;;;;;x
+RULE_GREEK_COLLAPSE_REALM_OFF;Greece will not collapse during the Bronze Age Collapse;;;;;;;;;;;;;x
+
 RULE_ANATOLIAN_COLLAPSE_INVASION;Anatolian Bronze Age Collapse Invasion;;;;;;;;;;;;;x
 RULE_ANATOLIAN_COLLAPSE_INVASION_ON;Anatolia will be invaded during the Bronze Age Collapse;;;;;;;;;;;;;x
 RULE_ANATOLIAN_COLLAPSE_INVASION_OFF;Anatolia will not be invaded during the Bronze Age Collapse;;;;;;;;;;;;;x
+
+TRIBUTARY_LEAGUE_NAME;League City;;;;;;;;;;;;;x
+TRIBUTARY_LEAGUE_PLURAL;League Cities;;;;;;;;;;;;;x
+SUZERAIN_LEAGUE_NAME;League Hegemon;;;;;;;;;;;;;x

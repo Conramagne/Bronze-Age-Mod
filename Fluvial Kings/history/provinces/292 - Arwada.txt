@@ -1,0 +1,15 @@
+# c_arwada
+
+# County Title
+title = c_arwada
+
+# Settlements
+max_settlements = 1
+
+b_arwada = castle
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

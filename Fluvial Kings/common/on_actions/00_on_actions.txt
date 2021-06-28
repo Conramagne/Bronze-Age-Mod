@@ -96,12 +96,15 @@ on_yearly_pulse = {
 		fkp.300	#Random event to apply curses
 		fkp.303	#Random event to make gods angry over betrayal
 		fkp.400	#God Impregnation
-		# fkp.9000 #Regularly clears god's wealth
+		fkp.9000 #Regularly clears god's wealth
 		
 		# tw.8 #Achilles raids the countryside
 		
 		fkcg.1 #Greek Drought Set-Up
 		fkca.1 #Anatolia Drought Set-Up
+		
+		fkm.3 #Gives Amazonios their trait
+		fkm.13 #Assigns Twelve Tribe Traits
 	}
 	
 	random_events = {
@@ -2009,7 +2012,7 @@ on_death = {
 		# HFP.19101 # Varangian guards return home upon becoming players
 		LT.20501 # Sucessor must decide on Burial if it has wonders with burial_ground flag
 		fkr.120 #Fall: Succession
-		# fkr.217 #Palace Bureaucracy Falling on death
+		fkr.217 #Palace Bureaucracy Falling on death
 		fkp.407 #Inheriting birthright
 		
 		fka.1	#Hero Apotheosis

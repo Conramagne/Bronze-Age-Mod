@@ -2107,6 +2107,40 @@ technology_reduction_hittite_effect = {
 	}
 }
 
+destroy_palace_effect = {
+	remove_building = fk_mansion_1
+	remove_building = fk_mansion_2
+	remove_building = fk_mansion_3
+	remove_building = fk_mansion_4
+	remove_building = fk_barracks_1
+	remove_building = fk_barracks_2
+	remove_building = fk_barracks_3
+	remove_building = fk_stable_1
+	remove_building = fk_stable_2
+	remove_building = fk_stable_3
+	remove_building = fk_bowyer_1
+	remove_building = fk_bowyer_2
+	remove_building = fk_bowyer_3
+	remove_building = fk_shipyard_1
+	remove_building = fk_shipyard_2
+	remove_building = fk_shipyard_3
+	remove_building = fk_warehouse_1
+	remove_building = fk_warehouse_2
+	remove_building = fk_warehouse_3
+	remove_building = fk_garden_1
+	remove_building = fk_garden_2
+	remove_building = fk_garden_3
+	remove_building = fk_cellar_1
+	remove_building = fk_cellar_2
+	remove_building = fk_cellar_3
+	remove_building = fk_shrine_1
+	remove_building = fk_shrine_2
+	remove_building = fk_shrine_3
+	remove_building = fk_vault_1
+	remove_building = fk_vault_2
+	remove_building = fk_vault_3
+}
+
 apply_twelve_tribe_trait_effect = {
 	if = {
 		limit = {
@@ -2189,7 +2223,10 @@ apply_twelve_tribe_trait_effect = {
 	else_if = {
 		limit = {
 			top_liege = {
-				dynasty = 2300000
+				OR = {
+					dynasty = 2300000
+					trait = reubenite
+				}
 			}
 		}
 		add_trait = reubenite
@@ -2197,7 +2234,10 @@ apply_twelve_tribe_trait_effect = {
 	else_if = {
 		limit = {
 			top_liege = {
-				dynasty = 2300001
+				OR = {
+					dynasty = 2300001
+					trait = simeonite
+				}
 			}
 		}
 		add_trait = simeonite
@@ -2205,7 +2245,10 @@ apply_twelve_tribe_trait_effect = {
 	else_if = {
 		limit = {
 			top_liege = {
-				dynasty = 2300002
+				OR = {
+					dynasty = 2300002
+					trait = gadite
+				}
 			}
 		}
 		add_trait = gadite
@@ -2213,7 +2256,10 @@ apply_twelve_tribe_trait_effect = {
 	else_if = {
 		limit = {
 			top_liege = {
-				dynasty = 2300003
+				OR = {
+					dynasty = 2300003
+					trait = judahite
+				}
 			}
 		}
 		add_trait = judahite
@@ -2221,7 +2267,10 @@ apply_twelve_tribe_trait_effect = {
 	else_if = {
 		limit = {
 			top_liege = {
-				dynasty = 2300004
+				OR = {
+					dynasty = 2300004
+					trait = issacharite
+				}
 			}
 		}
 		add_trait = issacharite
@@ -2229,7 +2278,10 @@ apply_twelve_tribe_trait_effect = {
 	else_if = {
 		limit = {
 			top_liege = {
-				dynasty = 2300005
+				OR = {
+					dynasty = 2300005
+					trait = zebulunite
+				}
 			}
 		}
 		add_trait = zebulunite
@@ -2237,7 +2289,10 @@ apply_twelve_tribe_trait_effect = {
 	else_if = {
 		limit = {
 			top_liege = {
-				dynasty = 2300006
+				OR = {
+					dynasty = 2300006
+					trait = manassehite
+				}
 			}
 		}
 		add_trait = manassehite
@@ -2245,7 +2300,10 @@ apply_twelve_tribe_trait_effect = {
 	else_if = {
 		limit = {
 			top_liege = {
-				dynasty = 2300007
+				OR = {
+					dynasty = 2300007
+					trait = ephraimite
+				}
 			}
 		}
 		add_trait = ephraimite
@@ -2253,7 +2311,10 @@ apply_twelve_tribe_trait_effect = {
 	else_if = {
 		limit = {
 			top_liege = {
-				dynasty = 2300008
+				OR = {
+					dynasty = 2300008
+					trait = benjaminite
+				}
 			}
 		}
 		add_trait = benjaminite
@@ -2261,7 +2322,10 @@ apply_twelve_tribe_trait_effect = {
 	else_if = {
 		limit = {
 			top_liege = {
-				dynasty = 2300009
+				OR = {
+					dynasty = 2300009
+					trait = danite
+				}
 			}
 		}
 		add_trait = danite
@@ -2269,7 +2333,10 @@ apply_twelve_tribe_trait_effect = {
 	else_if = {
 		limit = {
 			top_liege = {
-				dynasty = 2300010
+				OR = {
+					dynasty = 2300010
+					trait = asherite
+				}
 			}
 		}
 		add_trait = asherite
@@ -2277,7 +2344,10 @@ apply_twelve_tribe_trait_effect = {
 	else_if = {
 		limit = {
 			top_liege = {
-				dynasty = 2300011
+				OR = {
+					dynasty = 2300011
+					trait = naphtalite
+				}
 			}
 		}
 		add_trait = naphtalite
@@ -2285,7 +2355,10 @@ apply_twelve_tribe_trait_effect = {
 	else_if = {
 		limit = {
 			top_liege = {
-				dynasty = 2300012
+				OR = {
+					dynasty = 2300012
+					trait = levite
+				}
 			}
 		}
 		add_trait = levite

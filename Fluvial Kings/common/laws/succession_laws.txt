@@ -51,7 +51,17 @@ succession_laws = {
 			}
 			is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 		}
 		allow = {
 			holder_scope = {
@@ -139,7 +149,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes
@@ -253,7 +273,17 @@ succession_laws = {
 					government = tribal_confederacy_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes
@@ -364,7 +394,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes
@@ -547,7 +587,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes
@@ -715,24 +765,21 @@ succession_laws = {
 		dynasty_opinion = -5
 		vassal_opinion = 10
 		potential = {
-			always = no
 			holder_scope = {
 				NOR = {
-					government = tribal_government
+					is_tribal = yes
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
-			holder_scope = {
-				NOT = {
-					is_feudal = yes
-				}
-			}
-			NAND = { 
-				has_law = succ_byzantine_elective 
-				OR = { 
-					title = e_byzantium
-					title = e_roman_empire
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
 				}
 			}
 			holder_scope = {
@@ -744,36 +791,8 @@ succession_laws = {
 						}
 					}
 				}
-				# OR = {
-					# NOR = { 
-						# religion_group = muslim
-						# religion_group = indian_group
-					# }
-					# has_law = succession_voting_power_1
-					# OR = { 
-						# has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
-						# has_law = succ_hre_elective
-					# } 
-					# ROOT = {
-						# has_title_flag = alternate_hre
-					# }
-				# }
 				is_merchant_republic = no
 				is_patrician = no
-				
-				#OR = {
-					# NOT = { religion_group = pagan_group }
-					# is_reformed_religion = yes
-					# religion = hellenic_pagan
-					# has_law = succession_voting_power_1
-					# OR = { 
-						# has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
-						# has_law = succ_hre_elective
-					# } 
-					# ROOT = {
-						# has_title_flag = alternate_hre
-					# }
-				# }
 				OR = {
 					independent = yes
 					NOT = {
@@ -806,10 +825,6 @@ succession_laws = {
 			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
-			NOR = {  #Special Elective.
-				title = e_hre 
-				has_title_flag = alternate_hre
-			}
 		}
 		allow = {
 			custom_tooltip = {
@@ -844,7 +859,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes
@@ -960,7 +985,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes
@@ -1034,7 +1069,15 @@ succession_laws = {
 				}
 			}
 			holder_scope = { 
-				government = military_governorate_government 
+				OR = {
+					government = military_governorate_government
+					AND = {
+						liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				} 
 			}
 		}
 		allow = {
@@ -1062,7 +1105,17 @@ succession_laws = {
 		dynasty_opinion = -5
 		vassal_opinion = 10
 		potential = {
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			# NAND = { 
 				# has_law = succ_byzantine_elective 
 				# OR = { 
@@ -1149,7 +1202,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				OR = { 
@@ -1233,7 +1296,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes
@@ -1373,7 +1446,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes
@@ -1555,7 +1638,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes
@@ -1636,7 +1729,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes
@@ -1663,7 +1766,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes
@@ -1697,7 +1810,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes
@@ -1777,7 +1900,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes
@@ -1829,7 +1962,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes
@@ -1867,7 +2010,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes
@@ -1894,7 +2047,17 @@ succession_laws = {
 					government = pastoralist_government
 				}
 			}
-			NOT = { holder_scope = { government = military_governorate_government } }
+			holder_scope = { 
+				NOR = { 
+					government = military_governorate_government
+					AND = {
+						top_liege = {
+							has_law = ze_administration_laws_3
+						}
+						independent = no
+					}
+				}
+			}
 			holder_scope = {
 				NOT = {
 					is_feudal = yes

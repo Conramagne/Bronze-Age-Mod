@@ -153,36 +153,12 @@ e_hittite_empire = {
 			}
 		}
 		d_sarazzi_udne = {
-			color={ 245 68 65 }
+			color={ 163 249 8 }
 			color2={ 255 255 255 }
 			
-			capital = 8 # c_sakdunuwa
+			capital = 8 # c_kanes
 			
-			c_sakdunuwa = { # 8
-				color={ 255 58 70 }
-				color2={ 255 255 255 }
-				
-				b_sakdunuwa = {
-				}
-				b_suluppa = {
-				}
-				b_marista = {
-				}
-				b_arziya = {
-				}
-			}
-			c_hakmis = { # 11
-				color={ 89 12 4 }
-				color2={ 255 255 255 }
-				
-				b_hakmis = {
-				}
-				b_zipishurna = {
-				}
-				b_tismurna = {
-				}
-			}
-			c_kanes = { # 14
+			c_kanes = { # 8
 				color={ 153 3 3 }
 				color2={ 255 255 255 }
 				
@@ -196,7 +172,18 @@ e_hittite_empire = {
 				b_warsabama = {
 				}
 			}
-			c_kappurnanda = { # 13
+			c_hakmis = { # 12
+				color={ 89 12 4 }
+				color2={ 255 255 255 }
+				
+				b_hakmis = {
+				}
+				b_zipishurna = {
+				}
+				b_tismurna = {
+				}
+			}
+			c_kappurnanda = { # 14
 				color={ 205 58 70 }
 				color2={ 255 255 255 }
 				
@@ -209,7 +196,7 @@ e_hittite_empire = {
 				b_tiliura = {
 				}
 			}
-			c_karahna = { # 12
+			c_karahna = { # 13
 				color={ 255 58 117 }
 				color2={ 255 255 255 }
 				
@@ -222,7 +209,20 @@ e_hittite_empire = {
 				b_kutiya = {
 				}
 			}
-			c_sapinuwa = { # 9
+			c_sakdunuwa = { # 9
+				color={ 255 58 70 }
+				color2={ 255 255 255 }
+				
+				b_sakdunuwa = {
+				}
+				b_suluppa = {
+				}
+				b_marista = {
+				}
+				b_arziya = {
+				}
+			}
+			c_sapinuwa = { # 10
 				color={ 106 4 4 }
 				color2={ 255 255 255 }
 				
@@ -243,7 +243,7 @@ e_hittite_empire = {
 				b_hasikkasnawanda = {
 				}
 			}
-			c_tapikka = { # 10
+			c_tapikka = { # 11
 				color={ 104 24 24 }
 				color2={ 255 255 255 }
 				

@@ -6,13 +6,13 @@ province;red;green;blue;x;x
 5;219;0;0;Tuhuppiya;x
 6;204;57;57;Altanna;x
 7;155;23;0;Harsamna;x
-8;255;58;70;Sakdunuwa;x
-9;106;4;4;Sapinuwa;x
-10;104;24;24;Tapikka;x
-11;89;12;4;Hakmis;x
-12;255;58;117;Karahna;x
-13;205;58;70;Kappurnanda;x
-14;153;3;3;Kanes;x
+8;153;3;3;Kanes;x
+9;255;58;70;Sakdunuwa;x
+10;106;4;4;Sapinuwa;x
+11;104;24;24;Tapikka;x
+12;89;12;4;Hakmis;x
+13;255;58;117;Karahna;x
+14;205;58;70;Kappurnanda;x
 15;136;24;3;Sarissa;x
 16;236;140;0;Pittiyarika;x
 17;196;74;0;Pahhuwa;x
@@ -247,37 +247,70 @@ province;red;green;blue;x;x
 246;62;56;151;Akko;x
 247;69;31;136;Rimmon;x
 248;62;56;201;Dan;x
-249;98;72;172;Yerushalaim;x
-250;92;88;136;Dor;x
-251;85;124;134;Gath Padalla;x
-252;143;139;203;Shomron;x
-253;102;96;193;Efraim;x
-254;80;50;167;Yisrael;x
-255;92;68;140;Hasor;x
-256;76;126;130;Gilgal;x
-257;93;63;166;Mahanayim;x
-258;63;61;113;Jazer;x
-259;102;131;166;Ramoth;x
-260;52;197;158;Rabbat Ammon;x
-261;102;96;192;Geshur;x
-262;52;151;129;Kenatha;x
-263;153;88;96;Ar;x
-264;98;95;142;Dibon;x
-265;172;118;70;Qir Hareset;x
-266;81;73;66;Yahas;x
-267;39;130;145;Lakis;x
-268;66;117;148;Hevron;x
-269;38;102;150;Estemoa;x
-270;71;40;168;Beer Sheva;x
-271;64;104;112;Ashdod;x
-272;121;150;145;Gath;x
-273;77;83;156;Gath Rimmon;x
-274;53;61;164;Ekron;x
-275;80;165;154;Asqelon;x
-276;72;204;214;Siqlag;x
-277;57;130;188;Azza;x
-278;121;45;58;Zoar;x
-279;55;95;220;Kadesh Barnea;x
-280;156;106;72;Talmar;x
-281;146;72;85;Bosra;x
-282;221;60;46;Ezion Geber;x
+249;117;83;121;Gubla;x
+250;134;112;109;Halpa;x
+251;118;68;137;Ammiya;x
+252;98;72;172;Yerushalaim;x
+253;92;88;136;Dor;x
+254;85;124;134;Gath Padalla;x
+255;143;139;203;Shomron;x
+256;102;96;193;Efraim;x
+257;80;50;167;Yisrael;x
+258;92;68;140;Hasor;x
+259;76;126;130;Gilgal;x
+260;93;63;166;Mahanayim;x
+261;63;61;113;Jazer;x
+262;102;131;166;Ramoth;x
+263;52;197;158;Rabbat Ammon;x
+264;102;96;192;Geshur;x
+265;52;151;129;Kenatha;x
+266;153;88;96;Ar;x
+267;98;95;142;Dibon;x
+268;172;118;70;Qir Hareset;x
+269;81;73;66;Yahas;x
+270;39;130;145;Lakis;x
+271;66;117;148;Hevron;x
+272;38;102;150;Estemoa;x
+273;71;40;168;Beer Sheva;x
+274;64;104;112;Ashdod;x
+275;121;150;145;Gath;x
+276;77;83;156;Gath Rimmon;x
+277;53;61;164;Ekron;x
+278;80;165;154;Asqelon;x
+279;72;204;214;Siqlag;x
+280;57;130;188;Azza;x
+281;121;45;58;Zoar;x
+282;55;95;220;Kadesh Barnea;x
+283;156;106;72;Talmar;x
+284;146;72;85;Bosra;x
+285;221;60;46;Ezion Geber;x
+286;147;68;108;Ugarit;x
+287;159;124;142;Suhurre;x
+288;137;107;90;Niya;x
+289;104;90;151;Arzigana;x
+290;178;75;163;Gibala;x
+291;143;163;185;Sumur;x
+292;140;75;117;Arwada;x
+293;160;70;109;Mansuate;x
+294;104;80;121;Sinzar;x
+295;107;68;75;Qatna;x
+296;153;58;75;Hassu;x
+297;61;75;112;Idiba;x
+298;155;101;183;Terqa;x
+299;152;34;195;Abattum;x
+300;118;30;163;Azmu;x
+301;118;30;97;Halabit;x
+302;202;90;114;Halab;x
+303;219;103;190;Arpadda;x
+304;165;28;78;Dinanu;x
+305;137;112;87;Alalakh;x
+306;168;90;70;Pittina;x
+307;124;132;69;Karkemish;x
+308;109;124;138;Til-Turi;x
+309;159;79;170;Ursti;x
+310;151;97;58;Til-Basere;x
+311;98;64;118;Emar;x
+312;178;119;155;Azu;x
+313;171;88;103;Dammasseq;x
+314;167;73;90;Saaru;x
+315;150;54;99;Kadesh;x

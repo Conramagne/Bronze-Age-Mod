@@ -1,0 +1,282 @@
+#Kings of Amurru (2400000-2400099)
+2400000 = { #Šaušgamuwa, King of Amurru
+	name = "Šaušgamuwa" 
+	dynasty = 2400000 #ben Abdi-Ashirta
+	culture = amorite
+	religion = canaanite_religion
+	father = 2400002
+	mother = 2002007
+	2511.1.1 = { birth = yes }
+	2565.1.1 = { death = yes }
+}
+
+2400001 = { #Gashera
+	name = "Gashera" 
+	dynasty = 2400000 #ben Abdi-Ashirta
+	culture = amorite
+	religion = canaanite_religion
+	female = yes
+	father = 2400002
+	2505.1.1 = { birth = yes }
+	2525.1.1 = {
+		add_spouse = 2001012
+	}
+	2565.1.1 = { death = yes }
+}
+
+2400002 = { #Bentešina, King of Amurru
+	name = "Bentešina" 
+	dynasty = 2400000 #ben Abdi-Ashirta
+	culture = amorite
+	religion = canaanite_religion
+	father = 2400004
+	disallow_random_traits = yes
+	2461.1.1 = { birth = yes }
+	2511.1.1 = {
+		add_spouse = 2002007
+	}
+	2527.1.1 = { death = yes }
+}
+
+2400003 = { #Šapili, King of Amurru
+	name = "Šapili" 
+	culture = amorite
+	religion = canaanite_religion
+	disallow_random_traits = yes
+	2455.1.1 = { birth = yes }
+	2515.1.1 = { death = yes }
+}
+
+2400004 = { #Tupi-Teššub, King of Amurru
+	name = "Tupi-Teššub" 
+	dynasty = 2400000 #ben Abdi-Ashirta
+	culture = amorite
+	religion = canaanite_religion
+	father = 2400005
+	disallow_random_traits = yes
+	2426.1.1 = { birth = yes }
+	2481.1.1 = { death = yes }
+}
+
+2400005 = { #Ari-Teššub, King of Amurru
+	name = "Ari-Teššub" 
+	dynasty = 2400000 #ben Abdi-Ashirta
+	culture = amorite
+	religion = canaanite_religion
+	father = 2400006
+	disallow_random_traits = yes
+	2396.1.1 = { birth = yes }
+	2448.1.1 = { death = yes }
+}
+
+2400006 = { #Aziru, King of Amurru
+	name = "Aziru" 
+	dynasty = 2400000 #ben Abdi-Ashirta
+	culture = amorite
+	religion = canaanite_religion
+	father = 2400008
+	disallow_random_traits = yes
+	2376.1.1 = { birth = yes }
+	2446.1.1 = { death = yes }
+}
+
+2400007 = { #Pubahla, King of Amurru
+	name = "Pubahla" 
+	dynasty = 2400000 #ben Abdi-Ashirta
+	culture = amorite
+	religion = canaanite_religion
+	father = 2400008
+	disallow_random_traits = yes
+	2370.1.1 = { birth = yes }
+	2410.1.1 = { death = yes }
+}
+
+2400008 = { #Abdi-Ashirta, King of Amurru
+	name = "Abdi-Ashirta" 
+	dynasty = 2400000 #ben Abdi-Ashirta
+	culture = amorite
+	religion = canaanite_religion
+	disallow_random_traits = yes
+	2350.1.1 = { birth = yes }
+	2405.1.1 = { death = yes }
+}
+
+2400009 = { #Shibtu
+	name = "Shibtu" 
+	dynasty = 2400000 #ben Abdi-Ashirta
+	culture = amorite
+	religion = canaanite_religion
+	female = yes
+	father = 2400002
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+#Kings of Ugarit (2400100-2400199)
+2400100 = { #Ammistamru, King of Amurru
+	name = "Ammistamru" 
+	dynasty = 2400001 #ben Niqmadu
+	culture = amorite
+	religion = canaanite_religion
+	father = 2400102
+	2470.1.1 = { birth = yes }
+	2520.1.1 = {
+		add_spouse = 2400009
+	}
+	2525.1.1 = {
+		remove_spouse = 2400009
+	}
+	2530.1.1 = { death = yes }
+}
+
+2400101 = { #Ammistamru
+	name = "Ammistamru" 
+	dynasty = 2400001 #ben Niqmadu
+	culture = amorite
+	religion = canaanite_religion
+	father = 2400100
+	mother = 2400009
+	2520.1.1 = { birth = yes }
+	2561.1.1 = { death = yes }
+}
+
+2400102 = { #Niqmepa, King of Amurru
+	name = "Niqmepa" 
+	dynasty = 2400001 #ben Niqmadu
+	culture = amorite
+	religion = canaanite_religion
+	father = 2400104
+	2425.1.1 = { birth = yes }
+	2511.1.1 = { death = yes }
+}
+
+2400103 = { #Arhalba, King of Amurru
+	name = "Arhalba" 
+	dynasty = 2400001 #ben Niqmadu
+	culture = amorite
+	religion = canaanite_religion
+	father = 2400104
+	2420.1.1 = { birth = yes }
+	2480.1.1 = { death = yes }
+}
+
+2400104 = { #Niqmadu II, King of Amurru
+	name = "Niqmadu" 
+	dynasty = 2400001 #ben Niqmadu
+	culture = amorite
+	religion = canaanite_religion
+	father = 2400105
+	2385.1.1 = { birth = yes }
+	2443.1.1 = { death = yes }
+}
+
+2400105 = { #Ammistamru, King of Amurru
+	name = "Niqmadu" 
+	dynasty = 2400001 #ben Niqmadu
+	culture = amorite
+	religion = canaanite_religion
+	father = 2400106
+	2365.1.1 = { birth = yes }
+	2407.1.1 = { death = yes }
+}
+
+2400106 = { #Ibiranu, King of Amurru
+	name = "Ibiranu" 
+	dynasty = 2400001 #ben Niqmadu
+	culture = amorite
+	religion = canaanite_religion
+	father = 2400107
+	2345.1.1 = { birth = yes }
+	2385.1.1 = { death = yes }
+}
+
+2400107 = { #Yaqurum, King of Amurru
+	name = "Yaqurum" 
+	dynasty = 2400001 #ben Niqmadu
+	culture = amorite
+	religion = canaanite_religion
+	father = 2400108
+	2325.1.1 = { birth = yes }
+	2375.1.1 = { death = yes }
+}
+
+2400108 = { #Niqmadu, King of Amurru
+	name = "Niqmadu" 
+	dynasty = 2400001 #ben Niqmadu
+	culture = amorite
+	religion = canaanite_religion
+	father = 2400108
+	2305.1.1 = { birth = yes }
+	2365.1.1 = { death = yes }
+}
+
+
+#Kings of Astata (2400200-2400299)
+2400200 = { #Addu-nirari, King of Astata
+	name = "Addu-nirari" 
+	dynasty = 2400002 #ben Addu-nirari
+	culture = amorite
+	religion = canaanite_religion
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+#Kings of Damascus (2400300-2400399)
+2400300 = { #Irkabtum, King of Damascus
+	name = "Irkabtum" 
+	dynasty = 2400003 #ben Irkabtum
+	culture = amorite
+	religion = canaanite_religion
+	2505.1.1 = { birth = yes }
+	2565.1.1 = { death = yes }
+}
+
+#Kings of Bisuru (2400400-2400499)
+2400400 = { #Helon, King of Bisuru
+	name = "Helon" 
+	dynasty = 2400004 #ben Helon
+	culture = amorite
+	religion = canaanite_religion
+	2505.1.1 = { birth = yes }
+	2565.1.1 = { death = yes }
+}
+
+#Kings of Sumur (2400500-2400599)
+2400500 = { #Akbar, King of Sumur
+	name = "Akbar" 
+	dynasty = 2400005 #ben Akbar
+	culture = phoenician
+	religion = canaanite_religion
+	2495.1.1 = { birth = yes }
+	2555.1.1 = { death = yes }
+}
+
+#Kings of Ammiya (2400600-2400699)
+2400600 = { #Maharbaal, King of Ammiya
+	name = "Maharbaal" 
+	dynasty = 2400006 #ben Maharbaal
+	culture = phoenician
+	religion = canaanite_religion
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+#Kings of Gubla (2400700-2400799)
+2400700 = { #Eshmunamash, King of Gubla
+	name = "Eshmunamash" 
+	dynasty = 2400007 #ben Eshmunamash
+	culture = phoenician
+	religion = canaanite_religion
+	2505.1.1 = { birth = yes }
+	2565.1.1 = { death = yes }
+}
+
+#Kings of Halpa (2400800-2400899)
+2400800 = { #Baalhanno, King of Halpa
+	name = "Baalhanno" 
+	dynasty = 2400008 #ben Baalhanno
+	culture = phoenician
+	religion = canaanite_religion
+	2490.1.1 = { birth = yes }
+	2550.1.1 = { death = yes }
+}

@@ -9,7 +9,7 @@ max_settlements = 1
 b_lurnessos = tribal
 
 # Misc
-culture = mysian
+culture = luwian
 religion = haianiluwi
 
 #History

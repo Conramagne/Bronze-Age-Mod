@@ -55,7 +55,8 @@ decisions = {
 	}
 
 	employ_priest = {
-		ai = no
+		# ai = no
+		ai_check_interval = 1
 		only_playable = yes
 
 		potential = {
@@ -143,6 +144,12 @@ decisions = {
 				}
 
 				hidden_tooltip = {
+					if = {
+						limit = {
+							religion = berith
+						}
+						add_trait = levite
+					}
 					# if = {
 						# limit = {
 							# has_dharmic_religion_trigger = yes
@@ -179,7 +186,13 @@ decisions = {
 			always = no
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 0
+				any_courtier_or_vassal = {
+					has_job_title = job_spiritual
+				}				
+			}
 		}
 	}
 	employ_priestess = {

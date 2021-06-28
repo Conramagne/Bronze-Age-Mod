@@ -1309,7 +1309,13 @@ familial_elective = {
 			NOT = { 
 				character = FROM
 			}
+			FROMFROM = { 
+				holder_scope = { 
+					character = ROOT
+				}
+			}
 			FROM = { 
+				dynasty = ROOT
 				is_close_relative = ROOT
 				NOT = { 
 					is_child_of = ROOT
@@ -1334,7 +1340,7 @@ familial_elective = {
 			}
 		}
 		additive_modifier = { #Current Ruler should tend to often pick one of his own children as potential heirs.
-			value = 60
+			value = 100
 			localisation_key = tooltip_feudal_elector_vote_parent
 			NOT = { 
 				character = FROM
@@ -3939,6 +3945,16 @@ familial_elective = {
 		FROM = { 
 			is_close_relative = ROOT
 		} 
+		FROM = {
+			OR = {
+				is_ruler = no
+				ROOT_FROMFROM = {
+					NOT = {
+						has_law = ze_administration_laws_4
+					}
+				}
+			}
+		}
 		FROM = { #Either the candidate is in the realm, or is landless, or the title is independent, or the realm of the title does NOT have protected inheritance.
 			OR = { 
 				any_liege = { 
@@ -7951,6 +7967,16 @@ adult_familial_elective = {
 			is_close_relative = ROOT
 			is_adult = yes
 		} 
+		FROM = {
+			OR = {
+				is_ruler = no
+				ROOT_FROMFROM = {
+					NOT = {
+						has_law = ze_administration_laws_4
+					}
+				}
+			}
+		}
 		FROM = { #Either the candidate is in the realm, or is landless, or the title is independent, or the realm of the title does NOT have protected inheritance.
 			OR = { 
 				any_liege = { 
@@ -8363,24 +8389,24 @@ viceroyalty_succession = {
 				capital_scope = { NOT = { de_jure_liege = ROOT_FROMFROM } }
 			}
 		}
-		additive_modifier = { #Candidate is a foreign ruler.
-			value = -30
-			localisation_key = tooltip_feudal_elector_vote_encroaching_foreigner
-			capital_scope = { de_jure_liege = FROMFROM }
-			FROM = {
-				is_ruler = yes 
-				NOT = { is_vassal_or_below_of = ROOT_FROMFROM }
-			}
-		}
-		additive_modifier = { #Candidate is a foreign non-dejure ruler.
-			value = -500
-			localisation_key = tooltip_feudal_elector_vote_encroaching_foreigner
-			NOT = { capital_scope = { de_jure_liege = FROMFROM } }
-			FROM = {
-				is_ruler = yes 
-				NOT = { is_vassal_or_below_of = ROOT_FROMFROM }
-			}
-		}
+		# additive_modifier = { #Candidate is a foreign ruler.
+			# value = -30
+			# localisation_key = tooltip_feudal_elector_vote_encroaching_foreigner
+			# capital_scope = { de_jure_liege = FROMFROM }
+			# FROM = {
+				# is_ruler = yes 
+				# NOT = { is_vassal_or_below_of = ROOT_FROMFROM }
+			# }
+		# }
+		# additive_modifier = { #Candidate is a foreign non-dejure ruler.
+			# value = -500
+			# localisation_key = tooltip_feudal_elector_vote_encroaching_foreigner
+			# NOT = { capital_scope = { de_jure_liege = FROMFROM } }
+			# FROM = {
+				# is_ruler = yes 
+				# NOT = { is_vassal_or_below_of = ROOT_FROMFROM }
+			# }
+		# }
 
 		#Faithism
 				additive_modifier = { #Infidel

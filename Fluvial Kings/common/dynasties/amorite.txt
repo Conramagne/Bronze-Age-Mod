@@ -1,0 +1,39 @@
+#IDS from 2400000-2499999
+
+#Preset Amorite Names (2400000-2400999)
+2400000 = {
+	name = "ben Abdi-Ashirta"
+	culture = "amorite"
+}
+2400001 = {
+	name = "ben Niqmadu"
+	culture = "amorite"
+}
+2400002 = {
+	name = "ben Addu-nirari"
+	culture = "amorite"
+}
+2400003 = {
+	name = "ben Irkabtum"
+	culture = "amorite"
+}
+2400004 = {
+	name = "ben Helon"
+	culture = "amorite"
+}
+2400005 = {
+	name = "ben Eshmunamash"
+	culture = "phoenician"
+}
+2400006 = {
+	name = "ben Maharbaal"
+	culture = "phoenician"
+}
+2400007 = {
+	name = "ben Helon"
+	culture = "phoenician"
+}
+2400008 = {
+	name = "ben Baalhanno"
+	culture = "phoenician"
+}

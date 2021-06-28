@@ -1,0 +1,18 @@
+# c_arzigana
+
+# County Title
+title = c_arzigana
+
+# Settlements
+max_settlements = 4
+
+b_arzigana = castle
+b_qatan = city
+b_arahti = temple
+#b_banga = castle
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

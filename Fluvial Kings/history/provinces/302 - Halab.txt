@@ -1,0 +1,19 @@
+# c_halab
+
+# County Title
+title = c_halab
+
+# Settlements
+max_settlements = 5
+
+b_halab = castle
+b_nerab = city
+b_arne = temple
+b_sipri = castle
+b_urume = city
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

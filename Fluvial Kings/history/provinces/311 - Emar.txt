@@ -1,0 +1,16 @@
+# c_emar
+
+# County Title
+title = c_emar
+
+# Settlements
+max_settlements = 2
+
+b_emar = castle
+b_azariq = city
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

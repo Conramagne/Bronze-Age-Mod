@@ -5,13 +5,13 @@ PROV4;Washaniya;Washaniya;Washaniya;;;;;;;;;x
 PROV5;Tuhuppiya;Tuhuppiya;Tuhuppiya;;;;;;;;;x
 PROV6;Altanna;Altanna;Altanna;;;;;;;;;x
 PROV7;Harsamna;Harsamna;Harsamna;;;;;;;;;x
-PROV8;Sakdunuwa;Sakdunuwa;Sakdunuwa;;;;;;;;;x
-PROV9;Sapinuwa;Sapinuwa;Sapinuwa;;;;;;;;;x
-PROV10;Tapikka;Tapikka;Tapikka;;;;;;;;;x
-PROV11;Hakmis;Hakmis;Hakmis;;;;;;;;;x
-PROV12;Karahna;Karahna;Karahna;;;;;;;;;x
-PROV13;Kappurnanda;Kappurnanda;Kappurnanda;;;;;;;;;x
-PROV14;Kanes;Kanes;Kanes;;;;;;;;;x
+PROV8;Kanes;Kanes;Kanes;;;;;;;;;x
+PROV9;Sakdunuwa;Sakdunuwa;Sakdunuwa;;;;;;;;;x
+PROV10;Sapinuwa;Sapinuwa;Sapinuwa;;;;;;;;;x
+PROV11;Tapikka;Tapikka;Tapikka;;;;;;;;;x
+PROV12;Hakmis;Hakmis;Hakmis;;;;;;;;;x
+PROV13;Karahna;Karahna;Karahna;;;;;;;;;x
+PROV14;Kappurnanda;Kappurnanda;Kappurnanda;;;;;;;;;x
 PROV15;Sarissa;Sarissa;Sarissa;;;;;;;;;x
 PROV16;Pittiyarika;Pittiyarika;Pittiyarika;;;;;;;;;x
 PROV17;Pahhuwa;Pahhuwa;Pahhuwa;;;;;;;;;x
@@ -246,37 +246,70 @@ PROV245;Sidon;Sidon;Sidon;;;;;;;;;x
 PROV246;Akko;Akko;Akko;;;;;;;;;x
 PROV247;Rimmon;Rimmon;Rimmon;;;;;;;;;x
 PROV248;Dan;Dan;Dan;;;;;;;;;x
-PROV249;Yerushalaim;Yerushalaim;Yerushalaim;;;;;;;;;x
-PROV250;Dor;Dor;Dor;;;;;;;;;x
-PROV251;Gath Padalla;Gath Padalla;Gath Padalla;;;;;;;;;x
-PROV252;Shomron;Shomron;Shomron;;;;;;;;;x
-PROV253;Efraim;Efraim;Efraim;;;;;;;;;x
-PROV254;Yisrael;Yisrael;Yisrael;;;;;;;;;x
-PROV255;Hasor;Hasor;Hasor;;;;;;;;;x
-PROV256;Gilgal;Gilgal;Gilgal;;;;;;;;;x
-PROV257;Mahanayim;Mahanayim;Mahanayim;;;;;;;;;x
-PROV258;Jazer;Jazer;Jazer;;;;;;;;;x
-PROV259;Ramoth;Ramoth;Ramoth;;;;;;;;;x
-PROV260;Rabbat Ammon;Rabbat Ammon;Rabbat Ammon;;;;;;;;;x
-PROV261;Geshur;Geshur;Geshur;;;;;;;;;x
-PROV262;Kenatha;Kenatha;Kenatha;;;;;;;;;x
-PROV263;Ar;Ar;Ar;;;;;;;;;x
-PROV264;Dibon;Dibon;Dibon;;;;;;;;;x
-PROV265;Qir Hareset;Qir Hareset;Qir Hareset;;;;;;;;;x
-PROV266;Yahas;Yahas;Yahas;;;;;;;;;x
-PROV267;Lakis;Lakis;Lakis;;;;;;;;;x
-PROV268;Hevron;Hevron;Hevron;;;;;;;;;x
-PROV269;Estemoa;Estemoa;Estemoa;;;;;;;;;x
-PROV270;Beer Sheva;Beer Sheva;Beer Sheva;;;;;;;;;x
-PROV271;Ashdod;Ashdod;Ashdod;;;;;;;;;x
-PROV272;Gath;Gath;Gath;;;;;;;;;x
-PROV273;Gath Rimmon;Gath Rimmon;Gath Rimmon;;;;;;;;;x
-PROV274;Ekron;Ekron;Ekron;;;;;;;;;x
-PROV275;Asqelon;Asqelon;Asqelon;;;;;;;;;x
-PROV276;Siqlag;Siqlag;Siqlag;;;;;;;;;x
-PROV277;Azza;Azza;Azza;;;;;;;;;x
-PROV278;Zoar;Zoar;Zoar;;;;;;;;;x
-PROV279;Kadesh Barnea;Kadesh Barnea;Kadesh Barnea;;;;;;;;;x
-PROV280;Talmar;Talmar;Talmar;;;;;;;;;x
-PROV281;Bosra;Bosra;Bosra;;;;;;;;;x
-PROV282;Ezion Geber;Ezion Geber;Ezion Geber;;;;;;;;;x
+PROV249;Gubla;Gubla;Gubla;;;;;;;;;x
+PROV250;Halpa;Halpa;Halpa;;;;;;;;;x
+PROV251;Ammiya;Ammiya;Ammiya;;;;;;;;;x
+PROV252;Yerushalaim;Yerushalaim;Yerushalaim;;;;;;;;;x
+PROV253;Dor;Dor;Dor;;;;;;;;;x
+PROV254;Gath Padalla;Gath Padalla;Gath Padalla;;;;;;;;;x
+PROV255;Shomron;Shomron;Shomron;;;;;;;;;x
+PROV256;Efraim;Efraim;Efraim;;;;;;;;;x
+PROV257;Yisrael;Yisrael;Yisrael;;;;;;;;;x
+PROV258;Hasor;Hasor;Hasor;;;;;;;;;x
+PROV259;Gilgal;Gilgal;Gilgal;;;;;;;;;x
+PROV260;Mahanayim;Mahanayim;Mahanayim;;;;;;;;;x
+PROV261;Jazer;Jazer;Jazer;;;;;;;;;x
+PROV262;Ramoth;Ramoth;Ramoth;;;;;;;;;x
+PROV263;Rabbat Ammon;Rabbat Ammon;Rabbat Ammon;;;;;;;;;x
+PROV264;Geshur;Geshur;Geshur;;;;;;;;;x
+PROV265;Kenatha;Kenatha;Kenatha;;;;;;;;;x
+PROV266;Ar;Ar;Ar;;;;;;;;;x
+PROV267;Dibon;Dibon;Dibon;;;;;;;;;x
+PROV268;Qir Hareset;Qir Hareset;Qir Hareset;;;;;;;;;x
+PROV269;Yahas;Yahas;Yahas;;;;;;;;;x
+PROV270;Lakis;Lakis;Lakis;;;;;;;;;x
+PROV271;Hevron;Hevron;Hevron;;;;;;;;;x
+PROV272;Estemoa;Estemoa;Estemoa;;;;;;;;;x
+PROV273;Beer Sheva;Beer Sheva;Beer Sheva;;;;;;;;;x
+PROV274;Ashdod;Ashdod;Ashdod;;;;;;;;;x
+PROV275;Gath;Gath;Gath;;;;;;;;;x
+PROV276;Gath Rimmon;Gath Rimmon;Gath Rimmon;;;;;;;;;x
+PROV277;Ekron;Ekron;Ekron;;;;;;;;;x
+PROV278;Asqelon;Asqelon;Asqelon;;;;;;;;;x
+PROV279;Siqlag;Siqlag;Siqlag;;;;;;;;;x
+PROV280;Azza;Azza;Azza;;;;;;;;;x
+PROV281;Zoar;Zoar;Zoar;;;;;;;;;x
+PROV282;Kadesh Barnea;Kadesh Barnea;Kadesh Barnea;;;;;;;;;x
+PROV283;Talmar;Talmar;Talmar;;;;;;;;;x
+PROV284;Bosra;Bosra;Bosra;;;;;;;;;x
+PROV285;Ezion Geber;Ezion Geber;Ezion Geber;;;;;;;;;x
+PROV286;Ugarit;Ugarit;Ugarit;;;;;;;;;x
+PROV287;Suhurre;Suhurre;Suhurre;;;;;;;;;x
+PROV288;Niya;Niya;Niya;;;;;;;;;x
+PROV289;Arzigana;Arzigana;Arzigana;;;;;;;;;x
+PROV290;Gib'ala;Gib'ala;Gib'ala;;;;;;;;;x
+PROV291;Sumur;Sumur;Sumur;;;;;;;;;x
+PROV292;Arwada;Arwada;Arwada;;;;;;;;;x
+PROV293;Mansuate;Mansuate;Mansuate;;;;;;;;;x
+PROV294;Sinzar;Sinzar;Sinzar;;;;;;;;;x
+PROV295;Qatna;Qatna;Qatna;;;;;;;;;x
+PROV296;Hassu;Hassu;Hassu;;;;;;;;;x
+PROV297;Idiba;Idiba;Idiba;;;;;;;;;x
+PROV298;Terqa;Terqa;Terqa;;;;;;;;;x
+PROV299;Abattum;Abattum;Abattum;;;;;;;;;x
+PROV300;Azmu;Azmu;Azmu;;;;;;;;;x
+PROV301;Halabit;Halabit;Halabit;;;;;;;;;x
+PROV302;Halab;Halab;Halab;;;;;;;;;x
+PROV303;Arpadda;Arpadda;Arpadda;;;;;;;;;x
+PROV304;Dinanu;Dinanu;Dinanu;;;;;;;;;x
+PROV305;Alalakh;Alalakh;Alalakh;;;;;;;;;x
+PROV306;Pittina;Pittina;Pittina;;;;;;;;;x
+PROV307;Karkemish;Karkemish;Karkemish;;;;;;;;;x
+PROV308;Til-Turi;Til-Turi;Til-Turi;;;;;;;;;x
+PROV309;Ursti;Ursti;Ursti;;;;;;;;;x
+PROV310;Til-Basere;Til-Basere;Til-Basere;;;;;;;;;x
+PROV311;Emar;Emar;Emar;;;;;;;;;x
+PROV312;Azu;Azu;Azu;;;;;;;;;x
+PROV313;Dammasseq;Dammasseq;Dammasseq;;;;;;;;;x
+PROV314;Sa'aru;Sa'aru;Sa'aru;;;;;;;;;x
+PROV315;Kadesh;Kadesh;Kadesh;;;;;;;;;x

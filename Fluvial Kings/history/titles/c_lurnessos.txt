@@ -2,10 +2,10 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2481.1.1={
-	liege=d_seha
-	holder = 2200602
-}
-2521.1.1={
-	holder = 2200600
+2490.1.1={
+	holder = 2200700
+	set_tribute_suzerain = {
+		who = e_hittite_empire
+		type = default
+	}
 }

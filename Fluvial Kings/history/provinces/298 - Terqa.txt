@@ -1,0 +1,19 @@
+# c_terqa
+
+# County Title
+title = c_terqa
+
+# Settlements
+max_settlements = 5
+
+b_terqa = castle
+b_kipina = city
+b_dur_yahdun_lim = temple
+b_surim = castle
+#b_ganibatum = city
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

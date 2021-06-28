@@ -664,7 +664,7 @@
 	2581.1.1 = { death = yes }
 }
 
-2200602 = { #Teuthras, King of Mysua
+2200602 = { #Teuthras, King of Mysia
 	name = "Teuthras"
 	dynasty = 2201001 #Teuthrasid
 	culture = mysian
@@ -716,7 +716,7 @@
 2200700 = { #Euenos, King of Lurnessos
 	name = "Euenos"
 	dynasty = 2201002 #Euenid
-	culture = mysian
+	culture = luwian
 	religion = haianiluwi
 	2470.1.1 = { birth = yes }
 	2530.1.1 = { death = yes }
@@ -725,7 +725,7 @@
 2200701 = { #Munes
 	name = "Munes"
 	dynasty = 2201002 #Euenid
-	culture = mysian
+	culture = luwian
 	religion = haianiluwi
 	father = 2200700
 	2505.1.1 = { birth = yes }
@@ -737,7 +737,7 @@
 
 2200702 = { #Hippodámeia (Briseis)
 	name = "Hippodámeia"
-	culture = mysian
+	culture = luwian
 	religion = haianiluwi
 	female = yes
 	father = 2200703
@@ -750,65 +750,68 @@
 
 2200703 = { #Briseos
 	name = "Briseos"
-	culture = mysian
+	culture = luwian
 	religion = haianiluwi
 	2485.1.1 = { birth = yes }
 	2527.1.1 = {
-		employer = 2200600
+		employer = 2200700
 	}
 	2545.1.1 = { death = yes }
 }
 
 2200704 = { #Astunome (Chryseis)
 	name = "Astunome"
-	culture = mysian
+	culture = luwian
 	religion = haianiluwi
 	female = yes
 	father = 2200705
 	2505.1.1 = { birth = yes }
+	2527.1.1 = {
+		employer = 2200700
+	}
 	2565.1.1 = { death = yes }
 }
 
 2200705 = { #Khrúses
 	name = "Khrúses"
-	culture = mysian
+	culture = luwian
 	religion = haianiluwi
 	2485.1.1 = { birth = yes }
 	2527.1.1 = {
-		employer = 2200600
+		employer = 2200700
 	}
 	2545.1.1 = { death = yes }
 }
 
-#Royal Family of Larissa (2200800-2200899)
-2200800 = { #Lethos, King of Larissa
-	name = "Lethos"
-	dynasty = 2201003 #Lethid
-	culture = mysian
-	religion = haianiluwi
-	2480.1.1 = { birth = yes }
-	2540.1.1 = { death = yes }
-}
+#Royal Family of Larissa (2200800-2200899) oops this was in Thessaly, not Anatolia
+# 2200800 = { #Lethos, King of Larissa
+	# name = "Lethos"
+	# dynasty = 2201003 #Lethid
+	# culture = mysian
+	# religion = haianiluwi
+	# 2480.1.1 = { birth = yes }
+	# 2540.1.1 = { death = yes }
+# }
 
-2200801 = { #Hippothoos
-	name = "Hippothous"
-	dynasty = 2201003 #Lethid
-	culture = mysian
-	religion = haianiluwi
-	father = 2200800
-	2500.1.1 = { birth = yes }
-	2560.1.1 = { death = yes }
-}
+# 2200801 = { #Hippothoos
+	# name = "Hippothous"
+	# dynasty = 2201003 #Lethid
+	# culture = mysian
+	# religion = haianiluwi
+	# father = 2200800
+	# 2500.1.1 = { birth = yes }
+	# 2560.1.1 = { death = yes }
+# }
 
-2200802 = { #Pulaios
-	name = "Pulaios"
-	dynasty = 2201003 #Lethid
-	culture = mysian
-	religion = haianiluwi
-	father = 2200800
-	2505.1.1 = { birth = yes }
-	2565.1.1 = { death = yes }
-}
+# 2200802 = { #Pulaios
+	# name = "Pulaios"
+	# dynasty = 2201003 #Lethid
+	# culture = mysian
+	# religion = haianiluwi
+	# father = 2200800
+	# 2505.1.1 = { birth = yes }
+	# 2565.1.1 = { death = yes }
+# }
 
 #Royal Family of Maeonia (2200900-2200999)
 2200900 = { #Iardanos, King of Maeonia
@@ -1165,14 +1168,14 @@
 	2557.1.1 = { death = yes }
 }
 
-#Royal Family of Kyzikos (2201600-2201699)
-2201600 = { #Ahuni, King of Kyzikos
-	name = "Ahuni"
-	dynasty = 2002002 #Ahunili
-	culture = mysian
+#Royal Family of Seha (2201600-2201699)
+2201600 = { #Tarhunnaradu, King of Seha
+	name = "Tarhunnaradu"
+	dynasty = 2002009 #Tarhunnaradili
+	culture = luwian
 	religion = haianiluwi
-	2500.1.1 = { birth = yes }
-	2560.1.1 = { death = yes }
+	2490.1.1 = { birth = yes }
+	2550.1.1 = { death = yes }
 }
 
 #Royal Family of Kuwaliya (2201700-2201799)

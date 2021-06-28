@@ -1,0 +1,14 @@
+2000.1.1 = {
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2420.1.1 = {
+	holder = 2001005
+	liege = d_karkemish
+}
+2460.1.1 = {
+	holder = 2001006
+}
+2500.1.1 = {
+	holder = 2001007
+}

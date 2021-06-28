@@ -1,0 +1,66 @@
+#Amurru
+
+#High Technology
+technology = {
+	titles = {
+		d_amurru
+		d_ugarit
+	}
+
+	2527 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+		
+	3061 = {
+		military = 5
+		economy = 5
+		culture = 5
+	}
+}
+
+#Medium Technology
+technology = {
+	titles = {
+		d_astata
+		d_bit_agusi
+		d_dammasseq
+		d_karkemish
+		d_mukis
+	}
+
+	2527 = {
+		military = 0.5
+		economy = 0.85
+		culture = 1.0
+	}
+
+	3061 = {
+	
+		military = 4
+		economy = 4
+		culture = 4
+	}
+}
+
+#Low Technology
+technology = {
+	titles = {
+		d_bisuru
+		d_nuhasse
+	}
+	
+	2527 = {
+		military = 0.2
+		economy = 0.1
+		culture = 0.15
+		
+	}
+	
+	3061 = {
+		military = 3.5
+		economy = 3.5
+		culture = 3.5
+	}
+}

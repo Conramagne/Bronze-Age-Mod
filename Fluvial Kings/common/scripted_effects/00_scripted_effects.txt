@@ -17461,89 +17461,89 @@ raiding_adventurer_war_declaration_effect = {
 
 
 #Grace effects
-add_grace_trivial_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = 100
-	}
-}
+# add_grace_trivial_effect = {
+	# add_offmap_currency = {
+		# offmap = offmap_china
+		# value = 100
+	# }
+# }
 
-add_grace_minor_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = 200
-	}
-}
+# add_grace_minor_effect = {
+	# add_offmap_currency = {
+		# offmap = offmap_china
+		# value = 200
+	# }
+# }
 
-add_grace_medium_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = 300
-	}	
-}
+# add_grace_medium_effect = {
+	# add_offmap_currency = {
+		# offmap = offmap_china
+		# value = 300
+	# }	
+# }
 
-add_grace_major_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = 500
-	}
-}
+# add_grace_major_effect = {
+	# add_offmap_currency = {
+		# offmap = offmap_china
+		# value = 500
+	# }
+# }
 
-add_grace_massive_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = 1000
-	}
-}
+# add_grace_massive_effect = {
+	# add_offmap_currency = {
+		# offmap = offmap_china
+		# value = 1000
+	# }
+# }
 
-add_grace_super_huge_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = 2000
-	}
-}
+# add_grace_super_huge_effect = {
+	# add_offmap_currency = {
+		# offmap = offmap_china
+		# value = 2000
+	# }
+# }
 
-detract_grace_trivial_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = -100
-	}
-}
+# detract_grace_trivial_effect = {
+	# add_offmap_currency = {
+		# offmap = offmap_china
+		# value = -100
+	# }
+# }
 
-detract_grace_minor_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = -200
-	}
-}
+# detract_grace_minor_effect = {
+	# add_offmap_currency = {
+		# offmap = offmap_china
+		# value = -200
+	# }
+# }
 
-detract_grace_medium_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = -300
-	}
-}
+# detract_grace_medium_effect = {
+	# add_offmap_currency = {
+		# offmap = offmap_china
+		# value = -300
+	# }
+# }
 
-detract_grace_major_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = -500
-	}
-}
+# detract_grace_major_effect = {
+	# add_offmap_currency = {
+		# offmap = offmap_china
+		# value = -500
+	# }
+# }
 
-detract_grace_massive_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = -1000
-	}
-}
+# detract_grace_massive_effect = {
+	# add_offmap_currency = {
+		# offmap = offmap_china
+		# value = -1000
+	# }
+# }
 
-detract_grace_super_huge_effect = {
-	add_offmap_currency = {
-		offmap = offmap_china
-		value = -2000
-	}
-}
+# detract_grace_super_huge_effect = {
+	# add_offmap_currency = {
+		# offmap = offmap_china
+		# value = -2000
+	# }
+# }
 
 set_china_boon_cd_effect = {  #added via tribute to China decisions... Always one year.
 	add_character_modifier = {
@@ -27616,34 +27616,34 @@ add_same_commander_trait_as_FROM = {
 #	}
 }
 
-landless_pope_effect = {
-	if = {
-		limit = {
-			has_landed_title = k_papal_state
-			NOT = {
-				catholic = {
-					is_name_randomized = yes
-				}
-			}
-		}
-		if = {
-			limit = {
-				NOR = {
-					any_demesne_province = {
-						always = yes
-					}
-					any_realm_lord = {
-						any_demesne_province = {
-							always = yes
-						}
-					}
-				}
-			}
-			character_event = { id = HFP.40034 }
-			character_event = { id = HFP.40035 }
-		}
-	}
-}
+# landless_pope_effect = {
+	# if = {
+		# limit = {
+			# has_landed_title = k_papal_state
+			# NOT = {
+				# catholic = {
+					# is_name_randomized = yes
+				# }
+			# }
+		# }
+		# if = {
+			# limit = {
+				# NOR = {
+					# any_demesne_province = {
+						# always = yes
+					# }
+					# any_realm_lord = {
+						# any_demesne_province = {
+							# always = yes
+						# }
+					# }
+				# }
+			# }
+			# character_event = { id = HFP.40034 }
+			# character_event = { id = HFP.40035 }
+		# }
+	# }
+# }
 
 # Used for rains in African regions...
 remove_rain_modifiers_effect = {

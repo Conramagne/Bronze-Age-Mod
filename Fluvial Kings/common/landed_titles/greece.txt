@@ -2,13 +2,13 @@ e_greek_empire = {
 	color={ 74 79 186 }
 	color2={ 255 255 255 }
 	
-	capital = 72 # Mykenae
+	capital = 79 # Mykenae
 	
 	k_achaea = {
 		color = { 93 236 205 }
 		color2 = { 255 255 255 }
 		
-		capital = 72 # Mykenae
+		capital = 79 # Mykenae
 		
 		#culture = manden
 		
@@ -16,7 +16,7 @@ e_greek_empire = {
 			color = { 45 130 235 }
 			color2 = { 255 255 255 }
 	
-			capital = 72 # Mykenae
+			capital = 79 # Mykenae
 			
 			achaean = "Mykenae"
 			
@@ -64,7 +64,7 @@ e_greek_empire = {
 			color={ 136 150 209 }
 			color2={ 255 255 255 }
 	
-			capital = 77 #Salamína
+			capital = 84 #Salamína
 			
 			c_salamina = {
 				color = { 136 150 209 }
@@ -84,7 +84,7 @@ e_greek_empire = {
 			color={ 47 150 209 }
 			color2={ 255 255 255 }
 	
-			capital = 79 #Elis
+			capital = 86 #Elis
 			
 			c_elis = {
 				color = { 47 61 100 }
@@ -121,7 +121,7 @@ e_greek_empire = {
 			color={ 120 136 188 }
 			color2={ 255 255 255 }
 	
-			capital = 84 #Orchomenos Arcadia
+			capital = 91 #Orchomenos Arcadia
 			
 			c_kleitor = {
 				color = { 120 136 188 }
@@ -159,7 +159,7 @@ e_greek_empire = {
 			color={ 96 142 166 }
 			color2={ 255 255 255 }
 	
-			capital = 87 #Argos
+			capital = 94 #Argos
 			
 			c_argos = {
 				color = { 96 142 166 }
@@ -193,13 +193,13 @@ e_greek_empire = {
 		color = { 43 140 21 }
 		color2 = { 255 255 255 }
 		
-		capital = 90 # Sparta
+		capital = 97 # Sparta
 				
 		d_lakonia = { 
 			color = { 41 93 114 }
 			color2 = { 255 255 255 }
 	
-			capital = 90 # Sparta
+			capital = 97 # Sparta
 			
 			c_lakonia = {
 				color = { 41 93 114 }
@@ -246,7 +246,7 @@ e_greek_empire = {
 			color = { 81 161 171 }
 			color2 = { 255 255 255 }
 	
-			capital = 97 #Pylos
+			capital = 104 #Pylos
 			
 			achaean = "Púlos"
 			
@@ -287,14 +287,14 @@ e_greek_empire = {
 		color = { 116 188 225 }
 		color2 = { 255 255 255 }
 		
-		capital = 99 # Athens
+		capital = 106 # Athens
 		
 		
 		d_attica = { 
 			color = { 147 183 120 }
 			color2 = { 255 255 255 }
 	
-			capital = 99 # Athens
+			capital = 106 # Athens
 			
 			c_attica = {
 				color = { 147 183 120 }
@@ -334,7 +334,7 @@ e_greek_empire = {
 			color = { 49 95 15 }
 			color2 = { 255 255 255 }
 	
-			capital = 104 # Thebes
+			capital = 111 # Thebes
 			
 			c_leuctra = {
 				color = { 49 95 15 }
@@ -373,7 +373,7 @@ e_greek_empire = {
 			color = { 177 248 125 }
 			color2 = { 255 255 255 }
 	
-			capital = 107 # Eretria
+			capital = 114 # Eretria
 			
 			c_dion = {
 				color = { 177 248 125 }
@@ -411,13 +411,13 @@ e_greek_empire = {
 		color = { 237 98 54 }
 		color2 = { 255 255 255 }
 		
-		capital = 111 # Knossos
+		capital = 118 # Knossos
 		
 		d_knossos = { 
 			color = { 237 98 54 }
 			color2 = { 255 255 255 }
 	
-			capital = 111 # Knossos
+			capital = 118 # Knossos
 			
 			c_knossos = {
 				color = { 237 98 54 }
@@ -461,7 +461,7 @@ e_greek_empire = {
 			color = { 255 195 87 }
 			color2 = { 255 255 255 }
 	
-			capital = 115 # Malia
+			capital = 122 # Malia
 			
 			c_malia = {
 				color = { 255 195 87 }
@@ -486,13 +486,13 @@ e_greek_empire = {
 		color = { 157 155 95 }
 		color2 = { 255 255 255 }
 		
-		capital = 117 # Kalydon
+		capital = 124 # Kalydon
 		
 		d_ozolian_lokris = { 
 			color = { 157 155 95 }
 			color2 = { 255 255 255 }
 	
-			capital = 117 # Kalydon
+			capital = 124 # Kalydon
 			
 			achaean = "Kalydon"
 			
@@ -524,7 +524,7 @@ e_greek_empire = {
 			color = { 100 195 47 }
 			color2 = { 255 255 255 }
 	
-			capital = 121 # Ithaca
+			capital = 128 # Ithaca
 			
 			c_kefalonia = {
 				color = { 100 195 47 }
@@ -551,7 +551,7 @@ e_greek_empire = {
 			color = { 67 0 200 }
 			color2 = { 255 255 255 }
 	
-			capital = 123 # Kyparissos
+			capital = 130 # Kyparissos
 			
 			c_delphi = {
 				color = { 67 0 200 }
@@ -574,7 +574,7 @@ e_greek_empire = {
 			color = { 143 0 150 }
 			color2 = { 255 255 255 }
 	
-			capital = 125 # Malia
+			capital = 132 # Malia
 			
 			c_lamia = {
 				color = { 143 0 150 }
@@ -606,7 +606,7 @@ e_greek_empire = {
 			color = { 67 0 255 }
 			color2 = { 255 255 255 }
 	
-			capital = 128 # Stratos
+			capital = 135 # Stratos
 			
 			c_stratos = {
 				color = { 67 0 255 }
@@ -634,13 +634,13 @@ e_greek_empire = {
 		color = { 200 40 240 }
 		color2 = { 255 255 255 }
 		
-		capital = 131 # Pherae
+		capital = 138 # Pherae
 		
 		d_thessalia = { 
 			color = { 200 40 240 }
 			color2 = { 255 255 255 }
 	
-			capital = 131 # Pherae
+			capital = 138 # Pherae
 			
 			
 			c_pherae = {
@@ -671,7 +671,7 @@ e_greek_empire = {
 			color = { 188 184 142 }
 			color2 = { 255 255 255 }
 	
-			capital = 134 # Methone
+			capital = 141 # Methone
 			
 			c_methone = {
 				color = { 188 184 142 }
@@ -704,7 +704,7 @@ e_greek_empire = {
 			color = { 255 0 18 }
 			color2 = { 255 255 255 }
 	
-			capital = 138 # Pella
+			capital = 145 # Pella
 			
 			c_pieres = {
 				color = { 255 0 18 }
@@ -748,13 +748,13 @@ e_greek_empire = {
 		color = { 75 39 41 }
 		color2 = { 255 255 255 }
 		
-		capital = 145 # Olynthos
+		capital = 152 # Olynthos
 		
 		d_chalkidiki = { 
 			color = { 75 39 41 }
 			color2 = { 255 255 255 }
 	
-			capital = 145 # Olynthos
+			capital = 152 # Olynthos
 			
 			c_olynthos = {
 				color = { 75 39 41 }
@@ -790,7 +790,7 @@ e_greek_empire = {
 			color = { 190 65 118 }
 			color2 = { 255 255 255 }
 	
-			capital = 147 # Ismaros
+			capital = 154 # Ismaros
 			
 			c_ismaros = {
 				color = { 190 65 118 }
@@ -813,13 +813,13 @@ e_greek_empire = {
 		color = { 26 155 74 }
 		color2 = { 255 255 255 }
 		
-		capital = 149 # Delos
+		capital = 156 # Delos
 		
 		d_kuklades = { 
 			color = { 26 155 74 }
 			color2 = { 255 255 255 }
 	
-			capital = 149 # Delos
+			capital = 156 # Delos
 			
 			
 			c_delos = {
@@ -854,7 +854,7 @@ e_greek_empire = {
 			color = { 198 132 232 }
 			color2 = { 255 255 255 }
 	
-			capital = 153 # Samothraki
+			capital = 160 # Samothraki
 			
 			c_samothraki = {
 				color = { 198 132 232 }
@@ -890,7 +890,7 @@ e_greek_empire = {
 			color = { 191 55 139 }
 			color2 = { 255 255 255 }
 	
-			capital = 157 # Rhodios
+			capital = 164 # Rhodios
 			
 			c_rhodios = {
 				color = { 191 55 139 }
@@ -965,7 +965,7 @@ d_murmidones = {
 d_herakleidae = {
 	color = { 74 145 35 }
 	
-	capital = 128 # Stratos
+	capital = 135 # Stratos
 	
 	short_name = yes
 	

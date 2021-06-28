@@ -1,0 +1,17 @@
+# c_gubla
+
+# County Title
+title = c_gubla
+
+# Settlements
+max_settlements = 3
+
+b_gubla = castle
+b_sigata = city
+b_batruna = temple
+
+# Misc
+culture = phoenician
+religion = canaanite_religion
+
+#History

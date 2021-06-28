@@ -1,0 +1,8 @@
+2000.1.1 = {2000.1.1 = {
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2527.1.1 = {
+	liege = d_bisuru
+	holder = 2400400
+}

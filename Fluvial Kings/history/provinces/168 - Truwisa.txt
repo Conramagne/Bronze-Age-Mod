@@ -15,3 +15,14 @@ culture = wilusan
 religion = assussani
 
 #History
+2511.1.1 = {
+	b_wilusa = ca_wall_1
+	b_wilusa = ca_wall_2
+	b_wilusa = ca_wall_3
+	b_wilusa = ca_wall_4
+	b_wilusa = ca_wall_5
+	b_wilusa = ca_wall_q_1
+	b_wilusa = ca_wall_q_2
+	b_wilusa = ca_wall_q_3
+	b_wilusa = ca_con_wall_6
+}

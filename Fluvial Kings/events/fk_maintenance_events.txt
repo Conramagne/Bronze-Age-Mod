@@ -35,14 +35,11 @@ character_event = {
 	}
 }
 
-#Gives Amazonios their trait (MTTH)
+#Gives Amazonios their trait (on_yearly_pulse)
 character_event = {
 	id = fkm.3
 	hide_window = yes
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 	
 	trigger = {
 		culture = amazonian
@@ -377,6 +374,7 @@ character_event = {
 		}
 		name = EVTOPTCFKM6
 		trigger = {
+			always = no
 			NOT = {
 				trait = cruel
 			}
@@ -487,6 +485,9 @@ character_event = {
 		NOT = {
 			at_location = c_1100146
 		}
+		NOT = {
+			has_global_flag = themis_moved
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -494,6 +495,7 @@ character_event = {
 	}
 	
 	immediate = {
+		set_global_flag = themis_moved
 		c_1100082 = {
 			move_character = c_1100146
 		}
@@ -575,13 +577,11 @@ character_event = {
 	}
 }
 
-#Assigns Twelve Tribe Traits (MTTH)
+#Assigns Twelve Tribe Traits (on_yearly_pulse)
 character_event = {
 	id = fkm.13
 	hide_window = yes
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 	
 	trigger = {
 		culture = israelite
@@ -793,15 +793,12 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_landed_title = d_benjamite
+				has_landed_title = d_benjaminite
 				NOT = {
-					trait = benjamite
+					trait = benjaminite
 				}
 			}
-			unsafe_destroy_landed_title = d_benjamite
-		}
-		else = {
-			add_trait = levite
+			unsafe_destroy_landed_title = d_benjaminite
 		}
 	}
 }

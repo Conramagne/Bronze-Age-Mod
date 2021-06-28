@@ -1,0 +1,18 @@
+# c_arpadda
+
+# County Title
+title = c_arpadda
+
+# Settlements
+max_settlements = 4
+
+b_arpadda = castle
+b_hazazu = city
+b_dabiqu = temple
+#b_surunu = castle
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

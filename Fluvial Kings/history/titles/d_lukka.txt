@@ -13,4 +13,8 @@
 }
 2520.1.1={
 	holder = 2201100 #Glaukos
+	set_tribute_suzerain = {
+		who = e_hittite_empire
+		type = default
+	}
 }

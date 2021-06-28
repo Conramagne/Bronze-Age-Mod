@@ -1,0 +1,17 @@
+# c_gibala
+
+# County Title
+title = c_gibala
+
+# Settlements
+max_settlements = 3
+
+b_gibala = castle
+b_suksi = city
+b_siyannu = temple
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

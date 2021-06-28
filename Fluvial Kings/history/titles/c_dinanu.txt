@@ -1,0 +1,18 @@
+2000.1.1 = {
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2395.1.1 = {
+	holder = 2001009
+	liege = d_bit_agusi
+}
+2430.1.1 = {
+	holder = 2001010
+}
+2450.1.1 = {
+	holder = 0
+}
+2525.1.1 = {
+	holder = 2003010
+	liege = d_bit_agusi
+}

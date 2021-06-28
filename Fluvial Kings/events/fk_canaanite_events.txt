@@ -96,17 +96,19 @@ character_event = {
 		any_war = {
 			defender = { character = ROOT }
 			attacker = {
-				OR = {
-					tier = KING
-					tier = EMPEROR
+				NOT = {
+					religion = berith
 				}
+				# OR = {
+					# tier = KING
+					# tier = EMPEROR
+				# }
 			}
 		}
 		any_playable_ruler = {
 			has_twelve_tribe_title_trigger = yes
 			NOR = {
 				character = ROOT
-				higher_tier_than = DUKE
 			}
 		}
 	}
@@ -142,7 +144,7 @@ character_event = {
 					has_education_martial_trigger = yes
 				}
 			}
-			grant_title_no_reverse_opinion = k_judge_of_israel
+			grant_title = k_judge_of_israel
 			primary_title = {
 				add_law = {
 					law = succ_feudal_elective
@@ -151,7 +153,12 @@ character_event = {
 				}
 			}
 			ROOT = {
-				set_defacto_liege = PREV
+				any_demesne_title = {
+					limit = {
+						is_twelve_tribe_title_trigger = yes
+					}
+					set_title_flag = judge_vassal
+				}
 			}
 			join_defender_wars = ROOT
 			any_playable_ruler = {
@@ -332,12 +339,13 @@ character_event = {
 		any_demesne_province = {
 			religion = berith
 		}
+		NOT = { religion_authority = 0.30 }
 	}
 	weight_multiplier = {
 		days = 1 
 		modifier = {
 			factor = 10
-			NOT = { religion_authority = 0.5 }
+			NOT = { religion_authority = 0.25 }
 		}
 	}
 	immediate = {
@@ -411,7 +419,7 @@ character_event = {
 		days = 1 
 		modifier = {
 			factor = 10
-			NOT = { religion_authority = 0.5 }
+			NOT = { religion_authority = 0.3 }
 		}
 	}
 	option = {
@@ -440,5 +448,38 @@ character_event = {
 	is_triggered_only = yes
 	option = {
 		name = EVTOPTAFKC11
+	}
+}
+
+#Become Judge Vassal
+character_event = {
+	id = fkc.12
+	hide_window = yes
+	trigger = {
+		any_demesne_title = {
+			limit = {
+				is_twelve_tribe_title_trigger = yes
+				has_title_flag = judge_vassal
+			}
+		}
+		war = no
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		k_judge_of_israel = {
+			owner = {
+				ROOT = {
+					set_defacto_liege = PREV
+				}
+			}
+		}
+		any_demesne_title = {
+			limit = {
+				is_twelve_tribe_title_trigger = yes
+			}
+			clr_title_flag = judge_vassal
+		}
 	}
 }

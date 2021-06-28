@@ -1,0 +1,18 @@
+# c_til_basere
+
+# County Title
+title = c_til_basere
+
+# Settlements
+max_settlements = 4
+
+b_til_basere = castle
+#b_urumu = city
+#b_tuba = temple
+#b_zuqarru = castle
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

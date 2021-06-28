@@ -1,0 +1,15 @@
+# c_kadesh
+
+# County Title
+title = c_kadesh
+
+# Settlements
+max_settlements = 1
+
+b_kadesh = castle
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

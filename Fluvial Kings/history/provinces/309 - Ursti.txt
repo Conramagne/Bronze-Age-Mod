@@ -1,0 +1,16 @@
+# c_ursti
+
+# County Title
+title = c_ursti
+
+# Settlements
+max_settlements = 2
+
+b_ursti = castle
+#b_paqarhubuni = city
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

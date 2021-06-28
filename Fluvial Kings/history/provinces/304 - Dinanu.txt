@@ -1,0 +1,15 @@
+# c_dinanu
+
+# County Title
+title = c_dinanu
+
+# Settlements
+max_settlements = 1
+
+b_dinanu = castle
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

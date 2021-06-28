@@ -1,0 +1,16 @@
+# c_azmu
+
+# County Title
+title = c_azmu
+
+# Settlements
+max_settlements = 2
+
+b_azmu = castle
+#b_suru = city
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

@@ -1,0 +1,32 @@
+2000.1.1 = {
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2381.1.1 = {
+	liege = d_nuhasse
+	holder = 2400008
+}
+2405.1.1 = {
+	holder = 2400007
+}
+2410.1.1 = {
+	holder = 2400006
+}
+2446.1.1 = {
+	holder = 2400005
+}
+2448.1.1 = {
+	holder = 2400004
+}
+2481.1.1 = {
+	holder = 2400002
+}
+2486.1.1 = {
+	holder = 2400003
+}
+2501.1.1 = {
+	holder = 2400002
+}
+2527.1.1 = {
+	holder = 2400000
+}

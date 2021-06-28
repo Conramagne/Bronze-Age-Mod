@@ -86,6 +86,7 @@ narrative_event = {
 			any_province_holding = {
 				destroy_random_building = THIS
 				destroy_random_building = THIS
+				destroy_random_building = THIS
 			}
 		}
 	}
@@ -908,9 +909,21 @@ narrative_event = {
 			custom_tooltip = {
 				text = bureau_set_0_TT
 				hidden_tooltip = {
-					set_variable = { which = palace_bureaucracy_number value = 0 }
+					primary_title = {
+						set_variable = { which = palace_bureaucracy_number value = 0 }
+					}
 				}
 			}
+			any_realm_province = {
+				limit = {
+					region = world_asia_minor
+				}
+				any_province_holding = {
+					destroy_random_building = THIS
+					destroy_random_building = THIS
+				}
+			}
+			technology_reduction_hittite_effect = yes
 		}	
 	}
 }
@@ -976,9 +989,6 @@ character_event = {
 				}
 				preferred_limit = {
 					has_landed_title = e_hittite_empire
-				}
-				preferred_limit = {
-					realm_size = 100
 				}
 				preferred_limit = {
 					realm_size = 100
@@ -1479,6 +1489,11 @@ character_event = {
 		name = EVTOPTAFKCA10
 		set_global_flag = phrygian_invasion
 		set_character_flag = phrygian_invader
+		any_suzerain = {
+			ROOT = {
+				remove_tributary = PREV
+			}
+		}
 		custom_tooltip = {  
 			text = phrygian_invasion_TT
 			hidden_tooltip = {
@@ -1796,9 +1811,6 @@ character_event = {
 				}
 				preferred_limit = {
 					has_landed_title = e_hittite_empire
-				}
-				preferred_limit = {
-					realm_size = 100
 				}
 				preferred_limit = {
 					realm_size = 100

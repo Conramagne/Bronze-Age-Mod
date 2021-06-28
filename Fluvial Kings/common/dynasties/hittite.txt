@@ -71,6 +71,20 @@
 	culture = "hittite"
 }
 
+2000014 = {
+	name = "Tutammuili"
+	culture = "hittite"
+}
+
+2000015 = {
+	name = "Halpazitili"
+	culture = "hittite"
+}
+
+2000016 = {
+	name = "Muwaharani"
+	culture = hittite
+}
 
 #Isuwan Names (2001000-2001999)
 2001000 = {
@@ -115,6 +129,10 @@
 }
 2002008 = {
 	name = "Paritili"
+	culture = luwian
+}
+2002009 = {
+	name = "Tarhunnaradili"
 	culture = luwian
 }
 

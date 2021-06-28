@@ -1,0 +1,17 @@
+# c_qatna
+
+# County Title
+title = c_qatna
+
+# Settlements
+max_settlements = 3
+
+b_qatna = castle
+b_amatu = city
+b_tunanapa = temple
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

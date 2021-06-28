@@ -1,0 +1,16 @@
+# c_halpa
+
+# County Title
+title = c_halpa
+
+# Settlements
+max_settlements = 2
+
+b_halpa = castle
+b_irqata = city
+
+# Misc
+culture = phoenician
+religion = canaanite_religion
+
+#History

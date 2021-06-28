@@ -416,7 +416,15 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
-		government = military_governorate_government
+		OR = {
+			government = military_governorate_government
+			AND = {
+				top_liege = {
+					has_law = ze_administration_laws_3
+				}
+				independent = no
+			}
+		}
 		# NOT = {
 			# has_law = succ_viceroyalty
 		# }
@@ -480,6 +488,75 @@ character_event = {
 				}
 			}
 		}
+		if = {
+			limit = {
+				primary_title = {
+					tier = COUNT
+				}
+				AND = {
+					top_liege = {
+						has_law = ze_administration_laws_3
+					}
+					independent = no
+				}
+			}
+			any_demesne_title = {
+				limit = {
+					tier = COUNT
+				}
+				add_law = {
+					law = succ_viceroyalty
+					opinion_effect = no
+					cooldown = no
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				primary_title = {
+					tier = DUKE
+				}
+				AND = {
+					top_liege = {
+						has_law = ze_administration_laws_3
+					}
+					independent = no
+				}
+			}
+			any_demesne_title = {
+				limit = {
+					tier = DUKE
+				}
+				add_law = {
+					law = succ_viceroyalty
+					opinion_effect = no
+					cooldown = no
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				primary_title = {
+					tier = KING
+				}
+				AND = {
+					top_liege = {
+						has_law = ze_administration_laws_3
+					}
+					independent = no
+				}
+			}
+			any_demesne_title = {
+				limit = {
+					tier = KING
+				}
+				add_law = {
+					law = succ_viceroyalty
+					opinion_effect = no
+					cooldown = no
+				}
+			}
+		}
 	}
 }
 
@@ -488,7 +565,15 @@ character_event = {
 	id = fkr.11
 	hide_window = yes
 	trigger = {
-		government = military_governorate_government
+		OR = {
+			government = military_governorate_government
+			AND = {
+				top_liege = {
+					has_law = ze_administration_laws_3
+				}
+				independent = no
+			}
+		}
 		NOT = {
 			has_law = succ_viceroyalty
 		}
@@ -499,11 +584,75 @@ character_event = {
 	}
 	
 	immediate = {
-	
-		if = {
+		else_if = {
 			limit = {
 				primary_title = {
 					tier = DUKE
+				}
+				government = military_governorate_government
+			}
+			any_demesne_title = {
+				limit = {
+					tier = DUKE
+				}
+				add_law = {
+					law = succ_viceroyalty
+					opinion_effect = no
+					cooldown = no
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				primary_title = {
+					tier = KING
+				}
+				government = military_governorate_government
+			}
+			any_demesne_title = {
+				limit = {
+					tier = KING
+				}
+				add_law = {
+					law = succ_viceroyalty
+					opinion_effect = no
+					cooldown = no
+				}
+			}
+		}
+		if = {
+			limit = {
+				primary_title = {
+					tier = COUNT
+				}
+				AND = {
+					top_liege = {
+						has_law = ze_administration_laws_3
+					}
+					independent = no
+				}
+			}
+			any_demesne_title = {
+				limit = {
+					tier = COUNT
+				}
+				add_law = {
+					law = succ_viceroyalty
+					opinion_effect = no
+					cooldown = no
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				primary_title = {
+					tier = DUKE
+				}
+				AND = {
+					top_liege = {
+						has_law = ze_administration_laws_3
+					}
+					independent = no
 				}
 			}
 			any_demesne_title = {
@@ -517,10 +666,16 @@ character_event = {
 				}
 			}
 		}
-		if = {
+		else_if = {
 			limit = {
 				primary_title = {
 					tier = KING
+				}
+				AND = {
+					top_liege = {
+						has_law = ze_administration_laws_3
+					}
+					independent = no
 				}
 			}
 			any_demesne_title = {
@@ -535,6 +690,7 @@ character_event = {
 			}
 		}
 	}
+
 }
 
 #Event to give Eldership Succession to Tribal Governments (on_new_holder, on_startup)
@@ -597,6 +753,7 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
+		always = no
 		independent = yes
 		NOT = {
 			has_law = foreigner_law_2
@@ -649,6 +806,7 @@ character_event = {
 	hide_window = yes
 	trigger = {
 		independent = yes
+		always = no
 		NOT = {
 			has_law = foreigner_law_2
 		}
@@ -912,6 +1070,37 @@ character_event = {
 	}
 }
 
+#Event to remove Viceroy Succession from non-palatial vassals (MTTH)
+character_event = {
+	id = fkr.23
+	hide_window = yes
+	trigger = {
+		top_liege = {
+			NOT = {
+				has_law = ze_administration_laws_3
+			}
+		}
+		independent = no
+		NOT = {
+			government = military_governorate_government
+		}
+		has_law = succ_viceroyalty
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_law = {
+			law = succ_gavelkind
+			opinion_effect = no
+			cooldown = no
+		}
+	}
+
+}
+
 # ************************** Imperial Authority Events***********************
 
 #Setup (on_startup)
@@ -1042,8 +1231,8 @@ character_event = {
 	id = fkr.103
 	hide_window = yes
 	trigger = {
-		NOT = {
-			ROOT = {
+		ROOT = {
+			NOT = {
 				government = hegemonic_government
 			}
 		}
@@ -1119,7 +1308,6 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
-		government = hegemonic_government
 		has_character_modifier = imperial_authority
 	}
 	
@@ -1149,6 +1337,10 @@ character_event = {
 			value = 0
 		}
 		set_variable = {
+			which = vassal_bonus
+			value = 0
+		}
+		set_variable = {
 			which = trait_penalty
 			value = 0
 		}
@@ -1170,6 +1362,14 @@ character_event = {
 		}
 		set_variable = {
 			which = councilor_penalty
+			value = 0
+		}
+		set_variable = {
+			which = vassal_penalty
+			value = 0
+		}
+		set_variable = {
+			which = stability
 			value = 0
 		}
 		set_variable = {
@@ -1383,6 +1583,70 @@ character_event = {
 					value = 1
 				}
 			}
+			any_vassal = {
+				limit = {
+					tier = DUKE
+					opinion = {
+						who = ROOT
+						value = 40
+					}
+				}
+				liege = {
+					change_variable = {
+						which = vassal_bonus
+						value = 0.25
+					}
+				}
+			}
+			any_vassal = {
+				limit = {
+					tier = KING
+					opinion = {
+						who = ROOT
+						value = 40
+					}
+				}
+				liege = {
+					change_variable = {
+						which = vassal_bonus
+						value = 1
+					}
+				}
+			}
+			if = {
+				limit = {
+					wealth = 0
+					NOT = {
+						any_war = {
+							defender = {
+								character = ROOT
+							}
+							attacker = {
+								in_revolt = yes
+							}
+						}
+					}
+					primary_title = { check_variable = { which = var_imperial_authority value < 65 }}
+				}
+				change_variable = {
+					which = stability
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						any_realm_province = {
+							revolt_risk = 0.05
+						}
+					}
+					primary_title = { check_variable = { which = var_imperial_authority value < 65 }}
+				}
+				change_variable = {
+					which = stability
+					value = 1
+				}
+			}
 		}
 		
 		#Negative Effects
@@ -1512,7 +1776,7 @@ character_event = {
 				}
 				change_variable = {
 					which = councilor_penalty
-					value = -1
+					value = -0.5
 				}
 			}
 			if = {
@@ -1523,7 +1787,7 @@ character_event = {
 				}
 				change_variable = {
 					which = councilor_penalty
-					value = -1
+					value = -0.5
 				}
 			}
 			if = {
@@ -1534,7 +1798,7 @@ character_event = {
 				}
 				change_variable = {
 					which = councilor_penalty
-					value = -1
+					value = -0.5
 				}
 			}
 			if = {
@@ -1545,7 +1809,7 @@ character_event = {
 				}
 				change_variable = {
 					which = councilor_penalty
-					value = -1
+					value = -0.5
 				}
 			}
 			if = {
@@ -1556,7 +1820,7 @@ character_event = {
 				}
 				change_variable = {
 					which = councilor_penalty
-					value = -1
+					value = -0.5
 				}
 			}
 			if = {
@@ -1568,7 +1832,7 @@ character_event = {
 				}
 				change_variable = {
 					which = councilor_penalty
-					value = -1
+					value = -0.5
 				}
 			}
 			if = {
@@ -1580,7 +1844,7 @@ character_event = {
 				}
 				change_variable = {
 					which = councilor_penalty
-					value = -1
+					value = -0.5
 				}
 			}
 			if = {
@@ -1592,7 +1856,7 @@ character_event = {
 				}
 				change_variable = {
 					which = councilor_penalty
-					value = -1
+					value = -0.5
 				}
 			}
 			if = {
@@ -1604,7 +1868,7 @@ character_event = {
 				}
 				change_variable = {
 					which = councilor_penalty
-					value = -1
+					value = -0.5
 				}
 			}
 			if = {
@@ -1616,7 +1880,68 @@ character_event = {
 				}
 				change_variable = {
 					which = councilor_penalty
+					value = -0.5
+				}
+			}
+			any_vassal = {
+				limit = {
+					tier = DUKE
+					opinion = {
+						who = ROOT
+						value < -40
+					}
+					liege = {
+						ai = no
+					}
+				}
+				liege = {
+					change_variable = {
+						which = vassal_penalty
+						value = -0.25
+					}
+				}
+			}
+			any_vassal = {
+				limit = {
+					tier = KING
+					opinion = {
+						who = ROOT
+						value < -40
+					}
+					liege = {
+						ai = no
+					}
+				}
+				liege = {
+					change_variable = {
+						which = vassal_penalty
+						value = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_character_modifier = negative_money
+				}
+				change_variable = {
+					which = stability
 					value = -1
+				}
+			}
+			if = {
+				limit = {
+					any_war = {
+						defender = {
+							character = ROOT
+						}
+						attacker = {
+							in_revolt = yes
+						}
+					}
+				}
+				change_variable = {
+					which = stability
+					value = -0.5
 				}
 			}
 		}
@@ -1705,6 +2030,18 @@ character_event = {
 				which = yearly_imperial_authority_change
 				which = councilor_penalty
 			}
+			change_variable = {
+				which = yearly_imperial_authority_change
+				which = vassal_bonus
+			}
+			change_variable = {
+				which = yearly_imperial_authority_change
+				which = vassal_penalty
+			}
+			change_variable = {
+				which = yearly_imperial_authority_change
+				which = stability
+			}
 		}
 		
 		primary_title = {
@@ -1740,7 +2077,6 @@ character_event = {
 	desc = EVTDESCFKR105_FIGUREHEAD
 	picture = GFX_evt_dark_court
 	trigger = {
-		government = hegemonic_government
 		has_character_modifier = imperial_authority
 		primary_title = { check_variable = { which = var_imperial_authority value < 10 }}
 		NOT = {
@@ -1774,7 +2110,6 @@ character_event = {
 	desc = EVTDESCFKR105_NOTWEAK
 	picture = GFX_evt_ruler_speaks
 	trigger = {
-		government = hegemonic_government
 		has_character_modifier = imperial_authority
 		primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
 		trait = weak_emperor
@@ -1797,7 +2132,6 @@ character_event = {
 	desc = EVTDESCFKR105_WEAK
 	picture = GFX_evt_lose_authority
 	trigger = {
-		government = hegemonic_government
 		has_character_modifier = imperial_authority
 		primary_title = { check_variable = { which = var_imperial_authority value < 25 } }
 		primary_title = { check_variable = { which = var_imperial_authority value >= 10 } }
@@ -1831,7 +2165,6 @@ character_event = {
 	desc = EVTDESCFKR105
 	picture = GFX_evt_ruler_speaks
 	trigger = {
-		government = hegemonic_government
 		has_character_modifier = imperial_authority
 		primary_title = { check_variable = { which = var_imperial_authority value > 25 } }
 		trait = figurehead_emperor
@@ -1853,7 +2186,6 @@ character_event = {
 	desc = EVTDESCFKR105_B
 	picture = GFX_evt_dark_court
 	trigger = {
-		government = hegemonic_government
 		has_character_modifier = imperial_authority
 		primary_title = { check_variable = { which = var_imperial_authority value < 80 } }
 		trait = strong_emperor
@@ -1875,7 +2207,6 @@ character_event = {
 	desc = EVTDESCFKR105_STRONG
 	picture = GFX_evt_military_victory
 	trigger = {
-		government = hegemonic_government
 		has_character_modifier = imperial_authority
 		primary_title = { check_variable = { which = var_imperial_authority value > 80 } }
 		NOT = {
@@ -1901,7 +2232,7 @@ character_event = {
 		primary_title = {
 			check_variable = { which = var_imperial_authority value >= 100 }
 		}
-		government = hegemonic_government
+		has_character_modifier = imperial_authority
 	}
 	
 	mean_time_to_happen = {
@@ -1920,7 +2251,7 @@ character_event = {
 	id = fkr.107
 	hide_window = yes
 	trigger = {
-		government = hegemonic_government
+		has_character_modifier = imperial_authority
 		primary_title = {
 			check_variable = { which = var_imperial_authority value < 0 }
 		}
@@ -1937,138 +2268,6 @@ character_event = {
 	}
 }
 
-#Rise: Good Stats
-character_event = {
-	id = fkr.108
-	desc = EVTDESCFKR108
-	picture = GFX_evt_council
-	min_age = 16
-	
-	trigger = {
-		government = hegemonic_government
-		always = no
-		OR = {
-			diplomacy = 15
-			martial = 15
-			stewardship = 15
-			# intrigue = 15
-			learning = 15
-			trait = genius
-			trait = quick
-			trait = strong
-			trait = grey_eminence
-			trait = brilliant_strategist
-			trait = midas_touched
-			trait = elusive_shadow
-			trait = administrator
-		}
-		NOT = {
-			has_character_flag = imperial_authority_good_stats
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		primary_title = {
-			change_variable = { which = var_imperial_authority value = 5 }
-		}
-	}
-	
-	option = {
-		name = opta_excellent
-		custom_tooltip = {
-			text = imperial_authority_increase_5_TT
-		}
-		hidden_tooltip = {
-			set_character_flag = imperial_authority_good_stats
-		}
-	}
-}
-
-#Set up for loyal councillors
-character_event = {
-	id = fkr.109
-	hide_window = yes
-		
-	trigger = {
-		is_voter = yes
-		always = no
-		liege = {
-			government = hegemonic_government
-		}
-		NOT = {
-			has_character_flag = loyal_councilor
-		}
-		has_position = loyalist
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		set_character_flag = loyal_councilor
-		if = {
-			limit = {
-				has_character_flag = disloyal_councilor
-			}
-			clr_character_flag = disloyal_councilor
-		}
-		liege = {
-			character_event = { id = fkr.110 }
-		}
-	}
-}
-
-#Rise: Loyal Councilor
-character_event = {
-	id = fkr.110
-	desc = EVTDESCFKR110
-	picture = GFX_evt_council
-	is_triggered_only = yes
-
-	immediate = {
-		if = {
-			limit = {
-				FROM = {
-					is_powerful_vassal = yes 
-				}
-			}
-			primary_title = {
-				change_variable = { which = var_imperial_authority value = 5 }
-			}
-		}
-		else = {
-			primary_title = {
-				change_variable = { which = var_imperial_authority value = 2.5 }
-			}
-		}
-	}
-	
-	option = {
-		name = opta_excellent
-		if = {
-			limit = {
-				FROM = {
-					is_powerful_vassal = yes 
-				}
-			}
-			custom_tooltip = {
-				text = imperial_authority_increase_5_TT
-			}
-		}
-		else = {
-			custom_tooltip = {
-				text = imperial_authority_increase_2_5_TT
-			}
-		}
-		prestige = 25
-	}
-}
-
 #Rise: Weak Council
 character_event = {
 	id = fkr.111
@@ -2078,7 +2277,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		government = hegemonic_government
+		has_character_modifier = imperial_authority
 		NOT = {
 			has_character_flag = law_no_change
 		}
@@ -2108,7 +2307,7 @@ character_event = {
 	# is_triggered_only = yes
 	
 	# trigger = {
-		# government = hegemonic_government
+		# has_character_modifier = imperial_authority
 	# }
 	
 	# immediate = {
@@ -2135,7 +2334,7 @@ character_event = {
 	# is_triggered_only = yes
 	
 	# trigger = {
-		# government = hegemonic_government
+		# has_character_modifier = imperial_authority
 	# }
 	
 	# immediate = {
@@ -2153,139 +2352,6 @@ character_event = {
 	# }
 # }
 
-#Authority Decrease: Bad Stats
-character_event = {
-	id = fkr.114
-	desc = EVTDESCFKR114
-	picture = GFX_evt_dark_court
-	min_age = 16
-	
-	trigger = {
-		government = hegemonic_government
-		always = no
-		OR = {
-			diplomacy < 5
-			martial < 5
-			stewardship < 5
-			# intrigue < 5
-			learning < 5
-			trait = dull
-			trait = imbecile
-			trait = inbred
-			trait = slow
-			trait = weak
-			trait = naive_appeaser
-			trait = misguided_warrior
-			trait = indulgent_wastrel
-			trait = amateurish_plotter
-		}
-		NOT = {
-			has_character_flag = imperial_authority_bad_stats
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		primary_title = {
-			change_variable = { which = var_imperial_authority value = -5 }
-		}
-	}
-	
-	option = {
-		name = opta_disappointing
-		custom_tooltip = {
-			text = imperial_authority_decrease_5_TT
-		}
-		hidden_tooltip = {
-			set_character_flag = imperial_authority_bad_stats
-		}
-	}
-}
-
-#Set up for disloyal councillors
-character_event = {
-	id = fkr.115
-	hide_window = yes
-	
-	trigger = {
-		liege = {
-			government = hegemonic_government
-		}
-		always = no
-		is_voter = yes
-		NOT = {
-			has_character_flag = disloyal_councilor
-		}
-		has_position = malcontent
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		set_character_flag = disloyal_councilor
-		if = {
-			limit = {
-				has_character_flag = loyal_councilor
-			}
-			clr_character_flag = loyal_councilor
-		}
-		liege = {
-			character_event = { id = fkr.116 }
-		}
-	}
-}
-
-#Authority Decrease: Disloyal Councilor
-character_event = {
-	id = fkr.116
-	desc = EVTDESCFKR116
-	picture = GFX_evt_dark_court
-	is_triggered_only = yes
-
-	immediate = {
-		if = {
-			limit = {
-				FROM = {
-					is_powerful_vassal = yes 
-				}
-			}
-			primary_title = {
-				change_variable = { which = var_imperial_authority value = -5 }
-			}
-		}
-		else = {
-			primary_title = {
-				change_variable = { which = var_imperial_authority value = -2.5 }
-			}
-		}
-	}
-	
-	option = {
-		name = opta_disappointing
-		if = {
-			limit = {
-				FROM = {
-					is_powerful_vassal = yes 
-				}
-			}
-			custom_tooltip = {
-				text = imperial_authority_decrease_5_TT
-			}
-		}
-		else = {
-			custom_tooltip = {
-				text = imperial_authority_decrease_2_5_TT
-			}
-		}
-		prestige = -25
-	}
-}
-
 #Authority Decrease: Strong Council
 character_event = {
 	id = fkr.117
@@ -2295,7 +2361,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		government = hegemonic_government
+		has_character_modifier = imperial_authority
 		NOT = {
 			has_character_flag = law_no_change
 		}
@@ -2325,7 +2391,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		government = hegemonic_government
+		has_character_modifier = imperial_authority
 	}
 	
 	immediate = {
@@ -2356,7 +2422,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		government = hegemonic_government
+		has_character_modifier = imperial_authority
 	}
 	
 	immediate = {
@@ -2382,46 +2448,19 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		government = hegemonic_government
+		has_character_modifier = imperial_authority
 		# current_heir = {
 			# NOT = {
 				# government = hegemonic_government
 			# }
 		# }
-		primary_title = {
-			check_variable = { which = var_imperial_authority value = 40 }
-		}
 	}
 	
 	immediate = {
-		if = {
-			limit = {
-				trait = strong_emperor
-			}
-			primary_title = {
-				set_variable = { which = var_imperial_authority value = 60 }
-			}
-			current_heir = {
-				add_character_modifier = {
-					name = imperial_authority
-					duration = -1
-				}
-			}
-		}
-		if = {
-			limit = {
-				NOT = {
-					trait = strong_emperor
-				}
-				primary_title = {
-					change_variable = { which = var_imperial_authority value = -10 }
-				}
-				current_heir = {
-					add_character_modifier = {
-						name = imperial_authority
-						duration = -1
-					}
-				}
+		current_heir = {
+			add_character_modifier = {
+				name = imperial_authority
+				duration = -1
 			}
 		}
 	}
@@ -2433,8 +2472,29 @@ character_event = {
 				NOT = {
 					trait = strong_emperor
 				}
-				custom_tooltip = {
-					text = imperial_authority_decrease_10_TT
+				
+			}
+		}
+		if = {
+			limit = {
+				trait = strong_emperor
+			}
+			primary_title = {
+				set_variable = { which = var_imperial_authority value = 60 }
+			}
+		}
+		else_if = {
+			limit = {
+				primary_title = {
+					check_variable = { which = var_imperial_authority value = 40 }
+				}
+			}
+			custom_tooltip = {
+				text = imperial_authority_decrease_5_TT
+				hidden_tooltip = {
+					primary_title = {
+						change_variable = { which = var_imperial_authority value = -5 }
+					}
 				}
 			}
 		}
@@ -2471,7 +2531,7 @@ character_event = {
 	desc = EVTDESCFKR122
 	picture = GFX_evt_regency
 	trigger = {
-		government = hegemonic_government
+		has_character_modifier = imperial_authority
 		has_regent = yes
 		had_character_flag = {
 			flag = imperial_authority_regent
@@ -2503,7 +2563,7 @@ character_event = {
 	id = fkr.123
 	hide_window = yes
 	trigger = {
-		government = hegemonic_government
+		has_character_modifier = imperial_authority
 		has_regent = no
 		has_character_flag = imperial_authority_regent
 	}
@@ -3018,7 +3078,7 @@ character_event = {
 	only_playable = yes
 	
 	trigger = {
-		government = hegemonic_government
+		has_character_modifier = imperial_authority
 		NOT = {
 			has_character_modifier = imperial_authority_increase_war
 		}
@@ -3051,7 +3111,7 @@ character_event = {
 	only_playable = yes
 	
 	trigger = {
-		government = hegemonic_government
+		has_character_modifier = imperial_authority
 	}
 	
 	immediate = {
@@ -3077,7 +3137,7 @@ character_event = {
 	only_playable = yes
 	
 	trigger = {
-		government = hegemonic_government
+		has_character_modifier = imperial_authority
 	}
 	
 	immediate = {
@@ -3161,7 +3221,7 @@ character_event = {
 	# only_playable = yes
 	
 	# trigger = {
-		# government = hegemonic_government
+		# has_character_modifier = imperial_authority
 		# NOT = {
 			# has_character_modifier = imperial_authority_increase_war
 		# }
@@ -3194,7 +3254,7 @@ character_event = {
 	only_playable = yes
 	
 	trigger = {
-		government = hegemonic_government
+		has_character_modifier = imperial_authority
 	}
 	
 	immediate = {
@@ -3220,8 +3280,9 @@ character_event = {
 	only_playable = yes
 	
 	trigger = {
-		government = hegemonic_government
 		has_character_modifier = imperial_authority
+		has_character_modifier = imperial_authority
+		war = no
 		primary_title = {
 			check_variable = { which = var_imperial_authority value < 1 }
 		}
@@ -3249,11 +3310,7 @@ character_event = {
 			clr_title_flag = palace_bureaucracy_set
 			clr_title_flag = primary_set
 		}
-		primary_title = {
-			set_variable = { which = palace_bureaucracy_number which = global_selfbureau_number }
-			set_title_flag = palace_bureaucracy_set
-			set_title_flag = primary_set
-		}
+		
 	}
 	
 	option = {
@@ -3261,11 +3318,41 @@ character_event = {
 		any_playable_ruler = {
 			character_event = { id = fkr.150 }
 		}
+		any_vassal = {
+			limit = {
+				tier = DUKE
+				government = military_governorate_government
+			}
+			any_demesne_title = {
+				limit = {
+					tier = DUKE
+				}
+				unsafe_destroy_landed_title = THIS
+			}
+		}
+		any_vassal = {
+			limit = {
+				tier = KING
+				government = military_governorate_government
+			}
+			any_demesne_title = {
+				limit = {
+					tier = KING
+				}
+				unsafe_destroy_landed_title = THIS
+			}
+		}
 		any_demesne_title = {
 			limit = {
 				tier = EMPEROR
 			}
 			unsafe_destroy_landed_title = THIS
+		}
+		
+		primary_title = {
+			set_variable = { which = palace_bureaucracy_number which = global_selfbureau_number }
+			set_title_flag = palace_bureaucracy_set
+			set_title_flag = primary_set
 		}
 	}
 }
@@ -3295,7 +3382,6 @@ character_event = {
 	
 	trigger = {
 		is_feudal = yes
-		higher_real_tier_than = BARON
 		NOT = {
 			primary_title = {
 				has_title_flag = palace_bureaucracy_set
@@ -3304,6 +3390,7 @@ character_event = {
 		NOT = {
 			has_character_flag = flag_god
 		}
+		in_revolt = no
 	}
 	
 	immediate = {
@@ -3326,22 +3413,19 @@ character_event = {
 	id = fkr.201
 	desc = EVTDESCFKR201
 	picture = GFX_evt_council
-	
 	only_playable = yes
 	
 	trigger = {
 		is_feudal = yes
-		higher_real_tier_than = BARON
 		NOR = {
 			has_character_modifier = palace_bureaucracy
-			primary_title = {
-				has_title_flag = palace_bureaucracy_set
-			}
-			any_demesne_title = {
-				has_title_flag = palace_bureaucracy_set
-			}
 			has_character_flag = flag_god
+			primary_title = {
+				set_title_flag = palace_bureaucracy_set
+				set_title_flag = primary_set
+			}
 		}
+		in_revolt = no
 	}
 	
 	mean_time_to_happen = {
@@ -3349,10 +3433,6 @@ character_event = {
 	}
 	
 	immediate = {
-		primary_title = {
-			set_title_flag = palace_bureaucracy_set
-			set_title_flag = primary_set
-		}
 		liege = {
 			primary_title = {
 				set_variable = { which = global_transfer_bureaucracy_number which = palace_bureaucracy_number }
@@ -3367,6 +3447,10 @@ character_event = {
 			duration = -1
 		}
 		hidden_tooltip = {
+			primary_title = {
+				set_title_flag = palace_bureaucracy_set
+				set_title_flag = primary_set
+			}
 			if = {
 				limit = {
 					independent = no
@@ -3389,6 +3473,8 @@ character_event = {
 	id = fkr.202
 	hide_window = yes
 	is_triggered_only = yes
+	only_playable = yes
+	
 	trigger = {
 		NOT = {
 			has_character_modifier = palace_bureaucracy
@@ -3402,7 +3488,6 @@ character_event = {
 		if = {
 			limit = {
 				is_feudal = yes
-				higher_real_tier_than = BARON
 			}
 			add_character_modifier = {
 				name = palace_bureaucracy
@@ -3476,8 +3561,12 @@ character_event = {
 character_event = {
 	id = fkr.204
 	hide_window = yes
+	only_playable = yes
+	
 	trigger = {
-		is_feudal = no
+		OR = {
+			is_feudal = no
+		}
 		any_demesne_title = {
 			has_title_flag = palace_bureaucracy_set
 		}
@@ -3538,94 +3627,6 @@ character_event = {
 	}
 }
 
-#Bureaucracy Rise: Good Vassals/Rulers
-character_event = {
-	id = fkr.206
-	desc = EVTDESCFKR206
-	picture = GFX_evt_ruler_speaks
-	only_playable = yes
-	min_age = 16
-	
-	trigger = {
-		is_feudal = yes
-		always = no
-		has_character_modifier = palace_bureaucracy
-		OR = {
-			trait = just
-			trait = administrator
-			stewardship > 15
-			learning > 15
-		}
-		NOT = {
-			has_character_flag = quality_ruler
-		}
-		NOR = {
-			trait = arbitrary
-			stewardship < 6
-			learning < 6
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		primary_title = {
-			change_variable = { which = palace_bureaucracy_number value = 3 }
-		}
-	}
-	
-	option = {
-		name = opta_excellent
-		set_character_flag = quality_ruler
-		custom_tooltip = {
-			text = bureau_increase_3_TT
-		}
-		prestige = 50
-		if = {
-			limit = {
-				independent = no
-				liege = {
-					is_feudal = yes
-					ai = no
-					has_character_modifier = palace_bureaucracy
-				}
-			}
-			liege = {
-				character_event = { id = fkr.207 }
-			}
-		}
-	}
-}
-
-#Liege Notification
-character_event = {
-	id = fkr.207
-	desc = EVTDESCFKR207
-	picture = GFX_evt_ruler_speaks
-	notification = yes
-	is_triggered_only = yes
-	
-	immediate = {
-		primary_title = {
-			change_variable = { which = palace_bureaucracy_number value = 2 }
-		}
-	}
-	
-	option = {
-		name = opta_excellent
-		custom_tooltip = {
-			text = bureau_increase_2_TT
-		}
-		opinion = {
-			modifier = model_bureaucrat
-			who = FROM
-		}
-		prestige = 25
-	}
-}
-
 #Bureaucracy Rise: Strong Council (Triggerd by Law on_pass_effect)
 character_event = {
 	id = fkr.208
@@ -3654,206 +3655,6 @@ character_event = {
 			text = bureau_increase_205_TT
 		}
 		prestige = 25
-	}
-}
-
-#Set up for quality councillors
-character_event = {
-	id = fkr.209
-	hide_window = yes
-	
-	has_job_title = yes
-	
-	trigger = {
-		always = no
-		liege = {
-			is_feudal = yes
-			has_character_modifier = palace_bureaucracy
-		}
-		OR = {
-			AND = {
-				has_job_title = job_chancellor
-				NOT = {
-					liege = {
-						has_character_flag = set_chancellor
-					}
-				}
-				diplomacy > 15
-			}
-			AND = {
-				has_job_title = job_marshal
-				NOT = {
-					liege = {
-						has_character_flag = set_marshal
-					}
-				}
-				martial > 15
-			}
-			AND = {
-				has_job_title = job_treasurer
-				NOT = {
-					liege = {
-						has_character_flag = set_treasurer
-					}
-				}
-				stewardship > 15
-			}
-			AND = {
-				has_job_title = job_spymaster
-				NOT = {
-					liege = {
-						has_character_flag = set_spymaster
-					}
-				}
-				intrigue > 15
-			}
-			AND = {
-				has_job_title = job_spiritual
-				NOT = {
-					liege = {
-						has_character_flag = set_spiritual
-					}
-				}
-				learning > 15
-			}
-		}
-		NOT = {
-			has_character_flag = councillor_set
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		set_character_flag = councillor_set
-		liege = {
-			character_event = { id = fkr.210 }
-		}
-	}
-}
-
-#Bureaucracy Rise: Quality Councillors
-character_event = {
-	id = fkr.210
-	desc = EVTDESCFKR210
-	picture =GFX_evt_council
-	is_triggered_only = yes
-
-	immediate = {
-		primary_title = {
-			change_variable = { which = palace_bureaucracy_number value = 2 }
-		}
-	}
-	
-	option = {
-		name = opta_excellent
-		custom_tooltip = {
-			text = bureau_increase_2_TT
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_job_title = job_chancellor
-				}
-			}
-			set_character_flag = set_chancellor
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_job_title = job_marshal
-				}
-			}
-			set_character_flag = set_marshal
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_job_title = job_treasurer
-				}
-			}
-			set_character_flag = set_treasurer
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_job_title = job_spymaster
-				}
-			}
-			set_character_flag = set_spymaster
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_job_title = job_spiritual
-				}
-			}
-			set_character_flag = set_spiritual
-		}
-		opinion = {
-			modifier = model_bureaucrat
-			who = FROM
-		}
-		prestige = 25
-	}
-}
-
-#Leave a space for minor title event
-
-#Bureaucracy Fall: Bad vassals
-character_event = {
-	id = fkr.212
-	desc = EVTDESCFKR212
-	picture = GFX_evt_dark_court
-	only_playable = yes
-	min_age = 16
-	# ai = no
-	
-	trigger = {
-		is_feudal = yes
-		has_character_modifier = palace_bureaucracy
-		OR = {
-			trait = arbitrary
-			stewardship < 6
-			learning < 6
-		}
-		NOT = {
-			has_character_flag = poor_ruler
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		primary_title = {
-			change_variable = { which = palace_bureaucracy_number value = -2 }
-		}
-	}
-	
-	option = {
-		name = opta_disappointing
-		set_character_flag = poor_ruler
-		custom_tooltip = {
-			text = bureau_decrease_2_TT
-		}
-		prestige = -10
-		if = {
-			limit = {
-				independent = no
-				liege = {
-					is_feudal = yes
-					ai = no
-					has_character_modifier = palace_bureaucracy
-				}
-			}
-			liege = {
-				character_event = { id = fkr.213 }
-			}
-		}
 	}
 }
 
@@ -3910,109 +3711,6 @@ character_event = {
 	}
 }
 
-#Set up for bad councillors
-character_event = {
-	id = fkr.215
-	hide_window = yes
-	
-	has_job_title = yes
-	
-	trigger = {
-		always = no
-		liege = {
-			is_feudal = yes
-			has_character_modifier = palace_bureaucracy
-		}
-		OR = {
-			AND = {
-				has_job_title = job_chancellor
-				NOT = {
-					liege = {
-						has_character_flag = set_poor_chancellor
-					}
-				}
-				diplomacy < 6
-			}
-			AND = {
-				has_job_title = job_marshal
-				NOT = {
-					liege = {
-						has_character_flag = set_poor_marshal
-					}
-				}
-				martial < 6
-			}
-			AND = {
-				has_job_title = job_treasurer
-				NOT = {
-					liege = {
-						has_character_flag = set_poor_treasurer
-					}
-				}
-				stewardship < 6
-			}
-			AND = {
-				has_job_title = job_spymaster
-				NOT = {
-					liege = {
-						has_character_flag = set_poor_spymaster
-					}
-				}
-				intrigue < 6
-			}
-			AND = {
-				has_job_title = job_spiritual
-				NOT = {
-					liege = {
-						has_character_flag = set_poor_spiritual
-					}
-				}
-				learning < 6
-			}
-		}
-		NOT = {
-			has_character_flag = councillor_set
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		set_character_flag = councillor_set
-		liege = {
-			character_event = { id = fkr.216 }
-		}
-	}
-}
-
-#Bureaucracy Fall: Bad Councillors
-character_event = {
-	id = fkr.216
-	desc = EVTDESCFKR216
-	picture = GFX_evt_dark_court
-	is_triggered_only = yes
-	
-	immediate = {
-		primary_title = {
-			change_variable = { which = palace_bureaucracy_number value = -1 }
-		}
-	}
-	
-	option = {
-		name = opta_disappointing
-		custom_tooltip = {
-			text = bureau_decrease_1_TT
-		}
-		opinion = {
-			modifier = bad_bureaucrat
-			who = FROM
-		}
-		prestige = -10
-	}
-}
-
 #Bureaucracy Fall: Succession (on_death)
 character_event = {
 	id = fkr.217
@@ -4027,14 +3725,18 @@ character_event = {
 		current_heir = {
 			is_landed = no
 		}
-		primary_title = {
-			check_variable = { which = palace_bureaucracy_number value > 40 }
-		}
 	}
 	
 	immediate = {
-		primary_title = {
-			change_variable = { which = palace_bureaucracy_number value = -5 }
+		if = {
+			limit = {
+				primary_title = {
+					check_variable = { which = palace_bureaucracy_number value > 40 }
+				}
+			}
+			primary_title = {
+				change_variable = { which = palace_bureaucracy_number value = -5 }
+			}
 		}
 		current_heir = {
 			add_character_modifier = {
@@ -4051,118 +3753,6 @@ character_event = {
 		}
 	}
 }
-
-#Bureaucracy Fall: Nepotism (on_new_holder)
-# character_event = {
-	# id = fkr.218
-	# hide_window = yes
-	# is_triggered_only = yes
-	# only_playable = yes
-	
-	# trigger = {
-		# liege = {
-			# is_close_relative = ROOT
-			# NOT = {
-				# character = ROOT
-			# }
-			# has_character_modifier = palace_bureaucracy
-		# }
-		# NOR = {
-			# trait = just
-			# trait = administrator
-			# stewardship > 15
-			# learning > 15
-		# }
-		# independent = no
-	# }
-	# immediate = {
-		# liege = {
-			# character_event = { id = fkr.219 }
-		# }
-	# }
-# }
-
-#Liege Notification
-character_event = {
-	id = fkr.219
-	desc = EVTDESCFKR219
-	picture = GFX_evt_dark_court
-	is_triggered_only = yes
-	only_playable = yes
-
-	immediate = {
-		primary_title = {
-			change_variable = { which = palace_bureaucracy_number value = -2 }
-		}
-	}
-	option = {
-		name = opta_disappointing
-		custom_tooltip = {
-			text = bureau_decrease_2_TT
-		}
-	}
-}
-
-#Bureaucracy Fall: Nepotism Setup (MTTH)
-# character_event = {
-	# id = fkr.220
-	# hide_window = yes 
-	# trigger = {
-		# OR = {
-			# has_minor_title = title_commander
-			# is_councillor = yes
-		# }
-		# OR = {
-			# is_cousin_of = liege
-			# is_close_relative = liege
-		# }
-		# NOR = {
-			# trait = just
-			# trait = administrator
-			# stewardship > 15
-			# learning > 15
-			# AND = {
-				# has_job_title = job_chancellor
-				# diplomacy > 15
-			# }
-			# AND = {
-				# has_job_title = job_marshal
-				# martial > 15
-			# }
-			# AND = {
-				# has_job_title = job_treasurer
-				# stewardship > 15
-			# }
-			# AND = {
-				# has_job_title = job_spymaster
-				# intrigue > 15
-			# }
-			# AND = {
-				# has_job_title = job_spiritual
-				# learning > 15
-			# }
-		# }
-		# NOT = {
-			# has_character_flag = flag_nepotism
-		# }
-		# independent = no
-		# liege = {
-			# is_feudal = yes
-			# has_character_modifier = palace_bureaucracy
-		# }
-	# }
-	
-	# mean_time_to_happen = {
-		# days = 1
-	# }
-	
-	# immediate = {
-		# set_character_flag = flag_nepotism
-		# liege = { 
-			# character_event = { id = fkr.221 }
-		# }
-	# }
-# }
 
 #Liege Notification
 character_event = {
@@ -4199,7 +3789,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				government = hegemonic_government
+				has_character_modifier = imperial_authority
 			}
 			character_event = { id = fkr.138 }
 		}
@@ -4240,6 +3830,18 @@ character_event = {
 			modifier = low_bureaucracy
 			duration = -1
 		}
+		if = {
+			limit = {
+				independent = yes
+			}
+			primary_title = {
+				add_law = {
+					law = bureaucracy_efficiency_0
+					cooldown = no
+					opinion_effect = no
+				}
+			}
+		}
 	}	
 }
 
@@ -4264,6 +3866,18 @@ character_event = {
 	option = {
 		name = EVTOPTAFKR231
 		remove_character_modifier = high_bureaucracy
+		if = {
+			limit = {
+				independent = yes
+			}
+			primary_title = {
+				add_law = {
+					law = bureaucracy_efficiency_1
+					cooldown = no
+					opinion_effect = no
+				}
+			}
+		}
 	}	
 }
 
@@ -4289,6 +3903,18 @@ character_event = {
 	option = {
 		name = opta_excellent
 		remove_character_modifier = low_bureaucracy
+		if = {
+			limit = {
+				independent = yes
+			}
+			primary_title = {
+				add_law = {
+					law = bureaucracy_efficiency_1
+					cooldown = no
+					opinion_effect = no
+				}
+			}
+		}
 	}	
 }
 
@@ -4318,6 +3944,18 @@ character_event = {
 		add_character_modifier = {
 			modifier = high_bureaucracy
 			duration = -1
+		}
+		if = {
+			limit = {
+				independent = yes
+			}
+			primary_title = {
+				add_law = {
+					law = bureaucracy_efficiency_2
+					cooldown = no
+					opinion_effect = no
+				}
+			}
 		}
 	}	
 }
@@ -4503,7 +4141,7 @@ character_event = {
 	option = {
 		name = opta_disappointing
 		custom_tooltip = {
-			name = bureau_decrease_3_TT
+			text = bureau_decrease_3_TT
 		}
 		add_character_modifier = {
 			modifier = poor_reforms
@@ -4554,10 +4192,10 @@ character_event = {
 	option = {
 		name = EVTOPTAFKR237
 		custom_tooltip = {
-			name = bureau_increase_3_TT
+			text = bureau_increase_3_TT
 		}
 		custom_tooltip = {
-			name = militarization_decrease_10_TT
+			text = militarization_decrease_10_TT
 		}
 		add_character_modifier = {
 			modifier = good_reforms
@@ -4614,7 +4252,9 @@ character_event = {
 character_event = {
 	id = fkr.252
 	hide_window = yes
+	only_playable = yes
 	trigger = {
+		is_feudal = yes
 		NOT = {
 			has_character_modifier = palace_bureaucracy
 		}
@@ -4640,12 +4280,10 @@ character_event = {
 character_event = {
 	id = fkr.253
 	hide_window = yes
-	
 	only_playable = yes
 	
 	trigger = {
 		is_feudal = yes
-		higher_real_tier_than = BARON
 		has_character_modifier = palace_bureaucracy
 		NOT = {
 			primary_title = {
@@ -4728,9 +4366,13 @@ character_event = {
 			which = yearly_bureaucracy_change
 			value = 0
 		}
+		set_variable = {
+			which = passive_bureaucracy
+			value = 0
+		}
 		#Positive Effects
 		hidden_tooltip = {
-			if = {
+			if = { #Stewardship Bonus
 				limit = {
 					stewardship = 12
 				}
@@ -4739,7 +4381,7 @@ character_event = {
 					value = 1
 				}
 			}
-			if = {
+			if = { #Learning Bonus
 				limit = {
 					learning = 12
 				}
@@ -4748,7 +4390,7 @@ character_event = {
 					value = 1
 				}
 			}
-			if = {
+			if = { #Trait Bonus: Genius
 				limit = {
 					trait = genius
 				}
@@ -4757,7 +4399,7 @@ character_event = {
 					value = 0.5
 				}
 			}
-			if = {
+			if = { #Trait Bonus: Just
 				limit = {
 					trait = just
 				}
@@ -4766,7 +4408,7 @@ character_event = {
 					value = 0.25
 				}
 			}
-			if = {
+			if = { #Trait Bonus: Administrator
 				limit = {
 					trait = administrator
 				}
@@ -4775,7 +4417,7 @@ character_event = {
 					value = 0.25
 				}
 			}
-			if = {
+			if = { #Councilor Bonus: Chancellor
 				limit = {
 					job_chancellor = {
 						diplomacy = 12
@@ -4783,10 +4425,10 @@ character_event = {
 				}
 				change_variable = {
 					which = councilor_bonus_bureaucracy
-					value = 1
+					value = 0.5
 				}
 			}
-			if = {
+			if = { #Councilor Bonus: Marshal
 				limit = {
 					job_marshal = {
 						martial = 12
@@ -4794,10 +4436,10 @@ character_event = {
 				}
 				change_variable = {
 					which = councilor_bonus_bureaucracy
-					value = 1
+					value = 0.5
 				}
 			}
-			if = {
+			if = { #Councilor Bonus: Steward
 				limit = {
 					job_treasurer = {
 						stewardship = 12
@@ -4805,10 +4447,10 @@ character_event = {
 				}
 				change_variable = {
 					which = councilor_bonus_bureaucracy
-					value = 1
+					value = 0.5
 				}
 			}
-			if = {
+			if = { #Councilor Bonus: Spymaster
 				limit = {
 					job_spymaster = {
 						intrigue = 12
@@ -4816,10 +4458,10 @@ character_event = {
 				}
 				change_variable = {
 					which = councilor_bonus_bureaucracy
-					value = 1
+					value = 0.5
 				}
 			}
-			if = {
+			if = { #Councilor Bonus: Chaplain
 				limit = {
 					job_spiritual = {
 						learning = 12
@@ -4827,10 +4469,10 @@ character_event = {
 				}
 				change_variable = {
 					which = councilor_bonus_bureaucracy
-					value = 1
+					value = 0.5
 				}
 			}
-			any_vassal = {
+			any_vassal = { #Vassal Bonus: 12 Stewardship or 12 Learning
 				limit = {
 					OR = {
 						stewardship = 12
@@ -4842,11 +4484,11 @@ character_event = {
 				liege = {
 					change_variable = {
 						which = vassal_bonus_bureaucracy
-						value = 1
+						value = 0.5
 					}
 				}
 			}
-			any_vassal = {
+			any_vassal = { #Vassal Bonus: 12 Stewardship and 12 Learning
 				limit = {
 					stewardship = 12
 					learning = 12
@@ -4856,15 +4498,108 @@ character_event = {
 				liege = {
 					change_variable = {
 						which = vassal_bonus_bureaucracy
-						value = 1
+						value = 0.5
 					}
 				}
 			}
-		}
+			if = { #Realm Size Bonus: Count
+				limit = {
+					tier = COUNT
+					NAND = {
+						capital_scope = {
+							region = world_greece
+							has_province_modifier = severe_drought
+						}
+					}
+				}
+				change_variable = {
+					which = passive_bureaucracy
+					value = 4
+				}
+			}
+			if = { #Realm Size Bonus: Duke
+				limit = {
+					tier = DUKE
+					NAND = {
+						capital_scope = {
+							region = world_greece
+							has_province_modifier = severe_drought
+						}
+					}
+				}
+				change_variable = {
+					which = passive_bureaucracy
+					value = 2
+				}
+			}
+			if = { #Dependent Bonus: 1 Level of Vassalage
+				limit = {
+					independent = no
+					liege = {
+						independent = yes
+					}
+					NAND = {
+						capital_scope = {
+							region = world_greece
+							has_province_modifier = severe_drought
+						}
+					}
+				}
+				change_variable = {
+					which = passive_bureaucracy
+					value = 1
+				}
+			}
+			if = { #Dependent Bonus: 2 Levels of Vassalage
+				limit = {
+					independent = no
+					liege = {
+						independent = no
+						liege = {
+							independent = yes
+						}
+					}
+					NAND = {
+						capital_scope = {
+							region = world_greece
+							has_province_modifier = severe_drought
+						}
+					}
+				}
+				change_variable = {
+					which = passive_bureaucracy
+					value = 1
+				}
+			}
+			if = { #Dependent Bonus: 3 Levels of Vassalage
+				limit = {
+					independent = no
+					liege = {
+						independent = no
+						liege = {
+							independent = no
+							liege = {
+								independent = yes
+							}
+						}
+					}
+					NAND = {
+						capital_scope = {
+							region = world_greece
+							has_province_modifier = severe_drought
+						}
+					}
+				}
+				change_variable = {
+					which = passive_bureaucracy
+					value = 1
+				}
+			}
+			}
 		
 		#Negative Effects
 		hidden_tooltip = {
-			if = {
+			if = { #Stewardship Malus
 				limit = {
 					stewardship < 6
 				}
@@ -4873,7 +4608,7 @@ character_event = {
 					value = -1
 				}
 			}
-			if = {
+			if = { #Learning Malus
 				limit = {
 					learning < 6
 				}
@@ -4882,7 +4617,7 @@ character_event = {
 					value = -1
 				}
 			}
-			if = {
+			if = { #Trait Malus: Dull
 				limit = {
 					trait = dull
 				}
@@ -4891,7 +4626,7 @@ character_event = {
 					value = -0.5
 				}
 			}
-			if = {
+			if = { #Trait Malus: Imbecile
 				limit = {
 					trait = imbecile
 				}
@@ -4900,7 +4635,7 @@ character_event = {
 					value = -5
 				}
 			}
-			if = {
+			if = { #Trait Malus: Inbred
 				limit = {
 					trait = inbred
 				}
@@ -4909,7 +4644,7 @@ character_event = {
 					value = -4
 				}
 			}
-			if = {
+			if = { #Trait Malus: Slow
 				limit = {
 					trait = slow
 				}
@@ -4918,62 +4653,87 @@ character_event = {
 					value = -3
 				}
 			}
-			if = {
+			if = { #Councilor Malus: Chancellor
 				limit = {
 					job_chancellor = {
 						diplomacy < 6
 					}
+					# OR = {
+						# ai = no
+						# independent = yes
+						# higher_real_tier_than = DUKE
+					# }
 				}
 				change_variable = {
 					which = councilor_penalty_bureaucracy
 					value = -2
 				}
 			}
-			if = {
+			if = { #Councilor Malus: Marshal
 				limit = {
 					job_marshal = {
 						martial < 6
 					}
+					# OR = {
+						# ai = no
+						# independent = yes
+						# higher_real_tier_than = DUKE
+					# }
 				}
 				change_variable = {
 					which = councilor_penalty_bureaucracy
 					value = -2
 				}
 			}
-			if = {
+			if = { #Councilor Malus: Steward
 				limit = {
 					job_treasurer = {
 						stewardship < 6
 					}
+					# OR = {
+						# ai = no
+						# independent = yes
+						# higher_real_tier_than = DUKE
+					# }
 				}
 				change_variable = {
 					which = councilor_penalty_bureaucracy
 					value = -2
 				}
 			}
-			if = {
+			if = { #Councilor Malus: Spymaster
 				limit = {
 					job_spymaster = {
 						intrigue < 6
 					}
+					# OR = {
+						# ai = no
+						# independent = yes
+						# higher_real_tier_than = DUKE
+					# }
 				}
 				change_variable = {
 					which = councilor_penalty_bureaucracy
 					value = -2
 				}
 			}
-			if = {
+			if = { #Councilor Malus: Chaplain
 				limit = {
 					job_spiritual = {
 						learning < 6
 					}
+					# OR = {
+						# ai = no
+						# independent = yes
+						# higher_real_tier_than = DUKE
+					# }
 				}
 				change_variable = {
 					which = councilor_penalty_bureaucracy
 					value = -2
 				}
 			}
-			any_vassal = {
+			any_vassal = { #Vassal Bonus: Less than 6 Stewardship or Less than 6 Learning
 				limit = {
 					OR = {
 						stewardship < 6
@@ -4981,6 +4741,9 @@ character_event = {
 					}
 					higher_real_tier_than = BARON
 					is_feudal = yes
+					liege = {
+						ai = no
+					}
 				}
 				liege = {
 					change_variable = {
@@ -4989,18 +4752,100 @@ character_event = {
 					}
 				}
 			}
-			any_vassal = {
+			any_vassal = { #Vassal Bonus: Less than 6 Stewardship and Less than 6 Learning
 				limit = {
 					stewardship < 6
 					learning < 6
 					higher_real_tier_than = BARON
 					is_feudal = yes
+					liege = {
+						ai = no
+					}
 				}
 				liege = {
 					change_variable = {
 						which = vassal_penalty_bureaucracy
 						value = -0.25
 					}
+				}
+			}
+			if = { #Passive Malus: Greater than 60 Bureaucracy
+				limit = {
+					primary_title = {
+						check_variable = { which = palace_bureaucracy_number value > 60 }
+					}
+				}
+				change_variable = {
+					which = passive_bureaucracy
+					value = -2
+				}
+			}
+			if = { #Passive Malus: Greater than 70 Bureaucracy
+				limit = {
+					primary_title = {
+						check_variable = { which = palace_bureaucracy_number value > 70 }
+					}
+				}
+				change_variable = {
+					which = passive_bureaucracy
+					value = -2
+				}
+			}
+			if = { #Passive Malus: Greater than 80 Bureaucracy
+				limit = {
+					primary_title = {
+						check_variable = { which = palace_bureaucracy_number value > 80 }
+					}
+				}
+				change_variable = {
+					which = passive_bureaucracy
+					value = -2
+				}
+			}
+			if = { #Passive Malus: Greater than 90 Bureaucracy
+				limit = {
+					primary_title = {
+						check_variable = { which = palace_bureaucracy_number value > 90 }
+					}
+				}
+				change_variable = {
+					which = passive_bureaucracy
+					value = -2
+				}
+			}
+			if = { #Bronze Age Collapse Malus
+				limit = {
+					capital_scope = {
+						region = world_greece
+						has_province_modifier = severe_drought
+					}
+					NOR = {
+						has_law = ze_administration_laws_0
+						has_law = ze_administration_laws_4
+					}
+				}
+				change_variable = {
+					which = passive_bureaucracy
+					value = -5
+				}
+			}
+			if = { #Bronze Age Collapse Malus: Greater than 30 Bureaucracy
+				limit = {
+					capital_scope = {
+						region = world_greece
+						has_province_modifier = severe_drought
+					}
+					primary_title = {
+						check_variable = { which = palace_bureaucracy_number value > 30 }
+					}
+					NOR = {
+						has_law = ze_administration_laws_0
+						has_law = ze_administration_laws_4
+					}
+				}
+				change_variable = {
+					which = passive_bureaucracy
+					value = -5
 				}
 			}
 		}
@@ -5065,6 +4910,10 @@ character_event = {
 				which = yearly_bureaucracy_change
 				which = vassal_penalty_bureaucracy
 			}
+			change_variable = {
+				which = yearly_bureaucracy_change
+				which = passive_bureaucracy
+			}
 		}
 		
 		primary_title = {
@@ -5105,7 +4954,6 @@ character_event = {
 	
 	trigger = {
 		government = stratocratic_government
-		higher_real_tier_than = BARON
 		NOT = {
 			primary_title = {
 				has_title_flag = militarization_set
@@ -5141,7 +4989,6 @@ character_event = {
 	
 	trigger = {
 		government = stratocratic_government
-		higher_real_tier_than = BARON
 		NOT = {
 			primary_title = {
 				has_title_flag = militarization_set
@@ -5192,6 +5039,7 @@ character_event = {
 	id = fkr.302
 	hide_window = yes
 	is_triggered_only = yes
+	only_playable = yes
 	trigger = {
 		NOT = {
 			has_character_modifier = militarization
@@ -5205,7 +5053,6 @@ character_event = {
 		if = {
 			limit = {
 				government = stratocratic_government
-				higher_real_tier_than = BARON
 			}
 			add_character_modifier = {
 				name = militarization
@@ -5218,7 +5065,6 @@ character_event = {
 				NOT = {
 					culture = amazonian
 				}
-				higher_real_tier_than = BARON
 			}
 			add_trait = stratocrat
 		}
@@ -5953,5 +5799,18 @@ character_event = {
 			modifier = militarization
 			duration = -1
 		}
+	}
+}
+
+# **************************Polital Events***********************
+
+#Polis Accepts offer to join league
+letter_event = {
+	id = fkr.500
+	desc = EVTDESCFKR500
+	is_triggered_only = yes
+	
+	option = {
+		name = opta_excellent
 	}
 }

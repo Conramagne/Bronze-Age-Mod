@@ -1,0 +1,15 @@
+# c_pittina
+
+# County Title
+title = c_pittina
+
+# Settlements
+max_settlements = 1
+
+b_pittina = castle
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

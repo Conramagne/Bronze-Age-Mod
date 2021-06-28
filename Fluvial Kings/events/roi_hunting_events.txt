@@ -258,6 +258,26 @@ character_event = {
 			name = good_hunt
 			days = 180
 		}
+		hidden_tooltip = {
+			random_realm_title = {
+				limit = {
+					tier = DUKE
+					NOT = {
+						has_character_flag = lions_extinct
+					}
+				}
+				preferred_limit = {
+					any_realm_province = {
+						ROOT = {
+							capital_scope = {
+								province = PREVPREV
+							}
+						}
+					}
+				}
+				change_variable = { which = lion_extinction value = 1 }
+			}
+		}
 	}
 }
 

@@ -1,0 +1,379 @@
+e_amurru = {
+	color={ 187 28 128 }
+	color2={ 255 255 20 }
+	
+	capital = 286 # c_ugarit
+	
+	k_amurru = {
+		color={ 177 38 123 }
+		color2={ 255 255 255 }
+		
+		capital = 286 # c_ugarit
+		
+		d_ugarit = {
+			color={ 157 58 113 }
+			color2={ 255 255 255 }
+			
+			capital = 286 # c_ugarit
+			
+			c_ugarit = { # 286
+				color={ 147 68 108 }
+				color2={ 255 255 255 }
+				
+				b_ugarit = {
+				}
+				b_dumatu = {
+				}
+				b_hursubui = {
+				}
+				b_pidi = {
+				}
+				b_yartu = {
+				}
+			}
+			c_arzigana = { # 289
+				color={ 104 90 151 }
+				color2={ 255 255 255 }
+				
+				b_arzigana = {
+				}
+				b_qatan = {
+				}
+				b_arahti = {
+				}
+				b_banga = {
+				}
+			}
+			c_gibala = { # 290
+				color={ 178 75 163 }
+				color2={ 255 255 255 }
+				
+				b_gibala = {
+				}
+				b_suksi = {
+				}
+				b_siyannu = {
+				}
+			}
+			c_niya = { # 288
+				color={ 137 107 90 }
+				color2={ 255 255 255 }
+				
+				b_niya = {
+				}
+			}
+			c_suhurre = { # 287
+				color={ 159 124 142 }
+				color2={ 255 255 255 }
+				
+				b_suhure = {
+				}
+			}
+		}
+		d_amurru = {
+			color={ 133 173 180 }
+			color2={ 255 255 255 }
+			
+			capital = 291 # c_sumur
+			
+			c_sumur = { # 291
+				color={ 143 163 185 }
+				color2={ 255 255 255 }
+				
+				b_sumur = {
+				}
+			}
+			c_arwada = { # 292
+				color={ 140 75 117 }
+				color2={ 255 255 255 }
+				
+				b_arwada = {
+				}
+			}
+			c_mansuate = { # 293
+				color={ 160 70 109 }
+				color2={ 255 255 255 }
+				
+				b_mansuate = {
+				}
+			}
+			c_sinzar = { # 294
+				color={ 104 80 121 }
+				color2={ 255 255 255 }
+				
+				b_sinzar = {
+				}
+				b_zulabi = {
+				}
+				b_tunip = {
+				}
+			}
+		}
+		d_bisuru = {
+			color={ 145 111 178 }
+			color2={ 255 255 255 }
+			
+			capital = 298 # c_terqa
+			
+			c_terqa = { # 298
+				color={ 155 101 183 }
+				color2={ 255 255 255 }
+				
+				b_terqa = {
+				}
+				b_kipina = {
+				}
+				b_dur_yahdun_lim = {
+				}
+				b_surim = {
+				}
+				b_ganibatum = {
+				}
+			}
+			c_abattum = { # 299
+				color={ 152 34 195 }
+				color2={ 255 255 255 }
+				
+				b_abattum = {
+				}
+				b_rasappa = {
+				}
+			}
+			c_azmu = { # 300
+				color={ 118 30 163 }
+				color2={ 255 255 255 }
+				
+				b_azmu = {
+				}
+				b_suru = {
+				}
+			}
+			c_halabit = { # 301
+				color={ 118 30 97 }
+				color2={ 255 255 255 }
+				
+				b_halabit = {
+				}
+				b_nemed_ishtar = {
+				}
+			}
+		}
+		d_nuhasse = {
+			color={ 117 58 80 }
+			color2={ 255 255 255 }
+			
+			capital = 295 # c_qatna
+			
+			c_qatna = { # 295
+				color={ 107 68 75 }
+				color2={ 255 255 255 }
+				
+				b_qatna = {
+				}
+				b_amatu = {
+				}
+				b_tunanapa = {
+				}
+			}
+			c_hassu = { # 296
+				color={ 153 58 75 }
+				color2={ 255 255 255 }
+				
+				b_nuhasse = {
+				}
+			}
+			c_idiba = { # 297
+				color={ 61 75 112 }
+				color2={ 255 255 255 }
+				
+				b_idiba = {
+				}
+				b_elba = {
+				}
+			}
+		}
+	}
+	k_dammaseq = {
+		color={ 201 58 118 }
+		color2={ 255 255 255 }
+		
+		capital = 313 # c_dammasseq
+		
+		d_dammasseq = {
+			color={ 181 78 108 }
+			color2={ 255 255 255 }
+			
+			capital = 313 # c_dammasseq
+			
+			c_dammasseq = { # 313
+				color={ 171 88 103 }
+				color2={ 255 255 255 }
+				
+				b_dammasseq = {
+				}
+			}
+			c_kadesh = { # 315
+				color={ 150 54 99 }
+				color2={ 255 255 255 }
+				
+				b_kadesh = {
+				}
+			}
+			c_saaru = { # 314
+				color={ 167 73 90 }
+				color2={ 255 255 255 }
+				
+				b_saaru = {
+				}
+				b_hulhulita = {
+				}
+			}
+		}
+	}
+	k_halab = {
+		color={ 172 120 99 }
+		color2={ 255 255 255 }
+		
+		capital = 302 # c_halab
+		
+		d_bit_agusi = {
+			color={ 192 100 109 }
+			color2={ 255 255 255 }
+			
+			capital = 302 # c_halab
+			
+			c_halab = { # 302
+				color={ 202 90 114 }
+				color2={ 255 255 255 }
+				
+				b_halab = {
+				}
+				b_nerab = {
+				}
+				b_arne = {
+				}
+				b_sipri = {
+				}
+				b_urume = {
+				}
+			}
+			c_arpadda = { # 303
+				color={ 219 103 190 }
+				color2={ 255 255 255 }
+				
+				b_arpadda = {
+				}
+				b_hazazu = {
+				}
+				b_dabiqu = {
+				}
+				b_surunu = {
+				}
+			}
+			c_dinanu = { # 304
+				color={ 165 28 78 }
+				color2={ 255 255 255 }
+				
+				b_dinanu = {
+				}
+			}
+		}
+		d_astata = {
+			color={ 108 54 123 }
+			color2={ 255 255 255 }
+			
+			capital = 311 # c_emar
+			
+			c_emar = { # 311
+				color={ 98 64 118 }
+				color2={ 255 255 255 }
+				
+				b_emar = {
+				}
+				b_azariq = {
+				}
+			}
+			c_azu = { # 312
+				color={ 178 119 155 }
+				color2={ 255 255 255 }
+				
+				b_azu = {
+				}
+				b_dub = {
+				}
+			}
+		}
+		d_karkemish = {
+			color={ 134 122 74 }
+			color2={ 255 255 255 }
+			
+			capital = 307 # c_karkemish
+			
+			c_karkemish = { # 307
+				color={ 124 132 69 }
+				color2={ 255 255 255 }
+				
+				b_karkemish = {
+				}
+				b_napigu = {
+				}
+				b_sabazu = {
+				}
+				b_pituru = {
+				}
+			}
+			c_til_basere = { # 310
+				color={ 151 97 58 }
+				color2={ 255 255 255 }
+				
+				b_til_basere = {
+				}
+				b_urumu = {
+				}
+				b_tuba = {
+				}
+				b_zuqarru = {
+				}
+			}
+			c_til_turi = { # 308
+				color={ 109 124 138 }
+				color2={ 255 255 255 }
+				
+				b_til_turi = {
+				}
+			}
+			c_ursti = { # 309
+				color={ 159 79 170 }
+				color2={ 255 255 255 }
+				
+				b_ursti = {
+				}
+				b_paqarhubuni = {
+				}
+			}
+		}
+		d_mukis = {
+			color={ 147 102 92 }
+			color2={ 255 255 255 }
+			
+			capital = 305 # c_alalakh
+			
+			c_alalakh = { # 305
+				color={ 137 112 87 }
+				color2={ 255 255 255 }
+				
+				b_alalakh = {
+				}
+				b_urussa = {
+				}
+			}
+			c_pittina = { # 306
+				color={ 168 90 70 }
+				color2={ 255 255 255 }
+				
+				b_pittina = {
+				}
+			}
+		}
+	}
+}

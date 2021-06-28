@@ -13,6 +13,14 @@ bnai_avraham = {
 	
 	color = { 0.2 0.5 0.9 }
 	
+	male_names = {
+		Ammiel Azriel Baruch Be'zelael Daniel Darel Ediel Elad Elhanan Elhi Eli Elia Eliadad Eliahu Eliatzfan Eliav Eliel Eliezer Elimelech Elisha Elishema Elitzur Elkana Elnatan Elroei Elyahsiv Elyasaf Gadiel Gamliel Gavriel Geuel Hananel Haniel Harel Hilel Imanuel Kmuel Michael Netanel Pagiel Paltiel Pdahel Refael Reuel Shlumiel Shmuel Tzuriel Uriel Yagel Yedidyah Yehezkel Yehonatan Yehoshua Yekutiel Yephunneh Yoel Yohanan
+	}
+	
+	female_names = {
+		Adiel Elisheva Ella Yael Yedidah Yehoaddan Yehosheva Yerioth Yerusha Yocheved
+	}
+	
 	berith = {
 		graphical_culture = jewishgfx
 		
@@ -55,6 +63,14 @@ bnai_kenaan = {
 	color = { 1.0 0.8 0.3 }
 	
 	# interface_skin = {  }
+	
+	male_names = {
+		Abel Adael Adonibaal Baal-Termeg Baalyaton Khilletzbaal Sakarbaal Shipitbaal
+	}
+	
+	female_names = {
+		Elisha_Elissa Elissa_Elissa Elyssa_Elissa
+	}
 	
 	edomite_religion = {
 		graphical_culture = muslimgfx
@@ -100,7 +116,7 @@ bnai_kenaan = {
 		
 		icon = 4
 		heresy_icon = 4
-		
+				
 		scripture_name = THE_BAAL_KTOVET
 		priest_title = KOHEN
 		crusade_name = GREAT_HOLY_WAR

@@ -13,6 +13,6 @@ b_beyt_anat = temple
 
 # Misc
 culture = phoenician
-religion = berith
+religion = canaanite_religion
 
 #History

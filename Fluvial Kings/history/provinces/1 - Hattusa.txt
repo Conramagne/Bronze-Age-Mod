@@ -19,3 +19,11 @@ culture = hittite
 religion = ishalitethai
 
 #History
+2421.1.1 = {
+	b_hattusa = ca_wall_1
+	b_hattusa = ca_wall_2
+	b_hattusa = ca_wall_3
+	b_hattusa = ca_wall_q_1
+	b_hattusa = ca_wall_q_2
+	b_hattusa = ca_wall_q_3
+}

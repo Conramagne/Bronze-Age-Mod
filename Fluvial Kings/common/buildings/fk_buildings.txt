@@ -1,0 +1,567 @@
+castle = {
+
+	# Mansion
+	fk_mansion_1 = {
+		desc = fk_mansion_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 200
+		build_time = 1095
+		ai_creation_factor = 105
+		
+		levy_size = 0.1
+		tax_income = 2
+		
+		extra_tech_building_start = 0.0
+	}
+	
+	# Great Mansion
+	fk_mansion_2 = {
+		desc = fk_mansion_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = { 
+			FROM = {
+				tier = DUKE
+				capital_holding = {
+					title = FROMFROM
+				}
+			}
+		}
+		upgrades_from = fk_mansion_1
+		gold_cost = 300
+		build_time = 1460
+		ai_creation_factor = 104
+		
+		levy_size = 0.2
+		tax_income = 6
+		max_tradeposts = 3
+		
+		extra_tech_building_start = 2.0
+	}
+	
+	# Palace
+	fk_mansion_3 = {
+		desc = fk_mansion_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = { 
+			FROM = {
+				tier = KING
+				capital_holding = {
+					title = FROMFROM
+				}
+			}
+		}
+		upgrades_from = fk_mansion_2
+		gold_cost = 400
+		build_time = 2190
+		ai_creation_factor = 103
+		
+		levy_size = 0.3
+		tax_income = 8
+		max_tradeposts = 3
+		
+		extra_tech_building_start = 3
+	}
+	
+	# Grand Palace
+	fk_mansion_4 = {
+		desc = fk_mansion_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = { 
+			FROM = {
+				tier = EMPEROR
+				capital_holding = {
+					title = FROMFROM
+				}
+			}
+		}
+		upgrades_from = fk_mansion_3
+		gold_cost = 500
+		build_time = 2190
+		ai_creation_factor = 102
+		
+		levy_size = 0.4
+		tax_income = 10
+		max_tradeposts = 3
+		
+		extra_tech_building_start = 5.0
+	}
+	
+	# Guard Barracks
+	fk_barracks_1 = {
+		desc = fk_barracks_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = { 
+			FROM = {
+				capital_holding = {
+					title = FROMFROM
+				}
+			}
+		}
+		gold_cost = 150
+		build_time = 730
+		ai_creation_factor = 100
+		
+		heavy_infantry = 70
+		pikemen = 50
+		
+		extra_tech_building_start = 1.0
+	}
+	
+	# Swordsmith
+	fk_barracks_2 = {
+		desc = fk_barracks_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = fk_barracks_1
+		prerequisites = { fk_mansion_2 }
+		gold_cost = 250
+		build_time = 1095
+		ai_creation_factor = 99
+		
+		heavy_infantry = 85
+		pikemen = 65
+		
+		extra_tech_building_start = 2.5
+	}
+	
+	# Armory
+	fk_barracks_3 = {
+		desc = fk_barracks_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = fk_barracks_2
+		prerequisites = { fk_mansion_3 }
+		gold_cost = 350
+		build_time = 1460
+		ai_creation_factor = 98
+		
+		heavy_infantry = 100
+		pikemen = 80
+		
+		extra_tech_building_start = 4.0
+	}
+	
+	# Small Stable
+	fk_stable_1 = {
+		desc = fk_stable_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = { 
+			FROM = {
+				capital_holding = {
+					title = FROMFROM
+				}
+			}
+		}
+		gold_cost = 150
+		build_time = 730
+		ai_creation_factor = 100
+		
+		light_cavalry = 75
+		
+		extra_tech_building_start = 1.0
+	}
+	
+	# Riding Grounds
+	fk_stable_2 = {
+		desc = fk_stable_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 250
+		build_time = 1095
+		upgrades_from = fk_stable_1
+		prerequisites = { fk_mansion_2 }
+		ai_creation_factor = 99
+		
+		light_cavalry = 90
+		
+		extra_tech_building_start = 2.5
+	}
+	
+	# Horse Breeder
+	fk_stable_3 = {
+		desc = fk_stable_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 350
+		build_time = 1460
+		upgrades_from = fk_stable_2
+		prerequisites = { fk_mansion_3 }
+		ai_creation_factor = 98
+		
+		light_cavalry = 105
+		knights = 45
+		
+		extra_tech_building_start = 4.0
+	}
+	
+	# Bowyer
+	fk_bowyer_1 = {
+		desc = fk_bowyer_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = { 
+			FROM = {
+				capital_holding = {
+					title = FROMFROM
+				}
+			}
+		}
+		gold_cost = 150
+		build_time = 730
+		ai_creation_factor = 100
+		
+		light_infantry = 95
+		archers = 95
+		
+		extra_tech_building_start = 1.0
+	}
+	
+	# Target Range
+	fk_bowyer_2 = {
+		desc = fk_bowyer_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 250
+		build_time = 1095
+		upgrades_from = fk_bowyer_1
+		prerequisites = { fk_mansion_2 }
+		ai_creation_factor = 99
+		
+		light_infantry = 110
+		archers = 110
+		
+		extra_tech_building_start = 2.5
+	}
+	
+	# Crossbow Workshop
+	fk_bowyer_3 = {
+		desc = fk_bowyer_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 350
+		build_time = 1460
+		upgrades_from = fk_bowyer_2
+		prerequisites = { fk_mansion_3 }
+		ai_creation_factor = 98
+		
+		light_infantry = 120
+		archers = 120
+		
+		extra_tech_building_start = 4.0
+	}
+	
+	# Map Room
+	fk_shipyard_1 = {
+		desc = fk_shipyard_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = { 
+			FROM = {
+				capital_holding = {
+					title = FROMFROM
+					port = yes
+				}
+			}
+		}
+		gold_cost = 150
+		build_time = 730
+		ai_creation_factor = 100
+		
+		galleys = 6
+		
+		extra_tech_building_start = 1.0
+	}
+	
+	#  Private Shipyard
+	fk_shipyard_2 = {
+		desc = fk_shipyard_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 250
+		build_time = 1095
+		upgrades_from = fk_shipyard_1
+		prerequisites = { fk_mansion_2 }
+		ai_creation_factor = 99
+		
+		galleys = 12
+		
+		extra_tech_building_start = 2.5
+	}
+	
+	# Naval Arsenal
+	fk_shipyard_3 = {
+		desc = fk_shipyard_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 350
+		build_time = 1460
+		upgrades_from = fk_shipyard_2
+		prerequisites = { fk_mansion_3 }
+		ai_creation_factor = 98
+		
+		galleys = 18
+		
+		extra_tech_building_start = 4.0
+	}
+	
+	# Military Warehouse
+	fk_warehouse_1 = {
+		desc = fk_warehouse_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = { 
+			FROM = {
+				capital_holding = {
+					title = FROMFROM
+				}
+			}
+		}
+		gold_cost = 150
+		build_time = 730
+		ai_creation_factor = 100
+		
+		land_morale = 0.1
+		levy_reinforce_rate = 0.1
+		retinuesize = 200
+		
+		extra_tech_building_start = 1.0
+	}
+	
+	# Palace Archive
+	fk_warehouse_2 = {
+		desc = fk_warehouse_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 250
+		build_time = 1095
+		upgrades_from = fk_warehouse_1
+		prerequisites = { fk_mansion_2 }
+		ai_creation_factor = 99
+		
+		stewardship = 1
+		land_morale = 0.2
+		levy_reinforce_rate = 0.2
+		retinuesize = 400
+		
+		extra_tech_building_start = 2.5
+	}
+	
+	# Administrative Office
+	fk_warehouse_3 = {
+		desc = fk_warehouse_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 350
+		build_time = 1460
+		upgrades_from = fk_warehouse_2
+		prerequisites = { fk_mansion_3 }
+		ai_creation_factor = 98
+		
+		stewardship = 1
+		land_morale = 0.3
+		levy_reinforce_rate = 0.3
+		retinuesize = 600
+		
+		extra_tech_building_start = 4.0
+	}
+	
+	# Palace Garden
+	fk_garden_1 = {
+		desc = fk_garden_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = { 
+			FROM = {
+				capital_holding = {
+					title = FROMFROM
+				}
+			}
+		}
+		gold_cost = 150
+		build_time = 730
+		ai_creation_factor = 100
+		
+		monthly_character_prestige = 0.20
+		
+		extra_tech_building_start = 1.0
+	}
+	
+	# Scenic Pond
+	fk_garden_2 = {
+		desc = fk_garden_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 250
+		build_time = 1095
+		ai_creation_factor = 99
+
+		upgrades_from = fk_garden_1
+		prerequisites = { fk_mansion_2 }
+
+		diplomacy = 1
+		monthly_character_prestige = 0.30
+		
+		extra_tech_building_start = 2.5
+	}
+	
+	# Hedge Maze
+	fk_garden_3 = {
+		desc = fk_garden_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 350
+		build_time = 1460
+		ai_creation_factor = 98
+
+		upgrades_from = fk_garden_2
+		prerequisites = { fk_mansion_3 }
+
+		diplomacy = 1
+		monthly_character_prestige = 0.50
+		
+		extra_tech_building_start = 4.0
+	}
+	
+	# Wine Cellar
+	fk_cellar_1 = {
+		desc = fk_cellar_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = { 
+			FROM = {
+				capital_holding = {
+					title = FROMFROM
+				}
+			}
+		}
+		gold_cost = 150
+		build_time = 730
+		ai_creation_factor = 100
+		
+		fertility = 0.1
+		
+		extra_tech_building_start = 1.0
+	}
+	
+	# Catacombs
+	fk_cellar_2 = {
+		desc = fk_cellar_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 250
+		build_time = 1095
+		ai_creation_factor = 99
+
+		upgrades_from = fk_cellar_1
+		prerequisites = { fk_mansion_2 }
+		
+		martial = 1
+		monthly_character_piety = 0.25
+		
+		extra_tech_building_start = 2.5
+	}
+	
+	# Dungeon Complex
+	fk_cellar_3 = {
+		desc = fk_cellar_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 350
+		build_time = 1460
+		ai_creation_factor = 98
+		
+		upgrades_from = fk_cellar_2
+		prerequisites = { fk_mansion_3 }
+		
+		martial = 1
+		monthly_character_prestige = 0.25
+		
+		extra_tech_building_start = 4.0
+	}
+	
+	# Secluded Shrine
+	fk_shrine_1 = {
+		desc = fk_shrine_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = { 
+			FROM = {
+				capital_holding = {
+					title = FROMFROM
+				}
+			}
+		}
+		gold_cost = 150
+		build_time = 730
+		ai_creation_factor = 100
+		
+		church_opinion = 10
+		monthly_character_piety = 0.10
+		
+		extra_tech_building_start = 1.0
+	}
+	
+	# Private Art Collection
+	fk_shrine_2 = {
+		desc = fk_shrine_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 250
+		build_time = 1095
+		upgrades_from = fk_shrine_1
+		prerequisites = { fk_mansion_2 }
+		ai_creation_factor = 99
+		
+		learning = 1
+		monthly_character_piety = 0.25
+		
+		extra_tech_building_start = 2.5
+	}
+	
+	# Grand Library
+	fk_shrine_3 = {
+		desc = fk_shrine_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 350
+		build_time = 1460
+		upgrades_from = fk_shrine_2
+		prerequisites = { fk_mansion_3 }
+		ai_creation_factor = 98
+		
+		learning = 1
+		monthly_character_piety = 0.50
+		
+		extra_tech_building_start = 4.0
+	}
+	
+	# Fortified Vault
+	fk_vault_1 = {
+		desc = fk_vault_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = { 
+			FROM = {
+				capital_holding = {
+					title = FROMFROM
+				}
+			}
+		}
+		gold_cost = 150
+		build_time = 730
+		ai_creation_factor = 100
+		
+		tax_income = 4
+		
+		extra_tech_building_start = 1.0
+	}
+	
+	# Secret Passages
+	fk_vault_2 = {
+		desc = fk_vault_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 250
+		build_time = 1095
+		upgrades_from = fk_vault_1
+		prerequisites = { fk_mansion_2 }
+		ai_creation_factor = 99
+		
+		tax_income = 5
+		intrigue = 1
+		
+		extra_tech_building_start = 2.5
+	}
+	
+	# Hidden Chamber
+	fk_vault_3 = {
+		desc = fk_vault_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 350
+		build_time = 1460
+		upgrades_from = fk_vault_2
+		prerequisites = { fk_mansion_3 }
+		ai_creation_factor = 98
+		
+		tax_income = 6
+		intrigue = 1
+		
+		extra_tech_building_start = 4.0
+	}
+}

@@ -1,0 +1,17 @@
+# c_ammiya
+
+# County Title
+title = c_ammiya
+
+# Settlements
+max_settlements = 3
+
+b_ammiya = castle
+b_kusbat = city
+b_ardara = temple
+
+# Misc
+culture = phoenician
+religion = canaanite_religion
+
+#History

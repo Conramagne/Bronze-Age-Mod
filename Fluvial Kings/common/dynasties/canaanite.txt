@@ -1,6 +1,6 @@
 #IDS from 2300000-2399999
 
-#Israelite Names (2300000-2300999)
+#Preset Canaanite Names (2300000-2300999)
 2300000 = {
 	name = "HaReuvni"
 	culture = "israelite"
@@ -79,40 +79,40 @@
 2300015 = {
 	name = "ben Beor"
 	culture = "canaanite"
-	used_for_random = no
 }
 2300016 = {
 	name = "ben Zippor"
 	culture = "canaanite"
-	used_for_random = no
 }
 2300017 = {
 	name = "ben Og"
 	culture = "amorite"
-	used_for_random = no
 }
 2300018 = {
-	name = "ben Yehawwielon"
+	name = "ben Tubal-cain"
 	culture = "canaanite"
-	used_for_random = no
 }
 2300019 = {
-	name = "ben Hamicorus"
+	name = "ben Ashzaph"
 	culture = "canaanite"
-	used_for_random = no
 }
 2300020 = {
 	name = "ben Abdosir"
 	culture = "canaanite"
-	used_for_random = no
 }
 2300021 = {
 	name = "ben Hazael"
 	culture = "aramean"
-	used_for_random = no
 }
 2300022 = {
 	name = "ben Abi-Baal"
 	culture = "phoenician"
-	used_for_random = no
+}
+2300023 = {
+	name = "ben Ba'alat-Remeg"
+	culture = "phoenician"
+}
+2300024 = {
+	name = "ben Yaroah"
+	culture = "phoenician"
 }

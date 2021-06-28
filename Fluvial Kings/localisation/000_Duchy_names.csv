@@ -3,22 +3,32 @@ d_achaea;Achaea;Achaea;Achaea;;Achaea;;;;;;;;;x
 d_achaea_adj;Achaean;;acher;;;;;;;;;;;x
 d_ambara;Ambara;Ambara;Ambara;;Ambara;;;;;;;;;x
 d_ambara_adj;Ambaran;;ambarer;;;;;;;;;;;x
+d_amurru;Amurru;Amurru;Amurru;;Amurru;;;;;;;;;x
+d_amurru_adj;Amurrian;;amurrer;;;;;;;;;;;x
 d_apasa;Apasa;Apasa;Apasa;;Apasa;;;;;;;;;x
 d_apasa_adj;Apasan;;apaser;;;;;;;;;;;x
 d_arcadia;Arcadia;Arcadia;Arcadia;;Arcadia;;;;;;;;;x
 d_arcadia_adj;Arcadian;;arcader;;;;;;;;;;;x
 d_argolis;Argolis;Argolis;Argolis;;Argolis;;;;;;;;;x
 d_argolis_adj;Argolisian;;argoliser;;;;;;;;;;;x
+d_astata;Astata;Astata;Astata;;Astata;;;;;;;;;x
+d_astata_adj;Astatan;;astater;;;;;;;;;;;x
 d_attica;Attica;Attica;Attica;;Attica;;;;;;;;;x
 d_attica_adj;Attican;;atticer;;;;;;;;;;;x
 d_bashan;Bashan;Bashan;Bashan;;Bashan;;;;;;;;;x
 d_bashan_adj;Bashanian;;bashaner;;;;;;;;;;;x
 d_beru;Be'ru;Be'ru;Be'ru;;Be'ru;;;;;;;;;x
 d_beru_adj;Be'rian;;be'rer;;;;;;;;;;;x
+d_bisuru;Bisuru;Bisuru;Bisuru;;Bisuru;;;;;;;;;x
+d_bisuru_adj;Bisurian;;bisurer;;;;;;;;;;;x
+d_bit_agusi;Bit Agusi;Bit Agusi;Bit Agusi;;Bit Agusi;;;;;;;;;x
+d_bit_agusi_adj;Bit Agusian;;Bit Aguser;;;;;;;;;;;x
 d_boetica;Boetica;Boetica;Boetica;;Boetica;;;;;;;;;x
 d_boetica_adj;Boetican;;boeticer;;;;;;;;;;;x
 d_chalkidiki;Chalkidiki;Chalkidiki;Chalkidiki;;Chalkidiki;;;;;;;;;x
 d_chalkidiki_adj;Chalkidikian;;chalkidiker;;;;;;;;;;;x
+d_dammasseq;Dammasseq;Dammasseq;Dammasseq;;Dammasseq;;;;;;;;;x
+d_dammasseq_adj;Dammasseqian;;dammasseqer;;;;;;;;;;;x
 d_dolopia;Dolopia;Dolopia;Dolopia;;Dolopia;;;;;;;;;x
 d_dolopia_adj;Dolopian;;doloper;;;;;;;;;;;x
 d_edom;Edom;Edom;Edom;;Edom;;;;;;;;;x
@@ -33,6 +43,8 @@ d_gaza;Gaza;Gaza;Gaza;;Gaza;;;;;;;;;x
 d_gaza_adj;Gazan;;gazer;;;;;;;;;;;x
 d_gilead;Gilead;Gilead;Gilead;;Gilead;;;;;;;;;x
 d_gilead_adj;Gileadian;;gileader;;;;;;;;;;;x
+d_gubla;Gubla;Gubla;Gubla;;Gubla;;;;;;;;;x
+d_gubla_adj;Gublan;;gubler;;;;;;;;;;;x
 d_hapalla;Hapalla;Hapalla;Hapalla;;Hapalla;;;;;;;;;x
 d_hapalla_adj;Hapallan;;hapaller;;;;;;;;;;;x
 d_hatti;Hatti;Hatti;Hatti;;Hatti;;;;;;;;;x
@@ -47,6 +59,8 @@ d_kalasma;Kalasma;Kalasma;Kalasma;;Kalasma;;;;;;;;;x
 d_kalasma_adj;Kalasman;;kalasmer;;;;;;;;;;;x
 d_kamalla;Kamalla;Kamalla;Kamalla;;Kamalla;;;;;;;;;x
 d_kamalla_adj;Kamallan;;kamaller;;;;;;;;;;;x
+d_karkemish;Karkemish;Karkemish;Karkemish;;Karkemish;;;;;;;;;x
+d_karkemish_adj;Karkemishian;;karkemisher;;;;;;;;;;;x
 d_karkiya;Karkiya;Karkiya;Karkiya;;Karkiya;;;;;;;;;x
 d_karkiya_adj;Karkiyan;;karker;;;;;;;;;;;x
 d_kaska;Kaska;Kaska;Kaska;;Kaska;;;;;;;;;x
@@ -91,6 +105,10 @@ d_mira;Mira;Mira;Mira;;Mira;;;;;;;;;x
 d_mira_adj;Miran;;mirer;;;;;;;;;;;x
 d_moab;Moab;Moab;Moab;;Moab;;;;;;;;;x
 d_moab_adj;Moabian;;moaber;;;;;;;;;;;x
+d_mukis;Mukis;Mukis;Mukis;;Mukis;;;;;;;;;x
+d_mukis_adj;Mukisian;;mukiser;;;;;;;;;;;x
+d_nuhasse;Nuhasse;Nuhasse;Nuhasse;;Nuhasse;;;;;;;;;x
+d_nuhasse_adj;Nuhassean;;nuhasser;;;;;;;;;;;x
 d_ozolian_lokris;Ozolian Lokris;Ozolian Lokris;Ozolian Lokris;;Ozolian Lokris;;;;;;;;;x
 d_ozolian_lokris_adj;Ozolian Lokrisian;;Ozolian Lokriser;;;;;;;;;;;x
 d_paphos;Paphos;Paphos;Paphos;;Paphos;;;;;;;;;x
@@ -125,6 +143,8 @@ d_thessalia;Thessalia;Thessalia;Thessalia;;Thessalia;;;;;;;;;x
 d_thessalia_adj;Thessalian;;thessaler;;;;;;;;;;;x
 d_thraki;Thraki;Thraki;Thraki;;Thraki;;;;;;;;;x
 d_thraki_adj;Thrakian;;thraker;;;;;;;;;;;x
+d_ugarit;Ugarit;Ugarit;Ugarit;;Ugarit;;;;;;;;;x
+d_ugarit_adj;Ugaritian;;ugariter;;;;;;;;;;;x
 d_voreios_aigaion;Voreios Aigaion;Voreios Aigaion;Voreios Aigaion;;Voreios Aigaion;;;;;;;;;x
 d_voreios_aigaion_adj;Voreios Aigaionian;;Voreios Aigaioner;;;;;;;;;;;x
 d_wilusa;Wilusa;Wilusa;Wilusa;;Wilusa;;;;;;;;;x

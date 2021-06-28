@@ -1,0 +1,8 @@
+2000.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2525.1.1={
+	liege = e_hittite_empire
+	holder = 2003011
+}

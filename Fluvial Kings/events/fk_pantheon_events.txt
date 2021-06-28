@@ -721,10 +721,11 @@ character_event = {
 	}
 }
 
-#Random event to make gods angry over betrayal
+#Random event to make gods angry over betrayal (on_yearly_pulse)
 character_event = {
 	id = fkp.303
 	hide_window = yes
+	is_triggered_only = yes
 	trigger = {
 		has_character_flag = flag_god
 		OR = {
@@ -735,10 +736,7 @@ character_event = {
 			trait = qaws
 		}
 	}
-	mean_time_to_happen = {
-		days = 1
-	}
-	
+
 	immediate = {
 		any_playable_ruler = {
 			limit = {
@@ -749,7 +747,7 @@ character_event = {
 				can_contact_god_trigger = yes
 				has_appropriate_head_god_law = yes
 				NOT = {
-					reverse_opinion = {
+					reverse_has_opinion_modifier = {
 						who = ROOT
 						modifier = opinion_betrayed_devotion
 					}
@@ -768,10 +766,6 @@ character_event = {
 						has_opinion_modifier = {
 							who = PREV
 							modifier = opinion_large_sacrifice
-						}
-						has_opinion_modifier = {
-							who = PREV
-							modifier = opinion_small_sacrifice
 						}
 					}
 					NOT = {
@@ -1532,9 +1526,8 @@ character_event = {
 	trigger = {
 		has_character_flag = flag_god
 	}
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
+	
 	immediate = {
 		clear_wealth = yes
 		remove_trait = is_fat

@@ -2,21 +2,21 @@ e_canaan = {
 	color={ 85 255 165 }
 	color2={ 255 255 20 }
 	
-	capital = 233 # c_beru
+	capital = 240 # c_beru
 	
 	k_put = {
 		color={ 75 9 160 }
 		color2={ 255 255 255 }
 		
-		capital = 233 # c_beru
+		capital = 240 # c_beru
 		
 		d_beru = {
 			color={ 55 29 150 }
 			color2={ 255 255 255 }
 			
-			capital = 233 # c_beru
+			capital = 240 # c_beru
 			
-			c_beru = { # 233
+			c_beru = { # 240
 				color={ 45 39 145 }
 				color2={ 255 255 255 }
 				
@@ -29,14 +29,14 @@ e_canaan = {
 				b_harisu = {
 				}
 			}
-			c_danabu = { # 236
+			c_danabu = { # 243
 				color={ 88 129 151 }
 				color2={ 255 255 255 }
 				
 				b_danabu = {
 				}
 			}
-			c_kumidi = { # 235
+			c_kumidi = { # 242
 				color={ 54 44 212 }
 				color2={ 255 255 255 }
 				
@@ -47,7 +47,7 @@ e_canaan = {
 				b_sazana = {
 				}
 			}
-			c_sobah = { # 234
+			c_sobah = { # 241
 				color={ 62 56 162 }
 				color2={ 255 255 255 }
 				
@@ -57,13 +57,51 @@ e_canaan = {
 				}
 			}
 		}
+		d_gubla = {
+			color={ 127 73 126 }
+			color2={ 255 255 255 }
+			
+			capital = 249 # c_gubla
+			
+			c_gubla = { # 249
+				color={ 117 83 121 }
+				color2={ 255 255 255 }
+				
+				b_gubla = {
+				}
+				b_sigata = {
+				}
+				b_batruna = {
+				}
+			}
+			c_ammiya = { # 251
+				color={ 118 68 137 }
+				color2={ 255 255 255 }
+				
+				b_ammiya = {
+				}
+				b_kusbat = {
+				}
+				b_ardara = {
+				}
+			}
+			c_halpa = { # 250
+				color={ 134 112 109 }
+				color2={ 255 255 255 }
+				
+				b_halpa = {
+				}
+				b_irqata = {
+				}
+			}
+		}
 		d_sidon = {
 			color={ 66 43 106 }
 			color2={ 255 255 255 }
 			
-			capital = 237 # c_sur
+			capital = 244 # c_sur
 			
-			c_sur = { # 237
+			c_sur = { # 244
 				color={ 56 53 101 }
 				color2={ 255 255 255 }
 				
@@ -74,7 +112,7 @@ e_canaan = {
 				b_qana = {
 				}
 			}
-			c_akko = { # 239
+			c_akko = { # 246
 				color={ 62 56 151 }
 				color2={ 255 255 255 }
 				
@@ -87,7 +125,7 @@ e_canaan = {
 				b_kabul = {
 				}
 			}
-			c_dan = { # 241
+			c_dan = { # 248
 				color={ 62 56 201 }
 				color2={ 255 255 255 }
 				
@@ -98,7 +136,7 @@ e_canaan = {
 				b_qedes = {
 				}
 			}
-			c_rimmon = { # 240
+			c_rimmon = { # 247
 				color={ 69 31 136 }
 				color2={ 255 255 255 }
 				
@@ -109,7 +147,7 @@ e_canaan = {
 				b_chesulloth = {
 				}
 			}
-			c_sidon = { # 238
+			c_sidon = { # 245
 				color={ 64 60 124 }
 				color2={ 255 255 255 }
 				
@@ -121,18 +159,18 @@ e_canaan = {
 		}
 	}
 	k_ever_hayarden = {
-		color={ 123 33 181 }
+		color={ 171 59 51 }
 		color2={ 255 255 255 }
 		
-		capital = 250 # c_mahanayim
+		capital = 260 # c_mahanayim
 		
 		d_gilead = {
-			color={ 103 53 171 }
+			color={ 199 128 42 }
 			color2={ 255 255 255 }
 			
-			capital = 250 # c_mahanayim
+			capital = 260 # c_mahanayim
 			
-			c_mahanayim = { # 250
+			c_mahanayim = { # 260
 				color={ 93 63 166 }
 				color2={ 255 255 255 }
 				
@@ -145,7 +183,7 @@ e_canaan = {
 				b_kamon = {
 				}
 			}
-			c_jazer = { # 251
+			c_jazer = { # 261
 				color={ 63 61 113 }
 				color2={ 255 255 255 }
 				
@@ -154,7 +192,7 @@ e_canaan = {
 				b_yogbehah = {
 				}
 			}
-			c_rabbat_ammon = { # 253
+			c_rabbat_ammon = { # 263
 				color={ 52 197 158 }
 				color2={ 255 255 255 }
 				
@@ -163,7 +201,7 @@ e_canaan = {
 				b_abel_keramim = {
 				}
 			}
-			c_ramoth = { # 252
+			c_ramoth = { # 262
 				color={ 102 131 166 }
 				color2={ 255 255 255 }
 				
@@ -179,9 +217,9 @@ e_canaan = {
 			color={ 92 106 187 }
 			color2={ 255 255 255 }
 			
-			capital = 254 # c_geshur
+			capital = 264 # c_geshur
 			
-			c_geshur = { # 254
+			c_geshur = { # 264
 				color={ 102 96 192 }
 				color2={ 255 255 255 }
 				
@@ -192,7 +230,7 @@ e_canaan = {
 				b_geter = {
 				}
 			}
-			c_kenatha = { # 255
+			c_kenatha = { # 265
 				color={ 52 151 129 }
 				color2={ 255 255 255 }
 				
@@ -204,9 +242,9 @@ e_canaan = {
 			color={ 163 78 101 }
 			color2={ 255 255 255 }
 			
-			capital = 256 # c_ar
+			capital = 266 # c_ar
 			
-			c_ar = { # 256
+			c_ar = { # 266
 				color={ 153 88 96 }
 				color2={ 255 255 255 }
 				
@@ -217,7 +255,7 @@ e_canaan = {
 				b_balu = {
 				}
 			}
-			c_dibon = { # 257
+			c_dibon = { # 267
 				color={ 98 95 142 }
 				color2={ 255 255 255 }
 				
@@ -230,7 +268,7 @@ e_canaan = {
 				b_hesbon = {
 				}
 			}
-			c_qir_hareset = { # 258
+			c_qir_hareset = { # 268
 				color={ 172 118 70 }
 				color2={ 255 255 255 }
 				
@@ -239,7 +277,7 @@ e_canaan = {
 				b_horonayim = {
 				}
 			}
-			c_yahas = { # 259
+			c_yahas = { # 269
 				color={ 81 73 66 }
 				color2={ 255 255 255 }
 				
@@ -254,15 +292,15 @@ e_canaan = {
 		color={ 151 15 73 }
 		color2={ 255 255 255 }
 		
-		capital = 271 # c_zoar
+		capital = 281 # c_zoar
 		
 		d_edom = {
 			color={ 131 35 63 }
 			color2={ 255 255 255 }
 			
-			capital = 271 # c_zoar
+			capital = 281 # c_zoar
 			
-			c_zoar = { # 271
+			c_zoar = { # 281
 				color={ 121 45 58 }
 				color2={ 255 255 255 }
 				
@@ -271,7 +309,7 @@ e_canaan = {
 				b_luhit = {
 				}
 			}
-			c_bosra = { # 274
+			c_bosra = { # 284
 				color={ 146 72 85 }
 				color2={ 255 255 255 }
 				
@@ -280,21 +318,21 @@ e_canaan = {
 				b_punon = {
 				}
 			}
-			c_ezion_geber = { # 275
+			c_ezion_geber = { # 285
 				color={ 221 60 46 }
 				color2={ 255 255 255 }
 				
 				b_ezion_geber = {
 				}
 			}
-			c_kadesh_barnea = { # 272
+			c_kadesh_barnea = { # 282
 				color={ 55 95 220 }
 				color2={ 255 255 255 }
 				
 				b_kadesh_barnea = {
 				}
 			}
-			c_talmar = { # 273
+			c_talmar = { # 283
 				color={ 156 106 72 }
 				color2={ 255 255 255 }
 				
@@ -309,15 +347,15 @@ e_canaan = {
 		color={ 94 74 127 }
 		color2={ 255 255 255 }
 		
-		capital = 264 # c_ashdod
+		capital = 274 # c_ashdod
 		
 		d_gath = {
 			color={ 74 94 117 }
 			color2={ 255 255 255 }
 			
-			capital = 264 # c_ashdod
+			capital = 274 # c_ashdod
 			
-			c_ashdod = { # 264
+			c_ashdod = { # 274
 				color={ 64 104 112 }
 				color2={ 255 255 255 }
 				
@@ -330,7 +368,7 @@ e_canaan = {
 				b_baalat = {
 				}
 			}
-			c_ekron = { # 267
+			c_ekron = { # 277
 				color={ 53 61 164 }
 				color2={ 255 255 255 }
 				
@@ -343,7 +381,7 @@ e_canaan = {
 				b_sorah = {
 				}
 			}
-			c_gath = { # 265
+			c_gath = { # 275
 				color={ 121 150 145 }
 				color2={ 255 255 255 }
 				
@@ -354,7 +392,7 @@ e_canaan = {
 				b_azeqah = {
 				}
 			}
-			c_gath_rimmon = { # 266
+			c_gath_rimmon = { # 276
 				color={ 77 83 156 }
 				color2={ 255 255 255 }
 				
@@ -370,16 +408,16 @@ e_canaan = {
 			color={ 70 175 149 }
 			color2={ 255 255 255 }
 			
-			capital = 268 # c_asqelon
+			capital = 278 # c_asqelon
 			
-			c_asqelon = { # 268
+			c_asqelon = { # 278
 				color={ 80 165 154 }
 				color2={ 255 255 255 }
 				
 				b_asqelon = {
 				}
 			}
-			c_azza = { # 270
+			c_azza = { # 280
 				color={ 57 130 188 }
 				color2={ 255 255 255 }
 				
@@ -390,7 +428,7 @@ e_canaan = {
 				b_yurza = {
 				}
 			}
-			c_siqlag = { # 269
+			c_siqlag = { # 279
 				color={ 72 204 214 }
 				color2={ 255 255 255 }
 				
@@ -407,15 +445,15 @@ e_canaan = {
 		color={ 128 42 187 }
 		color2={ 255 255 255 }
 		
-		capital = 242 # c_yerushalaim
+		capital = 252 # c_yerushalaim
 		
 		d_yisrael = {
 			color={ 108 62 177 }
 			color2={ 255 255 255 }
 			
-			capital = 242 # c_yerushalaim
+			capital = 252 # c_yerushalaim
 			
-			c_yerushalaim = { # 242
+			c_yerushalaim = { # 252
 				color={ 98 72 172 }
 				color2={ 255 255 255 }
 				
@@ -435,7 +473,7 @@ e_canaan = {
 				b_ramah = {
 				}
 			}
-			c_dor = { # 243
+			c_dor = { # 253
 				color={ 92 88 136 }
 				color2={ 255 255 255 }
 				
@@ -448,22 +486,23 @@ e_canaan = {
 				b_yoqneam = {
 				}
 			}
-			c_efraim = { # 246
+			c_efraim = { # 256
 				color={ 102 96 193 }
 				color2={ 255 255 255 }
 				
 				b_gezer = {
 				}
-				b_siloh = {
-				}
 				b_beyt_el = {
+				}
+				b_shiloh = {
+					holy_site = berith
 				}
 				b_beyt_horon = {
 				}
 				b_ay = {
 				}
 			}
-			c_gath_padalla = { # 244
+			c_gath_padalla = { # 254
 				color={ 85 124 134 }
 				color2={ 255 255 255 }
 				
@@ -474,7 +513,7 @@ e_canaan = {
 				b_heper = {
 				}
 			}
-			c_gilgal = { # 249
+			c_gilgal = { # 259
 				color={ 76 126 130 }
 				color2={ 255 255 255 }
 				
@@ -487,7 +526,7 @@ e_canaan = {
 				b_saretan = {
 				}
 			}
-			c_hasor = { # 248
+			c_hasor = { # 258
 				color={ 92 68 140 }
 				color2={ 255 255 255 }
 				
@@ -498,7 +537,7 @@ e_canaan = {
 				b_cammat = {
 				}
 			}
-			c_shomron = { # 245
+			c_shomron = { # 255
 				color={ 143 139 203 }
 				color2={ 255 255 255 }
 				
@@ -511,7 +550,7 @@ e_canaan = {
 				b_tebes = {
 				}
 			}
-			c_yisrael = { # 247
+			c_yisrael = { # 257
 				color={ 80 50 167 }
 				color2={ 255 255 255 }
 				
@@ -527,9 +566,9 @@ e_canaan = {
 			color={ 49 120 150 }
 			color2={ 255 255 255 }
 			
-			capital = 260 # c_lakis
+			capital = 270 # c_lakis
 			
-			c_lakis = { # 260
+			c_lakis = { # 270
 				color={ 39 130 145 }
 				color2={ 255 255 255 }
 				
@@ -542,14 +581,14 @@ e_canaan = {
 				b_moreset_gat = {
 				}
 			}
-			c_beer_sheva = { # 263
+			c_beer_sheva = { # 273
 				color={ 71 40 168 }
 				color2={ 255 255 255 }
 				
 				b_beer_sheva = {
 				}
 			}
-			c_estemoa = { # 262
+			c_estemoa = { # 272
 				color={ 38 102 150 }
 				color2={ 255 255 255 }
 				
@@ -562,7 +601,7 @@ e_canaan = {
 				b_yattir = {
 				}
 			}
-			c_hevron = { # 261
+			c_hevron = { # 271
 				color={ 66 117 148 }
 				color2={ 255 255 255 }
 				
@@ -571,6 +610,7 @@ e_canaan = {
 				b_beyt_sur = {
 				}
 				b_eyn_gedi = {
+					holy_site = berith
 				}
 				b_zip = {
 				}

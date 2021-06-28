@@ -187,7 +187,7 @@ EVTOPTCFKREL100;"I devote myself to you, Exalted Son of Tarhunna, Prince of all.
 EVTOPTAFKREL101;"I devote myself to you who greatest shines upon Horseback...";;;;;;;;;;;;;x
 EVTOPTBFKREL101;"I devote myself to you Guiding Spear upon the Plains...";;;;;;;;;;;;;x
 EVTOPTCFKREL101;"I devote myself to you oh Lord who brings life to every soul...";;;;;;;;;;;;;x
-EVTOPTCFKREL101;"I devote myself to you Great Mother who shields us from harm...";;;;;;;;;;;;;x
+EVTOPTDFKREL101;"I devote myself to you Great Mother who shields us from harm...";;;;;;;;;;;;;x
 
 EVTOPTAFKREL102;"I devote myself to you oh Lord of Creation...";;;;;;;;;;;;;x
 EVTOPTBFKREL102;"I devote myself to you Master of Thunder...";;;;;;;;;;;;;x
@@ -246,8 +246,8 @@ EVTOPTAFKR222;What a horrible sight!;;;;;;;;;;;;;x
 
 #Changes in Palace Bureaucracy
 
-EVTDESCFKR255;Diplomacy: [Root.diplomacy_number_bureaucracy.GetValue] | Martial: [Root.martial_number_bureaucracy.GetValue] | Stewardship: [Root.stewardship_number_bureaucracy.GetValue] | Learning: [Root.learning_number_bureaucracy.GetValue] | Positive Traits: [Root.trait_bonus_bureaucracy.GetValue] | Quality Councilors: [Root.councilor_bonus_bureaucracy.GetValue] | Quality Vassals: [Root.vassal_bonus_bureaucracy.GetValue] | Negative Traits: [Root.trait_penalty_bureaucracy.GetValue] | Poor Councilors: [Root.councilor_penalty_bureaucracy.GetValue] | Poor Vassals: [Root.vassal_penalty_bureaucracy.GetValue];;;;;;;;;;;;;x
-EVTOPTAFKR255;Ok;;;;;;;;;;;;;x
+# EVTDESCFKR255;Diplomacy: [Root.diplomacy_number_bureaucracy.GetValue] | Martial: [Root.martial_number_bureaucracy.GetValue] | Stewardship: [Root.stewardship_number_bureaucracy.GetValue] | Learning: [Root.learning_number_bureaucracy.GetValue] | Positive Traits: [Root.trait_bonus_bureaucracy.GetValue] | Quality Councilors: [Root.councilor_bonus_bureaucracy.GetValue] | Quality Vassals: [Root.vassal_bonus_bureaucracy.GetValue] | Negative Traits: [Root.trait_penalty_bureaucracy.GetValue] | Poor Councilors: [Root.councilor_penalty_bureaucracy.GetValue] | Poor Vassals: [Root.vassal_penalty_bureaucracy.GetValue];;;;;;;;;;;;;x
+# EVTOPTAFKR255;Ok;;;;;;;;;;;;;x
 
 ##Decrease##
 EVTDESCFKR230;Your palace is filled with imbeciles, they have squandered the resources of your realm in displays of bloated inefficiency.;;;;;;;;;;;;;x
@@ -281,6 +281,8 @@ become_stratocrat;Become a Stratocrat;;;;;;;;;;;;;x
 become_stratocrat_desc;As a proud warrior whose blood is filled with that great martial spirit, you must lead your people and their strict martial hierarchy.;;;;;;;;;;;;;x
 reject_stratocracy;Rejected Stratocracy;;;;;;;;;;;;;x
 reject_stratocracy_desc;It is your choice to choose the path my people would go down, and you have decided to lead your people down a different path then your birthright entails.;;;;;;;;;;;;;x
+request_adopt_stratocracy;Request [Root.GetTitledFirstName] Become a Stratocrat;;;;;;;;;;;;;x
+request_adopt_stratocracy_desc;As the leader of a stratocracy, it is in my best interests to ensure that all my vassals are in line with stratocratic values. However, [Root.GetTitledFirstName] has not yet adopted a way of governance in line with what is required of [Root.GetHerHim]. I must send a request to ensure the strength of the realm.;;;;;;;;;;;;;x
 
 EVTDESCFKR301;As your stratocratic traditions evolve, you must maintain an always ready army to defeat the enemy in battle and grind down the subjugated people.;;;;;;;;;;;;;x
 
@@ -776,7 +778,7 @@ EVTOPTATW94;Will it work?;;;;;;;;;;;;;x
 EVTDESCTW95;It is complete, the great wooden horse towers over plains higher then the walls of Ilios itself. The host of the Achaeans will feign a retreat and wait for the Trojans to fall for the treachery.;;;;;;;;;;;;;x
 EVTOPTATW95;We are committed.;;;;;;;;;;;;;x
 
-EVTOPTATW60;The Trojan Horse;;;;;;;;;;;;;x
+EVTTITLETW68;The Trojan Horse;;;;;;;;;;;;;x
 EVTDESCTW68;It is complete, the great wooden horse towers over plains higher then the walls of Ilios itself. The host of the Achaeans will feign a retreat and wait for the Trojans to fall for the treachery.;;;;;;;;;;;;;x
 EVTOPTATW68;It will soon be over.;;;;;;;;;;;;;x
 
@@ -899,8 +901,8 @@ EVTTITLEFKCG3;The Ground Shakes!;;;;;;;;;;;;;x
 EVTDESCFKCG3;Disaster! The ground has opened up and caused devastation across the land many buildings in the land have been destroyed.;;;;;;;;;;;;;x
 EVTOPTAFKCG3;The land itself is angered!;;;;;;;;;;;;;x
 
-EVTDESCFKCG4;The Drought Receeds;;;;;;;;;;;;;x
-EVTOPTAFKCG4;Life has been brought back to the land of the Héllenes as the drought begins to receed. It shall still take many years for the land and the people to recover.;;;;;;;;;;;;;x
+EVTTITLEFKCG4;The Drought Receeds;;;;;;;;;;;;;x
+EVTDESCFKCG4;Life has been brought back to the land of the Héllenes as the drought begins to receed. It shall still take many years for the land and the people to recover.;;;;;;;;;;;;;x
 EVTOPTAFKCG4;It's as if we live after the end!;;;;;;;;;;;;;x
 
 EVTDESCFKCG7;The day is come to reclaim Father Herakles' birthright. Troops flock to my banner, and the land of the Héllenes lay prostrate.;;;;;;;;;;;;;x
@@ -914,13 +916,13 @@ EVTTITLEFKCG10;The Herakleîdai Take Argos;;;;;;;;;;;;;x
 EVTDESCFKCG10;Sing muses, of the fall of Argos! The old city of strong Inakhos has been defeated by the Herakleîdai. Dorians now flood the region, and the sons of Herakles rule the lands.;;;;;;;;;;;;;x
 EVTOPTAFKCG10;Woe unto the Argeîoi!;;;;;;;;;;;;;x
 
-EVTTITLEFKCG10;The Herakleîdai Take Lakonía;;;;;;;;;;;;;x
-EVTDESCFKCG10;Sing muses, of the fall of Lakonía! The fortresses of Menelaos have fallen to the Herakleîdai. Dorians now flood the region, and the sons of Herakles rule the lands.;;;;;;;;;;;;;x
-EVTOPTAFKCG10;Woe unto the Lákones!;;;;;;;;;;;;;x
+EVTTITLEFKCG11;The Herakleîdai Take Lakonía;;;;;;;;;;;;;x
+EVTDESCFKCG11;Sing muses, of the fall of Lakonía! The fortresses of Menelaos have fallen to the Herakleîdai. Dorians now flood the region, and the sons of Herakles rule the lands.;;;;;;;;;;;;;x
+EVTOPTAFKCG11;Woe unto the Lákones!;;;;;;;;;;;;;x
 
-EVTTITLEFKCG11;The Herakleîdai Take Púlos;;;;;;;;;;;;;x
-EVTDESCFKCG11;Sing muses, of the fall of Púlos! The palace of crafty Nestor have fallen to the Herakleîdai. Dorians now flood the region, and the sons of Herakles rule the lands.;;;;;;;;;;;;;x
-EVTOPTAFKCG11;Woe unto the Púles!;;;;;;;;;;;;;x
+EVTTITLEFKCG12;The Herakleîdai Take Púlos;;;;;;;;;;;;;x
+EVTDESCFKCG12;Sing muses, of the fall of Púlos! The palace of crafty Nestor have fallen to the Herakleîdai. Dorians now flood the region, and the sons of Herakles rule the lands.;;;;;;;;;;;;;x
+EVTOPTAFKCG12;Woe unto the Púles!;;;;;;;;;;;;;x
 
 EVTTITLEFKCG14;Migration of the Héllenes;;;;;;;;;;;;;x
 EVTDESCFKCG14;The flood of Dorians into the heartlands of the Héllenes has become too great to ignore. Our society may not be able to withstand such a flood of men.;;;;;;;;;;;;;x
@@ -964,6 +966,10 @@ EVTOPTAFKCG30;Interesting;;;;;;;;;;;;;x
 EVTDESCFKCG33;The Aiolikoi have cemented their influence upon our land, their culture and faith are now near-native to the region.;;;;;;;;;;;;;x
 EVTOPTAFKCG33;Interesting;;;;;;;;;;;;;x
 
+expel_greeks;Expel the Héllenes;;;;;;;;;;;;;x
+expel_greeks_desc;Héllenes have recently began settling on our shores, in more numbers than ever. Although they have not resorted to violence yet, it is unknown if they are simply migrating or a group of marauders. Action must be taken against them for the safety of the land.;;;;;;;;;;;;;x
+
+
 EVTTITLEFKCG34;Expulsion of the Héllenes;;;;;;;;;;;;;x
 EVTDESCFKCG34;The Héllenes have flooded the land with their wives and children. I shall not bow down to these invaders. They must leave at once.;;;;;;;;;;;;;x
 EVTOPTAFKCG34;They shall be given gold to leave;;;;;;;;;;;;;x
@@ -986,6 +992,24 @@ EVTDESCFKCG38;Aiolikoi have settles in our lands in Arzawa. Although they seem t
 EVTOPTAFKCG38;Very interesting;;;;;;;;;;;;;x
 aeolian_migration;Aiolikos Migration;;;;;;;;;;;;;x
 
+EVTDESCFKCG40;The Aiolikoi have cemented their influence upon our land, their culture and faith are now near-native to the region.;;;;;;;;;;;;;x
+EVTOPTAFKCG40;Interesting;;;;;;;;;;;;;x
+
+EVTDESCFKCG41;Dorieús have settles in our lands in Arzawa. Although they seem to be simply migrants, they may soon cement their influence upon our people.;;;;;;;;;;;;;x
+EVTOPTAFKCG41;Very interesting;;;;;;;;;;;;;x
+dorian_migration;Dorieús Migration;;;;;;;;;;;;;x
+
+EVTDESCFKCG100;Events have taken a turn for the worst, as the droughts that terrorize the land now have completely broken. How shall I defend my lands from collapse?;;;;;;;;;;;;;x
+EVTOPTAFKCG100;I shall keep power, but only in my region.;;;;;;;;;;;;;x
+palatial_collapse_despotic_TT;Realms outside of your de jure capital duchy will break free;;;;;;;;;;;;;x
+set_bureaucracy_30_TT;Bureaucratic Efficiency it set to 30%;;;;;;;;;;;;;x
+palace_destruction_TT;All palaces in your realm will be destroyed;;;;;;;;;;;;;x
+EVTOPTBFKCG100;I shall keep to my capital city.;;;;;;;;;;;;;x
+palatial_collapse_city_state_TT;You will become a city-state and your county-level ex-vassals will become part of your league.;;;;;;;;;;;;;x
+
+local_rule;Local Rule;;;;;;;;;;;;;x
+resources_stretched_thin;Resources Stretched Thin;;;;;;;;;;;;;x
+
 #Anatolian
 EVTTITLEFKCA2;Drought Befalls Us;;;;;;;;;;;;;x
 EVTDESCFKCGA;The land is barren. Trees are gnarled. Fruits are dried on the vine. Drought befalls the land.;;;;;;;;;;;;;x
@@ -1007,6 +1031,8 @@ EVTOPTBFKCA6;I will give my blessing but not lead this army;;;;;;;;;;;;;x
 EVTTITLEFKCA7;Kaška Invasion;;;;;;;;;;;;;x
 EVTDESCFKCA7;Suffering from a great famine, the Kaška have armed themselves and now are marching towards the land of Hatti. Their numbers seem unending, and their soldiers are fierce.;;;;;;;;;;;;;x
 EVTOPTAFKCA7;Hatti lays prostrate...;;;;;;;;;;;;;x
+KASKIAN_INVASION;Kaška Invasion;;;;;;;;;;;;;x
+KASKIAN_INVASION_adj;Kaška;;;;;;;;;;;;;x
 
 EVTTITLEFKCA8;Kaška Invasion;;;;;;;;;;;;;x
 EVTDESCFKCA8;The Kaška stand victorious over the people of the land of Hatti as they return from their pillage. Their buildings are destroyed, their granaries are barren, and their civilized nature itself seems violated.;;;;;;;;;;;;;x
@@ -1014,12 +1040,15 @@ EVTOPTAAFKCA8;The land is now empty;;;;;;;;;;;;;x
 EVTOPTABFKCA8;Woeful are my lands!;;;;;;;;;;;;;x 
 
 EVTDESCFKCA10;The drought has begun to take a great toll on the land. The tribes are beckoning for me to invade the land of Hatti to feed our people.;;;;;;;;;;;;;x
+EVTOPTAFKCA10;We shall march on their lands!;;;;;;;;;;;;;x
 phrygian_invasion_TT;War will be declared on all independent lords in the land of Hatti;;;;;;;;;;;;;x
 EVTOPTBFKCA10;I will give my blessing but not lead this army;;;;;;;;;;;;;x
 
 EVTTITLEFKCA11;Phrugios Invasion;;;;;;;;;;;;;x
 EVTDESCFKCA11;Suffering from a great famine, the Phrugios have armed themselves and now are marching towards the land of Hatti. Their numbers seem unending, and their soldiers are fierce.;;;;;;;;;;;;;x
-EVTOPTAFKCA10;Hatti lays prostrate...;;;;;;;;;;;;;x
+EVTOPTAFKCA11;Hatti lays prostrate...;;;;;;;;;;;;;x
+PHRYGIAN_INVASION;Phrugios Invasion;;;;;;;;;;;;;x
+PHRYGIAN_INVASION_adj;Phrugios;;;;;;;;;;;;;x
 
 EVTTITLEFKCA12;Phrugios Invasion;;;;;;;;;;;;;x
 EVTDESCFKCA12;The Phrugios stand victorious as they settle in their new lands. Buildings are destroyed, granaries lay barren, and civilization has ceased in the their land.;;;;;;;;;;;;;x
@@ -1032,3 +1061,21 @@ judge_israel_desc;Judge this sins of the B'nei Yisra'el.;;;;;;;;;;;;;x
 
 become_syncretic_canaanite;Become Syncretic With [canaanite_religion.GetName];;;;;;;;;;;;;x
 become_syncretic_canaanite_desc;The God of Yisra'el has failed the people of your capital. It is time to hear their plight and pray to the gods of the B'nei Kena'an.;;;;;;;;;;;;;x
+
+EVTDESCFKC3;I have been attacked! An enemy of the B'nei Yisra'el has sent their armies towards my land. Although I am sure Shivtei Yisra'el will come to aid, maybe it is time for a single ruler to defend us in times of strife.;;;;;;;;;;;;;x
+EVTOPTAFKC3;We must unite!;;;;;;;;;;;;;x
+EVTOPTBFKC3;It is a foolish idea;;;;;;;;;;;;;x
+
+EVTDESCFKC4;[From.GetBestName] has requested that we join him in accepting [judge_of_israel.GetBestName] as the leader of Yisra'el.;;;;;;;;;;;;;x
+EVTOPTAFKC4;An excellent idea;;;;;;;;;;;;;x
+EVTOPTBFKC4;There is no shofét but [Root.GetHighGodName]!;;;;;;;;;;;;;x
+
+EVTDESCFKC5;[From.GetBestName] has asked asked me to repent for my sins and return to [Root.GetHighGodName].;;;;;;;;;;;;;x
+EVTOPTAFKC5;I have sinned!;;;;;;;;;;;;;x
+EVTOPTAFKC5;I have not done anything wrong;;;;;;;;;;;;;x
+
+EVTDESCFKC6;I have just received word that [From.GetBestName] has repented for their sins, and have returned to the fold.;;;;;;;;;;;;;x
+EVTOPTAFKC6;Excellent;;;;;;;;;;;;;x
+
+EVTDESCFKC7;[From.GetBestName] has refused to repent, and will surely be cursed by [Root.GetHighGodName].;;;;;;;;;;;;;x
+EVTOPTAFKC7;Damn them!;;;;;;;;;;;;;x

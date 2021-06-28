@@ -1,0 +1,16 @@
+# c_alalakh
+
+# County Title
+title = c_alalakh
+
+# Settlements
+max_settlements = 2
+
+b_alalakh = castle
+#b_urussa = city
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

@@ -7694,8 +7694,8 @@
 }
 
 #Kings of Moab  (2320100-2320199)
-2320100 = { #Abdmelqart, King of Edom
-	name = "Abdmelqart"
+2320100 = { #Ozem, King of Edom
+	name = "Ozem"
 	dynasty = 2300016 #ben Zippor
 	culture = canaanite
 	religion = canaanite_religion
@@ -7747,9 +7747,9 @@
 }
 
 #Kings of Gath  (2320300-2320399)
-2320300 = { #Yehawwielon, King of Gath
-	name = "Yehawwielon"
-	dynasty = 2300018 #ben Yehawwielon
+2320300 = { #Tubal-cain, King of Gath
+	name = "Tubal-cain"
+	dynasty = 2300018 #ben Tubal-cain
 	culture = canaanite
 	religion = canaanite_religion
 	2500.1.1 = { birth = yes }
@@ -7757,9 +7757,9 @@
 }
 
 #Kings of Gaza  (2320400-2320499)
-2320400 = { #Hamicorus, King of Gaza
-	name = "Hamicorus"
-	dynasty = 2300019 #ben Hamicorus
+2320400 = { #Ashzaph, King of Gaza
+	name = "Ashzaph"
+	dynasty = 2300019 #ben Ashzaph
 	culture = canaanite
 	religion = canaanite_religion
 	2505.1.1 = { birth = yes }
@@ -7792,6 +7792,28 @@
 	dynasty = 2300022 #ben Abi-Baal
 	culture = phoenician
 	religion = canaanite_religion #temporary
-	2502.1.1 = { birth = yes }
-	2562.1.1 = { death = yes }
+	2472.1.1 = { birth = yes }
+	2532.1.1 = { death = yes }
 }
+
+#Kings of Tyre  (2320800-2320899)
+2320800 = { #Ba'alat-Remeg, King of Tyre
+	name = "Ba'alat-Remeg"
+	dynasty = 2300023 #ben Ba'alat-Remeg
+	culture = phoenician
+	religion = canaanite_religion
+	2493.1.1 = { birth = yes }
+	2553.1.1 = { death = yes }
+}
+
+#Kings of Sidon  (2320000-2320099)
+2320900 = { #Yaroah, King of Sidon
+	name = "Yaroah"
+	dynasty = 2300024 #ben Yaroah
+	culture = phoenician
+	religion = canaanite_religion
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+

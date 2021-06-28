@@ -1,0 +1,15 @@
+# c_sumur
+
+# County Title
+title = c_sumur
+
+# Settlements
+max_settlements = 1
+
+b_sumur = castle
+
+# Misc
+culture = phoenician
+religion = canaanite_religion
+
+#History

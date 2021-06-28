@@ -10,7 +10,7 @@ b_seha = tribal
 #b_pergamon = city
 
 # Misc
-culture = mysian
+culture = luwian
 religion = haianiluwi
 
 #History

@@ -10,7 +10,7 @@ character_event = {
 	}
 	
 	immediate = {
-		161 = {
+		168 = {
 			add_province_modifier = {
 				name = trojan_walls
 				duration = -1
@@ -25,11 +25,6 @@ character_event = {
 				war_with = c_2200000 #Pariya-muwas
 			}
 			set_character_flag = flag_achaean
-			add_character_modifier = {
-				modifier = trojan_war_wealth
-				duration = -1
-				hidden = yes
-			}
 			spawn_unit = {
 				owner = THIS
 				leader = THIS
@@ -47,11 +42,6 @@ character_event = {
 				war_with = c_2101000 #Menelaos
 			}
 			set_character_flag = flag_trojan
-			add_character_modifier = {
-				modifier = trojan_war_wealth
-				duration = -1
-				hidden = yes
-			}
 			spawn_unit = {
 				owner = THIS
 				leader = THIS
@@ -66,11 +56,6 @@ character_event = {
 		}
 		c_2102101 = {
 			set_character_flag = flag_achaean
-			add_character_modifier = {
-				modifier = trojan_war_wealth
-				duration = -1
-				hidden = yes
-			}
 			spawn_unit = {
 				owner = THIS
 				leader = THIS
@@ -787,7 +772,7 @@ character_event = {
 	
 	option = { #Yes, but give me Briseis/gold, Akhilleus
 		name = EVTOPTATW12
-		custom_tooltip = {
+		hidden_tooltip = {
 			any_playable_ruler = {
 				limit = {
 					any_war = {
@@ -1006,10 +991,10 @@ character_event = {
 		is_incapable = no
 		prisoner = no
 		c_2101000 = { #Menelaos
-			at_location = 161 #Troy
+			at_location = 168 #Troy
 		}
 		c_2200004 = { #Paris
-			at_location = 161 #Troy
+			at_location = 168 #Troy
 		}
 	}
 	
@@ -1807,7 +1792,7 @@ character_event = {
 	desc = {
 		trigger = {
 			c_2100900 = { #Agamemnon
-				at_location = 161 #Troy
+				at_location = 168 #Troy
 			}
 		}
 		text = EVTDESCATW34
@@ -1816,14 +1801,14 @@ character_event = {
 		trigger = {
 			NOT = {
 				c_2100900 = { #Agamemnon
-					at_location = 161 #Troy
+					at_location = 168 #Troy
 				}
 			}
 		}
 		text = EVTDESCBTW34
 	}
 	trigger = {
-		at_location = 161 #Troy
+		at_location = 168 #Troy
 		character = c_2102101 #Achilles
 		has_global_flag = achilles_return
 	}
@@ -2051,7 +2036,7 @@ character_event = {
 						character = PREVPREV
 					}
 				}
-				at_location = 161 #Troy
+				at_location = 168 #Troy
 			}
 			character_event = { id = tw.40 } #Achaeans in Troy hold funeral games at the camp
 		}
@@ -2921,8 +2906,8 @@ character_event = {
 					is_alive = yes
 					is_incapable = no
 				}
-				character_event = { id = tw.58 days = 1 } #Someone comes to retrieve Philoktetes
 			}
+			character_event = { id = tw.58 days = 1 } #Someone comes to retrieve Philoktetes
 		}
 		else_if = {
 			limit = {
@@ -3204,8 +3189,8 @@ character_event = {
 					is_incapable = no
 					prisoner = no
 				}
-				character_event = { id = tw.63 days = 1 } #Someone comes to retrieve Pyrrhus
 			}
+			character_event = { id = tw.63 days = 1 } #Someone comes to retrieve Pyrrhus
 		}
 		if = {
 			limit = {
@@ -3924,7 +3909,7 @@ character_event = {
 		} 
 		else = {
 			hidden_tooltip = {
-				161 = { #Troy
+				168 = { #Troy
 					remove_province_modifier = trojan_walls
 				}
 				any_playable_ruler = {
@@ -3935,7 +3920,7 @@ character_event = {
 								character = PREVPREV
 							}
 						}
-						at_location = 161 #Troy
+						at_location = 168 #Troy
 					}
 					character_event = { id = tw.72 } #Achaeans leap out of the Trojan Horse
 				}
@@ -3989,7 +3974,7 @@ long_character_event = {
 			}
 		}
 		hidden_tooltip = {
-			161 = { #Troy
+			168 = { #Troy
 				remove_province_modifier = trojan_walls
 			}
 			any_playable_ruler = {
@@ -4000,7 +3985,7 @@ long_character_event = {
 							character = PREVPREV
 						}
 					}
-					at_location = 161 #Troy
+					at_location = 168 #Troy
 				}
 				character_event = { id = tw.72 } #Achaeans leap out of the Trojan Horse
 			}
@@ -4052,7 +4037,7 @@ character_event = {
 		if = {
 			limit = {
 				c_2101000 = { #Menelaos
-					at_location = 161 #Troy
+					at_location = 168 #Troy
 				}
 				c_2101002 = { #Helen
 					is_alive = yes
@@ -4076,13 +4061,13 @@ character_event = {
 			}
 		}
 		any_playable_ruler = {
-			character_event = { id = tw.74 } #Destruction of Troy
+			narrative_event = { id = tw.74 } #Destruction of Troy
 		}
 		if = {
 			limit = {
 				c_2102102 = { #Pyrrhus
 					is_alive = yes
-					at_location = 161 #Troy
+					at_location = 168 #Troy
 				}
 				c_2200000 = { #Pariya-muwas
 					is_alive = yes
@@ -4134,7 +4119,7 @@ character_event = {
 			}
 		}
 		c_2102000 = { #Ajax the Lesser
-			character_event = { id = tw.80 } #Ajax the Lesser spots Cassandra
+			long_character_event = { id = tw.80 } #Ajax the Lesser spots Cassandra
 		}
 	}	
 }
@@ -4245,7 +4230,7 @@ narrative_event = {
 						}
 					}
 				}
-				at_location = 161 #Troy
+				at_location = 168 #Troy
 			}
 			wealth = 300
 		}
@@ -4265,6 +4250,188 @@ narrative_event = {
 				end_war = success
 			}
 		}
+		if = {
+			limit = {
+				character = c_2101000
+			}
+			unsafe_destroy_landed_title = d_wilusa
+			c_truwisa = {
+				random_character = {
+					limit = {
+						culture = achaean
+						is_female = no
+						is_adult = yes
+						is_incapable = no
+						prisoner = no
+						is_landed = no
+						is_lowborn = yes
+					}
+					preferred_limit = {
+						location = {
+							region = world_asia_minor
+						}
+					}
+					grant_title = PREV
+				}
+				location = {
+					add_province_modifier = {
+						modifier = desolate_land
+						years = 20
+					}
+				}
+			}
+			c_tenedos = {
+				random_character = {
+					limit = {
+						culture = achaean
+						is_female = no
+						is_adult = yes
+						is_incapable = no
+						prisoner = no
+						is_landed = no
+						is_lowborn = yes
+					}
+					preferred_limit = {
+						location = {
+							region = world_asia_minor
+						}
+					}
+					grant_title = PREV
+				}
+				location = {
+					add_province_modifier = {
+						modifier = desolate_land
+						years = 20
+					}
+				}
+			}
+			c_abydos = {
+				random_character = {
+					limit = {
+						culture = achaean
+						is_female = no
+						is_adult = yes
+						is_incapable = no
+						prisoner = no
+						is_landed = no
+						is_lowborn = yes
+					}
+					preferred_limit = {
+						location = {
+							region = world_asia_minor
+						}
+					}
+					grant_title = PREV
+				}
+				location = {
+					add_province_modifier = {
+						modifier = desolate_land
+						years = 20
+					}
+				}
+			}
+			c_adramyttion = {
+				random_character = {
+					limit = {
+						culture = achaean
+						is_female = no
+						is_adult = yes
+						is_incapable = no
+						prisoner = no
+						is_landed = no
+						is_lowborn = yes
+					}
+					preferred_limit = {
+						location = {
+							region = world_asia_minor
+						}
+					}
+					grant_title = PREV
+				}
+				location = {
+					add_province_modifier = {
+						modifier = desolate_land
+						years = 20
+					}
+				}
+			}
+			c_thebe = {
+				random_character = {
+					limit = {
+						culture = achaean
+						is_female = no
+						is_adult = yes
+						is_incapable = no
+						prisoner = no
+						is_landed = no
+						is_lowborn = yes
+					}
+					preferred_limit = {
+						location = {
+							region = world_asia_minor
+						}
+					}
+					grant_title = PREV
+				}
+				location = {
+					add_province_modifier = {
+						modifier = desolate_land
+						years = 20
+					}
+				}
+			}
+			c_aisepos = {
+				random_character = {
+					limit = {
+						culture = achaean
+						is_female = no
+						is_adult = yes
+						is_incapable = no
+						prisoner = no
+						is_landed = no
+						is_lowborn = yes
+					}
+					preferred_limit = {
+						location = {
+							region = world_asia_minor
+						}
+					}
+					grant_title = PREV
+				}
+				location = {
+					add_province_modifier = {
+						modifier = desolate_land
+						years = 20
+					}
+				}
+			}
+			c_dardania = {
+				random_character = {
+					limit = {
+						culture = achaean
+						is_female = no
+						is_adult = yes
+						is_incapable = no
+						prisoner = no
+						is_landed = no
+						is_lowborn = yes
+					}
+					preferred_limit = {
+						location = {
+							region = world_asia_minor
+						}
+					}
+					grant_title = PREV
+				}
+				location = {
+					add_province_modifier = {
+						modifier = desolate_land
+						years = 20
+					}
+				}
+			}
+		}
+
 		if = {
 			limit = {
 				has_artifact = arrow_heracles
@@ -4299,19 +4466,33 @@ long_character_event = {
 	hide_from = yes
 	desc = {
 		trigger = {
-			at_location = 161 #Troy
+			at_location = 168 #Troy
 		}
 		text = EVTDESCATW75
 	}
 	desc = {
 		trigger = {
 			NOT = {
-				at_location = 161 #Troy
+				at_location = 168 #Troy
 			}
 		}
 		text = EVTDESCBTW75
 	}
 	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				c_2101002 = { #Helen of Troy
+					trait = travelling
+				}
+			}
+		}
+		c_2101002 = { #Helen of Troy
+			remove_trait = travelling
+			move_character = c_2101000 #Menelaos
+		}
+	}
 	
 	option = {
 		name = EVTOPTATW75
@@ -4355,9 +4536,9 @@ character_event = {
 	trigger = {
 		c_2200000 = { #Pariya-muwas
 			is_alive = yes
-			at_location = 161 #Troy
+			at_location = 168 #Troy
 		}
-		at_location = 161 #Troy
+		at_location = 168 #Troy
 	}
 	
 	option = {
@@ -4405,9 +4586,9 @@ long_character_event = {
 	trigger = {
 		c_2200017 = { #Kassandra
 			is_alive = yes
-			at_location = 161 #Troy
+			at_location = 168 #Troy
 		}
-		at_location = 161 #Troy
+		at_location = 168 #Troy
 	}
 	
 	option = {
@@ -4637,7 +4818,7 @@ narrative_event = {
 			if = {
 				limit = {
 					c_2102101 = { #Achilles
-						at_location = 161 #Troy
+						at_location = 168 #Troy
 					}
 					is_alive = yes
 				}
@@ -4649,7 +4830,7 @@ narrative_event = {
 				limit = {
 				c_2102101 = { #Achilles
 						NOT = {
-							at_location = 161 #Troy
+							at_location = 168 #Troy
 						}
 						is_alive = yes
 					}
@@ -4726,7 +4907,7 @@ narrative_event = {
 		if = {
 			limit = {
 				c_2102101 = { #Achilles
-					at_location = 161 #Troy
+					at_location = 168 #Troy
 				}
 			}
 			c_2102101 = { #Akhilleus
@@ -4737,7 +4918,7 @@ narrative_event = {
 			limit = {
 				c_2102101 = { #Achilles
 					NOT = {
-						at_location = 161 #Troy
+						at_location = 168 #Troy
 					}
 					is_alive = yes
 				}
@@ -4811,7 +4992,7 @@ narrative_event = {
 		if = {
 			limit = {
 				c_2102101 = { #Achilles
-					at_location = 161 #Troy
+					at_location = 168 #Troy
 				}
 			}
 			c_2102101 = { #Akhilleus
@@ -4822,7 +5003,7 @@ narrative_event = {
 			limit = {
 				c_2102101 = { #Achilles
 					NOT = {
-						at_location = 161 #Troy
+						at_location = 168 #Troy
 					}
 					is_alive = yes
 				}
@@ -5127,66 +5308,41 @@ character_event = {
 			}
 			save_event_target_as = event_target_bone_pelops
 		}
+		d_elis = {
+			owner = {
+				save_event_target_as = bone_owner
+			}
+		}
+		c_meliboia = {
+			owner = {
+				save_event_target_as = arrows_holder
+			}
+		}
 	}
 	
 	option = {
 		name = EVTOPTATW105
-		if = {
-			limit = {
+		d_elis = {
+			owner = {
 				event_target:event_target_bone_pelops = {
-					previous_artifact_owner = {
-						is_alive = yes
+					transfer_artifact = {
+						to = PREV
+						from = ROOT
 					}
 				}
 			}
-			event_target:event_target_bone_pelops = {
-				transfer_artifact = {
-					to = previous_artifact_owner
-					from = ROOT
-				}
-			}
 		}
-		else = {
-			c_olympia = {
-				owner = {
-					save_event_target_as = holder_olympia
-				}
-			}
-			event_target:event_target_bone_pelops = {
-				transfer_artifact = {
-					to = event_target:holder_olympia
-					from = ROOT
-				}
-			}
-		}
-		if = {
-			limit = {
+		c_meliboia = {
+			owner = {
 				event_target:event_target_arrow_heracles = {
-					previous_artifact_owner = {
-						is_alive = yes
+					transfer_artifact = {
+						to = PREV
+						from = ROOT
 					}
 				}
 			}
-			event_target:event_target_arrow_heracles = {
-				transfer_artifact = {
-					to = previous_artifact_owner
-					from = ROOT
-				}
-			}
 		}
-		else = {
-			c_meliboia = {
-				owner = {
-					save_event_target_as = holder_meliboia
-				}
-			}
-			event_target:event_target_arrow_heracles = {
-				transfer_artifact = {
-					to = event_target:holder_meliboia
-					from = ROOT
-				}
-			}
-		}
+		
 	}
 }
 
@@ -5370,7 +5526,7 @@ narrative_event = {
 		if = {
 			limit = {
 				c_2102101 = { #Achilles
-					at_location = 161 #Troy
+					at_location = 168 #Troy
 				}
 			}
 			c_2102101 = { #Akhilleus
@@ -5381,7 +5537,7 @@ narrative_event = {
 			limit = {
 			c_2102101 = { #Achilles
 					NOT = {
-						at_location = 161 #Troy
+						at_location = 168 #Troy
 					}
 					is_alive = yes
 				}
@@ -5431,7 +5587,7 @@ narrative_event = {
 		if = {
 			limit = {
 				c_2102101 = { #Achilles
-					at_location = 161 #Troy
+					at_location = 168 #Troy
 				}
 			}
 			c_2102101 = { #Akhilleus
@@ -5442,7 +5598,7 @@ narrative_event = {
 			limit = {
 			c_2102101 = { #Achilles
 					NOT = {
-						at_location = 161 #Troy
+						at_location = 168 #Troy
 					}
 					is_alive = yes
 				}

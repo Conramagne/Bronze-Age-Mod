@@ -17,6 +17,7 @@ feudal_governments = {
 			regional_kingdom_government
 			hegemonic_government
 			military_governorate_government
+			politan_government
 		}
 		vassal_call_to_arms = {
 			tribal_government
@@ -46,6 +47,7 @@ feudal_governments = {
 			NOT = { is_government_potential = regional_kingdom_government }
 			NOT = { is_government_potential = hegemonic_government }
 			NOT = { is_government_potential = military_governorate_government }
+			NOT = { is_government_potential = politan_government }
 			is_patrician = no
 		}
 		
@@ -65,6 +67,66 @@ feudal_governments = {
 		court_size_modifier = 10
 	}
 	
+	politan_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			CITY
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			politan_government
+		}
+		vassal_call_to_arms = {
+			tribal_government
+			tribal_confederacy_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+			tribal_confederacy_government
+		}
+		potential = {
+			OR = {
+				controls_religion = no
+				has_religion_feature = religion_temporal_head
+				AND = {
+					religion = ishalitethai
+					 controls_religion = yes
+				}
+			}
+			has_law = ze_administration_laws_4
+			NOT = { is_government_potential = stratocratic_government }
+			NOT = { is_government_potential = roman_imperial_government }
+			NOT = { is_government_potential = order_government }
+			NOT = { is_government_potential = regional_kingdom_government }
+			NOT = { is_government_potential = hegemonic_government }
+			NOT = { is_government_potential = military_governorate_government }
+			is_patrician = no
+		}
+		color = { 181 227 235 }
+		
+		dukes_called_kings = no
+		barons_need_dynasty = no
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 600
+		## Modifiers
+
+		unit_modifier = {
+			levy_size = 0.25
+			
+			key = "GOVERNMENT_BONUS"
+		}
+	}
+		
 	regional_kingdom_government = {
 		preferred_holdings = { CASTLE }
 		allowed_holdings = { 
@@ -82,11 +144,12 @@ feudal_governments = {
 		free_revoke_on_governments = {
 			military_governorate_government
 		}
-		# vassal_call_to_arms = {
-			# tribal_government
-			# tribal_confederacy_government
-			# military_governorate_government
-		# }
+		vassal_call_to_arms = {
+			tribal_government
+			tribal_confederacy_government
+			feudal_government
+			military_governorate_government
+		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 			tribal_confederacy_government
@@ -109,6 +172,7 @@ feudal_governments = {
 				in_revolt = yes
 			}
 			NOT = { is_government_potential = military_governorate_government }
+			NOT = { is_government_potential = politan_government }
 			is_patrician = no
 		}
 		
@@ -231,7 +295,7 @@ feudal_governments = {
 		unit_modifier = {
 			levy_size = 0.3
 			
-			key = "GOVERNMENT_UNIT_BONUS"
+			key = "GOVERNMENT_BONUS"
 		}
 	}
 	

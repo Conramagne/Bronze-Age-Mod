@@ -17,7 +17,7 @@
 
 greek_collapse_invasion = {
 	name = "RULE_GREEK_COLLAPSE_INVASION"
-	group = "RULE_COLLAPSE_INVASION"
+	group = "RULE_COLLAPSE"
 	option = {
 		name = on
 		text = "RULE_OPTION_ON"
@@ -30,9 +30,24 @@ greek_collapse_invasion = {
 	}
 }
 
+greek_collapse_realm = {
+	name = "RULE_GREEK_COLLAPSE_REALM"
+	group = "RULE_COLLAPSE"
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_GREEK_COLLAPSE_REALM_ON"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_GREEK_COLLAPSE_REALM_OFF"
+	}
+}
+
 anatolian_collapse_invasion = {
 	name = "RULE_ANATOLIAN_COLLAPSE_INVASION"
-	group = "RULE_COLLAPSE_INVASION"
+	group = "RULE_COLLAPSE"
 	option = {
 		name = on
 		text = "RULE_OPTION_ON"

@@ -6,8 +6,8 @@ title = c_istahara
 # Settlements
 max_settlements = 5
 
-b_istahara = tribal
-b_tahappisuna = tribal
+b_istahara = castle
+b_tahappisuna = city
 #b_hatenzuwa = temple
 #b_gazzapa = castle
 #b_karassuwa = city

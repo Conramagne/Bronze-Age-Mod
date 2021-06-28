@@ -1,0 +1,16 @@
+# c_azu
+
+# County Title
+title = c_azu
+
+# Settlements
+max_settlements = 2
+
+b_azu = castle
+#b_dub = city
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

@@ -12,6 +12,6 @@ b_usu = city
 
 # Misc
 culture = phoenician
-religion = berith
+religion = canaanite_religion
 
 #History

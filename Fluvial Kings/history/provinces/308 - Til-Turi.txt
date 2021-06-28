@@ -1,0 +1,15 @@
+# c_til_turi
+
+# County Title
+title = c_til_turi
+
+# Settlements
+max_settlements = 1
+
+b_til_turi = castle
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

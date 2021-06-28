@@ -13,6 +13,6 @@ b_samsimuruna = city
 
 # Misc
 culture = phoenician
-religion = berith
+religion = canaanite_religion
 
 #History

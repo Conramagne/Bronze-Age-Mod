@@ -11,7 +11,7 @@ b_kyme = temple
 b_larissa = city
 
 # Misc
-culture = mysian
+culture = luwian
 religion = haianiluwi
 
 #History

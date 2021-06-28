@@ -287,11 +287,11 @@
 	disallow_random_traits = yes
 	father = 2000003
 	2488.1.1 = { birth = yes }
-	2512.1.1 = {
-		effect = {
-			add_rival = 2000000
-		}
-	}
+	# 2512.1.1 = { Have to comment this out for balance Tud can never have a good life because they're always sniped
+		# effect = {
+			# add_rival = 2000000
+		# }
+	# }
 	2552.12.1 = { death = yes }
 }
 
@@ -335,6 +335,92 @@
 	2176.1.1 = { birth = yes }
 	2261.1.1 = { death = yes }
 }
+
+2001005 = {
+	name = "Piyaššili" # Piyaššili, son of Šuppiluliuma I, King of Carchemish
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2000006
+	2400.1.1 = { birth = yes }
+	2460.1.1 = { death = yes }
+}
+
+2001006 = {
+	name = "Šahurunuwa" # Šahurunuwa, King of Carchemish
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2001005
+	2440.1.1 = { birth = yes }
+	2500.1.1 = { death = yes }
+}
+
+2001007 = {
+	name = "Ini-Teššub" # Ini-Teššub, King of Carchemish
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2001006
+	2480.1.1 = { birth = yes }
+	2540.1.1 = { death = yes }
+}
+
+2001008 = {
+	name = "Talmi-Teššub" # Talmi-Teššub, King of Carchemish
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2001007
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+2001009 = {
+	name = "Telipinu" # Telipinu, son of Šuppiluliuma I, King of Aleppo
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2000006
+	2370.1.1 = { birth = yes }
+	2430.1.1 = { death = yes }
+}
+
+2001010 = {
+	name = "Talmi-Šarruma" # Talmi-Šarruma, King of Aleppo
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2001009
+	2390.1.1 = { birth = yes }
+	2450.1.1 = { death = yes }
+}
+
+2001011 = {
+	name = "Huzziya" # Huzziya, brother of Tudhaliya IV
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2000001
+	mother = 2002005
+	2496.1.1 = { birth = yes }
+	2556.1.1 = { death = yes }
+}
+
+2001012 = {
+	name = "Nerikkaili" # Nerikkaili, brother of Tudhaliya IV, Prince of Amurru
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	father = 2000001
+	mother = 2002005
+	2505.1.1 = { birth = yes }
+	2525.1.1 = {
+		add_spouse = 2400001
+	}
+	2565.1.1 = { death = yes }
+}
+
 
 #Imperial Family Women (2002000-2002999)
 2002000 = {
@@ -430,6 +516,21 @@
 	2540.1.1 = { death = yes }
 }
 
+
+2002007 = {
+	name = "Gaššulawiya" # Gaššulawiya, sister of Tudhaliya IV, Queen of Amurru
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	female = yes
+	father = 2000001
+	2491.1.1 = { birth = yes }
+	2511.1.1 = {
+		add_spouse = 2400002
+	}
+	2571.1.1 = { death = yes }
+}
+
 #Other Vassals (2003000-2003999)
 2003000 = {
 	name = "Sapalulme" # Sapalulme, King of Kizzuwatna
@@ -512,7 +613,7 @@
 
 2003008 = {
 	name = "Ali-Šarruma" # Ali-Šarruma/Ari-Šarruma, King of Isuwa
-	dynasty = 2000009 #Tiwasili
+	dynasty = 2001000 #Tiwasili
 	culture = isuwan
 	religion = ishalitethai
 	2485.1.1 = { birth = yes }
@@ -522,7 +623,7 @@
 
 2003009 = {
 	name = "Ehli-Šarruma" # Ehli-Šarruma, Future King of Isuwa
-	dynasty = 2000009 #Tiwasili
+	dynasty = 2001000 #Tiwasili
 	culture = isuwan
 	religion = ishalitethai
 	trait = weak
@@ -532,10 +633,28 @@
 	2576.1.1 = { death = yes }
 }
 
+2003010 = {
+	name = "Halpazitis" # Halpazitis, King of Aleppo
+	dynasty = 2000015 #Halpazitili
+	culture = hittite
+	religion = ishalitethai
+	2495.1.1 = { birth = yes }
+	2555.1.1 = { death = yes }
+}
+
+2003011 = {
+	name = "Muwaharani" # Muwaharani, King of Mukis
+	dynasty = 2000016 #Muwaharanili
+	culture = hittite
+	religion = ishalitethai
+	2497.1.1 = { birth = yes }
+	2557.1.1 = { death = yes }
+}
+
 #Independent Lords (2004000-2004999)
 2004000 = {
 	name = "Tutammu" # Tutammu, Duke of Hulaya
-	dynasty = 2000009
+	dynasty = 2000014
 	culture = hittite
 	religion = ishalitethai
 	2507.1.1 = { birth = yes }

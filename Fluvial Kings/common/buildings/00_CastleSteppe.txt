@@ -91,15 +91,15 @@ castle = {
 		desc = ca_steppe_barracks_desc
 		potential = {
 			terrain = steppe
-			FROM = {
-				OR = {
-					culture_group = altaic
-					culture_group = magyar
-					culture = alan
-					culture_group = iranian
+			# FROM = {
+				# OR = {
+					# culture_group = altaic
+					# culture_group = magyar
+					# culture = alan
+					# culture_group = iranian
 					
-				}
-			}
+				# }
+			# }
 		}
 		replaces = ca_barracks_4
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }

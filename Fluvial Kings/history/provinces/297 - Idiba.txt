@@ -1,0 +1,16 @@
+# c_idiba
+
+# County Title
+title = c_idiba
+
+# Settlements
+max_settlements = 2
+
+b_idiba = castle
+#b_elba = city
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

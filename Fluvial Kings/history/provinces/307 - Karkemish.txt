@@ -1,0 +1,18 @@
+# c_karkemish
+
+# County Title
+title = c_karkemish
+
+# Settlements
+max_settlements = 4
+
+b_karkemish = castle
+b_napigu = city
+b_sabazu = temple
+#b_pituru = castle
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

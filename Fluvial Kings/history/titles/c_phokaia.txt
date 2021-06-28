@@ -2,10 +2,7 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2481.1.1={
-	liege=d_seha
-	holder = 2200602
-}
-2521.1.1={
-	holder = 2200600
+2524.1.1={
+	holder = 2201600
+	liege = d_seha
 }

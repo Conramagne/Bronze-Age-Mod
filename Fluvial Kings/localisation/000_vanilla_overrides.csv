@@ -7,20 +7,44 @@ duchy;Land;;;;;;;;;;;;;x
 duchy_of;Land of;;;;;;;;;;;;;x
 empire;Great Kingdom;;;;;;;;;;;;;x
 empire_of;Great Kingdom of;;;;;;;;;;;;;x
+city_barony;City;;;;;;;;;;;;;x
+city_barony_of;City of;;;;;;;;;;;;;x
+city_county;City-State;;;;;;;;;;;;;x
+city_county_of;City-State of;;;;;;;;;;;;;x
+temple_barony;Temple;;;;;;;;;;;;;x
+temple_barony_of;Temple of;;;;;;;;;;;;;x
+temple_county;Temple Complex;;;;;;;;;;;;;x
+temple_county_of;Temple Complex of;;;;;;;;;;;;;x
+temple_duchy;Minor Theocracy;;;;;;;;;;;;;x
+temple_duchy_of;Minor Theocracy of;;;;;;;;;;;;;x
+temple_kingdom;Theocracy;;;;;;;;;;;;;x
+temple_kingdom_of;Theocracy of;;;;;;;;;;;;;x
+temple_empire;Great Theocracy;;;;;;;;;;;;;x
+temple_empire_of;Great Theocracy of;;;;;;;;;;;;;x
 
 #Generic Character Titles#
 baron;Master;;;;;;;;;;;;;x
 baron_female;Mistress;;;;;;;;;;;;;x
-city_baron;Magistrate;;;;;;;;;;;;;x
-city_baron_female;Magistrate;;;;;;;;;;;;;x
-city_count;Lord Magistrate;;;;;;;;;;;;;x
-city_count_female;Lord Magistrate;;;;;;;;;;;;;x
 count;Lord;;;;;;;;;;;;;x
 count_female;Lady;;;;;;;;;;;;;x
 duke;Petty King;;;;;;;;;;;;;x
 duke_female;Petty Queen;;;;;;;;;;;;;x
 emperor;Great King;;;;;;;;;;;;;x
 emperor_female;Great Queen;;;;;;;;;;;;;x
+city_baron;Magistrate;;;;;;;;;;;;;x
+city_baron_female;Magistrate;;;;;;;;;;;;;x
+city_count;Lord Magistrate;;;;;;;;;;;;;x
+city_count_female;Lord Magistrate;;;;;;;;;;;;;x
+temple_baron;Priest;;;;;;;;;;;;;x
+temple_baron_female;Priestess;;;;;;;;;;;;;x
+temple_count;Great Priest;;;;;;;;;;;;;x
+temple_count_female;Great Priestess;;;;;;;;;;;;;x
+temple_duke;High Priest;;;;;;;;;;;;;x
+temple_duke_female;High Priestess;;;;;;;;;;;;;x
+temple_king;Theocrat;;;;;;;;;;;;;x
+temple_king_female;Theocratess;;;;;;;;;;;;;x
+temple_emperor;High Theocrat;;;;;;;;;;;;;x
+temple_emperor_female;High Theocratess;;;;;;;;;;;;;x
 
 #Artifacts#
 armor_tier_1;Scale Armor;;;;;;;;;;;;;x
@@ -41,6 +65,14 @@ ze_administration_laws_1_desc;Royal lords realize the importance of keeping the 
 ze_administration_laws_2;Hegemonic Administration;;;;;;;;;;;;;x
 ze_administration_laws_2_option;Hegemonic;;;;;;;;;;;;;x
 ze_administration_laws_2_desc;This system of administration is the natural state of all empires. From the river banks of the Nile to the rough mountains of Anatolia, these kings of kings utilize a hierarchy of magistrates and functionaries running daily business in their name. It allows for a power structure that hands less power to permanently landed vassals, though this causes said vassals to resent their liege.;;;;;;;;;;;;;x
+
+ze_administration_laws_3;Palatial Administration;;;;;;;;;;;;;x
+ze_administration_laws_3_option;Palatial;;;;;;;;;;;;;x
+ze_administration_laws_3_desc;Palatial societies are based entirely upon the central palace and its bureaucracy. The palace complex manages all affairs of the realm, with smaller cities existing to serve it. This system is highly centralized, which lends itself both a rich state and a disgruntled set of vassals.;;;;;;;;;;;;;x
+
+ze_administration_laws_4;Politan Administration;;;;;;;;;;;;;x
+ze_administration_laws_4_option;Politan;;;;;;;;;;;;;x
+ze_administration_laws_4_desc;A politan society is one in which power is controlled within a major settlement. There is a great deal of variety of the types of rulership of governance within a politan structure - from monarchy to oligarchy to democracy - however all are alike in their scope.;;;;;;;;;;;;;x
 
 #Lion Hunt#
 hold_tiger_hunt;Hold a Lion Hunt;;;;;;;;;;;;;x
@@ -67,12 +99,170 @@ EVTDESC_RoI_2113;The hunting party moves through the brush. You are hoping luck 
 EVTDESC_RoI_2120;Several forward scouts come running back to the main hunting party. In excited whispers, they inform you that a large lion has been spotted ahead.;;;;;;;;;;;;;x
 EVTDESC_RoI_2121;Stepping forward, you watch the lion closely, weighing your spear in your hand and waiting for the right moment to strike. The lion prowls towards you, slowly. Then suddenly, it leaps towards you! You sidestep and stab with your spear, sinking it deeply into its flank.;;;;;;;;;;;;;x
 EVTOPTA_RoI_2121;I killed the lion!;;;;;;;;;;;;;x
-EVTDESC_RoI_2122;Stepping forward, you watch the lion closely, weighing your spear in your hand and waiting for the right moment to strike. The lion prowls towards you, slowly. Then suddenly, the huge beast stops, looking nervous. It turns and runs into the dense vegetation before you can throw your spear.;;;;;;;;;;;;;x
+EVTDESC_RoI_2122;Stepping forward, you watch the lion closely, weighing your spear in your hand and waiting for the right moment to strike. The lion prowls towards you, slowly. Then suddenly, the huge beast stops, looking nervous. It turns and runs into the wild before you can throw your spear.;;;;;;;;;;;;;x
 EVTOPTA_RoI_2122;I failed to kill the lion!;;;;;;;;;;;;;;x
-EVTDESC_RoI_2123;Stepping forward, you watch the lion closely, weighing your spear in your hand and waiting for the right moment to strike. Then suddenly, the lion leaps towards you! Surprised, you stumble backwards as it starts to tear at you with claws and teeth. Your soldiers run in, stabbing at the beast, and it decides to retreat, disappearing into the dense vegetation.;;;;;;;;;;;;;x
+EVTDESC_RoI_2123;Stepping forward, you watch the lion closely, weighing your spear in your hand and waiting for the right moment to strike. Then suddenly, the lion leaps towards you! Surprised, you stumble backwards as it starts to tear at you with claws and teeth. Your soldiers run in, stabbing at the beast, and it decides to retreat, disappearing into the wild.;;;;;;;;;;;;;x
 EVTDESC_RoI_2124;The hunting party edges forward, encircling the area and closing on the lion. The beast discovers the trap too late and tries to run, but the hunters close in from all sides, stabbing with their spears. The lion roars wildly as its life's blood spills over the ground.;;;;;;;;;;;;;;x
 EVTOPTA_RoI_2124;We killed the lion!;;;;;;;;;;;;;x
-EVTDESC_RoI_2125;The hunting party edges forward, encircling the area and closing on the lion. The beast, however, smells the trap and turns and flees into the dense vegetation. Several soldiers run after it but return shortly after to report that the animal is gone.;;;;;;;;;;;;;x
+EVTDESC_RoI_2125;The hunting party edges forward, encircling the area and closing on the lion. The beast, however, smells the trap and turns and flees into the wild. Several soldiers run after it but return shortly after to report that the animal is gone.;;;;;;;;;;;;;x
+
+#Instances of the word 'citadel'
+setting_holding_types_feudal_tooltip;Every County will have up to three Holdings generated: A Citadel, a Temple, and a City.;;;;;;;;;;;;;x
+theocratic_feudal_government_desc;The Monastic Feudal government, much like the ordinary Feudal government, revolves around the oath between liege and vassal, and Monastic Feudal lords can only directly own so many Holdings before they must start to rely on vassals - whose loyalty may vary... The Monastic Feudal government is unique to [tibetan_group.GetGroupName] of either the [buddhist.GetName] or [bon.GetName] faiths, and allows holding Temples in addition to Castles. Monastic Feudal rulers can also construct Gompa Monastery buildings in Citadel holdings.;;;;;;;;;;;;;x
+HOLY_ORDER_BUILD_CASTLE_ALT;My dear [Root.GetTitledFirstName], the Order needs more castles in order to train troops and generate a supporting income. I am willing to cancel your debt to us if you will simply allow us to build a citadel in [FromFrom.GetName]. May [From.Religion.GetHighGodName] bless you,\n\nGrand Master [From.GetFirstName];;;;;;;;;;;;;x
+HOLY_ORDER_CONSTRUCTION_COMPLETE_ALT;The Holy Order has constructed a citadel in [Root.GetName]!;;;;;;;;;;;;;x
+EVTDESCHFPA20065;The unthinkable has happened. Rumors about my terrible crime have spread across the court. And, if the stories are true, I have nobody to blame but myself. The servant whisper that every night I walk in my sleep around the citadel, asking forgiveness to the child I murdered before his own birth.;;;;;;;;;;;;;x
+EVTDESC_HFP_30100;The heavens briefly lit up and the ground shook as the rock from the sky crashed into the citadel gardens. I sent my men to investigate and they came back with a lump of a curious metal we have not seen before.;;;;;;;;;;;;;x
+ca_special_fortifications_1_desc;Compartmentalized wall sections within the fortress ensure that, even in case of a breach, the garrison is able to trap the attackers within the outermost sections of the citadel, preventing the sacking of the entire fortress.;;;;;;;;;;;;;x
+ca_special_fortifications_3_desc;These overhanging holes embedded between the citadel's corbels allow the defenders to throw rocks, bees, boiling oil and other unpleasant items at the attackers from a relatively safe position.;;;;;;;;;;;;;x
+ca_special_fortifications_4_desc;The latest innovation in military engineering, a reinforced barbican will force the citadel's assailants through a crooked and narrow path after the breach of the main gate, exposing them to heavy retaliation from the defenders.;;;;;;;;;;;;;x
+ca_oppressive_fortifications_2_desc;An intricate network of watchtowers ensures that the garrison of this fortress can maintain absolute control over anything happening within the citadel.;;;;;;;;;;;;;x
+ca_oppressive_fortifications_3_desc;An isolated tower, built not too far from the main citadel, providing the garrison with an advanced outpost and a more secretive place to deal with inconvenient prisoners.;;;;;;;;;;;;;x
+MNM_9999_DESC;The citadel smith, more used to horseshoes and helmets than work fit for royalty, presented you with a dirty old box. "Ta da" he says, nervously, "It was a sword you wanted right?" he adds.;;;;;;;;;;;;;x
+MNM_9999_DESC_armor;The citadel smith, more used to horseshoes and helmets than work fit for royalty, presented you with a dirty old box. "Ta da" he says, nervously, "It was an armor you wanted right?" he adds.;;;;;;;;;;;;;x
+String_Castle;Citadel;;;;;;;;;;;;;x
+String_castle;citadel;;;;;;;;;;;;;x
+GetHolding_Castle_1;citadel;;;;;;;;;;;;;x
+GetHolding_Castle_2;citadel;;;;;;;;;;;;;x
+EVTOPTA_MNM_8092;My home is my citadel.;;;;;;;;;;;;;x
+hidden_lab_tooltip;The plans for your laboratory will have to fit into your existing citadel.;;;;;;;;;;;;;x
+EVTDESC_MNM_1113;The entire citadel just shook, waking me from the dreamless sleep that comes after hours of preparatory laboratory work. Did I forget to properly lock the laboratory?;;;;;;;;;;;;;x
+alert_nomad_agitation_delayed;Unless we construct a §YCitadel§! or §YCity§! in the following Counties, they will revert to Nomad control on Succession:\n$LIST$;;;;;;;;;;;;;x
+EVTDESC_RIP_12055;You approach the locked door warily. Inside, [captured_sneaker.GetFirstName] is talking quietly to [captured_sneaker.GetHerselfHimself]. The guards tell you that [captured_sneaker.GetSheHe] claims to have had a lover at court. They were on the way back into the citadel when [captured_sneaker.GetHerHis] beloved fell ill. Devastated from the loss [captured_sneaker.GetSheHe] remained in the tunnels. \n"[captured_sneaker.GetSheHeCap] doesn't seem all there, my [Root.GetLordLady]...";;;;;;;;;;;;;x
+EVTDESC_RIP_12059_A;As the peasant rebels screamed the name of their leader, [captured_sneaker.GetBestName], you furiously charged them, hacking them down, one by one. They had made it into the citadel, but they never stood a chance. Together with your well trained guards, the rebels were crushed. In the wake of the victory, you are mostly reminded that trust is a hard earned thing in this world.;;;;;;;;;;;;;x
+EVTDESC_RIP_12059_B;As the peasant rebels screamed the name of their leader, [captured_sneaker.GetBestName], you furiously charged them, hacking them down, one by one. They had made it into the citadel, but this was where you drew the line! Together with your well trained guards, the rebels had little chance of succeeding. In the wake of the victory, you contemplate the harshness of it all.;;;;;;;;;;;;;x
+crusched_rebels_from_seclusion;Crushed Citadel Rebellion;;;;;;;;;;;;;x
+exchange_land_for_hospital_desc;In exchange for land in which to build a citadel, the [Root.PrimaryTitle.GetName] will also build a hospital to care for the people of [From.Capital.GetName].;;;;;;;;;;;;;x
+EVTOPTA3730;Next time, your head will hang from the citadel walls!;;;;;;;;;;;;;x
+EVTDESC3731;It was not the first time the servant managed to spill food and dirty crockery on [From.GetTitledFirstName] and the furious [From.GetManWoman] sent the servant to the floor with a mighty slap, threatening to hang the servant's head from the citadel wall if he ever did it again...;;;;;;;;;;;;;x
+EVTDESC3733;'You did right, chastising your clumsy servant like this. From now on, he will certainly be more careful if he do not wish to have his head hung up on the citadel walls!'\n[From.GetTitledFirstName] spoke approvingly of me punishing the servant for spilling food.;;;;;;;;;;;;;x
+EVTDESC72039;Both [From.GetTitledFirstName] and [FromFrom.GetTitledFirstName] reentered my citadel without any visible wounds. It seemed as if [From.GetTitledFirstName] had refused to duel [FromFrom.GetTitledFirstName].;;;;;;;;;;;;;x
+EVTDESC2070;My [GetFromRelation] [From.GetFirstName] has a tender and loving soul, trusting everyone in the citadel. I fear [From.GetSheHe] will get hurt someday.;;;;;;;;;;;;;x
+EVTDESC3040;I love a good feast at the citadel and I spared no expenses when I arranged the feast, the table was filled with geese, pork, cheese and plenty of wine. I doubt my guests left my halls with empty bellies.;;;;;;;;;;;;;x
+EVTOPTA3082;I can let them stay in one of the citadels.;;;;;;;;;;;;;x
+EVTDESC3110;My slothfulness has caused part of my citadel to deteriorate. I delegated the care of my citadel to someone unworthy.;;;;;;;;;;;;;x
+EVTDESC3124;There are always things that need to be done when it comes to expanding and improving a citadel.  With the proper planning, and diligent work, I can make sure the work becomes more efficient.;;;;;;;;;;;;;x
+EVTDESC3126;I have fallen to the temptation of slothfulness. There are things I have neglected in my citadel, things that should have been done, but I postponed them.;;;;;;;;;;;;;x
+EVTDESC3640;As a devoted Hunter, I have filled my citadel with many trophies from the wild beasts I have hunted and killed myself. Still, there is a place above my fireplace waiting for a special trophy: the head of a white hart.;;;;;;;;;;;;;x
+EVTDESC4050;A rumor about a spy sneaking around in my own citadel was confirmed this morning when I caught him red-handed.;;;;;;;;;;;;;x
+EVTDESC4055;The peasants told the whole citadel about a 'dragon' they saw in the forest and now the eager young men keep nagging me about a true dragon hunt.;;;;;;;;;;;;;x
+EVTDESC4085;The wolves' territory has crept closer to the citadel and more sheep, pigs and chickens vanish each day.;;;;;;;;;;;;;x
+EVTDESC4150;A man claiming to be a lord who disappeared seven years ago has found his way to my citadel. He sings of the fair queen of the gods and some say his songs are prophetic...;;;;;;;;;;;;;x
+EVTDESC271;Swords are sharp and dangerous. I can lead better from inside my own citadel.;;;;;;;;;;;;;x
+EVTOPTB64100;I can have my lover in my citadel;;;;;;;;;;;;;x
+EVTDESC3587;As the liquid slowly but steadily dripped into the bowl I waited eagerly for the substance to cool down. When finally every last drop was in the bowl darkness enveloped the citadel and I had to light a candle to properly examine the liquid, which exploded.;;;;;;;;;;;;;x
+EVTDESC3692;I galloped to catch up with the hunting party but when I saw my [GetFromRelation] [From.GetFirstName] frown at me, clearly upset with me joining the hunting party, I almost turned my horse around and galloped back to the citadel. Why was I told [From.GetFirstName] wanted me to join [From.GetHerHis] hunting party when [From.GetSheHe] didn't want me there?;;;;;;;;;;;;;x
+EVTDESC3170;Villagers are starving in [Root.Location.GetName] and a small group of representatives has dared set foot in the citadel to petition for help...;;;;;;;;;;;;;x
+EVTDESC10031;Praying he would not recognize me, I stepped out in front of my old friend and demanded he would surrender his purse. The way he looked at me, disgust mixed with fear, could only mean he did not recognize me. I had to threaten to kill him to make him let go of the purse, and I made a silent vow to try and compensate him should I be able to ever return to my citadel. His purse was heavy and so was my heart as I returned to the bandit leader.;;;;;;;;;;;;;x
+ca_town_1;Citadel Settlement;;;;;;;;;;;;;;x
+ca_town_2;Citadel Settlement;;;;;;;;;;;;;;x
+ca_town_3;Citadel Settlement;;;;;;;;;;;;;;x
+ca_town_4;Citadel Settlement;;;;;;;;;;;;;;x
+ca_town_5;Citadel Settlement;;;;;;;;;;;;;;x
+ca_town_6;Citadel Settlement;;;;;;;;;;;;;;x
+EVTDESC65061;Despite my small stature, I have gained the respect of my court. Until a Dwarf Troupe appeared at the citadel gates and none of them were taller than me...;;;;;;;;;;;;;x
+EVTDESC72015;The guests have finally arrived! All is ready, the cooks have worked day and night preparing the food, and the citadel has never looked lovelier.;;;;;;;;;;;;;x
+LOADING_TIP_0;A 'demesne' is the collection of Citadels, Cities and Temples held by one person.;;;;;;;;;;;;;x
+EVTDESC61125;We have trapped [Root.Liege.Regent.GetFirstName] in one of the citadel towers like a cornered rat! Those few guards at court that supported [Root.Liege.Regent.GetHerHim] have fled or been cut down.;;;;;;;;;;;;;x
+EVTDESC61130;[From.GetTitledFirstName] failed to replace your regent and is now languishing in your citadel dungeons. It seems your suffering at the hands of [Root.Regent.GetTitledFirstName] will end only in the blissful embrace of death...;;;;;;;;;;;;;x
+EVTDESC61131;From where you were propped up on your throne, you could hear shouting and the distinct sound of steel striking steel inside the citadel. The men loyal to [From.GetTitledFirstName] prevailed against [Root.Regent.GetTitledFirstName]! No longer will [Root.Regent.GetHerHis] vile presence be felt at court, and a new regent is to be appointed forthwith.;;;;;;;;;;;;;x
+EVTDESC61135;As you ride through the empty corridors of your citadel on your trusty wooden stick horse, you come across your regent, [Root.Regent.GetTitledName], getting some fresh air on a balcony... with [Root.Regent.GetHerHis] back turned against you.;;;;;;;;;;;;;x
+EVTDESC61142;The mad [Root.Liege.GetTitledFirstName] has been imprisoned in one of the citadel towers, and your regency will continue until the child is declared sound of mind, regardless of [Root.Liege.GetHerHis] age.;;;;;;;;;;;;;x
+EVTDESC61145;Through skillful conniving, you have managed to see [Root.Liege.GetTitledFirstName] declared insane. Until [Root.Liege.GetHerHis] mental state improves, the child will remain locked up in one of the citadel towers while your illustrious regency continues.;;;;;;;;;;;;;x
+EVTDESC61151;Your scheming snake of a regent, [Root.Regent.GetFirstName], has managed to convince the court that you are insane! The decision has been made to lock you up in one of the citadel towers until you are deemed mentally fit to rule, regardless of your age.;;;;;;;;;;;;;x
+EVTDESC61165;You cunningly trick one of the guards into leaving the door to your tower unlocked. After escaping into the citadel, you kick open the door to the main chamber where your jackal regent [Root.Regent.GetFirstName] sits bewildered on your throne. As the confused courtiers whisper to each other, you bellow at the top of your lungs:;;;;;;;;;;;;;x
+EVTDESC61190;The throne shan't be yours so long as [Root.Liege.GetTitledFirstName] draws breath. If an accident was to befall the whelp... they happen so easily, after all. As [Root.Liege.GetHerHis] regent, perhaps you should appoint some simple chores to the [Root.Liege.GetLadLass]. The citadel roof has long needed to be scrubbed clean of bird-droppings...;;;;;;;;;;;;;x
+EVTDESC61191;At times you can't shake the feeling that your regent, [Root.Regent.GetTitledName], does not always have your best in mind. Claiming it will build character, [Root.Regent.GetSheHe] has given you the dangerous task of scrubbing away bird-droppings from the citadel roof. If you lose your balance even once...;;;;;;;;;;;;;;x
+EVTDESC61197;The guards at the citadel gates nearly turn you away as peasant rabble when you finally make it back. Your face is caked with dirt, your fancy clothes are torn, but your signet ring proves your identity. Blind luck alone helped you conceal it from the bandits you met on the way.;;;;;;;;;;;;;x
+EVTDESC61205;You take a moment up on the citadel ramparts to contemplate your bad luck in dealing with [Root.Liege.GetTitledFirstName], only to see the carefree little scamp strut past below. Next to you is an especially corpulent guard leaning half-asleep against his halberd. A gentle push could send him falling down on [Root.Liege.GetFirstName]...;;;;;;;;;;;;;x
+EVTDESC61206;You walk through the citadel courtyard minding your own business when a dark shadow suddenly forms around you. There is just enough time to look up and see the screaming, grossly overweight guard tumbling down at you from the upper ramparts.;;;;;;;;;;;;;x
+EVTDESC100022;[From.GetFirstName] was willing to learn but had no idea how [From.GetFirstName] should talk to women or what subject would interest them. We started small, I let [From.GetHerHim] talk to the cook who were more than happy to talk about her cooking. Then it got harder and harder until [From.GetFirstName] finally was able to talk to every woman in the citadel and charm her nearly as well as I can.;;;;;;;;;;;;;x
+EVTDESC100028;I was willing to learn but I could decipher from [From.GetFirstName] sighs that [From.GetSheHe] thought that I was almost unteachable. No matter who I talked to I made a fool out of myself until [From.GetFirstName] made me talk to the cook who were more than happy to talk about her cooking. From on then it got easier until I finally was able to talk to every woman in the citadel and charm them nearly as well as [From.GetFirstName].;;;;;;;;;;;;;x
+EVTDESC8175;I love the thrill of heights, running on the citadel walls and looking down at the little people below. If I reach out, maybe I can reach that bird's nest...;;;;;;;;;;;;;x
+EVTDESC8180;Good news! My co-conspirator, [From.GetTitledName], has let me know that [Root.PlotTarget.GetTitledName] will soon have a tragic fall off the citadel parapets...;;;;;;;;;;;;;x
+EVTDESC8182;[From.GetTitledName] has let me know that the plot to kill [From.PlotTarget.GetTitledName] is proceeding well. [From.PlotTarget.GetSubjectPronounCap] will soon fall off the citadel walls. Such tragedy!;;;;;;;;;;;;;x
+EVTDESC94065;It has been brought to your attention that the large garden outside your citadel is, frankly, a mess. Last week one of your courtiers got lost in that wilderness, and the man did not emerge for two days. Tackling this garden problem head on could be an excellent project with which to improve your stewardship.;;;;;;;;;;;;;x
+EVTDESC94066;Together with your gardeners, you have redesigned your citadel garden into a more managable form. You have organized the digging of a small canal system to keep your plants watered, the weeds have been removed and the hedge maze now actually has an exit. The skeletal remains strewn about the maze's dead ends have also been cleared out.;;;;;;;;;;;;;x
+EVTDESC94074;Managing the large staff of servants in your citadel is in many ways like managing a small realm. There are many duties to be performed, and getting things to run smoothly is a true challenge. You have spent some time reorganizing your household, and your stewardship has improved.;;;;;;;;;;;;;x
+ca_wall_q_1_desc;This shallow moat surrounding the citadel provides another obstacle for attackers to overcome.;;;;;;;;;;;;;x
+ca_wall_3_desc;These stone walls surround the citadel and must be overcome by any attacker.;;;;;;;;;;;;;x
+ca_wall_4_desc;These large walls surround the citadel and must be overcome by any attacker.;;;;;;;;;;;;;x
+ca_wall_5_desc;These massive walls surround the citadel and must be overcome by any attacker.;;;;;;;;;;;;;x
+ca_keep_1_desc;This keep serves as the fortified residence of the citadel's inhabitants.;;;;;;;;;;;;;x
+ca_barracks_1_desc;These quarters are the home of the citadel's levies.;;;;;;;;;;;;;x
+ca_stable_1_desc;This stable just outside the citadel walls houses all the steeds of the levy.;;;;;;;;;;;;;x
+ca_town_1_desc;A small village has formed around the citadel, as local peasants flock to its walls for protection.;;;;;;;;;;;;;x
+ca_town_2_desc;A town has formed around the citadel, as local peasants flock to its walls for protection.;;;;;;;;;;;;;x
+ca_town_3_desc;A city has formed around the citadel, as local peasants flock to its walls for protection.;;;;;;;;;;;;;x
+ca_town_4_desc;The small village that once surrounded this citadel has turned into a large city, with thousands of inhabitants calling it their home.;;;;;;;;;;;;;x
+ca_town_5_desc;The small village that once surrounded this citadel has turned into a bustling metropolis, with thousands of inhabitants calling it their home.;;;;;;;;;;;;;x
+EVTDESC6352;I had repeatedly questioned my servant about the locked mausoleum beneath the citadel but it wasn't until today that I found the key, hidden inside a rotting chest in the oldest citadel tower. Inside the tomb's dusty passageways I found an empty stone coffin which bore the inscription '[Root.GetFirstName] [Root.GetOnlyDynastyName]'.;;;;;;;;;;;;;x
+EVTDESC6357;I steered the longboat through the raging waters towards the monstrous creature. It stood as tall as a citadel tower, with the body of a man and the head of a great tentacled beast. I knew that I had awoken it from where it slept beneath the waves and that it was here to end the age of man. There was only one thing I could do...;;;;;;;;;;;;;x
+ca_shipyard_1;Citadel Shipyard;;;;;;;;;;;;;x
+ca_shipyard_2;Citadel Shipyard;;;;;;;;;;;;;x
+ca_shipyard_3;Citadel Shipyard;;;;;;;;;;;;;x
+ca_shipyard_4;Citadel Shipyard;;;;;;;;;;;;;x
+ca_wall_q_1;Citadel Fortifications;;;;;;;;;;;;;x
+ca_wall_q_2;Citadel Fortifications;;;;;;;;;;;;;x
+ca_wall_q_3;Citadel Fortifications;;;;;;;;;;;;;x
+ca_wall_q_4;Citadel Fortifications;;;;;;;;;;;;;x
+ca_wall_q_5;Citadel Fortifications;;;;;;;;;;;;;x
+ca_wall_1;Citadel Walls;;;;;;;;;;;;;x
+ca_wall_2;Citadel Walls;;;;;;;;;;;;;x
+ca_wall_3;Citadel Walls;;;;;;;;;;;;;x
+ca_wall_4;Citadel Walls;;;;;;;;;;;;;x
+ca_wall_5;Citadel Walls;;;;;;;;;;;;;x
+converts_to_castle;Will convert to §Y$NAME$§! when upgraded to a citadel.;;;;;;;;;;;;;x
+convert_settlement_to_castle;§Y$SETTLEMENT$§! will be upgraded to a citadel.\n;;;;;;;;;;;;;x
+EVTDESC_WoL_5230;Your hunting dog ran away and went roaming the citadel. He was very aggressive, chasing several servants and sending them fleeing in terror. He then came upon the favorite dog of one of your courtiers and attacked it and killed it.;;;;;;;;;;;;;x
+EVTOPTA_WoL_5290;I will bury him quietly in the citadel garden.;;;;;;;;;;;;;x
+EVTOPTC_WOL_10205;I could reuse some old building materials from the citadel.;;;;;;;;;;;;;x
+EVTDESC_WOL_10300;You wake up and go to the window to greet the sun, and then suddenly realize that your citadel garden has been neglected for years and turned into an overgrown and chaotic disgrace. The weeds are knee-high and vines are making it almost impassible without having a sword at hand. Something needs to be done about this.;;;;;;;;;;;;;x
+EVTDESC_WoL_12001;An architect has been brought before your court with a proposal. With your blessing, he will oversee the construction of a new citadel in [From.GetName]. The citadel design he suggests is novel - it will require less effort and resources to build, and yet without sacrificing the potency of its defenses.;;;;;;;;;;;;;x
+EVTOPTA_WoL_12001;Build the citadel!;;;;;;;;;;;;;x
+castle_construction_begins;Construction of a new citadel begins.;;;;;;;;;;;;;x
+EVTDESC_WoL_12002;An architect has been brought before your court, proposing the construction of a new citadel in [From.GetName] for less resources than such a massive project would normally require. Before you can give him an answer, [Root.job_treasurer.GetFullName], your [Root.GetTreasurerName], whispers in your ear: 'This charlatan is known to me. He cannot be trusted.';;;;;;;;;;;;;x
+EVTDESC_WoL_12003;An architect has been brought before your court, proposing the construction of a new citadel in [From.GetName] for less resources than such a massive project would normally require. Before you can give him an answer, [Root.job_treasurer.GetFullName], your [Root.GetTreasurerName], whispers in your ear: 'I know of this man - I believe we can trust him.';;;;;;;;;;;;;x
+EVTDESC_WoL_12004;Your guards caught the architect hired to build your citadel in [FromFrom.GetName] trying to abscond with the gold you gave him. The wretch spent much of it on spirits and women, but the rest have been returned to your coffers. It looks as though there will be no citadel.;;;;;;;;;;;;;x
+EVTDESC_WoL_12005;The construction of your new citadel in [FromFrom.GetName] has been hampered by delays and material shortages. It looks as though the architect's initial estimates of the building costs were somewhat... optimistic. More funds will be required if the citadel is to be finished.;;;;;;;;;;;;;x
+construction_ceases;Construction on the citadel ceases.;;;;;;;;;;;;;x
+EVTDESC_WoL_12006;The citadel you commissioned in [FromFrom.GetName] has been finished, and its construction required even less resources than originally planned! The surplus building material has been sold, and the gold placed in your coffers.;;;;;;;;;;;;;x
+EVTDESC_WoL_12007;The citadel you commissioned in [FromFrom.GetName] has been finished, more or less on schedule, and it appears to be of sturdy construction.;;;;;;;;;;;;;x
+EVTDESC_WoL_12008;The citadel you commissioned in [FromFromFrom.GetName] has finally been finished, and despite the setbacks it appears to be of sturdy construction.;;;;;;;;;;;;;x
+EVTDESC_WoL_12009;There are no longer any suitable locations for the new citadel you had commissioned, and the work has been abandoned. Fortunately, most of the funds had not yet been spent.;;;;;;;;;;;;;x
+EVTOPTA_WoL_12009;Ah, that's right... they were building a citadel there.;;;;;;;;;;;;;x
+EVTDESC72030;I saw my mortal enemy [feast_duel_target.GetTitledFirstName] as soon as I stepped into [Root.Liege.GetTitledFirstName]'s citadel. [feast_duel_target.GetHerHisCap] presence was almost more than I could bear and I longed to pick up my sword and impale [feast_duel_target.GetHerHim] with it!;;;;;;;;;;;;;x
+BUILD_PRESTIGE_OR_PIETY_FORT_DESC;Forts can be built in all counties you control, and in hostile counties where you have troops present. Forts cost §Y$COST$§! to construct and can be upgraded to regular Citadel Holdings (by §GRight-Clicking the Fort§!). Forts lock down your occupation of empty nomad provinces and negate the crushing Attrition enjoyed by certain tribes in their homelands.;;;;;;;;;;;;;x
+EVTDESC68030;My underfunded sheriffs have allowed a large band of robbers to rise in [Root.GetName]. They are too craven to attack my citadels though.;;;;;;;;;;;;;x
+EVTOPTB_SoA_5036;Nobles build citadels. This is for peasants.;;;;;;;;;;;;;x
+EVTDESC_SoA_5037;The journey is long and hard. Your feet are sore, and your back as well. Far from the citadel kitchens the food is barely edible, and on top of that you seem to feel cold all the time. Perhaps you were not quite cut out for this pilgrimage thing?;;;;;;;;;;;;;x
+EVTOPTA_SoA_5213;I will buy this painting and exhibit it at my citadel!;;;;;;;;;;;;;x
+EVTDESC_RoI_1020;The citadel is decorated with flowers and colorful tapestries, carpets and ribbons. All the guests have arrived, there is a bustle of people all eager and full of festive spirit. It's time for the feast to begin!;;;;;;;;;;;;;x
+EVTDESC_RoI_158;An elephant has gone crazy and is running amuck in the town outside the citadel. It has already killed several people - what shall we do?;;;;;;;;;;;;;x
+EVTDESC107101;Your Realm consists of a number of Counties (the provinces on the map). Each County contains at least one Holding (Citadel, City or Temple). By clicking on a County you can see - among other things - its Holdings. The Holdings held by you personally are collectively called your Demesne. Unfortunately, there is a limit to how many Holdings you can control directly. This value is shown in the top bar. If you have more Holdings than your limit, you will start to suffer serious penalties...;;;;;;;;;;;;;x
+convert_tribal_to_castle;Upgrade to Citadel;;;;;;;;;;;;;x
+convert_tribal_to_castle_named;Upgrade [Root.GetName] to a Citadel;;;;;;;;;;;;;x
+convert_fort_to_castle_named;Upgrade the Fort of [Root.GetName] to a Citadel;;;;;;;;;;;;;x
+convert_fort_to_castle_desc;I can upgrade the Fort of [Root.County.GetBaseName] to a glorious Citadel.;;;;;;;;;;;;;x
+ca_training_grounds_1_desc;Training grounds is where the citadel levies can practise and ready themselves for the inevitability of war.;;;;;;;;;;;;;x
+convert_to_feudalism_indep_desc;Adopting Feudalism will convert all my Tribal Holdings into Citadel. Where this occurs - if the County is big enough - Citadel and Temple Holdings will also be created if they do not already exist. Your vassals are likely to follow suit if they are of your religion and culture.;;;;;;;;;;;;;x
+convert_to_feudalism_vassal_desc;Adopting Feudalism will convert all my Tribal Holdings into Citadel. Where this occurs - if the County is big enough - Citadel and Temple Holdings will also be created if they do not already exist. Your vassals are likely to follow suit if they are of your religion and culture.;;;;;;;;;;;;;x
+convert_to_republic_indep_desc;Founding a Merchant Republic will convert all my Tribal Holdings into Cities. Where this occurs - if the County is big enough - Citadel and Temple Holdings will also be created if they do not already exist. Four suitable vassals will found Patrician families.;;;;;;;;;;;;;x
+convert_tribal_to_castle_desc;I can upgrade [Root.GetFullName] to a proper Citadel. If it is the County capital and the County is big enough, City and Temple Holdings will also be created if they do not already exist.;;;;;;;;;;;;;x
+convert_tribal_to_city_desc;I can upgrade [Root.GetFullName] to a proper City. If it is the County capital and the County is big enough, Citadel and Temple Holdings will also be created if they do not already exist.;;;;;;;;;;;;;x
+EVTDESC_ZE_1142;Your daughter, [From.GetFirstName], has eloped! Worse, she seems to have made friends abroad and has settled in a citadel in the realm of [From.Owner.TopLiege.PrimaryTitle.GetName]!;;;;;;;;;;;;;;x
+EVTDESC_ZE_4040;You receive a report on the outcome of the military experiments that your [Root.GetMarshalName] asked you to sponsor. Apparently, the experiments consisted in training an large force of musicians to blow their trumpets in unison, thus deafening and stunning the enemy army in preparation for an attack. Attempts were also made to make citadel walls tumble by marching around them blowing the trumpets.\n\nUnfortunately, while quite expensive, none of these experiments were successful.;;;;;;;;;;;;;x
+EVTDESC_RIP_12070_A;Shutting the gates to [Root.Capital.Capital.GetName] and secluding ourselves from the epidemic outside was not an easy decision to make and praying to [Root.Religion.GetHighGodName] doesn't help your conscience much. However, worrying about our fellow men and women outside has lately turned into less of an issue than dealing with the droves of impatient subjects within our own citadel walls. Work is dwindling as reports from the outside become more scarce, the cooking staff have lost their enthusiasm due to the rationing, and when our nobles are not complaining about being unable to visit their families, they are visibly bored. "If there is nothing else for us to do, we could at least enjoy each other's company?" [bored_courtier_target.GetTitledName] suggests. You contemplate [bored_courtier_target.GetHerHis] words. Perhaps there is nothing wrong with wanting to savor your last days on earth?;;;;;;;;;;;;;x
+EVTDESC_RIP_12070_B;Shutting the gates to [Root.Capital.Capital.GetName] and secluding ourselves from the epidemic outside was not an easy decision to make and you often wonder how your people fare without you. However, worrying about our fellow men and women outside has lately turned into less of an issue than dealing with the droves of impatient subjects within our own citadel walls. Work is dwindling as reports from the outside become more scarce, the cooking staff have lost their enthusiasm due to the rationing, and when our nobles are not complaining about being unable to visit their families, they are visibly bored. "If there is nothing else for us to do, we could at least enjoy each other's company?" [bored_courtier_target.GetTitledName] suggests. Perhaps there is nothing wrong with wanting to savor your last days on earth?;;;;;;;;;;;;;x
+EVTDESC_RIP_12070_C;Shutting the gates to [Root.Capital.Capital.GetName] and secluding ourselves from the epidemic outside was the practical decision to make. Your conscience clean, there is on the other hand the newly arisen problem of dealing with the droves of impatient subjects now confined to our citadel. Work is dwindling as reports from the outside become more scarce, the cooking staff have lost their enthusiasm due to the rationing, and when our nobles are not complaining about being unable to visit their families, they are unnervingly bored. "If there is nothing else for us to do, we could at least enjoy each other's company?" [bored_courtier_target.GetTitledName] suggests, as you are staring idly into your favorite wall. You cock your head at [bored_courtier_target.GetHerHim], scratching your chin.;;;;;;;;;;;;;x
+EVTDESC_RIP_12070_D;Shutting the gates to [Root.Capital.Capital.GetName] and secluding ourselves from the epidemic outside was the reasonable choice to make. Even if you occasionally worry about your people on the outside, another problem has arisen lately in dealing with the droves of impatient subjects now confined to the citadel. Work is dwindling as reports from the outside become more scarce, the cooking staff have lost their enthusiasm due to the rationing, and when our nobles are not complaining about being unable to visit their families, they are visibly bored. "If there is nothing else for us to do, we could at least enjoy each other's company?" [bored_courtier_target.GetTitledName] suggests.\nYou scratch your chin. One could suppose there is nothing wrong with wanting to savor your last days on earth...?;;;;;;;;;;;;;x
+EVTDESC_RIP_12070_E;Shutting the gates to [Root.Capital.Capital.GetName] and secluding ourselves from the epidemic outside was not an easy decision to make. Watching your domain from your windows, you are reminded of the precarious situation. However, another issue has arisen lately in the matter of dealing with the droves of impatient subjects now confined to the citadel. Work is dwindling as reports from the outside become more scarce, the cooking staff have lost their enthusiasm due to the rationing, and when our nobles are not complaining about being unable to visit their families, they are visibly bored. "If there is nothing else for us to do, we could at least enjoy each other's company?" [bored_courtier_target.GetTitledName] suggests.\nScratching your chin, you contemplate [bored_courtier_target.GetHerHis] words. If the end is coming, perhaps there is nothing wrong with wanting to savor your last days?;;;;;;;;;;;;;x
+EVTOPTA_RIP_12070_TT;You order §Y[bored_courtier_target.GetTitledName]§! to by any means find ways to increase the spirit of the citadel.\n;;;;;;;;;;;;;x
+EVTOPTE_RIP_12070_TT;You have been meaning to spend some quality time with them.\n§Y[bored_courtier_target.GetTitledName]§! takes this as a yes and begins preparing the citadel for a more festive air.\n;;;;;;;;;;;;;x
+EVTOPTA_RIP_12071_TT;You encourage §Y[bored_courtier_target.GetTitledName]§! and [bored_courtier_target.GetHerHis] staff in the lavish decorating of the citadel. You continue the revelry.\n;;;;;;;;;;;;;x
+EVTDESC_RIP_12074_A;In spite of being cooped up in the citadel while death rages on outside, the spirit of [Root.Capital.Capital.GetName] has never seemed so alive. I'm having a jolly time socializing with my court, but strangely enough there seems to be more people here than before? I don't remember inviting that stranger with the mask.;;;;;;;;;;;;;x
+EVTOPTC_MNM_5110;I'll paint my whole citadel with the holy symbols! It's the only way!;;;;;;;;;;;;;x
+
 
 #Miscellaneous#
 NAME_W_NICK;$TITLE$ $NAME$ $NICK$;$TITLE$ $NAME$ '$NICK$';$TITLE$ $NAME$ '$NICK$';;$TITLE$ $NAME$ '$NICK$';;;;;;;;;x
@@ -85,4 +275,4 @@ ca_con_wall_6_desc;The Trojan Wall was built by Poseidaon and Apollon as punishm
 title_chief_architect;Chief Architect;;;;;;;;;;;;;x
 title_chief_architect_desc;The Chief Architect is responsible for designing and overseeing the construction of palaces, temples and grand monuments.;;;;;;;;;;;;;x
 
-EVTDESC_SoA_500;Generations ago, God aided the Children of Israel in their escape from slavery by inflicting ten plagues upon ancient Egypt. The last of these saw a spirit of the Lord slay every first-born in Egypt, but 'pass over' Jewish homes marked with the blood of a slaughtered lamb. This festival celebrates the return of freedom to the enslaved Jewish people.;;;;;;;;;;;;;x
+EVTDESC_SoA_500;Generations ago, God aided the Children of Israel in their escape from slavery by inflicting ten plagues upon ancient Egypt. The last of these saw a spirit of the Lord slay every first-born in Egypt, but 'pass over' B'rith homes marked with the blood of a slaughtered lamb. This festival celebrates the return of freedom to the enslaved B'rith people.;;;;;;;;;;;;;x

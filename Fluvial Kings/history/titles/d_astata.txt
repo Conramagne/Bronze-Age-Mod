@@ -1,0 +1,11 @@
+2000.1.1 = {
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2520.1.1 = {
+	holder = 2400200
+	set_tribute_suzerain = {
+		who = e_hittite_empire
+		type = default
+	}
+}

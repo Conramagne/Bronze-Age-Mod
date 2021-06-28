@@ -2,7 +2,6 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-2527.1.1={
-	liege = d_asherite
-	holder = 2305600
+2520.1.1={
+	holder = 2320900
 }

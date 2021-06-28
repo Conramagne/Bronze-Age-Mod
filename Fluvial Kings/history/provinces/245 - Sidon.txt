@@ -11,6 +11,6 @@ b_sarepat = city
 
 # Misc
 culture = phoenician
-religion = berith
+religion = canaanite_religion
 
 #History

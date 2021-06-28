@@ -735,7 +735,23 @@ has_twelve_tribe_title_trigger = {
 		has_landed_title = d_danite
 		has_landed_title = d_asherite
 		has_landed_title = d_naphtalite
+	}
+}
 
+is_twelve_tribe_title_trigger = {
+	OR = {
+		title = d_reubenite
+		title = d_simeonite
+		title = d_gadite
+		title = d_judahite
+		title = d_issacharite
+		title = d_zebulunite
+		title = d_manassehite
+		title = d_ephraimite
+		title = d_benjaminite
+		title = d_danite
+		title = d_asherite
+		title = d_naphtalite
 	}
 }
 
@@ -779,6 +795,22 @@ has_appropriate_head_god_law = {
 			has_law = head_god_qaws
 			ROOT = {
 				trait = qaws
+			}
+		}
+	}
+}
+
+mediterranean_trade_trade_post_trigger = {
+	custom_tooltip = {
+		text = mediterranean_trade_province_desc
+		hidden_tooltip = {
+			OR = {
+				province_id = 75 #Enkomi
+				province_id = 94 #Argos
+				province_id = 101 #Pylos
+				province_id = 108 #Attica
+				province_id = 118 #Knossos
+				province_id = 168 #Troy
 			}
 		}
 	}

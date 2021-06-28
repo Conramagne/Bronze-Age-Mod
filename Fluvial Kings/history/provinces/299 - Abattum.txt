@@ -1,0 +1,16 @@
+# c_abattum
+
+# County Title
+title = c_abattum
+
+# Settlements
+max_settlements = 2
+
+b_abattum = castle
+#b_rasappa = city
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

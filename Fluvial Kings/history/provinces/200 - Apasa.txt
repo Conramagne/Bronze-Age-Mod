@@ -7,9 +7,9 @@ title = c_apasa
 max_settlements = 4
 
 b_apasa = tribal
-# b_klaros = temple
-# b_kolophon = castle
-# b_notion = city
+b_klaros = temple
+b_kolophon = castle
+b_notion = city
 
 # Misc
 culture = luwian

@@ -644,18 +644,12 @@ low_bureaucracy = {
 	icon = 29
 	global_tax_modifier = -0.25
 	global_levy_size = -0.1
-	global_revolt_risk = 0.02
-	build_time_modifier = 0.2
-	build_cost_modifier = 0.2
 	demesne_size = -2
 }
 high_bureaucracy = {
 	icon = 3
 	global_tax_modifier = 0.2
 	global_levy_size = 0.2
-	global_revolt_risk = -0.05
-	build_time_modifier = -0.2
-	build_cost_modifier = -0.10
 	demesne_size = 2
 }
 
@@ -724,7 +718,26 @@ severe_drought = {
 	icon = 24
 	local_tax_modifier = -0.5
 	levy_size = -0.5
+	levy_reinforce_rate = -0.25
 	local_revolt_risk = 0.05
+}
+
+recovering_from_drought = {
+	icon = 24
+	local_tax_modifier = -0.1
+	levy_size = -0.1
+	levy_reinforce_rate = -0.125
+	local_revolt_risk = 0.025
+}
+
+local_rule = {
+	icon = 6
+	local_revolt_risk = -0.025
+}
+
+resources_stretched_thin = {
+	icon = 19
+	levy_size = -0.25
 }
 
 greek_migration = {
@@ -736,6 +749,10 @@ aeolian_migration = {
 }
 
 ionian_migration = {
+	icon = 1
+}
+
+dorian_migration = {
 	icon = 1
 }
 
@@ -752,6 +769,12 @@ trojan_war_wealth = {
 	is_visible = { 
 		always = no
 	}
+}
+
+desolate_land = {
+	local_tax_modifier = -0.5
+	levy_size = -0.5
+	icon = 19
 }
 
 requested_personal_tribute = {

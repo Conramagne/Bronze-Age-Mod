@@ -1,0 +1,19 @@
+# c_ugarit
+
+# County Title
+title = c_ugarit
+
+# Settlements
+max_settlements = 5
+
+b_ugarit = castle
+b_dumatu = city
+b_hursubui = temple
+b_pidi = castle
+b_yartu = city
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

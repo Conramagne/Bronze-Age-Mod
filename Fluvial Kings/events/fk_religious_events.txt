@@ -88,9 +88,11 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = {
-					FROM = {
+				FROM = {
+					NOR = {
 						religion_group = pihassasi
+						religion = berith
+						religion_group = bnai_kenaan
 					}
 				}
 				OR = {
@@ -127,6 +129,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		always = no
 		religion = FROM
 		OR = {
 			AND = {
@@ -427,46 +430,46 @@ character_event = {
 }
 
 #Choosing Devotion Child Pihassasi
-character_event = {
-	id = fkrel.200
-	is_triggered_only = yes
-	desc = EVTDESCFKREL200
-	picture = GFX_evt_visit_the_temple_pantheon
+# character_event = {
+	# id = fkrel.200
+	# is_triggered_only = yes
+	# desc = EVTDESCFKREL200
+	# picture = GFX_evt_visit_the_temple_pantheon
 	
-	option = {
-		name = EVTOPTAFKREL200
-		FROM = {
-			add_trait = devotion_tarhunna
-		}
-		clr_character_flag = choose_devotion_flag
-		ai_chance = {
-			factor = 33 
-		}
-	}
-	option = {
-		name = EVTOPTBFKREL200
-		FROM = {
-			add_trait = devotion_arinniti
-		}
-		clr_character_flag = choose_devotion_flag
-		ai_chance = {
-			factor = 33 
-			modifier = {
-				factor = 2
-				FROM = {
-					trait = sickly
-				}
-			}
-		}
-	}
-	option = {
-		name = EVTOPTCFKREL200
-		FROM = {
-			add_trait = devotion_telipinu
-		}
-		clr_character_flag = choose_devotion_flag
-		ai_chance = {
-			factor = 33
-		}
-	}
-}
+	# option = {
+		# name = EVTOPTAFKREL200
+		# FROM = {
+			# add_trait = devotion_tarhunna
+		# }
+		# clr_character_flag = choose_devotion_flag
+		# ai_chance = {
+			# factor = 33 
+		# }
+	# }
+	# option = {
+		# name = EVTOPTBFKREL200
+		# FROM = {
+			# add_trait = devotion_arinniti
+		# }
+		# clr_character_flag = choose_devotion_flag
+		# ai_chance = {
+			# factor = 33 
+			# modifier = {
+				# factor = 2
+				# FROM = {
+					# trait = sickly
+				# }
+			# }
+		# }
+	# }
+	# option = {
+		# name = EVTOPTCFKREL200
+		# FROM = {
+			# add_trait = devotion_telipinu
+		# }
+		# clr_character_flag = choose_devotion_flag
+		# ai_chance = {
+			# factor = 33
+		# }
+	# }
+# }

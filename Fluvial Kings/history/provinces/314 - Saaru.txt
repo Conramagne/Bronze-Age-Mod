@@ -1,0 +1,16 @@
+# c_saaru
+
+# County Title
+title = c_saaru
+
+# Settlements
+max_settlements = 2
+
+b_saaru = castle
+b_hulhulita = city
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

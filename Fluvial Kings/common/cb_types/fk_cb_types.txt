@@ -109,7 +109,7 @@ hellenic_birthright_invasion = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 					NOT = {
 						has_character_modifier = imperial_authority_increase_war
 					}
@@ -120,7 +120,7 @@ hellenic_birthright_invasion = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -192,7 +192,7 @@ hellenic_birthright_invasion = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -200,7 +200,7 @@ hellenic_birthright_invasion = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -235,7 +235,7 @@ hellenic_birthright_invasion = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -243,7 +243,7 @@ hellenic_birthright_invasion = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -360,6 +360,7 @@ fk_conquest = {
 			NOT = { pacifist = yes }
 			NOT = { same_realm = FROM }
 			NOT = { religion = FROM }
+			NOT = { has_law = ze_administration_laws_4 }
 			mercenary = no
 			independent = yes
 			OR = {
@@ -487,7 +488,7 @@ fk_conquest = {
 			if = {
 				limit = {
 					NOT = {
-						government = hegemonic_government
+						has_character_modifier = imperial_authority
 					}
 				}
 				add_character_modifier = {
@@ -497,7 +498,7 @@ fk_conquest = {
 			}
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 				add_character_modifier = {
 					modifier = conquer_cooldown
@@ -554,7 +555,7 @@ fk_conquest = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 					NOT = {
 						has_character_modifier = imperial_authority_increase_war
 					}
@@ -565,7 +566,7 @@ fk_conquest = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -591,7 +592,7 @@ fk_conquest = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -599,7 +600,7 @@ fk_conquest = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -623,7 +624,7 @@ fk_conquest = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -631,7 +632,7 @@ fk_conquest = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -913,6 +914,7 @@ fk_county_conquest = {
 			is_nomadic = no
 			NOT = { pacifist = yes }
 			NOT = { same_realm = FROM }
+			NOT = { has_law = ze_administration_laws_4 }
 			mercenary = no
 			independent = yes
 			# religion = FROM
@@ -1055,7 +1057,7 @@ fk_county_conquest = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 					NOT = {
 						has_character_modifier = imperial_authority_increase_war
 					}
@@ -1066,7 +1068,7 @@ fk_county_conquest = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -1092,7 +1094,7 @@ fk_county_conquest = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -1100,7 +1102,7 @@ fk_county_conquest = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -1124,7 +1126,7 @@ fk_county_conquest = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -1132,7 +1134,7 @@ fk_county_conquest = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -1366,6 +1368,1073 @@ fk_county_conquest = {
 	}
 }
 
+tributary_league_cb = {
+	name = CB_NAME_TRIBUTARY_LEAGUE
+	war_name = WAR_NAME_TRIBUTARY_LEAGUE
+	sprite = 36
+	truce_days = 365
+	is_permanent = yes
+	hostile_against_others = yes
+	can_ask_to_join_war = no
+	display_on_map = no
+	allowed_to_target_tributaries = no
+	
+	defender_unoccupied_warscore = yes
+	
+	sort_priority = 810
+	
+	can_use_gui = {
+		ROOT = {
+			NOR = { 
+				#trait = figurehead_emperor
+				trait = weak_emperor
+			}
+		}
+		#check_if_crusader_trigger = yes
+	}
+
+	can_use = {
+		has_dlc = "Horse Lords"
+
+		ROOT = {
+			mercenary = no
+			has_law = ze_administration_laws_4
+			OR = {
+				is_tributary = no
+				is_tributary = {
+					type = offmap
+				}
+			}
+			NOT = { is_vassal_or_below = FROM }
+			NOT = { is_liege_or_above = FROM }
+			NOT = {
+				rightful_religious_head_scope = {
+					character = FROM
+				}
+			}
+			NAND = {
+				holy_order = yes
+				religion = FROM
+			}
+			independent = yes
+		}
+		FROM = {
+			higher_tier_than = BARON
+			has_law = ze_administration_laws_4
+			NOT = {
+				is_offmap_governor = yes
+			}
+			NAND = {
+				holy_order = yes
+				religion = ROOT
+			}
+			independent = yes
+		}
+		
+		# The attacker needs a border, or be at most two sea zones away from one of the target's counties
+		FROM = {
+			any_realm_province = {
+				any_neighbor_province = {
+					OR = {
+						AND = {
+							has_owner = yes
+							owner = {
+								OR = {
+									character = ROOT
+									is_liege_or_above = ROOT
+									suzerain = {
+										character = ROOT
+									}
+								}
+							}
+						}
+						AND = {
+							is_land = no
+							any_neighbor_province = {
+								OR = {
+									AND = {
+										has_owner = yes
+										owner = {
+											OR = {
+												character = ROOT
+												is_liege_or_above = ROOT
+											}
+										}
+									}
+									AND = {
+										is_land = no
+										any_neighbor_province = {
+											owner = {
+												OR = {
+													character = ROOT
+													is_liege_or_above = ROOT
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		# The defender is not in any tributary war
+		FROM = {
+			NOR = {
+				any_war = {
+					using_cb = tributary_cb
+				}
+				any_war = {
+					using_cb = tributary_permanent_cb
+				}
+				any_war = {
+					using_cb = tributary_nomad_cb
+				}
+			}
+		}
+	}
+
+	is_valid = {
+		NOT = {
+			ROOT = {
+				rightful_religious_head_scope = {
+					character = FROM 
+				}
+			}
+		}
+	}
+
+	on_add = {
+		# Chance to surrender early
+		ROOT = { save_event_target_as = tribute_war_suzerain }
+		FROM = {
+			show_scope_change = no
+			save_event_target_as = league_war_target
+			set_character_flag = surrender_league_cb
+			character_event = { id = JD.2500 days = 5 tooltip = surrender_tributary_tt }
+		}
+		hidden_tooltip = { fire_haruspicy_event_effect = yes }
+		if = {
+			limit = { defender = { is_offmap_governor = offmap_china } }
+			attacker = {  
+				sound_effect = china_angered_emperor
+				detract_grace_super_huge_effect = yes 
+			}
+		}
+	}
+
+	on_success = {
+		ROOT = {
+			if = {
+				limit = {
+					has_character_modifier = imperial_authority
+					NOT = {
+						has_character_modifier = imperial_authority_increase_war
+					}
+				}
+			}
+			character_event = { id = fkr.136 }
+		}
+		FROM = {
+			if = {
+				limit = {
+					has_character_modifier = imperial_authority
+				}
+			}
+			character_event = { id = fkr.137 }
+		}
+		FROM = {
+			if = {
+				limit = {
+					government = stratocratic_government
+				}
+			}
+			character_event = { id = fkr.321 }
+
+		}
+		FROM = {
+			show_scope_change = no
+			save_event_target_as = target_loser
+			prestige = -100
+			custom_tooltip = {
+				text = "REMOVE_PREVIOUS_SUZERAIN"
+				hidden_tooltip = {
+					any_suzerain = {
+						event_target:target_loser = {
+							remove_tributary = PREV
+						}
+					}
+				}
+			}
+		}
+
+		ROOT = {
+			show_scope_change = no
+			prestige = 200
+			make_tributary = { 
+				who = FROM 
+				tributary_type = league
+			}
+		}
+		
+		if  = {
+			limit = {
+				ROOT = {
+					uses_decadence = yes
+				}
+			}
+			ROOT = {
+				decadence = -10
+			}
+		}
+		if  = {
+			limit = {
+				ROOT = {
+					is_nomadic = yes
+				}
+			}
+			ROOT = {
+				clan_title = {
+					ROOT = {
+						any_vassal = {
+							limit = { is_nomadic = yes }
+							clan_title = {
+								clan_opinion = {
+									who = PREVPREVPREV
+									modifier = won_tributary_war
+									years = 5
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		if  = {
+			limit = {
+				ROOT = {
+					is_tribal = yes
+				}
+			}
+			ROOT = {
+				any_vassal = {
+					limit = { is_tribal = yes }
+					opinion = {
+						who = PREV
+						modifier = won_tributary_war
+						years = 5
+					}
+				}
+			}
+		}
+	}
+
+	on_fail = {
+		FROM = {
+			if = {
+				limit = {
+					has_character_modifier = imperial_authority
+				}
+			}
+			character_event = { id = fkr.136 }
+		}
+		ROOT = {
+			if = {
+				limit = {
+					has_character_modifier = imperial_authority
+				}
+			}
+			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				limit = {
+					government = stratocratic_government
+				}
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
+			show_scope_change = no
+			prestige = -100
+		}
+		FROM = {
+			show_scope_change = no
+			prestige = 100
+		}
+	}
+
+	on_reverse_demand = {
+		FROM = {
+			if = {
+				limit = {
+					has_character_modifier = imperial_authority
+				}
+			}
+			character_event = { id = fkr.136 }
+		}
+		ROOT = {
+			if = {
+				limit = {
+					has_character_modifier = imperial_authority
+				}
+			}
+			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				limit = {
+					government = stratocratic_government
+				}
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
+			show_scope_change = no
+			prestige = -200
+			transfer_scaled_wealth = {
+				to = FROM
+				value = 4.0
+			}
+		}
+
+		FROM = {
+			show_scope_change = no
+			prestige = 200
+		}
+	}
+	
+	on_attacker_leader_death = {
+		end_war = invalid
+	}
+
+	attacker_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	attacker_ai_defeat_worth = {
+		factor = 100
+	}
+
+	defender_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	defender_ai_defeat_worth = {
+		factor = 100
+		
+		modifier = {
+			factor = 2
+			FROM = {
+				trait = proud
+			}
+		}
+		
+		modifier = {
+			factor = 2
+			FROM = {
+				trait = brave
+			}
+		}
+		
+		modifier = {
+			factor = 2
+			FROM = {
+				trait = greedy
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			FROM = {
+				tier = KING
+			}
+		}
+
+		modifier = {
+			factor = 0.85
+			ROOT = {
+				relative_power = { who = FROM power = 1.2 }
+			}
+		}
+
+		modifier = {
+			factor = 0.85
+			ROOT = {
+				relative_power = { who = FROM power = 1.5 }
+			}
+		}
+
+		modifier = {
+			factor = 0.8
+			ROOT = {
+				relative_power = { who = FROM power = 2.0 }
+			}
+		}
+
+		modifier = {
+			factor = 0.8
+			ROOT = {
+				relative_power = { who = FROM power = 2.5 }
+			}
+		}
+
+		modifier = {
+			factor = 0.8
+			ROOT = {
+				relative_power = { who = FROM power = 3 }
+			}
+		}
+
+		modifier = {
+			factor = 0.75
+			ROOT = {
+				relative_power = { who = FROM power = 4 }
+			}
+		}
+
+		modifier = {
+			factor = 0.75
+			ROOT = {
+				relative_power = { who = FROM power = 5 }
+			}
+		}
+
+		modifier = {
+			factor = 0.75
+			ROOT = {
+				relative_power = { who = FROM power = 6 }
+			}
+		}
+
+		modifier = {
+			factor = 0.5
+			ROOT = {
+				relative_power = { who = FROM power = 8 }
+			}
+		}
+
+		modifier = {
+			factor = 0.25
+			ROOT = {
+				relative_power = { who = FROM power = 10 }
+			}
+		}
+
+		modifier = {
+			factor = 2
+			ROOT = {
+				distance_from_realm = { who = FROM value = 20 }
+			}
+		}
+
+		modifier = {
+			factor = 2
+			ROOT = {
+				distance_from_realm = { who = FROM value = 40 }
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			ROOT = {
+				distance_from_realm = { who = FROM value = 80 }
+			}
+		}
+		
+		modifier = {
+			factor = 4
+			ROOT = {
+				distance_from_realm = { who = FROM value = 120 }
+			}
+		}
+	}
+
+	ai_will_do = {
+		factor = 1
+		
+		# modifier = { #Focus on Coronation first.
+			# factor = 0.1
+			# has_dlc = "Holy Fury"
+			# ROOT = {
+				# is_feudal = yes
+				# OR = {
+					# religion = catholic
+					# religion = fraticelli
+				# }
+				# NOR = {
+					# trait = crowned_by_priest
+					# trait = crowned_by_bishop
+					# trait = crowned_by_pope
+					# trait = crowned_by_myself
+				# }
+			# }
+		# }
+		# modifier = {
+			# factor = 0.1 # Low prio CB
+		# }
+		modifier = {
+			factor = 0.1 # Nomads are the only ones who like using the CB
+			ROOT = {
+				OR = {
+					is_nomadic = no
+					NOT = {
+						has_character_modifier = imperial_authority
+					}
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 2 # Hegemons are the only ones who like using the CB
+			ROOT = {
+				has_character_modifier = imperial_authority
+				primary_title = {
+					completely_controls = THIS
+				}
+			}
+		}
+		
+		# modifier = {
+			# factor = 0.1 # Target has almost no money
+			# FROM = {
+				# OR = {
+					# is_nomadic = yes
+					# is_tribal = yes
+				# }
+			# }
+		# }
+
+		modifier = {
+			factor = 4
+			ROOT = {
+				trait = greedy
+			}
+		}
+	}
+}
+
+dismantle_league_cb = {
+	name = CB_NAME_DISMANTLE_LEAGUE
+	war_name = WAR_NAME_DISMANTLE_LEAGUE
+	sprite = 36
+	truce_days = 365
+	is_permanent = yes
+	hostile_against_others = yes
+	can_ask_to_join_war = no
+	display_on_map = no
+	allowed_to_target_tributaries = no
+	
+	defender_unoccupied_warscore = yes
+	
+	sort_priority = 810
+	
+	can_use_gui = {
+		ROOT = {
+			NOR = { 
+				#trait = figurehead_emperor
+				trait = weak_emperor
+			}
+		}
+		#check_if_crusader_trigger = yes
+	}
+
+	can_use = {
+		has_dlc = "Horse Lords"
+
+		ROOT = {
+			mercenary = no
+			has_law = ze_administration_laws_4
+			OR = {
+				is_tributary = no
+				is_tributary = {
+					type = offmap
+				}
+			}
+			NOT = { is_vassal_or_below = FROM }
+			NOT = { is_liege_or_above = FROM }
+			NOT = {
+				rightful_religious_head_scope = {
+					character = FROM
+				}
+			}
+			NAND = {
+				holy_order = yes
+				religion = FROM
+			}
+			independent = yes
+		}
+		FROM = {
+			higher_tier_than = BARON
+			has_law = ze_administration_laws_4
+			any_tributary = {
+				has_law = ze_administration_laws_4
+			}
+			NOT = {
+				is_offmap_governor = yes
+			}
+			NAND = {
+				holy_order = yes
+				religion = ROOT
+			}
+			independent = yes
+		}
+		
+		# The attacker needs a border, or be at most two sea zones away from one of the target's counties
+		FROM = {
+			any_realm_province = {
+				any_neighbor_province = {
+					OR = {
+						AND = {
+							has_owner = yes
+							owner = {
+								OR = {
+									character = ROOT
+									is_liege_or_above = ROOT
+									suzerain = {
+										character = ROOT
+									}
+								}
+							}
+						}
+						AND = {
+							is_land = no
+							any_neighbor_province = {
+								OR = {
+									AND = {
+										has_owner = yes
+										owner = {
+											OR = {
+												character = ROOT
+												is_liege_or_above = ROOT
+											}
+										}
+									}
+									AND = {
+										is_land = no
+										any_neighbor_province = {
+											owner = {
+												OR = {
+													character = ROOT
+													is_liege_or_above = ROOT
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	is_valid = {
+		NOT = {
+			ROOT = {
+				rightful_religious_head_scope = {
+					character = FROM 
+				}
+			}
+		}
+	}
+
+	on_add = {
+		hidden_tooltip = { fire_haruspicy_event_effect = yes }
+		if = {
+			limit = { defender = { is_offmap_governor = offmap_china } }
+			attacker = {  
+				sound_effect = china_angered_emperor
+				detract_grace_super_huge_effect = yes 
+			}
+		}
+	}
+
+	on_success = {
+		ROOT = {
+			if = {
+				limit = {
+					has_character_modifier = imperial_authority
+					NOT = {
+						has_character_modifier = imperial_authority_increase_war
+					}
+				}
+			}
+			character_event = { id = fkr.136 }
+		}
+		FROM = {
+			if = {
+				limit = {
+					has_character_modifier = imperial_authority
+				}
+			}
+			character_event = { id = fkr.137 }
+		}
+		FROM = {
+			if = {
+				limit = {
+					government = stratocratic_government
+				}
+			}
+			character_event = { id = fkr.321 }
+
+		}
+		FROM = {
+			show_scope_change = no
+			save_event_target_as = target_loser
+			prestige = -100
+			custom_tooltip = {
+				text = "dismantle_league_TT"
+				hidden_tooltip = {
+					any_tributary = {
+						remove_tributary = THIS
+					}
+				}
+			}
+		}
+		if  = {
+			limit = {
+				ROOT = {
+					uses_decadence = yes
+				}
+			}
+			ROOT = {
+				decadence = -10
+			}
+		}
+		if  = {
+			limit = {
+				ROOT = {
+					is_nomadic = yes
+				}
+			}
+			ROOT = {
+				clan_title = {
+					ROOT = {
+						any_vassal = {
+							limit = { is_nomadic = yes }
+							clan_title = {
+								clan_opinion = {
+									who = PREVPREVPREV
+									modifier = won_tributary_war
+									years = 5
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		if  = {
+			limit = {
+				ROOT = {
+					is_tribal = yes
+				}
+			}
+			ROOT = {
+				any_vassal = {
+					limit = { is_tribal = yes }
+					opinion = {
+						who = PREV
+						modifier = won_tributary_war
+						years = 5
+					}
+				}
+			}
+		}
+	}
+
+	on_fail = {
+		FROM = {
+			if = {
+				limit = {
+					has_character_modifier = imperial_authority
+				}
+			}
+			character_event = { id = fkr.136 }
+		}
+		ROOT = {
+			if = {
+				limit = {
+					has_character_modifier = imperial_authority
+				}
+			}
+			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				limit = {
+					government = stratocratic_government
+				}
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
+			show_scope_change = no
+			prestige = -100
+		}
+		FROM = {
+			show_scope_change = no
+			prestige = 100
+		}
+	}
+
+	on_reverse_demand = {
+		FROM = {
+			if = {
+				limit = {
+					has_character_modifier = imperial_authority
+				}
+			}
+			character_event = { id = fkr.136 }
+		}
+		ROOT = {
+			if = {
+				limit = {
+					has_character_modifier = imperial_authority
+				}
+			}
+			character_event = { id = fkr.137 }
+		}
+		ROOT = {
+			if = {
+				limit = {
+					government = stratocratic_government
+				}
+			}
+			character_event = { id = fkr.321 }
+		}
+		ROOT = {
+			show_scope_change = no
+			prestige = -200
+			transfer_scaled_wealth = {
+				to = FROM
+				value = 4.0
+			}
+		}
+
+		FROM = {
+			show_scope_change = no
+			prestige = 200
+		}
+	}
+	
+	on_attacker_leader_death = {
+		end_war = invalid
+	}
+
+	attacker_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	attacker_ai_defeat_worth = {
+		factor = 100
+	}
+
+	defender_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	defender_ai_defeat_worth = {
+		factor = 100
+		
+		modifier = {
+			factor = 2
+			FROM = {
+				trait = proud
+			}
+		}
+		
+		modifier = {
+			factor = 2
+			FROM = {
+				trait = brave
+			}
+		}
+		
+		modifier = {
+			factor = 2
+			FROM = {
+				trait = greedy
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			FROM = {
+				tier = KING
+			}
+		}
+
+		modifier = {
+			factor = 0.85
+			ROOT = {
+				relative_power = { who = FROM power = 1.2 }
+			}
+		}
+
+		modifier = {
+			factor = 0.85
+			ROOT = {
+				relative_power = { who = FROM power = 1.5 }
+			}
+		}
+
+		modifier = {
+			factor = 0.8
+			ROOT = {
+				relative_power = { who = FROM power = 2.0 }
+			}
+		}
+
+		modifier = {
+			factor = 0.8
+			ROOT = {
+				relative_power = { who = FROM power = 2.5 }
+			}
+		}
+
+		modifier = {
+			factor = 0.8
+			ROOT = {
+				relative_power = { who = FROM power = 3 }
+			}
+		}
+
+		modifier = {
+			factor = 0.75
+			ROOT = {
+				relative_power = { who = FROM power = 4 }
+			}
+		}
+
+		modifier = {
+			factor = 0.75
+			ROOT = {
+				relative_power = { who = FROM power = 5 }
+			}
+		}
+
+		modifier = {
+			factor = 0.75
+			ROOT = {
+				relative_power = { who = FROM power = 6 }
+			}
+		}
+
+		modifier = {
+			factor = 0.5
+			ROOT = {
+				relative_power = { who = FROM power = 8 }
+			}
+		}
+
+		modifier = {
+			factor = 0.25
+			ROOT = {
+				relative_power = { who = FROM power = 10 }
+			}
+		}
+
+		modifier = {
+			factor = 2
+			ROOT = {
+				distance_from_realm = { who = FROM value = 20 }
+			}
+		}
+
+		modifier = {
+			factor = 2
+			ROOT = {
+				distance_from_realm = { who = FROM value = 40 }
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			ROOT = {
+				distance_from_realm = { who = FROM value = 80 }
+			}
+		}
+		
+		modifier = {
+			factor = 4
+			ROOT = {
+				distance_from_realm = { who = FROM value = 120 }
+			}
+		}
+	}
+
+	ai_will_do = {
+		factor = 1
+		
+		# modifier = { #Focus on Coronation first.
+			# factor = 0.1
+			# has_dlc = "Holy Fury"
+			# ROOT = {
+				# is_feudal = yes
+				# OR = {
+					# religion = catholic
+					# religion = fraticelli
+				# }
+				# NOR = {
+					# trait = crowned_by_priest
+					# trait = crowned_by_bishop
+					# trait = crowned_by_pope
+					# trait = crowned_by_myself
+				# }
+			# }
+		# }
+		# modifier = {
+			# factor = 0.1 # Low prio CB
+		# }
+		modifier = {
+			factor = 0.1 # Nomads are the only ones who like using the CB
+			ROOT = {
+				OR = {
+					is_nomadic = no
+					NOT = {
+						has_character_modifier = imperial_authority
+					}
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 2 # Hegemons are the only ones who like using the CB
+			ROOT = {
+				has_character_modifier = imperial_authority
+				primary_title = {
+					completely_controls = THIS
+				}
+			}
+		}
+		
+		# modifier = {
+			# factor = 0.1 # Target has almost no money
+			# FROM = {
+				# OR = {
+					# is_nomadic = yes
+					# is_tribal = yes
+				# }
+			# }
+		# }
+
+		modifier = {
+			factor = 4
+			ROOT = {
+				trait = greedy
+			}
+		}
+	}
+}
+
+
 #Trojan War
 trojan_war_cb = {
 	name = CB_NAME_TROJAN_WAR
@@ -1434,7 +2503,7 @@ trojan_war_cb = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 					NOT = {
 						has_character_modifier = imperial_authority_increase_war
 					}
@@ -1445,7 +2514,7 @@ trojan_war_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -1485,7 +2554,7 @@ trojan_war_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -1493,7 +2562,7 @@ trojan_war_cb = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -1525,7 +2594,7 @@ trojan_war_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -1533,7 +2602,7 @@ trojan_war_cb = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -1652,6 +2721,24 @@ dorian_invasion_cb = {
 				participation_scaled_decadence = -10
 			}
 		}
+		
+		hidden_tooltip = {
+			if = {
+				limit = {
+					ROOT = {
+						NOR = {
+							culture = dorian
+							religion = pantes_theoi
+						}
+					}
+				}
+				ROOT = {
+					culture = dorian
+					religion = pantes_theoi
+				}
+			}
+		}
+		
 		FROM = { show_scope_change = no piety = -100 }
 		FROM = { show_scope_change = no prestige = -50 }
 	}
@@ -1689,13 +2776,13 @@ dorian_invasion_cb = {
 						narrative_event = { id = fkcg.10 }
 					}
 				}
-				else_if = {
+				if = {
 					limit = {
 						ROOT = {
 							has_character_flag = lacedemonia_invader
 						}
 					}
-					d_laconia = {
+					d_lakonia = {
 						any_de_jure_vassal_title = {
 							limit = {
 								OR = {
@@ -1718,7 +2805,7 @@ dorian_invasion_cb = {
 						narrative_event = { id = fkcg.11 }
 					}
 				}
-				else_if = {
+				if = {
 					limit = {
 						ROOT = {
 							has_character_flag = messenia_invader
@@ -1750,9 +2837,21 @@ dorian_invasion_cb = {
 			}
 		}
 		ROOT = {
+			custom_tooltip = {
+				text = palace_destruction_TT
+				hidden_tooltip = {
+					any_realm_province = {
+						any_province_holding = {
+							destroy_palace_effect = yes
+						}
+					}
+				}
+			}
+		}
+		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 					NOT = {
 						has_character_modifier = imperial_authority_increase_war
 					}
@@ -1763,7 +2862,7 @@ dorian_invasion_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -1777,20 +2876,20 @@ dorian_invasion_cb = {
 			character_event = { id = fkr.321 }
 
 		}
-		any_province = {
-			if = {
-				limit = {
-					num_of_settlements = 2
-				}
-				random_province_holding = {
-					destroy_settlement = THIS
-				}
-			}
-			any_province_holding = {
-				destroy_random_building = THIS
-				destroy_random_building = THIS
-			}
-		}
+		# any_province = {
+			# if = {
+				# limit = {
+					# num_of_settlements = 2
+				# }
+				# random_province_holding = {
+					# destroy_settlement = THIS
+				# }
+			# }
+			# any_province_holding = {
+				# destroy_random_building = THIS
+				# destroy_random_building = THIS
+			# }
+		# }
 		hidden_tooltip = {
 			check_war_effect = yes
 			FROM = {
@@ -1803,7 +2902,7 @@ dorian_invasion_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -1811,7 +2910,7 @@ dorian_invasion_cb = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -1835,7 +2934,7 @@ dorian_invasion_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -1843,7 +2942,7 @@ dorian_invasion_cb = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -2061,7 +3160,7 @@ thessalian_invasion_cb = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 					NOT = {
 						has_character_modifier = imperial_authority_increase_war
 					}
@@ -2072,7 +3171,7 @@ thessalian_invasion_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -2098,7 +3197,7 @@ thessalian_invasion_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -2106,7 +3205,7 @@ thessalian_invasion_cb = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -2131,7 +3230,7 @@ thessalian_invasion_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -2139,7 +3238,7 @@ thessalian_invasion_cb = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -2304,6 +3403,41 @@ kaskian_invasion_cb = {
 				}
 				participation_scaled_decadence = -10
 			}
+			if = {
+				limit = {
+					NOT = {
+						any_demesne_title = {
+							tier = COUNT
+						}
+					}
+				}
+				d_kaska = {
+					any_de_jure_vassal_title = {
+						limit = {
+							OR = {
+								holder = FROM
+								owner = {
+									is_vassal_or_below_of = FROM
+								}
+							}
+						}
+						usurp_title_plus_barony_if_unlanded = { target = ROOT type = invasion }
+					}
+				}
+				d_istahara = {
+					any_de_jure_vassal_title = {
+						limit = {
+							OR = {
+								holder = FROM
+								owner = {
+									is_vassal_or_below_of = FROM
+								}
+							}
+						}
+						usurp_title_plus_barony_if_unlanded = { target = ROOT type = invasion }
+					}
+				}
+			}
 		}
 		
 		any_playable_ruler = {
@@ -2330,7 +3464,26 @@ kaskian_invasion_cb = {
 					destroy_random_building = THIS
 				}
 			}
-			technology_reduction_effect = yes
+			any_realm_province = {
+				limit = {
+					num_of_settlements <= 2
+				}
+				random_province_holding = {
+					destroy_settlement = THIS
+				}
+			}
+			any_realm_province = {
+				limit = {
+					num_of_settlements = 3
+				}
+				random_province_holding = {
+					destroy_settlement = THIS
+				}
+				random_province_holding = {
+					destroy_settlement = THIS
+				}
+			}
+			technology_reduction_hittite_effect = yes
 			transfer_scaled_wealth = {
 				to = ROOT
 				value = 5
@@ -2339,9 +3492,33 @@ kaskian_invasion_cb = {
 			}
 		}
 		ROOT = {
+			custom_tooltip = {
+				text = palace_destruction_TT
+				hidden_tooltip = {
+					any_realm_province = {
+						any_province_holding = {
+							destroy_palace_effect = yes
+						}
+					}
+				}
+			}
+		}
+		FROM = {
+			custom_tooltip = {
+				text = palace_destruction_TT
+				hidden_tooltip = {
+					any_realm_province = {
+						any_province_holding = {
+							destroy_palace_effect = yes
+						}
+					}
+				}
+			}
+		}
+		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 					NOT = {
 						has_character_modifier = imperial_authority_increase_war
 					}
@@ -2352,7 +3529,7 @@ kaskian_invasion_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -2378,7 +3555,7 @@ kaskian_invasion_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -2386,7 +3563,7 @@ kaskian_invasion_cb = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -2411,7 +3588,7 @@ kaskian_invasion_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -2419,7 +3596,7 @@ kaskian_invasion_cb = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -2581,9 +3758,9 @@ phrygian_invasion_cb = {
 				empire = {
 					title = e_hittite_empire
 				}
-				kingdom = {
-					title = k_arzawa
-				}
+				# kingdom = {
+					# title = k_arzawa
+				# }
 			}
 			OR = {
 				holder_scope = {
@@ -2606,22 +3783,6 @@ phrygian_invasion_cb = {
 							}
 							AND = {
 								is_land = no
-								# OR = {
-									# ROOT = { religion_group = muslim }
-									# FROM = { religion_group = muslim }
-									# AND = {
-										# ROOT = { religion_group = pagan_group }
-										# has_global_flag = pagan_ghws_unlocked
-									# }
-									# AND = {
-										# ROOT = { religion_group = christian }
-										# has_global_flag = christian_crusades_unlocked
-									# }
-									# AND = {
-										# ROOT = { religion_group = muslim }
-										# has_global_flag = muslim_jihads_unlocked
-									# }
-								# }
 								any_neighbor_province = {
 									OR = {
 										AND = {
@@ -2633,17 +3794,6 @@ phrygian_invasion_cb = {
 												}
 											}
 										}
-										# AND = {
-											# is_land = no
-											# any_neighbor_province = {
-												# owner = {
-													# OR = {
-														# character = ROOT
-														# is_liege_or_above = ROOT
-													# }
-												# }
-											# }
-										# }
 									}
 								}
 							}
@@ -2734,9 +3884,21 @@ phrygian_invasion_cb = {
 			}
 		}
 		ROOT = {
+			custom_tooltip = {
+				text = palace_destruction_TT
+				hidden_tooltip = {
+					any_realm_province = {
+						any_province_holding = {
+							destroy_palace_effect = yes
+						}
+					}
+				}
+			}
+		}
+		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 					NOT = {
 						has_character_modifier = imperial_authority_increase_war
 					}
@@ -2747,7 +3909,7 @@ phrygian_invasion_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -2773,7 +3935,7 @@ phrygian_invasion_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -2781,7 +3943,7 @@ phrygian_invasion_cb = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -2806,7 +3968,7 @@ phrygian_invasion_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.136 }
@@ -2814,7 +3976,7 @@ phrygian_invasion_cb = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -2909,6 +4071,7 @@ phrygian_invasion_cb = {
 	}
 }
 
+
 greek_revolt_cb = {
 	name = CB_NAME_GREEK_REVOLT
 	war_name = WAR_NAME_GREEK_REVOLT
@@ -2967,7 +4130,7 @@ greek_revolt_cb = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 					NOT = {
 						has_character_modifier = imperial_authority_increase_war
 					}
@@ -2978,7 +4141,7 @@ greek_revolt_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -3032,7 +4195,7 @@ greek_revolt_cb = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -3072,7 +4235,7 @@ greek_revolt_cb = {
 		ROOT = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 				}
 			}
 			character_event = { id = fkr.137 }
@@ -3102,7 +4265,7 @@ greek_revolt_cb = {
 		FROM = {
 			if = {
 				limit = {
-					government = hegemonic_government
+					has_character_modifier = imperial_authority
 					NOT = {
 						has_character_modifier = crushed_revolt
 					}

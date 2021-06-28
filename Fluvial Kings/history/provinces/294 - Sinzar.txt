@@ -1,0 +1,17 @@
+# c_sinzar
+
+# County Title
+title = c_sinzar
+
+# Settlements
+max_settlements = 3
+
+b_sinzar = castle
+b_zulabi = city
+#b_tunip = temple
+
+# Misc
+culture = amorite
+religion = canaanite_religion
+
+#History

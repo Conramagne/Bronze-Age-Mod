@@ -583,9 +583,7 @@ action_improve_rel_relations = {
 	attribute = learning
 	
 	potential = {
-		FROM = {
-			NOT = { religion_group = muslim }
-		}
+		
 	}
 	
 	trigger = {

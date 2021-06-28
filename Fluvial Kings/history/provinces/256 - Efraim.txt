@@ -7,8 +7,8 @@ title = c_efraim
 max_settlements = 5
 
 b_gezer = castle
-b_siloh = city
-b_beyt_el = temple
+b_beyt_el = city
+b_shiloh = temple
 #b_beyt_horon = castle
 #b_ay = city
 
