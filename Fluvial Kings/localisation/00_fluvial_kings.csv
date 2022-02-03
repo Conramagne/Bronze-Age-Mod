@@ -1533,3 +1533,7 @@ RULE_ANATOLIAN_COLLAPSE_INVASION_OFF;Anatolia will not be invaded during the Bro
 TRIBUTARY_LEAGUE_NAME;League City;;;;;;;;;;;;;x
 TRIBUTARY_LEAGUE_PLURAL;League Cities;;;;;;;;;;;;;x
 SUZERAIN_LEAGUE_NAME;League Hegemon;;;;;;;;;;;;;x
+
+###########Bookmark Localization###########
+bm_trojan_war;The Trojan War;;;;;;;;;;;;;x
+bm_trojan_war_DESC;The Mighty Hellene of Old...;;;;;;;;;;;;;x
