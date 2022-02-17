@@ -1,0 +1,15 @@
+# c_nedjfet_khentet
+
+# County Title
+title = c_nedjfet_khentet
+
+# Settlements
+max_settlements = 1
+
+b_zwaty = castle
+
+# Misc
+culture = tsmw
+religion = egyptian_religion
+
+#History

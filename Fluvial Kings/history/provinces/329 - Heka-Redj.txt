@@ -1,0 +1,15 @@
+# c_heka_redj
+
+# County Title
+title = c_heka_redj
+
+# Settlements
+max_settlements = 1
+
+b_in_meh = castle
+
+# Misc
+culture = tmhw
+religion = egyptian_religion
+
+#History

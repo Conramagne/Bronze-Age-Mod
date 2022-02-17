@@ -1,0 +1,15 @@
+# c_djehuti
+
+# County Title
+title = c_djehuti
+
+# Settlements
+max_settlements = 1
+
+b_bah = castle
+
+# Misc
+culture = tmhw
+religion = egyptian_religion
+
+#History

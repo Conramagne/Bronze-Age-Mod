@@ -1,0 +1,15 @@
+# c_netjerui
+
+# County Title
+title = c_netjerui
+
+# Settlements
+max_settlements = 1
+
+b_gebtu = castle
+
+# Misc
+culture = tsmw
+religion = egyptian_religion
+
+#History

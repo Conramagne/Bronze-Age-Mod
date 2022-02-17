@@ -1,0 +1,15 @@
+# c_nit_mehtet
+
+# County Title
+title = c_nit_mehtet
+
+# Settlements
+max_settlements = 1
+
+b_sau = castle
+
+# Misc
+culture = tmhw
+religion = egyptian_religion
+
+#History

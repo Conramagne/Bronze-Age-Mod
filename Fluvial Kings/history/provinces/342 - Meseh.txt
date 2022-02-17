@@ -1,0 +1,15 @@
+# c_meseh
+
+# County Title
+title = c_meseh
+
+# Settlements
+max_settlements = 1
+
+b_in_en_nut = castle
+
+# Misc
+culture = tsmw
+religion = egyptian_religion
+
+#History

@@ -1,0 +1,15 @@
+# c_ta_seti
+
+# County Title
+title = c_ta_seti
+
+# Settlements
+max_settlements = 1
+
+b_yeb = castle
+
+# Misc
+culture = tsmw
+religion = egyptian_religion
+
+#History

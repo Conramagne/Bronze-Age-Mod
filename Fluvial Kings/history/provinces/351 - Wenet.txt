@@ -1,0 +1,15 @@
+# c_wenet
+
+# County Title
+title = c_wenet
+
+# Settlements
+max_settlements = 1
+
+b_khemenu = castle
+
+# Misc
+culture = tsmw
+religion = egyptian_religion
+
+#History

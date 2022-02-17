@@ -1,0 +1,15 @@
+# c_nit_resu
+
+# County Title
+title = c_nit_resu
+
+# Settlements
+max_settlements = 1
+
+b_ptkheka = castle
+
+# Misc
+culture = tmhw
+religion = egyptian_religion
+
+#History

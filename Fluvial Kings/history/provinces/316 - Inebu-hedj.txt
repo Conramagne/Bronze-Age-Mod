@@ -1,0 +1,15 @@
+# c_inebu_hedj
+
+# County Title
+title = c_inebu_hedj
+
+# Settlements
+max_settlements = 1
+
+b_menfe = castle
+
+# Misc
+culture = tmhw
+religion = egyptian_religion
+
+#History

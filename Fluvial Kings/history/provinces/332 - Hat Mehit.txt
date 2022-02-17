@@ -1,0 +1,15 @@
+# c_hat_mehit
+
+# County Title
+title = c_hat_mehit
+
+# Settlements
+max_settlements = 1
+
+b_djedet = castle
+
+# Misc
+culture = tmhw
+religion = egyptian_religion
+
+#History

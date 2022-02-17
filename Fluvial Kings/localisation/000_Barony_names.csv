@@ -1,4 +1,6 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+b_a_ment;A-ment;A-ment;A-ment;;A-ment;;;;;;;;;x
+b_a_ment_adj;A-mentian;;a-menter;;;;;;;;;;;x
 b_abattum;Abattum;Abattum;Abattum;;Abattum;;;;;;;;;x
 b_abattum_adj;Abattumian;;abattumer;;;;;;;;;;;x
 b_abdera;Abdera;Abdera;Abdera;;Abdera;;;;;;;;;x
@@ -185,6 +187,8 @@ b_azza;Azza;Azza;Azza;;Azza;;;;;;;;;x
 b_azza_adj;Azzan;;azzer;;;;;;;;;;;x
 b_baalat;Baalat;Baalat;Baalat;;Baalat;;;;;;;;;x
 b_baalat_adj;Baalatian;;baalater;;;;;;;;;;;x
+b_bah;Ba'h;Ba'h;Ba'h;;Ba'h;;;;;;;;;x
+b_bah_adj;Ba'hian;;ba'her;;;;;;;;;;;x
 b_balu;Balu;Balu;Balu;;Balu;;;;;;;;;x
 b_balu_adj;Balian;;baler;;;;;;;;;;;x
 b_banga;Banga;Banga;Banga;;Banga;;;;;;;;;x
@@ -269,6 +273,16 @@ b_dinanu;Dinanu;Dinanu;Dinanu;;Dinanu;;;;;;;;;x
 b_dinanu_adj;Dinanian;;dinaner;;;;;;;;;;;x
 b_dium;Dium;Dium;Dium;;Dium;;;;;;;;;x
 b_dium_adj;Diumian;;diumer;;;;;;;;;;;x
+b_djanet;Dja'net;Dja'net;Dja'net;;Dja'net;;;;;;;;;x
+b_djanet_adj;Dja'netian;;dja'neter;;;;;;;;;;;x
+b_djeba;Djeba;Djeba;Djeba;;Djeba;;;;;;;;;x
+b_djeba_adj;Djeban;;djeber;;;;;;;;;;;x
+b_djedet;Djedet;Djedet;Djedet;;Djedet;;;;;;;;;x
+b_djedet_adj;Djedetian;;djedeter;;;;;;;;;;;x
+b_djedu;Djedu;Djedu;Djedu;;Djedu;;;;;;;;;x
+b_djedu_adj;Djedian;;djeder;;;;;;;;;;;x
+b_djew_qa;Djew-qa;Djew-qa;Djew-qa;;Djew-qa;;;;;;;;;x
+b_djew_qa_adj;Djew-qan;;djew-qer;;;;;;;;;;;x
 b_dor;Dor;Dor;Dor;;Dor;;;;;;;;;x
 b_dor_adj;Dorian;;dorer;;;;;;;;;;;x
 b_doulopolis;Doulopolis;Doulopolis;Doulopolis;;Doulopolis;;;;;;;;;x
@@ -323,6 +337,8 @@ b_eyn_gedi;Eyn Gedi;Eyn Gedi;Eyn Gedi;;Eyn Gedi;;;;;;;;;x
 b_eyn_gedi_adj;Eyn Gedian;;Eyn Geder;;;;;;;;;;;x
 b_ezion_geber;Ezion Geber;Ezion Geber;Ezion Geber;;Ezion Geber;;;;;;;;;x
 b_ezion_geber_adj;Ezion Geberian;;Ezion Geberer;;;;;;;;;;;x
+b_faiyum;Faiyum;Faiyum;Faiyum;;Faiyum;;;;;;;;;x
+b_faiyum_adj;Faiyumian;;faiyumer;;;;;;;;;;;x
 b_franchthi;Franchthi;Franchthi;Franchthi;;Franchthi;;;;;;;;;x
 b_franchthi_adj;Franchthian;;franchther;;;;;;;;;;;x
 b_ganibatum;Ganibatum;Ganibatum;Ganibatum;;Ganibatum;;;;;;;;;x
@@ -339,6 +355,8 @@ b_gazzapa;Gazzapa;Gazzapa;Gazzapa;;Gazzapa;;;;;;;;;x
 b_gazzapa_adj;Gazzapan;;gazzaper;;;;;;;;;;;x
 b_geba;Geba;Geba;Geba;;Geba;;;;;;;;;x
 b_geba_adj;Geban;;geber;;;;;;;;;;;x
+b_gebtu;Gebtu;Gebtu;Gebtu;;Gebtu;;;;;;;;;x
+b_gebtu_adj;Gebtian;;gebter;;;;;;;;;;;x
 b_gerar;Gerar;Gerar;Gerar;;Gerar;;;;;;;;;x
 b_gerar_adj;Gerarian;;gerarer;;;;;;;;;;;x
 b_gerenia;Gerenia;Gerenia;Gerenia;;Gerenia;;;;;;;;;x
@@ -407,12 +425,16 @@ b_hattusa;Hattusa;Hattusa;Hattusa;;Hattusa;;;;;;;;;x
 b_hattusa_adj;Hattusan;;hattuser;;;;;;;;;;;x
 b_hazazu;Hazazu;Hazazu;Hazazu;;Hazazu;;;;;;;;;x
 b_hazazu_adj;Hazazian;;hazazer;;;;;;;;;;;x
+b_henen_nesut;Henen-nesut;Henen-nesut;Henen-nesut;;Henen-nesut;;;;;;;;;x
+b_henen_nesut_adj;Henen-nesutian;;henen-nesuter;;;;;;;;;;;x
 b_heper;Heper;Heper;Heper;;Heper;;;;;;;;;x
 b_heper_adj;Heperian;;heperer;;;;;;;;;;;x
 b_herakleia;Herakleia;Herakleia;Herakleia;;Herakleia;;;;;;;;;x
 b_herakleia_adj;Herakleian;;herakler;;;;;;;;;;;x
 b_hermione;Hermione;Hermione;Hermione;;Hermione;;;;;;;;;x
 b_hermione_adj;Hermionean;;hermioner;;;;;;;;;;;x
+b_herwer;Herwer;Herwer;Herwer;;Herwer;;;;;;;;;x
+b_herwer_adj;Herwerian;;herwerer;;;;;;;;;;;x
 b_hesbon;Hesbon;Hesbon;Hesbon;;Hesbon;;;;;;;;;x
 b_hesbon_adj;Hesbonian;;hesboner;;;;;;;;;;;x
 b_hesphaista;Hesphaista;Hesphaista;Hesphaista;;Hesphaista;;;;;;;;;x
@@ -439,6 +461,8 @@ b_hurma;Hurma;Hurma;Hurma;;Hurma;;;;;;;;;x
 b_hurma_adj;Hurman;;hurmer;;;;;;;;;;;x
 b_hursubui;Hursubu'i;Hursubu'i;Hursubu'i;;Hursubu'i;;;;;;;;;x
 b_hursubui_adj;Hursubu'ian;;hursubu'er;;;;;;;;;;;x
+b_hut_hery_ib;Hut-hery-ib;Hut-hery-ib;Hut-hery-ib;;Hut-hery-ib;;;;;;;;;x
+b_hut_hery_ib_adj;Hut-hery-ibian;;hut-hery-iber;;;;;;;;;;;x
 b_huwalusa;Huwalusa;Huwalusa;Huwalusa;;Huwalusa;;;;;;;;;x
 b_huwalusa_adj;Huwalusan;;huwaluser;;;;;;;;;;;x
 b_hypsus;Hypsus;Hypsus;Hypsus;;Hypsus;;;;;;;;;x
@@ -455,8 +479,16 @@ b_ikkuwaniya;Ikkuwaniya;Ikkuwaniya;Ikkuwaniya;;Ikkuwaniya;;;;;;;;;x
 b_ikkuwaniya_adj;Ikkuwaniyan;;ikkuwaner;;;;;;;;;;;x
 b_illuya;Illuya;Illuya;Illuya;;Illuya;;;;;;;;;x
 b_illuya_adj;Illuyan;;illuer;;;;;;;;;;;x
+b_imu;Imu;Imu;Imu;;Imu;;;;;;;;;x
+b_imu_adj;Imian;;imer;;;;;;;;;;;x
+b_in_en_nut;In-en-Nut;In-en-Nut;In-en-Nut;;In-en-Nut;;;;;;;;;x
+b_in_en_nut_adj;In-en-Nutian;;in-en-nuter;;;;;;;;;;;x
+b_in_meh;In-Meh;In-Meh;In-Meh;;In-Meh;;;;;;;;;x
+b_in_meh_adj;In-Mehian;;in-meher;;;;;;;;;;;x
 b_iolkos;Iolkos;Iolkos;Iolkos;;Iolkos;;;;;;;;;x
 b_iolkos_adj;Iolkosian;;iolkoser;;;;;;;;;;;x
+b_ipi;Ipi;Ipi;Ipi;;Ipi;;;;;;;;;x
+b_ipi_adj;Ipian;;iper;;;;;;;;;;;x
 b_ippasana;Ippasana;Ippasana;Ippasana;;Ippasana;;;;;;;;;x
 b_ippasana_adj;Ippasanan;;ippasaner;;;;;;;;;;;x
 b_irqata;Irqata;Irqata;Irqata;;Irqata;;;;;;;;;x
@@ -549,8 +581,14 @@ b_khaironeia;Khaironeia;Khaironeia;Khaironeia;;Khaironeia;;;;;;;;;x
 b_khaironeia_adj;Khaironeian;;khaironer;;;;;;;;;;;x
 b_khalkis;Khalkis;Khalkis;Khalkis;;Khalkis;;;;;;;;;x
 b_khalkis_adj;Khalkisian;;khalkiser;;;;;;;;;;;x
+b_khasu;Khasu;Khasu;Khasu;;Khasu;;;;;;;;;x
+b_khasu_adj;Khasian;;khaser;;;;;;;;;;;x
 b_khbide;Khbide;Khbide;Khbide;;Khbide;;;;;;;;;x
 b_khbide_adj;Khbidean;;khbider;;;;;;;;;;;x
+b_khem;Khem;Khem;Khem;;Khem;;;;;;;;;x
+b_khem_adj;Khemian;;khemer;;;;;;;;;;;x
+b_khemenu;Khemenu;Khemenu;Khemenu;;Khemenu;;;;;;;;;x
+b_khemenu_adj;Khemenian;;khemener;;;;;;;;;;;x
 b_khios;Khios;Khios;Khios;;Khios;;;;;;;;;x
 b_khios_adj;Khiosian;;khioser;;;;;;;;;;;x
 b_kinaret;Kinaret;Kinaret;Kinaret;;Kinaret;;;;;;;;;x
@@ -721,6 +759,8 @@ b_meliboia;Meliboia;Meliboia;Meliboia;;Meliboia;;;;;;;;;x
 b_meliboia_adj;Meliboian;;meliber;;;;;;;;;;;x
 b_menelaeion;Menelaeion;Menelaeion;Menelaeion;;Menelaeion;;;;;;;;;x
 b_menelaeion_adj;Menelaeionian;;menelaeioner;;;;;;;;;;;x
+b_menfe;Menfe;Menfe;Menfe;;Menfe;;;;;;;;;x
+b_menfe_adj;Menfean;;menfer;;;;;;;;;;;x
 b_messene;Messene;Messene;Messene;;Messene;;;;;;;;;x
 b_messene_adj;Messenean;;messener;;;;;;;;;;;x
 b_methana;Methana;Methana;Methana;;Methana;;;;;;;;;x
@@ -761,6 +801,8 @@ b_napigu;Napigu;Napigu;Napigu;;Napigu;;;;;;;;;x
 b_napigu_adj;Napigian;;napiger;;;;;;;;;;;x
 b_naxos;Naxos;Naxos;Naxos;;Naxos;;;;;;;;;x
 b_naxos_adj;Naxosian;;naxoser;;;;;;;;;;;x
+b_nekhen;Nekhen;Nekhen;Nekhen;;Nekhen;;;;;;;;;x
+b_nekhen_adj;Nekhenian;;nekhener;;;;;;;;;;;x
 b_nemea;Nemea;Nemea;Nemea;;Nemea;;;;;;;;;x
 b_nemea_adj;Nemean;;nemer;;;;;;;;;;;x
 b_nemed_ishtar;Nemed-Ishtar;Nemed-Ishtar;Nemed-Ishtar;;Nemed-Ishtar;;;;;;;;;x
@@ -863,6 +905,12 @@ b_penteli;Penteli;Penteli;Penteli;;Penteli;;;;;;;;;x
 b_penteli_adj;Pentelian;;penteler;;;;;;;;;;;x
 b_peparethos;Peparethos;Peparethos;Peparethos;;Peparethos;;;;;;;;;x
 b_peparethos_adj;Peparethosian;;peparethoser;;;;;;;;;;;x
+b_per_bastet;Per-Bastet;Per-Bastet;Per-Bastet;;Per-Bastet;;;;;;;;;x
+b_per_bastet_adj;Per-Bastetian;;per-basteter;;;;;;;;;;;x
+b_per_medjed;Per-Medjed;Per-Medjed;Per-Medjed;;Per-Medjed;;;;;;;;;x
+b_per_medjed_adj;Per-Medjedian;;per-medjeder;;;;;;;;;;;x
+b_per_sopdu;Per-Sopdu;Per-Sopdu;Per-Sopdu;;Per-Sopdu;;;;;;;;;x
+b_per_sopdu_adj;Per-Sopdian;;per-sopder;;;;;;;;;;;x
 b_perati;Perati;Perati;Perati;;Perati;;;;;;;;;x
 b_perati_adj;Peratian;;perater;;;;;;;;;;;x
 b_pergamon;Pergamon;Pergamon;Pergamon;;Pergamon;;;;;;;;;x
@@ -925,10 +973,14 @@ b_poros;Poros;Poros;Poros;;Poros;;;;;;;;;x
 b_poros_adj;Porosian;;poroser;;;;;;;;;;;x
 b_potidania;Potidania;Potidania;Potidania;;Potidania;;;;;;;;;x
 b_potidania_adj;Potidanian;;potidaner;;;;;;;;;;;x
+b_pr_nmty;Pr nmty;Pr nmty;Pr nmty;;Pr nmty;;;;;;;;;x
+b_pr_nmty_adj;Pr nmtian;;Pr nmter;;;;;;;;;;;x
 b_prasiai;Prasiai;Prasiai;Prasiai;;Prasiai;;;;;;;;;x
 b_prasiai_adj;Prasian;;praser;;;;;;;;;;;x
 b_pteleus;Pteleus;Pteleus;Pteleus;;Pteleus;;;;;;;;;x
 b_pteleus_adj;Pteleusian;;pteleuser;;;;;;;;;;;x
+b_ptkheka;Ptkheka;Ptkheka;Ptkheka;;Ptkheka;;;;;;;;;x
+b_ptkheka_adj;Ptkhekan;;ptkheker;;;;;;;;;;;x
 b_punon;Punon;Punon;Punon;;Punon;;;;;;;;;x
 b_punon_adj;Punonian;;punoner;;;;;;;;;;;x
 b_pylos;Pylos;Pylos;Pylos;;Pylos;;;;;;;;;x
@@ -943,6 +995,8 @@ b_qatna;Qatna;Qatna;Qatna;;Qatna;;;;;;;;;x
 b_qatna_adj;Qatnan;;qatner;;;;;;;;;;;x
 b_qedes;Qedes;Qedes;Qedes;;Qedes;;;;;;;;;x
 b_qedes_adj;Qedesian;;qedeser;;;;;;;;;;;x
+b_qesy;Qesy;Qesy;Qesy;;Qesy;;;;;;;;;x
+b_qesy_adj;Qesian;;qeser;;;;;;;;;;;x
 b_qir_hareset;Qir Hareset;Qir Hareset;Qir Hareset;;Qir Hareset;;;;;;;;;x
 b_qir_hareset_adj;Qir Haresetian;;Qir Hareseter;;;;;;;;;;;x
 b_rabbat_ammon;Rabbat Ammon;Rabbat Ammon;Rabbat Ammon;;Rabbat Ammon;;;;;;;;;x
@@ -971,6 +1025,8 @@ b_sabazu;Sabazu;Sabazu;Sabazu;;Sabazu;;;;;;;;;x
 b_sabazu_adj;Sabazian;;sabazer;;;;;;;;;;;x
 b_sahiriya;Sahiriya;Sahiriya;Sahiriya;;Sahiriya;;;;;;;;;x
 b_sahiriya_adj;Sahiriyan;;sahirer;;;;;;;;;;;x
+b_saka;Saka;Saka;Saka;;Saka;;;;;;;;;x
+b_saka_adj;Sakan;;saker;;;;;;;;;;;x
 b_sakdunuwa;Sakdunuwa;Sakdunuwa;Sakdunuwa;;Sakdunuwa;;;;;;;;;x
 b_sakdunuwa_adj;Sakdunuwan;;sakdunuwer;;;;;;;;;;;x
 b_salahsuwa;Salahsuwa;Salahsuwa;Salahsuwa;;Salahsuwa;;;;;;;;;x
@@ -1015,20 +1071,28 @@ b_sarisa;Sarisa;Sarisa;Sarisa;;Sarisa;;;;;;;;;x
 b_sarisa_adj;Sarisan;;sariser;;;;;;;;;;;x
 b_saruhen;Saruhen;Saruhen;Saruhen;;Saruhen;;;;;;;;;x
 b_saruhen_adj;Saruhenian;;saruhener;;;;;;;;;;;x
+b_sau;Sau;Sau;Sau;;Sau;;;;;;;;;x
+b_sau_adj;Sian;;ser;;;;;;;;;;;x
 b_sawit;Sawit;Sawit;Sawit;;Sawit;;;;;;;;;x
 b_sawit_adj;Sawitian;;sawiter;;;;;;;;;;;x
 b_sazana;Sazana;Sazana;Sazana;;Sazana;;;;;;;;;x
 b_sazana_adj;Sazanan;;sazaner;;;;;;;;;;;x
 b_seha;Seha;Seha;Seha;;Seha;;;;;;;;;x
 b_seha_adj;Sehan;;seher;;;;;;;;;;;x
+b_semabehdet;Semabehdet;Semabehdet;Semabehdet;;Semabehdet;;;;;;;;;x
+b_semabehdet_adj;Semabehdetian;;semabehdeter;;;;;;;;;;;x
 b_serigga;Serigga;Serigga;Serigga;;Serigga;;;;;;;;;x
 b_serigga_adj;Seriggan;;serigger;;;;;;;;;;;x
+b_seshesh;Seshesh;Seshesh;Seshesh;;Seshesh;;;;;;;;;x
+b_seshesh_adj;Sesheshian;;seshesher;;;;;;;;;;;x
 b_sestus;Sestus;Sestus;Sestus;;Sestus;;;;;;;;;x
 b_sestus_adj;Sestusian;;sestuser;;;;;;;;;;;x
 b_sfard;Sfard;Sfard;Sfard;;Sfard;;;;;;;;;x
 b_sfard_adj;Sfardian;;sfarder;;;;;;;;;;;x
 b_shamal;Shamal;Shamal;Shamal;;Shamal;;;;;;;;;x
 b_shamal_adj;Shamalian;;shamaler;;;;;;;;;;;x
+b_shashotep;Shashotep;Shashotep;Shashotep;;Shashotep;;;;;;;;;x
+b_shashotep_adj;Shashotepian;;shashoteper;;;;;;;;;;;x
 b_shiloh;Shiloh;Shiloh;Shiloh;;Shiloh;;;;;;;;;x
 b_shiloh_adj;Shilohian;;shiloher;;;;;;;;;;;x
 b_shomron;Shomron;Shomron;Shomron;;Shomron;;;;;;;;;x
@@ -1119,6 +1183,8 @@ b_tapapanuwa;Tapapanuwa;Tapapanuwa;Tapapanuwa;;Tapapanuwa;;;;;;;;;x
 b_tapapanuwa_adj;Tapapanuwan;;tapapanuwer;;;;;;;;;;;x
 b_tapikka;Tapikka;Tapikka;Tapikka;;Tapikka;;;;;;;;;x
 b_tapikka_adj;Tapikkan;;tapikker;;;;;;;;;;;x
+b_taremu;Taremu;Taremu;Taremu;;Taremu;;;;;;;;;x
+b_taremu_adj;Taremian;;taremer;;;;;;;;;;;x
 b_tarhuntassa;Tarhuntassa;Tarhuntassa;Tarhuntassa;;Tarhuntassa;;;;;;;;;x
 b_tarhuntassa_adj;Tarhuntassan;;tarhuntasser;;;;;;;;;;;x
 b_tarittara;Tarittara;Tarittara;Tarittara;;Tarittara;;;;;;;;;x
@@ -1143,10 +1209,14 @@ b_tenedos;Tenedos;Tenedos;Tenedos;;Tenedos;;;;;;;;;x
 b_tenedos_adj;Tenedosian;;tenedoser;;;;;;;;;;;x
 b_teos;Teos;Teos;Teos;;Teos;;;;;;;;;x
 b_teos_adj;Teosian;;teoser;;;;;;;;;;;x
+b_tepihu;Tepihu;Tepihu;Tepihu;;Tepihu;;;;;;;;;x
+b_tepihu_adj;Tepihian;;tepiher;;;;;;;;;;;x
 b_terqa;Terqa;Terqa;Terqa;;Terqa;;;;;;;;;x
 b_terqa_adj;Terqan;;terqer;;;;;;;;;;;x
 b_terussa;Terussa;Terussa;Terussa;;Terussa;;;;;;;;;x
 b_terussa_adj;Terussan;;terusser;;;;;;;;;;;x
+b_teudjoi;Teudjoi;Teudjoi;Teudjoi;;Teudjoi;;;;;;;;;x
+b_teudjoi_adj;Teudjian;;teudjer;;;;;;;;;;;x
 b_teuthrone;Teuthrone;Teuthrone;Teuthrone;;Teuthrone;;;;;;;;;x
 b_teuthrone_adj;Teuthronean;;teuthroner;;;;;;;;;;;x
 b_thaumakie;Thaumakie;Thaumakie;Thaumakie;;Thaumakie;;;;;;;;;x
@@ -1189,6 +1259,14 @@ b_tiryns;Tiryns;Tiryns;Tiryns;;Tiryns;;;;;;;;;x
 b_tiryns_adj;Tirynsian;;tirynser;;;;;;;;;;;x
 b_tismurna;Tismurna;Tismurna;Tismurna;;Tismurna;;;;;;;;;x
 b_tismurna_adj;Tismurnan;;tismurner;;;;;;;;;;;x
+b_tjaru;Tjaru;Tjaru;Tjaru;;Tjaru;;;;;;;;;x
+b_tjaru_adj;Tjarian;;tjarer;;;;;;;;;;;x
+b_tjebnutjer;Tjebnutjer;Tjebnutjer;Tjebnutjer;;Tjebnutjer;;;;;;;;;x
+b_tjebnutjer_adj;Tjebnutjerian;;tjebnutjerer;;;;;;;;;;;x
+b_tjeku;Tjeku;Tjeku;Tjeku;;Tjeku;;;;;;;;;x
+b_tjeku_adj;Tjekian;;tjeker;;;;;;;;;;;x
+b_tjenu;Tjenu;Tjenu;Tjenu;;Tjenu;;;;;;;;;x
+b_tjenu_adj;Tjenian;;tjener;;;;;;;;;;;x
 b_trikka;Trikka;Trikka;Trikka;;Trikka;;;;;;;;;x
 b_trikka_adj;Trikkan;;trikker;;;;;;;;;;;x
 b_tritaia;Tritaia;Tritaia;Tritaia;;Tritaia;;;;;;;;;x
@@ -1257,6 +1335,8 @@ b_walwara;Walwara;Walwara;Walwara;;Walwara;;;;;;;;;x
 b_walwara_adj;Walwaran;;walwarer;;;;;;;;;;;x
 b_warsabama;Warsabama;Warsabama;Warsabama;;Warsabama;;;;;;;;;x
 b_warsabama_adj;Warsabaman;;warsabamer;;;;;;;;;;;x
+b_waset;Waset;Waset;Waset;;Waset;;;;;;;;;x
+b_waset_adj;Wasetian;;waseter;;;;;;;;;;;x
 b_washaniya;Washaniya;Washaniya;Washaniya;;Washaniya;;;;;;;;;x
 b_washaniya_adj;Washaniyan;;washaner;;;;;;;;;;;x
 b_washaya;Washaya;Washaya;Washaya;;Washaya;;;;;;;;;x
@@ -1275,6 +1355,8 @@ b_yartu;Ya'rtu;Ya'rtu;Ya'rtu;;Ya'rtu;;;;;;;;;x
 b_yartu_adj;Ya'rtian;;ya'rter;;;;;;;;;;;x
 b_yattir;Yattir;Yattir;Yattir;;Yattir;;;;;;;;;x
 b_yattir_adj;Yattirian;;yattirer;;;;;;;;;;;x
+b_yeb;Yeb;Yeb;Yeb;;Yeb;;;;;;;;;x
+b_yeb_adj;Yebian;;yeber;;;;;;;;;;;x
 b_yerushalaim;Yerushalaim;Yerushalaim;Yerushalaim;;Yerushalaim;;;;;;;;;x
 b_yerushalaim_adj;Yerushalaimian;;yerushalaimer;;;;;;;;;;;x
 b_yisrael;Yisrael;Yisrael;Yisrael;;Yisrael;;;;;;;;;x
@@ -1329,3 +1411,5 @@ b_zumarri;Zumarri;Zumarri;Zumarri;;Zumarri;;;;;;;;;x
 b_zumarri_adj;Zumarrian;;zumarrer;;;;;;;;;;;x
 b_zuqarru;Zuqarru;Zuqarru;Zuqarru;;Zuqarru;;;;;;;;;x
 b_zuqarru_adj;Zuqarrian;;zuqarrer;;;;;;;;;;;x
+b_zwaty;Zwaty;Zwaty;Zwaty;;Zwaty;;;;;;;;;x
+b_zwaty_adj;Zwatian;;zwater;;;;;;;;;;;x

@@ -1,0 +1,16 @@
+#KEMET
+technology = {
+	titles = {
+		d_kemat
+	}
+	2527 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+	3161 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

@@ -1,0 +1,15 @@
+# c_sepdju
+
+# County Title
+title = c_sepdju
+
+# Settlements
+max_settlements = 1
+
+b_per_sopdu = castle
+
+# Misc
+culture = tmhw
+religion = egyptian_religion
+
+#History

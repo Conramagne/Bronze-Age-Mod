@@ -1,0 +1,15 @@
+# c_wabwi
+
+# County Title
+title = c_wabwi
+
+# Settlements
+max_settlements = 1
+
+b_per_medjed = castle
+
+# Misc
+culture = tsmw
+religion = egyptian_religion
+
+#History

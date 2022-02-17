@@ -1,0 +1,15 @@
+# c_ta_wer
+
+# County Title
+title = c_ta_wer
+
+# Settlements
+max_settlements = 1
+
+b_tjenu = castle
+
+# Misc
+culture = tsmw
+religion = egyptian_religion
+
+#History

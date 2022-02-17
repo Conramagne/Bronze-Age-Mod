@@ -1,0 +1,15 @@
+# c_imentet
+
+# County Title
+title = c_imentet
+
+# Settlements
+max_settlements = 1
+
+b_imu = castle
+
+# Misc
+culture = tmhw
+religion = egyptian_religion
+
+#History

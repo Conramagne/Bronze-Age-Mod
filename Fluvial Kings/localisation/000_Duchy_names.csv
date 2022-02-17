@@ -59,6 +59,8 @@ d_kalasma;Kalasma;Kalasma;Kalasma;;Kalasma;;;;;;;;;x
 d_kalasma_adj;Kalasman;;kalasmer;;;;;;;;;;;x
 d_kamalla;Kamalla;Kamalla;Kamalla;;Kamalla;;;;;;;;;x
 d_kamalla_adj;Kamallan;;kamaller;;;;;;;;;;;x
+d_kamat;Kamat;Kamat;Kamat;;Kamat;;;;;;;;;x
+d_kamat_adj;Kamatian;;kamater;;;;;;;;;;;x
 d_karkemish;Karkemish;Karkemish;Karkemish;;Karkemish;;;;;;;;;x
 d_karkemish_adj;Karkemishian;;karkemisher;;;;;;;;;;;x
 d_karkiya;Karkiya;Karkiya;Karkiya;;Karkiya;;;;;;;;;x
@@ -73,6 +75,8 @@ d_kasula;Kasula;Kasula;Kasula;;Kasula;;;;;;;;;x
 d_kasula_adj;Kasulan;;kasuler;;;;;;;;;;;x
 d_katerra_udne;Katerra Udne;Katerra Udne;Katerra Udne;;Katerra Udne;;;;;;;;;x
 d_katerra_udne_adj;Katerra Udnean;;Katerra Udner;;;;;;;;;;;x
+d_kemat;Kemat;Kemat;Kemat;;Kemat;;;;;;;;;x
+d_kemat_adj;Kematian;;kemater;;;;;;;;;;;x
 d_knossos;Knossos;Knossos;Knossos;;Knossos;;;;;;;;;x
 d_knossos_adj;Knossosian;;knossoser;;;;;;;;;;;x
 d_kuklades;Kuklades;Kuklades;Kuklades;;Kuklades;;;;;;;;;x
@@ -99,6 +103,8 @@ d_marqasa;Marqasa;Marqasa;Marqasa;;Marqasa;;;;;;;;;x
 d_marqasa_adj;Marqasan;;marqaser;;;;;;;;;;;x
 d_masa;Masa;Masa;Masa;;Masa;;;;;;;;;x
 d_masa_adj;Masan;;maser;;;;;;;;;;;x
+d_menfe;Menfe;Menfe;Menfe;;Menfe;;;;;;;;;x
+d_menfe_adj;Menfean;;menfer;;;;;;;;;;;x
 d_messenia;Messenia;Messenia;Messenia;;Messenia;;;;;;;;;x
 d_messenia_adj;Messenian;;messener;;;;;;;;;;;x
 d_mira;Mira;Mira;Mira;;Mira;;;;;;;;;x
@@ -147,6 +153,8 @@ d_ugarit;Ugarit;Ugarit;Ugarit;;Ugarit;;;;;;;;;x
 d_ugarit_adj;Ugaritian;;ugariter;;;;;;;;;;;x
 d_voreios_aigaion;Voreios Aigaion;Voreios Aigaion;Voreios Aigaion;;Voreios Aigaion;;;;;;;;;x
 d_voreios_aigaion_adj;Voreios Aigaionian;;Voreios Aigaioner;;;;;;;;;;;x
+d_waset;Waset;Waset;Waset;;Waset;;;;;;;;;x
+d_waset_adj;Wasetian;;waseter;;;;;;;;;;;x
 d_wilusa;Wilusa;Wilusa;Wilusa;;Wilusa;;;;;;;;;x
 d_wilusa_adj;Wilusan;;wiluser;;;;;;;;;;;x
 d_yehuda;Yehuda;Yehuda;Yehuda;;Yehuda;;;;;;;;;x

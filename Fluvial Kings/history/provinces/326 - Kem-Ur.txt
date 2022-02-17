@@ -1,0 +1,15 @@
+# c_kem_ur
+
+# County Title
+title = c_kem_ur
+
+# Settlements
+max_settlements = 1
+
+b_hut_hery_ib = castle
+
+# Misc
+culture = tmhw
+religion = egyptian_religion
+
+#History

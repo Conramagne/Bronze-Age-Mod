@@ -1,0 +1,15 @@
+# c_menu
+
+# County Title
+title = c_menu
+
+# Settlements
+max_settlements = 1
+
+b_ipi = castle
+
+# Misc
+culture = tsmw
+religion = egyptian_religion
+
+#History

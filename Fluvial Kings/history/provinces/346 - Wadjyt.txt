@@ -1,0 +1,15 @@
+# c_wadjyt
+
+# County Title
+title = c_wadjyt
+
+# Settlements
+max_settlements = 1
+
+b_djew_qa = castle
+
+# Misc
+culture = tsmw
+religion = egyptian_religion
+
+#History

@@ -43,6 +43,10 @@ israelite;B'nei Yisra'el;;;;;;;;;;;;;x
 phoenician;Ponnim;;;;;;;;;;;;;x
 elohim;Elohim;;;;;;;;;;;;;x
 
+nilotic;Remetch;;;;;;;;;;;;;x
+tmhw;Tamehu;;;;;;;;;;;;;x
+tsmw;Tasheme'aw;;;;;;;;;;;;;x
+
 ###########Government and Laws###########
 feudal_government;Local Polity;;;;;;;;;;;;;x
 feudal_government_desc;Local polities are states that have arisen from disunited tribes and confederations or have slipped out of the grasps of larger realms. Often considered nothing more than petty states with squabbling tyrants whose authority barely extends beyond the walls of their citadels, they lack the courtly grandeur and the ability to administer more than their local communities.;;;;;;;;;;;;;x
@@ -871,6 +875,30 @@ emperor_female_israelite;Malká G'dola;;;;;;;;;;;;;x
 city_barony_of_israelite;'Ir;;;;;;;;;;;;;x
 city_baron_israelite;Rosh Iriyá;;;;;;;;;;;;;x
 city_baron_israelite_female;Rosh Iriyát;;;;;;;;;;;;;x
+
+emperor_tmhw;Sema-Tawy;;;;;;;;;;;;;x
+emperor_female_tmhw;Nabt-Tawy;;;;;;;;;;;;;x
+king_tmhw;Neswat;;;;;;;;;;;;;x
+king_female_tmhw;Neswat;;;;;;;;;;;;;x
+duchy_of_tmhw;Sepat;;;;;;;;;;;;;x
+duke_tmhw;Heri-Tep;;;;;;;;;;;;;x
+duke_female_tmhw;Heri-Tep;;;;;;;;;;;;;x
+count_tmhw;Heri;;;;;;;;;;;;;x
+count_female_tmhw;Heri;;;;;;;;;;;;;x
+baron_tmhw;Tepu;;;;;;;;;;;;;x
+baron_female_tmhw;Tepu;;;;;;;;;;;;;x
+
+emperor_tsmw;Sema-Tawy;;;;;;;;;;;;;x
+emperor_female_tsmw;Nabt-Tawy;;;;;;;;;;;;;x
+king_tsmw;Neswat;;;;;;;;;;;;;x
+king_female_tsmw;Neswat;;;;;;;;;;;;;x
+duchy_of_tsmw;Sepat;;;;;;;;;;;;;x
+duke_tsmw;Heri-Tep;;;;;;;;;;;;;x
+duke_female_tsmw;Heri-Tep;;;;;;;;;;;;;x
+count_tsmw;Heri;;;;;;;;;;;;;x
+count_female_tsmw;Heri;;;;;;;;;;;;;x
+baron_tsmw;Tepu;;;;;;;;;;;;;x
+baron_female_tsmw;Tepu;;;;;;;;;;;;;x
 
 ###########Religious Title Localisation###########
 temple_barony_of_pihassasi;Karimmi of;;;;;;;;;;;;;x

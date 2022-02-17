@@ -1,0 +1,15 @@
+# c_behdet
+
+# County Title
+title = c_behdet
+
+# Settlements
+max_settlements = 1
+
+b_semabehdet = castle
+
+# Misc
+culture = tmhw
+religion = egyptian_religion
+
+#History
