@@ -1,0 +1,19 @@
+# c_wadjyt
+
+# County Title
+title = c_wadjyt
+
+# Settlements
+max_settlements = 5
+
+b_tjebu = castle
+b_per_wedjy = city
+b_pa_shena = temple
+b_sebhet = castle
+b_wadjyt = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

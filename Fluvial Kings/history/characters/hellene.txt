@@ -1420,8 +1420,8 @@
 	religion = pantes_theoi
 	father = 2100600
 	mother = 2100601
-	2522.1.1 = { birth = yes }
-	2582.1.1 = { death = yes }
+	2527.1.1 = { birth = yes }
+	2587.1.1 = { death = yes }
 }
 
 2100612 = { #Pero
@@ -1511,6 +1511,7 @@
 	trait = brilliant_strategist
 	trait = robust
 	trait = strong
+	trait = giant
 	trait = strategist
 	trait = defensive_leader
 	trait = brave
@@ -1731,6 +1732,7 @@
 	trait = robust
 	trait = aggressive_leader
 	trait = proud
+	trait = greedy
 	trait = kinslayer
 	disallow_random_traits = yes
 	2491.1.1 = { birth = yes }
@@ -4408,7 +4410,7 @@
 	religion = pantes_theoi
 	father = 2102300
 	mother = 2101011
-	2525.1.1 = { birth = yes }
+	2527.1.1 = { birth = yes }
 	2591.1.1 = { death = yes }
 }
 

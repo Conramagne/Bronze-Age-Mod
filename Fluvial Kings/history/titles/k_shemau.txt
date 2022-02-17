@@ -1,0 +1,94 @@
+1.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+1641.1.1 = {
+	holder = 2500908 #Intef I
+}
+1653.1.1 = {
+	holder = 2500907 #Intef II
+}
+1702.1.1 = {
+	holder = 2500906 #Intef III
+}
+1710.1.1 = {
+	holder = 2500904 #Mentuhotep II
+}
+1731.1.1 = {
+	holder = 0 #Egypt reunited
+}
+2113.1.1 = {
+	holder = 2500313 #Djehuti
+}
+2116.1.1 = {
+	holder = 2500312 #Sobekhotep VIII
+}
+2132.1.1 = {
+	holder = 2500311 #Neferhotep III
+}
+2133.1.1 = {
+	holder = 2500310 #Mentuhotepi
+}
+2134.1.1 = {
+	holder = 2500309 #Nebiriau I
+}
+2159.1.1 = {
+	holder = 2500308 #Nebiriau II
+}
+2160.1.1 = {
+	holder = 2500307 #Semenre
+}
+2161.1.1 = {
+	holder = 2500306 #Bebiankh
+}
+2172.1.1 = {
+	holder = 2500305 #Shedwaset
+}
+2173.1.1 = {
+	holder = 2500304 #Dedumose I
+}
+2175.1.1 = {
+	holder = 2500303 #Dedumose II
+}
+2176.1.1 = {
+	holder = 2500302 #Montemsaf
+}
+2177.1.1 = {
+	holder = 2500301 #Mentuhotep VI
+}
+2178.1.1 = {
+	holder = 2500300 #Senusret IV
+}
+2179.1.1 = {
+	holder = 2500213 #Rahotep
+}
+2185.1.1 = {
+	holder = 2500212 #Sobekemsaf I
+}
+2192.1.1 = {
+	holder = 2500211 #Sobekemsaf II
+}
+2193.1.1 = {
+	holder = 2500210 #Intef V
+}
+2195.1.1 = {
+	holder = 2500209 #Intef VI
+}
+2199.1.1 = {
+	holder = 2500208 #Intef VII
+}
+2203.1.1 = {
+	holder = 2500207 #Ahmose I
+}
+2204.1.1 = {
+	holder = 2500203 #Tao II
+}
+2209.1.1 = {
+	holder = 2500200 #Kamose
+}
+2211.1.1 = {
+	holder = 2500130 #Ahmose II/Ahmose I of Egypt
+}
+2229.1.1 = {
+	holder = 0 #Lower Egypt conquered, Egypt united
+}

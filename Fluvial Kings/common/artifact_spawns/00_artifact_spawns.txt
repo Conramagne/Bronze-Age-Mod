@@ -148,7 +148,7 @@ armor_glaucus = {
 
 bow_eurytus = {
     max_amount = 1
-    spawn_date = 2520.1.1
+    spawn_date = 2521.1.1
 	
 	spawn_chance = {
 		value = 100

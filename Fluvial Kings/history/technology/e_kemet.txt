@@ -1,16 +1,70 @@
-#KEMET
+#Egypt
+
+#Very High Technology
 technology = {
 	titles = {
-		d_kemat
+		d_mehtet_iabti
 	}
+	
 	2527 = {
-		military = 2.0
-		economy = 2.0
-		culture = 2.0
+		military = 1.2		
+		economy = 1.5
+		culture = 1.5
+		TECH_RECRUITMENT = 3
+		TECH_CASTLE_CONSTRUCTION = 3
+		TECH_CITY_CONSTRUCTION = 3
+		TECH_CONSTRUCTION = 3
+		TECH_MAJESTY = 2
+		TECH_LEGALISM = 3
 	}
-	3161 = {
-		military = 5.0
-		economy = 5.0
-		culture = 5.0
+		
+	3061 = {
+		military = 4.5
+		economy = 4.5
+		culture = 4.5
+	}
+}
+
+#High Technology
+technology = {
+	titles = {
+		d_mehtet_imenti
+		d_iunu
+	}
+
+	2527 = {
+		military = 1
+		economy = 1
+		culture = 1
+	}
+		
+	3061 = {
+		military = 5
+		economy = 5
+		culture = 5
+	}
+}
+
+#Medium Technology
+technology = {
+	titles = {
+		d_abdju
+		d_akhetaten
+		d_qab
+		d_resu
+		d_waset
+	}
+
+	2527 = {
+		military = 0.5
+		economy = 0.85
+		culture = 1.0
+	}
+
+	3061 = {
+	
+		military = 4
+		economy = 4
+		culture = 4
 	}
 }

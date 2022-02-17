@@ -37,7 +37,10 @@ theocracy_governments = {
 				religion_allows_male_temple_holders = yes
 			}
 			NAND = {
-				religion = ishalitethai
+				OR = {
+					religion = berith
+					religion = ishalitethai
+				}
 				controls_religion = yes
 			}
 		}

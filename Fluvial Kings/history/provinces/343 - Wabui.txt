@@ -1,0 +1,20 @@
+# c_wabui
+
+# County Title
+title = c_wabui
+
+# Settlements
+max_settlements = 6
+
+b_pen_na_nehsi = castle
+b_per_medjed = city
+b_seper_meru = temple
+b_pa_sega_anyn = castle
+b_shenut_em_qemau = city
+b_sha_repet = temple
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

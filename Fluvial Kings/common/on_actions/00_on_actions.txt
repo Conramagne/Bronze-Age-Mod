@@ -39,6 +39,7 @@ on_startup = {
 		fkm.12 #Assigns Twelve Tribe Traits
 		tw.1 #Trojan War Set-Up
 		fkc.1 #Puts Twelve Tribes into Alliance
+		fkrel.300 #Egyptian Temple Set-up
 	}
 }
 
@@ -2018,8 +2019,8 @@ on_death = {
 		fka.1	#Hero Apotheosis
 		
 		fkm.7	#Themis returns to Olympus
-		
 		fkm.9 #Maintenance to prevent shenaniganery with fkm.6
+		fkm.15
 		
 		# tw.13 #Chryseis dies, plague removed
 		tw.19 #Menelaus dies of a duel set-up

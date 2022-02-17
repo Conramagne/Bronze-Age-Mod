@@ -1495,8 +1495,8 @@
 	trait = trait_god
 	trait = child_of_consort
 	immortal_age = 20
-	1.1.19 = { birth = yes }
-	1.1.19 = {
+	1.1.28 = { birth = yes }
+	1.1.28 = {
 		effect = {
 			set_character_flag = flag_god
 		}
@@ -1515,8 +1515,8 @@
 	trait = trait_god
 	trait = child_of_consort
 	immortal_age = 20
-	1.1.20 = { birth = yes }
-	1.1.20 = {
+	1.1.29 = { birth = yes }
+	1.1.29 = {
 		effect = {
 			set_character_flag = flag_god
 		}

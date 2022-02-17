@@ -8,7 +8,7 @@
 	trait = skilled_tactician
 	trait = brave
 	trait = shrewd
-	trait =  kind
+	trait = kind
 	trait = just
 	trait = charitable
 	disallow_random_traits = yes
@@ -74,6 +74,7 @@
 	trait = envious
 	trait = groomed
 	trait = lustful
+	trait = craven
 	trait = light_foot_leader
 	trait = inspiring_leader
 	disallow_random_traits = yes
@@ -1159,9 +1160,9 @@
 }
 
 #Royal Family of Apasa (2201500-2201599)
-2201500 = { #Kiyakiya, King of Apasa
+2201500 = { #Runtiya, King of Apasa
 	name = "Kiyakiya"
-	dynasty = 2002001 #Kiyakili
+	dynasty = 2002001 #Runtiyili
 	culture = luwian
 	religion = haianiluwi
 	2497.1.1 = { birth = yes }
@@ -1169,9 +1170,9 @@
 }
 
 #Royal Family of Seha (2201600-2201699)
-2201600 = { #Tarhunnaradu, King of Seha
-	name = "Tarhunnaradu"
-	dynasty = 2002009 #Tarhunnaradili
+2201600 = { #Mahanatarhunza, King of Seha
+	name = "Mahanatarhunza"
+	dynasty = 2002009 #Mahanatarhunzili
 	culture = luwian
 	religion = haianiluwi
 	2490.1.1 = { birth = yes }
@@ -1179,9 +1180,9 @@
 }
 
 #Royal Family of Kuwaliya (2201700-2201799)
-2201700 = { #Larama, King of Kuwaliya
-	name = "Larama"
-	dynasty = 2002003 #Laramili
+2201700 = { #Katuwa, King of Kuwaliya
+	name = "Katuwa"
+	dynasty = 2002003 #Katuwili
 	culture = luwian
 	religion = haianiluwi
 	2505.1.1 = { birth = yes }
@@ -1189,9 +1190,9 @@
 }
 
 #Royal Family of Arzawa (2201800-2201899)
-2201800 = { #Huzziya, King of Arzawa
-	name = "Huzziya"
-	dynasty = 2002004 #Huzziyili
+2201800 = { #Pisiri, King of Arzawa
+	name = "Pisiri"
+	dynasty = 2002004 #Pisirili
 	culture = luwian
 	religion = haianiluwi
 	2495.1.1 = { birth = yes }
@@ -1209,8 +1210,8 @@
 }
 
 #Royal Family of Mira (2202000-2202099)
-2202000 = { #Sandasarme, King of Mira
-	name = "Sandasarme"
+2202000 = { #Santaziti, King of Mira
+	name = "Santaziti"
 	dynasty = 2002008 #Paritili
 	culture = luwian
 	religion = haianiluwi

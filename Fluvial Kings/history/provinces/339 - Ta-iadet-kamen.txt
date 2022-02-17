@@ -1,0 +1,17 @@
+# c_ta_iadet_kamen
+
+# County Title
+title = c_ta_iadet_kamen
+
+# Settlements
+max_settlements = 3
+
+b_ta_iadet_kamen = castle
+b_semen_her = city
+b_gereget = temple
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

@@ -1,0 +1,15 @@
+# c_sepedju
+
+# County Title
+title = c_sepedju
+
+# Settlements
+max_settlements = 1
+
+b_gesem = castle
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

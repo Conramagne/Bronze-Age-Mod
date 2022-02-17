@@ -1,0 +1,16 @@
+# c_andjety
+
+# County Title
+title = c_andjety
+
+# Settlements
+max_settlements = 2
+
+b_djedu = castle
+b_mesedi = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

@@ -802,3 +802,20 @@ character_event = {
 		}
 	}
 }
+
+#Adds Egyptian crown on_death
+character_event = {
+	id = fkm.15
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = {
+		primary_title = {
+			title = e_kemet
+		}
+	}
+	
+	immediate = {
+		add_trait = dead_egyptian_crown
+	}
+}

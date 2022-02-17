@@ -1,0 +1,17 @@
+# c_meseh
+
+# County Title
+title = c_meseh
+
+# Settlements
+max_settlements = 3
+
+b_iunet_ta_netjeret = castle
+b_shabet = city
+b_khedi = temple
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

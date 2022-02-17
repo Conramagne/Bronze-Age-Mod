@@ -1,0 +1,16 @@
+# c_hui_ges_imenti
+
+# County Title
+title = c_hui_ges_imenti
+
+# Settlements
+max_settlements = 2
+
+b_dema_en_hor = castle
+b_henet = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

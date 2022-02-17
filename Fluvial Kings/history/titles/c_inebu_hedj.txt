@@ -1,8 +1,380 @@
-# e_kemet
-500.1.1={
+1.1.1 = {
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-800.1.1={
-	liege=k_ta_mehu
+661.1.1 = {
+	holder = 2501812 #Narmer
+}
+682.1.1 = {
+	holder = 2501811 #Hor-Aha
+}
+692.1.1 = {
+	holder = 2501809 #Djer
+}
+746.1.1 = {
+	holder = 2501808 #Djet
+}
+756.1.1 = {
+	holder = 2501806 #Den
+}
+798.1.1 = {
+	holder = 2501805 #Anedjib
+}
+808.6.1 = {
+	holder = 2501803 #Semerkhet
+}
+817.1.1 = {
+	holder = 2501802 #Qa'a
+}
+851.1.1 = {
+	holder = 2501801 #Sneferka
+}
+861.1.1 = {
+	holder = 2501800 #Horus-Ba
+}
+871.1.1 = {
+	holder = 2501710 #Hotepsekhemwy
+}
+886.1.1 = {
+	holder = 2501709 #Nebra
+}
+900.1.1 = {
+	holder = 2501708 #Nynetjer
+}
+945.1.1 = {
+	holder = 2501707 #Weneg-Nebty
+}
+952.1.1 = {
+	holder = 2501706 #Senedj
+}
+999.1.1 = {
+	holder = 2501705 #Seth-Peribsen
+}
+1006.1.1 = {
+	holder = 2501704 #Sekhemib-Perenmaat
+}
+1013.1.1 = {
+	holder = 2501703 #Neferkara
+}
+1038.1.1 = {
+	holder = 2501702 #Neferkasokar
+}
+1046.1.1 = {
+	holder = 0 #1 king and 11 years missing
+}
+1057.1.1 = {
+	holder = 2501700 #Khasekhemwy
+}
+1075.1.1 = {
+	holder = 2501604 #Djoser
+}
+1103.1.1 = {
+	holder = 2501602 #Sekhemkhet
+}
+1110.1.1 = {
+	holder = 2501602 #Nebka
+}
+1118.1.1 = {
+	holder = 2501601 #Khaba
+}
+1124.1.1 = {
+	holder = 2501600 #Huni
+}
+1148.1.1 = {
+	holder = 2501508 #Sneferu
+}
+1172.1.1 = {
+	holder = 2501506 #Khufu
+}
+1195.1.1 = {
+	holder = 2501505 #Djedefre
+}
+1203.1.1 = {
+	holder = 2501503 #Khafre
+}
+1229.1.1 = {
+	holder = 2501501 #Menkaure
+}
+1258.1.1 = {
+	holder = 2501500 #Shepseskaf
+}
+1265.1.1 = {
+	holder = 2501413 #Userkaf
+}
+1270.1.1 = {
+	holder = 2501411 #Sahure
+}
+1284.1.1 = {
+	holder = 2501409 #Kakai
+}
+1295.1.1 = {
+	holder = 2501407 #Neferefre
+}
+1297.1.1 = {
+	holder = 2501406 #Shepseskare
+}
+1298.1.1 = {
+	holder = 2501405 #Ini
+}
+1332.1.1 = {
+	holder = 2501403 #Ikauhor
+}
+1341.1.1 = {
+	holder = 2501402 #Isesi
+}
+1385.1.1 = {
+	holder = 2501400 #Unis
+}
+1416.1.1 = {
+	holder = 2501312 #Teti
+}
+1428.1.1 = {
+	holder = 2501310 #Userkare
+}
+1429.1.1 = {
+	holder = 2501309 #Pepi I
+}
+1478.1.1 = {
+	holder = 2501305 #Nemtyemsaf I
+}
+1483.1.1 = {
+	holder = 2501303 #Pepi II
+}
+1577.1.1 = {
+	holder = 2501301 #Nemtyemsaf II
+}
+1578.1.1 = {
+	holder = 2501300 #Siptah I
+}
+1580.1.1 = {
+	holder = 0 #Egypt collapses
+}
+1731.1.1 = {
+	holder = 2500904 #Mentuhotep II
+}
+1761.1.1 = {
+	holder = 2500902 #Mentuhotep III
+}
+1773.1.1 = {
+	holder = 2500900 #Mentuhotep IV
+}
+1780.1.1 = {
+	holder = 2500811 #Amenemhat I
+}
+1809.1.1 = {
+	holder = 2500809 #Senusret I
+}
+1844.1.1 = {
+	holder = 2500807 #Amenemhat II
+}
+1876.1.1 = {
+	holder = 2500806 #Senusret II
+}
+1883.1.1 = {
+	holder = 2500804 #Senusret III
+}
+1921.1.1 = {
+	holder = 2500803 #Amenemhat III
+}
+1948.1.1 = {
+	holder = 2500803 #Amenemhat IV
+}
+1956.1.1 = {
+	holder = 2500800 #Sobekneferu
+}
+1959.1.1 = {
+	holder = 2500750 #Sobekhotep I
+}
+1961.1.1 = {
+	holder = 2500749 #Amenemhat Sonbef
+}
+1965.1.1 = {
+	holder = 2500748 #Nerikare
+}
+1965.6.1 = {
+	holder = 2500747 #Amenemhat V
+}
+1968.1.1 = {
+	holder = 2500746 #Ameny Qemau
+}
+1970.1.1 = {
+	holder = 2500745 #Hotepibre
+}
+1971.1.1 = {
+	holder = 2500744 #Iufni
+}
+1973.1.1 = {
+	holder = 2500743 #Amenemhat VI
+}
+1976.1.1 = {
+	holder = 2500742 #Nebnuni
+}
+1978.1.1 = {
+	holder = 2500741 #Sehetepibre
+}
+1980.1.1 = {
+	holder = 2500740 #Sewadjkare I
+}
+1981.1.1 = {
+	holder = 2500739 #Nedjemibre
+}
+1981.8.1 = {
+	holder = 2500738 #Sobekhotep II
+}
+1984.1.1 = {
+	holder = 2500737 #Renseneb
+}
+1984.5.1 = {
+	holder = 2500735 #Hor
+}
+1986.1.1 = {
+	holder = 2500733 #Khabau
+}
+1989.1.1 = {
+	holder = 2500732 #Djedkheperu
+}
+1991.1.1 = {
+	holder = 2500731 #Sedjefakare
+}
+1994.1.1 = {
+	holder = 2500730 #Wegaf
+}
+1995.1.1 = {
+	holder = 2500729 #Khendjer
+}
+1999.1.1 = {
+	holder = 2500728 #Imyremeshaw
+}
+2004.1.1 = {
+	holder = 2500727 #Intef IV	
+}
+2005.1.1 = {
+	holder = 2500726 #Seth Meribre
+}
+2006.1.1 = {
+	holder = 2500723 #Sobekhotep III
+}
+2010.1.1 = {
+	holder = 2500720 #Neferhotep I
+}
+2021.1.1 = {
+	holder = 2500719 #Sobekhotep IV
+}
+2031.1.1 = {
+	holder = 2500716 #Sobekhotep V
+}
+2044.1.1 = {
+	holder = 2500714 #Sobekhotep VI
+}
+2049.1.1 = {
+	holder = 2500713 #Ibiau
+}
+2060.1.1 = {
+	holder = 2500712 #Ay I
+}
+2084.1.1 = {
+	holder = 2500710 #Ini I
+}
+2086.1.1 = {
+	holder = 2500709 #Sewadjtu
+}
+2089.1.1 = {
+	holder = 2500708 #Ined
+}
+2092.1.1 = {
+	holder = 2500707 #Hori
+}
+2097.1.1 = {
+	holder = 2500706 #Sobekhotep VII
+}
+2099.6.1 = {
+	holder = 0 #~7 lost kings and ~1.5 years missing
+}
+2101.1.1 = {
+	holder = 2500705 #Ini II
+}
+2102.1.1 = {
+	holder = 2500704 #Merkheperre
+}
+2103.1.1 = {
+	holder = 2500703 #Merkare
+}
+2104.1.1 = {
+	holder = 0 #~1 lost king and ~1 year missing
+}
+2105.1.1 = {
+	holder = 2500702 #Mentuhotep V
+}
+2106.1.1 = {
+	holder = 0 #~5 lost kings and ~3 years missing
+}
+2108.1.1 = {
+	holder = 2500701 #Sankhptahi
+}
+2109.1.1 = {
+	holder = 0 #~1 lost king and ~1 year missing
+}
+2110.1.1 = {
+	holder = 2500700 #Senebmiu
+}
+2111.1.1 = {
+	holder = 0 #Conquered by the Hyksos
+}
+2229.1.1 = {
+	holder = 2500130 #Ahmose I/Ahmose II of Upper Egypt
+}
+2236.1.1 = {
+	holder = 2500128 #Amenhotep I
+}
+2257.1.1 = {
+	holder = 2500126 #Thutmose I
+}
+2269.1.1 = {
+	holder = 2500124 #Thutmose II
+}
+2282.1.1 = {
+	holder = 2500122 #Hatshepsut
+}
+2303.1.1 = {
+	holder = 2500121 #Thutmose III
+}
+2334.1.1 = {
+	holder = 2500119 #Amenhotep II
+}
+2361.1.1 = {
+	holder = 2500117 #Thutmose IV
+}
+2371.1.1 = {
+	holder = 2500115 #Amenhotep III
+}
+2409.1.1 = {
+	holder = 2500114 #Akhenaten/Amenhotep IV
+}
+2425.1.1 = {
+	holder = 2500109 #Nefertiti/Neferneferuaten
+}
+2425.4.1 = {
+	holder = 2500113 #Smenkhkare
+}
+2425.6.1 = {
+	holder = 2500107 #Tutankhamun
+}
+2436.1.1 = {
+	holder = 2500103 #Ay II
+}
+2438.1.1 = {
+	holder = 2500100 #Horemheb
+}
+2466.1.1 = {
+	holder = 2500025 #Ramesses I
+}
+2467.1.1 = {
+	holder = 2500022 #Seti I
+}
+2482.3.31 = {
+	holder = 0 #I had to add this to make Kemet historically not a Military Governorate
+}
+2527.1.1 = {
+	holder = 2501900
+	liege = e_kemet
 }

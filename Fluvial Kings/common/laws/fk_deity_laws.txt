@@ -6,6 +6,86 @@ law_groups = {
 }
 
 laws = {
+	head_god_none = {
+		group = head_god
+		
+		allow = {
+			# holder_scope = {
+				# OR = {
+					# devotion_trait_trigger = no
+					# trait = devotion_el
+				# }
+			# }
+			OR = {
+				has_law = head_god_none
+				has_law = head_god_baal_hadad
+				has_law = head_god_asherah
+				has_law = head_god_resheph
+				has_law = head_god_qaws
+				has_law = head_god_amurru
+			}
+		}
+		potential = {
+			has_dlc = "Zeus"
+			higher_tier_than = baron
+			holder_scope = {
+				independent = yes
+			}
+			holder_scope = { canaanite_religion_or_syncretic = yes }
+			OR = {
+				NOT = { holder_scope = { is_tribal = yes } }
+				has_law = tribal_organization_1
+				has_law	= tribal_organization_2
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				any_character = {
+					limit = {
+						has_character_flag = flag_god
+					}
+					reverse_remove_opinion = {
+						who = ROOT
+						modifier = opinion_small_sacrifice
+					}
+					reverse_remove_opinion = {
+						who = ROOT
+						modifier = opinion_medium_sacrifice
+					}
+					reverse_remove_opinion = {
+						who = ROOT
+						modifier = opinion_large_sacrifice
+					}
+				}
+				# any_realm_character = {
+					# limit = {
+						# NOT = {
+							# trait = devotion_el
+						# }
+					# }
+					# character_event = { id = fkrel.3 }
+				# }
+				remove_boon_effect = yes
+				revoke_law = head_god_el
+				revoke_law = head_god_baal_hadad
+				revoke_law = head_god_asherah
+				revoke_law = head_god_resheph
+				revoke_law = head_god_qaws
+				revoke_law = head_god_amurru
+			}
+		}
+	}
 	head_god_el = {
 		group = head_god
 		
@@ -94,6 +174,7 @@ laws = {
 					# character_event = { id = fkrel.3 }
 				# }
 				remove_boon_effect = yes
+				revoke_law = head_god_none
 				revoke_law = head_god_baal_hadad
 				revoke_law = head_god_asherah
 				revoke_law = head_god_resheph
@@ -128,6 +209,7 @@ laws = {
 				# }
 			# }
 			OR = {
+				has_law = head_god_none
 				has_law = head_god_el
 				has_law = head_god_asherah
 				has_law = head_god_resheph
@@ -202,204 +284,7 @@ laws = {
 			}
 		}
 	}
-	# head_god_asherah = {
-		# group = head_god
-		
-		# potential = {
-			# has_dlc = "Zeus"
-			# higher_tier_than = baron
-			# holder_scope = {
-				# independent = yes
-			# }
-			# holder_scope = { canaanite_religion_or_syncretic = yes }
-			# OR = {
-				# NOT = { holder_scope = { is_tribal = yes } }
-				# has_law = tribal_organization_1
-				# has_law	= tribal_organization_2
-				# has_law	= tribal_organization_3
-				# has_law = tribal_organization_4
-			# }
-		# }
-		# allow = {
-			# holder_scope = {
-				# OR = {
-					# devotion_trait_trigger = no
-					# trait = devotion_asherah
-				# }
-			# }	
-			# OR = {
-				# has_law = head_god_el
-				# has_law = head_god_baal_hadad
-				# has_law = head_god_resheph
-				# has_law = head_god_qaws
-				# has_law = head_god_amurru
-			# }
-		# }
-		# revoke_allowed = {
-			# always = no
-		# }
-		# ai_will_do = {
-			# factor = 0
-			# modifier = {
-				# factor = 100
-				# trait = devotion_asherah
-			# }
-			# modifier = {
-				# factor = 0
-				# devotion_trait_trigger = yes
-				# NOT = {
-					# trait = devotion_asherah
-				# }
-			# }
-		# }
-		# ai_will_revoke = {
-			# factor = 0.1
-			# modifier = {
-				# factor = 100
-				# devotion_trait_trigger = yes
-				# NOT = {
-					# trait = devotion_asherah
-				# }
-			# }
-		# }
-		# effect = {
-			# hidden_tooltip = {
-				# any_character = {
-					# limit = {
-						# has_character_flag = flag_god
-						# NOT = {
-							# trait = asherah
-						# }
-					# }
-					# reverse_remove_opinion = {
-						# who = ROOT
-						# modifier = opinion_small_sacrifice
-					# }
-					# reverse_remove_opinion = {
-						# who = ROOT
-						# modifier = opinion_medium_sacrifice
-					# }
-					# reverse_remove_opinion = {
-						# who = ROOT
-						# modifier = opinion_large_sacrifice
-					# }
-				# }
-				# any_realm_character = {
-					# limit = {
-						# NOT = {
-							# trait = devotion_asherah
-						# }
-					# }
-					# character_event = { id = fkrel.3 }
-				# }
-				# remove_boon_effect = yes
-				# revoke_law = head_god_el
-				# revoke_law = head_god_baal_hadad
-				# revoke_law = head_god_resheph
-				# revoke_law = head_god_qaws
-				# revoke_law = head_god_amurru
-			# }
-		# }
-	# }
-	# head_god_resheph = {
-		# group = head_god
-		
-		# potential = {
-			# has_dlc = "Zeus"
-			# higher_tier_than = baron
-			# holder_scope = {
-				# independent = yes
-			# }
-			# holder_scope = { canaanite_religion_or_syncretic = yes }
-			# OR = {
-				# NOT = { holder_scope = { is_tribal = yes } }
-				# has_law = tribal_organization_1
-				# has_law	= tribal_organization_2
-				# has_law	= tribal_organization_3
-				# has_law = tribal_organization_4
-			# }
-		# }
-		# allow = {
-			# holder_scope = {
-				# OR = {
-					# devotion_trait_trigger = no
-					# trait = devotion_resheph
-				# }
-			# }
-			# OR = {
-				# has_law = head_god_el
-				# has_law = head_god_baal_hadad
-				# has_law = head_god_asherah
-				# has_law = head_god_qaws
-				# has_law = head_god_amurru
-			# }			
-		# }
-		# revoke_allowed = {
-			# always = no
-		# }
-		# ai_will_do = {
-			# factor = 0
-			# modifier = {
-				# factor = 100
-				# trait = devotion_resheph
-			# }
-			# modifier = {
-				# factor = 0
-				# devotion_trait_trigger = yes
-				# NOT = {
-					# trait = devotion_resheph
-				# }
-			# }
-		# }
-		# ai_will_revoke = {
-			# factor = 0.1
-			# modifier = {
-				# factor = 100
-				# devotion_trait_trigger = yes
-				# NOT = {
-					# trait = devotion_resheph
-				# }
-			# }
-		# }
-		# effect = {
-			# hidden_tooltip = {
-				# any_character = {
-					# limit = {
-						# has_character_flag = flag_god
-						# NOT = {
-							# trait = resheph
-						# }
-					# }
-					# reverse_remove_opinion = {
-						# who = ROOT
-						# modifier = opinion_small_sacrifice
-					# }
-					# reverse_remove_opinion = {
-						# who = ROOT
-						# modifier = opinion_medium_sacrifice
-					# }
-					# reverse_remove_opinion = {
-						# who = ROOT
-						# modifier = opinion_large_sacrifice
-					# }
-				# }
-				# any_realm_character = {
-					# limit = {
-						# NOT = {
-							# trait = devotion_resheph
-						# }
-					# }
-					# character_event = { id = fkrel.3 }
-				# }
-				# remove_boon_effect = yes
-				# revoke_law = head_god_el
-				# revoke_law = head_god_baal_hadad
-				# revoke_law = head_god_asherah
-				# revoke_law = head_god_qaws
-				# revoke_law = head_god_amurru
-			# }
-		# }
-	# }
+	
 	head_god_qaws = {
 		group = head_god
 		
@@ -442,6 +327,7 @@ laws = {
 				# }
 			# }
 			OR = {
+				has_law = head_god_none
 				has_law = head_god_el
 				has_law = head_god_baal_hadad
 				has_law = head_god_asherah
@@ -507,6 +393,7 @@ laws = {
 					# character_event = { id = fkrel.3 }
 				# }
 				remove_boon_effect = yes
+				revoke_law = head_god_none
 				revoke_law = head_god_el
 				revoke_law = head_god_baal_hadad
 				revoke_law = head_god_asherah
@@ -560,6 +447,7 @@ laws = {
 				# }
 			# }
 			OR = {
+				has_law = head_god_none
 				has_law = head_god_el
 				has_law = head_god_baal_hadad
 				has_law = head_god_asherah
@@ -625,6 +513,7 @@ laws = {
 					# character_event = { id = fkrel.3 }
 				# }
 				remove_boon_effect = yes
+				revoke_law = head_god_none
 				revoke_law = head_god_el
 				revoke_law = head_god_baal_hadad
 				revoke_law = head_god_asherah

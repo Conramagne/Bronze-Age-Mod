@@ -1,0 +1,19 @@
+# c_ma_hedj
+
+# County Title
+title = c_ma_hedj
+
+# Settlements
+max_settlements = 5
+
+b_menat_khufu = castle
+b_ta_wehet = city
+b_iu_nesha = temple
+b_pe_na_heter = castle
+b_neferusi = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

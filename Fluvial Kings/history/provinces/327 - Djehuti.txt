@@ -1,0 +1,16 @@
+# c_djehuti
+
+# County Title
+title = c_djehuti
+
+# Settlements
+max_settlements = 2
+
+b_djehuti_up_rehui = castle
+b_ra_nefer = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

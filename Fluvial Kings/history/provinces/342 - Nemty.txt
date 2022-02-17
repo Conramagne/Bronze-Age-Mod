@@ -1,0 +1,16 @@
+# c_nemty
+
+# County Title
+title = c_nemty
+
+# Settlements
+max_settlements = 2
+
+b_tayu_djayt = castle
+b_hut_nesut = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

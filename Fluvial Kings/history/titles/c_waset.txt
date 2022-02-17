@@ -1,8 +1,17 @@
-# e_kemet
-500.1.1={
+1.1.1 = {
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-800.1.1={
-	liege=k_ta_shemeaw
+1590.1.1 = {
+	holder = 2500911 #Intef the Elder
+}
+1637.1.1 = {
+	holder = 2500910 #Mentuhotep I
+}
+1641.1.1 = {
+	holder = 0
+}
+2527.1.1 = {
+	holder = 2504100
+	liege = e_kemet
 }

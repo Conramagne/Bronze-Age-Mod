@@ -1,0 +1,19 @@
+# c_nedjfet_pehtet
+
+# County Title
+title = c_nedjfet_pehtet
+
+# Settlements
+max_settlements = 5
+
+b_qis = castle
+b_hut_nebu = city
+b_senenia = temple
+b_peges = castle
+b_waret_nebet_maat = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

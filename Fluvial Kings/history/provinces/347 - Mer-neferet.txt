@@ -1,0 +1,18 @@
+# c_mer_neferet
+
+# County Title
+title = c_mer_neferet
+
+# Settlements
+max_settlements = 4
+
+b_mer_neferet = castle
+b_ra_inet = city
+b_hebenu = temple
+b_per_pakhet = castle
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

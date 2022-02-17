@@ -1,0 +1,840 @@
+#Egyptian Pantheon
+1400000 = { #Nu, Primordial Waters and Father of the Gods
+	name = "Nu"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	disallow_random_traits = yes
+	trait = nu
+	immortal_age = 50
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+		add_spouse = 1400001
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400001 = { #Mehet-Weret, Celestial Cow
+	name = "Mehet-Weret"
+	culture = mesu_netjeru
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	trait = mehet_weret
+	immortal_age = 50
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400002 = { #Khnemu, Creator of Humans
+	name = "Khnemu"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400000
+	mother = 1400001
+	disallow_random_traits = yes
+	trait = khnemu
+	immortal_age = 50
+	1.1.2 = { birth = yes }
+	1.1.2 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+		add_spouse = 1400003
+		employer = 1400029
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400003 = { #Satet, Protector Goddess of the Nubian Frontier and Fertility Goddess
+	name = "Satet"
+	culture = mesu_netjeru
+	religion = maat
+	disallow_random_traits = yes
+	trait = satet
+	immortal_age = 50
+	1.1.2 = { birth = yes }
+	1.1.2 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400004 = { #Anuket, Goddess of Cataracts
+	name = "Anuket"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	female = yes
+	father = 1400002
+	mother = 1400003
+	disallow_random_traits = yes
+	trait = anuket
+	immortal_age = 50
+	1.1.3 = { birth = yes }
+	1.1.3 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400005 = { #Hapi, God of the Nile Flood
+	name = "Hapi"
+	culture = mesu_netjeru
+	religion = maat
+	disallow_random_traits = yes
+	trait = hapi
+	immortal_age = 50
+	1.1.3 = { birth = yes }
+	1.1.3 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400006 = { #Ra, God of the Sun
+	name = "Ra"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400000
+	mother = 1400001
+	disallow_random_traits = yes
+	trait = ra
+	immortal_age = 50
+	1.1.3 = { birth = yes }
+	1.1.3 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400007 = { #Shu, God of the Sky
+	name = "Shu"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400006
+	disallow_random_traits = yes
+	trait = shu
+	immortal_age = 50
+	1.1.4 = { birth = yes }
+	1.1.4 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	1.1.5 = {
+		add_spouse = 1400008
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400008 = { #Tefnut, Goddess of Rain
+	name = "Tefnut"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	female = yes
+	father = 1400006
+	disallow_random_traits = yes
+	trait = tefnut
+	immortal_age = 50
+	1.1.5 = { birth = yes }
+	1.1.5 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400009 = { #Geb, God of the Earth
+	name = "Geb"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400007
+	mother = 1400008
+	disallow_random_traits = yes
+	trait = geb
+	immortal_age = 50
+	1.1.6 = { birth = yes }
+	1.1.6 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	1.1.7 = {
+		add_spouse = 1400008
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400010 = { #Nut, Goddess of the Sky
+	name = "Nut"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	female = yes
+	father = 1400007
+	mother = 1400008
+	disallow_random_traits = yes
+	trait = nut
+	immortal_age = 50
+	1.1.7 = { birth = yes }
+	1.1.7 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400011 = { #Wesir, God of the Afterlife
+	name = "Wesir"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400009
+	mother = 1400010
+	disallow_random_traits = yes
+	trait = wesir
+	immortal_age = 50
+	1.1.8 = { birth = yes }
+	1.1.8 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	1.1.9 = {
+		add_spouse = 1400012
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400012 = { #Aset, Goddess of Motherhood
+	name = "Aset"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	female = yes
+	father = 1400009
+	mother = 1400010
+	disallow_random_traits = yes
+	trait = aset
+	immortal_age = 50
+	1.1.9 = { birth = yes }
+	1.1.9 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400013 = { #Nebet-hut, Goddess of Funerary Rites
+	name = "Nebet-hut"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	female = yes
+	father = 1400009
+	mother = 1400010
+	disallow_random_traits = yes
+	trait = nebet_hut
+	immortal_age = 50
+	1.1.10 = { birth = yes }
+	1.1.11 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400014 = { #Sutekh, God of Deserts and Storms
+	name = "Sutekh"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400009
+	mother = 1400010
+	disallow_random_traits = yes
+	trait = sutekh
+	immortal_age = 50
+	1.1.11 = { birth = yes }
+	1.1.11 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+		add_spouse = 1400013
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400015 = { #Hor, God of Kingship
+	name = "Hor"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400011
+	mother = 1400012
+	disallow_random_traits = yes
+	trait = hor
+	immortal_age = 50
+	1.1.10 = { birth = yes }
+	1.1.10 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+		add_spouse = 1400019
+	}
+	1.1.11 = {
+		add_spouse = 1400019
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400016 = { #Anpu, God of the Underworld
+	name = "Anpu"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400011
+	mother = 1400013
+	disallow_random_traits = yes
+	trait = anpu
+	trait = child_of_consort
+	immortal_age = 50
+	1.1.11 = { birth = yes }
+	1.1.11 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400017 = { #Ma'at, Goddess of Justice
+	name = "Ma'at"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	female = yes
+	father = 1400006
+	disallow_random_traits = yes
+	trait = maat_trait
+	immortal_age = 50
+	1.1.6 = { birth = yes }
+	1.1.6 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400018 = { #Bastet, Goddess of Protection
+	name = "Bastet"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	female = yes
+	father = 1400006
+	disallow_random_traits = yes
+	trait = bastet
+	immortal_age = 50
+	1.1.7 = { birth = yes }
+	1.1.7 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400019 = { #Hut-hor, Goddess of Femininity
+	name = "Hut-hor"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	female = yes
+	father = 1400006
+	disallow_random_traits = yes
+	trait = huthor
+	immortal_age = 50
+	1.1.8 = { birth = yes }
+	1.1.8 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400020 = { #Sekhmet, Goddess of War
+	name = "Sekhmet"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	female = yes
+	father = 1400006
+	disallow_random_traits = yes
+	trait = sekhmet
+	immortal_age = 50
+	1.1.10 = { birth = yes }
+	1.1.10 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400021 = { #Ptah, God of Craftsmen
+	name = "Ptah"
+	culture = mesu_netjeru
+	religion = maat
+	disallow_random_traits = yes
+	trait = ptah
+	immortal_age = 50
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	1.1.10 = {
+		add_spouse = 1400020
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400022 = { #Nefertem, God of Beauty
+	name = "Nefertem"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400020
+	mother = 1400021
+	disallow_random_traits = yes
+	trait = nefertem
+	immortal_age = 50
+	1.1.11 = { birth = yes }
+	1.1.11 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400023 = { #Net, Goddess of War and Hunting
+	name = "Net"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	female = yes
+	father = 1400000
+	mother = 1400001
+	disallow_random_traits = yes
+	trait = net
+	immortal_age = 50
+	1.1.3 = { birth = yes }
+	1.1.3 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400024 = { #Sobek, God of Pharaonic Power
+	name = "Sobek"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	mother = 1400023
+	disallow_random_traits = yes
+	trait = sobek
+	immortal_age = 50
+	1.1.4 = { birth = yes }
+	1.1.4 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400025 = { #Serket, God of Pharaonic Power
+	name = "Serket"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	female = yes
+	mother = 1400023
+	disallow_random_traits = yes
+	trait = serket
+	immortal_age = 50
+	1.1.5 = { birth = yes }
+	1.1.5 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400026 = { #Apep, Embodied Chaos
+	name = "Apep"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	mother = 1400023
+	disallow_random_traits = yes
+	trait = apep
+	immortal_age = 50
+	1.1.6 = { birth = yes }
+	1.1.6 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400027 = { #Djehuti, God of Knowledge
+	name = "Djehuti"
+	culture = mesu_netjeru
+	religion = maat
+	disallow_random_traits = yes
+	trait = djehuti
+	immortal_age = 50
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	1.1.6 = {
+		add_spouse = 1400017
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400028 = { #Seshat, Goddess of Writing
+	name = "Seshat"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	female = yes
+	father = 1400027 
+	mother = 1400017
+	disallow_random_traits = yes
+	trait = seshat
+	immortal_age = 50
+	1.1.7 = { birth = yes }
+	1.1.7 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400029 = { #Amun, King of the Gods
+	name = "Amun"
+	dynasty = 1000005
+	culture = mesu_netjeru
+	religion = maat
+	disallow_random_traits = yes
+	trait = amun
+	immortal_age = 50
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+		add_spouse = 1400030
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400030 = { #Mut, Goddess of Motherhood
+	name = "Mut"
+	culture = mesu_netjeru
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	trait = mut
+	immortal_age = 50
+	1.1.1 = { birth = yes }
+	1.1.1 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400031 = { #Khonsu, God of the Moon
+	name = "Khonsu"
+	dynasty = 1000005
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400029
+	mother = 1400030
+	disallow_random_traits = yes
+	trait = khonsu
+	immortal_age = 50
+	1.1.2 = { birth = yes }
+	1.1.2 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400032 = { #Hapi, Protector of the Lungs
+	name = "Hapi"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400015
+	mother = 1400019
+	disallow_random_traits = yes
+	trait = hapi_lungs
+	immortal_age = 50
+	1.1.11 = { birth = yes }
+	1.1.11 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400033 = { #Duamutef, Protector of the Stomach
+	name = "Duamutef"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400015
+	mother = 1400019
+	disallow_random_traits = yes
+	trait = duamutef
+	immortal_age = 50
+	1.1.12 = { birth = yes }
+	1.1.12 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400034 = { #Imsety, Protector of the Liver
+	name = "Imsety"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400015
+	mother = 1400019
+	disallow_random_traits = yes
+	trait = imsety
+	immortal_age = 50
+	1.1.13 = { birth = yes }
+	1.1.13 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400035 = { #Qebehsenuef, Protector of the Intestines
+	name = "Qebehsenuef"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400015
+	mother = 1400019
+	disallow_random_traits = yes
+	trait = qebehsenuef
+	immortal_age = 50
+	1.1.14 = { birth = yes }
+	1.1.14 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400036 = { #Hu, Personification of Breath
+	name = "Hu"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400006
+	disallow_random_traits = yes
+	trait = hu
+	immortal_age = 50
+	1.1.9 = { birth = yes }
+	1.1.9 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400037 = { #Anhur, God of War
+	name = "Anhur"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400006
+	disallow_random_traits = yes
+	trait = anhur
+	immortal_age = 50
+	1.1.11 = { birth = yes }
+	1.1.11 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400038 = { #Banebdjedet, Ba of Osiris
+	name = "Banebdjedet"
+	culture = mesu_netjeru
+	religion = maat
+	disallow_random_traits = yes
+	trait = banebdjedet
+	immortal_age = 50
+	1.1.2 = { birth = yes }
+	1.1.2 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+		employer = 1400029
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400039 = { #Sopdet, God of War
+	name = "Sopdet"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	trait = sopdet
+	immortal_age = 50
+	1.1.2 = { birth = yes }
+	1.1.2 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+		employer = 1400029
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400040 = { #Heryshaf, God of Riverbanks
+	name = "Heryshaf"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400006
+	disallow_random_traits = yes
+	trait = heryshaf
+	immortal_age = 50
+	1.1.2 = { birth = yes }
+	1.1.2 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+		employer = 1400029
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400041 = { #Min, God of Fertility
+	name = "Min"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	mother = 1400012
+	disallow_random_traits = yes
+	trait = min
+	immortal_age = 50
+	1.1.11 = { birth = yes }
+	1.1.11 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+		employer = 1400029
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400042 = { #Wepwawet, God of War
+	name = "Wepwawet"
+	dynasty = 1000004
+	culture = mesu_netjeru
+	religion = maat
+	father = 1400014
+	mother = 1400013
+	disallow_random_traits = yes
+	trait = wepwawet
+	immortal_age = 50
+	1.1.12 = { birth = yes }
+	1.1.12 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+	}
+	9999.1.1 = { death = yes }
+}
+
+1400043 = { #Hatmehit, Goddess of Life and Protection
+	name = "Hatmehit"
+	female = yes
+	culture = mesu_netjeru
+	religion = maat
+	disallow_random_traits = yes
+	trait = hatmehit
+	immortal_age = 50
+	1.1.2 = { birth = yes }
+	1.1.2 = {
+		effect = {
+			set_character_flag = flag_god
+		}
+		employer = 1400029
+		add_spouse = 1400038
+	}
+	9999.1.1 = { death = yes }
+}

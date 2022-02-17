@@ -473,3 +473,428 @@ character_event = {
 		# }
 	# }
 # }
+
+##Egyptian Temple Events
+
+#Egyptian Temple Set-up (on_startup)
+character_event = {
+	id = fkrel.300
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = {
+		has_landed_title = e_hellenic_pantheon
+	}
+	
+	immediate = {
+		316 = { #Inebu-hedj
+			add_province_modifier = {
+				name = temple_ptah
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_sekhmet
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_nefertem
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 3 }
+		}
+		317 = { #Imentet
+			add_province_modifier = {
+				name = temple_huthor
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		318 = { #Hui-ges Imenti
+			add_province_modifier = {
+				name = temple_hu
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		319 = { #Nit Mehtet
+			add_province_modifier = {
+				name = temple_net
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		320 = { #Khasu'u
+			add_province_modifier = {
+				name = temple_amun
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_wadjet
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_wesir
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 3 }
+		}
+		321 = { #Tjeb-netjer
+			add_province_modifier = {
+				name = temple_anhur
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		322 = { #Andjety
+			add_province_modifier = {
+				name = temple_wesir
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		323 = { #Nit Resu
+			add_province_modifier = {
+				name = temple_sobek
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_aset
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_amun
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 3 }
+		}
+		324 = { #Khenti-Iabti
+			add_province_modifier = {
+				name = temple_hor
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		325 = { #Khepesh
+			add_province_modifier = {
+				name = temple_hor
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		326 = { #Behdet
+			add_province_modifier = {
+				name = temple_amun
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_hor
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 2 }
+		}
+		327 = { #Djehuti
+			add_province_modifier = {
+				name = temple_djehuti
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		328 = { #Hat Mehit
+			add_province_modifier = {
+				name = temple_banebdjedet
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_hatmehit
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_hor_child
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 3 }
+		}
+		329 = { #Imty Pehu
+			add_province_modifier = {
+				name = temple_wadjet
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		330 = { #Hesbu
+			add_province_modifier = {
+				name = temple_aset
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		332 = { #Heka-Adj
+			add_province_modifier = {
+				name = temple_ra
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_atum
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 2 }
+		}
+		333 = { #Imty Khenti
+			add_province_modifier = {
+				name = temple_bastet
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		334 = { #Sepedju
+			add_province_modifier = {
+				name = temple_sopdet
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		335 = { #Hui-ges Iabti
+			add_province_modifier = {
+				name = temple_atum
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		336 = { #Kem-Ur
+			add_province_modifier = {
+				name = temple_hor
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		337 = { #Naret Pehtet
+			add_province_modifier = {
+				name = temple_khnemu
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		338 = { #Per-Wesir
+			add_province_modifier = {
+				name = temple_wesir
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		339 = { #Ta-iadet-kamen
+			add_province_modifier = {
+				name = temple_khnemu
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		340 = { #Medenit
+			add_province_modifier = {
+				name = temple_huthor
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		341 = { #Naret Khentet
+			add_province_modifier = {
+				name = temple_heryshaf
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		342 = { #Nemty
+			add_province_modifier = {
+				name = temple_anpu
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1  }
+		}
+		343 = { #Wabui
+			add_province_modifier = {
+				name = temple_sutekh
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		344 = { #Wenet
+			add_province_modifier = {
+				name = temple_djehuti
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		345 = { #Input
+			add_province_modifier = {
+				name = temple_anpu
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		346 = { #Ma-Hedj
+			add_province_modifier = {
+				name = temple_hor
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_khnemu
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 2 }
+		}
+		347 = { #Mer-neferet
+			add_province_modifier = {
+				name = temple_amun
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_huthor
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 2 }
+		}
+		348 = { #Nedjfet Pehtet
+			add_province_modifier = {
+				name = temple_huthor
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		349 = { #Nedjfet Khentet
+			add_province_modifier = {
+				name = temple_wepwawet
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		350 = { #Ta-wer
+			add_province_modifier = {
+				name = temple_wesir
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_aset
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_hor
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 3 }
+		}
+		351 = { #Dju-fet
+			add_province_modifier = {
+				name = temple_hor
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		352 = { #Sha
+			add_province_modifier = {
+				name = temple_khnemu
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		353 = { #Wadjyt
+			add_province_modifier = {
+				name = temple_huthor
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		354 = { #Menu
+			add_province_modifier = {
+				name = temple_min
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		355 = { #Waset
+			add_province_modifier = {
+				name = temple_amun
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_mut
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_khonsu
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 3 }
+		}
+		356 = { #Bat
+			add_province_modifier = {
+				name = temple_huthor
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		357 = { #Meseh
+			add_province_modifier = {
+				name = temple_huthor
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		358 = { #Nekhen
+			add_province_modifier = {
+				name = temple_nekhebet
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		359 = { #Netjerui
+			add_province_modifier = {
+				name = temple_min
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		360 = { #Nekheb
+			add_province_modifier = {
+				name = temple_nekhebet
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		361 = { #Wetjes-Her
+			add_province_modifier = {
+				name = temple_hor
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 1 }
+		}
+		362 = { #Ta-Seti
+			add_province_modifier = {
+				name = temple_khnemu
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_satet
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_anuket
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 3 }
+		}
+		363 = { #Abu
+			add_province_modifier = {
+				name = temple_khnemu
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_satet
+				duration = -1
+			}
+			add_province_modifier = {
+				name = temple_anuket
+				duration = -1
+			}
+			set_variable = { which = egyptian_temple_count value = 3 }
+		}
+	}
+}

@@ -1,0 +1,18 @@
+# c_khenti_iabti
+
+# County Title
+title = c_khenti_iabti
+
+# Settlements
+max_settlements = 4
+
+b_taru = castle
+b_per_ramessu = city
+b_ra_wati = temple
+b_sinu = castle
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

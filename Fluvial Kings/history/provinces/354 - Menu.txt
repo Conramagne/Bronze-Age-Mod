@@ -1,0 +1,19 @@
+# c_menu
+
+# County Title
+title = c_menu
+
+# Settlements
+max_settlements = 5
+
+b_ipu = castle
+b_tjeset = city
+b_hut_repat = temple
+b_ideb = castle
+b_gereget_2 = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

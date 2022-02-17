@@ -4777,20 +4777,20 @@ character_event = {
 				}
 				change_variable = {
 					which = passive_bureaucracy
-					value = -2
+					value = -4
 				}
 			}
-			if = { #Passive Malus: Greater than 70 Bureaucracy
-				limit = {
-					primary_title = {
-						check_variable = { which = palace_bureaucracy_number value > 70 }
-					}
-				}
-				change_variable = {
-					which = passive_bureaucracy
-					value = -2
-				}
-			}
+			# if = { #Passive Malus: Greater than 70 Bureaucracy
+				# limit = {
+					# primary_title = {
+						# check_variable = { which = palace_bureaucracy_number value > 70 }
+					# }
+				# }
+				# change_variable = {
+					# which = passive_bureaucracy
+					# value = -2
+				# }
+			# }
 			if = { #Passive Malus: Greater than 80 Bureaucracy
 				limit = {
 					primary_title = {

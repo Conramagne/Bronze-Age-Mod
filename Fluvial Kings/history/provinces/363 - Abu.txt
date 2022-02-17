@@ -1,0 +1,18 @@
+# c_abu
+
+# County Title
+title = c_abu
+
+# Settlements
+max_settlements = 4
+
+b_abu = castle
+b_setjet = city
+b_djed = temple
+b_nefer = castle
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

@@ -531,6 +531,19 @@
 	2571.1.1 = { death = yes }
 }
 
+2002008 = {
+	name = "Maathorneferure" # Maathorneferure, sister of Tudhaliya IV, Queen of Egypt
+	dynasty = 2000000 #Labarnid
+	culture = hittite
+	religion = ishalitethai
+	female = yes
+	father = 2000001
+	mother = 2002005
+	2496.1.1 = { birth = yes }
+	2566.1.1 = { death = yes }
+}
+
+
 #Other Vassals (2003000-2003999)
 2003000 = {
 	name = "Sapalulme" # Sapalulme, King of Kizzuwatna

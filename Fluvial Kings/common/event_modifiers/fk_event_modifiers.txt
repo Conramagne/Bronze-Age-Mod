@@ -633,6 +633,105 @@ qaws_curse_3 = {
 	icon = 130
 }
 
+#Egyptian Temple Modifiers
+
+temple_ptah = {
+	icon = 11
+}
+temple_hor = {
+	icon = 111
+}
+temple_huthor = {
+	icon = 75
+}
+temple_sobek = {
+	icon = 56
+}
+temple_aset = {
+	icon = 52
+}
+temple_amun = {
+	icon = 10
+}
+temple_net = {
+	icon = 123
+}
+temple_hu = {
+	icon = 129
+}
+temple_atum = {
+	icon = 43
+}
+temple_anhur = {
+	icon = 127
+}
+temple_ra = {
+	icon = 133
+}
+temple_djehuti = {
+	icon = 99
+}
+temple_banebdjedet = {
+	icon = 48
+}
+temple_bastet = {
+	icon = 46
+}
+temple_wadjet = {
+	icon = 121
+}
+temple_sopdet = {
+	icon = 79
+}
+temple_khnemu = {
+	icon = 85
+}
+temple_nekhebet = {
+	icon = 73
+}
+temple_min = {
+	icon = 103
+}
+temple_wepwawet = {
+	icon = 71
+}
+temple_anpu = {
+	icon = 45
+}
+temple_sutekh = {
+	icon = 77
+}
+temple_heryshaf = {
+	icon = 61
+}
+temple_sekhmet = {
+	icon = 1
+}
+temple_nefertem = {
+	icon = 87
+}
+temple_wesir = {
+	icon = 7
+}
+temple_hatmehit = {
+	icon = 9
+}
+temple_hor_child = {
+	icon = 113
+}
+temple_mut = {
+	icon = 39
+}
+temple_khonsu = {
+	icon = 18
+}
+temple_anuket = {
+	icon = 37
+}
+temple_satet = {
+	icon = 103
+}
+
 #Palace Bureaucracy
 palace_bureaucracy = {
 	icon = 11

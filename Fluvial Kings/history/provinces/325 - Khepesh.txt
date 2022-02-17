@@ -1,0 +1,18 @@
+# c_khepesh
+
+# County Title
+title = c_khepesh
+
+# Settlements
+max_settlements = 4
+
+b_khem = castle
+b_sa_hebu = city
+b_but = temple
+b_iati_sepedu = castle
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

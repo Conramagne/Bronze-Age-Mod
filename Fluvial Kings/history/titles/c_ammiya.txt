@@ -4,4 +4,5 @@
 }
 2520.1.1 = {
 	holder = 2400600
+	liege = d_gubla
 }

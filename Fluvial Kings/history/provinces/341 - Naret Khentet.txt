@@ -1,0 +1,21 @@
+# c_naret_khentet
+
+# County Title
+title = c_naret_khentet
+
+# Settlements
+max_settlements = 7
+
+b_henen_nasut = castle
+b_tjekenesh = city
+b_na_wau = temple
+b_pa_ma = castle
+b_nebiui = city
+b_na_kharu = temple
+b_per_sekhmekhperera = castle
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

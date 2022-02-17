@@ -803,11 +803,14 @@ succession_laws = {
 				}
 			}
 			OR = {
-				is_landless_type_title = no
-				is_tribal_type_title = yes
-				temporary = yes
+				OR = {
+					is_landless_type_title = no
+					is_tribal_type_title = yes
+					temporary = yes
+				}
+				is_primary_type_title = no
+				title = k_judge_of_israel
 			}
-			is_primary_type_title = no
 			NOT = { tier = baron }
 			holder_scope = {
 				OR = {

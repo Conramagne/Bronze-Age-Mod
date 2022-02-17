@@ -7726,8 +7726,8 @@
 }
 
 #Kings of Bashan  (2320200-2320299)
-2320200 = { #Shaushkamuwa, King of Bashan
-	name = "Shaushkamuwa"
+2320200 = { #Shamshi-Adad, King of Bashan
+	name = "Shamshi-Adad"
 	dynasty = 2300017 #ben Og
 	culture = amorite
 	religion = canaanite_religion

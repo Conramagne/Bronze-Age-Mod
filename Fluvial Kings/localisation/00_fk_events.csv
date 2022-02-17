@@ -157,24 +157,24 @@ EVTDESCFKREL1;You gather the choicest treasures from the enemy plunder, and offe
 OPTAFKREL1;I pillage in the name of [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
 
 ###########Devotion Decision Events###########
-choose_devotion_pihassasi;Devote Yourself to a God of the Pihassasi Pantheon;;;;;;;;;;;;;x
-choose_devotion_pihassasi_desc;The Pihassasi Pantheon has many gods to choose from, perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
-choose_devotion_european;Devote Yourself to a God of the Europes Pantheon;;;;;;;;;;;;;x
-choose_devotion_european_desc;The Europes Pantheon has many gods to choose from, perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
+choose_devotion_pihassasi;Devote Yourself to a God of the [pihassasi.GetName] Pantheon;;;;;;;;;;;;;x
+choose_devotion_pihassasi_desc;The [pihassasi.GetName] Pantheon has many gods to choose from, perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
+choose_devotion_european;Devote Yourself to a God of the [european_group.GetName] Pantheon;;;;;;;;;;;;;x
+choose_devotion_european_desc;The [european_group.GetName] Pantheon has many gods to choose from, perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
 choose_devotion_canaanite_religion;Devote Yourself to a God of the [canaanite_religion.GetName] Pantheon;;;;;;;;;;;;;x
 choose_devotion_canaanite_religion_desc;The [canaanite_religion.GetName] Pantheon has many gods to choose from, perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
 choose_devotion_edomite_religion;Devote Yourself to a God of the [edomite_religion.GetName] Pantheon;;;;;;;;;;;;;x
 choose_devotion_edomite_religion_desc;The [edomite_religion.GetName] Pantheon has many gods to choose from, perhaps it is time for you to choose one to devote to...;;;;;;;;;;;;;x
-switch_devotion_pihassasi;Devote Yourself to Another God of the Pihassasi Pantheon;;;;;;;;;;;;;x
+switch_devotion_pihassasi;Devote Yourself to Another God of the [pihassasi.GetName] Pantheon;;;;;;;;;;;;;x
 switch_devotion_pihassasi_desc;Pantheons have many gods to choose from perhaps it is time devote yourself to another...;;;;;;;;;;;;;x
-switch_devotion_european;Devote Yourself to Another God of the Europes Pantheon;;;;;;;;;;;;;x
+switch_devotion_european;Devote Yourself to Another God of the [european_group.GetName] Pantheon;;;;;;;;;;;;;x
 switch_devotion_european_desc;Pantheons have many gods to choose from perhaps it is time devote yourself to another...;;;;;;;;;;;;;x
-switch_devotion_canaanite_religion;Devote Yourself to Another God of the Bene Elihi Pantheon;;;;;;;;;;;;;x
+switch_devotion_canaanite_religion;Devote Yourself to Another God of the [canaanite_religion.GetName] Pantheon;;;;;;;;;;;;;x
 switch_devotion_edomite_religion_desc;Pantheons have many gods to choose from perhaps it is time devote yourself to another...;;;;;;;;;;;;;x
 switch_devotion_edomite_religion;Devote Yourself to Another God of the  [edomite_religion.GetName] Pantheon;;;;;;;;;;;;;x
 switch_devotion_canaanite_religion_desc;Pantheons have many gods to choose from perhaps it is time devote yourself to another...;;;;;;;;;;;;;x
 dedicate_child;Dedicate your Child to a God;;;;;;;;;;;;;x
-dedicate_child_desc;Dedicate your child to a god of the [Root.Religion.GetFullName] Pantheon.;;;;;;;;;;;;;x
+dedicate_child_desc;Dedicate your child to a god of the [Root.Religion.GetName] Pantheon.;;;;;;;;;;;;;x
 absolve_curse_sacrifice;Sacrifice to Absolve the Gods' curse!;;;;;;;;;;;;;x
 absolve_curse_sacrifice_desc;Sacrifice to absolve the gods' curse which was laid upon you.;;;;;;;;;;;;;x
 
@@ -470,7 +470,7 @@ EVTDESCBTW2;"But his turn next - Menelaos reared with a bronze lance and a praye
 EVTDESCCTW2;"And wrath seized Telamon, and he rushed upon Tiphys son of Hagnias, and his eyes sparkled like flashes of ravening flame."\n\nMighty Telamon, you are not only father to the strong Aías, but a man of glory in your own right. Though the heroes of this generation swear to be great enough to breach the god-forged walls of Troy, you have already entered the city a plunderer, and you have taken a princess of your own from the Trojans. Though you are thought of as too old to throw yourself in front of Trojan arms once again, you have great hope in the belief that your son may receive glory for your house in your stead.;;;;;;;;;;;;;x
 EVTDESDCTW2;"Nestor, horseman of Gerene, then addressed them. 'Shame on you,' he cried, 'to stay talking here like children, when you should fight like men.'"\n\nKing Nestor, though your days as a warrior are far behind you, you still prove useful through your knowledge on strategy and oration. The great Achaean kings come to you for military advice, and, wise in words, you surely give them strategies directly from Athenâ. Though your son Antílokhos will be on the battlefield, it is you for which acclaim will surely fall for your military cunning.;;;;;;;;;;;;;x
 EVTDESCETW2;"The famous spearman Idomeneus led the men of Krete, who held Knossos, and the well-walled city of Gortyn."\n\nGreat Idomeneus, friend of Aías and [Root.GetTitle] of Krete. You rule over such a storied land, with both cities of modern walls and of old stone rubble. Though relatively far from many of the troubles of the mainland, you still have taken the same pledge as your Achaean brothers, and will fight on the same battlefield. Great honor will befall you, if the gods permit.;;;;;;;;;;;;;x
-EVTDESCFTW2;"Peleus said only this: - 'My son! be brave!'"\n\nPeleus, great hero and king of Phthia, and father to Akhilleus, the greatest of the Achaeans. Though exiled for the murder of his brother Phokos, Peleus proved himself on the battlefield, was purified from his crime, became [Root.GetTitle] of Phthia, and successfully courted the Nereid Themis. Your wife Themis has blessed your son with near invunerability, with the knowledge that he will live either a long and uneventful or short and glorious life. Too old to fight in the Trojan War, you send Akhilleus in your stead. May he win glory for you and your house!;;;;;;;;;;;;;x
+EVTDESCFTW2;"Peleus said only this: - 'My son! be brave!'"\n\nPeleus, great hero and [Root.GetTitle] of Phthia, and father to Akhilleus, the greatest of the Achaeans. Though exiled for the murder of his brother Phokos, Peleus proved himself on the battlefield, was purified from his crime, became [Root.GetTitle] of Phthia, and successfully courted the Nereid Themis. Your wife Themis has blessed your son with near invunerability, with the knowledge that he will live either a long and uneventful or short and glorious life. Too old to fight in the Trojan War, you send Akhilleus in your stead. May he win glory for you and your house!;;;;;;;;;;;;;x
 EVTDESCGTW2;"He was bred in rocky Ithake, and he's quick at every treachery under the sun, the man of twists and turns."\n\nOdusseús, the trickster of Ithake. Although you are versed in arms like all good Achaean men, your mind is your true weapon. Favored by the strategist Athenâ, the Achaeans hail your tongue as the sharpest, and your mind as the quickest. As the one who devised the Oath of Tundáreos, you feel as if you are not only defending your honor through accepting Menelaos' call, but you are defending your honor as one endowed with the wisdom to forge such deals among Achaeans. Odusseús, may Athenâ find you well on the battlefield! And may Poseidaon find you well on the seas...;;;;;;;;;;;;;x
 EVTDESCHTW2;"The spearhead sliced right through to the flesh, And when Diomedes pulled it out, Ares yelled, so loud you would have thought ten thousand warriors had shouted at once..."\n\nGreat Diomedes, [Root.GetTitle] of a third of Argos, and a favorite of the great strategist Athenâ. The standard of a great hero, your strength and strategic knowledge is only bested by your piety and your respect to the gods. Though you are young, you are respected among even the most experienced of Achaeans, and are valued as one of their finest, rivaling even Akhilleus. This war may be your most difficult test as a hero, with many tribulations ahead. Diomedes, advised by the gods themselves, are you truly ready to face them on the battlefield?;;;;;;;;;;;;;x
 EVTDESCTW2;"Friends and fighting men of the Danaans, henchmen of Ares, be men now, dear friends, remember your furious valour."\n\n[Root.GetBestName], you have been called to arms by Menelaos, [Root.GetTitle] of Sparta, in order to fulfill your oath and defend Helen of Sparta, who has been abducted by Paris of Troy. You have heard many whispers about the inpenetrable walls of Troy, built by gods in atonement, but now you and your men must board ships and see if the rumors were true. Everlasting glory may be won on these days of battle, and songs may ever be sung of your triumphs. But be wary, as the fates of men are fickle, and the Trojans have great heroes of their own. Though you may face many tribulations, go on, [Root.GetFirstName], and win glory for your house!;;;;;;;;;;;;;x
@@ -856,7 +856,7 @@ EVTOPTACTW99;Was it worth it?;;;;;;;;;;;;;x
 EVTTITLETW100;End of the Trojan War;;;;;;;;;;;;;x
 EVTDESCTW100;The Trojans have crushed the ranks of the Achaeans, the poets will sing of the proud Kings of Wilusa who beat back the vicious Danaans.;;;;;;;;;;;;;x
 EVTOPTAATW100;Unending shame!;;;;;;;;;;;;;x
-EVTOPTABTW100;Appaliunaš protects event from the wrath of Ziuš;;;;;;;;;;;;;x
+EVTOPTABTW100;Appaliunaš protects even from the wrath of Ziuš;;;;;;;;;;;;;x
 EVTOPTACTW100;Who could have foreseen this?;;;;;;;;;;;;;x
 
 EVTDESCTW107;In the city of Troy, I have taken great joy in burning the city to the ground and gathering spoils of war. However, the Trojan princes see me, and rush with their arms to strike me down. After and ardous battle, I reign victorious, however I succumb to my wounds shortly after.;;;;;;;;;;;;;x
@@ -894,7 +894,7 @@ EVTOPTATW105;Alright.;;;;;;;;;;;;;x
 ###########Bronze Age Collapse Events###########
 #Greek
 EVTTITLEFKCG2;Drought Befalls Us;;;;;;;;;;;;;x
-EVTDESCFKCG2;The land is barren. Trees are gnarled. Fruits are dried on the vine. Drought befalls the land of the Héllenes.;;;;;;;;;;;;;x
+EVTDESCFKCG2;The land is barren. Trees are gnarled. Fruits are dried on the vine. Drought befalls the land.;;;;;;;;;;;;;x
 EVTOPTAFKCG2;Disaster!;;;;;;;;;;;;;x
 
 EVTTITLEFKCG3;The Ground Shakes!;;;;;;;;;;;;;x
@@ -902,68 +902,68 @@ EVTDESCFKCG3;Disaster! The ground has opened up and caused devastation across th
 EVTOPTAFKCG3;The land itself is angered!;;;;;;;;;;;;;x
 
 EVTTITLEFKCG4;The Drought Receeds;;;;;;;;;;;;;x
-EVTDESCFKCG4;Life has been brought back to the land of the Héllenes as the drought begins to receed. It shall still take many years for the land and the people to recover.;;;;;;;;;;;;;x
+EVTDESCFKCG4;Life has been brought back to the land as the drought begins to receed. It shall still take many years for the land and the people to recover.;;;;;;;;;;;;;x
 EVTOPTAFKCG4;It's as if we live after the end!;;;;;;;;;;;;;x
 
-EVTDESCFKCG7;The day is come to reclaim Father Herakles' birthright. Troops flock to my banner, and the land of the Héllenes lay prostrate.;;;;;;;;;;;;;x
+EVTDESCFKCG7;The day is come to reclaim Father Herakles' birthright. Troops flock to my banner, and the land lays prostrate.;;;;;;;;;;;;;x
 EVTOPTAFKCG7;By Athenâ's hand we shall see victory!;;;;;;;;;;;;;x
 
 EVTTITLEFKCG8;Return of the Herakleîdai;;;;;;;;;;;;;x
-EVTDESCFKCG8;The Herakleîdai have returned from the land of the Dorians to claim Herakles' birthright. Dorian soldiers flood the lands and are poised to overrun all the Héllenes.;;;;;;;;;;;;;x
-EVTOPTAFKCG8;Woe, woe befalls the Héllenes!;;;;;;;;;;;;;x
+EVTDESCFKCG8;The Herakleîdai have returned from the land of the [dorian.GetName] to claim Herakles' birthright. Dorian soldiers flood the lands and are poised to overrun all the land.;;;;;;;;;;;;;x
+EVTOPTAFKCG8;Woe, woe!;;;;;;;;;;;;;x
 
 EVTTITLEFKCG10;The Herakleîdai Take Argos;;;;;;;;;;;;;x
-EVTDESCFKCG10;Sing muses, of the fall of Argos! The old city of strong Inakhos has been defeated by the Herakleîdai. Dorians now flood the region, and the sons of Herakles rule the lands.;;;;;;;;;;;;;x
+EVTDESCFKCG10;Sing muses, of the fall of Argos! The old city of strong Inakhos has been defeated by the Herakleîdai. [dorian.GetName] now flood the region, and the sons of Herakles rule the lands.;;;;;;;;;;;;;x
 EVTOPTAFKCG10;Woe unto the Argeîoi!;;;;;;;;;;;;;x
 
 EVTTITLEFKCG11;The Herakleîdai Take Lakonía;;;;;;;;;;;;;x
-EVTDESCFKCG11;Sing muses, of the fall of Lakonía! The fortresses of Menelaos have fallen to the Herakleîdai. Dorians now flood the region, and the sons of Herakles rule the lands.;;;;;;;;;;;;;x
+EVTDESCFKCG11;Sing muses, of the fall of Lakonía! The fortresses of Menelaos have fallen to the Herakleîdai. [dorian.GetName] now flood the region, and the sons of Herakles rule the lands.;;;;;;;;;;;;;x
 EVTOPTAFKCG11;Woe unto the Lákones!;;;;;;;;;;;;;x
 
 EVTTITLEFKCG12;The Herakleîdai Take Púlos;;;;;;;;;;;;;x
-EVTDESCFKCG12;Sing muses, of the fall of Púlos! The palace of crafty Nestor have fallen to the Herakleîdai. Dorians now flood the region, and the sons of Herakles rule the lands.;;;;;;;;;;;;;x
+EVTDESCFKCG12;Sing muses, of the fall of Púlos! The palace of crafty Nestor have fallen to the Herakleîdai. [dorian.GetName] now flood the region, and the sons of Herakles rule the lands.;;;;;;;;;;;;;x
 EVTOPTAFKCG12;Woe unto the Púles!;;;;;;;;;;;;;x
 
 EVTTITLEFKCG14;Migration of the Héllenes;;;;;;;;;;;;;x
-EVTDESCFKCG14;The flood of Dorians into the heartlands of the Héllenes has become too great to ignore. Our society may not be able to withstand such a flood of men.;;;;;;;;;;;;;x
-EVTOPTAFKCG14;Barbarous Héllenes?;;;;;;;;;;;;;x
+EVTDESCFKCG14;The flood of [dorian.GetName] into the heartlands of the Héllenes has become too great to ignore. Our society may not be able to withstand such a flood of men.;;;;;;;;;;;;;x
+EVTOPTAFKCG14;Barbarous... Héllenes?;;;;;;;;;;;;;x
 
-EVTTITLEFKCG16;Ionikos Culture;;;;;;;;;;;;;x
-EVTDESCFKCG16;The influence of Dorians has greatly changed our culture, so much that we are now considered Ionikos.;;;;;;;;;;;;;x
-EVTOPTAFKCG16;I'm still a Héllen!;;;;;;;;;;;;;x
+EVTTITLEFKCG16;[ionian.GetName] Culture;;;;;;;;;;;;;x
+EVTDESCFKCG16;The influence of [dorian.GetName] has greatly changed our culture, so much that we are now considered [ionian.GetName].;;;;;;;;;;;;;x
+EVTOPTAFKCG16;I'm still a [hellene.GetName]!;;;;;;;;;;;;;x
 
-EVTTITLEFKCG18;Dorieús Culture;;;;;;;;;;;;;x
-EVTDESCFKCG18;The influence of Dorians has greatly changed our culture, so much that we are now considered Dorieús.;;;;;;;;;;;;;x
-EVTOPTAFKCG18;I'm still a Héllen!;;;;;;;;;;;;;x
+EVTTITLEFKCG18;[dorian.GetName] Culture;;;;;;;;;;;;;x
+EVTDESCFKCG18;The influence of [dorian.GetName] has greatly changed our culture, so much that we are now considered [dorian.GetName] ourselves.;;;;;;;;;;;;;x
+EVTOPTAFKCG18;I'm still a [hellene.GetName]!;;;;;;;;;;;;;x
 
-EVTTITLEFKCG20;Arkás Culture;;;;;;;;;;;;;x
-EVTDESCFKCG20;The influence of Dorians has greatly changed our culture, so much that we are now considered Arkás.;;;;;;;;;;;;;x
-EVTOPTAFKCG20;I'm still a Héllen!;;;;;;;;;;;;;x
+EVTTITLEFKCG20;[arcadian.GetName] Culture;;;;;;;;;;;;;x
+EVTDESCFKCG20;The influence of [dorian.GetName] has greatly changed our culture, so much that we are now considered [arcadian.GetName].;;;;;;;;;;;;;x
+EVTOPTAFKCG20;I'm still a [hellene.GetName]!;;;;;;;;;;;;;x
 
-EVTTITLEFKCG22;Kúprios Culture;;;;;;;;;;;;;x
-EVTDESCFKCG22;The influence of Dorians has greatly changed our culture, so much that we are now considered Kúprios.;;;;;;;;;;;;;x
-EVTOPTAFKCG22;I'm still a Héllen!;;;;;;;;;;;;;x
+EVTTITLEFKCG22;[arcadian.GetName] Culture;;;;;;;;;;;;;x
+EVTDESCFKCG22;The influence of [dorian.GetName] has greatly changed our culture, so much that we are now considered [cypriot_dorian.GetName].;;;;;;;;;;;;;x
+EVTOPTAFKCG22;I'm still a [hellene.GetName]!;;;;;;;;;;;;;x
 
-EVTTITLEFKCG24;Aiolikos Culture;;;;;;;;;;;;;x
-EVTDESCFKCG24;The influence of Dorians has greatly changed our culture, so much that we are now considered Aiolikos.;;;;;;;;;;;;;x
-EVTOPTAFKCG24;I'm still a Héllen!;;;;;;;;;;;;;x
+EVTTITLEFKCG24;[aeolian.GetName] Culture;;;;;;;;;;;;;x
+EVTDESCFKCG24;The influence of [dorian.GetName] has greatly changed our culture, so much that we are now considered [aeolian.GetName].;;;;;;;;;;;;;x
+EVTOPTAFKCG24;I'm still a [hellene.GetName]!;;;;;;;;;;;;;x
 
-EVTTITLEFKCG26;Invasion of the Thessalikoí;;;;;;;;;;;;;x
-EVTDESCFKCG26;Grave news from the Aiolikoi! Thessalikoí descend on their lands and crash like waves against their people. Though the Thessalikoí are Héllenes, they have taken to barbarous ways, and live in a hostile matter to fellow Héllenes. May [Root.GetHighGodName] defend them!.;;;;;;;;;;;;;x
- EVTOPTAFKCG26;A scourge upon the Aiolikoi!;;;;;;;;;;;;;x
+EVTTITLEFKCG26;Invasion of the [thessalian.GetName];;;;;;;;;;;;;x
+EVTDESCFKCG26;Grave news from the [aeolian.GetName]! [thessalian.GetName] descend on their lands and crash like waves against their people. Though the [thessalian.GetName] are [hellene.GetName], they have taken to barbarous ways, and live in a hostile matter to fellow [hellene.GetName]. May [Root.GetHighGodName] defend them!.;;;;;;;;;;;;;x
+ EVTOPTAFKCG26;A scourge upon the [aeolian.GetName]!;;;;;;;;;;;;;x
  
-EVTTITLEFKCG27;Defeat of the Aiolikoi;;;;;;;;;;;;;x
-EVTDESCFKCG27;The Thessalikoí are victorious over the Aiolikoi. Thousands have been enslaved, and the land lays prostrate to them. Many Aiolikoi flee to the east to escape the Thessalikoí.;;;;;;;;;;;;;x
+EVTTITLEFKCG27;Defeat of the [aeolian.GetName];;;;;;;;;;;;;x
+EVTDESCFKCG27;The [thessalian.GetName] are victorious over the [aeolian.GetName]. Thousands have been enslaved, and the land lays prostrate to them. Many [aeolian.GetName] flee to the east to escape the [these.GetName].;;;;;;;;;;;;;x
 
-EVTDESCFKCG28;Victory! The weak-willed Aiolikoi have fallen to us. What was once their land is now our land. Our banners fly amongst their citadels, and the people are now subject to us.;;;;;;;;;;;;;x
+EVTDESCFKCG28;Victory! The weak-willed [aeolian.GetName] have fallen to us. What was once their land is now our land. Our banners fly amongst their citadels, and the people are now subject to us.;;;;;;;;;;;;;x
 EVTOPTAFKCG28;The gods smile on us.;;;;;;;;;;;;;x
-thessalians_spread_TT;The Thessalikoí will proliferate through the homeland of the Aiolikoi;;;;;;;;;;;;;x
-thessalian_migration;Thessalikoí Migration;;;;;;;;;;;;;x
+thessalians_spread_TT;The [thessalian.GetName] will proliferate through the homeland of the [aeolian.GetName];;;;;;;;;;;;;x
+thessalian_migration;[thessalian.GetName] Migration;;;;;;;;;;;;;x
 
-EVTDESCFKCG30;The Ionikói have cemented their influence upon our land, their culture and faith are now near-native to the region.;;;;;;;;;;;;;x
+EVTDESCFKCG30;The [ionian.GetName] have cemented their influence upon our land, their culture and faith are now near-native to the region.;;;;;;;;;;;;;x
 EVTOPTAFKCG30;Interesting;;;;;;;;;;;;;x
 
-EVTDESCFKCG33;The Aiolikoi have cemented their influence upon our land, their culture and faith are now near-native to the region.;;;;;;;;;;;;;x
+EVTDESCFKCG33;The [aeolian.GetName] have cemented their influence upon our land, their culture and faith are now near-native to the region.;;;;;;;;;;;;;x
 EVTOPTAFKCG33;Interesting;;;;;;;;;;;;;x
 
 expel_greeks;Expel the Héllenes;;;;;;;;;;;;;x
@@ -984,20 +984,20 @@ EVTTITLEFKCG36;Héllenes Revolt!;;;;;;;;;;;;;x
 EVTDESCFKCG36;Disaster! My threat did not have its desired effects, and now there are reports of a Héllen army amassing in the countryside.;;;;;;;;;;;;;x
 EVTOPTAFKCG36;They shall be dealt with;;;;;;;;;;;;;x
 
-EVTDESCFKCG37;Ionikói have settles in our lands in Arzawa. Although they seem to be simply migrants, they may soon cement their influence upon our people.;;;;;;;;;;;;;x
+EVTDESCFKCG37;[ionian.GetName] have settles in our lands in Arzawa. Although they seem to be simply migrants, they may soon cement their influence upon our people.;;;;;;;;;;;;;x
 EVTOPTAFKCG37;Very interesting;;;;;;;;;;;;;x
-ionian_migration;Ionikos Migration;;;;;;;;;;;;;x
+ionian_migration;[ionian.GetName] Migration;;;;;;;;;;;;;x
 
-EVTDESCFKCG38;Aiolikoi have settles in our lands in Arzawa. Although they seem to be simply migrants, they may soon cement their influence upon our people.;;;;;;;;;;;;;x
+EVTDESCFKCG38;[aeolian.GetName] have settles in our lands in Arzawa. Although they seem to be simply migrants, they may soon cement their influence upon our people.;;;;;;;;;;;;;x
 EVTOPTAFKCG38;Very interesting;;;;;;;;;;;;;x
-aeolian_migration;Aiolikos Migration;;;;;;;;;;;;;x
+aeolian_migration;[aeolian.GetName] Migration;;;;;;;;;;;;;x
 
-EVTDESCFKCG40;The Aiolikoi have cemented their influence upon our land, their culture and faith are now near-native to the region.;;;;;;;;;;;;;x
+EVTDESCFKCG40;The [dorian.GetName] have cemented their influence upon our land, their culture and faith are now near-native to the region.;;;;;;;;;;;;;x
 EVTOPTAFKCG40;Interesting;;;;;;;;;;;;;x
 
-EVTDESCFKCG41;Dorieús have settles in our lands in Arzawa. Although they seem to be simply migrants, they may soon cement their influence upon our people.;;;;;;;;;;;;;x
+EVTDESCFKCG41;[dorian.GetName] have settles in our lands in Arzawa. Although they seem to be simply migrants, they may soon cement their influence upon our people.;;;;;;;;;;;;;x
 EVTOPTAFKCG41;Very interesting;;;;;;;;;;;;;x
-dorian_migration;Dorieús Migration;;;;;;;;;;;;;x
+dorian_migration;[dorian.GetName] Migration;;;;;;;;;;;;;x
 
 EVTDESCFKCG100;Events have taken a turn for the worst, as the droughts that terrorize the land now have completely broken. How shall I defend my lands from collapse?;;;;;;;;;;;;;x
 EVTOPTAFKCG100;I shall keep power, but only in my region.;;;;;;;;;;;;;x
@@ -1028,14 +1028,14 @@ EVTOPTAFKCA6;I shall arm my countrymen and invade!;;;;;;;;;;;;;x
 kaskian_invasion_TT;War will be declared on all independent lords in the land of Hatti;;;;;;;;;;;;;x
 EVTOPTBFKCA6;I will give my blessing but not lead this army;;;;;;;;;;;;;x
 
-EVTTITLEFKCA7;Kaška Invasion;;;;;;;;;;;;;x
-EVTDESCFKCA7;Suffering from a great famine, the Kaška have armed themselves and now are marching towards the land of Hatti. Their numbers seem unending, and their soldiers are fierce.;;;;;;;;;;;;;x
+EVTTITLEFKCA7;[kaskian.GetName] Invasion;;;;;;;;;;;;;x
+EVTDESCFKCA7;Suffering from a great famine, the [kaskian.GetName] have armed themselves and now are marching towards the land of Hatti. Their numbers seem unending, and their soldiers are fierce.;;;;;;;;;;;;;x
 EVTOPTAFKCA7;Hatti lays prostrate...;;;;;;;;;;;;;x
-KASKIAN_INVASION;Kaška Invasion;;;;;;;;;;;;;x
-KASKIAN_INVASION_adj;Kaška;;;;;;;;;;;;;x
+KASKIAN_INVASION;[kaskian.GetName] Invasion;;;;;;;;;;;;;x
+KASKIAN_INVASION_adj;[kaskian.GetName];;;;;;;;;;;;;x
 
-EVTTITLEFKCA8;Kaška Invasion;;;;;;;;;;;;;x
-EVTDESCFKCA8;The Kaška stand victorious over the people of the land of Hatti as they return from their pillage. Their buildings are destroyed, their granaries are barren, and their civilized nature itself seems violated.;;;;;;;;;;;;;x
+EVTTITLEFKCA8;[kaskian.GetName] Invasion;;;;;;;;;;;;;x
+EVTDESCFKCA8;The [kaskian.GetName] stand victorious over the people of the land of Hatti as they return from their pillage. Their buildings are destroyed, their granaries are barren, and their civilized nature itself seems violated.;;;;;;;;;;;;;x
 EVTOPTAAFKCA8;The land is now empty;;;;;;;;;;;;;x
 EVTOPTABFKCA8;Woeful are my lands!;;;;;;;;;;;;;x 
 
@@ -1044,25 +1044,25 @@ EVTOPTAFKCA10;We shall march on their lands!;;;;;;;;;;;;;x
 phrygian_invasion_TT;War will be declared on all independent lords in the land of Hatti;;;;;;;;;;;;;x
 EVTOPTBFKCA10;I will give my blessing but not lead this army;;;;;;;;;;;;;x
 
-EVTTITLEFKCA11;Phrugios Invasion;;;;;;;;;;;;;x
-EVTDESCFKCA11;Suffering from a great famine, the Phrugios have armed themselves and now are marching towards the land of Hatti. Their numbers seem unending, and their soldiers are fierce.;;;;;;;;;;;;;x
+EVTTITLEFKCA11;[phrygian.GetName] Invasion;;;;;;;;;;;;;x
+EVTDESCFKCA11;Suffering from a great famine, the [phrygian.GetName] have armed themselves and now are marching towards the land of Hatti. Their numbers seem unending, and their soldiers are fierce.;;;;;;;;;;;;;x
 EVTOPTAFKCA11;Hatti lays prostrate...;;;;;;;;;;;;;x
-PHRYGIAN_INVASION;Phrugios Invasion;;;;;;;;;;;;;x
-PHRYGIAN_INVASION_adj;Phrugios;;;;;;;;;;;;;x
+PHRYGIAN_INVASION;[phrygian.GetName] Invasion;;;;;;;;;;;;;x
+PHRYGIAN_INVASION_adj;[phrygian.GetName];;;;;;;;;;;;;x
 
-EVTTITLEFKCA12;Phrugios Invasion;;;;;;;;;;;;;x
-EVTDESCFKCA12;The Phrugios stand victorious as they settle in their new lands. Buildings are destroyed, granaries lay barren, and civilization has ceased in the their land.;;;;;;;;;;;;;x
+EVTTITLEFKCA12;[phrygian.GetName] Invasion;;;;;;;;;;;;;x
+EVTDESCFKCA12;The [phrygian.GetName] stand victorious as they settle in their new lands. Buildings are destroyed, granaries lay barren, and civilization has ceased in the their land.;;;;;;;;;;;;;x
 EVTOPTAAFKCA12;The land is now empty;;;;;;;;;;;;;x
 EVTOPTABFKCA12;Woeful are my lands!;;;;;;;;;;;;;x 
 
 ###########Israelite Events###########
-judge_israel;Judge B'nei Yisra'el;;;;;;;;;;;;;x
+judge_israel;Judge [israelite.GetName];;;;;;;;;;;;;x
 judge_israel_desc;Judge this sins of the B'nei Yisra'el.;;;;;;;;;;;;;x
 
 become_syncretic_canaanite;Become Syncretic With [canaanite_religion.GetName];;;;;;;;;;;;;x
 become_syncretic_canaanite_desc;The God of Yisra'el has failed the people of your capital. It is time to hear their plight and pray to the gods of the B'nei Kena'an.;;;;;;;;;;;;;x
 
-EVTDESCFKC3;I have been attacked! An enemy of the B'nei Yisra'el has sent their armies towards my land. Although I am sure Shivtei Yisra'el will come to aid, maybe it is time for a single ruler to defend us in times of strife.;;;;;;;;;;;;;x
+EVTDESCFKC3;I have been attacked! An enemy of the [israelite.GetName] has sent their armies towards my land. Although I am sure Shivtei Yisra'el will come to aid, maybe it is time for a single ruler to defend us in times of strife.;;;;;;;;;;;;;x
 EVTOPTAFKC3;We must unite!;;;;;;;;;;;;;x
 EVTOPTBFKC3;It is a foolish idea;;;;;;;;;;;;;x
 
@@ -1079,3 +1079,10 @@ EVTOPTAFKC6;Excellent;;;;;;;;;;;;;x
 
 EVTDESCFKC7;[From.GetBestName] has refused to repent, and will surely be cursed by [Root.GetHighGodName].;;;;;;;;;;;;;x
 EVTOPTAFKC7;Damn them!;;;;;;;;;;;;;x
+
+EVTDESCFKC13;As the undisputed ruler of Yisra'el, I may be able to make myself monarch instead of shofét;;;;;;;;;;;;;x
+EVTOPTAFKC13;It is a wise idea;;;;;;;;;;;;;x
+EVTOPTBFKC13;The only king is [Root.GetHighGodName];;;;;;;;;;;;;x
+
+EVTDESCFKC14;With the title of shofét being hereditary, I do not see the point of keeping the pretence of simply being a shofét. I shall be made a monarch.;;;;;;;;;;;;;x
+EVTOPTAFKC14;May [Root.GetHighGodName] protect me;;;;;;;;;;;;;x

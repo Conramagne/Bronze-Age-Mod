@@ -1,0 +1,8 @@
+1.1.1 = {
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2527.1.1 = {
+	holder = 2505600
+	liege = e_kemet
+}

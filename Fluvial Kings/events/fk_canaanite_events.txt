@@ -117,20 +117,31 @@ character_event = {
 		days = 1
 	}
 	
+	immediate = {
+		if = {
+			limit = {
+				is_tributary = yes
+			}
+			suzerain = {
+				save_event_target_as = my_suzerain
+			}
+		}
+	}
+	
 	option = { #Begin Judges
 		name = EVTOPTAFKC3
 		random_character = {
 			save_event_target_as = judge_of_israel
 			limit = {
-				is_landed = no
+				# is_landed = no
 				is_adult = yes
 				is_female = no
 				is_incapable = no
 				prisoner = no 
-				is_inaccessible_trigger = no
 				religion = berith
-				is_evil_trigger = no
-				is_impious_trigger = no
+			}
+			preferred_limit = {
+				character = c_2302603 #Othniel ben Kenaz
 			}
 			preferred_limit = {
 				is_benevolent_trigger = yes
@@ -144,7 +155,25 @@ character_event = {
 					has_education_martial_trigger = yes
 				}
 			}
+			preferred_limit = {
+				is_inaccessible_trigger = no
+				is_evil_trigger = no
+				is_impious_trigger = no
+			}
 			grant_title = k_judge_of_israel
+			if = {
+				limit = {
+					ROOT = {
+						is_tributary = yes
+					}
+				}
+				event_target:my_suzerain = {
+					make_tributary = {
+						who = PREV
+						tributary_type = default
+					}
+				}
+			}
 			primary_title = {
 				add_law = {
 					law = succ_feudal_elective
@@ -160,7 +189,42 @@ character_event = {
 					set_title_flag = judge_vassal
 				}
 			}
+			set_religion_head = k_judge_of_israel
 			join_defender_wars = ROOT
+			spawn_unit = {
+				province = capital_scope
+				home = capital_scope
+				owner = THIS
+				leader = THIS
+				troops = {
+					light_cavalry = { 200 200 }
+					light_infantry = { 600 600 }
+					heavy_infantry = { 300 300 }
+					knights = { 100 100 }
+					pikemen = { 200 200 }
+				}
+				attrition = 0.5
+				maintenance_multiplier = 0
+				cannot_inherit = no
+				disband_on_peace = yes
+			}
+			spawn_unit = {
+				province = capital_scope
+				home = capital_scope
+				owner = THIS
+				leader = THIS
+				troops = {
+					light_cavalry = { 200 200 }
+					light_infantry = { 600 600 }
+					heavy_infantry = { 300 300 }
+					knights = { 100 100 }
+					pikemen = { 200 200 }
+				}
+				attrition = 0.5
+				maintenance_multiplier = 0
+				cannot_inherit = no
+				disband_on_peace = yes
+			}
 			any_playable_ruler = {
 				limit = {
 					has_twelve_tribe_title_trigger = yes
@@ -481,5 +545,61 @@ character_event = {
 			}
 			clr_title_flag = judge_vassal
 		}
+	}
+}
+
+#Usurps Judge of Israel
+character_event = {
+	id = fkc.13
+	desc = EVTDESCFKC13
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAFKC13
+		
+		grant_title = k_yisrael
+		unsafe_destroy_landed_title = k_judge_of_israel
+		set_religion_head = none
+	}
+	option = {
+		name = EVTOPTAFKC14
+		trigger = {
+			ai = no
+		}
+	}
+}
+
+#Judge of Israel not elective
+character_event = {
+	id = fkc.14
+	desc = EVTDESCFKC14
+	trigger = {
+		k_judge_of_israel = {
+			holder = ROOT
+			ROOT = {
+				primary_title = {
+					title = PREV
+				}
+			}
+			NOR = {
+				has_law = succ_elective_gavelkind
+				has_law = succ_eldership
+				has_law = succ_feudal_elective
+				has_law = succ_byzantine_elective
+			}
+		}
+		k_yisrael = {
+			has_holder = no
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAFKC14
+		grant_title = k_yisrael
+		unsafe_destroy_landed_title = k_judge_of_israel
+		set_religion_head = none
 	}
 }

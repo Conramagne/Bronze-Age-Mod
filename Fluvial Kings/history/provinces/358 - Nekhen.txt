@@ -1,0 +1,19 @@
+# c_nekhen
+
+# County Title
+title = c_nekhen
+
+# Settlements
+max_settlements = 5
+
+b_seni = castle
+b_hut_seneferu = city
+b_nekhen = temple
+b_gekhesti = castle
+b_inereti = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

@@ -1,0 +1,3807 @@
+#19th Dynasty (2500000-2500099)
+2500000 = { #Ramesses II, Pharaoh
+	name = "Ramesses" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	father = 2500022
+	mother = 2500023
+	2458.1.1 = { birth = yes }
+	2478.1.1 = {
+		add_spouse = 2500001
+	}
+	2479.1.1 = {
+		add_spouse = 2500003
+	}
+	2482.3.31 = {
+		capital = c_khenti_iabti
+	}
+	2507.1.1 = {
+		add_spouse = 2500014
+	}
+	2507.1.1 = {
+		add_spouse = 2500015
+	}
+	2516.2.1 = {
+		add_spouse = 2002008
+	}
+	2516.2.1 = {
+		add_spouse = 2500016
+	}
+	2547.7.1 = { death = yes }
+}
+
+2500001 = { #Nefertari, First Royal Wife of Ramesses II
+	name = "Nefertari" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2458.1.1 = { birth = yes }
+	2506.1.1 = { death = yes }
+}
+
+2500002 = { #Seth-her-khepeshef, First Crown Prince of Ramesses II
+	name = "Seth-her-khepeshef" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	father = 2500000
+	mother = 2500001
+	disallow_random_traits = yes
+	2478.1.1 = { birth = yes }
+	2507.1.1 = { death = yes }
+}
+
+2500003 = { #Isetnofret, Second Royal Wife of Ramesses II
+	name = "Isetnofret" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2459.1.1 = { birth = yes }
+	2511.1.1 = { death = yes }
+}
+
+2500004 = { #Ramesses, Second Son and Second Crown Prince of Ramesses II
+	name = "Ramesses" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	father = 2500000
+	mother = 2500003
+	2479.1.1 = { birth = yes }
+	2531.1.1 = { death = yes }
+}
+
+2500005 = { #Pareherwenemef, Third Son of Ramesses II
+	name = "Pareherwenemef" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	father = 2500000
+	mother = 2500001
+	2482.1.1 = { birth = yes }
+	2530.1.1 = { death = yes }
+}
+
+2500006 = { #Khaemwaset, Fourth Son and Third Crown Prince of Ramesses II
+	name = "Khaemwaset" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	father = 2500000
+	mother = 2500003
+	trait = mastermind_theologian
+	trait = scholar
+	2486.1.1 = { birth = yes }
+	2506.1.1 = {
+		add_spouse = 2500007
+	}
+	2537.1.1 = { death = yes }
+}
+
+2500007 = { #Meheweskhe, Wife of Khaemwaset
+	name = "Meheweskhe" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	2486.1.1 = { birth = yes }
+	2537.1.1 = { death = yes }
+}
+
+2500008 = { #Ramesses, Son of Khaemwaset
+	name = "Ramesses" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	father = 2500006
+	mother = 2500007
+	2506.1.1 = { birth = yes }
+	2566.1.1 = { death = yes }
+}
+
+2500009 = { #Hori, Son of Khaemwaset
+	name = "Hori" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	father = 2500006
+	mother = 2500007
+	2507.1.1 = { birth = yes }
+	2570.1.1 = { death = yes }
+}
+
+2500010 = { #Isetnofret, Daughter of Khaemwaset
+	name = "Isetnofret"
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2500006
+	mother = 2500007
+	2515.1.1 = { birth = yes }
+	2575.1.1 = { death = yes }
+}
+
+2500011 = { #Hori, Son of Hori, Son of Khaemwaset
+	name = "Hori" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	father = 2500009
+	2527.1.1 = { birth = yes }
+	2590.1.1 = { death = yes }
+}
+
+2500012 = { #Merneptah, Son and Fourth Crown Prince of Ramesses II, Future Pharaoh
+	name = "Merneptah" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	father = 2500000
+	mother = 2500003
+	2488.1.1 = { birth = yes }
+	2515.1.1 = {
+		add_spouse = 2500017
+	}
+	2520.1.1 = {
+		add_spouse = 2500018
+	}
+	2558.5.2 = { death = yes }
+}
+
+2500013 = { #Meryatum, Son of Ramesses II
+	name = "Meryatum" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	father = 2500000
+	mother = 2500001
+	2500.1.1 = { birth = yes }
+	2560.5.2 = { death = yes }
+}
+
+2500014 = { #Bintanath, Daughter of Ramesses II
+	name = "Bintanath" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2500000
+	mother = 2500001
+	2485.1.1 = { birth = yes }
+	2545.1.1 = { death = yes }
+}
+
+2500015 = { #Meritamen, Daughter of Ramesses II
+	name = "Meritamen" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2500000
+	mother = 2500001
+	2487.1.1 = { birth = yes }
+	2547.1.1 = { death = yes }
+}
+
+2500016 = { #Nebettawy, Daughter of Ramesses II
+	name = "Nebettawy" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2500000
+	mother = 2500001
+	2490.1.1 = { birth = yes }
+	2550.1.1 = { death = yes }
+}
+
+2500017 = { #Isetnofret, Daughter of Ramesses II, Wife of Merneptah
+	name = "Isetnofret" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2500000
+	mother = 2500003
+	2495.1.1 = { birth = yes }
+	2555.1.1 = { death = yes }
+}
+
+2500018 = { #Takhat, Daughter of Ramesses II, Wife of Merneptah
+	name = "Takhat" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2500000
+	2500.1.1 = { birth = yes }
+	2580.1.1 = { death = yes }
+}
+
+2500019 = { #Seti, Son of Merneptah, Future Pharaoh
+	name = "Seti" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	father = 2500012
+	mother = 2500017
+	2515.1.1 = { birth = yes }
+	2564.1.1 = { death = yes }
+}
+
+2500020 = { #Amenmesse, Son of Merneptah, Future Pharaoh
+	name = "Amenmesse" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	father = 2500012
+	mother = 2500018
+	2520.1.1 = { birth = yes }
+	2561.1.1 = { death = yes }
+}
+
+2500021 = { #Twosret, Daughter of Merneptah, Future Pharaoh
+	name = "Twosret" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2500012
+	mother = 2500018
+	2520.1.1 = { birth = yes }
+	2575.1.1 = { death = yes }
+}
+
+2500022 = { #Seti I, Pharaoh
+	name = "Seti" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	father = 2500025
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2438.1.1 = { birth = yes }
+	2458.1.1 = {
+		add_spouse = 2500023
+	}
+	2482.3.31 = { death = yes }
+}
+
+2500023 = { #Tuya, Royal Wife of Seti I
+	name = "Tuya" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2500024
+	disallow_random_traits = yes
+	2438.1.1 = { birth = yes }
+	2504.1.1 = { death = yes }
+}
+
+2500024 = { #Tia, Father of Tuya
+	name = "Tia" 
+	culture = egyptian
+	religion = maat
+	disallow_random_traits = yes
+	2418.1.1 = { birth = yes }
+	2478.1.1 = { death = yes }
+}
+
+2500025 = { #Ramesses I, Pharaoh
+	name = "Ramesses" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	father = 2500026
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2410.1.1 = { birth = yes }
+	2467.1.1 = { death = yes }
+}
+
+2500026 = { #Seti, Father of Ramesses I
+	name = "Seti" 
+	dynasty = 2500000 #Sa-Seti
+	culture = egyptian
+	religion = maat
+	disallow_random_traits = yes
+	2390.1.1 = { birth = yes }
+	2450.1.1 = { death = yes }
+}
+
+#18th Dynasty (2500100-2500199)
+2500100 = { #Horemheb, Pharaoh
+	name = "Horemheb" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2391.1.1 = { birth = yes }
+	2411.1.1 = {
+		add_spouse = 2500101
+	}
+	2436.1.1 = {
+		add_spouse = 2500102
+	}
+	2466.1.1 = { death = yes }
+}
+
+2500101 = { #Amenia, Wife of Horemheb
+	name = "Amenia" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2391.1.1 = { birth = yes }
+	2436.1.1 = { death = yes }
+}
+
+2500102 = { #Mutnedjmet, Royal Wife of Horemheb
+	name = "Mutnedjmet" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2391.1.1 = { birth = yes }
+	2451.1.1 = { death = yes }
+}
+
+2500103 = { #Ay II, Pharaoh
+	name = "Ay" 
+	dynasty = 2500002 #Sa-Yuya
+	culture = egyptian
+	religion = maat
+	father = 2500105
+	mother = 2500106
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2361.1.1 = { birth = yes }
+	2388.1.1 = {
+		add_spouse = 2500110
+	}
+	2388.1.1 = {
+		add_spouse = 2500111
+	}
+	2438.1.1 = { death = yes }
+}
+
+2500104 = { #Tiye, Royal Wife of Amenhotep III
+	name = "Tiye" 
+	dynasty = 2500002 #Sa-Yuya
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2500105
+	mother = 2500106
+	disallow_random_traits = yes
+	2363.1.1 = { birth = yes }
+	2438.1.1 = { death = yes }
+}
+
+2500105 = { #Yuya, Father of Ay II and Tiye
+	name = "Yuya" 
+	dynasty = 2500002 #Sa-Yuya
+	culture = egyptian
+	religion = maat
+	disallow_random_traits = yes
+	2341.1.1 = { birth = yes }
+	2361.1.1 = {
+		add_spouse = 2500106
+	}
+	2400.1.1 = { death = yes }
+}
+
+2500106 = { #Tjuyu, Mother of Ay II and Tiye
+	name = "Tjuyu" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2341.1.1 = { birth = yes }
+	2386.1.1 = { death = yes }
+}
+
+2500107 = { #Tutankhamun, Pharaoh
+	name = "Tutankhamun" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500114
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2416.1.1 = { birth = yes }
+	2432.1.1 = {
+		add_spouse = 2500108
+	}
+	2434.1.1 = { death = yes }
+}
+
+2500108 = { #Ankhesenamun, Royal Wife of Tutankhamun
+	name = "Ankhesenamun" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2500114
+	mother = 2500109
+	disallow_random_traits = yes
+	2416.1.1 = { birth = yes }
+	2441.1.1 = { death = yes }
+}
+
+2500109 = { #Nefertiti, Royal Wife of Tutankhamun, Pharaoh Neferneferuaten
+	name = "Nefertiti" 
+	dynasty = 2500002 #Sa-Yuya
+	culture = egyptian
+	religion = atenism
+	female = yes
+	father = 2500103
+	mother = 2500110
+	disallow_random_traits = yes
+	2388.1.1 = { birth = yes }
+	2425.4.1 = { death = yes }
+}
+
+2500110 = { #Iuy, Wife of Ay II, Mother of Nefertiti
+	name = "Iuy" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2368.1.1 = { birth = yes }
+	2392.1.1 = { death = yes }
+}
+
+2500111 = { #Tey, Royal Wife of Ay II
+	name = "Tey" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2369.1.1 = { birth = yes }
+	2435.1.1 = { death = yes }
+}
+
+2500112 = { #Meritaten, Royal Wife of Smenkhkare
+	name = "Meritaten" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = atenism
+	female = yes
+	father = 2500114
+	mother = 2500109
+	disallow_random_traits = yes
+	2408.1.1 = { birth = yes }
+	2468.1.1 = { death = yes }
+}
+
+2500113 = { #Smenkhkare, Pharaoh
+	name = "Smenkhkare" 
+	culture = egyptian
+	religion = atenism
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2405.1.1 = { birth = yes }
+	2424.1.1 = {
+		add_spouse = 2500112
+	}
+	2425.6.1 = { death = yes }
+}
+
+2500114 = { #Akhenaten/Amenhotep IV, Pharaoh
+	name = "Akhenaten" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = atenism
+	father = 2500115
+	mother = 2500104
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2385.1.1 = { birth = yes }
+	2408.1.1 = {
+		add_spouse = 2500109
+	}
+	2425.1.1 = { death = yes }
+}
+
+2500115 = { #Amenhotep III, Pharaoh
+	name = "Amenhotep" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500117
+	mother = 2500116
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2360.1.1 = { birth = yes }
+	2385.1.1 = {
+		add_spouse = 2500104
+	}
+	2409.1.1 = { death = yes }
+}
+
+2500116 = { #Mutemwiya, Wife of Thutmose IV
+	name = "Mutemwiya" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2340.1.1 = { birth = yes }
+	2400.1.1 = { death = yes }
+}
+
+2500117 = { #Thutmose IV, Pharaoh
+	name = "Thutmose" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500119
+	mother = 2500118
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2340.1.1 = { birth = yes }
+	2360.1.1 = {
+		add_spouse = 2500116
+	}
+	2371.1.1 = { death = yes }
+}
+
+2500118 = { #Tia'a, Wife of Amenhotep II
+	name = "Tia'a" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2316.1.1 = { birth = yes }
+	2376.1.1 = { death = yes }
+}
+
+2500119 = { #Amenhotep II, Pharaoh
+	name = "Amenhotep" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500121
+	mother = 2500120
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2316.1.1 = { birth = yes }
+	2336.1.1 = {
+		add_spouse = 2500118
+	}
+	2371.1.1 = { death = yes }
+}
+
+2500120 = { #Merytre-Hatshepsut, Royal Wife of Thutmose III
+	name = "Merytre-Hatshepsut" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2280.1.1 = { birth = yes }
+	2340.1.1 = { death = yes }
+}
+
+2500121 = { #Thutmose III, Pharaoh
+	name = "Thutmose" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500124
+	mother = 2500131
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2280.1.1 = { birth = yes }
+	2300.1.1 = {
+		add_spouse = 2500120
+	}
+	2334.1.1 = { death = yes }
+}
+
+2500122 = { #Hatshepsut, Pharaoh
+	name = "Hatshepsut" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2500126
+	mother = 2500123
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2254.1.1 = { birth = yes }
+	2303.1.1 = { death = yes }
+}
+
+2500123 = { #Ahmose, Royal Wife of Thutmose I, Mother of Hatshepsut
+	name = "Hatshepsut" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2234.1.1 = { birth = yes }
+	2394.1.1 = { death = yes }
+}
+
+2500124 = { #Thutmose II, Pharaoh
+	name = "Thutmose" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500126
+	mother = 2500125
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2251.1.1 = { birth = yes }
+	2274.1.1 = {
+		add_spouse = 2500122
+	}
+	2280.1.1 = {
+		add_spouse = 2500131
+	}
+	2282.1.1 = { death = yes }
+}
+
+2500125 = { #Mutnofret, Wife of Thutmose I, Mother of Thutmose II
+	name = "Mutnofret" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2231.1.1 = { birth = yes }
+	2291.1.1 = { death = yes }
+}
+
+2500126 = { #Thutmose I, Pharaoh
+	name = "Thutmose" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500128
+	mother = 2500127
+	disallow_random_traits = yes
+	2231.1.1 = { birth = yes }
+	2231.1.1 = {
+		add_spouse = 2500125
+	}
+	2231.1.2 = {
+		remove_spouse = 2500125
+	}
+	2234.1.1 = {
+		add_spouse = 2500123
+	}
+	2234.1.2 = {
+		add_spouse = 2500125
+	}
+	2269.1.1 = { death = yes }
+}
+
+2500127 = { #Senseneb, Wife of Amenhotep I
+	name = "Senseneb" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2211.1.1 = { birth = yes }
+	2271.1.1 = { death = yes }
+}
+
+2500128 = { #Amenhotep I, Pharaoh
+	name = "Amenhotep" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500130
+	mother = 2500129
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2211.1.1 = { birth = yes }
+	2257.1.1 = { death = yes }
+}
+
+2500129 = { #Ahmose-Nefertari, Royal Wife of Ahmose I
+	name = "Ahmose-Nefertari" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2500203
+	mother = 2500202
+	disallow_random_traits = yes
+	2190.1.1 = { birth = yes }
+	2260.1.1 = { death = yes }
+}
+
+2500130 = { #Ahmose I, Pharaoh
+	name = "Ahmose" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500203
+	mother = 2500202
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2190.1.1 = { birth = yes }
+	2211.1.1 = {
+		add_spouse = 2500129
+	}
+	2236.1.1 = { death = yes }
+}
+
+2500131 = { #Iset, Wife of Thutmose II
+	name = "Iset" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2260.1.1 = { birth = yes }
+	2320.1.1 = { death = yes }
+}
+
+#17th Dynasty (2500200-2500299)
+2500200 = { #Kamose, King of Upper Egypt
+	name = "Kamose" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500203
+	mother = 2500202
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2185.1.1 = { birth = yes }
+	2205.1.1 = {
+		add_spouse = 2500201
+	}
+	2211.1.1 = { death = yes }
+}
+
+2500201 = { #Ahhotep, Wife of Kamose
+	name = "Ahhotep" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2185.1.1 = { birth = yes }
+	2245.1.1 = { death = yes }
+}
+
+2500202 = { #Ahhotep, Wife of Tao II
+	name = "Ahhotep" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500206
+	mother = 2500207
+	female = yes
+	disallow_random_traits = yes
+	2165.1.1 = { birth = yes }
+	2225.1.1 = { death = yes }
+}
+
+2500203 = { #Tao II, King of Upper Egypt
+	name = "Tao" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500207
+	mother = 2500204
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2165.1.1 = { birth = yes }
+	2185.1.1 = {
+		add_spouse = 2500202
+	}
+	2209.1.1 = { 
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+2500204 = { #Tetisheri, Wife of Ahmose I (Upper Egypt)
+	name = "Tetisheri" 
+	culture = egyptian
+	religion = maat
+	father = 2500206
+	mother = 2500205
+	female = yes
+	disallow_random_traits = yes
+	2145.1.1 = { birth = yes }
+	2205.1.1 = { death = yes }
+}
+
+2500205 = { #Neferu, Mother of Tetisheri
+	name = "Neferu" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2125.1.1 = { birth = yes }
+	2185.1.1 = { death = yes }
+}
+
+2500206 = { #Tjenna, Father of Tetisheri
+	name = "Tjenna" 
+	culture = egyptian
+	religion = maat
+	disallow_random_traits = yes
+	2125.1.1 = { birth = yes }
+	2145.1.1 = {
+		add_spouse = 2500205
+	}
+	2185.1.1 = { death = yes }
+}
+
+2500207 = { #Ahmose I, King of Upper Egypt
+	name = "Ahmose" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500208
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2145.1.1 = { birth = yes }
+	2165.1.1 = {
+		add_spouse = 2500204
+	}
+	2204.1.1 = { death = yes }
+}
+
+2500208 = { #Intef VII, King of Upper Egypt
+	name = "Intef" 
+	dynasty = 2500001 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2125.1.1 = { birth = yes }
+	2203.1.1 = { death = yes }
+}
+
+2500209 = { #Intef VI, King of Upper Egypt
+	name = "Intef" 
+	dynasty = 2500003 #Sa-Sobekemsaf
+	culture = egyptian
+	religion = maat
+	father = 2500211
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2170.1.1 = { birth = yes }
+	2199.1.1 = { death = yes }
+}
+
+2500210 = { #Intef V, King of Upper Egypt
+	name = "Intef" 
+	dynasty = 2500003 #Sa-Sobekemsaf
+	culture = egyptian
+	religion = maat
+	father = 2500211
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2165.1.1 = { birth = yes }
+	2195.1.1 = { death = yes }
+}
+
+2500211 = { #Sobekemsaf II, King of Upper Egypt
+	name = "Sobekemsaf" 
+	dynasty = 2500003 #Sa-Sobekemsaf
+	culture = egyptian
+	religion = maat
+	father = 2500212
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2145.1.1 = { birth = yes }
+	2188.1.1 = { death = yes }
+}
+
+2500212 = { #Sobekemsaf I, King of Upper Egypt
+	name = "Sobekemsaf" 
+	dynasty = 2500003 #Sa-Sobekemsaf
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2125.1.1 = { birth = yes }
+	2193.1.1 = { death = yes }
+}
+
+2500213 = { #Rahotep, King of Upper Egypt
+	name = "Rahotep" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2120.1.1 = { birth = yes }
+	2185.1.1 = { death = yes }
+}
+
+#16th Dynasty (2500300-2500399)
+2500300 = { #Senusret IV, King of Upper Egypt
+	name = "Senusret" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2130.1.1 = { birth = yes }
+	2179.1.1 = { death = yes }
+}
+
+2500301 = { #Menuhotep VI, King of Upper Egypt
+	name = "Senusret" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2140.1.1 = { birth = yes }
+	2178.1.1 = { death = yes }
+}
+
+2500302 = { #Montemsaf, King of Upper Egypt
+	name = "Montemsaf" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2135.1.1 = { birth = yes }
+	2177.1.1 = { death = yes }
+}
+
+2500303 = { #Dedumose II, King of Upper Egypt
+	name = "Dedumose" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2120.1.1 = { birth = yes }
+	2176.1.1 = { death = yes }
+}
+
+2500304 = { #Dedumose I, King of Upper Egypt
+	name = "Dedumose" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2125.1.1 = { birth = yes }
+	2175.1.1 = { death = yes }
+}
+
+2500305 = { #Shedwaset, King of Upper Egypt
+	name = "Shedwaset" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2123.1.1 = { birth = yes }
+	2173.1.1 = { death = yes }
+}
+
+2500306 = { #Bebiankh, King of Upper Egypt
+	name = "Bebiankh" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2120.1.1 = { birth = yes }
+	2172.1.1 = { death = yes }
+}
+
+2500307 = { #Semenre, King of Upper Egypt
+	name = "Semenre" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2125.1.1 = { birth = yes }
+	2161.1.1 = { death = yes }
+}
+
+2500308 = { #Nebiriau II, King of Upper Egypt
+	name = "Nebiriau" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2120.1.1 = { birth = yes }
+	2160.1.1 = { death = yes }
+}
+
+2500309 = { #Nebiriau I, King of Upper Egypt
+	name = "Nebiriau" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2110.1.1 = { birth = yes }
+	2159.1.1 = { death = yes }
+}
+
+2500310 = { #Mentuhotepi, King of Upper Egypt
+	name = "Mentuhotepi" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2080.1.1 = { birth = yes }
+	2134.1.1 = { death = yes }
+}
+
+2500311 = { #Neferhotep III, King of Upper Egypt
+	name = "Neferhotep" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2090.1.1 = { birth = yes }
+	2133.1.1 = { death = yes }
+}
+
+2500312 = { #Sobekhotep VIII, King of Upper Egypt
+	name = "Sobekhotep" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2086.1.1 = { birth = yes }
+	2132.1.1 = { death = yes }
+}
+
+2500313 = { #Djehuti, King of Upper Egypt
+	name = "Djehuti" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2070.1.1 = { birth = yes }
+	2116.1.1 = { death = yes }
+}
+
+#Abydos Dynasty (2500400-2500499)
+2500400 = { #Wepwawetemsaf, King of Abydos
+	name = "Wepwawetemsaf" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2121.1.1 = { birth = yes }
+	2161.1.1 = { death = yes }
+}
+
+2500401 = { #Pantjeny, King of Abydos
+	name = "Pantjeny" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2072.1.1 = { birth = yes }
+	2141.1.1 = { death = yes }
+}
+
+2500402 = { #Snaaib, King of Abydos
+	name = "Snaaib" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2070.1.1 = { birth = yes }
+	2112.1.1 = { death = yes }
+}
+
+2500403 = { #Senebkay, King of Abydos
+	name = "Senebkay" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2060.1.1 = { birth = yes }
+	2111.1.1 = { death = yes }
+}
+
+#15th Dynasty (2500500-2500599)
+2500500 = { #Khamudi, King of Lower Egypt
+	name = "Khamudi" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2176.1.1 = { birth = yes }
+	2229.1.1 = { death = yes }
+}
+
+2500501 = { #Apepi, King of Lower Egypt
+	name = "Apepi" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2153.1.1 = { birth = yes }
+	2218.1.1 = { death = yes }
+}
+
+2500502 = { #Khyan, King of Lower Egypt
+	name = "Khyan" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2133.1.1 = { birth = yes }
+	2183.1.1 = { death = yes }
+}
+
+2500503 = { #Sakir-Har, King of Lower Egypt
+	name = "Sakir-Har" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2100.1.1 = { birth = yes }
+	2153.1.1 = { death = yes }
+}
+
+2500504 = { #Aper-Anat, King of Lower Egypt
+	name = "Aper-Anat" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2080.1.1 = { birth = yes }
+	2138.1.1 = { death = yes }
+}
+
+2500505 = { #Semqen, King of Lower Egypt
+	name = "Semqen" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2070.1.1 = { birth = yes }
+	2123.1.1 = { death = yes }
+}
+
+2500506 = { #Salitis, King of Lower Egypt
+	name = "Salitis" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2057.1.1 = { birth = yes }
+	2112.1.1 = { death = yes }
+}
+
+#14th Dynasty (2500600-2500699)
+2500600 = { #Apepi, King of Lower Egypt
+	name = "Apepi" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2060.1.1 = { birth = yes }
+	2111.1.1 = { death = yes }
+}
+
+#~8 lost kings and ~14 years missing
+
+2500601 = { #Anati Djedkare, King of Lower Egypt
+	name = "Anati Djedkare" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2020.1.1 = { birth = yes }
+	2097.1.1 = { death = yes }
+}
+
+#~1 lost king and ~1 year missing
+
+2500602 = { #Akare, King of Lower Egypt
+	name = "Akare" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2045.1.1 = { birth = yes }
+	2095.1.1 = { death = yes }
+}
+
+2500603 = { #Khakare, King of Lower Egypt
+	name = "Khakare" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2060.1.1 = { birth = yes }
+	2094.1.1 = { death = yes }
+}
+
+#~1 lost king and ~1 year missing
+
+2500604 = { #Neferibre, King of Lower Egypt
+	name = "Neferibre" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2055.1.1 = { birth = yes }
+	2092.1.1 = { death = yes }
+}
+
+2500605 = { #Kakemure, King of Lower Egypt
+	name = "Kakemure" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2050.1.1 = { birth = yes }
+	2091.1.1 = { death = yes }
+}
+
+#~2 lost kings and ~2 years missing
+
+2500606 = { #Sankhibre II, King of Lower Egypt
+	name = "Sankhibre" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2040.1.1 = { birth = yes }
+	2088.1.1 = { death = yes }
+}
+
+2500607 = { #Djedkherewre, King of Lower Egypt
+	name = "Djedkherewre" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2047.1.1 = { birth = yes }
+	2087.1.1 = { death = yes }
+}
+
+2500608 = { #Sekheperenre, King of Lower Egypt
+	name = "Sekheperenre" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2030.1.1 = { birth = yes }
+	2086.3.1 = { death = yes }
+}
+
+#~2 lost kings and ~11 year missing
+
+2500609 = { #Nebsenre, King of Lower Egypt
+	name = "Nebsenre" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2025.1.1 = { birth = yes }
+	2074.1.1 = { death = yes }
+}
+
+2500610 = { #Heribre, King of Lower Egypt
+	name = "Heribre" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2030.1.1 = { birth = yes }
+	2073.1.1 = { death = yes }
+}
+
+2500611 = { #Awibre II, King of Lower Egypt
+	name = "Awibre" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2031.1.1 = { birth = yes }
+	2072.1.1 = { death = yes }
+}
+
+#~3 lost kings and ~3 year missing
+
+2500612 = { #Webenre, King of Lower Egypt
+	name = "Webenre" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2028.1.1 = { birth = yes }
+	2068.1.1 = { death = yes }
+}
+
+2500613 = { #Nebdjefare, King of Lower Egypt
+	name = "Nebdjefare" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2028.1.1 = { birth = yes }
+	2067.1.1 = { death = yes }
+}
+
+2500614 = { #Sewadjkare III, King of Lower Egypt
+	name = "Sewadjkare" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2020.1.1 = { birth = yes }
+	2063.1.1 = { death = yes }
+}
+
+2500615 = { #Merdjefare, King of Lower Egypt
+	name = "Merdjefare" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2020.1.1 = { birth = yes }
+	2062.1.1 = { death = yes }
+}
+
+2500616 = { #Sehebre, King of Lower Egypt
+	name = "Sehebre" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2010.1.1 = { birth = yes }
+	2061.1.1 = { death = yes }
+}
+
+2500617 = { #Nebefawre, King of Lower Egypt
+	name = "Nebefawre" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2015.1.1 = { birth = yes }
+	2058.1.1 = { death = yes }
+}
+
+2500618 = { #Khakherewre, King of Lower Egypt
+	name = "Khakherewre" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2005.1.1 = { birth = yes }
+	2057.1.1 = { death = yes }
+}
+
+2500619 = { #Nehesy, King of Lower Egypt
+	name = "Nehesy" 
+	culture = nubian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2000.1.1 = { birth = yes }
+	2056.6.1 = { death = yes }
+}
+
+2500620 = { #Sheshi, King of Lower Egypt
+	name = "Sheshi" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2000.1.1 = { birth = yes }
+	2056.1.1 = { death = yes }
+}
+
+2500621 = { #Ammu, King of Lower Egypt
+	name = "Ammu" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1960.1.1 = { birth = yes }
+	2016.1.1 = { death = yes }
+}
+
+2500622 = { #Qareh, King of Lower Egypt
+	name = "Qareh" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1950.1.1 = { birth = yes }
+	2001.1.1 = { death = yes }
+}
+
+2500623 = { #Ya'ammu, King of Lower Egypt
+	name = "Ya'ammu" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1945.1.1 = { birth = yes }
+	1991.1.1 = { death = yes }
+}
+
+2500624 = { #Yakbim, King of Lower Egypt
+	name = "Yakbim" 
+	culture = canaanite
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1930.1.1 = { birth = yes }
+	1981.1.1 = { death = yes }
+}
+
+#13th Dynasty (2500700-2500799)
+2500700 = { #Senebmiu, Pharaoh
+	name = "Senebmiu" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2070.1.1 = { birth = yes }
+	2111.1.1 = { death = yes }
+}
+
+#~1 lost king and ~1 year missing
+
+2500701 = { #Sankhptahi, Pharaoh
+	name = "Sankhptahi" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2060.1.1 = { birth = yes }
+	2109.1.1 = { death = yes }
+}
+
+#~5 lost kings and ~3 years missing
+
+2500702 = { #Mentuhotep V, Pharaoh
+	name = "Mentuhotep" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2056.1.1 = { birth = yes }
+	2106.1.1 = { death = yes }
+}
+
+#~1 lost king and ~1 year missing
+
+2500703 = { #Merkare, Pharaoh
+	name = "Merkare" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2050.1.1 = { birth = yes }
+	2104.1.1 = { death = yes }
+}
+
+2500704 = { #Merkheperre, Pharaoh
+	name = "Merkheperre" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2060.1.1 = { birth = yes }
+	2103.1.1 = { death = yes }
+}
+
+2500705 = { #Ini II, Pharaoh
+	name = "Ini" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2060.1.1 = { birth = yes }
+	2102.1.1 = { death = yes }
+}
+
+#~7 lost kings and ~1.5 years missing
+
+2500706 = { #Sobekhotep VII, Pharaoh
+	name = "Sobekhotep" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2050.1.1 = { birth = yes }
+	2099.6.1 = { death = yes }
+}
+
+2500707 = { #Hori, Pharaoh
+	name = "Hori" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2040.1.1 = { birth = yes }
+	2097.1.1 = { death = yes }
+}
+
+2500708 = { #Ined, Pharaoh
+	name = "Ined" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2030.1.1 = { birth = yes }
+	2092.1.1 = { death = yes }
+}
+
+2500709 = { #Sewadjtu, Pharaoh
+	name = "Sewadjtu" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2030.1.1 = { birth = yes }
+	2089.1.1 = { death = yes }
+}
+
+2500710 = { #Ini I, Pharaoh
+	name = "Ini" 
+	culture = egyptian
+	religion = maat
+	father = 2500712
+	mother = 2500711
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2040.1.1 = { birth = yes }
+	2086.1.1 = { death = yes }
+}
+
+2500711 = { #Ineni, Wife of Ay I, Mother of Ini I
+	name = "Ineni" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	2020.1.1 = { birth = yes }
+	2080.1.1 = { death = yes }
+}
+
+2500712 = { #Ay I, Pharaoh
+	name = "Ay" 
+	dynasty = 2500004 #Sa-Ay
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2020.1.1 = { birth = yes }
+	2040.1.1 = {
+		add_spouse = 2500711
+	}
+	2084.1.1 = { death = yes }
+}
+
+2500713 = { #Ibiau, Pharaoh
+	name = "Ibiau" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	2010.1.1 = { birth = yes }
+	2060.1.1 = { death = yes }
+}
+
+2500714 = { #Sobekhotep VI, Pharaoh
+	name = "Sobekhotep"
+	dynasty = 2500005 #Sa-Haankhef
+	culture = egyptian
+	religion = maat
+	father = 2500719
+	mother = 2500718
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1985.1.1 = { birth = yes }
+	2049.1.1 = { death = yes }
+}
+
+2500716 = { #Sobekhotep V, Pharaoh
+	name = "Sobekhotep"
+	dynasty = 2500005 #Sa-Haankhef
+	culture = egyptian
+	religion = maat
+	father = 2500719
+	mother = 2500717
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1980.1.1 = { birth = yes }
+	2044.1.1 = { death = yes }
+}
+
+2500717 = { #Nubhotepti, Wife of Haankhef, Mother of Sobekhotep V
+	name = "Nubhotepti"
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1960.1.1 = { birth = yes }
+	2020.1.1 = { death = yes }
+}
+
+2500718 = { #Tjan, Wife of Sobekhotep IV, Mother of Sobekhotep VI
+	name = "Tjan"
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1960.1.1 = { birth = yes }
+	2020.1.1 = { death = yes }
+}
+
+2500719 = { #Sobekhotep IV, Pharaoh
+	name = "Sobekhotep"
+	dynasty = 2500005 #Sa-Haankhef
+	culture = egyptian
+	religion = maat
+	father = 2500722
+	mother = 2500721
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1960.1.1 = { birth = yes }
+	1980.1.1 = {
+		add_spouse = 2500717
+	}
+	1985.1.1 = {
+		add_spouse = 2500718
+	}
+	2031.1.1 = { death = yes }
+}
+
+2500720 = { #Neferhotep I, Pharaoh
+	name = "Neferhotep"
+	dynasty = 2500005 #Sa-Haankhef
+	culture = egyptian
+	religion = maat
+	father = 2500722
+	mother = 2500721
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1985.1.1 = { birth = yes }
+	2021.1.1 = { death = yes }
+}
+
+2500721 = { #Kemi, Wife of Haankhef, Father of Sobekhotep IV
+	name = "Kemi"
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1935.1.1 = { birth = yes }
+	1995.1.1 = { death = yes }
+}
+
+2500722 = { #Haankhef, Father of Sobekhotep IV
+	name = "Haankhef"
+	dynasty = 2500005 #Sa-Haankhef
+	culture = egyptian
+	religion = maat
+	disallow_random_traits = yes
+	1935.1.1 = { birth = yes }
+	1955.1.1 = {
+		add_spouse = 2500721
+	}
+	1995.1.1 = { death = yes }
+}
+
+2500723 = { #Sobekhotep III, Pharaoh
+	name = "Sobekhotep"
+	dynasty = 2500006 #Sa-Mentuhotep
+	culture = egyptian
+	religion = maat
+	father = 2500725
+	mother = 2500724
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1980.1.1 = { birth = yes }
+	2010.1.1 = { death = yes }
+}
+
+2500724 = { #Iuhetibu, Wife of Mentuhotep, Father of Sobekhotep III
+	name = "Iuhetibu"
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1960.1.1 = { birth = yes }
+	2020.1.1 = { death = yes }
+}
+
+2500725 = { #Mentuhotep, Father of Sobekhotep III
+	name = "Mentuhotep"
+	dynasty = 2500006 #Sa-Mentuhotep
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1960.1.1 = { birth = yes }
+	1980.1.1 = {
+		add_spouse = 2500724
+	}
+	2020.1.1 = { death = yes }
+}
+
+2500726 = { #Seth Meribre, Pharaoh
+	name = "Seth Meribre"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1960.1.1 = { birth = yes }
+	2006.1.1 = { death = yes }
+}
+
+2500727 = { #Intef IV, Pharaoh
+	name = "Intef"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1955.1.1 = { birth = yes }
+	2005.1.1 = { death = yes }
+}
+
+2500728 = { #Imyremeshaw, Pharaoh
+	name = "Imyremeshaw"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1950.1.1 = { birth = yes }
+	2004.1.1 = { death = yes }
+}
+
+2500729 = { #Khendjer, Pharaoh
+	name = "Khendjer"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1940.1.1 = { birth = yes }
+	1999.1.1 = { death = yes }
+}
+
+2500730 = { #Wegaf, Pharaoh
+	name = "Wegaf"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1940.1.1 = { birth = yes }
+	1995.1.1 = { death = yes }
+}
+
+2500731 = { #Sedjefakare, Pharaoh
+	name = "Sedjefakare"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1945.1.1 = { birth = yes }
+	1994.1.1 = { death = yes }
+}
+
+2500732 = { #Djedkheperu, Pharaoh
+	name = "Djedkheperu"
+	culture = egyptian
+	religion = maat
+	father = 2500735
+	mother = 2500734
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1940.1.1 = { birth = yes }
+	1991.1.1 = { death = yes }
+}
+
+2500733 = { #Khabau, Pharaoh
+	name = "Khabau"
+	culture = egyptian
+	religion = maat
+	father = 2500735
+	mother = 2500734
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1935.1.1 = { birth = yes }
+	1989.1.1 = { death = yes }
+}
+
+2500734 = { #Nubhetepti, Wife of Hor I, Mother of Khabau and Djedkheperu
+	name = "Nubhetepti"
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1915.1.1 = { birth = yes }
+	1975.1.1 = { death = yes }
+}
+
+2500735 = { #Hor I, Pharaoh
+	name = "Hor"
+	dynasty = 2500007 #Sa-Hor
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1915.1.1 = { birth = yes }
+	1935.1.1 = {
+		add_spouse = 2500734
+	}
+	1986.1.1 = { death = yes }
+}
+
+2500736 = { #Hor I, Pharaoh
+	name = "Hor"
+	dynasty = 2500007 #Sa-Hor
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1915.1.1 = { birth = yes }
+	1935.1.1 = {
+		add_spouse = 2500734
+	}
+	1986.1.1 = { death = yes }
+}
+
+2500737 = { #Renseneb, Pharaoh
+	name = "Renseneb"
+	dynasty = 2500008 #Sa-Amenemhat
+	culture = egyptian
+	religion = maat
+	father = 2500743
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1960.1.1 = { birth = yes }
+	1984.5.1 = { death = yes }
+}
+
+2500738 = { #Sobekhotep II, Pharaoh
+	name = "Sobekhotep"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1930.1.1 = { birth = yes }
+	1984.1.1 = { death = yes }
+}
+
+2500739 = { #Nedjemibre, Pharaoh
+	name = "Nedjemibre"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1935.1.1 = { birth = yes }
+	1981.8.1 = { death = yes }
+}
+
+2500740 = { #Sewadjkare I, Pharaoh
+	name = "Sewadjkare"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1945.1.1 = { birth = yes }
+	1981.1.1 = { death = yes }
+}
+
+2500741 = { #Sehetepibre, Pharaoh
+	name = "Sehetepibre"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1940.1.1 = { birth = yes }
+	1980.1.1 = { death = yes }
+}
+
+2500742 = { #Nebnuni, Pharaoh
+	name = "Nebnuni"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1930.1.1 = { birth = yes }
+	1978.1.1 = { death = yes }
+}
+
+2500743 = { #Amenemhat VI, Pharaoh
+	name = "Amenemhat"
+	dynasty = 2500008 #Sa-Amenemhat
+	culture = egyptian
+	religion = maat
+	father = 2500747
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1930.1.1 = { birth = yes }
+	1976.1.1 = { death = yes }
+}
+
+2500744 = { #Iufni, Pharaoh
+	name = "Iufni"
+	dynasty = 2500008 #Sa-Amenemhat
+	culture = egyptian
+	religion = maat
+	father = 2500746
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1951.1.1 = { birth = yes }
+	1973.1.1 = { death = yes }
+}
+
+2500745 = { #Hotepibre, Pharaoh
+	name = "Hotepibre"
+	dynasty = 2500008 #Sa-Amenemhat
+	culture = egyptian
+	religion = maat
+	father = 2500746
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1949.1.1 = { birth = yes }
+	1971.1.1 = { death = yes }
+}
+
+2500746 = { #Ameny Qemau, Pharaoh
+	name = "Ameny Qemau"
+	dynasty = 2500008 #Sa-Amenemhat
+	culture = egyptian
+	religion = maat
+	father = 2500747
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1929.1.1 = { birth = yes }
+	1970.1.1 = { death = yes }
+}
+
+2500747 = { #Amenemhat V, Pharaoh
+	name = "Amenemhat"
+	dynasty = 2500008 #Sa-Amenemhat
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1905.1.1 = { birth = yes }
+	1968.1.1 = { death = yes }
+}
+
+2500748 = { #Nerikare, Pharaoh
+	name = "Nerikare"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1920.1.1 = { birth = yes }
+	1965.6.1 = { death = yes }
+}
+
+2500749 = { #Amenemhat Sonbef, Pharaoh
+	name = "Amenemhat Sonbef"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1910.1.1 = { birth = yes }
+	1965.1.1 = { death = yes }
+}
+
+2500750 = { #Sobekhotep I, Pharaoh
+	name = "Sobekhotep"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1905.1.1 = { birth = yes }
+	1961.1.1 = { death = yes }
+}
+
+#12th Dynasty (2500800-2500899)
+2500800 = { #Sobekneferu, Pharaoh
+	name = "Sobekneferu" 
+	dynasty = 2500009 #Sa-Senusret
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2500803
+	mother = 2500801
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1911.1.1 = { birth = yes }
+	1959.1.1 = { death = yes }
+}
+
+2500801 = { #Hetepti, Wife of Amenemhat III, Mother of Sobekneferu
+	name = "Hetepti" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1890.1.1 = { birth = yes }
+	1950.1.1 = { death = yes }
+}
+
+2500802 = { #Amenemhat IV, Pharaoh
+	name = "Amenemhat" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1905.1.1 = { birth = yes }
+	1956.1.1 = { death = yes }
+}
+
+2500803 = { #Amenemhat III, Pharaoh
+	name = "Amenemhat" 
+	dynasty = 2500009 #Sa-Senusret
+	culture = egyptian
+	religion = maat
+	father = 2500804
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1880.1.1 = { birth = yes }
+	1910.1.1 = {
+		add_spouse = 2500801
+	}
+	1948.1.1 = { death = yes }
+}
+
+2500804 = { #Senusret III, Pharaoh
+	name = "Senusret" 
+	dynasty = 2500009 #Sa-Senusret
+	culture = egyptian
+	religion = maat
+	father = 2500806
+	mother = 2500805
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1860.1.1 = { birth = yes }
+	1902.1.1 = { death = yes }
+}
+
+2500805 = { #Khnemetneferhedjet, Wife of Senusret II, Mother of Senusret III
+	name = "Khnemetneferhedjet" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1840.1.1 = { birth = yes }
+	1900.1.1 = { death = yes }
+}
+
+2500806 = { #Senusret II, Pharaoh
+	name = "Senusret" 
+	dynasty = 2500009 #Sa-Senusret
+	culture = egyptian
+	religion = maat
+	father = 2500807
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1840.1.1 = { birth = yes }
+	1860.1.1 = {
+		add_spouse = 2500805
+	}
+	1883.1.1 = { death = yes }
+}
+
+2500807 = { #Amenemhat II, Pharaoh
+	name = "Amenemhat" 
+	dynasty = 2500009 #Sa-Senusret
+	culture = egyptian
+	religion = maat
+	father = 2500809
+	mother = 2500808
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1810.1.1 = { birth = yes }
+	1876.1.1 = { death = yes }
+}
+
+2500808 = { #Neferu, Wife of Senusret I, Mother of Amenemhat II
+	name = "Neferu" 
+	dynasty = 2500009 #Sa-Senusret
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2500811
+	mother = 2500810
+	disallow_random_traits = yes
+	1790.1.1 = { birth = yes }
+	1860.1.1 = { death = yes }
+}
+
+2500809 = { #Senusret I, Pharaoh
+	name = "Senusret" 
+	dynasty = 2500009 #Sa-Senusret
+	culture = egyptian
+	religion = maat
+	father = 2500811
+	mother = 2500810
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1780.1.1 = { birth = yes }
+	1810.1.1 = {
+		add_spouse = 2500808
+	}
+	1844.1.1 = { death = yes }
+}
+
+2500810 = { #Neferitatjenen, Wife of Amenemhat I, Mother of Senusret I and Neferu
+	name = "Neferitatjenen" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1760.1.1 = { birth = yes }
+	1820.1.1 = { death = yes }
+}
+
+2500811 = { #Amenemhat I, Pharaoh
+	name = "Amenemhat" 
+	dynasty = 2500009 #Sa-Senusret
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1760.1.1 = { birth = yes }
+	1780.1.1 = {
+		add_spouse = 2500810
+	}
+	1809.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+2500812 = { #Neferet, Wife of Senusret
+	name = "Neferet" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1740.1.1 = { birth = yes }
+	1800.1.1 = { death = yes }
+}
+
+2500813 = { #Senusret, Father = Amenemhat I
+	name = "Senusret" 
+	dynasty = 2500009 #Sa-Senusret
+	culture = egyptian
+	religion = maat
+	disallow_random_traits = yes
+	1740.1.1 = { birth = yes }
+	1760.1.1 = {
+		add_spouse = 2500812
+	}
+	1800.1.1 = { death = yes }
+}
+
+#11th Dynasty (2500900-2500999)
+2500900 = { #Mentuhotep IV, Pharaoh
+	name = "Mentuhotep" 
+	dynasty = 2500010 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500902
+	mother = 2500901
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1750.1.1 = { birth = yes }
+	1780.1.1 = { death = yes }
+}
+
+2500901 = { #Imi, Wife of Mentuhotep III, Mother of Mentuhotep IV
+	name = "Imi" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1730.1.1 = { birth = yes }
+	1790.1.1 = { death = yes }
+}
+
+2500902 = { #Mentuhotep III, Pharaoh
+	name = "Mentuhotep" 
+	dynasty = 2500010 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500904
+	mother = 2500903
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1730.1.1 = { birth = yes }
+	1750.1.1 = {
+		add_spouse = 2500901
+	}
+	1773.1.1 = { death = yes }
+}
+
+2500903 = { #Tem, Wife of Mentuhotep II, Mother of Mentuhotep III
+	name = "Tem" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1710.1.1 = { birth = yes }
+	1770.1.1 = { death = yes }
+}
+
+2500904 = { #Mentuhotep II, Pharaoh
+	name = "Mentuhotep" 
+	dynasty = 2500010 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500906
+	mother = 2500905
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1690.1.1 = { birth = yes }
+	1730.1.1 = {
+		add_spouse = 2500903
+	}
+	1761.1.1 = { death = yes }
+}
+
+2500905 = { #Iah, Wife of Intef III, Mother of Mentuhotep II
+	name = "Iah" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1670.1.1 = { birth = yes }
+	1730.1.1 = { death = yes }
+}
+
+2500906 = { #Intef III, King of Upper Egypt
+	name = "Intef" 
+	dynasty = 2500010 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500907
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1670.1.1 = { birth = yes }
+	1690.1.1 = {
+		add_spouse = 2500905
+	}
+	1710.1.1 = { death = yes }
+}
+
+2500907 = { #Intef II, King of Upper Egypt
+	name = "Intef" 
+	dynasty = 2500010 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500910
+	mother = 2500909
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1630.1.1 = { birth = yes }
+	1702.1.1 = { death = yes }
+}
+
+2500908 = { #Intef I, King of Upper Egypt
+	name = "Intef" 
+	dynasty = 2500010 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500910
+	mother = 2500909
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1620.1.1 = { birth = yes }
+	1653.1.1 = { death = yes }
+}
+
+2500909 = { #Neferu, Wife of Mentuhotep I, Mother of Intef I and Intef II
+	name = "Neferu" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1600.1.1 = { birth = yes }
+	1660.1.1 = { death = yes }
+}
+
+2500910 = { #Mentuhotep I, Nomarch of Waset
+	name = "Mentuhotep" 
+	dynasty = 2500010 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	father = 2500911
+	disallow_random_traits = yes
+	1600.1.1 = { birth = yes }
+	1620.1.1 = {
+		add_spouse = 2500909
+	}
+	1641.1.1 = { death = yes }
+}
+
+2500911 = { #Intef the Elder, Nomarch of Waset
+	name = "Intef" 
+	dynasty = 2500010 #Sa-Intef
+	culture = egyptian
+	religion = maat
+	disallow_random_traits = yes
+	1570.1.1 = { birth = yes }
+	1630.1.1 = { death = yes }
+}
+
+#10th Dynasty (2501000-2501099)
+2501000 = { #Merykare, King of Lower Egypt
+	name = "Merykare" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1670.1.1 = { birth = yes }
+	1731.1.1 = { death = yes }
+}
+
+2501001 = { #Khety III, King of Lower Egypt
+	name = "Khety" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1655.1.1 = { birth = yes }
+	1701.1.1 = { death = yes }
+}
+
+2501002 = { #Neferkare VIII, King of Lower Egypt
+	name = "Neferkare" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1640.1.1 = { birth = yes }
+	1681.1.1 = { death = yes }
+}
+
+2501003 = { #Meryhator, King of Lower Egypt
+	name = "Meryhator" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1610.1.1 = { birth = yes }
+	1661.1.1 = { death = yes }
+}
+
+#9th Dynasty (2501100-2501199)
+
+#~8 lost kings and ~16 years missing
+
+2501100 = { #Setut, King of Lower Egypt
+	name = "Setut" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1560.1.1 = { birth = yes }
+	1615.1.1 = { death = yes }
+}
+
+2501101 = { #Khety II, King of Lower Egypt
+	name = "Khety" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1570.1.1 = { birth = yes }
+	1613.1.1 = { death = yes }
+}
+
+2501102 = { #Neferkare VII, King of Lower Egypt
+	name = "Neferkare" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1575.1.1 = { birth = yes }
+	1611.1.1 = { death = yes }
+}
+
+#~1 lost king and ~2 years missing
+
+2501103 = { #Khety I, King of Lower Egypt
+	name = "Khety" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1560.1.1 = { birth = yes }
+	1607.1.1 = { death = yes }
+}
+
+#7th/8th Dynasty (2501200-2501299)
+2501200 = { #Neferirkare, King of Lower Egypt
+	name = "Neferirkare" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1570.1.1 = { birth = yes }
+	1601.1.1 = { death = yes }
+}
+
+2501201 = { #Khuwihapi, King of Lower Egypt
+	name = "Khuwihapi" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1565.1.1 = { birth = yes }
+	1600.1.1 = { death = yes }
+}
+
+2501202 = { #Neferkaure, King of Lower Egypt
+	name = "Neferkaure" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1560.1.1 = { birth = yes }
+	1598.1.1 = { death = yes }
+}
+
+2501203 = { #Ibi, King of Lower Egypt
+	name = "Ibi" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1550.1.1 = { birth = yes }
+	1594.1.1 = { death = yes }
+}
+
+2501204 = { #Anu, King of Lower Egypt
+	name = "Anu" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1540.1.1 = { birth = yes }
+	1592.1.1 = { death = yes }
+}
+
+2501205 = { #Neferkare Pepiseneb, King of Lower Egypt
+	name = "Neferkare Pepiseneb" 
+	culture = egyptian
+	religion = maat
+	father = 2501214
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1560.1.1 = { birth = yes }
+	1590.1.1 = { death = yes }
+}
+
+2501206 = { #Neferkahor, King of Lower Egypt
+	name = "Neferkahor" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1530.1.1 = { birth = yes }
+	1589.1.1 = { death = yes }
+}
+
+2501207 = { #Tereru, King of Lower Egypt
+	name = "Tereru" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1540.1.1 = { birth = yes }
+	1588.1.1 = { death = yes }
+}
+
+2501208 = { #Nikare, King of Lower Egypt
+	name = "Nikare" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1530.1.1 = { birth = yes }
+	1587.1.1 = { death = yes }
+}
+
+2501209 = { #Neferkamin, King of Lower Egypt
+	name = "Neferkamin" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1530.1.1 = { birth = yes }
+	1586.1.1 = { death = yes }
+}
+
+2501210 = { #Merenhor, King of Lower Egypt
+	name = "Merenhor" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1535.1.1 = { birth = yes }
+	1585.1.1 = { death = yes }
+}
+
+2501211 = { #Khendu, King of Lower Egypt
+	name = "Khendu" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1540.1.1 = { birth = yes }
+	1584.1.1 = { death = yes }
+}
+
+2501212 = { #Shemai, King of Lower Egypt
+	name = "Shemai" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1530.1.1 = { birth = yes }
+	1583.1.1 = { death = yes }
+}
+
+2501213 = { #Neby, King of Lower Egypt
+	name = "Neby" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1535.1.1 = { birth = yes }
+	1582.1.1 = { death = yes }
+}
+
+2501214 = { #Neferkare II, King of Lower Egypt
+	name = "Neferkare" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1540.1.1 = { birth = yes }
+	1581.6.1 = { death = yes }
+}
+
+2501215 = { #Menkare, King of Lower Egypt
+	name = "Menkare" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1560.1.1 = { birth = yes }
+	1581.1.1 = { death = yes }
+}
+
+#6th Dynasty (2501300-2501399)
+2501300 = { #Siptah I, Pharaoh
+	name = "Siptah" 
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1550.1.1 = { birth = yes }
+	1580.1.1 = { death = yes }
+}
+
+2501301 = { #Nemtyemsaf II, Pharaoh
+	name = "Nemtyemsaf" 
+	dynasty = 2500011 #Sa-Teti
+	culture = egyptian
+	religion = maat
+	father = 2501303
+	mother = 2501302
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1545.1.1 = { birth = yes }
+	1580.1.1 = { death = yes }
+}
+
+2501302 = { #Neith, Wife of Pepi II, Mother of Nemtyemsaf II
+	name = "Neith" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1525.1.1 = { birth = yes }
+	1585.1.1 = { death = yes }
+}
+
+2501303 = { #Pepi II, Pharaoh
+	name = "Pepi" 
+	dynasty = 2500011 #Sa-Teti
+	culture = egyptian
+	religion = maat
+	father = 2501305
+	mother = 2501304
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1477.1.1 = { birth = yes }
+	1545.1.1 = {
+		add_spouse = 2501302
+	}
+	1577.1.1 = { death = yes }
+}
+
+2501304 = { #Ankhesenpepi, Wife of Nemtyemsaf I, Mother of Pepi II
+	name = "Ankhesenpepi" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2501307
+	mother = 2501308
+	disallow_random_traits = yes
+	1457.1.1 = { birth = yes }
+	1517.1.1 = { death = yes }
+}
+
+2501305 = { #Nemtyemsaf I, Pharaoh
+	name = "Nemtyemsaf" 
+	dynasty = 2500011 #Sa-Teti
+	culture = egyptian
+	religion = maat
+	father = 2501309
+	mother = 2501306
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1440.1.1 = { birth = yes }
+	1477.1.1 = {
+		add_spouse = 2501304
+	}
+	1483.1.1 = { death = yes }
+}
+
+2501306 = { #Ankhesenpepi, Wife of Pepi I, Mother of Nemtyemsaf
+	name = "Ankhesenpepi" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	father = 2501307
+	mother = 2501308
+	disallow_random_traits = yes
+	1420.1.1 = { birth = yes }
+	1490.1.1 = { death = yes }
+}
+
+2501307 = { #Nebet, Wife of Khui
+	name = "Nebet" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1400.1.1 = { birth = yes }
+	1460.1.1 = { death = yes }
+}
+
+2501308 = { #Khui, Father of Ankhesenpepi and Ankhesenpepi
+	name = "Khui" 
+	culture = egyptian
+	religion = maat
+	disallow_random_traits = yes
+	1400.1.1 = { birth = yes }
+	1420.1.1 = {
+		add_spouse = 2501307
+	}
+	1460.1.1 = { death = yes }
+}
+
+2501309 = { #Pepi I, Pharaoh
+	name = "Pepi" 
+	dynasty = 2500011 #Sa-Teti
+	culture = egyptian
+	religion = maat
+	father = 2501312
+	mother = 2501311
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1420.1.1 = { birth = yes }
+	1440.1.1 = {
+		add_spouse = 2501306
+	}
+	1478.1.1 = { death = yes }
+}
+
+2501310 = { #Userkare, Pharaoh
+	name = "Userkare" 
+	dynasty = 2500011 #Sa-Teti
+	culture = egyptian
+	religion = maat
+	father = 2501312
+	mother = 2501311
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1405.1.1 = { birth = yes }
+	1429.1.1 = { death = yes }
+}
+
+2501311 = { #Iput, Wife of Teti, Mother of Userkare and Pepi I
+	name = "Iput" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1380.1.1 = { birth = yes }
+	1440.1.1 = { death = yes }
+}
+
+2501312 = { #Teti, Pharaoh
+	name = "Teti" 
+	dynasty = 2500011 #Sa-Teti
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1380.1.1 = { birth = yes }
+	1400.1.1 = {
+		add_spouse = 2501311
+	}
+	1428.1.1 = { death = yes }
+}
+
+#5th Dynasty (2501400-2501499)
+2501400 = { #Unis, Pharaoh
+	name = "Unis"
+	dynasty = 2500012 #Sa-Userkaf
+	culture = egyptian
+	religion = maat
+	father = 2501402
+	mother = 2501401
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1365.1.1 = { birth = yes }
+	1416.1.1 = { death = yes }
+}
+
+2501401 = { #Setibhor, Wife of Isesi, Mother of Unis
+	name = "Setibhor" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1345.1.1 = { birth = yes }
+	1406.1.1 = { death = yes }
+}
+
+2501402 = { #Isesi, Pharaoh
+	name = "Setibhor" 
+	dynasty = 2500012 #Sa-Userkaf
+	culture = egyptian
+	religion = maat
+	father = 2501403
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1321.1.1 = { birth = yes }
+	1365.1.1 = {
+		add_spouse = 2501401
+	}
+	1385.1.1 = { death = yes }
+}
+
+2501403 = { #Ikauhor, Pharaoh
+	name = "Ikauhor" 
+	dynasty = 2500012 #Sa-Userkaf
+	culture = egyptian
+	religion = maat
+	father = 2501405
+	mother = 2501404
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1300.1.1 = { birth = yes }
+	1341.1.1 = { death = yes }
+}
+
+2501404 = { #Khentkaus, Wife of Ini, Mother of Ikauhor
+	name = "Khentkaus" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1280.1.1 = { birth = yes }
+	1340.1.1 = { death = yes }
+}
+
+2501405 = { #Ini, Pharaoh
+	name = "Ini" 
+	dynasty = 2500012 #Sa-Userkaf
+	culture = egyptian
+	religion = maat
+	father = 2501409
+	mother = 2501408
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1278.1.1 = { birth = yes }
+	1300.1.1 = {
+		add_spouse = 2501404
+	}
+	1332.1.1 = { death = yes }
+}
+
+2501406 = { #Shepseskare, Pharaoh
+	name = "Shepseskare" 
+	dynasty = 2500012 #Sa-Userkaf
+	culture = egyptian
+	religion = maat
+	father = 2501409
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1276.1.1 = { birth = yes }
+	1298.1.1 = { death = yes }
+}
+
+2501407 = { #Neferefre, Pharaoh
+	name = "Neferefre" 
+	dynasty = 2500012 #Sa-Userkaf
+	culture = egyptian
+	religion = maat
+	father = 2501409
+	mother = 2501408
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1275.1.1 = { birth = yes }
+	1297.1.1 = { death = yes }
+}
+
+2501408 = { #Khentkaus, Wife of Kakai, Mother of Neferefre and Ini
+	name = "Khentkaus" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1255.1.1 = { birth = yes }
+	1315.1.1 = { death = yes }
+}
+
+2501409 = { #Kakai, Pharaoh
+	name = "Kakai" 
+	dynasty = 2500012 #Sa-Userkaf
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	father = 2501411
+	mother = 2501410
+	disallow_random_traits = yes
+	1255.1.1 = { birth = yes }
+	1275.1.1 = {
+		add_spouse = 2501408
+	}
+	1295.1.1 = { death = yes }
+}
+
+2501410 = { #Meretnebty, Wife of Sahure, Mother of Kakai
+	name = "Meretnebty" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1235.1.1 = { birth = yes }
+	1295.1.1 = { death = yes }
+}
+
+2501411 = { #Sahure, Pharaoh
+	name = "Sahure" 
+	dynasty = 2500012 #Sa-Userkaf
+	culture = egyptian
+	religion = maat
+	father = 2501413
+	mother = 2501412
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1230.1.1 = { birth = yes }
+	1255.1.1 = {
+		add_spouse = 2501410
+	}
+	1284.1.1 = { death = yes }
+}
+
+2501412 = { #Neferhetepes, Wife of Userkaf, Mother of Sahure
+	name = "Neferhetepes" 
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1210.1.1 = { birth = yes }
+	1270.1.1 = { death = yes }
+}
+
+2501413 = { #Userkaf, Pharaoh
+	name = "Userkaf" 
+	dynasty = 2500012 #Sa-Userkaf
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1210.1.1 = { birth = yes }
+	1230.1.1 = {
+		add_spouse = 2501412
+	}
+	1270.1.1 = { death = yes }
+}
+
+#4th Dynasty (2501500-2501599)
+2501500 = { #Shepseskaf, Pharaoh
+	name = "Shepseskaf"
+	dynasty = 2500013 #Sa-Sneferu
+	culture = egyptian
+	religion = maat
+	father = 2501501
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1235.1.1 = { birth = yes }
+	1265.1.1 = { death = yes }
+}
+
+2501501 = { #Menkaure, Pharaoh
+	name = "Menkaure"
+	dynasty = 2500013 #Sa-Sneferu
+	culture = egyptian
+	religion = maat
+	father = 2501503
+	mother = 2501502
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1210.1.1 = { birth = yes }
+	1258.1.1 = { death = yes }
+}
+
+2501502 = { #Khamerernebty, Wife of Khafre, Mother of Menkaure
+	name = "Khamerernebty"
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1190.1.1 = { birth = yes }
+	1260.1.1 = { death = yes }
+}
+
+2501503 = { #Khafre, Pharaoh
+	name = "Khafre"
+	dynasty = 2500013 #Sa-Sneferu
+	culture = egyptian
+	religion = maat
+	father = 2501506
+	mother = 2501504
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1175.1.1 = { birth = yes }
+	1210.1.1 = {
+		add_spouse = 2501502
+	}
+	1229.1.1 = { death = yes }
+}
+
+2501504 = { #Meritites, Wife of Khufu, Mother of Khafre
+	name = "Meritites"
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1150.1.1 = { birth = yes }
+	1220.1.1 = { death = yes }
+}
+
+2501505 = { #Djedefre, Pharaoh
+	name = "Djedefre"
+	dynasty = 2500013 #Sa-Sneferu
+	culture = egyptian
+	religion = maat
+	father = 2501506
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1170.1.1 = { birth = yes }
+	1195.1.1 = { death = yes }
+}
+
+2501506 = { #Khufu, Pharaoh
+	name = "Khufu"
+	dynasty = 2500013 #Sa-Sneferu
+	culture = egyptian
+	religion = maat
+	father = 2501508
+	mother = 2501507
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1150.1.1 = { birth = yes }
+	1180.1.1 = {
+		add_spouse = 2501504
+	}
+	1195.1.1 = { death = yes }
+}
+
+2501507 = { #Hetepheres, Wife of Sneferu
+	name = "Hetepheres"
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1130.1.1 = { birth = yes }
+	1190.1.1 = { death = yes }
+}
+
+2501508 = { #Sneferu, Pharaoh
+	name = "Sneferu"
+	dynasty = 2500013 #Sa-Sneferu
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1120.1.1 = { birth = yes }
+	1150.1.1 = {
+		add_spouse = 2501507
+	}
+	1195.1.1 = { death = yes }
+}
+
+#3rd Dynasty (2501600-2501699)
+2501600 = { #Huni, Pharaoh
+	name = "Huni"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1090.1.1 = { birth = yes }
+	1148.1.1 = { death = yes }
+}
+
+2501601 = { #Khaba, Pharaoh
+	name = "Khaba"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1080.1.1 = { birth = yes }
+	1124.1.1 = { death = yes }
+}
+
+2501602 = { #Nebka, Pharaoh
+	name = "Nebka"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1070.1.1 = { birth = yes }
+	1118.1.1 = { death = yes }
+}
+
+2501603 = { #Sekhemkhet, Pharaoh
+	name = "Sekhemkhet"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1060.1.1 = { birth = yes }
+	1110.1.1 = { death = yes }
+}
+
+2501604 = { #Djoser, Pharaoh
+	name = "Djoser"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	father = 2501700
+	mother = 2501701
+	disallow_random_traits = yes
+	1050.1.1 = { birth = yes }
+	1103.1.1 = { death = yes }
+}
+
+#2nd Dynasty (2501700-2501799)
+2501700 = { #Khasekhemwy, Pharaoh
+	name = "Khasekhemwy"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1030.1.1 = { birth = yes }
+	1050.1.1 = {
+		add_spouse = 2501701
+	}
+	1075.1.1 = { death = yes }
+}
+
+2501701 = { #Nimaethap, Wife of Khasekhemwy, Mother of Djoser
+	name = "Nimaethap"
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	1030.1.1 = { birth = yes }
+	1090.1.1 = { death = yes }
+}
+
+#1 king and 11 years missing
+
+2501702 = { #Neferkasokar, Pharaoh
+	name = "Neferkasokar"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	1000.1.1 = { birth = yes }
+	1046.1.1 = { death = yes }
+}
+
+2501703 = { #Neferkara, Pharaoh
+	name = "Neferkara"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	980.1.1 = { birth = yes }
+	1038.1.1 = { death = yes }
+}
+
+2501704 = { #Sekhemib-Perenmaat, Pharaoh
+	name = "Sekhemib-Perenmaat"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	970.1.1 = { birth = yes }
+	1013.1.1 = { death = yes }
+}
+
+2501705 = { #Seth-Peribsen, Pharaoh
+	name = "Seth-Peribsen"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	960.1.1 = { birth = yes }
+	1006.1.1 = { death = yes }
+}
+
+2501706 = { #Senedj, Pharaoh
+	name = "Senedj"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	920.1.1 = { birth = yes }
+	999.1.1 = { death = yes }
+}
+
+2501707 = { #Weneg-Nebty, Pharaoh
+	name = "Weneg-Nebty"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	900.1.1 = { birth = yes }
+	952.1.1 = { death = yes }
+}
+
+2501708 = { #Nynetjer, Pharaoh
+	name = "Nynetjer"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	870.1.1 = { birth = yes }
+	945.1.1 = { death = yes }
+}
+
+2501709 = { #Nebra, Pharaoh
+	name = "Nebra"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	850.1.1 = { birth = yes }
+	900.1.1 = { death = yes }
+}
+
+2501710 = { #Hotepsekhemwy, Pharaoh
+	name = "Hotepsekhemwy"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	830.1.1 = { birth = yes }
+	886.1.1 = { death = yes }
+}
+
+#1st Dynasty (2501800-2501899)
+2501800 = { #Horus-Ba, Pharaoh
+	name = "Horus-Ba"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	830.1.1 = { birth = yes }
+	871.1.1 = { death = yes }
+}
+
+2501801 = { #Sneferka, Pharaoh
+	name = "Sneferka"
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	800.1.1 = { birth = yes }
+	861.1.1 = { death = yes }
+}
+
+2501802 = { #Qa'a, Pharaoh
+	name = "Qa'a"
+	dynasty = 2500014 #Sa-Narmer
+	culture = egyptian
+	religion = maat
+	father = 2501803
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	780.1.1 = { birth = yes }
+	851.1.1 = { death = yes }
+}
+
+2501803 = { #Semerkhet, Pharaoh
+	name = "Semerkhet"
+	dynasty = 2500014 #Sa-Narmer
+	culture = egyptian
+	religion = maat
+	father = 2501805
+	mother = 2501804
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	770.1.1 = { birth = yes }
+	817.1.1 = { death = yes }
+}
+
+2501804 = { #Betrest, Wife of Anedjib, Mother of Semerkhet
+	name = "Betrest"
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	750.1.1 = { birth = yes }
+	810.1.1 = { death = yes }
+}
+
+2501805 = { #Anedjib, Pharaoh
+	name = "Anedjib"
+	dynasty = 2500014 #Sa-Narmer
+	culture = egyptian
+	religion = maat
+	father = 2501806
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	750.1.1 = { birth = yes }
+	770.1.1 = {
+		add_spouse = 2501804
+	}
+	808.6.1 = { death = yes }
+}
+
+2501806 = { #Den, Pharaoh
+	name = "Den"
+	dynasty = 2500014 #Sa-Narmer
+	culture = egyptian
+	religion = maat
+	father = 2501808
+	mother = 2501807
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	730.1.1 = { birth = yes }
+	798.1.1 = { death = yes }
+}
+
+2501807 = { #Merneith, Wife of Djet, Mother of Den
+	name = "Merneith"
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	710.1.1 = { birth = yes }
+	770.1.1 = { death = yes }
+}
+
+2501808 = { #Djet, Pharaoh
+	name = "Djet"
+	dynasty = 2500014 #Sa-Narmer
+	culture = egyptian
+	religion = maat
+	father = 2501809
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	710.1.1 = { birth = yes }
+	730.1.1 = {
+		add_spouse = 2501807
+	}
+	756.1.1 = { death = yes }
+}
+
+2501809 = { #Djer, Pharaoh
+	name = "Djer"
+	dynasty = 2500014 #Sa-Narmer
+	culture = egyptian
+	religion = maat
+	father = 2501811
+	mother = 2501810
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	670.1.1 = { birth = yes }
+	746.1.1 = { death = yes }
+}
+
+2501810 = { #Khenthap, Wife of Hor-Aha, Mother of Djer
+	name = "Khenthap"
+	culture = egyptian
+	religion = maat
+	female = yes
+	disallow_random_traits = yes
+	650.1.1 = { birth = yes }
+	710.1.1 = { death = yes }
+}
+
+2501811 = { #Hor-Aha, Pharaoh
+	name = "Hor-Aha"
+	dynasty = 2500014 #Sa-Narmer
+	culture = egyptian
+	religion = maat
+	father = 2501812
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	640.1.1 = { birth = yes }
+	670.1.1 = {
+		add_spouse = 2501810
+	}
+	692.1.1 = { death = yes }
+}
+
+2501812 = { #Narmer, Pharaoh
+	name = "Narmer"
+	dynasty = 2500014 #Sa-Narmer
+	culture = egyptian
+	religion = maat
+	trait = dead_egyptian_crown
+	disallow_random_traits = yes
+	620.1.1 = { birth = yes }
+	682.1.1 = { death = yes }
+}
+
+#1st Nome (2501900-2501999)
+2501900 = { #Menkauhor, Nomarch
+	name = "Menkauhor"
+	dynasty = 2501000 #Sa-Menkauhor
+	culture = egyptian
+	religion = maat
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+#2nd Nome (2502000-2502099)
+2502000 = { #Heqakheperre, Nomarch
+	name = "Heqakheperre"
+	dynasty = 2501001
+	culture = egyptian
+	religion = maat
+	2505.1.1 = { birth = yes }
+	2565.1.1 = { death = yes }
+}
+
+#3rd Nome (2502100-2502199)
+2502100 = { #Khnumhotep, Nomarch
+	name = "Khnumhotep"
+	dynasty = 2501002
+	culture = egyptian
+	religion = maat
+	2507.1.1 = { birth = yes }
+	2567.1.1 = { death = yes }
+}
+
+#4th Nome (2502200-2502299)
+2502200 = { #Nesbanebdjed, Nomarch
+	name = "Nesbanebdjed"
+	dynasty = 2501003
+	culture = egyptian
+	religion = maat
+	2495.1.1 = { birth = yes }
+	2555.1.1 = { death = yes }
+}
+
+#5th Nome (2502300-2502399)
+2502300 = { #Rashepses, Nomarch
+	name = "Rashepses"
+	dynasty = 2501004
+	culture = egyptian
+	religion = maat
+	2497.1.1 = { birth = yes }
+	2557.1.1 = { death = yes }
+}
+
+#6th Nome (2502400-2502499)
+2502400 = { #Huni, Nomarch
+	name = "Huni"
+	dynasty = 2501005
+	culture = egyptian
+	religion = maat
+	2490.1.1 = { birth = yes }
+	2550.1.1 = { death = yes }
+}
+
+#7th Nome (2502500-2502599)
+2502500 = { #Nerikare, Nomarch
+	name = "Nerikare"
+	dynasty = 2501006
+	culture = egyptian
+	religion = maat
+	2495.1.1 = { birth = yes }
+	2555.1.1 = { death = yes }
+}
+
+#8th Nome (2502600-2502699)
+2502600 = { #Djau, Nomarch
+	name = "Djau"
+	dynasty = 2501007
+	culture = egyptian
+	religion = maat
+	2496.1.1 = { birth = yes }
+	2556.1.1 = { death = yes }
+}
+
+#9th Nome (2502700-2502799)
+2502700 = { #Haremakhet, Nomarch
+	name = "Haremakhet"
+	dynasty = 2501008
+	culture = egyptian
+	religion = maat
+	2493.1.1 = { birth = yes }
+	2553.1.1 = { death = yes }
+}
+
+#10th Nome (2502800-2502899)
+2502800 = { #Imhotep, Nomarch
+	name = "Imhotep"
+	dynasty = 2501009
+	culture = egyptian
+	religion = maat
+	2494.1.1 = { birth = yes }
+	2554.1.1 = { death = yes }
+}
+
+#11th Nome (2502900-2502999)
+2502900 = { #Pantjeny, Nomarch
+	name = "Pantjeny"
+	dynasty = 2501010
+	culture = egyptian
+	religion = maat
+	2490.1.1 = { birth = yes }
+	2550.1.1 = { death = yes }
+}
+
+#12th Nome (2503000-2503099)
+2503000 = { #Semerkhet, Nomarch
+	name = "Semerkhet"
+	dynasty = 2501011
+	culture = egyptian
+	religion = maat
+	2501.1.1 = { birth = yes }
+	2561.1.1 = { death = yes }
+}
+
+#13th Nome (2503100-2503199)
+2503100 = { #Ramose, Nomarch
+	name = "Ramose"
+	dynasty = 2501012
+	culture = egyptian
+	religion = maat
+	2503.1.1 = { birth = yes }
+	2563.1.1 = { death = yes }
+}
+
+#14th Nome is the capital of Egypt
+
+#15th Nome (2503200-2503299)
+2503200 = { #Amenhotep, Nomarch
+	name = "Amenhotep"
+	dynasty = 2501013
+	culture = egyptian
+	religion = maat
+	2504.1.1 = { birth = yes }
+	2564.1.1 = { death = yes }
+}
+
+#16th Nome (2503300-2503399)
+2503300 = { #Neferefre, Nomarch
+	name = "Neferefre"
+	dynasty = 2501014
+	culture = egyptian
+	religion = maat
+	2506.1.1 = { birth = yes }
+	2566.1.1 = { death = yes }
+}
+
+#17th Nome (2503400-2503499)
+2503400 = { #Dhutrekhnefer, Nomarch
+	name = "Dhutrekhnefer"
+	dynasty = 2501015
+	culture = egyptian
+	religion = maat
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+#18th Nome (2503500-2503599)
+2503500 = { #Heqakheperre, Nomarch
+	name = "Heqakheperre"
+	dynasty = 2501016
+	culture = egyptian
+	religion = maat
+	2506.1.1 = { birth = yes }
+	2566.1.1 = { death = yes }
+}
+
+#19th Nome (2503600-2503699)
+2503600 = { #Paneb, Nomarch
+	name = "Paneb"
+	dynasty = 2501017
+	culture = egyptian
+	religion = maat
+	2505.1.1 = { birth = yes }
+	2565.1.1 = { death = yes }
+}
+
+#20th Nome (2503700-2503799)
+2503700 = { #Tefnakht, Nomarch
+	name = "Tefnakht"
+	dynasty = 2501018
+	culture = egyptian
+	religion = maat
+	2504.1.1 = { birth = yes }
+	2564.1.1 = { death = yes }
+}
+
+#21st Nome (2503800-2503899)
+2503800 = { #Qahedjet, Nomarch
+	name = "Qahedjet"
+	dynasty = 2501019
+	culture = egyptian
+	religion = maat
+	2503.1.1 = { birth = yes }
+	2563.1.1 = { death = yes }
+}
+
+#22nd Nome (2503900-2503999)
+2503900 = { #Merefnebef, Nomarch
+	name = "Merefnebef"
+	dynasty = 2501020
+	culture = egyptian
+	religion = maat
+	2501.1.1 = { birth = yes }
+	2561.1.1 = { death = yes }
+}
+
+#23rd Nome (2504000-2504099)
+2504000 = { #Bebiankh, Nomarch
+	name = "Bebiankh"
+	dynasty = 2501021
+	culture = egyptian
+	religion = maat
+	2502.1.1 = { birth = yes }
+	2562.1.1 = { death = yes }
+}
+
+#24th Nome (2504100-2504199)
+2504100 = { #Tjanefer, Nomarch
+	name = "Tjanefer"
+	dynasty = 2501022
+	culture = egyptian
+	religion = maat
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+#25th Nome (2504200-2504299)
+2504200 = { #Wadjmose, Nomarch
+	name = "Wadjmose"
+	dynasty = 2501023
+	culture = egyptian
+	religion = maat
+	2495.1.1 = { birth = yes }
+	2555.1.1 = { death = yes }
+}
+
+#26th Nome (2504300-2504399)
+2504300 = { #Osorkon, Nomarch
+	name = "Osorkon"
+	dynasty = 2501024
+	culture = egyptian
+	religion = maat
+	2490.1.1 = { birth = yes }
+	2550.1.1 = { death = yes }
+}
+
+#27th Nome (2504400-2504499)
+2504400 = { #Khafre, Nomarch
+	name = "Khafre"
+	dynasty = 2501025
+	culture = egyptian
+	religion = maat
+	2493.1.1 = { birth = yes }
+	2553.1.1 = { death = yes }
+}
+
+#28th Nome (2504500-2504599)
+2504500 = { #Psusennes, Nomarch
+	name = "Psusennes"
+	dynasty = 2501026
+	culture = egyptian
+	religion = maat
+	2494.1.1 = { birth = yes }
+	2554.1.1 = { death = yes }
+}
+
+#29th Nome (2504600-2504699)
+2504600 = { #Shedwast, Nomarch
+	name = "Shedwast"
+	dynasty = 250107
+	culture = egyptian
+	religion = maat
+	2492.1.1 = { birth = yes }
+	2552.1.1 = { death = yes }
+}
+
+#30th Nome (2504700-2504799)
+2504700 = { #Gemenefkhonsbak, Nomarch
+	name = "Gemenefkhonsbak"
+	dynasty = 2501028
+	culture = egyptian
+	religion = maat
+	2491.1.1 = { birth = yes }
+	2551.1.1 = { death = yes }
+}
+
+#31st Nome (2504800-2504899)
+2504800 = { #Tetiankhem, Nomarch
+	name = "Tetiankhem"
+	dynasty = 2501029
+	culture = egyptian
+	religion = maat
+	2495.1.1 = { birth = yes }
+	2555.1.1 = { death = yes }
+}
+
+#32nd Nome (2504900-2504999)
+2504900 = { #Dedumose, Nomarch
+	name = "Dedumose"
+	dynasty = 2501030
+	culture = egyptian
+	religion = maat
+	2485.1.1 = { birth = yes }
+	2545.1.1 = { death = yes }
+}
+
+#33rd Nome (2505000-2505099)
+2505000 = { #Paheri, Nomarch
+	name = "Paheri"
+	dynasty = 2501031
+	culture = egyptian
+	religion = maat
+	2487.1.1 = { birth = yes }
+	2547.1.1 = { death = yes }
+}
+
+#34th Nome (2505100-2505199)
+2505100 = { #Aahotepre, Nomarch
+	name = "Aahotepre"
+	dynasty = 2501032
+	culture = egyptian
+	religion = maat
+	2486.1.1 = { birth = yes }
+	2546.1.1 = { death = yes }
+}
+
+#35th Nome (2505200-2505299)
+2505200 = { #Ptahmay, Nomarch
+	name = "Ptahmay"
+	dynasty = 2501033
+	culture = egyptian
+	religion = maat
+	2484.1.1 = { birth = yes }
+	2544.1.1 = { death = yes }
+}
+
+#36th Nome (2505300-2505399)
+2505300 = { #Unas, Nomarch
+	name = "Unas"
+	dynasty = 2501034
+	culture = egyptian
+	religion = maat
+	2500.1.1 = { birth = yes }
+	2560.1.1 = { death = yes }
+}
+
+#37th Nome (2505400-2505499)
+2505400 = { #Iufni, Nomarch
+	name = "Iufni"
+	dynasty = 2501035
+	culture = egyptian
+	religion = maat
+	2495.1.1 = { birth = yes }
+	2555.1.1 = { death = yes }
+}
+
+#38th Nome (2505500-2505599)
+2505500 = { #Qemau, Nomarch
+	name = "Qemau"
+	dynasty = 2501036
+	culture = egyptian
+	religion = maat
+	2494.1.1 = { birth = yes }
+	2554.1.1 = { death = yes }
+}
+
+#39th Nome (2505600-2505699)
+2505600 = { #Meryteti, Nomarch
+	name = "Meryteti"
+	dynasty = 2501037
+	culture = egyptian
+	religion = maat
+	2490.1.1 = { birth = yes }
+	2550.1.1 = { death = yes }
+}
+
+#40th Nome (2505700-2505799)
+2505700 = { #Sewadjkare, Nomarch
+	name = "Sewadjkare"
+	dynasty = 2501038
+	culture = egyptian
+	religion = maat
+	2489.1.1 = { birth = yes }
+	2549.1.1 = { death = yes }
+}
+
+#41st Nome (2505800-2505899)
+2505800 = { #Geregtawy, Nomarch
+	name = "Geregtawy"
+	dynasty = 2501039
+	culture = egyptian
+	religion = maat
+	2485.1.1 = { birth = yes }
+	2545.1.1 = { death = yes }
+}
+
+#42nd Nome (2505900-2505999)
+2505900 = { #Bakenrenef, Nomarch
+	name = "Bakenrenef"
+	dynasty = 2501040
+	culture = egyptian
+	religion = maat
+	2495.1.1 = { birth = yes }
+	2555.1.1 = { death = yes }
+}
+
+#Lords of Biau (2506000-2506099)
+2506000 = { #Menkheperre, Lord of Biau
+	name = "Menkheperre"
+	dynasty = 2501041
+	culture = egyptian
+	religion = maat
+	2490.1.1 = { birth = yes }
+	2550.1.1 = { death = yes }
+}

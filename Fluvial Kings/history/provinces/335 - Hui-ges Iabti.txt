@@ -1,0 +1,16 @@
+# c_hui_ges_iabti
+
+# County Title
+title = c_hui_ges_iabti
+
+# Settlements
+max_settlements = 2
+
+b_per_imetu = castle
+b_tjeku = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

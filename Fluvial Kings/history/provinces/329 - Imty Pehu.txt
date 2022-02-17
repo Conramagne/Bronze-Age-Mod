@@ -1,0 +1,19 @@
+# c_imty_pehu
+
+# County Title
+title = c_imty_pehu
+
+# Settlements
+max_settlements = 5
+
+b_djanet = castle
+b_shedenu = city
+b_imet = temple
+b_neb_nen_nesut = castle
+b_tjeben = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

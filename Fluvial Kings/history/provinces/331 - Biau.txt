@@ -1,0 +1,17 @@
+# c_biau
+
+# County Title
+title = c_biau
+
+# Settlements
+max_settlements = 3
+
+b_per_huther = castle
+b_dju_mefekat = city
+#b_har_sinai = temple
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

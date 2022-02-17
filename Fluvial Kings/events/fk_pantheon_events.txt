@@ -81,6 +81,21 @@ character_event = {
 	}
 }
 
+#Ma'at Pantheon
+character_event = {
+	id = fkp.6
+	desc = EVTDESCFKP1
+	picture = GFX_evt_blessed_by_the_gods
+	is_triggered_only = yes
+	portrait = 1400029
+	
+	option = {
+		name = OK
+		custom_tooltip = {
+			text = click_on_portrait_TT
+		}
+	}
+}
 
 ####Boon Events
 #Given Boon

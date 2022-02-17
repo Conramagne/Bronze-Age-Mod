@@ -16,17 +16,26 @@ canaanitegodgfx = {
 doriangfx = {
 	skin_tone = 1
 }
-europeangodgfx = {
-	skin_tone = 1
+egyptiangfx = {
+	skin_tone = 2
 }
-hittitegodgfx = {
+egyptiangodgfx = {
+	skin_tone = 2
+}
+europeangodgfx = {
 	skin_tone = 1
 }
 greekgodgfx = {
 	skin_tone = 1
 }
+hittitegodgfx = {
+	skin_tone = 1
+}
 luwiangfx = {
 	skin_tone = 1
+}
+nubiangfx = {
+	skin_tone = 3
 }
 thraciangfx = {
 	skin_tone = 0
@@ -196,9 +205,6 @@ berbergfx = {
 }
 
 levantinegfx = {
-	skin_tone = 2
-}
-egyptiangfx = {
 	skin_tone = 2
 }
 

@@ -1,0 +1,18 @@
+# c_naret_pehtet
+
+# County Title
+title = c_naret_pehtet
+
+# Settlements
+max_settlements = 4
+
+b_mer_ur = castle
+b_hut_waret = city
+b_shedet = temple
+b_dja = castle
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

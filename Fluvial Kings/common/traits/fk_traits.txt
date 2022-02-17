@@ -1070,6 +1070,12 @@ qaws = {
 	in_hiding = yes
 }
 
+dead_egyptian_crown = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+}
+
 #Generic God Trait
 trait_god = {
 	hidden_from_others = yes
@@ -1278,6 +1284,490 @@ euphrosyne = {
 	fertility = -1000
 }
 thalia = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+nu = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+mehet_weret = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+khnemu = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+satet = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+anuket = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+hapi = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+ra = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+shu = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+tefnut = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+geb = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+nut = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+wesir = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+aset = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+nebet_hut = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+sutekh = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+hor = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+anpu = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+maat_trait = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+bastet = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+huthor = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+sekhmet = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+ptah = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+nefertem = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+net = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+sobek = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+serket = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+apep = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+djehuti = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+seshat = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+amun = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+mut = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+khonsu = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+hapi_lungs = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+duamutef = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+imsety = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+qebehsenuef = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+hu = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+anhur = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+banebdjedet = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+sopdet = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+heryshaf = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+min = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+wepwawet = {
+	hidden_from_others = yes
+	random = no
+	customizer = no
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+	fertility = -1000
+}
+
+hatmehit = {
 	hidden_from_others = yes
 	random = no
 	customizer = no

@@ -5,120 +5,6 @@
 # FromFromFrom scope - The title owner's candidate
 # The voter will vote for the top score candidate calculated from this script.
 
-### Condensed syntax layout:
-#<elective_law_type> = {
-#	candidate_vote_score = {
-#		<MTTH>
-#	}
-#	elector_selection = {
-#		max_amount = <int>
-#		<MTTH> - if max_amount is set it will pick the X amount of top scorers.
-#				 Negative scores are considered invalid electors - Ruler is always an elector
-#	}
-#	elector_vote_strength = {
-#		<MTTH>
-#	}
-#	elector_stances = { - Intended for the elder council positions
-#		<stance_name> = {
-#			icon = <int>
-#			<MTTH>
-#		}
-#	}
-#	candidate_trigger = { 
-#		<trigger>
-#	}
-#}
-
-### Example elective succession setup
-#my_test_law = {
-	#elector_stances = { #Electoral stances visible on the Electors' tab. Do not directly affect voting pattern unless used as triggers in the modifiers of candidate_voter_score.
-#		my_stance = {
-#			icon = 5
-#			days = 1
-#			additive_modifier = {
-#				trait = humble
-#				value = 6
-#			}
-#		}
-#		other_stance = {
-#			icon = 3
-#			days = 1
-#		}
-#		third_stance = {
-#			icon = 1
-#			days = 5
-#			additive_modifier = {
-#				trait = wroth
-#				value = 10
-#			}
-#		}
-#	}
-#	elector_selection = {
-#		days = -5 		# If below 0, ROOT is not valid to be an Elector. Any character above 0 will be an elector.
-#		max_amount = 7 # Determines max amount of electors, with the lower scoring ones being excluded (limit is optional)
-#		additive_modifier = { #
-#			value = 10
-#			OR = { #
-#				AND = {
-#					higher_real_tier_than = BARON
-#					FROMFROM = { real_tier = DUKE } #If the Elector Title is a Duchy, any vassal is an elector, otherwise only Dukes and above.
-#				}
-#				higher_real_tier_than = COUNT
-#			}
-#			OR = { #Either defacto direct vassal, or independent ruler who is dejure vassal.
-#				vassal_of = FROMFROM 
-#				independent = yes
-#			}
-#			OR = { #dejure vassal, or any vassal if title titular.
-#				AND = {
-#					FROMFROM = { is_titular = yes }
-#					vassal_of = FROMFROM 
-#				}
-#				any_dejure_liege = { title = FROMFROM }
-#			}
-#		}
-#		additive_modifier = {
-#			value = 10
-#			character = FROMFROM
-#		}
-#	}
-#	elector_vote_strength = { #Affects the voting strength of each elector.
-#		days = 1 # 1 elector = 1 vote.
-#		additive_modifier = {
-#			trait = humble
-#			value = 3 # Ex: An Elector with the humble trait is worth an addtional 3 votes.
-#		}
-#	}
-#	candidate_vote_score = { #Chance of an Elector voting for a candidate over the other. The candidate with the highest value will be picked.
-#		days = 1
-#		##########################   Elector voting himself   ##########################
-#		additive_modifier = {
-#			value = 15
-#			localisation_key = tooltip_feudal_elector_vote_myself
-#			character = FROM
-#			NOR = {
-#				trait = humble
-#				trait = content
-#				trait = craven
-#				trait = slothful
-#				trait = stressed
-#				trait = depressed
-#				trait = ambitious
-#			}
-#			NOT = { 
-#				FROMFROM = { 
-#					holder_scope = { 
-#						is_parent_of = ROOT
-#					} 
-#				}
-#			}
-#		}
-#	}
-#	candidate_trigger = { #Trigger to determine what characters are valid candidates that can be voted by electors.
-#		always = yes
-#	}
-#}
-
 feudal_elective = {
 
 	elector_vote_strength = {
@@ -127,20 +13,7 @@ feudal_elective = {
 	
 	elector_selection = {
 		days = -5 		#If below 0, ROOT is not valid to be an Elector.
-		additive_modifier = { #Current ruler is always an elector.
-			value = 10
-			FROMFROM = { #Either title is higher than Duke-tier, or must be primary.
-				OR = { 
-					higher_tier_than = DUKE
-					holder_scope = { primary_title = { title = PREVPREV } }
-				}
-			}
-			FROMFROM = {
-				holder_scope = {
-					character = PREVPREV
-				}
-			}
-		}
+		
 		additive_modifier = { #
 			value = 10
 			FROMFROM = { #Either title is higher than Duke-tier, or must be primary.
@@ -156,17 +29,30 @@ feudal_elective = {
 				}
 				higher_real_tier_than = COUNT
 			}
-			OR = { #Either defacto direct vassal, or independent ruler who is dejure vassal.
-				vassal_of = FROMFROM 
-				independent = yes
+		}
+		additive_modifier = { #Ruler is always an Elector.
+			value = 30
+			FROMFROM = { 
+				holder_scope = { character = ROOT }
 			}
-			OR = { #dejure vassal, or any vassal if title titular.
-				AND = {
-					FROMFROM = { is_titular = yes }
-					vassal_of = FROMFROM 
-				}
-				any_dejure_liege = { title = FROMFROM }
+		}
+		additive_modifier = { #Then the Councilors.
+			value = 10
+			vassal_of = FROMFROM 
+			OR = { 
+				has_job_title = job_chancellor
+				has_job_title = job_marshal
+				has_job_title = job_treasurer
+				has_job_title = job_spymaster
+				has_job_title = job_spiritual
+				has_minor_title = title_councilmember_king #Generic advisors
+				has_minor_title = title_councilmember_emperor
 			}
+		}
+		additive_modifier = { #And finally the generals.
+			value = 10
+			vassal_of = FROMFROM 
+			has_minor_title = title_commander
 		}
 		additive_modifier = {
 			value = -5
@@ -3444,13 +3330,7 @@ feudal_elective = {
 					} 
 				}
 				FROM = { 
-					OR = { #Either defacto direct vassal, or independent ruler who is dejure vassal.
-						vassal_of = ROOT 
-						AND = { 
-						 	any_dejure_liege = { title = ROOT } 
-							independent = yes
-						}
-					}
+					vassal_of = ROOT 
 				} 
 			}
 		}

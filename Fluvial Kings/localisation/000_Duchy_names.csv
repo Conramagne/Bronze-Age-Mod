@@ -1,6 +1,10 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+d_abdju;Abdju;Abdju;Abdju;;Abdju;;;;;;;;;x
+d_abdju_adj;Abdjian;;abdjer;;;;;;;;;;;x
 d_achaea;Achaea;Achaea;Achaea;;Achaea;;;;;;;;;x
 d_achaea_adj;Achaean;;acher;;;;;;;;;;;x
+d_akhetaten;Akhetaten;Akhetaten;Akhetaten;;Akhetaten;;;;;;;;;x
+d_akhetaten_adj;Akhetatenian;;akhetatener;;;;;;;;;;;x
 d_ambara;Ambara;Ambara;Ambara;;Ambara;;;;;;;;;x
 d_ambara_adj;Ambaran;;ambarer;;;;;;;;;;;x
 d_amurru;Amurru;Amurru;Amurru;;Amurru;;;;;;;;;x
@@ -55,12 +59,12 @@ d_istahara;Istahara;Istahara;Istahara;;Istahara;;;;;;;;;x
 d_istahara_adj;Istaharan;;istaharer;;;;;;;;;;;x
 d_ithake;Ithake;Ithake;Ithake;;Ithake;;;;;;;;;x
 d_ithake_adj;Ithakean;;ithaker;;;;;;;;;;;x
+d_iunu;Iunu;Iunu;Iunu;;Iunu;;;;;;;;;x
+d_iunu_adj;Iunian;;iuner;;;;;;;;;;;x
 d_kalasma;Kalasma;Kalasma;Kalasma;;Kalasma;;;;;;;;;x
 d_kalasma_adj;Kalasman;;kalasmer;;;;;;;;;;;x
 d_kamalla;Kamalla;Kamalla;Kamalla;;Kamalla;;;;;;;;;x
 d_kamalla_adj;Kamallan;;kamaller;;;;;;;;;;;x
-d_kamat;Kamat;Kamat;Kamat;;Kamat;;;;;;;;;x
-d_kamat_adj;Kamatian;;kamater;;;;;;;;;;;x
 d_karkemish;Karkemish;Karkemish;Karkemish;;Karkemish;;;;;;;;;x
 d_karkemish_adj;Karkemishian;;karkemisher;;;;;;;;;;;x
 d_karkiya;Karkiya;Karkiya;Karkiya;;Karkiya;;;;;;;;;x
@@ -75,8 +79,6 @@ d_kasula;Kasula;Kasula;Kasula;;Kasula;;;;;;;;;x
 d_kasula_adj;Kasulan;;kasuler;;;;;;;;;;;x
 d_katerra_udne;Katerra Udne;Katerra Udne;Katerra Udne;;Katerra Udne;;;;;;;;;x
 d_katerra_udne_adj;Katerra Udnean;;Katerra Udner;;;;;;;;;;;x
-d_kemat;Kemat;Kemat;Kemat;;Kemat;;;;;;;;;x
-d_kemat_adj;Kematian;;kemater;;;;;;;;;;;x
 d_knossos;Knossos;Knossos;Knossos;;Knossos;;;;;;;;;x
 d_knossos_adj;Knossosian;;knossoser;;;;;;;;;;;x
 d_kuklades;Kuklades;Kuklades;Kuklades;;Kuklades;;;;;;;;;x
@@ -103,8 +105,10 @@ d_marqasa;Marqasa;Marqasa;Marqasa;;Marqasa;;;;;;;;;x
 d_marqasa_adj;Marqasan;;marqaser;;;;;;;;;;;x
 d_masa;Masa;Masa;Masa;;Masa;;;;;;;;;x
 d_masa_adj;Masan;;maser;;;;;;;;;;;x
-d_menfe;Menfe;Menfe;Menfe;;Menfe;;;;;;;;;x
-d_menfe_adj;Menfean;;menfer;;;;;;;;;;;x
+d_mehtet_iabti;Mehtet-Iabti;Mehtet-Iabti;Mehtet-Iabti;;Mehtet-Iabti;;;;;;;;;x
+d_mehtet_iabti_adj;Mehtet-Iabtian;;mehtet-iabter;;;;;;;;;;;x
+d_mehtet_imenti;Mehtet-Imenti;Mehtet-Imenti;Mehtet-Imenti;;Mehtet-Imenti;;;;;;;;;x
+d_mehtet_imenti_adj;Mehtet-Imentian;;mehtet-imenter;;;;;;;;;;;x
 d_messenia;Messenia;Messenia;Messenia;;Messenia;;;;;;;;;x
 d_messenia_adj;Messenian;;messener;;;;;;;;;;;x
 d_mira;Mira;Mira;Mira;;Mira;;;;;;;;;x
@@ -125,6 +129,10 @@ d_pitassa;Pitassa;Pitassa;Pitassa;;Pitassa;;;;;;;;;x
 d_pitassa_adj;Pitassan;;pitasser;;;;;;;;;;;x
 d_puruma;Puruma;Puruma;Puruma;;Puruma;;;;;;;;;x
 d_puruma_adj;Puruman;;purumer;;;;;;;;;;;x
+d_qab;Qab;Qab;Qab;;Qab;;;;;;;;;x
+d_qab_adj;Qabian;;qaber;;;;;;;;;;;x
+d_resu;Resu;Resu;Resu;;Resu;;;;;;;;;x
+d_resu_adj;Resian;;reser;;;;;;;;;;;x
 d_rhodios;Rhodios;Rhodios;Rhodios;;Rhodios;;;;;;;;;x
 d_rhodios_adj;Rhodiosian;;rhodioser;;;;;;;;;;;x
 d_salamis;Salamis;Salamis;Salamis;;Salamis;;;;;;;;;x

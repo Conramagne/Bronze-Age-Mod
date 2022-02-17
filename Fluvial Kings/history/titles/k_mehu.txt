@@ -1,0 +1,109 @@
+1.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+1580.1.1 = {
+	holder = 2501215 #Menkare
+}
+1581.1.1 = {
+	holder = 2501214 #Neferkare II
+}
+1581.6.1 = {
+	holder = 2501213 #Neby
+}
+1582.1.1 = {
+	holder = 2501212 #Shemai
+}
+1583.1.1 = {
+	holder = 2501211 #Khendu
+}
+1584.1.1 = {
+	holder = 2501210 #Merenhor
+}
+1585.1.1 = {
+	holder = 2501209 #Neferkamin
+}
+1586.1.1 = {
+	holder = 2501208 #Nikare
+}
+1587.1.1 = {
+	holder = 2501207 #Tereru
+}
+1588.1.1 = {
+	holder = 2501206 #Neferkahor
+}
+1589.1.1 = {
+	holder = 2501205 #Neferkare Pepiseneb
+}
+1590.1.1 = {
+	holder = 2501204 #Anu
+}
+1592.1.1 = {
+	holder = 2501203 #Ibi
+}
+1594.1.1 = {
+	holder = 2501202 #Neferkaure
+}
+1598.1.1 = {
+	holder = 2501201 #Khuwihapi
+}
+1600.1.1 = {
+	holder = 2501200 #Neferirkare
+}
+1601.1.1 = {
+	holder = 2501103 #Khety I
+}
+1607.1.1 = {
+	holder = 0 #~1 lost king and ~2 years missing
+}
+1609.1.1 = {
+	holder = 2501102 #Neferkare VII
+}
+1611.1.1 = {
+	holder = 2501101 #Khety II
+}
+1613.1.1 = {
+	holder = 2501100 #Setut
+}
+1615.1.1 = {
+	holder = 0 #~8 lost kings and ~16 years missing
+}
+1631.1.1 = {
+	holder = 2501003 #Meryhator
+}
+1661.1.1 = {
+	holder = 2501002 #Neferkare VIII
+}
+1681.1.1 = {
+	holder = 2501001 #Khety III
+}
+1701.1.1 = {
+	holder = 2501000 #Merykare
+}
+1731.1.1 = {
+	holder = 0 #Egypt reunited
+}
+2111.1.1 = {
+	holder = 2500506 #Salitis
+}
+2112.1.1 = {
+	holder = 2500505 #Semqen
+}
+2123.1.1 = {
+	holder = 2500504 #Aper-Anat
+}
+2138.1.1 = {
+	holder = 2500503 #Sakir-Har
+}
+2153.1.1 = {
+	holder = 2500502 #Khyan
+}
+2183.1.1 = {
+	holder = 2500501 #Apepi
+}
+2218.1.1 = {
+	holder = 2500500 #Khamudi
+}
+2229.1.1 = {
+	holder = 0 #Lower Egypt conquered, Egypt united
+}

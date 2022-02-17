@@ -1248,6 +1248,7 @@
 				graphical_culture = hittitegodgfx
 				graphical_culture = europeangodgfx
 				graphical_culture = canaanitegodgfx
+				graphical_culture = egyptiangodgfx
 			}
 			NOR = {
 				trait = zeus
@@ -1258,6 +1259,8 @@
 				trait = kubeleya
 				trait = el
 				trait = asherah
+				trait = nu
+				trait = mehet_weret
 			}
 		}
 	}
@@ -1270,6 +1273,7 @@
 				graphical_culture = hittitegodgfx
 				graphical_culture = europeangodgfx
 				graphical_culture = canaanitegodgfx
+				graphical_culture = egyptiangodgfx
 			}
 			NOR = {
 				trait = poseidaon
@@ -1277,6 +1281,8 @@
 				trait = telipinu
 				trait = derzelas
 				trait = baal_hadad
+				trait = khnemu
+				trait = anuket
 			}
 		}
 		modifier = {
@@ -1286,6 +1292,7 @@
 				graphical_culture = hittitegodgfx
 				graphical_culture = europeangodgfx
 				graphical_culture = canaanitegodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1298,11 +1305,14 @@
 				graphical_culture = hittitegodgfx
 				graphical_culture = europeangodgfx
 				graphical_culture = canaanitegodgfx
+				graphical_culture = egyptiangodgfx
 			}
 			NOR = {
 				trait = apollon
 				trait = here
 				trait = resheph
+				trait = hapi
+				trait = tefnut
 			}
 		}
 		modifier = {
@@ -1312,6 +1322,7 @@
 				graphical_culture = hittitegodgfx
 				graphical_culture = europeangodgfx
 				graphical_culture = canaanitegodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1322,11 +1333,14 @@
 			OR = {
 				graphical_culture = greekgodgfx
 				graphical_culture = canaanitegodgfx
+				graphical_culture = egyptiangodgfx
 			}
 			NOR = {
 				trait = ares
 				trait = athene
 				trait = qaws
+				trait = ra
+				trait = nut
 			}
 		}
 		modifier = {
@@ -1334,6 +1348,7 @@
 			NOR = {
 				graphical_culture = greekgodgfx
 				graphical_culture = canaanitegodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1344,10 +1359,13 @@
 			OR = {
 				graphical_culture = greekgodgfx
 				graphical_culture = canaanitegodgfx
+				graphical_culture = egyptiangodgfx
 			}
 			NOR = {
 				trait = haphaistos
 				trait = persephone
+				trait = shu
+				trait = aset
 			}
 		}
 		modifier = {
@@ -1355,6 +1373,7 @@
 			NOR = {
 				graphical_culture = greekgodgfx
 				graphical_culture = canaanitegodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1362,16 +1381,22 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = hermes
 				trait = artemis
+				trait = geb
+				trait = nebet_hut
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1379,16 +1404,22 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = dionusos
 				trait = hebe
+				trait = wesir
+				trait = maat_trait
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1396,16 +1427,22 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = hades
 				trait = aphrodite
+				trait = sutekh
+				trait = bastet
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1413,16 +1450,22 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = herakles
 				trait = rhea
+				trait = hor
+				trait = huthor
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1430,16 +1473,22 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = atlas
 				trait = tethys
+				trait = anpu
+				trait = sekhmet
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1447,16 +1496,22 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = oceanos
 				trait = themis
+				trait = ptah
+				trait = net
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1464,16 +1519,22 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = neilos
 				trait = mnemosyne
+				trait = nefertem
+				trait = serket
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1481,16 +1542,22 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = prometheus
 				trait = leto
+				trait = sobek
+				trait = seshat
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1498,16 +1565,22 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = helios
 				trait = pandora
+				trait = apep
+				trait = mut
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1515,16 +1588,22 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = castor
 				trait = thetis
+				trait = djehuti
+				trait = sopdet
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1532,16 +1611,22 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = pollux
 				trait = aglaia
+				trait = amun
+				trait = hatmehit
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1549,16 +1634,21 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = cronos
 				trait = euphrosyne
+				trait = khonsu
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1566,16 +1656,21 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = cretan_bull
 				trait = thalia
+				trait = hapi_lungs
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1583,15 +1678,20 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = minotaur
+				trait = duamutef
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1599,15 +1699,20 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = achelous
+				trait = imsety
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1615,16 +1720,21 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			graphical_culture = greekgodgfx
+			OR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
 			NOR = {
 				trait = asklepios
 				trait = arethousa
+				trait = qebehsenuef
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			NOR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -1676,8 +1786,166 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = {
+			OR = {
 				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
+			NOR = {
+				trait = hu
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				graphical_culture = greekgodgfx
+				graphical_culture = egyptiangodgfx
+			}
+		}
+	}
+	22 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				graphical_culture = egyptiangodgfx
+			}
+			NOR = {
+				trait = anhur
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				graphical_culture = egyptiangodgfx
+			}
+		}
+	}
+	23 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				graphical_culture = egyptiangodgfx
+			}
+			NOR = {
+				trait = banebdjedet
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				graphical_culture = egyptiangodgfx
+			}
+		}
+	}
+	24 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				graphical_culture = egyptiangodgfx
+			}
+			NOR = {
+				trait = heryshaf
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				graphical_culture = egyptiangodgfx
+			}
+		}
+	}
+	25 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				graphical_culture = egyptiangodgfx
+			}
+			NOR = {
+				trait = min
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				graphical_culture = egyptiangodgfx
+			}
+		}
+	}
+	26 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				graphical_culture = egyptiangodgfx
+			}
+			NOR = {
+				trait = wepwawet
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				graphical_culture = egyptiangodgfx
+			}
+		}
+	}
+	27 = {
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				trait = nu
+				trait = mehet_weret
+				trait = khnemu
+				trait = anuket
+				trait = hapi
+				trait = ra
+				trait = shu
+				trait = tefnut
+				trait = geb
+				trait = nut
+				trait = wesir
+				trait = aset
+				trait = nebet_hut
+				trait = sutekh
+				trait = hor
+				trait = anpu
+				trait = maat_trait
+				trait = bastet
+				trait = huthor
+				trait = sekhmet
+				trait = ptah
+				trait = nefertem
+				trait = net
+				trait = sobek
+				trait = serket
+				trait = apep
+				trait = djehuti
+				trait = seshat
+				trait = amun
+				trait = mut
+				trait = khonsu
+				trait = hapi_lungs
+				trait = duamutef
+				trait = imsety
+				trait = qebehsenuef
+				trait = hu
+				trait = anhur
+				trait = banebdjedet
+				trait = sopdet
+				trait = heryshaf
+				trait = min
+				trait = wepwawet
+				trait = hatmehit
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				graphical_culture = egyptiangodgfx
 			}
 		}
 	}
@@ -2264,9 +2532,17 @@
 			factor = 0
 			graphical_culture = thraciangfx
 		}
+		modifier = {
+			factor = 0
+			graphical_culture = egyptiangfx
+		}
 	}
 	2 = {
 		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = egyptiangfx
+		}
 	}
 	3 = {
 		factor = 1
@@ -2274,9 +2550,17 @@
 			factor = 0
 			graphical_culture = thraciangfx
 		}
+		modifier = {
+			factor = 0
+			graphical_culture = egyptiangfx
+		}
 	}
 	4 = {
 		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = egyptiangfx
+		}
 	}
 	5 = {
 		factor = 1
@@ -2284,15 +2568,31 @@
 			factor = 0
 			graphical_culture = achaeangfx
 		}
+		modifier = {
+			factor = 0
+			graphical_culture = egyptiangfx
+		}
 	}
 	6 = {
 		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = egyptiangfx
+		}
 	}
 	7 = {
 		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = egyptiangfx
+		}
 	}
 	8 = {
 		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = egyptiangfx
+		}
 	}
 	9 = {
 		factor = 1
@@ -2303,6 +2603,10 @@
 				graphical_culture = anatoliangfx
 			}
 		}
+		modifier = {
+			factor = 0
+			graphical_culture = egyptiangfx
+		}
 	}
 	10 = {
 		factor = 1
@@ -2311,6 +2615,10 @@
 			# religion_group = muslim
 			# NOT = { graphical_culture = muslimgfx }
 		# }
+		modifier = {
+			factor = 0
+			graphical_culture = egyptiangfx
+		}
 		modifier = {
 			factor = 60
 			OR = {
@@ -2326,18 +2634,34 @@
 			graphical_culture = achaeangfx
 			age = 50
 		}
+		modifier = {
+			factor = 0
+			graphical_culture = egyptiangfx
+		}
 	}
 	12 = {
 		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = egyptiangfx
+		}
 	}
 	13 = {
 		factor = 1
+		modifier = {
+			factor = 0
+			graphical_culture = egyptiangfx
+		}
 	}
 	14 = {
 		factor = 1
 		modifier = {
 			factor = 0
 			graphical_culture = achaeangfx
+		}
+		modifier = {
+			factor = 0
+			graphical_culture = egyptiangfx
 		}
 	}
 }
@@ -4493,6 +4817,22 @@
 					}
 					in_command = yes
 				}
+				primary_title = {
+					title = e_kemet
+				}
+				AND = {
+					primary_title = {
+						title = k_mehu
+					}
+					independent = yes
+				}
+				AND = {
+					primary_title = {
+						title = k_shemau
+					}
+					independent = yes
+				}
+				trait = dead_egyptian_crown
 			}
 		}
 	}
@@ -4513,20 +4853,21 @@
 		}
 	}
 	
-	# 3 = { 
-		# factor = 1
-		# modifier = {
-			# factor = 0
-			# NOT = { has_portrait_property = { layer = 19 index = 3 } }
-		# }
-	# }
-	# 4 = { 
-		# factor = 1
-		# modifier = {
-			# factor = 0
-			# NOT = { has_portrait_property = { layer = 19 index = 4 } }
-		# }
-	# }
+	3 = { 
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { has_portrait_property = { layer = 19 index = 3 } }
+		}
+	}
+	
+	4 = { 
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { has_portrait_property = { layer = 19 index = 4 } }
+		}
+	}
 	# 5 = { 
 		# factor = 1
 		# modifier = {
@@ -4620,6 +4961,22 @@
 					}
 					in_command = yes
 				}
+				primary_title = {
+					title = e_kemet
+				}
+				AND = {
+					primary_title = {
+						title = k_mehu
+					}
+					independent = yes
+				}
+				AND = {
+					primary_title = {
+						title = k_shemau
+					}
+					independent = yes
+				}
+				trait = dead_egyptian_crown
 			}
 		}
 	}
@@ -4668,50 +5025,73 @@
 		}
 	}
 	
-	# 3 = { 
-		# factor = 100
-		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		# modifier = {
-			# factor = 0
-			# in_command = yes
-			# has_game_rule = {
-				# name = martial_headgear
-				# value = on
-			# }
-		# }
-		# modifier = { #Cursed Diamond Crown
-			# factor = 0
-			# NOR = { 
-				# any_artifact = {
-					# artifact_type = cursed_diamond_crown
-					# is_artifact_equipped = yes 
-				# }
-				# trait = dead_cursed_diamond_crown
-			# }
-		# }
-	# }
-	# 4 = { 
-		# factor = 100
-		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		# modifier = {
-			# factor = 0
-			# in_command = yes
-			# has_game_rule = {
-				# name = martial_headgear
-				# value = on
-			# }
-		# }
-		# modifier = { #Iron Crown of Lombardy
-			# factor = 0
-			# NOR = { 
-				# any_artifact = {
-					# artifact_type = iron_crown_of_lombardy
-					# is_artifact_equipped = yes 
-				# }
-				# trait = dead_iron_crown_lombardy
-			# }
-		# }
-	# }
+	3 = { 
+		factor = 100
+		hide_layers = { 1 = { } } #Hide layer 1 (hair) when this frame is picked.
+		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		modifier = {
+			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = { #Egyptian Crown 1
+			factor = 0
+			NOR = { 
+				primary_title = {
+					title = e_kemet
+				}
+				AND = {
+					primary_title = {
+						title = k_mehu
+					}
+					independent = yes
+				}
+				AND = {
+					primary_title = {
+						title = k_shemau
+					}
+					independent = yes
+				}
+				trait = dead_egyptian_crown
+			}
+		}
+	}
+	4 = { 
+		factor = 100
+		hide_layers = { 1 = { } } #Hide layer 1 (hair) when this frame is picked.
+		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		modifier = {
+			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = { #Egyptian Crown 1
+			factor = 0
+			NOR = { 
+				primary_title = {
+					title = e_kemet
+				}
+				AND = {
+					primary_title = {
+						title = k_mehu
+					}
+					independent = yes
+				}
+				AND = {
+					primary_title = {
+						title = k_shemau
+					}
+					independent = yes
+				}
+			}
+		}
+	}
 	# 5 = { 
 		# factor = 100
 		# hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.

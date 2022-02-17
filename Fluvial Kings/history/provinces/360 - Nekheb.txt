@@ -1,0 +1,17 @@
+# c_nekheb
+
+# County Title
+title = c_nekheb
+
+# Settlements
+max_settlements = 3
+
+b_nekheb = castle
+b_hefat = city
+b_iat_negen = temple
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

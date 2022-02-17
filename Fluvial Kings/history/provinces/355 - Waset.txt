@@ -1,0 +1,20 @@
+# c_waset
+
+# County Title
+title = c_waset
+
+# Settlements
+max_settlements = 6
+
+b_waset = castle
+b_madu = city
+b_djamet = temple
+b_iunit_mentju = castle
+b_iu_miteru = city
+b_djereti = temple
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

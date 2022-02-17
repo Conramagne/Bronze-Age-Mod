@@ -1,0 +1,16 @@
+# c_imty_khenti
+
+# County Title
+title = c_imty_khenti
+
+# Settlements
+max_settlements = 2
+
+b_per_bastet = castle
+b_bereset = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

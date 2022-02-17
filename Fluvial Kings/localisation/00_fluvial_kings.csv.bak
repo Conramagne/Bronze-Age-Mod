@@ -1,0 +1,1727 @@
+###########Cultures###########
+anatolian;Hardu;;;;;;;;;;;;;x
+hittite;Nešili;;;;;;;;;;;;;x
+eneti;Palaumnili;;;;;;;;;;;;;x
+luwian;Luwili;;;;;;;;;;;;;x
+kaskian;Kaška;;;;;;;;;;;;;x
+isuwan;Isuwan;;;;;;;;;;;;;x
+mysian;Musoi;;;;;;;;;;;;;x
+wilusan;Wilusili;;;;;;;;;;;;;x
+lydian;Sfard;;;;;;;;;;;;;x
+carian;Karkisili;;;;;;;;;;;;;x
+lycian;Lukkili;;;;;;;;;;;;;x
+
+hellene;Héllen;;;;;;;;;;;;;x
+achaean;Akhaiós;;;;;;;;;;;;;x
+aeolian;Aiolikós;;;;;;;;;;;;;x
+amazonian;Amazonios;;;;;;;;;;;;;x
+arcadian;Arkás;;;;;;;;;;;;;x
+dorian;Dorieús;;;;;;;;;;;;;x
+ionian;Ionikós;;;;;;;;;;;;;x
+macedonian;Makedonikós;;;;;;;;;;;;;x
+theogonos;Theogonos;;;;;;;;;;;;;x
+thessalian;Thessalikós;;;;;;;;;;;;;x
+cretan;Kresijos;;;;;;;;;;;;;x
+phrygian;Phrugios;;;;;;;;;;;;;x
+# minoan;Minoikós;;;;;;;;;;;;;x
+cypriot;Kúprios;;;;;;;;;;;;;x
+cypriot_dorian;Kúprios;;;;;;;;;;;;;x
+bull;Taúrou;;;;;;;;;;;;;x
+
+european;Europes;;;;;;;;;;;;;x
+thracian;Thraikós;;;;;;;;;;;;;x
+disakenthas;Disakenthas;;;;;;;;;;;;;x
+
+tyrrhenian;Turrhenós;;;;;;;;;;;;;x
+lemnian;Lemniakós;;;;;;;;;;;;;x
+
+roe;Ro'e;;;;;;;;;;;;;x
+amorite;Amurrum;;;;;;;;;;;;;x
+aramean;Aramaye;;;;;;;;;;;;;x
+canaanite;B'nei Kena'an;;;;;;;;;;;;;x
+israelite;B'nei Yisra'el;;;;;;;;;;;;;x
+phoenician;Ponnim;;;;;;;;;;;;;x
+elohim;Elohim;;;;;;;;;;;;;x
+
+kemetic;Kemet;;;;;;;;;;;;;x
+egyptian;Remetj;;;;;;;;;;;;;x
+mesu_netjeru;Mesu-Netjeru;;;;;;;;;;;;;x
+
+kushite;Kash;;;;;;;;;;;;;x
+nubian;Nehsi;;;;;;;;;;;;;x
+
+###########Government and Laws###########
+feudal_government;Local Polity;;;;;;;;;;;;;x
+feudal_government_desc;Local polities are states that have arisen from disunited tribes and confederations or have slipped out of the grasps of larger realms. Often considered nothing more than petty states with squabbling tyrants whose authority barely extends beyond the walls of their citadels, they lack the courtly grandeur and the ability to administer more than their local communities.;;;;;;;;;;;;;x
+
+politan_government;Polis;;;;;;;;;;;;;x
+politan_government_desc;A polis is a realm centered around a city and its surrounding settlements.;;;;;;;;;;;;;x
+
+regional_kingdom_government;Regional Authority;;;;;;;;;;;;;x
+regional_kingdom_government_desc;Regional Authorities are the kingdoms and regional powers that are below the prominence of a hegemon but are potent enough powers in their own locale. Monarchs rely on landed military aristocrats and a growing palace structure. This represent the united polity of a people as well as their subjugated neighbors.;;;;;;;;;;;;;x
+
+hegemonic_government;Hegemonic Power;;;;;;;;;;;;;x
+hegemonic_government_desc;Hegemonic Powers are large realms stretching from one corner of the world to the next. Monarchs rule a vast cosmopolitan realm of many religions, tribes and cultures with the help of an army of bureaucrats and the aristocracy. The will and fate of all is the ruler's demand and decree. The monarch strides the world of men as a glorious prince, all the peoples of the world will know their name!;;;;;;;;;;;;;x
+
+military_governorate_government;Military Governorate;;;;;;;;;;;;;x
+military_governorate_government_desc;Military Governors are of course drawn from the class of military-aristocrats, they govern the surrounding lands from their country estates and city holdings in the name of their liege. Governors may rule for life or at the mercy of their liege, who may repossess the leadership of the territory at a whim and redistribute it to a more worthy commander. Governorates are focused on raising armies of men and chariots for their lord, thus less tax is expected to be paid forward as it is used to outfit the local nobles and levy the urban and rural freemen.;;;;;;;;;;;;;x
+
+tribal_government;Minor Tribe;;;;;;;;;;;;;x
+tribal_government_desc;A small, homogenous tribe encompassing the same amount of territory as a city state or minor-warlord. Heirs are chosen from the current ruler's children or siblings either through general confirmation by the ruler or chosen by tribal elders depending on religion and culture. The ruler is usually only behest to the desires of his own tribe and court so the council holds less sway. Locked to duchy and below.;;;;;;;;;;;;;x
+
+tribal_confederacy_government;Tribal Confederation;;;;;;;;;;;;;x
+tribal_confederacy_government_desc;A confederacy allows for a tribal realm to grow larger but also as a natural consequence decentralizes power. The ruler can now be selected from beyond the ruling family and can be drawn from the other tribes and victorious commanders by an electorate of the Council and the tribal vassals. Council laws are locked as well, all decisions must be in agreement with the Council of tribal representatives. The ruler is less an authoritarian monarch and more an arbiter of disputes and leader of armies against outside aggression. There are ways around this, if you centralize and woo the princes of the tribes you can have yourself elected King.;;;;;;;;;;;;;x
+
+stratocratic_government;Stratocracy;;;;;;;;;;;;;x
+stratocratic_government_desc;A government in which the realm is wholly occupied on the subject of war. Liege and vassal alike are expected to uphold military values and to keep a large and powerful army, even at the expense of the realm's taxes and stability;;;;;;;;;;;;;x
+
+familial_elective;Familial Elective;;;;;;;;;;;;;x
+succ_familial_elective;Familial Elective;;;;;;;;;;;;;x
+succ_familial_elective_desc;The successor of the monarch is chosen by them along among their kin.;;;;;;;;;;;;;x
+
+adult_familial_elective;Adult Familial Elective;;;;;;;;;;;;;x
+succ_adult_familial_elective;Adult Familial Elective;;;;;;;;;;;;;x
+succ_adult_familial_elective_desc;The successor of the monarch is chosen by them along among their adult kin.;;;;;;;;;;;;;x
+
+viceroyalty_succession;Appointment;;;;;;;;;;;;;x
+succ_viceroyalty;Appointment;;;;;;;;;;;;;x
+succ_viceroyalty_desc;Appointment;;;;;;;;;;;;;x
+succ_viceroyalty_succession_desc;Governors are appointed on the behest of their liege to govern a province or polity, a legal representative of their liege (sometimes even being of kin). They are appointed and thus can be replaced at the whim of their liege.;;;;;;;;;;;;;x
+
+# system_law;Government System;;;;;;;;;;;;;x
+# system_law_desc;The government system defines whether the realm relies on the courtly skills of their council or the magistrates of the cities of the realm.;;;;;;;;;;;;;x
+# system_law_0;Oligarchy;;;;;;;;;;;;;x
+# system_law_0_desc;Oligarchic States are reliant on their magistrates and local administrators of their realm's cities and provinces. Particularly cunning or shrewd administrators will prefer this form of governance as it is much easier to bypass the will of the Royal Family and Palace Court. The monarch will get a boon in taxes at the expense of their army. They will also be greatly restricted in their capacity to govern outside the palace and are more at the mercy of influential vassals.;;;;;;;;;;;;;x
+# system_law_1;Stately;;;;;;;;;;;;;x
+# system_law_1_desc;The royal court and family are the primary conduit for which the realm is governed. It is understood that the Monarch is a regent of the Divine and and thus their offsprings should succeed them, though that may not always be possible or practical. The warrior-aristocrats and palace scribes in the council greatly favor the strength of their lord. As a result the armies they field, wield a zeal for their liege but provincial lords scoff at the lost of their autonomy and may not be willing to cooperate with their sovereign.;;;;;;;;;;;;;x
+
+foreigner_law;Status of Foreigners;;;;;;;;;;;;;x
+foreigner_law_desc;The status afforded to the foreigners that reside in the realm.;;;;;;;;;;;;;x
+foreigner_law_0;Harsh Treatment;;;;;;;;;;;;;x
+foreigner_law_0_option;Harsh;;;;;;;;;;;;;x
+foreigner_law_0_desc;Dare we call them people? Dogs befits their stature and character better, and they will know who their masters are.;;;;;;;;;;;;;x
+foreigner_law_1;Neutral Treatment;;;;;;;;;;;;;x
+foreigner_law_1_option;Neutral;;;;;;;;;;;;;x
+foreigner_law_1_desc;We placed no significance to the foreigners that reside in our realm and treat them with indifference.;;;;;;;;;;;;;x
+foreigner_law_2;Autonomous Treatment;;;;;;;;;;;;;x
+foreigner_law_2_option;Autonomous;;;;;;;;;;;;;x
+foreigner_law_2_desc;These foreigners are given autonomy in our realm so long as they acknowledge our sovereignty.;;;;;;;;;;;;;x
+
+tribute_law;Tribute Status;;;;;;;;;;;;;x
+tribute_law_desc;The status of tribute received from foreign cultures and faiths;;;;;;;;;;;;;x
+tribute_law_0;Tax Tribute;;;;;;;;;;;;;x
+tribute_law_0_option;Taxed;;;;;;;;;;;;;x
+tribute_law_0_desc;Tributes are asked to contribute a larger share of their coffers for the good of the realm, at the expense of military contributions.;;;;;;;;;;;;;x
+tribute_law_1;Neutral Tribute;;;;;;;;;;;;;x
+tribute_law_1_option;Neutral;;;;;;;;;;;;;x
+tribute_law_1_desc;Tributes are asked to contribute their fair share and troops for the good of the realm.;;;;;;;;;;;;;x
+tribute_law_2;Levy Tribute;;;;;;;;;;;;;x
+tribute_law_2_option;Levy;;;;;;;;;;;;;x
+tribute_law_2_desc;Tributes are asked to contribute a larger share of their armies for the good of the realm, at the expense of tribute tax.;;;;;;;;;;;;;x
+
+head_god;National God;;;;;;;;;;;;;x
+head_god_desc;Across many lands, one god out of many is given precedence as the patron of the city, nation, and king. One must be loyal to their national god, and there will be retribution if one does not keep loyal...;;;;;;;;;;;;;x
+
+head_god_none;No Head God;;;;;;;;;;;;;x
+head_god_none_option;None;;;;;;;;;;;;;x
+head_god_none_desc;All the gods are worshiped equally.;;;;;;;;;;;;;x
+
+head_god_el;'El;;;;;;;;;;;;;x
+head_god_el_option;El;;;;;;;;;;;;;x
+head_god_el_desc;El is the creator of the world and a powerful deity. His name is a byname for all other gods, and his influence on this world is shall be a boon.;;;;;;;;;;;;;x
+
+head_god_baal_hadad;Ba'al Hadad;;;;;;;;;;;;;x
+head_god_baal_hadad_option;Ba'al Hadad;;;;;;;;;;;;;x
+head_god_baal_hadad_desc;Ba'al Hadad is the great thunderer who brings both nourishing rains and damning destruction. One must be in his favor to effectively rule.;;;;;;;;;;;;;x
+
+head_god_qaws;Qaws;;;;;;;;;;;;;x
+head_god_qaws_option;Qaws;;;;;;;;;;;;;x
+head_god_qaws_desc;Qaws is the national god of the B'nei Edom, and favors his children over all others.;;;;;;;;;;;;;x
+
+head_god_amurru;Amurru;;;;;;;;;;;;;x
+head_god_amurru_option;Amurru;;;;;;;;;;;;;x
+head_god_amurru_desc;Amurru is the national god of the B'nei Amurru, and favors his children over all others.;;;;;;;;;;;;;x
+
+bureaucracy_efficiency;Bureaucratic Efficiency;;;;;;;;;;;;;x
+bureaucracy_efficiency_desc;The efficiency of a realms bureaucracy determines how effectively it can exercize its authority across a realm.;;;;;;;;;;;;;x
+
+bureaucracy_efficiency_0;Low Bureaucratic Efficiency;;;;;;;;;;;;;x
+bureaucracy_efficiency_0_option;Low;;;;;;;;;;;;;x
+bureaucracy_efficiency_0_desc;The bureaucracy has been so mismanaged that basic governance is labyrinthine.;;;;;;;;;;;;;x
+bureaucracy_efficiency_1;Average Bureaucratic Efficiency;;;;;;;;;;;;;x
+bureaucracy_efficiency_1_option;Average;;;;;;;;;;;;;x
+bureaucracy_efficiency_1_desc;The bureaucracy is performing as it is supposed to.;;;;;;;;;;;;;x
+bureaucracy_efficiency_2;High Bureaucratic Efficiency;;;;;;;;;;;;;x
+bureaucracy_efficiency_2_option;High;;;;;;;;;;;;;x
+bureaucracy_efficiency_2_desc;The bureaucracy runs with a great efficiency.;;;;;;;;;;;;;x
+
+###########Buildings###########
+
+fk_mansion_1;Small Palace;;;;;;;;;;;;;x
+fk_mansion_2;Minor Palace;;;;;;;;;;;;;x
+fk_mansion_3;Palace;;;;;;;;;;;;;x
+fk_mansion_4;Grand Palace;;;;;;;;;;;;;x
+fk_barracks_1;Guard Barracks;;;;;;;;;;;;;x
+fk_barracks_2;Swordsmith;;;;;;;;;;;;;x
+fk_barracks_3;Armory;;;;;;;;;;;;;x
+fk_stable_1;Small Stable;;;;;;;;;;;;;x
+fk_stable_2;Riding Grounds;;;;;;;;;;;;;x
+fk_stable_3;Horse Breeder;;;;;;;;;;;;;x
+fk_bowyer_1;Bowyer;;;;;;;;;;;;;x
+fk_bowyer_2;Target Range;;;;;;;;;;;;;x
+fk_bowyer_3;Crossbow Workshop;;;;;;;;;;;;;x
+fk_shipyard_1;Map Room;;;;;;;;;;;;;x
+fk_shipyard_2;Private Shipyard;;;;;;;;;;;;;x
+fk_shipyard_3;Naval Arsenal;;;;;;;;;;;;;x
+fk_warehouse_1;Military Warehouse;;;;;;;;;;;;;;x
+fk_warehouse_2;Palace Archive;;;;;;;;;;;;;x
+fk_warehouse_3;Administrative Office;;;;;;;;;;;;;x
+fk_garden_1;Palace Garden;;;;;;;;;;;;;x
+fk_garden_2;Scenic Pond;;;;;;;;;;;;;x
+fk_garden_3;Hedge Maze;;;;;;;;;;;;;x
+fk_cellar_1;Wine Cellar;;;;;;;;;;;;;x
+fk_cellar_2;Catacombs;;;;;;;;;;;;;x
+fk_cellar_3;Dungeon Complex;;;;;;;;;;;;;x
+fk_shrine_1;Secluded Shrine;;;;;;;;;;;;;x
+fk_shrine_2;Private Art Collection;;;;;;;;;;;;;x
+fk_shrine_3;Grand Library;;;;;;;;;;;;;x
+fk_vault_1;Fortified Vault;;;;;;;;;;;;;x
+fk_vault_2;Secret Passages;;;;;;;;;;;;;x
+fk_vault_3;Hidden Chamber;;;;;;;;;;;;;x
+fk_mansion_1_desc;This palace has belonged to this family for generations, and although it may not look very impressive, it has all the comforts of home.;;;;;;;;;;;;;x
+fk_mansion_2_desc;This palace is impressive enough to command the respect of the surrounding countryside. It is clearly the home of someone important.;;;;;;;;;;;;;x
+fk_mansion_3_desc;A palace fit for a king, its shining towers can be seen from a league away on a clear day. Though it may only consist of brick and mortar, it is the beating heart of this entire realm.;;;;;;;;;;;;;x
+fk_mansion_4_desc;Truly, the splendor of this palace would be the envy of even the gods. Its great halls shine of gold and marble, and hundreds of servants scurry through them daily in service of their masters. It is nothing less than a monument to the greatness of this realm.;;;;;;;;;;;;;x
+fk_barracks_1_desc;The realm's household guards are lodged within these simple barracks. They are crowded and unsanitary, but provide decent protection against the elements.;;;;;;;;;;;;;x
+fk_barracks_2_desc;An industrious swordsmith has opened up a forge in the palace courtyard. This will make it easier to equip new recruits with weapons.;;;;;;;;;;;;;x
+fk_stable_1_desc;This small stable just outside the palace walls reeks of hay and manure. It holds the horses of the guard, as well as those of any visitors.;;;;;;;;;;;;;x
+fk_stable_2_desc;Several large fields just outside the palace have been graciously "donated" by local farmers and set aside as riding grounds. Here the fighting men can practise the art of war on horseback.;;;;;;;;;;;;;x
+fk_stable_3_desc;A horse breeder has set up shop in the vicinity of the palace. The large pens can hold hundreds of animals, and ensure a steady supply of mounts for forces raised locally.;;;;;;;;;;;;;x
+fk_bowyer_1_desc;A skilled bowyer has set up his small workshop inside the palace courtyard. Here he can make new bows or repair broken ones as needed.;;;;;;;;;;;;;x
+fk_bowyer_2_desc;This target range lets the men practise their archery. There are several targets positioned at different distances, but as yet, no one has managed to split another's arrow.;;;;;;;;;;;;;x
+fk_bowyer_3_desc;TThis workshop ensures a steady supply of accurate and sturdy bows.;;;;;;;;;;;;;x
+fk_shipyard_1_desc;A small shipyard containing a minor fleet of ships and barges is stationed right outside the palace.;;;;;;;;;;;;;x
+fk_shipyard_2_desc;This large shipyard is located along the coast. Skilled shipwrights stand ready to build trade galleys.;;;;;;;;;;;;;x
+fk_shipyard_3_desc;This naval arsenal is located along the coast. It is a huge complex that has everything needed to assemble and man an entire fleet.;;;;;;;;;;;;;x
+fk_warehouse_1_desc;A large warehouse containing all the supplies necessary to field a military force, whether it be an army or a fleet.;;;;;;;;;;;;;x
+fk_warehouse_2_desc;It is easy to get lost in this colossal archive housed entirely within the palace. It holds documents and records of all realm assets, from ships and buildings down to individual soldiers and clerks.;;;;;;;;;;;;;x
+fk_warehouse_3_desc;This office deep within the palace acts as the nerve center of the entire empire. Here clerks and officials oversee the day-to-day affairs of trade negotiations and fleet deployments.;;;;;;;;;;;;;x
+fk_garden_1_desc;A large and impressive garden filled with the manifold wonders of nature. This tranquil environment is ideal for moments of quiet reflection.;;;;;;;;;;;;;x
+fk_garden_2_desc;This scenic pond, often frequented by swans, is the centerpiece of the palace garden. A small fountain in its middle sprays water into the air while fish can be glimpsed just beneath the surface.;;;;;;;;;;;;;x
+fk_garden_3_desc;No self-respecting garden is complete without one. This intricate hedge maze delights visitors, and many dignitaries have spent hours navigating its twisting paths.;;;;;;;;;;;;;x
+fk_cellar_1_desc;A well-stocked wine cellar is an absolute must for any person of rank, and this one certainly doesn't disappoint. Some of the wines stored here date back decades.;;;;;;;;;;;;;x
+fk_cellar_2_desc;These catacombs located far beneath the palace contain the dynastic tombs. Here countless generations dating back centuries are joined in eternal slumber. May they rest in peace.;;;;;;;;;;;;;x
+fk_cellar_3_desc;This vast complex of dungeons is hidden away deep enough below the palace to block the cries of its unfortunate inhabitants. Every imaginable instrument of torture can be found within these cold and dark chambers.;;;;;;;;;;;;;x
+fk_shrine_1_desc;A secluded shrine hidden away in a quiet wing of the palace. Here men and women can spend their time in prayer and introspective soul-searching.;;;;;;;;;;;;;x
+fk_shrine_2_desc;This gallery occupies a large chamber in one of the palace wings, and it contains all works of art accumulated by members of this dynasty over the years.;;;;;;;;;;;;;x
+fk_shrine_3_desc;A huge library containing all sorts of dusty old tomes collected and purchased from all over the known world by members of this dynasty. They are in many different languages and no person alive has read them all, but at least here they will be protected for posterity.;;;;;;;;;;;;;x
+fk_vault_1_desc;This fortified vault deep within the palace is where the dynasty keeps all of their treasures collected over the years. Only the head of the dynasty has access to the vault keys, but the stories of piles upon piles of golden coins, deep enough for a man to dive around in like a porpoise, or burrow through like a gopher, must surely be false.;;;;;;;;;;;;;x
+fk_vault_2_desc;These secret passages run through the entire palace, and enable those in the know to quickly move from one end to the other without being seen. By pulling on the right candelabrum, an unassuming bookshelf or a lit fireplace might slide open. Perfect for escaping would-be assassins or awkward social gatherings.;;;;;;;;;;;;;x
+fk_vault_3_desc;This hidden chamber inside the palace can only be reached through one of the secret passages, and even then several special keys are required. It serves as a well-protected retreat for the head of the dynasty, where he or she can safely plot the conquest of the world without irritating distractions.;;;;;;;;;;;;;x
+
+###########Religions###########
+bnai_avraham;B'nei Avraham;;;;;;;;;;;;;x
+
+berith;B'rith;;;;;;;;;;;;;x
+berith_DESC;“Blessed are you, Adonai Eloheinu, King of the universe.”\n\nIt was in the dust of the heathen streets of Ur that Avraham ben Tera heard the voice of the One God. At His command Avraham braved hardship and war leading his household into Canaan, where he received the instructions for the Covenant. Out of his loins will come a great nation it is said, and now the sons of his grandson Yisra'el bin Yitzhak have become an extended family of twelve tribes. Under the leadership of Moshe they defied the Kings of Mizrayim and were instructed by him in the Law. Their priests are usually drawn from the Tribe of Levi, and their duties include ritual animal sacrifice and the smearing of blood in atonement for sins.;;;;;;;;;;;;;x
+
+bnai_kenaan;B'nei Kenaan;;;;;;;;;;;;;x
+
+edomite_religion;Kat Qaws;;;;;;;;;;;;;x
+edomite_religion_DESC;The men of Edom are not wholly sons of Kenaan, but are indeed kin to the Yisraelim. These sons of Esau have turned to idolatry and nearly forgotten the covenant of their father Avraham ben Terah. They do however retain the practice of circumcision and name El Shaddai among the gods worthy of veneration. Qaws is their patron god, the archer who gleams forth in the desert and hunts his foes like the lion hunts the antelope. Qaws is also worshiped by the Nabatu and others of the Banu Yishma'el under the name “Quzah”.;;;;;;;;;;;;;x
+edomite_religion_FEATURES;§Y*§! [kat_qaws.GetName] rulers may contact the gods Qaws, 'El, Ba'al Hadad, and Asherah.\n;;;;;;;;;;;;;x
+
+canaanite_religion;Kat Elohim;;;;;;;;;;;;;x
+canaanite_religion_DESC;The fertile westlands of Kenaan are home to a unique blend of gods and heroes. The creator and gray-haired father of the Elohim is El “The Bull” who rules from his tent atop mount Sappan and instructs his children and servants alongside his consort Asherah. Ba’al Hadad son of Dagon holds lightning in the palm of his hand and brings the summer rains, in the youth of the world he challenged wicked Yam of the sea and defeated the coiling serpent Litanu. Fiery Molek fumes and demands offerings from his followers and grants them boons of health and herds. Each city and king tends to have a particular patron from among the pantheon.;;;;;;;;;;;;;x
+canaanite_religion_FEATURES;§Y*§! [kat_elohim.GetName] rulers may contact the gods 'El, Ba'al Hadad, Asherah, and Resheph.\n;;;;;;;;;;;;;x
+
+ili_abinia;Ili Abinia;;;;;;;;;;;;;x
+ili_abinia_DESC;The traditions and cults of the Amurru, a tall, brash, and ancient people of mountain and pasture. They ruled as Kings and Princes over the Akkadi and Sumeru for 500 years and carried their gods with them on the backs of their furious chariots. The old gods of their forefathers have been preserved outside of Akkadi in the plains and deserts of the westlands. At the head of the host of Hosts is El Amurru, god of the high mountains and desert wind who leads the familiar host of the gods of Kenaan and Akkadi. Belet-Seri is his wife and queen of the desert, and Ba’al Hadad the Thunderer is his regent.;;;;;;;;;;;;;x
+
+mesopotamian;Mesopotamian;;;;;;;;;;;;;x
+
+egal_assur;Egal Assur;;;;;;;;;;;;;x
+egal_assur_DESC;Assur is proclaimed to be the The Lord of All Heaven by the people of his city. For almost a thousand years the people of Assur have believed in the superiority of their god over the southern gods Marduk and Enlil. While the south fell to the half-beast Amurru and Kassu dogs, the sons of Assur preserved their freedom and supremacy. The Sarsarannu rules as regent for Assur and is the supreme authority in secular and eclesiastical matters and must prove his worth to the priesthood in the heat of battle. Assur is the hunter, first among his godly brethren and the slayer of lions and taker of pelts. His enemies should perhaps fear for their own skins...;;;;;;;;;;;;;x
+
+pihassasi;Pihassasi;;;;;;;;;;;;;x
+
+ishalitethai;Šiuwasa;;;;;;;;;;;;;x
+ishalitethai_DESC;The Nešili took up the mantle of the peoples they conquered and thereafter called themselves heirs to Hatti. Their gods still have the fierce air of the chariot and the steppe about them, every city and village swears itself to a different god of thunder and celebrates the defeat of the serpent Illuyanka every spring. The Great King of the Hatti is called “Our Sun” by his subjects who believe that his power on earth is drawn from the stormgod Tarhunna and his queen Arinniti of the sun. Tarhunna was of the Nešili, and Arinniti of the Old Hatti. Their marriage symbolized the union of two great nations and reflects the dual ancestry of the inhabitants of Hatti. At his investiture the Sallihassu of Hattussa symbolically marries the Sun and is proclaimed High Priest and Regent of the gods.;;;;;;;;;;;;;x
+ishalitethai_FEATURES;§Y*§! [ishalitethai.GetName] rulers may contact the gods Tarhunna, Arinniti, and Telipinu.\n§Y*§! [ishalitethai.GetName] rulers may raid others for piety.\n;;;;;;;;;;;;;x
+
+haianiluwi;Luwilihaiani;;;;;;;;;;;;;x
+haianiluwi_DESC;The Luwili traditions and gods are kin to their Nešili cousins. Tarhunna the Thunderer brings the summer rains and fattens the kine, and from the haft of his axe hangs great bunches of grapes and vines. Freemen pray to him in their huts for golden grain and friendly weather while princes and chieftains pray in loud shouts to heaven on the fields of a chariot filled battle. Mount Korikos is believed to be the site of the Dracomachy where Tarhunna and Tiwaz the Father-Sun slew the great Serpent to win back Tarhunna’s stolen eyes and heart. The festival of Puruli is held in spring to celebrate the death of the dragon and triumph of the gods.;;;;;;;;;;;;;x
+haianiluwi_FEATURES;§Y*§! [haianiluwi.GetName] rulers may contact the gods Tarhunna and Telipinu.\n;;;;;;;;;;;;;x
+
+hellenic;Hellenic;;;;;;;;;;;;;x
+
+pantes_theoi;Pantes Theoi;;;;;;;;;;;;;x
+pantes_theoi_DESC;"...and the earth groaned beneath them as at the wrath of Zeus whose joy is in the thunder, when he lasheth the earth about Typhoeus in the country of the Arimoi...” Aegis-bearing Zeus reprimands and punishes his celestial and mortal children with hideous swears and flaming darts of lightning while his jealous seaward brother causes the land to roll and shudder like the waves of the wine-dark sea. The goddesses are just as fearsome as their brothers and husbands. Cow-eyed Here brings both comfort and pain to men and women and Artemis pierces the hearts of woodsmen with silver-tipped arrows of horn.;;;;;;;;;;;;;x
+pantes_theoi_FEATURES;§Y*§! [pantes_theoi.GetName] rulers may contact the gods Zeus, Ares, Athenâ, Demeter, Apollon, Hermes, and Aphrodite.\n;;;;;;;;;;;;;x
+
+assussani;Ahhiyawahaiani;;;;;;;;;;;;;x
+assussani_DESC;Over the briny Aigaios came the wide-ruling gods of the tireless Danaoi. Salt-soaked oars and swift-turning chariot wheels carry the warriors and kings of Assuwa across the land, ever searching for wealth or land to raise up proud well-walled cities and the blood drinking altars of gleaming temples. Theirs is the flashing helm, the stamping horse, and the high white walls of the unbreakable citadels. Gleaming Ziuš quarrels and reprimands his seething sons and daughters who glide down from the high mountain to interfere in the lives and ways of mortal men. Some say the doom of the Asu has already been decided by the gods...;;;;;;;;;;;;;x
+assussani_FEATURES;§Y*§! [assussani.GetName] rulers may contact the gods Zeus, Ares, Athenâ, Demeter, Apollon, Hermes, and Aphrodite.\n;;;;;;;;;;;;;x
+
+european_group;Europes;;;;;;;;;;;;;x
+
+dentudisas;Dentudisas;;;;;;;;;;;;;x
+dentudisas_DESC;Thrax’s sons are a ferocious and tempestuous lot, according to some they are the most numerous of all the peoples in the world. The clang of metal, the sweet sound of the war horn and the rattle of the javelin resound throughout the land while the moldering bones of ancient kings lay upon piles of weapons and treasure beneath high burial mounds. Sabázios the fair horseman gallops across the heavens and tramples the serpents under the sharp hooves of his steed. Woe to the enemies of Thrax, for when taken in battle they are almost always offered in sacrifice to battle-glad Pleistoros.;;;;;;;;;;;;;x
+dentudisas_FEATURES;§Y*§! [dentudisas.GetName] rulers may contact the gods Sabázios, Pleistoros, and Derzelas.\n§Y*§! Dentudisas rulers may sacrifice captured commanders to Pleistoros\n;;;;;;;;;;;;;x
+
+doumos;Doumos;;;;;;;;;;;;;x
+doumos_FEATURES;§Y*§! [Doumos.GetName] rulers may contact the gods Sabázios and Kubeleya.\n;;;;;;;;;;;;;x
+
+kemetic;Iru ni Kemet;;;;;;;;;;;;;x
+
+maat;Ma'at;;;;;;;;;;;;;x
+
+atenism;Iru en Aten;;;;;;;;;;;;;x
+
+noreligion;The Eternal Darkness;;;;;;;;;;;;;x
+noreligion_DESC;PLEASE REPORT THIS IF YOU SEE IT\nFrom the time even before the creation of the World and its Celestial Shroud of Stars and Gods that illuminate, lies the dark expanse of the endless oceans. Everlasting, Unchanging, the embodiment of the Primordial forces of Chaos. Even the so-called Chaos Gods from Apep the Serpent and Tiamat the Winged Mistress fear the deepest shadows of the One that pre-date all. It is said that those that know the name of it were driven to madness, others worship its wicked snarl, but what it most troubling is that it is said that the soil of this world was once consumed in its bosom of sacrilege. Most troubling yet even among the "Higher Planes" It is rumored to linger in the shadow of the divine... waiting as it has for since before the spark and when the last light flicker out to take all in its eternal expanse.;;;;;;;;;;;;;x
+
+###########Gods and Books###########
+THE_AMURRU_KTOVET;The Amurru K'tovet;;;;;;;;;;;;;x
+THE_BAAL_KTOVET;The Ba’al K'tovet;;;;;;;;;;;;;x
+THE_EPE;The Epe;;;;;;;;;;;;;x
+THE_LUWIAN_ISTANDANT;The Luwian Istandant;;;;;;;;;;;;;x
+THE_NESILI_ISTANDANT;The Nešili Istandant;;;;;;;;;;;;;x
+THE_SCROLLS;The Shefedu'u;;;;;;;;;;;;;x
+THE_SURAS_LEGENDS;The Suras' Legends;;;;;;;;;;;;;x
+THE_TORAH;The Torah;;;;;;;;;;;;;x
+THE_QAWS_KTOVET;The Qaws K'tovet;;;;;;;;;;;;;x
+WITIOS;Witios;;;;;;;;;;;;;x #From Phrygian wit- (to know), and tios (gods)
+
+GOD_ADONAI;Adonai;;;;;;;;;;;;;x
+GOD_AMURRU;Amurru El;;;;;;;;;;;;;x
+GOD_APARADITI;Aparaditi;;;;;;;;;;;;;x
+GOD_APEP;Apep;;;;;;;;;;;;;x
+GOD_APOLLON;Apollon;;;;;;;;;;;;;x
+GOD_APHRODITE;Aphrodite;;;;;;;;;;;;;x
+GOD_APPALIUNAS;Appaliunaš;;;;;;;;;;;;;x
+GOD_AMUN;Amun;;;;;;;;;;;;;x
+GOD_AMUN_RA;Amun-Ra;;;;;;;;;;;;;x
+GOD_ARES;Ares;;;;;;;;;;;;;x
+GOD_ARINNITI;Arinniti;;;;;;;;;;;;;x
+GOD_ARMA;Arma;;;;;;;;;;;;;x
+GOD_ARTEMIS;Artemis;;;;;;;;;;;;;x
+GOD_ARTEMISU;Artemišu;;;;;;;;;;;;;x
+GOD_ASET;Aset;;;;;;;;;;;;;x
+GOD_ASHERAH;Asherah;;;;;;;;;;;;;x
+GOD_ASSUR;Assur;;;;;;;;;;;;;x
+GOD_ATEN;Aten;;;;;;;;;;;;;x
+GOD_ATHENE;Athenâ;;;;;;;;;;;;;x
+GOD_ATINA;Atina;;;;;;;;;;;;;x
+GOD_BAAL;Ba'al;;;;;;;;;;;;;x
+GOD_BAAL_HADAD;Ba'al Hadad;;;;;;;;;;;;;x
+GOD_BASSAREOS;Bassareos;;;;;;;;;;;;;x
+GOD_BENDIS;Bendis;;;;;;;;;;;;;x
+GOD_DAGON;Dagon;;;;;;;;;;;;;x
+GOD_DEMETER;Demeter;;;;;;;;;;;;;x
+GOD_DEMETERA;Demetera;;;;;;;;;;;;;x
+GOD_DERZELAS;Derzelas;;;;;;;;;;;;;x
+GOD_DIONUSOS;Dionusos;;;;;;;;;;;;;x
+GOD_DIUNNUSU;Diunnušu;;;;;;;;;;;;;x
+GOD_DJEHUTI;Djehuti;;;;;;;;;;;;;x
+GOD_ERRA;Erra;;;;;;;;;;;;;x
+GOD_EL;El;;;;;;;;;;;;;x
+GOD_ELOHIM;Elohim;;;;;;;;;;;;;x
+GOD_EL_SHADDAI;El Shaddai;;;;;;;;;;;;;x
+GOD_ELYON;Elyon;;;;;;;;;;;;;x
+GOD_ERIS;Eris;;;;;;;;;;;;;x
+GOD_GEBELEXIS;Gebelexis;;;;;;;;;;;;;x
+GOD_GOD;God;;;;;;;;;;;;;x
+GOD_HAPASATUSU;Hapašatušu;;;;;;;;;;;;;x
+GOD_HAPHAISTOS;Haphaistos;;;;;;;;;;;;;x
+GOD_HASHEM;HaShem;;;;;;;;;;;;;x
+GOD_HERE;Here;;;;;;;;;;;;;x
+GOD_HEMESU;Hemešu;;;;;;;;;;;;;x
+GOD_HERMES;Hermes;;;;;;;;;;;;;x
+GOD_HOR;Hor;;;;;;;;;;;;;x
+GOD_HUTHOR;Hut-hor;;;;;;;;;;;;;x
+GOD_ILLUYANKA;Illuyanka;;;;;;;;;;;;;x
+GOD_ISFET;Isfet;;;;;;;;;;;;;x
+GOD_ISHTAR;Ishtar;;;;;;;;;;;;;x
+GOD_LAMASHTU;Lamashtu;;;;;;;;;;;;;x
+GOD_LITANU;Litanu;;;;;;;;;;;;;x
+GOD_KOTYS;Kotys;;;;;;;;;;;;;x
+GOD_KRONOS;Kronos;;;;;;;;;;;;;x
+GOD_KUBELEYA;Kubeleya;;;;;;;;;;;;;x
+GOD_MANAT;Manat;;;;;;;;;;;;;x
+GOD_MARDUK;Marduk;;;;;;;;;;;;;x
+GOD_MOLEK;Molek;;;;;;;;;;;;;x
+GOD_MOT;Mot;;;;;;;;;;;;;x
+GOD_NASU;Nasu;;;;;;;;;;;;;x
+GOD_PESEDAEN;Pešedaen;;;;;;;;;;;;;x
+GOD_PLEISTOROS;Pleistoros;;;;;;;;;;;;;x
+GOD_POSEIDAON;Poseidaon;;;;;;;;;;;;;x
+GOD_PTAH;Ptah;;;;;;;;;;;;;x
+GOD_QAWS;Qaws;;;;;;;;;;;;;x
+GOD_RA;Ra;;;;;;;;;;;;;x
+GOD_RESHEPH;Resheph;;;;;;;;;;;;;x
+GOD_SABAZIOS;Sabázios;;;;;;;;;;;;;x
+GOD_SHAMASH;Shamash;;;;;;;;;;;;;x
+GOD_SHANTA;Shanta;;;;;;;;;;;;;x
+GOD_SARRUMA;Šarruma;;;;;;;;;;;;;x
+GOD_SIN;Sin;;;;;;;;;;;;;x
+GOD_TAKNASDUTU;Taknasdutu;;;;;;;;;;;;;x
+GOD_TARHUNNA;Tarhunna;;;;;;;;;;;;;x
+GOD_TELIPINU;Telipinu;;;;;;;;;;;;;x
+GOD_THE_LORD;The Lord;;;;;;;;;;;;;x
+GOD_TIWAZ;Tiwaz;;;;;;;;;;;;;x
+GOD_TORU_EL;Toru El;;;;;;;;;;;;;x
+GOD_TYPHOEUS;Typhoeus;;;;;;;;;;;;;x
+GOD_YAM;Yam;;;;;;;;;;;;;x
+GOD_WESIR;Wesir;;;;;;;;;;;;;x
+GOD_ZBELSURDOS;Zbelsurdos;;;;;;;;;;;;;x
+GOD_ZEMELA;Zemela;;;;;;;;;;;;;x
+GOD_ZEUS;Zeus;;;;;;;;;;;;;x
+GOD_ZIUS;Ziuš;;;;;;;;;;;;;x
+GOD_ZUML;Zuml;;;;;;;;;;;;;x
+
+KOHEN;kohen;;;;;;;;;;;;;x
+SANKUNNI;sankunni;;;;;;;;;;;;;x
+HIEREUS;hiereús;;;;;;;;;;;;;x
+ALU;alu;;;;;;;;;;;;;x
+HEM_NETJER;hem netjer;;;;;;;;;;;;;x
+
+###########Fluvial Kings Casus Belli###########
+CB_NAME_HELLENIC_BIRTHRIGHT;Divine Birthright War for [Title.GetBaseName];;;;;;;;;;;;;x
+WAR_NAME_HELLENIC_BIRTHRIGHT;$ORDER$ Divine Birthright War for $OTHER_TITLE$;;;;;;;;;;;;;x
+
+CB_NAME_FK_CONQUEST;Conquest War for [Title.GetBaseName];;;;;;;;;;;;;x
+WAR_NAME_FK_CONQUEST;$ORDER$ Conquest War for $OTHER_TITLE$;;;;;;;;;;;;;x
+fk_conquest_desc;Rulers can conquer a duchy without any specific reason.;;;;;;;;;;;;;x
+
+CB_NAME_FK_COUNTY_CONQUEST;County Conquest War for [Title.GetBaseName];;;;;;;;;;;;;x
+WAR_NAME_FK_COUNTY_CONQUEST;$ORDER$ County Conquest War for $OTHER_TITLE$;;;;;;;;;;;;;x
+fk_county_conquest_desc;Rulers can conquer single border counties without any specific reason.;;;;;;;;;;;;;x
+
+has_not_conquered_in_five_years_TT;Has not conquered in five years;;;;;;;;;;;;;x
+has_not_conquered_recently_TT;Has not conquered recently.;;;;;;;;;;;;;x
+
+conquer_cooldown;Conquest Cooldown;;;;;;;;;;;;;x
+
+CB_NAME_TRIBUTARY_LEAGUE;Force League Treaty;;;;;;;;;;;;;x
+tributary_league_cb_desc;Poleis can force other poleis to become a league city.;;;;;;;;;;;;;x
+WAR_NAME_TRIBUTARY_LEAGUE;$ORDER$$FIRST_ADJ$ War to Make $DEFENDER$ a League City;;;;;;;;;;;;;x
+
+CB_NAME_DISMANTLE_LEAGUE;Dismantle League;;;;;;;;;;;;;x
+dismantle_league_cb;Poleis can force another polis to dismantle their league.;;;;;;;;;;;;;x
+WAR_NAME_DISMANTLE_LEAGUE;$ORDER$$FIRST_ADJ$ War to Make $DEFENDER$ a Dismantle League;;;;;;;;;;;;;x
+dismantle_league_TT;Free all league cities;;;;;;;;;;;;;x
+
+CB_NAME_TROJAN_WAR;Trojan War;;;;;;;;;;;;;x
+WAR_NAME_TROJAN_WAR;Trojan War;;;;;;;;;;;;;x
+
+CB_NAME_DORIAN_INVASION;[dorian.GetName] Invasion;;;;;;;;;;;;;x
+WAR_NAME_DORIAN_INVASION;[dorian.GetName] Invasion;;;;;;;;;;;;;x
+
+CB_NAME_THESSALIAN_INVASION;[thessalian.GetName] Invasion;;;;;;;;;;;;;x
+WAR_NAME_THESSALIAN_INVASION;[thessalian.GetName] Invasion of $OTHER_TITLE$;;;;;;;;;;;;;x
+
+CB_NAME_KASKIAN_INVASION;[kaskian.GetName] Invasion;;;;;;;;;;;;;x
+WAR_NAME_KASKIAN_INVASION;[kaskian.GetName] Invasion;;;;;;;;;;;;;x
+
+CB_NAME_PHRYGIAN_INVASION;[phrygian.GetName] Invasion;;;;;;;;;;;;;x
+WAR_NAME_PHRYGIAN_INVASION;$ORDER$ [phrygian.GetName] Invasion of $OTHER_TITLE$;;;;;;;;;;;;;x
+not_invaded_twice_TT;Has not used the [phrygian.GetName] Invasion Casus Belli twice;;;;;;;;;;;;;x
+
+CB_NAME_GREEK_REVOLT;[hellene.GetName] Revolt;;;;;;;;;;;;;x
+WAR_NAME_GREEK_REVOLT;[hellene.GetName] Revolt of $OTHER_TITLE$;;;;;;;;;;;;;x
+
+###########Bloodline Localization###########
+god_zeus_bloodline;Blood of Zeus;;;;;;;;;;;;;x
+god_zeus_bloodline_desc;"...but the son of Kronos, even Zeus that beareth the aegis, hath brought sorrows upon me, in that he casteth me into the midst of fruitless strifes and wranglings.";;;;;;;;;;;;;x
+god_poseidaon_bloodline;Blood of Poseidaon;;;;;;;;;;;;;x
+god_poseidaon_bloodline_desc;"...striding forth with swift footsteps, and the high mountains trembled beneath the immortal feet of Poseidaon as he went.";;;;;;;;;;;;;x
+god_ares_bloodline;Blood of Ares;;;;;;;;;;;;;x
+god_ares_bloodline_desc;“Ares, Ares, thou bane of mortals, thou blood-stained stormer of walls, wilt thou not now enter into the battle...";;;;;;;;;;;;;x
+heracles_bloodline;Blood of Herakles;;;;;;;;;;;;;x
+heracles_bloodline_desc;"I see the children of Herakles who was erst so great, clad in the vesture of the grave, and his loving wife dragging her babes along at her side...";;;;;;;;;;;;;x
+heroic_bloodline_hellenic;Blood of [This.Founder.GetFirstNameWithNick];;;;;;;;;;;;;x
+heroic_bloodline_hellenic_desc;A hero with the power invested in [This.Founder.GetHerHim] by the gods themselves, their descendants command respect, and their legacy commands adoration.;;;;;;;;;;;;;x
+
+###########Titles###########
+d_berith;High Priesthood;;;;;;;;;;;;;x
+d_berith_adj;Priestly;;;;;;;;;;;;;x
+d_ili_abinia;High Amurru Priesthood;;;;;;;;;;;;;x
+d_ili_abinia_adj;Priestly;;;;;;;;;;;;;x
+d_haianiluwi;High Luwilihaiani Priesthood;;;;;;;;;;;;;x
+d_haianiluwi_adj;Priestly;;;;;;;;;;;;;x
+e_european_pantheon;Europes Pantheon;;;;;;;;;;;;;x
+e_canaanite_religion_pantheon;Kat Elohim Pantheon;;;;;;;;;;;;;x
+e_hellenic_pantheon;Hellenic Pantheon;;;;;;;;;;;;;x
+e_maat_pantheon;Ma'at Pantheon;;;;;;;;;;;;;x
+e_pihassasi_pantheon;Pihassasi Pantheon;;;;;;;;;;;;;x
+
+d_amazon;Amazons;;;;;;;;;;;;;x
+d_amazon_adj;Amazonios;;;;;;;;;;;;;x
+d_murmidones;Murmidónes;;;;;;;;;;;;;x
+d_murmidones_adj;Murmidónios;;;;;;;;;;;;;x
+
+d_herakleidae;Herakleîdai;;;;;;;;;;;;;x
+d_herakleidae_adj;Herakleios;;;;;;;;;;;;;x
+
+HERAKLEIDAE;Herakleîdai;;;;;;;;;;;;;x
+
+HIGH_GOD;High God;;;;;;;;;;;;;x
+HEAD_KOHEN_AMURRU;Kohen Amurru;;;;;;;;;;;;;x
+HEAD_KOHEN_GADOL;Kohen Gadol;;;;;;;;;;;;;x
+HEAD_SALLISANKUNI;Sallisankuni;;;;;;;;;;;;;x
+
+###########Title Localisation###########
+baron_hittite;Happira-Isha;;;;;;;;;;;;;x
+baron_female_hittite;Happira-Ishassara;;;;;;;;;;;;;x
+count_hittite;Isha;;;;;;;;;;;;;x
+count_female_hittite;Ishassara;;;;;;;;;;;;;x
+duke_hittite;Maniyahha;;;;;;;;;;;;;x
+duke_female_hittite;Maniyahhasara;;;;;;;;;;;;;x
+king_hittite;Hassu;;;;;;;;;;;;;x
+king_female_hittite;Hassusara;;;;;;;;;;;;;x
+emperor_hittite;Salihassu;;;;;;;;;;;;;x
+emperor_female_hittite;Nasusara;;;;;;;;;;;;;x
+tribal_baron_hittite;Hassatarisha;;;;;;;;;;;;;x
+tribal_baron_female_hittite;Hassatarishassara;;;;;;;;;;;;;x
+tribal_count_hittite;Isha;;;;;;;;;;;;;x
+tribal_count_female_hittite;Ishassara;;;;;;;;;;;;;x
+tribal_duke_hittite;Maniyahha;;;;;;;;;;;;;x
+tribal_duke_female_hittite;Maniyahhasara;;;;;;;;;;;;;x
+tribal_king_hittite;Hassu;;;;;;;;;;;;;x
+tribal_king_female_hittite;Hassusara;;;;;;;;;;;;;x
+tribal_emperor_hittite;Salihassu;;;;;;;;;;;;;x
+tribal_emperor_female_hittite;Nasusara;;;;;;;;;;;;;x
+
+baron_eneti;Happira-Isha;;;;;;;;;;;;;x
+baron_female_eneti;Happira-Ishassara;;;;;;;;;;;;;x
+count_eneti;Isha;;;;;;;;;;;;;x
+count_female_eneti;Ishassara;;;;;;;;;;;;;x
+duke_eneti;Maniyahha;;;;;;;;;;;;;x
+duke_female_eneti;Maniyahhasara;;;;;;;;;;;;;x
+king_eneti;Hassu;;;;;;;;;;;;;x
+king_female_eneti;Hassusara;;;;;;;;;;;;;x
+emperor_eneti;Salihassu;;;;;;;;;;;;;x
+emperor_female_eneti;Nasusara;;;;;;;;;;;;;x
+tribal_baron_eneti;Hassatarisha;;;;;;;;;;;;;x
+tribal_baron_female_eneti;Hassatarishassara;;;;;;;;;;;;;x
+tribal_count_eneti;Isha;;;;;;;;;;;;;x
+tribal_count_female_eneti;Ishassara;;;;;;;;;;;;;x
+tribal_duke_eneti;Maniyahha;;;;;;;;;;;;;x
+tribal_duke_female_eneti;Maniyahhasara;;;;;;;;;;;;;x
+tribal_king_eneti;Hassu;;;;;;;;;;;;;x
+tribal_king_female_eneti;Hassusara;;;;;;;;;;;;;x
+tribal_emperor_eneti;Salihassu;;;;;;;;;;;;;x
+tribal_emperor_female_eneti;Nasusara;;;;;;;;;;;;;x
+
+baron_luwian;Happira-Isha;;;;;;;;;;;;;x
+baron_female_luwian;Happira-Ishassara;;;;;;;;;;;;;x
+count_luwian;Isha;;;;;;;;;;;;;x
+count_female_luwian;Ishassara;;;;;;;;;;;;;x
+duke_luwian;Maniyahha;;;;;;;;;;;;;x
+duke_female_luwian;Maniyahhasara;;;;;;;;;;;;;x
+king_luwian;Hassu;;;;;;;;;;;;;x
+king_female_luwian;Hassusara;;;;;;;;;;;;;x
+emperor_luwian;Salihassu;;;;;;;;;;;;;x
+emperor_female_luwian;Nasusara;;;;;;;;;;;;;x
+title_prince_luwian;Harduwatt;;;;;;;;;;;;;x
+tribal_baron_luwian;Hassatarisha;;;;;;;;;;;;;x
+tribal_baron_female_luwian;Hassatarishassara;;;;;;;;;;;;;x
+tribal_count_luwian;Isha;;;;;;;;;;;;;x
+tribal_count_female_luwian;Ishassara;;;;;;;;;;;;;x
+tribal_duke_luwian;Maniyahha;;;;;;;;;;;;;x
+tribal_duke_female_luwian;Maniyahhasara;;;;;;;;;;;;;x
+tribal_king_luwian;Hassu;;;;;;;;;;;;;x
+tribal_king_female_luwian;Hassusara;;;;;;;;;;;;;x
+tribal_emperor_luwian;Salihassu;;;;;;;;;;;;;x
+tribal_emperor_female_luwian;Nasusara;;;;;;;;;;;;;x
+
+baron_wilusan;Happira-Isha;;;;;;;;;;;;;x
+baron_female_wilusan;Happira-Ishassara;;;;;;;;;;;;;x
+count_wilusan;Isha;;;;;;;;;;;;;x
+count_female_wilusan;Ishassara;;;;;;;;;;;;;x
+duke_wilusan;Maniyahha;;;;;;;;;;;;;x
+duke_female_wilusan;Maniyahhasara;;;;;;;;;;;;;x
+king_wilusan;Hassu;;;;;;;;;;;;;x
+king_female_wilusan;Hassusara;;;;;;;;;;;;;x
+emperor_wilusan;Salihassu;;;;;;;;;;;;;x
+emperor_female_wilusan;Nasusara;;;;;;;;;;;;;x
+tribal_baron_wilusan;Hassatarisha;;;;;;;;;;;;;x
+tribal_baron_female_wilusan;Hassatarishassara;;;;;;;;;;;;;x
+tribal_count_wilusan;Isha;;;;;;;;;;;;;x
+tribal_count_female_wilusan;Ishassara;;;;;;;;;;;;;x
+tribal_duke_wilusan;Maniyahha;;;;;;;;;;;;;x
+tribal_duke_female_wilusan;Maniyahhasara;;;;;;;;;;;;;x
+tribal_king_wilusan;Hassu;;;;;;;;;;;;;x
+tribal_king_female_wilusan;Hassusara;;;;;;;;;;;;;x
+tribal_emperor_wilusan;Salihassu;;;;;;;;;;;;;x
+tribal_emperor_female_wilusan;Nasusara;;;;;;;;;;;;;x
+
+baron_carian;Happira-Isha;;;;;;;;;;;;;x #placeholder
+baron_female_carian;Happira-Ishassara;;;;;;;;;;;;;x #placeholder
+count_carian;Isha;;;;;;;;;;;;;x #placeholder
+count_female_carian;Ishassara;;;;;;;;;;;;;x #placeholder
+duke_carian;Maniyahha;;;;;;;;;;;;;x #placeholder
+duke_female_carian;Maniyahhasara;;;;;;;;;;;;;x #placeholder
+king_carian;Gela;;;;;;;;;;;;;x 
+king_female_carian;Hassusara;;;;;;;;;;;;;x #placeholder
+emperor_carian;Salihassu;;;;;;;;;;;;;x #placeholder
+emperor_female_carian;Nasusara;;;;;;;;;;;;;x #placeholder
+tribal_baron_carian;Hassatarisha;;;;;;;;;;;;;x #placeholder
+tribal_baron_female_carian;Hassatarishassara;;;;;;;;;;;;;x #placeholder
+tribal_count_carian;Isha;;;;;;;;;;;;;x #placeholder
+tribal_count_female_carian;Ishassara;;;;;;;;;;;;;x #placeholder
+tribal_duke_carian;Maniyahha;;;;;;;;;;;;;x #placeholder
+tribal_duke_female_carian;Maniyahhasara;;;;;;;;;;;;;x #placeholder
+tribal_king_carian;Hassu;;;;;;;;;;;;;x #placeholder
+tribal_king_female_carian;Hassusara;;;;;;;;;;;;;x #placeholder
+tribal_emperor_carian;Salihassu;;;;;;;;;;;;;x #placeholder
+tribal_emperor_female_carian;Nasusara;;;;;;;;;;;;;x #placeholder
+
+baron_lycian;Happira-Isha;;;;;;;;;;;;;x #placeholder
+baron_female_lycian;Happira-Ishassara;;;;;;;;;;;;;x #placeholder
+count_lycian;Isha;;;;;;;;;;;;;x #placeholder
+count_female_lycian;Ishassara;;;;;;;;;;;;;x #placeholder
+duke_lycian;Maniyahha;;;;;;;;;;;;;x #placeholder
+duke_female_lycian;Maniyahhasara;;;;;;;;;;;;;x #placeholder
+king_lycian;Xñtawati;;;;;;;;;;;;;x
+king_female_lycian;Hassusara;;;;;;;;;;;;;x #placeholder
+emperor_lycian;Salihassu;;;;;;;;;;;;;x #placeholder
+emperor_female_lycian;Nasusara;;;;;;;;;;;;;x #placeholder
+tribal_baron_lycian;Hassatarisha;;;;;;;;;;;;;x #placeholder
+tribal_baron_female_lycian;Hassatarishassara;;;;;;;;;;;;;x #placeholder
+tribal_count_lycian;Isha;;;;;;;;;;;;;x #placeholder
+tribal_count_female_lycian;Ishassara;;;;;;;;;;;;;x #placeholder
+tribal_duke_lycian;Maniyahha;;;;;;;;;;;;;x #placeholder
+tribal_duke_female_lycian;Maniyahhasara;;;;;;;;;;;;;x #placeholder
+tribal_king_lycian;Hassu;;;;;;;;;;;;;x #placeholder
+tribal_king_female_lycian;Hassusara;;;;;;;;;;;;;x #placeholder
+tribal_emperor_lycian;Salihassu;;;;;;;;;;;;;x #placeholder
+tribal_emperor_female_lycian;Nasusara;;;;;;;;;;;;;x #placeholder
+
+barony_lydian;Aara;;;;;;;;;;;;;x
+barony_of_lydian;Aara of;;;;;;;;;;;;;x
+baron_lydian;Happira-Isha;;;;;;;;;;;;;x #placeholder
+baron_female_lydian;Happira-Ishassara;;;;;;;;;;;;;x #placeholder
+count_lydian;Isha;;;;;;;;;;;;;x #placeholder
+count_female_lydian;Ishassara;;;;;;;;;;;;;x #placeholder
+duke_lydian;Maniyahha;;;;;;;;;;;;;x #placeholder
+duke_female_lydian;Maniyahhasara;;;;;;;;;;;;;x #placeholder
+king_lydian;Qalmlus;;;;;;;;;;;;;x
+king_female_lydian;Hassusara;;;;;;;;;;;;;x #placeholder
+emperor_lydian;Salihassu;;;;;;;;;;;;;x #placeholder
+emperor_female_lydian;Nasusara;;;;;;;;;;;;;x #placeholder
+title_prince_lydian;Vsta;;;;;;;;;;;;;x
+tribal_baron_lydian;Hassatarisha;;;;;;;;;;;;;x #placeholder
+tribal_baron_female_lydian;Hassatarishassara;;;;;;;;;;;;;x #placeholder
+tribal_count_lydian;Isha;;;;;;;;;;;;;x #placeholder
+tribal_count_female_lydian;Ishassara;;;;;;;;;;;;;x #placeholder
+tribal_duke_lydian;Maniyahha;;;;;;;;;;;;;x #placeholder
+tribal_duke_female_lydian;Maniyahhasara;;;;;;;;;;;;;x #placeholder
+tribal_king_lydian;Hassu;;;;;;;;;;;;;x #placeholder
+tribal_king_female_lydian;Hassusara;;;;;;;;;;;;;x #placeholder
+tribal_emperor_lydian;Salihassu;;;;;;;;;;;;;x #placeholder
+tribal_emperor_female_lydian;Nasusara;;;;;;;;;;;;;x #placeholder
+
+county_achaean;Damos of;;;;;;;;;;;;;x
+county_of_achaean;Damos of;;;;;;;;;;;;;x
+count_achaean;Prokoreter;;;;;;;;;;;;;x
+count_female_achaean;Klawiphoros;;;;;;;;;;;;;x
+duke_achaean;Koreter;;;;;;;;;;;;;x
+duke_female_achaean;Koretera;;;;;;;;;;;;;x
+king_achaean;Basileos;;;;;;;;;;;;;x
+king_female_achaean;Basilissa;;;;;;;;;;;;;x
+emperor_achaean;Wanax;;;;;;;;;;;;;x
+emperor_female_achaean;Wanaxia;;;;;;;;;;;;;x
+job_spiritual_achaean;Lawagetas;;;;;;;;;;;;;x
+
+count_amazonian;Prokoreter;;;;;;;;;;;;;x
+count_female_amazonian;Klawiphoros;;;;;;;;;;;;;x
+duke_amazonian;Koreter;;;;;;;;;;;;;x
+duke_female_amazonian;Koretera;;;;;;;;;;;;;x
+king_amazonian;Basileos;;;;;;;;;;;;;x
+king_female_amazonian;Basilissa;;;;;;;;;;;;;x
+emperor_amazonian;Wanax;;;;;;;;;;;;;x
+emperor_female_amazonian;Wanaxia;;;;;;;;;;;;;x
+
+count_cretan;Prokoreter;;;;;;;;;;;;;x
+count_female_cretan;Klawiphoros;;;;;;;;;;;;;x
+duke_cretan;Koreter;;;;;;;;;;;;;x
+duke_female_cretan;Koretera;;;;;;;;;;;;;x
+king_cretan;Basileos;;;;;;;;;;;;;x
+king_female_cretan;Basilissa;;;;;;;;;;;;;x
+kingdom_of_acheaen;Témenos;;;;;;;;;;;;;x
+emperor_cretan;Wanax;;;;;;;;;;;;;x
+emperor_female_cretan;Wanaxia;;;;;;;;;;;;;x
+
+count_cypriot;Prokoreter;;;;;;;;;;;;;x
+count_female_cypriot;Klawiphoros;;;;;;;;;;;;;x
+duke_cypriot;Koreter;;;;;;;;;;;;;x
+duke_female_cypriot;Koretera;;;;;;;;;;;;;x
+king_cypriot;Basileos;;;;;;;;;;;;;x
+king_female_cypriot;Basilissa;;;;;;;;;;;;;x
+emperor_cypriot;Wanax;;;;;;;;;;;;;x
+emperor_female_cypriot;Wanaxia;;;;;;;;;;;;;x
+
+barony_aeolian;Phroúrion;;;;;;;;;;;;;x
+barony_of_aeolian;Phroúrion of;;;;;;;;;;;;;x
+baron_aeolian;Hegemon;;;;;;;;;;;;;x
+baron_aeolian_female;Hegemonia;;;;;;;;;;;;;x
+county_aeolian;Khora;;;;;;;;;;;;;x
+county_of_aeolian;Khora of;;;;;;;;;;;;;x
+count_aeolian;Despótes;;;;;;;;;;;;;x
+count_female_aeolian;Déspoina;;;;;;;;;;;;;x
+duchy_aeolian;Megále Khora of;;;;;;;;;;;;;x
+duchy_of_aeolian;Megále Khora of;;;;;;;;;;;;;x
+duke_aeolian;Arkhon;;;;;;;;;;;;;x
+duke_female_aeolian;Arkhousa;;;;;;;;;;;;;x
+kingdom_aeolian;Basileía;;;;;;;;;;;;;x
+kingdom_of_aeolian;Basileía of;;;;;;;;;;;;;x
+king_aeolian;Basileús;;;;;;;;;;;;;x
+king_female_aeolian;Basilissa;;;;;;;;;;;;;x
+empire_aeolian;Megále Basileía;;;;;;;;;;;;;x
+empire_of_aeolian;Megále Basileía of;;;;;;;;;;;;;x
+emperor_aeolian;Mégas Basileús;;;;;;;;;;;;;x
+emperor_female_aeolian;Megále Basileús;;;;;;;;;;;;;x
+city_barony_aeolian;Dêmos;;;;;;;;;;;;;x
+city_barony_of_aeolian;Dêmos of;;;;;;;;;;;;;x
+city_baron_aeolian;Demarkhos;;;;;;;;;;;;;x
+city_baron_aeolian_female;Demarkhos;;;;;;;;;;;;;x
+tribal_barony_aeolian;Phule;;;;;;;;;;;;;x
+tribal_barony_of_aeolian;Phule of;;;;;;;;;;;;;x
+tribal_baron_aeolian;Hegemon;;;;;;;;;;;;;x
+tribal_baron_aeolian_female;Hegemonia;;;;;;;;;;;;;x
+tribal_county_aeolian;Éthnos;;;;;;;;;;;;;x
+tribal_county_of_aeolian;Éthnos of;;;;;;;;;;;;;x
+tribal_count_aeolian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_count_female_aeolian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_duchy_aeolian;Méga Éthnos;;;;;;;;;;;;;x
+tribal_duchy_of_aeolian;Méga Éthnos of;;;;;;;;;;;;;x
+tribal_duke_aeolian;Mégas Ethnárkhes;;;;;;;;;;;;;x
+tribal_duke_female_aeolian;Megále Ethnárkhes;;;;;;;;;;;;;x
+tribal_kingdom_aeolian;Phuletiki Basileía;;;;;;;;;;;;;x
+tribal_kingdom_of_aeolian;Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_king_aeolian;Basilískos;;;;;;;;;;;;;x
+tribal_king_female_aeolian;Basilískos;;;;;;;;;;;;;x
+tribal_empire_aeolian;Megále Phuletiki Basileía;;;;;;;;;;;;;x
+tribal_empire_of_aeolian;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_emperor_aeolian;Mégas Basilískos;;;;;;;;;;;;;x
+tribal_emperor_female_aeolian;Megále Basilískos;;;;;;;;;;;;;x
+
+barony_arcadian;Phroúrion;;;;;;;;;;;;;x
+barony_of_arcadian;Phroúrion of;;;;;;;;;;;;;x
+baron_arcadian;Hegemon;;;;;;;;;;;;;x
+baron_arcadian_female;Hegemonia;;;;;;;;;;;;;x
+county_arcadian;Khora;;;;;;;;;;;;;x
+county_of_arcadian;Khora of;;;;;;;;;;;;;x
+count_arcadian;Despótes;;;;;;;;;;;;;x
+count_female_arcadian;Déspoina;;;;;;;;;;;;;x
+duchy_arcadian;Megále Khora of;;;;;;;;;;;;;x
+duchy_of_arcadian;Megále Khora of;;;;;;;;;;;;;x
+duke_arcadian;Arkhon;;;;;;;;;;;;;x
+duke_female_arcadian;Arkhousa;;;;;;;;;;;;;x
+kingdom_arcadian;Basileía;;;;;;;;;;;;;x
+kingdom_of_arcadian;Basileía of;;;;;;;;;;;;;x
+king_arcadian;Basileús;;;;;;;;;;;;;x
+king_female_arcadian;Basilissa;;;;;;;;;;;;;x
+empire_arcadian;Megále Basileía;;;;;;;;;;;;;x
+empire_of_arcadian;Megále Basileía of;;;;;;;;;;;;;x
+emperor_arcadian;Mégas Basileús;;;;;;;;;;;;;x
+emperor_female_arcadian;Megále Basileús;;;;;;;;;;;;;x
+city_barony_arcadian;Dêmos;;;;;;;;;;;;;x
+city_barony_of_arcadian;Dêmos of;;;;;;;;;;;;;x
+city_baron_arcadian;Demarkhos;;;;;;;;;;;;;x
+city_baron_arcadian_female;Demarkhos;;;;;;;;;;;;;x
+tribal_barony_arcadian;Phule;;;;;;;;;;;;;x
+tribal_barony_of_arcadian;Phule of;;;;;;;;;;;;;x
+tribal_baron_arcadian;Hegemon;;;;;;;;;;;;;x
+tribal_baron_arcadian_female;Hegemonia;;;;;;;;;;;;;x
+tribal_county_arcadian;Éthnos;;;;;;;;;;;;;x
+tribal_county_of_arcadian;Éthnos of;;;;;;;;;;;;;x
+tribal_count_arcadian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_count_female_arcadian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_duchy_arcadian;Méga Éthnos;;;;;;;;;;;;;x
+tribal_duchy_of_arcadian;Méga Éthnos of;;;;;;;;;;;;;x
+tribal_duke_arcadian;Mégas Ethnárkhes;;;;;;;;;;;;;x
+tribal_duke_female_arcadian;Megále Ethnárkhes;;;;;;;;;;;;;x
+tribal_kingdom_arcadian;Phuletiki Basileía;;;;;;;;;;;;;x
+tribal_kingdom_of_arcadian;Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_king_arcadian;Basilískos;;;;;;;;;;;;;x
+tribal_king_female_arcadian;Basilískos;;;;;;;;;;;;;x
+tribal_empire_arcadian;Megále Phuletiki Basileía;;;;;;;;;;;;;x
+tribal_empire_of_arcadian;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_emperor_arcadian;Mégas Basilískos;;;;;;;;;;;;;x
+tribal_emperor_female_arcadian;Megále Basilískos;;;;;;;;;;;;;x
+
+barony_cypriot_dorian;Phroúrion;;;;;;;;;;;;;x
+barony_of_cypriot_dorian;Phroúrion of;;;;;;;;;;;;;x
+baron_cypriot_dorian;Hegemon;;;;;;;;;;;;;x
+baron_cypriot_dorian_female;Hegemonia;;;;;;;;;;;;;x
+county_cypriot_dorian;Khora;;;;;;;;;;;;;x
+county_of_cypriot_dorian;Khora of;;;;;;;;;;;;;x
+count_cypriot_dorian;Despótes;;;;;;;;;;;;;x
+count_female_cypriot_dorian;Déspoina;;;;;;;;;;;;;x
+duchy_cypriot_dorian;Megále Khora of;;;;;;;;;;;;;x
+duchy_of_cypriot_dorian;Megále Khora of;;;;;;;;;;;;;x
+duke_cypriot_dorian;Arkhon;;;;;;;;;;;;;x
+duke_female_cypriot_dorian;Arkhousa;;;;;;;;;;;;;x
+kingdom_cypriot_dorian;Basileía;;;;;;;;;;;;;x
+kingdom_of_cypriot_dorian;Basileía of;;;;;;;;;;;;;x
+king_cypriot_dorian;Basileús;;;;;;;;;;;;;x
+king_female_cypriot_dorian;Basilissa;;;;;;;;;;;;;x
+empire_cypriot_dorian;Megále Basileía;;;;;;;;;;;;;x
+empire_of_cypriot_dorian;Megále Basileía of;;;;;;;;;;;;;x
+emperor_cypriot_dorian;Mégas Basileús;;;;;;;;;;;;;x
+emperor_female_cypriot_dorian;Megále Basileús;;;;;;;;;;;;;x
+city_barony_cypriot_dorian;Dêmos;;;;;;;;;;;;;x
+city_barony_of_cypriot_dorian;Dêmos of;;;;;;;;;;;;;x
+city_baron_cypriot_dorian;Demarkhos;;;;;;;;;;;;;x
+city_baron_cypriot_dorian_female;Demarkhos;;;;;;;;;;;;;x
+tribal_barony_cypriot_dorian;Phule;;;;;;;;;;;;;x
+tribal_barony_of_cypriot_dorian;Phule of;;;;;;;;;;;;;x
+tribal_baron_cypriot_dorian;Hegemon;;;;;;;;;;;;;x
+tribal_baron_cypriot_dorian_female;Hegemonia;;;;;;;;;;;;;x
+tribal_county_cypriot_dorian;Éthnos;;;;;;;;;;;;;x
+tribal_county_of_cypriot_dorian;Éthnos of;;;;;;;;;;;;;x
+tribal_count_cypriot_dorian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_count_female_cypriot_dorian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_duchy_cypriot_dorian;Méga Éthnos;;;;;;;;;;;;;x
+tribal_duchy_of_cypriot_dorian;Méga Éthnos of;;;;;;;;;;;;;x
+tribal_duke_cypriot_dorian;Mégas Ethnárkhes;;;;;;;;;;;;;x
+tribal_duke_female_cypriot_dorian;Megále Ethnárkhes;;;;;;;;;;;;;x
+tribal_kingdom_cypriot_dorian;Phuletiki Basileía;;;;;;;;;;;;;x
+tribal_kingdom_of_cypriot_dorian;Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_king_cypriot_dorian;Basilískos;;;;;;;;;;;;;x
+tribal_king_female_cypriot_dorian;Basilískos;;;;;;;;;;;;;x
+tribal_empire_cypriot_dorian;Megále Phuletiki Basileía;;;;;;;;;;;;;x
+tribal_empire_of_cypriot_dorian;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_emperor_cypriot_dorian;Mégas Basilískos;;;;;;;;;;;;;x
+tribal_emperor_female_cypriot_dorian;Megále Basilískos;;;;;;;;;;;;;x
+
+barony_dorian;Phroúrion;;;;;;;;;;;;;x
+barony_of_dorian;Phroúrion of;;;;;;;;;;;;;x
+baron_dorian;Hegemon;;;;;;;;;;;;;x
+baron_dorian_female;Hegemonia;;;;;;;;;;;;;x
+county_dorian;Khora;;;;;;;;;;;;;x
+county_of_dorian;Khora of;;;;;;;;;;;;;x
+count_dorian;Despótes;;;;;;;;;;;;;x
+count_female_dorian;Déspoina;;;;;;;;;;;;;x
+duchy_dorian;Megále Khora of;;;;;;;;;;;;;x
+duchy_of_dorian;Megále Khora of;;;;;;;;;;;;;x
+duke_dorian;Arkhon;;;;;;;;;;;;;x
+duke_female_dorian;Arkhousa;;;;;;;;;;;;;x
+kingdom_dorian;Basileía;;;;;;;;;;;;;x
+kingdom_of_dorian;Basileía of;;;;;;;;;;;;;x
+king_dorian;Basileús;;;;;;;;;;;;;x
+king_female_dorian;Basilissa;;;;;;;;;;;;;x
+empire_dorian;Megále Basileía;;;;;;;;;;;;;x
+empire_of_dorian;Megále Basileía of;;;;;;;;;;;;;x
+emperor_dorian;Mégas Basileús;;;;;;;;;;;;;x
+emperor_female_dorian;Megále Basileús;;;;;;;;;;;;;x
+city_barony_dorian;Dêmos;;;;;;;;;;;;;x
+city_barony_of_dorian;Dêmos of;;;;;;;;;;;;;x
+city_baron_dorian;Demarkhos;;;;;;;;;;;;;x
+city_baron_dorian_female;Demarkhos;;;;;;;;;;;;;x
+tribal_barony_dorian;Phule;;;;;;;;;;;;;x
+tribal_barony_of_dorian;Phule of;;;;;;;;;;;;;x
+tribal_baron_dorian;Hegemon;;;;;;;;;;;;;x
+tribal_baron_dorian_female;Hegemonia;;;;;;;;;;;;;x
+tribal_county_dorian;Éthnos;;;;;;;;;;;;;x
+tribal_county_of_dorian;Éthnos of;;;;;;;;;;;;;x
+tribal_count_dorian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_count_female_dorian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_duchy_dorian;Méga Éthnos;;;;;;;;;;;;;x
+tribal_duchy_of_dorian;Méga Éthnos of;;;;;;;;;;;;;x
+tribal_duke_dorian;Mégas Ethnárkhes;;;;;;;;;;;;;x
+tribal_duke_female_dorian;Megále Ethnárkhes;;;;;;;;;;;;;x
+tribal_kingdom_dorian;Phuletiki Basileía;;;;;;;;;;;;;x
+tribal_kingdom_of_dorian;Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_king_dorian;Basilískos;;;;;;;;;;;;;x
+tribal_king_female_dorian;Basilískos;;;;;;;;;;;;;x
+tribal_empire_dorian;Megále Phuletiki Basileía;;;;;;;;;;;;;x
+tribal_empire_of_dorian;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_emperor_dorian;Mégas Basilískos;;;;;;;;;;;;;x
+tribal_emperor_female_dorian;Megále Basilískos;;;;;;;;;;;;;x
+
+barony_ionian;Phroúrion;;;;;;;;;;;;;x
+barony_of_ionian;Phroúrion of;;;;;;;;;;;;;x
+baron_ionian;Hegemon;;;;;;;;;;;;;x
+baron_ionian_female;Hegemonia;;;;;;;;;;;;;x
+county_ionian;Khora;;;;;;;;;;;;;x
+county_of_ionian;Khora of;;;;;;;;;;;;;x
+count_ionian;Despótes;;;;;;;;;;;;;x
+count_female_ionian;Déspoina;;;;;;;;;;;;;x
+duchy_ionian;Megále Khora of;;;;;;;;;;;;;x
+duchy_of_ionian;Megále Khora of;;;;;;;;;;;;;x
+duke_ionian;Arkhon;;;;;;;;;;;;;x
+duke_female_ionian;Arkhousa;;;;;;;;;;;;;x
+kingdom_ionian;Basileía;;;;;;;;;;;;;x
+kingdom_of_ionian;Basileía of;;;;;;;;;;;;;x
+king_ionian;Basileús;;;;;;;;;;;;;x
+king_female_ionian;Basilissa;;;;;;;;;;;;;x
+empire_ionian;Megále Basileía;;;;;;;;;;;;;x
+empire_of_ionian;Megále Basileía of;;;;;;;;;;;;;x
+emperor_ionian;Mégas Basileús;;;;;;;;;;;;;x
+emperor_female_ionian;Megále Basileús;;;;;;;;;;;;;x
+city_barony_ionian;Dêmos;;;;;;;;;;;;;x
+city_barony_of_ionian;Dêmos of;;;;;;;;;;;;;x
+city_baron_ionian;Demarkhos;;;;;;;;;;;;;x
+city_baron_ionian_female;Demarkhos;;;;;;;;;;;;;x
+tribal_barony_ionian;Phule;;;;;;;;;;;;;x
+tribal_barony_of_ionian;Phule of;;;;;;;;;;;;;x
+tribal_baron_ionian;Hegemon;;;;;;;;;;;;;x
+tribal_baron_ionian_female;Hegemonia;;;;;;;;;;;;;x
+tribal_county_ionian;Éthnos;;;;;;;;;;;;;x
+tribal_county_of_ionian;Éthnos of;;;;;;;;;;;;;x
+tribal_count_ionian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_count_female_ionian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_duchy_ionian;Méga Éthnos;;;;;;;;;;;;;x
+tribal_duchy_of_ionian;Méga Éthnos of;;;;;;;;;;;;;x
+tribal_duke_ionian;Mégas Ethnárkhes;;;;;;;;;;;;;x
+tribal_duke_female_ionian;Megále Ethnárkhes;;;;;;;;;;;;;x
+tribal_kingdom_ionian;Phuletiki Basileía;;;;;;;;;;;;;x
+tribal_kingdom_of_ionian;Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_king_ionian;Basilískos;;;;;;;;;;;;;x
+tribal_king_female_ionian;Basilískos;;;;;;;;;;;;;x
+tribal_empire_ionian;Megále Phuletiki Basileía;;;;;;;;;;;;;x
+tribal_empire_of_ionian;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_emperor_ionian;Mégas Basilískos;;;;;;;;;;;;;x
+tribal_emperor_female_ionian;Megále Basilískos;;;;;;;;;;;;;x
+
+barony_macedonian;Phroúrion;;;;;;;;;;;;;x
+barony_of_macedonian;Phroúrion of;;;;;;;;;;;;;x
+baron_macedonian;Hegemon;;;;;;;;;;;;;x
+baron_macedonian_female;Hegemonia;;;;;;;;;;;;;x
+county_macedonian;Khora;;;;;;;;;;;;;x
+county_of_macedonian;Khora of;;;;;;;;;;;;;x
+count_macedonian;Despótes;;;;;;;;;;;;;x
+count_female_macedonian;Déspoina;;;;;;;;;;;;;x
+duchy_macedonian;Megále Khora of;;;;;;;;;;;;;x
+duchy_of_macedonian;Megále Khora of;;;;;;;;;;;;;x
+duke_macedonian;Arkhon;;;;;;;;;;;;;x
+duke_female_macedonian;Arkhousa;;;;;;;;;;;;;x
+kingdom_macedonian;Basileía;;;;;;;;;;;;;x
+kingdom_of_macedonian;Basileía of;;;;;;;;;;;;;x
+king_macedonian;Basileús;;;;;;;;;;;;;x
+king_female_macedonian;Basilissa;;;;;;;;;;;;;x
+empire_macedonian;Megále Basileía;;;;;;;;;;;;;x
+empire_of_macedonian;Megále Basileía of;;;;;;;;;;;;;x
+emperor_macedonian;Mégas Basileús;;;;;;;;;;;;;x
+emperor_female_macedonian;Megále Basileús;;;;;;;;;;;;;x
+city_barony_macedonian;Dêmos;;;;;;;;;;;;;x
+city_barony_of_macedonian;Dêmos of;;;;;;;;;;;;;x
+city_baron_macedonian;Demarkhos;;;;;;;;;;;;;x
+city_baron_macedonian_female;Demarkhos;;;;;;;;;;;;;x
+tribal_barony_macedonian;Phule;;;;;;;;;;;;;x
+tribal_barony_of_macedonian;Phule of;;;;;;;;;;;;;x
+tribal_baron_macedonian;Hegemon;;;;;;;;;;;;;x
+tribal_baron_macedonian_female;Hegemonia;;;;;;;;;;;;;x
+tribal_county_macedonian;Éthnos;;;;;;;;;;;;;x
+tribal_county_of_macedonian;Éthnos of;;;;;;;;;;;;;x
+tribal_count_macedonian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_count_female_macedonian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_duchy_macedonian;Méga Éthnos;;;;;;;;;;;;;x
+tribal_duchy_of_macedonian;Méga Éthnos of;;;;;;;;;;;;;x
+tribal_duke_macedonian;Mégas Ethnárkhes;;;;;;;;;;;;;x
+tribal_duke_female_macedonian;Megále Ethnárkhes;;;;;;;;;;;;;x
+tribal_kingdom_macedonian;Phuletiki Basileía;;;;;;;;;;;;;x
+tribal_kingdom_of_macedonian;Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_king_macedonian;Basilískos;;;;;;;;;;;;;x
+tribal_king_female_macedonian;Basilískos;;;;;;;;;;;;;x
+tribal_empire_macedonian;Megále Phuletiki Basileía;;;;;;;;;;;;;x
+tribal_empire_of_macedonian;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_emperor_macedonian;Mégas Basilískos;;;;;;;;;;;;;x
+tribal_emperor_female_macedonian;Megále Basilískos;;;;;;;;;;;;;x
+
+barony_thessalian;Phroúrion;;;;;;;;;;;;;x
+barony_of_thessalian;Phroúrion of;;;;;;;;;;;;;x
+baron_thessalian;Hegemon;;;;;;;;;;;;;x
+baron_thessalian_female;Hegemonia;;;;;;;;;;;;;x
+county_thessalian;Khora;;;;;;;;;;;;;x
+county_of_thessalian;Khora of;;;;;;;;;;;;;x
+count_thessalian;Despótes;;;;;;;;;;;;;x
+count_female_thessalian;Déspoina;;;;;;;;;;;;;x
+duchy_thessalian;Megále Khora of;;;;;;;;;;;;;x
+duchy_of_thessalian;Megále Khora of;;;;;;;;;;;;;x
+duke_thessalian;Arkhon;;;;;;;;;;;;;x
+duke_female_thessalian;Arkhousa;;;;;;;;;;;;;x
+kingdom_thessalian;Basileía;;;;;;;;;;;;;x
+kingdom_of_thessalian;Basileía of;;;;;;;;;;;;;x
+king_thessalian;Basileús;;;;;;;;;;;;;x
+king_female_thessalian;Basilissa;;;;;;;;;;;;;x
+empire_thessalian;Megále Basileía;;;;;;;;;;;;;x
+empire_of_thessalian;Megále Basileía of;;;;;;;;;;;;;x
+emperor_thessalian;Mégas Basileús;;;;;;;;;;;;;x
+emperor_female_thessalian;Megále Basileús;;;;;;;;;;;;;x
+city_barony_thessalian;Dêmos;;;;;;;;;;;;;x
+city_barony_of_thessalian;Dêmos of;;;;;;;;;;;;;x
+city_baron_thessalian;Demarkhos;;;;;;;;;;;;;x
+city_baron_thessalian_female;Demarkhos;;;;;;;;;;;;;x
+tribal_barony_thessalian;Phule;;;;;;;;;;;;;x
+tribal_barony_of_thessalian;Phule of;;;;;;;;;;;;;x
+tribal_baron_thessalian;Hegemon;;;;;;;;;;;;;x
+tribal_baron_thessalian_female;Hegemonia;;;;;;;;;;;;;x
+tribal_county_thessalian;Éthnos;;;;;;;;;;;;;x
+tribal_county_of_thessalian;Éthnos of;;;;;;;;;;;;;x
+tribal_count_thessalian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_count_female_thessalian;Ethnárkhes;;;;;;;;;;;;;x
+tribal_duchy_thessalian;Méga Éthnos;;;;;;;;;;;;;x
+tribal_duchy_of_thessalian;Méga Éthnos of;;;;;;;;;;;;;x
+tribal_duke_thessalian;Mégas Ethnárkhes;;;;;;;;;;;;;x
+tribal_duke_female_thessalian;Megále Ethnárkhes;;;;;;;;;;;;;x
+tribal_kingdom_thessalian;Phuletiki Basileía;;;;;;;;;;;;;x
+tribal_kingdom_of_thessalian;Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_king_thessalian;Basilískos;;;;;;;;;;;;;x
+tribal_king_female_thessalian;Basilískos;;;;;;;;;;;;;x
+tribal_empire_thessalian;Megále Phuletiki Basileía;;;;;;;;;;;;;x
+tribal_empire_of_thessalian;Megále Phuletiki Basileía of;;;;;;;;;;;;;x
+tribal_emperor_thessalian;Mégas Basilískos;;;;;;;;;;;;;x
+tribal_emperor_female_thessalian;Megále Basilískos;;;;;;;;;;;;;x
+
+count_phrygian;Phularkhos;;;;;;;;;;;;;x #placeholder
+count_female_phrygian;Phularkhosa;;;;;;;;;;;;;x #placeholder
+duke_phrygian;Arkhon;;;;;;;;;;;;;x #placeholder
+duke_female_phrygian;Arkhousa;;;;;;;;;;;;;x #placeholder
+king_phrygian;Balén;;;;;;;;;;;;;x
+king_female_phrygian;Basilissa;;;;;;;;;;;;;x #placeholder
+emperor_phrygian;Hegemon;;;;;;;;;;;;;x #placeholder
+emperor_female_phrygian;Hegemonia;;;;;;;;;;;;;x #placeholder
+city_phrygian;Gordum;;;;;;;;;;;;;x
+city_of_phrygian;Gordum of;;;;;;;;;;;;;x
+
+# count_thracian;Prokoreter;;;;;;;;;;;;;x
+# count_female_thracian;Klawiphoros;;;;;;;;;;;;;x
+duke_thracian;Mezena;;;;;;;;;;;;;x
+duke_female_thracian;Ilteas;;;;;;;;;;;;;x
+king_thracian;Reza;;;;;;;;;;;;;x
+king_female_thracian;Merilteas;;;;;;;;;;;;;x
+emperor_thracian;Merrezas;;;;;;;;;;;;;x
+emperor_female_thracian;Mekamatar;;;;;;;;;;;;;x
+
+barony_israelite;M'tsudá;;;;;;;;;;;;;x
+barony_of_israelite;M'tsudá;;;;;;;;;;;;;x
+baron_israelite;Manhíg;;;;;;;;;;;;;x
+baron_female_israelite;Manhíga;;;;;;;;;;;;;x
+county_israelite;Adonit;;;;;;;;;;;;;x
+county_of_israelite;Adonit;;;;;;;;;;;;;x
+count_israelite;Adón;;;;;;;;;;;;;x
+count_female_israelite;Atsíla;;;;;;;;;;;;;x
+duchy_israelite;N'sikhút;;;;;;;;;;;;;x
+duchy_of_israelite;N'sikhút;;;;;;;;;;;;;x
+duke_israelite;Nasí;;;;;;;;;;;;;x
+duke_female_israelite;Nesikhá;;;;;;;;;;;;;x
+kingdom_of_israelite;Mamlakhá;;;;;;;;;;;;;x
+kingdom_of_israelite;Mamlekhet;;;;;;;;;;;;;x
+king_israelite;Mélekh;;;;;;;;;;;;;x
+king_female_israelite;Malká;;;;;;;;;;;;;x
+empire_israelite;Mamlakhá Gadol;;;;;;;;;;;;;x
+empire_of_israelite;Mamlekhet Gadol;;;;;;;;;;;;;x
+emperor_israelite;Mélekh Gadol;;;;;;;;;;;;;x
+emperor_female_israelite;Malká G'dola;;;;;;;;;;;;;x
+city_barony_israelite;'Ir;;;;;;;;;;;;;x
+city_barony_of_israelite;'Ir;;;;;;;;;;;;;x
+city_baron_israelite;Rosh Iriyá;;;;;;;;;;;;;x
+city_baron_israelite_female;Rosh Iriyát;;;;;;;;;;;;;x
+
+TITLE_PHARAOH;Per-aa;;;;;;;;;;;;;x
+TITLE_PHARAOH_FEMALE;Per-aa;;;;;;;;;;;;;x
+TITLE_KING_LOWER;Biti;;;;;;;;;;;;;x
+TITLE_KING_LOWER_FEMALE;Biti;;;;;;;;;;;;;x
+TITLE_KING_UPPER;Nesut;;;;;;;;;;;;;x
+TITLE_KING_UPPER_FEMALE;Nesut;;;;;;;;;;;;;x
+barony_egyptian;Nut;;;;;;;;;;;;;x
+barony_of_egyptian;Nut of;;;;;;;;;;;;;x
+baron_egyptian;Heqa-nut;;;;;;;;;;;;;x
+baron_egyptian_female;Heqa-nut;;;;;;;;;;;;;x
+county_egyptian;Sepat;;;;;;;;;;;;;x
+county_of_egyptian;Sepat of;;;;;;;;;;;;;x
+count_egyptian;Heri-tep-aa;;;;;;;;;;;;;x
+count_female_egyptian;Heri-tep-aa;;;;;;;;;;;;;x
+duchy_egyptian;Sepat-aa;;;;;;;;;;;;;x
+duchy_of_egyptian;Sepat-aa of;;;;;;;;;;;;;x
+duke_egyptian;Heqa-Sepat-aa;;;;;;;;;;;;;x
+duke_female_egyptian;Heqa-Sepat-aa;;;;;;;;;;;;;x
+kingdom_egyptian;Ta;;;;;;;;;;;;;x
+kingdom_of_egyptian;Ta of;;;;;;;;;;;;;x
+king_egyptian;Heqa;;;;;;;;;;;;;x
+king_female_egyptian;Heqa;;;;;;;;;;;;;x
+empire_egyptian;Ta-aa;;;;;;;;;;;;;x
+empire_of_egyptian;Ta-aa of;;;;;;;;;;;;;x
+emperor_egyptian;Heqa-aa;;;;;;;;;;;;;x
+emperor_female_egyptian;Heqa-aa;;;;;;;;;;;;;x
+
+###########Religious Title Localisation###########
+temple_barony_pihassasi;Karimmi;;;;;;;;;;;;;x
+temple_barony_of_pihassasi;Karimmi of;;;;;;;;;;;;;x
+temple_baron_pihassasi;Sankunni;;;;;;;;;;;;;x
+temple_baron_female_pihassasi;Sankunnisara;;;;;;;;;;;;;x
+
+temple_barony_haianiluwi;Haiani;;;;;;;;;;;;;x
+temple_barony_of_haianiluwi;Haiani of;;;;;;;;;;;;;x
+temple_baron_female_haianiluwi;Dammaranza;;;;;;;;;;;;;x
+
+temple_barony_hellenic;Hierón;;;;;;;;;;;;;x
+temple_barony_of_hellenic;Hierón of;;;;;;;;;;;;;x
+temple_baron_hellenic;Hiereús;;;;;;;;;;;;;x
+temple_baron_female_hellenic;Hiéreia;;;;;;;;;;;;;x
+
+temple_baron_doumos;Akenanogawos;;;;;;;;;;;;;x
+
+temple_barony_berith;Mishkan;;;;;;;;;;;;;x
+temple_barony_of_berith;Mishkan;;;;;;;;;;;;;x
+temple_baron_berith;Kohén;;;;;;;;;;;;;x
+
+temple_barony_maat;Hut-netjer;;;;;;;;;;;;;x
+temple_barony_of_maat;Hut-netjer of;;;;;;;;;;;;;x
+temple_baron_maat;Hem-netjer;;;;;;;;;;;;;x
+temple_baron_female_maat;Hem-netjer;;;;;;;;;;;;;x
+
+###########Nicknames###########
+nick_anax_andron;Anax Andron;;;;;;;;;;;;;x
+nick_arephilos;Arephilos;;;;;;;;;;;;;x
+nick_diotrephes;Diotrephes;;;;;;;;;;;;;x
+nick_hippodamas;Hippodamas;;;;;;;;;;;;;x
+nick_megaletor;Megaletor;;;;;;;;;;;;;x
+nick_podarkes;Podarkes;;;;;;;;;;;;;x
+nick_polumetis;Polumetis;;;;;;;;;;;;;x
+nick_polutlas;Polutlas;;;;;;;;;;;;;x
+nick_theoeidis;Theoeidis;;;;;;;;;;;;;x
+nick_thumoleonta;Thumoleonta;;;;;;;;;;;;;x
+
+###########Character/Province Modifiers###########
+imperial_authority;Imperial Authority ([From.PrimaryTitle.var_imperial_authority.GetValue]% | [From.yearly_imperial_authority_change.GetValue]%);;;;;;;;;;;;;x
+imperial_authority_desc;The authority of the sovereign is determined by how much control over their realm they have. As it ebbs and flows, so does their power.\n§Y*§!Diplomacy: [Root.diplomacy_number.GetValue]\n§Y*§!Martial: [Root.martial_number.GetValue]\n§Y*§!Stewardship: [Root.stewardship_number.GetValue]\n§Y*§!Learning: [Root.learning_number.GetValue]\n§Y*§!Positive Traits: [Root.trait_bonus.GetValue]\n§Y*§!Loyal Councilors: [Root.councilor_bonus.GetValue]\n§Y*§!Loyal Vassals: [Root.vassal_bonus.GetValue]\n§Y*§!Negative Traits: [Root.trait_penalty.GetValue]\n§Y*§!Disloyal Councilors: [Root.councilor_penalty.GetValue]\n§Y*§!Disloyal Vassals: [Root.vassal_penalty.GetValue]\n§Y*§!Stability: [Root.stability.GetValue];;;;;;;;;;;;x
+imperial_authority_decrease_5_TT;§YImperial Authority§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
+imperial_authority_decrease_7_TT;§YImperial Authority§! will §Rdecrease§! by 7%;;;;;;;;;;;;;x
+imperial_authority_decrease_10_TT;§YImperial Authority§! will §Rdecrease§! by 10%;;;;;;;;;;;;;x
+imperial_authority_decrease_2_5_TT;§YImperial Authority§! will §Rdecrease§! by 2.5%;;;;;;;;;;;;;x
+imperial_authority_increase_1_TT;§YImperial Authority§! will §Gincrease§! by 1%;;;;;;;;;;;;;x
+imperial_authority_increase_5_TT;§YImperial Authority§! will §Gincrease§! by 5%;;;;;;;;;;;;;x
+imperial_authority_increase_2_TT;§YImperial Authority§! will §Gincrease§! by 2%;;;;;;;;;;;;;x
+imperial_authority_increase_2_5_TT;§YImperial Authority§! will §Gincrease§! by 2.5%;;;;;;;;;;;;;x
+imperial_authority_increase_10_TT;§YImperial Authority§! will §Gincrease§! by 10%;;;;;;;;;;;;;x
+opinion_rumors_10;Rumors;;;;;;;;;;;;;x
+opinion_rumors_25;Rumors;;;;;;;;;;;;;x
+opinion_rectified_grievance;Grievances Rectified;;;;;;;;;;;;;x
+
+slander_liege;Slander Liege;;;;;;;;;;;;;x
+slander_liege_desc;[Root.GetTitledFirstName] has become a bit too influential within the court. If I were to slander [Root.GetHerHim], it may cut [Root.GetHerHim] down to size.;;;;;;;;;;;;;x
+has_not_been_slandered_TT;Has not been slandered recently.;;;;;;;;;;;;;x
+opinion_slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
+slandered_emperor;Slandered Emperor;;;;;;;;;;;;;x
+
+opinion_oppressive_overlord;Oppressive Overlord;;;;;;;;;;;;;x
+
+imperial_authority_increase_war;Received Imperial Authority Increase From War;;;;;;;;;;;;;x
+
+trojan_walls;Trojan Walls;;;;;;;;;;;;;x
+
+severe_drought;Severe Drought;;;;;;;;;;;;;x
+
+greek_migration;Héllen Migration;;;;;;;;;;;;;x
+
+thessalian_migration;Thessalikós Migration;;;;;;;;;;;;;x
+
+israelite_repented_modifier;B'nei Yisra'el Repented;;;;;;;;;;;;;x
+
+desolate_land;Desolate Land;;;;;;;;;;;;;x
+
+#opinion of traits
+opinion_of_zealous;Opinion of Zealous;;;;;;;;;;;;;x
+opinion_of_zealous_EXPLANATION; (opinion on Zealous);;;;;;;;;;;;;x
+opinion_of_cynical;Opinion of Cynical;;;;;;;;;;;;;x
+opinion_of_cynical_EXPLANATION; (opinion on Cynical);;;;;;;;;;;;;x
+opinion_of_erudite;Opinion of Erudite;;;;;;;;;;;;;x
+opinion_of_erudite_EXPLANATION; (opinion on Erudite);;;;;;;;;;;;;x
+opinion_of_brave;Opinion of Brave;;;;;;;;;;;;;x
+opinion_of_brave_EXPLANATION; (opinion on Brave);;;;;;;;;;;;;x
+opinion_of_craven;Opinion of Craven;;;;;;;;;;;;;x
+opinion_of_craven_EXPLANATION; (opinion on Craven);;;;;;;;;;;;;x
+opinion_of_chaste;Opinion of Chaste;;;;;;;;;;;;;x
+opinion_of_chaste_EXPLANATION; (opinion on Chaste);;;;;;;;;;;;;x
+opinion_of_hedonist;Opinion of Hedonist;;;;;;;;;;;;;x
+opinion_of_hedonist_EXPLANATION; (opinion on Hedonist);;;;;;;;;;;;;x
+opinion_of_seducer;Opinion of Seducers;;;;;;;;;;;;;x
+opinion_of_seducer_EXPLANATION; (opinion on Seducers);;;;;;;;;;;;;x
+opinion_of_seductress;Opinion of Seductress;;;;;;;;;;;;;x
+opinion_of_seductress_EXPLANATION; (opinion on Seductress);;;;;;;;;;;;;x
+opinion_of_indulgent_wastrel;Opinion of Indulgent Wastrel;;;;;;;;;;;;;x
+opinion_of_indulgent_wastrel_EXPLANATION; (opinion on Indulgent Wastrel);;;;;;;;;;;;;x
+opinion_of_midas_touched;Opinion of Midas Touched;;;;;;;;;;;;;x
+opinion_of_midas_touched_EXPLANATION; (opinion on Midas Touched);;;;;;;;;;;;;x
+opinion_of_strong;Opinion of Strong;;;;;;;;;;;;;x
+opinion_of_strong_EXPLANATION; (opinion on Strong);;;;;;;;;;;;;x
+opinion_of_misguided_warrior;Opinion of Misguided Warrior;;;;;;;;;;;;;x
+opinion_of_misguided_warrior_EXPLANATION; (opinion on Misguided Warrior);;;;;;;;;;;;;x
+opinion_of_brilliant_strategist;Opinion of Brilliant Strategist;;;;;;;;;;;;;x
+opinion_of_brilliant_strategist_EXPLANATION; (opinion on Brilliant Strategist);;;;;;;;;;;;;x
+opinion_of_duelist;Opinion of Duelist;;;;;;;;;;;;;x
+opinion_of_duelist_EXPLANATION; (opinion on Duelist);;;;;;;;;;;;;x
+opinion_of_strategist;Opinion of Strategist;;;;;;;;;;;;;x
+opinion_of_strategist_EXPLANATION; (opinion on Strategist);;;;;;;;;;;;;
+opinion_of_celibate;Opinion of Celibate;;;;;;;;;;;;;x
+opinion_of_celibate; (opinion on Celibate);;;;;;;;;;;;;
+
+#trait opinions
+misguided_warrior_opinion;Misguided Warrior Character Opinion;;;;;;;;;;;;;x
+misguided_warrior_opinion_EXPLANATION; (effect on Misguided Warrior);;;;;;;;;;;;;x
+brilliant_strategist_opinion;Brilliant Strategist Character Opinion;;;;;;;;;;;;;x
+brilliant_strategist_opinion_EXPLANATION; (effect on Brilliant Strategist);;;;;;;;;;;;;x
+duelist_opinion;Duelist Character Opinion;;;;;;;;;;;;;x
+duelist_opinion_EXPLANATION; (effect on Duelist);;;;;;;;;;;;;x
+hunter_opinion;Hunter Character Opinion;;;;;;;;;;;;;x
+hunter_opinion_EXPLANATION; (effect on Hunter);;;;;;;;;;;;;x
+chaste_opinion;Chaste Character Opinion;;;;;;;;;;;;;x
+chaste_opinion_EXPLANATION; (effect on Chaste);;;;;;;;;;;;;x
+hedonist_opinion;Hedonist Character Opinion;;;;;;;;;;;;;x
+hedonist_opinion_EXPLANATION; (effect on Hedonist);;;;;;;;;;;;;x
+seducer_opinion;Seducers Character Opinion;;;;;;;;;;;;;x
+seducer_opinion_EXPLANATION; (effect on Seducers);;;;;;;;;;;;;x
+seductress_opinion;Seductress Character Opinion;;;;;;;;;;;;;x
+seductress_opinion_EXPLANATION; (effect on Seductress);;;;;;;;;;;;;x
+indulgent_wastrel_opinion;Indulgent Wastrel Character Opinion;;;;;;;;;;;;;x
+indulgent_wastrel_opinion_EXPLANATION; (effect on Indulgent Wastrel);;;;;;;;;;;;;x
+midas_touched_opinion;Midas Touched Character Opinion;;;;;;;;;;;;;x
+midas_touched_opinion_EXPLANATION; (effect on Midas Touched);;;;;;;;;;;;;x
+strong_opinion;Strong Character Opinion;;;;;;;;;;;;;x
+strong_opinion_EXPLANATION; (effect on Strong);;;;;;;;;;;;;x
+
+#Devotion opinions
+opinion_of_devotion_tarhunna;Opinion of Devoted to Tarhunna;;;;;;;;;;;;;x
+opinion_of_devotion_tarhunna_EXPLANATION; (opinion on Devoted to Tarhunna);;;;;;;;;;;;;x
+opinion_of_devotion_arinniti;Opinion of Devoted to Arinniti;;;;;;;;;;;;;x
+opinion_of_devotion_arinniti_EXPLANATION; (opinion on Devoted to Arinniti);;;;;;;;;;;;;x
+opinion_of_devotion_telipinu;Opinion of Devoted to Telipinu;;;;;;;;;;;;;x
+opinion_of_devotion_telipinu_EXPLANATION; (opinion on Devoted to Telipinu);;;;;;;;;;;;;x
+
+opinion_of_devotion_sabazios;Opinion of Devoted to Sabázios;;;;;;;;;;;;;x
+opinion_of_devotion_sabazios_EXPLANATION; (opinion on Devoted to Sabázios);;;;;;;;;;;;;x
+opinion_of_devotion_pleistoros;Opinion of Devoted to Pleistoros;;;;;;;;;;;;;x
+opinion_of_devotion_pleistoros_EXPLANATION; (opinion on Devoted to Pleistoros);;;;;;;;;;;;;x
+opinion_of_devotion_derzelas;Opinion of Devoted to Derzelas;;;;;;;;;;;;;x
+opinion_of_devotion_derzelas_EXPLANATION; (opinion on Devoted to Derzelas);;;;;;;;;;;;;x
+opinion_of_devotion_kubeleya;Opinion of Devoted to Kubeleya;;;;;;;;;;;;;x
+opinion_of_devotion_kubeleya_EXPLANATION; (opinion on Devoted to Kubeleya);;;;;;;;;;;;;x
+opinion_of_devotion_el;Opinion of Devoted to 'El;;;;;;;;;;;;;x
+opinion_of_devotion_el_EXPLANATION; (opinion on Devoted to 'El);;;;;;;;;;;;;x
+opinion_of_devotion_baal_hadad;Opinion of Devoted to Ba'al Hadad;;;;;;;;;;;;;x
+opinion_of_devotion_baal_hadad_EXPLANATION; (opinion on Devoted to Ba'al Hadad);;;;;;;;;;;;;x
+opinion_of_devotion_asherah;Opinion of Devoted to Asherah;;;;;;;;;;;;;x
+opinion_of_devotion_asherah_EXPLANATION; (opinion on Devoted to Asherah);;;;;;;;;;;;;x
+opinion_of_devotion_resheph;Opinion of Devoted to Resheph;;;;;;;;;;;;;x
+opinion_of_devotion_resheph_EXPLANATION; (opinion on Devoted to Resheph);;;;;;;;;;;;;x
+
+#Religion Opinion
+pihassasi_opinion;[pihassasi.GetName] Character Opinion;;;;;;;;;;;;;x
+pihassasi_opinion_EXPLANATION; (effect on [pihassasi.GetName]);;;;;;;;;;;;;x
+hellenic_opinion;[hellenic.GetName] Character Opinion;;;;;;;;;;;;;x
+hellenic_opinion_EXPLANATION; (effect on [hellenic.GetName]);;;;;;;;;;;;;x
+pantes_theoi_opinion;[pantes_theoi.GetName] Character Opinion;;;;;;;;;;;;;x
+pantes_theoi_opinion_EXPLANATION; (effect on [pantes_theoi.GetName]);;;;;;;;;;;;;x
+saintly_bloodline_same_religion_TT; Same Religion as the Founder of this Bloodline;;;;;;;;;;;;;x
+
+#Culture Opinion
+edomite_opinion;[edomite.GetName] Character Opinion;;;;;;;;;;;;;x
+edomite_opinion_EXPLANATION; (effect on [edomite.GetName]);;;;;;;;;;;;;x
+opinion_of_edomite;Opinion of [edomite.GetName];;;;;;;;;;;;;x
+opinion_of_edomite_EXPLANATION; (opinion on [edomite.GetName] Characters);;;;;;;;;;;;;x
+
+
+#Stratocratic Opinion
+became_stratocratic_tyrant;Became a Stratocratic Tyrant;;;;;;;;;;;;;x
+rejected_stratocracy;Rejected Stratocracy;;;;;;;;;;;;;x
+
+opinion_very_model_of_a_modern_major_general;Opinion of Competent General;;;;;;;;;;;;;x
+opinion_poor_military_ruler;Opinion of Incompetent General;;;;;;;;;;;;;x
+
+#Misc
+strategist_opinion;Strategist Character Opinion;;;;;;;;;;;;;x
+
+opinion_demoted_from_coking;Demoted from Co-Monarch;;;;;;;;;;;;;x
+
+israelite_repented;[israelite.GetName] Repented;;;;;;;;;;;;;x
+israelite_did_not_repent;[israelite.GetName] Did Not Repent;;;;;;;;;;;;;x
+
+opinion_betrayed_devotion;Betrayed Devotion;;;;;;;;;;;;;x
+
+#Religious Wars
+won_hellenic_invasion;Won [hellenic.GetName] Invasion;;;;;;;;;;;;;x
+lost_hellenic_invasion;Lost [hellenic.GetName] Invasion;;;;;;;;;;;;;x
+
+figurehead_emperor;Weak Monarch;;;;;;;;;;;;;x
+figurehead_emperor_desc;You wield little power.;;;;;;;;;;;;;x
+weak_emperor;Figurehead Monarch;;;;;;;;;;;;;x
+weak_emperor_desc;You wield no real power.;;;;;;;;;;;;;x
+INSULT_INEFFECTUAL;Ineffectual;;;;;;;;;;;;;x
+strong_emperor;Strong Monarch;;;;;;;;;;;;;x
+strong_emperor_desc;You wield great power.;;;;;;;;;;;;;x
+
+#Province Modifiers
+oppressive_rule;Oppressive Rule;;;;;;;;;;;;;x
+oppressive_rule_desc;The foreign communities of this province are being oppressed.;;;;;;;;;;;;;x
+autonomous_rule;Autonomous Community;;;;;;;;;;;;;x
+autonomous_rule_desc;The foreign communities of this province have autonomy.;;;;;;;;;;;;;x
+tax_tribute;Tribute: Tax-Focused;;;;;;;;;;;;;x
+tax_tribute_desc;The tribute in this province is tax-focused.;;;;;;;;;;;;;x
+levy_tribute;Tribute: Levy-Focused;;;;;;;;;;;;;x
+levy_tribute_desc;The tribute in this province is levy-focused.;;;;;;;;;;;;;x
+
+foreign_rule;Foreign Rule;;;;;;;;;;;;;x
+foreign_rule_desc;Due to the lack of a native ruler or autonomy, the local people are resistant to your rule...;;;;;;;;;;;;;x
+
+#Religious Opinion Modifiers
+made_sacrifice;Made a Sacrifce;;;;;;;;;;;;;x
+opinion_small_sacrifice;Successful Small Sacrifce;;;;;;;;;;;;;x
+opinion_medium_sacrifice;Successful Medium Sacrifce;;;;;;;;;;;;;x
+opinion_large_sacrifice;Successful Large Sacrifce;;;;;;;;;;;;;x
+opinion_small_sacrifice_fail;Small Sacrifce Failure;;;;;;;;;;;;;x
+opinion_medium_sacrifice_fail;Medium Sacrifce Failure;;;;;;;;;;;;;x
+opinion_large_sacrifice_fail;Large Sacrifce Failure;;;;;;;;;;;;;x
+
+opinion_defiled_priestess;Defiled Priestess;;;;;;;;;;;;;x
+
+opinion_sacrificed_human;Sacrifced Human;;;;;;;;;;;;;x
+
+#Palace Bureaucracy
+palace_bureaucracy;Palace Bureaucratic Efficiency ([From.PrimaryTitle.palace_bureaucracy_number.GetValue]% | [From.yearly_bureaucracy_change.GetValue]%);;;;;;;;;;;;;x
+palace_bureaucracy_desc;The bureaucracy of a realm is determined by how much bureaucratic norms are prevalent in said realm. As it changes, the norms of the realm change with it.\n§Y*§!Stewardship: [Root.stewardship_number_bureaucracy.GetValue]\n§Y*§!Learning: [Root.learning_number_bureaucracy.GetValue]\n§Y*§!Positive Traits: [Root.trait_bonus_bureaucracy.GetValue]\n§Y*§!Quality Councilors: [Root.councilor_bonus_bureaucracy.GetValue]\n§Y*§!Quality Vassals: [Root.vassal_bonus_bureaucracy.GetValue]\n§Y*§!Negative Traits: [Root.trait_penalty_bureaucracy.GetValue]\n§Y*§!Poor Councilors: [Root.councilor_penalty_bureaucracy.GetValue]\n§Y*§!Poor Vassals: [Root.vassal_penalty_bureaucracy.GetValue]\n§Y*§!Bureaucratic Scope: [Root.passive_bureaucracy.GetValue];;;;;;;;;;;;;x
+
+#Palace Bureaucracy Decision Modifiers
+sold_bureaucratic_positions;Sold Bureaucratic Positions;;;;;;;;;;;;;x
+sold_bureaucratic_positions_desc;This character has sold bureaucratic positions, a sign that corruption has taken hold in their realm.;;;;;;;;;;;;;x
+
+low_bureaucracy;Inefficient Bureaucracy;;;;;;;;;;;;;x
+low_bureaucracy_desc;Due to poor recordkeeping, inefficient administrative oversight, and corrupt palace bureaucrats, this realm's bureaucracy is in complete disarray.;;;;;;;;;;;;;x
+
+high_bureaucracy;Efficient Bureaucracy;;;;;;;;;;;;;x
+high_bureaucracy_desc;The place is full of good and loyal palace bureaucrats that maintain the bureaucracy needed to steer the realm to prosperity, making it the envy of lesser kings.;;;;;;;;;;;;;x
+
+requested_personal_tribute;Requested Personal Tribute;;;;;;;;;;;;;x
+requested_personal_tribute_desc;This character has requested a personal tribute from his realm.;;;;;;;;;;;;;x
+
+#Palace Bureaucracy Reform
+
+getback_180_TT;The results of your reforms will be apparent in six months;;;;;;;;;;;;;x
+reform_bare_TT;Alloted a small budget to enact reforms.;;;;;;;;;;;;;x
+reform_good_TT;Grant a fair budget to spur reform.;;;;;;;;;;;;;x
+reform_alot_TT;Pump a lot of gold into lavishly reforming the palace.;;;;;;;;;;;;;x
+
+poor_reforms;Poor Reforms;;;;;;;;;;;;;x
+poor_reforms_desc;This character's attempt to reform their realm has gone poorly.;;;;;;;;;;;;;x
+
+good_reforms;Effective Reforms;;;;;;;;;;;;;x
+good_reforms_desc;The reform attempts of this character have been a success.;;;;;;;;;;;;;x
+
+#Palace Bureaucracy Modifiers
+
+bureau_increase_1_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 1%;;;;;;;;;;;;;x
+bureau_increase_105_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 1.5%;;;;;;;;;;;;;x
+bureau_increase_2_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 2%;;;;;;;;;;;;;x
+bureau_increase_205_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 2.5%;;;;;;;;;;;;;x
+bureau_increase_3_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 3%;;;;;;;;;;;;;x
+bureau_increase_4_TT;§YPalace Bureaucratic Efficiency§! will §Gincrease§! by 4%;;;;;;;;;;;;;x
+
+bureau_decrease_025_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 0.25%;;;;;;;;;;;;;x
+bureau_decrease_05_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 0.5%;;;;;;;;;;;;;x
+bureau_decrease_1_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 1%;;;;;;;;;;;;;x
+bureau_decrease_2_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 2%;;;;;;;;;;;;;x
+bureau_decrease_3_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 3%;;;;;;;;;;;;;x
+bureau_decrease_5_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
+bureau_decrease_10_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 10%;;;;;;;;;;;;;x
+bureau_decrease_20_TT;§YPalace Bureaucratic Efficiency§! will §Rdecrease§! by 20%;;;;;;;;;;;;;x
+
+bureau_set_0_TT;§YPalace Bureaucratic Efficiency§! be set at 0%;;;;;;;;;;;;;x
+
+#Palace Bureaucracy Opinions
+model_bureaucrat;Model Bureaucrat;;;;;;;;;;;;;x
+bad_bureaucrat;Poor Bureaucrat;;;;;;;;;;;;;x
+opinion_overstepped_boundary;Overstepped Boundaries;;;;;;;;;;;;;x
+
+#Militarization
+militarization;Militarization ([From.PrimaryTitle.militarization_number.GetValue]%);;;;;;;;;;;;;x
+militarization_desc;Militarization measures how military-oriented a realm is. As it ebbs and flows, the efficiency and size of your military will move with it. Additionally, being a militarized state harms palace bureaucracy, so it is wise to balance both bureaucratic norms and militarization.\nMilitarization can be §Gincreased§! by:\n§Y*§! Having strong lords\n§Y*§! Having qualified marshals and commanders\n§Y*§! Winning major battles\nMilitarization can be §Rdecreased§! by:\n§Y*§! Having weak lords\n§Y*§! Having weak marshals and commanders\n§Y*§! Bureaucratic Reforms\n§Y*§! Losing major battles;;;;;;;;;;;;;x
+
+#Militarization Levels
+rejected_militarization;Rejected Militarization;;;;;;;;;;;;;x
+
+low_militarization;Low Militarization;;;;;;;;;;;;;x
+low_militarization_desc;The Militarization of the Realm is currently minimal;;;;;;;;;;;;;x
+high_militarization;High Militarization;;;;;;;;;;;;;x
+high_militarization_desc;The Militarization of the Realm is currently substantial;;;;;;;;;;;;;x
+
+#Militarization Modifiers
+militarization_increase_2_TT;§YMilitarization§! will §Gincrease§! by 2%;;;;;;;;;;;;;x
+militarization_increase_2_5_TT;§YMilitarization§! will §Gincrease§! by 2.5%;;;;;;;;;;;;;x
+militarization_increase_3_TT;§YMilitarization§! will §Gincrease§! by 3%;;;;;;;;;;;;;x
+militarization_increase_5_TT;§YMilitarization§! will §Gincrease§! by 5%;;;;;;;;;;;;;x
+
+militarization_decrease_5_TT;§YMilitarization§! will §Rdecrease§! by 5%;;;;;;;;;;;;;x
+militarization_decrease_10_TT;§YMilitarization§! will §Rdecrease§! by 10%;;;;;;;;;;;;;x
+
+#Hero Apotheosis (Greek)
+tomb_of_a_hero;Tomb of a Fallen Hero;;;;;;;;;;;;;x
+tomb_of_a_hero_desc;A Tomb of a Fallen Hero of Legend resides here.;;;;;;;;;;;;;x
+pillaged_tomb_of_a_hero;Pillaged Tomb of a Fallen Hero;;;;;;;;;;;;;x
+pillaged_tomb_of_a_hero_desc;A Pillaged Tomb of a Fallen Hero of Legend resides here.;;;;;;;;;;;;;x
+
+###########Trait Localization###########
+
+#Hidden Traits
+tarhunna;Tarhunna;;;;;;;;;;;;;x
+arinniti;Arinniti;;;;;;;;;;;;;x
+telipinu;Telipinu;;;;;;;;;;;;;x
+
+zeus;Zeus;;;;;;;;;;;;;x
+ares;Ares;;;;;;;;;;;;;x
+athene;Athenâ;;;;;;;;;;;;;x
+demeter;Demeter;;;;;;;;;;;;;x
+apollon;Apollon;;;;;;;;;;;;;x
+hermes;Hermes;;;;;;;;;;;;;x
+aphrodite;Aphrodite;;;;;;;;;;;;;x
+
+sabazios;Sabázios;;;;;;;;;;;;;x
+pleistoros;Pleistoros;;;;;;;;;;;;;x
+derzelas;Derzelas;;;;;;;;;;;;;x
+kubeleya;Kubeleya;;;;;;;;;;;;;x
+
+#Devotion Traits
+devotion_tarhunna;Devoted to Tarhunna;;;;;;;;;;;;;x
+devotion_tarhunna_desc;This character is devoted to Tarhunna;;;;;;;;;;;;;x
+devotion_arinniti;Devoted to Arinniti;;;;;;;;;;;;;x
+devotion_arinniti_desc;This character is devoted to Arinniti;;;;;;;;;;;;;x
+devotion_telipinu;Devoted to Telipinu;;;;;;;;;;;;;x
+devotion_telipinu_desc;This character is devoted to Telipinu;;;;;;;;;;;;;x
+devotion_sabazios;Devoted to Sabázios;;;;;;;;;;;;;x
+devotion_sabazios_desc;This character is devoted to Sabázios;;;;;;;;;;;;;x
+devotion_pleistoros;Devoted to Pleistoros;;;;;;;;;;;;;x
+devotion_pleistoros_desc;This character is devoted to Pleistoros;;;;;;;;;;;;;x
+devotion_derzelas;Devoted to Derzelas;;;;;;;;;;;;;x
+devotion_derzelas_desc;This character is devoted to Derzelas;;;;;;;;;;;;;x
+devotion_kubeleya;Devoted to Kubeleya;;;;;;;;;;;;;x
+devotion_kubeleya_desc;This character is devoted to Kubeleya;;;;;;;;;;;;;x
+devotion_el;Devoted to 'El;;;;;;;;;;;;;x
+devotion_el_desc;This character is devoted to 'El;;;;;;;;;;;;;x
+devotion_baal_hadad;Devoted to Ba'al Hadad;;;;;;;;;;;;;x
+devotion_baal_hadad_desc;This character is devoted to Ba'al Hadad;;;;;;;;;;;;;x
+devotion_asherah;Devoted to Asherah;;;;;;;;;;;;;x
+devotion_asherah_desc;This character is devoted to Asherah;;;;;;;;;;;;;x
+devotion_resheph;Devoted to Resheph;;;;;;;;;;;;;x
+devotion_resheph_desc;This character is devoted to Resheph;;;;;;;;;;;;;x
+devotion_qaws;Devoted to Qaws;;;;;;;;;;;;;x
+devotion_qaws_desc;This character is devoted to Qaws;;;;;;;;;;;;;x
+
+#Syncretic Traits
+syncretic_pihassasi;Syncretic with [pihassasi.GetName];;;;;;;;;;;;;x
+syncretic_pihassasi_desc;This character is syncretic with with those of the [pihassasi.GetName] faith, and may interact with the gods Tarhunna, Arinniti, and Telipinu.;;;;;;;;;;;;;x
+syncretic_hellenic;Syncretic with [hellenic.GetName];;;;;;;;;;;;;x
+syncretic_hellenic_desc;This character is syncretic with with those of the [hellenic.GetName] faith, and may interact with the gods Zeus, Ares, Athenâ, Demeter, Apollon, Hermes, and Aphrodite.;;;;;;;;;;;;;x
+syncretic_european_group;Syncretic with [european_group.GetName];;;;;;;;;;;;;x
+syncretic_european_group_desc;This character is syncretic with with those of the [european_group.GetName] faith, and may interact with the gods Sabázios, Pleistoros, Derzelas, and Kubeleya.;;;;;;;;;;;;;x
+syncretic_canaanite_religion;Syncretic with [canaanite_religion.GetName];;;;;;;;;;;;;x
+syncretic_canaanite_religion_desc;This character is syncretic with with those of the [canaanite_religion.GetName] faith, and may interact with the gods 'El, Ba'al Hadad, Asherah, and Resheph.;;;;;;;;;;;;;x
+syncretic_berith;Syncretic with [berith.GetName];;;;;;;;;;;;;x
+syncretic_berith_desc;This character is syncretic with with those of the [berith.GetName] faith.;;;;;;;;;;;;;x
+
+
+#Stratocratic Traits
+amazonian_trait;Amazonios;;;;;;;;;;;;;x
+amazonian_trait_desc;This character is Amazonios;;;;;;;;;;;;;x
+stratocrat;Stratocrat;;;;;;;;;;;;;x
+stratocrat_desc;This character is a Stratocratic ruler;;;;;;;;;;;;;x
+
+#Apotheosis
+hero;Hero;;;;;;;;;;;;;x
+hero_desc;This Hero has made a name for themselves among their people!;;;;;;;;;;;;;x
+
+#Tribe Traits
+#Twelve Tribes of Israel
+reubenite;HaReuvéni;;;;;;;;;;;;;x
+reubenite_desc;This character is a member of the Tribe of Reuvén.;;;;;;;;;;;;;x
+simeonite;HaShim'óni;;;;;;;;;;;;;x
+simeonite_desc;This character is a member of the Tribe of Shim'ón.;;;;;;;;;;;;;x
+levite;HaLevi;;;;;;;;;;;;;x
+levite_desc;This character is a member of the Tribe of Levi.;;;;;;;;;;;;;x
+judahite;HaYehudi;;;;;;;;;;;;;x
+judahite_desc;This character is a member of the Tribe of Yehudá.;;;;;;;;;;;;;x
+danite;HaDani;;;;;;;;;;;;;x
+danite_desc;This character is a member of the Tribe of Dan.;;;;;;;;;;;;;x
+naphtalite;HaNaftalí;;;;;;;;;;;;;x
+naphtalite_desc;This character is a member of the Tribe of Naftalí.;;;;;;;;;;;;;x
+gadite;HaGadi;;;;;;;;;;;;;x
+gadite_desc;This character is a member of the Tribe of Gad.;;;;;;;;;;;;;x
+asherite;Ha'Ashéri;;;;;;;;;;;;;x
+asherite_desc;This character is a member of the Tribe of 'Ashér.;;;;;;;;;;;;;x
+issacharite;HaYisakhári;;;;;;;;;;;;;x
+issacharite_desc;This character is a member of the Tribe of Yisakhár.;;;;;;;;;;;;;x
+zebulunite;HaZ'vulúni;;;;;;;;;;;;;x
+zebulunite_desc;This character is a member of the Tribe of Z'vulún.;;;;;;;;;;;;;x
+manassehite;HaMenashi;;;;;;;;;;;;;x
+manassehite_desc;This character is a member of the Tribe of Menashé.;;;;;;;;;;;;;x
+ephraimite;HaEfráyimi;;;;;;;;;;;;;x
+ephraimite_desc;This character is a member of the Tribe of Efráyim.;;;;;;;;;;;;;x
+benjaminite;HaBinyamini;;;;;;;;;;;;;x
+benjaminite_desc;This character is a member of the Tribe of Binyamin.;;;;;;;;;;;;;x
+
+###########God Boons and Curses###########
+denied_boon;Denied Blessings of the Gods;;;;;;;;;;;;;x
+opinion_cursed_by;Cursed by the Gods;;;;;;;;;;;;;x
+does_not_have_boon_TT;Has not recieved a boon from the gods;;;;;;;;;;;;;x
+
+tarhunna_boon_1;Tarhunna's Hunters;;;;;;;;;;;;;x
+tarhunna_boon_2;Swiftness of Lighting;;;;;;;;;;;;;x
+tarhunna_boon_3;Tarhunna's Praise;;;;;;;;;;;;;x
+tarhunna_curse_1;Curse of Weakness;;;;;;;;;;;;;x
+tarhunna_curse_2;Curse of Heaviness;;;;;;;;;;;;;x
+tarhunna_curse_3;Tarhunna's Scorn;;;;;;;;;;;;;x
+
+arinniti_boon_1;Protectress' Assurance;;;;;;;;;;;;;x
+arinniti_boon_2;Mother Sun's Light;;;;;;;;;;;;;x
+arinniti_boon_3;Arinniti's Protection;;;;;;;;;;;;;x
+arinniti_curse_1;Curse of Cowardice;;;;;;;;;;;;;x
+arinniti_curse_2;Curse of Rotting;;;;;;;;;;;;;x
+arinniti_curse_3;Curse of Ignorance;;;;;;;;;;;;;x
+
+telipinu_boon_1;Golden Fields;;;;;;;;;;;;;x
+telipinu_boon_2;Telipinu's Abundance;;;;;;;;;;;;;x
+telipinu_boon_3;Heartiness of Grain;;;;;;;;;;;;;x
+telipinu_curse_1;Curse of Fallow Fields;;;;;;;;;;;;;x
+telipinu_curse_2;Telipinu's Drought;;;;;;;;;;;;;x
+telipinu_curse_3;Curse of Shattered Wills;;;;;;;;;;;;;x
+
+zeus_boon_1;Glory of Zeus Olympios;;;;;;;;;;;;;x
+zeus_boon_2;Praise of Zeus Panhellenios;;;;;;;;;;;;;x
+zeus_boon_3;Devotion of Zeus Nephelegereta;;;;;;;;;;;;;x
+zeus_curse_1;Zeus's Wrath;;;;;;;;;;;;;x
+zeus_curse_2;Zeus's Scorn;;;;;;;;;;;;;x
+zeus_curse_3;The Thundering Wrath;;;;;;;;;;;;;x
+
+ares_boon_1;Spirit of Ares Megasthenes;;;;;;;;;;;;;x
+ares_boon_2;Training of Ares Álkimos;;;;;;;;;;;;;x
+ares_boon_3;Warrior of Ares Adámastos;;;;;;;;;;;;;x
+ares_curse_1;Spirit of Cowardice;;;;;;;;;;;;;x
+ares_curse_2;Ares' Crazed Wrath;;;;;;;;;;;;;x
+ares_curse_3;Curse of Weakness;;;;;;;;;;;;;x
+
+athene_boon_1;Spear of Athenâ Drákaina;;;;;;;;;;;;;x
+athene_boon_2;Shield of Athenâ Promachos;;;;;;;;;;;;;x
+athene_boon_3;Athenâ Ombrimothumos' Strategy;;;;;;;;;;;;;x
+athene_boon_4;Ingenuity of Athenâ Ergane;;;;;;;;;;;;;x
+athene_boon_5;Athenâ Poluboulos' Tongue;;;;;;;;;;;;;x
+athene_boon_6;Wisdom of Athenâ Glaukopis;;;;;;;;;;;;;x
+athene_curse_1;Curse of Feathers;;;;;;;;;;;;;x
+athene_curse_2;Curse of Forgetfulness;;;;;;;;;;;;;x
+athene_curse_3;Curse of Disarray;;;;;;;;;;;;;x
+
+demeter_boon_1;Bounties of Demeter Amallophóros;;;;;;;;;;;;;x
+demeter_boon_2;Demeter Kalligeneia' Fruits;;;;;;;;;;;;;x
+demeter_boon_3;Love of Demeter Pantodóteira;;;;;;;;;;;;;x
+demeter_curse_1;The Curse of Grief;;;;;;;;;;;;;x
+demeter_curse_2;The Lost Children;;;;;;;;;;;;;x
+demeter_curse_3;The Stinging Winter Breeze;;;;;;;;;;;;;x
+
+apollon_boon_1;Defense of Apollon Apotropaios;;;;;;;;;;;;;x
+apollon_boon_2;Apollon Aphetoros' Shining Bow;;;;;;;;;;;;;x
+apollon_boon_3;Glory of Apollon Argyrotoxos;;;;;;;;;;;;;x
+apollon_boon_4;Health of Apollon Akestor;;;;;;;;;;;;;x
+apollon_boon_5;Apollon Alexikakos' Protection;;;;;;;;;;;;;x
+apollon_boon_6;Apollon Hekebolos' Attack;;;;;;;;;;;;;x
+apollon_curse_1;Curse of Showering Death;;;;;;;;;;;;;x
+apollon_curse_2;Curse of The Abyss;;;;;;;;;;;;;x
+apollon_curse_3;Fleeting Flickers;;;;;;;;;;;;;x
+
+hermes_boon_1;Trade of Hermes Agoraeus;;;;;;;;;;;;;x
+hermes_boon_2;Hermes Sokos Eriounios' Swiftness;;;;;;;;;;;;;x
+hermes_boon_3;Riches of Hermes Chrysorappis;;;;;;;;;;;;;x
+hermes_curse_1;The Winding Gales;;;;;;;;;;;;;x
+hermes_curse_2;Curse of Lead Shoes;;;;;;;;;;;;;x
+hermes_curse_3;Herme's Spite;;;;;;;;;;;;;x
+
+aphrodite_boon_1;Fertility of Aphrodite Pandemos;;;;;;;;;;;;;x
+aphrodite_boon_2;Love of Aphrodite Ourania;;;;;;;;;;;;;x
+aphrodite_boon_3;Aphrodite Genetullis' Protection;;;;;;;;;;;;;x
+aphrodite_curse_1;Aphrodite's Jealousy;;;;;;;;;;;;;x
+aphrodite_curse_2;Aphrodite's Wrath;;;;;;;;;;;;;x
+aphrodite_curse_3;The Wicked Trials of Aphrodite;;;;;;;;;;;;;x
+
+sabazios_boon_1;Stalwart Equestrian;;;;;;;;;;;;;x
+sabazios_boon_2;Sabázios' Charge;;;;;;;;;;;;;x
+sabazios_boon_3;Sabázios' Galloping Pride;;;;;;;;;;;;;x
+sabazios_curse_1;Aloof Equestrian;;;;;;;;;;;;;x
+sabazios_curse_2;Raging Stallion;;;;;;;;;;;;;x
+sabazios_curse_3;Shaken Equestrian;;;;;;;;;;;;;x
+
+pleistoros_boon_1;Pleistoros' Guiding Arrow;;;;;;;;;;;;;x
+pleistoros_boon_2;Pleistoros' Martial Spirit;;;;;;;;;;;;;x
+pleistoros_boon_3;Pleistoros' Commanding Presence;;;;;;;;;;;;;x
+pleistoros_curse_1;Pleistoros' Shattered Direction;;;;;;;;;;;;;x
+pleistoros_curse_2;Pleistoros' Fogged Judgement;;;;;;;;;;;;;x
+pleistoros_curse_3;Curse of Glancing Misses;;;;;;;;;;;;;x
+
+derzelas_boon_1;Derzelas' Vitality;;;;;;;;;;;;;x
+derzelas_boon_2;Derzelas' Vigilance;;;;;;;;;;;;;x
+derzelas_boon_3;Defense of Derzelas;;;;;;;;;;;;;x
+derzelas_curse_1;Curse of Draining Vigor;;;;;;;;;;;;;x
+derzelas_curse_2;Derzelas' Void of Intelligence;;;;;;;;;;;;;x
+derzelas_curse_3;Scattering of Derzelas;;;;;;;;;;;;;x
+
+kubelya_boon_1;Kubeleya's Grace;;;;;;;;;;;;;x
+kubelya_boon_2;Blessings of Kubeleya;;;;;;;;;;;;;x
+kubelya_boon_3;Kubeleya's Protection;;;;;;;;;;;;;x
+kubelya_curse_1;Damnation of Kubeleya;;;;;;;;;;;;;x
+kubelya_curse_2;Shunned From Kubeleya;;;;;;;;;;;;;x
+kubelya_curse_3;Kubeleya's Spite;;;;;;;;;;;;;x
+
+el_boon_1;Grace of 'El;;;;;;;;;;;;;x
+el_boon_2;'El's Favor;;;;;;;;;;;;;x
+el_boon_3;Soldiers of 'El;;;;;;;;;;;;;
+el_curse_1;'El's Hatred;;;;;;;;;;;;;x
+el_curse_2;Scorn of the Creator;;;;;;;;;;;;;x
+el_curse_3;Enemy of the Lord of Creation;;;;;;;;;;;;;x
+
+baal_hadad_boon_1;Nourishing Rains;;;;;;;;;;;;;x
+baal_hadad_boon_2;Yagrush and Aymur;;;;;;;;;;;;;x
+baal_hadad_boon_3;Grains of the Thunderer;;;;;;;;;;;;;x
+baal_hadad_curse_1;The Lord of Thunder's Absense;;;;;;;;;;;;;x
+baal_hadad_curse_2;Attack of Thunder;;;;;;;;;;;;;x
+baal_hadad_curse_3;Drought and Starvation;;;;;;;;;;;;;x
+
+asherah_boon_1;Blessing of 'El's Consort;;;;;;;;;;;;;x
+asherah_boon_2;Love of the Great Lady;;;;;;;;;;;;;x
+asherah_boon_3;Light of the Creatrix;;;;;;;;;;;;;x
+asherah_curse_1;Curse of Asherah;;;;;;;;;;;;;x
+asherah_curse_2;Scorn of the Great Lady;;;;;;;;;;;;;x
+asherah_curse_3;In the Shadow of the Creatrix;;;;;;;;;;;;;x
+
+resheph_boon_1;Protection of Resheph;;;;;;;;;;;;;x
+resheph_boon_2;Healing of the Land;;;;;;;;;;;;;x
+resheph_boon_3;Resheph's Shield;;;;;;;;;;;;;x
+resheph_curse_1;Arrow of Plague;;;;;;;;;;;;;x
+resheph_curse_2;Death Upon the Land;;;;;;;;;;;;;x
+resheph_curse_3;Exposed to Resheph's Arrow;;;;;;;;;;;;;x
+
+qaws_boon_1;God of the Rough Land;;;;;;;;;;;;;x
+qaws_boon_2;Swift Wind of Qaws;;;;;;;;;;;;;x
+qaws_boon_3;Qaws' Favor;;;;;;;;;;;;;x
+qaws_curse_1;Blazing Desert;;;;;;;;;;;;;x
+qaws_curse_2;Hostile Winds;;;;;;;;;;;;;x
+qaws_curse_3;Qaws' Scorn;;;;;;;;;;;;;x
+
+
+###########Minor Titles###########
+
+title_chief_of_the_royal_bodyguard;Chief of the Royal Bodyguards;;;;;;;;;;;;;x
+title_chief_of_the_royal_bodyguard_desc;The Chief of the Royal Bodyguards is responsible for procuring and administrating the royal guards, having immense control over the livelihood of the great king.;;;;;;;;;;;;;x
+title_chief_of_the_palace_servants;Chief of the Palace Servants;;;;;;;;;;;;;x
+title_chief_of_the_palace_servants_desc;The Chief of the Palace Servants oversees the servants of the royal palace, and is in regular contact with those close to the great king and with the great king themselves.;;;;;;;;;;;;;x
+title_chief_of_the_storehouse;Chief of the Storehouse;;;;;;;;;;;;;x
+title_chief_of_the_storehouse_desc;The Chief of the Storehouse is responsible for one of the most important facets of a civilization - grain storage. Keeping track of the in and outflow of grain is both a difficult and prestigious job.;;;;;;;;;;;;;x
+title_chief_of_the_scribes;Chief of the Scribes;;;;;;;;;;;;;x
+title_chief_of_the_scribes_desc;The Chief of the Scribes is one of the most prestigious titles in an empire. As the overseer of all scribes in the land, the Chief of the Scribes is responsible for imperial transactions and recordkeeping.;;;;;;;;;;;;;x
+
+title_chief_of_wine_stewards;Chief of Wine Stewards;;;;;;;;;;;;;x
+title_overseer_of_the_golden_grooms;Overseer of the Golden Grooms;;;;;;;;;;;;;x
+title_chief_of_the_wooden_tablet_scribes;Chief of the Wooden Tablet Scribes;;;;;;;;;;;;;x
+
+title_co_king;Co-Monarch;;;;;;;;;;;;;x
+title_co_king_desc;Since a hegemon has a wide array of responsibilities, it is advantageous for a ruler to allow a close relative to be co-monarch, both allowing the relative to gain experience and the hegemon to relieve some of their duties.;;;;;;;;;;;;;x
+
+###########Artifacts###########
+shield;Shield;;;;;;;;;;;;;x
+helmet;Helmet;;;;;;;;;;;;;x
+
+armor_achilles;Armor of Akhilleus;;;;;;;;;;;;;x
+armor_achilles_desc;Originally belonging to Akhilleus' father Peleus, it was forged by Haphaistos as a wedding present.;;;;;;;;;;;;;x
+
+armor_achilles_2;Armor of Akhilleus;;;;;;;;;;;;;x
+armor_achilles_2_desc;This set of armor was forged after Akhilleus lost his original set after Pátroklos died at the hands of Hektor.;;;;;;;;;;;;;x
+
+shield_achilles;Shield of Akhilleus;;;;;;;;;;;;;x
+shield_achilles_desc;Forged by Haphaistos after Pátroklos was killed, this shield is wrought many intricate designs.;;;;;;;;;;;;;x
+
+sword_peleus;Sword of Peleus;;;;;;;;;;;;;x
+sword_peleus_desc;Sent directly by the gods, it is said that this sword has magical properties.;;;;;;;;;;;;;x
+
+spear_achilles;Spear of Akhilleus;;;;;;;;;;;;;x
+spear_achilles_desc;The bronze-headed spear of Akhilleus.;;;;;;;;;;;;;x
+
+armor_diomedes;Armor of Diomedes;;;;;;;;;;;;;x
+armor_diomedes_desc;The bronzen armor of Diomedes.;;;;;;;;;;;;;x
+
+armor_glaucus;Armor of Glaukos;;;;;;;;;;;;;x
+armor_glaucus_desc;The golden armor of Glaukos;;;;;;;;;;;;;x
+
+bow_eurytus;Bow of Eurutos;;;;;;;;;;;;;x
+bow_eurytus_desc;Originally belonging to the famed archer King Eurutos of Oikhalía, it was passed on to his son Iphitos, and then to the Odusseús during his journey to Messenia.;;;;;;;;;;;;;x
+
+arrow_heracles;Arrows of Herakles;;;;;;;;;;;;;x
+arrow_heracles_desc;Dipped in the poisonous blood of the Lérne Húdra, a single scratch from its point is enough to kill a man.;;;;;;;;;;;;;x
+
+shield_ajax;Shield of Ajax;;;;;;;;;;;;;x
+shield_ajax_desc;Made of bronze and seven layers of ox-hide, this shield forged for Aías, son of Telamon provides excellent defense against any foe.;;;;;;;;;;;;;x
+
+bone_pelops;Ivory Shoulder of Pelops;;;;;;;;;;;;;x
+bone_pelops_desc;This beautifully crafted piece of ivory was fashioned by Demeter as a replacement for Pelops' shoulder, which was accidently eaten when his father Tantalos served him to the gods.;;;;;;;;;;;;;x
+
+palladium_troy;Palladion of Truwisa;;;;;;;;;;;;;x
+palladium_troy_desc;This wooden statue of Pallas Athena protects Troy from destruction as long as it is within its walls.;;;;;;;;;;;;;x
+
+scepter_agamemnon;Pelop's Scepter;;;;;;;;;;;;;x
+scepter_agamemnon_desc;The divine scepter of the House of dark-faced Pelops. Haphaistos gave it to Zeus, Zeus gave it to Hermes, and Hermes gave it to Pelops.;;;;;;;;;;;;;x
+
+boar_tusk_helm;Boar Tusk Helmet;;;;;;;;;;;;;x
+boar_tusk_helm_desc;A helmet made from slivers of boar tusks attached to a padded leather base. Dozens of boars were slain to make this savage piece of armor.;;;;;;;;;;;;;x
+
+cup_nestor;Cup of Nestor;;;;;;;;;;;;;x
+cup_nestor_desc;A golden cup beautifully adorned with four handles and two doves. It is said that, when full, it is so heavy that only the hero Nestor could lift it.;;;;;;;;;;;;;x
+
+khopes;Bronze Khopes;;;;;;;;;;;;;x
+khopes_desc;This is Bronze Khopes Description;;;;;;;;;;;;;x
+
+lionskin;Lionskin;;;;;;;;;;;;;x
+lionskin_desc;This lion-pelt was taken as a trophy from some unlucky lion. Wearing it almost fills one with courage, as if the spirit of the beast itself enters the wearer...;;;;;;;;;;;;;x
+
+###########Regions###########
+world_greece;Greece;;;;;;;;;;;;;x
+world_asia_minor;Asia Minor;;;;;;;;;;;;;x
+
+###########Miscellaneous###########
+
+ask_to_be_league_member;Ask to Become Part of Your League;;;;;;;;;;;;;x
+ask_to_be_league_member;Ask [Root.GetTitledFirstName] to become your league city.;;;;;;;;;;;;;x
+relative_power_TT;Relative Power;;;;;;;;;;;;;x
+
+EVTDESCFKR500;To [Root.GetTitledName],\nI shall accept your request to become part of your league.\n\nSincerely,\n[From.GetTitledName];;;;;;;;;;;;;x
+
+amazonian_marriage;[Root.Culture.GetName] Marriage;;;;;;;;;;;;;x
+amazonian_marriage_desc;As an [Root.Culture.GetName], you must matrilineally wed another [Root.Culture.GetName].;;;;;;;;;;;;;x
+
+amazonian_marriage_third_party;[Root.Culture.GetName] Marriage;;;;;;;;;;;;;x
+amazonian_marriage_third_party_desc;As an [Root.Culture.GetName], you can matrilineally wed one of your [Root.Culture.GetName] dependents to another [Root.Culture.GetName].;;;;;;;;;;;;;x
+
+opposite_gender_TT;Must be the opposite gender.;;;;;;;;;;;;;x
+
+tooltip_title_same_culture;Has same culture as capital of the title;;;;;;;;;;;;;x
+
+GOVERNMENT_BONUS;Government Bonus;;;;;;;;;;;;;x
+HERO_TITLE;Heros;;;;;;;;;;;;;x
+
+mediterranean_trade;Mediterranean Trade Route;;;;;;;;;;;;;x
+mediterranean_trade_province_desc;Can only build §YMediterranean Trade Route Trade Posts§! in certain Counties along the §YMediterranean Trade Route§!\n   Open the §YTrade Zones Mapmode§! to see valid Counties;;;;;;;;;;;;;x
+
+RULE_COLLAPSE;Bronze Age Collapse;;;;;;;;;;;;;x
+
+RULE_GREEK_COLLAPSE_INVASION;Greek Bronze Age Collapse Invasion;;;;;;;;;;;;;x
+RULE_GREEK_COLLAPSE_INVASION_ON;Greece will be invaded during the Bronze Age Collapse;;;;;;;;;;;;;x
+RULE_GREEK_COLLAPSE_INVASION_OFF;Greece will not be invaded during the Bronze Age Collapse;;;;;;;;;;;;;x
+
+RULE_GREEK_COLLAPSE_REALM;Greek Bronze Age Realm Collapse;;;;;;;;;;;;;x
+RULE_GREEK_COLLAPSE_REALM_ON;Greek realms will collapse during the Bronze Age Collapse;;;;;;;;;;;;;x
+RULE_GREEK_COLLAPSE_REALM_OFF;Greece will not collapse during the Bronze Age Collapse;;;;;;;;;;;;;x
+
+RULE_ANATOLIAN_COLLAPSE_INVASION;Anatolian Bronze Age Collapse Invasion;;;;;;;;;;;;;x
+RULE_ANATOLIAN_COLLAPSE_INVASION_ON;Anatolia will be invaded during the Bronze Age Collapse;;;;;;;;;;;;;x
+RULE_ANATOLIAN_COLLAPSE_INVASION_OFF;Anatolia will not be invaded during the Bronze Age Collapse;;;;;;;;;;;;;x
+
+TRIBUTARY_LEAGUE_NAME;League City;;;;;;;;;;;;;x
+TRIBUTARY_LEAGUE_PLURAL;League Cities;;;;;;;;;;;;;x
+SUZERAIN_LEAGUE_NAME;League Hegemon;;;;;;;;;;;;;x

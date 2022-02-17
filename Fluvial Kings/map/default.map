@@ -1,5 +1,5 @@
-max_provinces = 359
-# stats:  357 provinces
+max_provinces = 365
+# stats:  364 provinces
 # unused:
 definitions = "definition.csv"
 provinces = "provinces.bmp"

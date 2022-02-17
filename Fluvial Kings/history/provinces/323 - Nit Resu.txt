@@ -1,0 +1,15 @@
+# c_nit_resu
+
+# County Title
+title = c_nit_resu
+
+# Settlements
+max_settlements = 1
+
+b_djeq_aper = castle
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

@@ -1,0 +1,19 @@
+# c_ta_wer
+
+# County Title
+title = c_ta_wer
+
+# Settlements
+max_settlements = 5
+
+b_abdju = castle
+b_per_djadja = city
+b_tawet = temple
+b_tjani = castle
+b_behdet_iabetet = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

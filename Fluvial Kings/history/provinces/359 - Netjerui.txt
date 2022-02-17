@@ -1,0 +1,18 @@
+# c_netjerui
+
+# County Title
+title = c_netjerui
+
+# Settlements
+max_settlements = 4
+
+b_gebetu = castle
+b_gesy = city
+b_iu_shenshen = temple
+b_nebut = castle
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

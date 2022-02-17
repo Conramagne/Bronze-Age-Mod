@@ -1,0 +1,247 @@
+#IDS from 2500000-2599999
+
+#Preset Egyptian Names (2500000-2500999)
+2500000 = {
+	name = "Sa-Seti"
+	culture = "egyptian"
+	used_for_random = no
+}
+2500001 = {
+	name = "Sa-Intef"
+	culture = "egyptian"
+	used_for_random = no
+}
+2500002 = {
+	name = "Sa-Yuya"
+	culture = "egyptian"
+	used_for_random = no
+}
+2500003 = {
+	name = "Sa-Sobekemsaf"
+	culture = "egyptian"
+	used_for_random = no
+}
+2500004 = {
+	name = "Sa-Ay"
+	culture = "egyptian"
+	used_for_random = no
+}
+2500005 = {
+	name = "Sa-Haankhef"
+	culture = egyptian
+	used_for_random = no
+}
+2500006 = {
+	name = "Sa-Mentuhotep"
+	culture = egyptian
+	used_for_random = no
+}
+2500007 = {
+	name = "Sa-Hor"
+	culture = egyptian
+	used_for_random = no
+}
+2500008 = {
+	name = "Sa-Amenemhat"
+	culture = egyptian
+	used_for_random = no
+}
+2500009 = {
+	name = "Sa-Senusret"
+	culture = egyptian
+	used_for_random = no
+}
+2500010 = {
+	name = "Sa-Intef"
+	culture = egyptian
+	used_for_random = no
+}
+2500011 = {
+	name = "Sa-Teti"
+	culture = egyptian
+	used_for_random = no
+}
+2500012 = {
+	name = "Sa-Userkaf"
+	culture = egyptian
+	used_for_random = no
+}
+2500013 = {
+	name = "Sa-Sneferu"
+	culture = egyptian
+	used_for_random = no
+}
+2500014 = {
+	name = "Sa-Narmer"
+	culture = egyptian
+	used_for_random = no
+}
+#Random Egyptian Names (2501000-2501999)
+2501000 = {
+	name = "Sa-Menkauhor"
+	culture = "egyptian"
+}
+2501001 = {
+	name = "Sa-Heqakheperre"
+	culture = "egyptian"
+}
+2501002 = {
+	name = "Sa-Khnumhotep"
+	culture = "egyptian"
+}
+2501003 = {
+	name = "Sa-Nesbanebdjed"
+	culture = "egyptian"
+}
+2501004 = {
+	name = "Sa-Rashepses"
+	culture = "egyptian"
+}
+2501005 = {
+	name = "Sa-Huni"
+	culture = "egyptian"
+}
+2501006 = {
+	name = "Sa-Nerikare"
+	culture = "egyptian"
+}
+2501007 = {
+	name = "Sa-Djau"
+	culture = "egyptian"
+}
+2501008 = {
+	name = "Sa-Haremakhet"
+	culture = "egyptian"
+}
+2501009 = {
+	name = "Sa-Imhotep"
+	culture = "egyptian"
+}
+2501010 = {
+	name = "Sa-Pantjeny"
+	culture = "egyptian"
+}
+2501011 = {
+	name = "Sa-Semerkhet"
+	culture = "egyptian"
+}
+2501012 = {
+	name = "Sa-Ramose"
+	culture = "egyptian"
+}
+2501013 = {
+	name = "Sa-Amenhotep"
+	culture = "egyptian"
+}
+2501014 = {
+	name = "Sa-Neferefre"
+	culture = "egyptian"
+}
+2501015 = {
+	name = "Sa-Dhutrekhnefer"
+	culture = "egyptian"
+}
+2501016 = {
+	name = "Sa-Heqakheperre"
+	culture = "egyptian"
+}
+2501017 = {
+	name = "Sa-Paneb"
+	culture = "egyptian"
+}
+2501018 = {
+	name = "Sa-Tefnakht"
+	culture = "egyptian"
+}
+2501019 = {
+	name = "Sa-Qahedjet"
+	culture = "egyptian"
+}
+2501020 = {
+	name = "Sa-Merefnebef"
+	culture = "egyptian"
+}
+2501021 = {
+	name = "Sa-Bebiankh"
+	culture = "egyptian"
+}
+2501022 = {
+	name = "Sa-Tjanefer"
+	culture = "egyptian"
+}
+2501023 = {
+	name = "Sa-Wadjmose"
+	culture = "egyptian"
+}
+2501024 = {
+	name = "Sa-Osorkon"
+	culture = "egyptian"
+}
+2501025 = {
+	name = "Sa-Khafre"
+	culture = "egyptian"
+}
+2501026 = {
+	name = "Sa-Psusennes"
+	culture = "egyptian"
+}
+2501027 = {
+	name = "Sa-Shedwast"
+	culture = "egyptian"
+}
+2501028 = {
+	name = "Sa-Gemenefkhonsbak"
+	culture = "egyptian"
+}
+2501029 = {
+	name = "Sa-Tetiankhem"
+	culture = "egyptian"
+}
+2501030 = {
+	name = "Sa-Dedumose"
+	culture = "egyptian"
+}
+2501031 = {
+	name = "Sa-Paheri"
+	culture = "egyptian"
+}
+2501032 = {
+	name = "Sa-Aahotepre"
+	culture = "egyptian"
+}
+2501033 = {
+	name = "Sa-Ptahmay"
+	culture = "egyptian"
+}
+2501034 = {
+	name = "Sa-Unas"
+	culture = "egyptian"
+}
+2501035 = {
+	name = "Sa-Iufni"
+	culture = "egyptian"
+}
+2501036 = {
+	name = "Sa-Qemau"
+	culture = "egyptian"
+}
+2501037 = {
+	name = "Sa-Meryteti"
+	culture = "egyptian"
+}
+2501038 = {
+	name = "Sa-Sewadjkare"
+	culture = "egyptian"
+}
+2501039 = {
+	name = "Sa-Geregtawy"
+	culture = "egyptian"
+}
+2501040 = {
+	name = "Sa-Bakenrenef"
+	culture = "egyptian"
+}
+2501041 = {
+	name = "Sa-Menkheperre"
+	culture = "canaanite"
+}

@@ -1,0 +1,18 @@
+# c_ta_seti
+
+# County Title
+title = c_ta_seti
+
+# Settlements
+max_settlements = 4
+
+b_nebit = castle
+b_khenyt = city
+b_sunu = temple
+b_pa_iu_rek = castle
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

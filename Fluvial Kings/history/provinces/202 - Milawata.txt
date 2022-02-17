@@ -8,8 +8,8 @@ max_settlements = 4
 
 b_milawata = castle
 b_pariyana = city
-b_myous = castle
-b_iyalanda = temple
+# b_myous = castle
+# b_iyalanda = temple
 
 # Misc
 culture = achaean

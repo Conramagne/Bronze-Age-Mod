@@ -1,0 +1,17 @@
+# c_nit_mehtet
+
+# County Title
+title = c_nit_mehtet
+
+# Settlements
+max_settlements = 3
+
+b_sau = castle
+b_iwneferu = city
+b_per_wadjet = temple
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

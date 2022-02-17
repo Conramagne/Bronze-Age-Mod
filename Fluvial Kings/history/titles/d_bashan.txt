@@ -8,3 +8,9 @@
 2485.1.1={
 	holder = 2320200
 }
+2527.1.1 = {
+	set_tribute_suzerain = {
+		who = e_kemet
+		type = default
+	}
+}

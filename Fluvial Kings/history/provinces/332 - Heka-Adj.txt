@@ -1,0 +1,18 @@
+# c_heka_adj
+
+# County Title
+title = c_heka_adj
+
+# Settlements
+max_settlements = 3
+
+b_iunu = castle
+b_kher_aha = city
+b_dju_desher = temple
+#b_ta_ra_au = castle
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

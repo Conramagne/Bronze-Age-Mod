@@ -35,6 +35,8 @@ k_lakonia;Lakonia;Lakonia;Lakonia;;Lakonia;;;;;;;;;x
 k_lakonia_adj;Lakonian;;lakoner;;;;;;;;;;;x
 k_lukka;Lukka;Lukka;Lukka;;Lukka;;;;;;;;;x
 k_lukka_adj;Lukkan;;lukker;;;;;;;;;;;x
+k_mehu;Mehu;Mehu;Mehu;;Mehu;;;;;;;;;x
+k_mehu_adj;Mehian;;meher;;;;;;;;;;;x
 k_negev;Negev;Negev;Negev;;Negev;;;;;;;;;x
 k_negev_adj;Negevian;;negever;;;;;;;;;;;x
 k_pala;Pala;Pala;Pala;;Pala;;;;;;;;;x
@@ -43,10 +45,8 @@ k_plishtim;Plishtim;Plishtim;Plishtim;;Plishtim;;;;;;;;;x
 k_plishtim_adj;Plishtimian;;plishtimer;;;;;;;;;;;x
 k_put;Put;Put;Put;;Put;;;;;;;;;x
 k_put_adj;Putian;;puter;;;;;;;;;;;x
-k_ta_mehu;Ta-Mehu;Ta-Mehu;Ta-Mehu;;Ta-Mehu;;;;;;;;;x
-k_ta_mehu_adj;Ta-Mehian;;ta-meher;;;;;;;;;;;x
-k_ta_shemeaw;Ta-Sheme'aw;Ta-Sheme'aw;Ta-Sheme'aw;;Ta-Sheme'aw;;;;;;;;;x
-k_ta_shemeaw_adj;Ta-Sheme'awian;;ta-sheme'awer;;;;;;;;;;;x
+k_shemau;Shemau;Shemau;Shemau;;Shemau;;;;;;;;;x
+k_shemau_adj;Shemian;;shemer;;;;;;;;;;;x
 k_tarhuntassa;Tarhuntassa;Tarhuntassa;Tarhuntassa;;Tarhuntassa;;;;;;;;;x
 k_tarhuntassa_adj;Tarhuntassan;;tarhuntasser;;;;;;;;;;;x
 k_thraki;Thraki;Thraki;Thraki;;Thraki;;;;;;;;;x

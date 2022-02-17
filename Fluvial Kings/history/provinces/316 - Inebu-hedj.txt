@@ -4,12 +4,14 @@
 title = c_inebu_hedj
 
 # Settlements
-max_settlements = 1
+max_settlements = 3
 
-b_menfe = castle
+b_men_nefer = castle
+b_itj_taui = city
+b_hut_ka_ptah = temple
 
 # Misc
-culture = tmhw
-religion = egyptian_religion
+culture = egyptian
+religion = maat
 
 #History

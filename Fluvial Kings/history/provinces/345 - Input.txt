@@ -1,0 +1,19 @@
+# c_input
+
+# County Title
+title = c_input
+
+# Settlements
+max_settlements = 5
+
+b_her_di = castle
+b_ahui = city
+b_khenu = temple
+b_per_shaq = castle
+b_djutu = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

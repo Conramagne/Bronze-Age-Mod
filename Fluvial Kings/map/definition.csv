@@ -315,45 +315,51 @@ province;red;green;blue;x;x
 314;167;73;90;Saaru;x
 315;150;54;99;Kadesh;x
 316;203;91;203;Inebu-hedj;x
-317;1;1;1;PLACEHOLDER317;x
-318;166;26;165;Khepesh;x
-319;170;58;169;Imentet;x
-320;212;152;210;Nit Resu;x
-321;135;72;133;Nit Mehtet;x
-322;227;67;210;Khasuu;x
-323;194;56;190;Hui-ges Imenti;x
-324;170;81;179;Hui-ges Iabti;x
-325;191;55;185;Andjeti;x
-326;176;45;188;Kem-Ur;x
-327;148;33;158;Hesbu;x
-328;178;76;167;Tjeb-Netjer;x
-329;105;41;111;Heka-Redj;x
-330;149;67;153;Khenti-Iabti;x
-331;194;43;207;Djehuti;x
-332;118;64;123;Hat Mehit;x
-333;160;76;167;Behdet;x
-334;179;91;175;Imty Khenti;x
-335;102;75;104;Imty Pehu;x
-336;158;110;160;Sepdju;x
-337;129;1;190;Waset;x
-338;39;102;138;Nekhen;x
-339;100;159;192;Wetjes-Her;x
-340;173;0;173;Ta-Seti;x
-341;77;143;181;Netjerui;x
-342;62;105;129;Meseh;x
-343;71;128;160;Bat;x
-344;55;68;100;Ta-Wer;x
-345;61;108;218;Menu;x
-346;61;110;137;Wadjyt;x
-347;64;145;193;Sha;x
-348;0;92;144;Dju-fet;x
-349;172;0;173;Nedjfet Khentet;x
-350;80;111;184;Nedjfet Pehtet;x
-351;188;90;144;Wenet;x
-352;176;74;116;Ma-Hedj;x
-353;140;111;184;Input;x
-354;122;111;184;Nemti;x
-355;188;111;144;Wabwi;x
-356;120;111;184;Nart Khentet;x
-357;181;45;181;Nart Pehtet;x
-358;188;111;184;Mednit;x
+317;170;58;169;Imentet;x
+318;194;56;190;Hui-ges Imenti;x
+319;135;72;133;Nit Mehtet;x
+320;178;76;167;Khasuu;x
+321;160;76;167;Tjeb-netjer;x
+322;148;33;158;Andjety;x
+323;191;55;185;Nit Resu;x
+324;180;47;180;Khenti-Iabti;x
+325;166;26;165;Khepesh;x
+326;194;43;207;Behdet;x
+327;118;64;123;Djehuti;x
+328;102;75;104;Hat Mehit;x
+329;149;67;153;Imty Pehu;x
+330;176;45;188;Hesbu;x
+331;198;37;196;Biau;x
+332;105;41;111;Heka-Adj;x
+333;109;45;188;Imty Khenti;x
+334;109;70;160;Sepedju;x
+335;158;110;160;Hui-ges Iabti;x
+336;170;81;179;Kem-Ur;x
+337;188;111;184;Naret Pehtet;x
+338;119;71;140;Per-Wesir;x
+339;178;105;140;Ta-iadet-kamen;x
+340;181;45;181;Medenit;x
+341;120;111;184;Naret Khentet;x
+342;181;105;181;Nemty;x
+343;140;111;184;Wabui;x
+344;120;85;151;Wenet;x
+345;176;74;116;Input;x
+346;188;90;144;Ma-hedj;x
+347;128;105;144;Mer-neferet;x
+348;80;111;184;Nedjfet Pehtet;x
+349;173;0;173;Nedjfet Khentet;x
+350;55;68;100;Ta-wer;x
+351;61;110;137;Dju-fet;x
+352;0;92;144;Sha;x
+353;61;108;218;Wadjyt;x
+354;0;163;151;Menu;x
+355;129;1;190;Waset;x
+356;71;128;160;Bat;x
+357;62;105;129;Meseh;x
+358;39;102;138;Nekhen;x
+359;77;143;181;Netjerui;x
+360;39;132;138;Nekheb;x
+361;100;159;192;Wetjes-Her;x
+362;173;0;147;Ta-Seti;x
+363;120;0;173;Abu;x
+364;198;116;97;Biau Desert;x

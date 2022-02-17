@@ -1,0 +1,16 @@
+# c_tjeb_netjer
+
+# County Title
+title = c_tjeb_netjer
+
+# Settlements
+max_settlements = 2
+
+b_tjeb_netjer = castle
+b_netjeret = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

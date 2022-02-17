@@ -1,0 +1,653 @@
+e_kemet = {
+	color={ 163 131 183 }
+	color2={ 255 255 20 }
+	
+	capital = 316 # c_inebu_hedj
+	
+	title = "TITLE_PHARAOH"
+	title_female = "TITLE_PHARAOH_FEMALE"
+	
+	k_mehu = {
+		color={ 173 121 188 }
+		color2={ 255 255 255 }
+		
+		capital = 316 # c_inebu_hedj
+		
+		title = "TITLE_KING_LOWER"
+		title_female = "TITLE_KING_LOWER_FEMALE"
+		
+		d_mehtet_imenti = {
+			color={ 193 101 198 }
+			color2={ 255 255 255 }
+			
+			capital = 316 # c_inebu_hedj
+			
+			c_inebu_hedj = { # 316
+				color={ 203 91 203 }
+				color2={ 255 255 255 }
+				
+				b_men_nefer = {
+				}
+				b_itj_taui = {
+				}
+				b_hut_ka_ptah = {
+					holy_site = maat
+				}
+			}
+			c_andjety = { # 322
+				color={ 148 33 158 }
+				color2={ 255 255 255 }
+				
+				b_djedu = {
+				}
+				b_mesedi = {
+				}
+			}
+			c_hui_ges_imenti = { # 318
+				color={ 194 56 190 }
+				color2={ 255 255 255 }
+				
+				b_dema_en_hor = {
+				}
+				b_henet = {
+				}
+			}
+			c_imentet = { # 317
+				color={ 170 58 169 }
+				color2={ 255 255 255 }
+				
+				b_imau = {
+				}
+				b_per_huther_nebet_mefkat = {
+				}
+				b_hut_ramessu = {
+				}
+				b_keben = {
+				}
+				b_nai_keredj = {
+				}
+				b_ra_qedit = {
+				}
+				b_merit = {
+				}
+			}
+			c_khasuu = { # 320
+				color={ 178 76 167 }
+				color2={ 255 255 255 }
+				
+				b_khasu = {
+				}
+				b_pa_ta_en_wadjet = {
+				}
+			}
+			c_khepesh = { # 325
+				color={ 166 26 165 }
+				color2={ 255 255 255 }
+				
+				b_khem = {
+				}
+				b_sa_hebu = {
+				}
+				b_but = {
+				}
+				b_iati_sepedu = {
+				}
+			}
+			c_nit_mehtet = { # 319
+				color={ 135 72 133 }
+				color2={ 255 255 255 }
+				
+				b_sau = {
+				}
+				b_iwneferu = {
+				}
+				b_per_wadjet = {
+				}
+			}
+			c_nit_resu = { # 323
+				color={ 191 55 185 }
+				color2={ 255 255 255 }
+				
+				b_djeq_aper = {
+				}
+			}
+			c_tjeb_netjer = { # 321
+				color={ 160 76 167 }
+				color2={ 255 255 255 }
+				
+				b_tjeb_netjer = {
+				}
+				b_netjeret = {
+				}
+			}
+		}
+		d_iunu = {
+			color={ 115 31 116 }
+			color2={ 255 255 255 }
+			
+			capital = 332 # c_heka_adj
+			
+			c_heka_adj = { # 332
+				color={ 105 41 111 }
+				color2={ 255 255 255 }
+				
+				b_iunu = {
+				}
+				b_kher_aha = {
+				}
+				b_dju_desher = {
+					holy_site = maat
+				}
+				b_ta_ra_au = {
+				}
+			}
+			c_hui_ges_iabti = { # 335
+				color={ 158 110 160 }
+				color2={ 255 255 255 }
+				
+				b_per_imetu = {
+				}
+				b_tjeku = {
+				}
+			}
+			c_imty_khenti = { # 333
+				color={ 109 45 188 }
+				color2={ 255 255 255 }
+				
+				b_per_bastet = {
+				}
+				b_bereset = {
+				}
+			}
+			c_kem_ur = { # 336
+				color={ 170 81 179 }
+				color2={ 255 255 255 }
+				
+				b_kemwi = {
+				}
+			}
+			c_sepedju = { # 334
+				color={ 109 70 160 }
+				color2={ 255 255 255 }
+				
+				b_gesem = {
+				}
+			}
+		}
+		d_mehtet_iabti = {
+			color={ 170 57 175 }
+			color2={ 255 255 255 }
+			
+			capital = 324 # c_khenti_iabti
+			
+			c_khenti_iabti = { # 324
+				color={ 180 47 180 }
+				color2={ 255 255 255 }
+				
+				b_taru = {
+				}
+				b_per_ramessu = {
+				}
+				b_ra_wati = {
+				}
+				b_sinu = {
+				}
+			}
+			c_behdet = { # 326
+				color={ 194 43 207 }
+				color2={ 255 255 255 }
+				
+				b_behdet = {
+				}
+			}
+			c_biau = { # 331
+				color={ 198 37 196 }
+				color2={ 255 255 255 }
+				
+				b_per_huther = {
+				}
+				b_dju_mefekat = {
+				}
+				b_har_sinai = {
+					holy_site = berith
+				}
+			}
+			c_djehuti = { # 327
+				color={ 118 64 123 }
+				color2={ 255 255 255 }
+				
+				b_djehuti_up_rehui = {
+				}
+				b_ra_nefer = {
+				}
+			}
+			c_hat_mehit = { # 328
+				color={ 102 75 104 }
+				color2={ 255 255 255 }
+				
+				b_per_ba_neb_djedet = {
+				}
+				b_anepet = {
+				}
+			}
+			c_hesbu = { # 330
+				color={ 176 45 188 }
+				color2={ 255 255 255 }
+				
+				b_ta_remu = {
+				}
+			}
+			c_imty_pehu = { # 329
+				color={ 149 67 153 }
+				color2={ 255 255 255 }
+				
+				b_djanet = {
+				}
+				b_shedenu = {
+				}
+				b_imet = {
+				}
+				b_neb_nen_nesut = {
+				}
+				b_tjeben = {
+				}
+			}
+		}
+	}
+	k_shemau = {
+		color={ 159 227 205 }
+		color2={ 255 255 255 }
+		
+		capital = 355 # c_waset
+		
+		title = "TITLE_KING_UPPER"
+		title_female = "TITLE_KING_UPPER_FEMALE"
+		
+		d_waset = {
+			color={ 139 247 195 }
+			color2={ 255 255 255 }
+			
+			capital = 355 # c_waset
+			
+			c_waset = { # 355
+				color={ 129 1 190 }
+				color2={ 255 255 255 }
+				
+				b_waset = {
+				}
+				b_madu = {
+				}
+				b_djamet = {
+					holy_site = maat
+				}
+				b_iunit_mentju = {
+				}
+				b_iu_miteru = {
+				}
+				b_djereti = {
+				}
+			}
+			c_bat = { # 356
+				color={ 71 128 160 }
+				color2={ 255 255 255 }
+				
+				b_hut_sekhem = {
+				}
+				b_beshetiu = {
+				}
+			}
+			c_meseh = { # 357
+				color={ 62 105 129 }
+				color2={ 255 255 255 }
+				
+				b_iunet_ta_netjeret = {
+				}
+				b_shabet = {
+				}
+				b_khedi = {
+				}
+			}
+			c_netjerui = { # 359
+				color={ 77 143 181 }
+				color2={ 255 255 255 }
+				
+				b_gebetu = {
+				}
+				b_gesy = {
+				}
+				b_iu_shenshen = {
+				}
+				b_nebut = {
+				}
+			}
+		}
+		d_abdju = {
+			color={ 65 58 105 }
+			color2={ 255 255 255 }
+			
+			capital = 350 # c_ta_wer
+			
+			c_ta_wer = { # 350
+				color={ 55 68 100 }
+				color2={ 255 255 255 }
+				
+				b_abdju = {
+				}
+				b_per_djadja = {
+				}
+				b_tawet = {
+					holy_site = maat
+				}
+				b_tjani = {
+				}
+				b_behdet_iabetet = {
+				}
+			}
+			c_dju_fet = { # 351
+				color={ 61 110 137 }
+				color2={ 255 255 255 }
+				
+				b_per_nu_em_am = {
+				}
+				b_jakemet = {
+				}
+			}
+			c_menu = { # 354
+				color={ 0 163 151 }
+				color2={ 255 255 255 }
+				
+				b_ipu = {
+				}
+				b_tjeset = {
+				}
+				b_hut_repat = {
+					holy_site = maat
+				}
+				b_ideb = {
+				}
+				b_gereget_2 = {
+				}
+			}
+			c_sha = { # 352
+				color={ 0 92 144 }
+				color2={ 255 255 255 }
+				
+				b_shash_hetep = {
+				}
+			}
+			c_wadjyt = { # 353
+				color={ 61 108 218 }
+				color2={ 255 255 255 }
+				
+				b_tjebu = {
+				}
+				b_per_wedjy = {
+				}
+				b_pa_shena = {
+				}
+				b_sebhet = {
+				}
+				b_wadjyt = {
+				}
+			}
+		}
+		d_akhetaten = {
+			color={ 130 75 156 }
+			color2={ 255 255 255 }
+			
+			capital = 344 # c_wenet
+			
+			c_wenet = { # 344
+				color={ 120 85 151 }
+				color2={ 255 255 255 }
+				
+				b_khemenu = {
+				}
+				b_nai_usermaatre_meryamun = {
+				}
+				b_per_shesh = {
+				}
+				b_akhetaten = {
+				}
+				b_her_wer = {
+				}
+				b_ta_henet = {
+				}
+			}
+			c_input = { # 345
+				color={ 176 74 116 }
+				color2={ 255 255 255 }
+				
+				b_her_di = {
+				}
+				b_ahui = {
+				}
+				b_khenu = {
+				}
+				b_per_shaq = {
+				}
+				b_djutu = {
+				}
+			}
+			c_ma_hedj = { # 346
+				color={ 188 90 144 }
+				color2={ 255 255 255 }
+				
+				b_menat_khufu = {
+				}
+				b_ta_wehet = {
+				}
+				b_iu_nesha = {
+				}
+				b_pe_na_heter = {
+				}
+				b_neferusi = {
+				}
+			}
+			c_mer_neferet = { # 347
+				color={ 128 105 144 }
+				color2={ 255 255 255 }
+				
+				b_mer_neferet = {
+				}
+				b_ra_inet = {
+				}
+				b_hebenu = {
+				}
+				b_per_pakhet = {
+				}
+			}
+			c_nedjfet_khentet = { # 349
+				color={ 173 0 173 }
+				color2={ 255 255 255 }
+				
+				b_sauti = {
+				}
+			}
+			c_nedjfet_pehtet = { # 348
+				color={ 80 111 184 }
+				color2={ 255 255 255 }
+				
+				b_qis = {
+				}
+				b_hut_nebu = {
+				}
+				b_senenia = {
+				}
+				b_peges = {
+				}
+				b_waret_nebet_maat = {
+				}
+			}
+		}
+		d_qab = {
+			color={ 178 121 179 }
+			color2={ 255 255 255 }
+			
+			capital = 337 # c_naret_pehtet
+			
+			c_naret_pehtet = { # 337
+				color={ 188 111 184 }
+				color2={ 255 255 255 }
+				
+				b_mer_ur = {
+				}
+				b_hut_waret = {
+				}
+				b_shedet = {
+				}
+				b_dja = {
+				}
+			}
+			c_medenit = { # 340
+				color={ 181 45 181 }
+				color2={ 255 255 255 }
+				
+				b_tep_ihu = {
+				}
+			}
+			c_naret_khentet = { # 341
+				color={ 120 111 184 }
+				color2={ 255 255 255 }
+				
+				b_henen_nasut = {
+				}
+				b_tjekenesh = {
+				}
+				b_na_wau = {
+				}
+				b_pa_ma = {
+				}
+				b_nebiui = {
+				}
+				b_na_kharu = {
+				}
+				b_per_sekhmekhperera = {
+				}
+			}
+			c_nemty = { # 342
+				color={ 181 105 181 }
+				color2={ 255 255 255 }
+				
+				b_tayu_djayt = {
+				}
+				b_hut_nesut = {
+				}
+			}
+			c_per_wesir = { # 338
+				color={ 119 71 140 }
+				color2={ 255 255 255 }
+				
+				b_per_wesir = {
+				}
+				b_ra_henet = {
+				}
+				b_ta_iadet_redj = {
+				}
+				b_shesepet = {
+				}
+			}
+			c_ta_iadet_kamen = { # 339
+				color={ 178 105 140 }
+				color2={ 255 255 255 }
+				
+				b_ta_iadet_kamen = {
+				}
+				b_semen_her = {
+				}
+				b_gereget = {
+				}
+			}
+			c_wabui = { # 343
+				color={ 140 111 184 }
+				color2={ 255 255 255 }
+				
+				b_pen_na_nehsi = {
+				}
+				b_per_medjed = {
+				}
+				b_seper_meru = {
+				}
+				b_pa_sega_anyn = {
+				}
+				b_shenut_em_qemau = {
+				}
+				b_sha_repet = {
+				}
+			}
+		}
+		d_resu = {
+			color={ 49 92 143 }
+			color2={ 255 255 255 }
+			
+			capital = 358 # c_nekhen
+			
+			c_nekhen = { # 358
+				color={ 39 102 138 }
+				color2={ 255 255 255 }
+				
+				b_seni = {
+				}
+				b_hut_seneferu = {
+				}
+				b_nekhen = {
+				}
+				b_gekhesti = {
+				}
+				b_inereti = {
+				}
+			}
+			c_abu = { # 363
+				color={ 120 0 173 }
+				color2={ 255 255 255 }
+				
+				b_abu = {
+				}
+				b_setjet = {
+				}
+				b_djed = {
+				}
+				b_nefer = {
+				}
+			}
+			c_nekheb = { # 360
+				color={ 39 132 138 }
+				color2={ 255 255 255 }
+				
+				b_nekheb = {
+				}
+				b_hefat = {
+				}
+				b_iat_negen = {
+				}
+			}
+			c_ta_seti = { # 362
+				color={ 173 0 147 }
+				color2={ 255 255 255 }
+				
+				b_nebit = {
+				}
+				b_khenyt = {
+				}
+				b_sunu = {
+				}
+				b_pa_iu_rek = {
+				}
+			}
+			c_wetjes_her = { # 361
+				color={ 100 159 192 }
+				color2={ 255 255 255 }
+				
+				b_behdet_2 = {
+				}
+				b_sunit = {
+				}
+				b_khenia = {
+				}
+				b_hut_menemaatre = {
+				}
+			}
+		}
+	}
+}
+

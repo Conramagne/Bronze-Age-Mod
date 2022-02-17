@@ -55,17 +55,15 @@
 #Canaanite Pantheon
 1000003 = {
 	name = "Elohim"
+	used_for_random = no	
+}
+
+#Egyptian Pantheon
+1000004 = {
+	name = "Mesu-Netjeru"
 	used_for_random = no
-	coat_of_arms = {
-		religion = canaanite_religion
-		template = 0
-		layer = {
-			texture = 0
-			texture_internal = 42
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}	
+}
+1000005 = {
+	name = "Mesu-Amun"
+	used_for_random = no
 }

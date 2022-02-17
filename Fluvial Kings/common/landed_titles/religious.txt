@@ -105,7 +105,7 @@ e_hellenic_pantheon = {
 
 e_european_pantheon = {
 	color = { 255 255 255 }
-	capital = 147
+	capital = 146
 	
 	title = "HIGH_GOD"
 	foa = "POPE_FOA"
@@ -121,7 +121,23 @@ e_european_pantheon = {
 
 e_canaanite_religion_pantheon = {
 	color = { 255 255 255 }
-	capital = 147
+	capital = 252
+	
+	title = "HIGH_GOD"
+	foa = "POPE_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+}
+
+e_maat_pantheon = {
+	color = { 255 255 255 }
+	capital = 316
 	
 	title = "HIGH_GOD"
 	foa = "POPE_FOA"

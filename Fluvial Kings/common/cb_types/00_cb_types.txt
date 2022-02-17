@@ -1157,6 +1157,17 @@ claim_on_liege = {
 						give_nickname = nick_the_usurper
 					}
 				}
+				if = {
+					limit = {
+						k_judge_of_israel = {
+							holder = ROOT
+							any_previous_holder = {
+								character = FROM
+							}
+						}
+					}
+					character_event = { id = fkc.13 }
+				}
 			}
 		}
 
@@ -1301,7 +1312,6 @@ claim_on_liege = {
 		factor = 100
 	}
 }
-
 
 # 3
 claim_on_liege_plot = {
@@ -1488,6 +1498,17 @@ claim_on_liege_plot = {
 		}
 		ROOT = {
 			plot_succeeds = yes
+			if = {
+				limit = {
+					k_judge_of_israel = {
+						holder = ROOT
+						any_previous_holder = {
+							character = FROM
+						}
+					}
+				}
+				character_event = { id = fkc.13 }
+			}
 		}
 	}
 

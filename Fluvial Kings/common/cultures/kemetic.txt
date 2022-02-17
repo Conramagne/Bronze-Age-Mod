@@ -1,0 +1,111 @@
+kemetic = {
+	graphical_cultures = { muslimgfx }
+
+	egyptian = {
+		graphical_cultures = { egyptiangfx }
+
+		color = { 0.1 0.1 0.6 }
+
+		male_names = {
+			Aahotepre Ahmose Amenemhat Amenemope Amenherkhepshef Amenhotep Amenmesse Amunemwia Amunherkhepeshet Ankhmakis Any Ay 
+			Baba Bakenrenef Baqet Bauefre Bebiankh Bek 
+			Dedumose Den Dhutrekhnefer Djau Djedefre Djedefptah Djedher Djedkare Djedkheperew Djedkhonsuefankh Djehuti Djer Djet Djoser
+			Gemenefkhonsbak Geregtawy 
+			Haaibre Hakor Haremakhet Harsiesi Hedjkheperre Heqakheperre Herihor Hewernef Hor Hor-Aha Hori Horemheb Horherwenemef Hotepibre Hotepsekhemwy Hsekiu Hugronaphor Hunefer Huni Huy
+			Ibi Imhotep Imyremeshaw Inaros Ini Intef Inykhnum Ipy Irimaatenre Itamun Itu Iufni Iunre Iuput Iuwelot Iyibkhentre Iymeru Iynefer 
+			Kaemsekhem Kagemni Kakhent Kamose Kanefer Kara Kawab Kedendenna Khaankhre Khaba Khababash Khaemweset Khafre Khamenteru Khasekhemwy Khawy Khayu Khendjer Kheperkare Kheperkheperure Khety Khnumhotep Khufu Khufukhaf Khuiqer Kyky
+			Mahu Masaharta Mastesuria Maya Menes Menkauhor Menkauhor-Kaiu Menkaure Menkheperre Mentuherkhepeshef Mentuhotep Merefnebef Merenhor Merenptah Merenre Mershepsesre Meryamun Meryhathor Meryibre Meryibre-Khety Merykare Meryre Meryteti Mesen-Ka Minkhaf Minmontu Minnefer Minuen Montemtowe 
+			Nakht Nakhthorhebyt Nakhtmin Narmer Nebentaneb Nebiryraw Nebnuni Nebra Nebwawi Nechau Nedjemibre Nefaarud Neferefre Neferhotep Neferirkare Neferkara Neferkasokar Neferkheperuhersekheper Neheb Nekhtnebef Nesbanebdjed Neterkheperre Netjerkare Nemtyemsaf Nerikare Nikaure Nimlot Nisuheqet Nykara Nynetjer Nyuserre 
+			Osorkon 
+			Padibastet Paheri Paneb Panebenkemyt Panehesy Panhayboni Panouk Pantjeny Pareherwenemef Parennefer Paser Pebekkamen Pediese Pedubast Pefrowe Peftjauawybast Pehen-Ptah Peirswene Pendua Penernute Pentawere Penthu Pepi Perneb Piankh Pihiru  Pinedjem Pinehesy Prehemhab Prehotep Psammuthes Psamtik Psusennes Ptahdjedef Ptahmay Ptahmose Ptahshepses Puimre
+			Qaa Qahedjet Qar Qemau Qen 
+			Raherka Rahotep Ramesses Ramose Ranefer Rashepses Rawer Rehuerdjersen Rekhmire Renseneb Roma Rudamun 
+			Sabef Sabu Sahure Sanakht Satau Sebkay Sedjefakare Sekhemkare Sekhemkhet Semenre Semerkhet Senakhtenamun Senakhtenre Senebmiu Senebtifi Senedj Senedjamibre Senusret Seqenenre Sethemwia Seth-Meribre Seth-Peribsen Seti Seti-Merneptah Setnakhte Setut Seusertawy Sewadjkare Sewahenre Sharek Shedsunefertum Shedwast Shemay Shepseskaf Shepseskare Shery Sheshi Shoshenq Siamun Si-Ese Simentu Simut Siptah Smendes Smenkhkare Snaaib Sneferka Sneferu Sneferukhaf Sobekemsaf Sobekhotep Sonbef Suti
+			Takelot Tefnakht Teti Tetiankhem Teyew Thay Thutmose Titkheperure Tjahapimu Tjanefer Tjesh Tjety Tutankhamun
+			Udjahorresnet Unas Userkaf Userkare Usermaatre Usermontu
+			Wadjkhaw Wadjmose Wahibre Wahneferhotep Wakhare Wazner Wegaf Wendjebauendjed Weneg Wenennefer Weni Wentawat Wepwawetemsaf Wetka Woseribre 
+			Yunmin Yuny
+			Zamonth 
+		}
+
+		female_names = {
+			Aat Ahhotep Amenia Amenirdis Ankhesenamun Ankhesenpepi Aya
+			Baketamen Baketmut Baketwernel Betrest Bintanath Bunefer
+			Duatentopet 
+			Ebana
+			Hatshepsut Hentupu Henuttawy Hetepheres
+			Gautseshen
+			Inhapi Ipu Iset Isetnofret Itet
+			Kanefernefer Kapes Karomama Khamerernebty Khedebneithirbinet Khentkaus Kiya 
+			Mai Mehytenwesket Meresankh Meritamen Merit-Ptah Meritites Mutbenret Mutnedjemet Mutnofret
+			Nebettawy Nedjemmut Neferneferuamen Neferneferure Nefertari Nefertiti Nefertkau Neskhons Nofret Nubemiunu Nubkhesbed
+			Penebui Persenet Peseshet Pyupy 
+			Rekhtere Reputnebty
+			Satiah Setepenre Shapenewpet Shesheshet Sitdjehitu Sithathoriunet Sitre Sobekneferu
+			Tabekenamun Tadibast Takhat Takhuit Tamwadjesy Tentamun Tey Tiye Tiy-Merenese Tjuyu Tuya Twosret Tyti
+			Udjebten
+			Wenher Werenro
+			Yuya 
+			Zatip
+		}
+
+		from_dynasty_prefix = "ni "
+
+		male_patronym = "Sa-"
+		female_patronym = "Sat-"
+		prefix = yes
+
+		modifier = default_culture_modifier
+
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+
+
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 60
+		mother_name_chance = 10
+	}
+	mesu_netjeru = {
+		graphical_cultures = { egyptiangodgfx }
+		color = { 0.6 0.3 0.7 }
+		
+		male_names = {
+			Adam
+		}
+		
+		female_names = {
+			Eve
+		}
+		
+		from_dynasty_prefix = "of "
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 30
+		father_name_chance = 10
+
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+}
+
+kushite = {
+	graphical_cultures = { muslimgfx }
+	
+	nubian = {
+		graphical_cultures = { nubiangfx }
+
+		color = { 0.7 0.2 0.1 }
+
+		male_names = {
+			 Adeqetali Akhratan Akinidad Aktisanes Alara Amani Amaniastabarqo Amanikhabale Amanikhalika Amanikhareqerem Amanikhatashan Amanirenas Amanislo Amanitaraqide Amanitenmemide Analmaaye Anlamani Aramatelqo Arikakahtani Arikhankharer Aritenyesbokhe Arkamani Arnekhamani Arqamani Aryamani Aryesbokhe Aspalta Atlanersa Baskakeren Bekemete Dakka Harsiyotef Irike Kalabsha Karkamani Kashta Khaleme Maleqorobar Malonaqen Malowiebamani Naqyrinsan Nasakhma Nastasen Natakamani Nawidemak Netekamani Paiftauaabaste Pakheme Piankhy Pinodjem Pisakar Piye, Sabrakamani Senkamanisken Shabaqo Shebitqo Shorkaror Siaspiqa Taharqo Takideamani Talakhamani Tamelerdeamani Tantamani Tanwetamani Tanyidamani Tarekeniwal Teqerideamani Teritedakhatey Teriteqas Teritnide Yesbokheamani
+		}
+
+		female_names = {
+			Alakhebasken Amanishakhete Amanishakheto Amanitore Henttawy Kaditede Kasaqa Neferukekashta Nensela Shanakdakhete Tabiry Takahatamani
+		}
+}

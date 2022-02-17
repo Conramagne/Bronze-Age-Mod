@@ -1,0 +1,96 @@
+1956.1.1 = {
+	holder = 2500624 #Yakbim
+}
+1981.1.1 = {
+	holder = 2500623 #Ya'ammu
+}
+1991.1.1 = {
+	holder = 2500622 #Qareh
+}
+2001.1.1 = {
+	holder = 2500621 #Ammu
+}
+2016.1.1 = {
+	holder = 2500620 #Sheshi
+}
+2056.1.1 = {
+	holder = 2500619 #Nehesy
+}
+2056.6.1 = {
+	holder = 2500618 #Khakherewre
+}
+2057.1.1 = {
+	holder = 2500617 #Nebefawre
+}
+2058.1.1 = {
+	holder = 2500616 #Sehebre
+}
+2061.1.1 = {
+	holder = 2500615 #Merdjefare
+}
+2062.1.1 = {
+	holder = 2500614 #Sewadjkare III
+}
+2063.1.1 = {
+	holder = 2500613 #Nebdjefare
+}
+2067.1.1 = {
+	holder = 2500612 #Webenre
+}
+2068.1.1 = {
+	holder = 0 #~3 lost kings and ~3 year missing
+}
+2071.1.1 = {
+	holder = 2500611 #Awibre II
+}
+2072.1.1 = {
+	holder = 2500610 #Heribre
+}
+2073.1.1 = {
+	holder = 2500609 #Nebsenre
+}
+2074.1.1 = {
+	holder = 0 #~2 lost kings and ~11 year missing
+}
+2085.1.1 = {
+	holder = 2500608 #Sewadjkare III
+}
+2086.3.1 = {
+	holder = 2500607 #Djedkherewre
+}
+2087.1.1 = {
+	holder = 2500606 #Sankhibre
+}
+2088.1.1 = {
+	holder = 0 #~2 lost kings and ~2 years missing
+}
+2090.1.1 = {
+	holder = 2500605 #Kakemure
+}
+2091.1.1 = {
+	holder = 2500604 #Neferibre
+}
+2092.1.1 = {
+	holder = 0 #~1 lost king and ~1 year missing
+}
+2093.1.1 = {
+	holder = 2500603 #Khakare
+}
+2094.1.1 = {
+	holder = 2500602 #Akare
+}
+2095.1.1 = {
+	holder = 0 #~1 lost king and ~1 year missing
+}
+2096.1.1 = {
+	holder = 2500601 #Anati Djedkare
+}
+2097.1.1 = {
+	holder = 0 #~8 lost kings and ~14 years missing
+}
+2110.1.1 = {
+	holder = 2500600 #Apepi
+}
+2111.1.1 = {
+	holder = 0
+}

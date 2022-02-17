@@ -4815,30 +4815,30 @@ narrative_event = {
 			limit = {
 				character = c_2101000 #Menelaos
 			}
-			if = {
-				limit = {
-					c_2102101 = { #Achilles
-						at_location = 168 #Troy
-					}
-					is_alive = yes
-				}
-				c_2102101 = { #Akhilleus
-					character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
-				}
-			}
-			else_if = {
-				limit = {
-				c_2102101 = { #Achilles
-						NOT = {
-							at_location = 168 #Troy
-						}
-						is_alive = yes
-					}
-				}
-				c_2102101 = { #Akhilleus
-					character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
-				}
-			}
+			# if = {
+				# limit = {
+					# c_2102101 = { #Achilles
+						# at_location = 168 #Troy
+					# }
+					# is_alive = yes
+				# }
+				# c_2102101 = { #Akhilleus
+					# character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
+				# }
+			# }
+			# else_if = {
+				# limit = {
+				# c_2102101 = { #Achilles
+						# NOT = {
+							# at_location = 168 #Troy
+						# }
+						# is_alive = yes
+					# }
+				# }
+				# c_2102101 = { #Akhilleus
+					# character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
+				# }
+			# }
 			if = {
 				limit = {
 					has_artifact = arrow_heracles
@@ -4904,29 +4904,29 @@ narrative_event = {
 		}
 	}
 	after = {
-		if = {
-			limit = {
-				c_2102101 = { #Achilles
-					at_location = 168 #Troy
-				}
-			}
-			c_2102101 = { #Akhilleus
-				character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
-			}
-		}
-		else_if = {
-			limit = {
-				c_2102101 = { #Achilles
-					NOT = {
-						at_location = 168 #Troy
-					}
-					is_alive = yes
-				}
-			}
-			c_2102101 = { #Akhilleus
-				character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
-			}
-		}
+		# if = {
+			# limit = {
+				# c_2102101 = { #Achilles
+					# at_location = 168 #Troy
+				# }
+			# }
+			# c_2102101 = { #Akhilleus
+				# character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
+			# }
+		# }
+		# else_if = {
+			# limit = {
+				# c_2102101 = { #Achilles
+					# NOT = {
+						# at_location = 168 #Troy
+					# }
+					# is_alive = yes
+				# }
+			# }
+			# c_2102101 = { #Akhilleus
+				# character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
+			# }
+		# }
 		if = {
 			limit = {
 				has_landed_title = e_hellenic_pantheon
@@ -4989,29 +4989,29 @@ narrative_event = {
 		}
 	}
 	after = {
-		if = {
-			limit = {
-				c_2102101 = { #Achilles
-					at_location = 168 #Troy
-				}
-			}
-			c_2102101 = { #Akhilleus
-				character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
-			}
-		}
-		else_if = {
-			limit = {
-				c_2102101 = { #Achilles
-					NOT = {
-						at_location = 168 #Troy
-					}
-					is_alive = yes
-				}
-			}
-			c_2102101 = { #Akhilleus
-				character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
-			}
-		}
+		# if = {
+			# limit = {
+				# c_2102101 = { #Achilles
+					# at_location = 168 #Troy
+				# }
+			# }
+			# c_2102101 = { #Akhilleus
+				# character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
+			# }
+		# }
+		# else_if = {
+			# limit = {
+				# c_2102101 = { #Achilles
+					# NOT = {
+						# at_location = 168 #Troy
+					# }
+					# is_alive = yes
+				# }
+			# }
+			# c_2102101 = { #Akhilleus
+				# character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
+			# }
+		# }
 		if = {
 			limit = {
 				has_landed_title = e_hellenic_pantheon
@@ -5523,29 +5523,29 @@ narrative_event = {
 		}
 	}
 	after = {
-		if = {
-			limit = {
-				c_2102101 = { #Achilles
-					at_location = 168 #Troy
-				}
-			}
-			c_2102101 = { #Akhilleus
-				character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
-			}
-		}
-		else_if = {
-			limit = {
-			c_2102101 = { #Achilles
-					NOT = {
-						at_location = 168 #Troy
-					}
-					is_alive = yes
-				}
-			}
-			c_2102101 = { #Akhilleus
-				character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
-			}
-		}
+		# if = {
+			# limit = {
+				# c_2102101 = { #Achilles
+					# at_location = 168 #Troy
+				# }
+			# }
+			# c_2102101 = { #Akhilleus
+				# character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
+			# }
+		# }
+		# else_if = {
+			# limit = {
+			# c_2102101 = { #Achilles
+					# NOT = {
+						# at_location = 168 #Troy
+					# }
+					# is_alive = yes
+				# }
+			# }
+			# c_2102101 = { #Akhilleus
+				# character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
+			# }
+		# }
 		if = {
 			limit = {
 				has_artifact = arrow_heracles
@@ -5584,29 +5584,29 @@ narrative_event = {
 		}
 	}
 	after = {
-		if = {
-			limit = {
-				c_2102101 = { #Achilles
-					at_location = 168 #Troy
-				}
-			}
-			c_2102101 = { #Akhilleus
-				character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
-			}
-		}
-		else_if = {
-			limit = {
-			c_2102101 = { #Achilles
-					NOT = {
-						at_location = 168 #Troy
-					}
-					is_alive = yes
-				}
-			}
-			c_2102101 = { #Akhilleus
-				character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
-			}
-		}
+		# if = {
+			# limit = {
+				# c_2102101 = { #Achilles
+					# at_location = 168 #Troy
+				# }
+			# }
+			# c_2102101 = { #Akhilleus
+				# character_event = { id = tw.107 } #Akhilleus dies in battle with Trojan Princes
+			# }
+		# }
+		# else_if = {
+			# limit = {
+			# c_2102101 = { #Achilles
+					# NOT = {
+						# at_location = 168 #Troy
+					# }
+					# is_alive = yes
+				# }
+			# }
+			# c_2102101 = { #Akhilleus
+				# character_event = { id = tw.109 } #Akhilleus dies in battle with Apollo
+			# }
+		# }
 		if = {
 			limit = {
 				has_artifact = arrow_heracles

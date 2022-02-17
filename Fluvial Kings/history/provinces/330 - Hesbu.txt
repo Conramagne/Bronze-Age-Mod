@@ -1,0 +1,15 @@
+# c_hesbu
+
+# County Title
+title = c_hesbu
+
+# Settlements
+max_settlements = 1
+
+b_ta_remu = castle
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

@@ -1,0 +1,16 @@
+# c_bat
+
+# County Title
+title = c_bat
+
+# Settlements
+max_settlements = 2
+
+b_hut_sekhem = castle
+b_beshetiu = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

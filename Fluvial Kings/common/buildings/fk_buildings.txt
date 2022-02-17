@@ -20,7 +20,7 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		potential = { 
 			FROM = {
-				tier = DUKE
+				higher_real_tier_than = COUNT
 				capital_holding = {
 					title = FROMFROM
 				}
@@ -44,7 +44,7 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		potential = { 
 			FROM = {
-				tier = KING
+				higher_real_tier_than = DUKE
 				capital_holding = {
 					title = FROMFROM
 				}
@@ -68,7 +68,7 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		potential = { 
 			FROM = {
-				tier = EMPEROR
+				higher_real_tier_than = KING
 				capital_holding = {
 					title = FROMFROM
 				}

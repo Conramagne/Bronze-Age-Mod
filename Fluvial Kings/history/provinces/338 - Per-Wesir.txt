@@ -1,0 +1,18 @@
+# c_per_wesir
+
+# County Title
+title = c_per_wesir
+
+# Settlements
+max_settlements = 4
+
+b_per_wesir = castle
+b_ra_henet = city
+b_ta_iadet_redj = temple
+b_shesepet = castle
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

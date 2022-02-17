@@ -1,0 +1,20 @@
+# c_wenet
+
+# County Title
+title = c_wenet
+
+# Settlements
+max_settlements = 6
+
+b_khemenu = castle
+b_nai_usermaatre_meryamun = city
+b_per_shesh = temple
+b_akhetaten = castle
+b_her_wer = city
+b_ta_henet = temple
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

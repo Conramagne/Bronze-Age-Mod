@@ -1,0 +1,18 @@
+# c_wetjes_her
+
+# County Title
+title = c_wetjes_her
+
+# Settlements
+max_settlements = 4
+
+b_behdet_2 = castle
+b_sunit = city
+b_khenia = temple
+b_hut_menemaatre = castle
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

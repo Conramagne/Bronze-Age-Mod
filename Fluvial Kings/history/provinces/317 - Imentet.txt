@@ -1,0 +1,21 @@
+# c_imentet
+
+# County Title
+title = c_imentet
+
+# Settlements
+max_settlements = 7
+
+b_imau = castle
+b_per_huther_nebet_mefkat = city
+b_hut_ramessu = temple
+b_keben = castle
+b_nai_keredj = city
+b_ra_qedit = temple
+b_merit = castle
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

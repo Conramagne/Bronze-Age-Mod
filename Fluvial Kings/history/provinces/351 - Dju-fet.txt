@@ -1,0 +1,16 @@
+# c_dju_fet
+
+# County Title
+title = c_dju_fet
+
+# Settlements
+max_settlements = 2
+
+b_per_nu_em_am = castle
+b_jakemet = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

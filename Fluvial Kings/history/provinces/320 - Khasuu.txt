@@ -1,0 +1,16 @@
+# c_khasuu
+
+# County Title
+title = c_khasuu
+
+# Settlements
+max_settlements = 2
+
+b_khasu = castle
+b_pa_ta_en_wadjet = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History

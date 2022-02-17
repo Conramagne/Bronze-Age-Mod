@@ -109,6 +109,8 @@ bnai_kenaan = {
 		intermarry = assussani
 		intermarry = dentudisas
 		intermarry = doumos
+		intermarry = maat
+		intermarry = atenism
 	}
 	
 	canaanite_religion = {
@@ -148,6 +150,8 @@ bnai_kenaan = {
 		intermarry = assussani
 		intermarry = dentudisas
 		intermarry = doumos
+		intermarry = maat
+		intermarry = atenism
 	}
 
 	ili_abinia = {
@@ -189,6 +193,8 @@ bnai_kenaan = {
 		intermarry = assussani
 		intermarry = dentudisas
 		intermarry = doumos
+		intermarry = maat
+		intermarry = atenism
 	}
 }
 
@@ -238,6 +244,8 @@ mesopotamian = {
 		intermarry = assussani
 		intermarry = dentudisas
 		intermarry = doumos
+		intermarry = maat
+		intermarry = atenism
 	}
 }
 
@@ -298,6 +306,8 @@ pihassasi = {
 		intermarry = assussani
 		intermarry = dentudisas
 		intermarry = doumos
+		intermarry = maat
+		intermarry = atenism
 	}
 	
 	ishalitethai = {
@@ -336,6 +346,8 @@ pihassasi = {
 		intermarry = assussani
 		intermarry = dentudisas
 		intermarry = doumos
+		intermarry = maat
+		intermarry = atenism
 	}
 }
 
@@ -387,6 +399,8 @@ hellenic = {
 		intermarry = assussani
 		intermarry = dentudisas
 		intermarry = doumos
+		intermarry = maat
+		intermarry = atenism
 	}
 	
 	assussani = {
@@ -426,6 +440,8 @@ hellenic = {
 		intermarry = dentudisas
 		intermarry = pantes_theoi
 		intermarry = doumos
+		intermarry = maat
+		intermarry = atenism
 	}
 }
 
@@ -470,6 +486,8 @@ european_group = {
 		intermarry = pantes_theoi
 		intermarry = assussani
 		intermarry = doumos
+		intermarry = maat
+		intermarry = atenism
 	}
 	
 	doumos = {
@@ -508,5 +526,98 @@ european_group = {
 		intermarry = pantes_theoi
 		intermarry = assussani
 		intermarry = dentudisas
+		intermarry = maat
+	}
+}
+
+kemetic = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	playable = yes
+	
+	ai_convert_same_group = 0 
+	ai_convert_other_group = 0
+	
+	color = { 0.1 0.1 0.6 }
+	
+	maat = {
+		icon = 6
+		heresy_icon = 6
+		
+		scripture_name = THE_SCROLLS
+		priest_title = HEM_NETJER
+		crusade_name = GREAT_HOLY_WAR
+
+		color = { 0.1 0.1 0.6 }
+		
+		high_god_name = GOD_AMUN_RA
+		
+		god_names = {
+			GOD_AMUN_RA GOD_AMUN GOD_RA GOD_PTAH GOD_WESIR GOD_ASET GOD_HOR GOD_DJEHUTI GOD_HUTHOR
+		}
+		evil_god_names = {
+			GOD_APEP GOD_ISFET
+		}
+		
+		allow_rivermovement = yes
+		allow_looting = yes
+		allow_viking_invasion = yes
+		max_wives = 5
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		female_temple_holders = yes
+		
+		intermarry = edomite_religion
+		intermarry = canaanite_religion
+		intermarry = ili_abinia
+		intermarry = egal_assur
+		intermarry = haianiluwi
+		intermarry = ishalitethai
+		intermarry = pantes_theoi
+		intermarry = assussani
+		intermarry = dentudisas
+		intermarry = doumos
+		intermarry = atenism
+	}
+	
+	atenism = {
+		icon = 3
+		heresy_icon = 3
+		
+		scripture_name = THE_SCROLLS
+		priest_title = HEM_NETJER
+		crusade_name = GREAT_HOLY_WAR
+
+		color = { 0.1 0.1 0.6 }
+		# parent = maat
+		
+		high_god_name = GOD_ATEN
+		
+		god_names = {
+			GOD_ATEN
+		}
+		evil_god_names = {
+			GOD_ISFET
+		}
+		
+		allow_rivermovement = yes
+		allow_looting = yes
+		allow_viking_invasion = yes
+		max_wives = 5
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		female_temple_holders = yes
+		
+		intermarry = edomite_religion
+		intermarry = canaanite_religion
+		intermarry = ili_abinia
+		intermarry = egal_assur
+		intermarry = haianiluwi
+		intermarry = ishalitethai
+		intermarry = pantes_theoi
+		intermarry = assussani
+		intermarry = dentudisas
+		intermarry = doumos
+		intermarry = maat
 	}
 }

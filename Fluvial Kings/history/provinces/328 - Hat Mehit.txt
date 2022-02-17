@@ -1,0 +1,16 @@
+# c_hat_mehit
+
+# County Title
+title = c_hat_mehit
+
+# Settlements
+max_settlements = 2
+
+b_per_ba_neb_djedet = castle
+b_anepet = city
+
+# Misc
+culture = egyptian
+religion = maat
+
+#History
