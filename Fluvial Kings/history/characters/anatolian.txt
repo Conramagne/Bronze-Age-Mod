@@ -247,6 +247,7 @@
 	culture = hittite
 	religion = ishalitethai
 	2061.1.1 = { birth = yes }
+	2082.1.1 = { add_spouse = 2002009 }
 	2111.1.1 = { death = yes }
 }
 
@@ -261,12 +262,12 @@
 }
 
 2000025 = {
-	name = "Pu-Šarruma" #Pu-Šarruma I
+	name = "Hišmi-Šarruma" #Hišmi-Šarruma I
 	dynasty = 2000000
 	culture = hittite
 	religion = ishalitethai
 	2031.1.1 = { birth = yes }
-	2071.1.1 = { death = yes }
+	2081.1.1 = { death = yes }
 }
 
 #Important Imperial Family (2001000-2001999)
@@ -516,7 +517,6 @@
 	2540.1.1 = { death = yes }
 }
 
-
 2002007 = {
 	name = "Gaššulawiya" # Gaššulawiya, sister of Tudhaliya IV, Queen of Amurru
 	dynasty = 2000000 #Labarnid
@@ -541,6 +541,17 @@
 	mother = 2002005
 	2496.1.1 = { birth = yes }
 	2566.1.1 = { death = yes }
+}
+
+2002009 = {
+	name = "Tawannanna" #Tawannanna, Wife of Labarna I
+	dynasty = 2000000
+	culture = hittite
+	religion = ishalitethai
+	female = yes
+	father = 2000025
+	2052.1.1 = { birth = yes }
+	2081.1.1 = { death = yes }
 }
 
 

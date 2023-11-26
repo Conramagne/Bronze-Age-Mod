@@ -584,7 +584,7 @@ character_event = {
 	}
 	
 	immediate = {
-		else_if = {
+		if = {
 			limit = {
 				primary_title = {
 					tier = DUKE
@@ -701,7 +701,7 @@ character_event = {
 	trigger = {
 		OR = {
 			government = tribal_government
-			government = pastoralist_government
+			# government = pastoralist_government
 		}
 		NOT = {
 			has_law = succ_eldership
@@ -725,7 +725,7 @@ character_event = {
 	trigger = {
 		OR = {
 			government = tribal_government
-			government = pastoralist_government
+			# government = pastoralist_government
 		}
 		NOT = {
 			has_law = succ_eldership
@@ -1092,10 +1092,15 @@ character_event = {
 	}
 	
 	immediate = {
-		add_law = {
-			law = succ_gavelkind
-			opinion_effect = no
-			cooldown = no
+		any_demesne_title = {
+			limit = {
+				has_law = succ_viceroyalty
+			}
+			add_law = {
+				law = succ_gavelkind
+				opinion_effect = no
+				cooldown = no
+			}
 		}
 	}
 
@@ -3281,7 +3286,6 @@ character_event = {
 	
 	trigger = {
 		has_character_modifier = imperial_authority
-		has_character_modifier = imperial_authority
 		war = no
 		primary_title = {
 			check_variable = { which = var_imperial_authority value < 1 }
@@ -3421,8 +3425,8 @@ character_event = {
 			has_character_modifier = palace_bureaucracy
 			has_character_flag = flag_god
 			primary_title = {
-				set_title_flag = palace_bureaucracy_set
-				set_title_flag = primary_set
+				has_title_flag = palace_bureaucracy_set
+				has_title_flag = primary_set
 			}
 		}
 		in_revolt = no
@@ -4167,10 +4171,10 @@ character_event = {
 	option = {
 		name = EVTOPTAFKR236
 		custom_tooltip = {
-			name = bureau_increase_3_TT
+			text = bureau_increase_3_TT
 		}
 		custom_tooltip = {
-			name = militarization_decrease_5_TT
+			text = militarization_decrease_5_TT
 		}
 	}
 }

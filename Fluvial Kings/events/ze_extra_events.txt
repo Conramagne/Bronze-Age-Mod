@@ -1848,9 +1848,9 @@ character_event = {
 					# }
 					# set_government_type = theocratic_feudal_government
 				# }
-				else = {
+				# else = {
 					set_government_type = feudal_government
-				}
+				# }
 			}
 			grant_title = event_target:target_friend_land
 		}

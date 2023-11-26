@@ -1490,7 +1490,7 @@ character_event = {
 				}
 			}
 			
-			dynasty = mother_even_if_dead
+			dynasty = mother
 		}
 		else_if = { #failsafe to prevent dynasty being Theogonos
 			limit = {

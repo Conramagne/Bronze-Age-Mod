@@ -108,4 +108,5 @@ kushite = {
 		female_names = {
 			Alakhebasken Amanishakhete Amanishakheto Amanitore Henttawy Kaditede Kasaqa Neferukekashta Nensela Shanakdakhete Tabiry Takahatamani
 		}
+	}
 }

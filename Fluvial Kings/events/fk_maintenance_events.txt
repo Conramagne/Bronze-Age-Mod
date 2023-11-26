@@ -191,7 +191,9 @@ character_event = {
 		}
 		else = {
 			FROM = {
-				save_event_target_as = capital_county
+				capital_scope = {
+					save_event_target_as = capital_county
+				}
 			}
 		}
 	}
@@ -316,7 +318,7 @@ character_event = {
 						culture = amazonian
 						culture = ROOT
 					}
-					female = no
+					is_female = no
 				}
 				spouse = {
 					is_landed = no
@@ -333,7 +335,7 @@ character_event = {
 						culture = amazonian
 						culture = ROOT
 					}
-					female = no
+					is_female = no
 				}
 				spouse = {
 					is_landed = no

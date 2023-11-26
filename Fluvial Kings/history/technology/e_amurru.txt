@@ -26,6 +26,7 @@ technology = {
 		d_astata
 		d_bit_agusi
 		d_dammasseq
+		d_gubla
 		d_karkemish
 		d_mukis
 	}

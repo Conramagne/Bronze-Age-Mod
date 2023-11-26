@@ -2119,7 +2119,7 @@ character_event = {
 		}
 		remove_province_modifier = ionian_migration
 		any_playable_ruler = {
-			character_event = { id = fkcg.30 } #Ionian become majority Pop-Up
+			character_event = { id = fkcg.31 } #Ionian become majority Pop-Up
 		}
 	}
 }
@@ -2168,7 +2168,7 @@ character_event = {
 		}
 		remove_province_modifier = aeolian_migration
 		any_playable_ruler = {
-			character_event = { id = fkcg.32 } #Aeolian become majority Pop-Up
+			character_event = { id = fkcg.33 } #Aeolian become majority Pop-Up
 		}
 	}
 }

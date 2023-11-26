@@ -33,6 +33,7 @@ character_event = {
 				match_character = THIS
 				attrition = 1.0
 				disband_on_peace = yes
+				match_mult = 1
 				maintenance_multiplier = 0
 			}
 			narrative_event = { id = tw.2 } #Greek Trojan War Event
@@ -50,6 +51,7 @@ character_event = {
 				match_character = THIS
 				attrition = 1.0
 				disband_on_peace = yes
+				match_mult = 1
 				maintenance_multiplier = 0
 			}
 			narrative_event = { id = tw.3 } #Trojan Trojan War Event
@@ -64,6 +66,7 @@ character_event = {
 				match_character = c_2102100 #Peleus
 				attrition = 1.0
 				disband_on_peace = yes
+				match_mult = 1
 				maintenance_multiplier = 0
 			}
 			narrative_event = { id = tw.2 } #Greek Trojan War Event
@@ -361,7 +364,10 @@ character_event = {
 				religion = haianiluwi
 				dynasty = none
 			}
-			add_consort = new_character
+			new_character = {
+				save_event_target_as = event_target_new_character_briseis
+			}
+			add_consort = event_target:event_target_new_character_briseis
 		}
 		if = {
 			limit = {
@@ -451,10 +457,11 @@ character_event = {
 				religion = haianiluwi
 				dynasty = none
 			}
-			add_consort = new_character
 			new_character = {
 				set_character_flag = stolen_away
+				save_event_target_as = new_character_chryseis
 			}
+			add_consort = event_target:new_character_chryseis
 		}
 		set_character_flag = agamemnon_received_consort
 		# character_event = { id = tw.10 } #Chryses requests his daughter in exchange for gold
@@ -1732,8 +1739,8 @@ long_character_event = {
 		add_artifact = armor_achilles_2
 		remove_trait = travelling
 		set_global_flag = achilles_return
-		remove_rival = c_2100900 #Agamemnon
-		remove_rival = c_2101000 #Menelaos
+		remove_rival = 2100900 #Agamemnon
+		remove_rival = 2101000 #Menelaos
 		any_playable_ruler = {
 			limit = {
 				any_war = {
@@ -2191,6 +2198,9 @@ character_event = {
 	}
 
 	immediate = {
+		c_1100146 = {
+			save_event_target_as = zeus_event_target
+		}
 		c_2102101 = { #Achilles
 			death = {
 				death_reason = death_battle
@@ -2201,7 +2211,7 @@ character_event = {
 						has_artifact_flag = achilles
 					}
 					transfer_artifact = {
-						to = c_1100146 #Zeus
+						to = event_target:zeus_event_target
 						from = PREV
 					}
 				}
@@ -2258,6 +2268,12 @@ character_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
+	
+	immediate = {
+		c_1100146 = {
+			save_event_target_as = zeus_event_target
+		}
+	}
 
 	option = {
 		name = EVTOPTATW46
@@ -2275,7 +2291,7 @@ character_event = {
 						}
 					}
 					transfer_artifact = {
-						to = c_1100146 #Zeus
+						to = event_target:zeus_event_target
 						from = PREV
 					}
 				}

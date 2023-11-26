@@ -514,48 +514,49 @@ tribal_king_female_eneti;Hassusara;;;;;;;;;;;;;x
 tribal_emperor_eneti;Salihassu;;;;;;;;;;;;;x
 tribal_emperor_female_eneti;Nasusara;;;;;;;;;;;;;x
 
-baron_luwian;Happira-Isha;;;;;;;;;;;;;x
-baron_female_luwian;Happira-Ishassara;;;;;;;;;;;;;x
-count_luwian;Isha;;;;;;;;;;;;;x
-count_female_luwian;Ishassara;;;;;;;;;;;;;x
-duke_luwian;Maniyahha;;;;;;;;;;;;;x
-duke_female_luwian;Maniyahhasara;;;;;;;;;;;;;x
-king_luwian;Hassu;;;;;;;;;;;;;x
+baron_luwian;Niya;;;;;;;;;;;;;x
+baron_female_luwian;Wanatti;;;;;;;;;;;;;x
+count_luwian;Wanniniya;;;;;;;;;;;;;x
+count_female_luwian;Wanniwanatti;;;;;;;;;;;;;x
+duke_luwian;Taskwariniya;;;;;;;;;;;;;x
+duke_female_luwian;Taskwariwanatti;;;;;;;;;;;;;x
+king_luwian;Hantawatt;;;;;;;;;;;;;x
 king_female_luwian;Hassusara;;;;;;;;;;;;;x
-emperor_luwian;Salihassu;;;;;;;;;;;;;x
+emperor_luwian;Urahantawatt;;;;;;;;;;;;;x
 emperor_female_luwian;Nasusara;;;;;;;;;;;;;x
 title_prince_luwian;Harduwatt;;;;;;;;;;;;;x
-tribal_baron_luwian;Hassatarisha;;;;;;;;;;;;;x
-tribal_baron_female_luwian;Hassatarishassara;;;;;;;;;;;;;x
-tribal_count_luwian;Isha;;;;;;;;;;;;;x
-tribal_count_female_luwian;Ishassara;;;;;;;;;;;;;x
-tribal_duke_luwian;Maniyahha;;;;;;;;;;;;;x
-tribal_duke_female_luwian;Maniyahhasara;;;;;;;;;;;;;x
-tribal_king_luwian;Hassu;;;;;;;;;;;;;x
+tribal_baron_luwian;Hassatarisha;;;;;;;;;;;;;x #placeholder
+tribal_baron_female_luwian;Hassatarishassara;;;;;;;;;;;;;x #placeholder
+tribal_count_luwian;Isha;;;;;;;;;;;;;x #placeholder
+tribal_count_female_luwian;Ishassara;;;;;;;;;;;;;x #placeholder
+tribal_duke_luwian;Maniyahha;;;;;;;;;;;;;x #placeholder
+tribal_duke_female_luwian;Maniyahhasara;;;;;;;;;;;;;x #placeholder
+tribal_king_luwian;Hantawatt;;;;;;;;;;;;;x
 tribal_king_female_luwian;Hassusara;;;;;;;;;;;;;x
-tribal_emperor_luwian;Salihassu;;;;;;;;;;;;;x
-tribal_emperor_female_luwian;Nasusara;;;;;;;;;;;;;x
+tribal_emperor_luwian;Urahantawatt;;;;;;;;;;;;;x
+tribal_emperor_female_luwian;Hassusara;;;;;;;;;;;;;x
 
-baron_wilusan;Happira-Isha;;;;;;;;;;;;;x
-baron_female_wilusan;Happira-Ishassara;;;;;;;;;;;;;x
-count_wilusan;Isha;;;;;;;;;;;;;x
-count_female_wilusan;Ishassara;;;;;;;;;;;;;x
-duke_wilusan;Maniyahha;;;;;;;;;;;;;x
-duke_female_wilusan;Maniyahhasara;;;;;;;;;;;;;x
-king_wilusan;Hassu;;;;;;;;;;;;;x
-king_female_wilusan;Hassusara;;;;;;;;;;;;;x
-emperor_wilusan;Salihassu;;;;;;;;;;;;;x
-emperor_female_wilusan;Nasusara;;;;;;;;;;;;;x
-tribal_baron_wilusan;Hassatarisha;;;;;;;;;;;;;x
-tribal_baron_female_wilusan;Hassatarishassara;;;;;;;;;;;;;x
-tribal_count_wilusan;Isha;;;;;;;;;;;;;x
-tribal_count_female_wilusan;Ishassara;;;;;;;;;;;;;x
-tribal_duke_wilusan;Maniyahha;;;;;;;;;;;;;x
-tribal_duke_female_wilusan;Maniyahhasara;;;;;;;;;;;;;x
-tribal_king_wilusan;Hassu;;;;;;;;;;;;;x
-tribal_king_female_wilusan;Hassusara;;;;;;;;;;;;;x
-tribal_emperor_wilusan;Salihassu;;;;;;;;;;;;;x
-tribal_emperor_female_wilusan;Nasusara;;;;;;;;;;;;;x
+baron_wilusian;Niya;;;;;;;;;;;;;x
+baron_female_wilusian;Wanatti;;;;;;;;;;;;;x
+count_wilusian;Wanniniya;;;;;;;;;;;;;x
+count_female_wilusian;Wanniwanatti;;;;;;;;;;;;;x
+duke_wilusian;Taskwariniya;;;;;;;;;;;;;x
+duke_female_wilusian;Taskwariwanatti;;;;;;;;;;;;;x
+king_wilusian;Hantawatt;;;;;;;;;;;;;x
+king_female_wilusian;Hassusara;;;;;;;;;;;;;x
+emperor_wilusian;Urahantawatt;;;;;;;;;;;;;x
+emperor_female_wilusian;Nasusara;;;;;;;;;;;;;x
+title_prince_wilusian;Harduwatt;;;;;;;;;;;;;x
+tribal_baron_wilusian;Hassatarisha;;;;;;;;;;;;;x
+tribal_baron_female_wilusian;Hassatarishassara;;;;;;;;;;;;;x
+tribal_count_wilusian;Isha;;;;;;;;;;;;;x
+tribal_count_female_wilusian;Ishassara;;;;;;;;;;;;;x
+tribal_duke_wilusian;Maniyahha;;;;;;;;;;;;;x
+tribal_duke_female_wilusian;Maniyahhasara;;;;;;;;;;;;;x
+tribal_king_wilusian;Hantawatt;;;;;;;;;;;;;x
+tribal_king_female_wilusian;Hassusara;;;;;;;;;;;;;x
+tribal_emperor_wilusian;Urahantawatt;;;;;;;;;;;;;x
+tribal_emperor_female_wilusian;Hassusara;;;;;;;;;;;;;x
 
 baron_carian;Happira-Isha;;;;;;;;;;;;;x #placeholder
 baron_female_carian;Happira-Ishassara;;;;;;;;;;;;;x #placeholder
@@ -599,13 +600,17 @@ tribal_king_female_lycian;Hassusara;;;;;;;;;;;;;x #placeholder
 tribal_emperor_lycian;Salihassu;;;;;;;;;;;;;x #placeholder
 tribal_emperor_female_lycian;Nasusara;;;;;;;;;;;;;x #placeholder
 
-barony_lydian;Aara;;;;;;;;;;;;;x
-barony_of_lydian;Aara of;;;;;;;;;;;;;x
-baron_lydian;Happira-Isha;;;;;;;;;;;;;x #placeholder
+barony_lydian;Qira;;;;;;;;;;;;;x
+barony_of_lydian;Qira of;;;;;;;;;;;;;x
+baron_lydian;Qiralailas;;;;;;;;;;;;;x
 baron_female_lydian;Happira-Ishassara;;;;;;;;;;;;;x #placeholder
-count_lydian;Isha;;;;;;;;;;;;;x #placeholder
+county_lydian;Aara;;;;;;;;;;;;;x
+county_of_lydian;Aara of;;;;;;;;;;;;;x
+count_lydian;Aaralailas;;;;;;;;;;;;;x
 count_female_lydian;Ishassara;;;;;;;;;;;;;x #placeholder
-duke_lydian;Maniyahha;;;;;;;;;;;;;x #placeholder
+duchy_lydian;Qela;;;;;;;;;;;;x
+duchy_of_lydian;Qela of;;;;;;;;;;;;x
+duke_lydian;Qelalailas;;;;;;;;;;;;;x
 duke_female_lydian;Maniyahhasara;;;;;;;;;;;;;x #placeholder
 king_lydian;Qalmlus;;;;;;;;;;;;;x
 king_female_lydian;Hassusara;;;;;;;;;;;;;x #placeholder

@@ -1,10 +1,10 @@
 2051.1.1={
-	holder=2000025 # Pu-Šarruma I
+	holder=2000025 # Hišmi-Šarruma I
 	law = succ_adult_familial_elective
 }
-2071.1.1={
-	holder=2000024 # Papahdilmah I
-}
+# 2071.1.1={
+	# holder=2000024 # Papahdilmah I
+# }
 2081.1.1={
 	holder=2000023 # Labarna I
 }

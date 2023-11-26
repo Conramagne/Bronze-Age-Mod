@@ -1653,27 +1653,27 @@ character_event = {
 # }
 
 # Aftermath
-character_event = {
-	id = 94091
-	desc = EVTDESC94091
-	picture = GFX_evt_falconing
-	border = GFX_event_normal_frame_religion
+# character_event = {
+	# id = 94091
+	# desc = EVTDESC94091
+	# picture = GFX_evt_falconing
+	# border = GFX_event_normal_frame_religion
 	
-	hide_from = yes
+	# hide_from = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA94088
+	# option = {
+		# name = EVTOPTA94088
 		# trigger = { NOT = { religion_group = muslim } }
-		change_learning = 2
-	}
+		# change_learning = 2
+	# }
 	# option = {
 		# name = EVTOPTA94091
 		# trigger = { religion_group = muslim }
 		# change_learning = 2
 	# }
-}
+# }
 
 ### St. Augustine's Confessions
 

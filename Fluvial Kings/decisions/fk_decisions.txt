@@ -359,7 +359,7 @@ decisions = {
 			}
 		}
 		effect = {
-			scaled_wealth = 2
+			scaled_wealth = 0.5
 			custom_tooltip = {
 				text = bureau_decrease_5_TT
 				hidden_tooltip = {

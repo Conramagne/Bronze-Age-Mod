@@ -6,6 +6,7 @@
 	religion = maat
 	disallow_random_traits = yes
 	trait = nu
+	trait = trait_god
 	immortal_age = 50
 	1.1.1 = { birth = yes }
 	1.1.1 = {
@@ -24,6 +25,7 @@
 	female = yes
 	disallow_random_traits = yes
 	trait = mehet_weret
+	trait = trait_god
 	immortal_age = 50
 	1.1.1 = { birth = yes }
 	1.1.1 = {
@@ -43,6 +45,7 @@
 	mother = 1400001
 	disallow_random_traits = yes
 	trait = khnemu
+	trait = trait_god
 	immortal_age = 50
 	1.1.2 = { birth = yes }
 	1.1.2 = {
@@ -61,6 +64,7 @@
 	religion = maat
 	disallow_random_traits = yes
 	trait = satet
+	trait = trait_god
 	immortal_age = 50
 	1.1.2 = { birth = yes }
 	1.1.2 = {
@@ -81,6 +85,7 @@
 	mother = 1400003
 	disallow_random_traits = yes
 	trait = anuket
+	trait = trait_god
 	immortal_age = 50
 	1.1.3 = { birth = yes }
 	1.1.3 = {
@@ -97,6 +102,7 @@
 	religion = maat
 	disallow_random_traits = yes
 	trait = hapi
+	trait = trait_god
 	immortal_age = 50
 	1.1.3 = { birth = yes }
 	1.1.3 = {
@@ -116,6 +122,7 @@
 	mother = 1400001
 	disallow_random_traits = yes
 	trait = ra
+	trait = trait_god
 	immortal_age = 50
 	1.1.3 = { birth = yes }
 	1.1.3 = {
@@ -134,6 +141,7 @@
 	father = 1400006
 	disallow_random_traits = yes
 	trait = shu
+	trait = trait_god
 	immortal_age = 50
 	1.1.4 = { birth = yes }
 	1.1.4 = {
@@ -156,6 +164,7 @@
 	father = 1400006
 	disallow_random_traits = yes
 	trait = tefnut
+	trait = trait_god
 	immortal_age = 50
 	1.1.5 = { birth = yes }
 	1.1.5 = {
@@ -175,6 +184,7 @@
 	mother = 1400008
 	disallow_random_traits = yes
 	trait = geb
+	trait = trait_god
 	immortal_age = 50
 	1.1.6 = { birth = yes }
 	1.1.6 = {
@@ -198,6 +208,7 @@
 	mother = 1400008
 	disallow_random_traits = yes
 	trait = nut
+	trait = trait_god
 	immortal_age = 50
 	1.1.7 = { birth = yes }
 	1.1.7 = {
@@ -217,6 +228,7 @@
 	mother = 1400010
 	disallow_random_traits = yes
 	trait = wesir
+	trait = trait_god
 	immortal_age = 50
 	1.1.8 = { birth = yes }
 	1.1.8 = {
@@ -240,6 +252,7 @@
 	mother = 1400010
 	disallow_random_traits = yes
 	trait = aset
+	trait = trait_god
 	immortal_age = 50
 	1.1.9 = { birth = yes }
 	1.1.9 = {
@@ -260,6 +273,7 @@
 	mother = 1400010
 	disallow_random_traits = yes
 	trait = nebet_hut
+	trait = trait_god
 	immortal_age = 50
 	1.1.10 = { birth = yes }
 	1.1.11 = {
@@ -279,6 +293,7 @@
 	mother = 1400010
 	disallow_random_traits = yes
 	trait = sutekh
+	trait = trait_god
 	immortal_age = 50
 	1.1.11 = { birth = yes }
 	1.1.11 = {
@@ -299,6 +314,7 @@
 	mother = 1400012
 	disallow_random_traits = yes
 	trait = hor
+	trait = trait_god
 	immortal_age = 50
 	1.1.10 = { birth = yes }
 	1.1.10 = {
@@ -323,6 +339,7 @@
 	disallow_random_traits = yes
 	trait = anpu
 	trait = child_of_consort
+	trait = trait_god
 	immortal_age = 50
 	1.1.11 = { birth = yes }
 	1.1.11 = {
@@ -342,6 +359,7 @@
 	father = 1400006
 	disallow_random_traits = yes
 	trait = maat_trait
+	trait = trait_god
 	immortal_age = 50
 	1.1.6 = { birth = yes }
 	1.1.6 = {
@@ -361,6 +379,7 @@
 	father = 1400006
 	disallow_random_traits = yes
 	trait = bastet
+	trait = trait_god
 	immortal_age = 50
 	1.1.7 = { birth = yes }
 	1.1.7 = {
@@ -380,6 +399,7 @@
 	father = 1400006
 	disallow_random_traits = yes
 	trait = huthor
+	trait = trait_god
 	immortal_age = 50
 	1.1.8 = { birth = yes }
 	1.1.8 = {
@@ -399,6 +419,7 @@
 	father = 1400006
 	disallow_random_traits = yes
 	trait = sekhmet
+	trait = trait_god
 	immortal_age = 50
 	1.1.10 = { birth = yes }
 	1.1.10 = {
@@ -415,6 +436,7 @@
 	religion = maat
 	disallow_random_traits = yes
 	trait = ptah
+	trait = trait_god
 	immortal_age = 50
 	1.1.1 = { birth = yes }
 	1.1.1 = {
@@ -437,6 +459,7 @@
 	mother = 1400021
 	disallow_random_traits = yes
 	trait = nefertem
+	trait = trait_god
 	immortal_age = 50
 	1.1.11 = { birth = yes }
 	1.1.11 = {
@@ -457,6 +480,7 @@
 	mother = 1400001
 	disallow_random_traits = yes
 	trait = net
+	trait = trait_god
 	immortal_age = 50
 	1.1.3 = { birth = yes }
 	1.1.3 = {
@@ -475,6 +499,7 @@
 	mother = 1400023
 	disallow_random_traits = yes
 	trait = sobek
+	trait = trait_god
 	immortal_age = 50
 	1.1.4 = { birth = yes }
 	1.1.4 = {
@@ -494,6 +519,7 @@
 	mother = 1400023
 	disallow_random_traits = yes
 	trait = serket
+	trait = trait_god
 	immortal_age = 50
 	1.1.5 = { birth = yes }
 	1.1.5 = {
@@ -512,6 +538,7 @@
 	mother = 1400023
 	disallow_random_traits = yes
 	trait = apep
+	trait = trait_god
 	immortal_age = 50
 	1.1.6 = { birth = yes }
 	1.1.6 = {
@@ -528,6 +555,7 @@
 	religion = maat
 	disallow_random_traits = yes
 	trait = djehuti
+	trait = trait_god
 	immortal_age = 50
 	1.1.1 = { birth = yes }
 	1.1.1 = {
@@ -551,6 +579,7 @@
 	mother = 1400017
 	disallow_random_traits = yes
 	trait = seshat
+	trait = trait_god
 	immortal_age = 50
 	1.1.7 = { birth = yes }
 	1.1.7 = {
@@ -568,6 +597,7 @@
 	religion = maat
 	disallow_random_traits = yes
 	trait = amun
+	trait = trait_god
 	immortal_age = 50
 	1.1.1 = { birth = yes }
 	1.1.1 = {
@@ -586,6 +616,7 @@
 	female = yes
 	disallow_random_traits = yes
 	trait = mut
+	trait = trait_god
 	immortal_age = 50
 	1.1.1 = { birth = yes }
 	1.1.1 = {
@@ -605,6 +636,7 @@
 	mother = 1400030
 	disallow_random_traits = yes
 	trait = khonsu
+	trait = trait_god
 	immortal_age = 50
 	1.1.2 = { birth = yes }
 	1.1.2 = {
@@ -624,6 +656,7 @@
 	mother = 1400019
 	disallow_random_traits = yes
 	trait = hapi_lungs
+	trait = trait_god
 	immortal_age = 50
 	1.1.11 = { birth = yes }
 	1.1.11 = {
@@ -643,6 +676,7 @@
 	mother = 1400019
 	disallow_random_traits = yes
 	trait = duamutef
+	trait = trait_god
 	immortal_age = 50
 	1.1.12 = { birth = yes }
 	1.1.12 = {
@@ -662,6 +696,7 @@
 	mother = 1400019
 	disallow_random_traits = yes
 	trait = imsety
+	trait = trait_god
 	immortal_age = 50
 	1.1.13 = { birth = yes }
 	1.1.13 = {
@@ -681,6 +716,7 @@
 	mother = 1400019
 	disallow_random_traits = yes
 	trait = qebehsenuef
+	trait = trait_god
 	immortal_age = 50
 	1.1.14 = { birth = yes }
 	1.1.14 = {
@@ -699,6 +735,7 @@
 	father = 1400006
 	disallow_random_traits = yes
 	trait = hu
+	trait = trait_god
 	immortal_age = 50
 	1.1.9 = { birth = yes }
 	1.1.9 = {
@@ -717,6 +754,7 @@
 	father = 1400006
 	disallow_random_traits = yes
 	trait = anhur
+	trait = trait_god
 	immortal_age = 50
 	1.1.11 = { birth = yes }
 	1.1.11 = {
@@ -733,6 +771,7 @@
 	religion = maat
 	disallow_random_traits = yes
 	trait = banebdjedet
+	trait = trait_god
 	immortal_age = 50
 	1.1.2 = { birth = yes }
 	1.1.2 = {
@@ -752,6 +791,7 @@
 	female = yes
 	disallow_random_traits = yes
 	trait = sopdet
+	trait = trait_god
 	immortal_age = 50
 	1.1.2 = { birth = yes }
 	1.1.2 = {
@@ -771,9 +811,10 @@
 	father = 1400006
 	disallow_random_traits = yes
 	trait = heryshaf
+	trait = trait_god
 	immortal_age = 50
-	1.1.2 = { birth = yes }
-	1.1.2 = {
+	1.1.4 = { birth = yes }
+	1.1.4 = {
 		effect = {
 			set_character_flag = flag_god
 		}
@@ -790,6 +831,7 @@
 	mother = 1400012
 	disallow_random_traits = yes
 	trait = min
+	trait = trait_god
 	immortal_age = 50
 	1.1.11 = { birth = yes }
 	1.1.11 = {
@@ -810,6 +852,7 @@
 	mother = 1400013
 	disallow_random_traits = yes
 	trait = wepwawet
+	trait = trait_god
 	immortal_age = 50
 	1.1.12 = { birth = yes }
 	1.1.12 = {
@@ -827,6 +870,7 @@
 	religion = maat
 	disallow_random_traits = yes
 	trait = hatmehit
+	trait = trait_god
 	immortal_age = 50
 	1.1.2 = { birth = yes }
 	1.1.2 = {

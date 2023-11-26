@@ -205,7 +205,6 @@
 	dynasty = 2400001 #ben Niqmadu
 	culture = amorite
 	religion = canaanite_religion
-	father = 2400108
 	2305.1.1 = { birth = yes }
 	2365.1.1 = { death = yes }
 }

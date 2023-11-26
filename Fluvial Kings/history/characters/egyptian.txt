@@ -3659,7 +3659,7 @@
 #29th Nome (2504600-2504699)
 2504600 = { #Shedwast, Nomarch
 	name = "Shedwast"
-	dynasty = 250107
+	dynasty = 2501027
 	culture = egyptian
 	religion = maat
 	2492.1.1 = { birth = yes }

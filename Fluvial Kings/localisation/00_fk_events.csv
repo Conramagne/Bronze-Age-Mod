@@ -180,24 +180,24 @@ absolve_curse_sacrifice_desc;Sacrifice to absolve the gods' curse which was laid
 
 EVTDESCFKREL100;You enter the temple complex, cleansed and in the proper garb. The priests of each deity eagerly await your choice of patron, they display the images of their mighty lives and deeds... Now is the time to choose.;;;;;;;;;;;;;x
 
-EVTOPTAFKREL100;"I devote myself to you oh Lord of the Land, Heavenly Sovereign.";;;;;;;;;;;;;x
+EVTOPTAFKREL100;"I devote myself to you oh Lord of the Land, heavenly sovereign.";;;;;;;;;;;;;x
 EVTOPTBFKREL100;"I devote myself to you, The Sun of the Earth, fairest of all.";;;;;;;;;;;;;x
-EVTOPTCFKREL100;"I devote myself to you, Exalted Son of Tarhunna, Prince of all.";;;;;;;;;;;;;x
+EVTOPTCFKREL100;"I devote myself to you, Exalted Son of Tarhunna, prince of all.";;;;;;;;;;;;;x
 
-EVTOPTAFKREL101;"I devote myself to you who greatest shines upon Horseback...";;;;;;;;;;;;;x
+EVTOPTAFKREL101;"I devote myself to you who Shines upon Horseback...";;;;;;;;;;;;;x
 EVTOPTBFKREL101;"I devote myself to you Guiding Spear upon the Plains...";;;;;;;;;;;;;x
-EVTOPTCFKREL101;"I devote myself to you oh Lord who brings life to every soul...";;;;;;;;;;;;;x
-EVTOPTDFKREL101;"I devote myself to you Great Mother who shields us from harm...";;;;;;;;;;;;;x
+EVTOPTCFKREL101;"I devote myself to you oh Lord who brings All Life...";;;;;;;;;;;;;x
+EVTOPTDFKREL101;"I devote myself to you Great Mother...";;;;;;;;;;;;;x
 
 EVTOPTAFKREL102;"I devote myself to you oh Lord of Creation...";;;;;;;;;;;;;x
 EVTOPTBFKREL102;"I devote myself to you Master of Thunder...";;;;;;;;;;;;;x
 EVTOPTCFKREL102;"I devote myself to you Queen of Heaven...";;;;;;;;;;;;;x
 EVTOPTDFKREL102;"I devote myself to you Healer and Arrow of Plague ...";;;;;;;;;;;;;x
 
-EVTOPTDFKREL103;"I devote myself to you, supreme god of the Edomites ...";;;;;;;;;;;;;x
+EVTOPTDFKREL103;"I devote myself to you, Arrow of the Desert ...";;;;;;;;;;;;;x
 
 EVTDESCFKREL200;You enter the temple complex along with your child, cleansed and in the proper garb. The priests of each deity eagerly await your choice of patron for your young one, they display the images of their mighty lives and deeds... Now is the time to choose.;;;;;;;;;;;;;x
-EVTOPTAFKREL200;"I devote my child to you, oh Lord of all lands...";;;;;;;;;;;;;x
+EVTOPTAFKREL200;"I devote my child to you, oh Lord of all Lands...";;;;;;;;;;;;;x
 EVTOPTBFKREL200;"I devote my child to you, The Sun of the Earth...";;;;;;;;;;;;;x
 EVTOPTCFKREL200;"I devote my child to you, Exalted Son of Tarhunna...";;;;;;;;;;;;;x
 
@@ -370,12 +370,12 @@ EVTDESCFKA9;Inspired by [hero_person.GetName], you have tried to emulate their g
 EVTOPTAFKA9;May I do a fraction of their deeds...;;;;;;;;;;;;;x
 EVTOPTBFKA9;I can only wish to be like [hero_person.GetHerHim]...;;;;;;;;;;;;;x
 
-EVTDESCFKA10;[target_burial_site.GetName] is a well known traveling spot for people wishing to see the tomb of the Hero [target_burial_site.province_hero.GetFirstName]. I have never cared much for the hero [target_burial_site.province_hero.GetFirstName] nor [offended_burial_site_owner.GetTitledFirstName], and an opportunity to grab the valuables of the tomb has offered itself. But is it worth the risk?;;;;;;;;;;;;;x
+EVTDESCFKA10;[target_burial_site.GetName] is a well known traveling spot for people wishing to see the tomb of the hero [target_burial_site.province_hero.GetFirstName]. I have never cared much for the hero [target_burial_site.province_hero.GetFirstName] nor [offended_burial_site_owner.GetTitledFirstName], and an opportunity to grab the valuables of the tomb has offered itself. But is it worth the risk?;;;;;;;;;;;;;x
 EVTOPTAFKA10;No, I rather not offend the gods...;;;;;;;;;;;;;x
 EVTOPTBFKA10;Perhaps I can find something of worth...;;;;;;;;;;;;;x
 EVTOPTBFKA10_TT;Preparations to pillage the burial site begins;;;;;;;;;;;;;x
 
-EVTDESCFKA11;Entering the tomb of [target_burial_site.GetName], I began to observe the surrounding guaging the amount of treasures I can plunder for my own gain...;;;;;;;;;;;;;x
+EVTDESCFKA11;Entering the tomb of [target_burial_site.GetName], I began to observe the surrounding gauging the amount of treasures I can plunder for my own gain...;;;;;;;;;;;;;x
 EVTOPTAFKA11;I should pick a few shinies and make haste...;;;;;;;;;;;;;x
 EVTOPTBFKA11;I should plunder this tomb bare!;;;;;;;;;;;;;x
 
@@ -444,8 +444,8 @@ EVTDESCFKA24;I find myself in [pilgrimage_destination.GetName] before I know it.
 EVTOPTAFKA24;I wonder what the tomb will look like.;;;;;;;;;;;;;x
 
 EVTDESCFKA25_A;The whole area is filled with people, looking like they come from all the different corners of the world I see another [Root.Culture.GetName] looking at me, and giving me a small nod before [Root.GetSheHeOpp] disappears in the crowd. I never knew [pilgrimage_destination.province_hero.GetFirstNameWithNick] was this popular or well known. Though it is stressful, I finally get my moment to stand in front of the gates of the tomb, and feel the shining aura of the hero who resides within.;;;;;;;;;;;;;x
-EVTDESCFKA25_B;There is a couple of other travelers around, but they all look relatively local to the area. I walk over to the tomb, and look upon a simple mural of the hero on the wall. as well as a stele commemorating the deeds of the hero. It has been a long journey to get to [pilgrimage_destination.GetName], and I finally get to look upon the glorious burial site of  [pilgrimage_destination.province_hero.GetFirstNameWithNick].;;;;;;;;;;;;;x
-EVTDESCFKA25_C;The burial site is completely devoid of people, not a single soul to be seen. I look around for it, almost sure I am at the wrong place for a moment, and then I see the simple unmarked tomb. It looks overgrown and deserted, and I take some time to tidy the place up before I finally sit down in prayer to [Root.Religion.GetHighGodName]. It is almost like  [pilgrimage_destination.province_hero.GetFirstNameWithNick] is here with me.;;;;;;;;;;;;;x
+EVTDESCFKA25_B;There is a couple of other travelers around, but they all look relatively local to the area. I walk over to the tomb, and look upon a simple mural of the hero on the wall, as well as a stele commemorating the deeds of the hero. It has been a long journey to get to [pilgrimage_destination.GetName], and I finally get to look upon the glorious burial site of  [pilgrimage_destination.province_hero.GetFirstNameWithNick].;;;;;;;;;;;;;x
+EVTDESCFKA25_C;The burial site is completely devoid of people, not a single soul to be seen. I look around for it, almost sure I am at the wrong place for a moment, and then I see the simple unmarked tomb. It looks overgrown and deserted, and I take some time to tidy the place up before I finally sit down in prayer to [Root.Religion.GetHighGodName]. It is almost like [pilgrimage_destination.province_hero.GetFirstNameWithNick] is here with me.;;;;;;;;;;;;;x
 
 EVTOPTAFKA25;I will remember this moment for the rest of my life.;;;;;;;;;;;;;x
 EVTOPTBFKA25;Was... Was this it? What a disappointing end.;;;;;;;;;;;;;x
@@ -469,9 +469,9 @@ EVTDESCATW2;"And there in the midst strode powerful Agamemnon, like a bull risin
 EVTDESCBTW2;"But his turn next - Menelaos reared with a bronze lance and a prayer to Father Zeus: 'Zeus, King, give me revenge, he wronged me first!'"\n\nWrathful Menelaos, husband to the great beauty Helen, how have you been cursed in such a way! Through the help of the goddess Aphrodite, Paris abducted your wife, and incurred your fury. No sooner shall you die by your own sword than allow this transgression to pass. The rage of lions swirl within your head, and all you think of is vengeance. However, this question still stands - What shall you say to her?;;;;;;;;;;;;;x
 EVTDESCCTW2;"And wrath seized Telamon, and he rushed upon Tiphys son of Hagnias, and his eyes sparkled like flashes of ravening flame."\n\nMighty Telamon, you are not only father to the strong Aías, but a man of glory in your own right. Though the heroes of this generation swear to be great enough to breach the god-forged walls of Troy, you have already entered the city a plunderer, and you have taken a princess of your own from the Trojans. Though you are thought of as too old to throw yourself in front of Trojan arms once again, you have great hope in the belief that your son may receive glory for your house in your stead.;;;;;;;;;;;;;x
 EVTDESDCTW2;"Nestor, horseman of Gerene, then addressed them. 'Shame on you,' he cried, 'to stay talking here like children, when you should fight like men.'"\n\nKing Nestor, though your days as a warrior are far behind you, you still prove useful through your knowledge on strategy and oration. The great Achaean kings come to you for military advice, and, wise in words, you surely give them strategies directly from Athenâ. Though your son Antílokhos will be on the battlefield, it is you for which acclaim will surely fall for your military cunning.;;;;;;;;;;;;;x
-EVTDESCETW2;"The famous spearman Idomeneus led the men of Krete, who held Knossos, and the well-walled city of Gortyn."\n\nGreat Idomeneus, friend of Aías and [Root.GetTitle] of Krete. You rule over such a storied land, with both cities of modern walls and of old stone rubble. Though relatively far from many of the troubles of the mainland, you still have taken the same pledge as your Achaean brothers, and will fight on the same battlefield. Great honor will befall you, if the gods permit.;;;;;;;;;;;;;x
-EVTDESCFTW2;"Peleus said only this: - 'My son! be brave!'"\n\nPeleus, great hero and [Root.GetTitle] of Phthia, and father to Akhilleus, the greatest of the Achaeans. Though exiled for the murder of his brother Phokos, Peleus proved himself on the battlefield, was purified from his crime, became [Root.GetTitle] of Phthia, and successfully courted the Nereid Themis. Your wife Themis has blessed your son with near invunerability, with the knowledge that he will live either a long and uneventful or short and glorious life. Too old to fight in the Trojan War, you send Akhilleus in your stead. May he win glory for you and your house!;;;;;;;;;;;;;x
-EVTDESCGTW2;"He was bred in rocky Ithake, and he's quick at every treachery under the sun, the man of twists and turns."\n\nOdusseús, the trickster of Ithake. Although you are versed in arms like all good Achaean men, your mind is your true weapon. Favored by the strategist Athenâ, the Achaeans hail your tongue as the sharpest, and your mind as the quickest. As the one who devised the Oath of Tundáreos, you feel as if you are not only defending your honor through accepting Menelaos' call, but you are defending your honor as one endowed with the wisdom to forge such deals among Achaeans. Odusseús, may Athenâ find you well on the battlefield! And may Poseidaon find you well on the seas...;;;;;;;;;;;;;x
+EVTDESCETW2;"The famous spearman Idomeneus led the men of Krete, who held Knossos, and the well-walled city of Gortyn."\n\nGreat Idomeneus, friend of Aías and [Root.GetTitle] of Krete. You rule over such a storied land, with both cities of modern walls and of old stone rubble. Though far from many of the troubles of the mainland, you still have taken the same pledge as your Achaean brothers, and will fight on the same battlefield. Great honor will befall you, if the gods permit.;;;;;;;;;;;;;x
+EVTDESCFTW2;"Peleus said only this: - 'My son! be brave!'"\n\nPeleus, great hero and [Root.GetTitle] of Phthia, and father to Akhilleus, the greatest of the Achaeans. Though exiled for the murder of his brother Phokos, you proved yourself on the battlefield, was purified from your crime, became [Root.GetTitle] of Phthia, and successfully courted the Nereid Themis. Themis has blessed your son with near invunerability, with the knowledge that he will live either a long and uneventful or short and glorious life. Too old to fight in the Trojan War, you send Akhilleus in your stead. May he win glory for you and your house!;;;;;;;;;;;;;x
+EVTDESCGTW2;"He was bred in rocky Ithake, and he's quick at every treachery under the sun, the man of twists and turns."\n\nOdusseús, the trickster of Ithake. Although you are versed in arms like all good Achaean men, your mind is your truest weapon. Favored by the strategist Athenâ, the Achaeans hail your tongue as the sharpest, and your mind as the quickest. As the one who devised the Oath of Tundáreos, you feel as if you are not only defending your honor through accepting Menelaos' call, but you are defending your honor as one endowed with the wisdom to forge such deals among Achaeans. Odusseús, may Athenâ find you well on the battlefield! And may Poseidaon find you well on the seas...;;;;;;;;;;;;;x
 EVTDESCHTW2;"The spearhead sliced right through to the flesh, And when Diomedes pulled it out, Ares yelled, so loud you would have thought ten thousand warriors had shouted at once..."\n\nGreat Diomedes, [Root.GetTitle] of a third of Argos, and a favorite of the great strategist Athenâ. The standard of a great hero, your strength and strategic knowledge is only bested by your piety and your respect to the gods. Though you are young, you are respected among even the most experienced of Achaeans, and are valued as one of their finest, rivaling even Akhilleus. This war may be your most difficult test as a hero, with many tribulations ahead. Diomedes, advised by the gods themselves, are you truly ready to face them on the battlefield?;;;;;;;;;;;;;x
 EVTDESCTW2;"Friends and fighting men of the Danaans, henchmen of Ares, be men now, dear friends, remember your furious valour."\n\n[Root.GetBestName], you have been called to arms by Menelaos, [Root.GetTitle] of Sparta, in order to fulfill your oath and defend Helen of Sparta, who has been abducted by Paris of Troy. You have heard many whispers about the inpenetrable walls of Troy, built by gods in atonement, but now you and your men must board ships and see if the rumors were true. Everlasting glory may be won on these days of battle, and songs may ever be sung of your triumphs. But be wary, as the fates of men are fickle, and the Trojans have great heroes of their own. Though you may face many tribulations, go on, [Root.GetFirstName], and win glory for your house!;;;;;;;;;;;;;x
 EVTOPTATW2;To Troy!;;;;;;;;;;;;;x
@@ -480,7 +480,7 @@ EVTOPTATW2_TT;As you spend time in the battlefield and at Troy, you may encounte
 EVTTITLETW3;The Trojan War;;;;;;;;;;;;;x
 EVTDESCATW3;"'Let [Root.GetFirstName] bleed! If yet you thirst for more, bleed all of his sons, and let Ilion float with gore.'"\n\n[Root.GetFirstName], [Root.GetTitle] of the Trojans, how you curse both the Achaeans and your son for this travesty! Eris of discord has banished your city to siege, and your armies to the slaughter. Your own child, Pari-zitis, has cursed you! It seems outside of lord Appaliunaš and lady Aparaditi, the gods have conspired against you, and your cities shall surely burn for this.;;;;;;;;;;;;;x
 EVTDESCBTW3;"Ankhises prayed with outstretched hands, appeasing the mighty gods with sacrifice: - 'Be gracious, great gods, ward off the threats, spare the devoted!'"\n\nDevoted Ankhises, great punishment you surely will suffer for coming to the aid of your cousin Pariya-muwas. However, your son, Aineías, a child of lady Aparaditi, will surely have his day of triumph, whether it be here, or some land far away...;;;;;;;;;;;;;x
-EVTDESCTW3;"After they have prayed and swore to fight honorably, Priam says, 'Hear me, Wilusili and Achaeans, I will now go back to the wind-beaten city of Wilusa: I dare not with my own eyes witness this fight between my son and Menelaos, for Zeus and the other immortals alone know which shall fall.'"\n\n[Root.Culture.GetName], unlike the Achaeans, have made no pledge. To no man have you offered arms in order to defend a great prize. The bodies you shall lay, and the laying done unto your armies, will not be made to protect honor, but to protect life. The gods conspire against you and your people, and against the great city of Wilusa, and every fiber of your being shall be put against total destruction by the Danaan horde. Now, [Root.GetFirstName], shall you fight against them, or resign to your fate, and let Wilusa crumble?;;;;;;;;;;;;;x 
+EVTDESCTW3;"After they have prayed and swore to fight honorably, Pariya-muwas says, 'Hear me, Wilusili and Achaeans, I will now go back to the wind-beaten city of Wilusa: I dare not with my own eyes witness this fight between my son and Menelaos, for Zeus and the other immortals alone know which shall fall.'"\n\n[Root.Culture.GetName], unlike the Achaeans, have made no pledge. To no man have you offered arms in order to defend a great prize. The bodies you shall lay, and the laying done unto your armies, will not be made to protect honor, but to protect life. The gods conspire against you and your people, and against the great city of Wilusa, and every fiber of your being shall be put against total destruction by the Danaan horde. Now, [Root.GetFirstName], shall you fight against them, or resign to your fate, and let Wilusa crumble?;;;;;;;;;;;;;x 
 EVTOPTATW3;I shall defend Wilusa!;;;;;;;;;;;;;x
 EVTOPTATW3_TT;As you spend time in the battlefield, you may encounter certain events;;;;;;;;;;;;;x
 
@@ -496,7 +496,7 @@ EVTOPTATW6;How strange.;;;;;;;;;;;;;x
 EVTDESCTW7;Eager Iólaos son of Iphikles leaps from his trim ship onto the Trojan beach. The mantis foretold that the first Achaean to set foot on the faraway beach will surely perish, and now Iólaos has become the first of the destined dead as he falls in battle against the Trojans. Even now the people call him Protesilaos - The First.;;;;;;;;;;;;;x
 EVTOPTATW7;Protesilaos, a long age shall sing your praises...;;;;;;;;;;;;;x
 
-EVTDESCTW8;You have put the town of Lurnessos to the sword, and taken a fair Mysian Lady to warm your bed.;;;;;;;;;;;;;x
+EVTDESCTW8;You have put the town of Lurnessos to the sword, and taken a fair lady to warm your bed.;;;;;;;;;;;;;x
 EVTOPTATW8;A fine trophy.;;;;;;;;;;;;;x
 
 EVTDESCATW9;Akhilleus has given you a most worthy prize from the spoils of Lurnessos, a fair priestess of Apollon.;;;;;;;;;;;;;x
@@ -566,7 +566,7 @@ EVTDESCTW20;Menelaos is driven back and disarmed, but before the killing blow ca
 EVTOPTATW20;The gods feud among their own...;;;;;;;;;;;;;x
 EVTOPTATW20_TT;A truce shall temporarily be made.;;;;;;;;;;;;;x
 
-EVTTITLETW21;Paris is driven back and disarmed, but before the killing blow can be landed, Golden Aphrodite surrounds him in a cloud of darkness and whisks him away to the safety of the Trojan Walls.;;;;;;;;;;;;;x
+EVTDESCTW21;Paris is driven back and disarmed, but before the killing blow can be landed, Golden Aphrodite surrounds him in a cloud of darkness and whisks him away to the safety of the Trojan Walls.;;;;;;;;;;;;;x
 EVTOPTATW21;The gods feud among their own...;;;;;;;;;;;;;x
 EVTOPTATW21_TT;A truce shall temporarily be made.;;;;;;;;;;;;;x
 

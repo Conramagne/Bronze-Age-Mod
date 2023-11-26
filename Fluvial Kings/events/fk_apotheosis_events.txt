@@ -1214,7 +1214,9 @@ character_event = {
     	        		duration = -1
     	        	}
                 }
-	        	character_event = { id = fka.13 }
+	        	owner = {
+					character_event = { id = fka.13 }
+				}
 	        }
         }
     }

@@ -2,7 +2,7 @@
 
 #Hittite Names (2000000-2000999)
 2000000 = {
-	name = "Labarnid"
+	name = "Šarrumid"
 	culture = "hittite"
 	used_for_random = no
 	coat_of_arms = {

@@ -46,7 +46,7 @@ technology = {
 		d_hapalla
 		d_kamalla
 		d_kuwalapassa
-		d_lapza
+		d_lazpa
 		d_lukka
 		d_masa
 		d_mira

@@ -130,6 +130,9 @@ character_event = {
 	
 	option = { #Begin Judges
 		name = EVTOPTAFKC3
+		berith = {
+			set_religion_head = k_judge_of_israel
+		}
 		random_character = {
 			save_event_target_as = judge_of_israel
 			limit = {
@@ -177,7 +180,7 @@ character_event = {
 			primary_title = {
 				add_law = {
 					law = succ_feudal_elective
-					reverse_opinion_effect = no
+					opinion_effect = no
 					cooldown = no
 				}
 			}
@@ -189,7 +192,6 @@ character_event = {
 					set_title_flag = judge_vassal
 				}
 			}
-			set_religion_head = k_judge_of_israel
 			join_defender_wars = ROOT
 			spawn_unit = {
 				province = capital_scope
@@ -422,9 +424,7 @@ character_event = {
 			capital_scope = {
 				religion = canaanite_religion
 			}
-			owner = {
-				character_event = { id = fkc.9 } #Owner Notified
-			}
+			character_event = { id = fkc.9 } #Owner Notified
 		}
 		else = {
 			random_demesne_province = {
@@ -432,9 +432,9 @@ character_event = {
 					religion = berith
 				}
 				religion = canaanite_religion
-			}
-			owner = {
-				character_event = { id = fkc.9 } #Owner Notified
+				owner = {
+					character_event = { id = fkc.9 } #Owner Notified
+				}
 			}
 		}
 	}
@@ -521,10 +521,8 @@ character_event = {
 	hide_window = yes
 	trigger = {
 		any_demesne_title = {
-			limit = {
-				is_twelve_tribe_title_trigger = yes
-				has_title_flag = judge_vassal
-			}
+			is_twelve_tribe_title_trigger = yes
+			has_title_flag = judge_vassal
 		}
 		war = no
 	}
@@ -559,7 +557,9 @@ character_event = {
 		
 		grant_title = k_yisrael
 		unsafe_destroy_landed_title = k_judge_of_israel
-		set_religion_head = none
+		berith = {
+			set_religion_head = none
+		}
 	}
 	option = {
 		name = EVTOPTAFKC14
@@ -578,7 +578,7 @@ character_event = {
 			holder = ROOT
 			ROOT = {
 				primary_title = {
-					title = PREV
+					title = PREVPREV
 				}
 			}
 			NOR = {
@@ -600,6 +600,8 @@ character_event = {
 		name = EVTOPTAFKC14
 		grant_title = k_yisrael
 		unsafe_destroy_landed_title = k_judge_of_israel
-		set_religion_head = none
+		berith = {
+			set_religion_head = none
+		}
 	}
 }

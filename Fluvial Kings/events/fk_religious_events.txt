@@ -129,8 +129,11 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		always = no
-		religion = FROM
+		FROM = {
+			owner = {
+				religion = ROOT
+			}
+		}
 		OR = {
 			AND = {
 				FROM = {
@@ -148,22 +151,22 @@ character_event = {
 					trait = devotion_baal_hadad
 				}
 			}
-			AND = {
-				FROM = {
-					has_law = head_god_asherah
-				}
-				NOT = {
-					trait = devotion_asherah
-				}
-			}
-			AND = {
-				FROM = {
-					has_law = head_god_resheph
-				}
-				NOT = {
-					trait = devotion_resheph
-				}
-			}
+			# AND = {
+				# FROM = {
+					# has_law = head_god_asherah
+				# }
+				# NOT = {
+					# trait = devotion_asherah
+				# }
+			# }
+			# AND = {
+				# FROM = {
+					# has_law = head_god_resheph
+				# }
+				# NOT = {
+					# trait = devotion_resheph
+				# }
+			# }
 			AND = {
 				FROM = {
 					has_law = head_god_qaws
@@ -193,22 +196,22 @@ character_event = {
 			}
 			add_trait = devotion_baal_hadad
 		}
-		else_if = {
-			limit = {
-				FROM = {
-					has_law = head_god_asherah
-				}
-			}
-			add_trait = devotion_asherah
-		}
-		else_if = {
-			limit = {
-				FROM = {
-					has_law = head_god_resheph
-				}
-			}
-			add_trait = devotion_resheph
-		}
+		# else_if = {
+			# limit = {
+				# FROM = {
+					# has_law = head_god_asherah
+				# }
+			# }
+			# add_trait = devotion_asherah
+		# }
+		# else_if = {
+			# limit = {
+				# FROM = {
+					# has_law = head_god_resheph
+				# }
+			# }
+			# add_trait = devotion_resheph
+		# }
 		else_if = {
 			limit = {
 				FROM = {
@@ -228,7 +231,7 @@ character_event = {
 	option = {
 		name = EVTOPTBFKREL3
 		reverse_opinion = {
-			who = FROM
+			who = ROOT
 			modifier = opinion_denied_god
 		}
 		ai_chance = {

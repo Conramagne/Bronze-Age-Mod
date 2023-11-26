@@ -779,18 +779,18 @@ has_appropriate_head_god_law = {
 				trait = baal_hadad
 			}
 		}
-		AND = {
-			has_law = head_god_asherah
-			ROOT = {
-				trait = asherah
-			}
-		}
-		AND = {
-			has_law = head_god_resheph
-			ROOT = {
-				trait = resheph
-			}
-		}
+		# AND = {
+			# has_law = head_god_asherah
+			# ROOT = {
+				# trait = asherah
+			# }
+		# }
+		# AND = {
+			# has_law = head_god_resheph
+			# ROOT = {
+				# trait = resheph
+			# }
+		# }
 		AND = {
 			has_law = head_god_qaws
 			ROOT = {

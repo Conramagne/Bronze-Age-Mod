@@ -3303,37 +3303,37 @@ feudal_elective = {
 				} 
 			} 
 		} 
-		OR = {
-			FROM = { any_claim = { title = ROOT_FROMFROM } }
-			ROOT = { 
-				is_close_relative = FROM
-				OR = { 
-					dynasty = FROM
-					FROM = { is_landed = yes higher_real_tier_than = BARON }
-				}
-			}
-			AND = { 
-				OR = { 
-					FROM = { higher_real_tier_than = COUNT } #Or Duke-tier...
-					AND = { 
-						ROOT = { 
-							lower_real_tier_than = KING
-							higher_real_tier_than = COUNT
-						}
-						FROM = { higher_real_tier_than = BARON } #...Or Count-tier under a Duchy...
-					} 
-					AND = { 
-						ROOT = { 
-							lower_real_tier_than = DUKE
-						}
-						FROM = { is_landed = yes is_ruler = yes } #...Or Baron-tier under a County.
-					} 
-				}
-				FROM = { 
-					vassal_of = ROOT 
-				} 
-			}
-		}
+		# OR = {
+			# FROM = { any_claim = { title = ROOT_FROMFROM } }
+			# ROOT = { 
+				# is_close_relative = FROM
+				# OR = { 
+					# dynasty = FROM
+					# FROM = { is_landed = yes higher_real_tier_than = BARON }
+				# }
+			# }
+			# AND = { 
+				# OR = { 
+					# FROM = { higher_real_tier_than = COUNT } #Or Duke-tier...
+					# AND = { 
+						# ROOT = { 
+							# lower_real_tier_than = KING
+							# higher_real_tier_than = COUNT
+						# }
+						# FROM = { higher_real_tier_than = BARON } #...Or Count-tier under a Duchy...
+					# } 
+					# AND = { 
+						# ROOT = { 
+							# lower_real_tier_than = DUKE
+						# }
+						# FROM = { is_landed = yes is_ruler = yes } #...Or Baron-tier under a County.
+					# } 
+				# }
+				# FROM = { 
+					# vassal_of = ROOT 
+				# } 
+			# }
+		# }
 		FROM = {
 			OR = { #Candidate should not be a landless Courtier that is about to inherit a Theocracy or Republic
 				AND = {
